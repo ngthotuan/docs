@@ -23,6 +23,10 @@
         .theory { background: #e3f2fd; color: #1976d2; }
         .exercise { background: #fce4ec; color: #c2185b; }
         .intro { background: #e8f5e9; color: #388e3c; }
+        .breadcrumb { margin-bottom: 20px; font-size: 0.9em; }
+        .breadcrumb a { display: inline; padding: 0; border: none; background: none; color: var(--accent); }
+        .breadcrumb a:hover { background: none; color: var(--accent); text-decoration: underline; transform: none; }
+        .breadcrumb span { color: #999; margin: 0 5px; }
     
         /* Thêm CSS Responsive cho thiết bị di động */
         @media (max-width: 768px) {
@@ -43,6 +47,9 @@
 </head>
 <body>
     <div class="notebook">
+        <div class="breadcrumb">
+            <a href="../../">🏠 Trang chủ</a> <span>›</span> <a href="../">Sách & Khóa học</a> <span>›</span> IELTS Basic
+        </div>
         <h1>📚 Sổ tay Khóa học Ngữ pháp cơ bản cho IELTS</h1>
         <p style="text-align: center; color: #666; margin-bottom: 40px;">Hệ thống ghi chú chi tiết lý thuyết và bài tập</p>
 
