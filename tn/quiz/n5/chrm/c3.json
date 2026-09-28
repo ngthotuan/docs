@@ -1,0 +1,2940 @@
+[
+    {
+      "question": "Ai là người đưa ra giả thiết răng cối lớn vĩnh viễn thứ nhất hàm trên là 'chìa khóa khớp cắn'?",
+      "options": [
+        {"text": "Andrews", "isCorrect": false},
+        {"text": "Edward H. Angle", "isCorrect": true},
+        {"text": "Steiner", "isCorrect": false},
+        {"text": "Ricketts", "isCorrect": false}
+      ],
+      "explanation": "Theo giả thiết của Angle, răng cối lớn vĩnh viễn thứ nhất hàm trên là 'chìa khóa khớp cắn' vì nó mọc sớm, to nhất và có vị trí tương đối cố định so với nền sọ."
+    },
+    {
+      "question": "Theo Angle, khớp cắn bình thường có tương quan răng cối lớn thứ nhất như thế nào?",
+      "options": [
+        {"text": "Múi ngoài gần răng 6 trên khớp với rãnh ngoài gần răng 6 dưới", "isCorrect": true},
+        {"text": "Múi ngoài xa răng 6 trên khớp với rãnh ngoài gần răng 6 dưới", "isCorrect": false},
+        {"text": "Múi ngoài gần răng 6 trên khớp với trũng giữa răng 6 dưới", "isCorrect": false},
+        {"text": "Múi trong gần răng 6 trên khớp với rãnh ngoài gần răng 6 dưới", "isCorrect": false}
+      ],
+      "explanation": "Khớp cắn bình thường theo Angle yêu cầu múi ngoài gần của răng cối lớn vĩnh viễn thứ nhất hàm trên khớp với rãnh ngoài gần của răng cối lớn vĩnh viễn thứ nhất hàm dưới."
+    },
+    {
+      "question": "Đường cắn khớp (line of occlusion) ở hàm trên đi qua những vị trí nào?",
+      "options": [
+        {"text": "Đỉnh múi ngoài của tất cả các răng", "isCorrect": false},
+        {"text": "Trũng giữa các răng cối và cingulum các răng trước", "isCorrect": true},
+        {"text": "Rìa cắn các răng trước và trũng giữa các răng sau", "isCorrect": false},
+        {"text": "Đỉnh múi trong các răng sau", "isCorrect": false}
+      ],
+      "explanation": "Đường cắn khớp hàm trên là một đường cong đều đặn đi qua trũng giữa của các răng cối trên và cingulum của các răng nanh và răng cửa trên."
+    },
+    {
+      "question": "Sai khớp cắn hạng II theo Angle được xác định khi:",
+      "options": [
+        {"text": "Múi ngoài gần răng 6 trên khớp về phía xa so với rãnh ngoài gần răng 6 dưới", "isCorrect": false},
+        {"text": "Múi ngoài gần răng 6 trên khớp về phía gần so với rãnh ngoài gần răng 6 dưới", "isCorrect": true},
+        {"text": "Múi ngoài gần răng 6 trên khớp đúng vào rãnh ngoài gần răng 6 dưới", "isCorrect": false},
+        {"text": "Răng 6 trên bị mất", "isCorrect": false}
+      ],
+      "explanation": "Hạng II xảy ra khi múi ngoài gần răng 6 hàm trên khớp về phía gần (phía trước) so với rãnh ngoài gần của răng 6 hàm dưới."
+    },
+    {
+      "question": "Đặc điểm điển hình của sai khớp cắn hạng II, chi 1 là gì?",
+      "options": [
+        {"text": "Răng cửa giữa trên nghiêng vào trong", "isCorrect": false},
+        {"text": "Cung răng hàm trên rộng, mặt phẳng", "isCorrect": false},
+        {"text": "Răng cửa trên nghiêng về phía môi (hô) và độ cắn chìa tăng", "isCorrect": true},
+        {"text": "Cắn ngược răng trước", "isCorrect": false}
+      ],
+      "explanation": "Hạng II chi 1 đặc trưng bởi răng cửa trên vổ (nghiêng môi), độ cắn chìa tăng và cung răng hàm trên thường có hình chữ V."
+    },
+    {
+      "question": "Trong sai khớp cắn hạng II, chi 2, vị trí của các răng cửa hàm trên như thế nào?",
+      "options": [
+        {"text": "Tất cả các răng cửa đều chìa ra trước", "isCorrect": false},
+        {"text": "Răng cửa giữa nghiêng vào trong, răng cửa bên nghiêng ra ngoài", "isCorrect": true},
+        {"text": "Răng cửa giữa nghiêng ra ngoài, răng cửa bên nghiêng vào trong", "isCorrect": false},
+        {"text": "Tất cả các răng cửa đều mọc thẳng đứng", "isCorrect": false}
+      ],
+      "explanation": "Hạng II chi 2 có đặc điểm răng cửa giữa hàm trên nghiêng vào trong nhiều, trong khi răng cửa bên nghiêng ra phía ngoài khỏi răng cửa giữa."
+    },
+    {
+      "question": "Yếu tố nào thường đóng vai trò chính gây ra sai khớp cắn hạng II, chi 2?",
+      "options": [
+        {"text": "Thói quen mút tay", "isCorrect": false},
+        {"text": "Tật đẩy lưỡi", "isCorrect": false},
+        {"text": "Di truyền", "isCorrect": true},
+        {"text": "Mất răng sữa sớm", "isCorrect": false}
+      ],
+      "explanation": "Tài liệu ghi nhận rằng sai khớp cắn hạng II chi 2 thường có nguyên nhân do di truyền."
+    },
+    {
+      "question": "Sai khớp cắn hạng III theo Angle được mô tả là:",
+      "options": [
+        {"text": "Múi ngoài gần răng 6 trên khớp về phía gần so với rãnh ngoài gần răng 6 dưới", "isCorrect": false},
+        {"text": "Múi ngoài gần răng 6 trên khớp về phía xa so với rãnh ngoài gần răng 6 dưới", "isCorrect": true},
+        {"text": "Răng cửa trên che khuất răng cửa dưới", "isCorrect": false},
+        {"text": "Răng hàm trên nằm ngoài răng hàm dưới hoàn toàn", "isCorrect": false}
+      ],
+      "explanation": "Hạng III là tình trạng múi ngoài gần răng 6 hàm trên khớp về phía xa (phía sau) so với rãnh ngoài gần của răng 6 hàm dưới."
+    },
+    {
+      "question": "Đặc điểm của khớp cắn hạng III Angle giả là gì?",
+      "options": [
+        {"text": "Xương hàm dưới thực sự dài hơn xương hàm trên", "isCorrect": false},
+        {"text": "Răng cửa trên và dưới luôn cắn đối đầu ở tư thế nghỉ", "isCorrect": false},
+        {"text": "Có sự trượt hàm dưới ra trước khi cắn khớp do cản trở răng cửa", "isCorrect": true},
+        {"text": "Cung răng hàm trên rộng hơn hàm dưới", "isCorrect": false}
+      ],
+      "explanation": "Trong hạng III giả, tương quan răng cối thực chất có thể bình thường nhưng bệnh nhân có tật trượt hàm dưới ra trước để đạt được sự cắn khớp, tạo ra hình ảnh móm."
+    },
+    {
+      "question": "Nhược điểm lớn nhất của phân loại Angle là gì?",
+      "options": [
+        {"text": "Quá phức tạp để sử dụng", "isCorrect": false},
+        {"text": "Chỉ chú ý đến tương quan răng cối theo chiều trước sau, bỏ qua yếu tố xương và thẩm mỹ mặt nghiêng", "isCorrect": true},
+        {"text": "Không phân loại được răng chen chúc", "isCorrect": false},
+        {"text": "Dựa vào răng khôn làm chuẩn", "isCorrect": false}
+      ],
+      "explanation": "Phân loại Angle bị hạn chế vì chỉ nhìn ở góc độ tương quan răng 6 theo chiều trước sau, không đánh giá được các sai lệch theo chiều ngang, đứng hay các vấn đề về xương hàm."
+    },
+    {
+      "question": "Theo nghiên cứu năm 2000, tỷ lệ sai khớp cắn hạng nào chiếm đa số ở người Việt Nam (17-27 tuổi)?",
+      "options": [
+        {"text": "Hạng I (71,3%)", "isCorrect": true},
+        {"text": "Hạng II (7%)", "isCorrect": false},
+        {"text": "Hạng III (21,7%)", "isCorrect": false},
+        {"text": "Khớp cắn bình thường", "isCorrect": false}
+      ],
+      "explanation": "Số liệu của Đống Khắc Thẩm & Hoàng Tử Hùng cho thấy hạng I chiếm tỷ lệ cao nhất (71,3%), sau đó là hạng III và thấp nhất là hạng II."
+    },
+    {
+      "question": "Tỷ lệ răng chen chúc ở người Việt Nam (độ tuổi 17-27) là bao nhiêu?",
+      "options": [
+        {"text": "20,5%", "isCorrect": false},
+        {"text": "49,2%", "isCorrect": true},
+        {"text": "83,2%", "isCorrect": false},
+        {"text": "10%", "isCorrect": false}
+      ],
+      "explanation": "Nghiên cứu ghi nhận tỷ lệ răng chen chúc ở người Việt Nam trong độ tuổi này lên đến 49,2%."
+    },
+    {
+      "question": "Tình trạng 'Cắn hở' được định nghĩa là gì?",
+      "options": [
+        {"text": "Răng cửa trên trùm quá sâu lên răng cửa dưới", "isCorrect": false},
+        {"text": "Có khoảng hở giữa mặt nhai hoặc bờ cắn của các răng đối diện khi ở tư thế cắn khớp trung tâm", "isCorrect": true},
+        {"text": "Răng hàm trên nằm hoàn toàn trong răng hàm dưới", "isCorrect": false},
+        {"text": "Khoảng cách giữa răng cửa và nướu quá lớn", "isCorrect": false}
+      ],
+      "explanation": "Cắn hở là tình trạng một hoặc nhiều răng không chạm được răng đối diện khi hàm dưới ở tư thế cắn khớp trung tâm."
+    },
+    {
+      "question": "Nguyên nhân phổ biến dẫn đến cắn hở là gì?",
+      "options": [
+        {"text": "Mất răng cối lớn", "isCorrect": false},
+        {"text": "Tật đẩy lưỡi hoặc cắn má", "isCorrect": true},
+        {"text": "Di truyền từ cha mẹ bị móm", "isCorrect": false},
+        {"text": "Do dùng thuốc kháng sinh", "isCorrect": false}
+      ],
+      "explanation": "Các thói quen xấu như đẩy lưỡi thường ngăn cản sự mọc răng hoàn toàn, gây ra tình trạng cắn hở."
+    },
+    {
+      "question": "Khớp cắn sâu là tình trạng như thế nào?",
+      "options": [
+        {"text": "Độ cắn chìa tăng cao", "isCorrect": false},
+        {"text": "Răng cửa dưới chạm vào nướu mặt trong của răng cửa trên", "isCorrect": true},
+        {"text": "Răng hàm nhỏ không chạm nhau", "isCorrect": false},
+        {"text": "Xương hàm dưới dài hơn xương hàm trên", "isCorrect": false}
+      ],
+      "explanation": "Cắn sâu là tình trạng độ cắn phủ tăng, bờ cắn răng cửa dưới có thể chạm cổ răng hoặc nướu mặt trong răng cửa trên."
+    },
+    {
+      "question": "Cắn chéo răng trước được định nghĩa là:",
+      "options": [
+        {"text": "Răng cửa hàm trên nằm ở phía trong so với răng hàm dưới", "isCorrect": true},
+        {"text": "Răng cửa hàm trên chìa ra ngoài quá mức", "isCorrect": false},
+        {"text": "Răng cửa giữa và răng cửa bên chồng lên nhau", "isCorrect": false},
+        {"text": "Răng nanh mọc khểnh", "isCorrect": false}
+      ],
+      "explanation": "Cắn chéo răng trước xảy ra khi một hoặc vài răng trước hàm trên nằm lùi vào phía trong so với răng hàm dưới."
+    },
+    {
+      "question": "Thuật ngữ 'Hô hai hàm' thường dùng để mô tả trường hợp nào?",
+      "options": [
+        {"text": "Hàm trên hô, hàm dưới lùi", "isCorrect": false},
+        {"text": "Hàm dưới hô, hàm trên lùi", "isCorrect": false},
+        {"text": "Răng trước của cả hai hàm đều nhô về phía trước nhưng tương quan chiều trước-sau thường là hạng I", "isCorrect": true},
+        {"text": "Bệnh nhân có xương cằm nhô", "isCorrect": false}
+      ],
+      "explanation": "Hô hai hàm là tình trạng răng trước cả hai hàm đều nhô, dù tương quan xương hàm thường vẫn ở hạng I hài hòa."
+    },
+    {
+      "question": "Dạng mặt nhô (mặt lồi) thường gắn liền với tương quan khớp cắn nào?",
+      "options": [
+        {"text": "Hạng I", "isCorrect": false},
+        {"text": "Hạng II", "isCorrect": true},
+        {"text": "Hạng III", "isCorrect": false},
+        {"text": "Hạng III giả", "isCorrect": false}
+      ],
+      "explanation": "Nét mặt nhô thường phản ánh tình trạng xương hàm trên đưa ra trước hoặc xương hàm dưới lùi sau, điển hình của hạng II."
+    },
+    {
+      "question": "Khớp cắn hạng III thật sự thường đi kèm với đặc điểm mặt nghiêng nào?",
+      "options": [
+        {"text": "Mặt thẳng", "isCorrect": false},
+        {"text": "Mặt nhô", "isCorrect": false},
+        {"text": "Mặt lõm, cằm đưa ra trước", "isCorrect": true},
+        {"text": "Mặt hình vuông", "isCorrect": false}
+      ],
+      "explanation": "Hạng III thật sự đặc trưng bởi mặt lõm do hàm dưới quá phát triển hoặc hàm trên kém phát triển."
+    },
+    {
+      "question": "Andrews dựa trên việc quan sát bao nhiêu mẫu hàm có khớp cắn bình thường để đưa ra 6 đặc tính khớp cắn?",
+      "options": [
+        {"text": "50 mẫu", "isCorrect": false},
+        {"text": "120 mẫu", "isCorrect": true},
+        {"text": "1000 mẫu", "isCorrect": false},
+        {"text": "500 mẫu", "isCorrect": false}
+      ],
+      "explanation": "Nghiên cứu của Andrews thực hiện từ 1960-1964 dựa trên 120 mẫu hàm chưa qua điều trị chỉnh hình."
+    },
+    {
+      "question": "Đặc tính I của Andrews về tương quan răng cối lớn vĩnh viễn thứ nhất nêu rõ:",
+      "options": [
+        {"text": "Múi ngoài gần răng 6 trên khớp với rãnh ngoài gần răng 6 dưới", "isCorrect": false},
+        {"text": "Gờ bên xa múi ngoài xa răng 6 trên tiếp xúc với gờ bên gần múi ngoài gần răng 7 dưới", "isCorrect": true},
+        {"text": "Múi trong gần răng 6 trên khớp với rãnh ngoài gần răng 6 dưới", "isCorrect": false},
+        {"text": "Răng 6 trên phải xoay về phía gần", "isCorrect": false}
+      ],
+      "explanation": "Đặc tính I của Andrews mô tả tương quan răng cối rất chi tiết, bao gồm việc gờ bên xa răng 6 trên phải tiếp xúc với răng 7 dưới."
+    },
+    {
+      "question": "Đặc tính II của Andrews đề cập đến yếu tố nào?",
+      "options": [
+        {"text": "Độ nghiêng ngoài trong của thân răng", "isCorrect": false},
+        {"text": "Độ nghiêng gần xa của thân răng (angulation/tip)", "isCorrect": true},
+        {"text": "Sự xoay của các răng", "isCorrect": false},
+        {"text": "Đường cong Spee", "isCorrect": false}
+      ],
+      "explanation": "Đặc tính II xác định độ nghiêng gần xa của thân răng (góc tạo bởi trục thân răng và đường vuông góc mp nhai)."
+    },
+    {
+      "question": "Trong đặc tính II của Andrews, góc độ được coi là dương (+) khi:",
+      "options": [
+        {"text": "Phần nướu của trục răng ở về phía xa so với phần bờ cắn", "isCorrect": true},
+        {"text": "Phần nướu của trục răng ở về phía gần so với phần bờ cắn", "isCorrect": false},
+        {"text": "Răng mọc thẳng đứng", "isCorrect": false},
+        {"text": "Răng bị nghiêng lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Góc độ dương (+) khi phần phía nướu của trục răng nằm lùi về phía xa so với bờ cắn hoặc mặt nhai."
+    },
+    {
+      "question": "Đặc tính III của Andrews nói về 'Độ nghiêng ngoài trong', thuật ngữ tiếng Anh tương ứng là gì?",
+      "options": [
+        {"text": "Tip", "isCorrect": false},
+        {"text": "Torque", "isCorrect": true},
+        {"text": "Rotation", "isCorrect": false},
+        {"text": "Inclusion", "isCorrect": false}
+      ],
+      "explanation": "Trong chỉnh nha, độ nghiêng ngoài trong thường được gọi là độ torque thân răng (crown inclination)."
+    },
+    {
+      "question": "Trong đặc tính III, góc độ dương (+) của răng trước được xác định khi:",
+      "options": [
+        {"text": "Phần nướu nằm ở phía ngoài so với rìa cắn", "isCorrect": false},
+        {"text": "Phần nướu nằm ở phía trong so với rìa cắn", "isCorrect": true},
+        {"text": "Răng cửa nghiêng ra trước", "isCorrect": false},
+        {"text": "Răng cửa mọc lộn xộn", "isCorrect": false}
+      ],
+      "explanation": "Góc dương khi phần phía nướu của thân răng ở về phía trong so với rìa cắn/mặt nhai."
+    },
+    {
+      "question": "Đặc tính IV của Andrews yêu cầu cung răng đạt tiêu chuẩn nào?",
+      "options": [
+        {"text": "Các răng phải mọc thưa", "isCorrect": false},
+        {"text": "Không có răng xoay", "isCorrect": true},
+        {"text": "Răng nanh phải cao hơn răng cửa", "isCorrect": false},
+        {"text": "Răng hàm phải xoay 45 độ", "isCorrect": false}
+      ],
+      "explanation": "Andrews khẳng định một khớp cắn bình thường phải không có răng xoay, vì răng xoay sẽ chiếm chỗ bất thường trên cung răng."
+    },
+    {
+      "question": "Tại sao răng xoay lại ảnh hưởng xấu đến khớp cắn (Đặc tính IV)?",
+      "options": [
+        {"text": "Làm răng dễ bị sâu", "isCorrect": false},
+        {"text": "Chúng chiếm chỗ nhiều hoặc ít hơn răng bình thường trên cung răng", "isCorrect": true},
+        {"text": "Làm chân răng bị ngắn đi", "isCorrect": false},
+        {"text": "Gây đau khớp thái dương hàm", "isCorrect": false}
+      ],
+      "explanation": "Răng xoay làm thay đổi kích thước chiếm chỗ thực tế của nó trên cung hàm, gây ra sự chen chúc hoặc khe thưa."
+    },
+    {
+      "question": "Đặc tính V của Andrews là gì?",
+      "options": [
+        {"text": "Có đường cong Spee sâu", "isCorrect": false},
+        {"text": "Không có khe hở giữa các răng", "isCorrect": true},
+        {"text": "Có khoảng hở 1mm giữa các răng hàm", "isCorrect": false},
+        {"text": "Răng cửa dưới phải thưa", "isCorrect": false}
+      ],
+      "explanation": "Các răng phải tiếp xúc chặt chẽ với nhau ở cả phía gần và xa (trừ mặt xa răng số 7/8)."
+    },
+    {
+      "question": "Đặc tính VI của Andrews đề cập đến độ sâu của đường cong Spee, tiêu chuẩn bình thường là:",
+      "options": [
+        {"text": "Sâu hơn 3mm", "isCorrect": false},
+        {"text": "Đường cong Spee phẳng hay cong ít (không quá 1,5mm)", "isCorrect": true},
+        {"text": "Đường cong Spee phải đảo ngược", "isCorrect": false},
+        {"text": "Cong tối thiểu 5mm", "isCorrect": false}
+      ],
+      "explanation": "Khớp cắn bình thường có đường cong Spee phẳng hoặc cong rất ít, không sâu quá 1,5mm."
+    },
+    {
+      "question": "Đường cong Spee quá sâu sẽ dẫn đến hậu quả gì cho cung răng hàm trên?",
+      "options": [
+        {"text": "Gây thưa các răng hàm trên", "isCorrect": false},
+        {"text": "Gây thiếu chỗ (chen chúc) cho các răng hàm trên", "isCorrect": true},
+        {"text": "Làm răng cửa trên dài ra", "isCorrect": false},
+        {"text": "Không có ảnh hưởng gì", "isCorrect": false}
+      ],
+      "explanation": "Đường cong Spee sâu ở hàm dưới sẽ ép không gian của hàm trên, dẫn đến chen chúc răng."
+    },
+    {
+      "question": "Đường cong Spee cong ngược (đảo ngược) sẽ gây ra:",
+      "options": [
+        {"text": "Quá nhiều chỗ trống ở hàm trên", "isCorrect": true},
+        {"text": "Chen chúc răng hàm trên", "isCorrect": false},
+        {"text": "Răng cửa trên bị nghiêng trong", "isCorrect": false},
+        {"text": "Lỗ hở giữa hai cung răng", "isCorrect": false}
+      ],
+      "explanation": "Ngược lại với Spee sâu, Spee cong ngược tạo ra tình trạng thừa khoảng ở cung răng hàm trên."
+    },
+    {
+      "question": "Mục đích cuối cùng của điều trị chỉnh hình răng mặt theo Andrews là:",
+      "options": [
+        {"text": "Đạt được bộ răng trắng nhất", "isCorrect": false},
+        {"text": "Tạo ra một khớp cắn tối ưu có thể đạt được ở mỗi bệnh nhân", "isCorrect": true},
+        {"text": "Chỉ sắp xếp răng cho đều", "isCorrect": false},
+        {"text": "Làm cho khuôn mặt nhỏ lại", "isCorrect": false}
+      ],
+      "explanation": "Mục tiêu là đạt được sự hài hòa tối ưu nhất về chức năng và thẩm mỹ cho từng cá nhân."
+    },
+    {
+      "question": "Đường cong Wilson đi qua đỉnh múi của các răng nào?",
+      "options": [
+        {"text": "Răng cửa và răng nanh", "isCorrect": false},
+        {"text": "Múi ngoài và trong của các răng sau hàm dưới", "isCorrect": true},
+        {"text": "Răng cối lớn hàm trên", "isCorrect": false},
+        {"text": "Rìa cắn răng cửa dưới", "isCorrect": false}
+      ],
+      "explanation": "Đường cong Wilson là đường cong ngang nối đỉnh các múi ngoài và trong của các răng sau hàm dưới."
+    },
+    {
+      "question": "Hình dáng đường cong Wilson bình thường là:",
+      "options": [
+        {"text": "Lồi, hướng xuống dưới", "isCorrect": false},
+        {"text": "Lõm, hướng lên trên", "isCorrect": true},
+        {"text": "Phẳng hoàn toàn", "isCorrect": false},
+        {"text": "Hình chữ S", "isCorrect": false}
+      ],
+      "explanation": "Đường cong Wilson có đặc điểm lõm và hướng lên trên."
+    },
+    {
+      "question": "Độ cắn chìa (overjet) trung bình ở người Việt Nam là bao nhiêu?",
+      "options": [
+        {"text": "1,5mm", "isCorrect": false},
+        {"text": "2,79mm (+/- 1,29mm)", "isCorrect": true},
+        {"text": "4,5mm", "isCorrect": false},
+        {"text": "0mm", "isCorrect": false}
+      ],
+      "explanation": "Theo nghiên cứu của Đống Khắc Thẩm, độ cắn chìa trung bình người Việt là 2,79mm."
+    },
+    {
+      "question": "Độ cắn phủ (overbite) trung bình ở người Việt Nam là bao nhiêu?",
+      "options": [
+        {"text": "1,0mm", "isCorrect": false},
+        {"text": "2,89mm (+/- 1,45mm)", "isCorrect": true},
+        {"text": "5,0mm", "isCorrect": false},
+        {"text": "Trùm kín toàn bộ", "isCorrect": false}
+      ],
+      "explanation": "Độ cắn phủ trung bình người Việt được ghi nhận là 2,89mm."
+    },
+    {
+      "question": "Trong tương quan bình thường, răng nào chỉ khớp với MỘT răng đối diện?",
+      "options": [
+        {"text": "Răng cửa giữa hàm trên và răng khôn hàm dưới", "isCorrect": false},
+        {"text": "Răng cửa giữa hàm dưới và răng khôn hàm trên", "isCorrect": true},
+        {"text": "Răng nanh trên và răng nanh dưới", "isCorrect": false},
+        {"text": "Tất cả các răng đều khớp với 2 răng", "isCorrect": false}
+      ],
+      "explanation": "Ngoại trừ răng số 1 dưới và răng số 8 trên, tất cả các răng khác đều có tương quan 1 răng khớp với 2 răng đối diện."
+    },
+    {
+      "question": "Việc một răng khớp với hai răng ở hàm đối diện có tác dụng gì?",
+      "options": [
+        {"text": "Giúp răng bám chắc hơn", "isCorrect": false},
+        {"text": "Phân tán lực nhai lên nhiều răng và duy trì sự ăn khớp bền vững", "isCorrect": true},
+        {"text": "Làm cho răng dễ bị mòn hơn", "isCorrect": false},
+        {"text": "Chỉ có tác dụng thẩm mỹ", "isCorrect": false}
+      ],
+      "explanation": "Tương quan này giúp phân bổ tải trọng nhai đều khắp cung hàm và tránh hiện tượng xô lệch khi mất 1 răng đơn lẻ."
+    },
+    {
+      "question": "Trục gần - xa của các răng trước hàm trên có đặc điểm gì?",
+      "options": [
+        {"text": "Nghiêng xa", "isCorrect": false},
+        {"text": "Nghiêng gần", "isCorrect": true},
+        {"text": "Thẳng đứng", "isCorrect": false},
+        {"text": "Nghiêng trong", "isCorrect": false}
+      ],
+      "explanation": "Các răng trước hàm trên thường có trục thân răng nghiêng về phía gần."
+    },
+    {
+      "question": "Các răng sau hàm trên (răng cối) có độ nghiêng gần - xa như thế nào?",
+      "options": [
+        {"text": "Nghiêng gần", "isCorrect": false},
+        {"text": "Nghiêng xa", "isCorrect": true},
+        {"text": "Thẳng đứng", "isCorrect": false},
+        {"text": "Xoay ngoài", "isCorrect": false}
+      ],
+      "explanation": "Ngược với răng trước, các răng sau hàm trên lại có xu hướng nghiêng về phía xa."
+    },
+    {
+      "question": "Ở hàm dưới, tất cả các răng (trước và sau) đều có xu hướng nghiêng về phía nào?",
+      "options": [
+        {"text": "Phía xa", "isCorrect": false},
+        {"text": "Phía gần", "isCorrect": true},
+        {"text": "Phía má", "isCorrect": false},
+        {"text": "Phía lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Duy nhất hàm dưới có đặc điểm tất cả răng đều nghiêng về phía gần."
+    },
+    {
+      "question": "Đường cắn khớp của hàm dưới nối các vị trí nào?",
+      "options": [
+        {"text": "Trũng giữa các răng sau", "isCorrect": false},
+        {"text": "Múi ngoài các răng sau và bờ cắn các răng trước", "isCorrect": true},
+        {"text": "Múi trong các răng sau", "isCorrect": false},
+        {"text": "Cổ răng các răng trước", "isCorrect": false}
+      ],
+      "explanation": "Đường cắn khớp hàm dưới nối múi ngoài các răng sau và rìa cắn các răng trước."
+    },
+    {
+      "question": "Múi trong gần của răng 6 trên khớp với vị trí nào ở răng 6 dưới theo Andrews (Đặc tính I)?",
+      "options": [
+        {"text": "Rãnh ngoài gần", "isCorrect": false},
+        {"text": "Trũng giữa", "isCorrect": true},
+        {"text": "Gờ bên xa", "isCorrect": false},
+        {"text": "Cổ răng", "isCorrect": false}
+      ],
+      "explanation": "Trong tương quan cối lý tưởng, múi trong gần răng 6 trên phải lọt vào trũng giữa của răng 6 dưới."
+    },
+    {
+      "question": "Độ nghiêng ngoài trong (torque) của các răng sau hàm dưới có đặc điểm gì?",
+      "options": [
+        {"text": "Nghiêng ngoài", "isCorrect": false},
+        {"text": "Nghiêng trong (phía lưỡi) và tăng dần từ răng nanh đến răng cối lớn 2", "isCorrect": true},
+        {"text": "Mọc thẳng đứng", "isCorrect": false},
+        {"text": "Nghiêng gần", "isCorrect": false}
+      ],
+      "explanation": "Răng sau dưới nghiêng lưỡi, độ nghiêng này tăng dần khi đi dần về phía sau cung hàm."
+    },
+    {
+      "question": "Đường cong Wilson lõm hướng lên trên là đặc trưng giải phẫu của hàm nào?",
+      "options": [
+        {"text": "Hàm trên", "isCorrect": false},
+        {"text": "Hàm dưới", "isCorrect": true},
+        {"text": "Xương gò má", "isCorrect": false},
+        {"text": "Nền sọ", "isCorrect": false}
+      ],
+      "explanation": "Đường Wilson được đo đạc và xác định trên cung răng hàm dưới."
+    },
+    {
+      "question": "Phân loại Kingsley (1880) chia sai khớp cắn dựa trên yếu tố gì?",
+      "options": [
+        {"text": "Hình thái răng", "isCorrect": false},
+        {"text": "Bệnh căn (tăng trưởng, chấn thương, di truyền...)", "isCorrect": true},
+        {"text": "Vị trí răng 6", "isCorrect": false},
+        {"text": "Tuổi bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Trước Angle, Kingsley đã phân loại dựa trên bệnh căn học."
+    },
+    {
+      "question": "Sai khớp cắn hạng II chi 1 thường có dạng mặt nhìn nghiêng như thế nào?",
+      "options": [
+        {"text": "Mặt thẳng", "isCorrect": false},
+        {"text": "Mặt nhô (lồi)", "isCorrect": true},
+        {"text": "Mặt lõm", "isCorrect": false},
+        {"text": "Mặt gãy", "isCorrect": false}
+      ],
+      "explanation": "Do hàm trên hô hoặc hàm dưới lùi, nét nghiêng của bệnh nhân thường là dạng lồi (nhô)."
+    },
+    {
+      "question": "Sai khớp cắn hạng II chi 2 thường có dạng mặt nhìn nghiêng:",
+      "options": [
+        {"text": "Nhô nhiều", "isCorrect": false},
+        {"text": "Thẳng (thường là hài hòa)", "isCorrect": true},
+        {"text": "Móm nặng", "isCorrect": false},
+        {"text": "Lõm", "isCorrect": false}
+      ],
+      "explanation": "Dù có sai lệch răng nhưng nền xương và nét mặt của hạng II chi 2 thường khá thẳng và hài hòa."
+    },
+    {
+      "question": "Trong sai khớp cắn hạng III thật sự, đặc điểm cung răng thường gặp là:",
+      "options": [
+        {"text": "Cung răng trên rộng, dưới hẹp", "isCorrect": false},
+        {"text": "Cung răng dưới rộng và cung răng trên hẹp", "isCorrect": true},
+        {"text": "Hai cung răng đều hình chữ V", "isCorrect": false},
+        {"text": "Cung răng hình tròn", "isCorrect": false}
+      ],
+      "explanation": "Tương quan hạng III xương làm cung răng dưới bao ngoài cung trên, dẫn đến hàm dưới rộng và hàm trên bị bóp hẹp."
+    },
+    {
+      "question": "Sự khác biệt giữa hạng I và khớp cắn bình thường theo Angle nằm ở đâu?",
+      "options": [
+        {"text": "Tương quan răng 6", "isCorrect": false},
+        {"text": "Sự sắp xếp các răng trên đường cắn khớp (chen chúc, xoay...)", "isCorrect": true},
+        {"text": "Màu sắc răng", "isCorrect": false},
+        {"text": "Kích thước xương hàm", "isCorrect": false}
+      ],
+      "explanation": "Cả hai đều có răng 6 khớp đúng nhưng hạng I bị lệch lạc về vị trí các răng khác (chen chúc, xoay...)."
+    },
+    {
+      "question": "Theo thống kê, tỷ lệ sai khớp cắn (malocclusion) nói chung chiếm bao nhiêu dân số Việt Nam (17-27 tuổi)?",
+      "options": [
+        {"text": "50%", "isCorrect": false},
+        {"text": "83,2%", "isCorrect": true},
+        {"text": "100%", "isCorrect": false},
+        {"text": "30%", "isCorrect": false}
+      ],
+      "explanation": "Con số 83,2% cho thấy đại đa số thanh niên Việt Nam đều có sai lệch khớp cắn ở các mức độ khác nhau."
+    },
+    {
+      "question": "Cắn chìa (overjet) âm (-) là tên gọi khác của tình trạng:",
+      "options": [
+        {"text": "Hô răng trên", "isCorrect": false},
+        {"text": "Móm (cắn chéo răng trước)", "isCorrect": true},
+        {"text": "Cắn hở", "isCorrect": false},
+        {"text": "Răng thưa", "isCorrect": false}
+      ],
+      "explanation": "Chìa âm nghĩa là răng cửa dưới nằm trước răng cửa trên."
+    },
+    {
+      "text": "Trong chẩn đoán, Angle giả khác Angle thật ở điểm mấu chốt nào?",
+      "options": [
+        {"text": "Độ trắng của răng", "isCorrect": false},
+        {"text": "Vị trí lồi cầu và sự trượt hàm dưới chức năng", "isCorrect": true},
+        {"text": "Số lượng răng mất", "isCorrect": false},
+        {"text": "Kích thước vòm miệng", "isCorrect": false}
+      ],
+      "explanation": "Angle giả do thói quen vận động cơ, Angle thật do cấu trúc xương và răng cố định.",
+      "question": "Trong chẩn đoán, Angle giả khác Angle thật ở điểm mấu chốt nào?"
+    },
+    {
+      "question": "Lồng múi tối đa (maximum intercuspation) là thuật ngữ thay thế cho:",
+      "options": [
+        {"text": "Khớp cắn hở", "isCorrect": false},
+        {"text": "Cắn khít trung tâm (Centric Occlusion)", "isCorrect": true},
+        {"text": "Tương quan tâm", "isCorrect": false},
+        {"text": "Cắn chìa", "isCorrect": false}
+      ],
+      "explanation": "Hiện nay CO được thay thế bằng MI để mô tả chính xác sự chạm răng."
+    },
+    {
+      "question": "Răng khôn hàm dưới tiếp xúc với các mặt nào?",
+      "options": [
+        {"text": "Mặt gần và xa", "isCorrect": false},
+        {"text": "Chỉ mặt gần", "isCorrect": true},
+        {"text": "Chỉ mặt xa", "isCorrect": false},
+        {"text": "Không tiếp xúc mặt nào", "isCorrect": false}
+      ],
+      "explanation": "Vì là răng cuối cùng nên răng số 8 chỉ có điểm tiếp xúc ở phía gần."
+    },
+    {
+      "question": "Đặc tính II của Andrews nhấn mạnh trục của các răng phải có xu hướng gì?",
+      "options": [
+        {"text": "Nghiêng xa phần nướu (góc dương)", "isCorrect": true},
+        {"text": "Nghiêng gần phần nướu", "isCorrect": false},
+        {"text": "Nghiêng lưỡi", "isCorrect": false},
+        {"text": "Thẳng đứng 90 độ", "isCorrect": false}
+      ],
+      "explanation": "Trục thân răng bình thường đều có phần nướu lùi về phía xa so với rìa cắn."
+    },
+    {
+      "question": "Hệ quả của việc cung răng có răng xoay là gì?",
+      "options": [
+        {"text": "Chiếm chỗ bất thường và gây mất thăng bằng cung răng", "isCorrect": true},
+        {"text": "Làm răng chắc hơn", "isCorrect": false},
+        {"text": "Làm nướu hồng hơn", "isCorrect": false},
+        {"text": "Không gây hại gì", "isCorrect": false}
+      ],
+      "explanation": "Xoay răng phá vỡ đặc tính IV của Andrews về sự chiếm chỗ chuẩn."
+    },
+    {
+      "question": "Khe hở trên cung răng (Đặc tính V) thường do nguyên nhân gì?",
+      "options": [
+        {"text": "Đánh răng quá mạnh", "isCorrect": false},
+        {"text": "Bất hài hòa kích thước răng - hàm (răng nhỏ, hàm lớn)", "isCorrect": true},
+        {"text": "Do uống nhiều nước cam", "isCorrect": false},
+        {"text": "Do răng mọc quá cao", "isCorrect": false}
+      ],
+      "explanation": "Khe thưa xuất hiện khi lượng xương hàm dư thừa so với kích thước răng."
+    },
+    {
+      "question": "Giai đoạn răng hỗn hợp cần chú ý mốc giới hạn nào phía xa?",
+      "options": [
+        {"text": "Mặt xa răng 6 sữa", "isCorrect": false},
+        {"text": "Mặt xa răng cối sữa thứ hai (răng E)", "isCorrect": true},
+        {"text": "Răng cửa", "isCorrect": false},
+        {"text": "Răng nanh", "isCorrect": false}
+      ],
+      "explanation": "Bình diện mặt xa răng E quyết định hướng mọc và tương quan của răng 6 vĩnh viễn."
+    },
+    {
+      "question": "Nhánh đứng hàm dưới ngắn và góc hàm dưới rộng là đặc điểm của:",
+      "options": [
+        {"text": "Hạng I", "isCorrect": false},
+        {"text": "Hạng II", "isCorrect": false},
+        {"text": "Hạng III thật sự", "isCorrect": true},
+        {"text": "Khớp cắn bình thường", "isCorrect": false}
+      ],
+      "explanation": "Đây là các chỉ số xương điển hình của bệnh nhân móm xương."
+    },
+    {
+      "question": "Sắp xếp răng múi - trũng (Răng - 1 răng) giúp ích gì?",
+      "options": [
+        {"text": "Dễ bị lật hàm", "isCorrect": false},
+        {"text": "Tăng độ ổn định và hiệu quả nhai cao nhất", "isCorrect": true},
+        {"text": "Làm mòn răng nhanh", "isCorrect": false},
+        {"text": "Đẹp hơn", "isCorrect": false}
+      ],
+      "explanation": "Đây là tương quan cơ học bền vững nhất của bộ răng."
+    },
+    {
+      "question": "Cắn chìa trung bình người Việt Nam đo được là 2,79mm, sai số cho phép là:",
+      "options": [
+        {"text": "0,5mm", "isCorrect": false},
+        {"text": "1,29mm", "isCorrect": true},
+        {"text": "5mm", "isCorrect": false},
+        {"text": "10mm", "isCorrect": false}
+      ],
+      "explanation": "Số liệu chuẩn ghi nhận độ lệch chuẩn là 1,29mm."
+    },
+    {
+      "question": "Cắn phủ trung bình người Việt Nam 2,89mm, sai số cho phép là:",
+      "options": [
+        {"text": "0,1mm", "isCorrect": false},
+        {"text": "1,45mm", "isCorrect": true},
+        {"text": "3mm", "isCorrect": false},
+        {"text": "không có sai số", "isCorrect": false}
+      ],
+      "explanation": "Độ lệch chuẩn của cắn phủ là 1,45mm."
+    },
+    {
+      "question": "Andrews so sánh 120 mẫu bình thường với bao nhiêu ca điều trị hoàn hảo?",
+      "options": [
+        {"text": "100 ca", "isCorrect": false},
+        {"text": "1.150 ca", "isCorrect": true},
+        {"text": "500 ca", "isCorrect": false},
+        {"text": "2000 ca", "isCorrect": false}
+      ],
+      "explanation": "Đối chứng với 1.150 ca lâm sàng để khẳng định 6 đặc tính là mục tiêu điều trị."
+    },
+    {
+      "question": "Răng cối lớn vĩnh viễn thứ nhất hàm trên nghiêng gần hay xa nướu?",
+      "options": [
+        {"text": "Nghiêng gần", "isCorrect": false},
+        {"text": "Nghiêng xa (góc dương)", "isCorrect": true},
+        {"text": "Thẳng đứng", "isCorrect": false},
+        {"text": "Nghiêng lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Mọi răng theo Andrews đều có phần nướu lùi xa (nghiêng xa)."
+    },
+    {
+      "question": "Đường Wilson lõm hướng lên trên đi qua đỉnh múi ngoài và trong của hàm nào?",
+      "options": [
+        {"text": "Hàm trên", "isCorrect": false},
+        {"text": "Hàm dưới", "isCorrect": true},
+        {"text": "Cả hai hàm", "isCorrect": false},
+        {"text": "Chỉ răng nanh", "isCorrect": false}
+      ],
+      "explanation": "Đường cong Wilson được xác định trên cung răng dưới."
+    },
+    {
+      "question": "Khớp cắn bình thường và sai khớp cắn hạng 1 Angle GIỐNG nhau ở điểm nào?",
+      "options": [
+        {"text": "Đường cắn khớp đều đặn", "isCorrect": false},
+        {"text": "Tương quan răng cối lớn thứ nhất", "isCorrect": true},
+        {"text": "Không có răng xoay", "isCorrect": false},
+        {"text": "Thẩm mỹ mặt hoàn hảo", "isCorrect": false}
+      ],
+      "explanation": "Cả hai đều có múi ngoài gần răng 6 trên khớp đúng vào rãnh ngoài gần răng 6 dưới."
+    },
+    {
+      "question": "Góc mũi môi bình thường nằm trong khoảng:",
+      "options": [
+        {"text": "45-90 độ", "isCorrect": false},
+        {"text": "90-110 độ", "isCorrect": true},
+        {"text": "120-150 độ", "isCorrect": false},
+        {"text": "10-20 độ", "isCorrect": false}
+      ],
+      "explanation": "Góc mũi môi phản ánh sự thăng bằng giữa môi trên và mũi."
+    },
+    {
+      "question": "Góc mũi môi người Việt Nam trung bình là:",
+      "options": [
+        {"text": "80 độ", "isCorrect": false},
+        {"text": "93,26 độ", "isCorrect": true},
+        {"text": "110 độ", "isCorrect": false},
+        {"text": "105 độ", "isCorrect": false}
+      ],
+      "explanation": "Người Việt có góc mũi môi trung bình là 93,26 độ (+/- 7,58)."
+    },
+    {
+      "question": "Nghiên cứu về sai khớp cắn người Việt Nam 17-27 tuổi thực hiện năm nào?",
+      "options": [
+        {"text": "1990", "isCorrect": false},
+        {"text": "2000", "isCorrect": true},
+        {"text": "2010", "isCorrect": false},
+        {"text": "1980", "isCorrect": false}
+      ],
+      "explanation": "Luận văn thạc sĩ của Đống Khắc Thẩm năm 2000."
+    },
+    {
+      "question": "Đặc tính của răng nanh hàm trên trong 6 đặc tính Andrews là gì?",
+      "options": [
+        {"text": "Nghiêng má tối đa", "isCorrect": false},
+        {"text": "Có độ nghiêng ngoài trong (torque) nhất định ảnh hưởng răng cửa", "isCorrect": true},
+        {"text": "Luôn nằm trên đường thẳng", "isCorrect": false},
+        {"text": "Ngắn hơn răng cửa bên", "isCorrect": false}
+      ],
+      "explanation": "Độ nghiêng của răng nanh kết nối thẩm mỹ răng trước và chức năng răng sau."
+    },
+    {
+      "question": "Mục tiêu tối thượng của chỉnh hình răng mặt là gì?",
+      "options": [
+        {"text": "Chỉ để nhai tốt", "isCorrect": false},
+        {"text": "Tạo ra một khớp cắn lý tưởng, thẩm mỹ và ổn định lâu dài", "isCorrect": true},
+        {"text": "Làm cho răng trắng", "isCorrect": false},
+        {"text": "Để không phải nhổ răng khôn", "isCorrect": false}
+      ],
+      "explanation": "Sự cân bằng giữa chức năng, thẩm mỹ và ổn định là đích đến cuối cùng."
+    },
+    {
+      "question": "Theo Andrews, tiêu chuẩn khớp cắn thực sự cho mỗi bệnh nhân xác định khi nào?",
+      "options": [
+        {"text": "Ngay khi bắt đầu khám", "isCorrect": false},
+        {"text": "Sau khi quá trình điều trị và duy trì đã hoàn tất", "isCorrect": true},
+        {"text": "Khi rụng hết răng sữa", "isCorrect": false},
+        {"text": "Khi mọc răng khôn", "isCorrect": false}
+      ],
+      "explanation": "Kết quả cuối cùng sau giai đoạn duy trì mới là khớp cắn chuẩn thực tế của cá nhân đó."
+    }
+    ,
+        {
+          "question": "Kỹ thuật đo sọ mặt trên phim X-quang được giới thiệu lần đầu tiên vào năm nào?",
+          "options": [
+            {"text": "1900", "isCorrect": false},
+            {"text": "1931", "isCorrect": true},
+            {"text": "1960", "isCorrect": false},
+            {"text": "1972", "isCorrect": false}
+          ],
+          "explanation": "Năm 1931, Broadbent (Mỹ) và Hofrath (Đức) đã giới thiệu kỹ thuật đo sọ mặt trên phim."
+        },
+        {
+          "question": "Phương pháp phân tích trên phim sọ nghiêng của cùng một bệnh nhân ở những thời điểm khác nhau được gọi là gì?",
+          "options": [
+            {"text": "Phân tích Steiner", "isCorrect": false},
+            {"text": "Phân tích Wits", "isCorrect": false},
+            {"text": "Phương pháp xếp chồng phim", "isCorrect": true},
+            {"text": "Phân tích Bolton", "isCorrect": false}
+          ],
+          "explanation": "Phương pháp xếp chồng phim giúp đánh giá những thay đổi do tăng trưởng hoặc do quá trình điều trị chỉnh hình."
+        },
+        {
+          "question": "Công dụng chính của phương pháp xếp chồng phim là gì?",
+          "options": [
+            {"text": "Đo độ chen chúc răng", "isCorrect": false},
+            {"text": "Đánh giá dạng tăng trưởng và thay đổi tương quan xương - răng sau điều trị", "isCorrect": true},
+            {"text": "Xác định khớp cắn hạng II hay hạng III", "isCorrect": false},
+            {"text": "Tìm sâu răng mặt bên", "isCorrect": false}
+          ],
+          "explanation": "Phương pháp này cho phép so sánh sự dịch chuyển của các cấu trúc sọ mặt theo thời gian."
+        },
+        {
+          "question": "Để quan sát hình ảnh sọ mặt theo 3 chiều không gian ngày nay, người ta sử dụng kỹ thuật gì?",
+          "options": [
+            {"text": "Phim quanh chóp", "isCorrect": false},
+            {"text": "Phim Panorama", "isCorrect": false},
+            {"text": "Kỹ thuật chụp cắt lớp (CT/CBCT)", "isCorrect": true},
+            {"text": "Phim sọ nghiêng truyền thống", "isCorrect": false}
+          ],
+          "explanation": "Kỹ thuật chụp cắt lớp hàng loạt cho phép đánh giá cấu trúc sọ mặt trong không gian 3 chiều."
+        },
+        {
+          "question": "Phim sọ nghiêng có vai trò gì trong việc phân biệt sai khớp cắn hạng II và hạng III?",
+          "options": [
+            {"text": "Xác định màu men răng", "isCorrect": false},
+            {"text": "Chẩn đoán nguyên nhân do hàm trên, hàm dưới hoặc cả hai", "isCorrect": true},
+            {"text": "Đo độ mòn của răng cối", "isCorrect": false},
+            {"text": "Xác định tuổi của răng", "isCorrect": false}
+          ],
+          "explanation": "Phim sọ nghiêng giúp bác sĩ biết chính xác sai hình là do xương hàm nào để có kế hoạch điều trị đúng hướng."
+        },
+        {
+          "question": "Điểm Nasion (Na) trên mô xương được xác định ở đâu?",
+          "options": [
+            {"text": "Điểm giữa hố yên", "isCorrect": false},
+            {"text": "Điểm trước nhất trên đường khớp trán - mũi", "isCorrect": true},
+            {"text": "Điểm thấp nhất cằm", "isCorrect": false},
+            {"text": "Điểm sau nhất lồi cầu", "isCorrect": false}
+          ],
+          "explanation": "Nasion là giao điểm của xương trán và xương mũi trên đường dọc giữa."
+        },
+        {
+          "question": "Điểm Sella Turcica (S) là điểm mốc giải phẫu nằm ở cấu trúc nào?",
+          "options": [
+            {"text": "Xương hàm trên", "isCorrect": false},
+            {"text": "Xương hàm dưới", "isCorrect": false},
+            {"text": "Hố yên xương bướm", "isCorrect": true},
+            {"text": "Khớp trán - mũi", "isCorrect": false}
+          ],
+          "explanation": "Điểm S là điểm trung tâm của hố yên nằm trong xương bướm."
+        },
+        {
+          "question": "Điểm Articulare (Ar) được xác định như thế nào?",
+          "options": [
+            {"text": "Điểm trước nhất của cằm", "isCorrect": false},
+            {"text": "Giao điểm giữa bờ sau nhánh đứng xương hàm dưới và bờ dưới nền sọ sau", "isCorrect": true},
+            {"text": "Điểm thấp nhất khe chân bướm hàm", "isCorrect": false},
+            {"text": "Điểm cao nhất lồi cầu", "isCorrect": false}
+          ],
+          "explanation": "Articulare là một điểm mốc hình ảnh tạo bởi sự chồng lấp của nhánh đứng và xương chẩm."
+        },
+        {
+          "question": "Khe chân bướm hàm (Pterygomaxillare - Ptm) có hình dạng gì trên phim sọ nghiêng?",
+          "options": [
+            {"text": "Hình vuông", "isCorrect": false},
+            {"text": "Hình tròn", "isCorrect": false},
+            {"text": "Hình giọt nước", "isCorrect": true},
+            {"text": "Hình tam giác", "isCorrect": false}
+          ],
+          "explanation": "Ptm là một khe hở giữa xương hàm trên và xương bướm có hình dáng giống giọt nước."
+        },
+        {
+          "question": "Điểm Basion (Ba) nằm ở vị trí nào của nền sọ?",
+          "options": [
+            {"text": "Điểm cao nhất hố yên", "isCorrect": false},
+            {"text": "Điểm thấp nhất của bờ trước lỗ chẩm", "isCorrect": true},
+            {"text": "Điểm nhô nhất xương trán", "isCorrect": false},
+            {"text": "Gai mũi sau", "isCorrect": false}
+          ],
+          "explanation": "Basion là điểm mốc quan trọng ở giới hạn phía sau của nền sọ."
+        },
+        {
+          "question": "Điểm Orbital (Or) được xác định tại vị trí nào?",
+          "options": [
+            {"text": "Bờ trên hốc mắt", "isCorrect": false},
+            {"text": "Điểm thấp nhất của bờ dưới hốc mắt", "isCorrect": true},
+            {"text": "Tuyến lệ", "isCorrect": false},
+            {"text": "Góc ngoài mắt", "isCorrect": false}
+          ],
+          "explanation": "Orbital là điểm mốc phía trước của mặt phẳng Frankfort."
+        },
+        {
+          "question": "Ký hiệu ANS (Anterior Nasal Spine) là viết tắt của điểm mốc nào?",
+          "options": [
+            {"text": "Gai mũi trước", "isCorrect": true},
+            {"text": "Gai mũi sau", "isCorrect": false},
+            {"text": "Cằm nhô", "isCorrect": false},
+            {"text": "Góc hàm", "isCorrect": false}
+          ],
+          "explanation": "ANS là điểm mốc phía trước nhất của xương hàm trên."
+        },
+        {
+          "question": "Điểm sau nhất của xương ổ răng hàm trên được gọi là gì?",
+          "options": [
+            {"text": "Điểm B", "isCorrect": false},
+            {"text": "Điểm A (Subspinale)", "isCorrect": true},
+            {"text": "Điểm Pog", "isCorrect": false},
+            {"text": "Điểm Me", "isCorrect": false}
+          ],
+          "explanation": "Điểm A là điểm lõm sâu nhất trên xương ổ răng hàm trên phía trước."
+        },
+        {
+          "question": "Điểm B (Submental) được xác định là vị trí nào?",
+          "options": [
+            {"text": "Điểm nhô nhất của cằm", "isCorrect": false},
+            {"text": "Điểm sau nhất của xương ổ răng hàm dưới", "isCorrect": true},
+            {"text": "Góc hàm dưới", "isCorrect": false},
+            {"text": "Lỗ cằm", "isCorrect": false}
+          ],
+          "explanation": "Điểm B là điểm lõm sâu nhất trên xương ổ răng hàm dưới."
+        },
+        {
+          "question": "Điểm Pogonion (Pog) trên xương hàm dưới có đặc điểm gì?",
+          "options": [
+            {"text": "Là điểm thấp nhất cằm", "isCorrect": false},
+            {"text": "Là điểm trước nhất của xương cằm", "isCorrect": true},
+            {"text": "Là điểm sau nhất góc hàm", "isCorrect": false},
+            {"text": "Là chóp răng cửa dưới", "isCorrect": false}
+          ],
+          "explanation": "Pogonion đại diện cho độ nhô trước nhất của xương cằm."
+        },
+        {
+          "question": "Điểm Menton (Me) được xác định ở đâu trên cằm?",
+          "options": [
+            {"text": "Điểm trước nhất", "isCorrect": false},
+            {"text": "Điểm sau nhất", "isCorrect": false},
+            {"text": "Điểm dưới nhất của xương cằm", "isCorrect": true},
+            {"text": "Điểm giữa của cằm", "isCorrect": false}
+          ],
+          "explanation": "Menton là điểm mốc thấp nhất của khối xương cằm."
+        },
+        {
+          "question": "Điểm Gnathion (Gn) nằm ở đâu trên khối cằm?",
+          "options": [
+            {"text": "Điểm trước nhất của cằm", "isCorrect": false},
+            {"text": "Điểm nằm giữa điểm Pogonion và điểm Menton", "isCorrect": true},
+            {"text": "Điểm thấp nhất lỗ chẩm", "isCorrect": false},
+            {"text": "Điểm nhô nhất xương hàm trên", "isCorrect": false}
+          ],
+          "explanation": "Gnathion là điểm mốc hình học nằm giữa Pog và Me."
+        },
+        {
+          "question": "Điểm Gonion (Go) xác định vị trí nào của xương hàm dưới?",
+          "options": [
+            {"text": "Đỉnh lồi cầu", "isCorrect": false},
+            {"text": "Điểm dưới nhất và sau nhất của góc hàm dưới", "isCorrect": true},
+            {"text": "Lỗ cằm", "isCorrect": false},
+            {"text": "Mỏm vẹt", "isCorrect": false}
+          ],
+          "explanation": "Gonion là điểm nằm tại góc xương hàm dưới."
+        },
+        {
+          "question": "Điểm Porion (Po) nằm ở vị trí nào của hệ thống tai?",
+          "options": [
+            {"text": "Dái tai", "isCorrect": false},
+            {"text": "Điểm cao nhất của bờ trên ống tai ngoài", "isCorrect": true},
+            {"text": "Màng nhĩ", "isCorrect": false},
+            {"text": "Xương chũm", "isCorrect": false}
+          ],
+          "explanation": "Porion là mốc phía sau của mặt phẳng ngang Frankfort."
+        },
+        {
+          "question": "Điểm Glabella (G) trên mô mềm nằm ở đâu?",
+          "options": [
+            {"text": "Điểm trước nhất của trán", "isCorrect": true},
+            {"text": "Chân mũi", "isCorrect": false},
+            {"text": "Nhân trung", "isCorrect": false},
+            {"text": "Đỉnh mũi", "isCorrect": false}
+          ],
+          "explanation": "Glabella là mốc da vùng trán nhô nhất phía trên gốc mũi."
+        },
+        {
+          "question": "Điểm Subnasale (Sn) trên mô mềm được xác định tại đâu?",
+          "options": [
+            {"text": "Đỉnh mũi", "isCorrect": false},
+            {"text": "Điểm ngay dưới chân mũi, nơi vách mũi gặp môi trên", "isCorrect": true},
+            {"text": "Viền đỏ môi trên", "isCorrect": false},
+            {"text": "Gốc mũi", "isCorrect": false}
+          ],
+          "explanation": "Sn là mốc quan trọng để đánh giá độ nhô môi và góc mũi môi."
+        },
+        {
+          "question": "Điểm Pronasale (Pn) là mốc giải phẫu mô mềm ở vị trí nào?",
+          "options": [
+            {"text": "Chân cánh mũi", "isCorrect": false},
+            {"text": "Điểm trước nhất trên đỉnh mũi", "isCorrect": true},
+            {"text": "Giữa hai mắt", "isCorrect": false},
+            {"text": "Lỗ mũi", "isCorrect": false}
+          ],
+          "explanation": "Pn xác định độ nhô của mũi trên khuôn mặt."
+        },
+        {
+          "question": "Mặt phẳng tham chiếu S-N (Sella - Nasion) dùng để đánh giá yếu tố nào?",
+          "options": [
+            {"text": "Độ sâu hốc mắt", "isCorrect": false},
+            {"text": "Tương quan của hàm so với nền sọ trước", "isCorrect": true},
+            {"text": "Chiều cao môi", "isCorrect": false},
+            {"text": "Độ rộng cánh mũi", "isCorrect": false}
+          ],
+          "explanation": "Mặt phẳng SN đại diện cho nền sọ trước và tương đối ổn định sau 7-8 tuổi."
+        },
+        {
+          "question": "Mặt phẳng Frankfort (FH) được tạo thành bởi hai điểm mốc nào?",
+          "options": [
+            {"text": "S và Na", "isCorrect": false},
+            {"text": "Po và Or", "isCorrect": true},
+            {"text": "ANS và PNS", "isCorrect": false},
+            {"text": "A và B", "isCorrect": false}
+          ],
+          "explanation": "Mặt phẳng Frankfort đi qua điểm Porion và Orbital, được coi là mặt phẳng ngang chuẩn."
+        },
+        {
+          "question": "Tại sao việc xác định điểm Porion (Po) trên phim đôi khi gặp khó khăn?",
+          "options": [
+            {"text": "Do xương tai quá nhỏ", "isCorrect": false},
+            {"text": "Do cấu trúc máy chụp che khuất hoặc chồng lấp hình ảnh", "isCorrect": true},
+            {"text": "Do bệnh nhân thở mạnh", "isCorrect": false},
+            {"text": "Vì nó nằm trên mô mềm", "isCorrect": false}
+          ],
+          "explanation": "Điểm Porion thường bị chồng lấp bởi các cấu trúc nền sọ và giá giữ đầu của máy chụp phim."
+        },
+        {
+          "question": "Mặt phẳng ngang cấu trúc (CHP) theo Legan và Burstone hợp với mặt phẳng SN một góc bao nhiêu độ?",
+          "options": [
+            {"text": "0 độ", "isCorrect": false},
+            {"text": "7 độ", "isCorrect": true},
+            {"text": "15 độ", "isCorrect": false},
+            {"text": "90 độ", "isCorrect": false}
+          ],
+          "explanation": "CHP đi qua Nasion và tạo với SN góc 7 độ, có khuynh hướng song song với mp ngang thật sự."
+        },
+        {
+          "question": "Mặt phẳng ngang thật sự (True Horizontal Plane) được xác định như thế nào?",
+          "options": [
+            {"text": "Dựa vào răng cửa", "isCorrect": false},
+            {"text": "Dựa vào tư thế đầu tự nhiên và sợi dây dọi cản quang khi chụp", "isCorrect": true},
+            {"text": "Song song với SN", "isCorrect": false},
+            {"text": "Vuông góc với FH", "isCorrect": false}
+          ],
+          "explanation": "Mặt phẳng này phản ánh tư thế đầu sinh lý thực tế của bệnh nhân."
+        },
+        {
+          "question": "Góc mặt (Face angle) theo Downs dùng để đánh giá yếu tố nào?",
+          "options": [
+            {"text": "Độ nhô hàm trên", "isCorrect": false},
+            {"text": "Độ nhô hoặc lùi của hàm dưới", "isCorrect": true},
+            {"text": "Chiều cao trán", "isCorrect": false},
+            {"text": "Góc độ răng nanh", "isCorrect": false}
+          ],
+          "explanation": "Góc mặt là góc tạo bởi mặt phẳng Frankfort và mặt phẳng mặt (Na-Pog)."
+        },
+        {
+          "question": "Giá trị trung bình của góc mặt theo Downs là bao nhiêu?",
+          "options": [
+            {"text": "82 độ", "isCorrect": false},
+            {"text": "87,8 +/- 3,6 độ", "isCorrect": true},
+            {"text": "100 độ", "isCorrect": false},
+            {"text": "22 độ", "isCorrect": false}
+          ],
+          "explanation": "Góc mặt càng lớn chứng tỏ cằm càng nhô ra trước, góc mặt nhỏ gợi ý hàm dưới lùi."
+        },
+        {
+          "question": "Góc lồi mặt (Convexity angle) đánh giá thành phần nào so với tổng thể mặt?",
+          "options": [
+            {"text": "Xương hàm dưới", "isCorrect": false},
+            {"text": "Nền xương hàm trên", "isCorrect": true},
+            {"text": "Mũi", "isCorrect": false},
+            {"text": "Răng khôn", "isCorrect": false}
+          ],
+          "explanation": "Góc lồi mặt tạo bởi đường Na-A và A-Pog."
+        },
+        {
+          "question": "Góc lồi mặt có giá trị dương (+) lớn gợi ý điều gì?",
+          "options": [
+            {"text": "Tương quan hạng I", "isCorrect": false},
+            {"text": "Tương quan hạng II xương", "isCorrect": true},
+            {"text": "Tương quan hạng III xương", "isCorrect": false},
+            {"text": "Khớp cắn hở", "isCorrect": false}
+          ],
+          "explanation": "Góc lồi mặt dương lớn chứng tỏ hàm trên nhô nhiều so với hàm dưới."
+        },
+        {
+          "question": "Mặt phẳng hàm dưới (Mandibular plane) theo Downs được vẽ như thế nào?",
+          "options": [
+            {"text": "Đi qua Go và Gn", "isCorrect": false},
+            {"text": "Tiếp tuyến với góc hàm nơi thấp nhất và điểm thấp nhất của cằm", "isCorrect": true},
+            {"text": "Song song với mp nhai", "isCorrect": false},
+            {"text": "Nối điểm A và B", "isCorrect": false}
+          ],
+          "explanation": "Đây là mặt phẳng cơ sở để đánh giá hướng phát triển của xương hàm dưới."
+        },
+        {
+          "question": "Góc mặt phẳng hàm dưới lớn gợi ý dạng mặt nào?",
+          "options": [
+            {"text": "Mặt ngắn", "isCorrect": false},
+            {"text": "Mặt phát triển mở (hyperdivergent), mặt dài", "isCorrect": true},
+            {"text": "Mặt móm", "isCorrect": false},
+            {"text": "Mặt vuông", "isCorrect": false}
+          ],
+          "explanation": "Góc này càng lớn thì tầng mặt dưới càng dài và tiên lượng điều trị phức tạp hơn."
+        },
+        {
+          "question": "Giá trị trung bình của góc mặt phẳng khớp cắn so với Frankfort là bao nhiêu?",
+          "options": [
+            {"text": "1,5 độ", "isCorrect": false},
+            {"text": "9,3 độ", "isCorrect": true},
+            {"text": "21,9 độ", "isCorrect": false},
+            {"text": "45 độ", "isCorrect": false}
+          ],
+          "explanation": "Góc này giúp đánh giá độ dốc của mặt phẳng ăn nhai."
+        },
+        {
+          "question": "Góc trục Y là góc tạo bởi mặt phẳng Frankfort và đường nối hai điểm nào?",
+          "options": [
+            {"text": "S và Na", "isCorrect": false},
+            {"text": "S và Gnathion", "isCorrect": true},
+            {"text": "Na và Pog", "isCorrect": false},
+            {"text": "Go và Me", "isCorrect": false}
+          ],
+          "explanation": "Góc trục Y cho biết hướng phát triển của cằm so với tầng mặt trên."
+        },
+        {
+          "question": "Nếu chồng phim thấy góc trục Y giảm, điều đó có nghĩa là gì?",
+          "options": [
+            {"text": "Hàm dưới phát triển theo chiều đứng", "isCorrect": false},
+            {"text": "Hàm dưới phát triển theo chiều ngang (ra trước) nhiều hơn chiều đứng", "isCorrect": true},
+            {"text": "Mặt bị ngắn lại", "isCorrect": false},
+            {"text": "Răng bị lún", "isCorrect": false}
+          ],
+          "explanation": "Góc trục Y giảm chứng tỏ cằm đang nhô ra trước mạnh mẽ."
+        },
+        {
+          "question": "Góc nền sọ được xác định bởi tổ hợp các điểm mốc nào?",
+          "options": [
+            {"text": "Na - S - Ba", "isCorrect": true},
+            {"text": "Na - S - Go", "isCorrect": false},
+            {"text": "A - Na - B", "isCorrect": false},
+            {"text": "Po - Or - Gn", "isCorrect": false}
+          ],
+          "explanation": "Góc Na-S-Ba dùng để đánh giá độ gập của nền sọ."
+        },
+        {
+          "question": "Trong sai khớp cắn hạng III xương, giá trị góc nền sọ thường thay đổi như thế nào?",
+          "options": [
+            {"text": "Tăng lên", "isCorrect": false},
+            {"text": "Thường giảm", "isCorrect": true},
+            {"text": "Không thay đổi", "isCorrect": false},
+            {"text": "Biến thành góc vuông", "isCorrect": false}
+          ],
+          "explanation": "Sự thu hẹp góc nền sọ thường liên quan đến xu hướng móm xương."
+        },
+        {
+          "question": "Góc răng cửa trên và SN có giá trị trung bình là bao nhiêu?",
+          "options": [
+            {"text": "90 độ", "isCorrect": false},
+            {"text": "103,97 +/- 5,75 độ", "isCorrect": true},
+            {"text": "131 độ", "isCorrect": false},
+            {"text": "22 độ", "isCorrect": false}
+          ],
+          "explanation": "Góc này dùng để đánh giá độ nghiêng của răng cửa hàm trên so với nền sọ."
+        },
+        {
+          "question": "Để đánh giá khuôn mặt theo chiều đứng, tỷ lệ tầng mặt trên và tầng mặt dưới lý tưởng là bao nhiêu?",
+          "options": [
+            {"text": "1:2", "isCorrect": false},
+            {"text": "2:1", "isCorrect": false},
+            {"text": "Xấp xỉ 1:1", "isCorrect": true},
+            {"text": "1:3", "isCorrect": false}
+          ],
+          "explanation": "Tỷ lệ hài hòa giữa G-Sn và Sn-Me' là tương đương nhau."
+        },
+        {
+          "question": "Góc mũi môi (Nasolabial angle) được tạo bởi tiếp tuyến chân mũi và cấu trúc nào?",
+          "options": [
+            {"text": "Răng cửa", "isCorrect": false},
+            {"text": "Tiếp tuyến môi trên", "isCorrect": true},
+            {"text": "Cằm", "isCorrect": false},
+            {"text": "Lưỡi", "isCorrect": false}
+          ],
+          "explanation": "Góc mũi môi bị ảnh hưởng bởi hình dạng mũi và vị trí môi trên."
+        },
+        {
+          "question": "Giá trị trung bình của góc mũi môi ở người Việt Nam là bao nhiêu?",
+          "options": [
+            {"text": "70 độ", "isCorrect": false},
+            {"text": "93,26 +/- 7,58 độ", "isCorrect": true},
+            {"text": "110 độ", "isCorrect": false},
+            {"text": "120 độ", "isCorrect": false}
+          ],
+          "explanation": "Đây là chỉ số quan trọng để đánh giá mức độ hô môi trên lâm sàng."
+        },
+        {
+          "question": "Góc lồi mặt mô mềm được xác định bởi hai đường thẳng nào?",
+          "options": [
+            {"text": "Na-A và A-Pog", "isCorrect": false},
+            {"text": "Gl-Sn và Sn-Pog'", "isCorrect": true},
+            {"text": "G-Pn và Pn-Sn", "isCorrect": false},
+            {"text": "S-Na và Na-B", "isCorrect": false}
+          ],
+          "explanation": "Góc lồi mặt mô mềm phản ánh độ nhô của khối mặt trung tâm."
+        },
+        {
+          "question": "Đường thẩm mỹ E của Ricketts đi từ đâu đến đâu?",
+          "options": [
+            {"text": "Glabella đến cằm", "isCorrect": false},
+            {"text": "Đỉnh mũi đến Pogonion mô mềm", "isCorrect": true},
+            {"text": "Cánh mũi đến môi trên", "isCorrect": false},
+            {"text": "Gai mũi trước đến cằm", "isCorrect": false}
+          ],
+          "explanation": "Đường E là mốc kinh điển để đánh giá sự cân đối của hai môi."
+        },
+        {
+          "question": "Theo Ricketts, vị trí lý tưởng của môi dưới so với đường E là:",
+          "options": [
+            {"text": "Chạm đường E", "isCorrect": false},
+            {"text": "Nằm trước đường E 2mm", "isCorrect": false},
+            {"text": "Nằm sau đường E 2mm", "isCorrect": true},
+            {"text": "Nằm sau đường E 10mm", "isCorrect": false}
+          ],
+          "explanation": "Tiêu chuẩn Âu Mỹ yêu cầu môi dưới lùi nhẹ so với đường nối mũi-cằm."
+        },
+        {
+          "question": "Ở người Việt Nam, môi dưới thường có xu hướng như thế nào so với đường E?",
+          "options": [
+            {"text": "Nằm sau đường E 5mm", "isCorrect": false},
+            {"text": "Nằm trước đường E khoảng 1mm", "isCorrect": true},
+            {"text": "Nằm trên đường E", "isCorrect": false},
+            {"text": "Nằm khuất hoàn toàn", "isCorrect": false}
+          ],
+          "explanation": "Đặc điểm chủng tộc người Việt thường có độ nhô môi dưới lớn hơn so với người Âu Mỹ."
+        },
+        {
+          "question": "Đường thẩm mỹ S của Steiner đi từ Pogonion mô mềm đến điểm nào?",
+          "options": [
+            {"text": "Đỉnh mũi", "isCorrect": false},
+            {"text": "Điểm giữa cánh mũi", "isCorrect": true},
+            {"text": "Chân mũi (Sn)", "isCorrect": false},
+            {"text": "Gốc mũi", "isCorrect": false}
+          ],
+          "explanation": "Steiner đề nghị dùng điểm giữa cánh mũi làm mốc thay vì đỉnh mũi của Ricketts."
+        },
+        {
+          "question": "Lý tưởng theo Steiner, hai môi nên ở vị trí nào so với đường S?",
+          "options": [
+            {"text": "Nằm trước đường S 4mm", "isCorrect": false},
+            {"text": "Nằm sau đường S 2mm", "isCorrect": false},
+            {"text": "Cả môi trên và môi dưới đều chạm đường S", "isCorrect": true},
+            {"text": "Không liên quan đến đường S", "isCorrect": false}
+          ],
+          "explanation": "Sự tiếp xúc của hai môi với đường S được coi là nét nghiêng hài hòa nhất theo quan điểm Steiner."
+        },
+        {
+          "question": "Mục đích chính của việc phân tích phim sọ nghiêng trên lâm sàng là gì?",
+          "options": [
+            {"text": "So sánh dữ liệu bệnh nhân với các chuẩn bình thường của dân tộc", "isCorrect": true},
+            {"text": "Đếm số lượng răng sâu", "isCorrect": false},
+            {"text": "Xác định nhóm máu", "isCorrect": false},
+            {"text": "Đo độ cứng của men răng", "isCorrect": false}
+          ],
+          "explanation": "Phân tích phim giúp bác sĩ xác định mức độ sai lệch so với trung bình cộng đồng."
+        },
+        {
+          "question": "Đa giác Downs là một công cụ mô phỏng nhanh dữ liệu phim sọ nghiêng, nửa trên đa giác biểu thị:",
+          "options": [
+            {"text": "Các giá trị về răng", "isCorrect": false},
+            {"text": "Các giá trị về xương", "isCorrect": true},
+            {"text": "Các giá trị mô mềm", "isCorrect": false},
+            {"text": "Sự mọc răng", "isCorrect": false}
+          ],
+          "explanation": "Đa giác Downs chia làm hai phần: nửa trên cho xương và nửa dưới cho răng."
+        },
+        {
+          "question": "Góc ANB trong phân tích Steiner dùng để đánh giá yếu tố nào?",
+          "options": [
+            {"text": "Độ xoay hàm dưới", "isCorrect": false},
+            {"text": "Sự khác biệt chiều trước sau giữa nền xương hàm trên và hàm dưới", "isCorrect": true},
+            {"text": "Chiều dài nền sọ", "isCorrect": false},
+            {"text": "Độ nghiêng răng cửa", "isCorrect": false}
+          ],
+          "explanation": "ANB là hiệu số của SNA và SNB, xác định tương quan xương hạng I, II hay III."
+        },
+        {
+          "question": "Nếu góc ANB lớn hơn 4 độ, bệnh nhân có khuynh hướng sai hình xương loại nào?",
+          "options": [
+            {"text": "Hạng I", "isCorrect": false},
+            {"text": "Hạng II", "isCorrect": true},
+            {"text": "Hạng III", "isCorrect": false},
+            {"text": "Khớp cắn bình thường", "isCorrect": false}
+          ],
+          "explanation": "ANB > 4 độ chỉ ra hàm trên nhô trước hoặc hàm dưới lùi sau đáng kể."
+        },
+        {
+          "question": "Góc ANB nhỏ hơn 0 độ (số âm) gợi ý sai hình xương hạng mấy?",
+          "options": [
+            {"text": "Hạng I", "isCorrect": false},
+            {"text": "Hạng II", "isCorrect": false},
+            {"text": "Hạng III", "isCorrect": true},
+            {"text": "Hạng IV", "isCorrect": false}
+          ],
+          "explanation": "Góc âm chứng tỏ hàm dưới nhô ra trước nhiều hơn hàm trên (móm xương)."
+        },
+        {
+          "question": "Trong phân tích Wits, bác sĩ vẽ đường vuông góc từ điểm A và B xuống cấu trúc nào?",
+          "options": [
+            {"text": "Mặt phẳng SN", "isCorrect": false},
+            {"text": "Mặt phẳng Frankfort", "isCorrect": false},
+            {"text": "Mặt phẳng khớp cắn (Occlusal plane)", "isCorrect": true},
+            {"text": "Bờ dưới xương hàm", "isCorrect": false}
+          ],
+          "explanation": "Wits đo đạc dựa trên hình chiếu của điểm A, B lên mặt phẳng khớp cắn."
+        },
+        {
+          "question": "Trong phân tích Wits, ký hiệu AO-BO mang dấu âm (-) khi:",
+          "options": [
+            {"text": "Điểm AO nằm trước điểm BO", "isCorrect": false},
+            {"text": "Điểm BO nằm trước điểm AO", "isCorrect": true},
+            {"text": "Hai điểm trùng nhau", "isCorrect": false},
+            {"text": "BO nằm sau AO", "isCorrect": false}
+          ],
+          "explanation": "Dấu âm chỉ ra tình trạng móm (hạng III), dấu dương chỉ ra tình trạng hô (hạng II)."
+        },
+        {
+          "question": "McNamara đánh giá tương quan hai hàm dựa trên 'Chiều dài hiệu quả', trong đó chiều dài xương hàm dưới tính từ:",
+          "options": [
+            {"text": "Lồi cầu (Co) đến Gnathion (Gn)", "isCorrect": true},
+            {"text": "S đến Na", "isCorrect": false},
+            {"text": "A đến B", "isCorrect": false},
+            {"text": "Go đến Me", "isCorrect": false}
+          ],
+          "explanation": "Chiều dài hiệu quả XHD (Co-Gn) là thông số xương thực tế của bệnh nhân."
+        },
+        {
+          "question": "Mức độ chênh lệch chiều dài hiệu quả giữa tầng giữa mặt và XHD ở mặt trung bình là:",
+          "options": [
+            {"text": "10-15mm", "isCorrect": false},
+            {"text": "20-23mm", "isCorrect": false},
+            {"text": "25-27mm", "isCorrect": true},
+            {"text": "40mm", "isCorrect": false}
+          ],
+          "explanation": "Nếu hiệu số (Co-Gn) - (Co-A) lớn hơn 27mm, gợi ý quá phát hàm dưới hoặc kém phát hàm trên."
+        },
+        {
+          "question": "Xương hàm trên phát triển quá mức theo chiều đứng sẽ dẫn đến hậu quả gì cho hàm dưới?",
+          "options": [
+            {"text": "Hàm dưới xoay lên trên và ra trước", "isCorrect": false},
+            {"text": "Hàm dưới xoay xuống dưới và ra sau, làm mặt dài", "isCorrect": true},
+            {"text": "Hàm dưới đưa sang bên", "isCorrect": false},
+            {"text": "Không ảnh hưởng", "isCorrect": false}
+          ],
+          "explanation": "Sự quá phát chiều đứng của XHT đẩy hàm dưới mở rộng xuống dưới."
+        },
+        {
+          "question": "Góc trục mặt (Facial axis angle) hợp bởi đường Ba-Na và đường nối điểm nào?",
+          "options": [
+            {"text": "Ptm và Gn", "isCorrect": true},
+            {"text": "S và Na", "isCorrect": false},
+            {"text": "A và B", "isCorrect": false},
+            {"text": "Go và Me", "isCorrect": false}
+          ],
+          "explanation": "Góc trục mặt dùng để đánh giá hướng phát triển sọ mặt theo chiều đứng."
+        },
+        {
+          "question": "Nguyên tắc cơ bản khi chọn vùng để xếp chồng phim sọ nghiêng là:",
+          "options": [
+            {"text": "Chọn vùng răng đang di chuyển", "isCorrect": false},
+            {"text": "Chọn các điểm mốc giải phẫu ít bị thay đổi do tăng trưởng nhất", "isCorrect": true},
+            {"text": "Chọn vùng nướu răng", "isCorrect": false},
+            {"text": "Chọn bất kỳ điểm nào", "isCorrect": false}
+          ],
+          "explanation": "Vùng nền sọ thường được dùng vì nó đạt kích thước trưởng thành sớm và ít biến đổi nhất."
+        },
+        {
+          "question": "Theo quy ước của Hiệp hội CHRM Hoa Kỳ (1990), màu sắc dùng để vẽ nét phim TRƯỚC điều trị là:",
+          "options": [
+            {"text": "Màu xanh dương", "isCorrect": false},
+            {"text": "Màu đỏ", "isCorrect": false},
+            {"text": "Màu đen", "isCorrect": true},
+            {"text": "Màu xanh lá cây", "isCorrect": false}
+          ],
+          "explanation": "Đen (trước), xanh dương (đang), đỏ (kết thúc), xanh lá (duy trì)."
+        },
+        {
+          "question": "Khớp sụn nào của nền sọ là khớp duy nhất chưa đóng ở lứa tuổi 6-7?",
+          "options": [
+            {"text": "Khớp bướm - sàng", "isCorrect": false},
+            {"text": "Khớp bướm - chẩm (Spheno-occipital synchondrosis)", "isCorrect": true},
+            {"text": "Khớp trán - đỉnh", "isCorrect": false},
+            {"text": "Khớp hàm - gò má", "isCorrect": false}
+          ],
+          "explanation": "Đây là lý do nền sọ trước (S-N) được coi là vùng tham chiếu ổn định sau lứa tuổi này."
+        },
+        {
+          "question": "Broadbent sử dụng mặt phẳng nào để giải thích mặt tăng trưởng xuống dưới và ra trước?",
+          "options": [
+            {"text": "Mặt phẳng Frankfort", "isCorrect": false},
+            {"text": "Mặt phẳng Bolton (đi qua Bo và Na)", "isCorrect": true},
+            {"text": "Mặt phẳng nhai", "isCorrect": false},
+            {"text": "Mặt phẳng hàm dưới", "isCorrect": false}
+          ],
+          "explanation": "Mặt phẳng Bolton là mốc cổ điển trong các nghiên cứu tăng trưởng sớm."
+        },
+        {
+          "question": "Phương pháp xếp chồng phim theo mặt phẳng Ba-Na tại điểm Ba được đề nghị bởi ai?",
+          "options": [
+            {"text": "Steiner", "isCorrect": false},
+            {"text": "Ricketts", "isCorrect": false},
+            {"text": "Downs", "isCorrect": true},
+            {"text": "Angle", "isCorrect": false}
+          ],
+          "explanation": "Downs sử dụng Basion-Nasion để theo dõi sự dịch chuyển của khối mặt."
+        },
+        {
+          "question": "Điểm Cc (Center of cranium) trong phân tích Ricketts là giao điểm của:",
+          "options": [
+            {"text": "FH và SN", "isCorrect": false},
+            {"text": "Ba-Na và trục mặt (Pt-Gn)", "isCorrect": true},
+            {"text": "A-B và SN", "isCorrect": false},
+            {"text": "Ptm-Gn và mp cắn", "isCorrect": false}
+          ],
+          "explanation": "Cc là điểm tham chiếu trung tâm sọ trong phương pháp Ricketts."
+        },
+        {
+          "question": "Sự di chuyển của điểm Nasion (Na) trong quá trình tăng trưởng thực chất là do:",
+          "options": [
+            {"text": "Sự tiêu xương trán", "isCorrect": false},
+            {"text": "Sự dịch chuyển của đường khớp trán - mũi", "isCorrect": true},
+            {"text": "Răng mọc đẩy lên", "isCorrect": false},
+            {"text": "Cơ bám kéo lên", "isCorrect": false}
+          ],
+          "explanation": "Na không hoàn toàn cố định nhưng dịch chuyển theo hướng mở rộng của nền sọ."
+        },
+        {
+          "question": "Vách trước hố yên và phiến sàng được coi là cấu trúc như thế nào khi chồng phim?",
+          "options": [
+            {"text": "Cấu trúc biến đổi nhanh", "isCorrect": false},
+            {"text": "Cấu trúc ổn định hoặc cấu trúc tham chiếu của nền sọ", "isCorrect": true},
+            {"text": "Điểm mốc của răng", "isCorrect": false},
+            {"text": "Mô mềm", "isCorrect": false}
+          ],
+          "explanation": "Đây là những vùng xương cốt hóa sớm và ít bị Remodeling nhất ở nền sọ."
+        },
+        {
+          "question": "Chồng phim tại vùng hàm trên nhằm mục đích chính là gì?",
+          "options": [
+            {"text": "Đo độ mòn của sọ", "isCorrect": false},
+            {"text": "Đánh giá sự di chuyển của răng trên so với nền xương hàm trên", "isCorrect": true},
+            {"text": "Xác định vị trí lưỡi", "isCorrect": false},
+            {"text": "Đo độ nhô cằm", "isCorrect": false}
+          ],
+          "explanation": "Giúp tách biệt dịch chuyển răng do chỉnh nha và dịch chuyển hàm do tăng trưởng."
+        },
+        {
+          "question": "Phương pháp phổ biến nhất để chồng phim vùng hàm trên là dùng mặt phẳng nào?",
+          "options": [
+            {"text": "Mặt phẳng Frankfort", "isCorrect": false},
+            {"text": "Mặt phẳng khẩu cái (ANS-PNS)", "isCorrect": true},
+            {"text": "Mặt phẳng nhai", "isCorrect": false},
+            {"text": "Đường NA", "isCorrect": false}
+          ],
+          "explanation": "Mặc dù PNS có dịch chuyển, đây vẫn là phương pháp lâm sàng tiện lợi nhất."
+        },
+        {
+          "question": "Nghiên cứu của Bjork và Skieller sử dụng yếu tố nào để chồng phim chính xác tuyệt đối?",
+          "options": [
+            {"text": "Các hạt bụi cản quang", "isCorrect": false},
+            {"text": "Các implant kim loại cắm trong xương", "isCorrect": true},
+            {"text": "Vết xăm trên da", "isCorrect": false},
+            {"text": "Kích thước mắt", "isCorrect": false}
+          ],
+          "explanation": "Implant kim loại là mốc cố định vĩnh viễn không bị thay đổi bởi quá trình Remodeling xương."
+        },
+        {
+          "question": "Chồng phim vùng hàm dưới giúp đánh giá yếu tố nào?",
+          "options": [
+            {"text": "Sự di chuyển của răng dưới so với nền xương hàm dưới", "isCorrect": true},
+            {"text": "Độ cong của sống mũi", "isCorrect": false},
+            {"text": "Vị trí xương hyoid", "isCorrect": false},
+            {"text": "Chiều dài tai", "isCorrect": false}
+          ],
+          "explanation": "Giúp bác sĩ biết được răng cửa dưới nghiêng má hay nghiêng lưỡi bao nhiêu mm sau điều trị."
+        },
+        {
+          "question": "Cấu trúc nào của hàm dưới được coi là tương đối ổn định để chồng phim (Bjork)?",
+          "options": [
+            {"text": "Rìa cắn răng cửa", "isCorrect": false},
+            {"text": "Đường viền trong vỏ xương bờ dưới vùng cằm và kênh thần kinh răng dưới", "isCorrect": true},
+            {"text": "Đỉnh lồi cầu", "isCorrect": false},
+            {"text": "Thân răng khôn", "isCorrect": false}
+          ],
+          "explanation": "Đây là những vùng xương đặc chắc, ít bị tiêu hay bồi thêm xương theo thời gian."
+        },
+        {
+          "question": "Sự xuất hiện của mầm răng khôn đã khoáng hóa có thể dùng để chồng phim trong giai đoạn nào?",
+          "options": [
+            {"text": "Lúc mới sinh", "isCorrect": false},
+            {"text": "Từ lúc bắt đầu khoáng hóa thân răng đến lúc thành lập chân răng", "isCorrect": true},
+            {"text": "Sau 30 tuổi", "isCorrect": false},
+            {"text": "Khi răng 8 đã mọc", "isCorrect": false}
+          ],
+          "explanation": "Sau khi thành lập chân răng, răng 8 sẽ bắt đầu di chuyển mạnh nên không còn là mốc ổn định."
+        },
+        {
+          "question": "Độ phóng đại trong phim sọ nghiêng xảy ra do nguyên nhân gì?",
+          "options": [
+            {"text": "Do bệnh nhân mập", "isCorrect": false},
+            {"text": "Do chùm tia X không song song với tất cả các điểm của vật", "isCorrect": true},
+            {"text": "Do dùng phim màu", "isCorrect": false},
+            {"text": "Do ánh sáng phòng", "isCorrect": false}
+          ],
+          "explanation": "Tia X phát ra từ một điểm (nguồn) theo hình nón nên luôn gây ra độ phóng đại hình ảnh."
+        },
+        {
+          "question": "Để giảm độ phóng đại trên phim, bác sĩ nên làm gì?",
+          "options": [
+            {"text": "Dùng đầu côn ngắn", "isCorrect": false},
+            {"text": "Tăng khoảng cách nguồn tia đến vật chụp và giảm khoảng cách vật đến phim", "isCorrect": true},
+            {"text": "Để bệnh nhân ngồi xa máy", "isCorrect": false},
+            {"text": "Chụp nhiều lần", "isCorrect": false}
+          ],
+          "explanation": "Tuân thủ các thông số hình học X-quang giúp hình ảnh có kích thước sát thực tế nhất."
+        },
+        {
+          "question": "Sai lầm khi xác định điểm chuẩn (Landmark identification) thường do:",
+          "options": [
+            {"text": "Chỉ do bác sĩ mệt", "isCorrect": false},
+            {"text": "Phim không rõ nét, điểm mốc nằm trên cấu trúc cong hoặc bị chồng lấp", "isCorrect": true},
+            {"text": "Do dùng giấy vẽ quá dày", "isCorrect": false},
+            {"text": "Bệnh nhân không đánh răng", "isCorrect": false}
+          ],
+          "explanation": "Chất lượng phim và độ phức tạp của giải phẫu sọ mặt là thách thức lớn nhất khi vẽ phim."
+        }
+,
+    {
+      "question": "Trong phân tích Steiner, góc SNA dùng để đánh giá yếu tố nào?",
+      "options": [
+        {"text": "Vị trí của xương hàm dưới so với nền sọ", "isCorrect": false},
+        {"text": "Vị trí chiều trước sau của xương hàm trên so với nền sọ trước", "isCorrect": true},
+        {"text": "Độ nghiêng của răng cửa trên", "isCorrect": false},
+        {"text": "Chiều cao tầng mặt trên", "isCorrect": false}
+      ],
+      "explanation": "Góc SNA xác định xương hàm trên nhô hay lùi so với nền sọ trước (đường SN)."
+    },
+    {
+      "question": "Giá trị trung bình lý tưởng của góc SNA theo Steiner là bao nhiêu độ?",
+      "options": [
+        {"text": "75 độ", "isCorrect": false},
+        {"text": "82 độ", "isCorrect": true},
+        {"text": "87 độ", "isCorrect": false},
+        {"text": "90 độ", "isCorrect": false}
+      ],
+      "explanation": "Steiner lấy giá trị 82 độ làm chuẩn cho góc SNA."
+    },
+    {
+      "question": "Nếu góc SNA của bệnh nhân là 88 độ, ta kết luận gì về xương hàm trên?",
+      "options": [
+        {"text": "Xương hàm trên lùi sau", "isCorrect": false},
+        {"text": "Xương hàm trên nhô ra trước", "isCorrect": true},
+        {"text": "Xương hàm trên phát triển bình thường", "isCorrect": false},
+        {"text": "Xương hàm trên bị xoay", "isCorrect": false}
+      ],
+      "explanation": "Góc SNA lớn hơn 82 độ chỉ ra tình trạng xương hàm trên nhô ra phía trước."
+    },
+    {
+      "question": "Góc SNB trong phân tích Steiner dùng để đánh giá:",
+      "options": [
+        {"text": "Vị trí chiều trước sau của xương hàm dưới so với nền sọ trước", "isCorrect": true},
+        {"text": "Độ dốc của mặt phẳng nhai", "isCorrect": false},
+        {"text": "Vị trí của cằm", "isCorrect": false},
+        {"text": "Độ nghiêng răng cửa dưới", "isCorrect": false}
+      ],
+      "explanation": "Góc SNB phản ánh xương hàm dưới nhô hay lùi so với nền sọ."
+    },
+    {
+      "question": "Giá trị trung bình chuẩn của góc SNB theo Steiner là:",
+      "options": [
+        {"text": "78 độ", "isCorrect": false},
+        {"text": "80 độ", "isCorrect": true},
+        {"text": "82 độ", "isCorrect": false},
+        {"text": "85 độ", "isCorrect": false}
+      ],
+      "explanation": "Góc SNB chuẩn theo Steiner là 80 độ."
+    },
+    {
+      "question": "Góc ANB được tính bằng công thức nào?",
+      "options": [
+        {"text": "ANB = SNA + SNB", "isCorrect": false},
+        {"text": "ANB = SNA - SNB", "isCorrect": true},
+        {"text": "ANB = (SNA + SNB) / 2", "isCorrect": false},
+        {"text": "ANB = SNB - SNA", "isCorrect": false}
+      ],
+      "explanation": "ANB là hiệu số giữa góc hàm trên (SNA) và góc hàm dưới (SNB)."
+    },
+    {
+      "question": "Theo Steiner, góc ANB bằng bao nhiêu độ thì được coi là tương quan xương hạng I?",
+      "options": [
+        {"text": "0 độ", "isCorrect": false},
+        {"text": "2 độ", "isCorrect": true},
+        {"text": "4 độ", "isCorrect": false},
+        {"text": "6 độ", "isCorrect": false}
+      ],
+      "explanation": "Giá trị ANB lý tưởng là 2 độ, cho thấy sự cân bằng chiều trước sau giữa hai hàm."
+    },
+    {
+      "question": "Chỉ số răng cửa trên so với đường NA bao gồm những thông số nào?",
+      "options": [
+        {"text": "Chỉ góc độ", "isCorrect": false},
+        {"text": "Chỉ khoảng cách", "isCorrect": false},
+        {"text": "Góc nghiêng (độ) và Khoảng cách nhô (mm)", "isCorrect": true},
+        {"text": "Độ mòn răng", "isCorrect": false}
+      ],
+      "explanation": "Steiner đo cả góc giữa trục răng cửa trên với NA và khoảng cách từ rìa cắn răng cửa đến đường NA."
+    },
+    {
+      "question": "Giá trị chuẩn của răng cửa trên so với đường NA là:",
+      "options": [
+        {"text": "22 độ / 4mm", "isCorrect": true},
+        {"text": "25 độ / 4mm", "isCorrect": false},
+        {"text": "15 độ / 2mm", "isCorrect": false},
+        {"text": "30 độ / 6mm", "isCorrect": false}
+      ],
+      "explanation": "Thông số chuẩn của răng cửa trên là nghiêng 22 độ và nhô 4mm so với đường NA."
+    },
+    {
+      "question": "Giá trị chuẩn của răng cửa dưới so với đường NB là:",
+      "options": [
+        {"text": "22 độ / 4mm", "isCorrect": false},
+        {"text": "25 độ / 4mm", "isCorrect": true},
+        {"text": "20 độ / 3mm", "isCorrect": false},
+        {"text": "10 độ / 1mm", "isCorrect": false}
+      ],
+      "explanation": "Thông số chuẩn của răng cửa dưới là nghiêng 25 độ và nhô 4mm so với đường NB."
+    },
+    {
+      "question": "Khoảng cách Pogonion đến đường NB (Pog - NB) có ý nghĩa gì trong điều trị?",
+      "options": [
+        {"text": "Xác định chiều cao mặt", "isCorrect": false},
+        {"text": "Đánh giá độ nhô của cằm xương và khả năng bù trừ thẩm mỹ", "isCorrect": true},
+        {"text": "Đo độ mòn răng cửa", "isCorrect": false},
+        {"text": "Xác định vị trí môi", "isCorrect": false}
+      ],
+      "explanation": "Pog-NB cho biết độ nhô của cằm xương, giúp cân đối vị trí răng cửa dưới để đạt thẩm mỹ tốt nhất."
+    },
+    {
+      "question": "Góc GoGn - SN trong phân tích Steiner dùng để đánh giá:",
+      "options": [
+        {"text": "Độ hô của răng", "isCorrect": false},
+        {"text": "Hướng phát triển của xương hàm dưới theo chiều đứng", "isCorrect": true},
+        {"text": "Độ rộng cung hàm", "isCorrect": false},
+        {"text": "Chiều dài nền sọ", "isCorrect": false}
+      ],
+      "explanation": "Góc tạo bởi mặt phẳng hàm dưới và nền sọ giúp đánh giá dạng mặt dài hay mặt ngắn."
+    },
+    {
+      "question": "Giá trị trung bình của góc GoGn - SN theo Steiner là bao nhiêu?",
+      "options": [
+        {"text": "15 độ", "isCorrect": false},
+        {"text": "22 độ", "isCorrect": false},
+        {"text": "32 độ", "isCorrect": true},
+        {"text": "45 độ", "isCorrect": false}
+      ],
+      "explanation": "Steiner quy định giá trị chuẩn của góc mặt phẳng hàm dưới so với SN là 32 độ."
+    },
+    {
+      "question": "Nếu góc GoGn-SN của bệnh nhân là 45 độ, tiên lượng điều trị như thế nào?",
+      "options": [
+        {"text": "Rất dễ", "isCorrect": false},
+        {"text": "Tiên lượng khó do dạng tăng trưởng mở (mặt dài), khó kiểm soát cơ nhai", "isCorrect": true},
+        {"text": "Tiên lượng tốt do mặt ngắn", "isCorrect": false},
+        {"text": "Không ảnh hưởng đến điều trị", "isCorrect": false}
+      ],
+      "explanation": "Góc mặt phẳng hàm dưới lớn liên quan đến xu hướng cắn hở và mặt dài, gây khó khăn cho việc đóng khoảng và ổn định kết quả."
+    },
+    {
+      "question": "Phân tích Wits bù trừ cho nhược điểm nào của góc ANB?",
+      "options": [
+        {"text": "Sự mọc răng", "isCorrect": false},
+        {"text": "Sự thay đổi vị trí điểm Nasion hoặc độ dốc nền sọ làm ANB sai lệch", "isCorrect": true},
+        {"text": "Độ mòn răng cối", "isCorrect": false},
+        {"text": "Chiều dài xương hàm", "isCorrect": false}
+      ],
+      "explanation": "Wits sử dụng mặt phẳng khớp cắn làm chuẩn, tránh được các biến động hình thái của nền sọ mà góc ANB gặp phải."
+    },
+    {
+      "question": "Ở nam giới trưởng thành có khớp cắn lý tưởng, giá trị Wits (AO-BO) thường là:",
+      "options": [
+        {"text": "0 mm", "isCorrect": false},
+        {"text": "-1 mm (điểm B nằm trước điểm A 1mm trên hình chiếu)", "isCorrect": true},
+        {"text": "+2 mm", "isCorrect": false},
+        {"text": "-5 mm", "isCorrect": false}
+      ],
+      "explanation": "Ở nam giới, trung bình điểm BO nằm trước điểm AO 1mm."
+    },
+    {
+      "question": "Ở nữ giới có khớp cắn lý tưởng, giá trị Wits (AO-BO) thường là:",
+      "options": [
+        {"text": "0 mm (hai điểm trùng nhau)", "isCorrect": true},
+        {"text": "-3 mm", "isCorrect": false},
+        {"text": "+5 mm", "isCorrect": false},
+        {"text": "-1 mm", "isCorrect": false}
+      ],
+      "explanation": "Ở nữ giới, trung bình hai điểm AO và BO trùng nhau trên mặt phẳng khớp cắn."
+    },
+    {
+      "question": "Phân tích McNamara tập trung nhiều vào yếu tố nào?",
+      "options": [
+        {"text": "Màu sắc răng", "isCorrect": false},
+        {"text": "Tương quan của các xương và răng so với đường thẳng đứng qua Nasion", "isCorrect": true},
+        {"text": "Độ rộng cánh mũi", "isCorrect": false},
+        {"text": "Sự mọc răng khôn", "isCorrect": false}
+      ],
+      "explanation": "McNamara sử dụng đường vuông góc với Frankfort đi qua điểm Na làm mốc đánh giá độ nhô của hàm."
+    },
+    {
+      "question": "Trong phân tích McNamara, xương hàm trên được coi là lý tưởng khi điểm A nằm ở đâu?",
+      "options": [
+        {"text": "Sau đường đứng Na 5mm", "isCorrect": false},
+        {"text": "Nằm ngay trên đường thẳng đứng qua Nasion (0mm)", "isCorrect": true},
+        {"text": "Trước đường đứng Na 10mm", "isCorrect": false},
+        {"text": "Ở vị trí hốc mắt", "isCorrect": false}
+      ],
+      "explanation": "Vị trí 0mm cho thấy xương hàm trên có độ nhô hài hòa so với tầng mặt trên."
+    },
+    {
+      "question": "Khám lâm sàng ngoài mặt, 'Dạng mặt nhìn nghiêng' được chia làm các loại nào?",
+      "options": [
+        {"text": "Thẳng, Lồi (Nhô), Lõm", "isCorrect": true},
+        {"text": "Tròn, Vuông, Dài", "isCorrect": false},
+        {"text": "Trắng, Đen, Vàng", "isCorrect": false},
+        {"text": "To, Nhỏ, Vừa", "isCorrect": false}
+      ],
+      "explanation": "Ba dạng mặt nghiêng cơ bản phản ánh tương quan xương hàm của bệnh nhân."
+    },
+    {
+      "question": "Nét mặt lồi (convex profile) thường đi kèm với sai khớp cắn nào?",
+      "options": [
+        {"text": "Hạng I", "isCorrect": false},
+        {"text": "Hạng II", "isCorrect": true},
+        {"text": "Hạng III", "isCorrect": false},
+        {"text": "Cắn chéo", "isCorrect": false}
+      ],
+      "explanation": "Mặt lồi do hàm trên nhô hoặc hàm dưới lùi, là đặc điểm của hạng II."
+    },
+    {
+      "question": "Nét mặt lõm (concave profile) là đặc trưng của:",
+      "options": [
+        {"text": "Hạng II", "isCorrect": false},
+        {"text": "Hạng III (móm)", "isCorrect": true},
+        {"text": "Hạng I", "isCorrect": false},
+        {"text": "Răng chen chúc", "isCorrect": false}
+      ],
+      "explanation": "Mặt lõm xuất hiện khi hàm dưới nhô ra trước hoặc hàm trên kém phát triển."
+    },
+    {
+      "question": "Khám mặt thẳng nhằm mục đích chính là gì?",
+      "options": [
+        {"text": "Đo độ dài mũi", "isCorrect": false},
+        {"text": "Đánh giá sự cân xứng hai bên và tỷ lệ các tầng mặt", "isCorrect": true},
+        {"text": "Xem răng có sâu không", "isCorrect": false},
+        {"text": "Xem lưỡi có to không", "isCorrect": false}
+      ],
+      "explanation": "Sự cân xứng qua đường giữa mặt là yếu tố thẩm mỹ quan trọng hàng đầu ở mặt thẳng."
+    },
+    {
+      "question": "Giai đoạn khám chức năng môi, 'môi khép không kín ở tư thế nghỉ' gợi ý điều gì?",
+      "options": [
+        {"text": "Bệnh nhân đang cười", "isCorrect": false},
+        {"text": "Tăng kích thước đứng của xương hàm trên hoặc răng trước nhô quá mức", "isCorrect": true},
+        {"text": "Lưỡi ngắn", "isCorrect": false},
+        {"text": "Hàm dưới nhô", "isCorrect": false}
+      ],
+      "explanation": "Bất hài hòa giữa chiều dài môi và chiều cao xương/độ nhô răng khiến môi không thể khép kín tự nhiên."
+    },
+    {
+      "question": "Phân tích mẫu hàm giúp xác định chính xác yếu tố nào?",
+      "options": [
+        {"text": "Tuổi của xương", "isCorrect": false},
+        {"text": "Độ chen chúc răng và sự bất hài hòa kích thước răng - cung hàm", "isCorrect": true},
+        {"text": "Vị trí lồi cầu", "isCorrect": false},
+        {"text": "Độ dày mô mềm", "isCorrect": false}
+      ],
+      "explanation": "Mẫu hàm là bản sao 3 chiều cho phép đo đạc khoảng trống và kích thước các răng."
+    },
+    {
+      "question": "Trong phân tích khoảng, 'Khoảng hiện có' (Space Available) được đo như thế nào?",
+      "options": [
+        {"text": "Tổng kích thước các răng", "isCorrect": false},
+        {"text": "Chu vi cung hàm từ mặt gần răng 6 bên này đến mặt gần răng 6 bên kia", "isCorrect": true},
+        {"text": "Chiều ngang vòm miệng", "isCorrect": false},
+        {"text": "Độ sâu vòm miệng", "isCorrect": false}
+      ],
+      "explanation": "Khoảng hiện có là chiều dài thực tế của xương ổ răng mà các răng có thể mọc lên."
+    },
+    {
+      "question": " 'Khoảng cần thiết' (Space Required) là giá trị nào?",
+      "options": [
+        {"text": "Chiều dài xương hàm", "isCorrect": false},
+        {"text": "Tổng chiều rộng gần-xa của tất cả các răng trên cung hàm đó", "isCorrect": true},
+        {"text": "Độ rộng răng 6", "isCorrect": false},
+        {"text": "Khoảng cách giữa hai răng nanh", "isCorrect": false}
+      ],
+      "explanation": "Tổng kích thước các răng cho biết lượng không gian tối thiểu cần để sắp xếp chúng đều đặn."
+    },
+    {
+      "question": "Nếu Khoảng hiện có nhỏ hơn Khoảng cần thiết, ta có tình trạng:",
+      "options": [
+        {"text": "Răng thưa", "isCorrect": false},
+        {"text": "Răng chen chúc (thiếu khoảng)", "isCorrect": true},
+        {"text": "Răng mọc đều", "isCorrect": false},
+        {"text": "Thừa răng", "isCorrect": false}
+      ],
+      "explanation": "Khi cung hàm không đủ chỗ cho các răng, hiện tượng chen chúc, xoay hoặc mọc kẹt sẽ xảy ra."
+    },
+    {
+      "question": "Chỉ số Bolton dùng để đánh giá yếu tố nào?",
+      "options": [
+        {"text": "Độ nhô của hàm", "isCorrect": false},
+        {"text": "Sự tương quan về kích thước răng giữa hàm trên và hàm dưới", "isCorrect": true},
+        {"text": "Tuổi mọc răng", "isCorrect": false},
+        {"text": "Độ dốc đường cong Spee", "isCorrect": false}
+      ],
+      "explanation": "Bolton xác định xem kích thước các răng hàm trên và dưới có tương xứng để đạt được khớp cắn lồng múi tốt hay không."
+    },
+    {
+      "question": "Tỷ lệ Bolton toàn bộ (12 răng) bình thường là bao nhiêu?",
+      "options": [
+        {"text": "77.2%", "isCorrect": false},
+        {"text": "91.3%", "isCorrect": true},
+        {"text": "100%", "isCorrect": false},
+        {"text": "50%", "isCorrect": false}
+      ],
+      "explanation": "Tổng kích thước 12 răng dưới phải bằng 91.3% tổng kích thước 12 răng trên."
+    },
+    {
+      "question": "Tỷ lệ Bolton vùng răng trước (6 răng) bình thường là bao nhiêu?",
+      "options": [
+        {"text": "77.2%", "isCorrect": true},
+        {"text": "91.3%", "isCorrect": false},
+        {"text": "85.5%", "isCorrect": false},
+        {"text": "12.8%", "isCorrect": false}
+      ],
+      "explanation": "Tổng kích thước 6 răng trước dưới bằng 77.2% tổng kích thước 6 răng trước trên."
+    },
+    {
+      "question": "Nếu tỷ lệ Bolton vùng trước lớn hơn 77.2%, điều đó có nghĩa là gì?",
+      "options": [
+        {"text": "Răng trước hàm trên quá to", "isCorrect": false},
+        {"text": "Răng trước hàm dưới quá to so với hàm trên", "isCorrect": true},
+        {"text": "Thiếu răng cửa", "isCorrect": false},
+        {"text": "Răng nanh bị mòn", "isCorrect": false}
+      ],
+      "explanation": "Tỷ lệ cao chứng tỏ tử số (răng dưới) lớn hơn bình thường hoặc mẫu số (răng trên) nhỏ hơn bình thường."
+    },
+    {
+      "question": "Phân tích Moyers dùng để dự báo điều gì?",
+      "options": [
+        {"text": "Sự tăng trưởng xương cằm", "isCorrect": false},
+        {"text": "Kích thước của các răng nanh và răng tiền hàm chưa mọc", "isCorrect": true},
+        {"text": "Màu sắc răng vĩnh viễn", "isCorrect": false},
+        {"text": "Độ sâu sâu răng", "isCorrect": false}
+      ],
+      "explanation": "Moyers sử dụng bảng thống kê dựa trên kích thước răng cửa dưới đã mọc để tiên lượng chỗ cho các răng sau."
+    },
+    {
+      "question": "Tại sao Moyers lại chọn 4 răng cửa dưới làm cơ sở để dự báo?",
+      "options": [
+        {"text": "Vì chúng đẹp nhất", "isCorrect": false},
+        {"text": "Vì chúng mọc sớm và có kích thước ít biến động, tương quan thuận với răng sau", "isCorrect": true},
+        {"text": "Vì răng trên hay bị hô", "isCorrect": false},
+        {"text": "Do thói quen", "isCorrect": false}
+      ],
+      "explanation": "4 răng cửa dưới cung cấp dữ liệu ổn định và tin cậy nhất để tính toán các răng còn lại trên cung hàm."
+    },
+    {
+      "question": "Phương pháp Tanaka - Johnston dự báo kích thước răng 3, 4, 5 dựa trên công thức nào ở hàm dưới?",
+      "options": [
+        {"text": "(Tổng 4 răng cửa dưới / 2) + 10.5 mm", "isCorrect": true},
+        {"text": "(Tổng 4 răng cửa dưới / 2) + 11.0 mm", "isCorrect": false},
+        {"text": "Tổng 4 răng cửa dưới + 5 mm", "isCorrect": false},
+        {"text": "Tra bảng thống kê", "isCorrect": false}
+      ],
+      "explanation": "Tanaka-Johnston đưa ra công thức đơn giản hóa để dự báo khoảng cho hàm dưới."
+    },
+    {
+      "question": "Công thức Tanaka - Johnston để dự báo kích thước răng 3, 4, 5 ở hàm trên là:",
+      "options": [
+        {"text": "(Tổng 4 răng cửa dưới / 2) + 10.5 mm", "isCorrect": false},
+        {"text": "(Tổng 4 răng cửa dưới / 2) + 11.0 mm", "isCorrect": true},
+        {"text": "Tổng 4 răng cửa trên / 2", "isCorrect": false},
+        {"text": "Chiều rộng răng nanh + 10mm", "isCorrect": false}
+      ],
+      "explanation": "Ở hàm trên, giá trị cộng thêm là 11.0mm do răng sau trên thường to hơn dưới."
+    },
+    {
+      "question": "Khoảng cách giữa mặt xa răng 2 và mặt gần răng 6 được gọi là gì?",
+      "options": [
+        {"text": "Khoảng hiện có cho răng 3, 4, 5", "isCorrect": true},
+        {"text": "Khoảng Lee Way", "isCorrect": false},
+        {"text": "Độ cắn chìa", "isCorrect": false},
+        {"text": "Chu vi cung hàm", "isCorrect": false}
+      ],
+      "explanation": "Đây là không gian thực tế còn lại trên xương hàm để đón nhận 3 răng vĩnh viễn mọc sau."
+    },
+    {
+      "question": "Hiện tượng 'Di gần sinh lý' của răng 6 vĩnh viễn có tác dụng gì?",
+      "options": [
+        {"text": "Làm thưa răng trước", "isCorrect": false},
+        {"text": "Tận dụng khoảng Lee Way để thiết lập tương quan hạng I răng cối", "isCorrect": true},
+        {"text": "Làm mọc răng khôn", "isCorrect": false},
+        {"text": "Gây cắn sâu", "isCorrect": false}
+      ],
+      "explanation": "Răng 6 dưới di gần nhiều hơn răng 6 trên nhờ khoảng Lee Way lớn hơn, giúp sửa đổi khớp cắn."
+    },
+    {
+      "question": "Trong khám lâm sàng, điểm 'Nhân trung' thuộc tầng mặt nào?",
+      "options": [
+        {"text": "Tầng mặt trên", "isCorrect": false},
+        {"text": "Tầng mặt giữa", "isCorrect": false},
+        {"text": "Tầng mặt dưới", "isCorrect": true},
+        {"text": "Không thuộc tầng mặt nào", "isCorrect": false}
+      ],
+      "explanation": "Tầng mặt dưới tính từ điểm dưới mũi (Sn) đến dưới cằm (Me')."
+    },
+    {
+      "question": "Kích thước dọc của mặt khi các cơ nhai ở trạng thái nghỉ thăng bằng gọi là:",
+      "options": [
+        {"text": "KTD cắn khớp", "isCorrect": false},
+        {"text": "KTD nghỉ", "isCorrect": true},
+        {"text": "KTD chức năng", "isCorrect": false},
+        {"text": "Khoảng nói tối thiểu", "isCorrect": false}
+      ],
+      "explanation": "Đây là tư thế tĩnh của xương hàm dưới dưới tác động của trọng lực và trương lực cơ."
+    },
+    {
+      "question": "Góc tạo bởi trục răng cửa trên và trục răng cửa dưới gọi là góc gì?",
+      "options": [
+        {"text": "Góc liên răng cửa (Interincisal angle)", "isCorrect": true},
+        {"text": "Góc mặt", "isCorrect": false},
+        {"text": "Góc lồi mặt", "isCorrect": false},
+        {"text": "Góc SNA", "isCorrect": false}
+      ],
+      "explanation": "Góc này cho biết mức độ hô hay móm của cả khối răng trước."
+    },
+    {
+      "question": "Giá trị trung bình của góc liên răng cửa ở người Việt Nam là:",
+      "options": [
+        {"text": "131 độ", "isCorrect": false},
+        {"text": "120,44 +/- 10,74 độ", "isCorrect": true},
+        {"text": "90 độ", "isCorrect": false},
+        {"text": "150 độ", "isCorrect": false}
+      ],
+      "explanation": "Người Việt có xu hướng răng trước nhô hơn người Âu Mỹ nên góc liên răng cửa thường nhỏ hơn (trung bình 120 độ)."
+    },
+    {
+      "question": "Mặt phẳng nhai trên phim sọ nghiêng thường đi qua các điểm nào?",
+      "options": [
+        {"text": "Rìa cắn răng cửa và đỉnh múi răng 6", "isCorrect": true},
+        {"text": "Cổ răng", "isCorrect": false},
+        {"text": "Chóp răng", "isCorrect": false},
+        {"text": "Góc hàm", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng nhai đại diện cho sự tiếp xúc chức năng giữa hai hàm răng."
+    },
+    {
+      "question": "Tầm quan trọng của việc đánh giá đường cười (smile line) là gì?",
+      "options": [
+        {"text": "Xem răng có sâu không", "isCorrect": false},
+        {"text": "Xác định mức độ lộ răng và nướu để đảm bảo thẩm mỹ tối ưu", "isCorrect": true},
+        {"text": "Đo độ dài lưỡi", "isCorrect": false},
+        {"text": "Đếm số lượng răng nanh", "isCorrect": false}
+      ],
+      "explanation": "Đường cười hài hòa giúp nụ cười tự nhiên, tránh tình trạng cười hở lợi hoặc không lộ răng."
+    },
+    {
+      "question": "Trong phân tích Steiner, điểm 'D' nằm ở đâu?",
+      "options": [
+        {"text": "Tâm của lồi cầu", "isCorrect": false},
+        {"text": "Trung tâm của thân xương hàm dưới vùng cằm", "isCorrect": true},
+        {"text": "Đỉnh mũi", "isCorrect": false},
+        {"text": "Gai mũi sau", "isCorrect": false}
+      ],
+      "explanation": "Điểm D là mốc bổ sung của Steiner để đánh giá vị trí thực của xương hàm dưới độc lập với răng."
+    },
+    {
+      "question": "Chỉ số răng cửa dưới so với mặt phẳng hàm dưới (IMPA) dùng để đánh giá:",
+      "options": [
+        {"text": "Độ nhô hàm trên", "isCorrect": false},
+        {"text": "Sự bù trừ của răng cửa dưới trên nền xương", "isCorrect": true},
+        {"text": "Độ sâu vòm miệng", "isCorrect": false},
+        {"text": "Vị trí hố yên", "isCorrect": false}
+      ],
+      "explanation": "IMPA là góc đo quan trọng trong phân tích Tweed để quyết định có nhổ răng hay không."
+    },
+    {
+      "question": "Góc nhọn giữa mặt phẳng Frankfort và mặt phẳng hàm dưới gọi là góc FMA, giá trị chuẩn là:",
+      "options": [
+        {"text": "15 độ", "isCorrect": false},
+        {"text": "25 độ", "isCorrect": true},
+        {"text": "35 độ", "isCorrect": false},
+        {"text": "45 độ", "isCorrect": false}
+      ],
+      "explanation": "FMA 25 độ đại diện cho dạng mặt trung bình hài hòa."
+    },
+    {
+      "question": "Hiện tượng 'Flush terminal plane' ở bộ răng sữa thường dẫn đến tương quan răng 6 như thế nào nếu không can thiệp?",
+      "options": [
+        {"text": "Luôn là Hạng I", "isCorrect": false},
+        {"text": "Đối đầu (Edge to edge) ở giai đoạn đầu mọc răng 6", "isCorrect": true},
+        {"text": "Hạng III ngay lập tức", "isCorrect": false},
+        {"text": "Hạng II chi 2", "isCorrect": false}
+      ],
+      "explanation": "Vì mặt xa răng sữa bằng nhau nên răng 6 mọc lên sẽ đối đầu nhau, sau đó mới tự điều chỉnh nhờ khoảng Lee Way."
+    },
+    {
+      "question": "Phân tích Bolton 12 răng tính từ răng nào đến răng nào?",
+      "options": [
+        {"text": "Răng 1 đến răng 6", "isCorrect": true},
+        {"text": "Răng 1 đến răng 7", "isCorrect": false},
+        {"text": "Chỉ các răng cửa", "isCorrect": false},
+        {"text": "Toàn bộ 16 răng", "isCorrect": false}
+      ],
+      "explanation": "Bolton 12 đánh giá tương quan kích thước từ răng hàm lớn thứ nhất bên này sang bên kia."
+    },
+    {
+      "question": "Phân tích Bolton vùng trước (Bolton 6) bao gồm các răng nào?",
+      "options": [
+        {"text": "4 răng cửa và 2 răng nanh", "isCorrect": true},
+        {"text": "6 răng cửa", "isCorrect": false},
+        {"text": "2 răng nanh và 4 răng tiền hàm", "isCorrect": false},
+        {"text": "Chỉ 4 răng cửa giữa", "isCorrect": false}
+      ],
+      "explanation": "Vùng thẩm mỹ phía trước bao gồm 6 răng từ răng nanh bên này đến răng nanh bên kia."
+    },
+    {
+      "question": "Nguyên tắc 'Cung răng đối xứng' nghĩa là gì khi nhìn từ mặt nhai?",
+      "options": [
+        {"text": "Răng bên trái to hơn bên phải", "isCorrect": false},
+        {"text": "Các răng cùng tên ở hai bên cách đều đường dọc giữa", "isCorrect": true},
+        {"text": "Hàm trên phải hình vuông", "isCorrect": false},
+        {"text": "Hàm dưới phải hình chữ V", "isCorrect": false}
+      ],
+      "explanation": "Sự cân xứng qua đường giữa là tiêu chuẩn cho một cung răng lý tưởng."
+    },
+    {
+      "question": "Hệ quả của việc mất răng 5 sữa sớm mà không giữ khoảng là gì?",
+      "options": [
+        {"text": "Răng 6 di gần chiếm chỗ của răng 5 vĩnh viễn", "isCorrect": true},
+        {"text": "Răng cửa bị hô", "isCorrect": false},
+        {"text": "Xương hàm to ra", "isCorrect": false},
+        {"text": "Răng nanh mọc sớm", "isCorrect": false}
+      ],
+      "explanation": "Răng 6 có xu hướng di gần rất mạnh, nếu mất răng sữa phía trước nó sẽ lấn không gian của răng vĩnh viễn thay thế."
+    },
+    {
+      "question": "Khám khớp thái dương hàm, tiếng 'lục cục' (clicking) khi há miệng gợi ý điều gì?",
+      "options": [
+        {"text": "Bệnh nhân đang đói", "isCorrect": false},
+        {"text": "Sự trật đĩa khớp có hồi phục", "isCorrect": true},
+        {"text": "Gãy xương hàm", "isCorrect": false},
+        {"text": "Răng bị sâu", "isCorrect": false}
+      ],
+      "explanation": "Tiếng kêu khớp là dấu hiệu lâm sàng quan trọng của loạn năng khớp thái dương hàm cần lưu ý trước khi chỉnh nha."
+    },
+    {
+      "question": "Nghiệm pháp 'Lăn tay dưới cằm' (Trang 19) dùng để khám bộ phận nào?",
+      "options": [
+        {"text": "Lưỡi", "isCorrect": false},
+        {"text": "Hạch vùng dưới hàm và dưới cằm", "isCorrect": true},
+        {"text": "Tuyến nước bọt mang tai", "isCorrect": false},
+        {"text": "Xương gò má", "isCorrect": false}
+      ],
+      "explanation": "Đây là bước khám tổng quát để loại trừ các bệnh lý viêm nhiễm hoặc u vùng hàm mặt."
+    },
+    {
+      "question": "Mối quan hệ ANB = 2 độ thường tương ứng với nét mặt nghiêng nào?",
+      "options": [
+        {"text": "Mặt lồi", "isCorrect": false},
+        {"text": "Mặt phẳng (hài hòa)", "isCorrect": true},
+        {"text": "Mặt lõm", "isCorrect": false},
+        {"text": "Mặt vẩu", "isCorrect": false}
+      ],
+      "explanation": "Góc ANB chuẩn đi kèm với sự thăng bằng giữa hàm trên và hàm dưới, tạo nét nghiêng thẳng."
+    },
+    {
+      "question": "Chỉ số Wits có giá trị dương (+) rất lớn (> 5mm) gợi ý sai hình gì?",
+      "options": [
+        {"text": "Móm (hạng III)", "isCorrect": false},
+        {"text": "Hô nặng (hạng II)", "isCorrect": true},
+        {"text": "Hạng I", "isCorrect": false},
+        {"text": "Cắn hở", "isCorrect": false}
+      ],
+      "explanation": "Wits dương lớn nghĩa là hàm trên (điểm A) nhô xa so với hàm dưới (điểm B)."
+    },
+    {
+      "question": "Khoảng Lee Way hàm dưới là 2.5mm mỗi bên, vậy tổng cộng hai bên là bao nhiêu?",
+      "options": [
+        {"text": "2.5 mm", "isCorrect": false},
+        {"text": "5.0 mm", "isCorrect": true},
+        {"text": "1.0 mm", "isCorrect": false},
+        {"text": "10.0 mm", "isCorrect": false}
+      ],
+      "explanation": "Cần nhân đôi giá trị cho cả bên trái và bên phải cung hàm."
+    },
+    {
+      "question": "Sự phối hợp giữa 'di truyền' và 'môi trường' chiếm bao nhiêu % nguyên nhân sai khớp cắn?",
+      "options": [
+        {"text": "5%", "isCorrect": false},
+        {"text": "35%", "isCorrect": false},
+        {"text": "60%", "isCorrect": true},
+        {"text": "100%", "isCorrect": false}
+      ],
+      "explanation": "Đa số các trường hợp sai khớp cắn là kết quả phức tạp của cả hai yếu tố này."
+    },
+    {
+      "question": "Điểm 'A' nằm ở đâu trên mô xương?",
+      "options": [
+        {"text": "Điểm nhô nhất cằm", "isCorrect": false},
+        {"text": "Điểm lõm sâu nhất của xương ổ răng hàm trên", "isCorrect": true},
+        {"text": "Gai mũi trước", "isCorrect": false},
+        {"text": "Dưới lỗ mắt", "isCorrect": false}
+      ],
+      "explanation": "Điểm A xác định giới hạn phía trước của nền xương hàm trên."
+    },
+    {
+      "question": "Điểm 'B' nằm ở đâu trên mô xương?",
+      "options": [
+        {"text": "Điểm lõm sâu nhất của xương ổ răng hàm dưới", "isCorrect": true},
+        {"text": "Điểm sau cùng lồi cầu", "isCorrect": false},
+        {"text": "Góc hàm", "isCorrect": false},
+        {"text": "Lỗ cằm", "isCorrect": false}
+      ],
+      "explanation": "Điểm B xác định giới hạn phía trước của nền xương hàm dưới."
+    },
+    {
+      "question": "Mặt phẳng tham chiếu Frankfort (FH) được coi là mặt phẳng như thế nào trong giải phẫu?",
+      "options": [
+        {"text": "Mặt phẳng đứng dọc", "isCorrect": false},
+        {"text": "Mặt phẳng ngang song song với sàn nhà khi BN đứng thẳng", "isCorrect": true},
+        {"text": "Mặt phẳng nghiêng 45 độ", "isCorrect": false},
+        {"text": "Mặt phẳng đi qua tủy răng", "isCorrect": false}
+      ],
+      "explanation": "FH là mặt phẳng chuẩn để định hướng đầu bệnh nhân trong không gian."
+    },
+    {
+      "question": "Tại sao phải khám 'Lưỡi' trong chỉnh nha?",
+      "options": [
+        {"text": "Để xem màu lưỡi", "isCorrect": false},
+        {"text": "Phát hiện lưỡi to, thói quen đẩy lưỡi gây cản trở đóng khoảng và gây tái phát cắn hở", "isCorrect": true},
+        {"text": "Để đo vị giác", "isCorrect": false},
+        {"text": "Lưỡi không quan trọng", "isCorrect": false}
+      ],
+      "explanation": "Lưỡi là khối cơ mạnh, nếu có bất thường sẽ phá vỡ sự ổn định của răng sau điều trị."
+    },
+    {
+      "question": "Góc mặt phẳng hàm dưới nhỏ (mặt phẳng) thường đi kèm với kiểu cơ nhai thế nào?",
+      "options": [
+        {"text": "Cơ nhai yếu", "isCorrect": false},
+        {"text": "Cơ nhai rất mạnh, lực nhai lớn, thường gặp ở mặt ngắn (brachyfacial)", "isCorrect": true},
+        {"text": "Cơ nhai bị liệt", "isCorrect": false},
+        {"text": "Không liên quan đến cơ", "isCorrect": false}
+      ],
+      "explanation": "Mặt vuông, ngắn thường có hệ thống cơ nhai hoạt động rất hiệu quả."
+    },
+    {
+      "question": "Phân tích phim đo sọ chỉ ra 'răng cửa dưới nghiêng ngoài quá mức', hướng xử trí là gì?",
+      "options": [
+        {"text": "Kéo răng trên ra thêm", "isCorrect": false},
+        {"text": "Dựng trục răng cửa dưới vào trong xương ổ (thường phải nhổ răng nếu thiếu khoảng)", "isCorrect": true},
+        {"text": "Mài rìa cắn", "isCorrect": false},
+        {"text": "Kệ nó", "isCorrect": false}
+      ],
+      "explanation": "Phải đưa răng về vị trí thăng bằng trên nền xương để đảm bảo sức khỏe nha chu và thẩm mỹ."
+    },
+    {
+      "question": "Chỉ số nào sau đây KHÔNG thuộc phân tích Steiner?",
+      "options": [
+        {"text": "SNA, SNB", "isCorrect": false},
+        {"text": "AO-BO", "isCorrect": true},
+        {"text": "Góc liên răng cửa", "isCorrect": false},
+        {"text": "1 to NB", "isCorrect": false}
+      ],
+      "explanation": "AO-BO thuộc về phân tích Wits."
+    },
+    {
+      "question": "Điểm 'Sella' (S) được xác định dựa trên cấu trúc xương nào?",
+      "options": [
+        {"text": "Xương sàng", "isCorrect": false},
+        {"text": "Xương bướm (hố yên)", "isCorrect": true},
+        {"text": "Xương trán", "isCorrect": false},
+        {"text": "Xương chẩm", "isCorrect": false}
+      ],
+      "explanation": "Sella nằm chính giữa hố yên của xương bướm."
+    },
+    {
+      "question": "Đường thẩm mỹ E của Ricketts giúp đánh giá độ nhô của bộ phận nào?",
+      "options": [
+        {"text": "Chỉ môi trên", "isCorrect": false},
+        {"text": "Cả môi trên và môi dưới", "isCorrect": true},
+        {"text": "Mũi", "isCorrect": false},
+        {"text": "Trán", "isCorrect": false}
+      ],
+      "explanation": "Đường nối đỉnh mũi và cằm là mốc đánh giá sự hài hòa của tầng mặt dưới."
+    },
+    {
+      "question": "Tại sao phải chụp ảnh chân dung (mặt thẳng, mặt nghiêng) cho bệnh nhân chỉnh nha?",
+      "options": [
+        {"text": "Lưu hồ sơ cho đẹp", "isCorrect": false},
+        {"text": "Đánh giá mô mềm, nụ cười và sự thay đổi diện mạo trước - sau điều trị", "isCorrect": true},
+        {"text": "Bệnh nhân yêu cầu", "isCorrect": false},
+        {"text": "Để quảng cáo", "isCorrect": false}
+      ],
+      "explanation": "Mô mềm là yếu tố quyết định sự thành công thẩm mỹ của ca chỉnh nha."
+    },
+    {
+      "question": "Độ sâu đường cong Spee lý tưởng sau điều trị nên là bao nhiêu?",
+      "options": [
+        {"text": "3 mm", "isCorrect": false},
+        {"text": "0 - 1.5 mm (phẳng)", "isCorrect": true},
+        {"text": "5 mm", "isCorrect": false},
+        {"text": "Cong ngược 2mm", "isCorrect": false}
+      ],
+      "explanation": "Làm phẳng đường cong Spee giúp đạt được khớp cắn hạng I ổn định."
+    },
+    {
+      "question": "Kết quả cuối cùng của việc chẩn đoán đúng Chương 3 là gì?",
+      "options": [
+        {"text": "Nhổ được răng", "isCorrect": false},
+        {"text": "Lập được một kế hoạch điều trị khoa học, cá nhân hóa cho bệnh nhân", "isCorrect": true},
+        {"text": "Biết cách bẻ dây", "isCorrect": false},
+        {"text": "Để bệnh nhân hài lòng", "isCorrect": false}
+      ],
+      "explanation": "Chẩn đoán là 'la bàn' dẫn đường cho toàn bộ quá trình điều trị sau này."
+    }
+,
+    {
+      "question": "Hồ sơ bệnh nhân chỉnh hình răng mặt tối thiểu cần có những thành phần nào?",
+      "options": [
+        {"text": "Bệnh án và phiếu theo dõi điều trị", "isCorrect": false},
+        {"text": "Ảnh chụp mặt, ảnh chụp trong miệng, mẫu hàm", "isCorrect": false},
+        {"text": "Phim X-quang (toàn cảnh, sọ nghiêng)", "isCorrect": false},
+        {"text": "Tất cả các thành phần trên", "isCorrect": true}
+      ],
+      "explanation": "Một hồ sơ chỉnh nha đầy đủ phải bao gồm bệnh án, hình ảnh lâm sàng, mẫu hàm và các loại phim tia X cần thiết để chẩn đoán và theo dõi."
+    },
+    {
+      "question": "Trong khám lâm sàng, việc đánh giá 'Lý do xin điều trị' nhằm mục đích gì?",
+      "options": [
+        {"text": "Để biết bệnh nhân có nhiều tiền không", "isCorrect": false},
+        {"text": "Xác định mong muốn thực sự của bệnh nhân về thẩm mỹ hay chức năng", "isCorrect": true},
+        {"text": "Để ép buộc bệnh nhân điều trị", "isCorrect": false},
+        {"text": "Để tính thời gian nhổ răng", "isCorrect": false}
+      ],
+      "explanation": "Bác sĩ cần hiểu rõ mục tiêu ưu tiên của bệnh nhân (răng, nụ cười hay khuôn mặt) để lập kế hoạch điều trị hài hòa."
+    },
+    {
+      "question": "Tỷ lệ chiều cao lý tưởng của môi trên so với tầng mặt dưới (Sn-Me') là bao nhiêu?",
+      "options": [
+        {"text": "1/2", "isCorrect": false},
+        {"text": "1/3", "isCorrect": true},
+        {"text": "1/4", "isCorrect": false},
+        {"text": "2/3", "isCorrect": false}
+      ],
+      "explanation": "Chiều cao của môi trên tính từ Sn đến bờ tự do môi trên chiếm khoảng 1/3 khoảng cách từ chân mũi đến dưới cằm."
+    },
+    {
+      "question": "Chiều cao tầng giữa mặt (bờ trên mắt đến chân mũi) và tầng mặt dưới nên có tương quan như thế nào?",
+      "options": [
+        {"text": "Tầng giữa lớn gấp đôi tầng dưới", "isCorrect": false},
+        {"text": "Hai tầng mặt này nên bằng nhau", "isCorrect": true},
+        {"text": "Tầng dưới lớn gấp đôi tầng giữa", "isCorrect": false},
+        {"text": "Tùy thuộc vào màu da", "isCorrect": false}
+      ],
+      "explanation": "Sự cân đối giữa tầng mặt giữa và tầng mặt dưới là yếu tố quyết định sự hài hòa của khuôn mặt thẳng."
+    },
+    {
+      "question": "Hướng phân kỳ của mặt nhìn nghiêng 'phổ biến ở chủng tộc da đen và phương Đông' là:",
+      "options": [
+        {"text": "Phân kỳ ra sau", "isCorrect": false},
+        {"text": "Phân kỳ ra trước", "isCorrect": true},
+        {"text": "Mặt phẳng hoàn toàn", "isCorrect": false},
+        {"text": "Không có hướng phân kỳ", "isCorrect": false}
+      ],
+      "explanation": "Người phương Đông và da đen thường có xu hướng tầng mặt dưới nhô ra trước so với trán."
+    },
+    {
+      "question": "Mặt nhìn nghiêng 'phân kỳ ra sau' là đặc điểm thường gặp ở dân tộc nào?",
+      "options": [
+        {"text": "Bắc Âu", "isCorrect": true},
+        {"text": "Đông Phi", "isCorrect": false},
+        {"text": "Đông Nam Á", "isCorrect": false},
+        {"text": "Ấn Độ", "isCorrect": false}
+      ],
+      "explanation": "Đặc điểm chủng tộc Bắc Âu thường có tầng mặt dưới lùi ra sau so với trán."
+    },
+    {
+      "question": "Khám trong miệng vùng răng hỗn hợp cần chú ý đặc biệt đến yếu tố nào?",
+      "options": [
+        {"text": "Sự lung lay của răng sữa và bình diện mặt xa răng cối sữa thứ hai", "isCorrect": true},
+        {"text": "Màu sắc của lợi", "isCorrect": false},
+        {"text": "Số lượng răng khôn", "isCorrect": false},
+        {"text": "Vết đen trên mặt nhai", "isCorrect": false}
+      ],
+      "explanation": "Bình diện mặt xa răng E quyết định hướng mọc và tương quan của răng 6 vĩnh viễn trong tương lai."
+    },
+    {
+      "question": "Tại sao phải khám tình trạng 'nướu dính' ở vùng răng cửa dưới trước khi chỉnh nha?",
+      "options": [
+        {"text": "Để xem răng có trắng không", "isCorrect": false},
+        {"text": "Để phòng ngừa tình trạng tụt nướu khi di chuyển răng ra phía má", "isCorrect": true},
+        {"text": "Để mài răng nhanh hơn", "isCorrect": false},
+        {"text": "Để chọn loại mắc cài", "isCorrect": false}
+      ],
+      "explanation": "Nướu dính mỏng là yếu tố nguy cơ gây tiêu xương và tụt nướu nếu răng bị đẩy ra ngoài quá mức."
+    },
+    {
+      "question": "Ghi chú về 'Đường giữa răng cửa' bị lệch cần xác định điều gì?",
+      "options": [
+        {"text": "Chỉ cần biết răng có đều không", "isCorrect": false},
+        {"text": "Xác định đường giữa hàm nào lệch và lệch về bên nào (trái/phải)", "isCorrect": true},
+        {"text": "Chỉ cần so với cánh mũi", "isCorrect": false},
+        {"text": "Đường giữa không quan trọng", "isCorrect": false}
+      ],
+      "explanation": "Bác sĩ cần phân biệt sự lệch lạc giữa cung răng trên, cung răng dưới so với đường dọc giữa mặt."
+    },
+    {
+      "question": "Dấu hiệu (+) khi đo độ cắn chìa trên lâm sàng có nghĩa là gì?",
+      "options": [
+        {"text": "Răng cửa dưới nằm trước răng cửa trên", "isCorrect": false},
+        {"text": "Răng cửa trên nằm trước răng cửa dưới", "isCorrect": true},
+        {"text": "Hai răng cắn đối đầu", "isCorrect": false},
+        {"text": "Cắn hở hoàn toàn", "isCorrect": false}
+      ],
+      "explanation": "Quy ước dấu dương (+) chỉ tương quan răng cửa trên nhô ra trước so với răng cửa dưới."
+    },
+    {
+      "question": "Dấu (-) khi đo độ cắn phủ trên lâm sàng dùng để chỉ tình trạng:",
+      "options": [
+        {"text": "Cắn sâu", "isCorrect": false},
+        {"text": "Cắn hở phía trước", "isCorrect": true},
+        {"text": "Khớp cắn bình thường", "isCorrect": false},
+        {"text": "Mất răng", "isCorrect": false}
+      ],
+      "explanation": "Dấu âm (-) phản ánh sự thiếu hụt tiếp xúc theo chiều đứng giữa các răng cửa."
+    },
+    {
+      "question": "Khám chức năng nhai bao gồm việc tìm kiếm yếu tố nào sau đây?",
+      "options": [
+        {"text": "Điểm chạm sớm bên không làm việc", "isCorrect": false},
+        {"text": "Chức năng răng nanh và chức năng nhóm", "isCorrect": false},
+        {"text": "Sự trượt hàm dưới chức năng", "isCorrect": false},
+        {"text": "Tất cả các yếu tố trên", "isCorrect": true}
+      ],
+      "explanation": "Đánh giá chức năng nhai toàn diện giúp loại bỏ các cản trở gây loạn năng hệ thống nhai."
+    },
+    {
+      "question": "Đường đóng mở hàm dưới 'zíc zắc' là dấu hiệu lâm sàng của:",
+      "options": [
+        {"text": "Sức khỏe cơ tốt", "isCorrect": false},
+        {"text": "Bệnh lý hoặc loạn năng khớp thái dương hàm", "isCorrect": true},
+        {"text": "Răng mọc đều", "isCorrect": false},
+        {"text": "Hô hai hàm", "isCorrect": false}
+      ],
+      "explanation": "Đường đóng hàm không thẳng phản ánh sự mất phối hợp thần kinh cơ hoặc sai lệch trong ổ khớp."
+    },
+    {
+      "question": "Tình trạng 'cường cơ môi' (hyperactive lip) thường gặp ở bệnh nhân có đặc điểm:",
+      "options": [
+        {"text": "Hàm móm nặng", "isCorrect": false},
+        {"text": "Răng trước hàm trên hô quá mức khiến môi phải gắng sức để khép kín", "isCorrect": true},
+        {"text": "Môi quá dày", "isCorrect": false},
+        {"text": "Răng cửa nghiêng lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Khi răng hô, cơ môi trên và cơ cằm phải hoạt động bù trừ để che phủ răng, dẫn đến cường cơ."
+    },
+    {
+      "question": "Phát hiện 'Amidan phì đại' trong khám chức năng có ý nghĩa gì đối với tăng trưởng?",
+      "options": [
+        {"text": "Gây sâu răng cối", "isCorrect": false},
+        {"text": "Cản trở hô hấp mũi, dẫn đến thở miệng và kiểu mặt dài", "isCorrect": true},
+        {"text": "Làm răng mọc sớm", "isCorrect": false},
+        {"text": "Không có ý nghĩa", "isCorrect": false}
+      ],
+      "explanation": "Amidan lớn làm hẹp đường thở, ép buộc trẻ phải thở miệng, gây biến dạng xương hàm."
+    },
+    {
+      "question": "Sử dụng 'Bảng trong suốt có kẻ ô' đặt lên mẫu hàm (Hình 11.5) dùng để:",
+      "options": [
+        {"text": "Đo màu răng", "isCorrect": false},
+        {"text": "Đánh giá sự đối xứng của cung răng và vị trí các răng", "isCorrect": true},
+        {"text": "Tính tiền mắc cài", "isCorrect": false},
+        {"text": "Lấy dấu nướu", "isCorrect": false}
+      ],
+      "explanation": "Lưới kẻ ô giúp bác sĩ nhận diện sự lệch lạc của răng so với trục giữa và trục ngang của cung hàm."
+    },
+    {
+      "question": "Phương pháp dự báo khoảng của Staley-Kerber (chỉ dùng cho hàm dưới) kết hợp giữa:",
+      "options": [
+        {"text": "Phim đo sọ và mẫu hàm", "isCorrect": false},
+        {"text": "Kích thước răng cửa trên mẫu hàm và kích thước răng cối nhỏ trên phim quanh chóp", "isCorrect": true},
+        {"text": "Ảnh chụp và phim Panorama", "isCorrect": false},
+        {"text": "Độ tuổi và cân nặng", "isCorrect": false}
+      ],
+      "explanation": "Đây là phương pháp phối hợp giữa số đo thực tế và hình ảnh tia X để dự báo kích thước răng nanh chưa mọc."
+    },
+    {
+      "question": "Theo thống kê, tỷ lệ dân số có bất hài hòa kích thước răng (chỉ số Bolton) chiếm khoảng:",
+      "options": [
+        {"text": "1%", "isCorrect": false},
+        {"text": "5%", "isCorrect": true},
+        {"text": "20%", "isCorrect": false},
+        {"text": "50%", "isCorrect": false}
+      ],
+      "explanation": "Bất hài hòa kích thước răng là nguyên nhân khiến một số trường hợp không thể đạt khớp cắn lý tưởng dù răng đã đều."
+    },
+    {
+      "question": "Bước 1 trong 5 bước xác lập chẩn đoán chỉnh hình răng mặt là gì?",
+      "options": [
+        {"text": "Đánh giá sự đối xứng cung răng", "isCorrect": false},
+        {"text": "Đánh giá sự cân đối và thẩm mỹ khuôn mặt (symmetry, proportions)", "isCorrect": true},
+        {"text": "Xếp hạng Angle", "isCorrect": false},
+        {"text": "Đo độ cắn sâu", "isCorrect": false}
+      ],
+      "explanation": "Thẩm mỹ mặt là ưu tiên hàng đầu và là bước khởi đầu của quy trình chẩn đoán."
+    },
+    {
+      "question": "Đánh giá tương quan xương hàm và răng theo chiều NGANG (Bước 3) tập trung vào:",
+      "options": [
+        {"text": "Độ cắn chìa", "isCorrect": false},
+        {"text": "Cắn chéo răng sau phía má/lưỡi", "isCorrect": true},
+        {"text": "Cắn hở", "isCorrect": false},
+        {"text": "Chen trúc răng cửa", "isCorrect": false}
+      ],
+      "explanation": "Chiều ngang đề cập đến độ rộng của cung hàm và sự ăn khớp của các răng sau theo chiều ngoài-trong."
+    },
+    {
+      "question": "Để phân biệt cắn chéo răng sau do 'Xương' hay do 'Răng', bác sĩ dựa vào:",
+      "options": [
+        {"text": "Chiều rộng vòm khẩu cái so với chiều rộng cung răng", "isCorrect": true},
+        {"text": "Độ dài của răng", "isCorrect": false},
+        {"text": "Màu của nướu", "isCorrect": false},
+        {"text": "Phim cổ tay", "isCorrect": false}
+      ],
+      "explanation": "Nếu vòm khẩu hẹp thực sự, đó là cắn chéo do xương; nếu vòm khẩu rộng bình thường mà răng nghiêng, đó là cắn chéo do răng."
+    },
+    {
+      "question": "Xác lập chẩn đoán theo chiều ĐỨNG (Bước 5) bao gồm đánh giá:",
+      "options": [
+        {"text": "Cắn chìa", "isCorrect": false},
+        {"text": "Xếp hạng Angle", "isCorrect": false},
+        {"text": "Cắn hở vùng răng trước/sau và độ cắn sâu", "isCorrect": true},
+        {"text": "Độ xoay răng", "isCorrect": false}
+      ],
+      "explanation": "Chiều đứng liên quan đến mức độ bao phủ của răng trên và dưới hoặc khoảng hở giữa chúng."
+    },
+    {
+      "question": "Mục đích tối thượng của việc lập kế hoạch điều trị chỉnh hình là:",
+      "options": [
+        {"text": "Để bệnh nhân tốn ít tiền nhất", "isCorrect": false},
+        {"text": "Cải thiện tối đa về mặt thẩm mỹ và chức năng cho bệnh nhân", "isCorrect": true},
+        {"text": "Để rút ngắn thời gian nhổ răng", "isCorrect": false},
+        {"text": "Để mài răng sứ", "isCorrect": false}
+      ],
+      "explanation": "Sự cải thiện đồng thời diện mạo nụ cười và hiệu quả ăn nhai là cái đích cuối cùng của chỉnh nha."
+    },
+    {
+      "question": "Kế hoạch điều trị chi tiết BẮT BUỘC phải đề cập đến yếu tố nào sau đây?",
+      "options": [
+        {"text": "Khí cụ điều trị và các giai đoạn thực hiện", "isCorrect": false},
+        {"text": "Sự phối hợp chuyên khoa và khí cụ duy trì", "isCorrect": false},
+        {"text": "Dự kiến thời gian điều trị", "isCorrect": false},
+        {"text": "Tất cả các yếu tố trên", "isCorrect": true}
+      ],
+      "explanation": "Một kế hoạch khoa học cần có lộ trình rõ ràng từ lúc bắt đầu đến giai đoạn duy trì sau cùng."
+    },
+    {
+      "question": "Tại sao cần thảo luận kỹ kế hoạch điều trị với bệnh nhân và phụ huynh?",
+      "options": [
+        {"text": "Để họ thấy bác sĩ giỏi", "isCorrect": false},
+        {"text": "Giúp họ hiểu các rủi ro, hạn chế và trách nhiệm của mình trong quá trình điều trị", "isCorrect": true},
+        {"text": "Để tăng giá tiền", "isCorrect": false},
+        {"text": "Theo quy định pháp luật", "isCorrect": false}
+      ],
+      "explanation": "Sự hiểu biết và hợp tác của bệnh nhân là chìa khóa để đạt được kết quả điều trị tốt nhất."
+    },
+    {
+      "question": "Những cấu trúc nào 'tồn tại dù có hay không có răng' trên khuôn mặt?",
+      "options": [
+        {"text": "Răng và xương ổ răng", "isCorrect": false},
+        {"text": "Sọ, nền sọ, khối xương hàm trên và xương hàm dưới", "isCorrect": true},
+        {"text": "Lưỡi và môi", "isCorrect": false},
+        {"text": "Cung răng", "isCorrect": false}
+      ],
+      "explanation": "Xương nền sọ và xương hàm là khung xương cơ bản, răng và xương ổ chỉ là những đơn vị chức năng độc lập đính kèm."
+    },
+    {
+      "question": "Đặc điểm của răng và xương ổ răng theo quan điểm chẩn đoán là:",
+      "options": [
+        {"text": "Chúng cố định vĩnh viễn", "isCorrect": false},
+        {"text": "Là những đơn vị chức năng độc lập có thể được dịch chuyển trên nền xương", "isCorrect": true},
+        {"text": "Phát triển nhanh hơn sọ", "isCorrect": false},
+        {"text": "Không bị tiêu xương", "isCorrect": false}
+      ],
+      "explanation": "Dựa trên tính chất này, bác sĩ chỉnh nha mới có thể sử dụng khí cụ để dịch chuyển răng về vị trí mong muốn."
+    },
+    {
+      "question": "Khám chức năng nuốt, nếu có tình trạng 'đẩy lưỡi ra trước' sẽ dẫn đến sai hình gì?",
+      "options": [
+        {"text": "Cắn sâu", "isCorrect": false},
+        {"text": "Cắn hở vùng răng trước", "isCorrect": true},
+        {"text": "Móm", "isCorrect": false},
+        {"text": "Răng chen trúc", "isCorrect": false}
+      ],
+      "explanation": "Áp lực lưỡi đẩy ra giữa hai hàm ngăn cản sự mọc răng hoàn toàn, tạo ra khe hở đứng."
+    },
+    {
+      "question": "Góc hàm dưới 'rộng' thường là đặc điểm của kiểu mặt nào?",
+      "options": [
+        {"text": "Mặt ngắn", "isCorrect": false},
+        {"text": "Mặt dài (hyperdivergent)", "isCorrect": true},
+        {"text": "Mặt vuông", "isCorrect": false},
+        {"text": "Mặt hài hòa", "isCorrect": false}
+      ],
+      "explanation": "Góc hàm dưới mở rộng gắn liền với hướng phát triển đi xuống của xương hàm dưới."
+    },
+    {
+      "question": "Chẩn đoán 'hạng III Angle giả' cần được can thiệp vào giai đoạn nào là tốt nhất?",
+      "options": [
+        {"text": "Sau 18 tuổi", "isCorrect": false},
+        {"text": "Giai đoạn răng hỗn hợp để loại bỏ cản trở răng cửa và tránh ảnh hưởng xương hàm", "isCorrect": true},
+        {"text": "Khi đã rụng hết răng cửa", "isCorrect": false},
+        {"text": "Không cần can thiệp", "isCorrect": false}
+      ],
+      "explanation": "Can thiệp sớm giúp xương hàm phát triển đúng vị trí, tránh biến hạng III giả thành hạng III thật do xương."
+    },
+    {
+      "question": "Mẫu hàm chỉnh hình dùng để tính 'Khoảng cần thiết' dựa trên mốc nào?",
+      "options": [
+        {"text": "Tổng kích thước gần xa của răng, đo từ tiếp điểm này đến tiếp điểm khác", "isCorrect": true},
+        {"text": "Chiều dài toàn bộ xương hàm", "isCorrect": false},
+        {"text": "Chiều rộng vòm miệng", "isCorrect": false},
+        {"text": "Kích thước của lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Khoảng cần thiết là tổng lượng không gian mà các thân răng chiếm dụng trên cung hàm."
+    },
+    {
+      "question": "Tại sao nói phim sọ nghiêng giúp 'tiên đoán kết quả điều trị'?",
+      "options": [
+        {"text": "Để bác sĩ đoán mò", "isCorrect": false},
+        {"text": "Giúp dự báo hướng tăng trưởng và sự thay đổi mô mềm sau khi di chuyển răng", "isCorrect": true},
+        {"text": "Để xem răng có mọc thêm không", "isCorrect": false},
+        {"text": "Để chụp cho đẹp hồ sơ", "isCorrect": false}
+      ],
+      "explanation": "Các thông số đo sọ cho phép bác sĩ hình dung sự hài hòa của khuôn mặt sau khi kết thúc ca điều trị."
+    },
+    {
+      "question": "Dấu hiệu 'cằm nhô rõ nhưng có khớp cắn bình thường' thường gặp ở nhóm người nào (Hình 11.4)?",
+      "options": [
+        {"text": "Người Bắc Âu", "isCorrect": false},
+        {"text": "Người Đông Âu", "isCorrect": true},
+        {"text": "Người Phi châu", "isCorrect": false},
+        {"text": "Người da vàng", "isCorrect": false}
+      ],
+      "explanation": "Đây là đặc điểm hình thái nét mặt phẳng điển hình của chủng tộc Đông Âu."
+    },
+    {
+      "question": "Mục đích của việc đo 'tuổi của răng' trong chẩn đoán là:",
+      "options": [
+        {"text": "Đếm số lượng răng sâu", "isCorrect": false},
+        {"text": "Xác định giai đoạn phát triển của bộ răng so với tuổi đời để có hướng can thiệp đúng", "isCorrect": true},
+        {"text": "Để nhổ răng khôn sớm", "isCorrect": false},
+        {"text": "Để tẩy trắng răng", "isCorrect": false}
+      ],
+      "explanation": "Sự bất tương hợp giữa tuổi răng và tuổi đời là một manh mối quan trọng của sai lệch mọc răng."
+    },
+    {
+      "question": "Khám mô nha chu trong chỉnh nha cần chú ý đặc biệt đến:",
+      "options": [
+        {"text": "Cao răng", "isCorrect": false},
+        {"text": "Vị trí bám của các thắng (môi, lưỡi, bên)", "isCorrect": true},
+        {"text": "Màu sắc của lưỡi", "isCorrect": false},
+        {"text": "Độ cứng của men răng", "isCorrect": false}
+      ],
+      "explanation": "Thắng bám thấp hoặc sai vị trí có thể gây thưa răng hoặc co kéo nướu gây tụt lợi trong chỉnh nha."
+    },
+    {
+      "question": "Hiện tượng 'răng di chuyển làm hàm dưới cũng bị di chuyển' dẫn đến điều gì trong chẩn đoán?",
+      "options": [
+        {"text": "Làm chẩn đoán dễ hơn", "isCorrect": false},
+        {"text": "Làm tương quan răng cối không còn phản ánh chính xác tương quan hai xương hàm", "isCorrect": true},
+        {"text": "Làm răng chắc hơn", "isCorrect": false},
+        {"text": "Không có ảnh hưởng", "isCorrect": false}
+      ],
+      "explanation": "Đây là lý do Angle bị hạn chế, vì răng có thể bù trừ che giấu sai hình thực sự của xương hàm."
+    },
+    {
+      "question": "Giai đoạn 'Duy trì' trong kế hoạch điều trị nhằm mục đích gì?",
+      "options": [
+        {"text": "Để thu thêm tiền", "isCorrect": false},
+        {"text": "Ổn định vị trí răng và xương hàm mới, ngăn ngừa tái phát", "isCorrect": true},
+        {"text": "Để răng mọc dài ra", "isCorrect": false},
+        {"text": "Để làm sạch mắc cài", "isCorrect": false}
+      ],
+      "explanation": "Mô nha chu cần thời gian để tái cấu trúc và thích nghi hoàn toàn với vị trí răng mới."
+    },
+    {
+      "question": "Việc đánh giá 'Sự tự nguyện' của bệnh nhân liên quan đến yếu tố nào?",
+      "options": [
+        {"text": "Tài chính", "isCorrect": false},
+        {"text": "Tâm lý và sự hợp tác trong suốt quá trình điều trị kéo dài", "isCorrect": true},
+        {"text": "Độ tuổi", "isCorrect": false},
+        {"text": "Địa chỉ nhà", "isCorrect": false}
+      ],
+      "explanation": "Bệnh nhân bị ép buộc điều trị thường có tiên lượng kém do không tuân thủ chỉ định của bác sĩ."
+    },
+    {
+      "question": "Chỉ số 'SNA = 82 độ' và 'SNB = 80 độ' là chuẩn của dân tộc nào?",
+      "options": [
+        {"text": "Người Việt Nam", "isCorrect": false},
+        {"text": "Người Âu - Mỹ (Caucasian)", "isCorrect": true},
+        {"text": "Người Nhật Bản", "isCorrect": false},
+        {"text": "Người Châu Phi", "isCorrect": false}
+      ],
+      "explanation": "Đây là các chỉ số kinh điển trong phân tích Steiner thiết lập trên người da trắng."
+    },
+    {
+      "question": "Sự cân đối của 'ba tầng mặt' được đánh giá qua mốc giải phẫu nào?",
+      "options": [
+        {"text": "Đỉnh đầu, chân tóc, chân mũi, cằm", "isCorrect": true},
+        {"text": "Mắt và tai", "isCorrect": false},
+        {"text": "Hai bên góc hàm", "isCorrect": false},
+        {"text": "Răng nanh", "isCorrect": false}
+      ],
+      "explanation": "Phân chia khuôn mặt thành 3 phần bằng nhau giúp đánh giá thẩm mỹ mặt thẳng."
+    },
+    {
+      "question": "Mặt phẳng nhai 'phẳng' hay 'cong ít' là tiêu chuẩn của ai?",
+      "options": [
+        {"text": "Angle", "isCorrect": false},
+        {"text": "Andrews", "isCorrect": true},
+        {"text": "Steiner", "isCorrect": false},
+        {"text": "Downs", "isCorrect": false}
+      ],
+      "explanation": "Đây là đặc tính thứ VI trong hệ thống 6 chìa khóa khớp cắn của Andrews."
+    },
+    {
+      "question": "Kết quả cuối cùng của chương 3 yêu cầu sinh viên phải làm gì?",
+      "options": [
+        {"text": "Tự tay nhổ răng", "isCorrect": false},
+        {"text": "Xác lập được chẩn đoán và hướng điều trị phù hợp cho từng ca lâm sàng cụ thể", "isCorrect": true},
+        {"text": "Biết cách chụp phim tia X", "isCorrect": false},
+        {"text": "Mài mẫu thạch cao thật bóng", "isCorrect": false}
+      ],
+      "explanation": "Toàn bộ kiến thức từ phân loại, đo sọ đến mẫu hàm đều phục vụ cho kỹ năng chẩn đoán cuối cùng."
+    },
+    {
+      "question": "Điều trị chỉnh hình kết hợp phẫu thuật thường áp dụng khi nào?",
+      "options": [
+        {"text": "Khi bệnh nhân còn nhỏ", "isCorrect": false},
+        {"text": "Khi sự tăng trưởng của bệnh nhân đã chấm dứt và sai hình xương nặng", "isCorrect": true},
+        {"text": "Khi răng bị sâu", "isCorrect": false},
+        {"text": "Bệnh nhân yêu cầu", "isCorrect": false}
+      ],
+      "explanation": "Phẫu thuật là giải pháp duy nhất khi niềng răng không thể bù trừ được các khiếm khuyết lớn của khung xương đã trưởng thành."
+    },
+    {
+      "question": "Khoảng Lee Way hàm trên trung bình là bao nhiêu cho mỗi bên?",
+      "options": [
+        {"text": "0.5 mm", "isCorrect": false},
+        {"text": "0.9 mm đến 1.5 mm", "isCorrect": true},
+        {"text": "2.5 mm", "isCorrect": false},
+        {"text": "10 mm", "isCorrect": false}
+      ],
+      "explanation": "Giá trị này nhỏ hơn ở hàm dưới, phản ánh sự khác biệt kích thước giữa răng cối sữa và răng tiền hàm trên."
+    },
+    {
+      "question": "Góc ANB dương lớn (> 4 độ) báo hiệu tình trạng xương gì?",
+      "options": [
+        {"text": "Hạng I", "isCorrect": false},
+        {"text": "Hạng II (hô xương)", "isCorrect": true},
+        {"text": "Hạng III (móm xương)", "isCorrect": false},
+        {"text": "Xương bình thường", "isCorrect": false}
+      ],
+      "explanation": "Góc ANB tăng khi hàm trên nằm quá xa về phía trước so với hàm dưới."
+    },
+    {
+      "question": "Góc ANB âm (< 0 độ) báo hiệu tình trạng xương gì?",
+      "options": [
+        {"text": "Hô xương", "isCorrect": false},
+        {"text": "Hạng III (móm xương)", "isCorrect": true},
+        {"text": "Hạng I", "isCorrect": false},
+        {"text": "Xương hở", "isCorrect": false}
+      ],
+      "explanation": "Góc âm chỉ xảy ra khi điểm B (hàm dưới) nhô ra trước điểm A (hàm trên)."
+    },
+    {
+      "question": "Đường cong Spee được đo độ sâu tại vị trí nào?",
+      "options": [
+        {"text": "Tại răng nanh", "isCorrect": false},
+        {"text": "Tại điểm sâu nhất của mặt nhai nhóm răng hàm nhỏ", "isCorrect": true},
+        {"text": "Tại răng khôn", "isCorrect": false},
+        {"text": "Tại rìa cắn răng cửa", "isCorrect": false}
+      ],
+      "explanation": "Độ sâu được tính từ mặt phẳng nối đỉnh múi răng nanh và răng hàm lớn cuối cùng đến mặt nhai sâu nhất."
+    },
+    {
+      "question": "Tại sao phải khám chức năng hô hấp mũi?",
+      "options": [
+        {"text": "Để trẻ hát hay", "isCorrect": false},
+        {"text": "Phát hiện sớm thở miệng gây hẹp hàm trên và cắn hở", "isCorrect": true},
+        {"text": "Để trẻ ăn ngon", "isCorrect": false},
+        {"text": "Không liên quan", "isCorrect": false}
+      ],
+      "explanation": "Luồng khí qua mũi giúp kích thích vòm miệng mở rộng tự nhiên."
+    },
+    {
+      "question": "Chỉ số Bolton 12 bình thường 91.3% phản ánh điều gì?",
+      "options": [
+        {"text": "Răng dưới nhỏ hơn răng trên một chút là lý tưởng", "isCorrect": true},
+        {"text": "Răng dưới phải to hơn răng trên", "isCorrect": false},
+        {"text": "Răng hai hàm bằng nhau", "isCorrect": false},
+        {"text": "Răng trên phải to gấp đôi", "isCorrect": false}
+      ],
+      "explanation": "Sự chênh lệch nhẹ này cho phép các răng dưới lọt vào mặt trong răng trên một cách hài hòa."
+    },
+    {
+      "question": "Mặt phẳng Frankfort là mốc chuẩn cho phân tích của tác giả nào?",
+      "options": [
+        {"text": "Steiner", "isCorrect": false},
+        {"text": "Downs và McNamara", "isCorrect": true},
+        {"text": "Tweed", "isCorrect": false},
+        {"text": "Angle", "isCorrect": false}
+      ],
+      "explanation": "Downs và McNamara ưu tiên dùng mp Frankfort thay vì mp SN vì tính chất đại diện cho mp ngang thật sự."
+    },
+    {
+      "question": "Góc mặt (Face angle) tăng lên khi nào?",
+      "options": [
+        {"text": "Khi hàm dưới lùi", "isCorrect": false},
+        {"text": "Khi cằm nhô ra trước mạnh mẽ", "isCorrect": true},
+        {"text": "Khi răng hô", "isCorrect": false},
+        {"text": "Khi trán phẳng", "isCorrect": false}
+      ],
+      "explanation": "Điểm Pog tiến ra trước làm góc hợp bởi FH và Na-Pog lớn lên."
+    },
+    {
+      "question": "Nét mặt 'nhô' thường tương ứng với SNA cao, đúng hay sai?",
+      "options": [
+        {"text": "Đúng", "isCorrect": true},
+        {"text": "Sai", "isCorrect": false}
+      ],
+      "explanation": "SNA cao chứng tỏ xương hàm trên nhô trước nền sọ, gây vẻ mặt lồi."
+    },
+    {
+      "question": "Thóp trước sọ vôi hóa lúc mấy tuổi (nhắc lại Chương 1)?",
+      "options": [
+        {"text": "1 tuổi", "isCorrect": false},
+        {"text": "2 tuổi", "isCorrect": true},
+        {"text": "5 tuổi", "isCorrect": false},
+        {"text": "10 tuổi", "isCorrect": false}
+      ],
+      "explanation": "Mốc phát triển sọ mặt cơ bản cần ghi nhớ."
+    },
+    {
+      "question": "Tương quan răng 6 hạng I Angle giả khác hạng I thật ở điểm nào?",
+      "options": [
+        {"text": "Không có hạng I giả", "isCorrect": true},
+        {"text": "Răng hô hơn", "isCorrect": false},
+        {"text": "Răng móm hơn", "isCorrect": false},
+        {"text": "Tủy răng nhỏ", "isCorrect": false}
+      ],
+      "explanation": "Trong phân loại Angle, chỉ có hạng III mới thường được chia thành thật và giả."
+    },
+    {
+      "question": "Đặc điểm 'răng cửa giữa trên nghiêng vào trong' là của:",
+      "options": [
+        {"text": "Hạng II chi 1", "isCorrect": false},
+        {"text": "Hạng II chi 2", "isCorrect": true},
+        {"text": "Hạng III", "isCorrect": false},
+        {"text": "Hạng I", "isCorrect": false}
+      ],
+      "explanation": "Đây là dấu hiệu nhận biết chìa khóa của Angle Class II division 2."
+    },
+    {
+      "question": "Góc nền sọ Na-S-Ba trung bình là bao nhiêu?",
+      "options": [
+        {"text": "100 độ", "isCorrect": false},
+        {"text": "129 độ", "isCorrect": true},
+        {"text": "150 độ", "isCorrect": false},
+        {"text": "90 độ", "isCorrect": false}
+      ],
+      "explanation": "Góc này phản ánh độ gập của nền sọ trung tâm."
+    },
+    {
+      "question": "Răng trước hàm dưới nghiêng môi quá mức dẫn đến:",
+      "options": [
+        {"text": "Tăng độ cắn chìa", "isCorrect": false},
+        {"text": "Giảm độ cắn chìa (bù trừ trong hạng III)", "isCorrect": true},
+        {"text": "Cắn sâu", "isCorrect": false},
+        {"text": "Răng bị rụng", "isCorrect": false}
+      ],
+      "explanation": "Sự nghiêng ngoài của răng dưới thường là phản ứng tự nhiên để cố gắng chạm với răng trên trong tư thế móm."
+    },
+    {
+      "question": "Góc mũi môi người Việt Nam trung bình nhỏ hơn người da trắng, đúng hay sai?",
+      "options": [
+        {"text": "Đúng (người Việt 93 độ so với da trắng 100-110 độ)", "isCorrect": true},
+        {"text": "Sai", "isCorrect": false}
+      ],
+      "explanation": "Người Việt có môi nhô hơn nên góc này thường hẹp hơn."
+    },
+    {
+      "question": "Phát âm chữ 'T, D' bị ngọng khi:",
+      "options": [
+        {"text": "Răng hô", "isCorrect": false},
+        {"text": "Răng cửa trên bị nghiêng lưỡi quá mức", "isCorrect": true},
+        {"text": "Hàm dưới nhô", "isCorrect": false},
+        {"text": "Môi dày", "isCorrect": false}
+      ],
+      "explanation": "Âm đầu lưỡi răng đòi hỏi vị trí răng trước ổn định để lưỡi chạm vào."
+    },
+    {
+      "question": "Phân tích Wits được Jacobson giới thiệu năm nào?",
+      "options": [
+        {"text": "1931", "isCorrect": false},
+        {"text": "1975", "isCorrect": true},
+        {"text": "1900", "isCorrect": false},
+        {"text": "2000", "isCorrect": false}
+      ],
+      "explanation": "Wits ra đời muộn hơn Steiner để khắc phục các sai số do nền sọ."
+    },
+    {
+      "question": "Điểm 'Pogonion' (Pog) là điểm nhô nhất của cấu trúc nào?",
+      "options": [
+        {"text": "Xương cằm", "isCorrect": true},
+        {"text": "Hố yên", "isCorrect": false},
+        {"text": "Xương trán", "isCorrect": false},
+        {"text": "Mũi", "isCorrect": false}
+      ],
+      "explanation": "Mốc quan trọng nhất để đánh giá độ nhô của cằm trên mặt nghiêng."
+    },
+    {
+      "question": "Hệ quả của việc khớp bướm-chẩm đóng sớm là gì?",
+      "options": [
+        {"text": "Làm hàm trên quá to", "isCorrect": false},
+        {"text": "Hàm trên bị lùi so với hàm dưới (mặt móm)", "isCorrect": true},
+        {"text": "Răng mọc sớm", "isCorrect": false},
+        {"text": "Lưỡi bị dính", "isCorrect": false}
+      ],
+      "explanation": "Nền sọ ngắn làm khối mặt trung tâm không được đẩy ra trước đủ mức."
+    },
+    {
+      "question": "Chiều rộng cung hàm vùng răng cửa hoàn tất tăng trưởng lúc mấy tuổi?",
+      "options": [
+        {"text": "6 tuổi", "isCorrect": false},
+        {"text": "Khoảng 12 tuổi", "isCorrect": true},
+        {"text": "18 tuổi", "isCorrect": false},
+        {"text": "Sau 25 tuổi", "isCorrect": false}
+      ],
+      "explanation": "Vùng răng trước hoàn tất tăng trưởng chiều rộng rất sớm so với các chiều khác."
+    },
+    {
+      "question": "Góc GoGn-SN tăng chứng tỏ xương hàm dưới phát triển theo hướng nào?",
+      "options": [
+        {"text": "Chiều ngang (ra trước)", "isCorrect": false},
+        {"text": "Chiều đứng (xuống dưới)", "isCorrect": true},
+        {"text": "Vô cực", "isCorrect": false},
+        {"text": "Không di chuyển", "isCorrect": false}
+      ],
+      "explanation": "Góc dốc chứng tỏ hàm dưới đang mở rộng theo chiều dọc, tạo mặt dài."
+    },
+    {
+      "question": "Đặc điểm của mặt thẳng hài hòa là:",
+      "options": [
+        {"text": "Mắt to", "isCorrect": false},
+        {"text": "Đường dọc giữa chia khuôn mặt thành hai nửa đối xứng", "isCorrect": true},
+        {"text": "Mũi thật cao", "isCorrect": false},
+        {"text": "Không có răng khôn", "isCorrect": false}
+      ],
+      "explanation": "Sự cân xứng là tiêu chuẩn vàng của thẩm mỹ mặt thẳng."
+    },
+    {
+      "question": "Tiêu chuẩn Andrews cho răng cối lớn thứ nhất trên là gì?",
+      "options": [
+        {"text": "Phải xoay ra má", "isCorrect": false},
+        {"text": "Múi ngoài gần phải khớp với rãnh giữa răng 6 dưới và gờ xa chạm răng 7 dưới", "isCorrect": true},
+        {"text": "Không được chạm răng đối", "isCorrect": false},
+        {"text": "Phải nằm khuất sau răng 5", "isCorrect": false}
+      ],
+      "explanation": "Đây là chi tiết nâng cấp từ phân loại của Angle nhằm đạt sự ổn định tối đa."
+    },
+    {
+      "question": "Thóp xương sọ vôi hóa lúc 2 tuổi, điều này đúng hay sai?",
+      "options": [
+        {"text": "Đúng", "isCorrect": true},
+        {"text": "Sai", "isCorrect": false}
+      ],
+      "explanation": "Kiến thức về vôi hóa sọ não ảnh hưởng đến can thiệp sọ mặt."
+    },
+    {
+      "question": "Ký hiệu 'PNS' trong đo sọ là mốc giải phẫu nào?",
+      "options": [
+        {"text": "Gai mũi trước", "isCorrect": false},
+        {"text": "Gai mũi sau", "isCorrect": true},
+        {"text": "Góc hàm", "isCorrect": false},
+        {"text": "Lỗ cằm", "isCorrect": false}
+      ],
+      "explanation": "Posterior Nasal Spine xác định giới hạn sau của vòm khẩu cái cứng."
+    },
+    {
+      "question": "Mục đích của việc đo 'góc liên răng cửa' là gì?",
+      "options": [
+        {"text": "Đo màu răng", "isCorrect": false},
+        {"text": "Đánh giá mức độ nhô của cả hai hàm răng trước", "isCorrect": true},
+        {"text": "Đo độ mòn răng", "isCorrect": false},
+        {"text": "Tính tiền mắc cài", "isCorrect": false}
+      ],
+      "explanation": "Góc càng nhỏ chứng tỏ hai hàm răng càng vổ ra trước."
+    },
+    {
+      "question": "Kết thúc điều trị chỉnh nha, tương quan răng 6 nên đạt hạng mấy?",
+      "options": [
+        {"text": "Hạng II", "isCorrect": false},
+        {"text": "Hạng I chuẩn", "isCorrect": true},
+        {"text": "Hạng III", "isCorrect": false},
+        {"text": "Đối đầu", "isCorrect": false}
+      ],
+      "explanation": "Hạng I là mục tiêu chức năng của mọi ca chỉnh nha."
+    },
+    {
+      "question": "Lồi cầu xương hàm dưới có bản chất là:",
+      "options": [
+        {"text": "Xương màng", "isCorrect": false},
+        {"text": "Sụn thích nghi", "isCorrect": true},
+        {"text": "Mô mỡ", "isCorrect": false},
+        {"text": "Răng ngầm", "isCorrect": false}
+      ],
+      "explanation": "Sụn lồi cầu có khả năng thay đổi để đáp ứng với sự dịch chuyển của hàm."
+    },
+    {
+      "question": "Góc mũi môi lý tưởng theo Steiner là:",
+      "options": [
+        {"text": "45 độ", "isCorrect": false},
+        {"text": "102 độ +/- 8", "isCorrect": true},
+        {"text": "150 độ", "isCorrect": false},
+        {"text": "90 độ", "isCorrect": false}
+      ],
+      "explanation": "Góc này đảm bảo sự thăng bằng giữa môi trên và chân mũi."
+    },
+    {
+      "question": "Mối quan hệ 'xương hàm - răng' theo chiều ngang đề cập đến:",
+      "options": [
+        {"text": "Hô hay móm", "isCorrect": false},
+        {"text": "Độ rộng cung hàm và cắn chéo răng sau", "isCorrect": true},
+        {"text": "Cắn hở", "isCorrect": false},
+        {"text": "Cắn sâu", "isCorrect": false}
+      ],
+      "explanation": "Chiều ngang là trục X trong không gian 3 chiều của chẩn đoán răng mặt."
+    },
+    {
+      "question": "Phân tích Bolton được thực hiện trên vật liệu nào?",
+      "options": [
+        {"text": "Phim tia X", "isCorrect": false},
+        {"text": "Mẫu hàm thạch cao", "isCorrect": true},
+        {"text": "Ảnh chụp mặt", "isCorrect": false},
+        {"text": "Trực tiếp trong miệng", "isCorrect": false}
+      ],
+      "explanation": "Bolton yêu cầu đo đạc chính xác kích thước thân răng trên mẫu thạch cao."
+    },
+    {
+      "question": "Mục tiêu quan trọng nhất của chương 3 là gì?",
+      "options": [
+        {"text": "Học cách nhổ răng", "isCorrect": false},
+        {"text": "Nắm vững các phương pháp phân tích để đưa ra chẩn đoán chính xác", "isCorrect": true},
+        {"text": "Biết cách bẻ dây thép", "isCorrect": false},
+        {"text": "Để lấy được bằng bác sĩ", "isCorrect": false}
+      ],
+      "explanation": "Chẩn đoán đúng là nền móng của mọi thành công lâm sàng."
+    }
+  ]

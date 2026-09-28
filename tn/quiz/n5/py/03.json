@@ -1,0 +1,782 @@
+[
+    {
+      "question": "Mục tiêu chính của nhận dạng nha khoa đối chiếu (Comparative Identification) là gì?",
+      "options": [
+        {"text": "Xác định hung thủ vụ án", "isCorrect": false},
+        {"text": "So sánh dữ liệu răng miệng trước khi chết (AM) và sau khi chết (PM) để xác định danh tính", "isCorrect": true},
+        {"text": "Ước tính giá trị các miếng trám răng", "isCorrect": false},
+        {"text": "Điều trị tủy cho người đã khuất", "isCorrect": false}
+      ],
+      "explanation": "Nhận dạng đối chiếu là phương pháp so sánh trực tiếp các đặc điểm cá biệt của bộ răng trên hồ sơ nha khoa cũ và thực tế trên tử thi."
+    },
+    {
+      "question": "Trong trường hợp không có dữ liệu đối chiếu sẵn có, nha sĩ pháp y thực hiện công việc gì?",
+      "options": [
+        {"text": "Dừng việc nhận dạng", "isCorrect": false},
+        {"text": "Xây dựng hồ sơ sinh học (lược tính tuổi, giới tính, chủng tộc) để thu hẹp phạm vi tìm kiếm", "isCorrect": true},
+        {"text": "Yêu cầu gia đình tự nhận mặt", "isCorrect": false},
+        {"text": "Chụp ảnh vân tay", "isCorrect": false}
+      ],
+      "explanation": "Xây dựng hồ sơ sinh học (Narrowing the search) giúp định hướng điều tra khi chưa biết nạn nhân có thể là ai trong danh sách mất tích."
+    },
+    {
+      "question": "Quy trình DVI (Disaster Victim Identification) thường được áp dụng trong tình huống nào?",
+      "options": [
+        {"text": "Tai nạn giao thông một người", "isCorrect": false},
+        {"text": "Khám sức khỏe định kỳ", "isCorrect": false},
+        {"text": "Các thảm họa hàng loạt (thiên tai, tai nạn máy bay) có số lượng lớn nạn nhân", "isCorrect": true},
+        {"text": "Vụ án trộm cắp tài sản", "isCorrect": false}
+      ],
+      "explanation": "DVI là quy trình chuẩn quốc tế của Interpol dùng để nhận dạng nạn nhân trong các thảm họa quy mô lớn."
+    },
+    {
+      "question": "Hồ sơ nha khoa Ante-mortem (AM) thường được thu thập từ đâu?",
+      "options": [
+        {"text": "Tại hiện trường vụ án", "isCorrect": false},
+        {"text": "Từ các phòng khám nha khoa hoặc bệnh viện mà nạn nhân từng điều trị", "isCorrect": true},
+        {"text": "Tại phòng khám nghiệm tử thi", "isCorrect": false},
+        {"text": "Từ lời khai của bạn bè", "isCorrect": false}
+      ],
+      "explanation": "AM là dữ liệu 'trước khi chết', bao gồm bệnh án, phim X-quang, mẫu hàm lưu trữ tại nơi điều trị cũ."
+    },
+    {
+      "question": "Tại sao răng được coi là 'hộp đen' của cơ thể con người trong pháp y?",
+      "options": [
+        {"text": "Vì răng có màu đen khi bị cháy", "isCorrect": false},
+        {"text": "Vì chúng cực kỳ bền vững với nhiệt độ, hóa chất và sự phân hủy mô mềm", "isCorrect": true},
+        {"text": "Vì răng chứa nhiều thông tin về trí thông minh", "isCorrect": false},
+        {"text": "Vì răng không bao giờ bị mòn", "isCorrect": false}
+      ],
+      "explanation": "Cấu trúc khoáng hóa cao giúp răng tồn tại lâu nhất sau khi chết, bảo vệ các thông tin sinh học bên trong."
+    },
+    {
+      "question": "Phương pháp nào sau đây thuộc kỹ thuật nhân trắc học xương và răng?",
+      "options": [
+        {"text": "So sánh ADN", "isCorrect": false},
+        {"text": "Đo đạc các kích thước hộp sọ, cung hàm và đặc điểm mọc răng", "isCorrect": true},
+        {"text": "Thử nhóm máu", "isCorrect": false},
+        {"text": "Lấy dấu vân tay", "isCorrect": false}
+      ],
+      "explanation": "Nhân trắc học sử dụng các số đo cơ thể để suy đoán các đặc tính sinh học của cá nhân."
+    },
+    {
+      "question": "Thành phần nào trong tủy răng cung cấp nguồn dữ liệu di truyền đáng tin cậy nhất?",
+      "options": [
+        {"text": "Chất khoáng canxi", "isCorrect": false},
+        {"text": "Dây thần kinh đã chết", "isCorrect": false},
+        {"text": "ADN được bảo vệ trong buồng tủy", "isCorrect": true},
+        {"text": "Lớp men răng", "isCorrect": false}
+      ],
+      "explanation": "Buồng tủy răng được bao bọc bởi ngà và men, giúp bảo vệ ADN khỏi tác động tiêu cực của môi trường."
+    },
+    {
+      "question": "Quy trình DVI của Interpol bao gồm mấy giai đoạn?",
+      "options": [
+        {"text": "2 giai đoạn", "isCorrect": false},
+        {"text": "3 giai đoạn", "isCorrect": false},
+        {"text": "4 giai đoạn", "isCorrect": true},
+        {"text": "5 giai đoạn", "isCorrect": false}
+      ],
+      "explanation": "4 giai đoạn bao gồm: Khám nghiệm hiện trường, Thu thập dữ liệu PM, Thu thập dữ liệu AM và Đối chiếu xác nhận."
+    },
+    {
+      "question": "Giai đoạn nào trong quy trình DVI tập trung vào việc thu thập hồ sơ từ các nha sĩ điều trị cũ?",
+      "options": [
+        {"text": "Giai đoạn PM", "isCorrect": false},
+        {"text": "Giai đoạn AM", "isCorrect": true},
+        {"text": "Giai đoạn đối chiếu", "isCorrect": false},
+        {"text": "Giai đoạn khám nghiệm hiện trường", "isCorrect": false}
+      ],
+      "explanation": "Giai đoạn AM (Ante-mortem) là tìm kiếm mọi thông tin về nạn nhân khi còn sống để làm cơ sở so sánh."
+    },
+    {
+      "question": "Khám nghiệm nha khoa PM (Post-mortem) bao gồm công việc gì?",
+      "options": [
+        {"text": "Khám trực tiếp lâm sàng tử thi, chụp X-quang và lấy dấu cung hàm", "isCorrect": true},
+        {"text": "Hỏi tên người nhà nạn nhân", "isCorrect": false},
+        {"text": "Xem chứng minh nhân dân", "isCorrect": false},
+        {"text": "Phân tích tâm lý nạn nhân", "isCorrect": false}
+      ],
+      "explanation": "PM là quy trình ghi nhận hiện trạng bộ răng của tử thi một cách chi tiết để đối chiếu với hồ sơ cũ."
+    },
+    {
+      "question": "Cấp độ nhận dạng 'Tích cực' (Positive Identification) được đưa ra khi nào?",
+      "options": [
+        {"text": "Dữ liệu AM và PM hoàn toàn trùng khớp, không có mâu thuẫn không giải thích được", "isCorrect": true},
+        {"text": "Có vài điểm giống nhưng không chắc chắn", "isCorrect": false},
+        {"text": "Không tìm thấy điểm chung nào", "isCorrect": false},
+        {"text": "Chỉ dựa vào lời kể của gia đình", "isCorrect": false}
+      ],
+      "explanation": "Nhận dạng tích cực khẳng định nạn nhân và hồ sơ AM chắc chắn là cùng một người."
+    },
+    {
+      "question": "Khi dữ liệu AM và PM có những mâu thuẫn cơ bản (ví dụ răng đã nhổ trong AM nhưng vẫn còn trong PM), kết luận sẽ là:",
+      "options": [
+        {"text": "Nhận dạng có khả năng (Possible)", "isCorrect": false},
+        {"text": "Loại trừ (Excluded)", "isCorrect": true},
+        {"text": "Chưa đủ dữ liệu (Insufficient)", "isCorrect": false},
+        {"text": "Nhận dạng tích cực", "isCorrect": false}
+      ],
+      "explanation": "Mâu thuẫn không thể giải thích về mặt nha khoa cho phép loại trừ danh tính một cách tuyệt đối."
+    },
+    {
+      "question": "Tại sao nha sĩ pháp y cần được cơ quan pháp luật cho phép trước khi phẫu tích vùng hàm mặt tử thi?",
+      "options": [
+        {"text": "Để tránh lây bệnh", "isCorrect": false},
+        {"text": "Để đảm bảo quy trình pháp lý và tránh xâm phạm thi thể trái phép khi có cứng khít hàm", "isCorrect": true},
+        {"text": "Để xin kinh phí điều trị", "isCorrect": false},
+        {"text": "Để gia đình không kiện", "isCorrect": false}
+      ],
+      "explanation": "Trong trường hợp tử thi bị co cứng cơ hoặc biến dạng, việc phẫu tích hàm là kỹ thuật xâm lấn cần sự phê chuẩn pháp lý."
+    },
+    {
+      "question": "Dụng cụ Rinn XCP được nhắc đến trong tài liệu dùng để làm gì?",
+      "options": [
+        {"text": "Mài răng", "isCorrect": false},
+        {"text": "Tự giữ phim X-quang khi chụp cho tử thi giúp định vị chính xác", "isCorrect": true},
+        {"text": "Nhổ răng", "isCorrect": false},
+        {"text": "Lấy dấu silicon", "isCorrect": false}
+      ],
+      "explanation": "Rinn XCP là giá giữ phim giúp nha sĩ chụp được những tấm phim X-quang chuẩn mực trên tử thi mà không cần dùng tay giữ."
+    },
+    {
+      "question": "Phim mặt nhai hoặc phim hàm chếch được dùng thay thế phim cận chóp khi nào?",
+      "options": [
+        {"text": "Khi nạn nhân còn sống", "isCorrect": false},
+        {"text": "Khi tử thi bị cứng khít hàm hoặc đang phân hủy mạnh không thể đưa phim vào sâu", "isCorrect": true},
+        {"text": "Khi máy X-quang bị hỏng", "isCorrect": false},
+        {"text": "Khi cần xem sâu răng", "isCorrect": false}
+      ],
+      "explanation": "Đây là các kỹ thuật chụp phim từ bên ngoài hoặc phim khổ lớn để bao quát vùng răng khi khoang miệng khó tiếp cận."
+    },
+    {
+      "question": "Đặc điểm 'răng cửa hình xẻng' (Shovel-shaped incisors) giúp suy đoán điều gì?",
+      "options": [
+        {"text": "Nạn nhân là người già", "isCorrect": false},
+        {"text": "Nạn nhân thuộc chủng tộc Mongoloid (Người Á Đông, Mỹ bản địa)", "isCorrect": true},
+        {"text": "Nạn nhân bị suy dinh dưỡng", "isCorrect": false},
+        {"text": "Nạn nhân hay ăn trầu", "isCorrect": false}
+      ],
+      "explanation": "Đây là biến thể hình thái răng đặc trưng có giá trị cao trong việc xác định chủng tộc."
+    },
+    {
+      "question": "Xác định giới tính qua răng dựa trên đặc điểm nào phổ biến nhất?",
+      "options": [
+        {"text": "Màu sắc men răng", "isCorrect": false},
+        {"text": "Kích thước răng (thường răng nanh nam giới to hơn nữ giới) và chỉ số nhân trắc cung hàm", "isCorrect": true},
+        {"text": "Số lượng lỗ sâu răng", "isCorrect": false},
+        {"text": "Độ mòn mặt nhai", "isCorrect": false}
+      ],
+      "explanation": "Sự khác biệt về kích thước răng (Sexual dimorphism) là cơ sở để dự đoán giới tính nạn nhân."
+    },
+    {
+      "question": "Bất thường nha khoa nào được coi là 'dấu vết cá nhân' quan trọng nhất?",
+      "options": [
+        {"text": "Răng mọc lệch, răng xoay, khoảng thưa hoặc các phục hình đặc biệt", "isCorrect": true},
+        {"text": "Cao răng", "isCorrect": false},
+        {"text": "Màu răng trắng", "isCorrect": false},
+        {"text": "Nướu hồng", "isCorrect": false}
+      ],
+      "explanation": "Những đặc điểm độc bản này giúp phân biệt các cá nhân có cùng công thức răng giống nhau."
+    },
+    {
+      "question": "Việc bảo quản mẫu răng trong pháp y thường dùng dung dịch nào?",
+      "options": [
+        {"text": "Nước muối sinh lý", "isCorrect": false},
+        {"text": "Cồn 70 độ", "isCorrect": false},
+        {"text": "Dung dịch Formalin 10%", "isCorrect": true},
+        {"text": "Nước oxy già", "isCorrect": false}
+      ],
+      "explanation": "Formalin 10% giúp bảo quản cấu trúc mô cứng và mô tủy bên trong răng ổn định lâu dài."
+    },
+    {
+      "question": "Phương pháp nhận dạng nào có tính kinh tế và tốc độ nhanh hơn ADN trong thảm họa?",
+      "options": [
+        {"text": "Dấu vân tay", "isCorrect": false},
+        {"text": "Nhận dạng nha khoa", "isCorrect": true},
+        {"text": "Nhận dạng qua mống mắt", "isCorrect": false},
+        {"text": "Nhận dạng qua giọng nói", "isCorrect": false}
+      ],
+      "explanation": "Nhận dạng nha khoa thường nhanh và ít tốn kém hơn ADN, đặc biệt khi có hồ sơ điều trị cũ tốt."
+    },
+    {
+      "question": "Trong báo cáo pháp nha, kết luận 'Chưa đủ dữ liệu' (Insufficient) có nghĩa là:",
+      "options": [
+        {"text": "Nạn nhân không có răng", "isCorrect": false},
+        {"text": "Hồ sơ AM hoặc PM quá nghèo nàn, không đủ để đưa ra bất kỳ khẳng định nào", "isCorrect": true},
+        {"text": "Gia đình không cho phép", "isCorrect": false},
+        {"text": "Nghi phạm không thừa nhận", "isCorrect": false}
+      ],
+      "explanation": "Khi thông tin quá ít, nha sĩ không thể kết luận tích cực hay loại trừ."
+    },
+    {
+      "question": "Kỹ thuật quét 3D (3D Scanning) mẫu hàm PM giúp ích gì?",
+      "options": [
+        {"text": "In mẫu hàm nhựa để lưu trữ và đối chiếu kỹ thuật số chính xác", "isCorrect": true},
+        {"text": "Tăng độ trắng của răng", "isCorrect": false},
+        {"text": "Nhổ răng ngầm", "isCorrect": false},
+        {"text": "Để nạn nhân trông đẹp hơn", "isCorrect": false}
+      ],
+      "explanation": "Quét 3D bảo tồn bằng chứng ở dạng số hóa, tránh hỏng hóc mẫu thạch cao vật lý."
+    },
+    {
+      "question": "Vết cắn (Bite mark) được ABFO định nghĩa là tổn thương có hình dạng gì?",
+      "options": [
+        {"text": "Hình tam giác", "isCorrect": false},
+        {"text": "Hình tròn hoặc bầu dục bao gồm hai vòng cung hình chữ U đối xứng", "isCorrect": true},
+        {"text": "Vết rách dài", "isCorrect": false},
+        {"text": "Hình vuông", "isCorrect": false}
+      ],
+      "explanation": "Hình chữ U đối xứng phản ánh cấu trúc cung răng của hung thủ."
+    },
+    {
+      "question": "Tại sao phân tích vết cắn hiện nay mang tính chất 'loại trừ' nhiều hơn 'khẳng định'?",
+      "options": [
+        {"text": "Vì răng dễ thay đổi", "isCorrect": false},
+        {"text": "Do tính co giãn và biến dạng của da người không giữ nguyên hình dạng răng", "isCorrect": true},
+        {"text": "Vì nha sĩ không muốn kết tội", "isCorrect": false},
+        {"text": "Vì hung thủ hay đeo khẩu trang", "isCorrect": false}
+      ],
+      "explanation": "Da là vật liệu đàn hồi không ổn định, dẫn đến sai số lớn khi so sánh kích thước vết cắn và mẫu răng."
+    },
+    {
+      "question": "Khoảng cách ICD (Inter-Canine Distance) trong vết cắn là:",
+      "options": [
+        {"text": "Khoảng cách giữa hai răng cửa", "isCorrect": false},
+        {"text": "Khoảng cách giữa hai răng nanh", "isCorrect": true},
+        {"text": "Độ sâu của vết cắn", "isCorrect": false},
+        {"text": "Chiều dài vòm miệng", "isCorrect": false}
+      ],
+      "explanation": "Đo ICD giúp xác định chiều rộng cung hàm của người đã gây ra vết cắn."
+    },
+    {
+      "question": "Nghề nghiệp của nạn nhân có thể được dự đoán qua:",
+      "options": [
+        {"text": "Các vết mòn đặc trưng (thợ may, nghệ sĩ thổi kèn, thợ thủ công)", "isCorrect": true},
+        {"text": "Hàm lượng canxi trong răng", "isCorrect": false},
+        {"text": "Kích thước răng khôn", "isCorrect": false},
+        {"text": "Màu của nướu", "isCorrect": false}
+      ],
+      "explanation": "Thói quen nghề nghiệp sử dụng răng như một công cụ hỗ trợ để lại những vết mòn cơ học đặc thù."
+    },
+    {
+      "question": "Hệ thống phân loại tình trạng răng miệng của Interpol sử dụng màu sắc gì cho dữ liệu PM?",
+      "options": [
+        {"text": "Màu đỏ", "isCorrect": false},
+        {"text": "Màu hồng", "isCorrect": true},
+        {"text": "Màu vàng", "isCorrect": false},
+        {"text": "Màu xanh dương", "isCorrect": false}
+      ],
+      "explanation": "Theo quy định quốc tế DVI, dữ liệu PM được ghi trên các biểu mẫu màu hồng (Pink forms)."
+    },
+    {
+      "question": "Màu sắc biểu mẫu dành cho dữ liệu AM trong quy trình DVI là:",
+      "options": [
+        {"text": "Màu hồng", "isCorrect": false},
+        {"text": "Màu vàng", "isCorrect": true},
+        {"text": "Màu xanh lá", "isCorrect": false},
+        {"text": "Màu trắng", "isCorrect": false}
+      ],
+      "explanation": "Biểu mẫu màu vàng (Yellow forms) được dùng để ghi chép dữ liệu AM thu thập được từ hồ sơ cũ."
+    },
+    {
+      "question": "Trong thảm họa cháy nổ, cấu trúc nào của răng thường bền vững nhất?",
+      "options": [
+        {"text": "Buồng tủy", "isCorrect": false},
+        {"text": "Men răng", "isCorrect": true},
+        {"text": "Dây chằng nha chu", "isCorrect": false},
+        {"text": "Xê-măng chân răng", "isCorrect": false}
+      ],
+      "explanation": "Men răng là mô cứng nhất và chịu nhiệt tốt nhất trong cơ thể người."
+    },
+    {
+      "question": "Xác định tuổi qua răng ở người trưởng thành thường dựa trên:",
+      "options": [
+        {"text": "Sự mọc răng cửa", "isCorrect": false},
+        {"text": "Độ mòn răng, ngà thứ phát và sự thoái hóa nha chu (Phương pháp Gustafson)", "isCorrect": true},
+        {"text": "Màu sắc răng", "isCorrect": false},
+        {"text": "Kích thước xương hàm", "isCorrect": false}
+      ],
+      "explanation": "Ở người lớn, các dấu hiệu thoái hóa sinh học của răng là cơ sở để ước tính tuổi."
+    },
+    {
+      "question": "Tại sao việc chụp ảnh vết cắn cần có thước đo tiêu chuẩn ABFO No.2?",
+      "options": [
+        {"text": "Để ảnh trông chuyên nghiệp", "isCorrect": false},
+        {"text": "Để đảm bảo tỉ lệ xích chính xác 1:1 khi phóng đại ảnh phục vụ đo đạc", "isCorrect": true},
+        {"text": "Để trang trí hiện trường", "isCorrect": false},
+        {"text": "Để biết góc chụp", "isCorrect": false}
+      ],
+      "explanation": "Thước đo chuyên dụng giúp quy đổi kích thước trên ảnh ra kích thước thực tế của vết cắn."
+    },
+    {
+      "question": "Hiện tượng 'Dragmarks' trong vết cắn xảy ra khi nào?",
+      "options": [
+        {"text": "Hung thủ cắn và kéo lê răng trên da nạn nhân khi nạn nhân vùng vẫy", "isCorrect": true},
+        {"text": "Nạn nhân tự cắn mình", "isCorrect": false},
+        {"text": "Khi thi thể bị thối rữa", "isCorrect": false},
+        {"text": "Khi răng bị rụng", "isCorrect": false}
+      ],
+      "explanation": "Dragmarks phản ánh động lực học của hành vi cắn và sự tương tác giữa hung thủ - nạn nhân."
+    },
+    {
+      "question": "Lấy mẫu nước bọt tại vết cắn bằng kỹ thuật 'Double swab' nhằm mục đích:",
+      "options": [
+        {"text": "Rửa sạch vết thương", "isCorrect": false},
+        {"text": "Thu thập tối đa tế bào biểu mô và ADN của hung thủ", "isCorrect": true},
+        {"text": "Làm vết cắn hiện rõ hơn", "isCorrect": false},
+        {"text": "Sát khuẩn cho nạn nhân", "isCorrect": false}
+      ],
+      "explanation": "Kỹ thuật tăm bông kép (ướt và khô) giúp lấy mẫu sinh học hiệu quả nhất từ bề mặt da."
+    },
+    {
+      "question": "Mục đích của việc chụp X-quang tử thi trong nhận dạng là:",
+      "options": [
+        {"text": "Tìm kim loại quý", "isCorrect": false},
+        {"text": "Đối chiếu hình thái chân răng, xoang hàm và các vật liệu phục hình ẩn", "isCorrect": true},
+        {"text": "Điều trị sâu răng", "isCorrect": false},
+        {"text": "Đo độ dày da", "isCorrect": false}
+      ],
+      "explanation": "Phim X-quang cung cấp 'bản đồ nội tâm' của xương hàm mà mắt thường không thấy được."
+    },
+    {
+      "question": "Đối chiếu AM-PM có kết quả 'Có khả năng' (Possible) khi:",
+      "options": [
+        {"text": "Giống nhau hoàn toàn", "isCorrect": false},
+        {"text": "Có các điểm tương đồng cơ bản nhưng dữ liệu AM hoặc PM bị giới hạn, không đủ khẳng định", "isCorrect": true},
+        {"text": "Chỉ giống về nhóm máu", "isCorrect": false},
+        {"text": "Có mâu thuẫn lớn", "isCorrect": false}
+      ],
+      "explanation": "Possible là mức độ nhận dạng có sự trùng khớp nhưng chưa đạt ngưỡng xác thực tuyệt đối."
+    },
+    {
+      "question": "Tại sao nha sĩ pháp y nên giữ nguyên trạng cung hàm tử thi nếu không cần phẫu tích?",
+      "options": [
+        {"text": "Để tiết kiệm thời gian", "isCorrect": false},
+        {"text": "Để gia đình nạn nhân có thể nhận dạng mặt một cách nguyên vẹn nhất", "isCorrect": true},
+        {"text": "Vì xương hàm rất giòn", "isCorrect": false},
+        {"text": "Vì không có dụng cụ", "isCorrect": false}
+      ],
+      "explanation": "Tôn trọng tử thi và bảo tồn diện mạo là nguyên tắc đạo đức trong pháp y."
+    },
+    {
+      "question": "Sự khác biệt giữa 'dấu răng' và 'vết cắn' dựa trên đặc điểm nào?",
+      "options": [
+        {"text": "Dấu răng thường chỉ có 1 cung răng, vết cắn có sự tham gia của cả 2 hàm và lực cơ", "isCorrect": true},
+        {"text": "Dấu răng luôn sâu hơn", "isCorrect": false},
+        {"text": "Vết cắn không bao giờ chảy máu", "isCorrect": false},
+        {"text": "Không có sự khác biệt", "isCorrect": false}
+      ],
+      "explanation": "Vết cắn là kết quả của hành động ngậm hàm chủ động, tạo ra tổn thương phức tạp từ hai cung răng."
+    },
+    {
+      "question": "Trong thảm họa sóng thần, nhận dạng nha khoa gặp khó khăn gì?",
+      "options": [
+        {"text": "Răng bị tan trong nước biển", "isCorrect": false},
+        {"text": "Tử thi bị trôi dạt xa, biến dạng mô mềm và khó thu thập hồ sơ AM từ vùng bị nạn", "isCorrect": true},
+        {"text": "Cơ quan điều tra không cho phép", "isCorrect": false},
+        {"text": "Răng bị rụng hết do nước", "isCorrect": false}
+      ],
+      "explanation": "Thảm họa thiên tai thường phá hủy cả hạ tầng lưu trữ hồ sơ, gây khó khăn cho việc tìm dữ liệu AM."
+    },
+    {
+      "question": "Dấu vết 'Petechial hemorrhage' (xuất huyết điểm) tại trung tâm vết cắn là do:",
+      "options": [
+        {"text": "Nạn nhân bị sốt xuất huyết", "isCorrect": false},
+        {"text": "Áp lực âm khi mút hoặc áp lực nén mạnh từ răng", "isCorrect": true},
+        {"text": "Dị ứng da", "isCorrect": false},
+        {"text": "Nhiễm trùng vết thương", "isCorrect": false}
+      ],
+      "explanation": "Lực cắn/mút mạnh làm vỡ các mao mạch li ti dưới da tạo thành các đốm đỏ."
+    },
+    {
+      "question": "Công nghệ Overlay trong Adobe Photoshop thực hiện so sánh bằng cách nào?",
+      "options": [
+        {"text": "Vẽ lại bằng tay", "isCorrect": false},
+        {"text": "Tạo lớp phủ trong suốt của mặt nhai răng nghi phạm lên ảnh vết cắn", "isCorrect": true},
+        {"text": "Thay đổi màu sắc ảnh", "isCorrect": false},
+        {"text": "Xóa mờ vết thương", "isCorrect": false}
+      ],
+      "explanation": "Kỹ thuật này cho phép quan sát sự trùng khớp về vị trí và hình dáng các răng trên vết cắn một cách trực quan."
+    },
+    {
+      "question": "Việc ghi nhận 'vật liệu trám' (Amalgam, Composite) trong PM giúp gì?",
+      "options": [
+        {"text": "Tính tiền bồi thường", "isCorrect": false},
+        {"text": "Xác định niên đại điều trị và so sánh với hồ sơ AM tại các nha sĩ khác nhau", "isCorrect": true},
+        {"text": "Làm sạch răng tử thi", "isCorrect": false},
+        {"text": "Xác định nhóm máu", "isCorrect": false}
+      ],
+      "explanation": "Sự hiện diện của các loại vật liệu và hình dáng xoang trám là bằng chứng đặc hiệu cho nhận dạng."
+    },
+    {
+      "question": "Phát biểu nào sau đây đúng về 'Hồ sơ nha khoa' trong pháp y?",
+      "options": [
+        {"text": "Chỉ bao gồm công thức răng", "isCorrect": false},
+        {"text": "Là một tập hợp đa dạng các dữ liệu từ phim X-quang, mẫu hàm, ảnh chụp và bệnh án chi tiết", "isCorrect": true},
+        {"text": "Không có giá trị pháp lý", "isCorrect": false},
+        {"text": "Có thể thay thế bằng lời kể của hàng xóm", "isCorrect": false}
+      ],
+      "explanation": "Hồ sơ nha khoa toàn diện là 'chìa khóa' mở ra danh tính của người đã mất."
+    },
+    {
+      "question": "Khi nạn nhân có 'răng giả tháo lắp', nha sĩ pháp y cần kiểm tra điều gì?",
+      "options": [
+        {"text": "Giá tiền của hàm giả", "isCorrect": false},
+        {"text": "Các ký hiệu ghi tên hoặc mã số định danh được khắc trên hàm giả (nếu có)", "isCorrect": true},
+        {"text": "Hàm giả làm bằng nhựa gì", "isCorrect": false},
+        {"text": "Hàm giả có bị mòn không", "isCorrect": false}
+      ],
+      "explanation": "Khắc tên nạn nhân lên hàm giả là một thực hành tốt giúp nhận dạng nhanh chóng người cao tuổi."
+    },
+    {
+      "question": "Ước tính tuổi qua răng ở trẻ em chính xác hơn người lớn vì:",
+      "options": [
+        {"text": "Trẻ em có ít răng hơn", "isCorrect": false},
+        {"text": "Sự phát triển và mọc răng ở trẻ em diễn ra theo các mốc thời gian sinh học rất ổn định", "isCorrect": true},
+        {"text": "Răng trẻ em dễ chụp phim hơn", "isCorrect": false},
+        {"text": "Trẻ em không bị sâu răng", "isCorrect": false}
+      ],
+      "explanation": "Quy luật mọc răng và hình thành chân răng ở trẻ em là một 'đồng hồ sinh học' cực kỳ chính xác."
+    },
+    {
+      "question": "Chỉ số 'Individuality' trong pháp nha đề cập đến:",
+      "options": [
+        {"text": "Tính tập thể của cộng đồng", "isCorrect": false},
+        {"text": "Tính duy nhất của bộ răng ở mỗi cá nhân, không ai giống ai hoàn toàn", "isCorrect": true},
+        {"text": "Sự giống nhau giữa các anh em ruột", "isCorrect": false},
+        {"text": "Khả năng nhai của răng", "isCorrect": false}
+      ],
+      "explanation": "Cũng như vân tay, bộ răng của mỗi người mang những nét riêng biệt do quá trình phát triển và điều trị."
+    },
+    {
+      "question": "Trong thảm họa cháy (như vụ cháy chung cư), nha sĩ pháp y sẽ ưu tiên thu thập gì?",
+      "options": [
+        {"text": "Quần áo nạn nhân", "isCorrect": false},
+        {"text": "Xương hàm và các răng còn sót lại để đối chiếu X-quang", "isCorrect": true},
+        {"text": "Mẫu tóc", "isCorrect": false},
+        {"text": "Ví tiền", "isCorrect": false}
+      ],
+      "explanation": "Trong hỏa hoạn, mô mềm bị tiêu hủy nhưng răng thường vẫn giữ được hình thái để nhận dạng."
+    },
+    {
+      "question": "Kết quả 'Loại trừ' (Excluded) có giá trị gì trong điều trị?",
+      "options": [
+        {"text": "Không có giá trị", "isCorrect": false},
+        {"text": "Rất quan trọng vì giúp cơ quan điều tra dừng tìm kiếm sai hướng và thu hẹp đối tượng", "isCorrect": true},
+        {"text": "Làm nha sĩ mất uy tín", "isCorrect": false},
+        {"text": "Làm gia đình nạn nhân thất vọng", "isCorrect": false}
+      ],
+      "explanation": "Khẳng định một thi thể 'không phải' là người này giúp tập trung nguồn lực vào các hồ sơ khác."
+    },
+    {
+      "question": "Sự thay đổi của răng sau khi chết (PM) có thể bao gồm:",
+      "options": [
+        {"text": "Răng trở nên hồng hơn (Pink teeth) do sự khuếch tán huyết sắc tố", "isCorrect": true},
+        {"text": "Răng tự hàn các lỗ sâu", "isCorrect": false},
+        {"text": "Răng biến thành vàng nguyên chất", "isCorrect": false},
+        {"text": "Răng co lại còn một nửa kích thước", "isCorrect": false}
+      ],
+      "explanation": "Hiện tượng 'răng hồng' là một dấu hiệu PM đặc trưng thường gặp ở các tử thi trong môi trường ẩm ướt."
+    },
+    {
+      "question": "Nha sĩ pháp y thực hiện 'Lấy dấu cung hàm' của nghi phạm nhằm:",
+      "options": [
+        {"text": "Trám răng cho nghi phạm", "isCorrect": false},
+        {"text": "Tạo mẫu hàm đối chiếu với vết cắn trên da nạn nhân", "isCorrect": true},
+        {"text": "Để nghi phạm không chạy trốn", "isCorrect": false},
+        {"text": "Kiểm tra vệ sinh răng miệng", "isCorrect": false}
+      ],
+      "explanation": "Mẫu hàm của nghi phạm là công cụ bắt buộc để thực hiện các phân tích đối chiếu vết cắn."
+    },
+    {
+      "question": "Tại sao phải mô tả 'vị trí các răng bị mất' trong sơ đồ răng PM?",
+      "options": [
+        {"text": "Để tính tiền nhổ răng", "isCorrect": false},
+        {"text": "Vì đây là đặc điểm nhận dạng quan trọng khi so sánh với hồ sơ nhổ răng trong AM", "isCorrect": true},
+        {"text": "Để biết nạn nhân có ăn được không", "isCorrect": false},
+        {"text": "Để lắp răng giả", "isCorrect": false}
+      ],
+      "explanation": "Vị trí răng mất là một trong những đặc điểm dễ đối chiếu nhất giữa AM và PM."
+    },
+    {
+      "question": "Quy trình DVI giai đoạn 4 (Xác nhận danh tính) do ai chủ trì?",
+      "options": [
+        {"text": "Chỉ một nha sĩ", "isCorrect": false},
+        {"text": "Hội đồng chuyên gia đa ngành (Nha sĩ, Bác sĩ pháp y, Cảnh sát dấu vân tay, Chuyên gia ADN)", "isCorrect": true},
+        {"text": "Người dân địa phương", "isCorrect": false},
+        {"text": "Gia đình nạn nhân", "isCorrect": false}
+      ],
+      "explanation": "Quyết định cuối cùng cần sự đồng thuận của nhiều chuyên khoa để đảm bảo độ chính xác tuyệt đối."
+    },
+    {
+      "question": "Khi khám miệng tử thi, nha sĩ pháp y cần ghi nhận tình trạng 'niềng răng' (chỉnh nha) vì:",
+      "options": [
+        {"text": "Để thu tiền mắc cài", "isCorrect": false},
+        {"text": "Các khí cụ chỉnh nha là bằng chứng nhận dạng cực kỳ đặc hiệu và có hồ sơ AM rất chi tiết", "isCorrect": true},
+        {"text": "Mắc cài làm răng đẹp hơn", "isCorrect": false},
+        {"text": "Để tháo mắc cài bán", "isCorrect": false}
+      ],
+      "explanation": "Hồ sơ chỉnh nha luôn có đầy đủ phim, ảnh và mẫu hàm từ giai đoạn đầu, rất thuận lợi cho đối chiếu."
+    },
+    {
+      "question": "Việc 'Lấy mẫu răng' của tử thi (Dental extraction) chỉ thực hiện khi:",
+      "options": [
+        {"text": "Muốn làm sạch tử thi", "isCorrect": false},
+        {"text": "Cần lấy ADN từ tủy hoặc gửi răng đi phân tích tuổi sâu hơn", "isCorrect": true},
+        {"text": "Nạn nhân có răng khểnh", "isCorrect": false},
+        {"text": "Nha sĩ thích sưu tầm răng", "isCorrect": false}
+      ],
+      "explanation": "Nhổ răng trên tử thi là bước thu thập mẫu sinh học phục vụ các xét nghiệm chuyên sâu."
+    },
+    {
+      "question": "Dấu hiệu 'Pink teeth' (Răng hồng) xuất hiện sau khi chết thường liên quan đến tình trạng nào?",
+      "options": [
+        {"text": "Nạn nhân bị ngộ độc thực phẩm", "isCorrect": false},
+        {"text": "Ngạt thở hoặc tử thi nằm trong môi trường ẩm ướt kéo dài", "isCorrect": true},
+        {"text": "Nạn nhân hay đánh răng", "isCorrect": false},
+        {"text": "Sâu răng lan rộng", "isCorrect": false}
+      ],
+      "explanation": "Hồng cầu bị vỡ, giải phóng huyết sắc tố thấm vào các ống ngà tạo nên màu hồng đặc trưng."
+    },
+    {
+      "question": "Trong thảm họa, việc thu thập dữ liệu AM thường bắt đầu từ:",
+      "options": [
+        {"text": "Danh sách hành khách hoặc người đăng ký cư trú", "isCorrect": true},
+        {"text": "Tại hiện trường thảm họa", "isCorrect": false},
+        {"text": "Tại nhà tang lễ", "isCorrect": false},
+        {"text": "Tại hiệu thuốc", "isCorrect": false}
+      ],
+      "explanation": "Bắt đầu từ danh sách 'có khả năng bị nạn' để liên hệ tìm hồ sơ nha khoa tương ứng."
+    },
+    {
+      "question": "Đặc điểm 'răng giả cố định' (cầu răng, mão răng) có giá trị gì trong nhận dạng?",
+      "options": [
+        {"text": "Không có giá trị", "isCorrect": false},
+        {"text": "Giá trị rất cao vì hình dáng và vật liệu là đặc thù của từng labo và nha sĩ thực hiện", "isCorrect": true},
+        {"text": "Chỉ dùng để trang trí", "isCorrect": false},
+        {"text": "Làm tử thi nặng hơn", "isCorrect": false}
+      ],
+      "explanation": "Các phục hình cố định là những bằng chứng vật chất 'vĩnh cửu' hỗ trợ nhận dạng xác định."
+    },
+    {
+      "question": "Nha sĩ pháp y cần làm gì nếu hồ sơ AM và PM giống nhau về công thức răng nhưng khác nhau về hình dáng miếng trám?",
+      "options": [
+        {"text": "Kết luận nhận dạng tích cực ngay", "isCorrect": false},
+        {"text": "Cần thận trọng và giải thích sự khác biệt (có thể do bệnh nhân trám lại răng sau khi có hồ sơ AM)", "isCorrect": true},
+        {"text": "Loại trừ ngay lập tức", "isCorrect": false},
+        {"text": "Bỏ qua hồ sơ đó", "isCorrect": false}
+      ],
+      "explanation": "Nha sĩ phải có tư duy lâm sàng để giải thích những thay đổi logic xảy ra theo thời gian."
+    },
+    {
+      "question": "Công việc nào sau đây là ưu tiên hàng đầu của nha sĩ tại hiện trường thảm họa?",
+      "options": [
+        {"text": "Phân loại tử thi và bảo vệ vùng hàm mặt không bị hư hại thêm", "isCorrect": true},
+        {"text": "Chụp phim X-quang ngay tại chỗ", "isCorrect": false},
+        {"text": "Nhổ răng nạn nhân", "isCorrect": false},
+        {"text": "Xác định tuổi từng người", "isCorrect": false}
+      ],
+      "explanation": "Bảo tồn bằng chứng là bước tiên quyết để các quy trình sau này đạt độ chính xác cao."
+    },
+    {
+      "question": "Tại sao phải ghi nhận cả 'màu sắc các miếng trám Composite' trong PM?",
+      "options": [
+        {"text": "Để cho đẹp", "isCorrect": false},
+        {"text": "Vì bảng màu Composite có thể khớp với hồ sơ lưu trữ tại phòng khám cũ", "isCorrect": true},
+        {"text": "Để biết nạn nhân có thẩm mỹ không", "isCorrect": false},
+        {"text": "Màu sắc không quan trọng", "isCorrect": false}
+      ],
+      "explanation": "Mọi chi tiết nhỏ về vật liệu đều có thể là manh mối nhận dạng quý giá."
+    },
+    {
+      "question": "Khi tử thi bị hỏa táng, phần nào của răng có khả năng được tìm thấy nhiều nhất?",
+      "options": [
+        {"text": "Chân răng và thân răng đã bị nứt vỡ", "isCorrect": true},
+        {"text": "Tủy răng", "isCorrect": false},
+        {"text": "Nướu răng", "isCorrect": false},
+        {"text": "Dây thần kinh", "isCorrect": false}
+      ],
+      "explanation": "Mô cứng của răng tồn tại được dưới nhiệt độ cao, dù có thể bị giòn và vỡ vụn."
+    },
+    {
+      "question": "Tầm quan trọng của việc 'Lấy mẫu dấu răng' trên thực phẩm tại hiện trường là:",
+      "options": [
+        {"text": "Để biết nạn nhân đã ăn gì", "isCorrect": false},
+        {"text": "Để thu thập đặc điểm cung hàm của hung thủ khi vô tình cắn dở vật phẩm", "isCorrect": true},
+        {"text": "Để làm thí nghiệm", "isCorrect": false},
+        {"text": "Không có tác dụng", "isCorrect": false}
+      ],
+      "explanation": "Dấu răng trên vật phẩm là một loại bằng chứng hiện trường quan trọng trong hình sự."
+    },
+    {
+      "question": "Đối chiếu dấu vân tay và nha khoa có điểm chung là gì?",
+      "options": [
+        {"text": "Đều dựa trên sự so sánh dữ liệu cũ (AM) và mới (PM)", "isCorrect": true},
+        {"text": "Đều chỉ dùng được cho người sống", "isCorrect": false},
+        {"text": "Đều rất tốn kém", "isCorrect": false},
+        {"text": "Đều dựa vào màu sắc", "isCorrect": false}
+      ],
+      "explanation": "Cả hai đều là phương pháp nhận dạng đối chiếu dựa trên các đặc điểm duy nhất của cơ thể."
+    },
+    {
+      "question": "Hiện tượng 'răng tự rụng sau khi chết' (Post-mortem tooth loss) cần được phân biệt với:",
+      "options": [
+        {"text": "Răng bị sâu", "isCorrect": false},
+        {"text": "Răng đã bị mất trước khi chết (Antemortem tooth loss - nướu đã lành)", "isCorrect": true},
+        {"text": "Răng mọc ngầm", "isCorrect": false},
+        {"text": "Răng giả", "isCorrect": false}
+      ],
+      "explanation": "Mất răng PM sẽ để lại ổ răng còn sắc cạnh, chưa có dấu hiệu lành xương."
+    },
+    {
+      "question": "Tại sao phải chụp ảnh tử thi ở nhiều góc độ khác nhau?",
+      "options": [
+        {"text": "Để làm kỷ niệm", "isCorrect": false},
+        {"text": "Để ghi nhận đầy đủ các đặc điểm giải phẫu và biến dạng mà một góc chụp không thấy hết", "isCorrect": true},
+        {"text": "Theo yêu cầu của gia đình", "isCorrect": false},
+        {"text": "Để ảnh trông nghệ thuật", "isCorrect": false}
+      ],
+      "explanation": "Dữ liệu hình ảnh đa chiều giúp việc đối chiếu AM-PM trở nên khách quan và toàn diện."
+    },
+    {
+      "question": "Nha sĩ pháp y có vai trò gì trong việc xác định 'nhập cư bất hợp pháp'?",
+      "options": [
+        {"text": "Bắt giữ người vượt biên", "isCorrect": false},
+        {"text": "Giám định tuổi xương và răng để xác định đối tượng là trẻ em hay người lớn", "isCorrect": true},
+        {"text": "Kiểm tra hộ chiếu", "isCorrect": false},
+        {"text": "Dạy tiếng bản địa", "isCorrect": false}
+      ],
+      "explanation": "Xác định tuổi là nhiệm vụ quan trọng để áp dụng các chính sách pháp luật phù hợp cho người nhập cư."
+    },
+    {
+      "question": "Việc sử dụng 'thuốc cản quang' trong phân tích vết cắn nhằm:",
+      "options": [
+        {"text": "Làm sạch vết thương", "isCorrect": false},
+        {"text": "Lấp đầy các vết lõm của răng trên da để hiện rõ hình ảnh trên phim X-quang", "isCorrect": true},
+        {"text": "Giảm đau cho nạn nhân", "isCorrect": false},
+        {"text": "Để chụp ảnh màu", "isCorrect": false}
+      ],
+      "explanation": "Chất cản quang giúp tái hiện lại độ sâu và hình dáng các răng trên phim chụp vết cắn."
+    },
+    {
+      "question": "Chỉ số 'mandibular ICD' đề cập đến:",
+      "options": [
+        {"text": "Khoảng cách hai răng nanh hàm trên", "isCorrect": false},
+        {"text": "Khoảng cách hai răng nanh hàm dưới", "isCorrect": true},
+        {"text": "Chiều rộng cằm", "isCorrect": false},
+        {"text": "Độ mở miệng tối đa", "isCorrect": false}
+      ],
+      "explanation": "Mandibular ICD là thông số của hàm dưới, dùng để đối chiếu với các vết cắn tương ứng."
+    },
+    {
+      "question": "Kết quả cuối cùng của bài học 'Nhận dạng trong nha khoa' nhấn mạnh:",
+      "options": [
+        {"text": "Tầm quan trọng của việc lưu trữ hồ sơ nha khoa đầy đủ và chính xác", "isCorrect": true},
+        {"text": "Kỹ thuật nhổ răng khôn nhanh", "isCorrect": false},
+        {"text": "Cách làm trắng răng tại nhà", "isCorrect": false},
+        {"text": "Quy trình lắp răng giả cho người già", "isCorrect": false}
+      ],
+      "explanation": "Sức mạnh của pháp nha nằm ở dữ liệu đối chiếu; không có hồ sơ AM tốt, việc nhận dạng sẽ vô cùng khó khăn."
+    },
+    {
+      "question": "Tại sao nha sĩ pháp y phải đeo đồ bảo hộ (PPE) khi khám nghiệm tử thi?",
+      "options": [
+        {"text": "Để cho đẹp", "isCorrect": false},
+        {"text": "Ngăn ngừa lây nhiễm các bệnh truyền nhiễm từ tử thi (HIV, viêm gan, vi khuẩn phân hủy)", "isCorrect": true},
+        {"text": "Theo quy định của cảnh sát", "isCorrect": false},
+        {"text": "Để không bị hôi", "isCorrect": false}
+      ],
+      "explanation": "An toàn sinh học là quy tắc bắt buộc trong mọi quy trình khám nghiệm tử thi."
+    },
+    {
+      "question": "Trong quy trình DVI, bộ phận 'Đối chiếu' (Reconciliation) có nhiệm vụ:",
+      "options": [
+        {"text": "Nhổ răng nạn nhân", "isCorrect": false},
+        {"text": "So khớp các dữ liệu AM và PM để đưa ra kết luận về danh tính", "isCorrect": true},
+        {"text": "Chôn cất nạn nhân", "isCorrect": false},
+        {"text": "Báo tin cho gia đình", "isCorrect": false}
+      ],
+      "explanation": "Đây là bước tổng hợp thông tin quan trọng nhất để xác định nạn nhân là ai."
+    },
+    {
+      "question": "Dữ liệu 'đặc điểm khớp cắn' giúp ích gì?",
+      "options": [
+        {"text": "Biết nạn nhân thích ăn gì", "isCorrect": false},
+        {"text": "Xác định các sai lệch khớp cắn đặc thù (hạng II, III, cắn hở) để đối chiếu hồ sơ chỉnh nha", "isCorrect": true},
+        {"text": "Đo lực nhai của tử thi", "isCorrect": false},
+        {"text": "Không có giá trị", "isCorrect": false}
+      ],
+      "explanation": "Tương quan hai hàm là một biến số hình thái quan trọng trong nhận dạng."
+    },
+    {
+      "question": "Khi tìm thấy một chiếc răng đơn lẻ tại hiện trường, nha sĩ pháp y có thể biết được:",
+      "options": [
+        {"text": "Tên của nạn nhân", "isCorrect": false},
+        {"text": "Vị trí răng trên cung hàm, tuổi ước tính và ADN của chủ nhân", "isCorrect": true},
+        {"text": "Địa chỉ nhà nạn nhân", "isCorrect": false},
+        {"text": "Nghề nghiệp cha mẹ nạn nhân", "isCorrect": false}
+      ],
+      "explanation": "Mỗi chiếc răng mang trong mình những thông số sinh học quý giá phục vụ điều tra."
+    },
+    {
+      "question": "Việc sử dụng 'Silicon lấy dấu' trên tử thi yêu cầu:",
+      "options": [
+        {"text": "Sử dụng vật liệu có độ chảy cao để ghi lại chi tiết nhỏ nhất", "isCorrect": true},
+        {"text": "Dùng thạch cao xây dựng", "isCorrect": false},
+        {"text": "Dùng đất sét", "isCorrect": false},
+        {"text": "Không cần lấy dấu", "isCorrect": false}
+      ],
+      "explanation": "Silicon chất lượng cao giúp tái hiện lại cấu trúc răng tử thi một cách hoàn hảo trên mẫu hàm."
+    },
+    {
+      "question": "Sự hiện diện của 'răng khôn' giúp nha sĩ pháp y ước tính tuổi trong khoảng nào?",
+      "options": [
+        {"text": "Dưới 5 tuổi", "isCorrect": false},
+        {"text": "Từ 17 đến 25 tuổi", "isCorrect": true},
+        {"text": "Sau 50 tuổi", "isCorrect": false},
+        {"text": "Lúc mới sinh", "isCorrect": false}
+      ],
+      "explanation": "Quá trình hình thành và mọc răng khôn là mốc quan trọng để xác định độ tuổi thanh thiếu niên."
+    },
+    {
+      "question": "Trong thảm họa quốc tế, ngôn ngữ chung để ghi hồ sơ răng là gì?",
+      "options": [
+        {"text": "Tiếng bản địa", "isCorrect": false},
+        {"text": "Hệ thống ký hiệu răng quốc tế (FDI)", "isCorrect": true},
+        {"text": "Vẽ hình minh họa", "isCorrect": false},
+        {"text": "Tiếng Latin", "isCorrect": false}
+      ],
+      "explanation": "Hệ thống FDI (hai chữ số) được Interpol sử dụng để đảm bảo sự thống nhất dữ liệu toàn cầu."
+    },
+    {
+      "question": "Tầm quan trọng của việc xác định 'thời gian sau khi chết' (PMI) qua tủy răng là:",
+      "options": [
+        {"text": "Xác định thời điểm tử vong dựa trên mức độ phân hủy sinh hóa tủy", "isCorrect": true},
+        {"text": "Biết nạn nhân chết vì bệnh gì", "isCorrect": false},
+        {"text": "Biết nạn nhân có đau không", "isCorrect": false},
+        {"text": "Không xác định được", "isCorrect": false}
+      ],
+      "explanation": "Phân tích các enzyme và ADN trong tủy răng có thể hỗ trợ ước tính PMI."
+    },
+    {
+      "question": "Bất thường 'răng dư' (Supernumerary teeth) có giá trị gì?",
+      "options": [
+        {"text": "Làm tử thi xấu đi", "isCorrect": false},
+        {"text": "Là một đặc điểm hiếm gặp, cực kỳ hữu ích cho nhận dạng tích cực nếu AM có ghi nhận", "isCorrect": true},
+        {"text": "Gây hôi miệng cho tử thi", "isCorrect": false},
+        {"text": "Phải nhổ bỏ ngay", "isCorrect": false}
+      ],
+      "explanation": "Những đặc điểm lệch chuẩn là 'vàng mười' trong công tác nhận dạng nha khoa."
+    },
+    {
+      "question": "Thông điệp chính của bài 2 là gì?",
+      "options": [
+        {"text": "Nhận dạng nha khoa là phương pháp khoa học, tin cậy và không thể thiếu trong pháp y hiện đại", "isCorrect": true},
+        {"text": "Mọi người nên nhổ răng sớm", "isCorrect": false},
+        {"text": "Chụp ảnh nụ cười là đủ để nhận dạng", "isCorrect": false},
+        {"text": "Hồ sơ nha khoa không quan trọng", "isCorrect": false}
+      ],
+      "explanation": "Bài học nhấn mạnh quy trình nghiêm ngặt và giá trị của nha khoa trong việc xác định danh tính con người."
+    }
+  ]

@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gift Card Service – Documentation</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; color: #1a1a2e; background: #f8f9fa; }
+  a { color: #4361ee; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Layout */
+  #sidebar { position: fixed; top: 0; left: 0; width: 260px; height: 100vh; overflow-y: auto; background: #1a1a2e; color: #cdd6f4; padding: 0 0 40px; z-index: 100; }
+  #sidebar h1 { font-size: 13px; font-weight: 700; padding: 18px 16px 14px; color: #fff; background: #16213e; letter-spacing: .5px; border-bottom: 1px solid #0f3460; }
+  #sidebar ul { list-style: none; padding: 8px 0; }
+  #sidebar ul li a { display: block; padding: 6px 16px; color: #a6b3cc; font-size: 12.5px; transition: background .15s; }
+  #sidebar ul li a:hover { background: #16213e; color: #fff; text-decoration: none; }
+  #sidebar .nav-section { padding: 10px 16px 4px; font-size: 10px; font-weight: 700; letter-spacing: 1px; color: #4ade80; text-transform: uppercase; }
+  #sidebar ul li.sub a { padding-left: 28px; font-size: 12px; color: #8899bb; }
+
+  #main { margin-left: 260px; padding: 32px 48px; max-width: 1100px; }
+
+  /* Typography */
+  h1.page-title { font-size: 28px; color: #1a1a2e; border-bottom: 3px solid #4361ee; padding-bottom: 12px; margin-bottom: 8px; }
+  .subtitle { color: #666; margin-bottom: 32px; font-size: 13px; }
+  h2 { font-size: 20px; color: #16213e; margin: 40px 0 14px; padding-bottom: 6px; border-bottom: 2px solid #e2e8f0; }
+  h3 { font-size: 16px; color: #2d3748; margin: 24px 0 10px; }
+  h4 { font-size: 14px; color: #4a5568; margin: 18px 0 8px; font-weight: 600; }
+  p { line-height: 1.7; margin-bottom: 12px; color: #374151; }
+  ul, ol { margin: 8px 0 12px 20px; line-height: 1.8; color: #374151; }
+
+  /* Section cards */
+  .section { background: #fff; border-radius: 10px; padding: 28px 32px; margin-bottom: 28px; box-shadow: 0 1px 4px rgba(0,0,0,.07); border: 1px solid #e8ecf0; }
+  .section-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-bottom: 14px; letter-spacing: .5px; text-transform: uppercase; }
+  .tag-business { background: #dbeafe; color: #1d4ed8; }
+  .tag-arch { background: #dcfce7; color: #166534; }
+  .tag-domain { background: #fef9c3; color: #854d0e; }
+  .tag-rules { background: #fce7f3; color: #9d174d; }
+  .tag-flow { background: #ede9fe; color: #5b21b6; }
+  .tag-api { background: #ffedd5; color: #9a3412; }
+  .tag-db { background: #e0f2fe; color: #075985; }
+  .tag-ops { background: #f0fdf4; color: #14532d; }
+  .tag-gloss { background: #f5f3ff; color: #4c1d95; }
+
+  /* Tables */
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 13px; }
+  th { background: #f1f5f9; color: #1e293b; font-weight: 600; text-align: left; padding: 8px 12px; border: 1px solid #dde3ea; }
+  td { padding: 7px 12px; border: 1px solid #e8ecf0; vertical-align: top; }
+  tr:nth-child(even) td { background: #fafbfc; }
+
+  /* Code */
+  pre { background: #1e293b; color: #e2e8f0; padding: 16px 20px; border-radius: 8px; overflow-x: auto; font-size: 12.5px; line-height: 1.6; margin: 12px 0; }
+  code { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+  p code, li code, td code { background: #f1f5f9; color: #e11d48; padding: 1px 5px; border-radius: 4px; font-size: 12px; }
+
+  /* Warning badge */
+  .warn { display: inline-block; background: #fef3c7; color: #92400e; border: 1px solid #fcd34d; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; font-weight: 600; }
+  .note { background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px 14px; border-radius: 0 6px 6px 0; margin: 12px 0; font-size: 13px; color: #1e40af; }
+  .todo { background: #fff7ed; border-left: 4px solid #f97316; padding: 10px 14px; border-radius: 0 6px 6px 0; margin: 12px 0; font-size: 13px; color: #9a3412; }
+
+  /* State machine */
+  .state-box { background: #1e293b; color: #a5f3fc; padding: 14px 18px; border-radius: 8px; font-family: monospace; font-size: 12.5px; white-space: pre; overflow-x: auto; margin: 12px 0; line-height: 1.7; }
+
+  /* Anchor offset */
+  [id] { scroll-margin-top: 20px; }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    #sidebar { display: none; }
+    #main { margin-left: 0; padding: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<nav id="sidebar">
+  <h1>🎁 Gift Card Service</h1>
+  <div class="nav-section">Knowledge Base</div>
+  <ul>
+    <li><a href="#business">01. Business</a></li>
+    <li class="sub"><a href="#phan-loai">Phân loại Gift Card</a></li>
+    <li class="sub"><a href="#campaign-status">Campaign Status</a></li>
+    <li class="sub"><a href="#user-journey">User Journeys</a></li>
+    <li><a href="#architecture">02. Architecture</a></li>
+    <li class="sub"><a href="#stack">Tech Stack</a></li>
+    <li class="sub"><a href="#entrypoints">Entry Points</a></li>
+    <li class="sub"><a href="#directory">Directory Structure</a></li>
+    <li class="sub"><a href="#headers">HTTP Headers</a></li>
+    <li><a href="#domain">03. Domain / DB</a></li>
+    <li class="sub"><a href="#tables">7 Bảng DB</a></li>
+    <li class="sub"><a href="#state-machines">State Machines</a></li>
+    <li><a href="#rules">04. Business Rules</a></li>
+    <li><a href="#integrations">06. Integrations</a></li>
+    <li class="sub"><a href="#redis-keys">Redis Keys</a></li>
+    <li class="sub"><a href="#kafka">Kafka Consumer</a></li>
+    <li><a href="#operations">07. Operations</a></li>
+    <li><a href="#glossary">08. Glossary</a></li>
+  </ul>
+  <div class="nav-section">Flow Docs</div>
+  <ul>
+    <li><a href="#flow-purchase">Flow 01: Purchase</a></li>
+    <li><a href="#flow-redeem">Flow 02: Redeem</a></li>
+    <li><a href="#flow-topup">Flow 03: Topup</a></li>
+    <li><a href="#flow-expiry">Flow 04: Expiry</a></li>
+    <li><a href="#flow-kafka">Flow 05: Kafka Consumer</a></li>
+    <li><a href="#flow-cron">Flow 06: Cron Worker</a></li>
+    <li><a href="#flow-admin">Flow 07: Admin Ops</a></li>
+    <li><a href="#flow-partner">Flow 08: Partner</a></li>
+  </ul>
+  <div class="nav-section">Reference</div>
+  <ul>
+    <li><a href="#api">API Catalog (28 endpoints)</a></li>
+    <li><a href="#db-schema">DB Schema (SQL)</a></li>
+  </ul>
+</nav>
+
+<div id="main">
+  <h1 class="page-title">Gift Card Service – Full Documentation</h1>
+  <p class="subtitle">Tổng hợp từ knowledge_base + docs/flows + api_catalog + db_schema. Cập nhật: 2026-04-30.</p>
+
+  <!-- ==================== BUSINESS ==================== -->
+  <div class="section" id="business">
+    <span class="section-tag tag-business">01 – Business</span>
+    <h2>Mục tiêu dịch vụ</h2>
+    <p>Gift Card Service quản lý toàn bộ vòng đời của gift card trên nền tảng: từ tạo chiến dịch, bán thẻ (purchase), tặng thẻ cho người khác, đến đổi giá trị (redeem) vào ví. Dịch vụ phục vụ hai nhóm actor chính:</p>
+    <table>
+      <tr><th>Actor</th><th>Mô tả</th></tr>
+      <tr><td><strong>User (UA)</strong></td><td>Người dùng app: mua, nhận, xem, đổi gift card</td></tr>
+      <tr><td><strong>Admin/Internal</strong></td><td>Backoffice quản lý chiến dịch, danh mục, rollback đơn hàng</td></tr>
+    </table>
+
+    <h3 id="phan-loai">Phân loại Gift Card</h3>
+    <table>
+      <tr><th>Loại</th><th><code>item.type</code></th><th>Mô tả</th></tr>
+      <tr><td>Fixed Price</td><td><code>FIXED_PRICE</code></td><td>Mệnh giá cố định (ví dụ: 50.000đ, 100.000đ)</td></tr>
+      <tr><td>Input Price</td><td><code>INPUT_PRICE</code></td><td>Người mua tự nhập số tiền, không có khuyến mãi</td></tr>
+    </table>
+    <p>Mỗi campaign tự động có 1 item kiểu <code>INPUT_PRICE</code> được tạo kèm khi campaign được tạo.</p>
+    <p><strong>Thị trường:</strong> Vietnam (VNM) – currency VND (<code>đ</code>). Cấu trúc sẵn sàng mở rộng (LAK, IDR, PHP) nhưng chưa dùng trong production.</p>
+
+    <h3 id="campaign-status">Trạng thái Campaign (computed, không lưu DB)</h3>
+    <table>
+      <tr><th>Trạng thái</th><th>Điều kiện</th></tr>
+      <tr><td><code>SCHEDULED</code></td><td>display=true + now &lt; start_time</td></tr>
+      <tr><td><code>RUNNING</code></td><td>display=true + start_time ≤ now ≤ end_time</td></tr>
+      <tr><td><code>CLOSED</code></td><td>end_time != nil + now &gt; end_time</td></tr>
+      <tr><td><code>INACTIVE</code></td><td>display=false</td></tr>
+    </table>
+
+    <h3 id="user-journey">Hành trình User</h3>
+    <h4>Purchase Flow</h4>
+    <div class="state-box">[User chọn campaign & item]
+         │
+         ▼
+[Chọn SĐT người nhận] ← nếu chưa có account → tạo user mới
+         │
+         ▼
+[Chọn PTTT] → [Gọi Purchase API]
+         │
+         ├─ Lock distributed (Redis)
+         ├─ Kiểm tra giới hạn mua
+         ├─ Claim promotion (optimistic lock, 3 retry)
+         ├─ Tạo Order (PENDING)
+         ├─ Sinh mã gift card (3 retry)
+         ├─ Insert code_pool (ASSIGNED) + user_codes (ASSIGNED)
+         └─ Gọi Payment Service
+              ├─ SUCCESS → user_codes → AVAILABLE, gửi notification
+              ├─ PROCESSING → cache 10 phút, chờ Kafka
+              └─ FAILED → giữ ASSIGNED, rollback promotion</div>
+
+    <h4>Redeem Flow</h4>
+    <div class="state-box">[User nhấn "Đổi" trên gift card AVAILABLE]
+         │
+         ▼
+[Acquire Redis lock (giftcard:redeem:{userId}:{cardId})]
+         │
+         ▼
+[GetUserGiftCardForUpdate trong transaction]
+         │
+         ▼
+[Gọi Wallet TopUp API]
+         ├─ SUCCESS → status = REDEEMED, ghi history
+         ├─ TIMEOUT → status = REDEEMING (xử lý thủ công)
+         └─ FAILED  → status = REDEEM_FAILED, ghi history</div>
+
+    <h4>Tặng Gift Card (Send to another)</h4>
+    <ul>
+      <li>Người mua nhập SĐT người nhận → tìm profile → hoặc tạo user mới (<code>is_new_redeem_user=true</code>)</li>
+      <li>Sau payment thành công → gửi push notification cho người nhận</li>
+      <li>Người nhận thấy popup khi vào app (<code>redeem_user_confirm=false</code>)</li>
+      <li>Xác nhận popup → <code>redeem_user_confirm=true</code></li>
+      <li>Self-purchase → <code>redeem_user_confirm=true</code> ngay</li>
+    </ul>
+
+    <h4>Home Screen Display</h4>
+    <ol>
+      <li>Lấy vị trí user (lat/lng) → geofence → locationIDs + countryID</li>
+      <li>Tìm campaigns phù hợp location, đang active</li>
+      <li>Lọc theo segment + blacklist</li>
+      <li><strong>Highlight</strong> (priority=0): băng chuyền ngang đầu trang</li>
+      <li><strong>Categories</strong>: nhóm theo danh mục, mỗi category là 1 hàng ngang</li>
+      <li>Kèm theo số lượng gift card AVAILABLE của user</li>
+    </ol>
+  </div>
+
+  <!-- ==================== ARCHITECTURE ==================== -->
+  <div class="section" id="architecture">
+    <span class="section-tag tag-arch">02 – Architecture</span>
+    <h2>Tech Stack</h2>
+    <div id="stack"></div>
+    <table>
+      <tr><th>Thành phần</th><th>Chi tiết</th></tr>
+      <tr><td>Ngôn ngữ</td><td>Go 1.25.5</td></tr>
+      <tr><td>Framework HTTP</td><td>gRPC-Gateway v2 (Gorilla Mux router)</td></tr>
+      <tr><td>gRPC</td><td>google.golang.org/grpc v1.79.3</td></tr>
+      <tr><td>DI</td><td>go.uber.org/fx v1.24.0</td></tr>
+      <tr><td>Database</td><td>PostgreSQL 15 (pgx/v5)</td></tr>
+      <tr><td>Query generator</td><td>sqlc (db/gen/)</td></tr>
+      <tr><td>Migration</td><td>goose</td></tr>
+      <tr><td>Cache</td><td>Redis Cluster (go-redis/v9)</td></tr>
+      <tr><td>Message queue</td><td>Kafka (segmentio/kafka-go)</td></tr>
+      <tr><td>HTTP client</td><td>resty/v2</td></tr>
+      <tr><td>Logger</td><td>zerolog</td></tr>
+      <tr><td>Metrics</td><td>Prometheus (promhttp)</td></tr>
+      <tr><td>Tracing</td><td>OpenTelemetry</td></tr>
+      <tr><td>Cron</td><td>robfig/cron v3</td></tr>
+    </table>
+
+    <h3 id="entrypoints">Entry Points (2 binary)</h3>
+    <pre><code>main.go
+  ├── cmd: giftcard          → GiftcardServerAction (app/giftcard.go)
+  │     • gRPC server + HTTP gateway
+  │     • Background: translate.Subscribe()
+  └── cmd: giftcard_worker   → GiftCardWorkerAction (app/worker.go)
+        • Kafka consumer (payment result)
+        • Cron jobs (timeout orders)</code></pre>
+
+    <h3 id="directory">Directory Structure</h3>
+    <pre><code>be-gift-card-service/
+├── main.go
+├── app/              # fx app wiring (giftcard.go, worker.go)
+├── server/           # gRPC/HTTP setup, worker consumer, cron
+├── handler/          # Business logic
+│   ├── purchase.go
+│   ├── giftcard.go
+│   ├── giftcard_campaign.go
+│   ├── order.go
+│   ├── code_pool.go
+│   ├── category.go
+│   ├── notification.go
+│   ├── worker_consumer.go
+│   └── worker_ordertimeout.go
+├── service/          # External HTTP clients (payment, wallet, auth, ...)
+├── db/
+│   ├── migration/    # goose migration files
+│   ├── query/        # sqlc SQL queries
+│   ├── gen/          # sqlc generated code
+│   └── repo/         # Repository layer (Redis + Postgres)
+├── constants/        # Enums, Redis key constants
+├── types/            # Domain type definitions
+├── config/           # Config struct + loader
+├── utils/            # Code gen, currency, headers
+├── language/         # i18n multi-localizer
+├── api/v1/           # Generated gRPC/protobuf code
+└── pkg/              # Internal packages (kafka, tracing, metrics)</code></pre>
+
+    <h3 id="headers">HTTP Headers forwarded vào gRPC context</h3>
+    <table>
+      <tr><th>Header</th><th>Dùng cho</th></tr>
+      <tr><td><code>X-Request-ID</code></td><td>Trace ID</td></tr>
+      <tr><td><code>X-User-ID</code></td><td>ID người dùng</td></tr>
+      <tr><td><code>X-User-Role</code></td><td>Role</td></tr>
+      <tr><td><code>X-User-Email</code></td><td>Email admin</td></tr>
+      <tr><td><code>X-User-Audience</code></td><td>Audience (user_app, ...)</td></tr>
+      <tr><td><code>X-User-Platform</code></td><td>Platform (ios, android, ...)</td></tr>
+      <tr><td><code>X-User-Country</code></td><td>ISO3 country code</td></tr>
+      <tr><td><code>X-User-Phone</code></td><td>SĐT user</td></tr>
+      <tr><td><code>X-Region-Code</code></td><td>Region code</td></tr>
+      <tr><td><code>X-Region-Code-Iso3</code></td><td>ISO3 country code</td></tr>
+      <tr><td><code>Accept-Language</code></td><td>Ngôn ngữ hiển thị</td></tr>
+    </table>
+
+    <h3>Kafka Topics</h3>
+    <table>
+      <tr><th>Topic</th><th>Direction</th><th>Mục đích</th></tr>
+      <tr><td><code>kafka_payment.topic</code></td><td>Consume</td><td>Nhận kết quả thanh toán từ Payment Service</td></tr>
+    </table>
+    <p>Consumer config: SCRAM-SHA-512 auth, TLS optional, manual commit, worker pool (configurable). Retry tối đa 3 lần, backoff 500ms × attempt.</p>
+
+    <h3>DI Graph (fx)</h3>
+    <pre><code>Config → Redis → Repo → Service → Handler → Server
+                       ↑
+               Language + Translation + UtilRandom</code></pre>
+
+    <h3>Swagger</h3>
+    <p>Chỉ enable khi <code>api_info.debug: true</code>: <code>GET /swagger</code>, <code>GET /docs</code></p>
+  </div>
+
+  <!-- ==================== DOMAIN ==================== -->
+  <div class="section" id="domain">
+    <span class="section-tag tag-domain">03 – Domain / DB</span>
+    <h2>Sơ đồ quan hệ bảng</h2>
+    <div class="state-box">gift_card_categories
+        │ (category_ids array)
+        ▼
+gift_card_campaigns ─────────────────────┐
+        │ campaign_id                    │ campaign_id
+        ▼                                ▼
+gift_card_items ──────────────┐  gift_card_code_pool
+        │ item_id              │   (AVAILABLE / ASSIGNED)
+        ▼                     │
+gift_card_orders ─────────────┘
+        │ order_id
+        ▼
+gift_card_user_codes
+        │ user_code_id
+        ▼
+gift_card_redeem_history</div>
+
+    <h3 id="tables">7 Bảng DB</h3>
+
+    <h4>gift_card_categories</h4>
+    <table>
+      <tr><th>Cột</th><th>Kiểu</th><th>Mô tả</th></tr>
+      <tr><td><code>id</code></td><td>TEXT PK</td><td>UUID</td></tr>
+      <tr><td><code>name</code></td><td>TEXT</td><td>Translation key</td></tr>
+      <tr><td><code>status</code></td><td>TEXT</td><td>ACTIVE / INACTIVE</td></tr>
+      <tr><td><code>priority</code></td><td>INT</td><td>Thứ tự hiển thị (thấp → ưu tiên hơn)</td></tr>
+      <tr><td><code>created_by</code></td><td>TEXT</td><td>Email admin tạo</td></tr>
+    </table>
+
+    <h4>gift_card_campaigns</h4>
+    <table>
+      <tr><th>Cột</th><th>Kiểu</th><th>Mô tả</th></tr>
+      <tr><td><code>id</code></td><td>TEXT PK</td><td>UUID</td></tr>
+      <tr><td><code>name</code></td><td>TEXT</td><td>Translation key</td></tr>
+      <tr><td><code>format_code</code></td><td>TEXT UNIQUE</td><td>Pattern sinh mã (vd: GC####ABXX)</td></tr>
+      <tr><td><code>country_code</code></td><td>TEXT</td><td>ISO3 (vd: VNM)</td></tr>
+      <tr><td><code>location_ids</code></td><td>INT[] GIN</td><td>Đơn vị địa lý</td></tr>
+      <tr><td><code>start_time / end_time</code></td><td>TIMESTAMPTZ</td><td>Thời gian bán (end=null → không giới hạn)</td></tr>
+      <tr><td><code>validity_type</code></td><td>TEXT</td><td>SPECIFIC | AFTER_PURCHASE</td></tr>
+      <tr><td><code>metadata</code></td><td>JSONB</td><td>{usage_time, usage_duration_days}</td></tr>
+      <tr><td><code>priority</code></td><td>INT</td><td>0 = highlight</td></tr>
+      <tr><td><code>limit_purchase_times</code></td><td>INT</td><td>Giới hạn mua/user (null = không giới hạn)</td></tr>
+      <tr><td><code>display_status</code></td><td>BOOL</td><td>true = hiển thị</td></tr>
+      <tr><td><code>user_segment_type</code></td><td>TEXT</td><td>ALL | SPECIFIC</td></tr>
+      <tr><td><code>blacklist_type</code></td><td>TEXT</td><td>NONE | SPECIFIC</td></tr>
+    </table>
+
+    <h4>gift_card_items</h4>
+    <table>
+      <tr><th>Cột</th><th>Kiểu</th><th>Mô tả</th></tr>
+      <tr><td><code>id</code></td><td>TEXT PK</td><td>UUID</td></tr>
+      <tr><td><code>campaign_id</code></td><td>TEXT FK</td><td>Campaign chứa item</td></tr>
+      <tr><td><code>amount</code></td><td>NUMERIC(18,2)</td><td>Mệnh giá</td></tr>
+      <tr><td><code>type</code></td><td>TEXT</td><td>FIXED_PRICE | INPUT_PRICE</td></tr>
+      <tr><td><code>promotion_type</code></td><td>TEXT</td><td>NONE | FIXED_AMOUNT_DISCOUNT | PERCENTAGE_DISCOUNT | BUY_X_GET_Y</td></tr>
+      <tr><td><code>promotion_value</code></td><td>NUMERIC(18,2)</td><td>Giá trị KM</td></tr>
+      <tr><td><code>promotion_gift_card_id</code></td><td>TEXT</td><td>Parent item ID (chỉ ở child BUY_X_GET_Y)</td></tr>
+      <tr><td><code>number_of_used</code></td><td>INT</td><td>Số lần đã dùng promotion</td></tr>
+      <tr><td><code>limited_number_of_usages</code></td><td>INT</td><td>Giới hạn (null/0 = không giới hạn)</td></tr>
+      <tr><td><code>deleted_at</code></td><td>TIMESTAMPTZ</td><td>Soft delete</td></tr>
+    </table>
+
+    <h4>gift_card_orders</h4>
+    <table>
+      <tr><th>Cột</th><th>Kiểu</th><th>Mô tả</th></tr>
+      <tr><td><code>id</code></td><td>TEXT PK</td><td>UUID</td></tr>
+      <tr><td><code>tx_id</code></td><td>TEXT UNIQUE</td><td>ULID – dùng làm order_id với Payment Service</td></tr>
+      <tr><td><code>customer_id</code></td><td>TEXT</td><td>Sender user ID</td></tr>
+      <tr><td><code>amount / paid_amount / discount_amount</code></td><td>NUMERIC(18,2)</td><td>Giá gốc / thực trả / giảm giá</td></tr>
+      <tr><td><code>payment_status</code></td><td>TEXT</td><td>PENDING | PROCESSING | SUCCESS | FAILED | TIMEOUT | REFUNDED</td></tr>
+      <tr><td><code>metadata</code></td><td>JSONB</td><td>{provider_response_code, provider_response_message, payment_detail}</td></tr>
+      <tr><td><code>customer_name</code></td><td>TEXT <span class="warn">⚠ ghost</span></td><td>Tồn tại trong DB nhưng không có trong Go model</td></tr>
+    </table>
+
+    <h4>gift_card_user_codes</h4>
+    <table>
+      <tr><th>Cột</th><th>Kiểu</th><th>Mô tả</th></tr>
+      <tr><td><code>id</code></td><td>TEXT PK</td><td>UUID – dùng làm order_id với Wallet Service</td></tr>
+      <tr><td><code>code</code></td><td>TEXT UNIQUE</td><td>Mã thẻ duy nhất</td></tr>
+      <tr><td><code>value</code></td><td>NUMERIC(18,2)</td><td>Mệnh giá thẻ</td></tr>
+      <tr><td><code>sender_id / sender_phone</code></td><td>TEXT</td><td>Người tặng</td></tr>
+      <tr><td><code>redeem_user_id</code></td><td>TEXT</td><td>Người nhận</td></tr>
+      <tr><td><code>status</code></td><td>TEXT</td><td>ASSIGNED | AVAILABLE | REDEEMING | REDEEMED | REDEEM_FAILED | ROLLBACK</td></tr>
+      <tr><td><code>expires_at</code></td><td>TIMESTAMPTZ</td><td>Hạn dùng</td></tr>
+      <tr><td><code>redeem_user_confirm</code></td><td>BOOL</td><td>Đã xác nhận popup?</td></tr>
+      <tr><td><code>is_new_redeem_user</code></td><td>BOOL</td><td>Người nhận có phải user mới không</td></tr>
+      <tr><td><code>redeem_status</code></td><td>TEXT <span class="warn">⚠ ghost</span></td><td>Không trong migration, không trong Go model</td></tr>
+      <tr><td><code>redeem_user_confirm_status</code></td><td>TEXT <span class="warn">⚠ ghost</span></td><td>Không trong migration, không trong Go model</td></tr>
+    </table>
+
+    <h4>gift_card_code_pool</h4>
+    <table>
+      <tr><th>Cột</th><th>Kiểu</th><th>Mô tả</th></tr>
+      <tr><td><code>id</code></td><td>TEXT PK</td><td>UUID</td></tr>
+      <tr><td><code>code</code></td><td>TEXT UNIQUE</td><td>Mã thẻ</td></tr>
+      <tr><td><code>campaign_id / item_id</code></td><td>TEXT FK</td><td>Liên kết campaign + item</td></tr>
+      <tr><td><code>status</code></td><td>TEXT</td><td>AVAILABLE | ASSIGNED</td></tr>
+    </table>
+    <p>Unique index trên <code>(campaign_id, item_id, code)</code>.</p>
+
+    <h4>gift_card_redeem_history</h4>
+    <table>
+      <tr><th>Cột</th><th>Kiểu</th><th>Mô tả</th></tr>
+      <tr><td><code>id</code></td><td>TEXT PK</td><td>UUID</td></tr>
+      <tr><td><code>user_code_id</code></td><td>TEXT FK</td><td>Thẻ được đổi</td></tr>
+      <tr><td><code>balance_after</code></td><td>BIGINT</td><td>Số dư ví sau topup</td></tr>
+      <tr><td><code>redeem_status</code></td><td>TEXT</td><td>SUCCESS | FAILED | PROCESSING</td></tr>
+    </table>
+
+    <h3 id="state-machines">State Machines</h3>
+    <h4>gift_card_user_codes.status</h4>
+    <div class="state-box">               [Purchase Payment Success]
+                         │
+                         ▼
+         ASSIGNED ──────────────→ AVAILABLE
+             │                        │
+             │ [Payment FAILED/       │ [Redeem]
+             │  CANCELLED]            ▼
+             │               REDEEMING ─→ REDEEMED
+             │                    │
+             │                    └──→ REDEEM_FAILED
+             │
+             └──── [Admin RollbackOrder] ──→ ROLLBACK</div>
+
+    <h4>gift_card_orders.payment_status</h4>
+    <div class="state-box">PENDING → PROCESSING → SUCCESS → REFUNDED (admin rollback)
+                    └─→ FAILED
+                    └─→ TIMEOUT (cron sau 30 phút)</div>
+
+    <h4>Issuance Status (UI only)</h4>
+    <table>
+      <tr><th>payment_status</th><th>issuance_status hiển thị</th></tr>
+      <tr><td>SUCCESS</td><td>SUCCESS</td></tr>
+      <tr><td>Còn lại</td><td>PENDING</td></tr>
+    </table>
+
+    <div class="note">FK Constraints: tất cả đều NO ACTION (không có ON DELETE CASCADE). DB không có triggers, functions, hay CDC setup.</div>
+  </div>
+
+  <!-- ==================== RULES ==================== -->
+  <div class="section" id="rules">
+    <span class="section-tag tag-rules">04 – Business Rules (13 quy tắc)</span>
+    <h2>Business Rules</h2>
+
+    <h3>R01 – Giới hạn số lần mua theo Campaign</h3>
+    <p>Nếu <code>campaign.limit_purchase_times &gt; 0</code>: đếm orders của user có trạng thái <code>SUCCESS</code> hoặc <code>PROCESSING</code>. Nếu <code>count &gt;= limit</code> → lỗi <code>purchase_limit_exceeds</code> (HTTP 400). Không tính FAILED, TIMEOUT, REFUNDED.</p>
+
+    <h3>R02 – Sinh mã thẻ (Code Generation)</h3>
+    <p><strong>Khi Purchase:</strong> Sinh <code>requiredCount × multiplier</code> mã theo <code>format_code</code>. Kiểm tra trùng với DB. Retry tối đa <code>purchase_code_gen_max_retry</code> lần (default: 3). Mã phải duy nhất trong cùng <code>(campaign_id, item_id)</code>.</p>
+    <p><strong>Background Gen:</strong> Duy trì pool <code>code_pool_generate_size</code> mã AVAILABLE. Dùng Redis lock <code>giftcard:gencode:{campaignId}:{itemId}</code> (TTL 5 phút).</p>
+    <p>Pattern format_code: <code>#</code>=digit, <code>@</code>=letter, <code>$</code>=alnum, ký tự khác giữ nguyên.</p>
+
+    <h3>R03 – Promotion Claim với Optimistic Locking</h3>
+    <table>
+      <tr><th>Promotion Type</th><th>Item bị rollback khi FAILED</th></tr>
+      <tr><td>BUY_X_GET_Y</td><td>Child item (promotion item)</td></tr>
+      <tr><td>FIXED_AMOUNT_DISCOUNT</td><td>Item chính (parent)</td></tr>
+      <tr><td>PERCENTAGE_DISCOUNT</td><td>Item chính (parent)</td></tr>
+    </table>
+    <p>Nếu promotion hết lượt → <strong>tự động fallback</strong>: bỏ promotion, tính giá gốc (không báo lỗi user).</p>
+
+    <h3>R04 – Expiry của Gift Card</h3>
+    <table>
+      <tr><th>validity_type</th><th>Cách tính expires_at</th></tr>
+      <tr><td>AFTER_PURCHASE</td><td><code>now + metadata.usage_duration_days * 24h</code></td></tr>
+      <tr><td>SPECIFIC</td><td><code>metadata.usage_time</code> (ngày cố định cho toàn campaign)</td></tr>
+    </table>
+
+    <h3>R05 – Kiểm tra Thẻ Hợp Lệ Khi Redeem</h3>
+    <ol>
+      <li><code>status = AVAILABLE</code></li>
+      <li><code>expires_at &gt; now</code></li>
+      <li><code>redeem_user_id = currentUserId</code></li>
+      <li>Không có lock <code>giftcard:redeem:{userId}:{cardId}</code> đang giữ</li>
+    </ol>
+
+    <h3>R06 – Cập nhật Campaign theo Trạng thái</h3>
+    <table>
+      <tr><th>Trạng thái</th><th>Có thể cập nhật</th></tr>
+      <tr><td>CLOSED</td><td><code>priority</code>, <code>display_status</code></td></tr>
+      <tr><td>RUNNING</td><td><code>image</code>, <code>priority</code>, <code>display_status</code>, <code>user_segment_type/ids</code>, <code>blacklist_type/ids</code></td></tr>
+      <tr><td>SCHEDULED / INACTIVE</td><td>Tất cả các trường + items</td></tr>
+    </table>
+
+    <h3>R07 – Tạo User Mới Cho Người Nhận</h3>
+    <p>Nếu SĐT người nhận không tồn tại: gọi auth-service tạo user mới (<code>aud="user_app"</code>, tên ngẫu nhiên 10 ký tự). <code>is_new_redeem_user=true</code>.</p>
+
+    <h3>R08 – Idempotency khi Purchase (Processing Cache)</h3>
+    <p>Khi payment trả về PROCESSING: lưu Redis key <code>giftcard:purchase:processing:{userId}:{itemId}:{paymentMethodId}</code>, TTL 10 phút. Nếu user gọi lại trong 10 phút → validate rồi trả response từ cache. Nếu price thay đổi hoặc campaign hết hạn → xóa cache, tạo mới.</p>
+
+    <h3>R09 – Rollback Order (Admin)</h3>
+    <p><strong>Điều kiện:</strong> <code>payment_status=SUCCESS</code> và tất cả user_codes ở <code>AVAILABLE</code> hoặc <code>ASSIGNED</code>. Nếu bất kỳ thẻ nào REDEEMED/REDEEMING/REDEEM_FAILED → từ chối. Khi rollback: user_codes → <code>ROLLBACK</code>, order → <code>REFUNDED</code>, xóa Redis cache home.</p>
+
+    <h3>R10 – Notification Màn Home</h3>
+    <p>Ưu tiên: (1) có thẻ nhận trong 3 ngày gần đây → "Bạn vừa nhận thẻ quà tặng từ {sender}"; (2) có thẻ AVAILABLE → "{count} gift card còn lại"; (3) không có thẻ → không hiển thị.</p>
+
+    <h3>R11 – Giới hạn Promotion Thời Gian</h3>
+    <p>Promotion chỉ active nếu: <code>start_time ≤ now ≤ end_time</code> và <code>number_of_used &lt; limited_number_of_usages</code>. Khi hết lượt → tự ẩn (<code>promotion_type=NONE</code>).</p>
+
+    <h3>R12 – Phân khúc User (Segment Filtering)</h3>
+    <ol>
+      <li>Lấy segment IDs của user từ loyalty-service</li>
+      <li>Campaign <code>ALL</code> → hiển thị tất cả</li>
+      <li>Campaign <code>SPECIFIC</code> → chỉ hiển thị nếu user thuộc ít nhất 1 segment trong <code>user_segment_ids</code></li>
+      <li>Blacklist: ẩn nếu user thuộc <code>blacklist_segment_ids</code></li>
+    </ol>
+
+    <h3>R13 – Idempotency Redeem Lock</h3>
+    <p>Redis distributed lock <code>giftcard:redeem:{userId}:{cardId}</code> (TTL 1 phút): ngăn double-redeem. Nếu lock đang giữ → HTTP 429 <code>redeem_in_progress</code>.</p>
+  </div>
+
+  <!-- ==================== INTEGRATIONS ==================== -->
+  <div class="section" id="integrations">
+    <span class="section-tag tag-arch">06 – Integrations</span>
+    <h2>External Services (7 services)</h2>
+
+    <h3>1. Payment Service</h3>
+    <table>
+      <tr><th>Method</th><th>Endpoint</th><th>Mục đích</th></tr>
+      <tr><td>POST</td><td><code>/v1/internal/api/pay</code></td><td>Thanh toán đơn hàng</td></tr>
+      <tr><td>GET</td><td><code>/v1/internal/api/user-payment-method/{id}</code></td><td>Lấy chi tiết PTTT</td></tr>
+      <tr><td>POST</td><td><code>/v1/internal/api/refund</code></td><td>Hoàn tiền</td></tr>
+    </table>
+    <p>Pay response: <code>status: PROCESSING|SUCCESS|FAILED</code>. Timeout → order PROCESSING (chờ Kafka). Lỗi khác → FAILED.</p>
+
+    <h3>2. Wallet Service</h3>
+    <table>
+      <tr><th>Method</th><th>Endpoint</th><th>Mục đích</th></tr>
+      <tr><td>POST</td><td><code>/v1/internal/api/wallet/pay</code></td><td>TopUp tiền vào ví (khi redeem)</td></tr>
+    </table>
+    <p>Timeout → <code>REDEEMING/PROCESSING</code>. Lỗi khác → <code>REDEEM_FAILED</code>. Thành công → <code>REDEEMED</code> + <code>balance_after</code>.</p>
+
+    <h3>3. Auth Service</h3>
+    <table>
+      <tr><th>Method</th><th>Endpoint</th><th>Mục đích</th></tr>
+      <tr><td>GET</td><td><code>/v1/internal/user</code></td><td>Lấy user theo id/phone/aud</td></tr>
+      <tr><td>POST</td><td><code>/v1/internal/user/create</code></td><td>Tạo user mới</td></tr>
+    </table>
+
+    <h3>4. Account Service</h3>
+    <table>
+      <tr><th>Method</th><th>Endpoint</th><th>Mục đích</th></tr>
+      <tr><td>GET</td><td><code>/v1/internal/user/profile/{userID}</code></td><td>Lấy profile user theo ID</td></tr>
+      <tr><td>POST</td><td><code>/v1/internal/user/profile/by-phones</code></td><td>Lấy profiles theo danh sách SĐT</td></tr>
+    </table>
+
+    <h3>5. Geofence Service</h3>
+    <table>
+      <tr><th>Method</th><th>Endpoint</th><th>Mục đích</th></tr>
+      <tr><td>GET</td><td><code>/v1/internal/feature/search?locations={lng},{lat}</code></td><td>Tìm units từ tọa độ</td></tr>
+      <tr><td>GET</td><td><code>/v1/internal/country/code/{countryCode}</code></td><td>Lấy tên quốc gia</td></tr>
+    </table>
+
+    <h3>6. Loyalty Service</h3>
+    <table>
+      <tr><th>Method</th><th>Endpoint</th><th>Mục đích</th></tr>
+      <tr><td>GET</td><td><code>/v1/internal/api/customer/segments</code></td><td>Lấy segment IDs của user</td></tr>
+    </table>
+
+    <h3>7. Notification Service</h3>
+    <p>POST gửi push notification khi gift card được nhận. Chạy trong goroutine riêng (không block response).</p>
+    <pre><code>{
+  "recipients": [{"type": "user_id", "identity": "{redeemUserId}"}],
+  "data": {
+    "title": "Bạn nhận được quà từ {senderName}!",
+    "data": { "type": "gift-card", "popup_card_id": "{userCodeId}" }
+  }
+}</code></pre>
+
+    <h3 id="redis-keys">Redis Keys</h3>
+    <table>
+      <tr><th>Key Pattern</th><th>TTL</th><th>Mục đích</th></tr>
+      <tr><td><code>home_gift_card:{userId}:{countryCode}</code></td><td>12 giờ</td><td>Cache danh sách gift card ở home</td></tr>
+      <tr><td><code>redeem_user_confirm:{userId}</code></td><td>7 ngày</td><td>Set ID các thẻ đã confirm popup</td></tr>
+      <tr><td><code>giftcard:purchase:{userId}:{itemId}</code></td><td>1 phút</td><td>Distributed lock khi purchase</td></tr>
+      <tr><td><code>giftcard:redeem:{userId}:{cardId}</code></td><td>1 phút</td><td>Distributed lock khi redeem</td></tr>
+      <tr><td><code>giftcard:gencode:{campaignId}:{itemId}</code></td><td>5 phút</td><td>Lock background code gen</td></tr>
+      <tr><td><code>giftcard:purchase:processing:{userId}:{itemId}:{pmId}</code></td><td>10 phút*</td><td>Idempotency cache khi PROCESSING</td></tr>
+    </table>
+
+    <h3 id="kafka">Kafka Consumer Config</h3>
+    <table>
+      <tr><th>Field</th><th>Mô tả</th></tr>
+      <tr><td><code>brokers</code></td><td>Kafka brokers list</td></tr>
+      <tr><td><code>topic</code></td><td>Topic nhận payment result</td></tr>
+      <tr><td><code>consumer_group_id</code></td><td>Consumer group</td></tr>
+      <tr><td><code>worker_count</code></td><td>Số goroutines xử lý song song</td></tr>
+      <tr><td><code>CommitInterval</code></td><td>0 → manual commit</td></tr>
+    </table>
+    <p>Kafka message <code>order_id</code> = <code>tx_id</code> trong bảng <code>gift_card_orders</code> (ULID).</p>
+  </div>
+
+  <!-- ==================== OPERATIONS ==================== -->
+  <div class="section" id="operations">
+    <span class="section-tag tag-ops">07 – Operations</span>
+    <h2>Cron Jobs</h2>
+    <h3>ProcessTimeoutOrders</h3>
+    <table>
+      <tr><th>Thuộc tính</th><th>Giá trị</th></tr>
+      <tr><td>Schedule default</td><td><code>0 */5 * * * *</code> (mỗi 5 phút)</td></tr>
+      <tr><td>timeout_minutes</td><td>30 phút</td></tr>
+      <tr><td>limit</td><td>100 orders/lần</td></tr>
+    </table>
+    <p>Luồng: chọn orders PROCESSING quá timeout → UPDATE TIMEOUT (atomic CTE) → gọi Refund API → rollback promotion nếu có. Dùng <code>FOR UPDATE SKIP LOCKED</code>.</p>
+
+    <h2>Admin Endpoints</h2>
+    <table>
+      <tr><th>Nhóm</th><th>Endpoints</th></tr>
+      <tr><td>Category</td><td>ListCategories, CreateCategory, UpdateCategory</td></tr>
+      <tr><td>Campaign</td><td>ListGiftcardCampaigns, GiftcardCampaignDetail, CheckFormatCodeCampaign, CreateGiftcardCampaign, UpdateGiftcardCampaign</td></tr>
+      <tr><td>Order</td><td>ListOrders, OrderDetail (stub), ExportOrder (stub), RollbackOrder</td></tr>
+      <tr><td>Gift Card</td><td>DeleteGiftcard</td></tr>
+      <tr><td>Code Pool</td><td>CountCodePool, TriggerGenCode (async)</td></tr>
+    </table>
+
+    <h2>Error Codes</h2>
+    <table>
+      <tr><th>gRPC</th><th>HTTP</th><th>Trigger</th></tr>
+      <tr><td>InvalidArgument</td><td>400</td><td>Bad request</td></tr>
+      <tr><td>Unauthenticated</td><td>401</td><td>Missing/invalid auth</td></tr>
+      <tr><td>PermissionDenied</td><td>403</td><td>Forbidden</td></tr>
+      <tr><td>NotFound</td><td>404</td><td>Resource not found</td></tr>
+      <tr><td>AlreadyExists</td><td>409</td><td>Duplicate format_code</td></tr>
+      <tr><td>ResourceExhausted</td><td>429</td><td>Rate limit / purchase_limit_exceeds / lock</td></tr>
+      <tr><td>Internal</td><td>500</td><td>Server error</td></tr>
+    </table>
+
+    <h3>Error Message Keys (i18n)</h3>
+    <table>
+      <tr><th>Key</th><th>Tình huống</th></tr>
+      <tr><td><code>purchase_limit_exceeds</code></td><td>Vượt giới hạn mua</td></tr>
+      <tr><td><code>purchase_in_progress</code></td><td>Lock purchase đang giữ</td></tr>
+      <tr><td><code>redeem_in_progress</code></td><td>Lock redeem đang giữ</td></tr>
+      <tr><td><code>order_payment_status_not_success</code></td><td>Rollback order không ở SUCCESS</td></tr>
+      <tr><td><code>user_code_status_not_available</code></td><td>Rollback nhưng thẻ đã dùng</td></tr>
+      <tr><td><code>giftcard_campaign_not_found</code></td><td>Campaign không tồn tại</td></tr>
+      <tr><td><code>giftcard_item_campaign_id_mismatch</code></td><td>Item không thuộc campaign</td></tr>
+      <tr><td><code>conflict_error</code></td><td>format_code trùng</td></tr>
+    </table>
+
+    <h3>Thêm Cron Job mới</h3>
+    <ol>
+      <li>Thêm struct config vào <code>config/config.go</code></li>
+      <li>Thêm config vào <code>config/config.yml</code></li>
+      <li>Register job trong <code>server/worker_cronjob.go</code></li>
+      <li>Implement logic trong <code>handler/</code></li>
+    </ol>
+    <p><strong>Best practices:</strong> luôn check <code>enabled</code> flag, dùng <code>tracing.ContextWithTraceID</code>, dùng <code>FOR UPDATE SKIP LOCKED</code>, job phải idempotent.</p>
+  </div>
+
+  <!-- ==================== GLOSSARY ==================== -->
+  <div class="section" id="glossary">
+    <span class="section-tag tag-gloss">08 – Glossary</span>
+    <h2>Thuật ngữ Domain</h2>
+    <table>
+      <tr><th>Thuật ngữ</th><th>Định nghĩa</th></tr>
+      <tr><td>Campaign</td><td>Chiến dịch bán gift card. Nhiều items (mệnh giá).</td></tr>
+      <tr><td>Item</td><td>Một mệnh giá cụ thể trong campaign. Có thể có promotion.</td></tr>
+      <tr><td>Parent Item</td><td>Item chính (<code>promotion_gift_card_id = null</code>).</td></tr>
+      <tr><td>Child Item</td><td>Item phụ BUY_X_GET_Y (<code>promotion_gift_card_id = parentId</code>).</td></tr>
+      <tr><td>Code</td><td>Mã thẻ duy nhất sinh theo <code>format_code</code>.</td></tr>
+      <tr><td>Code Pool</td><td>Bảng mã thẻ sinh sẵn (<code>gift_card_code_pool</code>).</td></tr>
+      <tr><td>User Code</td><td>Thẻ gán cho người nhận (<code>gift_card_user_codes</code>).</td></tr>
+      <tr><td>Order</td><td>Đơn hàng khi mua gift card (<code>gift_card_orders</code>).</td></tr>
+      <tr><td>Redeem</td><td>Đổi gift card lấy tiền vào ví (topup wallet).</td></tr>
+      <tr><td>Sender</td><td>Người mua gift card, có thể tặng người khác.</td></tr>
+      <tr><td>Recipient / Redeem User</td><td>Người nhận và sử dụng gift card.</td></tr>
+      <tr><td>Validity Type</td><td>SPECIFIC (ngày cố định) hoặc AFTER_PURCHASE (N ngày sau mua).</td></tr>
+      <tr><td>Format Code</td><td>Pattern sinh mã, unique per campaign. Vd: <code>GC####ABXX</code>.</td></tr>
+      <tr><td>Issuance Status</td><td>Trạng thái phát hành (UI-only), tính từ payment_status.</td></tr>
+    </table>
+
+    <h3>Config Flags đặc biệt</h3>
+    <table>
+      <tr><th>Flag</th><th>Mô tả</th></tr>
+      <tr><td><code>giftcard.payment_async_enable</code></td><td>Bật chế độ thanh toán async</td></tr>
+      <tr><td><code>giftcard.code_pool_generate_size</code></td><td>Số mã sinh sẵn mỗi lần (default: 100)</td></tr>
+      <tr><td><code>giftcard.code_pool_max_retry</code></td><td>Retry khi gen code thất bại (default: 3)</td></tr>
+      <tr><td><code>giftcard.purchase_code_gen_max_retry</code></td><td>Retry sinh mã khi purchase (default: 3)</td></tr>
+      <tr><td><code>giftcard.purchase_code_gen_multiplier</code></td><td>Hệ số overshoot khi sinh mã (default: 10x)</td></tr>
+      <tr><td><code>giftcard.purchase_processing_lock_ttl</code></td><td>TTL idempotency cache PROCESSING (default: 10 phút)</td></tr>
+      <tr><td><code>api_info.debug</code></td><td>Bật Swagger UI</td></tr>
+    </table>
+
+    <h3>Currency Mapping</h3>
+    <table>
+      <tr><th>Country Code</th><th>ISO3</th><th>Currency</th><th>Symbol</th></tr>
+      <tr><td>VN</td><td>VNM</td><td>VND</td><td>đ</td></tr>
+      <tr><td>(Lào)</td><td>–</td><td>LAK</td><td>₭ (chưa dùng)</td></tr>
+      <tr><td>(Indonesia)</td><td>–</td><td>IDR</td><td>Rp (chưa dùng)</td></tr>
+      <tr><td>(Philippines)</td><td>–</td><td>PHP</td><td>₱ (chưa dùng)</td></tr>
+    </table>
+
+    <h3>UA List GiftCard Categories (tabs)</h3>
+    <table>
+      <tr><th>Tab</th><th>Điều kiện</th></tr>
+      <tr><td>AVAILABLE</td><td>status=AVAILABLE + expires_at &gt; now</td></tr>
+      <tr><td>GIFTED</td><td>sender_id=userId, status ≠ ASSIGNED</td></tr>
+      <tr><td>REDEEMED</td><td>redeem_user_id=userId, status=REDEEMED</td></tr>
+      <tr><td>EXPIRED</td><td>redeem_user_id=userId, expires_at &lt;= now</td></tr>
+    </table>
+  </div>
+
+  <!-- ==================== FLOW 01: PURCHASE ==================== -->
+  <div class="section" id="flow-purchase">
+    <span class="section-tag tag-flow">Flow 01 – Purchase</span>
+    <h2>Purchase Flow (Mua Gift Card)</h2>
+    <p><strong>Entry:</strong> <code>handler/purchase.go:Purchase()</code> | <strong>HTTP:</strong> <code>POST /v1/public/purchase</code></p>
+
+    <h3>Pre-conditions</h3>
+    <ul>
+      <li>User đã xác thực (<code>X-User-ID</code> hợp lệ)</li>
+      <li>Campaign đang RUNNING</li>
+      <li>Item tồn tại và không bị xóa</li>
+      <li>Payment method ID hợp lệ</li>
+    </ul>
+
+    <h3>Bước 1 – Lấy context user</h3>
+    <p>Đọc <code>X-User-ID</code>, <code>X-User-Country</code>. Gọi Account Service <code>GET /v1/internal/user/profile/{userID}</code>.</p>
+
+    <h3>Bước 2 – Acquire distributed lock</h3>
+    <p>Redis key: <code>giftcard:purchase:{userId}:{itemId}</code> (TTL 1 phút). SetNX – nếu đang giữ → 429 <code>purchase_in_progress</code>.</p>
+
+    <h3>Bước 3 – Idempotency cache (PROCESSING)</h3>
+    <p>Check Redis key <code>giftcard:purchase:processing:{userId}:{itemId}:{paymentMethodId}</code>. Nếu tồn tại: validate lại → trả cache hoặc xóa cache + tạo mới.</p>
+
+    <h3>Bước 4 – preparePurchaseState</h3>
+    <ul>
+      <li><strong>4a:</strong> ensureRecipient – tìm/tạo người nhận qua Account/Auth Service</li>
+      <li><strong>4b:</strong> loadCampaignAndItems – load campaign, item, child items, lọc promotion, tính giá</li>
+      <li><strong>4c:</strong> checkLimitPurchaseTimes – kiểm tra R01</li>
+      <li><strong>4d:</strong> resolvePaymentMethod – gọi Payment Service lấy PTTT</li>
+      <li><strong>4e – Transaction DB (retry tối đa 3 nếu duplicate code):</strong>
+        <ol>
+          <li>IncrementPromotionUsageWithLimit (optimistic lock)</li>
+          <li>CreateGiftCardOrder (status=PENDING, tx_id=ULID)</li>
+          <li>generateAndValidateCodes (sinh mã theo format_code)</li>
+          <li>BulkCreateCodePools (ASSIGNED) + BatchInsertGiftCardUserCodes (ASSIGNED)</li>
+        </ol>
+      </li>
+    </ul>
+
+    <h3>Bước 5 – Gọi Payment</h3>
+    <table>
+      <tr><th>Kết quả Payment</th><th>order.payment_status</th><th>user_codes.status</th><th>Hành động thêm</th></tr>
+      <tr><td>SUCCESS</td><td>SUCCESS</td><td>AVAILABLE</td><td>Gửi notification (nếu gift ≠ self)</td></tr>
+      <tr><td>PROCESSING / timeout</td><td>PROCESSING</td><td>ASSIGNED</td><td>Cache idempotency 10 phút</td></tr>
+      <tr><td>FAILED / lỗi khác</td><td>FAILED</td><td>ASSIGNED</td><td>Không làm gì</td></tr>
+    </table>
+    <p>Nếu SUCCESS + sender == recipient: <code>redeem_user_confirm=true</code> ngay.</p>
+    <p>Xóa Redis cache: <code>home_gift_card:{recipientId}:{countryCode}</code></p>
+
+    <h3>Bước 6 – Gửi Notification (async goroutine)</h3>
+    <p>Chỉ khi sender ≠ recipient. Mỗi userCodeId → 1 push notification với <code>popup-card-id</code>.</p>
+
+    <h3>External Service Calls</h3>
+    <table>
+      <tr><th>Service</th><th>Khi nào</th></tr>
+      <tr><td>Account Service – GET profile by ID</td><td>Luôn luôn (sender profile)</td></tr>
+      <tr><td>Account Service – POST by phones</td><td>Luôn luôn (tìm recipient)</td></tr>
+      <tr><td>Auth Service – POST create user</td><td>Khi recipient chưa có account</td></tr>
+      <tr><td>Payment Service – GET payment method</td><td>Luôn luôn</td></tr>
+      <tr><td>Payment Service – POST pay</td><td>Luôn luôn</td></tr>
+      <tr><td>Notification Service – POST send</td><td>SUCCESS + sender ≠ recipient</td></tr>
+    </table>
+  </div>
+
+  <!-- ==================== FLOW 02: REDEEM ==================== -->
+  <div class="section" id="flow-redeem">
+    <span class="section-tag tag-flow">Flow 02 – Redeem</span>
+    <h2>Redeem Flow (Đổi Gift Card lấy tiền ví)</h2>
+    <p><strong>Entry:</strong> <code>handler/giftcard.go:UAGiftcardRedeem()</code> | <strong>HTTP:</strong> <code>GET /v1/public/giftcards/redemptions/{id}</code></p>
+    <div class="note">Không có "topup/reload gift card" – gift card là single-use. "Topup" ở đây nghĩa là nạp giá trị thẻ vào ví wallet khi redeem.</div>
+
+    <h3>Bước 1-2 – Lock</h3>
+    <p>Redis lock <code>giftcard:redeem:{userId}:{cardId}</code> (TTL 1 phút). Nếu đang giữ → 429.</p>
+
+    <h3>Bước 3 – Transaction DB</h3>
+    <p><strong>GetUserGiftCardForUpdate:</strong></p>
+    <pre><code>SELECT uc.*, o.tx_id, o.id as order_id
+FROM gift_card_user_codes uc
+JOIN gift_card_orders o ON uc.order_id = o.id
+WHERE uc.id = $1
+  AND uc.status = 'AVAILABLE'
+  AND now() < uc.expires_at
+FOR UPDATE OF uc SKIP LOCKED</code></pre>
+    <p>Kiểm tra <code>userId == giftCard.redeem_user_id</code>. Gọi Wallet TopUp.</p>
+    <table>
+      <tr><th>Wallet Response</th><th>userCodeStatus</th><th>topUpStatus</th></tr>
+      <tr><td>Thành công</td><td>REDEEMED</td><td>SUCCESS</td></tr>
+      <tr><td>Timeout</td><td>REDEEMING</td><td>PROCESSING</td></tr>
+      <tr><td>Lỗi khác</td><td>REDEEM_FAILED</td><td>FAILED</td></tr>
+    </table>
+    <div class="todo">REDEEMING và REDEEM_FAILED chưa có cơ chế auto retry. Cần xử lý thủ công.</div>
+
+    <h3>Bước 4 – Ghi Redeem History</h3>
+    <p>INSERT vào <code>gift_card_redeem_history</code> (ngoài transaction, bất kể thành/thất bại).</p>
+
+    <h3>Bước 5-6 – Xóa cache + Response</h3>
+    <p>Xóa <code>home_gift_card:{userId}:{countryCode}</code>. Trả về <code>{balance_after, order_id, name}</code>.</p>
+
+    <h3>UAListGiftcards (4 tabs)</h3>
+    <table>
+      <tr><th>Tab</th><th>Điều kiện query</th></tr>
+      <tr><td>AVAILABLE</td><td>redeem_user_id=userId, status=AVAILABLE, expires_at &gt; now</td></tr>
+      <tr><td>GIFTED</td><td>sender_id=userId, status ≠ ASSIGNED</td></tr>
+      <tr><td>REDEEMED</td><td>redeem_user_id=userId, status=REDEEMED</td></tr>
+      <tr><td>EXPIRED</td><td>redeem_user_id=userId, expires_at &lt;= now</td></tr>
+    </table>
+
+    <h3>UAConfirmPopupGiftCard</h3>
+    <p><code>POST /v1/public/giftcards/confirm/{id}</code>: check ownership → <code>redeem_user_confirm=true</code> → Redis SAdd → trả <code>popup_card_id</code> tiếp theo.</p>
+  </div>
+
+  <!-- ==================== FLOW 04: EXPIRY ==================== -->
+  <div class="section" id="flow-topup">
+    <span class="section-tag tag-flow">Flow 03 – Topup Clarification</span>
+    <h2>Giải thích "Topup" trong Gift Card Service</h2>
+    <p><strong>Không có</strong> tính năng "Topup / Reload Gift Card". Gift card là single-use, one-time value.</p>
+    <p>"Topup" trong codebase = <code>service/wallet.go:TopUp()</code> = nạp giá trị gift card vào ví wallet khi user redeem. Không phải nạp tiền từ ngoài vào thẻ.</p>
+  </div>
+
+  <div class="section" id="flow-expiry">
+    <span class="section-tag tag-flow">Flow 04 – Expiry</span>
+    <h2>Expiry (Hết hạn Gift Card)</h2>
+    <div class="note">Không có cron job riêng cho expiry. Thẻ hết hạn thụ động – <code>expires_at</code> được set khi mua, các query tự filter <code>expires_at &gt; now()</code>. Không có trạng thái EXPIRED trong DB.</div>
+
+    <h3>Tính expires_at lúc Purchase</h3>
+    <table>
+      <tr><th>validity_type</th><th>Tính toán</th></tr>
+      <tr><td>AFTER_PURCHASE</td><td><code>time.Now().AddDate(0, 0, metadata.UsageDurationDays)</code></td></tr>
+      <tr><td>SPECIFIC</td><td><code>metadata.UsageTime</code> (cố định cho toàn campaign)</td></tr>
+    </table>
+
+    <h3>Thẻ hết hạn được filter ra sao</h3>
+    <ul>
+      <li><strong>Redeem:</strong> <code>AND now() &lt; uc.expires_at</code> trong GetUserGiftCardForUpdate → 0 row → lỗi</li>
+      <li><strong>Home screen:</strong> <code>CountUserCodesByStatus(NotExpired: true)</code></li>
+      <tr><td><strong>UAListGiftcards tab EXPIRED:</strong></td><td><code>expires_at &lt;= now</code></td></tr>
+    </ul>
+
+    <h3>Không có cron job expiry</h3>
+    <p>Hệ thống không có cron job: đổi status thẻ sang EXPIRED, thu hồi thẻ hết hạn, hay gửi notification sắp hết hạn. Thẻ AVAILABLE đã hết hạn: không thể redeem, vẫn hiển thị trong tab EXPIRED, không bị xóa khỏi DB.</p>
+  </div>
+
+  <!-- ==================== FLOW 05: KAFKA ==================== -->
+  <div class="section" id="flow-kafka">
+    <span class="section-tag tag-flow">Flow 05 – Kafka Consumer</span>
+    <h2>ProcessPaymentStatus (Kafka)</h2>
+    <p><strong>Entry:</strong> <code>server/worker_consumer.go</code> | <strong>Handler:</strong> <code>handler/worker_consumer.go:ProcessPaymentStatus()</code></p>
+
+    <h3>Kiến trúc Worker Pool</h3>
+    <div class="state-box">Kafka Broker
+    │  FetchMessage
+    ▼
+consumeLoop → messageChan (buffered: workerCount×5)
+    ├── workerLoop #0 → ProcessPaymentStatus (3 retries)
+    ├── workerLoop #1
+    └── workerLoop #N
+              │
+         resultChan → commitLoop → CommitMessages</div>
+
+    <h3>Retry Logic</h3>
+    <table>
+      <tr><th>Attempt</th><th>Backoff</th></tr>
+      <tr><td>1</td><td>0 ms</td></tr>
+      <tr><td>2</td><td>500 ms</td></tr>
+      <tr><td>3</td><td>1000 ms</td></tr>
+    </table>
+    <div class="todo">Sau 3 lần thất bại: commit offset + log WARNING. TODO: gửi vào DLQ topic.</div>
+
+    <h3>Xử lý ProcessPaymentStatus</h3>
+    <ol>
+      <li>Parse JSON message</li>
+      <li>GetOrderByTxIDForUpdate (WHERE tx_id = order_id FROM Kafka)</li>
+      <li>Nếu payment_status ≠ PROCESSING → return (idempotency: đã xử lý)</li>
+      <li>UpdateGiftCardOrderPartial (payment_tx_id, payment_status, metadata)</li>
+      <li>Nếu SUCCESS: UpdateUserCode → AVAILABLE, set redeem_user_confirm (self-gift), xóa Redis cache, gửi notification async</li>
+      <li>Nếu FAILED/CANCELLED: DecrementPromotionUsage (rollback)</li>
+    </ol>
+    <div class="note">User code vẫn ở ASSIGNED sau khi payment FAILED. Không có auto-cleanup.</div>
+
+    <h3>State Transitions</h3>
+    <div class="state-box">PROCESSING ──[Kafka SUCCESS]──→ SUCCESS (order) + AVAILABLE (user_code)
+           ──[Kafka FAILED]───→ FAILED  (order) + ASSIGNED (user_code, không đổi)
+           ──[Kafka CANCELLED]→ CANCELLED (order) + ASSIGNED (user_code, không đổi)</div>
+  </div>
+
+  <!-- ==================== FLOW 06: CRON ==================== -->
+  <div class="section" id="flow-cron">
+    <span class="section-tag tag-flow">Flow 06 – Worker Cron</span>
+    <h2>ProcessTimeoutOrders (Cron)</h2>
+    <p><strong>Entry:</strong> <code>server/worker_cronjob.go</code> | <strong>Handler:</strong> <code>handler/worker_ordertimeout.go</code></p>
+
+    <h3>Bước 1 – SelectAndUpdateTimeoutOrders (atomic CTE)</h3>
+    <pre><code>WITH locked_orders AS (
+    SELECT id FROM gift_card_orders
+    WHERE payment_status = 'PROCESSING'
+      AND created_at < NOW() - ($timeout_minutes * INTERVAL '1 minute')
+    ORDER BY created_at ASC
+    LIMIT $limit_count
+    FOR UPDATE SKIP LOCKED
+)
+UPDATE gift_card_orders SET payment_status = 'TIMEOUT'
+FROM locked_orders
+WHERE gift_card_orders.id = locked_orders.id
+RETURNING *;</code></pre>
+    <p>Atomic (SELECT + UPDATE trong 1 CTE). FOR UPDATE SKIP LOCKED → multi-instance safe.</p>
+
+    <h3>Bước 2 – Refund mỗi order</h3>
+    <p><code>POST {payment_url}/v1/internal/api/refund</code> với <code>{type: "refund_all_tx", reason_refund: "TIMEOUT"}</code>. Lỗi → log + tiếp tục (không dừng).</p>
+
+    <h3>Bước 3 – Rollback Promotion</h3>
+    <p>Nếu order có promotion: DecrementPromotionUsage cho item tương ứng (trong transaction riêng per order).</p>
+
+    <div class="note">gift_card_user_codes.status KHÔNG thay đổi. Thẻ vẫn ở ASSIGNED. User không nhận được thẻ vì payment thất bại.</div>
+  </div>
+
+  <!-- ==================== FLOW 07: ADMIN ==================== -->
+  <div class="section" id="flow-admin">
+    <span class="section-tag tag-flow">Flow 07 – Admin Operations</span>
+    <h2>Admin Operations</h2>
+    <p>Tất cả admin endpoints: prefix <code>/v1/public/admin/</code>. Header bắt buộc: <code>X-User-Email</code>.</p>
+
+    <h3>Category CRUD</h3>
+    <p><code>GET/POST /v1/public/admin/categories</code>, <code>PUT /v1/public/admin/categories/{id}</code></p>
+
+    <h3>Campaign CRUD</h3>
+    <p><code>GET /admin/campaigns</code>, <code>GET /admin/campaigns/{id}</code>, <code>POST /admin/campaigns/format-code/validate</code>, <code>POST /admin/campaigns</code>, <code>PUT /admin/campaigns/{id}</code></p>
+    <p><strong>CreateGiftcardCampaign Transaction:</strong> Insert campaign → Bulk insert parent items → Bulk insert child items (BUY_X_GET_Y) → Insert 1 INPUT_PRICE item (luôn luôn).</p>
+    <p><strong>Update giới hạn theo trạng thái:</strong> SCHEDULED/INACTIVE = tất cả fields + items | RUNNING = chỉ image/priority/display/segment | CLOSED = chỉ priority/display.</p>
+
+    <h3>Orders</h3>
+    <p><code>GET /admin/orders</code>, <code>POST /admin/orders/{id}/rollback</code></p>
+    <p><strong>RollbackOrder:</strong> Pre-conditions: SUCCESS + tất cả user_codes ở AVAILABLE/ASSIGNED. Thực hiện: user_codes → ROLLBACK, order → REFUNDED, xóa Redis cache. <span class="warn">⚠ Không gọi Payment Service thật để refund tiền!</span></p>
+
+    <h3>Code Pool</h3>
+    <p><code>GET /admin/code-pools/count</code>, <code>POST /admin/code-pools/trigger</code> (async goroutine, không block response).</p>
+    <p>TriggerGenCode logic: load campaign + items → acquire Redis lock per item → đếm codes → nếu thiếu → generateCodes (bulk insert ON CONFLICT DO NOTHING).</p>
+  </div>
+
+  <!-- ==================== FLOW 08: PARTNER ==================== -->
+  <div class="section" id="flow-partner">
+    <span class="section-tag tag-flow">Flow 08 – Partner</span>
+    <h2>Partner Flow</h2>
+    <div class="note">Không có partner integration. Endpoint <code>POST /v1/public/checkout</code> là empty stub – chỉ trả về empty response, không có business logic.</div>
+  </div>
+
+  <!-- ==================== API CATALOG ==================== -->
+  <div class="section" id="api">
+    <span class="section-tag tag-api">API Catalog – 28 Endpoints</span>
+    <h2>Standard Headers</h2>
+    <table>
+      <tr><th>Header</th><th>Required</th><th>Mô tả</th></tr>
+      <tr><td><code>X-User-ID</code></td><td>User APIs</td><td>ID user đang đăng nhập</td></tr>
+      <tr><td><code>X-User-Country</code></td><td>User APIs</td><td>ISO3 country code</td></tr>
+      <tr><td><code>X-User-Email</code></td><td>Admin write APIs</td><td>Email admin (audit trail)</td></tr>
+      <tr><td><code>Accept-Language</code></td><td>Optional</td><td>vi / en</td></tr>
+      <tr><td><code>X-Request-ID</code></td><td>Optional</td><td>Tracing</td></tr>
+    </table>
+
+    <h3>Standard Response Format</h3>
+    <pre><code>// Success
+{ "data": { ... } }
+
+// Paginated
+{ "data": [...], "paginate": { "limit": 20, "offset": 0, "total": 100 } }
+
+// Error
+{ "code": 400, "message": "error_key" }</code></pre>
+
+    <h3>Health & Metrics</h3>
+    <table>
+      <tr><th>Method</th><th>Path</th><th>Mô tả</th></tr>
+      <tr><td>GET</td><td><code>/health</code></td><td>Health check</td></tr>
+      <tr><td>GET</td><td><code>/metrics</code></td><td>Prometheus metrics</td></tr>
+    </table>
+
+    <h3>Admin APIs (/v1/public/admin/)</h3>
+    <table>
+      <tr><th>Method</th><th>Path</th><th>Handler</th><th>Mô tả</th></tr>
+      <tr><td>GET</td><td><code>/admin/categories</code></td><td>ListCategories</td><td>List categories</td></tr>
+      <tr><td>POST</td><td><code>/admin/categories</code></td><td>CreateCategory</td><td>Tạo category</td></tr>
+      <tr><td>PUT</td><td><code>/admin/categories/{id}</code></td><td>UpdateCategory</td><td>Cập nhật category</td></tr>
+      <tr><td>GET</td><td><code>/admin/campaigns</code></td><td>ListGiftcardCampaigns</td><td>List campaigns</td></tr>
+      <tr><td>GET</td><td><code>/admin/campaigns/{id}</code></td><td>GiftcardCampaignDetail</td><td>Chi tiết campaign + items</td></tr>
+      <tr><td>POST</td><td><code>/admin/campaigns/format-code/validate</code></td><td>CheckFormatCodeCampaign</td><td>Validate format_code unique</td></tr>
+      <tr><td>POST</td><td><code>/admin/campaigns</code></td><td>CreateGiftcardCampaign</td><td>Tạo campaign + items</td></tr>
+      <tr><td>PUT</td><td><code>/admin/campaigns/{id}</code></td><td>UpdateGiftcardCampaign</td><td>Cập nhật campaign</td></tr>
+      <tr><td>GET</td><td><code>/admin/orders</code></td><td>ListOrders</td><td>List orders</td></tr>
+      <tr><td>GET</td><td><code>/admin/orders/{id}</code></td><td>OrderDetail</td><td><em>Stub – chưa implement</em></td></tr>
+      <tr><td>GET</td><td><code>/admin/orders/export</code></td><td>ExportOrder</td><td><em>Stub – chưa implement</em></td></tr>
+      <tr><td>POST</td><td><code>/admin/orders/{id}/rollback</code></td><td>RollbackOrder</td><td>Admin rollback order</td></tr>
+      <tr><td>DELETE</td><td><code>/admin/giftcards/{id}</code></td><td>DeleteGiftcard</td><td>Xóa user code</td></tr>
+      <tr><td>GET</td><td><code>/admin/code-pools/count</code></td><td>CountCodePool</td><td>Đếm codes trong pool</td></tr>
+      <tr><td>POST</td><td><code>/admin/code-pools/trigger</code></td><td>TriggerGenCode</td><td>Trigger sinh mã (async)</td></tr>
+      <tr><td>GET</td><td><code>/admin/translations/trigger</code></td><td>TranslationTrigger</td><td>Reload translation keys</td></tr>
+    </table>
+
+    <h3>User-App APIs (/v1/public/)</h3>
+    <table>
+      <tr><th>Method</th><th>Path</th><th>Handler</th><th>Mô tả</th></tr>
+      <tr><td>GET</td><td><code>/categories</code></td><td>UAListCategories</td><td>Danh sách categories</td></tr>
+      <tr><td>GET</td><td><code>/available-giftcards</code></td><td>UACountAvailableGiftCard</td><td>Số thẻ available + notice + popup_card_id</td></tr>
+      <tr><td>GET</td><td><code>/home-giftcards</code></td><td>UAListHomeGiftcardCampaigns</td><td>Home: highlights + categories (lat/lng)</td></tr>
+      <tr><td>GET</td><td><code>/campaigns</code></td><td>UAListGiftcardCampaigns</td><td>List campaigns theo vị trí</td></tr>
+      <tr><td>GET</td><td><code>/campaigns/{id}</code></td><td>UAGiftcardCampaignDetail</td><td>Chi tiết campaign + items + prices</td></tr>
+      <tr><td>POST</td><td><code>/purchase</code></td><td>Purchase</td><td>Mua gift card</td></tr>
+      <tr><td>POST</td><td><code>/checkout</code></td><td>Checkout</td><td><em>Stub – empty response</em></td></tr>
+      <tr><td>GET</td><td><code>/orders/{id}</code></td><td>UAOrderDetail</td><td>Chi tiết đơn hàng của user</td></tr>
+      <tr><td>GET</td><td><code>/giftcards</code></td><td>UAListGiftcards</td><td>Danh sách thẻ (4 tabs)</td></tr>
+      <tr><td>GET</td><td><code>/giftcards/{id}</code></td><td>UAGiftcardDetail</td><td>Chi tiết 1 thẻ</td></tr>
+      <tr><td>GET</td><td><code>/giftcards/redemptions/{id}</code></td><td>UAGiftcardRedeem</td><td>Đổi thẻ lấy tiền ví</td></tr>
+      <tr><td>POST</td><td><code>/giftcards/confirm/{id}</code></td><td>UAConfirmPopupGiftCard</td><td>Xác nhận popup nhận thẻ</td></tr>
+    </table>
+
+    <h3>Purchase Request/Response</h3>
+    <pre><code>// Request
+POST /v1/public/purchase
+{
+  "campaign_id": "...",
+  "item_id": "...",
+  "recipient_phone": "0901234567",
+  "payment_method_id": "...",
+  "price": 50000,       // chỉ dùng khi INPUT_PRICE
+  "note": "...",
+  "lat": 10.762622,
+  "lng": 106.660172
+}
+
+// Response
+{
+  "data": {
+    "order_id": "...",
+    "payment_status": "SUCCESS|PROCESSING|FAILED",
+    "client": { "html": "...", "view_type": "..." }
+  }
+}</code></pre>
+  </div>
+
+  <!-- ==================== DB SCHEMA ==================== -->
+  <div class="section" id="db-schema">
+    <span class="section-tag tag-db">DB Schema (SQL)</span>
+    <h2>PostgreSQL 15 – Full SQL Schema</h2>
+    <p>Source of truth: staging dump. Extension: <code>pg_trgm</code>. Migration tool: goose. Query generator: sqlc. No triggers, no functions, no CDC.</p>
+
+    <h3>gift_card_categories</h3>
+    <pre><code>CREATE TABLE public.gift_card_categories (
+    id         text        NOT NULL,
+    name       text        NOT NULL,  -- translation key
+    status     text        NOT NULL,  -- ACTIVE | INACTIVE
+    priority   integer     NOT NULL,
+    updated_by text,
+    created_by text,
+    updated_at timestamp with time zone DEFAULT now(),
+    created_at timestamp with time zone DEFAULT now(),
+    CONSTRAINT gift_card_categories_pkey PRIMARY KEY (id)
+);
+CREATE INDEX idx_gift_card_categories_status          ON gift_card_categories USING btree (status);
+CREATE INDEX idx_gift_card_categories_name_trgm       ON gift_card_categories USING gin (name gin_trgm_ops);
+CREATE INDEX idx_gift_card_categories_created_at_desc ON gift_card_categories USING btree (created_at DESC);</code></pre>
+
+    <h3>gift_card_campaigns</h3>
+    <pre><code>CREATE TABLE public.gift_card_campaigns (
+    id                    text        NOT NULL,
+    name                  text        NOT NULL,  -- translation key
+    image                 text        NOT NULL,  -- media key
+    category_ids          text[]      NOT NULL,
+    format_code           text        NOT NULL,  -- UNIQUE, #=digit @=letter $=alnum
+    country_id            integer     NOT NULL,
+    country_code          text        NOT NULL,  -- ISO3, e.g. VNM
+    location_ids          integer[]   NOT NULL,
+    start_time            timestamp with time zone NOT NULL,
+    end_time              timestamp with time zone,  -- NULL = no end
+    validity_type         text        NOT NULL,  -- SPECIFIC | AFTER_PURCHASE
+    metadata              jsonb,                 -- {usage_time?, usage_duration_days?}
+    priority              integer     NOT NULL,  -- 0 = highlight
+    limit_purchase_times  integer,               -- NULL = no limit
+    display_status        boolean     NOT NULL,
+    user_segment_type     text        NOT NULL,  -- ALL | SPECIFIC
+    user_segment_ids      integer[],
+    blacklist_type        text        NOT NULL,  -- NONE | SPECIFIC
+    blacklist_segment_ids integer[],
+    created_by text, updated_by text,
+    created_at timestamp with time zone DEFAULT now(),
+    updated_at timestamp with time zone DEFAULT now(),
+    CONSTRAINT gift_card_campaigns_pkey            PRIMARY KEY (id),
+    CONSTRAINT gift_card_campaigns_format_code_key UNIQUE (format_code)
+);</code></pre>
+
+    <h3>gift_card_items</h3>
+    <pre><code>CREATE TABLE public.gift_card_items (
+    id                       text           NOT NULL,
+    amount                   numeric(18,2)  NOT NULL,
+    campaign_id              text           NOT NULL,  -- FK → gift_card_campaigns
+    promotion_name           text,
+    promotion_type           text,  -- NONE | FIXED_AMOUNT_DISCOUNT | PERCENTAGE_DISCOUNT | BUY_X_GET_Y
+    promotion_value          numeric(18,2),
+    promotion_gift_card_id   text,  -- parent item id (child only)
+    start_time               timestamp with time zone,
+    end_time                 timestamp with time zone,
+    deleted_at               timestamp with time zone,
+    note                     text,
+    limited_number_of_usages integer,
+    number_of_used           integer DEFAULT 0 NOT NULL,
+    type                     text,  -- FIXED_PRICE | INPUT_PRICE
+    created_at timestamp with time zone DEFAULT now(),
+    updated_at timestamp with time zone DEFAULT now(),
+    CONSTRAINT gift_card_items_pkey PRIMARY KEY (id),
+    CONSTRAINT gift_card_items_campaign_id_fkey
+        FOREIGN KEY (campaign_id) REFERENCES gift_card_campaigns(id)
+);</code></pre>
+
+    <h3>gift_card_orders</h3>
+    <pre><code>CREATE TABLE public.gift_card_orders (
+    id                    text           NOT NULL,
+    item_id               text,  -- FK → gift_card_items
+    campaign_id           text,  -- FK → gift_card_campaigns
+    customer_id           text,
+    customer_phone_number text,
+    amount                numeric(18,2),
+    promotion_type        text,
+    promotion_value       numeric(18,2),
+    paid_amount           numeric(18,2),
+    payment_tx_id         text,
+    payment_method_id     text,
+    payment_method_name   text,
+    payment_method_code   text,
+    payment_status        text,  -- PENDING|PROCESSING|SUCCESS|FAILED|TIMEOUT|REFUNDED
+    metadata              jsonb,
+    payment_method_icon   text,
+    currency              text,
+    discount_amount       numeric(18,2),
+    customer_name         text,  -- ⚠ ghost column (not in migration/Go model)
+    tx_id                 text,  -- ULID, unique
+    updated_by            text,
+    created_at timestamp with time zone DEFAULT now(),
+    updated_at timestamp with time zone DEFAULT now(),
+    CONSTRAINT gift_card_orders_pkey PRIMARY KEY (id)
+);
+CREATE UNIQUE INDEX idx_gift_card_orders_tx_id ON gift_card_orders USING btree (tx_id) WHERE (tx_id IS NOT NULL);
+CREATE INDEX idx_gift_card_orders_processing_created_at ON gift_card_orders USING btree (created_at) WHERE (payment_status = 'PROCESSING');</code></pre>
+
+    <h3>gift_card_user_codes</h3>
+    <pre><code>CREATE TABLE public.gift_card_user_codes (
+    id                  text           NOT NULL,  -- used as order_id with Wallet Service
+    campaign_id         text,
+    item_id             text,
+    order_id            text,  -- FK → gift_card_orders
+    code                text,  -- UNIQUE
+    sender_id           text,
+    sender_phone        text,
+    sender_name         text,
+    redeem_user_id      text,
+    status              text,  -- ASSIGNED|AVAILABLE|REDEEMING|REDEEMED|REDEEM_FAILED|ROLLBACK
+    note                text,
+    expires_at          timestamp with time zone,
+    value               numeric(18,2),
+    currency            text,
+    redeem_status       text,  -- ⚠ ghost column
+    redeem_user_confirm_status text,  -- ⚠ ghost column
+    redeem_user_confirm boolean DEFAULT false NOT NULL,
+    is_new_redeem_user  boolean DEFAULT false NOT NULL,
+    updated_by          text,
+    created_at timestamp with time zone DEFAULT now(),
+    updated_at timestamp with time zone DEFAULT now(),
+    CONSTRAINT gift_card_user_codes_pkey PRIMARY KEY (id)
+);
+CREATE UNIQUE INDEX gift_card_user_codes_code_key ON gift_card_user_codes USING btree (code);</code></pre>
+
+    <h3>gift_card_code_pool</h3>
+    <pre><code>CREATE TABLE public.gift_card_code_pool (
+    id          text NOT NULL,
+    code        text,  -- UNIQUE (global)
+    campaign_id text,  -- FK → gift_card_campaigns
+    item_id     text,  -- FK → gift_card_items
+    status      text,  -- AVAILABLE | ASSIGNED
+    created_at  timestamp with time zone DEFAULT now(),
+    updated_at  timestamp with time zone DEFAULT now(),
+    CONSTRAINT gift_card_code_pool_pkey     PRIMARY KEY (id),
+    CONSTRAINT gift_card_code_pool_code_key UNIQUE (code)
+);
+CREATE UNIQUE INDEX idx_gift_card_code_pool_unique ON gift_card_code_pool USING btree (campaign_id, item_id, code);</code></pre>
+
+    <h3>gift_card_redeem_history</h3>
+    <pre><code>CREATE TABLE public.gift_card_redeem_history (
+    id                    text    NOT NULL,
+    user_code_id          text,   -- FK → gift_card_user_codes
+    balance_after         bigint, -- ví sau topup (VND đơn vị nhỏ nhất)
+    redeem_status         text,   -- SUCCESS | PROCESSING | FAILED
+    redeem_status_code    text,
+    redeem_status_message text,
+    created_at timestamp with time zone DEFAULT now(),
+    updated_at timestamp with time zone DEFAULT now(),
+    CONSTRAINT gift_card_redeem_history_pkey PRIMARY KEY (id)
+);</code></pre>
+
+    <h3>Foreign Key Summary</h3>
+    <table>
+      <tr><th>From Table</th><th>Column</th><th>→ To Table</th><th>ON DELETE</th></tr>
+      <tr><td>gift_card_items</td><td>campaign_id</td><td>gift_card_campaigns</td><td>NO ACTION</td></tr>
+      <tr><td>gift_card_orders</td><td>item_id</td><td>gift_card_items</td><td>NO ACTION</td></tr>
+      <tr><td>gift_card_orders</td><td>campaign_id</td><td>gift_card_campaigns</td><td>NO ACTION</td></tr>
+      <tr><td>gift_card_code_pool</td><td>campaign_id</td><td>gift_card_campaigns</td><td>NO ACTION</td></tr>
+      <tr><td>gift_card_code_pool</td><td>item_id</td><td>gift_card_items</td><td>NO ACTION</td></tr>
+      <tr><td>gift_card_user_codes</td><td>campaign_id</td><td>gift_card_campaigns</td><td>NO ACTION</td></tr>
+      <tr><td>gift_card_user_codes</td><td>item_id</td><td>gift_card_items</td><td>NO ACTION</td></tr>
+      <tr><td>gift_card_user_codes</td><td>order_id</td><td>gift_card_orders</td><td>NO ACTION</td></tr>
+      <tr><td>gift_card_redeem_history</td><td>user_code_id</td><td>gift_card_user_codes</td><td>NO ACTION</td></tr>
+    </table>
+
+    <h3>Cột "ghost" (tồn tại trong DB, không có trong migration/Go model)</h3>
+    <table>
+      <tr><th>Bảng</th><th>Cột</th><th>Ghi chú</th></tr>
+      <tr><td>gift_card_orders</td><td>customer_name</td><td>Không trong migration, không trong GiftCardOrder struct</td></tr>
+      <tr><td>gift_card_user_codes</td><td>redeem_status</td><td>Không trong migration, không trong GiftCardUserCode struct</td></tr>
+      <tr><td>gift_card_user_codes</td><td>redeem_user_confirm_status</td><td>Không trong migration, không trong GiftCardUserCode struct</td></tr>
+    </table>
+  </div>
+
+</div>
+</body>
+</html>

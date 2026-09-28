@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khám, chẩn đoán &amp; lập kế hoạch điều trị răng miệng ở trẻ em</title>
+<style>
+  :root{--card:#1e293b;--accent:#f59e0b;--ok:#22c55e;--bad:#ef4444;--txt:#e2e8f0;--muted:#94a3b8;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(160deg,#0f172a,#1a140a);color:var(--txt);line-height:1.5;padding:16px;}
+  .wrap{max-width:820px;margin:0 auto;}
+  header{text-align:center;padding:14px 0 8px;}
+  header h1{font-size:1.35rem;margin:0 0 4px;color:#fff;}
+  header p{margin:2px 0;color:var(--muted);font-size:.9rem;}
+  .topnav{text-align:center;margin-top:8px;}
+  .topnav a{color:var(--accent);font-size:.82rem;text-decoration:none;}
+  .panel{background:var(--card);border:1px solid #334155;border-radius:14px;padding:20px;margin-top:16px;box-shadow:0 8px 30px rgba(0,0,0,.35);}
+  .bar{height:8px;background:#0b1220;border-radius:99px;overflow:hidden;margin:10px 0 4px;}
+  .bar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),#22c55e);transition:width .3s;}
+  .meta{display:flex;justify-content:space-between;font-size:.82rem;color:var(--muted);margin-bottom:6px;flex-wrap:wrap;gap:6px;}
+  .q{font-size:1.08rem;font-weight:600;margin:6px 0 14px;color:#fff;}
+  .opt{display:block;width:100%;text-align:left;background:#0b1220;border:1.5px solid #334155;color:var(--txt);border-radius:10px;padding:12px 14px;margin:8px 0;cursor:pointer;font-size:.98rem;transition:all .15s;}
+  .opt:hover:not(:disabled){border-color:var(--accent);}
+  .opt .k{display:inline-block;width:22px;font-weight:700;color:var(--accent);}
+  .opt.correct{border-color:var(--ok);background:rgba(34,197,94,.12);}
+  .opt.wrong{border-color:var(--bad);background:rgba(239,68,68,.12);}
+  .opt:disabled{cursor:default;opacity:.95;}
+  .explain{margin-top:10px;padding:11px 13px;border-radius:10px;background:#0b1220;border-left:4px solid var(--accent);font-size:.9rem;color:#cbd5e1;display:none;}
+  .explain.show{display:block;}
+  .row{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;}
+  button.btn{background:var(--accent);color:#3a2405;border:none;border-radius:10px;padding:11px 18px;font-weight:700;cursor:pointer;font-size:.95rem;}
+  button.btn.sec{background:#334155;color:#e2e8f0;}
+  button.btn:disabled{opacity:.4;cursor:not-allowed;}
+  .center{text-align:center;}
+  .big{font-size:2.4rem;font-weight:800;color:#fff;margin:6px 0;}
+  .tag{display:inline-block;font-size:.72rem;background:#0b1220;border:1px solid #334155;color:var(--muted);padding:3px 9px;border-radius:99px;margin-bottom:8px;}
+  .grid{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+  .chip{font-size:.8rem;padding:6px 10px;border-radius:8px;border:1px solid #334155;background:#0b1220;cursor:pointer;}
+  .chip.on{border-color:var(--accent);color:var(--accent);}
+  .review-item{border-top:1px solid #334155;padding:12px 0;font-size:.9rem;}
+  .review-item .ri-q{font-weight:600;color:#fff;}
+  .review-item .ri-a{color:#cbd5e1;margin-top:4px;}
+  .ok{color:var(--ok)} .bad{color:var(--bad)}
+  a.src{color:var(--muted);font-size:.78rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">ĐỀ 4 · Trắc nghiệm A/B/C/D</span>
+    <h1>Khám, chẩn đoán &amp; lập kế hoạch điều trị răng miệng ở trẻ em</h1>
+    <p>Hồ sơ bệnh án · Bệnh sử–tiền sử · Khám lâm sàng · Cận lâm sàng · Khớp cắn · Kế hoạch điều trị</p>
+    <div class="topnav"><a href="index.html">&#8592; Danh sách đề</a></div>
+  </header>
+
+  <div class="panel" id="start">
+    <p>Bộ câu hỏi bám sát tài liệu. Mỗi câu có 4 phương án gần giống nhau để tăng độ khó. Chọn số câu muốn luyện:</p>
+    <div class="grid" id="countChips"></div>
+    <div class="row">
+      <label style="display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)">
+        <input type="checkbox" id="shuffle" checked> Xáo trộn câu hỏi &amp; đáp án
+      </label>
+    </div>
+    <div class="row">
+      <button class="btn" onclick="startQuiz()">Bắt đầu luyện tập &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel" id="quiz" style="display:none">
+    <div class="meta"><span id="progressTxt"></span><span id="scoreTxt"></span></div>
+    <div class="bar"><i id="progressBar"></i></div>
+    <div class="q" id="qText"></div>
+    <div id="opts"></div>
+    <div class="explain" id="explain"></div>
+    <div class="row">
+      <button class="btn sec" id="skipBtn" onclick="nextQ()">Bỏ qua</button>
+      <button class="btn" id="nextBtn" onclick="nextQ()" disabled>Câu tiếp &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel center" id="result" style="display:none">
+    <p class="tag">KẾT QUẢ</p>
+    <div class="big" id="finalScore"></div>
+    <p id="finalMsg" style="color:var(--muted)"></p>
+    <div class="row" style="justify-content:center">
+      <button class="btn" onclick="location.reload()">Làm lại &#8635;</button>
+      <button class="btn sec" onclick="toggleReview()">Xem lại bài &#9662;</button>
+    </div>
+    <div id="review" style="text-align:left;display:none;margin-top:14px"></div>
+  </div>
+
+  <p class="center" style="margin-top:18px"><a class="src" href="11 khám, định bệnh, lập kế hoạch.pdf">Nguồn: 11 khám, định bệnh, lập kế hoạch.pdf</a></p>
+</div>
+
+<script>
+const BANK = [{"q": "Trình tự chung của quá trình khám chữa bệnh răng miệng ở trẻ là:", "a": ["Hỏi bệnh sử → Khám → Chẩn đoán → Kế hoạch điều trị → Kết quả điều trị", "Khám → Kế hoạch → Hỏi bệnh sử → Chẩn đoán", "Chẩn đoán → Khám → Hỏi bệnh sử → Điều trị", "Kế hoạch điều trị → Khám → Chẩn đoán"], "c": 0, "e": "Trình tự: hỏi bệnh sử → khám → chẩn đoán → kế hoạch điều trị → kết quả điều trị."}, {"q": "Vì sao việc khai thác dữ kiện ở trẻ em rất khó?", "a": ["Trẻ không tự trả lời, thông tin không chính xác, trẻ cư xử khác ở nhà, thông tin bố mẹ có thể sai lệch", "Trẻ luôn trả lời chính xác hơn người lớn", "Bố mẹ luôn cung cấp thông tin đầy đủ", "Không cần quan tâm tâm lý"], "c": 0, "e": "Khó vì trẻ không tự trả lời, thông tin không chính xác, cư xử khác ở nhà, thông tin bố mẹ có thể sai lệch cố ý/vô ý, phụ thuộc tâm lý bố mẹ/trẻ."}, {"q": "Thăm khám nha khoa trẻ em KHÔNG nhằm mục đích nào sau đây?", "a": ["Kê đơn thuốc kháng sinh dài ngày", "Hiểu sự khác biệt bình thường và bất thường", "Phát hiện vấn đề hành vi và bệnh nội khoa", "Lên kế hoạch điều trị và quyết định thời lượng buổi hẹn"], "c": 0, "e": "Thăm khám giúp hiểu bình thường/bất thường, phát hiện vấn đề hành vi, bệnh nội khoa, lên kế hoạch và quyết định thời lượng buổi hẹn — không phải để kê kháng sinh dài ngày."}, {"q": "Thứ tự đúng của hồ sơ bệnh án là:", "a": ["Hành chính → Lý do vào viện → Bệnh sử–tiền sử → Khám lâm sàng → Chẩn đoán sơ bộ → Cận lâm sàng → Chẩn đoán xác định → Kế hoạch điều trị", "Chẩn đoán xác định → Hành chính → Khám → Kế hoạch", "Cận lâm sàng → Hành chính → Bệnh sử → Chẩn đoán sơ bộ", "Kế hoạch điều trị → Khám lâm sàng → Hành chính"], "c": 0, "e": "Hồ sơ bệnh án theo thứ tự: hành chính, lý do vào viện, bệnh sử–tiền sử, khám lâm sàng, chẩn đoán sơ bộ, cận lâm sàng, chẩn đoán xác định, kế hoạch điều trị."}, {"q": "Nội dung nào KHÔNG thuộc phần hành chính của bệnh án?", "a": ["Mức độ trầm trọng cơn đau", "Họ tên, tuổi, giới", "Phụ huynh, nghề nghiệp, địa chỉ", "Ngày vào viện, ngày làm bệnh án"], "c": 0, "e": "Phần hành chính gồm họ tên, tuổi, giới, phụ huynh/nghề nghiệp, địa chỉ, ngày vào viện, ngày làm bệnh án — mức độ đau thuộc bệnh sử."}, {"q": "Than phiền nào sau đây thường là lý do đến khám của bệnh nhân?", "a": ["Đau, sưng, không ăn nhai được, răng đổi màu/lung lay, thẩm mỹ", "Chỉ khám định kỳ bắt buộc", "Chỉ vì nhà trường yêu cầu", "Chỉ để lấy thuốc bổ"], "c": 0, "e": "Lý do đến khám (than phiền) gồm đau, sưng, không ăn nhai được, răng mọc lệch, đổi màu, lung lay, thẩm mỹ, liên quan chuyên ngành khác."}, {"q": "Trong khai thác cơn đau, chữ 'S' (Site) đề cập đến:", "a": ["Vị trí đau", "Mức độ trầm trọng", "Thời gian kéo dài", "Hướng lan"], "c": 0, "e": "Site = vị trí đau."}, {"q": "Trong khai thác cơn đau, 'Onset' đề cập đến:", "a": ["Khởi phát (đau từ khi nào)", "Tính chất cơn đau", "Hướng lan", "Mức độ trầm trọng"], "c": 0, "e": "Onset = khởi phát, đau từ khi nào."}, {"q": "Trong khai thác cơn đau, 'Radiation' đề cập đến:", "a": ["Hướng lan của cơn đau", "Vị trí đau", "Yếu tố làm giảm đau", "Thời gian kéo dài"], "c": 0, "e": "Radiation = hướng lan của cơn đau."}, {"q": "Trong khai thác cơn đau, 'Severity' được đánh giá theo thang nào?", "a": ["1–10", "1–5", "0–3", "A–D"], "c": 0, "e": "Severity (mức độ trầm trọng) được đánh giá theo thang 1–10."}, {"q": "Với bệnh lý cấp tính, nguyên tắc xử trí trong bệnh sử là:", "a": ["Giải quyết trước, sau đó chẩn đoán toàn diện", "Bỏ qua, chỉ chẩn đoán toàn diện", "Chờ đến buổi hẹn sau", "Chỉ dùng thuốc giảm đau rồi cho về"], "c": 0, "e": "Bệnh cấp tính: giải quyết trước rồi chẩn đoán toàn diện."}, {"q": "Tiền sử các bệnh nội khoa được chia thành các nhóm nào?", "a": ["Trước sinh, khi sinh, sau sinh", "Cấp tính và mạn tính", "Nội khoa và ngoại khoa", "Di truyền và mắc phải"], "c": 0, "e": "Tiền sử nội khoa gồm tiền sử trước sinh, khi sinh và sau sinh."}, {"q": "Việc dùng Forcep trong quá trình sinh có thể gây hậu quả gì?", "a": ["Rối loạn phát triển lồi cầu và hướng của xương hàm dưới", "Sâu răng sữa sớm", "Thiểu sản men răng cửa", "Dính thắng lưỡi"], "c": 0, "e": "Dùng Forcep khi sinh có thể gây rối loạn phát triển lồi cầu và hướng của xương hàm dưới."}, {"q": "Hội chứng xanh tím khi sinh (cyanosis) gợi ý bệnh lý nào?", "a": ["Bệnh lý tim mạch", "Bệnh về máu ác tính", "Rối loạn tiêu hóa", "Dị ứng thuốc"], "c": 0, "e": "Hội chứng xanh tím khi sinh (cyanosis) gợi ý bệnh lý tim mạch."}, {"q": "Thông tin nào thuộc 'tiền sử gia đình'?", "a": ["Các bệnh lý di truyền và thái độ của bố mẹ với vệ sinh răng miệng", "Lịch tiêm chủng của trẻ", "Cách thức nuôi dưỡng sơ sinh", "Thói quen ăn uống của trẻ"], "c": 0, "e": "Tiền sử gia đình gồm các bệnh lý di truyền và thái độ của bố mẹ với sức khỏe/vệ sinh răng miệng."}, {"q": "Nội dung nào thuộc 'tiền sử bản thân' về điều trị răng miệng?", "a": ["Thói quen răng miệng, vệ sinh, ăn uống và điều trị răng miệng trước đây", "Bệnh di truyền của ông bà", "Vị trí bất thường của thai nhi", "Hội chứng xanh tím khi sinh"], "c": 0, "e": "Tiền sử bản thân gồm thói quen răng miệng, thói quen vệ sinh, thói quen ăn uống và điều trị răng miệng trước đây."}, {"q": "Khám lâm sàng gồm các phần nào?", "a": ["Khám tổng quát, khám ngoài mặt, khám trong miệng", "Chỉ khám trong miệng", "Chỉ khám răng", "Khám tổng quát và cận lâm sàng"], "c": 0, "e": "Khám lâm sàng gồm khám tổng quát, khám ngoài mặt và khám trong miệng."}, {"q": "Rối loạn phát âm nào KHÔNG được liệt kê khi khám tổng quát?", "a": ["Khàn tiếng do viêm thanh quản cấp", "Chậm nói", "Nói lắp", "Cluttering (nói vấp, dồn dập)"], "c": 0, "e": "Khám tổng quát ghi nhận phát âm: mất ngôn ngữ, chậm nói, nói lắp, cluttering — không nêu khàn tiếng do viêm thanh quản."}, {"q": "Mất cân đối ở mặt có thể do nguyên nhân nào sau đây?", "a": ["Viêm nhiễm từ răng miệng, phì đại tuyến mang tai, quá sản lồi cầu một bên", "Chải răng đúng cách", "Ăn uống đủ chất", "Dùng chỉ nha khoa"], "c": 0, "e": "Mất cân đối mặt do: viêm nhiễm từ răng miệng, phì đại tuyến mang tai, thiểu sản/quá sản nửa bên mặt, hội chứng cung đầu, quá sản lồi cầu một bên, dính khớp TDH một bên."}, {"q": "Nội dung nào KHÔNG thuộc khám khớp thái dương hàm?", "a": ["Đo độ sâu túi nha chu", "Đau khi ấn lồi cầu xương hàm dưới", "Tiếng kêu bất thường ở khớp", "Cứng khít hàm, co thắt cơ"], "c": 0, "e": "Khám khớp TDH: rối loạn vận động XHD, đau khi ấn lồi cầu, sưng/nóng/đỏ vùng khớp, cứng khít hàm, đau cơ cắn/cơ chân bướm ngoài, tiếng kêu — không phải đo túi nha chu."}, {"q": "Quy tắc khám mô mềm trong miệng theo tài liệu là gì?", "a": ["Màu sắc, kích thước, mật độ", "Nhiệt độ, độ ẩm, mùi", "Vị trí, số lượng, hình dạng", "Độ cứng, độ bóng, độ trong"], "c": 0, "e": "Quy tắc khám mô mềm: màu sắc (đỏ/xanh/trắng), kích thước (sưng nề/loét), mật độ (mềm/chắc/cứng)."}, {"q": "Đặc điểm bình thường của thắng môi trên và thắng môi dưới là:", "a": ["Thắng môi trên dày và bám thấp; thắng môi dưới mỏng và bám cao", "Cả hai đều dày và bám thấp", "Thắng môi trên mỏng, thắng môi dưới dày", "Cả hai đều mỏng và bám cao"], "c": 0, "e": "Thắng môi trên dày và bám thấp; thắng môi dưới mỏng và bám cao."}, {"q": "'Ankyloglossia' là thuật ngữ chỉ tình trạng gì ở lưỡi?", "a": ["Dính thắng lưỡi", "Lưỡi chẻ đôi", "Lưỡi to bất thường", "Lưỡi tưa"], "c": 0, "e": "Ankyloglossia là dính thắng lưỡi; bifid tongue là lưỡi chẻ đôi."}, {"q": "'Bifid tongue' chỉ tình trạng nào?", "a": ["Lưỡi chẻ đôi", "Dính thắng lưỡi", "Lưỡi khô", "Lưỡi to"], "c": 0, "e": "Bifid tongue là lưỡi chẻ đôi."}, {"q": "Bệnh lý nào có thể làm thay đổi sự tiết nước bọt?", "a": ["Bệnh quai bị, hội chứng Sjögren", "Sâu răng sữa", "Viêm nướu mạn", "Dính khớp cắn"], "c": 0, "e": "Bệnh quai bị, hội chứng Sjögren... có thể làm thay đổi sự tiết nước bọt."}, {"q": "Nguyên nhân nào KHÔNG gây hôi miệng theo tài liệu?", "a": ["Nhiễm Fluor răng", "Vệ sinh răng miệng kém", "Viêm đường mũi xoang", "Rối loạn đường tiêu hóa"], "c": 0, "e": "Hôi miệng do vệ sinh răng miệng kém, mất nước, viêm mũi xoang, rối loạn tiêu hóa — không do nhiễm Fluor."}, {"q": "Khi khám mô nha chu ở trẻ cần đánh giá:", "a": ["Tình trạng nướu, độ mất bám dính, độ sâu túi, cao răng", "Chỉ đếm số răng", "Chỉ đo chiều cao mặt", "Chỉ đánh giá khớp cắn"], "c": 0, "e": "Khám mô nha chu: nướu (viêm/lỗ dò), độ mất bám dính, độ sâu túi nha chu, tình trạng cao răng."}, {"q": "Đổi màu răng do nguyên nhân NỘI sinh gồm:", "a": ["Răng chết tủy, thiểu sản men, nhiễm Fluor", "Thức ăn, thuốc", "Trà, cà phê", "Thuốc lá"], "c": 0, "e": "Nguyên nhân nội sinh: răng chết tủy, thiểu sản men, nhiễm Fluor. Ngoại sinh: thức ăn, thuốc..."}, {"q": "Đổi màu răng do nguyên nhân NGOẠI sinh gồm:", "a": ["Thức ăn, thuốc", "Răng chết tủy", "Thiểu sản men", "Nhiễm Fluor"], "c": 0, "e": "Nguyên nhân ngoại sinh: thức ăn, thuốc..."}, {"q": "Bộ dụng cụ thăm khám răng cơ bản gồm:", "a": ["Gương, thám trâm, kẹp gắp, nạo ngà", "Kìm nhổ răng, nạy", "Máy siêu âm, đèn quang trùng hợp", "Ống chích tê, kim khâu"], "c": 0, "e": "Các dụng cụ thăm khám: gương, thám trâm, kẹp gắp, nạo ngà."}, {"q": "Cung răng dạng 'hẹp' có hình gì?", "a": ["Hình chữ V", "Hình bán nguyệt rộng", "Hình vuông", "Hình chữ U rộng"], "c": 0, "e": "Cung răng hẹp có hình chữ V; cung rộng thì phía trước phẳng và chuyển hướng ở vùng răng nanh."}, {"q": "Răng lung lay được phân loại theo tác giả nào?", "a": ["Mühlemann", "Angle", "Frank", "Mulliken"], "c": 0, "e": "Răng lung lay được phân loại theo Mühlemann."}, {"q": "Theo phân loại Mühlemann, độ lung lay khi răng 'di chuyển theo chiều ngang <1mm' và '>1mm' là hai mức khác nhau; mức nặng nhất được mô tả là:", "a": ["Ấn lún (di chuyển theo chiều trên–dưới)", "Dính khớp", "Lung lay sinh lý giữa hai ngón tay", "Di chuyển ngang <1mm"], "c": 0, "e": "Thang Mühlemann: dính khớp → lung lay sinh lý → ngang <1mm → ngang >1mm → ấn lún (theo chiều trên–dưới) là mức nặng nhất."}, {"q": "Tương quan răng hàm ở răng vĩnh viễn được phân loại theo:", "a": ["Angle", "Mühlemann", "Frank", "Spee"], "c": 0, "e": "Tương quan răng hàm ở răng vĩnh viễn phân loại theo Angle."}, {"q": "Tương quan răng hàm loại I (Angle) được định nghĩa là:", "a": ["Múi ngoài gần R6 hàm trên ăn khớp rãnh ngoài gần R6 hàm dưới", "Múi NG R6 trên khớp về phía gần rãnh NG R6 dưới", "Múi NG R6 trên khớp về phía xa rãnh NG R6 dưới", "R6 trên và dưới không tiếp xúc"], "c": 0, "e": "Loại I: múi ngoài gần của R6 hàm trên ăn khớp rãnh ngoài gần của R6 hàm dưới."}, {"q": "Tương quan răng hàm loại II (Angle) là:", "a": ["Múi NG R6 trên ăn khớp về phía gần rãnh NG R6 dưới", "Múi NG R6 trên ăn khớp về phía xa rãnh NG R6 dưới", "Đúng khớp rãnh NG R6 dưới", "Không có R6"], "c": 0, "e": "Loại II: múi ngoài gần R6 hàm trên ăn khớp về phía gần rãnh NG R6 hàm dưới."}, {"q": "Tương quan răng hàm loại III (Angle) là:", "a": ["Múi NG R6 trên ăn khớp về phía xa rãnh NG R6 dưới", "Múi NG R6 trên ăn khớp về phía gần rãnh NG R6 dưới", "Đúng khớp rãnh NG R6 dưới", "R6 mọc lệch ngoài"], "c": 0, "e": "Loại III: múi ngoài gần R6 hàm trên ăn khớp về phía xa rãnh NG R6 hàm dưới."}, {"q": "Tương quan răng hàm ở răng sữa được mô tả bằng:", "a": ["Mặt phẳng tận cùng phẳng / lệch gần / lệch xa", "Loại I, II, III của Angle", "Độ cắn chìa / cắn phủ", "Đường cong Spee"], "c": 0, "e": "Răng sữa: tương quan mặt phẳng tận cùng phẳng, lệch gần hoặc lệch xa."}, {"q": "Tương quan răng cửa được đánh giá qua các yếu tố nào?", "a": ["Độ cắn chìa, độ cắn phủ, đường cong Spee", "Loại I, II, III của Angle", "Mặt phẳng tận cùng", "Độ sâu túi nha chu"], "c": 0, "e": "Tương quan răng cửa: độ cắn chìa, độ cắn phủ và đường cong Spee (nông/sâu/đảo ngược)."}, {"q": "Đường giữa thường bị lệch trong trường hợp nào?", "a": ["Răng thừa, mất răng sớm, sâu mặt bên, mất một hoặc nhiều răng", "Chải răng đúng cách", "Trám bít hố rãnh", "Bôi Fluor định kỳ"], "c": 0, "e": "Đường giữa lệch do răng thừa, mất răng sớm, sâu mặt bên, mất một hoặc nhiều răng."}, {"q": "Chẩn đoán sơ bộ được đưa ra dựa trên:", "a": ["Hỏi tiền sử, bệnh sử và triệu chứng lâm sàng, khi chưa có hỗ trợ cận lâm sàng", "Kết quả X-quang là chính", "Chỉ dựa vào thử tủy", "Chỉ dựa vào chẩn đoán xác định"], "c": 0, "e": "Chẩn đoán sơ bộ dựa trên dữ kiện hỏi tiền sử, bệnh sử, triệu chứng lâm sàng khi chưa có cận lâm sàng."}, {"q": "Trên X-quang, dấu hiệu nào KHÔNG được nêu khi đánh giá răng?", "a": ["Màu sắc thân răng", "Nội tiêu / ngoại tiêu và mức độ đóng chóp", "Gãy và vị trí đường gãy", "Vùng thấu quang quanh chóp, tiêu xương"], "c": 0, "e": "X-quang đánh giá lỗ sâu, chân răng, nội/ngoại tiêu, mức đóng chóp, gãy, laminadura, dây chằng nha chu, thấu quang quanh chóp, tiêu xương — không đánh giá màu sắc."}, {"q": "Thử tủy được thực hiện bằng những phương pháp nào?", "a": ["Bằng nhiệt và điện", "Bằng ánh sáng và siêu âm", "Bằng hóa chất và laser", "Bằng áp lực và độ ẩm"], "c": 0, "e": "Thử tủy bằng nhiệt (nóng/lạnh) và điện; đây không phải thăm khám thường quy."}, {"q": "Khi thử nhiệt, 'không đáp ứng' gợi ý:", "a": ["Tủy chết hoặc âm tính giả", "Tủy bình thường", "Viêm tủy hồi phục", "Viêm tủy không hồi phục"], "c": 0, "e": "Không đáp ứng khi thử nhiệt: tủy chết hoặc âm tính giả."}, {"q": "Khi thử nhiệt, 'đau nhanh thoáng qua' gợi ý:", "a": ["Viêm tủy có khả năng hồi phục", "Viêm tủy không hồi phục", "Tủy chết", "Tủy bình thường"], "c": 0, "e": "Đau nhanh thoáng qua: viêm tủy có khả năng hồi phục."}, {"q": "Khi thử nhiệt, 'đau kéo dài sau thử nghiệm' gợi ý:", "a": ["Viêm tủy không có khả năng hồi phục", "Viêm tủy hồi phục", "Tủy bình thường", "Âm tính giả"], "c": 0, "e": "Đau kéo dài sau thử nghiệm: viêm tủy không có khả năng hồi phục."}, {"q": "Khi thử nhiệt, 'đáp ứng trung bình' gợi ý:", "a": ["Tủy bình thường", "Tủy chết", "Viêm tủy không hồi phục", "Viêm tủy hồi phục"], "c": 0, "e": "Đáp ứng trung bình: tủy bình thường."}, {"q": "Phương pháp hỗ trợ nào sau đây được nêu trong tài liệu?", "a": ["Mẫu nghiên cứu, phim sọ nghiêng, phim cánh cắn, phim toàn cảnh, X-quang xương cổ tay", "Nội soi dạ dày", "Xét nghiệm nước tiểu", "Điện tâm đồ gắng sức"], "c": 0, "e": "Phương pháp hỗ trợ: mẫu nghiên cứu, chụp ảnh, phim sọ nghiêng, phim cánh cắn, phim toàn cảnh, X-quang xương cổ tay."}, {"q": "Chẩn đoán xác định được đưa ra khi nào?", "a": ["Sau khi phân tích các dữ liệu kể cả cận lâm sàng", "Ngay khi bệnh nhân than phiền", "Trước khi khám lâm sàng", "Chỉ dựa vào lời kể của bố mẹ"], "c": 0, "e": "Chẩn đoán xác định (chắc chắn nhất) sau khi phân tích các dữ liệu kể cả cận lâm sàng."}, {"q": "Ưu điểm của việc lập kế hoạch điều trị KHÔNG bao gồm:", "a": ["Chẩn đoán lại ở mỗi lần thăm khám", "Tránh việc chẩn đoán lại ở mỗi lần khám", "Lên kế hoạch trước các buổi hẹn tiếp theo", "Ước tính kinh phí điều trị"], "c": 0, "e": "Ưu điểm kế hoạch điều trị: tránh chẩn đoán lại, lên kế hoạch buổi hẹn, chuẩn bị dụng cụ vật liệu, ước tính kinh phí — không phải 'chẩn đoán lại mỗi lần'."}, {"q": "Các pha của kế hoạch điều trị gồm:", "a": ["Điều trị nội khoa, toàn thân, dự phòng, sửa chữa, duy trì và tái khám", "Chỉ điều trị sửa chữa", "Chỉ nhổ răng và trám răng", "Chỉ dự phòng bằng Fluor"], "c": 0, "e": "Các pha: điều trị nội khoa, điều trị toàn thân, điều trị dự phòng, điều trị sửa chữa, điều trị duy trì và tái khám."}, {"q": "Nội dung nào thuộc 'điều trị dự phòng'?", "a": ["Điều trị bằng Fluor, trám bít hố rãnh, tư vấn VSRM/dinh dưỡng/chỉnh nha", "Nhổ răng", "Điều trị tủy", "Phục hình cố định"], "c": 0, "e": "Điều trị dự phòng: phòng bệnh bằng Fluor, trám bít hố rãnh, tư vấn vệ sinh răng miệng, dinh dưỡng, chỉnh nha."}, {"q": "Nội dung nào thuộc 'điều trị sửa chữa'?", "a": ["Nhổ răng, trám răng, tiểu phẫu, khí cụ giữ khoảng, khí cụ tiền chỉnh nha", "Bôi Fluor", "Tư vấn dinh dưỡng", "Trám bít hố rãnh dự phòng"], "c": 0, "e": "Điều trị sửa chữa: nhổ răng, trám răng, tiểu phẫu, khí cụ giữ khoảng, khí cụ tiền chỉnh nha/chỉnh nha dự phòng, thay đổi phục hình."}, {"q": "Trường hợp nào cần cân nhắc điều trị cho trẻ trong điều kiện NHẬP VIỆN?", "a": ["Trẻ dưới 2 tuổi, bệnh tim mạch/thận, dị tật bẩm sinh, khuyết tật tâm sinh lý", "Trẻ khỏe mạnh hợp tác tốt", "Trẻ 10 tuổi chỉ sâu răng nhẹ", "Trẻ cần bôi Fluor định kỳ"], "c": 0, "e": "Nhập viện với: trẻ nhỏ dưới 2 tuổi, trẻ bệnh tim mạch/thận, dị tật bẩm sinh, khuyết tật tâm sinh lý."}, {"q": "Kế hoạch điều trị có thể thay đổi tùy thuộc yếu tố nào?", "a": ["Sự hợp tác của trẻ và bố mẹ, tình trạng răng/VSRM, đánh giá nhổ răng và di chuyển tự nhiên của răng", "Màu sơn phòng khám", "Số lượng nhân viên", "Giá điện nước"], "c": 0, "e": "Kế hoạch có thể thay đổi tùy sự hợp tác của trẻ/bố mẹ, tình trạng răng và VSRM, đánh giá nhổ răng, di chuyển tự nhiên của răng và khí cụ cần dùng."}, {"q": "Trẻ có nguy cơ CAO nên được tái khám với tần suất nào?", "a": ["2–3 tháng/lần", "6 tháng/lần", "12 tháng/lần", "Chỉ khi đau"], "c": 0, "e": "Trẻ có nguy cơ cao: tái khám 2–3 tháng/lần."}, {"q": "Trẻ có nguy cơ THẤP nên được tái khám với tần suất nào?", "a": ["6 tháng/lần", "2–3 tháng/lần", "1 tháng/lần", "24 tháng/lần"], "c": 0, "e": "Trẻ có nguy cơ thấp: tái khám 6 tháng/lần."}, {"q": "Trong theo dõi và tái khám, nội dung nào được thực hiện?", "a": ["Dự phòng bằng Fluor, phát hiện sang thương sâu răng sớm, đánh giá các điều trị dự phòng", "Chỉ nhổ răng lung lay", "Chỉ chụp phim toàn cảnh", "Chỉ tư vấn chỉnh nha"], "c": 0, "e": "Theo dõi và tái khám: dự phòng bằng Fluor, phát hiện sang thương sâu răng sớm, đánh giá các điều trị dự phòng."}, {"q": "Kế hoạch điều trị cần được thực hiện thế nào trước khi làm thủ thuật?", "a": ["Được bàn bạc với bệnh nhân/phụ huynh trước khi làm thủ thuật", "Giữ bí mật với phụ huynh", "Chỉ thông báo sau khi làm xong", "Không cần bàn bạc"], "c": 0, "e": "Kế hoạch điều trị cần được bàn bạc với bệnh nhân/phụ huynh trước khi làm thủ thuật."}, {"q": "Khi khám răng, tình trạng răng cần ghi nhận KHÔNG bao gồm:", "a": ["Chỉ số ASA của bệnh nhân", "Sâu răng/nứt gãy", "Đổi màu, lung lay, chỉ còn chân răng", "Miếng trám/phục hình cũ"], "c": 0, "e": "Tình trạng răng: sâu/nứt gãy, đổi màu, lung lay, chỉ còn chân răng, miếng trám/phục hình cũ — ASA không thuộc phần này."}, {"q": "Nhóm thông tin nào cần khai thác trong 'quá trình mang thai của mẹ' (tiền sử trước sinh)?", "a": ["Rối loạn dinh dưỡng, dùng thuốc, tiền sử bệnh, chấn thương, vị trí bất thường của thai nhi", "Thói quen chải răng của mẹ", "Nghề nghiệp của ông bà", "Số lần trẻ đi khám răng"], "c": 0, "e": "Thông tin thai kỳ mẹ: rối loạn dinh dưỡng, tiền sử dùng thuốc, tiền sử bệnh, tiền sử chấn thương, vị trí bất thường của thai nhi."}, {"q": "Nhóm thông tin nào thuộc giai đoạn sơ sinh (tiền sử sau sinh)?", "a": ["Cách thức và thời gian nuôi dưỡng, rối loạn dinh dưỡng, chấn thương/bệnh tật hồi nhỏ, mốc tăng trưởng, lịch tiêm chủng", "Bệnh di truyền của gia đình", "Vị trí bất thường của thai nhi", "Thái độ bố mẹ với VSRM"], "c": 0, "e": "Giai đoạn sơ sinh: cách thức và thời gian nuôi dưỡng, rối loạn dinh dưỡng, chấn thương/bệnh tật hồi nhỏ, mốc tăng trưởng, lịch tiêm chủng."}, {"q": "Khi khám ngoài mặt, yếu tố nào sau đây được đánh giá?", "a": ["Hình dạng đầu, hình dạng mặt, sự cân đối của mặt, mặt nghiêng, chiều cao mặt", "Độ sâu túi nha chu", "Đáp ứng thử tủy", "Đường cong Spee"], "c": 0, "e": "Khám ngoài mặt: hình dạng đầu/mặt, khớp TDH, hạch bạch huyết, mặt nghiêng, sự cân đối của mặt, góc phân kỳ mặt, chiều cao mặt, mắt, mũi, môi."}, {"q": "Khám tổng quát đánh giá hình thể của trẻ gồm:", "a": ["Chiều cao, cân nặng, gầy còm/béo/cơ bắp", "Độ sâu túi nha chu", "Tương quan răng hàm", "Đường cong Spee"], "c": 0, "e": "Khám tổng quát: chiều cao, cân nặng, hình thể (gầy còm, béo, cơ bắp, bất thường), phát âm."}, {"q": "Khi trẻ bị chấn thương, khi khám cần chú ý điều gì ở khớp thái dương hàm?", "a": ["Cử động khớp khi há/ngậm, há tối đa, tiếng kêu khi há ngậm, đau khi há ngậm", "Chỉ đếm số răng gãy", "Chỉ đo huyết áp", "Chỉ chụp phim toàn cảnh"], "c": 0, "e": "Với trẻ chấn thương: đánh giá cử động khớp TDH (há/ngậm đau?), há tối đa, có tiếng kêu khi há ngậm không, cùng vết thương phần mềm và điểm đau chói."}];
+let idx=0, score=0, answers=[], quizSet=[];
+const COUNTS=[20,40,60,100];
+function initChips(){const el=document.getElementById('countChips');COUNTS.forEach((n,i)=>{const c=document.createElement('div');c.className='chip'+(i===COUNTS.length-1?' on':'');c.textContent=n>=BANK.length?'Tất cả ('+BANK.length+')':n+' câu';c.dataset.n=Math.min(n,BANK.length);c.onclick=()=>{document.querySelectorAll('#countChips .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');};el.appendChild(c);});}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function startQuiz(){
+  const sel=document.querySelector('#countChips .chip.on');
+  const n=Math.min(parseInt(sel.dataset.n),BANK.length);
+  const doShuffle=document.getElementById('shuffle').checked;
+  let pool=BANK.map((q,i)=>({...q,_i:i}));
+  if(doShuffle)shuffle(pool);
+  quizSet=pool.slice(0,n).map(q=>{
+    let opts=q.a.map((t,i)=>({t,correct:i===q.c}));
+    if(doShuffle)shuffle(opts);
+    return {q:q.q,opts,e:q.e};
+  });
+  idx=0;score=0;answers=[];
+  document.getElementById('start').style.display='none';
+  document.getElementById('result').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  renderQ();
+}
+function renderQ(){
+  const item=quizSet[idx];
+  document.getElementById('progressTxt').textContent='Câu '+(idx+1)+' / '+quizSet.length;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('progressBar').style.width=((idx)/quizSet.length*100)+'%';
+  document.getElementById('qText').textContent=item.q;
+  const box=document.getElementById('opts');box.innerHTML='';
+  const letters=['A','B','C','D'];
+  item.opts.forEach((o,i)=>{
+    const b=document.createElement('button');
+    b.className='opt';
+    b.innerHTML='<span class="k">'+letters[i]+'.</span> '+o.t;
+    b.onclick=()=>choose(i);
+    box.appendChild(b);
+  });
+  const ex=document.getElementById('explain');ex.className='explain';ex.textContent='';
+  document.getElementById('nextBtn').disabled=true;
+  document.getElementById('skipBtn').style.display='inline-block';
+  document.getElementById('nextBtn').textContent=(idx===quizSet.length-1)?'Xem kết quả ✔':'Câu tiếp ▶';
+}
+function choose(i){
+  const item=quizSet[idx];
+  const btns=document.querySelectorAll('#opts .opt');
+  const correctIdx=item.opts.findIndex(o=>o.correct);
+  btns.forEach((b,j)=>{b.disabled=true;if(j===correctIdx)b.classList.add('correct');if(j===i&&i!==correctIdx)b.classList.add('wrong');});
+  const isRight=i===correctIdx;
+  if(isRight)score++;
+  answers.push({q:item.q,chosen:item.opts[i].t,correct:item.opts[correctIdx].t,right:isRight});
+  const ex=document.getElementById('explain');
+  ex.className='explain show';
+  ex.innerHTML=(isRight?'<b class="ok">✔ Chính xác. </b>':'<b class="bad">✘ Chưa đúng. </b>')+item.e;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('nextBtn').disabled=false;
+  document.getElementById('skipBtn').style.display='none';
+}
+function nextQ(){ if(idx<quizSet.length-1){idx++;renderQ();} else finish(); }
+function finish(){
+  document.getElementById('quiz').style.display='none';
+  const r=document.getElementById('result');r.style.display='block';
+  const pct=Math.round(score/quizSet.length*100);
+  document.getElementById('finalScore').textContent=score+' / '+quizSet.length+' ('+pct+'%)';
+  let msg='';
+  if(pct>=90)msg='Xuất sắc! Bạn nắm rất chắc bài.';
+  else if(pct>=70)msg='Tốt! Ôn lại vài câu sai là ổn.';
+  else if(pct>=50)msg='Khá – cần ôn thêm phần sai.';
+  else msg='Hãy đọc lại tài liệu và luyện lại nhé.';
+  document.getElementById('finalMsg').textContent=msg;
+  const rev=document.getElementById('review');rev.innerHTML='';rev.style.display='none';
+  answers.forEach((a,i)=>{
+    const d=document.createElement('div');d.className='review-item';
+    d.innerHTML='<div class="ri-q">'+(i+1)+'. '+a.q+'</div>'+
+      '<div class="ri-a">Bạn chọn: <span class="'+(a.right?'ok':'bad')+'">'+a.chosen+'</span></div>'+
+      (a.right?'':'<div class="ri-a">Đáp án đúng: <span class="ok">'+a.correct+'</span></div>');
+    rev.appendChild(d);
+  });
+}
+function toggleReview(){const r=document.getElementById('review');r.style.display=r.style.display==='none'?'block':'none';}
+initChips();
+</script>
+</body>
+</html>

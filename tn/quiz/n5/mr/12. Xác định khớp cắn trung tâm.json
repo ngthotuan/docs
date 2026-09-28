@@ -1,0 +1,968 @@
+[
+    {
+      "question": "Theo tài liệu, Tương quan tâm (Centric Relation - TQT) được xác định dựa trên yếu tố nào?",
+      "options": [
+        {"text": "Sự tiếp xúc của các răng", "isCorrect": false},
+        {"text": "Vị trí của tổ hợp lồi cầu - đĩa khớp", "isCorrect": true},
+        {"text": "Độ dày của nền nhựa", "isCorrect": false},
+        {"text": "Chiều dài của môi trên", "isCorrect": false}
+      ],
+      "explanation": "Tương quan tâm là mối quan hệ giữa hàm trên và hàm dưới dựa trên vị trí của lồi cầu trong hố khớp, không phụ thuộc vào răng."
+    },
+    {
+      "question": "Trong trạng thái Tương quan tâm, lồi cầu nằm ở vị trí nào so với lồi khớp?",
+      "options": [
+        {"text": "Vị trí thấp nhất", "isCorrect": false},
+        {"text": "Vị trí cao nhất", "isCorrect": true},
+        {"text": "Vị trí trước nhất", "isCorrect": false},
+        {"text": "Nằm ngoài hố khớp", "isCorrect": false}
+      ],
+      "explanation": "TQT là vị trí của lồi cầu ở vị trí cao nhất và trung tâm so với lồi khớp."
+    },
+    {
+      "question": "Điều kiện cần thiết về cơ học để xác định Tương quan tâm là gì?",
+      "options": [
+        {"text": "Cơ chân bướm ngoài phải co tối đa", "isCorrect": false},
+        {"text": "Sự thư giãn của cơ chân bướm ngoài", "isCorrect": true},
+        {"text": "Các răng phải chạm nhau hoàn toàn", "isCorrect": false},
+        {"text": "Lưỡi phải đẩy ra phía trước", "isCorrect": false}
+      ],
+      "explanation": "Để xác định TQT đúng, tổ hợp lồi cầu-đĩa khớp phải ở đúng vị trí và cơ chân bướm ngoài phải thư giãn."
+    },
+    {
+      "question": "Khái niệm Tương quan tâm có điểm gì khác biệt so với khớp cắn răng?",
+      "options": [
+        {"text": "Nó chỉ tồn tại khi có răng", "isCorrect": false},
+        {"text": "Nó xác định tương quan hai hàm ngay cả khi không có răng", "isCorrect": true},
+        {"text": "Nó thay đổi theo kích thước dọc", "isCorrect": false},
+        {"text": "Nó là vị trí không thể tìm lại được", "isCorrect": false}
+      ],
+      "explanation": "TQT đề cập đến vị trí của lồi cầu, do đó ngay cả khi mất hết răng bệnh nhân vẫn có tương quan tâm."
+    },
+    {
+      "question": "Lồng múi tối đa (Maximum Intercuspation - LMTD) được định nghĩa là gì?",
+      "options": [
+        {"text": "Vị trí lồi cầu sau nhất", "isCorrect": false},
+        {"text": "Vị trí các răng hai hàm tiếp xúc với nhau nhiều nhất", "isCorrect": true},
+        {"text": "Vị trí khi cơ nhai mỏi nhất", "isCorrect": false},
+        {"text": "Khoảng cách lớn nhất giữa hai hàm", "isCorrect": false}
+      ],
+      "explanation": "Lồng múi tối đa là tương quan răng-răng, nơi có sự tiếp xúc mặt nhai lớn nhất."
+    },
+    {
+      "question": "Tại sao Tương quan tâm lại được ưu tiên sử dụng trong phục hình tháo lắp?",
+      "options": [
+        {"text": "Vì nó là vị trí đẹp nhất", "isCorrect": false},
+        {"text": "Do nó có tính sinh lý, cơ sinh học đúng và có khả năng tái lập", "isCorrect": true},
+        {"text": "Vì nó làm giảm giá thành phục hình", "isCorrect": false},
+        {"text": "Vì nó không cần dùng gối sáp", "isCorrect": false}
+      ],
+      "explanation": "TQT là vị trí ổn định, có thể tìm lại được nhiều lần và đảm bảo khớp cắn không bị cản trở."
+    },
+    {
+      "question": "Khớp cắn trung tâm (Centric Occlusion) hiện nay thường được gọi bằng thuật ngữ nào?",
+      "options": [
+        {"text": "Khớp cắn hở", "isCorrect": false},
+        {"text": "Lồng múi tối đa", "isCorrect": true},
+        {"text": "Cắn chìa", "isCorrect": false},
+        {"text": "Tương quan lồi cầu", "isCorrect": false}
+      ],
+      "explanation": "Trong nha khoa hiện đại, thuật ngữ lồng múi tối đa được dùng để thay thế cho cắn khít trung tâm."
+    },
+    {
+      "question": "Việc duy trì khớp cắn ở vị trí lồng múi tối đa (LMTD) được chỉ định khi nào?",
+      "options": [
+        {"text": "Kích thước dọc không thay đổi và có sự gài khớp sau vững ổn", "isCorrect": true},
+        {"text": "Bệnh nhân mất toàn bộ răng", "isCorrect": false},
+        {"text": "Khi cần mài chỉnh khớp cắn toàn diện", "isCorrect": false},
+        {"text": "Đối diện với một phục hình toàn hàm", "isCorrect": false}
+      ],
+      "explanation": "Nếu khớp cắn tự nhiên của bệnh nhân đang ổn định và không có bệnh lý thì nên giữ nguyên LMTD."
+    },
+    {
+      "question": "Trường hợp nào BẮT BUỘC phải xác định khớp cắn ở Tương quan tâm?",
+      "options": [
+        {"text": "Phục hình từng phần đối diện với một phục hình toàn hàm", "isCorrect": true},
+        {"text": "Mất 1 răng đơn lẻ", "isCorrect": false},
+        {"text": "Khi răng thật còn đầy đủ 4 vùng hỗ trợ", "isCorrect": false},
+        {"text": "Khi bệnh nhân dưới 18 tuổi", "isCorrect": false}
+      ],
+      "explanation": "Khi không còn đủ răng làm chuẩn (đối diện hàm toàn bộ), bác sĩ phải dựa vào TQT để thiết kế lại khớp cắn."
+    },
+    {
+      "question": "Có bao nhiêu khái niệm chính về khớp cắn cho phục hình được nhắc đến?",
+      "options": [
+        {"text": "2 khái niệm", "isCorrect": false},
+        {"text": "3 khái niệm (thăng bằng, răng nanh, nhóm)", "isCorrect": true},
+        {"text": "4 khái niệm", "isCorrect": false},
+        {"text": "5 khái niệm", "isCorrect": false}
+      ],
+      "explanation": "Ba khái niệm chính gồm: Khớp cắn thăng bằng, chức năng răng nanh và chức năng nhóm."
+    },
+    {
+      "question": "Khớp cắn thăng bằng (Gysi) thường được khuyên dùng cho loại phục hình nào?",
+      "options": [
+        {"text": "Phục hình cố định", "isCorrect": false},
+        {"text": "Phục hình toàn hàm", "isCorrect": true},
+        {"text": "Hàn răng sâu", "isCorrect": false},
+        {"text": "Chỉnh nha", "isCorrect": false}
+      ],
+      "explanation": "Khớp cắn thăng bằng giúp ổn định nền hàm giả toàn bộ trong các vận động hàm."
+    },
+    {
+      "question": "Đặc điểm của khớp cắn răng nanh (Thomas) khi đưa hàm sang bên là gì?",
+      "options": [
+        {"text": "Tất cả các răng đều chạm", "isCorrect": false},
+        {"text": "Chỉ các răng nanh chạm nhau gây nhả khớp các răng sau", "isCorrect": true},
+        {"text": "Các răng hàm lớn chạm nhau", "isCorrect": false},
+        {"text": "Răng cửa chạm đầu", "isCorrect": false}
+      ],
+      "explanation": "Răng nanh hướng dẫn vận động sang bên và bảo vệ các răng sau không bị lực ngang tác động."
+    },
+    {
+      "question": "Khái niệm chức năng nhóm được khuyên dùng cho phục hình nào bởi Schuyler và Ramfiord?",
+      "options": [
+        {"text": "Phục hình cố định", "isCorrect": true},
+        {"text": "Phục hình toàn hàm", "isCorrect": false},
+        {"text": "Hàm nhựa tháo lắp", "isCorrect": false},
+        {"text": "Máng nhai", "isCorrect": false}
+      ],
+      "explanation": "Chức năng nhóm thường được áp dụng trong phục hình cố định để phân phối lực."
+    },
+    {
+      "question": "Trong khớp cắn thăng bằng, khi cắn tới (protrusive) cần đạt trạng thái gì?",
+      "options": [
+        {"text": "Chỉ răng trước chạm", "isCorrect": false},
+        {"text": "Răng trước chạm và có ít nhất 1 điểm chạm ở cả hai bên phía sau", "isCorrect": true},
+        {"text": "Không răng nào chạm", "isCorrect": false},
+        {"text": "Tất cả răng đều hở", "isCorrect": false}
+      ],
+      "explanation": "Sự tiếp xúc phía sau (kiềng 3 chân) giúp hàm giả không bị lật khi bệnh nhân cắn răng trước."
+    },
+    {
+      "question": "Việc chọn khái niệm khớp cắn cho phục hình tháo lắp bán phần phụ thuộc vào yếu tố nào?",
+      "options": [
+        {"text": "Số răng còn lại", "isCorrect": false},
+        {"text": "Răng nanh còn hay mất", "isCorrect": false},
+        {"text": "Số lượng tiếp xúc mặt nhai hiện có", "isCorrect": false},
+        {"text": "Tất cả các yếu tố trên", "isCorrect": true}
+      ],
+      "explanation": "Điều trị mất răng từng phần rất phức tạp nên phải căn cứ vào tình trạng cụ thể của từng bệnh nhân."
+    },
+    {
+      "question": "Dụng cụ cần thiết để xác định khớp cắn trung tâm bao gồm:",
+      "options": [
+        {"text": "Khay lấy dấu", "isCorrect": false},
+        {"text": "Đèn cồn, dao sáp, sáp, thước đo tầng mặt", "isCorrect": true},
+        {"text": "Kìm nhổ răng", "isCorrect": false},
+        {"text": "Máy khoan siêu tốc", "isCorrect": false}
+      ],
+      "explanation": "Đây là các dụng cụ cơ bản để bác sĩ thao tác điều chỉnh gối sáp trên lâm sàng."
+    },
+    {
+      "question": "Nền hàm sáp trong giai đoạn thử tương quan được coi là gì?",
+      "options": [
+        {"text": "Một công cụ nháp", "isCorrect": false},
+        {"text": "Nền hàm giả tương lai", "isCorrect": true},
+        {"text": "Phần răng giả", "isCorrect": false},
+        {"text": "Khay lấy dấu cá nhân", "isCorrect": false}
+      ],
+      "explanation": "Nền sáp mô phỏng chính xác phạm vi và hình dáng của nền nhựa phục hình sau này."
+    },
+    {
+      "question": "Gối sáp trên nền tạm đại diện cho thành phần nào sau này?",
+      "options": [
+        {"text": "Sống hàm", "isCorrect": false},
+        {"text": "Nhóm răng giả tương lai", "isCorrect": true},
+        {"text": "Lưỡi bệnh nhân", "isCorrect": false},
+        {"text": "Thanh nối chính", "isCorrect": false}
+      ],
+      "explanation": "Vị trí và kích thước của gối sáp sẽ được thay thế bằng các răng giả."
+    },
+    {
+      "question": "Loại 1 (còn đủ 3 điểm chạm) có đặc điểm gì về mặt phẳng cắn?",
+      "options": [
+        {"text": "Bị mất hoàn toàn", "isCorrect": false},
+        {"text": "Đã được xác định bởi các răng thật còn lại", "isCorrect": true},
+        {"text": "Phải tái lập bằng gối sáp cao", "isCorrect": false},
+        {"text": "Cần đo kích thước dọc", "isCorrect": false}
+      ],
+      "explanation": "Sự tồn tại của ít nhất 3 điểm chạm (kiềng 3 chân) cho phép giữ nguyên khớp cắn cũ."
+    },
+    {
+      "question": "Đối với Loại 2 (còn 1-2 điểm chạm), tại sao không cần xác định Kích thước dọc?",
+      "options": [
+        {"text": "Vì bệnh nhân không muốn", "isCorrect": false},
+        {"text": "Vì các điểm chạm còn lại vẫn duy trì được chiều cao tầng mặt", "isCorrect": true},
+        {"text": "Vì thạch cao đã cứng", "isCorrect": false},
+        {"text": "Vì gối sáp đã đủ cao", "isCorrect": false}
+      ],
+      "explanation": "Chỉ khi mất hết các điểm chạm răng đối diện (Loại 3, 4) thì kích thước dọc mới bị sụp đổ."
+    },
+    {
+      "question": "Trường hợp mất răng Loại 3 (kiểu cài răng lược) đòi hỏi bác sĩ phải làm gì?",
+      "options": [
+        {"text": "Phải tìm chiều cao tầng mặt dưới để thử sáp", "isCorrect": true},
+        {"text": "Nhổ răng cửa", "isCorrect": false},
+        {"text": "Chỉ cần lấy dấu sơ khởi", "isCorrect": false},
+        {"text": "Không cần làm gối sáp", "isCorrect": false}
+      ],
+      "explanation": "Mất răng cài răng lược tuy còn răng nhưng không còn điểm chạm để xác định chiều cao cắn khít."
+    },
+    {
+      "question": "Nghiệm pháp nào giúp bệnh nhân tự đưa hàm về khớp cắn trung tâm?",
+      "options": [
+        {"text": "Há miệng to", "isCorrect": false},
+        {"text": "Nuốt nước miếng, ngậm miệng và giữ nguyên tư thế", "isCorrect": true},
+        {"text": "Đẩy lưỡi ra ngoài môi", "isCorrect": false},
+        {"text": "Cười lớn", "isCorrect": false}
+      ],
+      "explanation": "Hành động nuốt nước miếng kích hoạt các cơ kéo hàm dưới về đúng tương quan tâm."
+    },
+    {
+      "question": "Kỹ thuật co lưỡi về phía sau giúp ích gì khi xác định khớp cắn?",
+      "options": [
+        {"text": "Làm bệnh nhân không nói chuyện được", "isCorrect": false},
+        {"text": "Hàm dưới sẽ lùi ra sau vào đúng vị trí tương quan", "isCorrect": true},
+        {"text": "Để sáp không bị dính vào lưỡi", "isCorrect": false},
+        {"text": "Giúp răng thật trắng hơn", "isCorrect": false}
+      ],
+      "explanation": "Khi đầu lưỡi chạm vào vùng sau vòm miệng, hàm dưới được dẫn dắt về vị trí sau nhất trong hố khớp."
+    },
+    {
+      "question": "Can thiệp của bác sĩ để tìm khớp cắn đúng là gì?",
+      "options": [
+        {"text": "Đẩy mạnh vào trán", "isCorrect": false},
+        {"text": "Đẩy nhẹ vào cằm và bảo bệnh nhân ngậm miệng lại", "isCorrect": true},
+        {"text": "Xoay đầu bệnh nhân sang trái", "isCorrect": false},
+        {"text": "Cù lét bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Thao tác tay nhẹ nhàng ở cằm giúp kiểm soát quỹ đạo đóng hàm của bệnh nhân."
+    },
+    {
+      "question": "Trong trường hợp mất răng cả trên và dưới, hàm nào được đo trước?",
+      "options": [
+        {"text": "Hàm trên luôn luôn", "isCorrect": false},
+        {"text": "Hàm mất ít răng đo trước", "isCorrect": true},
+        {"text": "Hàm mất nhiều răng đo trước", "isCorrect": false},
+        {"text": "Tùy ý thích bác sĩ", "isCorrect": false}
+      ],
+      "explanation": "Đo hàm ít răng mất trước để lấy đó làm chuẩn định vị cho cung răng còn lại."
+    },
+    {
+      "question": "Gối sáp đạt yêu cầu khi nào?",
+      "options": [
+        {"text": "Cao hơn răng thật 5mm", "isCorrect": false},
+        {"text": "Sát khít với các răng thật còn lại khi cắn", "isCorrect": true},
+        {"text": "Làm bằng nhựa cứng", "isCorrect": false},
+        {"text": "Che phủ hết các răng cửa", "isCorrect": false}
+      ],
+      "explanation": "Sự sát khít chứng tỏ gối sáp đã phản ánh đúng tương quan khớp cắn hiện tại của bệnh nhân."
+    },
+    {
+      "question": "Cấu tạo 'Khóa sáp' để vào giá khớp gồm bao nhiêu phần?",
+      "options": [
+        {"text": "1 phần sáp duy nhất", "isCorrect": false},
+        {"text": "2 phần: Phần âm (trên gối sáp) và phần dương (sáp nhôm)", "isCorrect": true},
+        {"text": "3 phần", "isCorrect": false},
+        {"text": "Dùng keo gắn mẫu", "isCorrect": false}
+      ],
+      "explanation": "Rãnh cắt (âm) và sáp nhôm (dương) tạo thành bộ khóa tương quan chính xác cho labo."
+    },
+    {
+      "question": "Kích thước dọc (KTD) là thông số đo chiều cao của tầng mặt nào?",
+      "options": [
+        {"text": "Tầng mặt trên", "isCorrect": false},
+        {"text": "Tầng mặt giữa", "isCorrect": false},
+        {"text": "Tầng mặt dưới", "isCorrect": true},
+        {"text": "Toàn bộ khuôn mặt", "isCorrect": false}
+      ],
+      "explanation": "KTD là số đo chiều cao tầng mặt dưới, tính từ chân cánh mũi đến cằm."
+    },
+    {
+      "question": "Kích thước dọc nghỉ (RVD) được định nghĩa như thế nào?",
+      "options": [
+        {"text": "Chiều cao mặt khi răng chạm nhau", "isCorrect": false},
+        {"text": "Chiều cao mặt khi tất cả các cơ ở trạng thái nghỉ sinh lý", "isCorrect": true},
+        {"text": "Khoảng cách giữa hai đồng tử", "isCorrect": false},
+        {"text": "Độ sâu của vòm miệng", "isCorrect": false}
+      ],
+      "explanation": "Khi các cơ thăng bằng trương lực và hàm dưới thả lỏng, đó là kích thước dọc nghỉ."
+    },
+    {
+      "question": "Kích thước dọc cắn khớp (OVD) xảy ra ở trạng thái nào?",
+      "options": [
+        {"text": "Há miệng", "isCorrect": false},
+        {"text": "Lồng múi tối đa (maximum intercuspation)", "isCorrect": true},
+        {"text": "Nuốt nước miếng", "isCorrect": false},
+        {"text": "Phát âm chữ A", "isCorrect": false}
+      ],
+      "explanation": "OVD là chiều cao mặt đo được khi hai hàm răng chạm nhau hoàn toàn."
+    },
+    {
+      "question": "Khoảng trống tự do (FWS) trung bình là bao nhiêu mm?",
+      "options": [
+        {"text": "0 mm", "isCorrect": false},
+        {"text": "1 mm", "isCorrect": false},
+        {"text": "2 - 4 mm", "isCorrect": true},
+        {"text": "10 mm", "isCorrect": false}
+      ],
+      "explanation": "Đây là khoảng hở cần thiết để hệ thống nhai được nghỉ ngơi ở tư thế tĩnh."
+    },
+    {
+      "question": "Công thức tính KTD cắn khớp từ KTD nghỉ là:",
+      "options": [
+        {"text": "OVD = RVD + 2mm", "isCorrect": false},
+        {"text": "OVD = RVD - 2mm", "isCorrect": true},
+        {"text": "OVD = RVD * 2", "isCorrect": false},
+        {"text": "OVD = RVD / 2", "isCorrect": false}
+      ],
+      "explanation": "Để tìm chiều cao cắn khớp, ta lấy chiều cao nghỉ trừ đi khoảng hở tự do."
+    },
+    {
+      "question": "Trước khi xác định KTD, bệnh nhân phải đạt được điều kiện gì?",
+      "options": [
+        {"text": "Đang tập thể dục", "isCorrect": false},
+        {"text": "Thăng bằng thần kinh cơ (ngồi thoải mái, cơ thư giãn)", "isCorrect": true},
+        {"text": "Nằm ngửa hoàn toàn", "isCorrect": false},
+        {"text": "Đang nói chuyện điện thoại", "isCorrect": false}
+      ],
+      "explanation": "Cơ bắp phải thư giãn hoàn toàn mới đo được kích thước dọc nghỉ chính xác."
+    },
+    {
+      "question": "Tư thế ngồi chuẩn để đo kích thước dọc là:",
+      "options": [
+        {"text": "Chân vắt chéo", "isCorrect": false},
+        {"text": "Đầu thẳng dọc, không tựa đầu, hai chân không chéo", "isCorrect": true},
+        {"text": "Cúi đầu về phía trước", "isCorrect": false},
+        {"text": "Nằm nghiêng trên ghế nha", "isCorrect": false}
+      ],
+      "explanation": "Tư thế này giúp hàm dưới ở vị trí tự nhiên nhất dưới tác động của trọng lực."
+    },
+    {
+      "question": "Phương pháp 'làm mỏi cơ' để tìm tư thế nghỉ thực hiện như thế nào?",
+      "options": [
+        {"text": "Cho bệnh nhân ngủ gật", "isCorrect": false},
+        {"text": "Cho bệnh nhân há ngậm miệng liên tục nhiều lần", "isCorrect": true},
+        {"text": "Cho bệnh nhân ăn cơm", "isCorrect": false},
+        {"text": "Bắt bệnh nhân nhịn thở", "isCorrect": false}
+      ],
+      "explanation": "Khi cơ mỏi, hàm dưới sẽ tự động rơi về trạng thái nghỉ thăng bằng trương lực cơ."
+    },
+    {
+      "question": "Kỹ thuật Smith đo kích thước dọc nghỉ vào thời điểm nào?",
+      "options": [
+        {"text": "Ngay trước và sau khi bệnh nhân nuốt ngụm nước", "isCorrect": true},
+        {"text": "Khi bệnh nhân đang cười", "isCorrect": false},
+        {"text": "Lúc bệnh nhân đang ngáp", "isCorrect": false},
+        {"text": "Khi đang tiêm thuốc tê", "isCorrect": false}
+      ],
+      "explanation": "Nuốt là hành động sinh lý ổn định giúp hàm dưới về vị trí nghỉ."
+    },
+    {
+      "question": "Nghiệm pháp Douglas và Maritato áp dụng cho đối tượng nào?",
+      "options": [
+        {"text": "Người thở bằng mũi", "isCorrect": false},
+        {"text": "Người thở miệng", "isCorrect": true},
+        {"text": "Trẻ em dưới 5 tuổi", "isCorrect": false},
+        {"text": "Người bị gãy xương hàm", "isCorrect": false}
+      ],
+      "explanation": "Ở người thở miệng, KTD nghỉ xuất hiện ở chuyển động cuối của pha thở ra."
+    },
+    {
+      "question": "Theo phương pháp Sears và Wild, âm nào giúp tìm KTD nghỉ?",
+      "options": [
+        {"text": "Âm 'A'", "isCorrect": false},
+        {"text": "Các âm 'me', 'pe', 'be'", "isCorrect": true},
+        {"text": "Âm 'Kh'", "isCorrect": false},
+        {"text": "Âm 'Tr'", "isCorrect": false}
+      ],
+      "explanation": "Các âm này yêu cầu sử dụng môi mạnh, sau đó cơ sẽ giãn về tư thế nghỉ sinh lý."
+    },
+    {
+      "question": "Silverman đề nghị bệnh nhân phát âm chữ gì để xác định KTD?",
+      "options": [
+        {"text": "Chữ 'O'", "isCorrect": false},
+        {"text": "Chữ 'S' hoặc từ 'Yes'", "isCorrect": true},
+        {"text": "Chữ 'M'", "isCorrect": false},
+        {"text": "Chữ 'U'", "isCorrect": false}
+      ],
+      "explanation": "Khoảng nói tối thiểu khi phát âm 'S' là mốc quan trọng để kiểm soát kích thước dọc."
+    },
+    {
+      "question": "Kỹ thuật gián tiếp xác định OVD bằng cách nào?",
+      "options": [
+        {"text": "Đo bằng thước Willis rồi trừ đi 2mm từ số đo nghỉ", "isCorrect": true},
+        {"text": "Dùng phim X-quang", "isCorrect": false},
+        {"text": "Để bệnh nhân tự chọn", "isCorrect": false},
+        {"text": "Ước lượng theo cảm giác", "isCorrect": false}
+      ],
+      "explanation": "Đây là phương pháp lấy RVD bớt đi khoảng hở tự do để ra OVD."
+    },
+    {
+      "question": "Tại sao không nên sử dụng tựa đầu khi đo kích thước dọc?",
+      "options": [
+        {"text": "Vì ghế nha khoa quá cứng", "isCorrect": false},
+        {"text": "Tránh làm sai lệch trương lực các cơ vùng cổ và hàm", "isCorrect": true},
+        {"text": "Để bệnh nhân dễ thở hơn", "isCorrect": false},
+        {"text": "Tiết kiệm không gian", "isCorrect": false}
+      ],
+      "explanation": "Sự tỳ đè ở sau gáy có thể làm thay đổi vị trí nghỉ sinh lý của xương hàm dưới."
+    },
+    {
+      "question": "Hệ quả của việc xác định kích thước dọc 'quá cao' là gì?",
+      "options": [
+        {"text": "Mặt bệnh nhân trông trẻ hơn", "isCorrect": false},
+        {"text": "Mỏi cơ nhai, tiếng va chạm răng khi nói và BN khó khép môi", "isCorrect": true},
+        {"text": "Răng bị lỏng", "isCorrect": false},
+        {"text": "Lưỡi bị tê", "isCorrect": false}
+      ],
+      "explanation": "KTD cao khiến các cơ luôn bị kéo căng và không có khoảng trống tự do cho răng."
+    },
+    {
+      "question": "Kích thước dọc 'quá thấp' gây ra tình trạng gì?",
+      "options": [
+        {"text": "Bệnh nhân ăn ngon hơn", "isCorrect": false},
+        {"text": "Mặt trông già, móm và có thể đau khớp thái dương hàm", "isCorrect": true},
+        {"text": "Răng mọc dài ra", "isCorrect": false},
+        {"text": "Thính giác nhạy hơn", "isCorrect": false}
+      ],
+      "explanation": "KTD thấp làm tầng mặt dưới ngắn lại, gây mất thẩm mỹ và quá tải lực lên khớp."
+    },
+    {
+      "question": "Trong hình vẽ trang 39, trạng thái (a) là gì?",
+      "options": [
+        {"text": "Tư thế cắn khít", "isCorrect": false},
+        {"text": "Tư thế nghỉ sinh lý", "isCorrect": true},
+        {"text": "Tư thế há to", "isCorrect": false},
+        {"text": "Tư thế đưa hàm sang bên", "isCorrect": false}
+      ],
+      "explanation": "Hình ảnh minh họa hàm dưới ở trạng thái nghỉ với khoảng hở giữa 2 cung răng."
+    },
+    {
+      "question": "Việc dùng 'Sáp nhôm' giúp ích gì cho khóa sáp?",
+      "options": [
+        {"text": "Làm sáp có màu đẹp", "isCorrect": false},
+        {"text": "Tăng độ bền và ổn định khi gửi labo vào giá khớp", "isCorrect": true},
+        {"text": "Làm sáp nhanh tan hơn", "isCorrect": false},
+        {"text": "Tiết kiệm thạch cao", "isCorrect": false}
+      ],
+      "explanation": "Sáp nhôm cứng chắc giúp giữ nguyên tương quan hai hàm không bị xê dịch."
+    },
+    {
+      "question": "Băm mềm gối sáp thực hiện bằng dụng cụ nào?",
+      "options": [
+        {"text": "Dao sáp hơ nóng", "isCorrect": true},
+        {"text": "Thám trâm lạnh", "isCorrect": false},
+        {"text": "Kìm cắt dây", "isCorrect": false},
+        {"text": "Máy mài", "isCorrect": false}
+      ],
+      "explanation": "Dùng nhiệt độ để làm mềm lớp bề mặt sáp giúp ghi dấu chính xác."
+    },
+    {
+      "question": "Mục tiêu 3 của bài học này tập trung vào nội dung gì?",
+      "options": [
+        {"text": "Cách lấy dấu Alginate", "isCorrect": false},
+        {"text": "Cách xác định khớp cắn trung tâm", "isCorrect": true},
+        {"text": "Cách đúc khung kim loại", "isCorrect": false},
+        {"text": "Cách nhổ răng sữa", "isCorrect": false}
+      ],
+      "explanation": "Mục tiêu 3 là trình bày được cách xác định KCTT trong phục hình tháo lắp bán phần."
+    },
+    {
+      "question": "Điểm mốc dùng để đo KTD thường đặt ở đâu?",
+      "options": [
+        {"text": "Dưới vách mũi và điểm nhô nhất ở cằm", "isCorrect": true},
+        {"text": "Hai bên tai", "isCorrect": false},
+        {"text": "Trên trán và đỉnh đầu", "isCorrect": false},
+        {"text": "Khóe miệng và dái tai", "isCorrect": false}
+      ],
+      "explanation": "Hai điểm mốc Sn (dưới mũi) và Gn (cằm) là vị trí chuẩn để sử dụng thước đo chiều cao mặt."
+    },
+    {
+      "question": "Tại sao phải 'tháo bỏ hàm cũ' trước khi đo KCTT?",
+      "options": [
+        {"text": "Để không làm bẩn hàm cũ", "isCorrect": false},
+        {"text": "Để mô niêm mạc sống hàm được nghỉ ngơi và tránh sai lệch khớp cắn", "isCorrect": true},
+        {"text": "Để bệnh nhân nói rõ hơn", "isCorrect": false},
+        {"text": "Để bác sĩ dễ lấy dấu", "isCorrect": false}
+      ],
+      "explanation": "Hàm cũ thường mòn hoặc lỏng, tháo ra giúp bác sĩ ghi nhận tương quan xương mới chính xác."
+    },
+    {
+      "question": "Ký hiệu 'O2' ở trang bìa tài liệu là gì?",
+      "options": [
+        {"text": "Một công thức hóa học", "isCorrect": false},
+        {"text": "Ký hiệu phân loại module học tập", "isCorrect": true},
+        {"text": "Tên một loại răng giả", "isCorrect": false},
+        {"text": "Số thứ tự phòng khám", "isCorrect": false}
+      ],
+      "explanation": "Thường là mã số chương hoặc bài trong hệ thống bài giảng chuyên ngành."
+    },
+    {
+      "question": "Khi lồng múi tối đa, hàm dưới ở trạng thái như thế nào về cơ học?",
+      "options": [
+        {"text": "Kém ổn định nhất", "isCorrect": false},
+        {"text": "Đạt sự ổn định cơ học cao nhất", "isCorrect": true},
+        {"text": "Bị lệch sang bên", "isCorrect": false},
+        {"text": "Bị đẩy ra phía trước", "isCorrect": false}
+      ],
+      "explanation": "Sự ăn khớp tối đa của múi răng tạo điểm tựa vững chắc nhất cho xương hàm."
+    },
+    {
+      "question": "Phương pháp Silverman gọi hành động nói từ 'Yes' là gì?",
+      "options": [
+        {"text": "Khớp cắn tĩnh", "isCorrect": false},
+        {"text": "Khoảng nói tối thiểu", "isCorrect": true},
+        {"text": "Vị trí nghỉ tuyệt đối", "isCorrect": false},
+        {"text": "Phản xạ lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Closest speaking space là khoảng cách hẹp nhất giữa hai hàm khi phát âm 'S'."
+    },
+    {
+      "question": "Kỹ thuật co lưỡi ra sau (trang 25) nhắm vào bộ phận nào của vòm miệng?",
+      "options": [
+        {"text": "Răng cửa", "isCorrect": false},
+        {"text": "Vùng sau vòm miệng (khẩu cái mềm)", "isCorrect": true},
+        {"text": "Lợi răng hàm", "isCorrect": false},
+        {"text": "Dưới sàn miệng", "isCorrect": false}
+      ],
+      "explanation": "BN đưa đầu lưỡi chạm ra phía sau giúp kích hoạt cơ kéo hàm lùi về tương quan tâm."
+    },
+    {
+      "question": "Thước Willis dùng trong phục hình là dụng cụ:",
+      "options": [
+        {"text": "Thước dây mềm", "isCorrect": false},
+        {"text": "Thước kẹp đo kích thước dọc", "isCorrect": true},
+        {"text": "Thước đo góc", "isCorrect": false},
+        {"text": "Thước đo độ sâu túi lợi", "isCorrect": false}
+      ],
+      "explanation": "Đây là loại thước kẹp chuyên dụng để đo các chỉ số KTD nghỉ và cắn khớp."
+    },
+    {
+      "question": "Trạng thái các cơ nâng và hạ hàm cân bằng trương lực gọi là gì?",
+      "options": [
+        {"text": "Trạng thái nhai", "isCorrect": false},
+        {"text": "Trạng thái nghỉ sinh lý", "isCorrect": true},
+        {"text": "Trạng thái gồng cơ", "isCorrect": false},
+        {"text": "Trạng thái nuốt", "isCorrect": false}
+      ],
+      "explanation": "Tại vị trí nghỉ, các nhóm cơ đối vận đạt trạng thái thăng bằng lực."
+    },
+    {
+      "question": "Việc hơ nóng gối sáp bằng đèn cồn giúp gì?",
+      "options": [
+        {"text": "Làm sạch sáp", "isCorrect": false},
+        {"text": "Làm sáp mềm dẻo để ghi dấu chính xác các răng đối", "isCorrect": true},
+        {"text": "Làm sáp cứng lại", "isCorrect": false},
+        {"text": "Diệt khuẩn cho sáp", "isCorrect": false}
+      ],
+      "explanation": "Sáp mềm giúp răng thật lún vào một cách thụ động, tránh gây áp lực đẩy hàm."
+    },
+    {
+      "question": "Khái niệm 'Ngồi' (seated) của lồi cầu tương ứng với tương quan nào?",
+      "options": [
+        {"text": "Tương quan tâm", "isCorrect": true},
+        {"text": "Lồng múi tối đa", "isCorrect": false},
+        {"text": "Hàm đưa ra trước", "isCorrect": false},
+        {"text": "Hàm đưa sang bên", "isCorrect": false}
+      ],
+      "explanation": "Trong TQT, lồi cầu được mô tả là 'ngồi' đúng vị trí trong ổ khớp."
+    },
+    {
+      "question": "Tại sao phải đo riêng biệt từng hàm khi xác định KCTT?",
+      "options": [
+        {"text": "Để tốn thêm vật liệu", "isCorrect": false},
+        {"text": "Đảm bảo độ chính xác cho từng gối sáp trước khi phối hợp hai hàm", "isCorrect": true},
+        {"text": "Vì bệnh nhân không thể ngậm cả hai hàm", "isCorrect": false},
+        {"text": "Theo sở thích của bác sĩ", "isCorrect": false}
+      ],
+      "explanation": "Kiểm soát từng cung răng giúp đạt được mặt phẳng cắn và chiều cao gối sáp chuẩn nhất."
+    },
+    {
+      "question": "Kết quả cuối cùng của bài học giúp sinh viên thực hiện công đoạn nào?",
+      "options": [
+        {"text": "Gắn hàm giả hoàn thiện", "isCorrect": false},
+        {"text": "Xác định tương quan hai hàm và KTD chính xác để labo lên răng", "isCorrect": true},
+        {"text": "Nhổ răng khôn", "isCorrect": false},
+        {"text": "Trám răng sâu", "isCorrect": false}
+      ],
+      "explanation": "Đây là bước kỹ thuật then chốt kết nối giữa lâm sàng và xưởng labo."
+    },
+    {
+      "question": "Tiêu chuẩn lâm sàng để xác định chết não (nhắc lại kiến thức cũ trong file)?",
+      "options": [
+        {"text": "Glasgow bằng 3 điểm", "isCorrect": true},
+        {"text": " Glasgow bằng 15 điểm", "isCorrect": false},
+        {"text": "Đồng tử co nhỏ", "isCorrect": false},
+        {"text": "Còn phản xạ ho", "isCorrect": false}
+      ],
+      "explanation": " Glasgow 3 điểm là tiêu chuẩn vàng lâm sàng cho chết não."
+    },
+    {
+      "question": "Trong hình trang 24, 'Mất răng toàn bộ' được ký hiệu là loại mấy?",
+      "options": [
+        {"text": "Loại 1", "isCorrect": false},
+        {"text": "Loại 4", "isCorrect": true},
+        {"text": "Loại 10", "isCorrect": false},
+        {"text": "Loại III", "isCorrect": false}
+      ],
+      "explanation": "Loại 4 theo Kurliandsky là tình trạng mất răng toàn bộ một hoặc cả hai hàm."
+    },
+    {
+      "question": "Điểm 'Me' (Menton) là mốc giải phẫu ở đâu?",
+      "options": [
+        {"text": "Dưới cằm", "isCorrect": true},
+        {"text": "Trên mũi", "isCorrect": false},
+        {"text": "Ở góc hàm", "isCorrect": false},
+        {"text": "Sau tai", "isCorrect": false}
+      ],
+      "explanation": "Đây là điểm mốc thấp nhất của xương cằm."
+    },
+    {
+      "question": "Hệ quả của việc giảm kích thước dọc (mất KTD)?",
+      "options": [
+        {"text": "Mặt dài ra", "isCorrect": false},
+        {"text": "Mặt ngắn lại, trông già và đau khớp thái dương hàm", "isCorrect": true},
+        {"text": "Răng giả bị rụng", "isCorrect": false},
+        {"text": "Nướu mọc dày", "isCorrect": false}
+      ],
+      "explanation": "Mất KTD làm sụp tầng mặt dưới, gây hại thẩm mỹ và sức khỏe khớp."
+    },
+    {
+      "question": "Thóp trước vôi hóa lúc bao nhiêu tuổi?",
+      "options": [
+        {"text": "1 tuổi", "isCorrect": false},
+        {"text": "2 tuổi", "isCorrect": true},
+        {"text": "5 tuổi", "isCorrect": false},
+        {"text": "10 tuổi", "isCorrect": false}
+      ],
+      "explanation": "Thông tin về vôi hóa sọ mặt được nhắc đến trong bối cảnh chẩn đoán hình thái."
+    },
+    {
+      "question": "Đường nối hai đồng tử mắt giúp định hướng bộ phận nào của gối sáp?",
+      "options": [
+        {"text": "Mặt phẳng cắn phía trước", "isCorrect": true},
+        {"text": "Răng hàm lớn", "isCorrect": false},
+        {"text": "Móc kim loại", "isCorrect": false},
+        {"text": "Đáy hành lang", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng cắn vùng răng trước phải song song với đường nối hai đồng tử để đảm bảo thẩm mỹ."
+    },
+    {
+      "question": "Phanh má cần được tránh khi thiết kế biên giới nền hàm để?",
+      "options": [
+        {"text": "Hàm bám chắc hơn", "isCorrect": false},
+        {"text": "Tránh đau loét và không làm bật hàm khi cử động môi má", "isCorrect": true},
+        {"text": "Để BN nhai tốt hơn", "isCorrect": false},
+        {"text": "Để nhựa không bị nứt", "isCorrect": false}
+      ],
+      "explanation": "Hoạt động cơ má sẽ đẩy nền hàm ra nếu thiết kế lấn vào phanh."
+    },
+    {
+      "question": "Răng nanh có vai trò gì trong khớp cản răng nanh?",
+      "options": [
+        {"text": "Dùng để nghiền nát thức ăn", "isCorrect": false},
+        {"text": "Hướng dẫn vận động sang bên và bảo vệ răng sau", "isCorrect": true},
+        {"text": "Làm hàm giả nặng thêm", "isCorrect": false},
+        {"text": "Không có vai trò gì", "isCorrect": false}
+      ],
+      "explanation": "Nhờ chân răng dài, răng nanh chịu được lực ngang tốt và giúp nhả khớp răng sau."
+    },
+    {
+      "question": "Trong khóa sáp, 'phần dương' thường dùng vật liệu gì?",
+      "options": [
+        {"text": "Nhựa acrylic", "isCorrect": false},
+        {"text": "Sáp nhôm (Aluwax)", "isCorrect": true},
+        {"text": "Thạch cao đá", "isCorrect": false},
+        {"text": "Sáp nền màu hồng", "isCorrect": false}
+      ],
+      "explanation": "Sáp nhôm cứng và ổn định, lý tưởng để làm khóa tương quan."
+    },
+    {
+      "question": "Tại sao phải 'nuốt nước miếng' để tìm KCTT?",
+      "options": [
+        {"text": "Để miệng khô hơn", "isCorrect": false},
+        {"text": "Phản xạ nuốt tự động đưa xương hàm dưới về tư thế tương quan trung tâm", "isCorrect": true},
+        {"text": "Để BN không nôn", "isCorrect": false},
+        {"text": "Để lấy mẫu nước bọt", "isCorrect": false}
+      ],
+      "explanation": "Đây là phương pháp tìm tương quan tâm dựa trên phản xạ sinh lý của con người."
+    },
+    {
+      "question": "Tương quan tâm được coi là vị trí lồi cầu như thế nào?",
+      "options": [
+        {"text": "Lệch sang một bên", "isCorrect": false},
+        {"text": "Vị trí cao nhất và trung tâm trong hố khớp", "isCorrect": true},
+        {"text": "Vị trí nhô ra phía trước", "isCorrect": false},
+        {"text": "Vị trí thấp nhất", "isCorrect": false}
+      ],
+      "explanation": "Vị trí này được coi là chuẩn nhất cho việc tái lập khớp cắn."
+    },
+    {
+      "question": "Giá trị của khoảng trống tự do 2-4mm là gì?",
+      "options": [
+        {"text": "Làm bệnh nhân nói ngọng", "isCorrect": false},
+        {"text": "Giúp các cơ và khớp được nghỉ ngơi ở tư thế tĩnh", "isCorrect": true},
+        {"text": "Để thức ăn rơi vào", "isCorrect": false},
+        {"text": "Làm hàm bập bênh", "isCorrect": false}
+      ],
+      "explanation": "Hệ thống nhai cần khoảng nghỉ này để tránh tình trạng mỏi cơ liên tục."
+    },
+    {
+      "question": "Dụng cụ 'Thước Willis' thường làm bằng vật liệu gì?",
+      "options": [
+        {"text": "Sợi vải", "isCorrect": false},
+        {"text": "Kim loại cứng", "isCorrect": true},
+        {"text": "Cao su dẻo", "isCorrect": false},
+        {"text": "Gỗ", "isCorrect": false}
+      ],
+      "explanation": "Thước Willis cần độ cứng để đo chính xác các thông số kích thước dọc."
+    },
+    {
+      "question": "Tại sao phải 'cho BN tập há ngậm' trước khi đo KCTT?",
+      "options": [
+        {"text": "Để BN bớt sợ", "isCorrect": false},
+        {"text": "Làm mỏi cơ và giúp BN quen với quỹ đạo ngậm miệng đúng", "isCorrect": true},
+        {"text": "Để mài răng", "isCorrect": false},
+        {"text": "Để bác sĩ quan sát răng giả", "isCorrect": false}
+      ],
+      "explanation": "Luyện tập giúp bệnh nhân thực hiện động tác ngậm hàm một cách thụ động và chính xác hơn."
+    },
+    {
+      "question": "Sự sát khít giữa gối sáp và răng thật chứng tỏ?",
+      "options": [
+        {"text": "Bệnh nhân có răng khỏe", "isCorrect": false},
+        {"text": "Gối sáp đã phản ánh đúng chiều cao cắn khớp tự nhiên", "isCorrect": true},
+        {"text": "Sáp quá mềm", "isCorrect": false},
+        {"text": "Cần phải lấy dấu lại", "isCorrect": false}
+      ],
+      "explanation": "Mục tiêu lâm sàng là gối sáp và răng thật phải chạm đều nhau ở KCTT."
+    },
+    {
+      "question": "KTD nghỉ ổn định ở mỗi người hay thay đổi hàng ngày?",
+      "options": [
+        {"text": "Thay đổi liên tục", "isCorrect": false},
+        {"text": "Tương đối ổn định và ít thay đổi trong thời gian dài", "isCorrect": true},
+        {"text": "Mất đi khi bệnh nhân cười", "isCorrect": false},
+        {"text": "Chỉ đúng khi có răng", "isCorrect": false}
+      ],
+      "explanation": "Tính ổn định của RVD là cơ sở để bác sĩ phục hồi lại chiều cao cắn khớp đã mất."
+    },
+    {
+      "question": "Phân loại Kurliandsky giúp bác sĩ?",
+      "options": [
+        {"text": "Nhổ răng nhanh hơn", "isCorrect": false},
+        {"text": "Hình dung và thực hiện đúng các bước kỹ thuật lâm sàng tương ứng", "isCorrect": true},
+        {"text": "Tính tiền chính xác", "isCorrect": false},
+        {"text": "Chọn màu răng sứ", "isCorrect": false}
+      ],
+      "explanation": "Mỗi loại mất răng yêu cầu quy trình lấy tương quan và kích thước dọc khác nhau."
+    },
+    {
+      "question": "Trong hình trang 17, 'Bên làm việc' là bên nào?",
+      "options": [
+        {"text": "Bên không có răng", "isCorrect": false},
+        {"text": "Bên mà hàm dưới dịch chuyển sang đó để nhai", "isCorrect": true},
+        {"text": "Bên đối diện với bên nhai", "isCorrect": false},
+        {"text": "Bên lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Working side là bên trực tiếp thực hiện chức năng nhai nghiền thức ăn."
+    },
+    {
+      "question": "Nền hàm hàm trên 'trùm kín lồi củ' nhằm mục đích?",
+      "options": [
+        {"text": "Cho đẹp", "isCorrect": false},
+        {"text": "Tối ưu hóa khả năng bám dính và lưu giữ hàm", "isCorrect": true},
+        {"text": "Để BN nhai đau", "isCorrect": false},
+        {"text": "Để che sâu răng", "isCorrect": false}
+      ],
+      "explanation": "Lồi củ là mốc giải phẫu quan trọng giữ cho hàm trên không bị rơi."
+    },
+    {
+      "question": "Khoảng nói tối thiểu là gì?",
+      "options": [
+        {"text": "Khi BN không nói gì", "isCorrect": false},
+        {"text": "Khoảng hở nhỏ nhất giữa hai hàm khi phát âm 'S'", "isCorrect": true},
+        {"text": "Lúc BN đang ngáp", "isCorrect": false},
+        {"text": "Khi răng chạm nhau", "isCorrect": false}
+      ],
+      "explanation": "Đây là thông số kỹ thuật dùng để kiểm tra Kích thước dọc trong phục hình."
+    },
+    {
+      "question": "Cấu tạo Múp gồm những phần nào (nhắc lại trang 34)?",
+      "options": [
+        {"text": "Nắp, thân, nền", "isCorrect": true},
+        {"text": "Cán, thìa, đáy", "isCorrect": false},
+        {"text": "Kim loại, nhựa, thạch cao", "isCorrect": false},
+        {"text": "Trục dọc và ngang", "isCorrect": false}
+      ],
+      "explanation": "Đây là bộ khuôn kim loại dùng trong labo để nấu nhựa."
+    },
+    {
+      "question": "Tại sao KTD nghỉ luôn lớn hơn KTD cắn khớp?",
+      "options": [
+        {"text": "Vì răng bị mòn", "isCorrect": false},
+        {"text": "Do sự hiện diện của khoảng trống tự do", "isCorrect": true},
+        {"text": "Do cơ luôn co", "isCorrect": false},
+        {"text": "Do xương hàm dài ra", "isCorrect": false}
+      ],
+      "explanation": "Ở thế nghỉ răng không chạm nhau, tạo ra chiều cao mặt lớn hơn lúc cắn khít."
+    },
+    {
+      "question": "Lồi xương khẩu cái (Torus) quá lớn cần xử lý thế nào?",
+      "options": [
+        {"text": "Bắt buộc nhổ", "isCorrect": false},
+        {"text": "Thiết kế nền hàm tránh vùng đó hoặc phẫu thuật nếu cản trở nhiều", "isCorrect": true},
+        {"text": "Mài răng thật", "isCorrect": false},
+        {"text": "Gắn keo", "isCorrect": false}
+      ],
+      "explanation": "Cản trở của lồi xương ảnh hưởng trực tiếp đến biên giới và độ ổn định của nền hàm."
+    },
+    {
+      "question": "Đặc điểm của khớp cắn thăng bằng là?",
+      "options": [
+        {"text": "Luôn chỉ chạm 1 răng", "isCorrect": false},
+        {"text": "Các răng chạm nhau đồng thời ở cả bên làm việc và bên không làm việc", "isCorrect": true},
+        {"text": "Chỉ chạm răng cửa", "isCorrect": false},
+        {"text": "Không răng nào chạm", "isCorrect": false}
+      ],
+      "explanation": "Sự tiếp xúc đa điểm giúp hàm giả ổn định, không bị bập bênh khi vận động."
+    },
+    {
+      "question": "TS. BS Đặng Minh Huy viết tài liệu 'Lên răng', vậy tài liệu này do ai viết?",
+      "options": [
+        {"text": "Bs. Phương", "isCorrect": true},
+        {"text": "Bs. Huy", "isCorrect": false},
+        {"text": "Bs. Nam", "isCorrect": false},
+        {"text": "Bs. Minh", "isCorrect": false}
+      ],
+      "explanation": "Tên giảng viên xuất hiện ngay đầu bài giảng xác định KCTT."
+    },
+    {
+      "question": "Nguyên tắc 'đối xứng' trong đặt móc giúp gì?",
+      "options": [
+        {"text": "Đẹp", "isCorrect": false},
+        {"text": "Cân bằng lực bám giữ hai bên cung hàm", "isCorrect": true},
+        {"text": "Hàm nhẹ hơn", "isCorrect": false},
+        {"text": "Dễ tháo", "isCorrect": false}
+      ],
+      "explanation": "Sự cân bằng cơ học là ưu tiên hàng đầu trong thiết kế hàm giả."
+    },
+    {
+      "question": "Khoảng cách 0.5mm từ đuôi móc đến sống hàm (nhắc lại) nhằm mục đích?",
+      "options": [
+        {"text": "Để không đau nướu", "isCorrect": false},
+        {"text": "Để nhựa bao phủ hoàn toàn đuôi móc tạo lực giữ vững chắc", "isCorrect": true},
+        {"text": "Để móc nhanh hỏng", "isCorrect": false},
+        {"text": "Để răng thật chắc hơn", "isCorrect": false}
+      ],
+      "explanation": "Đuôi móc chôn hoàn toàn trong nhựa đảm bảo không bị bung."
+    },
+    {
+      "question": "Hành động 'cắt khóa sáp phần âm' là cắt hình gì?",
+      "options": [
+        {"text": "Hình tròn", "isCorrect": false},
+        {"text": "Hình chữ V hoặc rãnh sâu", "isCorrect": true},
+        {"text": "Hình ngôi sao", "isCorrect": false},
+        {"text": "Hình xoắn ốc", "isCorrect": false}
+      ],
+      "explanation": "Rãnh chữ V giúp sáp nhôm dương bám chặt và định vị chính xác tương quan."
+    },
+    {
+      "question": "Khi lồng múi tối đa, răng hai hàm ở vị trí đóng:",
+      "options": [
+        {"text": "Lỏng lẻo nhất", "isCorrect": false},
+        {"text": "Khít nhất", "isCorrect": true},
+        {"text": "Hở 5mm", "isCorrect": false},
+        {"text": "Nghiêng 45 độ", "isCorrect": false}
+      ],
+      "explanation": "Đây là vị trí khớp cắn tĩnh ổn định nhất của bộ răng."
+    },
+    {
+      "question": "KTD nghỉ thường ổn định ở người lớn, đúng hay sai?",
+      "options": [
+        {"text": "Đúng", "isCorrect": true},
+        {"text": "Sai", "isCorrect": false}
+      ],
+      "explanation": "RVD được coi là thông số sinh lý ít biến động nhất để làm mốc phục hình."
+    },
+    {
+      "question": "Gối sáp đại diện cho thành phần răng giả tương lai, đúng hay sai?",
+      "options": [
+        {"text": "Đúng", "isCorrect": true},
+        {"text": "Sai", "isCorrect": false}
+      ],
+      "explanation": "Đúng, gối sáp dùng để xác định vị trí đặt răng giả sau này."
+    },
+    {
+      "question": "Mục đích của khóa sáp nhôm là?",
+      "options": [
+        {"text": "Làm sạch răng", "isCorrect": false},
+        {"text": "Giữ chặt tương quan hai hàm để gửi labo gắn giá khớp", "isCorrect": true},
+        {"text": "Lấy dấu nướu", "isCorrect": false},
+        {"text": "Để mài răng", "isCorrect": false}
+      ],
+      "explanation": "Khóa sáp là cầu nối kỹ thuật giữa lâm sàng và labo."
+    },
+    {
+      "question": "Phát âm chữ 'S' răng cửa trên và dưới như thế nào?",
+      "options": [
+        {"text": "Chạm nhau", "isCorrect": false},
+        {"text": "Đến gần nhau nhất nhưng không chạm", "isCorrect": true},
+        {"text": "Hở 10mm", "isCorrect": false},
+        {"text": "Cắn vào môi", "isCorrect": false}
+      ],
+      "explanation": "Đặc điểm của khoảng nói tối thiểu Silverman."
+    },
+    {
+      "question": "Chiều cao tầng mặt dưới tính từ Sn đến đâu?",
+      "options": [
+        {"text": "Mũi", "isCorrect": false},
+        {"text": "Cằm (Gn/Me)", "isCorrect": true},
+        {"text": "Mắt", "isCorrect": false},
+        {"text": "Góc miệng", "isCorrect": false}
+      ],
+      "explanation": "Đây là khoảng cách chuẩn để đo kích thước dọc."
+    },
+    {
+      "question": "Mất răng 'Đối diện hàm toàn bộ' yêu cầu dùng?",
+      "options": [
+        {"text": "Lồng múi tối đa", "isCorrect": false},
+        {"text": "Tương quan tâm", "isCorrect": true},
+        {"text": "Tư thế nghỉ", "isCorrect": false},
+        {"text": "Khớp cắn lệch", "isCorrect": false}
+      ],
+      "explanation": "Trường hợp này không còn mốc răng thật làm chuẩn nên phải dùng TQT."
+    },
+    {
+      "question": "Vai trò của cơ chân bướm ngoài trong TQT?",
+      "options": [
+        {"text": "Co mạnh", "isCorrect": false},
+        {"text": "Thư giãn hoàn toàn", "isCorrect": true},
+        {"text": "Bị đau", "isCorrect": false},
+        {"text": "Không tham gia", "isCorrect": false}
+      ],
+      "explanation": "Sự thư giãn cơ này là điều kiện để lồi cầu về đúng vị trí hố khớp."
+    },
+    {
+      "question": "Thóp trước vôi hóa ở tuổi nào (nhắc lại)?",
+      "options": [
+        {"text": "2 tuổi", "isCorrect": true},
+        {"text": "10 tuổi", "isCorrect": false},
+        {"text": "20 tuổi", "isCorrect": false},
+        {"text": "Lúc sinh", "isCorrect": false}
+      ],
+      "explanation": "Mốc phát triển sọ mặt quan trọng."
+    },
+    {
+      "question": "Kết quả cuối cùng của quy trình xác định KCTT là gì?",
+      "options": [
+        {"text": "Hàm giả đẹp nhất", "isCorrect": false},
+        {"text": "Dữ liệu chính xác để labo lên răng giả hài hòa chức năng và thẩm mỹ", "isCorrect": true},
+        {"text": "Để BN ăn ngon", "isCorrect": false},
+        {"text": "Để nướu khỏe", "isCorrect": false}
+      ],
+      "explanation": "Toàn bộ các bước chẩn đoán tương quan phục vụ bước kỹ thuật tiếp theo."
+    }
+  ]

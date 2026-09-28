@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vảy nến (Psoriasis) — Trắc nghiệm</title>
+<style>
+  :root{--card:#1e293b;--accent:#f87171;--ok:#22c55e;--bad:#ef4444;--txt:#e2e8f0;--muted:#94a3b8;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(160deg,#0f172a,#2c1012);color:var(--txt);line-height:1.5;padding:16px;}
+  .wrap{max-width:820px;margin:0 auto;}
+  header{text-align:center;padding:14px 0 8px;}
+  header h1{font-size:1.35rem;margin:0 0 4px;color:#fff;}
+  header p{margin:2px 0;color:var(--muted);font-size:.9rem;}
+  .topnav{text-align:center;margin-top:8px;}
+  .topnav a{color:var(--accent);font-size:.82rem;text-decoration:none;}
+  .panel{background:var(--card);border:1px solid #334155;border-radius:14px;padding:20px;margin-top:16px;box-shadow:0 8px 30px rgba(0,0,0,.35);}
+  .bar{height:8px;background:#0b1220;border-radius:99px;overflow:hidden;margin:10px 0 4px;}
+  .bar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),#22c55e);transition:width .3s;}
+  .meta{display:flex;justify-content:space-between;font-size:.82rem;color:var(--muted);margin-bottom:6px;flex-wrap:wrap;gap:6px;}
+  .q{font-size:1.08rem;font-weight:600;margin:6px 0 14px;color:#fff;}
+  .opt{display:block;width:100%;text-align:left;background:#0b1220;border:1.5px solid #334155;color:var(--txt);border-radius:10px;padding:12px 14px;margin:8px 0;cursor:pointer;font-size:.98rem;transition:all .15s;}
+  .opt:hover:not(:disabled){border-color:var(--accent);}
+  .opt .k{display:inline-block;width:22px;font-weight:700;color:var(--accent);}
+  .opt.correct{border-color:var(--ok);background:rgba(34,197,94,.12);}
+  .opt.wrong{border-color:var(--bad);background:rgba(239,68,68,.12);}
+  .opt:disabled{cursor:default;opacity:.95;}
+  .explain{margin-top:10px;padding:11px 13px;border-radius:10px;background:#0b1220;border-left:4px solid var(--accent);font-size:.9rem;color:#cbd5e1;display:none;}
+  .explain.show{display:block;}
+  .row{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;}
+  button.btn{background:var(--accent);color:#3a0d0d;border:none;border-radius:10px;padding:11px 18px;font-weight:700;cursor:pointer;font-size:.95rem;}
+  button.btn.sec{background:#334155;color:#e2e8f0;}
+  button.btn:disabled{opacity:.4;cursor:not-allowed;}
+  .center{text-align:center;}
+  .big{font-size:2.4rem;font-weight:800;color:#fff;margin:6px 0;}
+  .tag{display:inline-block;font-size:.72rem;background:#0b1220;border:1px solid #334155;color:var(--muted);padding:3px 9px;border-radius:99px;margin-bottom:8px;}
+  .grid{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+  .chip{font-size:.8rem;padding:6px 10px;border-radius:8px;border:1px solid #334155;background:#0b1220;cursor:pointer;}
+  .chip.on{border-color:var(--accent);color:var(--accent);}
+  .review-item{border-top:1px solid #334155;padding:12px 0;font-size:.9rem;}
+  .review-item .ri-q{font-weight:600;color:#fff;}
+  .review-item .ri-a{color:#cbd5e1;margin-top:4px;}
+  .ok{color:var(--ok)} .bad{color:var(--bad)}
+  a.src{color:var(--muted);font-size:.78rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">DA LIỄU · VẢY NẾN</span>
+    <h1>Vảy nến (Psoriasis) — Trắc nghiệm</h1>
+    <p>Ôn tập trắc nghiệm bám sát bài giảng Da liễu</p>
+    <div class="topnav"><a href="index.html">&#8592; Danh sách đề</a></div>
+  </header>
+
+  <div class="panel" id="start">
+    <p>Bộ câu hỏi bám sát tài liệu. Mỗi câu có 4 phương án gần giống nhau để tăng độ khó. Chọn số câu muốn luyện:</p>
+    <div class="grid" id="countChips"></div>
+    <div class="row">
+      <label style="display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)">
+        <input type="checkbox" id="shuffle" checked> Xáo trộn câu hỏi &amp; đáp án
+      </label>
+    </div>
+    <div class="row">
+      <button class="btn" onclick="startQuiz()">Bắt đầu luyện tập &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel" id="quiz" style="display:none">
+    <div class="meta"><span id="progressTxt"></span><span id="scoreTxt"></span></div>
+    <div class="bar"><i id="progressBar"></i></div>
+    <div class="q" id="qText"></div>
+    <div id="opts"></div>
+    <div class="explain" id="explain"></div>
+    <div class="row">
+      <button class="btn sec" id="skipBtn" onclick="nextQ()">Bỏ qua</button>
+      <button class="btn" id="nextBtn" onclick="nextQ()" disabled>Câu tiếp &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel center" id="result" style="display:none">
+    <p class="tag">KẾT QUẢ</p>
+    <div class="big" id="finalScore"></div>
+    <p id="finalMsg" style="color:var(--muted)"></p>
+    <div class="row" style="justify-content:center">
+      <button class="btn" onclick="location.reload()">Làm lại &#8635;</button>
+      <button class="btn sec" onclick="toggleReview()">Xem lại bài &#9662;</button>
+    </div>
+    <div id="review" style="text-align:left;display:none;margin-top:14px"></div>
+  </div>
+
+  <p class="center" style="margin-top:18px"><a class="src" href="Vảy nến (Psoriasis) — ThS.BS. Võ Tường Thảo Vy, Bộ môn Da liễu">Nguồn: Vảy nến (Psoriasis) — ThS.BS. Võ Tường Thảo Vy, Bộ môn Da liễu</a></p>
+</div>
+
+<script>
+const BANK = [{"q": "Vảy nến (psoriasis) có bản chất là:", "a": ["Ung thư da", "Nhiễm trùng da cấp tính", "Viêm da mạn tính, tiến triển từng đợt, dai dẳng suốt đời", "Bệnh lây truyền qua tiếp xúc"], "c": 2, "e": "Vảy nến là bệnh viêm da mạn tính, tiến triển từng đợt, dai dẳng suốt đời."}, {"q": "Tỉ lệ mắc vảy nến trong dân số khoảng:", "a": ["0.01%", "20-25%", "10-15%", "2-3%"], "c": 3, "e": "Vảy nến thường gặp, chiếm khoảng 2-3% dân số."}, {"q": "Về giới tính, vảy nến gặp ở:", "a": ["Nam = nữ", "Chỉ gặp ở nam", "Nữ > nam rõ rệt", "Nam > nữ rõ rệt"], "c": 0, "e": "Vảy nến gặp ở nam và nữ tương đương (Nam = nữ); tuổi khởi phát bất kỳ."}, {"q": "Hiện nay, vảy nến được xem là:", "a": ["Bệnh nhiễm trùng khu trú", "Bệnh viêm hệ thống mạn tính với nhiều bệnh đồng mắc", "Bệnh dị ứng cấp tính", "Bệnh chỉ giới hạn ở da"], "c": 1, "e": "Hiện nay vảy nến được xem là bệnh viêm hệ thống mạn tính với nhiều bệnh đồng mắc (không chỉ ở da)."}, {"q": "Cơ chế bệnh sinh của vảy nến (dù chưa rõ hoàn toàn) chủ yếu liên quan đến:", "a": ["Rối loạn đông máu", "Rối loạn miễn dịch và yếu tố di truyền", "Thiếu vitamin", "Nhiễm khuẩn mạn tính"], "c": 1, "e": "Nguyên nhân và sinh bệnh học vảy nến chưa rõ hoàn toàn, nhưng bệnh do rối loạn miễn dịch và có yếu tố di truyền."}, {"q": "Vảy nến hay gặp ở người mang kháng nguyên HLA nào (tới 87%)?", "a": ["HLA-DR3", "HLA-CW6", "HLA-DQ8", "HLA-A2"], "c": 1, "e": "Vảy nến hay gặp ở người có HLA-CW6 (87%) và HLA-B27."}, {"q": "Vảy nến TYPE I (theo di truyền) có đặc điểm:", "a": ["Chỉ gặp ở trẻ sơ sinh", "Khởi phát muộn, diễn tiến nhẹ, không liên quan HLA", "Khởi phát sớm (<40 tuổi), diễn tiến nặng, liên quan mạnh đến HLA", "Không di truyền"], "c": 2, "e": "Type I: khởi phát sớm (<40 tuổi), diễn tiến nặng, liên quan mạnh đến HLA. Type II: khởi phát muộn, diễn tiến nhẹ, không liên quan HLA."}, {"q": "Vảy nến TYPE II có đặc điểm:", "a": ["Khởi phát muộn, diễn tiến nhẹ, không liên quan HLA", "Chỉ gặp ở nam", "Khởi phát sớm, diễn tiến nặng, liên quan HLA mạnh", "Luôn có viêm khớp"], "c": 0, "e": "Type II: khởi phát muộn, diễn tiến nhẹ, không liên quan HLA."}, {"q": "Tỉ lệ con bị vảy nến khi CẢ bố và mẹ đều bị vảy nến khoảng:", "a": ["80%", "5%", "14%", "41%"], "c": 3, "e": "Bố hoặc mẹ bị vảy nến: con bị ~14%; cả bố và mẹ bị: con bị ~41%."}, {"q": "Tỉ lệ con bị vảy nến khi CHỈ bố HOẶC mẹ bị vảy nến khoảng:", "a": ["14%", "60%", "2%", "41%"], "c": 0, "e": "Bố hoặc mẹ bị vảy nến: con bị khoảng 14%."}, {"q": "Trong rối loạn miễn dịch của vảy nến, tế bào nào giữ vai trò trung tâm?", "a": ["Hồng cầu", "Lympho T (Th1, Th17, Th22)", "Bạch cầu ái toan", "Tương bào (plasma cell)"], "c": 1, "e": "Rối loạn miễn dịch tế bào với vai trò trung tâm của lympho T: Th1, Th17, Th22."}, {"q": "Con đường viêm CHÍNH trong sinh bệnh học vảy nến mảng là:", "a": ["Trục bổ thể C3-C5", "Trục insulin - glucose", "Trục TNF - IL23 - Th17", "Trục IgE - mast cell"], "c": 2, "e": "Trục TNF - IL23 - Th17 là con đường viêm chính trong sinh bệnh học của vảy nến mảng."}, {"q": "Hậu quả tại thượng bì trong vảy nến là:", "a": ["Teo thượng bì", "Mất hoàn toàn tế bào sừng", "Tăng sản tế bào hắc tố", "Rối loạn biệt hóa và tăng sinh tế bào tạo sừng (keratinocyte)"], "c": 3, "e": "Vảy nến gây rối loạn sự biệt hóa và sự tăng sinh của tế bào tạo sừng (keratinocyte) → tạo vảy."}, {"q": "Yếu tố nguy cơ khởi phát/làm nặng vảy nến KHÔNG bao gồm:", "a": ["Stress tâm lý", "Ánh nắng vừa phải (thường có lợi)", "Nhiễm virus/vi khuẩn (liên cầu)", "Rượu, thuốc lá"], "c": 1, "e": "Yếu tố nguy cơ: stress tâm lý/sang chấn, nhiễm virus-vi khuẩn (liên cầu, hay ở trẻ em), thuốc, rượu-thuốc lá, nội tiết, hội chứng chuyển hóa. Phơi nắng thường có lợi cho vảy nến."}, {"q": "Nhóm thuốc nào có thể khởi phát hoặc làm nặng vảy nến?", "a": ["Thuốc hạ sốt paracetamol", "Chẹn beta, lithium, ức chế men chuyển, kháng sốt rét tổng hợp, corticoid toàn thân", "Men tiêu hóa", "Vitamin C, vitamin D"], "c": 1, "e": "Thuốc làm nặng vảy nến: corticoid (tại chỗ/toàn thân), chẹn beta, lithium, ức chế men chuyển (UCMC), kháng sốt rét tổng hợp (KSRTH)."}, {"q": "Thể vảy nến thường gặp NHẤT là:", "a": ["Đỏ da toàn thân do vảy nến", "Vảy nến mảng (vảy nến thông thường)", "Vảy nến mủ toàn thân", "Vảy nến giọt"], "c": 1, "e": "Vảy nến mảng (thông thường) là thể thường gặp nhất."}, {"q": "Tổn thương cơ bản của vảy nến mảng là:", "a": ["Mụn mủ vô khuẩn trên nền đỏ", "Mảng đỏ da giới hạn rõ, vảy trắng bạc, dày, dễ tróc thành phiến", "Dát giảm sắc tố không vảy", "Bọng nước lớn"], "c": 1, "e": "Vảy nến mảng: mảng đỏ da giới hạn rõ, hình tròn/bầu dục/đa cung, bề mặt có vảy trắng bạc, dày, dễ tróc thành từng phiến."}, {"q": "Vị trí điển hình của vảy nến mảng là:", "a": ["Vùng tì đè (đầu gối, khuỷu tay, thắt lưng cùng, da đầu, LBTC), đối xứng", "Chỉ ở niêm mạc miệng", "Chỉ ở các nếp gấp lớn", "Vùng sinh dục đơn thuần"], "c": 0, "e": "Vảy nến mảng phân bố ở vùng tì đè (đầu gối, khuỷu tay, vùng thắt lưng cùng, da đầu, lòng bàn tay chân), thường đối xứng."}, {"q": "Tỉ lệ bệnh nhân vảy nến mảng có ngứa khoảng:", "a": ["100%", "0%", "80-90%", "20-25%"], "c": 3, "e": "Ngứa gặp ở khoảng 20-25% bệnh nhân vảy nến mảng."}, {"q": "Hiện tượng Koebner trong vảy nến là:", "a": ["Vảy bong thành phiến", "Vảy nến xuất hiện tại vị trí da bị sang chấn/tổn thương", "Mụn mủ hợp thành hồ mủ", "Móng có giọt dầu"], "c": 1, "e": "Hiện tượng Koebner: tổn thương vảy nến xuất hiện tại vị trí da lành bị sang chấn/chấn thương (ví dụ nơi lấy da ghép)."}, {"q": "Nghiệm pháp Brocq (cạo vảy) gồm mấy dấu hiệu theo thứ tự?", "a": ["3 dấu: phết đèn cầy → dấu lột vỏ hành → dấu giọt sương máu (Auspitz)", "1 dấu duy nhất là Koebner", "2 dấu: Nikolsky và Auspitz", "4 dấu hiệu"], "c": 0, "e": "Nghiệm pháp Brocq gồm 3 dấu hiệu: (1) dấu phết đèn cầy (vết nến), (2) dấu lột vỏ hành (màng bong), (3) dấu giọt sương máu (Auspitz's sign)."}, {"q": "Dấu hiệu 'giọt sương máu' khi cạo vảy nến còn được gọi là:", "a": ["Dấu Darier", "Dấu Nikolsky", "Dấu Koebner", "Dấu Auspitz"], "c": 3, "e": "Dấu giọt sương máu = dấu Auspitz (chấm chảy máu nhỏ khi cạo hết vảy, do nhú bì kéo dài giãn mạch)."}, {"q": "Tỉ lệ bệnh nhân vảy nến có tổn thương móng khoảng:", "a": ["Không bao giờ có", "100%", "10-80% (móng tay > móng chân)", "1-2%"], "c": 2, "e": "10-80% bệnh nhân vảy nến có tổn thương móng, móng tay nhiều hơn móng chân."}, {"q": "Dấu hiệu 'giọt dầu dưới móng' (oil-drop sign) là tổn thương móng của:", "a": ["Nấm móng do Candida", "Chấn thương móng", "Loạn dưỡng móng bẩm sinh", "Vảy nến"], "c": 3, "e": "Giọt dầu dưới móng (oil-drop sign) là một tổn thương móng đặc trưng của vảy nến; ngoài ra rỗ móng dạng đê khâu, tách móng bờ tự do, tăng sừng dưới móng, mất móng."}, {"q": "Tổn thương móng vảy nến KHÔNG bao gồm dấu hiệu nào?", "a": ["Rỗ móng dạng đê khâu", "Cầu móng lõm hình thìa (koilonychia) do thiếu sắt", "Tách móng ở bờ tự do", "Giọt dầu dưới móng"], "c": 1, "e": "Tổn thương móng vảy nến: rỗ móng dạng đê khâu, tách móng bờ tự do, tăng sừng dưới móng, giọt dầu (oil-drop sign), mất móng. Koilonychia do thiếu sắt không phải của vảy nến."}, {"q": "Vảy nến GIỌT thường gặp ở đối tượng và liên quan yếu tố nào?", "a": ["Trẻ em/người trẻ, liên quan nhiễm liên cầu trước đó", "Người già, liên quan đái tháo đường", "Nam trung niên, liên quan rượu", "Phụ nữ mang thai, liên quan nội tiết"], "c": 0, "e": "Vảy nến giọt: gặp ở trẻ em hoặc người trẻ, liên quan đến nhiễm liên cầu trước đó."}, {"q": "Biểu hiện của vảy nến giọt là:", "a": ["Mụn mủ toàn thân", "Đỏ da bong vảy toàn thân", "Mảng lớn dày vảy ở khuỷu, đầu gối", "Đột ngột xuất hiện sẩn/mảng nhỏ, vảy da ít hơn, phân bố ở thân mình và gốc chi"], "c": 3, "e": "Vảy nến giọt: đột ngột xuất hiện sẩn/mảng nhỏ, vảy da (ít hơn thể mảng), phân bố ở thân mình và gốc chi."}, {"q": "Vảy nến ĐẢO NGƯỢC (vảy nến kẽ) có vị trí đặc trưng ở:", "a": ["Lòng bàn tay chân", "Các nếp lớn (nách, cổ, sinh dục), vùng hai bề mặt da tiếp xúc nhau", "Da đầu", "Vùng tì đè (khuỷu, đầu gối)"], "c": 1, "e": "Vảy nến đảo ngược: thường ở vùng hai bề mặt da tiếp xúc nhau, khu trú ở các nếp lớn như nách, cổ, sinh dục."}, {"q": "Tổn thương của vảy nến đảo ngược có đặc điểm:", "a": ["Vảy trắng bạc dày điển hình", "Ít hoặc không có vảy, viền đỏ da giới hạn rõ và sáng; mồ hôi làm nặng hơn", "Mụn mủ trên nền đỏ", "Bọng nước lớn"], "c": 1, "e": "Vảy nến đảo ngược: TTCB ít hoặc không có vảy (do ở nếp kẽ ẩm), viền đỏ da giới hạn rõ và sáng; mồ hôi làm tổn thương nặng hơn."}, {"q": "Đỏ da toàn thân do vảy nến thường xảy ra sau:", "a": ["Bôi dưỡng ẩm", "Điều trị corticoid toàn thân", "Phơi nắng nhẹ", "Uống nhiều nước"], "c": 1, "e": "Đỏ da toàn thân do vảy nến thường xảy ra sau điều trị corticoid toàn thân (hiện tượng dội/bùng phát)."}, {"q": "Biến chứng của đỏ da toàn thân do vảy nến bao gồm:", "a": ["Rối loạn thân nhiệt, mất nước, bội nhiễm", "Xuất huyết tiêu hóa", "Suy thận cấp do sỏi", "Tăng huyết áp và đột quỵ"], "c": 0, "e": "Đỏ da toàn thân: triệu chứng sốt, ớn lạnh, thay đổi toàn trạng; biến chứng rối loạn thân nhiệt, mất nước, bội nhiễm."}, {"q": "Vảy nến mủ toàn thân của Von Zumbusch có đặc điểm:", "a": ["Thể mạn tính nhẹ, chỉ khu trú lòng bàn tay", "Thể cấp đặc biệt: sốt vài ngày, mụn mủ 2-3mm đột ngột trên nền da đỏ toàn thân, hợp thành hồ mủ, cấy mủ âm tính", "Luôn cấy mủ dương tính", "Chỉ có mụn mủ ở đầu ngón tay"], "c": 1, "e": "Von Zumbusch là thể cấp đặc biệt của vảy nến mủ: sốt vài ngày, mụn mủ (2-3mm) xuất hiện đột ngột trên nền da đỏ, toàn thân, hợp thành hồ mủ; cấy mủ âm tính (vô khuẩn); biến chứng nguy hiểm."}, {"q": "Cấy mủ trong vảy nến mủ Von Zumbusch cho kết quả:", "a": ["Âm tính (mụn mủ vô khuẩn)", "Dương tính với liên cầu", "Dương tính với tụ cầu vàng", "Dương tính với nấm"], "c": 0, "e": "Vảy nến mủ là mụn mủ vô khuẩn nên cấy mủ âm tính."}, {"q": "Vảy nến mủ ở phụ nữ có thai thường đi kèm với:", "a": ["Tăng huyết áp thai kỳ", "Đái tháo đường thai kỳ", "Tăng canxi máu", "Giảm canxi máu dẫn đến cơn tetani, và không có tính di truyền"], "c": 3, "e": "Vảy nến mủ ở phụ nữ có thai thường kèm giảm canxi máu dẫn đến cơn tetani và không có tính di truyền."}, {"q": "Vảy nến mủ ở lòng bàn tay chân có đặc điểm:", "a": ["Cấp tính, tự khỏi trong 1 ngày", "Lan tỏa toàn thân", "Không bao giờ tái phát", "Viêm da mụn mủ mạn tính, khu trú LBTC, tái phát và kháng trị, mụn mủ khô bong trong 8-10 ngày"], "c": 3, "e": "Vảy nến mủ LBTC: viêm da mụn mủ mạn tính khu trú LBTC, tái phát và kháng trị; mụn mủ 2-4mm bao quanh vòng đỏ, đối xứng, khô và bong trong 8-10 ngày; cơ năng ngứa, bỏng rát/đau."}, {"q": "Vảy nến mủ khu trú ở đầu chi còn được gọi là:", "a": ["Viêm da đầu chi liên tục của Hallopeau", "Hội chứng Reiter", "Bệnh Von Zumbusch", "Bệnh Behcet"], "c": 0, "e": "Vảy nến mủ khu trú ở đầu chi còn gọi là viêm da đầu chi liên tục của Hallopeau; hiếm gặp, mụn mủ mạn tính tái diễn nếp gấp móng, giường móng, đầu xa ngón dẫn đến mất móng."}, {"q": "Tỉ lệ viêm khớp vảy nến trong bệnh nhân vảy nến khoảng:", "a": ["90%", "5%", "70%", "30%"], "c": 3, "e": "Viêm khớp vảy nến gặp ở khoảng 30% bệnh nhân vảy nến."}, {"q": "Tổn thương khớp trong viêm khớp vảy nến có thể xuất hiện:", "a": ["Chỉ sau tổn thương da nhiều năm", "Luôn đồng thời với tổn thương da", "Trước, đồng thời hoặc sau tổn thương da", "Chỉ trước tổn thương da"], "c": 2, "e": "Tổn thương khớp có thể xuất hiện trước, đồng thời hoặc sau tổn thương da."}, {"q": "Dấu hiệu 'ngón tay xúc xích' (viêm ngón - dactylitis) trong viêm khớp vảy nến:", "a": ["Là dấu hiệu nhẹ, không đáng lo", "Là đặc trưng của viêm khớp vảy nến, chỉ điểm độ nặng", "Chỉ gặp trong gout", "Không liên quan vảy nến"], "c": 1, "e": "Viêm ngón (dactylitis) 'ngón tay xúc xích' viêm toàn bộ ngón (khớp, dây chằng, xương, mô mềm) là đặc trưng của viêm khớp vảy nến và chỉ điểm độ nặng."}, {"q": "Bộ tiêu chuẩn dùng để chẩn đoán viêm khớp vảy nến là:", "a": ["Tiêu chuẩn CASPAR 1980", "Tiêu chuẩn Hanifin-Rajka", "Tiêu chuẩn Jones", "Tiêu chuẩn CASPAR 2006"], "c": 3, "e": "Chẩn đoán viêm khớp vảy nến dùng tiêu chuẩn CASPAR 2006."}, {"q": "Thể viêm khớp vảy nến THƯỜNG GẶP NHẤT là:", "a": ["Viêm cột sống và khớp cùng chậu", "Viêm khớp liên đốt xa", "Viêm khớp hủy hoại (arthritis mutilans)", "Viêm một hoặc một vài khớp không đối xứng"], "c": 3, "e": "Trong 5 thể, viêm một hoặc một vài khớp không đối xứng là thể thường gặp nhất; viêm khớp liên đốt xa là thể đặc trưng."}, {"q": "Thể viêm khớp vảy nến ĐẶC TRƯNG (đặc hiệu) là:", "a": ["Viêm cột sống dính khớp", "Viêm một vài khớp không đối xứng", "Viêm khớp liên đốt xa", "Viêm khớp giống viêm khớp dạng thấp"], "c": 2, "e": "Viêm khớp liên đốt xa (DIP) là thể đặc trưng của viêm khớp vảy nến."}, {"q": "Yếu tố nguy cơ của viêm khớp vảy nến KHÔNG bao gồm:", "a": ["Vảy nến móng, vảy nến da đầu", "Vảy nến thể giọt nhẹ ở trẻ em", "Dùng corticoid toàn thân >2 năm", "Vảy nến nặng"], "c": 1, "e": "YTNC viêm khớp vảy nến: VN nặng, corticoid toàn thân >2 năm, tổn thương da gần khớp nhiều, viêm điểm bám gân, VN móng, VN da đầu. Vảy nến giọt nhẹ không phải YTNC."}, {"q": "Trên mô bệnh học vảy nến, hiện tượng còn nhân trong tế bào sừng lớp sừng gọi là:", "a": ["Xốp bào (spongiosis)", "Ly gai (acantholysis)", "Dày sừng bình thường", "Á sừng (parakeratosis)"], "c": 3, "e": "Vảy nến: lớp sừng dày sừng và á sừng (parakeratosis - tế bào sừng vẫn còn nhân, tụ tập thành lá mỏng không đều)."}, {"q": "Về lớp hạt trên mô bệnh học vảy nến:", "a": ["Dày lớp hạt", "Mất lớp hạt (hypogranulosis)", "Lớp hạt bình thường", "Lớp hạt hóa mủ"], "c": 1, "e": "Mô bệnh học vảy nến: mất lớp hạt (hypogranulosis)."}, {"q": "Ổ áp xe vô khuẩn chứa bạch cầu đa nhân trong lớp gai của vảy nến gọi là:", "a": ["Thể Civatte", "Thể Councilman", "Vi áp xe Pautrier", "Áp xe Munro"], "c": 3, "e": "Vảy nến: có vi áp xe Munro (tập trung bạch cầu đa nhân trung tính) trong lớp gai/lớp sừng."}, {"q": "Đặc điểm nhú bì trong mô bệnh học vảy nến là:", "a": ["Nhú bì kéo dài hình ngón tay đeo găng, giãn mạch máu", "Nhú bì bình thường", "Nhú bì hóa sừng", "Nhú bì teo nhỏ"], "c": 0, "e": "Trung bì vảy nến: nhú bì kéo dài hình ngón tay đeo găng, giãn mạch máu, thâm nhập tế bào viêm (giải thích dấu Auspitz)."}, {"q": "Bốn đặc trưng mô bệnh học của vảy nến là:", "a": ["Loạn sản, dị sản, tân sinh mạch", "Ly gai, thể Tzanck, xốp bào, teo da", "U hạt, hoại tử bã đậu, xơ hóa", "Á sừng, mất lớp hạt, tăng gai, thâm nhiễm viêm"], "c": 3, "e": "Đặc trưng mô bệnh học vảy nến: hình ảnh á sừng, mất lớp hạt, tăng gai (quá sản lớp gai) và thâm nhiễm viêm."}, {"q": "Chẩn đoán xác định vảy nến dựa vào:", "a": ["Chỉ định lượng IgE", "Chỉ nuôi cấy vi khuẩn", "Chỉ chụp X-quang khớp", "Tổn thương cơ bản đặc trưng + vị trí, cạo vảy Brocq (+), mô bệnh học khi không điển hình"], "c": 3, "e": "Chẩn đoán vảy nến: tổn thương cơ bản đặc trưng và vị trí phân bố, cạo vảy theo nghiệm pháp Brocq dương tính, mô bệnh học khi lâm sàng không điển hình."}, {"q": "Hai chỉ số dùng để phân độ nặng của vảy nến là:", "a": ["BSA và PASI", "APGAR và GCS", "TNM và Child-Pugh", "PSI và OASIS"], "c": 0, "e": "Phân độ nặng vảy nến dùng BSA (diện tích bề mặt cơ thể) và PASI (Psoriasis Area and Severity Index)."}, {"q": "Chẩn đoán phân biệt của vảy nến thông thường KHÔNG bao gồm:", "a": ["Vảy phấn hồng Gilbert", "Viêm da tiết bã", "Giang mai 2", "Ung thư tế bào đáy"], "c": 3, "e": "CĐPB vảy nến thông thường: vảy phấn hồng Gilbert, viêm da tiết bã, chàm đồng tiền, giang mai 2. Ung thư tế bào đáy không thuộc nhóm này."}, {"q": "Chẩn đoán phân biệt của vảy nến mủ toàn thân là:", "a": ["Nấm da", "U mềm lây", "Các bệnh mụn mủ vô khuẩn khác (AGEP...)", "Ghẻ"], "c": 2, "e": "CĐPB vảy nến mủ toàn thân: các bệnh mụn mủ vô khuẩn khác như AGEP (mụn mủ ngoại ban toàn thân cấp)."}, {"q": "Nguyên tắc điều trị vảy nến là:", "a": ["Chỉ dùng kháng sinh", "Cắt bỏ vùng da tổn thương", "Chưa có PP chữa khỏi hoàn toàn; điều trị triệu chứng, lâu dài, tư vấn, chú ý yếu tố khởi phát và TDP thuốc", "Điều trị ngắn ngày để khỏi hẳn"], "c": 2, "e": "Nguyên tắc: hiện chưa có phương pháp đặc hiệu chữa khỏi hoàn toàn vảy nến; điều trị triệu chứng, điều trị lâu dài, giải thích tư vấn, chú ý yếu tố khởi phát và tác dụng phụ của thuốc."}, {"q": "Thuốc điều trị TẠI CHỖ vảy nến KHÔNG bao gồm:", "a": ["Dẫn xuất vitamin A (tazarotene)", "Dẫn xuất vitamin D3", "Corticoid tại chỗ", "Methotrexate uống"], "c": 3, "e": "Điều trị tại chỗ: corticoid, dẫn xuất vitamin D3, vitamin A, giữ ẩm/tiêu sừng (salicylic), ức chế calcineurin. Methotrexate là thuốc toàn thân."}, {"q": "Corticoid tại chỗ trong vảy nến có tác dụng và lưu ý gì?", "a": ["Chống gián phân, chống viêm; nhiều tác dụng phụ, đề kháng nhanh, không nên dùng kéo dài", "Là thuốc chữa khỏi hẳn vảy nến", "Chỉ dùng đường uống", "Không có tác dụng phụ, dùng suốt đời"], "c": 0, "e": "Corticoid tại chỗ: chống gián phân, chống viêm; điều trị 2 giai đoạn tấn công-duy trì; nhiều tác dụng phụ, đề kháng nhanh, không nên dùng kéo dài."}, {"q": "Dẫn xuất vitamin D3 dùng trong vảy nến bao gồm:", "a": ["Calcipotriol (DAIVONEX), calcitriol (SILKIS)", "Tacrolimus", "Acitretin (SORIATANE)", "Tazarotene (ZORAC)"], "c": 0, "e": "Dẫn xuất vitamin D3: calcipotriol (DAIVONEX), calcitriol (SILKIS); tác dụng tương tự corticoid, dung nạp tốt; TDP tăng calci máu, liều tối đa 100mg/tuần."}, {"q": "Chế phẩm phối hợp corticoid tại chỗ + calcipotriol (DAIVOBET) có đặc điểm:", "a": ["Chỉ dùng cho móng", "Hiệu quả cao trong điều trị vảy nến", "Không có tác dụng", "Chống chỉ định tuyệt đối"], "c": 1, "e": "Phối hợp corticoid tại chỗ + calcipotriol (DAIVOBET) cho hiệu quả cao."}, {"q": "Dẫn xuất vitamin A tại chỗ dùng trong vảy nến là:", "a": ["Calcipotriol", "Acitretin - dùng bôi", "Tacrolimus", "Tazarotene (ZORAC) - khá hiệu quả nhưng rất kích thích da"], "c": 3, "e": "Dẫn xuất vitamin A tại chỗ: Tazarotene (ZORAC), khá hiệu quả nhưng rất kích thích da."}, {"q": "Thuốc tiêu sừng dùng trong vảy nến bao gồm:", "a": ["Ceftriaxone", "Acid salicylic 5-10% dạng mỡ, urea 10-20%", "Neomycin, bacitracin", "Acyclovir"], "c": 1, "e": "Thuốc tiêu sừng (bong vảy): acid salicylic 5-10% dạng mỡ, urea 10-20%."}, {"q": "Phương pháp quang trị liệu (phototherapy) trong vảy nến bao gồm:", "a": ["UVB phổ hẹp (311nm), PUVA, R-PUVA, phơi nắng", "Chiếu tia X, xạ trị", "Laser CO2", "Áp lạnh nitơ"], "c": 0, "e": "Quang trị liệu: phơi nắng, UVB phổ hẹp (UVB-NB 311nm), PUVA (Psoralen + UVA), R-PUVA (retinoid uống + PUVA)."}, {"q": "Trong liệu pháp PUVA, bệnh nhân uống Psoralen trước khi chiếu UVA bao lâu?", "a": ["Trước 2 giờ", "Trước 24 giờ", "Trước 15 phút", "Ngay khi chiếu"], "c": 0, "e": "PUVA: uống Psoralen trước 2 giờ rồi chiếu UVA tại chỗ hoặc toàn thân; 80% giảm bệnh trong 4-6 tuần, chiếu 3 lần/tuần rồi giảm dần."}, {"q": "Chống chỉ định của PUVA bao gồm:", "a": ["Thai, suy gan, suy thận, đục thủy tinh thể, ung thư, trẻ em", "Tăng huyết áp nhẹ", "Vảy nến nhẹ", "Người trẻ khỏe mạnh"], "c": 0, "e": "CCĐ PUVA: thai, suy gan, suy thận, đục thủy tinh thể, ung thư, trẻ em... TDP lão hóa da, ung thư da."}, {"q": "Trong điều trị toàn thân vảy nến, corticoid toàn thân được:", "a": ["Chống chỉ định (do hiện tượng dội khi ngưng thuốc)", "Bắt buộc phối hợp mọi trường hợp", "Dùng liều cao kéo dài", "Ưu tiên hàng đầu"], "c": 0, "e": "Corticoid toàn thân CHỐNG CHỈ ĐỊNH trong vảy nến vì gây hiện tượng dội (bùng phát nặng, có thể chuyển thể mủ/đỏ da toàn thân khi ngưng thuốc)."}, {"q": "Chỉ định điều trị TOÀN THÂN trong vảy nến là:", "a": ["Vảy nến mảng trung bình-nặng, đỏ da toàn thân, vảy nến mủ, viêm khớp vảy nến", "Mọi vảy nến nhẹ khu trú", "Chỉ vảy nến giọt nhẹ", "Chỉ tổn thương móng đơn thuần"], "c": 0, "e": "Chỉ định điều trị toàn thân: vảy nến mảng trung bình-nặng, đỏ da toàn thân do vảy nến, vảy nến mủ, viêm khớp vảy nến."}, {"q": "Liều Methotrexate trong điều trị vảy nến là:", "a": ["500mg/ngày", "5-15 mg/tuần, 1 lần/tuần (uống hoặc tiêm bắp), bổ sung acid folic", "5-15 mg/ngày, chia 3 lần", "1 lần duy nhất"], "c": 1, "e": "Methotrexate: 5-15 mg/tuần, dùng 1 lần/tuần, đường uống hoặc tiêm bắp, cần bổ sung acid folic; CĐ viêm khớp VN, VN mảng nặng, VN kháng trị."}, {"q": "Tác dụng phụ cần theo dõi khi dùng Methotrexate là:", "a": ["Suy thận và tăng huyết áp", "Độc tủy (cơ quan tạo máu), gan, dạ dày", "Quái thai và khô da", "Đục thủy tinh thể"], "c": 1, "e": "Methotrexate: theo dõi độc tính trên cơ quan tạo máu (tủy), gan, dạ dày."}, {"q": "Acitretin (SORIATANE) trong điều trị vảy nến có đặc điểm:", "a": ["Là kháng sinh, dùng cho vảy nến giọt", "An toàn cho phụ nữ có thai", "Là retinoid, chỉ định vảy nến mủ; CCĐ phụ nữ có thai; chỉ được có thai sau ngưng thuốc ít nhất 3 năm", "Được có thai ngay sau ngưng thuốc"], "c": 2, "e": "Acitretin (retinoid): bình thường hóa biệt hóa thượng bì, chỉ định vảy nến mủ; CCĐ phụ nữ có thai/có ý định có thai, chỉ được có thai sau khi ngưng thuốc ít nhất 3 năm (nguy cơ quái thai). TDP: khô da niêm mạc, rối loạn lipid, viêm gan."}, {"q": "Cyclosporin A (NEORAL) trong vảy nến dùng liều và chỉ định:", "a": ["Dùng đường tiêm bắp hàng tuần", "Liều cao 20 mg/kg/ngày", "Liều thấp 2,5-5 mg/kg/ngày, chỉ định vảy nến kháng trị", "Chỉ định vảy nến nhẹ"], "c": 2, "e": "Cyclosporin A (NEORAL): liều thấp 2,5-5 mg/kg/ngày, dung nạp tốt, chỉ định vảy nến kháng trị; TDP độc thận, tăng huyết áp."}, {"q": "Thuốc sinh học ức chế TNF-α trong điều trị vảy nến bao gồm:", "a": ["Ustekinumab, Secukinumab", "Calcipotriol, tazarotene", "Etanercept, Infliximab, Adalimumab", "Methotrexate, cyclosporine"], "c": 2, "e": "Ức chế TNF-α: Etanercept, Infliximab (REMICADE), Adalimumab."}, {"q": "Thuốc sinh học ức chế IL-17A trong vảy nến là:", "a": ["Ustekinumab", "Etanercept", "Secukinumab", "Guselkumab"], "c": 2, "e": "Ức chế IL-17A: Secukinumab. (Ustekinumab ức chế IL-12/23; Guselkumab ức chế IL-23; Etanercept ức chế TNF-α.)"}, {"q": "Thuốc sinh học Ustekinumab trong vảy nến có cơ chế:", "a": ["Ức chế IL-12/23", "Ức chế IL-17A", "Ức chế IL-23 đơn thuần", "Ức chế TNF-α"], "c": 0, "e": "Ustekinumab ức chế IL-12/23 (kháng tiểu đơn vị p40 chung)."}, {"q": "Điều trị hỗ trợ trong vảy nến bao gồm:", "a": ["Chỉ dùng corticoid toàn thân", "Loại bỏ yếu tố khởi phát, kháng sinh toàn thân (vảy nến giọt ở TE), kháng H1 giảm ngứa, tắm làm mềm da", "Truyền máu", "Phẫu thuật cắt bỏ da"], "c": 1, "e": "Điều trị hỗ trợ: loại bỏ yếu tố khởi phát, liệu pháp KS toàn thân (vảy nến giọt ở trẻ em có liên cầu), kháng H1 (ngứa), tắm làm mềm và dịu da, phối hợp chuyên khoa Tâm thần, điều trị rối loạn chuyển hóa."}, {"q": "Vì sao dùng kháng sinh toàn thân trong một số trường hợp vảy nến giọt ở trẻ em?", "a": ["Vì vảy nến là bệnh nhiễm khuẩn", "Vì để diệt virus", "Vì mụn mủ luôn bội nhiễm", "Vì vảy nến giọt liên quan nhiễm liên cầu trước đó"], "c": 3, "e": "Vảy nến giọt ở trẻ em liên quan nhiễm liên cầu trước đó nên có thể dùng liệu pháp kháng sinh toàn thân hỗ trợ."}, {"q": "Vảy nến mủ dạng đồng tiền có đặc điểm tổn thương:", "a": ["Chỉ ở đầu ngón tay", "Mụn mủ tập trung ở viền hoạt động của mảng đỏ, li tâm, bờ lan rộng, trung tâm lành", "Không có mụn mủ", "Mụn mủ toàn thân trên nền da đỏ"], "c": 1, "e": "Vảy nến mủ dạng đồng tiền: mụn mủ tập trung ở viền hoạt động của mảng đỏ da, tổn thương có khuynh hướng li tâm với bờ lan rộng và trung tâm lành."}, {"q": "Trên mô bệnh học vảy nến, lớp đáy có đặc điểm:", "a": ["Teo mỏng chỉ 1 hàng", "Tăng sinh, có thể lên đến 3 hàng tế bào", "Hoại tử hoàn toàn", "Không thay đổi"], "c": 1, "e": "Lớp đáy trong vảy nến tăng sinh, có thể lên đến 3 hàng tế bào (tăng phân bào)."}];
+let idx=0, score=0, answers=[], quizSet=[];
+const COUNTS=[20,40,60,100];
+function initChips(){const el=document.getElementById('countChips');COUNTS.forEach((n,i)=>{const c=document.createElement('div');c.className='chip'+(i===COUNTS.length-1?' on':'');c.textContent=n>=BANK.length?'Tất cả ('+BANK.length+')':n+' câu';c.dataset.n=Math.min(n,BANK.length);c.onclick=()=>{document.querySelectorAll('#countChips .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');};el.appendChild(c);});}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function startQuiz(){
+  const sel=document.querySelector('#countChips .chip.on');
+  const n=Math.min(parseInt(sel.dataset.n),BANK.length);
+  const doShuffle=document.getElementById('shuffle').checked;
+  let pool=BANK.map((q,i)=>({...q,_i:i}));
+  if(doShuffle)shuffle(pool);
+  quizSet=pool.slice(0,n).map(q=>{
+    let opts=q.a.map((t,i)=>({t,correct:i===q.c}));
+    if(doShuffle)shuffle(opts);
+    return {q:q.q,opts,e:q.e};
+  });
+  idx=0;score=0;answers=[];
+  document.getElementById('start').style.display='none';
+  document.getElementById('result').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  renderQ();
+}
+function renderQ(){
+  const item=quizSet[idx];
+  document.getElementById('progressTxt').textContent='Câu '+(idx+1)+' / '+quizSet.length;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('progressBar').style.width=((idx)/quizSet.length*100)+'%';
+  document.getElementById('qText').textContent=item.q;
+  const box=document.getElementById('opts');box.innerHTML='';
+  const letters=['A','B','C','D'];
+  item.opts.forEach((o,i)=>{
+    const b=document.createElement('button');
+    b.className='opt';
+    b.innerHTML='<span class="k">'+letters[i]+'.</span> '+o.t;
+    b.onclick=()=>choose(i);
+    box.appendChild(b);
+  });
+  const ex=document.getElementById('explain');ex.className='explain';ex.textContent='';
+  document.getElementById('nextBtn').disabled=true;
+  document.getElementById('skipBtn').style.display='inline-block';
+  document.getElementById('nextBtn').textContent=(idx===quizSet.length-1)?'Xem kết quả ✔':'Câu tiếp ▶';
+}
+function choose(i){
+  const item=quizSet[idx];
+  const btns=document.querySelectorAll('#opts .opt');
+  const correctIdx=item.opts.findIndex(o=>o.correct);
+  btns.forEach((b,j)=>{b.disabled=true;if(j===correctIdx)b.classList.add('correct');if(j===i&&i!==correctIdx)b.classList.add('wrong');});
+  const isRight=i===correctIdx;
+  if(isRight)score++;
+  answers.push({q:item.q,chosen:item.opts[i].t,correct:item.opts[correctIdx].t,right:isRight});
+  const ex=document.getElementById('explain');
+  ex.className='explain show';
+  ex.innerHTML=(isRight?'<b class="ok">✔ Chính xác. </b>':'<b class="bad">✘ Chưa đúng. </b>')+item.e;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('nextBtn').disabled=false;
+  document.getElementById('skipBtn').style.display='none';
+}
+function nextQ(){ if(idx<quizSet.length-1){idx++;renderQ();} else finish(); }
+function finish(){
+  document.getElementById('quiz').style.display='none';
+  const r=document.getElementById('result');r.style.display='block';
+  const pct=Math.round(score/quizSet.length*100);
+  document.getElementById('finalScore').textContent=score+' / '+quizSet.length+' ('+pct+'%)';
+  let msg='';
+  if(pct>=90)msg='Xuất sắc! Bạn nắm rất chắc bài.';
+  else if(pct>=70)msg='Tốt! Ôn lại vài câu sai là ổn.';
+  else if(pct>=50)msg='Khá – cần ôn thêm phần sai.';
+  else msg='Hãy đọc lại tài liệu và luyện lại nhé.';
+  document.getElementById('finalMsg').textContent=msg;
+  const rev=document.getElementById('review');rev.innerHTML='';rev.style.display='none';
+  answers.forEach((a,i)=>{
+    const d=document.createElement('div');d.className='review-item';
+    d.innerHTML='<div class="ri-q">'+(i+1)+'. '+a.q+'</div>'+
+      '<div class="ri-a">Bạn chọn: <span class="'+(a.right?'ok':'bad')+'">'+a.chosen+'</span></div>'+
+      (a.right?'':'<div class="ri-a">Đáp án đúng: <span class="ok">'+a.correct+'</span></div>');
+    rev.appendChild(d);
+  });
+}
+function toggleReview(){const r=document.getElementById('review');r.style.display=r.style.display==='none'?'block':'none';}
+initChips();
+</script>
+</body>
+</html>

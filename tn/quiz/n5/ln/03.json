@@ -1,0 +1,601 @@
+[
+    {
+      "question": "Ba yếu tố chính dẫn đến sự suy giảm chức năng răng miệng nhanh chóng ở người cao tuổi (NCT) là gì?",
+      "options": [
+        {"text": "Di truyền, môi trường và thói quen nhai", "isCorrect": false},
+        {"text": "Sức khỏe toàn thân kém, suy giảm chức năng và điều kiện kinh tế xã hội giảm sút", "isCorrect": true},
+        {"text": "Sâu răng, viêm nướu và mất răng", "isCorrect": false},
+        {"text": "Thiếu canxi, ít uống nước và dùng thuốc", "isCorrect": false}
+      ],
+      "explanation": "Sức khỏe toàn thân, khả năng tự chăm sóc (chức năng) và khả năng tài chính/xã hội là 3 trụ cột ảnh hưởng trực tiếp đến tình trạng răng miệng NCT."
+    },
+    {
+      "question": "Hoạt động nào sau đây thuộc nhóm ADL (Hoạt động sinh hoạt hàng ngày cơ bản)?",
+      "options": [
+        {"text": "Quản lý tiền bạc", "isCorrect": false},
+        {"text": "Sử dụng điện thoại", "isCorrect": false},
+        {"text": "Tắm rửa và mặc quần áo", "isCorrect": true},
+        {"text": "Mua sắm nhu yếu phẩm", "isCorrect": false}
+      ],
+      "explanation": "ADL bao gồm các kỹ năng tự chăm sóc cơ bản như tắm, mặc quần áo, ăn uống, đi lại và vệ sinh cá nhân."
+    },
+    {
+      "question": "Hoạt động nào thuộc nhóm IADL (Hoạt động sinh hoạt hàng ngày có sử dụng công cụ)?",
+      "options": [
+        {"text": "Ăn uống", "isCorrect": false},
+        {"text": "Quản lý thuốc men và tài chính", "isCorrect": true},
+        {"text": "Đi bộ trong nhà", "isCorrect": false},
+        {"text": "Đi vệ sinh", "isCorrect": false}
+      ],
+      "explanation": "IADL là những hoạt động phức tạp hơn, đòi hỏi sự tương tác với môi trường và công cụ như nấu ăn, mua sắm, quản lý tiền, dùng điện thoại."
+    },
+    {
+      "question": "Tại sao việc đánh giá ADL và IADL lại quan trọng trong lập kế hoạch điều trị nha khoa?",
+      "options": [
+        {"text": "Để tính tiền phí khám", "isCorrect": false},
+        {"text": "Để xác định khả năng tự vệ sinh răng miệng và mức độ hợp tác điều trị của bệnh nhân", "isCorrect": true},
+        {"text": "Để biết bệnh nhân có giàu không", "isCorrect": false},
+        {"text": "Để so sánh với người trẻ", "isCorrect": false}
+      ],
+      "explanation": "Khả năng vận động và trí tuệ quyết định việc bệnh nhân có thể tự chải răng hay cần người hỗ trợ, cũng như chịu đựng được các buổi hẹn dài hay không."
+    },
+    {
+      "question": "Trong mô hình đánh giá OSCAR, chữ 'S' (Systemic) đại diện cho yếu tố nào?",
+      "options": [
+        {"text": "Tình trạng răng miệng (Oral)", "isCorrect": false},
+        {"text": "Các thay đổi do tuổi tác và bệnh lý toàn thân", "isCorrect": true},
+        {"text": "Khả năng tài chính (Social)", "isCorrect": false},
+        {"text": "Khả năng tự chủ (Self)", "isCorrect": false}
+      ],
+      "explanation": "S đại diện cho Systemic (Toàn thân), bao gồm các bệnh lý hệ thống, tình trạng dùng thuốc ảnh hưởng đến điều trị nha khoa."
+    },
+    {
+      "question": "Thành phần 'Reality' (Thực tế) trong mô hình OSCAR đề cập đến điều gì?",
+      "options": [
+        {"text": "Bệnh nhân có thực sự đau không", "isCorrect": false},
+        {"text": "Khả năng tài chính, sự ủng hộ của gia đình và tuổi thọ dự kiến", "isCorrect": true},
+        {"text": "Kết quả chụp X-quang", "isCorrect": false},
+        {"text": "Sự mòn răng thực tế", "isCorrect": false}
+      ],
+      "explanation": "Reality đánh giá các yếu tố thực tế như kinh phí, khả năng đi lại và sự hỗ trợ của người thân để đảm bảo kế hoạch điều trị khả thi."
+    },
+    {
+      "question": "Nguyên tắc giao tiếp quan trọng nhất khi khai thác bệnh sử ở NCT là gì?",
+      "options": [
+        {"text": "Nói thật nhanh để tiết kiệm thời gian", "isCorrect": false},
+        {"text": "Thái độ tôn trọng, thân thiện và kiên nhẫn lắng nghe", "isCorrect": true},
+        {"text": "Yêu cầu bệnh nhân im lặng để bác sĩ nói", "isCorrect": false},
+        {"text": "Chỉ trao đổi với người nhà", "isCorrect": false}
+      ],
+      "explanation": "NCT cần cảm giác được tôn trọng và thường phản ứng chậm hơn, nên bác sĩ cần tạo không gian thoải mái và lắng nghe kỹ."
+    },
+    {
+      "question": "Khi đặt câu hỏi cho NCT, bác sĩ nên lưu ý điều gì?",
+      "options": [
+        {"text": "Đặt nhiều câu hỏi phức tạp cùng lúc", "isCorrect": false},
+        {"text": "Dùng từ chuyên môn khó hiểu", "isCorrect": false},
+        {"text": "Đặt câu hỏi ngắn gọn, rõ ràng, nhìn thẳng vào bệnh nhân", "isCorrect": true},
+        {"text": "Nói thầm vào tai bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Câu hỏi ngắn gọn giúp bệnh nhân dễ tiếp nhận, đặc biệt với những người bị giảm thính lực hoặc suy giảm nhận thức nhẹ."
+    },
+    {
+      "question": "Thông tin nào là quan trọng nhất trong phần 'Tiền sử dùng thuốc'?",
+      "options": [
+        {"text": "Giá tiền của các loại thuốc", "isCorrect": false},
+        {"text": "Danh sách các thuốc đang dùng, liều lượng và tác dụng phụ tại miệng", "isCorrect": true},
+        {"text": "Nơi bệnh nhân mua thuốc", "isCorrect": false},
+        {"text": "Màu sắc của viên thuốc", "isCorrect": false}
+      ],
+      "explanation": "Rất nhiều thuốc ở người già gây khô miệng, tăng sản nướu hoặc tương tác với thuốc tê trong nha khoa."
+    },
+    {
+      "question": "Khám ngoài mặt ở NCT, bác sĩ cần quan sát dáng đi và tư thế để đánh giá:",
+      "options": [
+        {"text": "Tình trạng khớp thái dương hàm", "isCorrect": false},
+        {"text": "Mức độ yếu cơ, nguy cơ té ngã và khả năng vận động", "isCorrect": true},
+        {"text": "Độ mòn răng", "isCorrect": false},
+        {"text": "Sự cân xứng của môi", "isCorrect": false}
+      ],
+      "explanation": "Dáng đi và tư thế giúp bác sĩ nhận diện sơ bộ các bệnh lý thần kinh hoặc xương khớp ảnh hưởng đến việc điều trị."
+    },
+    {
+      "question": "Tình trạng 'môi khép không kín' ở tư thế nghỉ của NCT thường gợi ý điều gì?",
+      "options": [
+        {"text": "Bệnh nhân đang cười", "isCorrect": false},
+        {"text": "Giảm trương lực cơ vùng mặt hoặc mất kích thước dọc do mất răng", "isCorrect": true},
+        {"text": "Sâu răng cửa", "isCorrect": false},
+        {"text": "Tăng tiết nước bọt", "isCorrect": false}
+      ],
+      "explanation": "Mất răng và lão hóa cơ làm thay đổi cấu trúc nâng đỡ môi, khiến môi bị xệ và khó khép kín."
+    },
+    {
+      "question": "Khám hạch vùng đầu mặt cổ ở NCT nhằm mục đích:",
+      "options": [
+        {"text": "Tìm sâu răng", "isCorrect": false},
+        {"text": "Phát hiện các dấu hiệu viêm nhiễm hoặc di căn ung thư", "isCorrect": true},
+        {"text": "Kiểm tra tuyến nước bọt", "isCorrect": false},
+        {"text": "Đo huyết áp", "isCorrect": false}
+      ],
+      "explanation": "NCT có nguy cơ ung thư vùng miệng cao, hạch ngoại biên là dấu hiệu quan trọng cần tầm soát."
+    },
+    {
+      "question": "Niêm mạc miệng NCT có đặc điểm sinh lý nào cần lưu ý khi khám?",
+      "options": [
+        {"text": "Mỏng, dễ tổn thương và hồi phục nhanh", "isCorrect": false},
+        {"text": "Mỏng, giảm độ đàn hồi và chậm lành thương", "isCorrect": true},
+        {"text": "Dày và sừng hóa mạnh", "isCorrect": false},
+        {"text": "Luôn đỏ rực", "isCorrect": false}
+      ],
+      "explanation": "Quá trình lão hóa làm biểu mô niêm mạc teo mỏng, dễ bị loét khi mang hàm giả hoặc có chấn thương nhẹ."
+    },
+    {
+      "question": "Biểu hiện 'khô niêm mạc má' khi đưa gương soi vào miệng thường là dấu hiệu của:",
+      "options": [
+        {"text": "Bệnh tiểu đường", "isCorrect": false},
+        {"text": "Hội chứng khô miệng (Xerostomia)", "isCorrect": true},
+        {"text": "Nhiễm nấm Candida", "isCorrect": false},
+        {"text": "Mòn răng", "isCorrect": false}
+      ],
+      "explanation": "Khi thiếu nước bọt, gương soi sẽ dính vào niêm mạc má thay vì trượt đi dễ dàng."
+    },
+    {
+      "question": "Lưỡi của NCT thường có sự thay đổi nào?",
+      "options": [
+        {"text": "Tăng số lượng nụ vị giác", "isCorrect": false},
+        {"text": "Mất gai lưỡi, bề mặt nhẵn hoặc nứt nẻ", "isCorrect": true},
+        {"text": "Lưỡi trở nên dài hơn", "isCorrect": false},
+        {"text": "Luôn có màu trắng", "isCorrect": false}
+      ],
+      "explanation": "Teo gai lưỡi là thay đổi phổ biến do tuổi tác hoặc thiếu hụt dinh dưỡng (Vitamin B12, sắt)."
+    },
+    {
+      "question": "Khám răng cho NCT cần chú ý đặc biệt đến vị trí sâu răng nào?",
+      "options": [
+        {"text": "Sâu hố rãnh mặt nhai", "isCorrect": false},
+        {"text": "Sâu chân răng (Root caries)", "isCorrect": true},
+        {"text": "Sâu răng cửa giữa", "isCorrect": false},
+        {"text": "Sâu mặt trong răng khôn", "isCorrect": false}
+      ],
+      "explanation": "Tụt nướu ở người già làm lộ chân răng, vốn không có men bảo vệ nên rất dễ bị sâu."
+    },
+    {
+      "question": "Chẩn đoán 'Mòn răng' ở NCT cần phân biệt các dạng nào?",
+      "options": [
+        {"text": "Mòn cơ học, mòn hóa học và mòn do khớp cắn", "isCorrect": true},
+        {"text": "Mòn ngang và mòn dọc", "isCorrect": false},
+        {"text": "Mòn men và mòn tủy", "isCorrect": false},
+        {"text": "Mòn tự nhiên và mòn bệnh lý", "isCorrect": false}
+      ],
+      "explanation": "Cần xác định nguyên nhân do chải răng sai (Abrasion), do acid (Erosion) hay do nghiến răng (Attrition) để có hướng xử lý."
+    },
+    {
+      "question": "Kế hoạch điều trị 'Limited' (Giới hạn) dành cho đối tượng nào?",
+      "options": [
+        {"text": "NCT khỏe mạnh muốn làm đẹp", "isCorrect": false},
+        {"text": "NCT có bệnh lý toàn thân nặng, sức khỏe suy yếu, chỉ tập trung giải quyết đau và nhiễm trùng", "isCorrect": true},
+        {"text": "NCT có tài chính dư dả", "isCorrect": false},
+        {"text": "NCT mất 1 răng duy nhất", "isCorrect": false}
+      ],
+      "explanation": "Với bệnh nhân quá yếu, mục tiêu là kiểm soát triệu chứng cấp thiết để duy trì chất lượng sống tối thiểu."
+    },
+    {
+      "question": "Kế hoạch điều trị 'Rational' (Hợp lý) là:",
+      "options": [
+        {"text": "Thực hiện mọi thủ thuật hiện đại nhất", "isCorrect": false},
+        {"text": "Cân bằng giữa mong muốn của BN, tình trạng sức khỏe và tính khả thi về tài chính/chức năng", "isCorrect": true},
+        {"text": "Chỉ nhổ răng không trám", "isCorrect": false},
+        {"text": "Điều trị theo ý của người nhà hoàn toàn", "isCorrect": false}
+      ],
+      "explanation": "Đây là mức điều trị phổ biến nhất cho NCT, ưu tiên chức năng nhai và sự thoải mái."
+    },
+    {
+      "question": "Kế hoạch điều trị 'Comprehensive' (Toàn diện) chỉ nên áp dụng khi:",
+      "options": [
+        {"text": "BN có ASA I hoặc II và có động lực cao, khả năng tài chính tốt", "isCorrect": true},
+        {"text": "BN bị Alzheimer nặng", "isCorrect": false},
+        {"text": "BN chỉ còn sống được vài tháng", "isCorrect": false},
+        {"text": "BN yêu cầu dù sức khỏe không cho phép", "isCorrect": false}
+      ],
+      "explanation": "Điều trị toàn diện đòi hỏi nhiều thời gian và sức khỏe để chịu đựng các quy trình phức tạp (Implant, phục hình toàn hàm)."
+    },
+    {
+      "question": "Rào cản lớn nhất ngăn cản NCT tiếp cận dịch vụ nha khoa là:",
+      "options": [
+        {"text": "Sợ đau", "isCorrect": false},
+        {"text": "Chi phí điều trị và khó khăn trong di chuyển", "isCorrect": true},
+        {"text": "Không thích bác sĩ trẻ", "isCorrect": false},
+        {"text": "Răng đã rụng hết nên không cần khám", "isCorrect": false}
+      ],
+      "explanation": "Phụ thuộc tài chính và việc đi lại là hai trở ngại thực tế lớn nhất đối với NCT."
+    },
+    {
+      "question": "Việc thảo luận kế hoạch điều trị với gia đình bệnh nhân có mục đích gì?",
+      "options": [
+        {"text": "Để gia đình trả tiền", "isCorrect": false},
+        {"text": "Đảm bảo sự hỗ trợ trong chăm sóc tại nhà và sự đồng thuận về mục tiêu điều trị", "isCorrect": true},
+        {"text": "Để giảm trách nhiệm của bác sĩ", "isCorrect": false},
+        {"text": "Để làm quen với người nhà", "isCorrect": false}
+      ],
+      "explanation": "Gia đình đóng vai trò then chốt trong việc giúp NCT tuân thủ điều trị và vệ sinh răng miệng."
+    },
+    {
+      "question": "Khám khớp thái dương hàm ở NCT cần lưu ý dấu hiệu gì?",
+      "options": [
+        {"text": "Tiếng kêu khớp, đau và giới hạn há miệng", "isCorrect": true},
+        {"text": "Màu sắc da vùng khớp", "isCorrect": false},
+        {"text": "Số lượng răng khôn", "isCorrect": false},
+        {"text": "Độ cứng của xương gò má", "isCorrect": false}
+      ],
+      "explanation": "Mất răng lâu ngày làm thay đổi vị trí lồi cầu, dẫn đến các rối loạn chức năng khớp thường gặp ở người già."
+    },
+    {
+      "question": "Tại sao NCT thường gặp tình trạng 'nhiễm nấm Candida' dưới hàm giả?",
+      "options": [
+        {"text": "Do dùng kem đánh răng quá nhiều", "isCorrect": false},
+        {"text": "Vệ sinh hàm giả kém và niêm mạc mỏng, khô", "isCorrect": true},
+        {"text": "Do ăn nhiều đường", "isCorrect": false},
+        {"text": "Do hàm giả làm bằng vàng", "isCorrect": false}
+      ],
+      "explanation": "Môi trường ẩm ướt, thiếu oxy dưới hàm giả kết hợp với vệ sinh kém là nơi lý tưởng cho nấm phát triển."
+    },
+    {
+      "question": "Đánh giá khả năng tự chủ (Autonomy) trong OSCAR giúp bác sĩ biết:",
+      "options": [
+        {"text": "BN có thể tự quyết định điều trị hay cần người giám hộ", "isCorrect": true},
+        {"text": "BN có thể tự đi lại không", "isCorrect": false},
+        {"text": "BN có bao nhiêu răng", "isCorrect": false},
+        {"text": "BN thích bác sĩ nào", "isCorrect": false}
+      ],
+      "explanation": "Tính tự chủ liên quan đến năng lực nhận thức và quyền pháp lý trong việc ký cam kết điều trị."
+    },
+    {
+      "question": "Khám nướu và mô quanh răng ở NCT thường thấy:",
+      "options": [
+        {"text": "Nướu săn chắc, không chảy máu", "isCorrect": false},
+        {"text": "Tụt nướu, túi nha chu và tiêu xương ổ răng", "isCorrect": true},
+        {"text": "Nướu phủ kín thân răng", "isCorrect": false},
+        {"text": "Màu nướu luôn đen", "isCorrect": false}
+      ],
+      "explanation": "Tình trạng nha chu ở NCT thường tích lũy qua nhiều năm, biểu hiện bằng sự mất bám dính và tiêu xương."
+    },
+    {
+      "question": "Sự hiện diện của 'Linea alba' trên niêm mạc má NCT thường do:",
+      "options": [
+        {"text": "Ung thư", "isCorrect": false},
+        {"text": "Tỳ đè do răng hoặc hàm giả trong quá trình ăn nhai", "isCorrect": true},
+        {"text": "Thiếu nước", "isCorrect": false},
+        {"text": "Sử dụng thuốc", "isCorrect": false}
+      ],
+      "explanation": "Đây là đường trắng nằm ngang niêm mạc má tương ứng với mặt nhai, là hiện tượng dày sừng do ma sát nhẹ liên tục."
+    },
+    {
+      "question": "Khi khám hàm giả cũ của NCT, yếu tố nào là quan trọng nhất?",
+      "options": [
+        {"text": "Hàm giả có đẹp không", "isCorrect": false},
+        {"text": "Độ khít sát, sự ổn định và khớp cắn của hàm giả", "isCorrect": true},
+        {"text": "Hàm giả làm từ năm nào", "isCorrect": false},
+        {"text": "Bệnh nhân có thích màu nhựa không", "isCorrect": false}
+      ],
+      "explanation": "Hàm giả lỏng lẻo là nguyên nhân gây đau, loét niêm mạc và giảm khả năng ăn nhai."
+    },
+    {
+      "question": "Thuật ngữ 'Xerostomia' dùng để chỉ tình trạng gì?",
+      "options": [
+        {"text": "Sâu răng", "isCorrect": false},
+        {"text": "Cảm giác khô miệng chủ quan của bệnh nhân", "isCorrect": true},
+        {"text": "Viêm nướu", "isCorrect": false},
+        {"text": "Mòn răng", "isCorrect": false}
+      ],
+      "explanation": "Xerostomia là triệu chứng khô miệng, có thể do giảm tiết nước bọt thực sự hoặc do cảm giác của BN."
+    },
+    {
+      "question": "Phân loại ASA III bao gồm bệnh nhân mắc bệnh nào sau đây?",
+      "options": [
+        {"text": "Cao huyết áp nhẹ kiểm soát tốt", "isCorrect": false},
+        {"text": "Tiểu đường tuýp 1 hoặc suy tim sung huyết ổn định", "isCorrect": true},
+        {"text": "Người khỏe mạnh dưới 60 tuổi", "isCorrect": false},
+        {"text": "Bệnh nhân đang bị đột quỵ cấp", "isCorrect": false}
+      ],
+      "explanation": "ASA III dành cho bệnh lý toàn thân nặng, làm hạn chế hoạt động nhưng chưa gây tàn phế hoàn toàn."
+    },
+    {
+      "question": "Bước đầu tiên trong quy trình khám răng miệng cho NCT là:",
+      "options": [
+        {"text": "Chụp phim quanh chóp", "isCorrect": false},
+        {"text": "Chào hỏi và thiết lập mối quan hệ tin cậy", "isCorrect": true},
+        {"text": "Yêu cầu bệnh nhân há miệng to", "isCorrect": false},
+        {"text": "Kê đơn thuốc", "isCorrect": false}
+      ],
+      "explanation": "Thiết lập sự tin cậy giúp NCT thoải mái chia sẻ bệnh sử và hợp tác tốt hơn."
+    },
+    {
+      "question": "Khi khám niêm mạc dưới lưỡi ở NCT, nếu thấy vùng đỏ hoặc trắng kéo dài trên 2 tuần cần:",
+      "options": [
+        {"text": "Cho bệnh nhân về", "isCorrect": false},
+        {"text": "Chỉ định sinh thiết hoặc chuyển chuyên khoa để tầm soát ung thư", "isCorrect": true},
+        {"text": "Dặn bệnh nhân súc nước muối", "isCorrect": false},
+        {"text": "Mài răng bên cạnh", "isCorrect": false}
+      ],
+      "explanation": "Mọi tổn thương nghi ngờ ở vùng nguy cơ cao (sàn miệng, bờ bên lưỡi) cần được chẩn đoán loại trừ ác tính sớm."
+    },
+    {
+      "question": "Tầm quan trọng của việc kiểm tra huyết áp trước khi điều trị nha khoa ở NCT là:",
+      "options": [
+        {"text": "Để kiểm tra máy đo hỏng không", "isCorrect": false},
+        {"text": "Phòng ngừa biến chứng tim mạch và quyết định liều lượng thuốc tê", "isCorrect": true},
+        {"text": "Để tính tiền khám", "isCorrect": false},
+        {"text": "Chỉ làm cho có quy trình", "isCorrect": false}
+      ],
+      "explanation": "NCT thường mắc cao huyết áp thầm lặng, việc kiểm soát huyết áp đảm bảo an toàn tính mạng trong quá trình can thiệp."
+    },
+    {
+      "question": "Chỉ số ADL nào bị ảnh hưởng nhiều nhất ở bệnh nhân Parkinson?",
+      "options": [
+        {"text": "Khả năng nghe", "isCorrect": false},
+        {"text": "Vận động tinh (như mặc quần áo, cài nút áo, chải răng)", "isCorrect": true},
+        {"text": "Khả năng nhìn", "isCorrect": false},
+        {"text": "Khả năng nhớ", "isCorrect": false}
+      ],
+      "explanation": "Triệu chứng run và cứng cơ của Parkinson làm suy giảm nghiêm trọng các hoạt động đòi hỏi sự khéo léo của bàn tay."
+    },
+    {
+      "question": "Bệnh nhân có ASA IV chỉ nên điều trị nha khoa khi nào?",
+      "options": [
+        {"text": "Làm răng sứ thẩm mỹ. Khi có nhu cầu cấp cứu (đau, nhiễm trùng) và thực hiện tại bệnh viện", "isCorrect": true},
+        {"text": "Lấy vôi răng định kỳ", "isCorrect": false},
+        {"text": "Cấy ghép Implant", "isCorrect": false}
+      ],
+      "explanation": "ASA IV là tình trạng đe dọa tính mạng thường xuyên, chỉ ưu tiên xử lý khẩn cấp."
+    },
+    {
+      "question": "Thông tin nào cần trao đổi với bác sĩ điều trị toàn thân của NCT?",
+      "options": [
+        {"text": "Bệnh nhân có hay cười không", "isCorrect": false},
+        {"text": "Sự ổn định của bệnh lý và các lưu ý khi dùng thuốc tê/kháng sinh", "isCorrect": true},
+        {"text": "Bệnh nhân đi khám bằng phương tiện gì", "isCorrect": false},
+        {"text": "Sở thích ăn uống của bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Sự phối hợp đa chuyên khoa giúp giảm thiểu rủi ro biến chứng toàn thân trong nha khoa."
+    },
+    {
+      "question": "Khám chức năng nhai ở NCT mất răng bán phần cần đánh giá:",
+      "options": [
+        {"text": "Số lượng cặp răng đối diện còn tiếp xúc hiệu quả", "isCorrect": true},
+        {"text": "Độ trắng của men răng", "isCorrect": false},
+        {"text": "Vị trí của răng khôn", "isCorrect": false},
+        {"text": "Màu của lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Hiệu quả nhai phụ thuộc vào số lượng và vị trí các răng còn lại có khả năng nghiền nát thức ăn."
+    },
+    {
+      "question": "Phân loại mức độ 'Fragility' (Sự suy yếu) ở NCT giúp bác sĩ:",
+      "options": [
+        {"text": "Dự đoán khả năng phục hồi sau điều trị", "isCorrect": true},
+        {"text": "Biết bệnh nhân bao nhiêu tuổi", "isCorrect": false},
+        {"text": "Chọn màu răng giả", "isCorrect": false},
+        {"text": "Tính thời gian bảo hành", "isCorrect": false}
+      ],
+      "explanation": "Bệnh nhân suy yếu (frail) cần các biện pháp điều trị nhẹ nhàng, ít xâm lấn hơn."
+    },
+    {
+      "question": "Thay đổi vị giác ở người già thường bắt đầu với vị nào?",
+      "options": [
+        {"text": "Vị cay", "isCorrect": false},
+        {"text": "Vị ngọt và mặn", "isCorrect": true},
+        {"text": "Vị chua", "isCorrect": false},
+        {"text": "Vị đắng", "isCorrect": false}
+      ],
+      "explanation": "Mất cảm giác vị ngọt/mặn làm người già có xu hướng ăn mặn hơn hoặc ngọt hơn, gây hại cho tim mạch và tiểu đường."
+    },
+    {
+      "question": "Vai trò của người chăm sóc (caregiver) trong khám lâm sàng là gì?",
+      "options": [
+        {"text": "Trả lời thay toàn bộ cho bệnh nhân", "isCorrect": false},
+        {"text": "Cung cấp thêm thông tin bệnh sử và hỗ trợ BN trong quá trình khám", "isCorrect": true},
+        {"text": "Giữ bệnh nhân không cho há miệng", "isCorrect": false},
+        {"text": "Không có vai trò gì", "isCorrect": false}
+      ],
+      "explanation": "Người chăm sóc là nguồn thông tin quan trọng về thói quen hàng ngày và sự tuân thủ thuốc của BN."
+    },
+    {
+      "question": "Khám niêm mạc lưỡi, dấu hiệu 'Lưỡi bản đồ' ở NCT có thể liên quan đến:",
+      "options": [
+        {"text": "Viêm tủy răng", "isCorrect": false},
+        {"text": "Căng thẳng hoặc thiếu hụt dinh dưỡng", "isCorrect": true},
+        {"text": "Đánh răng quá nhiều", "isCorrect": false},
+        {"text": "Dùng nước súc miệng", "isCorrect": false}
+      ],
+      "explanation": "Thay đổi niêm mạc lưỡi thường phản ánh trạng thái sức khỏe nội tại và tâm lý của bệnh nhân."
+    },
+    {
+      "question": "Chẩn đoán 'Viêm nướu triển dưỡng' do thuốc thường gặp ở BN dùng thuốc nào?",
+      "options": [
+        {"text": "Paracetamol", "isCorrect": false},
+        {"text": "Nifedipine hoặc Cyclosporine", "isCorrect": true},
+        {"text": "Vitamin C", "isCorrect": false},
+        {"text": "Thuốc nhỏ mắt", "isCorrect": false}
+      ],
+      "explanation": "Đây là tác dụng phụ điển hình của nhóm thuốc chẹn kênh canxi và thuốc chống thải ghép."
+    },
+    {
+      "question": "Khi lập kế hoạch điều trị, 'Ưu tiên của bệnh nhân' cần được đặt ở vị trí nào?",
+      "options": [
+        {"text": "Sau ý kiến của bác sĩ", "isCorrect": false},
+        {"text": "Là trung tâm của kế hoạch điều trị hợp lý", "isCorrect": true},
+        {"text": "Không quan trọng", "isCorrect": false},
+        {"text": "Theo ý của người nhà", "isCorrect": false}
+      ],
+      "explanation": "Điều trị chỉ thành công khi giải quyết được những gì bệnh nhân thực sự mong muốn và lo lắng."
+    },
+    {
+      "question": "Hệ quả của 'mất kích thước dọc' ở NCT là:",
+      "options": [
+        {"text": "Mặt trở nên dài ra", "isCorrect": false},
+        {"text": "Góc miệng bị xệ, viêm khóe mép và vẻ mặt già nua", "isCorrect": true},
+        {"text": "Răng mọc dài thêm", "isCorrect": false},
+        {"text": "Lưỡi bị thu nhỏ", "isCorrect": false}
+      ],
+      "explanation": "Mất răng làm sụp tầng mặt dưới, tạo nếp gấp ở khóe miệng, dễ đọng nước bọt và gây nhiễm nấm."
+    },
+    {
+      "question": "Phân tích thuốc 'Polypharmacy' ở NCT có nghĩa là gì?",
+      "options": [
+        {"text": "Uống thuốc đúng giờ", "isCorrect": false},
+        {"text": "Tình trạng sử dụng đồng thời từ 5 loại thuốc trở lên", "isCorrect": true},
+        {"text": "Chỉ uống thuốc thảo dược", "isCorrect": false},
+        {"text": "BN tự ý bỏ thuốc", "isCorrect": false}
+      ],
+      "explanation": "Đa dược trị liệu làm tăng nguy cơ tương tác thuốc và tác dụng phụ nghiêm trọng tại miệng."
+    },
+    {
+      "question": "Chống chỉ định dùng thuốc tê có chất co mạch (Epinephrine) ở BN:",
+      "options": [
+        {"text": "Sâu răng nhẹ", "isCorrect": false},
+        {"text": "Cường giáp chưa kiểm soát hoặc cao huyết áp kịch phát", "isCorrect": true},
+        {"text": "Bị cận thị", "isCorrect": false},
+        {"text": "Đau lưng", "isCorrect": false}
+      ],
+      "explanation": "Chất co mạch có thể làm tăng nhịp tim và huyết áp, gây nguy hiểm cho BN tim mạch/nội tiết nặng."
+    },
+    {
+      "question": "Đánh giá khả năng 'Tài chính' trong Reality giúp bác sĩ:",
+      "options": [
+        {"text": "Lựa chọn vật liệu và phương pháp điều trị phù hợp với túi tiền BN", "isCorrect": true},
+        {"text": "Gợi ý BN đi vay tiền", "isCorrect": false},
+        {"text": "Không cần trám răng", "isCorrect": false},
+        {"text": "Bán thêm bảo hiểm", "isCorrect": false}
+      ],
+      "explanation": "Một kế hoạch điều trị quá đắt đỏ so với khả năng của BN sẽ dẫn đến việc bỏ dở điều trị."
+    },
+    {
+      "question": "Sự khác biệt giữa khám răng cho người trẻ và người già là:",
+      "options": [
+        {"text": "Người già không có tủy", "isCorrect": false},
+        {"text": "Phải kết hợp đánh giá chức năng toàn thân và tâm lý xã hội", "isCorrect": true},
+        {"text": "Chỉ khám răng không cần khám nướu", "isCorrect": false},
+        {"text": "Người già răng cứng hơn", "isCorrect": false}
+      ],
+      "explanation": "Lão nha là một lĩnh vực nha khoa tổng quát kết hợp với y học tuổi già."
+    },
+    {
+      "question": "Biểu hiện 'Lichen phẳng' do thuốc ở NCT thường thấy ở vị trí nào?",
+      "options": [
+        {"text": "Sàn miệng", "isCorrect": false},
+        {"text": "Niêm mạc má đối xứng hai bên", "isCorrect": true},
+        {"text": "Mặt nhai răng hàm", "isCorrect": false},
+        {"text": "Gót chân", "isCorrect": false}
+      ],
+      "explanation": "Các tổn thương dạng lưới trắng đối xứng ở má là dấu hiệu điển hình của phản ứng Lichenoid."
+    },
+    {
+      "question": "Mục tiêu 3 của bài học này là gì?",
+      "options": [
+        {"text": "Học cách nhổ răng", "isCorrect": false},
+        {"text": "Lên kế hoạch điều trị ở người cao tuổi", "isCorrect": true},
+        {"text": "Trám răng thẩm mỹ", "isCorrect": false},
+        {"text": "Cách mài sáp thạch cao", "isCorrect": false}
+      ],
+      "explanation": "Đây là kỹ năng tổng hợp quan trọng nhất sau khi đã khám và chẩn đoán."
+    },
+    {
+      "question": "Sử dụng 'nước bọt nhân tạo' được chỉ định khi nào?",
+      "options": [
+        {"text": "BN bị sâu răng", "isCorrect": false},
+        {"text": "BN bị khô miệng nặng do xạ trị hoặc hội chứng Sjogren", "isCorrect": true},
+        {"text": "BN muốn răng bóng hơn", "isCorrect": false},
+        {"text": "BN bị chảy máu nướu", "isCorrect": false}
+      ],
+      "explanation": "Giúp bôi trơn niêm mạc, hỗ trợ nhai nuốt và giảm cảm giác khó chịu do thiếu nước bọt."
+    },
+    {
+      "question": "Khi BN NCT bị sa sút trí tuệ (Dementia), ai là người ký cam kết điều trị?",
+      "options": [
+        {"text": "Bệnh nhân", "isCorrect": false},
+        {"text": "Người giám hộ hợp pháp", "isCorrect": true},
+        {"text": "Hàng xóm", "isCorrect": false},
+        {"text": "Bác sĩ tự ký", "isCorrect": false}
+      ],
+      "explanation": "Năng lực hành vi dân sự của BN không đảm bảo, cần có sự đại diện pháp lý."
+    },
+    {
+      "question": "Tại sao phải khám 'phanh môi, phanh má' trước khi làm hàm giả mới?",
+      "options": [
+        {"text": "Để xem phanh có màu gì", "isCorrect": false},
+        {"text": "Đảm bảo biên giới hàm giả không gây loét hoặc bị sút khi cử động cơ", "isCorrect": true},
+        {"text": "Để nhổ răng", "isCorrect": false},
+        {"text": "Không liên quan đến hàm giả", "isCorrect": false}
+      ],
+      "explanation": "Sự co kéo của các thắng/phanh mô mềm ảnh hưởng trực tiếp đến độ vững ổn của phục hình tháo lắp."
+    },
+    {
+      "question": "Đánh giá rủi ro 'Phán đoán về thủ thuật' bao gồm:",
+      "options": [
+        {"text": "Thời gian thủ thuật, mức độ xâm lấn và mức độ đau", "isCorrect": true},
+        {"text": "Phòng khám có máy lạnh không", "isCorrect": false},
+        {"text": "Bác sĩ có bao nhiêu năm kinh nghiệm", "isCorrect": false},
+        {"text": "Màu của mắc cài", "isCorrect": false}
+      ],
+      "explanation": "Giúp bác sĩ quyết định thực hiện điều trị tại phòng mạch hay cần nhập viện nội trú."
+    },
+    {
+      "question": "Hiện tượng 'tiêu xương hướng tâm' xảy ra ở hàm nào?",
+      "options": [
+        {"text": "Hàm trên", "isCorrect": true},
+        {"text": "Hàm dưới", "isCorrect": false},
+        {"text": "Cả hai hàm", "isCorrect": false},
+        {"text": "Xương gò má", "isCorrect": false}
+      ],
+      "explanation": "Xương hàm trên tiêu dần vào phía trong, làm cung hàm hẹp lại theo thời gian."
+    },
+    {
+      "question": "Dấu hiệu 'đốm xuất huyết' ở niêm mạc miệng NCT có thể báo hiệu:",
+      "options": [
+        {"text": "Ăn quá cay", "isCorrect": false},
+        {"text": "Rối loạn đông máu hoặc thiếu hụt tiểu cầu", "isCorrect": true},
+        {"text": "Dùng quá nhiều vitamin", "isCorrect": false},
+        {"text": "Đánh răng mạnh", "isCorrect": false}
+      ],
+      "explanation": "Đây là dấu hiệu toàn thân quan trọng cần xét nghiệm máu trước khi can thiệp phẫu thuật."
+    },
+    {
+      "question": "Lập kế hoạch điều trị cho BN Parkinson cần ưu tiên:",
+      "options": [
+        {"text": "Hàm giả tháo lắp phức tạp", "isCorrect": false},
+        {"text": "Phục hình cố định và các biện pháp giữ vệ sinh răng miệng đơn giản", "isCorrect": true},
+        {"text": "Cấy 10 Implant cùng lúc", "isCorrect": false},
+        {"text": "Không làm gì cả", "isCorrect": false}
+      ],
+      "explanation": "Sự run rẩy làm BN khó tháo lắp hàm và khó chải răng kỹ, nên ưu tiên các giải pháp ổn định và dễ làm sạch."
+    },
+    {
+      "question": "Kết quả cuối cùng của việc khám đúng Chương 3 giúp bác sĩ đạt được:",
+      "options": [
+        {"text": "Một chẩn đoán chính xác và một kế hoạch điều trị cá nhân hóa bền vững", "isCorrect": true},
+        {"text": "Số lượng bệnh nhân đông", "isCorrect": false},
+        {"text": "Kỹ năng nhổ răng nhanh", "isCorrect": false},
+        {"text": "Sự hài lòng của người nhà", "isCorrect": false}
+      ],
+      "explanation": "Chẩn đoán đúng là kim chỉ nam cho mọi thành công trong điều trị nha khoa tuổi già."
+    },
+    {
+      "question": "Điểm 'A' và 'B' trong đánh giá xương hàm (nhắc lại Chương 3 CHRM) giúp gì cho Lão nha?",
+      "options": [
+        {"text": "Xác định sự bất hài hòa tương quan xương để thiết kế hàm giả phù hợp", "isCorrect": true},
+        {"text": "Đo độ mòn răng", "isCorrect": false},
+        {"text": "Tìm sâu răng", "isCorrect": false},
+        {"text": "Không có ứng dụng", "isCorrect": false}
+      ],
+      "explanation": "Tương quan hạng II hay III xương ảnh hưởng lớn đến việc sắp răng giả và thẩm mỹ khuôn mặt."
+    },
+    {
+      "question": "Khi BN bị nghẹt mũi mãn tính, bác sĩ nha khoa nên dặn họ:",
+      "options": [
+        {"text": "Thở bằng miệng thoải mái", "isCorrect": false},
+        {"text": "Sử dụng thuốc xịt mũi trước khi điều trị để tránh cảm giác ngạt khi nằm ngửa", "isCorrect": true},
+        {"text": "Không được đi khám răng", "isCorrect": false},
+        {"text": "Uống nhiều nước đá", "isCorrect": false}
+      ],
+      "explanation": "Đảm bảo đường thở thông thoáng giúp BN an tâm và hợp tác hơn trên ghế nha khoa."
+    }
+  ]

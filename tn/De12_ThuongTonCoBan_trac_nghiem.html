@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thương tổn cơ bản (da liễu)</title>
+<style>
+  :root{--card:#1e293b;--accent:#2dd4bf;--ok:#22c55e;--bad:#ef4444;--txt:#e2e8f0;--muted:#94a3b8;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(160deg,#0f172a,#08201d);color:var(--txt);line-height:1.5;padding:16px;}
+  .wrap{max-width:820px;margin:0 auto;}
+  header{text-align:center;padding:14px 0 8px;}
+  header h1{font-size:1.35rem;margin:0 0 4px;color:#fff;}
+  header p{margin:2px 0;color:var(--muted);font-size:.9rem;}
+  .topnav{text-align:center;margin-top:8px;}
+  .topnav a{color:var(--accent);font-size:.82rem;text-decoration:none;}
+  .panel{background:var(--card);border:1px solid #334155;border-radius:14px;padding:20px;margin-top:16px;box-shadow:0 8px 30px rgba(0,0,0,.35);}
+  .bar{height:8px;background:#0b1220;border-radius:99px;overflow:hidden;margin:10px 0 4px;}
+  .bar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),#22c55e);transition:width .3s;}
+  .meta{display:flex;justify-content:space-between;font-size:.82rem;color:var(--muted);margin-bottom:6px;flex-wrap:wrap;gap:6px;}
+  .q{font-size:1.08rem;font-weight:600;margin:6px 0 14px;color:#fff;}
+  .opt{display:block;width:100%;text-align:left;background:#0b1220;border:1.5px solid #334155;color:var(--txt);border-radius:10px;padding:12px 14px;margin:8px 0;cursor:pointer;font-size:.98rem;transition:all .15s;}
+  .opt:hover:not(:disabled){border-color:var(--accent);}
+  .opt .k{display:inline-block;width:22px;font-weight:700;color:var(--accent);}
+  .opt.correct{border-color:var(--ok);background:rgba(34,197,94,.12);}
+  .opt.wrong{border-color:var(--bad);background:rgba(239,68,68,.12);}
+  .opt:disabled{cursor:default;opacity:.95;}
+  .explain{margin-top:10px;padding:11px 13px;border-radius:10px;background:#0b1220;border-left:4px solid var(--accent);font-size:.9rem;color:#cbd5e1;display:none;}
+  .explain.show{display:block;}
+  .row{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;}
+  button.btn{background:var(--accent);color:#052e2b;border:none;border-radius:10px;padding:11px 18px;font-weight:700;cursor:pointer;font-size:.95rem;}
+  button.btn.sec{background:#334155;color:#e2e8f0;}
+  button.btn:disabled{opacity:.4;cursor:not-allowed;}
+  .center{text-align:center;}
+  .big{font-size:2.4rem;font-weight:800;color:#fff;margin:6px 0;}
+  .tag{display:inline-block;font-size:.72rem;background:#0b1220;border:1px solid #334155;color:var(--muted);padding:3px 9px;border-radius:99px;margin-bottom:8px;}
+  .grid{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+  .chip{font-size:.8rem;padding:6px 10px;border-radius:8px;border:1px solid #334155;background:#0b1220;cursor:pointer;}
+  .chip.on{border-color:var(--accent);color:var(--accent);}
+  .review-item{border-top:1px solid #334155;padding:12px 0;font-size:.9rem;}
+  .review-item .ri-q{font-weight:600;color:#fff;}
+  .review-item .ri-a{color:#cbd5e1;margin-top:4px;}
+  .ok{color:var(--ok)} .bad{color:var(--bad)}
+  a.src{color:var(--muted);font-size:.78rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">ĐỀ 12 · Trắc nghiệm A/B/C/D</span>
+    <h1>Thương tổn cơ bản (da liễu)</h1>
+    <p>Tổn thương nguyên phát &amp; thứ phát · Dát/Sẩn/Cục/Mụn nước/Bọng nước · Sắp xếp · Vị trí · Mô tả</p>
+    <div class="topnav"><a href="index.html">&#8592; Danh sách đề</a></div>
+  </header>
+
+  <div class="panel" id="start">
+    <p>Bộ câu hỏi bám sát tài liệu. Mỗi câu có 4 phương án gần giống nhau để tăng độ khó. Chọn số câu muốn luyện:</p>
+    <div class="grid" id="countChips"></div>
+    <div class="row">
+      <label style="display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)">
+        <input type="checkbox" id="shuffle" checked> Xáo trộn câu hỏi &amp; đáp án
+      </label>
+    </div>
+    <div class="row">
+      <button class="btn" onclick="startQuiz()">Bắt đầu luyện tập &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel" id="quiz" style="display:none">
+    <div class="meta"><span id="progressTxt"></span><span id="scoreTxt"></span></div>
+    <div class="bar"><i id="progressBar"></i></div>
+    <div class="q" id="qText"></div>
+    <div id="opts"></div>
+    <div class="explain" id="explain"></div>
+    <div class="row">
+      <button class="btn sec" id="skipBtn" onclick="nextQ()">Bỏ qua</button>
+      <button class="btn" id="nextBtn" onclick="nextQ()" disabled>Câu tiếp &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel center" id="result" style="display:none">
+    <p class="tag">KẾT QUẢ</p>
+    <div class="big" id="finalScore"></div>
+    <p id="finalMsg" style="color:var(--muted)"></p>
+    <div class="row" style="justify-content:center">
+      <button class="btn" onclick="location.reload()">Làm lại &#8635;</button>
+      <button class="btn sec" onclick="toggleReview()">Xem lại bài &#9662;</button>
+    </div>
+    <div id="review" style="text-align:left;display:none;margin-top:14px"></div>
+  </div>
+
+  <p class="center" style="margin-top:18px"><a class="src" href="Thuong ton co ban DH TM.pdf">Nguồn: Thuong ton co ban DH TM.pdf</a></p>
+</div>
+
+<script>
+const BANK = [{"q": "Thương tổn cơ bản (TTCB) được định nghĩa là:", "a": ["Sẹo sau phẫu thuật", "Những thương tổn xuất hiện trên da, nói lên tình trạng bệnh lý của da và các cơ quan phủ tạng", "Chỉ tổn thương nhiễm trùng", "Chỉ tổn thương do chấn thương"], "c": 1, "e": "TTCB là những thương tổn xuất hiện ở trên da, nói lên tình trạng bệnh lý của da và các cơ quan phủ tạng."}, {"q": "Đặc điểm của TTCB NGUYÊN PHÁT là:", "a": ["Là tiến triển tiếp theo của tổn thương khác", "Nguyên vẹn, xuất hiện ngay từ đầu", "Chỉ xuất hiện sau khi gãi", "Là hậu quả của điều trị để lại"], "c": 1, "e": "TTCB nguyên phát: nguyên vẹn, xuất hiện ngay từ đầu, có thể ít rõ tùy theo vùng da và sự tiến triển."}, {"q": "Đặc điểm của TTCB THỨ PHÁT là:", "a": ["Không liên quan TTCB nguyên phát", "Là tiến triển tiếp theo của TTCB nguyên phát hoặc hậu quả của điều trị để lại", "Nguyên vẹn, xuất hiện ngay từ đầu", "Chỉ do di truyền"], "c": 1, "e": "TTCB thứ phát: là tiến triển tiếp theo của TTCB nguyên phát, hoặc hậu quả của quá trình điều trị để lại."}, {"q": "Chẩn đoán thương tổn cơ bản dựa trên các yếu tố nào?", "a": ["Chỉ tuổi bệnh nhân", "TTCB, đặc điểm và kiểu sắp xếp, vị trí", "Chỉ màu sắc", "Chỉ kích thước"], "c": 1, "e": "Chẩn đoán dựa trên: xác định TTCB, đặc điểm và kiểu sắp xếp của tổn thương, và vị trí."}, {"q": "Tổn thương nào sau đây là tổn thương NGUYÊN PHÁT?", "a": ["Dát, sẩn, mụn nước, bọng nước", "Loét, vết nứt", "Vảy da, sẹo", "Lichen hóa, teo da"], "c": 0, "e": "Tổn thương nguyên phát gồm: dát, sẩn, mảng, cục/nốt, mụn nước, bọng nước, mụn mủ."}, {"q": "Tổn thương nào sau đây là tổn thương THỨ PHÁT?", "a": ["Vảy da, vảy tiết, sẹo, loét, lichen hóa", "Dát, sẩn", "Mụn nước, bọng nước", "Cục, mảng"], "c": 0, "e": "Tổn thương thứ phát gồm: vảy da, vảy tiết, sẹo, loét, vết nứt, vết xước, vết trợt, lichen hóa, teo da, nang."}, {"q": "Dát (Macule) có đặc điểm nào?", "a": ["Gờ lên khỏi mặt da, chắc", "Chứa mủ", "Thay đổi màu sắc da, phẳng với bề mặt da, <1cm", "Chứa thanh dịch"], "c": 2, "e": "Dát (Macule): thay đổi màu sắc da, phẳng với bề mặt da, giới hạn rõ hoặc không, kích thước <1cm."}, {"q": "Dát giảm sắc tố điển hình gặp trong bệnh nào?", "a": ["Tàn nhang", "Xuất huyết", "Nốt ruồi", "Lang ben"], "c": 3, "e": "Dát giảm sắc tố ví dụ như lang ben; dát tăng sắc tố như tàn nhang, đốm nâu; còn có dát đỏ, dát xuất huyết, dát xăm."}, {"q": "'Đám' (Patch) khác với 'Dát' ở điểm nào?", "a": ["Đám gờ cao khỏi mặt da", "Đám chứa dịch", "Đám luôn <0,5cm", "Đám là dát có kích thước >1cm (phẳng mặt da, thay đổi màu sắc)"], "c": 3, "e": "Đám (Patch): phẳng mặt da, thay đổi màu sắc da, kích thước lớn (dát >1cm)."}, {"q": "Sẩn (Papule) có đặc điểm nào?", "a": ["Phẳng với mặt da", "Chắc, nông, gờ lên khỏi mặt da, đường kính ≤0,5cm", "Chứa thanh dịch", "Đường kính >1cm"], "c": 1, "e": "Sẩn (Papule): chắc, nông, gờ lên khỏi mặt da, đường kính ≤0,5cm."}, {"q": "Sẩn phù (do dịch thể ở trung bì) gặp trong bệnh nào?", "a": ["Viêm nang lông", "Hạt cơm phẳng", "Giang mai", "Mày đay"], "c": 3, "e": "Sẩn ở trung bì do thâm nhuận: bởi tế bào là sẩn giang mai; bởi dịch thể là sẩn phù (mày đay)."}, {"q": "Sẩn do tăng sản tế bào thượng bì gặp trong:", "a": ["Hạt cơm phẳng", "Viêm nang lông", "Sẩn giang mai", "Sẩn phù mày đay"], "c": 0, "e": "Sẩn ở thượng bì do tăng sản tế bào thượng bì, ví dụ hạt cơm phẳng."}, {"q": "Sẩn có hình dạng 'lõm trung tâm' điển hình gặp trong:", "a": ["U mềm lây", "Nhân trứng cá", "Viêm nang lông", "Lichen phẳng"], "c": 0, "e": "Các hình dạng sẩn: sẩn phẳng (lichen phẳng), sẩn bán cầu (nhân trứng cá), sẩn nhọn (viêm nang lông), sẩn lõm trung tâm (u mềm lây), sẩn sùi (sùi mào gà), sẩn sừng hóa (hạt cơm)."}, {"q": "Mảng (Plaque) có đặc điểm nào?", "a": ["Chắc, nông, gờ cao khỏi mặt da, diện tích rộng >1cm (sẩn nông rộng >1cm)", "Phẳng mặt da <1cm", "Chứa mủ", "Là tổn thương thứ phát"], "c": 0, "e": "Mảng (Plaque): chắc, nông, gờ cao khỏi mặt da, diện tích rộng >1cm (được xem là sẩn nông rộng >1cm)."}, {"q": "Cục/Nốt (Nodule) có đặc điểm nào?", "a": ["Phẳng với mặt da", "Chỉ ở lớp sừng", "Chứa thanh dịch trong", "Chắc, tròn, sờ được, đường kính >0,5cm, liên quan thượng bì/trung bì/hạ bì"], "c": 3, "e": "Cục/Nốt (Nodule): chắc, tròn, sờ được, đường kính >0,5cm, liên quan đến thượng bì, trung bì hay hạ bì; giới hạn rõ (nông) hoặc không rõ (sâu)."}, {"q": "'Gôm' là loại tổn thương nào?", "a": ["Mụn nước nông", "Dát đỏ phẳng", "Vảy tiết", "Cục có tính chất viêm bán cấp/mãn tính, hóa mềm rồi vỡ thành loét sâu"], "c": 3, "e": "Gôm là cục có tính chất viêm bán cấp/mãn tính; tiến triển hóa mềm → da đỏ tím → mở ra ngoài thành vết loét sâu; ví dụ giang mai, nấm sâu, lao."}, {"q": "Thuật ngữ 'U' trong da liễu chỉ:", "a": ["Chỉ nang chứa dịch", "Chỉ khối ác tính", "Chỉ khối lành tính", "Bất kỳ khối nào, lành hay ác tính"], "c": 3, "e": "U là thuật ngữ chỉ cho bất kỳ khối nào, lành hay ác tính, trong đó có cục."}, {"q": "Mụn nước (Vesicle) có đặc điểm nào?", "a": ["Đường kính >0,5cm", "Gờ cao khỏi mặt da, giới hạn rõ, ≤0,5cm, chứa thanh dịch", "Chứa mủ", "Phẳng mặt da"], "c": 1, "e": "Mụn nước (Vesicle): gờ cao khỏi mặt da, giới hạn rõ, đường kính ≤0,5cm, chứa thanh dịch."}, {"q": "Bọng nước (Bulla) khác mụn nước ở điểm nào?", "a": ["Phẳng mặt da", "Đường kính >0,5cm (chứa thanh dịch)", "Chứa mủ", "Đường kính ≤0,5cm"], "c": 1, "e": "Bọng nước (Bulla): gờ cao khỏi mặt da, giới hạn rõ, đường kính >0,5cm, chứa thanh dịch."}, {"q": "Bọng nước nằm TRONG thượng bì gặp trong bệnh nào?", "a": ["Bọng nước pemphigoid", "Lichen phẳng", "Pemphigus, chốc, viêm da tiếp xúc", "Lang ben"], "c": 2, "e": "Bọng nước trong thượng bì: pemphigus, chốc, viêm da tiếp xúc; bọng nước dưới thượng bì: bọng nước pemphigoid."}, {"q": "Bọng nước nằm DƯỚI thượng bì điển hình là:", "a": ["Viêm da tiếp xúc", "Chốc", "Bọng nước pemphigoid", "Pemphigus"], "c": 2, "e": "Bọng nước dưới thượng bì điển hình là bọng nước pemphigoid."}, {"q": "Mụn mủ (Pustule) chứa gì?", "a": ["Dịch mủ (màu trắng, vàng, đôi khi có máu)", "Máu đơn thuần", "Chất bã", "Thanh dịch trong"], "c": 0, "e": "Mụn mủ (Pustule): gờ cao khỏi mặt da, giới hạn rõ, chứa dịch mủ (màu trắng, vàng, đôi khi có máu)."}, {"q": "Ví dụ nào về mụn mủ chứa vi khuẩn?", "a": ["Vảy nến mụn mủ vô khuẩn", "Trứng cá (tổn thương mụn mủ chứa vi khuẩn)", "Mụn nước herpes", "Bọng nước pemphigus"], "c": 1, "e": "Vảy nến chứa mụn mủ vô khuẩn; trứng cá với tổn thương mụn mủ có chứa vi khuẩn."}, {"q": "Vảy da (Scale) hình thành do đâu?", "a": ["Do mất lớp thượng bì", "Do sự bong ra của các tế bào lớp sừng", "Do gãi", "Do khô lại của huyết thanh và máu"], "c": 1, "e": "Vảy da (Scale): do sự bong ra của các tế bào lớp sừng; vảy khô hoặc bóng mỡ, màu trắng hay nâu."}, {"q": "'Á sừng' (parakeratosis) khác 'tăng sừng' (hyperkeratosis) ở điểm nào?", "a": ["Tăng sừng có tế bào còn nhân", "Á sừng có tế bào sừng bình thường", "Cả hai giống nhau hoàn toàn", "Á sừng là dày lớp sừng với tế bào sừng lớp ngoài cùng bất thường (còn nhân)"], "c": 3, "e": "Tăng sừng: dày lớp sừng với TB sừng bình thường; á sừng: dày lớp sừng với TB sừng lớp ngoài cùng bất thường (còn nhân); phân biệt bằng mô học."}, {"q": "Vảy tiết (Crust) là gì?", "a": ["Mất một phần thượng bì", "Khoang kín chứa dịch", "Sự khô lại của huyết thanh, máu và các tế bào viêm", "Sự bong tế bào lớp sừng"], "c": 2, "e": "Vảy tiết (Crust): sự khô lại của huyết thanh, máu và các tế bào viêm; có màu từ vàng nâu (màu mật ong) đến đen."}, {"q": "Vết trợt (Erosion) có đặc điểm nào?", "a": ["Mất da đến trung bì/hạ bì, lành để lại sẹo", "Mất một phần lớp thượng bì, bề mặt lõm đỏ ẩm, lành KHÔNG để lại sẹo", "Nứt thành đường", "Dày lớp sừng"], "c": 1, "e": "Vết trợt (Erosion): do mất một phần của lớp thượng bì, giới hạn rõ, bề mặt lõm/đỏ/ẩm, lành không để lại sẹo."}, {"q": "Vết xước (Excoriation) là gì?", "a": ["Tăng sinh mô liên kết", "Là vết trợt thành đường, thường do gãi", "Mất da đến hạ bì", "Khô lại của huyết thanh"], "c": 1, "e": "Vết xước (Excoriation): là vết trợt thành đường, thường do gãi."}, {"q": "Loét (Ulcer) khác vết trợt ở điểm nào?", "a": ["Chỉ mất một phần thượng bì; lành không sẹo", "Mất da đến trung bì, hạ bì; lành để lại sẹo", "Không chứa chất tiết", "Luôn nông hơn vết trợt"], "c": 1, "e": "Loét (Ulcer): mất da đến trung bì, hạ bì; bề mặt chứa chất tiết (máu, mủ, u hạt); lành để lại sẹo (khác vết trợt chỉ mất thượng bì và không để lại sẹo)."}, {"q": "Vết nứt (Fissure) có đặc điểm nào?", "a": ["Tổ chức liên kết thay thế da", "Khoang kín chứa dịch", "Mất một phần thượng bì lõm đỏ ẩm", "Nứt thành đường trong da, bờ dốc/thẳng đứng, thường thứ phát sau khô da"], "c": 3, "e": "Vết nứt (Fissure): nứt thành đường trong da, có bờ dốc hay thẳng đứng, thường thứ phát sau khô da."}, {"q": "Sẹo (Scar) là gì?", "a": ["Khoang kín có biểu mô lót", "Sự bong tế bào lớp sừng", "Tổn thương da được thay thế bằng tổ chức liên kết", "Mất một phần thượng bì"], "c": 2, "e": "Sẹo (Scar): tổn thương da được thay thế bằng tổ chức liên kết; các dạng: sẹo lồi, sẹo quá phát/phì đại, sẹo phẳng, sẹo lõm."}, {"q": "Dạng sẹo nào KHÔNG được liệt kê?", "a": ["Sẹo lõm", "Sẹo hoại tử", "Sẹo phì đại (quá phát)", "Sẹo lồi"], "c": 1, "e": "Các dạng sẹo: sẹo lồi, sẹo quá phát/phì đại, sẹo phẳng, sẹo lõm — không có 'sẹo hoại tử'."}, {"q": "Teo da (Atrophy) là gì?", "a": ["Dày lớp sừng", "Giảm 1 hoặc nhiều lớp của da (teo thượng bì hoặc teo trung bì)", "Tăng sinh tổ chức liên kết", "Khoang kín chứa dịch"], "c": 1, "e": "Teo da (Atrophy): giảm 1 hoặc nhiều lớp của da; teo thượng bì (thượng bì mỏng, trong suốt, thấy nhú bì và mạch máu); teo trung bì (mất mô liên kết, lõm xuống)."}, {"q": "Nang (Cyst) có đặc điểm nào?", "a": ["Dày lớp sừng", "Khoang kín có lớp biểu mô lót bên trong, chứa chất lỏng/bán lỏng/đặc, hình cầu, đàn hồi", "Mất da đến hạ bì", "Vết trợt thành đường"], "c": 1, "e": "Nang (Cyst): là 1 khoang kín, có lớp biểu mô lót bên trong, chứa chất lỏng/bán lỏng/đặc, hình cầu, có tính đàn hồi."}, {"q": "Ban xuất huyết (Purpura) — phân loại theo kích thước, chấm xuất huyết là:", "a": ["<4mm", ">5cm", "5–9mm", ">1cm"], "c": 0, "e": "Ban xuất huyết (Purpura): chấm XH <4mm, dát XH 5–9mm, mảng bầm >1cm; phân loại theo kích thước, sờ +/-, viêm +/-."}, {"q": "Trong ban xuất huyết, 'mảng bầm' có kích thước:", "a": ["<4mm", "0,5cm", ">1cm", "5–9mm"], "c": 2, "e": "Mảng bầm trong ban xuất huyết có kích thước >1cm; dát xuất huyết 5–9mm; chấm xuất huyết <4mm."}, {"q": "Tổn thương đặc biệt nào sau đây được liệt kê?", "a": ["Nhân trứng cá (comedo), sừng da (horn), milia, rãnh ghẻ, giãn mạch", "Viêm quầng", "Áp xe, nhọt", "Chốc bọng nước"], "c": 0, "e": "Một số dạng tổn thương đặc biệt: nhân trứng cá (comedo), sừng da (horn), nốt vôi hóa (calcinosis), milia, rãnh ghẻ/luống ghẻ, giãn mạch."}, {"q": "Theo bảng phân biệt, tổn thương gờ lên, chắc, kích thước >1cm là:", "a": ["Cục", "Sẩn", "Mảng", "Dát"], "c": 2, "e": "Gờ lên, chắc: <0,5cm là sẩn; >0,5cm là cục; >1cm là mảng."}, {"q": "Tổn thương gờ cao, chứa thanh dịch, đường kính >0,5cm là:", "a": ["Mụn nước", "Bọng nước", "Mụn mủ", "Cục"], "c": 1, "e": "Chứa thanh dịch: <0,5cm là mụn nước; >0,5cm là bọng nước; chứa mủ là mụn mủ."}, {"q": "Tổn thương bằng phẳng, chỉ thay đổi màu sắc da là:", "a": ["Cục", "Sẩn", "Dát", "Bọng nước"], "c": 2, "e": "Tổn thương bằng phẳng, thay đổi màu sắc da là dát."}, {"q": "Tổn thương lõm ở thượng bì gồm:", "a": ["Trợt, xước, nứt, teo", "Loét", "Mụn nước, bọng nước", "Sẩn, cục"], "c": 0, "e": "Lõm ở thượng bì: trợt, xước, nứt, teo; lõm ở trung/hạ bì: loét, teo."}, {"q": "Kiểu sắp xếp tổn thương 'dạng hình bia' thường gợi ý bệnh nào?", "a": ["Ghẻ", "Hồng ban đa dạng", "Vảy nến", "Lang ben"], "c": 1, "e": "Các kiểu sắp xếp: dạng đường, dạng vòng, dạng đồng tiền, hình mạng lưới, hình cung/đa cung, dạng Herpes, dạng hình bia (gợi ý hồng ban đa dạng), dạng ly tâm."}, {"q": "Kiểu phân bố tổn thương theo một khoanh da thần kinh (dermatome) được gọi là:", "a": ["Theo đường bạch huyết", "Dạng đối xứng", "Theo đường Blaschko", "Dạng Zoster (dermatomal/zosteriform)"], "c": 3, "e": "Phân bố theo khoanh da thần kinh là dạng Zoster (dermatomal/zosteriform); còn có theo đường Blaschko (Blaschkoid), theo đường bạch huyết (lymphangitic)."}, {"q": "Phân bố tổn thương ở 'vùng duỗi' (extensor) và 'vùng gấp' (flexor) là cách mô tả theo yếu tố nào?", "a": ["Kích thước tổn thương", "Kiểu sắp xếp", "Vị trí của tổn thương", "Màu sắc tổn thương"], "c": 2, "e": "Vị trí của tổn thương gồm: vùng duỗi (extensor), vùng gấp (flexor), vùng kẽ (intertriginous), vùng tuyến mồ hôi, vùng tuyến bã, vùng phơi nắng, vùng chi (acral)..."}, {"q": "Phân bố 'toàn thể' (universal) khác 'toàn thân' (generalized) như thế nào?", "a": ["Hai khái niệm giống hệt nhau", "Toàn thể chỉ khu trú 1 vùng", "Toàn thể là ảnh hưởng toàn bộ da; toàn thân là lan rộng nhiều vùng", "Toàn thân chỉ 1 điểm"], "c": 2, "e": "Phân bố theo mức lan rộng: khu trú (localized), toàn thân (generalized), toàn thể (universal - ảnh hưởng toàn bộ da), đối xứng (bilateral symmetric)."}, {"q": "Bước ĐẦU TIÊN trong quy trình mô tả tổn thương da là:", "a": ["Mô tả đặc điểm và cách sắp xếp", "Xác định TTCB", "Xác định vị trí", "Đưa ra chẩn đoán"], "c": 1, "e": "Quy trình mô tả tổn thương da: Bước 1 xác định TTCB; Bước 2 mô tả đặc điểm/cách sắp xếp; Bước 3 vị trí; Bước 4 chẩn đoán."}, {"q": "Trong ví dụ mô tả tổn thương (dát giảm sắc tố hình đa cung, vùng lưng đối xứng), chẩn đoán là:", "a": ["Lang ben", "Ghẻ", "Vảy nến", "Chàm"], "c": 0, "e": "Ví dụ: dát giảm sắc tố hình tròn/bầu dục giới hạn rõ, hình đa cung, ở vùng lưng (ẩm nhờn) đối xứng → chẩn đoán lang ben."}, {"q": "Về vị trí tổn thương ở lớp da, sẩn có thể xuất phát từ:", "a": ["Chỉ hạ bì", "Chỉ mô dưới da", "Chỉ lớp sừng", "Thượng bì, trung bì, thượng bì + trung bì, hoặc nang lông"], "c": 3, "e": "Vị trí tổn thương của sẩn: thượng bì (hạt cơm phẳng), trung bì (sẩn giang mai, sẩn phù), thượng bì + trung bì (lichen phẳng), nang lông (viêm nang lông)."}, {"q": "Vảy tiết màu vàng nâu (màu mật ong) thường gợi ý dịch tiết nào khô lại?", "a": ["Huyết thanh, máu và tế bào viêm", "Chỉ mủ vô khuẩn", "Mồ hôi", "Chất bã"], "c": 0, "e": "Vảy tiết là sự khô lại của huyết thanh, máu và các tế bào viêm; màu vàng nâu (mật ong) đến đen."}, {"q": "Đặc điểm nào giúp phân biệt vết trợt với loét về khả năng để lại sẹo?", "a": ["Vết trợt để lại sẹo, loét thì không", "Vết trợt lành không sẹo; loét lành để lại sẹo", "Cả hai đều không để lại sẹo", "Cả hai đều để lại sẹo"], "c": 1, "e": "Vết trợt (mất một phần thượng bì) lành không để lại sẹo; loét (mất da đến trung bì/hạ bì) lành để lại sẹo."}, {"q": "Teo thượng bì có biểu hiện lâm sàng nào?", "a": ["Thượng bì mỏng, trong suốt, thấy được nhú bì và mạch máu", "Da dày lên và sừng hóa", "Nổi cục chắc", "Bọng nước lớn"], "c": 0, "e": "Teo thượng bì: thượng bì mỏng, trong suốt, thấy nhú bì và mạch máu; teo trung bì: mất mô liên kết, lõm xuống."}];
+let idx=0, score=0, answers=[], quizSet=[];
+const COUNTS=[20,40,60,100];
+function initChips(){const el=document.getElementById('countChips');COUNTS.forEach((n,i)=>{const c=document.createElement('div');c.className='chip'+(i===COUNTS.length-1?' on':'');c.textContent=n>=BANK.length?'Tất cả ('+BANK.length+')':n+' câu';c.dataset.n=Math.min(n,BANK.length);c.onclick=()=>{document.querySelectorAll('#countChips .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');};el.appendChild(c);});}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function startQuiz(){
+  const sel=document.querySelector('#countChips .chip.on');
+  const n=Math.min(parseInt(sel.dataset.n),BANK.length);
+  const doShuffle=document.getElementById('shuffle').checked;
+  let pool=BANK.map((q,i)=>({...q,_i:i}));
+  if(doShuffle)shuffle(pool);
+  quizSet=pool.slice(0,n).map(q=>{
+    let opts=q.a.map((t,i)=>({t,correct:i===q.c}));
+    if(doShuffle)shuffle(opts);
+    return {q:q.q,opts,e:q.e};
+  });
+  idx=0;score=0;answers=[];
+  document.getElementById('start').style.display='none';
+  document.getElementById('result').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  renderQ();
+}
+function renderQ(){
+  const item=quizSet[idx];
+  document.getElementById('progressTxt').textContent='Câu '+(idx+1)+' / '+quizSet.length;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('progressBar').style.width=((idx)/quizSet.length*100)+'%';
+  document.getElementById('qText').textContent=item.q;
+  const box=document.getElementById('opts');box.innerHTML='';
+  const letters=['A','B','C','D'];
+  item.opts.forEach((o,i)=>{
+    const b=document.createElement('button');
+    b.className='opt';
+    b.innerHTML='<span class="k">'+letters[i]+'.</span> '+o.t;
+    b.onclick=()=>choose(i);
+    box.appendChild(b);
+  });
+  const ex=document.getElementById('explain');ex.className='explain';ex.textContent='';
+  document.getElementById('nextBtn').disabled=true;
+  document.getElementById('skipBtn').style.display='inline-block';
+  document.getElementById('nextBtn').textContent=(idx===quizSet.length-1)?'Xem kết quả ✔':'Câu tiếp ▶';
+}
+function choose(i){
+  const item=quizSet[idx];
+  const btns=document.querySelectorAll('#opts .opt');
+  const correctIdx=item.opts.findIndex(o=>o.correct);
+  btns.forEach((b,j)=>{b.disabled=true;if(j===correctIdx)b.classList.add('correct');if(j===i&&i!==correctIdx)b.classList.add('wrong');});
+  const isRight=i===correctIdx;
+  if(isRight)score++;
+  answers.push({q:item.q,chosen:item.opts[i].t,correct:item.opts[correctIdx].t,right:isRight});
+  const ex=document.getElementById('explain');
+  ex.className='explain show';
+  ex.innerHTML=(isRight?'<b class="ok">✔ Chính xác. </b>':'<b class="bad">✘ Chưa đúng. </b>')+item.e;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('nextBtn').disabled=false;
+  document.getElementById('skipBtn').style.display='none';
+}
+function nextQ(){ if(idx<quizSet.length-1){idx++;renderQ();} else finish(); }
+function finish(){
+  document.getElementById('quiz').style.display='none';
+  const r=document.getElementById('result');r.style.display='block';
+  const pct=Math.round(score/quizSet.length*100);
+  document.getElementById('finalScore').textContent=score+' / '+quizSet.length+' ('+pct+'%)';
+  let msg='';
+  if(pct>=90)msg='Xuất sắc! Bạn nắm rất chắc bài.';
+  else if(pct>=70)msg='Tốt! Ôn lại vài câu sai là ổn.';
+  else if(pct>=50)msg='Khá – cần ôn thêm phần sai.';
+  else msg='Hãy đọc lại tài liệu và luyện lại nhé.';
+  document.getElementById('finalMsg').textContent=msg;
+  const rev=document.getElementById('review');rev.innerHTML='';rev.style.display='none';
+  answers.forEach((a,i)=>{
+    const d=document.createElement('div');d.className='review-item';
+    d.innerHTML='<div class="ri-q">'+(i+1)+'. '+a.q+'</div>'+
+      '<div class="ri-a">Bạn chọn: <span class="'+(a.right?'ok':'bad')+'">'+a.chosen+'</span></div>'+
+      (a.right?'':'<div class="ri-a">Đáp án đúng: <span class="ok">'+a.correct+'</span></div>');
+    rev.appendChild(d);
+  });
+}
+function toggleReview(){const r=document.getElementById('review');r.style.display=r.style.display==='none'?'block':'none';}
+initChips();
+</script>
+</body>
+</html>

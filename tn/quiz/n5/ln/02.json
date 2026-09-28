@@ -1,0 +1,322 @@
+[
+    {
+      "question": "Hệ thống phân loại ASA (American Society of Anesthesiologists) dùng trong nha khoa để làm gì?",
+      "options": [
+        {"text": "Để xếp hạng giàu nghèo của bệnh nhân", "isCorrect": false},
+        {"text": "Đánh giá tình trạng thể chất và rủi ro của thủ thuật", "isCorrect": true},
+        {"text": "Để phân loại sâu răng", "isCorrect": false},
+        {"text": "Để tính tiền bảo hiểm", "isCorrect": false}
+      ],
+      "explanation": "ASA là công cụ quan trọng giúp bác sĩ dự đoán các biến cố có thể xảy ra trong quá trình điều trị."
+    },
+    {
+      "question": "Bệnh nhân ASA II được định nghĩa là:",
+      "options": [
+        {"text": "Người khỏe mạnh bình thường", "isCorrect": false},
+        {"text": "Người có bệnh lý toàn thân nhẹ (như THA nhẹ, tiểu đường tuýp 2 kiểm soát tốt)", "isCorrect": true},
+        {"text": "Người có bệnh nặng giới hạn hoạt động", "isCorrect": false},
+        {"text": "Người đang hấp hối", "isCorrect": false}
+      ],
+      "explanation": "ASA II dành cho bệnh nhân có bệnh lý hệ thống nhẹ nhưng được kiểm soát tốt bằng thuốc hoặc chế độ ăn."
+    },
+    {
+      "question": "Ví dụ nào sau đây thuộc nhóm ASA III?",
+      "options": [
+        {"text": "Phụ nữ mang thai khỏe mạnh", "isCorrect": false},
+        {"text": "Người béo phì nặng (BMI > 40) hoặc suy tim ổn định", "isCorrect": true},
+        {"text": "Người bị cảm lạnh", "isCorrect": false},
+        {"text": "Người bị đột quỵ cấp", "isCorrect": false}
+      ],
+      "explanation": "ASA III bao gồm các bệnh lý nặng làm hạn chế sinh hoạt hàng ngày nhưng chưa đe dọa tính mạng thường xuyên."
+    },
+    {
+      "question": "Bệnh nhân có tiền sử nhồi máu cơ tim cách đây 3 tháng được xếp vào nhóm:",
+      "options": [
+        {"text": "ASA II", "isCorrect": false},
+        {"text": "ASA III", "isCorrect": false},
+        {"text": "ASA IV", "isCorrect": true},
+        {"text": "ASA V", "isCorrect": false}
+      ],
+      "explanation": "Nhồi máu cơ tim hoặc tai biến mạch máu não trong vòng 6 tháng gần nhất là rủi ro cực cao, thuộc ASA IV."
+    },
+    {
+      "question": "Đối với bệnh nhân ASA IV, điều trị nha khoa nên:",
+      "options": [
+        {"text": "Thực hiện bình thường tại phòng mạch", "isCorrect": false},
+        {"text": "Trì hoãn mọi thủ thuật trừ trường hợp cấp cứu (đau, nhiễm trùng) tại bệnh viện", "isCorrect": true},
+        {"text": "Chỉ lấy vôi răng", "isCorrect": false},
+        {"text": "Cho uống thuốc rồi làm sau 1 tiếng", "isCorrect": false}
+      ],
+      "explanation": "ASA IV là tình trạng bệnh đe dọa tính mạng thường trực, chỉ ưu tiên xử lý khẩn cấp có kiểm soát y tế nghiêm ngặt."
+    },
+    {
+      "question": "Triệu chứng toàn thân 'tam đa' (ăn nhiều, uống nhiều, tiểu nhiều) gợi ý bệnh lý nào?",
+      "options": [
+        {"text": "Suy thận", "isCorrect": false},
+        {"text": "Đái tháo đường", "isCorrect": true},
+        {"text": "Cường giáp", "isCorrect": false},
+        {"text": "Loãng xương", "isCorrect": false}
+      ],
+      "explanation": "Đây là 3 dấu hiệu kinh điển của bệnh tiểu đường do nồng độ đường huyết cao gây ra."
+    },
+    {
+      "question": "Hơi thở có mùi acetone (mùi trái cây ngọt) là dấu hiệu của biến chứng nào ở bệnh nhân tiểu đường?",
+      "options": [
+        {"text": "Hạ đường huyết", "isCorrect": false},
+        {"text": "Nhiễm toan ceton", "isCorrect": true},
+        {"text": "Sâu răng hàng loạt", "isCorrect": false},
+        {"text": "Viêm nướu", "isCorrect": false}
+      ],
+      "explanation": "Nhiễm toan ceton là một cấp cứu nội khoa nghiêm trọng ở bệnh nhân đái tháo đường."
+    },
+    {
+      "question": "Biểu hiện tại miệng của bệnh nhân đái tháo đường thường là:",
+      "options": [
+        {"text": "Nướu hồng hào, săn chắc", "isCorrect": false},
+        {"text": "Khô miệng, viêm quanh răng tiến triển, nhiễm nấm Candida", "isCorrect": true},
+        {"text": "Tăng tiết nước bọt", "isCorrect": false},
+        {"text": "Răng mọc thêm", "isCorrect": false}
+      ],
+      "explanation": "Tiểu đường làm giảm đề kháng và thay đổi môi trường miệng, gây ra nhiều bệnh lý nha chu nặng."
+    },
+    {
+      "question": "Tại sao vết thương ở miệng bệnh nhân tiểu đường lại chậm lành?",
+      "options": [
+        {"text": "Do tăng số lượng bạch cầu đa nhân", "isCorrect": false},
+        {"text": "Do suy giảm chức năng thực bào và thay đổi chuyển hóa collagen", "isCorrect": true},
+        {"text": "Do dùng quá nhiều thuốc tê", "isCorrect": false},
+        {"text": "Do nướu quá dày", "isCorrect": false}
+      ],
+      "explanation": "Đường huyết cao ảnh hưởng đến hệ miễn dịch và khả năng tái tạo mô liên kết của cơ thể."
+    },
+    {
+      "question": "Bệnh nhân suy tim sung huyết có tư thế 'Orthopnea', bác sĩ nha khoa cần lưu ý gì?",
+      "options": [
+        {"text": "Yêu cầu BN nằm ngửa hoàn toàn", "isCorrect": false},
+        {"text": "Điều trị ở tư thế ngồi hoặc nằm nghiêng cao đầu", "isCorrect": true},
+        {"text": "Cho BN nằm sấp", "isCorrect": false},
+        {"text": "Không cho BN ngồi ghế nha khoa", "isCorrect": false}
+      ],
+      "explanation": "Orthopnea là tình trạng khó thở khi nằm phẳng, BN cần được điều trị ở tư thế nửa nằm nửa ngồi."
+    },
+    {
+      "question": "Loại thuốc giảm đau/an thần nào chống chỉ định cho bệnh nhân COPD nặng?",
+      "options": [
+        {"text": "Paracetamol", "isCorrect": false},
+        {"text": "Lidocaine", "isCorrect": false},
+        {"text": "Nitơ oxit (N2O/Khí cười)", "isCorrect": true},
+        {"text": "Vitamin B1", "isCorrect": false}
+      ],
+      "explanation": "N2O có thể gây ức chế hô hấp ở bệnh nhân có bệnh phổi tắc nghẽn mãn tính."
+    },
+    {
+      "question": "Nhóm thuốc nào sau đây thường gây tác dụng phụ khô miệng nhất ở NCT?",
+      "options": [
+        {"text": "Thuốc kháng histamine và thuốc hạ huyết áp", "isCorrect": true},
+        {"text": "Thuốc bổ mắt", "isCorrect": false},
+        {"text": "Vitamin C liều cao", "isCorrect": false},
+        {"text": "Thuốc hạ sốt Paracetamol", "isCorrect": false}
+      ],
+      "explanation": "Rất nhiều nhóm thuốc điều trị bệnh mạn tính ở người già gây giảm tiết nước bọt."
+    },
+    {
+      "question": "Bệnh nhân dùng thuốc Lithium hoặc thuốc hóa trị thường gặp phải tình trạng:",
+      "options": [
+        {"text": "Răng trắng ra", "isCorrect": false},
+        {"text": "Loạn vị giác (dysgeusia)", "isCorrect": true},
+        {"text": "Tăng sản nướu", "isCorrect": false},
+        {"text": "Chảy máu chân răng", "isCorrect": false}
+      ],
+      "explanation": "Một số dược phẩm làm thay đổi cảm nhận vị giác, gây vị kim loại hoặc đắng trong miệng."
+    },
+    {
+      "question": "Thuốc Nifedipine (thuốc chẹn kênh canxi) gây ra biến chứng gì tại nướu?",
+      "options": [
+        {"text": "Tụt nướu", "isCorrect": false},
+        {"text": "Tăng sản nướu (quá phát nướu)", "isCorrect": true},
+        {"text": "Loét nướu", "isCorrect": false},
+        {"text": "Nướu bị tím", "isCorrect": false}
+      ],
+      "explanation": "Tăng sản nướu là tác dụng phụ điển hình của nhóm thuốc chẹn kênh canxi và thuốc chống động kinh."
+    },
+    {
+      "question": "Thuốc ức chế men chuyển (ACE inhibitors) điều trị THA có thể gây triệu chứng gì tại miệng?",
+      "options": [
+        {"text": "Bỏng miệng (Burning mouth syndrome)", "isCorrect": true},
+        {"text": "Sâu răng mặt bên", "isCorrect": false},
+        {"text": "Răng bị lung lay", "isCorrect": false},
+        {"text": "Tăng tiết nước bọt", "isCorrect": false}
+      ],
+      "explanation": "Các thuốc như Enalapril, Lisinopril có thể gây cảm giác nóng rát niêm mạc miệng không rõ nguyên nhân."
+    },
+    {
+      "question": "Phản ứng Lichenoid tại niêm mạc má thường liên quan đến nhóm thuốc nào?",
+      "options": [
+        {"text": "NSAIDs (thuốc chống viêm không steroid)", "isCorrect": true},
+        {"text": "Thuốc nhỏ mũi", "isCorrect": false},
+        {"text": "Thuốc trị ho", "isCorrect": false},
+        {"text": "Canxi sủi", "isCorrect": false}
+      ],
+      "explanation": "NSAIDs và một số thuốc hạ đường huyết có thể gây ra các tổn thương lưới trắng giống bệnh Lichen phẳng."
+    },
+    {
+      "question": "Nguy cơ lớn nhất của bệnh nhân dùng thuốc Bisphosphonates khi can thiệp nha khoa là:",
+      "options": [
+        {"text": "Sốc phản vệ", "isCorrect": false},
+        {"text": "Hoại tử xương hàm do thuốc (MRONJ)", "isCorrect": true},
+        {"text": "Rụng răng cửa", "isCorrect": false},
+        {"text": "Mất vị giác", "isCorrect": false}
+      ],
+      "explanation": "Bisphosphonates làm giảm sự tái cấu trúc xương, khiến xương hàm dễ bị hoại tử sau nhổ răng."
+    },
+    {
+      "question": "Bệnh nhân đang dùng thuốc chống đông máu (Warfarin, Heparin) cần làm gì trước khi nhổ răng?",
+      "options": [
+        {"text": "Uống thêm vitamin K", "isCorrect": false},
+        {"text": "Tham khảo ý kiến bác sĩ chuyên khoa để kiểm soát chỉ số đông máu (INR)", "isCorrect": true},
+        {"text": "Tự ý ngưng thuốc 1 tuần", "isCorrect": false},
+        {"text": "Không cần làm gì", "isCorrect": false}
+      ],
+      "explanation": "Việc điều chỉnh liều thuốc chống đông phải do bác sĩ nội khoa quyết định để tránh nguy cơ huyết khối hoặc chảy máu cấp."
+    },
+    {
+      "question": "Hệ quả của việc sử dụng Corticosteroid kéo dài ở NCT là:",
+      "options": [
+        {"text": "Tăng nguy cơ suy thượng thận cấp khi gặp stress điều trị", "isCorrect": true},
+        {"text": "Làm nướu chắc khỏe hơn", "isCorrect": false},
+        {"text": "Làm răng mọc nhanh", "isCorrect": false},
+        {"text": "Tăng khả năng cầm máu", "isCorrect": false}
+      ],
+      "explanation": "Corticosteroid làm ức chế trục hạ đồi - tuyến yên - thượng thận, cơ thể không phản ứng kịp với căng thẳng."
+    },
+    {
+      "question": "Bệnh nhân Parkinson ảnh hưởng đến sức khỏe răng miệng như thế nào?",
+      "options": [
+        {"text": "Run tay gây khó khăn khi chải răng và vệ sinh hàm giả", "isCorrect": true},
+        {"text": "Làm răng chắc hơn", "isCorrect": false},
+        {"text": "Giảm nguy cơ sâu răng", "isCorrect": false},
+        {"text": "Răng trắng ra", "isCorrect": false}
+      ],
+      "explanation": "Mất kiểm soát vận động tinh khiến NCT bị Parkinson tích tụ nhiều mảng bám và vôi răng."
+    },
+    {
+      "question": "Bệnh nhân Alzheimer giai đoạn nặng cần lưu ý gì trong điều trị nha khoa?",
+      "options": [
+        {"text": "Thực hiện các thủ thuật phục hình phức tạp", "isCorrect": false},
+        {"text": "Cần sự hỗ trợ của người chăm sóc và ưu tiên các điều trị đơn giản, kiểm soát đau", "isCorrect": true},
+        {"text": "Yêu cầu bệnh nhân tự vệ sinh răng", "isCorrect": false},
+        {"text": "Không cần thăm khám", "isCorrect": false}
+      ],
+      "explanation": "Bệnh nhân sa sút trí tuệ mất khả năng hợp tác, kế hoạch điều trị phải thực tế và ngắn gọn."
+    },
+    {
+      "question": "Dấu hiệu 'vàng da và niêm mạc dưới lưỡi' gợi ý bệnh lý:",
+      "options": [
+        {"text": "Bệnh phổi", "isCorrect": false},
+        {"text": "Bệnh gan mật", "isCorrect": true},
+        {"text": "Bệnh thận", "isCorrect": false},
+        {"text": "Thiếu máu", "isCorrect": false}
+      ],
+      "explanation": "Sự tích tụ bilirubin làm vàng các mô niêm mạc mỏng trong khoang miệng."
+    },
+    {
+      "question": "Bệnh nhân bị suy thận mạn tính có biểu hiện gì tại miệng?",
+      "options": [
+        {"text": "Hơi thở mùi amoniac (mùi nước tiểu)", "isCorrect": true},
+        {"text": "Lưỡi đỏ rực", "isCorrect": false},
+        {"text": "Men răng bị mòn", "isCorrect": false},
+        {"text": "Nướu quá phát", "isCorrect": false}
+      ],
+      "explanation": "Sự tích tụ ure trong máu và nước bọt tạo ra mùi khai đặc trưng trong hơi thở."
+    },
+    {
+      "question": "Nguy cơ 'viêm nội tâm mạc nhiễm khuẩn' (IE) cần kháng sinh dự phòng ở đối tượng nào?",
+      "options": [
+        {"text": "BN thay van tim nhân tạo hoặc tiền sử viêm nội tâm mạc", "isCorrect": true},
+        {"text": "BN đau dạ dày", "isCorrect": false},
+        {"text": "BN gãy xương chân", "isCorrect": false},
+        {"text": "BN bị sâu răng cửa", "isCorrect": false}
+      ],
+      "explanation": "Kháng sinh dự phòng giúp ngăn vi khuẩn từ miệng vào máu và bám vào các cấu trúc tim bất thường."
+    },
+    {
+      "question": "Chống chỉ định dùng thuốc tê có chất co mạch (Epinephrine) ở bệnh nhân:",
+      "options": [
+        {"text": "Sâu răng nhẹ", "isCorrect": false},
+        {"text": "Cường giáp chưa kiểm soát hoặc THA kịch phát", "isCorrect": true},
+        {"text": "Bị cận thị", "isCorrect": false},
+        {"text": "Đau lưng", "isCorrect": false}
+      ],
+      "explanation": "Chất co mạch có thể gây cơn tăng huyết áp hoặc loạn nhịp tim nguy hiểm ở bệnh nhân cường giáp nặng."
+    },
+    {
+      "question": "Biểu hiện 'Lưỡi bản đồ' ở NCT thường liên quan đến:",
+      "options": [
+        {"text": "Thiếu hụt dinh dưỡng hoặc căng thẳng tâm lý", "isCorrect": true},
+        {"text": "Đánh răng quá nhiều", "isCorrect": false},
+        {"text": "Dùng nước súc miệng", "isCorrect": false},
+        {"text": "Ăn đồ nóng", "isCorrect": false}
+      ],
+      "explanation": "Đây là tổn thương niêm mạc lưỡi lành tính nhưng phản ánh tình trạng sức khỏe nội tại."
+    },
+    {
+      "question": "Bệnh nhân bị thiếu máu thường có biểu hiện niêm mạc miệng như thế nào?",
+      "options": [
+        {"text": "Niêm mạc đỏ rực", "isCorrect": false},
+        {"text": "Niêm mạc nhợt nhạt, lưỡi mất gai và bóng", "isCorrect": true},
+        {"text": "Lưỡi dày lên", "isCorrect": false},
+        {"text": "Răng bị đổi màu", "isCorrect": false}
+      ],
+      "explanation": "Thiếu huyết sắc tố làm niêm mạc mất màu hồng tươi và gây teo gai lưỡi."
+    },
+    {
+      "question": "Polypharmacy ở người cao tuổi có nghĩa là:",
+      "options": [
+        {"text": "Sử dụng đồng thời từ 5 loại thuốc trở lên", "isCorrect": true},
+        {"text": "Chỉ dùng thuốc thảo dược", "isCorrect": false},
+        {"text": "BN tự ý bỏ thuốc", "isCorrect": false},
+        {"text": "Uống thuốc đúng giờ", "isCorrect": false}
+      ],
+      "explanation": "Đa dược trị liệu làm tăng nguy cơ tương tác thuốc và tác dụng phụ nghiêm trọng tại miệng."
+    },
+    {
+      "question": "Loét miệng kéo dài trên 2 tuần ở người già cần được xử trí:",
+      "options": [
+        {"text": "Chỉ định sinh thiết để loại trừ ung thư miệng", "isCorrect": true},
+        {"text": "Súc nước muối thêm 1 tháng", "isCorrect": false},
+        {"text": "Bôi thuốc mỡ kháng sinh", "isCorrect": false},
+        {"text": "Mài răng bên cạnh", "isCorrect": false}
+      ],
+      "explanation": "Mọi vết loét không lành sau 14 ngày ở NCT đều là dấu hiệu cảnh báo bệnh lý ác tính."
+    },
+    {
+      "question": "Hệ miễn dịch suy yếu ở người già dẫn đến nguy cơ cao mắc bệnh:",
+      "options": [
+        {"text": "Nhiễm nấm Candida (tưa miệng)", "isCorrect": true},
+        {"text": "Tăng sản xương hàm", "isCorrect": false},
+        {"text": "Răng mọc thêm", "isCorrect": false},
+        {"text": "Men răng cứng hơn", "isCorrect": false}
+      ],
+      "explanation": "Nấm Candida là vi sinh vật cơ hội phát triển mạnh khi sức đề kháng của BN giảm sút."
+    },
+    {
+      "question": "Tầm quan trọng của việc kiểm tra danh sách thuốc BN đang dùng là gì?",
+      "options": [
+        {"text": "Phát hiện các tác dụng phụ gây khô miệng, chảy máu hoặc tăng sản nướu", "isCorrect": true},
+        {"text": "Để bác sĩ biết bệnh nhân giàu hay nghèo", "isCorrect": false},
+        {"text": "Để bán thêm thuốc cho bệnh nhân", "isCorrect": false},
+        {"text": "Không quan trọng", "isCorrect": false}
+      ],
+      "explanation": "Thông tin thuốc giúp bác sĩ điều chỉnh kế hoạch điều trị an toàn, tránh tương tác có hại."
+    },
+    {
+      "question": "Kết luận quan trọng của bài học này là gì?",
+      "options": [
+        {"text": "Sức khỏe toàn thân và sức khỏe răng miệng có mối liên hệ mật thiết", "isCorrect": true},
+        {"text": "Bác sĩ nha khoa chỉ cần quan tâm đến răng", "isCorrect": false},
+        {"text": "NCT không nên dùng thuốc khi chữa răng", "isCorrect": false},
+        {"text": "Tất cả thuốc đều gây hại cho răng", "isCorrect": false}
+      ],
+      "explanation": "Hiểu biết về bệnh lý toàn thân là nền tảng để điều trị nha khoa an toàn cho người cao tuổi."
+    }
+  ]

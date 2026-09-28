@@ -1,0 +1,2773 @@
+[
+    {
+      "question": "Chỉnh hình răng mặt là ngành chuyên môn của Nha khoa nhằm mục đích gì?",
+      "options": [
+        {"text": "Chỉ di chuyển răng vào vị trí đều đặn", "isCorrect": false},
+        {"text": "Nghiên cứu, theo dõi sự phát triển và tăng trưởng của hệ thống hàm mặt để phòng ngừa và chữa trị các sai lệch", "isCorrect": true},
+        {"text": "Chỉ thực hiện phẫu thuật cắt xương hàm", "isCorrect": false},
+        {"text": "Chuyên về trám răng thẩm mỹ cho trẻ em", "isCorrect": false}
+      ],
+      "explanation": "Chỉnh hình răng mặt là ngành nghiên cứu, theo dõi sự tăng trưởng hệ thống hàm mặt để can thiệp các sai lệch[cite: 93]."
+    },
+    {
+      "question": "Thuật ngữ 'Orthodontie' (Chỉnh nha) có ý nghĩa cụ thể là gì?",
+      "options": [
+        {"text": "Điều trị làm di chuyển răng và xương hàm", "isCorrect": false},
+        {"text": "Điều trị làm di chuyển răng và xương ổ răng", "isCorrect": true},
+        {"text": "Can thiệp vào sự phát triển của xương nền sọ", "isCorrect": false},
+        {"text": "Chỉnh sửa các tật xấu của trẻ em", "isCorrect": false}
+      ],
+      "explanation": "Orthodontie tập trung vào việc làm di chuyển răng và xương ổ răng[cite: 94]."
+    },
+    {
+      "question": "Thuật ngữ 'Orthopedie Dento-Faciale' (Chỉnh hình răng mặt) khác gì với 'Orthodontie'?",
+      "options": [
+        {"text": "Nó bao gồm cả việc làm di chuyển xương hàm", "isCorrect": true},
+        {"text": "Nó chỉ dùng cho người lớn", "isCorrect": false},
+        {"text": "Nó không bao gồm di chuyển răng", "isCorrect": false},
+        {"text": "Nó chỉ liên quan đến khớp thái dương hàm", "isCorrect": false}
+      ],
+      "explanation": "Chỉnh hình răng mặt (Orthopedie Dento-Faciale) bao gồm cả việc làm di chuyển xương hàm[cite: 95]."
+    },
+    {
+      "question": "Từ 'Orthos' trong tiếng Hy Lạp có nghĩa là gì?",
+      "options": [
+        {"text": "Răng", "isCorrect": false},
+        {"text": "Xương", "isCorrect": false},
+        {"text": "Thẳng", "isCorrect": true},
+        {"text": "Trẻ em", "isCorrect": false}
+      ],
+      "explanation": "Nguồn gốc từ Hy Lạp 'Orthos' nghĩa là thẳng[cite: 97]."
+    },
+    {
+      "question": "Trong tiếng Hy Lạp, từ nào có nghĩa là 'trẻ em'?",
+      "options": [
+        {"text": "Dons", "isCorrect": false},
+        {"text": "Pedos", "isCorrect": true},
+        {"text": "Orthos", "isCorrect": false},
+        {"text": "Faciale", "isCorrect": false}
+      ],
+      "explanation": "Từ 'Pedos' có nghĩa là trẻ em[cite: 101]."
+    },
+    {
+      "question": "Chỉnh hình răng mặt một cách tổng quát được chia làm mấy loại?",
+      "options": [
+        {"text": "2 loại", "isCorrect": false},
+        {"text": "3 loại", "isCorrect": false},
+        {"text": "4 loại", "isCorrect": true},
+        {"text": "5 loại", "isCorrect": false}
+      ],
+      "explanation": "Được chia làm 4 loại: Phòng ngừa, Can thiệp, Hỗ trợ và Toàn diện[cite: 102]."
+    },
+    {
+      "question": "Loại chỉnh hình nào giúp cho các răng vĩnh viễn mọc ngay ngắn trên cung hàm?",
+      "options": [
+        {"text": "Chỉnh hình răng mặt phòng ngừa", "isCorrect": true},
+        {"text": "Chỉnh hình răng mặt hỗ trợ", "isCorrect": false},
+        {"text": "Chỉnh hình răng mặt toàn diện", "isCorrect": false},
+        {"text": "Phẫu thuật chỉnh hình", "isCorrect": false}
+      ],
+      "explanation": "Chỉnh hình phòng ngừa hướng dẫn các răng vĩnh viễn mọc đúng vị trí[cite: 103]."
+    },
+    {
+      "question": "Chỉnh hình răng mặt can thiệp KHÔNG bao gồm việc gì?",
+      "options": [
+        {"text": "Loại bỏ thói quen xấu", "isCorrect": false},
+        {"text": "Nhổ răng sữa có hướng dẫn", "isCorrect": false},
+        {"text": "Nhổ các răng vĩnh viễn", "isCorrect": true},
+        {"text": "Dùng ngón tay đẩy răng", "isCorrect": false}
+      ],
+      "explanation": "Chỉnh hình can thiệp không bao gồm việc nhổ răng vĩnh viễn[cite: 104]."
+    },
+    {
+      "question": "Chỉnh hình răng mặt hỗ trợ được áp dụng nhằm mục đích gì?",
+      "options": [
+        {"text": "Sắp xếp lại toàn bộ hai cung hàm", "isCorrect": false},
+        {"text": "Phục vụ các chuyên khoa khác như Nha chu, Phục hình", "isCorrect": true},
+        {"text": "Điều trị sai hình hạng III xương nặng", "isCorrect": false},
+        {"text": "Kéo dài quá trình tăng trưởng xương", "isCorrect": false}
+      ],
+      "explanation": "Loại này áp dụng để phục vụ các môn khác của Nha khoa như Nha chu, Phục hình[cite: 105]."
+    },
+    {
+      "question": "Đặc điểm về thời gian của chỉnh hình răng mặt hỗ trợ là gì?",
+      "options": [
+        {"text": "Kéo dài trên 2 năm", "isCorrect": false},
+        {"text": "Kéo dài từ 1 đến 2 năm", "isCorrect": false},
+        {"text": "Kéo dài dưới 6 tháng", "isCorrect": true},
+        {"text": "Kéo dài suốt đời", "isCorrect": false}
+      ],
+      "explanation": "Chỉnh hình hỗ trợ chỉ kéo dài dưới 6 tháng[cite: 106]."
+    },
+    {
+      "question": "Loại chỉnh hình nào nhằm đạt được thẩm mỹ và chức năng nhai tối ưu/lý tưởng?",
+      "options": [
+        {"text": "Chỉnh hình răng mặt hỗ trợ", "isCorrect": false},
+        {"text": "Chỉnh hình răng mặt phòng ngừa", "isCorrect": false},
+        {"text": "Chỉnh hình răng mặt toàn diện", "isCorrect": true},
+        {"text": "Chỉnh hình răng mặt can thiệp", "isCorrect": false}
+      ],
+      "explanation": "Chỉnh hình toàn diện nhằm đạt được thẩm mỹ và chức năng nhai tốt nhất[cite: 108]."
+    },
+    {
+      "question": "Bất thường về răng và khớp cắn đã được tìm thấy trên sọ người Neanderthal từ cách đây bao nhiêu năm?",
+      "options": [
+        {"text": "5000 - 6000 năm", "isCorrect": false},
+        {"text": "10000 - 15000 năm", "isCorrect": false},
+        {"text": "50000 - 60000 năm", "isCorrect": true},
+        {"text": "100000 năm", "isCorrect": false}
+      ],
+      "explanation": "Tìm thấy bất thường trên sọ người Neanderthal sống cách đây 50000-60000 năm[cite: 111]."
+    },
+    {
+      "question": "Ai là người đầu tiên ghi nhận về sự chen chúc của răng trong lịch sử?",
+      "options": [
+        {"text": "Pierre Fauchard", "isCorrect": false},
+        {"text": "Hippocrate", "isCorrect": true},
+        {"text": "Edward Angle", "isCorrect": false},
+        {"text": "Celsus", "isCorrect": false}
+      ],
+      "explanation": "Hippocrate (460-370 B.C.) là người đầu tiên ghi nhận sự chen chúc của răng[cite: 113]."
+    },
+    {
+      "question": "Bác sĩ nào lần đầu tiên viết về phương pháp điều trị chỉnh hình bằng lực cơ học (dùng ngón tay đẩy răng)?",
+      "options": [
+        {"text": "Celsus", "isCorrect": true},
+        {"text": "Lefoulon", "isCorrect": false},
+        {"text": "Steiner", "isCorrect": false},
+        {"text": "Downs", "isCorrect": false}
+      ],
+      "explanation": "Celsus (A.D. 50) lần đầu tiên viết lại phương pháp dùng ngón tay đẩy răng lệch[cite: 120]."
+    },
+    {
+      "question": "Từ 'Orthodontia' được Lefoulon sử dụng lần đầu tiên vào năm nào?",
+      "options": [
+        {"text": "1700", "isCorrect": false},
+        {"text": "1839", "isCorrect": true},
+        {"text": "1900", "isCorrect": false},
+        {"text": "1950", "isCorrect": false}
+      ],
+      "explanation": "Lefoulon lần đầu sử dụng từ 'Orthodontia' vào năm 1839[cite: 121]."
+    },
+    {
+      "question": "Ai được xem là 'người cha' của nha khoa hiện đại, người nghĩ ra cách nới rộng cung răng theo chiều ngang?",
+      "options": [
+        {"text": "Edward Angle", "isCorrect": false},
+        {"text": "Pierre Fauchard", "isCorrect": true},
+        {"text": "Sassouni", "isCorrect": false},
+        {"text": "Rickets", "isCorrect": false}
+      ],
+      "explanation": "Pierre Fauchard (thế kỷ 17) được xem là người cha của nha khoa hiện đại[cite: 122, 125]."
+    },
+    {
+      "question": "Edward H. Angle (Mỹ) đưa ra khí cụ có nhiều khâu gắn cố định trên răng vào năm nào?",
+      "options": [
+        {"text": "1800", "isCorrect": false},
+        {"text": "1850", "isCorrect": false},
+        {"text": "1900", "isCorrect": true},
+        {"text": "1920", "isCorrect": false}
+      ],
+      "explanation": "Năm 1900, Edward H. Angle bắt đầu đưa ra khí cụ có nhiều khâu gắn cố định[cite: 126]."
+    },
+    {
+      "question": "Phân loại khớp cắn của Edward Angle lấy răng số mấy làm cơ sở?",
+      "options": [
+        {"text": "Răng số 1", "isCorrect": false},
+        {"text": "Răng số 3", "isCorrect": false},
+        {"text": "Răng số 6", "isCorrect": true},
+        {"text": "Răng số 7", "isCorrect": false}
+      ],
+      "explanation": "Edward Angle thiết lập phân loại khớp cắn lấy răng số 6 làm cơ sở[cite: 127]."
+    },
+    {
+      "question": "Sự kiện quan trọng nào giúp thực hiện được việc phân tích sọ mặt trong chỉnh hình?",
+      "options": [
+        {"text": "Sự ra đời của nhựa acrylic", "isCorrect": false},
+        {"text": "Sự ra đời của máy tia X và phim chụp sọ nghiêng", "isCorrect": true},
+        {"text": "Sự phát hiện ra kháng sinh", "isCorrect": false},
+        {"text": "Sự ra đời của mắc cài kim loại", "isCorrect": false}
+      ],
+      "explanation": "Máy tia X và phim chụp sọ nghiêng cho phép thực hiện việc phân tích sọ mặt[cite: 129, 130]."
+    },
+    {
+      "question": "Đâu KHÔNG phải là tác giả đưa ra các phương pháp phân tích sọ mặt được nhắc đến?",
+      "options": [
+        {"text": "Steiner", "isCorrect": false},
+        {"text": "Rickets", "isCorrect": false},
+        {"text": "Edward Angle", "isCorrect": true},
+        {"text": "Delaire", "isCorrect": false}
+      ],
+      "explanation": "Edward Angle đưa ra phân loại khớp cắn, không phải phương pháp phân tích sọ nghiêng như các tác giả Downs, Steiner, Delaire...[cite: 131]."
+    },
+    {
+      "question": "Sai lệch khớp cắn có thể là nguyên nhân gây ra bệnh gì về răng miệng?",
+      "options": [
+        {"text": "Tăng tỷ lệ sâu răng và bệnh nha chu", "isCorrect": true},
+        {"text": "Gây mòn men răng do axit", "isCorrect": false},
+        {"text": "Làm mất vị giác", "isCorrect": false},
+        {"text": "Gây nấm miệng", "isCorrect": false}
+      ],
+      "explanation": "Răng lệch lạc gây khó vệ sinh răng miệng, làm tăng tỷ lệ sâu răng và bệnh nha chu[cite: 144]."
+    },
+    {
+      "question": "Sai khớp cắn có thể gây ra rối loạn chức năng ở cấu trúc nào sau đây?",
+      "options": [
+        {"text": "Tuyến nước bọt", "isCorrect": false},
+        {"text": "Khớp thái dương - hàm", "isCorrect": true},
+        {"text": "Xoang hàm trên", "isCorrect": false},
+        {"text": "Niêm mạc miệng", "isCorrect": false}
+      ],
+      "explanation": "Sai khớp cắn tạo điểm vướng cản trở di chuyển hàm dưới, gây rối loạn khớp thái dương hàm[cite: 146]."
+    },
+    {
+      "question": "Khi có ít răng tiếp xúc nhau khi nhai do sai khớp cắn, chức năng nào bị ảnh hưởng trực tiếp?",
+      "options": [
+        {"text": "Phát âm", "isCorrect": false},
+        {"text": "Hiệu quả nhai", "isCorrect": true},
+        {"text": "Nuốt", "isCorrect": false},
+        {"text": "Thẩm mỹ", "isCorrect": false}
+      ],
+      "explanation": "Sai khớp cắn ảnh hưởng đến hoạt động nhai và hiệu quả nhai[cite: 147]."
+    },
+    {
+      "question": "Âm nào sau đây bị ảnh hưởng nếu bệnh nhân bị 'Cắn hở' hoặc 'Mất răng cửa'?",
+      "options": [
+        {"text": "Âm l", "isCorrect": false},
+        {"text": "Âm t, d", "isCorrect": false},
+        {"text": "Âm S, Z", "isCorrect": true},
+        {"text": "Âm k, g", "isCorrect": false}
+      ],
+      "explanation": "Âm S, Z bị ảnh hưởng bởi cắn hở hoặc mất răng cửa[cite: 149]."
+    },
+    {
+      "question": "Vấn đề 'Răng cửa trên nằm lệch về phía lưỡi' gây khó khăn khi phát âm các âm nào?",
+      "options": [
+        {"text": "Âm t, d", "isCorrect": true},
+        {"text": "Âm S, Z", "isCorrect": false},
+        {"text": "Âm th, ch", "isCorrect": false},
+        {"text": "Âm l", "isCorrect": false}
+      ],
+      "explanation": "Âm t, d bị ảnh hưởng bởi răng cửa trên lệch lưỡi hoặc răng dư vùng răng cửa[cite: 149]."
+    },
+    {
+      "question": "Tình trạng 'Lưỡi dính' ảnh hưởng đến việc phát âm các âm nào?",
+      "options": [
+        {"text": "Âm S, Z", "isCorrect": false},
+        {"text": "Âm th, sh, ch và âm l", "isCorrect": true},
+        {"text": "Âm t, d", "isCorrect": false},
+        {"text": "Chỉ âm t", "isCorrect": false}
+      ],
+      "explanation": "Lưỡi dính ảnh hưởng đến âm th, sh, ch và âm l[cite: 149]."
+    },
+    {
+      "question": "Lý do chính khiến bệnh nhân tìm đến bác sĩ Chỉnh hình răng mặt là gì?",
+      "options": [
+        {"text": "Để điều trị đau khớp", "isCorrect": false},
+        {"text": "Vấn đề thẩm mỹ", "isCorrect": true},
+        {"text": "Để dễ vệ sinh răng", "isCorrect": false},
+        {"text": "Để chữa sâu răng", "isCorrect": false}
+      ],
+      "explanation": "Lý do chính để bệnh nhân đến gặp BS Chỉnh hình là vấn đề thẩm mỹ[cite: 151]."
+    },
+    {
+      "question": "Lực chỉnh nha khi điều chỉnh đúng sẽ kích thích hiện tượng gì tại mô nha chu?",
+      "options": [
+        {"text": "Chỉ gây tiêu xương", "isCorrect": false},
+        {"text": "Chỉ gây tạo xương", "isCorrect": false},
+        {"text": "Kích thích tạo xương và mô liên kết, đồng thời làm tiêu xương theo hướng di chuyển", "isCorrect": true},
+        {"text": "Làm chết tủy răng", "isCorrect": false}
+      ],
+      "explanation": "Lực đúng kích thích tạo xương đồng thời tiêu xương theo hướng di chuyển răng[cite: 156]."
+    },
+    {
+      "question": "Hệ quả của việc sử dụng lực chỉnh nha lớn bất thường là gì?",
+      "options": [
+        {"text": "Răng di chuyển nhanh và an toàn", "isCorrect": false},
+        {"text": "Tiêu xương ổ răng nhiều hơn xương tái tạo và tiêu ngót chân răng", "isCorrect": true},
+        {"text": "Làm nướu mọc dày hơn", "isCorrect": false},
+        {"text": "Giúp răng chắc khỏe hơn", "isCorrect": false}
+      ],
+      "explanation": "Lực quá lớn gây tiêu xương ổ răng nhiều và làm tiêu ngót chân răng[cite: 157]."
+    },
+    {
+      "question": "Chiều hướng lý tưởng của lực tác dụng lên răng nên như thế nào?",
+      "options": [
+        {"text": "Nằm ngang so với thân răng", "isCorrect": false},
+        {"text": "Nghiêng 45 độ so với trục chính", "isCorrect": false},
+        {"text": "Song song trục chính của răng và gần tâm xoay", "isCorrect": true},
+        {"text": "Tác động vào rìa cắn", "isCorrect": false}
+      ],
+      "explanation": "Lực lý tưởng phải song song trục chính và gần tâm xoay[cite: 163]."
+    },
+    {
+      "question": "Tình trạng 'Răng cửa dưới cấn đụng vào cổ răng cửa trên' gây hậu quả gì?",
+      "options": [
+        {"text": "Làm răng trắng hơn", "isCorrect": false},
+        {"text": "Gây chấn thương nướu và tiêu xương vùng này", "isCorrect": true},
+        {"text": "Làm răng cửa trên dài ra", "isCorrect": false},
+        {"text": "Không ảnh hưởng gì", "isCorrect": false}
+      ],
+      "explanation": "Cắn sâu vùng răng cửa gây chấn thương nướu và tiêu xương cổ răng cửa trên[cite: 168]."
+    },
+    {
+      "question": "Điều trị cắn chéo vùng răng cửa/răng cối nhằm mục đích gì cho mô nha chu?",
+      "options": [
+        {"text": "Tránh tổn thương mô nha chu do lực nhai không đồng đều", "isCorrect": true},
+        {"text": "Để răng mọc nhanh hơn", "isCorrect": false},
+        {"text": "Để làm sạch cao răng", "isCorrect": false},
+        {"text": "Để giảm đau tủy", "isCorrect": false}
+      ],
+      "explanation": "Cắn chéo làm răng chịu lực lớn không đồng đều, gây tổn thương mô nha chu[cite: 171]."
+    },
+    {
+      "question": "Khi nào KHÔNG được điều trị chỉnh hình răng mặt liên quan đến bệnh nha chu?",
+      "options": [
+        {"text": "Bệnh nhân đã từng bị viêm nướu", "isCorrect": false},
+        {"text": "Nếu viêm nha chu đang tiến triển", "isCorrect": true},
+        {"text": "Bệnh nhân có vôi răng", "isCorrect": false},
+        {"text": "Bệnh nhân bị chảy máu nướu nhẹ", "isCorrect": false}
+      ],
+      "explanation": "Không điều trị chỉnh hình răng mặt nếu viêm nha chu đang tiến triển[cite: 176]."
+    },
+    {
+      "question": "Bệnh nhân có phần nướu dính ở mặt ngoài răng cửa quá mỏng cần làm gì trước khi chỉnh nha để tránh tụt nướu?",
+      "options": [
+        {"text": "Nhổ răng", "isCorrect": false},
+        {"text": "Ghép nướu", "isCorrect": true},
+        {"text": "Uống thuốc kháng sinh", "isCorrect": false},
+        {"text": "Lấy tủy răng", "isCorrect": false}
+      ],
+      "explanation": "Nướu dính mỏng cần ghép nướu trước khi chỉnh hình để tránh hiện tượng tụt nướu[cite: 182]."
+    },
+    {
+      "question": "Nếu mô nướu phì đại cản trở sự di chuyển răng trong khi chỉnh nha, cần xử lý như thế nào?",
+      "options": [
+        {"text": "Dừng chỉnh nha", "isCorrect": false},
+        {"text": "Tiểu phẫu cắt nướu", "isCorrect": true},
+        {"text": "Dùng thuốc giảm đau", "isCorrect": false},
+        {"text": "Ép mắc cài mạnh hơn", "isCorrect": false}
+      ],
+      "explanation": "Nếu phì đại nướu cản trở răng di chuyển thì cần cắt nướu[cite: 185]."
+    },
+    {
+      "question": "Mục tiêu của chỉnh hình hỗ trợ trong giai đoạn TIỀN PHỤC HÌNH là gì?",
+      "options": [
+        {"text": "Chỉnh lại trục các răng trụ cho song song nhau", "isCorrect": true},
+        {"text": "Tẩy trắng toàn bộ các răng", "isCorrect": false},
+        {"text": "Làm sạch túi nha chu sâu", "isCorrect": false},
+        {"text": "Cắt xương hàm móm", "isCorrect": false}
+      ],
+      "explanation": "Chỉnh hình tiền phục hình nhằm chỉnh lại trục răng trụ song song[cite: 189]."
+    },
+    {
+      "question": "Chỉnh hình hỗ trợ giúp tái tạo điều gì cho các răng bị nghiêng về khoảng mất răng?",
+      "options": [
+        {"text": "Tái tạo tủy răng", "isCorrect": false},
+        {"text": "Tái tạo khoảng tiếp cận và vị trí chân răng thích hợp", "isCorrect": true},
+        {"text": "Làm răng dài thêm 5mm", "isCorrect": false},
+        {"text": "Làm răng mọc ngược lại", "isCorrect": false}
+      ],
+      "explanation": "Giúp dựng lại răng nghiêng để tái tạo khoảng tiếp cận và vị trí chân răng đúng[cite: 191]."
+    },
+    {
+      "question": "Mục đích của việc điều chỉnh mặt phẳng nhai trong chỉnh hình tiền phục hình là gì?",
+      "options": [
+        {"text": "Để răng trông đẹp hơn", "isCorrect": false},
+        {"text": "Tạo sự cân bằng cắn khớp và duy trì kích thước dọc cắn khớp", "isCorrect": true},
+        {"text": "Để dễ nhổ răng khôn", "isCorrect": false},
+        {"text": "Để làm rộng cung hàm", "isCorrect": false}
+      ],
+      "explanation": "Điều chỉnh mặt phẳng nhai giúp cân bằng cắn khớp và duy trì kích thước dọc[cite: 192]."
+    },
+    {
+      "question": "Khi nào cần phối hợp giữa chỉnh hình và phẫu thuật?",
+      "options": [
+        {"text": "Khi bệnh nhân bị sâu răng nhiều", "isCorrect": false},
+        {"text": "Khi có lưỡi lớn, răng mọc ngầm, bất thường về xương hàm", "isCorrect": true},
+        {"text": "Khi bệnh nhân muốn làm răng sứ", "isCorrect": false},
+        {"text": "Khi nướu bị đổi màu", "isCorrect": false}
+      ],
+      "explanation": "Cần phối hợp phẫu thuật khi có lưỡi lớn, răng ngầm, bất thường xương hàm...[cite: 199]."
+    },
+    {
+      "question": "Nhiệm vụ chính của thực hành Chỉnh hình răng mặt bao gồm:",
+      "options": [
+        {"text": "Chẩn đoán, phòng ngừa, can thiệp và điều trị sai khớp cắn", "isCorrect": true},
+        {"text": "Chỉ lấy vôi răng định kỳ", "isCorrect": false},
+        {"text": "Chuyên nhổ răng khôn mọc lệch", "isCorrect": false},
+        {"text": "Điều trị các bệnh lý niêm mạc miệng", "isCorrect": false}
+      ],
+      "explanation": "Nhiệm vụ chính là chẩn đoán, phòng ngừa, can thiệp và điều trị các loại sai khớp cắn[cite: 205]."
+    },
+    {
+      "question": "Theo thống kê, tỷ lệ sai khớp cắn CÓ nguyên nhân rõ ràng chiếm bao nhiêu %?",
+      "options": [
+        {"text": "60%", "isCorrect": false},
+        {"text": "35%", "isCorrect": false},
+        {"text": "5%", "isCorrect": true},
+        {"text": "95%", "isCorrect": false}
+      ],
+      "explanation": "Chỉ có 5% các trường hợp sai khớp cắn là có nguyên nhân rõ ràng[cite: 268]."
+    },
+    {
+      "question": "Đâu là nguyên nhân đặc thù gây ra sai khớp cắn?",
+      "options": [
+        {"text": "Rối loạn trong sự phát triển phôi thai", "isCorrect": false},
+        {"text": "Rối loạn trong sự tăng trưởng xương", "isCorrect": false},
+        {"text": "Loạn chức năng cơ và rối loạn phát triển răng", "isCorrect": false},
+        {"text": "Tất cả các câu trên đều đúng", "isCorrect": true}
+      ],
+      "explanation": "Các nguyên nhân đặc thù bao gồm rối loạn phôi thai, tăng trưởng xương, cơ và răng[cite: 545, 546, 547, 548, 549]."
+    },
+    {
+      "question": "Dưới bao nhiêu % trẻ em điều trị chỉnh hình có bệnh sử liên quan rối loạn phát triển phôi thai?",
+      "options": [
+        {"text": "50%", "isCorrect": false},
+        {"text": "10%", "isCorrect": false},
+        {"text": "5%", "isCorrect": false},
+        {"text": "1%", "isCorrect": true}
+      ],
+      "explanation": "Chỉ dưới 1% trẻ em chỉnh hình liên quan đến rối loạn phát triển phôi thai[cite: 281]."
+    },
+    {
+      "question": "Sự đè ép trong bào thai (ví dụ một cánh tay vắt qua mặt) có thể dẫn đến hậu quả gì?",
+      "options": [
+        {"text": "Làm xương hàm trên kém phát triển", "isCorrect": true},
+        {"text": "Làm răng vĩnh viễn không mọc", "isCorrect": false},
+        {"text": "Gây tiêu ngót chân răng", "isCorrect": false},
+        {"text": "Làm lưỡi to ra", "isCorrect": false}
+      ],
+      "explanation": "Cánh tay bào thai vắt ngang mặt làm hàm trên kém phát triển[cite: 286]."
+    },
+    {
+      "question": "Xương hàm nào là thành phần di động duy nhất của hệ thống nhai?",
+      "options": [
+        {"text": "Xương hàm trên", "isCorrect": false},
+        {"text": "Xương hàm dưới", "isCorrect": true},
+        {"text": "Xương khẩu cái", "isCorrect": false},
+        {"text": "Xương gò má", "isCorrect": false}
+      ],
+      "explanation": "Xương hàm dưới là thành phần di động của hệ thống nhai."
+    },
+    {
+      "question": "Tỷ lệ kích thước đầu so với toàn thân ở trẻ sơ sinh là bao nhiêu?",
+      "options": [
+        {"text": "50%", "isCorrect": false},
+        {"text": "30%", "isCorrect": true},
+        {"text": "12%", "isCorrect": false},
+        {"text": "5%", "isCorrect": false}
+      ],
+      "explanation": "Lúc sinh ra, tỷ lệ kích thước đầu so với toàn thân là 30%[cite: 669]."
+    },
+    {
+      "question": "Khi trưởng thành, tỷ lệ kích thước đầu so với cơ thể giảm còn khoảng bao nhiêu?",
+      "options": [
+        {"text": "30%", "isCorrect": false},
+        {"text": "25%", "isCorrect": false},
+        {"text": "12%", "isCorrect": true},
+        {"text": "50%", "isCorrect": false}
+      ],
+      "explanation": "Khi trưởng thành, tỷ lệ này giảm dần còn 12%[cite: 670]."
+    },
+    {
+      "question": "Thóp xương sọ ở trẻ em thường vôi hóa hoàn toàn vào lúc nào?",
+      "options": [
+        {"text": "Lúc 6 tháng tuổi", "isCorrect": false},
+        {"text": "Lúc 1 tuổi", "isCorrect": false},
+        {"text": "Lúc 2 tuổi", "isCorrect": true},
+        {"text": "Lúc 5 tuổi", "isCorrect": false}
+      ],
+      "explanation": "Các thóp này sẽ vôi hóa hoàn toàn khi trẻ độ 2 tuổi[cite: 676]."
+    },
+    {
+      "question": "Xương màng (xương phẳng của vòm sọ) tăng trưởng chủ yếu ở đâu?",
+      "options": [
+        {"text": "Trong lòng tủy xương", "isCorrect": false},
+        {"text": "Dọc theo bờ của các thóp và đường khớp", "isCorrect": true},
+        {"text": "Ở đầu các xương dài", "isCorrect": false},
+        {"text": "Ở màng sụn", "isCorrect": false}
+      ],
+      "explanation": "Bồi đắp xương mới ở đường khớp là cơ chế chính tăng trưởng vòm sọ[cite: 684]."
+    },
+    {
+      "question": "Sự tăng trưởng của vòm sọ diễn ra theo cơ chế đắp xương và tiêu xương như thế nào?",
+      "options": [
+        {"text": "Tiêu xương mặt ngoài, đắp xương mặt trong", "isCorrect": false},
+        {"text": "Đắp xương mặt ngoài, tiêu xương mặt trong", "isCorrect": true},
+        {"text": "Chỉ đắp xương ở cả hai mặt", "isCorrect": false},
+        {"text": "Chỉ tiêu xương ở cả hai mặt", "isCorrect": false}
+      ],
+      "explanation": "Tiêu xương mặt trong vòm sọ cùng lúc đắp xương mới ở mặt ngoài giúp gia tăng kích thước[cite: 686, 687]."
+    },
+    {
+      "question": "Các xương nền sọ được tạo thành ban đầu dưới hình thức nào?",
+      "options": [
+        {"text": "Sụn", "isCorrect": true},
+        {"text": "Màng", "isCorrect": false},
+        {"text": "Cơ", "isCorrect": false},
+        {"text": "Mô liên kết lỏng lẻo", "isCorrect": false}
+      ],
+      "explanation": "Trái với vòm sọ, các xương nền sọ được tạo thành ban đầu dưới hình thức sụn[cite: 690]."
+    },
+    {
+      "question": "Xương hàm trên và xương khẩu cái hợp thành cấu trúc nào?",
+      "options": [
+        {"text": "Sàn miệng", "isCorrect": false},
+        {"text": "Vòm khẩu cứng", "isCorrect": true},
+        {"text": "Khớp thái dương hàm", "isCorrect": false},
+        {"text": "Cung gò má", "isCorrect": false}
+      ],
+      "explanation": "XHT và xương khẩu cái hợp thành vòm khẩu cứng[cite: 733]."
+    },
+    {
+      "question": "Xương hàm trên phát triển sau khi sinh bằng sự hình thành từ loại xương nào?",
+      "options": [
+        {"text": "Xương sụn", "isCorrect": false},
+        {"text": "Xương màng", "isCorrect": true},
+        {"text": "Xương nền", "isCorrect": false},
+        {"text": "Xương đặc vĩnh viễn", "isCorrect": false}
+      ],
+      "explanation": "Xương hàm trên phát triển sau khi sinh bằng sự hình thành từ xương màng[cite: 739]."
+    },
+    {
+      "question": "Xương tiền hàm phải và trái nối với nhau bởi đường khớp nào?",
+      "options": [
+        {"text": "Đường khớp cửa-nanh", "isCorrect": false},
+        {"text": "Đường khớp giữa", "isCorrect": true},
+        {"text": "Đường khớp thái dương", "isCorrect": false},
+        {"text": "Đường khớp trán", "isCorrect": false}
+      ],
+      "explanation": "Hai xương tiền hàm phải và trái nối với nhau bởi đường khớp giữa[cite: 777]."
+    },
+    {
+      "question": "Chiều rộng của xương hàm trên tăng trưởng do sự đắp thêm xương mới ở đâu?",
+      "options": [
+        {"text": "Ở mặt trước răng cửa", "isCorrect": false},
+        {"text": "Ở hai bên đường dọc giữa (đường khớp giữa)", "isCorrect": true},
+        {"text": "Ở mỏm vẹt", "isCorrect": false},
+        {"text": "Ở bờ dưới xương hàm", "isCorrect": false}
+      ],
+      "explanation": "Sự đắp xương ở hai bên đường dọc giữa làm tăng chiều rộng XHT[cite: 786]."
+    },
+    {
+      "question": "Khi mới sinh, kích thước nào của khuôn mặt là lớn nhất so với các chiều khác?",
+      "options": [
+        {"text": "Chiều cao", "isCorrect": false},
+        {"text": "Chiều trước-sau", "isCorrect": false},
+        {"text": "Chiều rộng", "isCorrect": true},
+        {"text": "Chiều đứng", "isCorrect": false}
+      ],
+      "explanation": "Khi mới sinh ra, kích thước mặt theo chiều rộng lớn nhất[cite: 790]."
+    },
+    {
+      "question": "Hướng dịch chuyển chính trong sự tăng trưởng của xương hàm trên là gì?",
+      "options": [
+        {"text": "Lên trên và ra sau", "isCorrect": false},
+        {"text": "Xuống dưới và ra trước", "isCorrect": true},
+        {"text": "Sang ngang hai bên", "isCorrect": false},
+        {"text": "Chỉ đi thẳng xuống dưới", "isCorrect": false}
+      ],
+      "explanation": "Xương hàm trên khi tăng trưởng di chuyển xuống dưới và ra trước so với sọ[cite: 856]."
+    },
+    {
+      "question": "Phần lớn sự tăng trưởng chiều cao mặt là do yếu tố nào?",
+      "options": [
+        {"text": "Sự mọc răng và tăng trưởng xương ổ răng", "isCorrect": true},
+        {"text": "Sự dãn dài của xương trán", "isCorrect": false},
+        {"text": "Sự tiêu xương vòm miệng", "isCorrect": false},
+        {"text": "Sự thu hẹp hốc mũi", "isCorrect": false}
+      ],
+      "explanation": "Phần lớn sự tăng trưởng chiều cao mặt là do tăng trưởng xương ổ răng về phía mặt nhai[cite: 803, 804]."
+    },
+    {
+      "question": "Vòm miệng rộng ra khi nó di chuyển theo hướng nào?",
+      "options": [
+        {"text": "Di chuyển lên trên", "isCorrect": false},
+        {"text": "Di chuyển xuống dưới", "isCorrect": true},
+        {"text": "Di chuyển ra sau", "isCorrect": false},
+        {"text": "Di chuyển vào trong", "isCorrect": false}
+      ],
+      "explanation": "Khi vòm khẩu di chuyển xuống dưới, quá trình đắp/tiêu xương làm vòm khẩu rộng ra[cite: 869]."
+    },
+    {
+      "question": "Xương hàm dưới tăng trưởng từ loại hình thành xương nào?",
+      "options": [
+        {"text": "Chỉ xương màng", "isCorrect": false},
+        {"text": "Chỉ xương sụn", "isCorrect": false},
+        {"text": "Vừa xương màng vừa xương sụn", "isCorrect": true},
+        {"text": "Xương sợi", "isCorrect": false}
+      ],
+      "explanation": "Xương hàm dưới tăng trưởng từ cả xương màng và xương sụn[cite: 871]."
+    },
+    {
+      "question": "Sụn lồi cầu hàm dưới hoạt động cho tới độ tuổi nào?",
+      "options": [
+        {"text": "6 tuổi", "isCorrect": false},
+        {"text": "12 tuổi", "isCorrect": false},
+        {"text": "16 tuổi, có khi tới 25 tuổi", "isCorrect": true},
+        {"text": "Sau 30 tuổi", "isCorrect": false}
+      ],
+      "explanation": "Sụn lồi cầu tồn tại và hoạt động tới 16 tuổi, có khi tới 25 tuổi[cite: 873]."
+    },
+    {
+      "question": "Tăng trưởng chiều rộng của xương hàm dưới chủ yếu do đâu?",
+      "options": [
+        {"text": "Đường khớp giữa cằm", "isCorrect": false},
+        {"text": "Sự đắp thêm xương ở mặt ngoài", "isCorrect": true},
+        {"text": "Sự tiêu xương ở mặt ngoài", "isCorrect": false},
+        {"text": "Sự dài ra của răng nanh", "isCorrect": false}
+      ],
+      "explanation": "Sự tăng trưởng chiều rộng XHD chủ yếu do đắp thêm xương ở mặt ngoài[cite: 882]."
+    },
+    {
+      "question": "Sự đắp xương ở bờ sau nhánh đứng xương hàm dưới có tác dụng gì?",
+      "options": [
+        {"text": "Làm cằm nhỏ lại", "isCorrect": false},
+        {"text": "Làm tăng kích thước theo chiều trước-sau (chiều sâu)", "isCorrect": true},
+        {"text": "Làm xương hàm hẹp lại", "isCorrect": false},
+        {"text": "Làm mất chỗ cho răng khôn", "isCorrect": false}
+      ],
+      "explanation": "Đắp xương bờ sau nhánh đứng làm tăng kích thước chiều trước-sau[cite: 886]."
+    },
+    {
+      "question": "Theo John Hunter, nhánh đứng xương hàm dưới ở trẻ em nằm ở đâu?",
+      "options": [
+        {"text": "Ngay phía sau răng cối sữa thứ nhất", "isCorrect": false},
+        {"text": "Ngay phía sau răng nanh sữa", "isCorrect": false},
+        {"text": "Ngay phía sau răng cối sữa thứ hai", "isCorrect": true},
+        {"text": "Tại vị trí răng khôn", "isCorrect": false}
+      ],
+      "explanation": "Nhánh đứng XHD ở trẻ em ở ngay phía sau răng cối sữa thứ hai[cite: 887]."
+    },
+    {
+      "question": "Tại sao răng cối vĩnh viễn thứ ba (răng khôn) thường bị mọc ngầm?",
+      "options": [
+        {"text": "Do xương hàm quá to", "isCorrect": false},
+        {"text": "Sự tăng trưởng chiều trước-sau chấm dứt trước khi có đủ chỗ", "isCorrect": true},
+        {"text": "Do răng quá nhỏ", "isCorrect": false},
+        {"text": "Do thói quen mút tay", "isCorrect": false}
+      ],
+      "explanation": "Tăng trưởng chấm dứt trước khi đủ chỗ cho răng cối thứ ba, làm nó mọc ngầm trong nhánh đứng[cite: 917]."
+    },
+    {
+      "question": "Theo thứ tự, chiều tăng trưởng nào của xương hàm hoàn tất TRƯỚC TIÊN?",
+      "options": [
+        {"text": "Chiều trước-sau", "isCorrect": false},
+        {"text": "Chiều cao", "isCorrect": false},
+        {"text": "Chiều rộng", "isCorrect": true},
+        {"text": "Tất cả hoàn tất cùng lúc", "isCorrect": false}
+      ],
+      "explanation": "Sự tăng trưởng theo chiều rộng hoàn tất trước, đến chiều trước-sau và cuối cùng là chiều cao[cite: 936]."
+    },
+    {
+      "question": "Sau 12 tuổi, chiều rộng giữa hai răng nanh thường có khuynh hướng gì?",
+      "options": [
+        {"text": "Tăng thêm 2mm", "isCorrect": false},
+        {"text": "Giữ nguyên không đổi", "isCorrect": false},
+        {"text": "Giảm hơn là tăng", "isCorrect": true},
+        {"text": "Tăng nhanh chóng", "isCorrect": false}
+      ],
+      "explanation": "Chiều rộng giữa hai răng nanh thường có khuynh hướng giảm sau 12 tuổi[cite: 937]."
+    },
+    {
+      "question": "Xương hàm trên ở bé gái thường ngừng tăng trưởng chậm dần đến tuổi nào?",
+      "options": [
+        {"text": "10-11 tuổi", "isCorrect": false},
+        {"text": "14-15 tuổi", "isCorrect": true},
+        {"text": "18-20 tuổi", "isCorrect": false},
+        {"text": "25 tuổi", "isCorrect": false}
+      ],
+      "explanation": "Bé gái trung bình tăng trưởng XHT chậm dần đến tuổi 14 hay 15[cite: 942]."
+    },
+    {
+      "question": "Xương hàm dưới tăng trưởng nhiều hơn xương hàm trên trong thời kỳ nào?",
+      "options": [
+        {"text": "Thời kỳ răng sữa", "isCorrect": false},
+        {"text": "Thời kỳ răng hỗn hợp", "isCorrect": false},
+        {"text": "Thời kỳ vị thành niên (dậy thì)", "isCorrect": true},
+        {"text": "Sau 30 tuổi", "isCorrect": false}
+      ],
+      "explanation": "Ở mặt, xương hàm dưới tăng trưởng nhiều hơn xương hàm trên trong thời kỳ dậy thì[cite: 1104, 1105]."
+    },
+    {
+      "question": "Tại sao khuôn mặt người trưởng thành thường trở nên bớt nhô hơn?",
+      "options": [
+        {"text": "Do xương hàm trên phát triển nhanh hơn", "isCorrect": false},
+        {"text": "Do xương hàm dưới và cằm được đưa ra trước nhiều hơn bởi tăng trưởng khác biệt", "isCorrect": true},
+        {"text": "Do răng cửa bị rụng", "isCorrect": false},
+        {"text": "Do mũi ngắn lại", "isCorrect": false}
+      ],
+      "explanation": "XHD và cằm đưa ra trước nhiều hơn khiến mặt bớt nhô[cite: 1108]."
+    }
+    ,
+        {
+          "question": "Theo nghiên cứu, tỷ lệ trẻ em có sai khớp cắn mà nguyên nhân do di truyền đơn thuần chiếm khoảng bao nhiêu?",
+          "options": [
+            {"text": "Dưới 5%", "isCorrect": false},
+            {"text": "Khoảng 40%", "isCorrect": true},
+            {"text": "Trên 80%", "isCorrect": false},
+            {"text": "100%", "isCorrect": false}
+          ],
+          "explanation": "Mặc dù 60% trường hợp là sự kết hợp di truyền và môi trường, nhưng các đặc điểm di truyền rõ rệt chiếm khoảng 40%."
+        },
+        {
+          "question": "Rối loạn nào trong thời kỳ bào thai dẫn đến hội chứng Treacher Collins?",
+          "options": [
+            {"text": "Kém phát triển xương hàm dưới", "isCorrect": false},
+            {"text": "Thiếu hụt các tế bào mào thần kinh", "isCorrect": true},
+            {"text": "Do mẹ uống quá nhiều canxi", "isCorrect": false},
+            {"text": "Do đè ép cơ học trong tử cung", "isCorrect": false}
+          ],
+          "explanation": "Hội chứng Treacher Collins (loạn dưỡng xương mặt) do sự thiếu hụt các tế bào mào thần kinh trong quá trình phôi thai."
+        },
+        {
+          "question": "Việc mẹ sử dụng thuốc chống co giật (Dilantin) khi mang thai có thể gây ra dị tật nào cho thai nhi?",
+          "options": [
+            {"text": "Răng mọc thừa", "isCorrect": false},
+            {"text": "Khe hở môi và hàm ếch", "isCorrect": true},
+            {"text": "Hàm dưới to", "isCorrect": false},
+            {"text": "Mất kích thước dọc", "isCorrect": false}
+          ],
+          "explanation": "Dilantin là một trong những tác nhân hóa học được liệt kê có khả năng gây khe hở môi hàm ếch."
+        },
+        {
+          "question": "Hội chứng Pierre Robin gây ra tình trạng hàm dưới nhỏ là do yếu tố cơ học nào trong bào thai?",
+          "options": [
+            {"text": "Dây rốn quấn cổ", "isCorrect": false},
+            {"text": "Đầu thai nhi gập quá mức vào ngực cản trở hàm dưới tiến ra trước", "isCorrect": true},
+            {"text": "Do mẹ nằm nghiêng một bên", "isCorrect": false},
+            {"text": "Do đa ối", "isCorrect": false}
+          ],
+          "explanation": "Đầu gập vào ngực làm hàm dưới bị kẹt lại, dẫn đến tình trạng kém phát triển trầm trọng."
+        },
+        {
+          "question": "Chấn thương gãy lồi cầu ở trẻ em thường dẫn đến hậu quả gì nếu không được phục hồi tốt?",
+          "options": [
+            {"text": "Hàm dưới bị vổ", "isCorrect": false},
+            {"text": "Kém phát triển xương hàm dưới và không cân xứng mặt", "isCorrect": true},
+            {"text": "Răng mọc sớm hơn", "isCorrect": false},
+            {"text": "Lưỡi bị dính", "isCorrect": false}
+          ],
+          "explanation": "Chấn thương lồi cầu làm mất trung tâm tăng trưởng quan trọng, gây lệch mặt và lùi hàm dưới."
+        },
+        {
+          "question": "Thói quen mút tay chỉ thực sự gây ra sai lệch răng khi kéo dài bao nhiêu giờ mỗi ngày?",
+          "options": [
+            {"text": "1 giờ", "isCorrect": false},
+            {"text": "Trên 6 giờ", "isCorrect": true},
+            {"text": "Dưới 30 phút", "isCorrect": false},
+            {"text": "Chỉ cần mút nhẹ là đã bị", "isCorrect": false}
+          ],
+          "explanation": "Theo thuyết cân bằng, lực nhẹ nhưng liên tục trên 6 giờ mới đủ làm răng di chuyển."
+        },
+        {
+          "question": "Thói quen mút ngón tay thường dẫn đến kiểu sai khớp cắn nào?",
+          "options": [
+            {"text": "Cắn ngược răng trước", "isCorrect": false},
+            {"text": "Cắn hở răng trước và răng cửa trên đưa ra trước (vổ)", "isCorrect": true},
+            {"text": "Cắn sâu", "isCorrect": false},
+            {"text": "Răng chen trúc hàm dưới", "isCorrect": false}
+          ],
+          "explanation": "Lực mút đẩy răng cửa trên ra ngoài và ngăn cản sự mọc răng theo chiều đứng, tạo khe hở."
+        },
+        {
+          "question": "Quan điểm hiện đại về thói quen 'đẩy lưỡi' khi nuốt là gì?",
+          "options": [
+            {"text": "Là nguyên nhân gây cắn hở", "isCorrect": false},
+            {"text": "Thường là kết quả của sự thích nghi để đóng kín miệng khi đã có khe hở", "isCorrect": true},
+            {"text": "Là một bệnh lý thần kinh", "isCorrect": false},
+            {"text": "Do di truyền từ cha mẹ", "isCorrect": false}
+          ],
+          "explanation": "Lưỡi đẩy ra trước là để tạo vành khít khi nuốt ở những trẻ đã bị hở răng trước do nguyên nhân khác."
+        },
+        {
+          "question": "Mất răng sữa sớm (đặc biệt là răng cối sữa thứ hai) gây ra hậu quả nghiêm trọng nhất là gì?",
+          "options": [
+            {"text": "Bệnh nhân không nhai được", "isCorrect": false},
+            {"text": "Răng cối lớn vĩnh viễn thứ nhất di gần, làm mất chỗ cho răng vĩnh viễn mọc sau", "isCorrect": true},
+            {"text": "Làm răng cửa bị thưa", "isCorrect": false},
+            {"text": "Làm hàm dưới to ra", "isCorrect": false}
+          ],
+          "explanation": "Răng 6 vĩnh viễn sẽ chạy vào khoảng trống phía trước, gây thiếu chỗ trầm trọng cho các răng tiền hàm."
+        },
+        {
+          "question": "Việc nhổ răng sữa quá muộn (răng sữa tồn tại lâu) sẽ gây ra tình trạng gì?",
+          "options": [
+            {"text": "Răng vĩnh viễn mọc sớm", "isCorrect": false},
+            {"text": "Răng vĩnh viễn mọc lệch hướng (lệch vào trong hoặc ra ngoài)", "isCorrect": true},
+            {"text": "Xương hàm phát triển nhanh", "isCorrect": false},
+            {"text": "Tiêu ngót chân răng vĩnh viễn", "isCorrect": false}
+          ],
+          "explanation": "Răng sữa không tiêu chân đúng lúc sẽ cản trở con đường mọc tự nhiên của răng vĩnh viễn."
+        },
+        {
+          "question": "Tình trạng thiếu răng bẩm sinh (Hypodontia) thường gặp nhất ở loại răng nào (trừ răng khôn)?",
+          "options": [
+            {"text": "Răng cửa giữa trên", "isCorrect": false},
+            {"text": "Răng cửa bên hàm trên hoặc răng tiền hàm thứ hai", "isCorrect": true},
+            {"text": "Răng nanh", "isCorrect": false},
+            {"text": "Răng hàm lớn thứ nhất", "isCorrect": false}
+          ],
+          "explanation": "Răng cửa bên trên và răng số 5 là những răng có tỷ lệ thiếu bẩm sinh cao nhất."
+        },
+        {
+          "question": "Sự hiện diện của 'răng dư' (supernumerary teeth) ở đường giữa hàm trên thường gây ra:",
+          "options": [
+            {"text": "Sâu răng cửa", "isCorrect": false},
+            {"text": "Khe thưa lớn giữa hai răng cửa giữa", "isCorrect": true},
+            {"text": "Răng cửa bị rụng sớm", "isCorrect": false},
+            {"text": "Hàm trên bị hô", "isCorrect": false}
+          ],
+          "explanation": "Răng dư chiếm chỗ ở đường giữa mặt, đẩy hai răng cửa giữa ra xa nhau."
+        },
+        {
+          "question": "Chấn thương răng sữa có thể gây hại cho mầm răng vĩnh viễn bên dưới như thế nào?",
+          "options": [
+            {"text": "Làm răng vĩnh viễn biến mất", "isCorrect": false},
+            {"text": "Gây gập góc chân răng (Dilaceration)", "isCorrect": true},
+            {"text": "Làm răng vĩnh viễn mọc sớm 2 năm", "isCorrect": false},
+            {"text": "Không gây ảnh hưởng gì", "isCorrect": false}
+          ],
+          "explanation": "Lực va đập làm mầm răng đang hình thành bị lệch hướng, tạo ra chân răng bị cong gập."
+        },
+        {
+          "question": "Thói quen thở miệng lâu ngày thường đi kèm với kiểu khuôn mặt nào?",
+          "options": [
+            {"text": "Mặt ngắn, hàm vuông", "isCorrect": false},
+            {"text": "Mặt dài, hẹp ngang, tầng mặt dưới tăng, môi trên ngắn", "isCorrect": true},
+            {"text": "Mặt cân đối hoàn hảo", "isCorrect": false},
+            {"text": "Mặt bị móm", "isCorrect": false}
+          ],
+          "explanation": "Thở miệng làm thay đổi thăng bằng cơ môi-má-lưỡi, kéo dài khuôn mặt theo chiều đứng."
+        },
+        {
+          "question": "Dinh dưỡng thiếu Vitamin D ở trẻ em gây ra bệnh còi xương, ảnh hưởng đến chỉnh hình như thế nào?",
+          "options": [
+            {"text": "Làm răng trắng hơn", "isCorrect": false},
+            {"text": "Xương hàm mềm, dễ bị biến dạng dưới áp lực cơ", "isCorrect": true},
+            {"text": "Răng vĩnh viễn không mọc", "isCorrect": false},
+            {"text": "Làm lưỡi nhỏ lại", "isCorrect": false}
+          ],
+          "explanation": "Thiếu Vitamin D làm xương kém khoáng hóa, dễ bị uốn cong bởi các lực nhai và thói quen xấu."
+        },
+        {
+          "question": "Sự khác biệt giữa 'Tăng trưởng' (Growth) và 'Phát triển' (Development) là gì?",
+          "options": [
+            {"text": "Tăng trưởng là sự thay đổi chất lượng, Phát triển là thay đổi số lượng", "isCorrect": false},
+            {"text": "Tăng trưởng là sự tăng kích thước/số lượng, Phát triển là sự chuyên biệt hóa chức năng", "isCorrect": true},
+            {"text": "Hai thuật ngữ này hoàn toàn giống nhau", "isCorrect": false},
+            {"text": "Tăng trưởng chỉ có ở xương, Phát triển chỉ có ở răng", "isCorrect": false}
+          ],
+          "explanation": "Tăng trưởng mang tính định lượng (lớn lên), phát triển mang tính định chất (hoàn thiện)."
+        },
+        {
+          "question": "Tại sao tuổi xương (skeletal age) lại quan trọng hơn tuổi đời (chronological age) trong chỉnh hình?",
+          "options": [
+            {"text": "Để biết bệnh nhân có đi học không", "isCorrect": false},
+            {"text": "Để đánh giá chính xác giai đoạn tăng trưởng còn lại nhằm can thiệp xương", "isCorrect": true},
+            {"text": "Vì tuổi đời thường bị khai sai", "isCorrect": false},
+            {"text": "Để tính tiền điều trị", "isCorrect": false}
+          ],
+          "explanation": "Mỗi trẻ có tốc độ lớn khác nhau, tuổi xương cho biết trẻ đã qua đỉnh tăng trưởng hay chưa."
+        },
+        {
+          "question": "Phương pháp phổ biến nhất để xác định tuổi xương là gì?",
+          "options": [
+            {"text": "Chụp X-quang răng khôn", "isCorrect": false},
+            {"text": "Chụp X-quang bàn tay - cổ tay hoặc đốt sống cổ", "isCorrect": true},
+            {"text": "Đo chiều cao cơ thể hàng ngày", "isCorrect": false},
+            {"text": "Thử máu", "isCorrect": false}
+          ],
+          "explanation": "Sự xuất hiện và cốt hóa của các xương nhỏ ở bàn tay là thước đo chuẩn cho sự trưởng thành của hệ xương."
+        },
+        {
+          "question": "Sự tăng trưởng của sọ mặt diễn ra theo mấy chiều không gian?",
+          "options": [
+            {"text": "1 chiều", "isCorrect": false},
+            {"text": "2 chiều", "isCorrect": false},
+            {"text": "3 chiều (Rộng, Dài, Cao)", "isCorrect": true},
+            {"text": "4 chiều", "isCorrect": false}
+          ],
+          "explanation": "Hệ thống sọ mặt phát triển theo cả chiều ngang, chiều trước-sau và chiều đứng."
+        },
+        {
+          "question": "Xương vòm sọ tăng trưởng chủ yếu theo cơ chế nào?",
+          "options": [
+            {"text": "Tạo xương từ sụn", "isCorrect": false},
+            {"text": "Tạo xương từ màng (intramembranous ossification)", "isCorrect": true},
+            {"text": "Chỉ tiêu xương không tạo xương", "isCorrect": false},
+            {"text": "Do áp lực từ não bộ", "isCorrect": false}
+          ],
+          "explanation": "Xương vòm sọ là các xương phẳng, hình thành trực tiếp từ mô liên kết màng."
+        },
+        {
+          "question": "Các đường khớp (sutures) ở vòm sọ có vai trò gì?",
+          "options": [
+            {"text": "Làm sọ cứng lại ngay sau khi sinh", "isCorrect": false},
+            {"text": "Là nơi bồi đắp xương mới giúp vòm sọ lớn lên theo sự phát triển của não", "isCorrect": true},
+            {"text": "Để thông khí", "isCorrect": false},
+            {"text": "Chứa tủy đỏ", "isCorrect": false}
+          ],
+          "explanation": "Đường khớp là các trung tâm tăng trưởng thích nghi với áp lực mở rộng của não bộ."
+        },
+        {
+          "question": "Xương nền sọ (cranial base) hình thành theo cơ chế nào?",
+          "options": [
+            {"text": "Chỉ tạo xương từ màng", "isCorrect": false},
+            {"text": "Tạo xương từ sụn (endochondral ossification)", "isCorrect": true},
+            {"text": "Chỉ tiêu xương mặt ngoài", "isCorrect": false},
+            {"text": "Không bao giờ tăng trưởng sau sinh", "isCorrect": false}
+          ],
+          "explanation": "Nền sọ ban đầu là một khối sụn cốt hóa dần theo thời gian."
+        },
+        {
+          "question": "Đường khớp sụn quan trọng nhất ở nền sọ là đường nào?",
+          "options": [
+            {"text": "Khớp bướm - sàng", "isCorrect": false},
+            {"text": "Khớp bướm - chẩm (Spheno-occipital synchondrosis)", "isCorrect": true},
+            {"text": "Khớp trán - đỉnh", "isCorrect": false},
+            {"text": "Khớp hàm - gò má", "isCorrect": false}
+          ],
+          "explanation": "Đây là đường khớp sụn đóng muộn nhất, ảnh hưởng lớn đến chiều dài nền sọ và tương quan hai hàm."
+        },
+        {
+          "question": "Sự tăng trưởng của xương hàm trên (XHT) theo chiều trước - sau do cơ chế nào?",
+          "options": [
+            {"text": "Mọc răng khôn", "isCorrect": false},
+            {"text": "Sự bồi đắp xương ở các đường khớp phía sau và trên", "isCorrect": true},
+            {"text": "XHT tự đẩy ra trước", "isCorrect": false},
+            {"text": "Tiêu xương ở vòm miệng", "isCorrect": false}
+          ],
+          "explanation": "Việc đắp xương ở đường khớp với các xương lân cận đẩy XHT xuống dưới và ra trước."
+        },
+        {
+          "question": "Khi XHT dịch chuyển ra trước, bề mặt phía trước của nó thường diễn ra quá trình gì?",
+          "options": [
+            {"text": "Bồi đắp xương liên tục", "isCorrect": false},
+            {"text": "Tiêu bớt xương bề mặt (resorption)", "isCorrect": true},
+            {"text": "Không thay đổi", "isCorrect": false},
+            {"text": "Biến thành sụn", "isCorrect": false}
+          ],
+          "explanation": "Để giữ hình dáng khuôn mặt không bị nhô quá mức, mặt trước XHT có sự tiêu xương nhẹ khi nó bị đẩy ra trước."
+        },
+        {
+          "question": "Sự gia tăng chiều cao của xương hàm trên chủ yếu do yếu tố nào?",
+          "options": [
+            {"text": "Xương trán dài ra", "isCorrect": false},
+            {"text": "Sự mọc răng và bồi đắp xương ổ răng về phía mặt nhai", "isCorrect": true},
+            {"text": "Lưỡi đẩy lên trên", "isCorrect": false},
+            {"text": "Do sụn vách ngăn mũi", "isCorrect": false}
+          ],
+          "explanation": "Sự mọc răng mang theo xương ổ răng phát triển xuống dưới, làm tăng chiều cao mặt."
+        },
+        {
+          "question": "Xương hàm dưới (XHD) tăng trưởng chiều dài (chiều trước - sau) bằng cách nào?",
+          "options": [
+            {"text": "Bồi đắp xương ở vùng cằm", "isCorrect": false},
+            {"text": "Bồi đắp xương ở bờ sau cành lên và tiêu xương ở bờ trước cành lên", "isCorrect": true},
+            {"text": "Răng mọc đẩy xương ra trước", "isCorrect": false},
+            {"text": "Nhổ răng khôn", "isCorrect": false}
+          ],
+          "explanation": "Quá trình đắp sau - tiêu trước giúp cành lên dịch chuyển ra sau, tạo chỗ cho các răng hàm mọc."
+        },
+        {
+          "question": "Mô hình tăng trưởng của xương hàm dưới thường được ví với hình gì?",
+          "options": [
+            {"text": "Hình chữ nhật đứng", "isCorrect": false},
+            {"text": "Hình cung tiến (vừa dài ra vừa cao lên nhờ lồi cầu)", "isCorrect": true},
+            {"text": "Hình tròn xoay", "isCorrect": false},
+            {"text": "Hình tam giác", "isCorrect": false}
+          ],
+          "explanation": "Sự tăng trưởng ở lồi cầu đẩy hàm dưới xuống dưới và ra trước."
+        },
+        {
+          "question": "Cơ chế chính làm tăng chiều rộng của xương hàm dưới là:",
+          "options": [
+            {"text": "Sự mở rộng đường khớp giữa cằm", "isCorrect": false},
+            {"text": "Sự bồi đắp xương ở mặt ngoài của thân xương hàm", "isCorrect": true},
+            {"text": "Do lưỡi to ra", "isCorrect": false},
+            {"text": "Do mọc răng nanh", "isCorrect": false}
+          ],
+          "explanation": "Đường khớp giữa cằm đóng rất sớm (trong năm đầu), sau đó chiều rộng tăng nhờ bồi đắp mặt ngoài."
+        },
+        {
+          "question": "Thuyết 'Khuôn chức năng' (Functional Matrix) của Moss cho rằng:",
+          "options": [
+            {"text": "Xương tự tăng trưởng do mã di truyền", "isCorrect": false},
+            {"text": "Sự tăng trưởng của xương là phản ứng thích nghi với sự nở lớn của các khoang chức năng (mũi, miệng, não)", "isCorrect": true},
+            {"text": "Chỉ có sụn mới quyết định tăng trưởng", "isCorrect": false},
+            {"text": "Răng mọc làm xương dài ra", "isCorrect": false}
+          ],
+          "explanation": "Moss tin rằng các mô mềm và khoang rỗng mới là yếu tố dẫn dắt sự lớn lên của xương hàm."
+        },
+        {
+          "question": "Theo thuyết của Moss, yếu tố nào dẫn dắt sự tăng trưởng của vòm sọ?",
+          "options": [
+            {"text": "Các đường khớp", "isCorrect": false},
+            {"text": "Sự nở lớn của khối não bộ", "isCorrect": true},
+            {"text": "Tủy xương", "isCorrect": false},
+            {"text": "Ánh sáng mặt trời", "isCorrect": false}
+          ],
+          "explanation": "Não lớn đến đâu, các xương vòm sọ sẽ bồi đắp và dãn rộng theo đến đó."
+        },
+        {
+          "question": "Khuôn mặt trẻ em thường có xu hướng 'nhô' hơn người lớn, đúng hay sai?",
+          "options": [
+            {"text": "Đúng", "isCorrect": false},
+            {"text": "Sai, người lớn thường nhô hơn do xương hàm dưới phát triển ra trước muộn hơn", "isCorrect": true}
+          ],
+          "explanation": "Khi dậy thì, hàm dưới phát triển mạnh ra trước làm khuôn mặt bớt móm và trở nên thẳng hơn hoặc nhô hơn tùy kiểu mặt."
+        },
+        {
+          "question": "Sự tăng trưởng của hệ thống sọ mặt hoàn tất theo thứ tự chiều không gian nào?",
+          "options": [
+            {"text": "Cao -> Rộng -> Dài", "isCorrect": false},
+            {"text": "Rộng -> Dài -> Cao", "isCorrect": true},
+            {"text": "Dài -> Rộng -> Cao", "isCorrect": false},
+            {"text": "Tất cả cùng lúc", "isCorrect": false}
+          ],
+          "explanation": "Chiều rộng hoàn tất sớm nhất, chiều cao hoàn tất muộn nhất (do mọc răng và dậy thì)."
+        },
+        {
+          "question": "Tại sao đỉnh tăng trưởng ở bé gái thường diễn ra sớm hơn bé trai?",
+          "options": [
+            {"text": "Do bé gái ăn nhiều hơn", "isCorrect": false},
+            {"text": "Do sự dậy thì sớm hơn (trung bình sớm hơn 2 năm)", "isCorrect": true},
+            {"text": "Do yếu tố môi trường", "isCorrect": false},
+            {"text": "Bé trai luôn phát triển sớm hơn", "isCorrect": false}
+          ],
+          "explanation": "Nội tiết tố dậy thì ở nữ xuất hiện sớm hơn, làm các trung tâm tăng trưởng xương đóng sớm hơn nam giới."
+        },
+        {
+          "question": "Chỉ số nào được dùng để dự đoán chiều cao cuối cùng của một đứa trẻ?",
+          "options": [
+            {"text": "Số răng sữa đã rụng", "isCorrect": false},
+            {"text": "Đường cong tăng trưởng so với tuổi xương", "isCorrect": true},
+            {"text": "Cân nặng lúc sinh", "isCorrect": false},
+            {"text": "Chiều dài bàn chân", "isCorrect": false}
+          ],
+          "explanation": "Phối hợp giữa tốc độ tăng trưởng hiện tại và mức độ cốt hóa xương giúp dự báo tương lai tăng trưởng."
+        },
+        {
+          "question": "Khi trẻ mút tay, áp lực nào làm cho hàm trên bị hẹp lại?",
+          "options": [
+            {"text": "Áp lực của ngón tay đẩy lên vòm miệng", "isCorrect": false},
+            {"text": "Áp lực âm khi mút và sự co thắt của cơ mút ở hai bên má", "isCorrect": true},
+            {"text": "Áp lực của lưỡi", "isCorrect": false},
+            {"text": "Do trẻ không ăn được", "isCorrect": false}
+          ],
+          "explanation": "Lực ép từ cơ má hai bên trong lúc mút làm cung răng bị bóp nhỏ lại theo chiều ngang."
+        },
+        {
+          "question": "Việc cắn môi dưới thường xuyên gây ra hậu quả gì?",
+          "options": [
+            {"text": "Răng cửa dưới bị vổ", "isCorrect": false},
+            {"text": "Răng cửa trên bị đẩy ra trước và răng cửa dưới bị ép vào trong", "isCorrect": true},
+            {"text": "Răng nanh bị xoay", "isCorrect": false},
+            {"text": "Làm môi đỏ hơn", "isCorrect": false}
+          ],
+          "explanation": "Môi dưới kẹt giữa hai hàm sẽ đẩy răng trên ra ngoài và nén răng dưới vào trong."
+        },
+        {
+          "question": "Thói quen chống cằm một bên có thể gây ra:",
+          "options": [
+            {"text": "Sâu răng", "isCorrect": false},
+            {"text": "Lệch mặt và sai khớp cắn theo chiều ngang", "isCorrect": true},
+            {"text": "Răng mọc chậm", "isCorrect": false},
+            {"text": "Tăng trưởng xương nhanh hơn", "isCorrect": false}
+          ],
+          "explanation": "Lực tỳ đè liên tục làm biến dạng hướng phát triển của xương hàm dưới đang tăng trưởng."
+        },
+        {
+          "question": "Đặc điểm của khớp cắn 'bình thường' theo Angle là gì?",
+          "options": [
+            {"text": "Các răng cửa phải thật trắng", "isCorrect": false},
+            {"text": "Múi ngoài gần răng 6 trên khớp với rãnh ngoài gần răng 6 dưới", "isCorrect": true},
+            {"text": "Răng hàm trên nằm trong răng hàm dưới", "isCorrect": false},
+            {"text": "Không có răng khôn", "isCorrect": false}
+          ],
+          "explanation": "Đây là tiêu chuẩn 'vàng' để định nghĩa khớp cắn hạng I lý tưởng."
+        },
+        {
+          "question": "Răng cửa giữa hàm trên mọc lúc mấy tuổi?",
+          "options": [
+            {"text": "5 tuổi", "isCorrect": false},
+            {"text": "7 - 8 tuổi", "isCorrect": true},
+            {"text": "10 tuổi", "isCorrect": false},
+            {"text": "12 tuổi", "isCorrect": false}
+          ],
+          "explanation": "Răng 1 vĩnh viễn mọc ngay sau khi răng 6 mọc được khoảng 1 năm."
+        },
+        {
+          "question": "Răng hàm lớn thứ nhất vĩnh viễn (răng 6) mọc vào thời điểm nào?",
+          "options": [
+            {"text": "3 tuổi", "isCorrect": false},
+            {"text": "6 tuổi", "isCorrect": true},
+            {"text": "9 tuổi", "isCorrect": false},
+            {"text": "12 tuổi", "isCorrect": false}
+          ],
+          "explanation": "Răng 6 là răng vĩnh viễn mọc sớm nhất, thường không thay thế răng sữa nào."
+        },
+        {
+          "question": "Sự mọc răng chậm bất thường có thể do bệnh lý nội tiết nào?",
+          "options": [
+            {"text": "Cường giáp", "isCorrect": false},
+            {"text": "Suy giáp (Hypothyroidism)", "isCorrect": true},
+            {"text": "Tiểu đường", "isCorrect": false},
+            {"text": "Đau dạ dày", "isCorrect": false}
+          ],
+          "explanation": "Thiếu hụt hormone tuyến giáp làm chậm quá trình chuyển hóa và mọc răng."
+        },
+        {
+          "question": "Hiện tượng 'răng dính xương' (Ankylosis) là gì?",
+          "options": [
+            {"text": "Răng bị sâu vào xương", "isCorrect": false},
+            {"text": "Mất dây chằng nha chu làm chân răng nối trực tiếp với xương ổ răng", "isCorrect": true},
+            {"text": "Răng có chân quá dài", "isCorrect": false},
+            {"text": "Răng giả gắn bằng vít", "isCorrect": false}
+          ],
+          "explanation": "Răng dính xương sẽ không mọc lên được và thấp hơn mặt phẳng nhai."
+        },
+        {
+          "question": "Khuôn mặt phát triển theo hướng 'xuống dưới và ra trước' so với bộ phận nào?",
+          "options": [
+            {"text": "Cằm", "isCorrect": false},
+            {"text": "Nền sọ", "isCorrect": true},
+            {"text": "Cột sống", "isCorrect": false},
+            {"text": "Tai", "isCorrect": false}
+          ],
+          "explanation": "Nền sọ là mốc cố định tương đối để đánh giá sự dịch chuyển của khối mặt."
+        },
+        {
+          "question": "Xương gò má tăng trưởng chủ yếu do cơ chế:",
+          "options": [
+            {"text": "Bồi đắp mặt ngoài và mặt sau", "isCorrect": true},
+            {"text": "Tiêu xương mặt ngoài", "isCorrect": false},
+            {"text": "Chỉ tạo xương từ sụn", "isCorrect": false},
+            {"text": "Không thay đổi", "isCorrect": false}
+          ],
+          "explanation": "Bồi đắp mặt ngoài làm gò má nhô rõ hơn khi trưởng thành."
+        },
+        {
+          "question": "Xương vòm miệng (khẩu cái) dày lên do đâu?",
+          "options": [
+            {"text": "Đắp xương mặt mũi, tiêu xương mặt miệng", "isCorrect": false},
+            {"text": "Đắp xương mặt miệng, tiêu xương mặt mũi", "isCorrect": true},
+            {"text": "Tiêu cả hai mặt", "isCorrect": false},
+            {"text": "Đắp cả hai mặt", "isCorrect": false}
+          ],
+          "explanation": "Quá trình này giúp hạ thấp vòm miệng và mở rộng khoang mũi."
+        },
+        {
+          "question": "Sự tăng trưởng của lồi cầu xương hàm dưới có đặc điểm gì?",
+          "options": [
+            {"text": "Là sụn thích nghi, phát triển theo hướng lên trên và ra sau", "isCorrect": true},
+            {"text": "Là sụn trung tâm giống xương dài", "isCorrect": false},
+            {"text": "Biến mất sau khi mọc răng 6", "isCorrect": false},
+            {"text": "Làm hàm dưới ngắn lại", "isCorrect": false}
+          ],
+          "explanation": "Lồi cầu phát triển ngược hướng với hướng dịch chuyển của toàn bộ xương hàm dưới."
+        },
+        {
+          "question": "Tại sao việc xác định 'hướng xoay' của xương hàm dưới lại quan trọng?",
+          "options": [
+            {"text": "Để biết BN có nói nhiều không", "isCorrect": false},
+            {"text": "Dự đoán kiểu mặt (mặt dài hay mặt ngắn) và cách điều trị phù hợp", "isCorrect": true},
+            {"text": "Để chọn màu mắc cài", "isCorrect": false},
+            {"text": "Để mài răng", "isCorrect": false}
+          ],
+          "explanation": "Xoay đóng tạo mặt ngắn, xoay mở tạo mặt dài; mỗi kiểu cần kỹ thuật chỉnh nha khác nhau."
+        },
+        {
+          "question": "Giai đoạn 'Vị thành niên' (dậy thì) ảnh hưởng như thế nào đến hàm dưới so với hàm trên?",
+          "options": [
+            {"text": "Hàm trên phát triển nhanh hơn", "isCorrect": false},
+            {"text": "Hàm dưới thường có đỉnh tăng trưởng muộn hơn và mạnh hơn hàm trên", "isCorrect": true},
+            {"text": "Hai hàm ngừng phát triển cùng lúc", "isCorrect": false},
+            {"text": "Chỉ có răng phát triển", "isCorrect": false}
+          ],
+          "explanation": "Hàm dưới bắt kịp và đôi khi vượt qua hàm trên trong giai đoạn dậy thì."
+        },
+        {
+          "question": "Sự mọc răng vĩnh viễn bắt đầu từ nhóm răng nào?",
+          "options": [
+            {"text": "Răng nanh", "isCorrect": false},
+            {"text": "Răng cửa giữa dưới và răng hàm lớn thứ nhất (răng 6)", "isCorrect": true},
+            {"text": "Răng tiền hàm", "isCorrect": false},
+            {"text": "Răng khôn", "isCorrect": false}
+          ],
+          "explanation": "Đây là những răng đầu tiên báo hiệu thời kỳ răng hỗn hợp."
+        },
+        {
+          "question": "Khoảng 'Lee Way' trong bộ răng hỗn hợp là gì?",
+          "options": [
+            {"text": "Khoảng thưa giữa các răng cửa", "isCorrect": false},
+            {"text": "Sự chênh lệch kích thước giữa răng cối sữa và răng tiền hàm vĩnh viễn thay thế", "isCorrect": true},
+            {"text": "Khoảng cách từ mũi đến cằm", "isCorrect": false},
+            {"text": "Độ rộng của lưỡi", "isCorrect": false}
+          ],
+          "explanation": "Răng cối sữa to hơn răng số 4, 5 vĩnh viễn, tạo ra khoảng dư giúp răng 6 di gần và giải quyết chen trúc."
+        },
+        {
+          "question": "Hệ quả của việc mất răng 6 vĩnh viễn sớm là gì?",
+          "options": [
+            {"text": "Răng 7 di gần và nghiêng trục, các răng khác xô lệch", "isCorrect": true},
+            {"text": "Hàm phát triển to hơn", "isCorrect": false},
+            {"text": "Răng cửa mọc nhanh hơn", "isCorrect": false},
+            {"text": "Không ảnh hưởng gì", "isCorrect": false}
+          ],
+          "explanation": "Răng 6 là 'chìa khóa khớp cắn', mất nó sẽ làm sụp đổ toàn bộ thăng bằng cung răng."
+        },
+        {
+          "question": "Xương hàm trên tăng trưởng chiều rộng ở đường khớp giữa đến khoảng bao nhiêu tuổi?",
+          "options": [
+            {"text": "5 tuổi", "isCorrect": false},
+            {"text": "Đến khi dậy thì (khoảng 15-17 tuổi)", "isCorrect": true},
+            {"text": "30 tuổi", "isCorrect": false},
+            {"text": "Suốt đời", "isCorrect": false}
+          ],
+          "explanation": "Đường khớp giữa XHT vẫn có thể nới rộng bằng khí cụ cho đến khi cốt hóa hoàn toàn sau dậy thì."
+        },
+        {
+          "question": "Vai trò của sụn vách ngăn mũi trong tăng trưởng XHT theo Scott là:",
+          "options": [
+            {"text": "Không có vai trò gì", "isCorrect": false},
+            {"text": "Lực đẩy từ sụn vách ngăn đẩy XHT xuống dưới và ra trước", "isCorrect": true},
+            {"text": "Làm mũi to ra", "isCorrect": false},
+            {"text": "Chỉ có tác dụng hô hấp", "isCorrect": false}
+          ],
+          "explanation": "Scott cho rằng sụn vách ngăn là trung tâm tăng trưởng chính dẫn dắt hàm trên."
+        },
+        {
+          "question": "Xương nền sọ đạt kích thước tối đa vào khoảng tuổi nào?",
+          "options": [
+            {"text": "2 tuổi", "isCorrect": false},
+            {"text": "7 - 10 tuổi", "isCorrect": true},
+            {"text": "20 tuổi", "isCorrect": false},
+            {"text": "40 tuổi", "isCorrect": false}
+          ],
+          "explanation": "Xương nền sọ phát triển theo mô hình thần kinh, hoàn tất sớm hơn xương hàm."
+        },
+        {
+          "question": "Điểm mốc 'S' (Sella) trên phim đo sọ nằm ở đâu?",
+          "options": [
+            {"text": "Khớp mũi trán", "isCorrect": false},
+            {"text": "Trung tâm hố yên xương bướm", "isCorrect": true},
+            {"text": "Gai mũi trước", "isCorrect": false},
+            {"text": "Góc hàm", "isCorrect": false}
+          ],
+          "explanation": "Sella là điểm mốc quan trọng nhất ở nền sọ để vẽ các mặt phẳng tham chiếu."
+        },
+        {
+          "question": "Tăng trưởng xương mặt ở nam giới thường kéo dài hơn nữ giới bao lâu?",
+          "options": [
+            {"text": "Không kéo dài hơn", "isCorrect": false},
+            {"text": "Khoảng 2 - 3 năm", "isCorrect": true},
+            {"text": "10 năm", "isCorrect": false},
+            {"text": "Nữ kéo dài hơn nam", "isCorrect": false}
+          ],
+          "explanation": "Nam giới dậy thì muộn và kết thúc tăng trưởng muộn hơn, dẫn đến xương hàm to và góc cạnh hơn."
+        },
+        {
+          "question": "Yếu tố di truyền ảnh hưởng mạnh nhất đến đặc điểm nào?",
+          "options": [
+            {"text": "Sâu răng", "isCorrect": false},
+            {"text": "Tương quan hạng III xương (móm) và kích thước răng", "isCorrect": true},
+            {"text": "Màu sắc mắc cài", "isCorrect": false},
+            {"text": "Thói quen mút tay", "isCorrect": false}
+          ],
+          "explanation": "Kích thước xương và răng chịu sự chi phối chặt chẽ của gen hơn là môi trường."
+        },
+        {
+          "question": "Lồi xương (Torus) ở vòm miệng có thể ảnh hưởng đến chỉnh nha như thế nào?",
+          "options": [
+            {"text": "Làm răng mọc lệch", "isCorrect": false},
+            {"text": "Gây cản trở việc đặt các khí cụ nông rộng vòm miệng", "isCorrect": true},
+            {"text": "Làm sạch răng khó hơn", "isCorrect": false},
+            {"text": "Không ảnh hưởng", "isCorrect": false}
+          ],
+          "explanation": "Lồi xương chiếm không gian và có lớp niêm mạc mỏng, dễ bị tổn thương bởi khí cụ."
+        },
+        {
+          "question": "Dấu hiệu 'Răng nanh hàm trên mọc khểnh' thường do:",
+          "options": [
+            {"text": "Thiếu chỗ trên cung hàm vì mọc muộn hơn răng cửa và răng hàm nhỏ", "isCorrect": true},
+            {"text": "Do răng nanh quá nhỏ", "isCorrect": false},
+            {"text": "Do trẻ cười nhiều", "isCorrect": false},
+            {"text": "Do di truyền 100%", "isCorrect": false}
+          ],
+          "explanation": "Răng nanh thường là răng mọc cuối cùng trong nhóm răng trước, nếu thiếu chỗ nó sẽ bị đẩy ra ngoài."
+        },
+        {
+          "question": "Cơ chế 'Bồi đắp và Tiêu xương' (Remodeling) giúp xương hàm:",
+          "options": [
+            {"text": "Chỉ lớn lên về kích thước", "isCorrect": false},
+            {"text": "Thay đổi hình dáng và duy trì tỷ lệ hài hòa trong khi tăng trưởng", "isCorrect": true},
+            {"text": "Biến thành sụn", "isCorrect": false},
+            {"text": "Cứng hơn kim loại", "isCorrect": false}
+          ],
+          "explanation": "Remodeling cho phép xương thay đổi cấu trúc vi mô để thích nghi với các chức năng mới."
+        },
+        {
+          "question": "Mục tiêu của việc điều trị 'nhổ răng sữa có hướng dẫn' là:",
+          "options": [
+            {"text": "Để trẻ bớt đau", "isCorrect": false},
+            {"text": "Tận dụng sự tăng trưởng để điều chỉnh sự chen trúc răng vĩnh viễn", "isCorrect": true},
+            {"text": "Để tiết kiệm thời gian chỉnh nha sau này", "isCorrect": false},
+            {"text": "Để răng vĩnh viễn mọc to hơn", "isCorrect": false}
+          ],
+          "explanation": "Đây là một thủ thuật của chỉnh hình can thiệp giúp sắp xếp răng sớm."
+        },
+        {
+          "question": "Một đứa trẻ 10 tuổi có xương bàn tay tương đương trẻ 12 tuổi thì được gọi là:",
+          "options": [
+            {"text": "Phát triển chậm", "isCorrect": false},
+            {"text": "Phát triển sớm/nhanh (Advanced)", "isCorrect": true},
+            {"text": "Phát triển bình thường", "isCorrect": false},
+            {"text": "Bị bệnh lý xương", "isCorrect": false}
+          ],
+          "explanation": "Tuổi xương cao hơn tuổi đời chứng tỏ trẻ trưởng thành sớm về mặt sinh học."
+        },
+        {
+          "question": "XHT dịch chuyển 'xuống dưới' chủ yếu là do:",
+          "options": [
+            {"text": "Trọng lực", "isCorrect": false},
+            {"text": "Sự phát triển của nền sọ và vòm sọ phía trên đẩy xuống", "isCorrect": true},
+            {"text": "Do răng dưới kéo xuống", "isCorrect": false},
+            {"text": "Do hốc mắt to ra", "isCorrect": false}
+          ],
+          "explanation": "Sự dãn rộng của khối sọ não và nền sọ gián tiếp đẩy khối mặt xuống dưới."
+        },
+        {
+          "question": "Sự tăng trưởng của hốc mũi ảnh hưởng đến XHT như thế nào?",
+          "options": [
+            {"text": "Làm XHT rộng ra", "isCorrect": false},
+            {"text": "Sự hạ thấp sàn mũi làm tăng chiều cao của xương hàm trên", "isCorrect": true},
+            {"text": "Làm răng cửa bị thưa", "isCorrect": false},
+            {"text": "Không ảnh hưởng", "isCorrect": false}
+          ],
+          "explanation": "Sàn mũi đồng thời là vòm miệng, sự hạ thấp sàn mũi giúp khoang mũi rộng hơn."
+        },
+        {
+          "question": "Tại sao việc mút ngón tay sau 6 tuổi lại cực kỳ nguy hiểm?",
+          "options": [
+            {"text": "Làm trẻ bị hôi miệng", "isCorrect": false},
+            {"text": "Vì đây là lúc các răng cửa vĩnh viễn đang mọc và dễ bị biến dạng cung răng nhất", "isCorrect": true},
+            {"text": "Vì trẻ sẽ bị bạn bè chê cười", "isCorrect": false},
+            {"text": "Làm trẻ biếng ăn", "isCorrect": false}
+          ],
+          "explanation": "Lực mút ở giai đoạn răng hỗn hợp sẽ gây ra những sai lệch xương hàm khó sửa chữa bằng chỉnh nha đơn thuần."
+        },
+        {
+          "question": "Đặc điểm của 'Mặt phẳng nhai' trong quá trình tăng trưởng là:",
+          "options": [
+            {"text": "Cố định từ lúc sinh", "isCorrect": false},
+            {"text": "Hạ thấp dần xuống dưới và ra trước theo sự mọc răng", "isCorrect": true},
+            {"text": "Nâng cao lên trên", "isCorrect": false},
+            {"text": "Xoay ngược chiều kim đồng hồ ở mọi bệnh nhân", "isCorrect": false}
+          ],
+          "explanation": "Mặt phẳng nhai dịch chuyển theo hướng tăng trưởng chung của khối xương mặt."
+        },
+        {
+          "question": "Đường khớp sụn nền sọ đóng hoàn toàn vào khoảng tuổi nào?",
+          "options": [
+            {"text": "6 tuổi", "isCorrect": false},
+            {"text": "12 - 15 tuổi", "isCorrect": false},
+            {"text": "18 - 20 tuổi", "isCorrect": true},
+            {"text": "40 tuổi", "isCorrect": false}
+          ],
+          "explanation": "Khớp bướm - chẩm là khớp cuối cùng đóng lại, đánh dấu sự kết thúc tăng trưởng nền sọ."
+        },
+        {
+          "question": "Hệ quả của việc khớp bướm - chẩm đóng sớm là gì?",
+          "options": [
+            {"text": "Mặt dài ra", "isCorrect": false},
+            {"text": "Kém phát triển chiều dài nền sọ, dẫn đến mặt bị móm (hạng III)", "isCorrect": true},
+            {"text": "Răng mọc thừa", "isCorrect": false},
+            {"text": "Trán nhô ra", "isCorrect": false}
+          ],
+          "explanation": "Nền sọ ngắn làm xương hàm trên bị lùi ra sau so với hàm dưới."
+        }
+        ,
+            {
+              "question": "Răng sữa đầu tiên thường mọc vào khoảng thời gian nào?",
+              "options": [
+                {"text": "Lúc mới sinh", "isCorrect": false},
+                {"text": "6 tháng tuổi", "isCorrect": true},
+                {"text": "12 tháng tuổi", "isCorrect": false},
+                {"text": "2 tuổi", "isCorrect": false}
+              ],
+              "explanation": "Thông thường trẻ bắt đầu mọc răng cửa sữa hàm dưới vào khoảng tháng thứ 6 sau sinh."
+            },
+            {
+              "question": "Bộ răng sữa hoàn tất (20 chiếc) thường vào lúc trẻ bao nhiêu tuổi?",
+              "options": [
+                {"text": "1 tuổi", "isCorrect": false},
+                {"text": "2 - 2,5 tuổi", "isCorrect": true},
+                {"text": "4 tuổi", "isCorrect": false},
+                {"text": "6 tuổi", "isCorrect": false}
+              ],
+              "explanation": "Đến khoảng 24-30 tháng tuổi, trẻ thường đã mọc đủ 20 răng sữa."
+            },
+            {
+              "question": "Khoảng hở sinh lý giữa các răng trước ở bộ răng sữa có vai trò gì?",
+              "options": [
+                {"text": "Làm trẻ khó ăn nhai", "isCorrect": false},
+                {"text": "Là khoảng dự trữ cho các răng vĩnh viễn vốn có kích thước lớn hơn", "isCorrect": true},
+                {"text": "Dấu hiệu của suy dinh dưỡng", "isCorrect": false},
+                {"text": "Sẽ gây thưa răng vĩnh viễn sau này", "isCorrect": false}
+              ],
+              "explanation": "Răng vĩnh viễn lớn hơn răng sữa, nên các khe thưa ở răng sữa là cần thiết để tránh chen chúc sau này."
+            },
+            {
+              "question": "Thứ tự mọc răng vĩnh viễn hàm dưới phổ biến nhất là:",
+              "options": [
+                {"text": "6 - 1 - 2 - 3 - 4 - 5 - 7", "isCorrect": true},
+                {"text": "1 - 2 - 3 - 4 - 5 - 6 - 7", "isCorrect": false},
+                {"text": "6 - 1 - 2 - 4 - 5 - 3 - 7", "isCorrect": false},
+                {"text": "3 - 4 - 5 - 6 - 1 - 2 - 7", "isCorrect": false}
+              ],
+              "explanation": "Ở hàm dưới, răng nanh (3) thường mọc trước các răng tiền hàm (4, 5)."
+            },
+            {
+              "question": "Thứ tự mọc răng vĩnh viễn hàm trên phổ biến nhất là:",
+              "options": [
+                {"text": "6 - 1 - 2 - 3 - 4 - 5 - 7", "isCorrect": false},
+                {"text": "6 - 1 - 2 - 4 - 5 - 3 - 7", "isCorrect": true},
+                {"text": "1 - 2 - 4 - 5 - 3 - 6 - 7", "isCorrect": false},
+                {"text": "6 - 1 - 2 - 5 - 4 - 3 - 7", "isCorrect": false}
+              ],
+              "explanation": "Ở hàm trên, răng nanh (3) thường mọc muộn, sau răng tiền hàm 1 và 2 (4, 5)."
+            },
+            {
+              "question": "Khái niệm 'Incisor Liability' (Sự thiếu hụt khoảng răng cửa) ở hàm trên trung bình là bao nhiêu mm?",
+              "options": [
+                {"text": "2 mm", "isCorrect": false},
+                {"text": "5 mm", "isCorrect": false},
+                {"text": "7 mm", "isCorrect": true},
+                {"text": "10 mm", "isCorrect": false}
+              ],
+              "explanation": "Tổng kích thước 4 răng cửa vĩnh viễn trên lớn hơn răng sữa tương ứng khoảng 7mm."
+            },
+            {
+              "question": "Khái niệm 'Incisor Liability' ở hàm dưới trung bình là bao nhiêu mm?",
+              "options": [
+                {"text": "2 mm", "isCorrect": false},
+                {"text": "5 mm", "isCorrect": true},
+                {"text": "7 mm", "isCorrect": false},
+                {"text": "0 mm", "isCorrect": false}
+              ],
+              "explanation": "Hàm dưới cần thêm khoảng 5mm để đủ chỗ cho 4 răng cửa vĩnh viễn mọc thẳng hàng."
+            },
+            {
+              "question": "Cơ chế nào giúp cung cấp khoảng cho sự thiếu hụt răng cửa (Incisor liability)?",
+              "options": [
+                {"text": "Sự dãn rộng cung răng ở vùng răng nanh", "isCorrect": false},
+                {"text": "Sử dụng các khe hở sinh lý răng sữa", "isCorrect": false},
+                {"text": "Các răng cửa vĩnh viễn mọc nghiêng ra ngoài hơn răng sữa", "isCorrect": false},
+                {"text": "Tất cả các cơ chế trên", "isCorrect": true}
+              ],
+              "explanation": "Tự nhiên phối hợp nhiều cơ chế: dùng khe thưa, nới rộng cung răng và thay đổi độ nghiêng răng để đủ chỗ."
+            },
+            {
+              "question": "Giai đoạn 'Vịt con xấu xí' (Ugly Duckling stage) xảy ra khi nào?",
+              "options": [
+                {"text": "Lúc mới sinh", "isCorrect": false},
+                {"text": "Khi mọc răng cửa giữa vĩnh viễn", "isCorrect": false},
+                {"text": "Khi răng nanh trên chưa mọc, đẩy chân răng cửa bên làm các răng cửa bị thưa và xòe", "isCorrect": true},
+                {"text": "Khi đã mọc đủ răng khôn", "isCorrect": false}
+              ],
+              "explanation": "Đây là giai đoạn sinh lý bình thường, khe thưa sẽ tự đóng khi răng nanh mọc xuống."
+            },
+            {
+              "question": "Khoảng 'Lee Way' ở hàm dưới (mỗi bên) trung bình là bao nhiêu?",
+              "options": [
+                {"text": "0.5 mm", "isCorrect": false},
+                {"text": "1.7 mm", "isCorrect": false},
+                {"text": "2.5 mm", "isCorrect": true},
+                {"text": "5.0 mm", "isCorrect": false}
+              ],
+              "explanation": "Răng cối sữa hàm dưới lớn hơn răng tiền hàm vĩnh viễn tương ứng khoảng 2.5mm mỗi bên."
+            },
+            {
+              "question": "Khoảng 'Lee Way' ở hàm trên (mỗi bên) trung bình là bao nhiêu?",
+              "options": [
+                {"text": "0.9 mm đến 1.5 mm", "isCorrect": true},
+                {"text": "2.5 mm", "isCorrect": false},
+                {"text": "5 mm", "isCorrect": false},
+                {"text": "0 mm", "isCorrect": false}
+              ],
+              "explanation": "Khoảng Lee Way hàm trên nhỏ hơn hàm dưới, chỉ khoảng 1.5mm mỗi bên."
+            },
+            {
+              "question": "Sự khác biệt về khoảng Lee Way giữa hàm trên và hàm dưới giúp ích gì cho khớp cắn?",
+              "options": [
+                {"text": "Làm răng bị móm", "isCorrect": false},
+                {"text": "Giúp răng 6 dưới di gần nhiều hơn răng 6 trên, chuyển từ tương quan đối đầu sang hạng I", "isCorrect": true},
+                {"text": "Làm thưa răng", "isCorrect": false},
+                {"text": "Không có tác dụng gì", "isCorrect": false}
+              ],
+              "explanation": "Khoảng Lee Way lớn ở hàm dưới cho phép răng 6 dưới trượt ra trước nhiều hơn để thiết lập khớp cắn chuẩn."
+            },
+            {
+              "question": "Thời kỳ 'Răng hỗn hợp' được chia thành bao nhiêu giai đoạn?",
+              "options": [
+                {"text": "2 giai đoạn", "isCorrect": false},
+                {"text": "3 giai đoạn (Sớm, Giữa, Muộn)", "isCorrect": true},
+                {"text": "4 giai đoạn", "isCorrect": false},
+                {"text": "Không chia giai đoạn", "isCorrect": false}
+              ],
+              "explanation": "Chia làm 3 giai đoạn dựa trên nhóm răng đang thay đổi trên cung hàm."
+            },
+            {
+              "question": "Giai đoạn hỗn hợp SỚM đặc trưng bởi sự mọc của những răng nào?",
+              "options": [
+                {"text": "Răng nanh", "isCorrect": false},
+                {"text": "Răng tiền hàm", "isCorrect": false},
+                {"text": "Răng hàm lớn thứ nhất (răng 6) và các răng cửa vĩnh viễn", "isCorrect": true},
+                {"text": "Răng khôn", "isCorrect": false}
+              ],
+              "explanation": "Hỗn hợp sớm là lúc răng 6 mọc và thay các răng cửa sữa."
+            },
+            {
+              "question": "Giai đoạn hỗn hợp GIỮA diễn ra điều gì?",
+              "options": [
+                {"text": "Thay răng hàng loạt", "isCorrect": false},
+                {"text": "Thời kỳ tạm nghỉ, không có răng nào rụng hay mọc thêm trên cung hàm", "isCorrect": true},
+                {"text": "Mọc răng số 7", "isCorrect": false},
+                {"text": "Rụng răng nanh sữa", "isCorrect": false}
+              ],
+              "explanation": "Đây là giai đoạn ổn định chuẩn bị cho đợt thay răng hàm nhỏ và răng nanh tiếp theo."
+            },
+            {
+              "question": "Giai đoạn hỗn hợp MUỘN bắt đầu khi nào?",
+              "options": [
+                {"text": "Khi mọc răng 6", "isCorrect": false},
+                {"text": "Khi rụng các răng cối sữa và răng nanh sữa", "isCorrect": true},
+                {"text": "Khi rụng răng cửa", "isCorrect": false},
+                {"text": "Khi đủ 18 tuổi", "isCorrect": false}
+              ],
+              "explanation": "Hỗn hợp muộn là giai đoạn thay thế nhóm răng phía sau."
+            },
+            {
+              "question": "Hiện tượng 'Di gần sinh lý' của răng cối lớn vĩnh viễn xảy ra khi nào?",
+              "options": [
+                {"text": "Ngay khi răng 6 mọc", "isCorrect": false},
+                {"text": "Khi răng cối sữa rụng, tận dụng khoảng Lee Way", "isCorrect": true},
+                {"text": "Khi trẻ mút tay", "isCorrect": false},
+                {"text": "Khi nhổ răng cửa", "isCorrect": false}
+              ],
+              "explanation": "Răng 6 tận dụng khoảng trống dư thừa từ răng cối sữa để di chuyển ra trước."
+            },
+            {
+              "question": "Sự mọc răng vĩnh viễn thường bắt đầu sớm hơn ở giới tính nào?",
+              "options": [
+                {"text": "Nam giới", "isCorrect": false},
+                {"text": "Nữ giới", "isCorrect": true},
+                {"text": "Bằng nhau", "isCorrect": false},
+                {"text": "Không phụ thuộc giới tính", "isCorrect": false}
+              ],
+              "explanation": "Bé gái thường có xu hướng thay răng và dậy thì sớm hơn bé trai khoảng vài tháng đến 1 năm."
+            },
+            {
+              "question": "Yếu tố nào kích thích sự mọc răng vĩnh viễn theo chiều đứng?",
+              "options": [
+                {"text": "Sự dãn dài của chân răng và áp lực từ túi răng", "isCorrect": true},
+                {"text": "Do trẻ ăn đồ cứng", "isCorrect": false},
+                {"text": "Do lực hút trái đất", "isCorrect": false},
+                {"text": "Do lưỡi đẩy lên", "isCorrect": false}
+              ],
+              "explanation": "Quá trình hình thành chân răng tạo lực đẩy răng hướng về phía hốc miệng."
+            },
+            {
+              "question": "Khi răng vĩnh viễn mọc được bao nhiêu phần chân răng thì nó thường nhú ra khỏi nướu?",
+              "options": [
+                {"text": "1/4 chân răng", "isCorrect": false},
+                {"text": "1/2 đến 2/3 chân răng", "isCorrect": true},
+                {"text": "Hoàn tất 100% chân răng", "isCorrect": false},
+                {"text": "Ngay khi mới có mầm", "isCorrect": false}
+              ],
+              "explanation": "Răng thường nhú lợi khi chân răng đã thành lập được khoảng một nửa đến hai phần ba chiều dài."
+            },
+            {
+              "question": "Sau khi nhú lợi, mất bao lâu để răng vĩnh viễn hoàn tất quá trình đóng chóp chân răng?",
+              "options": [
+                {"text": "6 tháng", "isCorrect": false},
+                {"text": "1 năm", "isCorrect": false},
+                {"text": "2 - 3 năm", "isCorrect": true},
+                {"text": "10 năm", "isCorrect": false}
+              ],
+              "explanation": "Chóp răng tiếp tục đóng kín sau khi răng đã mọc vào vị trí chức năng vài năm."
+            },
+            {
+              "question": "Thuyết 'Tăng trưởng sụn' của James Scott cho rằng bộ phận nào dẫn dắt tăng trưởng XHT?",
+              "options": [
+                {"text": "Sụn vách ngăn mũi", "isCorrect": true},
+                {"text": "Sụn lồi cầu", "isCorrect": false},
+                {"text": "Đường khớp giữa", "isCorrect": false},
+                {"text": "Mô mềm mặt", "isCorrect": false}
+              ],
+              "explanation": "Scott tin rằng sụn vách ngăn mũi là trung tâm tăng trưởng chính đẩy hàm trên ra trước."
+            },
+            {
+              "question": "Thuyết 'Tăng trưởng màng' của Sicher nhấn mạnh vai trò của:",
+              "options": [
+                {"text": "Các đường khớp sọ mặt", "isCorrect": true},
+                {"text": "Cơ nhai", "isCorrect": false},
+                {"text": "Tuyến yên", "isCorrect": false},
+                {"text": "Nước bọt", "isCorrect": false}
+              ],
+              "explanation": "Sicher cho rằng các đường khớp có khả năng tự tăng trưởng đẩy các xương xa nhau."
+            },
+            {
+              "question": "Thuyết 'Khuôn chức năng' của Moss (1960) cho rằng yếu tố quyết định tăng trưởng xương là:",
+              "options": [
+                {"text": "Gen trong xương", "isCorrect": false},
+                {"text": "Sự phát triển của các khoang chức năng và mô mềm xung quanh", "isCorrect": true},
+                {"text": "Sụn lồi cầu", "isCorrect": false},
+                {"text": "Tủy răng", "isCorrect": false}
+              ],
+              "explanation": "Moss khẳng định xương chỉ là phản ứng thích nghi với nhu cầu chức năng của mô mềm."
+            },
+            {
+              "question": "Thuyết tăng trưởng của Van Limborgh là sự kết hợp của những yếu tố nào?",
+              "options": [
+                {"text": "Di truyền và Môi trường", "isCorrect": true},
+                {"text": "Sụn và Màng", "isCorrect": false},
+                {"text": "Dinh dưỡng và Khí hậu", "isCorrect": false},
+                {"text": "Cơ và Thần kinh", "isCorrect": false}
+              ],
+              "explanation": "Van Limborgh tổng hợp các yếu tố di truyền nội tại, môi trường tại chỗ và toàn thân."
+            },
+            {
+              "question": "Sự tăng trưởng của xương hàm theo chiều rộng hoàn tất khi nào?",
+              "options": [
+                {"text": "Trước đỉnh tăng trưởng dậy thì", "isCorrect": true},
+                {"text": "Sau đỉnh tăng trưởng dậy thì", "isCorrect": false},
+                {"text": "Lúc 20 tuổi", "isCorrect": false},
+                {"text": "Không bao giờ ngừng", "isCorrect": false}
+              ],
+              "explanation": "Chiều rộng hoàn tất rất sớm, thường trước khi trẻ bước vào giai đoạn dậy thì mạnh mẽ."
+            },
+            {
+              "question": "Sự tăng trưởng chiều cao mặt hoàn tất vào thời điểm nào?",
+              "options": [
+                {"text": "Lúc 5 tuổi", "isCorrect": false},
+                {"text": "Lúc 12 tuổi", "isCorrect": false},
+                {"text": "Sau cùng, kéo dài cho đến hết dậy thì và trưởng thành", "isCorrect": true},
+                {"text": "Lúc mọc đủ răng sữa", "isCorrect": false}
+              ],
+              "explanation": "Chiều đứng là chiều không gian tăng trưởng muộn nhất và bị ảnh hưởng bởi mọc răng hàm."
+            },
+            {
+              "question": "Đặc điểm tăng trưởng của mô bạch huyết (Lymphoid) trong biểu đồ Scammon là gì?",
+              "options": [
+                {"text": "Tăng đều đặn", "isCorrect": false},
+                {"text": "Phát triển cực đại lúc 10-12 tuổi (đạt 200%) rồi giảm dần", "isCorrect": true},
+                {"text": "Chỉ phát triển sau dậy thì", "isCorrect": false},
+                {"text": "Giống mô thần kinh", "isCorrect": false}
+              ],
+              "explanation": "Mô bạch huyết (amidan, VA) đạt đỉnh rất cao ở trẻ em trước khi teo nhỏ ở tuổi trưởng thành."
+            },
+            {
+              "question": "Hội chứng Down thường có đặc điểm răng mặt như thế nào?",
+              "options": [
+                {"text": "Hàm trên hô", "isCorrect": false},
+                {"text": "Kém phát triển xương hàm trên, lưỡi to, khớp cắn hạng III", "isCorrect": true},
+                {"text": "Răng mọc sớm", "isCorrect": false},
+                {"text": "Xương hàm dưới rất nhỏ", "isCorrect": false}
+              ],
+              "explanation": "Trẻ Down thường bị móm (hạng III) do tầng mặt giữa kém phát triển và lưỡi có xu hướng đẩy ra trước."
+            },
+            {
+              "question": "Bệnh loạn xương đòn - sọ (Cleidocranial dysplasia) có đặc điểm răng gì đặc biệt?",
+              "options": [
+                {"text": "Thiếu nhiều răng", "isCorrect": false},
+                {"text": "Có rất nhiều răng dư mọc ngầm và răng vĩnh viễn không mọc được", "isCorrect": true},
+                {"text": "Răng rất to", "isCorrect": false},
+                {"text": "Răng bị sâu hàng loạt", "isCorrect": false}
+              ],
+              "explanation": "Hội chứng này gây cản trở sự mọc răng vĩnh viễn do sự hiện diện của hàng loạt răng dư mọc kẹt."
+            },
+            {
+              "question": "Nghiện rượu ở phụ nữ mang thai (Fetal Alcohol Syndrome) ảnh hưởng gì đến sọ mặt thai nhi?",
+              "options": [
+                {"text": "Kém phát triển tầng mặt giữa và môi trên mỏng, phẳng", "isCorrect": true},
+                {"text": "Làm mũi cao lên", "isCorrect": false},
+                {"text": "Làm hàm dưới dài ra", "isCorrect": false},
+                {"text": "Răng mọc thừa", "isCorrect": false}
+              ],
+              "explanation": "Rượu gây tổn thương nặng nề đến sự phát triển mô mềm và xương mặt của thai nhi."
+            },
+            {
+              "question": "Di truyền ảnh hưởng đến sự hình thành răng theo hướng nào?",
+              "options": [
+                {"text": "Số lượng và hình dạng răng", "isCorrect": false},
+                {"text": "Thời gian mọc răng", "isCorrect": false},
+                {"text": "Kích thước răng", "isCorrect": false},
+                {"text": "Tất cả các yếu tố trên", "isCorrect": true}
+              ],
+              "explanation": "Đặc điểm của bộ răng (số lượng, kích thước, hình dạng) chịu sự kiểm soát rất chặt chẽ của gen."
+            },
+            {
+              "question": "Tật cắn môi trên thường dẫn đến hậu quả gì?",
+              "options": [
+                {"text": "Hàm trên bị vổ", "isCorrect": false},
+                {"text": "Răng cửa trên bị ép vào trong, răng cửa dưới bị đẩy ra ngoài (móm)", "isCorrect": true},
+                {"text": "Sâu răng nanh", "isCorrect": false},
+                {"text": "Không ảnh hưởng", "isCorrect": false}
+              ],
+              "explanation": "Ngược với cắn môi dưới, cắn môi trên gây ra tương quan hạng III (móm)."
+            },
+            {
+              "question": "Thói quen chống cằm lâu ngày có thể gây ra:",
+              "options": [
+                {"text": "Răng bị lung lay", "isCorrect": false},
+                {"text": "Sự phát triển không cân xứng của xương hàm dưới (lệch mặt)", "isCorrect": true},
+                {"text": "Làm răng trắng hơn", "isCorrect": false},
+                {"text": "Không có hại", "isCorrect": false}
+              ],
+              "explanation": "Lực tỳ đè cơ học liên tục làm ức chế tăng trưởng ở một bên xương hàm dưới."
+            },
+            {
+              "question": "Vai trò của 'Lực nhai' đối với sự mọc răng vĩnh viễn là gì?",
+              "options": [
+                {"text": "Lực nhai kích thích răng mọc nhanh hơn", "isCorrect": false},
+                {"text": "Lực nhai là lực cản chính chống lại sự mọc răng quá mức", "isCorrect": true},
+                {"text": "Làm răng bị lún vào xương", "isCorrect": false},
+                {"text": "Không có vai trò gì", "isCorrect": false}
+              ],
+              "explanation": "Răng luôn có khuynh hướng mọc lên, lực nhai giúp giữ răng ở mặt phẳng nhai ổn định."
+            },
+            {
+              "question": "Mất răng cối sữa thứ nhất sớm ảnh hưởng như thế nào?",
+              "options": [
+                {"text": "Gây thiếu chỗ cho răng tiền hàm thứ nhất mọc", "isCorrect": true},
+                {"text": "Gây vổ hàm trên", "isCorrect": false},
+                {"text": "Gây móm", "isCorrect": false},
+                {"text": "Không ảnh hưởng", "isCorrect": false}
+              ],
+              "explanation": "Khoảng trống bị thu hẹp do các răng lân cận di chuyển vào, làm răng vĩnh viễn mọc kẹt."
+            },
+            {
+              "question": "Theo thuyết Moss, sự tăng trưởng xương hàm dưới phụ thuộc vào nhu cầu của:",
+              "options": [
+                {"text": "Khối não bộ", "isCorrect": false},
+                {"text": "Khoang miệng và các chức năng nhai, nuốt, nói", "isCorrect": true},
+                {"text": "Xương cột sống", "isCorrect": false},
+                {"text": "Ống tai ngoài", "isCorrect": false}
+              ],
+              "explanation": "Hàm dưới lớn lên để thích nghi với các hoạt động chức năng của khoang miệng."
+            },
+            {
+              "question": "Phát biểu nào sau đây đúng về sự mọc răng khôn (răng 8)?",
+              "options": [
+                {"text": "Luôn mọc thẳng", "isCorrect": false},
+                {"text": "Thường thiếu chỗ do xương hàm ngừng phát triển chiều dài sớm", "isCorrect": true},
+                {"text": "Mọc lúc 10 tuổi", "isCorrect": false},
+                {"text": "Không bao giờ mọc ngầm", "isCorrect": false}
+              ],
+              "explanation": "Xương hàm dưới thường ngừng dài ra trước khi răng 8 kịp mọc, dẫn đến tỷ lệ mọc lệch cao."
+            },
+            {
+              "question": "Chiều cao mặt tăng lên đáng kể nhất trong giai đoạn nào?",
+              "options": [
+                {"text": "Lúc mọc răng sữa", "isCorrect": false},
+                {"text": "Lúc mọc răng hàm lớn thứ nhất và thứ hai vĩnh viễn", "isCorrect": true},
+                {"text": "Sau 40 tuổi", "isCorrect": false},
+                {"text": "Khi rụng răng cửa", "isCorrect": false}
+              ],
+              "explanation": "Sự mọc của các răng hàm lớn vĩnh viễn thiết lập lại kích thước dọc tầng mặt dưới."
+            },
+            {
+              "question": "Tại sao răng sữa thường có màu trắng đục hơn răng vĩnh viễn?",
+              "options": [
+                {"text": "Do trẻ uống sữa nhiều", "isCorrect": false},
+                {"text": "Do cấu trúc men và ngà răng sữa ít khoáng hóa hơn", "isCorrect": true},
+                {"text": "Do răng sữa nhỏ hơn", "isCorrect": false},
+                {"text": "Do không có tủy", "isCorrect": false}
+              ],
+              "explanation": "Đặc điểm cấu tạo mô học khiến răng sữa có màu trắng sáng (màu sữa)."
+            },
+            {
+              "question": "Sự hiện diện của 'Mesiodens' (răng giữa) nằm ở đâu?",
+              "options": [
+                {"text": "Ở giữa răng 6 và 7", "isCorrect": false},
+                {"text": "Ở đường giữa giữa hai răng cửa giữa hàm trên", "isCorrect": true},
+                {"text": "Ở góc hàm dưới", "isCorrect": false},
+                {"text": "Dưới lưỡi", "isCorrect": false}
+              ],
+              "explanation": "Mesiodens là loại răng dư phổ biến nhất, nằm ngay chính giữa hàm trên."
+            },
+            {
+              "question": "Điều trị 'nhổ răng sữa có hướng dẫn' (Serial Extraction) gồm trình tự nhổ răng nào?",
+              "options": [
+                {"text": "Nhổ răng 1 -> 2 -> 3", "isCorrect": false},
+                {"text": "Nhổ răng C sữa -> D sữa -> 4 vĩnh viễn", "isCorrect": true},
+                {"text": "Nhổ răng 6 -> 7", "isCorrect": false},
+                {"text": "Nhổ toàn bộ răng sữa", "isCorrect": false}
+              ],
+              "explanation": "Trình tự này giúp giải quyết chen trúc răng cửa sớm bằng cách nhường khoảng của răng sau."
+            },
+            {
+              "question": "Yếu tố môi trường nào sau đây có thể gây biến dạng xương hàm?",
+              "options": [
+                {"text": "Thói quen xấu kéo dài", "isCorrect": false},
+                {"text": "Dinh dưỡng kém", "isCorrect": false},
+                {"text": "Chấn thương lồi cầu", "isCorrect": false},
+                {"text": "Tất cả các yếu tố trên", "isCorrect": true}
+              ],
+              "explanation": "Xương hàm của trẻ em rất dẻo và dễ bị uốn nắn bởi các tác động bên ngoài."
+            },
+            {
+              "question": "Tại sao đỉnh tăng trưởng ở trẻ em quan trọng trong Chỉnh hình răng mặt?",
+              "options": [
+                {"text": "Để nhổ răng cho nhanh", "isCorrect": false},
+                {"text": "Để tận dụng tối đa sự phát triển xương nhằm sửa chữa các sai hình xương", "isCorrect": true},
+                {"text": "Để biết trẻ có thông minh không", "isCorrect": false},
+                {"text": "Không có ý nghĩa gì", "isCorrect": false}
+              ],
+              "explanation": "Can thiệp vào đỉnh tăng trưởng giúp đạt kết quả thay đổi xương hàm hiệu quả nhất mà không cần phẫu thuật."
+            },
+            {
+              "question": "Tăng trưởng của sọ mặt theo chiều RỘNG hoàn tất sớm nhất ở vùng nào?",
+              "options": [
+                {"text": "Vùng răng hàm lớn", "isCorrect": false},
+                {"text": "Vùng răng nanh và răng cửa", "isCorrect": true},
+                {"text": "Vùng cằm", "isCorrect": false},
+                {"text": "Vùng lồi cầu", "isCorrect": false}
+              ],
+              "explanation": "Chiều rộng vùng răng trước hoàn tất rất sớm, tạo điều kiện cho răng vĩnh viễn mọc."
+            },
+            {
+              "question": "Xương hàm trên dính với nền sọ qua các đường khớp nào?",
+              "options": [
+                {"text": "Đường khớp trán - hàm, gò má - hàm, bướm - khẩu cái", "isCorrect": true},
+                {"text": "Đường khớp giữa cằm", "isCorrect": false},
+                {"text": "Khớp thái dương hàm", "isCorrect": false},
+                {"text": "Khớp vai", "isCorrect": false}
+              ],
+              "explanation": "Các đường khớp này là nơi diễn ra hoạt động tạo xương chính của hàm trên."
+            },
+            {
+              "question": "Cơ chế nào làm cho xương hàm dưới cao lên?",
+              "options": [
+                {"text": "Sự bồi đắp xương ở lồi cầu và bờ trên xương ổ răng", "isCorrect": true},
+                {"text": "Do lưỡi đẩy", "isCorrect": false},
+                {"text": "Do tiêu xương vùng cằm", "isCorrect": false},
+                {"text": "Do mọc răng khôn", "isCorrect": false}
+              ],
+              "explanation": "Lồi cầu và xương ổ răng phát triển theo chiều đứng làm tăng chiều cao mặt dưới."
+            },
+            {
+              "question": "Hệ quả của việc mất răng nanh sữa sớm là:",
+              "options": [
+                {"text": "Răng cửa vĩnh viễn nghiêng về phía khoảng mất răng gây thiếu chỗ cho răng nanh vĩnh viễn", "isCorrect": true},
+                {"text": "Răng hàm mọc nhanh hơn", "isCorrect": false},
+                {"text": "Làm trẻ nói ngọng", "isCorrect": false},
+                {"text": "Không ảnh hưởng", "isCorrect": false}
+              ],
+              "explanation": "Răng cửa sẽ lấn sân sang chỗ của răng nanh, dẫn đến răng nanh vĩnh viễn mọc khểnh."
+            },
+            {
+              "question": "Hội chứng Apert gây ra sai hình sọ mặt do nguyên nhân gì?",
+              "options": [
+                {"text": "Đóng sớm các đường khớp sọ (Craniosynostosis)", "isCorrect": true},
+                {"text": "Do mẹ hút thuốc", "isCorrect": false},
+                {"text": "Do thiếu canxi", "isCorrect": false},
+                {"text": "Do chấn thương lúc sinh", "isCorrect": false}
+              ],
+              "explanation": "Đóng khớp sớm làm sọ và mặt không thể nở lớn bình thường, gây biến dạng trầm trọng."
+            },
+            {
+              "question": "Lồi cầu xương hàm dưới được coi là một trung tâm tăng trưởng 'thứ cấp' vì:",
+              "options": [
+                {"text": "Nó không có sụn", "isCorrect": false},
+                {"text": "Sự tăng trưởng của nó là phản ứng thích nghi với sự dịch chuyển của hàm", "isCorrect": true},
+                {"text": "Nó chỉ phát triển ở người già", "isCorrect": false},
+                {"text": "Nó nhỏ hơn các xương khác", "isCorrect": false}
+              ],
+              "explanation": "Quan điểm hiện đại coi sụn lồi cầu là sụn thích nghi chứ không phải trung tâm dẫn dắt nguyên phát."
+            },
+            {
+              "question": "Tại sao việc thở bằng mũi lại quan trọng đối với sự phát triển hàm trên?",
+              "options": [
+                {"text": "Làm sạch không khí", "isCorrect": false},
+                {"text": "Tạo áp lực cân bằng giữa khoang mũi và khoang miệng giúp vòm miệng nở rộng", "isCorrect": true},
+                {"text": "Giúp trẻ ngủ ngon", "isCorrect": false},
+                {"text": "Giúp răng trắng", "isCorrect": false}
+              ],
+              "explanation": "Luồng khí qua mũi giúp kích thích sự phát triển theo chiều ngang của xương hàm trên."
+            },
+            {
+              "question": "Chỉ số 'Cắn trùm' (Overbite) âm có nghĩa là gì?",
+              "options": [
+                {"text": "Cắn sâu", "isCorrect": false},
+                {"text": "Cắn hở (răng trên và dưới không chạm nhau theo chiều đứng)", "isCorrect": true},
+                {"text": "Cắn ngược", "isCorrect": false},
+                {"text": "Khớp cắn bình thường", "isCorrect": false}
+              ],
+              "explanation": "Cắn trùm âm tương ứng với tình trạng cắn hở trên lâm sàng."
+            },
+            {
+              "question": "Răng cối lớn thứ hai vĩnh viễn (răng 7) mọc lúc mấy tuổi?",
+              "options": [
+                {"text": "6 tuổi", "isCorrect": false},
+                {"text": "12 tuổi", "isCorrect": true},
+                {"text": "18 tuổi", "isCorrect": false},
+                {"text": "25 tuổi", "isCorrect": false}
+              ],
+              "explanation": "Răng 7 mọc vào khoảng cuối thời kỳ răng hỗn hợp, lúc 12 tuổi."
+            },
+            {
+              "question": "Sự khác biệt về tăng trưởng XHD giữa nam và nữ thể hiện rõ nhất ở đâu?",
+              "options": [
+                {"text": "Vùng cằm và cành đứng xương hàm dưới", "isCorrect": true},
+                {"text": "Ở răng cửa", "isCorrect": false},
+                {"text": "Ở răng nanh", "isCorrect": false},
+                {"text": "Ở khớp thái dương hàm", "isCorrect": false}
+              ],
+              "explanation": "Nam giới có cằm nhô hơn và xương hàm to hơn do tăng trưởng dậy thì kéo dài."
+            },
+            {
+              "question": "Giai đoạn hỗn hợp GIỮA thường kéo dài bao lâu?",
+              "options": [
+                {"text": "6 tháng", "isCorrect": false},
+                {"text": "1 - 2 năm", "isCorrect": true},
+                {"text": "5 năm", "isCorrect": false},
+                {"text": "10 năm", "isCorrect": false}
+              ],
+              "explanation": "Sau khi mọc răng cửa và răng 6, cung hàm ổn định khoảng 1-2 năm trước khi thay các răng sau."
+            },
+            {
+              "question": "Xương nền sọ phát triển theo mô hình tăng trưởng nào của Scammon?",
+              "options": [
+                {"text": "Mô hình thần kinh (Neural)", "isCorrect": true},
+                {"text": "Mô hình sinh dục (Genital)", "isCorrect": false},
+                {"text": "Mô hình tổng quát (General)", "isCorrect": false},
+                {"text": "Mô hình bạch huyết (Lymphoid)", "isCorrect": false}
+              ],
+              "explanation": "Nền sọ bao bọc não nên nó hoàn tất tăng trưởng rất sớm giống như khối não."
+            },
+            {
+              "question": "Việc sử dụng phim X-quang Panorama trong thời kỳ răng hỗn hợp để làm gì?",
+              "options": [
+                {"text": "Để xem sâu răng", "isCorrect": false},
+                {"text": "Theo dõi vị trí, số lượng và tiến trình mọc của các mầm răng vĩnh viễn", "isCorrect": true},
+                {"text": "Để mài răng", "isCorrect": false},
+                {"text": "Để tẩy trắng răng", "isCorrect": false}
+              ],
+              "explanation": "Panorama cung cấp cái nhìn tổng thể về 'kho vũ khí' răng vĩnh viễn bên dưới nướu."
+            },
+            {
+              "question": "Hiện tượng 'tiêu ngót chân răng sữa' là do áp lực từ đâu?",
+              "options": [
+                {"text": "Do vi khuẩn", "isCorrect": false},
+                {"text": "Do mầm răng vĩnh viễn bên dưới đang mọc lên", "isCorrect": true},
+                {"text": "Do trẻ nhai nhiều", "isCorrect": false},
+                {"text": "Do canxi bị mất", "isCorrect": false}
+              ],
+              "explanation": "Sự di chuyển hướng về hốc miệng của răng vĩnh viễn kích thích các tế bào hủy xương làm tiêu chân răng sữa."
+            },
+            {
+              "question": "Tại sao trẻ em bị hẹp hàm trên thường có thói quen thở miệng?",
+              "options": [
+                {"text": "Do mũi bị tịt vì vòm miệng cao làm thu hẹp khoang mũi", "isCorrect": true},
+                {"text": "Do trẻ thích vậy", "isCorrect": false},
+                {"text": "Do lưỡi to", "isCorrect": false},
+                {"text": "Do răng đau", "isCorrect": false}
+              ],
+              "explanation": "Cấu trúc hàm trên hẹp đi kèm vòm miệng cao hình chữ V làm giảm thể tích lưu thông khí qua mũi."
+            },
+            {
+              "question": "Di truyền quyết định bao nhiêu % sự sai lệch khớp cắn (tổng quát)?",
+              "options": [
+                {"text": "5%", "isCorrect": false},
+                {"text": "40%", "isCorrect": true},
+                {"text": "90%", "isCorrect": false},
+                {"text": "100%", "isCorrect": false}
+              ],
+              "explanation": "Dù môi trường có tác động, nhưng nền tảng di truyền vẫn chiếm ưu thế khoảng 40% trong bệnh căn học."
+            },
+            {
+              "question": "Trong CHRM, 'Khớp cắn lý tưởng' là mục tiêu của loại điều trị nào?",
+              "options": [
+                {"text": "Chỉnh hình phòng ngừa", "isCorrect": false},
+                {"text": "Chỉnh hình toàn diện", "isCorrect": true},
+                {"text": "Chỉnh hình hỗ trợ", "isCorrect": false},
+                {"text": "Chỉnh hình can thiệp", "isCorrect": false}
+              ],
+              "explanation": "Chỉnh hình toàn diện hướng tới sự hoàn hảo về cả chức năng lẫn thẩm mỹ nụ cười."
+            },
+            {
+              "question": "Đường khớp giữa xương hàm trên thường kết thúc hoạt động tăng trưởng tự nhiên vào tuổi nào?",
+              "options": [
+                {"text": "Lúc sinh", "isCorrect": false},
+                {"text": "Sau dậy thì", "isCorrect": true},
+                {"text": "30 tuổi", "isCorrect": false},
+                {"text": "5 tuổi", "isCorrect": false}
+              ],
+              "explanation": "Sau dậy thì, đường khớp này bắt đầu cốt hóa cứng lại, việc nới rộng bằng khí cụ trở nên khó khăn hơn."
+            },
+            {
+              "question": "Mục tiêu tối thượng của Chỉnh Hình Răng Mặt dự phòng là gì?",
+              "options": [
+                {"text": "Làm cho răng đẹp ngay lập tức", "isCorrect": false},
+                {"text": "Giảm thiểu các sai lệch khớp cắn trong tương lai bằng cách can thiệp sớm và đúng lúc", "isCorrect": true},
+                {"text": "Để không phải đeo mắc cài", "isCorrect": false},
+                {"text": "Để trẻ ăn ngon hơn", "isCorrect": false}
+              ],
+              "explanation": "Dự phòng giúp hướng dẫn sự tăng trưởng đi đúng quỹ đạo, hạn chế các ca phẫu thuật phức tạp sau này."
+            },
+            {
+              "question": "Việc mất răng sữa quá sớm có thể làm răng vĩnh viễn tương ứng mọc chậm lại, tại sao?",
+              "options": [
+                {"text": "Do nướu bị xơ cứng và xương bao phủ phía trên mầm răng dày lên", "isCorrect": true},
+                {"text": "Do mầm răng bị hỏng", "isCorrect": false},
+                {"text": "Do thiếu dinh dưỡng", "isCorrect": false},
+                {"text": "Do trẻ sợ đau", "isCorrect": false}
+              ],
+              "explanation": "Mất răng sữa sớm mà không có khí cụ giữ khoảng sẽ làm mô mềm và xương lấp kín đường mọc của răng vĩnh viễn."
+            },
+            {
+              "question": "Răng sữa nào thường rụng cuối cùng?",
+              "options": [
+                {"text": "Răng cửa giữa", "isCorrect": false},
+                {"text": "Răng cối sữa thứ hai (răng E)", "isCorrect": true},
+                {"text": "Răng nanh sữa", "isCorrect": false},
+                {"text": "Răng cối sữa thứ nhất", "isCorrect": false}
+              ],
+              "explanation": "Răng cối sữa thứ hai thường rụng vào khoảng 11-12 tuổi để nhường chỗ cho răng số 5 vĩnh viễn."
+            },
+            {
+              "question": "Hệ quả của việc khớp cắn đối đầu (Flush terminal plane) ở răng sữa là gì?",
+              "options": [
+                {"text": "Luôn dẫn đến móm", "isCorrect": false},
+                {"text": "Cần khoảng Lee Way để chuyển sang hạng I răng vĩnh viễn", "isCorrect": true},
+                {"text": "Là khớp cắn chuẩn nhất", "isCorrect": false},
+                {"text": "Sẽ gây vổ", "isCorrect": false}
+              ],
+              "explanation": "Đối đầu răng sữa là tiền đề để thiết lập hạng I vĩnh viễn nhờ sự dịch chuyển của răng 6."
+            },
+            {
+              "question": "Khuôn mặt người già trông ngắn lại là do:",
+              "options": [
+                {"text": "Xương bị co lại", "isCorrect": false},
+                {"text": "Mất răng và tiêu xương ổ răng dẫn đến mất kích thước dọc tầng mặt dưới", "isCorrect": true},
+                {"text": "Do mũi dài ra", "isCorrect": false},
+                {"text": "Do nếp nhăn", "isCorrect": false}
+              ],
+              "explanation": "Răng và xương ổ đóng vai trò nâng đỡ chiều cao mặt, mất chúng làm mặt bị sụp đổ chiều đứng."
+            },
+            {
+              "question": "Tại sao cần chụp phim sọ nghiêng (Cephalometric) trong chỉnh nha?",
+              "options": [
+                {"text": "Để xem sâu răng", "isCorrect": false},
+                {"text": "Đo đạc tương quan giữa răng, xương hàm và nền sọ để lập kế hoạch điều trị", "isCorrect": true},
+                {"text": "Để xem tủy răng", "isCorrect": false},
+                {"text": "Để xem phim cho vui", "isCorrect": false}
+              ],
+              "explanation": "Phim sọ nghiêng là tiêu chuẩn vàng để phân tích sai hình xương và răng trong chỉnh hình."
+            },
+            {
+              "question": "Kết quả cuối cùng của sự tăng trưởng sọ mặt là tạo ra một cá thể có:",
+              "options": [
+                {"text": "Khuôn mặt cân đối và bộ răng chức năng hoàn thiện", "isCorrect": true},
+                {"text": "Răng thật trắng", "isCorrect": false},
+                {"text": "Hàm dưới thật to", "isCorrect": false},
+                {"text": "Mũi thật cao", "isCorrect": false}
+              ],
+              "explanation": "Sự trưởng thành của hệ thống nhai là đích đến cuối cùng của quá trình tăng trưởng và phát triển."
+            }
+            ,
+                {
+                  "question": "Răng sữa đầu tiên thường mọc vào khoảng thời gian nào?",
+                  "options": [
+                    {"text": "Lúc mới sinh", "isCorrect": false},
+                    {"text": "6 tháng tuổi", "isCorrect": true},
+                    {"text": "12 tháng tuổi", "isCorrect": false},
+                    {"text": "2 tuổi", "isCorrect": false}
+                  ],
+                  "explanation": "Thông thường trẻ bắt đầu mọc răng cửa sữa hàm dưới vào khoảng tháng thứ 6 sau sinh."
+                },
+                {
+                  "question": "Bộ răng sữa hoàn tất (20 chiếc) thường vào lúc trẻ bao nhiêu tuổi?",
+                  "options": [
+                    {"text": "1 tuổi", "isCorrect": false},
+                    {"text": "2 - 2,5 tuổi", "isCorrect": true},
+                    {"text": "4 tuổi", "isCorrect": false},
+                    {"text": "6 tuổi", "isCorrect": false}
+                  ],
+                  "explanation": "Đến khoảng 24-30 tháng tuổi, trẻ thường đã mọc đủ 20 răng sữa."
+                },
+                {
+                  "question": "Khoảng hở sinh lý giữa các răng trước ở bộ răng sữa có vai trò gì?",
+                  "options": [
+                    {"text": "Làm trẻ khó ăn nhai", "isCorrect": false},
+                    {"text": "Là khoảng dự trữ cho các răng vĩnh viễn vốn có kích thước lớn hơn", "isCorrect": true},
+                    {"text": "Dấu hiệu của suy dinh dưỡng", "isCorrect": false},
+                    {"text": "Sẽ gây thưa răng vĩnh viễn sau này", "isCorrect": false}
+                  ],
+                  "explanation": "Răng vĩnh viễn lớn hơn răng sữa, nên các khe thưa ở răng sữa là cần thiết để tránh chen chúc sau này."
+                },
+                {
+                  "question": "Thứ tự mọc răng vĩnh viễn hàm dưới phổ biến nhất là:",
+                  "options": [
+                    {"text": "6 - 1 - 2 - 3 - 4 - 5 - 7", "isCorrect": true},
+                    {"text": "1 - 2 - 3 - 4 - 5 - 6 - 7", "isCorrect": false},
+                    {"text": "6 - 1 - 2 - 4 - 5 - 3 - 7", "isCorrect": false},
+                    {"text": "3 - 4 - 5 - 6 - 1 - 2 - 7", "isCorrect": false}
+                  ],
+                  "explanation": "Ở hàm dưới, răng nanh (3) thường mọc trước các răng tiền hàm (4, 5)."
+                },
+                {
+                  "question": "Thứ tự mọc răng vĩnh viễn hàm trên phổ biến nhất là:",
+                  "options": [
+                    {"text": "6 - 1 - 2 - 3 - 4 - 5 - 7", "isCorrect": false},
+                    {"text": "6 - 1 - 2 - 4 - 5 - 3 - 7", "isCorrect": true},
+                    {"text": "1 - 2 - 4 - 5 - 3 - 6 - 7", "isCorrect": false},
+                    {"text": "6 - 1 - 2 - 5 - 4 - 3 - 7", "isCorrect": false}
+                  ],
+                  "explanation": "Ở hàm trên, răng nanh (3) thường mọc muộn, sau răng tiền hàm 1 và 2 (4, 5)."
+                },
+                {
+                  "question": "Khái niệm 'Incisor Liability' (Sự thiếu hụt khoảng răng cửa) ở hàm trên trung bình là bao nhiêu mm?",
+                  "options": [
+                    {"text": "2 mm", "isCorrect": false},
+                    {"text": "5 mm", "isCorrect": false},
+                    {"text": "7 mm", "isCorrect": true},
+                    {"text": "10 mm", "isCorrect": false}
+                  ],
+                  "explanation": "Tổng kích thước 4 răng cửa vĩnh viễn trên lớn hơn răng sữa tương ứng khoảng 7mm."
+                },
+                {
+                  "question": "Khái niệm 'Incisor Liability' ở hàm dưới trung bình là bao nhiêu mm?",
+                  "options": [
+                    {"text": "2 mm", "isCorrect": false},
+                    {"text": "5 mm", "isCorrect": true},
+                    {"text": "7 mm", "isCorrect": false},
+                    {"text": "0 mm", "isCorrect": false}
+                  ],
+                  "explanation": "Hàm dưới cần thêm khoảng 5mm để đủ chỗ cho 4 răng cửa vĩnh viễn mọc thẳng hàng."
+                },
+                {
+                  "question": "Cơ chế nào giúp cung cấp khoảng cho sự thiếu hụt răng cửa (Incisor liability)?",
+                  "options": [
+                    {"text": "Sự dãn rộng cung răng ở vùng răng nanh", "isCorrect": false},
+                    {"text": "Sử dụng các khe hở sinh lý răng sữa", "isCorrect": false},
+                    {"text": "Các răng cửa vĩnh viễn mọc nghiêng ra ngoài hơn răng sữa", "isCorrect": false},
+                    {"text": "Tất cả các cơ chế trên", "isCorrect": true}
+                  ],
+                  "explanation": "Tự nhiên phối hợp nhiều cơ chế: dùng khe thưa, nới rộng cung răng và thay đổi độ nghiêng răng để đủ chỗ."
+                },
+                {
+                  "question": "Giai đoạn 'Vịt con xấu xí' (Ugly Duckling stage) xảy ra khi nào?",
+                  "options": [
+                    {"text": "Lúc mới sinh", "isCorrect": false},
+                    {"text": "Khi mọc răng cửa giữa vĩnh viễn", "isCorrect": false},
+                    {"text": "Khi răng nanh trên chưa mọc, đẩy chân răng cửa bên làm các răng cửa bị thưa và xòe", "isCorrect": true},
+                    {"text": "Khi đã mọc đủ răng khôn", "isCorrect": false}
+                  ],
+                  "explanation": "Đây là giai đoạn sinh lý bình thường, khe thưa sẽ tự đóng khi răng nanh mọc xuống."
+                },
+                {
+                  "question": "Khoảng 'Lee Way' ở hàm dưới (mỗi bên) trung bình là bao nhiêu?",
+                  "options": [
+                    {"text": "0.5 mm", "isCorrect": false},
+                    {"text": "1.7 mm", "isCorrect": false},
+                    {"text": "2.5 mm", "isCorrect": true},
+                    {"text": "5.0 mm", "isCorrect": false}
+                  ],
+                  "explanation": "Răng cối sữa hàm dưới lớn hơn răng tiền hàm vĩnh viễn tương ứng khoảng 2.5mm mỗi bên."
+                },
+                {
+                  "question": "Khoảng 'Lee Way' ở hàm trên (mỗi bên) trung bình là bao nhiêu?",
+                  "options": [
+                    {"text": "0.9 mm đến 1.5 mm", "isCorrect": true},
+                    {"text": "2.5 mm", "isCorrect": false},
+                    {"text": "5 mm", "isCorrect": false},
+                    {"text": "0 mm", "isCorrect": false}
+                  ],
+                  "explanation": "Khoảng Lee Way hàm trên nhỏ hơn hàm dưới, chỉ khoảng 1.5mm mỗi bên."
+                },
+                {
+                  "question": "Sự khác biệt về khoảng Lee Way giữa hàm trên và hàm dưới giúp ích gì cho khớp cắn?",
+                  "options": [
+                    {"text": "Làm răng bị móm", "isCorrect": false},
+                    {"text": "Giúp răng 6 dưới di gần nhiều hơn răng 6 trên, chuyển từ tương quan đối đầu sang hạng I", "isCorrect": true},
+                    {"text": "Làm thưa răng", "isCorrect": false},
+                    {"text": "Không có tác dụng gì", "isCorrect": false}
+                  ],
+                  "explanation": "Khoảng Lee Way lớn ở hàm dưới cho phép răng 6 dưới trượt ra trước nhiều hơn để thiết lập khớp cắn chuẩn."
+                },
+                {
+                  "question": "Thời kỳ 'Răng hỗn hợp' được chia thành bao nhiêu giai đoạn?",
+                  "options": [
+                    {"text": "2 giai đoạn", "isCorrect": false},
+                    {"text": "3 giai đoạn (Sớm, Giữa, Muộn)", "isCorrect": true},
+                    {"text": "4 giai đoạn", "isCorrect": false},
+                    {"text": "Không chia giai đoạn", "isCorrect": false}
+                  ],
+                  "explanation": "Chia làm 3 giai đoạn dựa trên nhóm răng đang thay đổi trên cung hàm."
+                },
+                {
+                  "question": "Giai đoạn hỗn hợp SỚM đặc trưng bởi sự mọc của những răng nào?",
+                  "options": [
+                    {"text": "Răng nanh", "isCorrect": false},
+                    {"text": "Răng tiền hàm", "isCorrect": false},
+                    {"text": "Răng hàm lớn thứ nhất (răng 6) và các răng cửa vĩnh viễn", "isCorrect": true},
+                    {"text": "Răng khôn", "isCorrect": false}
+                  ],
+                  "explanation": "Hỗn hợp sớm là lúc răng 6 mọc và thay các răng cửa sữa."
+                },
+                {
+                  "question": "Giai đoạn hỗn hợp GIỮA diễn ra điều gì?",
+                  "options": [
+                    {"text": "Thay răng hàng loạt", "isCorrect": false},
+                    {"text": "Thời kỳ tạm nghỉ, không có răng nào rụng hay mọc thêm trên cung hàm", "isCorrect": true},
+                    {"text": "Mọc răng số 7", "isCorrect": false},
+                    {"text": "Rụng răng nanh sữa", "isCorrect": false}
+                  ],
+                  "explanation": "Đây là giai đoạn ổn định chuẩn bị cho đợt thay răng hàm nhỏ và răng nanh tiếp theo."
+                },
+                {
+                  "question": "Giai đoạn hỗn hợp MUỘN bắt đầu khi nào?",
+                  "options": [
+                    {"text": "Khi mọc răng 6", "isCorrect": false},
+                    {"text": "Khi rụng các răng cối sữa và răng nanh sữa", "isCorrect": true},
+                    {"text": "Khi rụng răng cửa", "isCorrect": false},
+                    {"text": "Khi đủ 18 tuổi", "isCorrect": false}
+                  ],
+                  "explanation": "Hỗn hợp muộn là giai đoạn thay thế nhóm răng phía sau."
+                },
+                {
+                  "question": "Hiện tượng 'Di gần sinh lý' của răng cối lớn vĩnh viễn xảy ra khi nào?",
+                  "options": [
+                    {"text": "Ngay khi răng 6 mọc", "isCorrect": false},
+                    {"text": "Khi răng cối sữa rụng, tận dụng khoảng Lee Way", "isCorrect": true},
+                    {"text": "Khi trẻ mút tay", "isCorrect": false},
+                    {"text": "Khi nhổ răng cửa", "isCorrect": false}
+                  ],
+                  "explanation": "Răng 6 tận dụng khoảng trống dư thừa từ răng cối sữa để di chuyển ra trước."
+                },
+                {
+                  "question": "Sự mọc răng vĩnh viễn thường bắt đầu sớm hơn ở giới tính nào?",
+                  "options": [
+                    {"text": "Nam giới", "isCorrect": false},
+                    {"text": "Nữ giới", "isCorrect": true},
+                    {"text": "Bằng nhau", "isCorrect": false},
+                    {"text": "Không phụ thuộc giới tính", "isCorrect": false}
+                  ],
+                  "explanation": "Bé gái thường có xu hướng thay răng và dậy thì sớm hơn bé trai khoảng vài tháng đến 1 năm."
+                },
+                {
+                  "question": "Yếu tố nào kích thích sự mọc răng vĩnh viễn theo chiều đứng?",
+                  "options": [
+                    {"text": "Sự dãn dài của chân răng và áp lực từ túi răng", "isCorrect": true},
+                    {"text": "Do trẻ ăn đồ cứng", "isCorrect": false},
+                    {"text": "Do lực hút trái đất", "isCorrect": false},
+                    {"text": "Do lưỡi đẩy lên", "isCorrect": false}
+                  ],
+                  "explanation": "Quá trình hình thành chân răng tạo lực đẩy răng hướng về phía hốc miệng."
+                },
+                {
+                  "question": "Khi răng vĩnh viễn mọc được bao nhiêu phần chân răng thì nó thường nhú ra khỏi nướu?",
+                  "options": [
+                    {"text": "1/4 chân răng", "isCorrect": false},
+                    {"text": "1/2 đến 2/3 chân răng", "isCorrect": true},
+                    {"text": "Hoàn tất 100% chân răng", "isCorrect": false},
+                    {"text": "Ngay khi mới có mầm", "isCorrect": false}
+                  ],
+                  "explanation": "Răng thường nhú lợi khi chân răng đã thành lập được khoảng một nửa đến hai phần ba chiều dài."
+                },
+                {
+                  "question": "Sau khi nhú lợi, mất bao lâu để răng vĩnh viễn hoàn tất quá trình đóng chóp chân răng?",
+                  "options": [
+                    {"text": "6 tháng", "isCorrect": false},
+                    {"text": "1 năm", "isCorrect": false},
+                    {"text": "2 - 3 năm", "isCorrect": true},
+                    {"text": "10 năm", "isCorrect": false}
+                  ],
+                  "explanation": "Chóp răng tiếp tục đóng kín sau khi răng đã mọc vào vị trí chức năng vài năm."
+                },
+                {
+                  "question": "Thuyết 'Tăng trưởng sụn' của James Scott cho rằng bộ phận nào dẫn dắt tăng trưởng XHT?",
+                  "options": [
+                    {"text": "Sụn vách ngăn mũi", "isCorrect": true},
+                    {"text": "Sụn lồi cầu", "isCorrect": false},
+                    {"text": "Đường khớp giữa", "isCorrect": false},
+                    {"text": "Mô mềm mặt", "isCorrect": false}
+                  ],
+                  "explanation": "Scott tin rằng sụn vách ngăn mũi là trung tâm tăng trưởng chính đẩy hàm trên ra trước."
+                },
+                {
+                  "question": "Thuyết 'Tăng trưởng màng' của Sicher nhấn mạnh vai trò của:",
+                  "options": [
+                    {"text": "Các đường khớp sọ mặt", "isCorrect": true},
+                    {"text": "Cơ nhai", "isCorrect": false},
+                    {"text": "Tuyến yên", "isCorrect": false},
+                    {"text": "Nước bọt", "isCorrect": false}
+                  ],
+                  "explanation": "Sicher cho rằng các đường khớp có khả năng tự tăng trưởng đẩy các xương xa nhau."
+                },
+                {
+                  "question": "Thuyết 'Khuôn chức năng' của Moss (1960) cho rằng yếu tố quyết định tăng trưởng xương là:",
+                  "options": [
+                    {"text": "Gen trong xương", "isCorrect": false},
+                    {"text": "Sự phát triển của các khoang chức năng và mô mềm xung quanh", "isCorrect": true},
+                    {"text": "Sụn lồi cầu", "isCorrect": false},
+                    {"text": "Tủy răng", "isCorrect": false}
+                  ],
+                  "explanation": "Moss khẳng định xương chỉ là phản ứng thích nghi với nhu cầu chức năng của mô mềm."
+                },
+                {
+                  "question": "Thuyết tăng trưởng của Van Limborgh là sự kết hợp của những yếu tố nào?",
+                  "options": [
+                    {"text": "Di truyền và Môi trường", "isCorrect": true},
+                    {"text": "Sụn và Màng", "isCorrect": false},
+                    {"text": "Dinh dưỡng và Khí hậu", "isCorrect": false},
+                    {"text": "Cơ và Thần kinh", "isCorrect": false}
+                  ],
+                  "explanation": "Van Limborgh tổng hợp các yếu tố di truyền nội tại, môi trường tại chỗ và toàn thân."
+                },
+                {
+                  "question": "Sự tăng trưởng của xương hàm theo chiều rộng hoàn tất khi nào?",
+                  "options": [
+                    {"text": "Trước đỉnh tăng trưởng dậy thì", "isCorrect": true},
+                    {"text": "Sau đỉnh tăng trưởng dậy thì", "isCorrect": false},
+                    {"text": "Lúc 20 tuổi", "isCorrect": false},
+                    {"text": "Không bao giờ ngừng", "isCorrect": false}
+                  ],
+                  "explanation": "Chiều rộng hoàn tất rất sớm, thường trước khi trẻ bước vào giai đoạn dậy thì mạnh mẽ."
+                },
+                {
+                  "question": "Sự tăng trưởng chiều cao mặt hoàn tất vào thời điểm nào?",
+                  "options": [
+                    {"text": "Lúc 5 tuổi", "isCorrect": false},
+                    {"text": "Lúc 12 tuổi", "isCorrect": false},
+                    {"text": "Sau cùng, kéo dài cho đến hết dậy thì và trưởng thành", "isCorrect": true},
+                    {"text": "Lúc mọc đủ răng sữa", "isCorrect": false}
+                  ],
+                  "explanation": "Chiều đứng là chiều không gian tăng trưởng muộn nhất và bị ảnh hưởng bởi mọc răng hàm."
+                },
+                {
+                  "question": "Đặc điểm tăng trưởng của mô bạch huyết (Lymphoid) trong biểu đồ Scammon là gì?",
+                  "options": [
+                    {"text": "Tăng đều đặn", "isCorrect": false},
+                    {"text": "Phát triển cực đại lúc 10-12 tuổi (đạt 200%) rồi giảm dần", "isCorrect": true},
+                    {"text": "Chỉ phát triển sau dậy thì", "isCorrect": false},
+                    {"text": "Giống mô thần kinh", "isCorrect": false}
+                  ],
+                  "explanation": "Mô bạch huyết (amidan, VA) đạt đỉnh rất cao ở trẻ em trước khi teo nhỏ ở tuổi trưởng thành."
+                },
+                {
+                  "question": "Hội chứng Down thường có đặc điểm răng mặt như thế nào?",
+                  "options": [
+                    {"text": "Hàm trên hô", "isCorrect": false},
+                    {"text": "Kém phát triển xương hàm trên, lưỡi to, khớp cắn hạng III", "isCorrect": true},
+                    {"text": "Răng mọc sớm", "isCorrect": false},
+                    {"text": "Xương hàm dưới rất nhỏ", "isCorrect": false}
+                  ],
+                  "explanation": "Trẻ Down thường bị móm (hạng III) do tầng mặt giữa kém phát triển và lưỡi có xu hướng đẩy ra trước."
+                },
+                {
+                  "question": "Bệnh loạn xương đòn - sọ (Cleidocranial dysplasia) có đặc điểm răng gì đặc biệt?",
+                  "options": [
+                    {"text": "Thiếu nhiều răng", "isCorrect": false},
+                    {"text": "Có rất nhiều răng dư mọc ngầm và răng vĩnh viễn không mọc được", "isCorrect": true},
+                    {"text": "Răng rất to", "isCorrect": false},
+                    {"text": "Răng bị sâu hàng loạt", "isCorrect": false}
+                  ],
+                  "explanation": "Hội chứng này gây cản trở sự mọc răng vĩnh viễn do sự hiện diện của hàng loạt răng dư mọc kẹt."
+                },
+                {
+                  "question": "Nghiện rượu ở phụ nữ mang thai (Fetal Alcohol Syndrome) ảnh hưởng gì đến sọ mặt thai nhi?",
+                  "options": [
+                    {"text": "Kém phát triển tầng mặt giữa và môi trên mỏng, phẳng", "isCorrect": true},
+                    {"text": "Làm mũi cao lên", "isCorrect": false},
+                    {"text": "Làm hàm dưới dài ra", "isCorrect": false},
+                    {"text": "Răng mọc thừa", "isCorrect": false}
+                  ],
+                  "explanation": "Rượu gây tổn thương nặng nề đến sự phát triển mô mềm và xương mặt của thai nhi."
+                },
+                {
+                  "question": "Di truyền ảnh hưởng đến sự hình thành răng theo hướng nào?",
+                  "options": [
+                    {"text": "Số lượng và hình dạng răng", "isCorrect": false},
+                    {"text": "Thời gian mọc răng", "isCorrect": false},
+                    {"text": "Kích thước răng", "isCorrect": false},
+                    {"text": "Tất cả các yếu tố trên", "isCorrect": true}
+                  ],
+                  "explanation": "Đặc điểm của bộ răng (số lượng, kích thước, hình dạng) chịu sự kiểm soát rất chặt chẽ của gen."
+                },
+                {
+                  "question": "Tật cắn môi trên thường dẫn đến hậu quả gì?",
+                  "options": [
+                    {"text": "Hàm trên bị vổ", "isCorrect": false},
+                    {"text": "Răng cửa trên bị ép vào trong, răng cửa dưới bị đẩy ra ngoài (móm)", "isCorrect": true},
+                    {"text": "Sâu răng nanh", "isCorrect": false},
+                    {"text": "Không ảnh hưởng", "isCorrect": false}
+                  ],
+                  "explanation": "Ngược với cắn môi dưới, cắn môi trên gây ra tương quan hạng III (móm)."
+                },
+                {
+                  "question": "Thói quen chống cằm lâu ngày có thể gây ra:",
+                  "options": [
+                    {"text": "Răng bị lung lay", "isCorrect": false},
+                    {"text": "Sự phát triển không cân xứng của xương hàm dưới (lệch mặt)", "isCorrect": true},
+                    {"text": "Làm răng trắng hơn", "isCorrect": false},
+                    {"text": "Không có hại", "isCorrect": false}
+                  ],
+                  "explanation": "Lực tỳ đè cơ học liên tục làm ức chế tăng trưởng ở một bên xương hàm dưới."
+                },
+                {
+                  "question": "Vai trò của 'Lực nhai' đối với sự mọc răng vĩnh viễn là gì?",
+                  "options": [
+                    {"text": "Lực nhai kích thích răng mọc nhanh hơn", "isCorrect": false},
+                    {"text": "Lực nhai là lực cản chính chống lại sự mọc răng quá mức", "isCorrect": true},
+                    {"text": "Làm răng bị lún vào xương", "isCorrect": false},
+                    {"text": "Không có vai trò gì", "isCorrect": false}
+                  ],
+                  "explanation": "Răng luôn có khuynh hướng mọc lên, lực nhai giúp giữ răng ở mặt phẳng nhai ổn định."
+                },
+                {
+                  "question": "Mất răng cối sữa thứ nhất sớm ảnh hưởng như thế nào?",
+                  "options": [
+                    {"text": "Gây thiếu chỗ cho răng tiền hàm thứ nhất mọc", "isCorrect": true},
+                    {"text": "Gây vổ hàm trên", "isCorrect": false},
+                    {"text": "Gây móm", "isCorrect": false},
+                    {"text": "Không ảnh hưởng", "isCorrect": false}
+                  ],
+                  "explanation": "Khoảng trống bị thu hẹp do các răng lân cận di chuyển vào, làm răng vĩnh viễn mọc kẹt."
+                },
+                {
+                  "question": "Theo thuyết Moss, sự tăng trưởng xương hàm dưới phụ thuộc vào nhu cầu của:",
+                  "options": [
+                    {"text": "Khối não bộ", "isCorrect": false},
+                    {"text": "Khoang miệng và các chức năng nhai, nuốt, nói", "isCorrect": true},
+                    {"text": "Xương cột sống", "isCorrect": false},
+                    {"text": "Ống tai ngoài", "isCorrect": false}
+                  ],
+                  "explanation": "Hàm dưới lớn lên để thích nghi với các hoạt động chức năng của khoang miệng."
+                },
+                {
+                  "question": "Phát biểu nào sau đây đúng về sự mọc răng khôn (răng 8)?",
+                  "options": [
+                    {"text": "Luôn mọc thẳng", "isCorrect": false},
+                    {"text": "Thường thiếu chỗ do xương hàm ngừng phát triển chiều dài sớm", "isCorrect": true},
+                    {"text": "Mọc lúc 10 tuổi", "isCorrect": false},
+                    {"text": "Không bao giờ mọc ngầm", "isCorrect": false}
+                  ],
+                  "explanation": "Xương hàm dưới thường ngừng dài ra trước khi răng 8 kịp mọc, dẫn đến tỷ lệ mọc lệch cao."
+                },
+                {
+                  "question": "Chiều cao mặt tăng lên đáng kể nhất trong giai đoạn nào?",
+                  "options": [
+                    {"text": "Lúc mọc răng sữa", "isCorrect": false},
+                    {"text": "Lúc mọc răng hàm lớn thứ nhất và thứ hai vĩnh viễn", "isCorrect": true},
+                    {"text": "Sau 40 tuổi", "isCorrect": false},
+                    {"text": "Khi rụng răng cửa", "isCorrect": false}
+                  ],
+                  "explanation": "Sự mọc của các răng hàm lớn vĩnh viễn thiết lập lại kích thước dọc tầng mặt dưới."
+                },
+                {
+                  "question": "Tại sao răng sữa thường có màu trắng đục hơn răng vĩnh viễn?",
+                  "options": [
+                    {"text": "Do trẻ uống sữa nhiều", "isCorrect": false},
+                    {"text": "Do cấu trúc men và ngà răng sữa ít khoáng hóa hơn", "isCorrect": true},
+                    {"text": "Do răng sữa nhỏ hơn", "isCorrect": false},
+                    {"text": "Do không có tủy", "isCorrect": false}
+                  ],
+                  "explanation": "Đặc điểm cấu tạo mô học khiến răng sữa có màu trắng sáng (màu sữa)."
+                },
+                {
+                  "question": "Sự hiện diện của 'Mesiodens' (răng giữa) nằm ở đâu?",
+                  "options": [
+                    {"text": "Ở giữa răng 6 và 7", "isCorrect": false},
+                    {"text": "Ở đường giữa giữa hai răng cửa giữa hàm trên", "isCorrect": true},
+                    {"text": "Ở góc hàm dưới", "isCorrect": false},
+                    {"text": "Dưới lưỡi", "isCorrect": false}
+                  ],
+                  "explanation": "Mesiodens là loại răng dư phổ biến nhất, nằm ngay chính giữa hàm trên."
+                },
+                {
+                  "question": "Điều trị 'nhổ răng sữa có hướng dẫn' (Serial Extraction) gồm trình tự nhổ răng nào?",
+                  "options": [
+                    {"text": "Nhổ răng 1 -> 2 -> 3", "isCorrect": false},
+                    {"text": "Nhổ răng C sữa -> D sữa -> 4 vĩnh viễn", "isCorrect": true},
+                    {"text": "Nhổ răng 6 -> 7", "isCorrect": false},
+                    {"text": "Nhổ toàn bộ răng sữa", "isCorrect": false}
+                  ],
+                  "explanation": "Trình tự này giúp giải quyết chen trúc răng cửa sớm bằng cách nhường khoảng của răng sau."
+                },
+                {
+                  "question": "Yếu tố môi trường nào sau đây có thể gây biến dạng xương hàm?",
+                  "options": [
+                    {"text": "Thói quen xấu kéo dài", "isCorrect": false},
+                    {"text": "Dinh dưỡng kém", "isCorrect": false},
+                    {"text": "Chấn thương lồi cầu", "isCorrect": false},
+                    {"text": "Tất cả các yếu tố trên", "isCorrect": true}
+                  ],
+                  "explanation": "Xương hàm của trẻ em rất dẻo và dễ bị uốn nắn bởi các tác động bên ngoài."
+                },
+                {
+                  "question": "Tại sao đỉnh tăng trưởng ở trẻ em quan trọng trong Chỉnh hình răng mặt?",
+                  "options": [
+                    {"text": "Để nhổ răng cho nhanh", "isCorrect": false},
+                    {"text": "Để tận dụng tối đa sự phát triển xương nhằm sửa chữa các sai hình xương", "isCorrect": true},
+                    {"text": "Để biết trẻ có thông minh không", "isCorrect": false},
+                    {"text": "Không có ý nghĩa gì", "isCorrect": false}
+                  ],
+                  "explanation": "Can thiệp vào đỉnh tăng trưởng giúp đạt kết quả thay đổi xương hàm hiệu quả nhất mà không cần phẫu thuật."
+                },
+                {
+                  "question": "Tăng trưởng của sọ mặt theo chiều RỘNG hoàn tất sớm nhất ở vùng nào?",
+                  "options": [
+                    {"text": "Vùng răng hàm lớn", "isCorrect": false},
+                    {"text": "Vùng răng nanh và răng cửa", "isCorrect": true},
+                    {"text": "Vùng cằm", "isCorrect": false},
+                    {"text": "Vùng lồi cầu", "isCorrect": false}
+                  ],
+                  "explanation": "Chiều rộng vùng răng trước hoàn tất rất sớm, tạo điều kiện cho răng vĩnh viễn mọc."
+                },
+                {
+                  "question": "Xương hàm trên dính với nền sọ qua các đường khớp nào?",
+                  "options": [
+                    {"text": "Đường khớp trán - hàm, gò má - hàm, bướm - khẩu cái", "isCorrect": true},
+                    {"text": "Đường khớp giữa cằm", "isCorrect": false},
+                    {"text": "Khớp thái dương hàm", "isCorrect": false},
+                    {"text": "Khớp vai", "isCorrect": false}
+                  ],
+                  "explanation": "Các đường khớp này là nơi diễn ra hoạt động tạo xương chính của hàm trên."
+                },
+                {
+                  "question": "Cơ chế nào làm cho xương hàm dưới cao lên?",
+                  "options": [
+                    {"text": "Sự bồi đắp xương ở lồi cầu và bờ trên xương ổ răng", "isCorrect": true},
+                    {"text": "Do lưỡi đẩy", "isCorrect": false},
+                    {"text": "Do tiêu xương vùng cằm", "isCorrect": false},
+                    {"text": "Do mọc răng khôn", "isCorrect": false}
+                  ],
+                  "explanation": "Lồi cầu và xương ổ răng phát triển theo chiều đứng làm tăng chiều cao mặt dưới."
+                },
+                {
+                  "question": "Hệ quả của việc mất răng nanh sữa sớm là:",
+                  "options": [
+                    {"text": "Răng cửa vĩnh viễn nghiêng về phía khoảng mất răng gây thiếu chỗ cho răng nanh vĩnh viễn", "isCorrect": true},
+                    {"text": "Răng hàm mọc nhanh hơn", "isCorrect": false},
+                    {"text": "Làm trẻ nói ngọng", "isCorrect": false},
+                    {"text": "Không ảnh hưởng", "isCorrect": false}
+                  ],
+                  "explanation": "Răng cửa sẽ lấn sân sang chỗ của răng nanh, dẫn đến răng nanh vĩnh viễn mọc khểnh."
+                },
+                {
+                  "question": "Hội chứng Apert gây ra sai hình sọ mặt do nguyên nhân gì?",
+                  "options": [
+                    {"text": "Đóng sớm các đường khớp sọ (Craniosynostosis)", "isCorrect": true},
+                    {"text": "Do mẹ hút thuốc", "isCorrect": false},
+                    {"text": "Do thiếu canxi", "isCorrect": false},
+                    {"text": "Do chấn thương lúc sinh", "isCorrect": false}
+                  ],
+                  "explanation": "Đóng khớp sớm làm sọ và mặt không thể nở lớn bình thường, gây biến dạng trầm trọng."
+                },
+                {
+                  "question": "Lồi cầu xương hàm dưới được coi là một trung tâm tăng trưởng 'thứ cấp' vì:",
+                  "options": [
+                    {"text": "Nó không có sụn", "isCorrect": false},
+                    {"text": "Sự tăng trưởng của nó là phản ứng thích nghi với sự dịch chuyển của hàm", "isCorrect": true},
+                    {"text": "Nó chỉ phát triển ở người già", "isCorrect": false},
+                    {"text": "Nó nhỏ hơn các xương khác", "isCorrect": false}
+                  ],
+                  "explanation": "Quan điểm hiện đại coi sụn lồi cầu là sụn thích nghi chứ không phải trung tâm dẫn dắt nguyên phát."
+                },
+                {
+                  "question": "Tại sao việc thở bằng mũi lại quan trọng đối với sự phát triển hàm trên?",
+                  "options": [
+                    {"text": "Làm sạch không khí", "isCorrect": false},
+                    {"text": "Tạo áp lực cân bằng giữa khoang mũi và khoang miệng giúp vòm miệng nở rộng", "isCorrect": true},
+                    {"text": "Giúp trẻ ngủ ngon", "isCorrect": false},
+                    {"text": "Giúp răng trắng", "isCorrect": false}
+                  ],
+                  "explanation": "Luồng khí qua mũi giúp kích thích sự phát triển theo chiều ngang của xương hàm trên."
+                },
+                {
+                  "question": "Chỉ số 'Cắn trùm' (Overbite) âm có nghĩa là gì?",
+                  "options": [
+                    {"text": "Cắn sâu", "isCorrect": false},
+                    {"text": "Cắn hở (răng trên và dưới không chạm nhau theo chiều đứng)", "isCorrect": true},
+                    {"text": "Cắn ngược", "isCorrect": false},
+                    {"text": "Khớp cắn bình thường", "isCorrect": false}
+                  ],
+                  "explanation": "Cắn trùm âm tương ứng với tình trạng cắn hở trên lâm sàng."
+                },
+                {
+                  "question": "Răng cối lớn thứ hai vĩnh viễn (răng 7) mọc lúc mấy tuổi?",
+                  "options": [
+                    {"text": "6 tuổi", "isCorrect": false},
+                    {"text": "12 tuổi", "isCorrect": true},
+                    {"text": "18 tuổi", "isCorrect": false},
+                    {"text": "25 tuổi", "isCorrect": false}
+                  ],
+                  "explanation": "Răng 7 mọc vào khoảng cuối thời kỳ răng hỗn hợp, lúc 12 tuổi."
+                },
+                {
+                  "question": "Sự khác biệt về tăng trưởng XHD giữa nam và nữ thể hiện rõ nhất ở đâu?",
+                  "options": [
+                    {"text": "Vùng cằm và cành đứng xương hàm dưới", "isCorrect": true},
+                    {"text": "Ở răng cửa", "isCorrect": false},
+                    {"text": "Ở răng nanh", "isCorrect": false},
+                    {"text": "Ở khớp thái dương hàm", "isCorrect": false}
+                  ],
+                  "explanation": "Nam giới có cằm nhô hơn và xương hàm to hơn do tăng trưởng dậy thì kéo dài."
+                },
+                {
+                  "question": "Giai đoạn hỗn hợp GIỮA thường kéo dài bao lâu?",
+                  "options": [
+                    {"text": "6 tháng", "isCorrect": false},
+                    {"text": "1 - 2 năm", "isCorrect": true},
+                    {"text": "5 năm", "isCorrect": false},
+                    {"text": "10 năm", "isCorrect": false}
+                  ],
+                  "explanation": "Sau khi mọc răng cửa và răng 6, cung hàm ổn định khoảng 1-2 năm trước khi thay các răng sau."
+                },
+                {
+                  "question": "Xương nền sọ phát triển theo mô hình tăng trưởng nào của Scammon?",
+                  "options": [
+                    {"text": "Mô hình thần kinh (Neural)", "isCorrect": true},
+                    {"text": "Mô hình sinh dục (Genital)", "isCorrect": false},
+                    {"text": "Mô hình tổng quát (General)", "isCorrect": false},
+                    {"text": "Mô hình bạch huyết (Lymphoid)", "isCorrect": false}
+                  ],
+                  "explanation": "Nền sọ bao bọc não nên nó hoàn tất tăng trưởng rất sớm giống như khối não."
+                },
+                {
+                  "question": "Việc sử dụng phim X-quang Panorama trong thời kỳ răng hỗn hợp để làm gì?",
+                  "options": [
+                    {"text": "Để xem sâu răng", "isCorrect": false},
+                    {"text": "Theo dõi vị trí, số lượng và tiến trình mọc của các mầm răng vĩnh viễn", "isCorrect": true},
+                    {"text": "Để mài răng", "isCorrect": false},
+                    {"text": "Để tẩy trắng răng", "isCorrect": false}
+                  ],
+                  "explanation": "Panorama cung cấp cái nhìn tổng thể về 'kho vũ khí' răng vĩnh viễn bên dưới nướu."
+                },
+                {
+                  "question": "Hiện tượng 'tiêu ngót chân răng sữa' là do áp lực từ đâu?",
+                  "options": [
+                    {"text": "Do vi khuẩn", "isCorrect": false},
+                    {"text": "Do mầm răng vĩnh viễn bên dưới đang mọc lên", "isCorrect": true},
+                    {"text": "Do trẻ nhai nhiều", "isCorrect": false},
+                    {"text": "Do canxi bị mất", "isCorrect": false}
+                  ],
+                  "explanation": "Sự di chuyển hướng về hốc miệng của răng vĩnh viễn kích thích các tế bào hủy xương làm tiêu chân răng sữa."
+                },
+                {
+                  "question": "Tại sao trẻ em bị hẹp hàm trên thường có thói quen thở miệng?",
+                  "options": [
+                    {"text": "Do mũi bị tịt vì vòm miệng cao làm thu hẹp khoang mũi", "isCorrect": true},
+                    {"text": "Do trẻ thích vậy", "isCorrect": false},
+                    {"text": "Do lưỡi to", "isCorrect": false},
+                    {"text": "Do răng đau", "isCorrect": false}
+                  ],
+                  "explanation": "Cấu trúc hàm trên hẹp đi kèm vòm miệng cao hình chữ V làm giảm thể tích lưu thông khí qua mũi."
+                },
+                {
+                  "question": "Di truyền quyết định bao nhiêu % sự sai lệch khớp cắn (tổng quát)?",
+                  "options": [
+                    {"text": "5%", "isCorrect": false},
+                    {"text": "40%", "isCorrect": true},
+                    {"text": "90%", "isCorrect": false},
+                    {"text": "100%", "isCorrect": false}
+                  ],
+                  "explanation": "Dù môi trường có tác động, nhưng nền tảng di truyền vẫn chiếm ưu thế khoảng 40% trong bệnh căn học."
+                },
+                {
+                  "question": "Trong CHRM, 'Khớp cắn lý tưởng' là mục tiêu của loại điều trị nào?",
+                  "options": [
+                    {"text": "Chỉnh hình phòng ngừa", "isCorrect": false},
+                    {"text": "Chỉnh hình toàn diện", "isCorrect": true},
+                    {"text": "Chỉnh hình hỗ trợ", "isCorrect": false},
+                    {"text": "Chỉnh hình can thiệp", "isCorrect": false}
+                  ],
+                  "explanation": "Chỉnh hình toàn diện hướng tới sự hoàn hảo về cả chức năng lẫn thẩm mỹ nụ cười."
+                },
+                {
+                  "question": "Đường khớp giữa xương hàm trên thường kết thúc hoạt động tăng trưởng tự nhiên vào tuổi nào?",
+                  "options": [
+                    {"text": "Lúc sinh", "isCorrect": false},
+                    {"text": "Sau dậy thì", "isCorrect": true},
+                    {"text": "30 tuổi", "isCorrect": false},
+                    {"text": "5 tuổi", "isCorrect": false}
+                  ],
+                  "explanation": "Sau dậy thì, đường khớp này bắt đầu cốt hóa cứng lại, việc nới rộng bằng khí cụ trở nên khó khăn hơn."
+                },
+                {
+                  "question": "Mục tiêu tối thượng của Chỉnh Hình Răng Mặt dự phòng là gì?",
+                  "options": [
+                    {"text": "Làm cho răng đẹp ngay lập tức", "isCorrect": false},
+                    {"text": "Giảm thiểu các sai lệch khớp cắn trong tương lai bằng cách can thiệp sớm và đúng lúc", "isCorrect": true},
+                    {"text": "Để không phải đeo mắc cài", "isCorrect": false},
+                    {"text": "Để trẻ ăn ngon hơn", "isCorrect": false}
+                  ],
+                  "explanation": "Dự phòng giúp hướng dẫn sự tăng trưởng đi đúng quỹ đạo, hạn chế các ca phẫu thuật phức tạp sau này."
+                },
+                {
+                  "question": "Việc mất răng sữa quá sớm có thể làm răng vĩnh viễn tương ứng mọc chậm lại, tại sao?",
+                  "options": [
+                    {"text": "Do nướu bị xơ cứng và xương bao phủ phía trên mầm răng dày lên", "isCorrect": true},
+                    {"text": "Do mầm răng bị hỏng", "isCorrect": false},
+                    {"text": "Do thiếu dinh dưỡng", "isCorrect": false},
+                    {"text": "Do trẻ sợ đau", "isCorrect": false}
+                  ],
+                  "explanation": "Mất răng sữa sớm mà không có khí cụ giữ khoảng sẽ làm mô mềm và xương lấp kín đường mọc của răng vĩnh viễn."
+                },
+                {
+                  "question": "Răng sữa nào thường rụng cuối cùng?",
+                  "options": [
+                    {"text": "Răng cửa giữa", "isCorrect": false},
+                    {"text": "Răng cối sữa thứ hai (răng E)", "isCorrect": true},
+                    {"text": "Răng nanh sữa", "isCorrect": false},
+                    {"text": "Răng cối sữa thứ nhất", "isCorrect": false}
+                  ],
+                  "explanation": "Răng cối sữa thứ hai thường rụng vào khoảng 11-12 tuổi để nhường chỗ cho răng số 5 vĩnh viễn."
+                },
+                {
+                  "question": "Hệ quả của việc khớp cắn đối đầu (Flush terminal plane) ở răng sữa là gì?",
+                  "options": [
+                    {"text": "Luôn dẫn đến móm", "isCorrect": false},
+                    {"text": "Cần khoảng Lee Way để chuyển sang hạng I răng vĩnh viễn", "isCorrect": true},
+                    {"text": "Là khớp cắn chuẩn nhất", "isCorrect": false},
+                    {"text": "Sẽ gây vổ", "isCorrect": false}
+                  ],
+                  "explanation": "Đối đầu răng sữa là tiền đề để thiết lập hạng I vĩnh viễn nhờ sự dịch chuyển của răng 6."
+                },
+                {
+                  "question": "Khuôn mặt người già trông ngắn lại là do:",
+                  "options": [
+                    {"text": "Xương bị co lại", "isCorrect": false},
+                    {"text": "Mất răng và tiêu xương ổ răng dẫn đến mất kích thước dọc tầng mặt dưới", "isCorrect": true},
+                    {"text": "Do mũi dài ra", "isCorrect": false},
+                    {"text": "Do nếp nhăn", "isCorrect": false}
+                  ],
+                  "explanation": "Răng và xương ổ đóng vai trò nâng đỡ chiều cao mặt, mất chúng làm mặt bị sụp đổ chiều đứng."
+                },
+                {
+                  "question": "Tại sao cần chụp phim sọ nghiêng (Cephalometric) trong chỉnh nha?",
+                  "options": [
+                    {"text": "Để xem sâu răng", "isCorrect": false},
+                    {"text": "Đo đạc tương quan giữa răng, xương hàm và nền sọ để lập kế hoạch điều trị", "isCorrect": true},
+                    {"text": "Để xem tủy răng", "isCorrect": false},
+                    {"text": "Để xem phim cho vui", "isCorrect": false}
+                  ],
+                  "explanation": "Phim sọ nghiêng là tiêu chuẩn vàng để phân tích sai hình xương và răng trong chỉnh hình."
+                },
+                {
+                  "question": "Kết quả cuối cùng của sự tăng trưởng sọ mặt là tạo ra một cá thể có:",
+                  "options": [
+                    {"text": "Khuôn mặt cân đối và bộ răng chức năng hoàn thiện", "isCorrect": true},
+                    {"text": "Răng thật trắng", "isCorrect": false},
+                    {"text": "Hàm dưới thật to", "isCorrect": false},
+                    {"text": "Mũi thật cao", "isCorrect": false}
+                  ],
+                  "explanation": "Sự trưởng thành của hệ thống nhai là đích đến cuối cùng của quá trình tăng trưởng và phát triển."
+                }
+              ]

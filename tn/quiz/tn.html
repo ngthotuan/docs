@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Luyện Tập Trắc Nghiệm</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+        }
+        .correct-answer {
+            background-color: #22c55e !important; /* Green 500 */
+            color: white !important;
+            border-color: #16a34a !important; /* Green 600 */
+        }
+        .incorrect-answer {
+            background-color: #ef4444 !important; /* Red 500 */
+            color: white !important;
+            border-color: #dc2626 !important; /* Red 600 */
+        }
+        .explanation {
+            border-left: 4px solid #3b82f6; /* Blue 500 */
+        }
+        .btn-primary {
+            background-color: #3b82f6;
+            color: white;
+            transition: background-color 0.3s;
+        }
+        .btn-primary:hover {
+            background-color: #2563eb;
+        }
+        .progress-bar-inner {
+            transition: width 0.5s ease-in-out;
+        }
+        input[type="radio"] {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            width: 1.25rem; /* 20px */
+            height: 1.25rem; /* 20px */
+            border: 2px solid #ccc;
+            border-radius: 50%;
+            outline: none;
+            cursor: pointer;
+            position: relative;
+            margin-right: 0.5rem;
+            flex-shrink: 0;
+        }
+        input[type="radio"]:checked {
+            border-color: #3b82f6; /* Blue 500 */
+        }
+        input[type="radio"]:checked::before {
+            content: '';
+            display: block;
+            width: 0.75rem; /* 12px */
+            height: 0.75rem; /* 12px */
+            background-color: #3b82f6; /* Blue 500 */
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .radio-label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            padding: 0.5rem 0;
+        }
+        #loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            z-index: 1000;
+        }
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border-left-color: #3b82f6;
+            animation: spin 1s ease infinite;
+        }
+        .hidden {
+            display: none !important;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .summary-question-list {
+            max-height: 300px;
+            overflow-y: auto;
+            border: 1px solid #e2e8f0;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #f8fafc;
+        }
+        .summary-question-item {
+            margin-bottom: 8px;
+            padding-bottom: 8px;
+            border-bottom: 1px dashed #cbd5e1;
+        }
+        .summary-question-item:last-child {
+            border-bottom: none;
+        }
+        .summary-question-item .text-green-600 {
+            color: #16a34a; /* Tailwind green-600 */
+        }
+        .summary-question-item .text-red-600 {
+            color: #dc2626; /* Tailwind red-600 */
+        }
+        .d-flex {
+            display: flex;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+    <div id="loading-overlay" class="hidden">
+        <div class="spinner"></div>
+        <p class="mt-3 text-gray-700">Đang tải câu hỏi...</p>
+    </div>
+
+    <div id="quiz-container" class="w-full max-w-2xl bg-white rounded-2xl shadow-xl p-6 md:p-8">
+        
+        <!-- Màn hình bắt đầu -->
+        <div id="start-screen">
+            <h1 class="text-3xl font-bold text-gray-800 mb-4 text-center">Luyện tập Trắc Nghiệm</h1>
+            <p class="text-gray-600 mb-6 text-center">Sẵn sàng để kiểm tra kiến thức của bạn chưa?</p>            
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold text-gray-800">Chọn đề:</h3>
+                <div class="mb-4 d-flex">
+                    <label class="radio-label">
+                        <input type="radio" name="source_selection_mode" id="predefined_source_radio" value="predefined" checked>
+                        <span>Chọn bộ đề có sẵn</span>
+                    </label>
+                    <select id="predefined_quiz_url_select" class="m-2 p-2 border border-gray-300 rounded-lg">
+                        <!-- Options will be populated by JS -->
+                    </select>
+                </div>
+                
+                <div class="mb-4">
+                    <label class="radio-label">
+                        <input type="radio" name="source_selection_mode" id="manual_source_radio" value="manual">
+                        <span>Nhập đường dẫn file JSON chứa câu hỏi</span>
+                    </label>
+                    <input type="text" id="quiz_data_url_manual" 
+                           value="n4/ck.json"
+                           class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mt-2 hidden">
+                </div>
+                
+                <button id="load_questions_btn" class="btn-primary font-bold py-2 px-4 rounded-lg text-sm shadow-md hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 w-full">
+                    Tải câu hỏi
+                </button>
+                <p id="url_error_message" class="text-red-500 text-sm mt-2 hidden"></p>
+            </div>
+
+            <div class="mb-6 space-y-4">
+                <h3 class="text-lg font-semibold text-gray-800">Chọn chế độ:</h3>
+                <div>
+                    <label class="radio-label">
+                        <input type="radio" name="quiz_mode" id="learning_mode_radio" value="learning" checked>
+                        <span>Học tập (Hiển thị giải thích và chờ bấm tiếp theo)</span>
+                    </label>
+                </div>
+                <div>
+                    <label class="radio-label">
+                        <input type="radio" name="quiz_mode" id="exam_mode_radio" value="exam">
+                        <span>Thi cử (Tự động chuyển câu, chỉ công bố kết quả cuối cùng)</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="mb-6 space-y-4">
+                <h3 class="text-lg font-semibold text-gray-800">Số lượng câu hỏi:</h3>
+                <div>
+                    <label class="radio-label">
+                        <input type="radio" name="question_selection" id="all_questions_radio" value="all" checked>
+                        <span>Tất cả câu hỏi (<span id="total_available_questions"></span> câu)</span>
+                    </label>
+                </div>
+                <div class="d-flex">
+                    <label class="radio-label">
+                        <input type="radio" name="question_selection" id="custom_questions_radio" value="custom">
+                        <span>Chọn số lượng câu hỏi</span>
+                    </label>
+                    <input type="number" id="num_questions_input" min="1" 
+                           class="hidden m-2 p-2 border border-gray-300 rounded-lg">
+                    <p id="num_questions_error" class="text-red-500 text-sm mt-1 hidden">Vui lòng nhập số câu hợp lệ.</p>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button id="start-btn" class="btn-primary font-bold py-3 px-8 rounded-lg text-lg shadow-md hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300" disabled>
+                    Bắt đầu
+                </button>
+                <p class="mt-2">Bản version khác tại: <a style="color: #2563eb;" target="_blank" href="https://nttuan.dev/quiz" >đây</a></p>
+            </div>
+        </div>
+
+        <!-- Màn hình câu hỏi -->
+        <div id="question-screen" class="hidden">
+            <div class="mb-6">
+                <div class="flex justify-between items-center mb-2">
+                    <p class="text-sm font-semibold text-blue-600">Câu hỏi <span id="question-number"></span>/<span id="total-questions"></span></p>
+                    <p class="text-sm font-semibold text-gray-700">Điểm: <span id="score">0</span></p>
+                    <div class="text-right">
+                        <button id="next-btn" class="btn-primary font-bold py-2 px-6 rounded-lg hidden">Câu tiếp theo</button>
+                    </div>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                    <div id="progress-bar" class="bg-blue-600 h-2.5 rounded-full progress-bar-inner" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <h2 id="question-text" class="text-xl font-bold text-gray-800 mb-6"></h2>
+            
+            <div id="options-container" class="space-y-4">
+                <!-- Các lựa chọn sẽ được thêm vào đây bằng JavaScript -->
+            </div>
+            
+            <div id="feedback-container" class="mt-6 hidden">
+                <div id="explanation-box" class="explanation bg-blue-50 p-4 rounded-lg">
+                    <h3 class="font-bold text-lg text-gray-800 mb-2">Giải thích:</h3>
+                    <p id="explanation-text" class="text-gray-700"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Màn hình kết quả -->
+        <div id="result-screen" class="hidden text-center">
+            <h1 class="text-3xl font-bold text-gray-800 mb-4">Hoàn thành!</h1>
+            <p class="text-lg text-gray-600 mb-2">Điểm cuối cùng của bạn là:</p>
+            <p id="final-score" class="text-5xl font-bold text-blue-600 mb-6"></p>
+            <p id="percentage-correct" class="text-xl font-semibold text-gray-800 mb-4"></p>
+            <p id="result-message" class="text-gray-700 mb-8"></p>
+            
+            <div id="summary-container" class="mt-8 mb-8 text-left">
+                <h3 class="text-xl font-bold text-gray-800 mb-4 text-center">Tóm tắt kết quả:</h3>
+                <div id="summary-question-list" class="summary-question-list">
+                    <!-- Summary questions will be inserted here -->
+                </div>
+            </div>
+
+            <button id="restart-btn" class="btn-primary font-bold py-3 px-8 rounded-lg text-lg shadow-md hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
+                Làm lại
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Cấu hình các bộ đề có sẵn - SẼ ĐƯỢC LOAD TỪ API
+        let PREDEFINED_QUIZ_SOURCES = []; 
+        const QUIZ_SOURCES_API_URL = 'all.json'; // API mới để lấy danh sách bộ đề
+
+        let fullQuizData = []; // Dữ liệu câu hỏi sau khi tải
+        let quizMode = 'learning'; // Chế độ mặc định: học tập
+        let autoAdvanceTimeout = null; // Biến lưu timeout cho chế độ thi cử
+
+        // DOM Elements (được giữ nguyên như file của bạn)
+        const loadingOverlay = document.getElementById('loading-overlay');
+        const startScreen = document.getElementById('start-screen');
+        const questionScreen = document.getElementById('question-screen');
+        const resultScreen = document.getElementById('result-screen');
+        
+        const startBtn = document.getElementById('start-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const restartBtn = document.getElementById('restart-btn');
+        const loadQuestionsBtn = document.getElementById('load_questions_btn');
+        const quizDataUrlManualInput = document.getElementById('quiz_data_url_manual');
+        const predefinedSourceRadio = document.getElementById('predefined_source_radio');
+        const manualSourceRadio = document.getElementById('manual_source_radio');
+        const predefinedQuizUrlSelect = document.getElementById('predefined_quiz_url_select');
+        const urlErrorMessage = document.getElementById('url_error_message');
+
+        const questionNumberEl = document.getElementById('question-number');
+        const totalQuestionsEl = document.getElementById('total-questions');
+        const scoreEl = document.getElementById('score');
+        const progressBar = document.getElementById('progress-bar');
+        
+        const questionTextEl = document.getElementById('question-text');
+        const optionsContainer = document.getElementById('options-container');
+        
+        const feedbackContainer = document.getElementById('feedback-container');
+        const explanationTextEl = document.getElementById('explanation-text');
+
+        const finalScoreEl = document.getElementById('final-score');
+        const percentageCorrectEl = document.getElementById('percentage-correct');
+        const resultMessageEl = document.getElementById('result-message');
+        const summaryQuestionList = document.getElementById('summary-question-list'); // Element to show summary
+
+        const allQuestionsRadio = document.getElementById('all_questions_radio');
+        const customQuestionsRadio = document.getElementById('custom_questions_radio');
+        const numQuestionsInput = document.getElementById('num_questions_input');
+        const numQuestionsError = document.getElementById('num_questions_error');
+        const totalAvailableQuestionsEl = document.getElementById('total_available_questions');
+
+        const learningModeRadio = document.getElementById('learning_mode_radio');
+        const examModeRadio = document.getElementById('exam_mode_radio');
+        
+        // Quiz state
+        let shuffledQuestions = [];
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        // --- NEW: Function to load PREDEFINED_QUIZ_SOURCES from API ---
+        async function initializeQuizSources() {
+            loadingOverlay.classList.remove('hidden'); // Show spinner for initial load
+            try {
+                const response = await fetch(QUIZ_SOURCES_API_URL);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                PREDEFINED_QUIZ_SOURCES = await response.json();
+                console.log("PREDEFINED_QUIZ_SOURCES loaded:", PREDEFINED_QUIZ_SOURCES);
+                
+                // Once PREDEFINED_QUIZ_SOURCES is loaded, proceed with populating UI
+                populatePredefinedSources();
+                // After populating, set initial visibility and load default quiz
+                handleSourceSelectionModeChange(); 
+                handleQuestionCountVisibility(); 
+                handleQuizModeChange(); 
+
+            } catch (error) {
+                console.error("Error loading PREDEFINED_QUIZ_SOURCES:", error);
+                urlErrorMessage.textContent = `Không thể tải danh sách bộ đề có sẵn. Chi tiết: ${error.message}`;
+                urlErrorMessage.classList.remove('hidden');
+                startBtn.disabled = true; // Disable start button if cannot load sources
+            } finally {
+                loadingOverlay.classList.add('hidden'); // Hide spinner
+            }
+        }
+
+        // Populate predefined quiz sources dropdown
+        function populatePredefinedSources() {
+            predefinedQuizUrlSelect.innerHTML = ''; // Clear existing options
+            PREDEFINED_QUIZ_SOURCES.forEach(source => {
+                const option = document.createElement('option');
+                option.value = source.link;
+                option.textContent = source.name;
+                predefinedQuizUrlSelect.appendChild(option);
+            });
+            // Set default value if available
+            if (predefinedQuizUrlSelect.options.length > 0) {
+                predefinedQuizUrlSelect.selectedIndex = 0;
+            }
+        }
+
+        // Fetch quiz data from a given URL
+        async function fetchQuizData(url) {
+            console.log("Fetching quiz data from:", url);
+            loadingOverlay.classList.remove('hidden');
+            startBtn.disabled = true; // Disable start button immediately when loading
+            urlErrorMessage.classList.add('hidden'); // Hide previous error messages
+            totalAvailableQuestionsEl.textContent = 'Đang tải...';
+
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                fullQuizData = await response.json();
+
+                totalAvailableQuestionsEl.textContent = fullQuizData.length;
+                numQuestionsInput.max = fullQuizData.length;
+                numQuestionsInput.value = Math.min(10, fullQuizData.length); // Default custom to 10 or max if less
+                if (fullQuizData.length === 0) {
+                    startBtn.disabled = true;
+                    totalAvailableQuestionsEl.textContent = '0';
+                    urlErrorMessage.textContent = 'Bộ đề trống. Vui lòng kiểm tra lại nguồn dữ liệu.';
+                    urlErrorMessage.classList.remove('hidden');
+                } else {
+                    startBtn.disabled = false; // Enable start button on success
+                }
+            } catch (error) {
+                console.error("Error fetching quiz data:", error);
+                totalAvailableQuestionsEl.textContent = 'Lỗi tải dữ liệu';
+                startBtn.disabled = true; // Keep disabled on error
+                numQuestionsInput.disabled = true;
+                urlErrorMessage.textContent = `Không thể tải câu hỏi từ URL này. Vui lòng kiểm tra lại đường dẫn hoặc định dạng JSON. Chi tiết: ${error.message}`;
+                urlErrorMessage.classList.remove('hidden');
+            } finally {
+                loadingOverlay.classList.add('hidden');
+            }
+        }
+
+        // Handle source selection mode change visibility
+        function handleSourceSelectionModeChange() {
+            if (predefinedSourceRadio.checked) {
+                predefinedQuizUrlSelect.classList.remove('hidden');
+                quizDataUrlManualInput.classList.add('hidden');
+                loadQuestionsBtn.classList.add('hidden');
+                
+                if (PREDEFINED_QUIZ_SOURCES.length > 0 && predefinedQuizUrlSelect.value) {
+                    fetchQuizData(predefinedQuizUrlSelect.value);
+                } else {
+                    totalAvailableQuestionsEl.textContent = '0';
+                    startBtn.disabled = true;
+                }
+
+            } else { // manualSourceRadio.checked
+                predefinedQuizUrlSelect.classList.add('hidden');
+                quizDataUrlManualInput.classList.remove('hidden');
+                loadQuestionsBtn.classList.remove('hidden');
+                
+                startBtn.disabled = true; 
+                totalAvailableQuestionsEl.textContent = 'Chưa tải';
+            }
+        }
+
+        // Handle question count selection visibility
+        function handleQuestionCountVisibility() {
+            if (allQuestionsRadio.checked) {
+                numQuestionsInput.classList.add('hidden');
+                numQuestionsError.classList.add('hidden');
+                numQuestionsInput.value = fullQuizData.length;
+            } else { // customQuestionsRadio.checked
+                numQuestionsInput.classList.remove('hidden');
+                numQuestionsInput.value = Math.min(10, fullQuizData.length);
+                if (numQuestionsInput.value === 0 && fullQuizData.length > 0) {
+                     numQuestionsInput.value = 1;
+                }
+            }
+        }
+
+        // Handle quiz mode change
+        function handleQuizModeChange() {
+            quizMode = document.querySelector('input[name="quiz_mode"]:checked').value;
+        }
+
+        // Event listener for Load Questions button
+        loadQuestionsBtn.addEventListener('click', () => {
+            let urlToLoad = quizDataUrlManualInput.value.trim();
+            if (urlToLoad) {
+                fetchQuizData(urlToLoad);
+            } else {
+                urlErrorMessage.textContent = 'Vui lòng chọn hoặc nhập đường dẫn URL.';
+                urlErrorMessage.classList.remove('hidden');
+            }
+        });
+
+        // --- IMPORTANT: Call initializeQuizSources on DOMContentLoaded ---
+        document.addEventListener('DOMContentLoaded', () => {
+            initializeQuizSources(); // This will now fetch PREDEFINED_QUIZ_SOURCES first
+            
+            // Add listeners for source selection mode radios
+            predefinedSourceRadio.addEventListener('change', handleSourceSelectionModeChange);
+            manualSourceRadio.addEventListener('change', handleSourceSelectionModeChange);
+            
+            // Add listener for predefined select change to automatically load
+            predefinedQuizUrlSelect.addEventListener('change', () => {
+                if (predefinedSourceRadio.checked) {
+                    handleSourceSelectionModeChange(); 
+                }
+            });
+
+            // Add listeners for quiz mode radios
+            learningModeRadio.addEventListener('change', handleQuizModeChange);
+            examModeRadio.addEventListener('change', handleQuizModeChange);
+
+            // Add listeners for question selection radios
+            allQuestionsRadio.addEventListener('change', handleQuestionCountVisibility);
+            customQuestionsRadio.addEventListener('change', handleQuestionCountVisibility);
+        });
+
+        // Functions for quiz flow (kept as per your original file)
+        function startGame() {
+            if (fullQuizData.length === 0) {
+                numQuestionsError.textContent = 'Chưa có câu hỏi để bắt đầu. Vui lòng tải câu hỏi trước.';
+                numQuestionsError.classList.remove('hidden');
+                return;
+            }
+
+            let numQuestionsToSelect = fullQuizData.length;
+            if (customQuestionsRadio.checked) {
+                numQuestionsToSelect = parseInt(numQuestionsInput.value, 10);
+                if (isNaN(numQuestionsToSelect) || numQuestionsToSelect <= 0 || numQuestionsToSelect > fullQuizData.length) {
+                    numQuestionsError.textContent = `Vui lòng nhập số câu hợp lệ (1 - ${fullQuizData.length}).`;
+                    numQuestionsError.classList.remove('hidden');
+                    return;
+                }
+            }
+            numQuestionsError.classList.add('hidden');
+
+            startScreen.classList.add('hidden');
+            resultScreen.classList.add('hidden');
+            questionScreen.classList.remove('hidden');
+
+            shuffledQuestions = [...fullQuizData].sort(() => Math.random() - 0.5).slice(0, numQuestionsToSelect);
+            currentQuestionIndex = 0;
+            score = 0;
+            
+            totalQuestionsEl.textContent = shuffledQuestions.length;
+            scoreEl.textContent = score;
+
+            setNextQuestion();
+        }
+
+        function setNextQuestion() {
+            resetState();
+            if (currentQuestionIndex < shuffledQuestions.length) {
+                showQuestion(shuffledQuestions[currentQuestionIndex]);
+                updateProgress();
+            } else {
+                showResult();
+            }
+        }
+
+        function showQuestion(question) {
+            questionNumberEl.textContent = currentQuestionIndex + 1;
+            questionTextEl.textContent = question.question;
+            explanationTextEl.textContent = question.explanation;
+
+            const shuffledOptions = [...question.options].sort(() => Math.random() - 0.5);
+
+            shuffledOptions.forEach((option, index) => {
+                const button = document.createElement('button');
+                const optionLabel = String.fromCharCode(65 + index);
+                button.textContent = `${optionLabel}. ${option.text}`;
+                button.classList.add('w-full', 'p-4', 'text-left', 'border-2', 'border-gray-300', 'rounded-lg', 'transition-all', 'duration-300', 'hover:bg-gray-100', 'hover:border-blue-500');
+                if (option.isCorrect) {
+                    button.dataset.correct = true;
+                }
+                button.addEventListener('click', selectAnswer);
+                optionsContainer.appendChild(button);
+            });
+        }
+        
+        function resetState() {
+            if (autoAdvanceTimeout) {
+                clearTimeout(autoAdvanceTimeout);
+                autoAdvanceTimeout = null;
+            }
+            nextBtn.classList.add('hidden');
+            feedbackContainer.classList.add('hidden');
+            while (optionsContainer.firstChild) {
+                optionsContainer.removeChild(optionsContainer.firstChild);
+            }
+        }
+
+        function selectAnswer(e) {
+            if (autoAdvanceTimeout) { // Prevent multiple clicks in exam mode
+                clearTimeout(autoAdvanceTimeout);
+                autoAdvanceTimeout = null;
+            }
+
+            const selectedButton = e.target;
+            const correct = selectedButton.dataset.correct === 'true';
+
+            // Mark question as answered and store correctness for summary
+            shuffledQuestions[currentQuestionIndex].userAnsweredCorrectly = correct;
+
+            if (correct) {
+                score++;
+                scoreEl.textContent = score;
+            }
+
+            Array.from(optionsContainer.children).forEach(button => {
+                setStatusClass(button, button.dataset.correct === 'true');
+                button.disabled = true; // Disable all options after one is selected
+            });
+
+            if (quizMode === 'learning') {
+                feedbackContainer.classList.remove('hidden');
+                nextBtn.classList.remove('hidden');
+            } else { // Exam mode
+                autoAdvanceTimeout = setTimeout(() => {
+                    currentQuestionIndex++;
+                    setNextQuestion();
+                }, 2000); // Auto advance after 2 seconds
+            }
+        }
+
+        function setStatusClass(element, correct) {
+            if (correct) {
+                element.classList.add('correct-answer');
+            } else {
+                element.classList.add('incorrect-answer');
+            }
+        }
+        
+        function updateProgress() {
+            const progressPercentage = ((currentQuestionIndex + 1) / shuffledQuestions.length) * 100;
+            progressBar.style.width = `${progressPercentage}%`;
+        }
+        
+        function showResult() {
+            questionScreen.classList.add('hidden');
+            resultScreen.classList.remove('hidden');
+
+            const finalScoreText = `${score} / ${shuffledQuestions.length}`;
+            finalScoreEl.textContent = finalScoreText;
+
+            const percentage = shuffledQuestions.length > 0 ? (score / shuffledQuestions.length) * 100 : 0;
+            percentageCorrectEl.textContent = `Tỷ lệ đúng: ${percentage.toFixed(2)}%`;
+
+            let message = '';
+            if (percentage === 100) {
+                message = 'Tuyệt vời! Bạn đã nắm vững kiến thức.';
+            } else if (percentage >= 75) {
+                message = 'Rất tốt! Bạn hiểu khá rõ về chủ đề này.';
+            } else if (percentage >= 50) {
+                message = 'Khá ổn! Hãy ôn tập thêm một chút nhé.';
+            } else {
+                message = 'Cần cố gắng hơn. Hãy xem lại tài liệu và thử lại nhé!';
+            }
+            resultMessageEl.textContent = message;
+
+            // Display summary of questions
+            displayQuizSummary();
+        }
+
+        function displayQuizSummary() {
+            summaryQuestionList.innerHTML = ''; // Clear previous summary
+            shuffledQuestions.forEach((q, index) => {
+                const item = document.createElement('div');
+                item.classList.add('summary-question-item', 'mb-3', 'p-2', 'rounded-lg');
+
+                const statusIcon = q.userAnsweredCorrectly ? '<span class="text-green-600">&#10003;</span>' : '<span class="text-red-600">&#10005;</span>';
+                
+                let optionsHtml = q.options.map((opt, optIndex) => {
+                    const optionLabel = String.fromCharCode(65 + optIndex);
+                    let optionClass = '';
+                    if (opt.isCorrect) {
+                        optionClass = 'font-bold text-green-600'; // Highlight correct answer
+                    }
+                    if (!q.userAnsweredCorrectly && q.userSelectedText && q.userSelectedText === `${optionLabel}. ${opt.text}`) {
+                        // If user answered incorrectly, and this is their selected option
+                        optionClass += ' text-red-600'; // Highlight user's incorrect choice
+                    }
+                    return `<li class="${optionClass}">${optionLabel}. ${opt.text}</li>`;
+                }).join('');
+
+                item.innerHTML = `
+                    <p class="font-semibold text-gray-800 mb-1">Câu ${index + 1}: ${q.question} ${statusIcon}</p>
+                    <ul class="list-none pl-4 text-gray-700 text-sm">
+                        ${optionsHtml}
+                    </ul>
+                    <div class="mt-2 text-blue-700 text-sm explanation">
+                        <strong>Giải thích:</strong> ${q.explanation}
+                    </div>
+                `;
+                summaryQuestionList.appendChild(item);
+            });
+        }
+
+
+        // Event Listeners
+        startBtn.addEventListener('click', startGame);
+        nextBtn.addEventListener('click', () => {
+            currentQuestionIndex++;
+            setNextQuestion();
+        });
+        // Modified restart button logic:
+        restartBtn.addEventListener('click', () => {
+            // Reset to start screen, but keep data loaded
+            resultScreen.classList.add('hidden');
+            startScreen.classList.remove('hidden');
+            // Ensure start button is enabled if data is already loaded
+            if (fullQuizData.length > 0) {
+                startBtn.disabled = false;
+                totalAvailableQuestionsEl.textContent = fullQuizData.length;
+            } else {
+                startBtn.disabled = true; // Still disabled if no data
+                totalAvailableQuestionsEl.textContent = 'Chưa tải';
+            }
+            // Ensure visibility for selected modes on restart
+            handleSourceSelectionModeChange();
+            handleQuestionCountVisibility(); // Re-apply visibility settings for count section
+        });
+    </script>
+</body>
+</html>

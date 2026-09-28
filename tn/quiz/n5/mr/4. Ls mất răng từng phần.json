@@ -1,0 +1,1156 @@
+[
+    {
+      "question": "Biến đổi đầu tiên xảy ra trên cung răng khi mất 1 răng là gì?",
+      "options": [
+        {"text": "Răng đối diện rụng ngay lập tức", "isCorrect": false},
+        {"text": "Các răng ở hai đầu khoảng mất răng bị xô lệch, nghiêng trục về phía khoảng mất răng", "isCorrect": true},
+        {"text": "Xương hàm vùng đó mọc dày lên", "isCorrect": false},
+        {"text": "Các răng còn lại trở nên trắng hơn", "isCorrect": false}
+      ],
+      "explanation": "Khi có khoảng trống do mất răng, các răng lân cận có xu hướng di chuyển và nghiêng vào khoảng trống đó do mất sự tiếp xúc bên."
+    },
+    {
+      "question": "Mất nhóm răng hàm có thể gây ra hiện tượng gì ở nhóm răng cửa?",
+      "options": [
+        {"text": "Răng cửa bị mòn nhanh hơn", "isCorrect": false},
+        {"text": "Làm thưa nhóm răng cửa", "isCorrect": true},
+        {"text": "Răng cửa bị quặp vào trong", "isCorrect": false},
+        {"text": "Không ảnh hưởng đến răng cửa", "isCorrect": false}
+      ],
+      "explanation": "Việc mất răng hàm làm thay đổi cân bằng lực trên cung răng, dẫn đến việc các răng trước có thể bị thưa ra."
+    },
+    {
+      "question": "Hiện tượng Popov trong mất răng là gì?",
+      "options": [
+        {"text": "Sống hàm bị tiêu biến hoàn toàn", "isCorrect": false},
+        {"text": "Răng đối diện với khoảng mất răng mọc dài ra", "isCorrect": true},
+        {"text": "Răng bị sâu hàng loạt", "isCorrect": false},
+        {"text": "Lưỡi bị tê liệt", "isCorrect": false}
+      ],
+      "explanation": "Hiện tượng Popov (hay trồi răng) xảy ra khi răng không có răng đối vận, khiến nó tiếp tục mọc dài ra hướng về phía khoảng trống đối diện."
+    },
+    {
+      "question": "Hệ quả của hiện tượng Popov có thể dẫn đến tình trạng nào sau đây?",
+      "options": [
+        {"text": "Răng đối diện chạm vào sống hàm nơi mất răng", "isCorrect": true},
+        {"text": "Răng đối diện tự động rụng", "isCorrect": false},
+        {"text": "Răng đối diện bị sâu mặt nhai", "isCorrect": false},
+        {"text": "Giúp việc ăn nhai tốt hơn", "isCorrect": false}
+      ],
+      "explanation": "Răng trồi quá mức có thể chạm trực tiếp vào niêm mạc sống hàm đối diện, gây đau và khó khăn cho việc làm phục hình sau này."
+    },
+    {
+      "question": "Khi mất răng nhiều chỗ, các răng còn lại thường có xu hướng di chuyển như thế nào?",
+      "options": [
+        {"text": "Giữ nguyên vị trí", "isCorrect": false},
+        {"text": "Di chuyển nhiều, tạo nhiều khoảng thưa và mất chiều cao nhai", "isCorrect": true},
+        {"text": "Mọc ngắn lại vào trong xương", "isCorrect": false},
+        {"text": "Răng tự xoay 180 độ", "isCorrect": false}
+      ],
+      "explanation": "Mất nhiều răng khiến các răng còn lại mất điểm tựa và di chuyển hỗn loạn, làm hỏng mặt phẳng cắn và giảm kích thước tầng mặt dưới."
+    },
+    {
+      "question": "Quá trình tiêu xương ổ răng sau khi mất răng diễn ra như thế nào?",
+      "options": [
+        {"text": "Xương sẽ mọc bù vào khoảng trống", "isCorrect": false},
+        {"text": "Xương ổ răng bị tiêu dần theo thời gian", "isCorrect": true},
+        {"text": "Xương chỉ tiêu trong 1 tuần đầu rồi ngừng", "isCorrect": false},
+        {"text": "Xương ổ răng biến thành sụn", "isCorrect": false}
+      ],
+      "explanation": "Sau khi mất răng, xương ổ không còn chức năng nâng đỡ chân răng nên sẽ bị tiêu biến dần (tiêu xương sinh lý)."
+    },
+    {
+      "question": "Hướng tiêu xương của xương hàm trên thường là gì?",
+      "options": [
+        {"text": "Tiêu hướng ra ngoài", "isCorrect": false},
+        {"text": "Tiêu hướng vào trong, làm vòm miệng hẹp lại", "isCorrect": true},
+        {"text": "Tiêu từ dưới lên trên đồng đều", "isCorrect": false},
+        {"text": "Hàm trên không bị tiêu xương", "isCorrect": false}
+      ],
+      "explanation": "Xương hàm trên có xu hướng tiêu vào trong, khiến cung hàm thu nhỏ lại so với ban đầu."
+    },
+    {
+      "question": "Hướng tiêu xương của xương hàm dưới thường là gì?",
+      "options": [
+        {"text": "Tiêu hướng vào trong", "isCorrect": false},
+        {"text": "Tiêu hướng ra ngoài, làm cung hàm rộng ra", "isCorrect": true},
+        {"text": "Tiêu từ trên xuống dưới đồng đều", "isCorrect": false},
+        {"text": "Chỉ tiêu ở vùng cằm", "isCorrect": false}
+      ],
+      "explanation": "Xương hàm dưới tiêu theo hướng ra ngoài, làm cho cung xương hàm có cảm giác rộng hơn cung hàm trên sau một thời gian dài mất răng."
+    },
+    {
+      "question": "Biến đổi mô mềm vùng mặt khi mất răng lâu ngày bao gồm:",
+      "options": [
+        {"text": "Môi má căng mọng hơn", "isCorrect": false},
+        {"text": "Môi móp, má hóp do mất sự nâng đỡ của răng và xương", "isCorrect": true},
+        {"text": "Mũi cao lên", "isCorrect": false},
+        {"text": "Da mặt trở nên mịn màng hơn", "isCorrect": false}
+      ],
+      "explanation": "Răng và xương ổ răng đóng vai trò nâng đỡ cơ môi và má. Khi mất đi, các mô mềm này sẽ bị sụp đổ gây lão hóa khuôn mặt."
+    },
+    {
+      "question": "Hiện tượng phì đại lưỡi thường xảy ra khi nào?",
+      "options": [
+        {"text": "Mất răng 1 bên duy nhất", "isCorrect": false},
+        {"text": "Mất răng nhiều và lâu ngày, lưỡi lấn vào khoảng trống mất răng", "isCorrect": true},
+        {"text": "Ngay sau khi nhổ 1 răng", "isCorrect": false},
+        {"text": "Khi đeo hàm giả quá chặt", "isCorrect": false}
+      ],
+      "explanation": "Lưỡi có xu hướng giãn ra để lấp đầy các khoảng trống không có răng, lâu ngày dẫn đến tình trạng lưỡi to (phì đại)."
+    },
+    {
+      "question": "Mất răng cửa trên và dưới ảnh hưởng đến việc phát âm các phụ âm nào?",
+      "options": [
+        {"text": "Âm họng /kh/, /g/", "isCorrect": false},
+        {"text": "Các âm cần sự chặn gió của răng như /s/, /z/, /t/, /d/", "isCorrect": true},
+        {"text": "Chỉ ảnh hưởng đến nguyên âm /a/", "isCorrect": false},
+        {"text": "Không ảnh hưởng đến phát âm", "isCorrect": false}
+      ],
+      "explanation": "Nhóm răng trước giữ vai trò quan trọng trong việc tạo khe hở hẹp để phát các âm gió."
+    },
+    {
+      "question": "Âm /v/ và /f/ bị rối loạn phát âm chủ yếu do mất nhóm răng nào?",
+      "options": [
+        {"text": "Răng hàm lớn", "isCorrect": false},
+        {"text": "Răng cửa trên", "isCorrect": true},
+        {"text": "Răng khôn", "isCorrect": false},
+        {"text": "Răng hàm nhỏ dưới", "isCorrect": false}
+      ],
+      "explanation": "Âm /v/ và /f/ được tạo ra bằng cách tỳ môi dưới vào rìa cắn răng cửa trên."
+    },
+    {
+      "question": "Tại sao mất răng lại gây ảnh hưởng đến tâm lý bệnh nhân?",
+      "options": [
+        {"text": "Vì họ thấy mình già đi và thiếu tự tin khi giao tiếp", "isCorrect": true},
+        {"text": "Vì họ bị đau tai", "isCorrect": false},
+        {"text": "Vì họ không thể ngủ được", "isCorrect": false},
+        {"text": "Vì răng giả làm họ thông minh hơn", "isCorrect": false}
+      ],
+      "explanation": "Sự thay đổi diện mạo (thẩm mỹ) và khó khăn khi nói chuyện làm bệnh nhân mặc cảm, ngại giao tiếp."
+    },
+    {
+      "question": "Phân loại mất răng của Kennedy dựa trên yếu tố chính nào?",
+      "options": [
+        {"text": "Số lượng răng bị sâu", "isCorrect": false},
+        {"text": "Vị trí của các khoảng mất răng so với các răng thật còn lại", "isCorrect": true},
+        {"text": "Màu sắc của nướu", "isCorrect": false},
+        {"text": "Độ lung lay của răng", "isCorrect": false}
+      ],
+      "explanation": "Kennedy phân loại dựa trên mối tương quan giữa vùng mất răng và răng trụ."
+    },
+    {
+      "question": "Mất răng Kennedy loại I là gì?",
+      "options": [
+        {"text": "Mất răng ở 1 bên phía sau răng thật", "isCorrect": false},
+        {"text": "Mất răng ở cả 2 bên phía sau các răng thật còn lại", "isCorrect": true},
+        {"text": "Mất răng ở vùng phía trước qua đường giữa", "isCorrect": false},
+        {"text": "Mất răng xen kẽ ở giữa các răng thật", "isCorrect": false}
+      ],
+      "explanation": "Loại I: Khoảng mất răng nằm ở cả hai bên cung hàm và không còn răng thật giới hạn ở phía sau."
+    },
+    {
+      "question": "Mất răng Kennedy loại II là gì?",
+      "options": [
+        {"text": "Mất răng ở 1 bên phía sau các răng thật còn lại", "isCorrect": true},
+        {"text": "Mất răng 2 bên phía sau", "isCorrect": false},
+        {"text": "Mất răng ở vùng cửa", "isCorrect": false},
+        {"text": "Mất răng 1 khoảng duy nhất có răng giới hạn 2 đầu", "isCorrect": false}
+      ],
+      "explanation": "Loại II: Khoảng mất răng chỉ nằm ở một bên cung hàm và không có răng thật phía sau."
+    },
+    {
+      "question": "Mất răng Kennedy loại III có đặc điểm gì?",
+      "options": [
+        {"text": "Mất răng phía sau 2 bên", "isCorrect": false},
+        {"text": "Khoảng mất răng đơn độc có răng thật giới hạn ở cả hai phía trước và sau", "isCorrect": true},
+        {"text": "Mất toàn bộ răng cung hàm", "isCorrect": false},
+        {"text": "Khoảng mất răng nằm ở vùng răng cửa qua đường giữa", "isCorrect": false}
+      ],
+      "explanation": "Loại III: Khoảng mất răng ở một bên và được giới hạn bởi răng thật ở cả phía trước và phía sau."
+    },
+    {
+      "question": "Mất răng Kennedy loại IV là gì?",
+      "options": [
+        {"text": "Mất răng xen kẽ nhiều chỗ", "isCorrect": false},
+        {"text": "Một khoảng mất răng duy nhất nằm ở vùng răng trước và băng qua đường giữa", "isCorrect": true},
+        {"text": "Mất răng phía sau 1 bên", "isCorrect": false},
+        {"text": "Mất tất cả các răng hàm", "isCorrect": false}
+      ],
+      "explanation": "Loại IV: Khoảng mất răng nằm ở phía trước các răng thật còn lại và phải băng qua đường giữa cung hàm."
+    },
+    {
+      "question": "Trong phân loại Kennedy, nếu có nhiều khoảng mất răng, khoảng nào quyết định loại chính?",
+      "options": [
+        {"text": "Khoảng nằm phía trước nhất", "isCorrect": false},
+        {"text": "Khoảng nằm phía sau nhất", "isCorrect": true},
+        {"text": "Khoảng có nhiều răng mất nhất", "isCorrect": false},
+        {"text": "Khoảng ở hàm trên", "isCorrect": false}
+      ],
+      "explanation": "Theo quy tắc số 5 của Applegate, khoảng mất răng nằm ở vị trí lùi xa nhất về phía sau sẽ quyết định loại phân loại chính."
+    },
+    {
+      "question": "Các khoảng mất răng phụ (không quyết định loại chính) trong Kennedy được gọi là gì?",
+      "options": [
+        {"text": "Phân loại chính", "isCorrect": false},
+        {"text": "Biến thể (Modifications)", "isCorrect": true},
+        {"text": "Lỗ hổng", "isCorrect": false},
+        {"text": "Phân cấp", "isCorrect": false}
+      ],
+      "explanation": "Các khoảng trống thêm vào được gọi là biến thể (Modification) và ký hiệu bằng số lượng khoảng trống đó."
+    },
+    {
+      "question": "Kennedy loại IV có biến thể không?",
+      "options": [
+        {"text": "Có, nếu mất thêm răng ở phía sau", "isCorrect": false},
+        {"text": "Không có biến thể", "isCorrect": true},
+        {"text": "Luôn luôn có 1 biến thể", "isCorrect": false},
+        {"text": "Tùy thuộc vào bác sĩ", "isCorrect": false}
+      ],
+      "explanation": "Nếu có thêm một khoảng mất răng ở phía sau thì khoảng đó sẽ quyết định loại chính (I, II hoặc III), do đó loại IV không bao giờ có biến thể."
+    },
+    {
+      "question": "Quy tắc Applegate số 1 quy định điều gì khi phân loại mất răng?",
+      "options": [
+        {"text": "Phân loại phải được thực hiện trước khi nhổ răng", "isCorrect": false},
+        {"text": "Phân loại phải được thực hiện sau khi đã nhổ những răng không thể giữ được", "isCorrect": true},
+        {"text": "Chỉ phân loại răng cửa", "isCorrect": false},
+        {"text": "Răng khôn luôn được tính vào phân loại", "isCorrect": false}
+      ],
+      "explanation": "Việc nhổ răng sau khi phân loại có thể làm thay đổi loại mất răng, nên phải nhổ xong mới phân loại."
+    },
+    {
+      "question": "Theo quy tắc Applegate, nếu răng khôn bị mất và không được thay thế thì có tính vào phân loại không?",
+      "options": [
+        {"text": "Có tính", "isCorrect": false},
+        {"text": "Không tính vào phân loại", "isCorrect": true},
+        {"text": "Tính là một biến thể", "isCorrect": false},
+        {"text": "Chỉ tính nếu là hàm trên", "isCorrect": false}
+      ],
+      "explanation": "Nếu răng khôn mất mà không làm răng giả thay thế vị trí đó thì không xem nó là khoảng mất răng trong phân loại."
+    },
+    {
+      "question": "Nếu răng khôn hiện diện và được dùng làm răng trụ thì có tính vào phân loại không?",
+      "options": [
+        {"text": "Có tính", "isCorrect": true},
+        {"text": "Không tính", "isCorrect": false},
+        {"text": "Tùy vào độ chắc của răng", "isCorrect": false},
+        {"text": "Chỉ tính ở hàm dưới", "isCorrect": false}
+      ],
+      "explanation": "Răng khôn nếu còn và được sử dụng để nâng đỡ phục hình thì được tính vào phân loại."
+    },
+    {
+      "question": "Quy tắc Applegate số 4 quy định gì về răng cối lớn thứ hai (răng số 7) bị mất?",
+      "options": [
+        {"text": "Luôn luôn phải tính vào phân loại", "isCorrect": false},
+        {"text": "Nếu không thay thế răng này thì không tính vào phân loại", "isCorrect": true},
+        {"text": "Tính là biến thể loại 2", "isCorrect": false},
+        {"text": "Phải nhổ răng đối diện", "isCorrect": false}
+      ],
+      "explanation": "Nếu răng số 7 mất và không có kế hoạch làm răng giả bù vào vị trí đó thì không tính nó khi phân loại Kennedy."
+    },
+    {
+      "question": "Số lượng răng mất trong một khoảng trống có làm thay đổi số biến thể không?",
+      "options": [
+        {"text": "Có, mất càng nhiều răng số biến thể càng lớn", "isCorrect": false},
+        {"text": "Không, chỉ tính số lượng các khoảng mất răng phụ", "isCorrect": true},
+        {"text": "Tùy thuộc vào loại răng", "isCorrect": false},
+        {"text": "Chỉ tính nếu mất răng nanh", "isCorrect": false}
+      ],
+      "explanation": "Biến thể chỉ tính dựa trên số lượng 'khoảng trống' thêm vào, không quan trọng mỗi khoảng trống mất bao nhiêu răng."
+    },
+    {
+      "question": "Phân loại mất răng của Kurliandsky chia làm mấy nhóm chính?",
+      "options": [
+        {"text": "2 nhóm", "isCorrect": false},
+        {"text": "3 nhóm", "isCorrect": false},
+        {"text": "4 nhóm", "isCorrect": true},
+        {"text": "5 nhóm", "isCorrect": false}
+      ],
+      "explanation": "Kurliandsky chia mất răng thành 4 loại để giúp bác sĩ hình dung các bước điều trị."
+    },
+    {
+      "question": "Đặc điểm của mất răng Kurliandsky loại 1 là gì?",
+      "options": [
+        {"text": "Còn răng và còn các điểm chạm ở cả 2 bên cung hàm", "isCorrect": true},
+        {"text": "Mất răng toàn bộ", "isCorrect": false},
+        {"text": "Chỉ còn răng ở 1 bên", "isCorrect": false},
+        {"text": "Còn răng nhưng không có điểm chạm nào", "isCorrect": false}
+      ],
+      "explanation": "Loại 1 Kurliandsky là tình trạng mất răng nhưng vẫn còn các cặp răng đối diện chạm nhau ở cả hai bên trái và phải."
+    },
+    {
+      "question": "Kurliandsky loại 2 có đặc điểm gì về khớp cắn?",
+      "options": [
+        {"text": "Còn điểm chạm cả 2 bên", "isCorrect": false},
+        {"text": "Chỉ còn điểm chạm ở một bên cung hàm", "isCorrect": true},
+        {"text": "Không còn điểm chạm nào", "isCorrect": false},
+        {"text": "Mất hết răng trước", "isCorrect": false}
+      ],
+      "explanation": "Loại 2 Kurliandsky là mất răng dẫn đến việc chỉ còn các điểm chạm khớp ở một bên hàm (trái hoặc phải)."
+    },
+    {
+      "question": "Mất răng Kurliandsky loại 3 được mô tả như thế nào?",
+      "options": [
+        {"text": "Còn răng nhưng không có điểm chạm nào (mất răng kiểu cài răng lược)", "isCorrect": true},
+        {"text": "Mất toàn bộ răng", "isCorrect": false},
+        {"text": "Răng bị nghiêng hết sang một bên", "isCorrect": false},
+        {"text": "Còn đầy đủ răng nhưng bị sâu", "isCorrect": false}
+      ],
+      "explanation": "Loại 3 Kurliandsky là tình trạng cung hàm vẫn còn răng nhưng các răng này không đối xứng để tạo ra điểm chạm khớp khi ngậm miệng."
+    },
+    {
+      "question": "Kurliandsky loại 4 tương ứng với tình trạng nào?",
+      "options": [
+        {"text": "Mất 1 răng duy nhất", "isCorrect": false},
+        {"text": "Mất răng toàn bộ 1 hay cả 2 hàm", "isCorrect": true},
+        {"text": "Mất răng xen kẽ", "isCorrect": false},
+        {"text": "Răng bị tiêu xương độ 4", "isCorrect": false}
+      ],
+      "explanation": "Loại 4 Kurliandsky là mất răng toàn bộ, yêu cầu phải ghi tương quan tâm để phục hình."
+    },
+    {
+      "question": "Phân loại mất răng của Eichner dựa trên yếu tố nào?",
+      "options": [
+        {"text": "Số lượng răng cửa", "isCorrect": false},
+        {"text": "4 vùng chạm ở răng hàm nhỏ và răng hàm lớn", "isCorrect": true},
+        {"text": "Chiều cao sống hàm", "isCorrect": false},
+        {"text": "Độ tuổi bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Eichner dựa vào các vùng hỗ trợ nhai ở phía sau (2 vùng răng hàm nhỏ và 2 vùng răng hàm lớn hai bên)."
+    },
+    {
+      "question": "Nhóm A của Eichner có đặc điểm gì?",
+      "options": [
+        {"text": "Không còn điểm chạm nào", "isCorrect": false},
+        {"text": "Răng trên và dưới có đầy đủ 4 vùng chạm", "isCorrect": true},
+        {"text": "Chỉ chạm ở răng cửa", "isCorrect": false},
+        {"text": "Mất toàn bộ răng hàm", "isCorrect": false}
+      ],
+      "explanation": "Nhóm A Eichner gồm các trường hợp vẫn duy trì được sự nâng đỡ ở cả 4 vùng răng sau (A1, A2, A3)."
+    },
+    {
+      "question": "Nhóm B của Eichner bao gồm những trường hợp nào?",
+      "options": [
+        {"text": "Có từ 1 đến 3 vùng chạm ở răng sau", "isCorrect": true},
+        {"text": "Đầy đủ 4 vùng chạm", "isCorrect": false},
+        {"text": "Không còn vùng chạm răng sau nào", "isCorrect": false},
+        {"text": "Chỉ còn răng 1 hàm", "isCorrect": false}
+      ],
+      "explanation": "Nhóm B là tình trạng mất các vùng hỗ trợ nhai, chỉ còn từ 1-3 vùng chạm (B1, B2, B3, B4)."
+    },
+    {
+      "question": "Nhóm C của Eichner là tình trạng gì?",
+      "options": [
+        {"text": "Còn nhiều răng nhưng không chạm nhau", "isCorrect": false},
+        {"text": "Không còn vùng chạm nào ở răng sau", "isCorrect": true},
+        {"text": "Còn 1 vùng chạm duy nhất", "isCorrect": false},
+        {"text": "Bệnh nhân bị mất hết răng cửa", "isCorrect": false}
+      ],
+      "explanation": "Nhóm C Eichner là tình trạng mất hoàn toàn sự nâng đỡ ở các răng sau (C1, C2, C3)."
+    },
+    {
+      "question": "Mất răng loại III Kurliandsky bắt buộc bác sĩ phải thực hiện bước nào?",
+      "options": [
+        {"text": "Nhổ sạch răng còn lại", "isCorrect": false},
+        {"text": "Tìm chiều cao tầng mặt dưới để thử sáp", "isCorrect": true},
+        {"text": "Không cần làm gối sáp", "isCorrect": false},
+        {"text": "Chỉ cần lấy dấu sơ khởi", "isCorrect": false}
+      ],
+      "explanation": "Vì không còn điểm chạm nào, bác sĩ không thể xác định khớp cắn tự nhiên mà phải đo chiều cao tầng mặt dưới."
+    },
+    {
+      "question": "Theo Applegate, quy tắc số 8 nói gì về loại IV Kennedy?",
+      "options": [
+        {"text": "Loại IV có thể có nhiều biến thể", "isCorrect": false},
+        {"text": "Loại IV không bao giờ có các khoảng biến thể", "isCorrect": true},
+        {"text": "Loại IV là loại quan trọng nhất", "isCorrect": false},
+        {"text": "Loại IV chỉ dành cho hàm trên", "isCorrect": false}
+      ],
+      "explanation": "Bất kỳ khoảng mất răng phụ nào nằm sau khoảng mất răng trước của loại IV sẽ chuyển nó thành loại I, II hoặc III."
+    },
+    {
+      "question": "Thứ tự ưu tiên của phục hình răng mất là gì?",
+      "options": [
+        {"text": "1. Implant, 2. Hàm nhựa, 3. Hàm khung", "isCorrect": false},
+        {"text": "1. Hàm cố định, 2. Hàm tháo lắp", "isCorrect": true},
+        {"text": "Luôn làm tháo lắp trước cho quen", "isCorrect": false},
+        {"text": "Không có thứ tự ưu tiên", "isCorrect": false}
+      ],
+      "explanation": "Tài liệu ghi nhận quy trình phục hồi răng mất ưu tiên hàm giả cố định trước, sau đó mới đến hàm giả tháo lắp."
+    },
+    {
+      "question": "Trong mất răng Kennedy loại I, răng giả được nâng đỡ chủ yếu bởi đâu?",
+      "options": [
+        {"text": "Hoàn toàn trên răng trụ", "isCorrect": false},
+        {"text": "Hỗn hợp trên răng trụ và niêm mạc sống hàm", "isCorrect": true},
+        {"text": "Chỉ trên vòm miệng", "isCorrect": false},
+        {"text": "Trên các móc thép", "isCorrect": false}
+      ],
+      "explanation": "Loại I là mất răng cuối cùng 2 bên, phục hình sẽ tỳ lên cả răng thật còn lại và niêm mạc vùng mất răng."
+    },
+    {
+      "question": "Việc răng bị nghiêng trục về khoảng mất răng gây khó khăn gì cho phục hình?",
+      "options": [
+        {"text": "Làm hàm giả bị lỏng", "isCorrect": false},
+        {"text": "Gây cản trở đường lắp của phục hình và tạo kẽ hở đọng thức ăn", "isCorrect": true},
+        {"text": "Làm răng trắng quá mức", "isCorrect": false},
+        {"text": "Giúp móc bám chắc hơn", "isCorrect": false}
+      ],
+      "explanation": "Răng nghiêng tạo ra các vùng lẹm và làm sai lệch hướng lắp hàm khung, đồng thời dễ gây nhét thức ăn gây sâu răng."
+    },
+    {
+      "question": "Theo Eichner, loại A1 là trường hợp nào?",
+      "options": [
+        {"text": "Mất 1 hàm hoàn toàn", "isCorrect": false},
+        {"text": "Đầy đủ răng ở cả 2 hàm", "isCorrect": true},
+        {"text": "Mất 1 răng duy nhất", "isCorrect": false},
+        {"text": "Mất răng cửa 2 hàm", "isCorrect": false}
+      ],
+      "explanation": "A1 theo Eichner là tình trạng bộ răng còn đầy đủ hoặc mất rất ít không ảnh hưởng đến 4 vùng chạm sau."
+    },
+    {
+      "question": "Tiêu xương ở hàm dưới có đặc điểm gì khác so với hàm trên?",
+      "options": [
+        {"text": "Hàm dưới tiêu nhanh gấp 10 lần", "isCorrect": false},
+        {"text": "Hàm dưới có xu hướng tiêu để lại sống hàm sắc bén như lưỡi dao", "isCorrect": true},
+        {"text": "Hàm dưới không bao giờ bị tiêu xương", "isCorrect": false},
+        {"text": "Hàm dưới tiêu hướng vào trong giống hàm trên", "isCorrect": false}
+      ],
+      "explanation": "Do đặc điểm giải phẫu, xương hàm dưới khi tiêu thường để lại gờ sống hàm hẹp và sắc, gây đau khi đeo hàm giả."
+    },
+    {
+      "question": "Phân loại mất răng từng phần giúp bác sĩ điều gì?",
+      "options": [
+        {"text": "Biết bệnh nhân có giàu không", "isCorrect": false},
+        {"text": "Hình dung các bước điều trị và thiết kế phục hình phù hợp", "isCorrect": true},
+        {"text": "Để tính tiền nhanh hơn", "isCorrect": false},
+        {"text": "Để biết màu răng của bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Mỗi loại mất răng có quy trình lâm sàng (như thử sáp, ghi tương quan tâm) khác nhau."
+    },
+    {
+      "question": "Âm /s/ và /z/ được tạo ra bởi sự tương quan của bộ phận nào?",
+      "options": [
+        {"text": "Môi trên và môi dưới", "isCorrect": false},
+        {"text": "Răng cửa giữa trên và dưới quyết định độ cắn chìa", "isCorrect": true},
+        {"text": "Lưỡi và răng hàm lớn", "isCorrect": false},
+        {"text": "Gốc lưỡi và màn hầu", "isCorrect": false}
+      ],
+      "explanation": "Tương quan răng cửa quyết định luồng hơi thoát ra khi phát âm âm gió /s/."
+    },
+    {
+      "question": "Mất răng lâu ngày dẫn đến biến đổi ở khớp thái dương hàm như thế nào?",
+      "options": [
+        {"text": "Lồi cầu bị kẹt cứng", "isCorrect": false},
+        {"text": "Thay đổi quỹ đạo vận động của lồi cầu do mất kích thước đứng", "isCorrect": true},
+        {"text": "Khớp sẽ tự động biến mất", "isCorrect": false},
+        {"text": "Không có biến đổi ở khớp", "isCorrect": false}
+      ],
+      "explanation": "Việc răng xô lệch và mất chiều cao nhai buộc lồi cầu phải thích nghi bằng cách thay đổi vị trí trong hố khớp."
+    },
+    {
+      "question": "Một bệnh nhân mất răng 36, 37, 38 và 46, 47, 48. Theo Kennedy đây là loại mấy?",
+      "options": [
+        {"text": "Loại I", "isCorrect": true},
+        {"text": "Loại II", "isCorrect": false},
+        {"text": "Loại III", "isCorrect": false},
+        {"text": "Loại IV", "isCorrect": false}
+      ],
+      "explanation": "Mất răng phía sau ở cả 2 bên cung hàm là đặc điểm của Kennedy loại I."
+    },
+    {
+      "question": "Bệnh nhân mất răng 14, 15, 16. Răng 17 và 13 vẫn còn tốt. Đây là Kennedy loại mấy?",
+      "options": [
+        {"text": "Loại I", "isCorrect": false},
+        {"text": "Loại II", "isCorrect": false},
+        {"text": "Loại III", "isCorrect": true},
+        {"text": "Loại IV", "isCorrect": false}
+      ],
+      "explanation": "Khoảng mất răng có răng giới hạn ở cả hai đầu là Kennedy loại III."
+    },
+    {
+      "question": "Bệnh nhân mất răng 11, 12, 21, 22. Các răng khác còn đủ. Đây là Kennedy loại mấy?",
+      "options": [
+        {"text": "Loại I", "isCorrect": false},
+        {"text": "Loại II", "isCorrect": false},
+        {"text": "Loại III", "isCorrect": false},
+        {"text": "Loại IV", "isCorrect": true}
+      ],
+      "explanation": "Mất nhóm răng trước và băng qua đường giữa là Kennedy loại IV."
+    },
+    {
+      "question": "Nếu bệnh nhân mất răng 37, 38 và 34. Loại chính là gì và biến thể mấy?",
+      "options": [
+        {"text": "Loại II biến thể 1", "isCorrect": true},
+        {"text": "Loại III biến thể 2", "isCorrect": false},
+        {"text": "Loại I biến thể 1", "isCorrect": false},
+        {"text": "Loại II biến thể 2", "isCorrect": false}
+      ],
+      "explanation": "Khoảng mất sau nhất là 37, 38 (loại II). Khoảng mất phụ là 34 (biến thể 1)."
+    },
+    {
+      "question": "Tại sao không nên đeo hàm giả quá cũ (trên 5-10 năm)?",
+      "options": [
+        {"text": "Vì hàm sẽ bị đổi màu", "isCorrect": false},
+        {"text": "Vì xương hàm đã tiêu và hàm không còn khít sát, gây hại cho răng thật và nướu", "isCorrect": true},
+        {"text": "Vì nhựa sẽ biến thành chất độc", "isCorrect": false},
+        {"text": "Vì răng giả sẽ tự mọc dài ra", "isCorrect": false}
+      ],
+      "explanation": "Xương hàm tiêu liên tục làm hàm giả bị lỏng, dẫn đến lực nhai phân bố không đều gây đau và lung lay răng trụ."
+    },
+    {
+      "question": "Ảnh hưởng của việc mất răng đối với cơ nhai là gì?",
+      "options": [
+        {"text": "Cơ nhai trở nên khỏe hơn", "isCorrect": false},
+        {"text": "Giảm trương lực cơ, cơ bị nhão hoặc co thắt bất thường", "isCorrect": true},
+        {"text": "Cơ nhai biến thành mỡ", "isCorrect": false},
+        {"text": "Không ảnh hưởng đến cơ", "isCorrect": false}
+      ],
+      "explanation": "Mất răng làm thay đổi thói quen nhai, dẫn đến sự mất cân bằng và suy yếu của hệ thống cơ vận động hàm."
+    },
+    {
+      "question": "Eichner Nhóm C3 là tình trạng nào?",
+      "options": [
+        {"text": "Mất răng 1 hàm", "isCorrect": false},
+        {"text": "Mất toàn bộ răng cả 2 hàm", "isCorrect": true},
+        {"text": "Còn răng nhưng bị sâu hết", "isCorrect": false},
+        {"text": "Mất răng hàm 2 bên", "isCorrect": false}
+      ],
+      "explanation": "C3 là mức độ nặng nhất trong phân loại Eichner, tương ứng với mất răng toàn bộ cả hai hàm."
+    },
+    {
+      "question": "Sự khác biệt chính giữa Kurliandsky loại II và loại III là gì?",
+      "options": [
+        {"text": "Loại II còn điểm chạm 1 bên, loại III không còn điểm chạm nào", "isCorrect": true},
+        {"text": "Loại II mất răng trước, loại III mất răng sau", "isCorrect": false},
+        {"text": "Loại II dễ điều trị hơn", "isCorrect": false},
+        {"text": "Không có sự khác biệt", "isCorrect": false}
+      ],
+      "explanation": "Điểm mấu chốt là sự tồn tại của các răng đối diện có chạm nhau hay không để xác định khớp cắn."
+    },
+    {
+      "question": "Nghiêng răng sau khi mất răng lâu ngày có thể gây ra túi nha chu, đúng hay sai?",
+      "options": [
+        {"text": "Đúng", "isCorrect": true},
+        {"text": "Sai", "isCorrect": false}
+      ],
+      "explanation": "Răng nghiêng tạo ra các khoảng hở bất thường, khó vệ sinh, dẫn đến viêm nướu và tiêu xương tạo túi nha chu."
+    },
+    {
+      "question": "Lực nhai truyền qua răng giả tháo lắp nền nhựa được gọi là gì?",
+      "options": [
+        {"text": "Truyền lực sinh lý", "isCorrect": false},
+        {"text": "Truyền lực không sinh lý (truyền qua niêm mạc)", "isCorrect": true},
+        {"text": "Truyền lực hỗn hợp", "isCorrect": false},
+        {"text": "Truyền lực trực tiếp xương", "isCorrect": false}
+      ],
+      "explanation": "Hàm nhựa đè trực tiếp lên niêm mạc để truyền lực nhai xuống xương, không thông qua răng thật nên không sinh lý."
+    },
+    {
+      "question": "Khi mất toàn bộ răng hàm dưới, lưỡi thường có biểu hiện gì rõ rệt nhất?",
+      "options": [
+        {"text": "Lưỡi bị ngắn lại", "isCorrect": false},
+        {"text": "Lưỡi bè ra hai bên, lấp đầy sàn miệng", "isCorrect": true},
+        {"text": "Lưỡi trở nên đỏ rực", "isCorrect": false},
+        {"text": "Lưỡi mất vị giác", "isCorrect": false}
+      ],
+      "explanation": "Mất sự giới hạn của cung răng khiến lưỡi lan rộng ra xung quanh (phì đại)."
+    },
+    {
+      "question": "Khoảng cách giữa môi trên và môi dưới khi cười bình thường bằng bao nhiêu chiều rộng miệng?",
+      "options": [
+        {"text": "1/2", "isCorrect": false},
+        {"text": "1/7", "isCorrect": true},
+        {"text": "1/10", "isCorrect": false},
+        {"text": "1/4", "isCorrect": false}
+      ],
+      "explanation": "Đây là một chỉ số thẩm mỹ trong tài liệu để đánh giá sự hài hòa của nụ cười."
+    },
+    {
+      "question": "Phân loại Eichner loại B1 có mấy vùng chạm?",
+      "options": [
+        {"text": "1 vùng chạm", "isCorrect": false},
+        {"text": "2 vùng chạm", "isCorrect": false},
+        {"text": "3 vùng chạm", "isCorrect": true},
+        {"text": "4 vùng chạm", "isCorrect": false}
+      ],
+      "explanation": "B1 là trường hợp mất đi 1 vùng hỗ trợ nhai so với nhóm A."
+    },
+    {
+      "question": "Applegate bổ sung bao nhiêu quy tắc cho phân loại Kennedy?",
+      "options": [
+        {"text": "5 quy tắc", "isCorrect": false},
+        {"text": "8 quy tắc", "isCorrect": true},
+        {"text": "10 quy tắc", "isCorrect": false},
+        {"text": "3 quy tắc", "isCorrect": false}
+      ],
+      "explanation": "Applegate đưa ra 8 quy tắc để việc áp dụng phân loại Kennedy trở nên thống nhất và chính xác hơn."
+    },
+    {
+      "question": "Quy tắc 7 của Applegate nói rằng diện tích của biến thể có được tính không?",
+      "options": [
+        {"text": "Có, diện tích càng lớn biến thể càng cao", "isCorrect": false},
+        {"text": "Không, chỉ tính số lượng các khoảng mất răng", "isCorrect": true},
+        {"text": "Chỉ tính nếu mất răng hàm", "isCorrect": false},
+        {"text": "Tính theo số lượng răng mất", "isCorrect": false}
+      ],
+      "explanation": "Biến thể 1 nghĩa là có thêm 1 khoảng trống, không quan trọng khoảng trống đó rộng hay hẹp."
+    },
+    {
+      "question": "Răng số 8 nếu bị mất và ĐƯỢC dự định thay thế bằng răng giả thì có tính vào phân loại không?",
+      "options": [
+        {"text": "Có", "isCorrect": true},
+        {"text": "Không", "isCorrect": false}
+      ],
+      "explanation": "Nếu răng khôn mất và bác sĩ muốn làm răng giả tại vị trí đó thì phải tính nó vào phân loại."
+    },
+    {
+      "question": "Mất răng Kennedy loại II biến thể 3 có tổng cộng bao nhiêu khoảng mất răng?",
+      "options": [
+        {"text": "2 khoảng", "isCorrect": false},
+        {"text": "3 khoảng", "isCorrect": false},
+        {"text": "4 khoảng", "isCorrect": true},
+        {"text": "5 khoảng", "isCorrect": false}
+      ],
+      "explanation": "1 khoảng chính (phía sau nhất) + 3 khoảng phụ (biến thể 3) = 4 khoảng."
+    },
+    {
+      "question": "Nếu một khoảng mất răng ở vùng răng cửa không qua đường giữa, nó thuộc Kennedy loại mấy?",
+      "options": [
+        {"text": "Loại IV", "isCorrect": false},
+        {"text": "Loại III", "isCorrect": true},
+        {"text": "Loại II", "isCorrect": false},
+        {"text": "Loại I", "isCorrect": false}
+      ],
+      "explanation": "Loại IV bắt buộc phải băng qua đường giữa. Nếu không qua đường giữa, nó chỉ là một khoảng mất răng xen kẽ (Loại III)."
+    },
+    {
+      "question": "Chỉ số nào trong Kurliandsky giúp xác định cần ghi tương quan tâm?",
+      "options": [
+        {"text": "Loại I", "isCorrect": false},
+        {"text": "Loại IV", "isCorrect": true},
+        {"text": "Loại II", "isCorrect": false},
+        {"text": "Tất cả các loại", "isCorrect": false}
+      ],
+      "explanation": "Loại IV mất toàn bộ răng nên không còn khớp cắn cũ, bắt buộc phải ghi lại tương quan tâm."
+    },
+    {
+      "question": "Theo Eichner, 4 vùng hỗ trợ nhai nằm ở nhóm răng nào?",
+      "options": [
+        {"text": "Răng trước", "isCorrect": false},
+        {"text": "Răng hàm nhỏ và răng hàm lớn hai bên", "isCorrect": true},
+        {"text": "Chỉ ở răng hàm lớn", "isCorrect": false},
+        {"text": "Răng nanh", "isCorrect": false}
+      ],
+      "explanation": "Hỗ trợ nhai chính nằm ở các nhóm răng hàm hai bên."
+    },
+    {
+      "question": "Bệnh nhân còn 2 răng nanh hàm trên và 2 răng nanh hàm dưới đối diện nhau. Theo Eichner thuộc nhóm nào?",
+      "options": [
+        {"text": "Nhóm A", "isCorrect": false},
+        {"text": "Nhóm B", "isCorrect": false},
+        {"text": "Nhóm C", "isCorrect": true},
+        {"text": "Nhóm D", "isCorrect": false}
+      ],
+      "explanation": "Vì răng nanh không nằm trong 4 vùng chạm phía sau nên trường hợp này không còn vùng hỗ trợ nhai sau (Nhóm C)."
+    },
+    {
+      "question": "Mất răng từng phần làm giảm hiệu quả nhai khoảng bao nhiêu % nếu mất 2 răng hàm lớn?",
+      "options": [
+        {"text": "10%", "isCorrect": false},
+        {"text": "30-50%", "isCorrect": true},
+        {"text": "90%", "isCorrect": false},
+        {"text": "5%", "isCorrect": false}
+      ],
+      "explanation": "Răng hàm lớn đóng vai trò chủ lực trong việc nghiền nát thức ăn."
+    },
+    {
+      "question": "Vị trí mốc Na (Nasion) nằm ở đâu?",
+      "options": [
+        {"text": "Điểm giữa hố yên", "isCorrect": false},
+        {"text": "Điểm trước nhất giữa khớp mũi trán", "isCorrect": true},
+        {"text": "Bờ dưới ổ mắt", "isCorrect": false},
+        {"text": "Góc hàm", "isCorrect": false}
+      ],
+      "explanation": "Đây là một mốc giải phẫu quan trọng trên phim đo sọ để đánh giá hình thái mặt."
+    },
+    {
+      "question": "Mặt phẳng Francfort đi ngang qua các điểm nào?",
+      "options": [
+        {"text": "ENA và ENP", "isCorrect": false},
+        {"text": "Or (Orbitaire) và Po (Porion)", "isCorrect": true},
+        {"text": "Me và Go", "isCorrect": false},
+        {"text": "Na và Sn", "isCorrect": false}
+      ],
+      "explanation": "Đây là mặt phẳng chuẩn trong chỉnh nha và phục hình."
+    },
+    {
+      "question": "Trong mất răng bán phần, răng giả tháo lắp khung bộ có ưu điểm gì hơn hàm nhựa?",
+      "options": [
+        {"text": "Rẻ tiền hơn", "isCorrect": false},
+        {"text": "Truyền lực nhai sinh lý qua răng trụ nhờ các tựa mặt nhai", "isCorrect": true},
+        {"text": "Dễ làm hơn", "isCorrect": false},
+        {"text": "Đẹp hơn nhiều", "isCorrect": false}
+      ],
+      "explanation": "Hàm khung có hệ thống tựa giúp lực nhai truyền dọc trục răng thật, bảo vệ xương tốt hơn."
+    },
+    {
+      "question": "Mục tiêu số 1 của bài học này là gì?",
+      "options": [
+        {"text": "Lập kế hoạch nhổ răng", "isCorrect": false},
+        {"text": "Mô tả được các biến đổi giải phẫu và chức năng khi mất răng", "isCorrect": true},
+        {"text": "Học cách đúc kim loại", "isCorrect": false},
+        {"text": "Phân loại sâu răng", "isCorrect": false}
+      ],
+      "explanation": "Mục tiêu đầu tiên là hiểu các thay đổi tiêu cực xảy ra sau khi mất răng."
+    },
+    {
+      "question": "Khi mất răng, sống hàm hàm trên thường nhỏ lại về phía nào?",
+      "options": [
+        {"text": "Phía môi và má", "isCorrect": false},
+        {"text": "Phía khẩu cái (vòm miệng)", "isCorrect": true},
+        {"text": "Phía sau", "isCorrect": false},
+        {"text": "Không nhỏ lại", "isCorrect": false}
+      ],
+      "explanation": "Sự tiêu xương hàm trên diễn ra theo hướng hướng tâm (vào trong)."
+    },
+    {
+      "question": "Khái niệm 'Modification 0' trong Kennedy có nghĩa là gì?",
+      "options": [
+        {"text": "Mất thêm 1 răng", "isCorrect": false},
+        {"text": "Không có thêm khoảng mất răng phụ nào ngoài loại chính", "isCorrect": true},
+        {"text": "Mất toàn bộ răng", "isCorrect": false},
+        {"text": "Sai phân loại", "isCorrect": false}
+      ],
+      "explanation": "Nếu chỉ có các khoảng mất răng quyết định loại chính thì không ghi số biến thể."
+    },
+    {
+      "question": "Răng nào được coi là 'Răng trụ' trong phục hình tháo lắp?",
+      "options": [
+        {"text": "Răng giả", "isCorrect": false},
+        {"text": "Răng thật còn lại dùng để mang móc và nâng đỡ hàm giả", "isCorrect": true},
+        {"text": "Răng bị sâu", "isCorrect": false},
+        {"text": "Răng đối diện", "isCorrect": false}
+      ],
+      "explanation": "Răng trụ là răng gánh vác trách nhiệm giữ và truyền lực cho phục hình."
+    },
+    {
+      "question": "Tình trạng 'mất răng kiểu cài răng lược' tương ứng với phân loại nào?",
+      "options": [
+        {"text": "Kennedy loại I", "isCorrect": false},
+        {"text": "Kurliandsky loại III", "isCorrect": true},
+        {"text": "Eichner nhóm A", "isCorrect": false},
+        {"text": "Kennedy loại IV", "isCorrect": false}
+      ],
+      "explanation": "Là tình trạng răng còn xen kẽ nhau nhưng không có điểm chạm khớp nào giữa hai hàm."
+    },
+    {
+      "question": "Mất răng Kennedy loại III biến thể 1 có bao nhiêu khoảng mất răng xen kẽ?",
+      "options": [
+        {"text": "1 khoảng", "isCorrect": false},
+        {"text": "2 khoảng", "isCorrect": true},
+        {"text": "3 khoảng", "isCorrect": false},
+        {"text": "4 khoảng", "isCorrect": false}
+      ],
+      "explanation": "1 khoảng quyết định loại chính và 1 khoảng phụ (biến thể 1)."
+    },
+    {
+      "question": "Điều trị phục hình tháo lắp loại I và II Kurliandsky có cần tìm chiều cao tầng mặt không?",
+      "options": [
+        {"text": "Có, bắt buộc", "isCorrect": false},
+        {"text": "Không cần thiết vì còn điểm chạm khớp để xác định", "isCorrect": true},
+        {"text": "Chỉ làm ở hàm trên", "isCorrect": false},
+        {"text": "Tùy ý thích bác sĩ", "isCorrect": false}
+      ],
+      "explanation": "Do vẫn còn điểm chạm răng đối diện, bác sĩ có thể dựa vào đó để xác định khớp cắn."
+    },
+    {
+      "question": "Eichner Nhóm B4 là trường hợp nào?",
+      "options": [
+        {"text": "Có 4 vùng chạm", "isCorrect": false},
+        {"text": "Chỉ còn các điểm chạm ở nhóm răng trước", "isCorrect": true},
+        {"text": "Mất răng toàn bộ", "isCorrect": false},
+        {"text": "Còn 1 vùng chạm phía sau", "isCorrect": false}
+      ],
+      "explanation": "B4 là trường hợp không còn vùng chạm sau nào, chỉ còn chạm ở răng cửa."
+    },
+    {
+      "question": "Sự hài hòa giữa môi và răng khi cười được đánh giá qua bao nhiêu dáng cười chính?",
+      "options": [
+        {"text": "2 dáng", "isCorrect": false},
+        {"text": "3 dáng (Ngang, Lõm, Lồi)", "isCorrect": true},
+        {"text": "4 dáng", "isCorrect": false},
+        {"text": "5 dáng", "isCorrect": false}
+      ],
+      "explanation": "Jaegle chia làm 3 dáng cười dựa trên bờ dưới môi trên."
+    },
+    {
+      "question": "Khi mất răng lâu ngày, vòm miệng có xu hướng như thế nào?",
+      "options": [
+        {"text": "Sâu thêm", "isCorrect": false},
+        {"text": "Trở nên nông hơn do tiêu xương sống hàm", "isCorrect": true},
+        {"text": "Rộng ra gấp đôi", "isCorrect": false},
+        {"text": "Không thay đổi", "isCorrect": false}
+      ],
+      "explanation": "Sống hàm tiêu làm giảm độ cao của vòm miệng cơ học."
+    },
+    {
+      "question": "Răng thật bị lung lay sau khi mất răng lân cận là do:",
+      "options": [
+        {"text": "Mất sự nâng đỡ và bị lực nhai tác động sai hướng", "isCorrect": true},
+        {"text": "Do vi khuẩn tấn công", "isCorrect": false},
+        {"text": "Do già đi", "isCorrect": false},
+        {"text": "Do đánh răng quá mạnh", "isCorrect": false}
+      ],
+      "explanation": "Răng bị nghiêng sẽ chịu lực xé ngang thay vì lực dọc, gây tổn thương nha chu."
+    },
+    {
+      "question": "Bệnh nhân mất răng 47, 48. Đây là Kennedy loại mấy?",
+      "options": [
+        {"text": "Loại I", "isCorrect": false},
+        {"text": "Loại II", "isCorrect": true},
+        {"text": "Loại III", "isCorrect": false},
+        {"text": "Loại IV", "isCorrect": false}
+      ],
+      "explanation": "Mất răng ở 1 bên và là răng cuối cùng (không có răng thật phía sau) là loại II."
+    },
+    {
+      "question": "Khoảng mất răng loại I Kennedy thường được gọi là gì?",
+      "options": [
+        {"text": "Khoảng mất răng có giới hạn", "isCorrect": false},
+        {"text": "Khoảng mất răng tự do (Free-end)", "isCorrect": true},
+        {"text": "Khoảng mất răng đơn lẻ", "isCorrect": false},
+        {"text": "Khoảng mất răng vùng thẩm mỹ", "isCorrect": false}
+      ],
+      "explanation": "Vì phía sau không còn răng thật để chặn nên được gọi là yên tự do."
+    },
+    {
+      "question": "Nếu mất răng 18 và không làm răng giả ở đó, có gọi là mất răng loại II không?",
+      "options": [
+        {"text": "Có", "isCorrect": false},
+        {"text": "Không, coi như cung răng vẫn đủ răng chức năng", "isCorrect": true}
+      ],
+      "explanation": "Theo quy tắc Applegate, răng số 8 mất mà không thay thế thì không tính vào phân loại."
+    },
+    {
+      "question": "Việc phục hồi răng mất giúp ngăn chặn hiện tượng Popov, đúng hay sai?",
+      "options": [
+        {"text": "Đúng", "isCorrect": true},
+        {"text": "Sai", "isCorrect": false}
+      ],
+      "explanation": "Răng giả sẽ đóng vai trò răng đối vận, giữ cho răng thật không bị trồi thêm."
+    },
+    {
+      "question": "Chỉ số Lee dùng để xác định vị trí của răng nào trên gối sáp?",
+      "options": [
+        {"text": "Răng cửa giữa", "isCorrect": false},
+        {"text": "Răng nanh", "isCorrect": true},
+        {"text": "Răng hàm lớn", "isCorrect": false},
+        {"text": "Răng khôn", "isCorrect": false}
+      ],
+      "explanation": "Đường thẳng hạ từ chân cánh mũi đi qua đỉnh răng nanh."
+    },
+    {
+      "question": "Biến đổi ở môi khi mất răng cửa trên là gì?",
+      "options": [
+        {"text": "Môi bị đẩy ra trước", "isCorrect": false},
+        {"text": "Môi bị móp vào trong, mất góc nhân trung", "isCorrect": true},
+        {"text": "Môi dày lên", "isCorrect": false},
+        {"text": "Môi đỏ hơn", "isCorrect": false}
+      ],
+      "explanation": "Mất sự nâng đỡ của răng làm môi trên sụp đổ vào trong."
+    },
+    {
+      "question": "Loại phục hình nào thường được chỉ định cho mất răng Kennedy loại IV?",
+      "options": [
+        {"text": "Hàm khung tháo lắp hoặc cầu răng cố định nếu khoảng mất răng ngắn", "isCorrect": true},
+        {"text": "Chỉ làm hàm nhựa", "isCorrect": false},
+        {"text": "Không cần làm phục hình", "isCorrect": false},
+        {"text": "Nhổ hết răng làm toàn hàm", "isCorrect": false}
+      ],
+      "explanation": "Tùy thuộc vào số lượng răng mất ở phía trước mà chọn giải pháp cố định hay tháo lắp."
+    },
+    {
+      "question": "Phân loại Eichner giúp bác sĩ đánh giá điều gì tốt nhất?",
+      "options": [
+        {"text": "Độ sâu sâu răng", "isCorrect": false},
+        {"text": "Sự ổn định của khớp cắn thông qua các vùng hỗ trợ", "isCorrect": true},
+        {"text": "Màu sắc răng giả", "isCorrect": false},
+        {"text": "Độ cứng của hợp kim", "isCorrect": false}
+      ],
+      "explanation": "Eichner nhấn mạnh vào khả năng chịu lực nhai của các răng sau còn lại."
+    },
+    {
+      "question": "Trong quy tắc Applegate, răng số 7 bị mất mà không có răng đối diện thì:",
+      "options": [
+        {"text": "Bắt buộc phải tính vào phân loại", "isCorrect": false},
+        {"text": "Không tính vào phân loại", "isCorrect": true}
+      ],
+      "explanation": "Nếu không có răng đối diện để nhai thì việc thay thế nó thường không bắt buộc, do đó không tính vào phân loại."
+    },
+    {
+      "question": "Mất răng dẫn đến giảm kích thước tầng mặt nào?",
+      "options": [
+        {"text": "Tầng mặt trên", "isCorrect": false},
+        {"text": "Tầng mặt giữa", "isCorrect": false},
+        {"text": "Tầng mặt dưới", "isCorrect": true},
+        {"text": "Tầng mặt sau", "isCorrect": false}
+      ],
+      "explanation": "Mất răng sau làm hai hàm ngậm chặt hơn, tầng mặt dưới bị ngắn lại."
+    },
+    {
+      "question": "Khái niệm 'Vùng lẹm' (Undercut) trên răng trụ có ý nghĩa gì?",
+      "options": [
+        {"text": "Là nơi để móc hàm giả bám vào giữ hàm", "isCorrect": true},
+        {"text": "Là nơi răng bị sâu", "isCorrect": false},
+        {"text": "Là nơi răng bị mòn", "isCorrect": false},
+        {"text": "Là nơi nướu bị sưng", "isCorrect": false}
+      ],
+      "explanation": "Vùng lẹm nằm dưới đường vòng lớn nhất của răng, nơi đầu tận cùng của tay móc sẽ ôm vào để tạo lực giữ."
+    },
+    {
+      "question": "Mất răng loại I Kennedy có thể gây quá tải cho các răng trước, đúng hay sai?",
+      "options": [
+        {"text": "Đúng", "isCorrect": true},
+        {"text": "Sai", "isCorrect": false}
+      ],
+      "explanation": "Do mất các răng hàm chịu lực chính, bệnh nhân buộc phải dùng răng trước để nhai, gây sang chấn nha chu."
+    },
+    {
+      "question": "Biến thể của Kennedy có bao giờ được ghi cho loại IV không?",
+      "options": [
+        {"text": "Có", "isCorrect": false},
+        {"text": "Không bao giờ", "isCorrect": true}
+      ],
+      "explanation": "Theo logic phân loại, mọi khoảng mất răng phụ đều phải nằm sau khoảng chính. Nếu có khoảng nằm sau loại IV thì khoảng đó sẽ chiếm quyền quyết định loại chính."
+    },
+    {
+      "question": "Lâm sàng mất răng từng phần là môn học thuộc module mấy?",
+      "options": [
+        {"text": "Module 20", "isCorrect": false},
+        {"text": "Module 24", "isCorrect": true},
+        {"text": "Module 15", "isCorrect": false},
+        {"text": "Module 30", "isCorrect": false}
+      ],
+      "explanation": "Thông tin này nằm ở trang đầu tiên của tài liệu bài giảng."
+    },
+    {
+      "question": "Xương hàm trên sau khi tiêu xương thường có hình dạng gì?",
+      "options": [
+        {"text": "Hình vuông", "isCorrect": false},
+        {"text": "Hình tam giác hoặc hình Elip nhỏ", "isCorrect": true},
+        {"text": "Hình tròn to", "isCorrect": false},
+        {"text": "Không thay đổi hình dạng", "isCorrect": false}
+      ],
+      "explanation": "Tiêu hướng tâm làm cung răng hàm trên hẹp lại rõ rệt."
+    },
+    {
+      "question": "Khi mất răng 1 bên, bệnh nhân có xu hướng nhai bên nào?",
+      "options": [
+        {"text": "Nhai bên mất răng", "isCorrect": false},
+        {"text": "Nhai bên còn răng (nhai lệch bên)", "isCorrect": true},
+        {"text": "Nhai đều 2 bên", "isCorrect": false},
+        {"text": "Không nhai được", "isCorrect": false}
+      ],
+      "explanation": "Việc nhai lệch bên lâu ngày gây ảnh hưởng xấu đến cơ nhai và khớp thái dương hàm bên đó."
+    },
+    {
+      "question": "Phân loại Eichner Nhóm B có bao nhiêu phân loại nhỏ?",
+      "options": [
+        {"text": "2 (B1, B2)", "isCorrect": false},
+        {"text": "3 (B1, B2, B3)", "isCorrect": false},
+        {"text": "4 (B1, B2, B3, B4)", "isCorrect": true},
+        {"text": "5", "isCorrect": false}
+      ],
+      "explanation": "B1 đến B4 tương ứng với số lượng vùng chạm giảm dần từ 3 xuống 0 (nhưng vẫn còn răng chạm ở phía trước)."
+    },
+    {
+      "question": "Răng bị trồi (Popov) làm cho mặt phẳng cắn trở nên như thế nào?",
+      "options": [
+        {"text": "Phẳng hơn", "isCorrect": false},
+        {"text": "Gồ ghề, mất tính liên tục", "isCorrect": true},
+        {"text": "Thẩm mỹ hơn", "isCorrect": false},
+        {"text": "Không thay đổi", "isCorrect": false}
+      ],
+      "explanation": "Sự trồi răng phá vỡ đường cong cắn khớp tự nhiên."
+    },
+    {
+      "question": "Trong phân loại Kennedy, khoảng mất răng nào được xem là quan trọng nhất để thiết kế hàm khung?",
+      "options": [
+        {"text": "Khoảng ở răng cửa", "isCorrect": false},
+        {"text": "Khoảng mất răng lùi xa nhất về phía sau", "isCorrect": true},
+        {"text": "Khoảng mất 1 răng", "isCorrect": false},
+        {"text": "Khoảng có nướu dày", "isCorrect": false}
+      ],
+      "explanation": "Khoảng phía sau nhất quyết định kiểu nâng đỡ và bám giữ của phục hình."
+    },
+    {
+      "question": "Eichner Nhóm C2 là trường hợp nào?",
+      "options": [
+        {"text": "Còn răng ở 2 hàm nhưng không chạm nhau", "isCorrect": false},
+        {"text": "Một hàm còn răng, hàm đối diện mất răng toàn bộ", "isCorrect": true},
+        {"text": "Mất răng toàn bộ 2 hàm", "isCorrect": false},
+        {"text": "Còn đầy đủ răng trước", "isCorrect": false}
+      ],
+      "explanation": "Đây là tình trạng mất răng toàn bộ ở một cung hàm trong khi cung còn lại vẫn còn răng."
+    },
+    {
+      "question": "Mất răng hàm nhỏ có thể gây rối loạn phát âm âm nào?",
+      "options": [
+        {"text": "Không gây rối loạn", "isCorrect": true},
+        {"text": "Âm /s/", "isCorrect": false},
+        {"text": "Âm /v/", "isCorrect": false},
+        {"text": "Âm /m/", "isCorrect": false}
+      ],
+      "explanation": "Răng hàm nhỏ ít tham gia vào việc tạo âm so với răng trước và gốc lưỡi."
+    },
+    {
+      "question": "Mất răng nanh ảnh hưởng gì đến thẩm mỹ?",
+      "options": [
+        {"text": "Làm xệ góc miệng", "isCorrect": true},
+        {"text": "Làm mũi to ra", "isCorrect": false},
+        {"text": "Làm mắt nhỏ lại", "isCorrect": false},
+        {"text": "Không ảnh hưởng", "isCorrect": false}
+      ],
+      "explanation": "Răng nanh nằm ở vị trí 'góc' của cung hàm, giữ vai trò nâng đỡ cơ vòng môi và góc miệng."
+    },
+    {
+      "question": "Theo Kurliandsky, loại II yêu cầu bác sĩ làm gì?",
+      "options": [
+        {"text": "Lấy dấu 2 lần", "isCorrect": false},
+        {"text": "Phải ghi tương quan tâm vì chỉ còn chạm 1 bên", "isCorrect": true},
+        {"text": "Không cần làm phục hình", "isCorrect": false},
+        {"text": "Chỉ cần soi gương", "isCorrect": false}
+      ],
+      "explanation": "Vì chỉ còn chạm một bên, hàm rất dễ bị nghiêng lệch khi ngậm, cần ghi tương quan tâm để đảm bảo độ chính xác."
+    },
+    {
+      "question": "Applegate quy tắc 5: Nếu có khoảng mất răng số 8, 7, 6 và 3, 4. Loại chính được tính theo khoảng nào?",
+      "options": [
+        {"text": "Khoảng 3, 4", "isCorrect": false},
+        {"text": "Khoảng 8, 7, 6", "isCorrect": true},
+        {"text": "Tính cả hai", "isCorrect": false},
+        {"text": "Tùy bác sĩ", "isCorrect": false}
+      ],
+      "explanation": "Khoảng 8, 7, 6 nằm phía sau hơn nên nó quyết định loại chính."
+    },
+    {
+      "question": "Ý nghĩa của việc phác thảo thiết kế trên mẫu hàm nghiên cứu là gì?",
+      "options": [
+        {"text": "Để tính tiền bệnh nhân", "isCorrect": false},
+        {"text": "Để kỹ thuật viên labo đúc khung sườn chính xác theo ý đồ bác sĩ", "isCorrect": true},
+        {"text": "Để trang trí phòng khám", "isCorrect": false},
+        {"text": "Để gửi cho công ty bảo hiểm", "isCorrect": false}
+      ],
+      "explanation": "Thiết kế hàm khung rất phức tạp, cần sự phối hợp chính xác giữa lâm sàng và labo."
+    },
+    {
+      "question": "Khi mất răng lâu ngày, niêm mạc sống hàm có đặc điểm gì?",
+      "options": [
+        {"text": "Dày lên và chắc hơn", "isCorrect": false},
+        {"text": "Mỏng đi, dễ bị tổn thương khi va chạm", "isCorrect": true},
+        {"text": "Biến thành màu đen", "isCorrect": false},
+        {"text": "Không thay đổi", "isCorrect": false}
+      ],
+      "explanation": "Tiêu xương ổ kèm theo sự teo nướu làm lớp niêm mạc bảo vệ trở nên mỏng manh."
+    },
+    {
+      "question": "Phân loại mất răng từng phần giúp bác sĩ dự đoán được thời gian điều trị, đúng hay sai?",
+      "options": [
+        {"text": "Đúng", "isCorrect": true},
+        {"text": "Sai", "isCorrect": false}
+      ],
+      "explanation": "Ví dụ loại IV tháo lắp làm nhanh hơn loại I cần nhiều bước thử khớp phức tạp."
+    },
+    {
+      "question": "Sự hài hòa giữa răng cửa giữa trên và khuôn mặt được gọi là gì?",
+      "options": [
+        {"text": "Quy luật Nelson", "isCorrect": true},
+        {"text": "Quy luật Kennedy", "isCorrect": false},
+        {"text": "Quy luật Applegate", "isCorrect": false},
+        {"text": "Quy luật Eichner", "isCorrect": false}
+      ],
+      "explanation": "Nelson phát hiện ra sự tương đồng về hình dáng giữa răng cửa giữa và khuôn mặt."
+    },
+    {
+      "question": "Mất răng loại B3 của Eichner có bao nhiêu vùng chạm?",
+      "options": [
+        {"text": "3 vùng", "isCorrect": false},
+        {"text": "2 vùng", "isCorrect": false},
+        {"text": "1 vùng", "isCorrect": true},
+        {"text": "0 vùng", "isCorrect": false}
+      ],
+      "explanation": "B3 là trường hợp chỉ còn duy nhất 1 vùng hỗ trợ nhai ở phía sau."
+    },
+    {
+      "question": "Nếu mất răng 31, 32, 41, 42. Đây là Kennedy loại mấy?",
+      "options": [
+        {"text": "Loại IV", "isCorrect": true},
+        {"text": "Loại III", "isCorrect": false},
+        {"text": "Loại I", "isCorrect": false},
+        {"text": "Loại II", "isCorrect": false}
+      ],
+      "explanation": "Mất 4 răng cửa dưới và băng qua đường giữa."
+    },
+    {
+      "question": "Răng bị xoay trục sau khi mất răng lân cận là do:",
+      "options": [
+        {"text": "Lực nhai đẩy răng vào khoảng trống theo hướng xoắn ốc", "isCorrect": true},
+        {"text": "Do tủy răng bị chết", "isCorrect": false},
+        {"text": "Do thức ăn bám vào", "isCorrect": false},
+        {"text": "Do dùng chỉ nha khoa sai cách", "isCorrect": false}
+      ],
+      "explanation": "Khi mất sự nâng đỡ bên, răng không chỉ nghiêng mà còn có thể bị xoay quanh trục của nó."
+    },
+    {
+      "question": "Khoảng cách từ chân cánh mũi đến đỉnh răng nanh được áp dụng để:",
+      "options": [
+        {"text": "Chọn kích thước răng giả", "isCorrect": true},
+        {"text": "Chọn màu răng", "isCorrect": false},
+        {"text": "Tính độ lung lay", "isCorrect": false},
+        {"text": "Xác định hướng lắp hàm", "isCorrect": false}
+      ],
+      "explanation": "Đây là chỉ số quan trọng để tái lập lại vị trí và kích thước răng thẩm mỹ."
+    },
+    {
+      "question": "Mất toàn bộ răng hàm trên nhưng hàm dưới còn đủ răng. Eichner xếp vào:",
+      "options": [
+        {"text": "C1", "isCorrect": false},
+        {"text": "C2", "isCorrect": true},
+        {"text": "C3", "isCorrect": false},
+        {"text": "B4", "isCorrect": false}
+      ],
+      "explanation": "C2 là tình trạng mất răng toàn bộ ở một trong hai hàm."
+    },
+    {
+      "question": "Tại sao mất răng hàm lại làm khuôn mặt trông ngắn lại?",
+      "options": [
+        {"text": "Vì mũi bị hạ thấp", "isCorrect": false},
+        {"text": "Vì mất các điểm chạm khớp sau dẫn đến lún khớp cắn và tiêu xương", "isCorrect": true},
+        {"text": "Vì trán rộng ra", "isCorrect": false},
+        {"text": "Vì cằm bị lùi ra sau", "isCorrect": false}
+      ],
+      "explanation": "Việc mất răng sau làm tầng mặt dưới bị sụp đổ, khiến khoảng cách mũi-cằm ngắn lại."
+    },
+    {
+      "question": "Hàm giả cố định (Cầu răng) ưu tiên hơn tháo lắp khi nào?",
+      "options": [
+        {"text": "Khi khoảng mất răng ngắn và răng trụ hai đầu khỏe", "isCorrect": true},
+        {"text": "Khi mất toàn bộ răng", "isCorrect": false},
+        {"text": "Khi bệnh nhân muốn tiết kiệm", "isCorrect": false},
+        {"text": "Khi nướu bị viêm nặng", "isCorrect": false}
+      ],
+      "explanation": "Cầu răng cung cấp lực nhai tốt hơn và thoải mái hơn nếu điều kiện răng trụ cho phép."
+    },
+    {
+      "question": "Kết luận cuối cùng của bài học nhấn mạnh điều gì?",
+      "options": [
+        {"text": "Nên nhổ hết răng để làm toàn hàm", "isCorrect": false},
+        {"text": "Cần phục hồi răng mất càng sớm càng tốt để tránh các biến đổi tiêu cực", "isCorrect": true},
+        {"text": "Chỉ cần làm răng giả khi đau", "isCorrect": false},
+        {"text": "Răng giả tháo lắp là tốt nhất", "isCorrect": false}
+      ],
+      "explanation": "Phục hình sớm giúp duy trì vị trí răng còn lại và ngăn tiêu xương."
+    }
+  ]

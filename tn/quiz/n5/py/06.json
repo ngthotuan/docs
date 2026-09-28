@@ -1,0 +1,802 @@
+[
+    {
+      "question": "Mục đích quan trọng nhất của công tác chứng nhận thương tích là gì?",
+      "options": [
+        {"text": "Để tính tiền viện phí", "isCorrect": false},
+        {"text": "Ghi nhận đầy đủ, chính xác những thương tích ban đầu trên cơ thể nạn nhân", "isCorrect": true},
+        {"text": "Để kê đơn thuốc kháng sinh", "isCorrect": false},
+        {"text": "Để báo cho người nhà nạn nhân", "isCorrect": false}
+      ],
+      "explanation": "Chứng nhận thương tích là bước đầu tiên và quan trọng nhất để làm căn cứ pháp lý cho các giai đoạn điều tra và giám định sau này."
+    },
+    {
+      "question": "Chức năng y tế của bản chứng nhận thương tích bao gồm nội dung nào?",
+      "options": [
+        {"text": "Xác định hung thủ là ai", "isCorrect": false},
+        {"text": "Đánh giá tình trạng chung, mô tả thương tích cụ thể và kết quả điều trị", "isCorrect": true},
+        {"text": "Tính toán số tiền bồi thường", "isCorrect": false},
+        {"text": "Xác định hộ khẩu thường trú của nạn nhân", "isCorrect": false}
+      ],
+      "explanation": "Chức năng y tế tập trung vào các dữ liệu lâm sàng, cận lâm sàng và diễn biến hồi phục của bệnh nhân."
+    },
+    {
+      "question": "Khi khám thương tích cụ thể, bác sĩ cần tuân thủ nguyên tắc mô tả nào?",
+      "options": [
+        {"text": "Mô tả theo trí nhớ sau khi bệnh nhân ra viện", "isCorrect": false},
+        {"text": "Mô tả thứ tự từng vết thương, xác định chính xác kích thước và vị trí", "isCorrect": true},
+        {"text": "Chỉ mô tả vết thương lớn nhất", "isCorrect": false},
+        {"text": "Mô tả theo lời kể của nạn nhân", "isCorrect": false}
+      ],
+      "explanation": "Mô tả chi tiết và khách quan là yêu cầu bắt buộc để đảm bảo tính khoa học và pháp lý."
+    },
+    {
+      "question": "Chức năng pháp lý của việc chứng thương giúp cơ quan điều tra xác định yếu tố nào?",
+      "options": [
+        {"text": "Tính chất hung khí, chiều hướng tác động và thời điểm gây thương tích", "isCorrect": true},
+        {"text": "Động cơ gây án của nghi phạm", "isCorrect": false},
+        {"text": "Mối quan hệ giữa nạn nhân và hung thủ", "isCorrect": false},
+        {"text": "Giá trị tài sản bị mất", "isCorrect": false}
+      ],
+      "explanation": "Dựa trên hình thái vết thương, nha sĩ pháp y có thể suy đoán loại vũ khí và cách thức gây án."
+    },
+    {
+      "question": "Việc giám định thương tích (giám định tỷ lệ tổn hại sức khỏe) chỉ được thực hiện khi nào?",
+      "options": [
+        {"text": "Ngay khi nạn nhân vào viện", "isCorrect": false},
+        {"text": "Khi bệnh nhân đã được điều trị ổn định hoặc đã ra viện", "isCorrect": true},
+        {"text": "Sau khi hung thủ đã bị bắt", "isCorrect": false},
+        {"text": "Khi vết thương đang chảy máu", "isCorrect": false}
+      ],
+      "explanation": "Cần chờ tình trạng thương tật ổn định để đánh giá chính xác các di chứng chức năng và thẩm mỹ lâu dài."
+    },
+    {
+      "question": "Hồ sơ giấy tờ làm căn cứ giám định thương tích có giá trị trong bao lâu kể từ ngày cấp?",
+      "options": [
+        {"text": "1 tháng", "isCorrect": false},
+        {"text": "Không quá 3 tháng", "isCorrect": true},
+        {"text": "1 năm", "isCorrect": false},
+        {"text": "Vĩnh viễn", "isCorrect": false}
+      ],
+      "explanation": "Để đảm bảo tính thời sự và chính xác, hồ sơ làm căn cứ giám định không được quá cũ (quá 3 tháng)."
+    },
+    {
+      "question": "Nguyên tắc xử lý khi một vết thương gây ra nhiều di chứng là gì?",
+      "options": [
+        {"text": "Cộng tất cả các di chứng lại", "isCorrect": false},
+        {"text": "Chỉ đánh giá di chứng chính", "isCorrect": true},
+        {"text": "Lấy di chứng nhỏ nhất làm chuẩn", "isCorrect": false},
+        {"text": "Bỏ qua các di chứng phụ", "isCorrect": false}
+      ],
+      "explanation": "Nhằm tránh việc tính trùng lặp tỷ lệ thương tật cho cùng một tổn thương gốc."
+    },
+    {
+      "question": "Trên cơ thể có nhiều tổn thương khác nhau, nguyên tắc tính tỷ lệ thương tật là:",
+      "options": [
+        {"text": "Tính tất cả các vết xước nhỏ", "isCorrect": false},
+        {"text": "Chỉ tính những tổn thương lớn", "isCorrect": true},
+        {"text": "Cộng thẳng 100% các vết thương", "isCorrect": false},
+        {"text": "Lấy trung bình cộng", "isCorrect": false}
+      ],
+      "explanation": "Giám định viên ưu tiên các tổn thương có tác động đáng kể đến sức khỏe và chức năng của nạn nhân."
+    },
+    {
+      "question": "Nguyên tắc 'Cộng thẳng' trong giám định thương tích được áp dụng cho trường hợp nào?",
+      "options": [
+        {"text": "Các vết thương ở đầu và chân", "isCorrect": false},
+        {"text": "Các cơ quan phối hợp nhau (ví dụ: 2 tay, 2 chân) với tổng tỷ lệ ≤ 40%", "isCorrect": true},
+        {"text": "Mọi tổn thương trên cơ thể", "isCorrect": false},
+        {"text": "Chỉ áp dụng cho răng cửa", "isCorrect": false}
+      ],
+      "explanation": "Cộng thẳng được dùng cho các bộ phận có tính chất đối xứng hoặc phối hợp chức năng chặt chẽ."
+    },
+    {
+      "question": "Phương pháp 'Cộng lùi' (Cộng trừ) được dùng khi nạn nhân bị bao nhiêu tổn thương trở lên?",
+      "options": [
+        {"text": "1 tổn thương", "isCorrect": false},
+        {"text": "Từ 2 tổn thương riêng rẽ trở lên (không thuộc nhóm cộng thẳng)", "isCorrect": true},
+        {"text": "Chỉ khi bị thương ở mặt", "isCorrect": false},
+        {"text": "Khi tỷ lệ tổn thương đạt 100%", "isCorrect": false}
+      ],
+      "explanation": "Cộng lùi đảm bảo tổng tỷ lệ tổn hại sức khỏe không bao giờ vượt quá 100% và phản ánh đúng mức độ suy giảm sức khỏe tổng thể."
+    },
+    {
+      "question": "Trong phép tính cộng lùi, tỷ lệ thương tật của tổn thương thứ nhất (cao nhất) được dùng làm gì?",
+      "options": [
+        {"text": "Làm chuẩn để tính các phần trăm còn lại của sức khỏe", "isCorrect": true},
+        {"text": "Để nhân với các tỷ lệ sau", "isCorrect": false},
+        {"text": "Bị loại bỏ sau khi tính", "isCorrect": false},
+        {"text": "Lấy trung bình với tỷ lệ thứ hai", "isCorrect": false}
+      ],
+      "explanation": "Tỷ lệ cao nhất được lấy làm gốc, các tỷ lệ sau sẽ được tính dựa trên phần sức khỏe còn lại (100% - tỷ lệ chuẩn)."
+    },
+    {
+      "question": "Giả sử nạn nhân bị 3 tổn thương với tỷ lệ riêng rẽ là 40%, 30% và 20%. Tỷ lệ thương tật thứ hai (30%) sẽ được tính thực tế là bao nhiêu?",
+      "options": [
+        {"text": "30%", "isCorrect": false},
+        {"text": "18% (30/100 x (100 - 40))", "isCorrect": true},
+        {"text": "10%", "isCorrect": false},
+        {"text": "12%", "isCorrect": false}
+      ],
+      "explanation": "Theo công thức cộng lùi: Tỷ lệ 2 = % tổn thương 2 x (100 - Tỷ lệ 1) / 100."
+    },
+    {
+      "question": "Với ví dụ trên (40%, 30%, 20%), tỷ lệ thương tật tổng cộng sau khi tính tổn thương thứ hai là bao nhiêu?",
+      "options": [
+        {"text": "70%", "isCorrect": false},
+        {"text": "58% (40 + 18)", "isCorrect": true},
+        {"text": "50%", "isCorrect": false},
+        {"text": "48%", "isCorrect": false}
+      ],
+      "explanation": "Tổng tỷ lệ được lũy tiến dần sau mỗi bước tính cộng lùi."
+    },
+    {
+      "question": "Tiếp tục ví dụ trên, tỷ lệ thương tật thực tế của tổn thương thứ ba (20%) là bao nhiêu?",
+      "options": [
+        {"text": "20%", "isCorrect": false},
+        {"text": "8.4% (20/100 x (100 - 58))", "isCorrect": true},
+        {"text": "15%", "isCorrect": false},
+        {"text": "5.6%", "isCorrect": false}
+      ],
+      "explanation": "Tỷ lệ 3 = % tổn thương 3 x (100 - tổng tỷ lệ trước đó) / 100."
+    },
+    {
+      "question": "Khi giám định gãy răng đã được làm răng giả trước đó, tỷ lệ tổn thương được tính như thế nào?",
+      "options": [
+        {"text": "Tính 100% như răng thật", "isCorrect": false},
+        {"text": "Chỉ tính 50% so với khi không có răng giả", "isCorrect": true},
+        {"text": "Không tính tỷ lệ thương tật", "isCorrect": false},
+        {"text": "Tính 75%", "isCorrect": false}
+      ],
+      "explanation": "Răng giả đã qua phục hồi nên mức độ tổn hại sức khỏe khi bị gãy được giảm trừ một nửa."
+    },
+    {
+      "question": "Tổn thương ảnh hưởng đến thị lực được tính tỷ lệ khi nào?",
+      "options": [
+        {"text": "Khi bệnh nhân không nhìn thấy gì", "isCorrect": false},
+        {"text": "Khi đo thị lực ở trạng thái đã đeo kính điều chỉnh", "isCorrect": true},
+        {"text": "Ngay sau khi bị chấn thương mắt", "isCorrect": false},
+        {"text": "Chỉ khi bị hỏng nhãn cầu", "isCorrect": false}
+      ],
+      "explanation": "Giám định viên đánh giá khả năng nhìn thực tế sau khi đã được hỗ trợ y tế (đeo kính)."
+    },
+    {
+      "question": "Tại sao không nên xếp tỷ lệ thương tật quá cao cho các triệu chứng chủ quan?",
+      "options": [
+        {"text": "Để tiết kiệm ngân sách", "isCorrect": false},
+        {"text": "Vì thiếu bằng chứng khách quan, dễ gây sai lệch công bằng pháp lý", "isCorrect": true},
+        {"text": "Vì bệnh nhân hay nói dối", "isCorrect": false},
+        {"text": "Vì các triệu chứng này sẽ tự hết", "isCorrect": false}
+      ],
+      "explanation": "Các triệu chứng chủ quan (như đau đầu, mệt mỏi) khó kiểm chứng, cần ưu tiên các tổn thương thực thể nhìn thấy hoặc đo đạc được."
+    },
+    {
+      "question": "Việc tiên lượng di chứng chức năng chính xác giúp ích gì cho hội đồng giám định?",
+      "options": [
+        {"text": "Để xếp tỷ lệ thương tật tạm thời một cách hợp lý", "isCorrect": true},
+        {"text": "Để chỉ định mổ", "isCorrect": false},
+        {"text": "Để bệnh nhân được nằm viện lâu hơn", "isCorrect": false},
+        {"text": "Để thay đổi loại thuốc điều trị", "isCorrect": false}
+      ],
+      "explanation": "Tiên lượng đúng giúp xác định mức độ tàn phế hoặc hồi phục trong tương lai của nạn nhân."
+    },
+    {
+      "question": "Khi mô tả vết thương, 'màu sắc' của vết bầm tím có ý nghĩa gì?",
+      "options": [
+        {"text": "Để cho đẹp", "isCorrect": false},
+        {"text": "Giúp xác định thời điểm gây thương tích (tuổi của vết thương)", "isCorrect": true},
+        {"text": "Xác định nhóm máu nạn nhân", "isCorrect": false},
+        {"text": "Để biết nạn nhân có bị thiếu máu không", "isCorrect": false}
+      ],
+      "explanation": "Sự chuyển màu của vết bầm (từ đỏ sang tím, xanh, vàng) phản ánh quá trình phân hủy hemoglobin theo thời gian."
+    },
+    {
+      "question": "Xác định chính xác 'kích thước' vết thương nhằm mục đích:",
+      "options": [
+        {"text": "Tính toán liều lượng thuốc tê", "isCorrect": false},
+        {"text": "Cung cấp thông số định lượng để phân loại mức độ nặng nhẹ", "isCorrect": true},
+        {"text": "Để may vết thương cho đẹp", "isCorrect": false},
+        {"text": "Để chụp ảnh macro", "isCorrect": false}
+      ],
+      "explanation": "Các con số đo đạc cụ thể là bằng chứng khách quan nhất trong hồ sơ pháp y."
+    },
+    {
+      "question": "Trong giám định, nếu nạn nhân bị gãy xương hàm nhưng chưa điều trị xong:",
+      "options": [
+        {"text": "Phải tiến hành giám định ngay", "isCorrect": false},
+        {"text": "Tạm hoãn giám định cho đến khi điều trị ổn định", "isCorrect": true},
+        {"text": "Tính tỷ lệ thương tật 100%", "isCorrect": false},
+        {"text": "Yêu cầu nạn nhân tự nhai thử", "isCorrect": false}
+      ],
+      "explanation": "Chỉ khi tình trạng ổn định mới đánh giá được mức độ hồi phục hoặc di chứng thực tế của xương."
+    },
+    {
+      "question": "Bản chứng nhận thương tích cần ghi rõ kết quả điều trị khi bệnh nhân ra viện để:",
+      "options": [
+        {"text": "Thu tiền bệnh nhân", "isCorrect": false},
+        {"text": "Đánh giá mức độ hồi phục và làm cơ sở cho giám định về sau", "isCorrect": true},
+        {"text": "Để bệnh nhân đi làm lại", "isCorrect": false},
+        {"text": "Để báo cáo cho Bộ Y tế", "isCorrect": false}
+      ],
+      "explanation": "Tình trạng lúc ra viện là mốc quan trọng để so sánh với các di chứng xuất hiện sau này."
+    },
+    {
+      "question": "Đối với các cơ quan phối hợp (ví dụ: hai tay), nếu tổng tỷ lệ thương tật vượt quá 40% thì xử lý thế nào?",
+      "options": [
+        {"text": "Vẫn dùng cộng thẳng", "isCorrect": false},
+        {"text": "Chuyển sang phương pháp cộng lùi", "isCorrect": true},
+        {"text": "Lấy mốc 40% làm tối đa", "isCorrect": false},
+        {"text": "Không tính thương tật nữa", "isCorrect": false}
+      ],
+      "explanation": "Quy định giới hạn 40% cho cộng thẳng nhằm đảm bảo tính logic của phép tính tổng quát sức khỏe."
+    },
+    {
+      "question": "Trong nhận dạng nha khoa pháp y, việc ghi nhận thương tích răng miệng giúp:",
+      "options": [
+        {"text": "Biết nạn nhân có răng khểnh không", "isCorrect": false},
+        {"text": "Xác định nguyên nhân tử vong hoặc tác động lực trong các vụ án hình sự", "isCorrect": true},
+        {"text": "Để lắp răng sứ", "isCorrect": false},
+        {"text": "Đo độ mòn mặt nhai", "isCorrect": false}
+      ],
+      "explanation": "Thương tích vùng hàm mặt thường mang thông tin về cơ chế tác động lực (đấm, đá, vật cứng, vật sắc)."
+    },
+    {
+      "question": "Thành phần 'chiều hướng vết thương' giúp bác sĩ suy luận điều gì?",
+      "options": [
+        {"text": "Nạn nhân đứng hay nằm", "isCorrect": false},
+        {"text": "Tư thế tương đối giữa nạn nhân và hung thủ lúc xảy ra vụ việc", "isCorrect": true},
+        {"text": "Hung thủ thuận tay trái hay phải", "isCorrect": false},
+        {"text": "Độ dài của dao", "isCorrect": false}
+      ],
+      "explanation": "Góc tác động lực giúp tái hiện lại hiện trường và hành vi gây án."
+    },
+    {
+      "question": "Nếu nạn nhân bị mất hoàn toàn một răng cửa, tỷ lệ thương tật được tính trên cơ sở:",
+      "options": [
+        {"text": "Mất chức năng ăn nhai và ảnh hưởng thẩm mỹ", "isCorrect": true},
+        {"text": "Số milimet của răng", "isCorrect": false},
+        {"text": "Giá tiền trồng lại răng đó", "isCorrect": false},
+        {"text": "Màu sắc của lợi vùng đó", "isCorrect": false}
+      ],
+      "explanation": "Giám định tính toán dựa trên mức độ suy giảm sức khỏe toàn diện do mất đơn vị răng."
+    },
+    {
+      "question": "Trong hồ sơ giám định, kết quả xét nghiệm cận lâm sàng (X-quang, CT-scan) đóng vai trò:",
+      "options": [
+        {"text": "Phụ họa cho mô tả lâm sàng", "isCorrect": false},
+        {"text": "Bằng chứng khách quan, khẳng định các tổn thương bên trong xương và mô sâu", "isCorrect": true},
+        {"text": "Để tốn thêm chi phí", "isCorrect": false},
+        {"text": "Không có giá trị pháp lý", "isCorrect": false}
+      ],
+      "explanation": "Hình ảnh tia X là minh chứng không thể chối cãi về các tổn thương cấu trúc xương."
+    },
+    {
+      "question": "Việc mô tả 'bờ vết thương' (sắc gọn hay nham nhở) giúp phân biệt:",
+      "options": [
+        {"text": "Bệnh nhân có khỏe không", "isCorrect": false},
+        {"text": "Loại hung khí là vật sắc nhọn hay vật tày (vật cứng)", "isCorrect": true},
+        {"text": "Vết thương có nhiễm trùng không", "isCorrect": false},
+        {"text": "Nạn nhân có đau nhiều không", "isCorrect": false}
+      ],
+      "explanation": "Bờ vết thương sắc gọn thường do dao, bờ nham nhở thường do va đập hoặc vật không sắc."
+    },
+    {
+      "question": "Tại sao bác sĩ pháp nha cần tham gia giám định thương tích vùng mặt?",
+      "options": [
+        {"text": "Vì bác sĩ mặt có dụng cụ soi", "isCorrect": false},
+        {"text": "Vùng mặt có cấu trúc răng hàm phức tạp, ảnh hưởng lớn đến thẩm mỹ và chức năng ăn nhai", "isCorrect": true},
+        {"text": "Vì nha sĩ rảnh hơn", "isCorrect": false},
+        {"text": "Để nhổ răng cho nạn nhân", "isCorrect": false}
+      ],
+      "explanation": "Chuyên môn nha khoa giúp đánh giá chính xác các tổn thương xương hàm và hệ thống nhai."
+    },
+    {
+      "question": "Trong công tác chứng thương, việc mô tả 'vị trí' vết thương cần:",
+      "options": [
+        {"text": "Ghi chung chung là ở mặt", "isCorrect": false},
+        {"text": "Ghi cụ thể khoảng cách đến các mốc giải phẫu cố định", "isCorrect": true},
+        {"text": "Ghi theo hướng kim đồng hồ", "isCorrect": false},
+        {"text": "Chỉ cần chụp ảnh là đủ", "isCorrect": false}
+      ],
+      "explanation": "Các mốc giải phẫu giúp định vị vết thương một cách duy nhất và không nhầm lẫn."
+    },
+    {
+      "question": "Lý do chứng nhận thương tích (mục 2.1) thường xuất phát từ yêu cầu của:",
+      "options": [
+        {"text": "Bản thân bệnh nhân", "isCorrect": false},
+        {"text": "Cơ quan điều tra hoặc viện kiểm sát", "isCorrect": true},
+        {"text": "Công ty bảo hiểm", "isCorrect": false},
+        {"text": "Hàng xóm nạn nhân", "isCorrect": false}
+      ],
+      "explanation": "Cơ quan pháp luật yêu cầu chứng thương để làm căn cứ khởi tố hoặc xử lý vi phạm."
+    },
+    {
+      "question": "Nếu nạn nhân bị gãy 2 răng thật nhưng đã phục hồi bằng cầu răng, khi gãy cầu răng đó tính tỷ lệ:",
+      "options": [
+        {"text": "Như gãy 2 răng thật", "isCorrect": false},
+        {"text": "Giảm đi một phần do tính chất phục hình (thường là 50%)", "isCorrect": true},
+        {"text": "Không được tính", "isCorrect": false},
+        {"text": "Tính gấp đôi", "isCorrect": false}
+      ],
+      "explanation": "Tính toán dựa trên thực trạng cấu trúc răng tại thời điểm bị xâm hại."
+    },
+    {
+      "question": "Nguyên tắc 'tiên lượng di chứng chức năng' đặc biệt quan trọng trong chấn thương hàm mặt vì:",
+      "options": [
+        {"text": "Giúp bệnh nhân ăn ngon", "isCorrect": false},
+        {"text": "Các biến dạng hàm mặt ảnh hưởng vĩnh viễn đến khả năng nhai, nói và tâm lý", "isCorrect": true},
+        {"text": "Để kê thêm thuốc bổ", "isCorrect": false},
+        {"text": "Vì xương mặt mỏng", "isCorrect": false}
+      ],
+      "explanation": "Hệ quả chức năng thường kéo dài lâu hơn sự lành thương của mô mềm."
+    },
+    {
+      "question": "Khi có nhiều tổn thương phối hợp trên cơ thể, thứ tự tính cộng lùi nên là:",
+      "options": [
+        {"text": "Tính vết thương ở đầu trước", "isCorrect": false},
+        {"text": "Xếp tỷ lệ từ cao nhất đến thấp nhất để tính toán", "isCorrect": true},
+        {"text": "Tính theo thứ tự thời gian bị thương", "isCorrect": false},
+        {"text": "Tính vết thương nhỏ trước", "isCorrect": false}
+      ],
+      "explanation": "Bắt đầu với tổn thương nặng nhất giúp phép tính cộng lùi phản ánh chính xác nhất sự sụt giảm sức khỏe."
+    },
+    {
+      "question": "Chứng thương và giám định thương tích khác nhau cơ bản ở điểm nào?",
+      "options": [
+        {"text": "Không khác nhau", "isCorrect": false},
+        {"text": "Chứng thương ghi nhận hiện trạng ban đầu, giám định xác định tỷ lệ thương tật lâu dài", "isCorrect": true},
+        {"text": "Chứng thương dùng cho người chết, giám định cho người sống", "isCorrect": false},
+        {"text": "Giám định làm trước chứng thương", "isCorrect": false}
+      ],
+      "explanation": "Chứng thương mang tính thời điểm, giám định mang tính tổng kết di chứng."
+    },
+    {
+      "question": "Trong giám định thương tích, 'di chứng thẩm mỹ' vùng mặt thường:",
+      "options": [
+        {"text": "Không được tính", "isCorrect": false},
+        {"text": "Được xếp tỷ lệ riêng vì ảnh hưởng lớn đến đời sống xã hội của nạn nhân", "isCorrect": true},
+        {"text": "Chỉ tính nếu nạn nhân là phụ nữ", "isCorrect": false},
+        {"text": "Tính chung vào tỷ lệ gãy xương", "isCorrect": false}
+      ],
+      "explanation": "Vẻ ngoài là một phần của sức khỏe tinh thần và xã hội được luật pháp bảo vệ."
+    },
+    {
+      "question": "Hồ sơ y tế quá 3 tháng không được dùng làm căn cứ giám định vì:",
+      "options": [
+        {"text": "Giấy bị mục", "isCorrect": false},
+        {"text": "Tình trạng tổn thương có thể đã thay đổi (lành hoặc nặng thêm do nguyên nhân khác)", "isCorrect": true},
+        {"text": "Nha sĩ không nhớ mặt bệnh nhân", "isCorrect": false},
+        {"text": "Luật quy định như vậy không cần lý do", "isCorrect": false}
+      ],
+      "explanation": "Tính trung thực của giám định phụ thuộc vào sự gần gũi về thời gian của bằng chứng."
+    },
+    {
+      "question": "Cơ quan phối hợp nào sau đây thường được áp dụng nguyên tắc cộng thẳng?",
+      "options": [
+        {"text": "Mắt trái và chân phải", "isCorrect": false},
+        {"text": "Hàm trên và hàm dưới", "isCorrect": true},
+        {"text": "Gan và phổi", "isCorrect": false},
+        {"text": "Tay trái và tai phải", "isCorrect": false}
+      ],
+      "explanation": "Hai hàm răng hoạt động cùng nhau trong một hệ thống nhai thống nhất."
+    },
+    {
+      "question": "Thế nào là 'tỷ lệ thương tật tạm thời'?",
+      "options": [
+        {"text": "Tỷ lệ dự đoán sẽ hết sau 1 tuần", "isCorrect": false},
+        {"text": "Tỷ lệ đánh giá khi vết thương chưa ổn định hoàn toàn, cần tái giám định", "isCorrect": true},
+        {"text": "Tỷ lệ dành cho người đi làm thêm", "isCorrect": false},
+        {"text": "Tỷ lệ cho các vết xước da", "isCorrect": false}
+      ],
+      "explanation": "Dùng trong các giai đoạn sớm của vụ án để thực hiện các biện pháp ngăn chặn pháp lý."
+    },
+    {
+      "question": "Kỹ thuật 'Chụp ảnh pháp y' trong giám định thương tích yêu cầu:",
+      "options": [
+        {"text": "Ảnh đen trắng", "isCorrect": false},
+        {"text": "Ảnh màu, có thước đo độ dài và đặt cạnh vết thương", "isCorrect": true},
+        {"text": "Ảnh chụp từ trên cao xuống", "isCorrect": false},
+        {"text": "Ảnh đã qua chỉnh sửa Photoshop", "isCorrect": false}
+      ],
+      "explanation": "Ảnh vật chứng phải trung thực và có tỷ lệ xích để đối chiếu kích thước."
+    },
+    {
+      "question": "Chấn thương gây 'mất răng toàn bộ' một hàm được giám định dựa trên:",
+      "options": [
+        {"text": "Chỉ số BMI", "isCorrect": false},
+        {"text": "Mức độ tàn phế chức năng nhai và biến dạng khuôn mặt", "isCorrect": true},
+        {"text": "Số lượng kim loại trong miệng", "isCorrect": false},
+        {"text": "Độ dài vòm miệng", "isCorrect": false}
+      ],
+      "explanation": "Mất chức năng ăn nhai hoàn toàn là một tổn hại sức khỏe nghiêm trọng."
+    },
+    {
+      "question": "Khi giám định thương tích cho trẻ em, cần lưu ý điều gì về răng?",
+      "options": [
+        {"text": "Răng sữa không được tính tỷ lệ thương tật", "isCorrect": false},
+        {"text": "Phân biệt răng sữa sắp rụng và răng vĩnh viễn bị chấn thương mất sớm", "isCorrect": true},
+        {"text": "Trẻ em không đau nên tính thấp hơn", "isCorrect": false},
+        {"text": "Răng trẻ em mau mọc lại", "isCorrect": false}
+      ],
+      "explanation": "Đánh giá dựa trên thiệt hại thực tế đối với bộ răng vĩnh viễn tương lai của trẻ."
+    },
+    {
+      "question": "Vết thương ở 'góc hàm' gây giới hạn há miệng 10mm được xếp vào loại:",
+      "options": [
+        {"text": "Tổn thương thẩm mỹ", "isCorrect": false},
+        {"text": "Di chứng chức năng nặng", "isCorrect": true},
+        {"text": "Vết thương ngoài da", "isCorrect": false},
+        {"text": "Không có thương tật", "isCorrect": false}
+      ],
+      "explanation": "Giới hạn há miệng ảnh hưởng trực tiếp đến việc ăn uống và phát âm."
+    },
+    {
+      "question": "Tại sao phải ghi nhận các 'bệnh lý có sẵn' của nạn nhân trước khi bị thương?",
+      "options": [
+        {"text": "Để chữa bệnh cho họ", "isCorrect": false},
+        {"text": "Để tách biệt giữa tổn hại do chấn thương mới và tình trạng bệnh cũ (tránh tính oan)", "isCorrect": true},
+        {"text": "Để bệnh nhân được miễn giảm phí", "isCorrect": false},
+        {"text": "Không cần thiết", "isCorrect": false}
+      ],
+      "explanation": "Công bằng pháp lý yêu cầu chỉ xác định tỷ lệ tổn hại do hành vi xâm phạm gây ra."
+    },
+    {
+      "question": "Nguyên tắc cộng lùi đảm bảo tổng tỷ lệ thương tật tối đa là bao nhiêu %?",
+      "options": [
+        {"text": "40%", "isCorrect": false},
+        {"text": "60%", "isCorrect": false},
+        {"text": "100%", "isCorrect": true},
+        {"text": "200%", "isCorrect": false}
+      ],
+      "explanation": "Một người không thể mất đi nhiều hơn 100% sức khỏe hiện có của mình."
+    },
+    {
+      "question": "Trong hồ sơ chứng thương, mục 'Diễn biến bệnh lý' giúp giám định viên:",
+      "options": [
+        {"text": "Thấy được nỗ lực của bác sĩ", "isCorrect": false},
+        {"text": "Đánh giá mức độ phản ứng của cơ thể và các biến chứng phát sinh", "isCorrect": true},
+        {"text": "Tính tiền thuốc", "isCorrect": false},
+        {"text": "Để viết báo cáo", "isCorrect": false}
+      ],
+      "explanation": "Các biến chứng (như nhiễm trùng, hoại tử) thường làm tăng tỷ lệ thương tật cuối cùng."
+    },
+    {
+      "question": "Gãy xương hàm dưới tại vùng 'cằm' thường do lực tác động từ hướng nào?",
+      "options": [
+        {"text": "Từ trên xuống", "isCorrect": false},
+        {"text": "Trực diện từ phía trước (đấm, va đập)", "isCorrect": true},
+        {"text": "Từ sau gáy", "isCorrect": false},
+        {"text": "Từ dưới lên", "isCorrect": false}
+      ],
+      "explanation": "Vị trí gãy xương phản ánh hướng và điểm đặt lực của vật gây thương tích."
+    },
+    {
+      "question": "Tại sao nha sĩ pháp y phải xác định 'tính chất vật gây thương tích'?",
+      "options": [
+        {"text": "Để bán hung khí", "isCorrect": false},
+        {"text": "Giúp cơ quan điều tra thu hẹp danh sách hung khí tiềm năng (dao, gậy, tay không...)", "isCorrect": true},
+        {"text": "Để bệnh nhân bớt sợ", "isCorrect": false},
+        {"text": "Theo yêu cầu của nha sĩ", "isCorrect": false}
+      ],
+      "explanation": "Hình thái tổn thương nha khoa (vỡ răng, lún răng) cung cấp manh mối về độ cứng và năng lượng của hung khí."
+    },
+    {
+      "question": "Chứng thương 'vết cắn' trên da nạn nhân đòi hỏi nha sĩ thực hiện thêm bước:",
+      "options": [
+        {"text": "Lấy mẫu nước bọt và lấy dấu vết cắn bằng silicon", "isCorrect": true},
+        {"text": "Nhổ răng nạn nhân", "isCorrect": false},
+        {"text": "Đo độ mòn răng", "isCorrect": false},
+        {"text": "Chụp X-quang phổi", "isCorrect": false}
+      ],
+      "explanation": "Vết cắn là loại thương tích đặc thù mang thông tin về hung thủ (nhận dạng qua răng)."
+    },
+    {
+      "question": "Di chứng 'mất răng cửa' ảnh hưởng đến phát âm các âm tiết nào?",
+      "options": [
+        {"text": "Âm 'A', 'O'", "isCorrect": false},
+        {"text": "Âm gió (S, Z) và các âm răng-môi (F, V)", "isCorrect": true},
+        {"text": "Âm 'K', 'G'", "isCorrect": false},
+        {"text": "Không ảnh hưởng phát âm", "isCorrect": false}
+      ],
+      "explanation": "Răng cửa đóng vai trò là điểm chặn luồng hơi để tạo ra các âm tiết rõ ràng."
+    },
+    {
+      "question": "Khi nạn nhân bị thương tích vùng mặt, bác sĩ cần khám dây thần kinh nào để đánh giá liệt mặt?",
+      "options": [
+        {"text": "Dây thần kinh số V", "isCorrect": false},
+        {"text": "Dây thần kinh số VII (dây thần kinh mặt)", "isCorrect": true},
+        {"text": "Dây thần kinh số II", "isCorrect": false},
+        {"text": "Dây thần kinh số X", "isCorrect": false}
+      ],
+      "explanation": "Liệt mặt do đứt dây thần kinh VII là một thương tật thẩm mỹ và chức năng cực kỳ nặng nề."
+    },
+    {
+      "question": "Tỷ lệ tổn hại sức khỏe cho việc 'Gãy răng nhưng vẫn giữ được chân răng' thường thấp hơn so với:",
+      "options": [
+        {"text": "Sâu răng", "isCorrect": false},
+        {"text": "Mất răng hoàn toàn (cả chân và thân)", "isCorrect": true},
+        {"text": "Răng bị ố vàng", "isCorrect": false},
+        {"text": "Răng hơi lung lay", "isCorrect": false}
+      ],
+      "explanation": "Chân răng còn lại có thể dùng làm trụ để phục hồi bằng chốt/mão, mức độ tàn phá ít hơn mất răng hoàn toàn."
+    },
+    {
+      "question": "Trong giám định, 'di chứng cứng khớp thái dương hàm' dẫn đến:",
+      "options": [
+        {"text": "Nói hay hơn", "isCorrect": false},
+        {"text": "Mất khả năng há miệng và nhai, đe dọa dinh dưỡng của nạn nhân", "isCorrect": true},
+        {"text": "Răng trắng ra", "isCorrect": false},
+        {"text": "Hết đau răng", "isCorrect": false}
+      ],
+      "explanation": "Đây là một biến chứng chức năng nghiêm trọng đòi hỏi phẫu thuật can thiệp."
+    },
+    {
+      "question": "Nguyên tắc 'Một vết thương gây nhiều di chứng chỉ tính di chứng chính' giúp:",
+      "options": [
+        {"text": "Rút gọn hồ sơ", "isCorrect": false},
+        {"text": "Tránh việc phóng đại tỷ lệ thương tật một cách phi lý", "isCorrect": true},
+        {"text": "Nha sĩ đỡ phải tính toán", "isCorrect": false},
+        {"text": "Bệnh nhân ra viện nhanh", "isCorrect": false}
+      ],
+      "explanation": "Đảm bảo tính khoa học và công bằng trong việc lượng hóa thiệt hại sức khỏe."
+    },
+    {
+      "question": "Tại sao nha sĩ pháp y cần ghi nhận 'độ sâu' của vết thương?",
+      "options": [
+        {"text": "Để biết cần bao nhiêu bông", "isCorrect": false},
+        {"text": "Xác định mức độ xâm lấn vào các cơ quan quan trọng (mạch máu, dây thần kinh, xương)", "isCorrect": true},
+        {"text": "Để tính tiền thuốc kháng sinh", "isCorrect": false},
+        {"text": "Để chọn loại chỉ khâu", "isCorrect": false}
+      ],
+      "explanation": "Độ sâu tỷ lệ thuận với mức độ nguy hiểm của thương tích."
+    },
+    {
+      "question": "Việc khám 'vết bầm tím' ở trẻ em có ý nghĩa gì đặc biệt?",
+      "options": [
+        {"text": "Trẻ em da mềm", "isCorrect": false},
+        {"text": "Phát hiện dấu hiệu bạo hành nếu vết bầm có hình dạng hung khí hoặc vết cắn", "isCorrect": true},
+        {"text": "Biết trẻ có hay chạy nhảy không", "isCorrect": false},
+        {"text": "Biết trẻ có thiếu vitamin không", "isCorrect": false}
+      ],
+      "explanation": "Vùng mặt là vị trí bị tấn công phổ biến trong bạo hành gia đình."
+    },
+    {
+      "question": "Khi nạn nhân bị 'lung lay răng độ 3' sau chấn thương, nha sĩ pháp y tiên lượng:",
+      "options": [
+        {"text": "Răng sẽ tự chắc lại", "isCorrect": false},
+        {"text": "Nguy cơ mất răng cao, cần tính vào tỷ lệ thương tật dự kiến", "isCorrect": true},
+        {"text": "Chỉ cần uống sữa", "isCorrect": false},
+        {"text": "Răng sẽ mọc dài thêm", "isCorrect": false}
+      ],
+      "explanation": "Lung lay độ 3 thường đi kèm đứt dây chằng nha chu hoàn toàn, tiên lượng giữ răng rất kém."
+    },
+    {
+      "question": "Vai trò của nha sĩ pháp y tại tòa án với tư cách 'Nhân chứng chuyên gia' là:",
+      "options": [
+        {"text": "Bắt lỗi luật sư", "isCorrect": false},
+        {"text": "Giải thích các bằng chứng nha khoa một cách khoa học giúp tòa ra phán quyết đúng", "isCorrect": true},
+        {"text": "Bênh vực nạn nhân tuyệt đối", "isCorrect": false},
+        {"text": "Cãi nhau với hung thủ", "isCorrect": false}
+      ],
+      "explanation": "Chuyên gia cung cấp kiến thức chuyên sâu một cách khách quan để hỗ trợ công lý."
+    },
+    {
+      "question": "Trong hình vẽ 15 (Trang 15), ví dụ về cộng lùi cho thấy sức khỏe của nạn nhân:",
+      "options": [
+        {"text": "Tăng lên sau mỗi lần cộng", "isCorrect": false},
+        {"text": "Giảm dần dựa trên phần trăm sức khỏe còn lại", "isCorrect": true},
+        {"text": "Giữ nguyên 100%", "isCorrect": false},
+        {"text": "Bị mất hết ngay lập tức", "isCorrect": false}
+      ],
+      "explanation": "Phép tính cộng lùi mô phỏng thực tế sự suy kiệt dần của cơ thể khi chịu nhiều vết thương."
+    },
+    {
+      "question": "Vết thương do 'đạn bắn' vùng hàm mặt thường có đặc điểm:",
+      "options": [
+        {"text": "Sắc gọn", "isCorrect": false},
+        {"text": "Phá hủy mô rộng, nát xương và thường có dị vật bên trong", "isCorrect": true},
+        {"text": "Hơi bầm tím", "isCorrect": false},
+        {"text": "Tự lành sau 2 ngày", "isCorrect": false}
+      ],
+      "explanation": "Năng lượng cực lớn của đạn gây ra tổn thương nổ mô và vụn xương phức tạp."
+    },
+    {
+      "question": "Chứng nhận thương tích răng miệng cần thực hiện 'đúng chức năng khám thương' nghĩa là:",
+      "options": [
+        {"text": "Chỉ cần ghi răng gãy", "isCorrect": false},
+        {"text": "Ghi nhận cả những tổn thương nướu, lưỡi, niêm mạc má và xương ổ răng", "isCorrect": true},
+        {"text": "Chỉ khám khi bệnh nhân yêu cầu", "isCorrect": false},
+        {"text": "Khám cả chân và tay", "isCorrect": false}
+      ],
+      "explanation": "Khám toàn diện hệ thống hàm mặt để không bỏ sót các thương tích phối hợp."
+    },
+    {
+      "question": "Tổn thương 'vỡ lồi cầu xương hàm dưới' thường đi kèm với:",
+      "options": [
+        {"text": "Đau vùng tai và lệch hàm khi há miệng", "isCorrect": true},
+        {"text": "Sâu răng cửa", "isCorrect": false},
+        {"text": "Chảy máu cam", "isCorrect": false},
+        {"text": "Tăng thị lực", "isCorrect": false}
+      ],
+      "explanation": "Lồi cầu là khớp nối duy nhất của hàm dưới, chấn thương vùng này làm rối loạn vận động hàm."
+    },
+    {
+      "question": "Khi giám định 'tỷ lệ tổn hại sức khỏe', hội đồng dựa trên văn bản nào?",
+      "options": [
+        {"text": "Sách giáo khoa nha khoa", "isCorrect": false},
+        {"text": "Bảng tiêu chuẩn thương tật do Nhà nước ban hành (Thông tư liên tịch)", "isCorrect": true},
+        {"text": "Tùy ý nha sĩ", "isCorrect": false},
+        {"text": "Dựa trên tiền bồi thường", "isCorrect": false}
+      ],
+      "explanation": "Giám định phải tuân theo khung pháp lý quy định sẵn để đảm bảo tính thống nhất toàn quốc."
+    },
+    {
+      "question": "Nếu nạn nhân bị 'mất lưỡi' một phần, ảnh hưởng chính là:",
+      "options": [
+        {"text": "Không nếm được vị cay", "isCorrect": false},
+        {"text": "Rối loạn nuốt và mất khả năng phát âm rõ ràng", "isCorrect": true},
+        {"text": "Răng sẽ bị rụng", "isCorrect": false},
+        {"text": "Mũi bị lệch", "isCorrect": false}
+      ],
+      "explanation": "Lưỡi là cơ quan thiết yếu cho cả chức năng tiêu hóa (nuốt) và giao tiếp (nói)."
+    },
+    {
+      "question": "Việc sử dụng 'thuốc cản quang' trong chụp phim vết cắn giúp:",
+      "options": [
+        {"text": "Giảm đau cho nạn nhân", "isCorrect": false},
+        {"text": "Hiện rõ độ sâu và hình dạng lõm của vết răng trên phim X-quang", "isCorrect": true},
+        {"text": "Diệt vi khuẩn tại vết thương", "isCorrect": false},
+        {"text": "Làm vết cắn biến mất", "isCorrect": false}
+      ],
+      "explanation": "Cản quang giúp tái hiện lại hình ảnh 3D của răng hung thủ lên phim chụp 2D."
+    },
+    {
+      "question": "Tại sao phải chụp ảnh vết thương 'trước và sau' khi làm sạch?",
+      "options": [
+        {"text": "Để khoe kỹ năng rửa vết thương", "isCorrect": false},
+        {"text": "Ghi lại trạng thái gốc (máu, bụi bẩn) và trạng thái rõ ràng của thương tích", "isCorrect": true},
+        {"text": "Để tốn thêm phim", "isCorrect": false},
+        {"text": "Theo sở thích của nha sĩ", "isCorrect": false}
+      ],
+      "explanation": "Trạng thái gốc có thể chứa các vật chứng quan trọng như sơn, kính hoặc nước bọt."
+    },
+    {
+      "question": "Trong giám định, 'liệt hoàn toàn cơ mút' một bên mặt ảnh hưởng đến:",
+      "options": [
+        {"text": "Khả năng nhai cơm", "isCorrect": false},
+        {"text": "Khả năng giữ thức ăn trong miệng khi nhai và gây đọng thức ăn ở hành lang", "isCorrect": true},
+        {"text": "Khả năng mở mắt", "isCorrect": false},
+        {"text": "Độ trắng của răng", "isCorrect": false}
+      ],
+      "explanation": "Cơ mút giúp ép thức ăn vào mặt nhai, liệt cơ này làm rối loạn chức năng nhai cơ học."
+    },
+    {
+      "question": "Mục đích của việc 'đối chiếu trên sáp' (Trang 17) trong phân tích vết cắn là:",
+      "options": [
+        {"text": "Để làm nến", "isCorrect": false},
+        {"text": "Tạo khuôn răng của nghi phạm để so sánh độ trùng khớp với vết cắn thực tế", "isCorrect": true},
+        {"text": "Để nạn nhân nhai cho đỡ đau", "isCorrect": false},
+        {"text": "Để lấy dấu vân tay", "isCorrect": false}
+      ],
+      "explanation": "Sáp là vật liệu ghi dấu trung gian giúp kiểm chứng giả thuyết về hung thủ."
+    },
+    {
+      "question": "Khi nạn nhân tử vong, việc khám nghiệm thương tích răng miệng được gọi là:",
+      "options": [
+        {"text": "Chứng thương lâm sàng", "isCorrect": false},
+        {"text": "Khám nghiệm nha khoa Post-mortem (sau khi chết)", "isCorrect": true},
+        {"text": "Điều trị tủy", "isCorrect": false},
+        {"text": "Giám định dân sự", "isCorrect": false}
+      ],
+      "explanation": "Đây là quy trình thu thập dữ liệu từ thi thể phục vụ nhận dạng và điều tra án."
+    },
+    {
+      "question": "Hệ quả của việc 'gãy xương hàm trên kiểu Le Fort I' là:",
+      "options": [
+        {"text": "Hàm trên bị lung lay độc lập với nền sọ", "isCorrect": true},
+        {"text": "Răng cửa bị rụng hết", "isCorrect": false},
+        {"text": "Mất thính giác", "isCorrect": false},
+        {"text": "Liệt hai chân", "isCorrect": false}
+      ],
+      "explanation": "Le Fort I là đường gãy ngang tách rời khối xương ổ răng hàm trên khỏi cấu trúc xương mặt."
+    },
+    {
+      "question": "Thông điệp chính của bài học 'Chứng thương - Giám định thương tích' là gì?",
+      "options": [
+        {"text": "Giám định là một quy trình khoa học nghiêm ngặt phục vụ công bằng xã hội", "isCorrect": true},
+        {"text": "Bác sĩ nha khoa nên làm cảnh sát", "isCorrect": false},
+        {"text": "Tỷ lệ thương tật càng cao càng tốt", "isCorrect": false},
+        {"text": "Hồ sơ y tế không quan trọng bằng lời nói", "isCorrect": false}
+      ],
+      "explanation": "Bài học nhấn mạnh trách nhiệm của nhân viên y tế trong việc cung cấp bằng chứng chính xác cho pháp luật."
+    },
+    {
+      "question": "Việc sử dụng 'Adobe Photoshop' trong phân tích vết cắn (Trang 19) giúp:",
+      "options": [
+        {"text": "Làm ảnh nạn nhân đẹp hơn để gia đình nhìn", "isCorrect": false},
+        {"text": "Chồng lớp (Overlay) mẫu hàm nghi phạm lên ảnh vết cắn để tìm điểm tương đồng kỹ thuật số", "isCorrect": true},
+        {"text": "Xóa các vết máu", "isCorrect": false},
+        {"text": "Tăng độ phân giải ảnh", "isCorrect": false}
+      ],
+      "explanation": "Công nghệ giúp việc đối chiếu trở nên khách quan, có thể phóng to và điều chỉnh độ trong suốt để kiểm chứng."
+    },
+    {
+      "question": "Khi nạn nhân bị thương, việc xác định 'vật tày' (vật cứng không sắc) dựa trên:",
+      "options": [
+        {"text": "Vết cắt ngọt", "isCorrect": false},
+        {"text": "Vết đụng dập, bầm tím và bờ vết thương nham nhở", "isCorrect": true},
+        {"text": "Răng bị sâu", "isCorrect": false},
+        {"text": "Hơi thở hôi", "isCorrect": false}
+      ],
+      "explanation": "Vật tày gây tổn thương bằng áp lực nghiền nén thay vì cắt xẻ."
+    },
+    {
+      "question": "Tiêu chuẩn 'điều trị ổn định' trước khi giám định nhằm tránh:",
+      "options": [
+        {"text": "Bệnh nhân phải đi lại nhiều", "isCorrect": false},
+        {"text": "Đánh giá sai tỷ lệ do vết thương còn đang trong quá trình hồi phục tự nhiên", "isCorrect": true},
+        {"text": "Tốn tiền bác sĩ", "isCorrect": false},
+        {"text": "Để bệnh nhân nhanh chóng đi kiện", "isCorrect": false}
+      ],
+      "explanation": "Đảm bảo tỷ lệ thương tật được xếp là con số cuối cùng và bền vững."
+    },
+    {
+      "question": "Trong giám định pháp nha, nếu một răng bị 'lún' vào xương ổ răng:",
+      "options": [
+        {"text": "Tính là mất răng hoàn toàn", "isCorrect": false},
+        {"text": "Tính là tổn thương nha chu và xương ổ răng, cần theo dõi tủy răng", "isCorrect": true},
+        {"text": "Không được tính thương tật", "isCorrect": false},
+        {"text": "Răng sẽ tự mọc ra sau 1 ngày", "isCorrect": false}
+      ],
+      "explanation": "Răng lún là tổn thương phức tạp gây hại cho cả mạch máu nuôi tủy và xương nâng đỡ."
+    },
+    {
+      "question": "Hệ quả pháp lý của bản giám định thương tích trên 11% là gì?",
+      "options": [
+        {"text": "Bệnh nhân được miễn phí tiền thuốc", "isCorrect": false},
+        {"text": "Có thể là căn cứ để khởi tố vụ án hình sự về tội cố ý gây thương tích", "isCorrect": true},
+        {"text": "Hung thủ phải đi tù 100 năm", "isCorrect": false},
+        {"text": "Bệnh nhân được tặng bằng khen", "isCorrect": false}
+      ],
+      "explanation": "Tỷ lệ 11% là ngưỡng quan trọng trong luật hình sự Việt Nam để xác định trách nhiệm của hung thủ."
+    },
+    {
+      "question": "Tại sao phải ghi nhận 'chiều dài' vết sẹo vùng mặt khi giám định?",
+      "options": [
+        {"text": "Để may quần áo", "isCorrect": false},
+        {"text": "Chiều dài sẹo tỉ lệ thuận với mức độ biến dạng thẩm mỹ và tỷ lệ thương tật", "isCorrect": true},
+        {"text": "Để biết nạn nhân cao bao nhiêu", "isCorrect": false},
+        {"text": "Không quan trọng", "isCorrect": false}
+      ],
+      "explanation": "Sẹo mặt là một phần quan trọng của đánh giá tổn thương ngoại hình lâu dài."
+    },
+    {
+      "question": "Khi nạn nhân bị thương vùng miệng, bác sĩ cần kiểm tra khớp cắn vì:",
+      "options": [
+        {"text": "Để xem răng có trắng không", "isCorrect": false},
+        {"text": "Sai lệch khớp cắn là dấu hiệu của gãy xương hàm hoặc trật khớp thái dương hàm", "isCorrect": true},
+        {"text": "Để lắp niềng răng", "isCorrect": false},
+        {"text": "Vì nha sĩ thích kiểm tra", "isCorrect": false}
+      ],
+      "explanation": "Khớp cắn là 'chỉ số vàng' phản ánh sự toàn vẹn của khung xương hàm dưới và hàm trên."
+    },
+    {
+      "question": "Bất lợi của phương pháp cộng lùi so với cộng thẳng là gì?",
+      "options": [
+        {"text": "Nha sĩ phải làm toán nhiều hơn", "isCorrect": false},
+        {"text": "Tỷ lệ thương tật cuối cùng luôn nhỏ hơn tổng đơn thuần các thành phần", "isCorrect": true},
+        {"text": "Làm bệnh nhân thấy khỏe hơn", "isCorrect": false},
+        {"text": "Làm hung thủ vui mừng", "isCorrect": false}
+      ],
+      "explanation": "Cộng lùi triệt tiêu bớt các tỷ lệ nhỏ để đảm bảo tính thực tế của sức khỏe tổng thể (không vượt 100%)."
+    },
+    {
+      "question": "Kết quả cuối cùng của việc giám định thương tích giúp nạn nhân:",
+      "options": [
+        {"text": "Hết đau ngay lập tức", "isCorrect": false},
+        {"text": "Được hưởng quyền lợi hợp pháp về bồi thường và công lý", "isCorrect": true},
+        {"text": "Được mọc lại răng mới", "isCorrect": false},
+        {"text": "Được đi du lịch miễn phí", "isCorrect": false}
+      ],
+      "explanation": "Bản giám định là công cụ bảo vệ quyền và lợi ích hợp pháp của công dân trước pháp luật."
+    }
+  ]

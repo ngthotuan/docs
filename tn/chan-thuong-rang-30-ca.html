@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>30 Ca Lâm Sàng – Chấn Thương Răng Trẻ Em</title>
+<style>
+  :root{
+    --bg:#eef2f6; --card:#ffffff; --ink:#1f2937; --muted:#5b6776;
+    --primary:#0e7490; --primary-d:#0b5563; --accent:#b91c1c;
+    --sua:#c2410c; --vv:#1d4ed8;
+    --line:#e2e8f0; --soft:#f1f5f9; --ok:#047857; --warn:#b45309;
+    --shadow:0 1px 3px rgba(15,23,42,.08),0 6px 18px rgba(15,23,42,.06);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+    line-height:1.55;font-size:16px;}
+  header.top{background:linear-gradient(135deg,#0e7490,#0b5563);color:#fff;
+    padding:30px 20px 26px;text-align:center;}
+  header.top h1{margin:0 0 6px;font-size:1.7rem;letter-spacing:.3px}
+  header.top p{margin:2px 0;opacity:.92;font-size:.95rem}
+  .wrap{max-width:1000px;margin:0 auto;padding:18px 16px 70px}
+  .toolbar{position:sticky;top:0;z-index:20;background:rgba(238,242,246,.92);
+    backdrop-filter:blur(6px);display:flex;flex-wrap:wrap;gap:8px;align-items:center;
+    padding:12px 4px;margin-bottom:8px;border-bottom:1px solid var(--line)}
+  .toolbar .grow{flex:1 1 auto}
+  button.btn{cursor:pointer;border:1px solid var(--line);background:#fff;color:var(--ink);
+    padding:8px 14px;border-radius:9px;font-size:.9rem;font-weight:600;box-shadow:var(--shadow);
+    transition:.15s}
+  button.btn:hover{border-color:var(--primary);color:var(--primary)}
+  button.btn.active{background:var(--primary);color:#fff;border-color:var(--primary)}
+  .count{font-size:.82rem;color:var(--muted);padding:0 6px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    box-shadow:var(--shadow);margin:16px 0;overflow:hidden}
+  .card .head{display:flex;align-items:center;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line);
+    background:linear-gradient(180deg,#fbfdff,#f5f8fb)}
+  .num{flex:0 0 auto;width:40px;height:40px;border-radius:10px;background:var(--primary);
+    color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.05rem}
+  .head h3{margin:0;font-size:1.06rem;flex:1 1 auto}
+  .badge{font-size:.72rem;font-weight:700;padding:4px 9px;border-radius:999px;color:#fff;white-space:nowrap}
+  .badge.sua{background:var(--sua)}
+  .badge.vv{background:var(--vv)}
+  .body{padding:16px 18px}
+  .figs{display:flex;gap:14px;flex-wrap:wrap;margin:6px 0 14px}
+  .fig{flex:1 1 280px;min-width:260px;background:var(--soft);border:1px solid var(--line);
+    border-radius:10px;padding:10px 10px 6px;text-align:center}
+  .fig svg{width:100%;height:auto;max-height:240px}
+  .fig .cap{font-size:.78rem;color:var(--muted);margin-top:4px;font-weight:600}
+  .vignette p{margin:.35rem 0}
+  .vignette .lab{font-weight:700;color:var(--primary-d)}
+  .qbox{background:#fff7ed;border:1px solid #fed7aa;border-left:4px solid var(--accent);
+    border-radius:8px;padding:11px 14px;margin:12px 0}
+  .qbox .qt{font-weight:700;color:var(--accent);margin-bottom:2px;font-size:.86rem;letter-spacing:.4px}
+  button.reveal{cursor:pointer;width:100%;text-align:left;border:1px dashed var(--primary);
+    background:#ecfeff;color:var(--primary-d);font-weight:700;padding:10px 14px;border-radius:9px;
+    font-size:.92rem;display:flex;justify-content:space-between;align-items:center}
+  button.reveal:hover{background:#cffafe}
+  .answer{display:none;margin-top:10px;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  .answer.open{display:block}
+  .ans-sec{padding:11px 15px;border-bottom:1px solid var(--line)}
+  .ans-sec:last-child{border-bottom:none}
+  .ans-sec h4{margin:0 0 5px;font-size:.84rem;text-transform:uppercase;letter-spacing:.5px}
+  .ans-sec.dx{background:#ecfdf5} .ans-sec.dx h4{color:var(--ok)}
+  .ans-sec.tx{background:#eff6ff} .ans-sec.tx h4{color:var(--vv)}
+  .ans-sec.fu{background:#fffbeb} .ans-sec.fu h4{color:var(--warn)}
+  .ans-sec.note{background:#fdf4ff} .ans-sec.note h4{color:#a21caf}
+  .ans-sec p{margin:.25rem 0}
+  .ans-sec ul{margin:.3rem 0;padding-left:20px}
+  .ans-sec li{margin:.18rem 0}
+  footer{text-align:center;color:var(--muted);font-size:.82rem;padding:24px 16px}
+  .disclaimer{max-width:1000px;margin:8px auto 0;padding:12px 16px;background:#fff;border:1px solid var(--line);
+    border-radius:10px;font-size:.82rem;color:var(--muted)}
+  @media print{
+    .toolbar,button.reveal .chev{display:none}
+    .answer{display:block!important}
+    button.reveal{border-style:solid;background:#fff}
+    .card{break-inside:avoid;box-shadow:none}
+  }
+</style>
+</head>
+<body>
+<header class="top">
+  <h1>30 Ca Lâm Sàng – Chấn Thương Răng Trẻ Em</h1>
+  <p>Chẩn đoán &amp; Điều trị · Răng sữa và Răng vĩnh viễn đang phát triển</p>
+  <p style="font-size:.85rem;opacity:.8">Có hình minh họa lâm sàng + X-quang · Đáp án chi tiết · Dành cho sinh viên RHM</p>
+</header>
+
+<div class="disclaimer">
+  Tài liệu ôn tập tự soạn dựa trên nội dung bài giảng “Chấn thương răng trẻ em”. Hình minh họa là sơ đồ
+  lâm sàng và X-quang được vẽ lại (SVG nhúng trực tiếp) nhằm mục đích học tập, không phải ảnh ca bệnh thật.
+  Phác đồ tham khảo theo hướng dẫn IADT; luôn cá thể hóa theo từng bệnh nhân.
+</div>
+
+<div class="wrap">
+  <div class="toolbar">
+    <button class="btn filter active" data-f="all">Tất cả</button>
+    <button class="btn filter" data-f="sua">Răng sữa</button>
+    <button class="btn filter" data-f="vv">Răng vĩnh viễn</button>
+    <span class="count" id="count"></span>
+    <span class="grow"></span>
+    <button class="btn" id="toggleAll">Hiện tất cả đáp án</button>
+  </div>
+  <div id="cards"></div>
+</div>
+
+<footer>Soạn để ôn tập · Chấn thương răng trẻ em · 30 ca lâm sàng có hình ảnh &amp; đáp án</footer>
+
+<script>
+/* ============================================================
+   SVG ILLUSTRATION ENGINE  (clinical frontal view + periapical X-ray)
+   ============================================================ */
+
+// ---------- CLINICAL FRONTAL VIEW (maxillary anterior, schematic) ----------
+function clinical(opt){
+  opt = opt||{};
+  var cond = opt.cond||'normal';     // condition on the target tooth
+  var lower = opt.arch==='mandible';
+  var W=400,H=250;
+  var s='<svg viewBox="0 0 '+W+' '+H+'" xmlns="http://www.w3.org/2000/svg">';
+  // mouth / background
+  s+='<rect x="0" y="0" width="'+W+'" height="'+H+'" rx="10" fill="#3a1f24"/>';
+  s+='<rect x="10" y="10" width="'+(W-20)+'" height="'+(H-20)+'" rx="8" fill="#6b2b33"/>';
+  // gingiva band
+  var gy = lower? 168 : 56;
+  s+='<path d="M10 '+(lower?H-10:10)+' H'+(W-10)+' V'+gy+' '+
+      'C300 '+(gy+ (lower?-14:14))+',260 '+(gy+(lower?-20:20))+',200 '+(gy+(lower?-20:20))+' '+
+      'C140 '+(gy+(lower?-20:20))+',100 '+(gy+(lower?-14:14))+',10 '+gy+' Z" '+
+      'fill="#e88a93"/>';
+  s+='<path d="M10 '+gy+' C100 '+(gy+(lower?-14:14))+',140 '+(gy+(lower?-20:20))+',200 '+(gy+(lower?-20:20))+' '+
+      'C260 '+(gy+(lower?-20:20))+',300 '+(gy+(lower?-14:14))+',390 '+gy+'" '+
+      'fill="none" stroke="#cf6b75" stroke-width="2"/>';
+
+  // 6 anterior teeth: indices 0..5 ; target = index 2 (central) by default
+  var target = (opt.tooth!=null)?opt.tooth:2;
+  // tooth slots: widths vary (canine, lateral, central, central, lateral, canine)
+  var slots=[
+    {x:34 ,w:46,t:'canine'},
+    {x:84 ,w:48,t:'lateral'},
+    {x:136,w:62,t:'central'},
+    {x:202,w:62,t:'central'},
+    {x:268,w:48,t:'lateral'},
+    {x:320,w:46,t:'canine'}
+  ];
+  var baseTop = gy- (lower?6:2);          // crown starts near gingiva
+  var crownH  = lower? 70 : 84;
+  for(var i=0;i<slots.length;i++){
+    var sl=slots[i];
+    var isT=(i===target);
+    var c = isT? cond : 'normal';
+    s+=drawCrown(sl.x, baseTop, sl.w, crownH, sl.t, c, lower, isT);
+  }
+  s+='</svg>';
+  return s;
+}
+
+function drawCrown(x,top,w,h,type,cond,lower,isTarget){
+  // For maxilla: gingiva at top, incisal edge at bottom (top+h)
+  // For mandible: we mirror so incisal edge at top
+  var g='';
+  var shade='#f3ece0', edge='#d8cdba', enamel='#fbf6ee';
+  // displacement adjustments
+  var dy=0, rot=0, rotc=null;
+  if(cond==='intrusion'){ dy = lower? 26 : 26; }      // pushed into gingiva -> shorter
+  if(cond==='extrusion'){ dy = lower? -22 : -22; }    // longer
+  if(cond==='lateral-palatal'){ rot=8; }
+  if(cond==='lateral-labial'){ rot=-8; }
+  if(cond==='missing'){
+    // socket only
+    var cx=x+w/2;
+    g+='<ellipse cx="'+cx+'" cy="'+(lower?top-18:top+18)+'" rx="'+(w/2-4)+'" ry="12" fill="#8f3a42"/>';
+    g+='<ellipse cx="'+cx+'" cy="'+(lower?top-18:top+18)+'" rx="'+(w/2-9)+'" ry="7" fill="#5e2229"/>';
+    return g;
+  }
+
+  var ix=x, iw=w, itop=top, ih=h;
+  if(cond==='intrusion'){ ih = h-26; if(!lower) itop = top; }
+  if(cond==='extrusion'){ itop = top + (lower? 0:0); ih = h+22; if(lower) itop = top-22; }
+
+  // crown body path (rounded incisal)
+  var bottom = itop+ih;
+  var rad = Math.min(10, iw/3);
+  var fill = enamel;
+  if(cond==='discolored') fill='#cdbf97';
+  if(cond==='discolored-grey') fill='#b9b2a8';
+
+  var transform='';
+  if(rot){ var px=x+w/2, py= lower? top-h/2 : top+h/2; transform=' transform="rotate('+rot+' '+px+' '+py+')"'; }
+
+  if(!lower){
+    g+='<path'+transform+' d="M'+ix+' '+itop+' H'+(ix+iw)+' V'+(bottom-rad)+
+       ' Q'+(ix+iw)+' '+bottom+' '+(ix+iw-rad)+' '+bottom+
+       ' H'+(ix+rad)+' Q'+ix+' '+bottom+' '+ix+' '+(bottom-rad)+' Z" '+
+       'fill="'+fill+'" stroke="'+edge+'" stroke-width="1.6"/>';
+    // subtle vertical highlight
+    g+='<rect'+transform+' x="'+(ix+6)+'" y="'+(itop+4)+'" width="'+(iw-12)+'" height="'+(ih-12)+'" rx="6" fill="#ffffff" opacity=".18"/>';
+  } else {
+    var topedge=itop, btm=itop+ih;
+    g+='<path'+transform+' d="M'+ix+' '+btm+' H'+(ix+iw)+' V'+(topedge+rad)+
+       ' Q'+(ix+iw)+' '+topedge+' '+(ix+iw-rad)+' '+topedge+
+       ' H'+(ix+rad)+' Q'+ix+' '+topedge+' '+ix+' '+(topedge+rad)+' Z" '+
+       'fill="'+fill+'" stroke="'+edge+'" stroke-width="1.6"/>';
+  }
+
+  // ---- conditions drawn over the crown ----
+  var edgeY = lower? itop : bottom;          // incisal edge y
+  var gingY = lower? bottom : itop;          // gingival y
+  if(cond==='enamel-frac'){
+    // small chipped corner near incisal edge
+    g+='<path d="M'+(ix+iw-2)+' '+(lower?edgeY+0:edgeY-0)+' L'+(ix+iw-2)+' '+(lower?edgeY+18:edgeY-18)+
+       ' L'+(ix+iw-22)+' '+(lower?edgeY:edgeY)+' Z" fill="#6b2b33"/>';
+    g+='<line x1="'+(ix+iw-22)+'" y1="'+(lower?edgeY:edgeY)+'" x2="'+(ix+iw-2)+'" y2="'+(lower?edgeY+18:edgeY-18)+'" stroke="#9a8f7a" stroke-width="1.4"/>';
+  }
+  if(cond==='enamel-dentin'){
+    // larger oblique fracture exposing dentin (tan)
+    var fy = lower? edgeY+26 : edgeY-26;
+    g+='<path d="M'+ix+' '+(lower?edgeY:edgeY)+' L'+(ix+iw)+' '+fy+' L'+(ix+iw)+' '+(lower?itop:bottom)+' '+
+       (lower? 'L'+ix+' '+itop : 'L'+ix+' '+bottom)+' Z" fill="#6b2b33"/>';
+    g+='<path d="M'+ix+' '+(lower?edgeY:edgeY)+' L'+(ix+iw)+' '+fy+'" stroke="#d4a35a" stroke-width="3" fill="none"/>';
+    g+='<polygon points="'+ix+','+(lower?edgeY:edgeY)+' '+(ix+iw)+','+fy+' '+(ix+iw-6)+','+(fy+(lower?-8:8))+' '+(ix+6)+','+(lower?edgeY+(lower?-8:8):edgeY+8)+'" fill="#e3b878" opacity=".0"/>';
+  }
+  if(cond==='pulp-exposure'){
+    var fy2 = lower? edgeY+30 : edgeY-30;
+    g+='<path d="M'+ix+' '+(lower?edgeY:edgeY)+' L'+(ix+iw)+' '+fy2+' L'+(ix+iw)+' '+(lower?itop:bottom)+' '+
+       (lower? 'L'+ix+' '+itop : 'L'+ix+' '+bottom)+' Z" fill="#6b2b33"/>';
+    // dentin rim + red pulp dot
+    g+='<path d="M'+ix+' '+(lower?edgeY:edgeY)+' L'+(ix+iw)+' '+fy2+'" stroke="#d4a35a" stroke-width="3" fill="none"/>';
+    var pcx=ix+iw/2, pcy=lower? edgeY+15 : edgeY-15;
+    g+='<circle cx="'+pcx+'" cy="'+pcy+'" r="6" fill="#c0392b"/>';
+    g+='<circle cx="'+pcx+'" cy="'+pcy+'" r="2.4" fill="#7d1f15"/>';
+  }
+  if(cond==='crown-root'){
+    // oblique fracture running below gingiva
+    var gy2 = lower? gingY-16 : gingY+16;
+    g+='<path d="M'+(ix+4)+' '+(lower?edgeY:edgeY)+' L'+(ix+iw)+' '+gy2+'" stroke="#b91c1c" stroke-width="2.6" fill="none"/>';
+    g+='<path d="M'+(ix+4)+' '+(lower?edgeY:edgeY)+' L'+(ix+iw)+' '+gy2+' L'+(ix+iw)+' '+(lower?edgeY:edgeY)+' Z" fill="#6b2b33" opacity=".55"/>';
+  }
+  if(cond==='infraction'){
+    // craze / crack lines, no loss
+    for(var k=0;k<3;k++){
+      var lx=ix+10+k*((iw-20)/2.2);
+      g+='<line x1="'+lx+'" y1="'+gingY+'" x2="'+(lx+4)+'" y2="'+edgeY+'" stroke="#9aa0a6" stroke-width="1" opacity=".8"/>';
+    }
+  }
+  if(cond==='mobile'){
+    // motion arrows
+    g+='<text x="'+(ix+iw/2)+'" y="'+(lower?itop-6:bottom+16)+'" font-size="16" text-anchor="middle" fill="#fde68a">↔</text>';
+  }
+  if(cond==='bleeding'){
+    g+='<path d="M'+(gingY===itop?ix:ix)+' '+gingY+' q6 8 12 0 q6 8 12 0 q6 8 12 0 q6 8 12 0 q6 8 12 0" stroke="#b91c1c" stroke-width="3" fill="none" transform="translate('+(ix)+',0)" opacity=".0"/>';
+    g+='<rect x="'+ix+'" y="'+(lower?gingY:gingY-6)+'" width="'+iw+'" height="6" fill="#b91c1c" opacity=".75"/>';
+  }
+
+  // marker arrow for target tooth
+  if(isTarget){
+    var ax=x+w/2;
+    var ay= lower? (itop-14) : (bottom+14);
+    if(cond==='extrusion'&&!lower) ay=bottom+14;
+    g+='<polygon points="'+ax+','+(lower?ay+8:ay-8)+' '+(ax-7)+','+(lower?ay-2:ay+2)+' '+(ax+7)+','+(lower?ay-2:ay+2)+'" fill="#fbbf24"/>';
+  }
+  return g;
+}
+
+// ---------- PERIAPICAL X-RAY (schematic) ----------
+function xray(opt){
+  opt=opt||{};
+  var W=240,H=320;
+  var apex = opt.apex||'closed';        // 'open' | 'closed'
+  var primary = opt.primary;            // show successor germ
+  var find = opt.find||'normal';        // root-fracture / periapical / calcific / intrusion / extrusion / resorption / crown-root / apexification / replaced
+  var level = opt.level||'middle';      // for root-fracture: cervical/middle/apical
+  var s='<svg viewBox="0 0 '+W+' '+H+'" xmlns="http://www.w3.org/2000/svg">';
+  // film background (bone)
+  var defs='<defs><radialGradient id="bone" cx="50%" cy="45%" r="70%">'+
+    '<stop offset="0%" stop-color="#5b5b5b"/><stop offset="100%" stop-color="#2b2b2b"/></radialGradient></defs>';
+  s+=defs;
+  s+='<rect x="0" y="0" width="'+W+'" height="'+H+'" rx="8" fill="url(#bone)"/>';
+  // trabecular speckle
+  for(var i=0;i<70;i++){
+    var rx=14+Math.random()*(W-28), ry=14+Math.random()*(H-28), rr=0.6+Math.random()*1.6;
+    s+='<circle cx="'+rx.toFixed(1)+'" cy="'+ry.toFixed(1)+'" r="'+rr.toFixed(1)+'" fill="#777" opacity="0.35"/>';
+  }
+  var cx=W/2;
+  var crownTop=34, crownBot=120, neck=118, rootTip=primary?224:248;
+  if(apex==='open' && !primary) rootTip=236;
+  var crownW=64, rootW=44, tipW = (apex==='open')? 40 : 18;
+
+  // ---- tooth radiopaque body ----
+  // crown
+  var tooth='';
+  tooth+='<path d="M'+(cx-crownW/2)+' '+crownTop+' H'+(cx+crownW/2)+' V'+neck+
+        ' L'+(cx+rootW/2)+' '+(neck+6)+' L'+(cx+tipW/2)+' '+rootTip+
+        ' Q'+cx+' '+(rootTip+ (apex==='open'?2:14))+' '+(cx-tipW/2)+' '+rootTip+
+        ' L'+(cx-rootW/2)+' '+(neck+6)+' L'+(cx-crownW/2)+' '+neck+' Z" '+
+        'fill="#e9e6df" stroke="#f5f3ee" stroke-width="1"/>';
+  s+=tooth;
+
+  // pulp chamber + canal (radiolucent)
+  var pulpTop=crownTop+22;
+  var canalTipW = (apex==='open')? 18 : 4;
+  var canalTip = rootTip-6;
+  if(find==='calcific'){
+    // narrowed / obliterated canal
+    s+='<path d="M'+(cx-9)+' '+pulpTop+' H'+(cx+9)+' L'+(cx+2)+' '+(neck+10)+' L'+(cx+1)+' '+(canalTip)+' L'+(cx-1)+' '+(canalTip)+' L'+(cx-2)+' '+(neck+10)+' Z" fill="#4a4a4a" opacity=".5"/>';
+  } else {
+    s+='<path d="M'+(cx-12)+' '+pulpTop+' H'+(cx+12)+' L'+(cx+canalTipW/2)+' '+(neck+10)+
+       ' L'+(cx+canalTipW/2)+' '+canalTip+' L'+(cx-canalTipW/2)+' '+canalTip+
+       ' L'+(cx-canalTipW/2)+' '+(neck+10)+' Z" fill="#3a3a3a"/>';
+  }
+  // open apex divergent walls marker
+  if(apex==='open'){
+    s+='<path d="M'+(cx-tipW/2-2)+' '+(rootTip-26)+' L'+(cx-tipW/2-9)+' '+(rootTip+4)+'" stroke="#cdeafe" stroke-width="2"/>';
+    s+='<path d="M'+(cx+tipW/2+2)+' '+(rootTip-26)+' L'+(cx+tipW/2+9)+' '+(rootTip+4)+'" stroke="#cdeafe" stroke-width="2"/>';
+  }
+
+  // ---- findings ----
+  if(find==='root-fracture'){
+    var fy = level==='cervical'? neck+14 : (level==='apical'? rootTip-34 : (neck+rootTip)/2);
+    s+='<line x1="'+(cx-rootW/2-3)+'" y1="'+(fy-5)+'" x2="'+(cx+rootW/2+3)+'" y2="'+(fy+5)+'" stroke="#111" stroke-width="3"/>';
+    s+='<text x="'+(cx+rootW/2+8)+'" y="'+(fy+4)+'" fill="#ffd27d" font-size="11">gãy</text>';
+  }
+  if(find==='crown-root'){
+    s+='<line x1="'+(cx-crownW/2-2)+'" y1="'+(crownBot-22)+'" x2="'+(cx+rootW/2+2)+'" y2="'+(neck+18)+'" stroke="#111" stroke-width="3"/>';
+  }
+  if(find==='periapical'){
+    s+='<circle cx="'+cx+'" cy="'+(rootTip+6)+'" r="20" fill="#1c1c1c" stroke="#000" stroke-width="1"/>';
+    s+='<text x="'+cx+'" y="'+(rootTip+44)+'" fill="#ffd27d" font-size="11" text-anchor="middle">thấu quang quanh chóp</text>';
+  }
+  if(find==='apexification'){
+    // MTA plug / Ca(OH)2 at open apex
+    s+='<rect x="'+(cx-tipW/2-3)+'" y="'+(rootTip-30)+'" width="'+(tipW+6)+'" height="30" rx="4" fill="#fafafa" opacity=".95"/>';
+    s+='<text x="'+cx+'" y="'+(rootTip+22)+'" fill="#cdeafe" font-size="11" text-anchor="middle">nút chóp MTA</text>';
+  }
+  if(find==='intrusion'){
+    // tooth pushed up: shorter clinical crown above bone crest; draw bone crest line high over crown
+    s+='<line x1="20" y1="'+(crownTop+30)+'" x2="'+(W-20)+'" y2="'+(crownTop+30)+'" stroke="#9aa" stroke-width="1.5" stroke-dasharray="5 4"/>';
+    s+='<text x="'+(W-22)+'" y="'+(crownTop+24)+'" fill="#ffd27d" font-size="11" text-anchor="end">mào XOR</text>';
+    s+='<polygon points="'+cx+','+(crownTop-4)+' '+(cx-7)+','+(crownTop-16)+' '+(cx+7)+','+(crownTop-16)+'" fill="#fbbf24"/>';
+  }
+  if(find==='extrusion'){
+    s+='<line x1="20" y1="'+(neck+34)+'" x2="'+(W-20)+'" y2="'+(neck+34)+'" stroke="#9aa" stroke-width="1.5" stroke-dasharray="5 4"/>';
+    s+='<text x="'+(W-22)+'" y="'+(neck+30)+'" fill="#ffd27d" font-size="11" text-anchor="end">khoảng DCNC rộng</text>';
+  }
+  if(find==='resorption'){
+    // ragged root surface
+    s+='<path d="M'+(cx-tipW/2)+' '+(rootTip-30)+' q-8 8 -2 16 q-8 6 0 14" stroke="#2b2b2b" stroke-width="6" fill="none"/>';
+    s+='<text x="'+cx+'" y="'+(rootTip+24)+'" fill="#ffd27d" font-size="11" text-anchor="middle">tiêu chân răng</text>';
+  }
+  if(find==='replaced'){
+    s+='<text x="'+cx+'" y="'+(rootTip+22)+'" fill="#ffd27d" font-size="11" text-anchor="middle">mất khoảng DCNC</text>';
+    s+='<line x1="'+(cx-rootW/2)+'" y1="'+((neck+rootTip)/2)+'" x2="'+(cx-rootW/2-10)+'" y2="'+((neck+rootTip)/2)+'" stroke="#ddd" stroke-width="1"/>';
+  }
+
+  // ---- successor tooth germ (primary cases) ----
+  if(primary){
+    var gy=276;
+    s+='<ellipse cx="'+cx+'" cy="'+gy+'" rx="30" ry="22" fill="#3a3a3a" stroke="#7a7a7a" stroke-width="1.5"/>';
+    s+='<path d="M'+(cx-22)+' '+(gy+2)+' a22 18 0 0 1 44 0" fill="#dcd8cf" opacity=".9"/>';
+    s+='<text x="'+cx+'" y="'+(gy+40)+'" fill="#cdeafe" font-size="11" text-anchor="middle">mầm răng vĩnh viễn</text>';
+    // bone crest over germ
+  }
+
+  // apex label
+  s+='<text x="14" y="'+(H-12)+'" fill="#9aa" font-size="10">'+(apex==='open'?'chóp mở (răng chưa đóng chóp)':'chóp đóng')+'</text>';
+  s+='</svg>';
+  return s;
+}
+
+/* ============================================================
+   30 CLINICAL CASES
+   ============================================================ */
+var Q = [
+/* ---------------- RĂNG SỮA (1–12) ---------------- */
+{
+ g:'sua', title:'Gãy men răng cửa sữa',
+ patient:'Bé trai 2 tuổi, ngã đập mặt vào cạnh bàn cách đây 1 giờ.',
+ clin:'R51 mẻ một góc nhỏ ở rìa cắn, chỉ thấy lớp men sứt, bề mặt nhám màu trắng đục, không lộ ngà vàng, không chảy máu. Răng không lung lay, gõ không đau.',
+ xr:'Không thấy đường gãy chân răng; buồng tủy và khoảng dây chằng bình thường.',
+ clinOpt:{tooth:2,cond:'enamel-frac'}, xrOpt:{primary:true,apex:'closed',find:'normal'},
+ dx:'Gãy men răng cửa giữa sữa hàm trên (R51) – gãy thân răng giới hạn ở lớp men, chưa lộ ngà.',
+ tx:['Gãy nhỏ: <b>mài nhẵn bờ men</b> sắc cạnh để tránh kích thích môi/lưỡi.','Gãy lớn hơn (mất thẩm mỹ): <b>tái tạo bằng composite</b>.','Tư vấn vệ sinh răng miệng, chế độ ăn mềm.'],
+ fu:['Theo dõi sự đổi màu thân răng (dấu hiệu tổn thương tủy muộn).','Tái khám định kỳ.'],
+ note:'Ngay cả gãy men đơn thuần vẫn có thể kèm chấn động tủy → cần dặn cha mẹ theo dõi đổi màu răng.'
+},
+{
+ g:'sua', title:'Gãy men – ngà chưa chạm tủy (răng sữa)',
+ patient:'Bé gái 2 tuổi rưỡi, té khi tập đi.',
+ clin:'R61 gãy mất một mảng thân răng, lộ lớp ngà màu vàng, bé ê buốt khi ăn lạnh. Không thấy điểm hồng/chảy máu ở giữa mặt gãy. Răng không lung lay.',
+ xr:'Đường gãy nằm trong men – ngà, chưa chạm buồng tủy; buồng tủy còn nguyên vẹn.',
+ clinOpt:{tooth:3,cond:'enamel-dentin'}, xrOpt:{primary:true,apex:'closed',find:'normal'},
+ dx:'Gãy men – ngà chưa chạm tủy R61.',
+ tx:['<b>Che ngà bằng Ca(OH)₂</b> rồi <b>tái tạo bằng composite</b> để bịt kín ống ngà, bảo vệ tủy.'],
+ fu:['Theo dõi LS + X-quang sau 2 tuần, 1 tháng, 2 tháng, 3 tháng.','Đánh giá đổi màu, sức sống tủy.'],
+ note:'Mục tiêu là cách ly tủy khỏi vi khuẩn qua ống ngà hở; ngà lộ ở răng sữa rất gần tủy.'
+},
+{
+ g:'sua', title:'Gãy chạm tủy – tủy sống, đến sớm (răng sữa)',
+ patient:'Bé trai 3 tuổi, ngã xe đạp, đến khám sau ~2 giờ.',
+ clin:'R51 gãy lớn, lộ một điểm tủy nhỏ chảy máu đỏ tươi, bé đau khi chạm. Răng không lung lay nhiều.',
+ xr:'Đường gãy đến buồng tủy; chân răng sữa còn dài, chưa có dấu hiệu bệnh lý quanh chóp.',
+ clinOpt:{tooth:2,cond:'pulp-exposure'}, xrOpt:{primary:true,apex:'closed',find:'normal'},
+ dx:'Gãy men – ngà – chạm tủy R51, tủy còn sống.',
+ tx:['Ở răng sữa <b>KHÔNG che tủy trực tiếp</b>.','Tủy còn sống, đến sớm (vài giờ): <b>lấy tủy buồng</b>, sau đó tái tạo composite/mão.','Cân nhắc <b>nhổ</b> nếu: mất quá nhiều mô răng, trẻ hoàn toàn không hợp tác.'],
+ fu:['Theo dõi LS + X-quang sau 6–8 tuần.'],
+ note:'Quyết định giữ hay nhổ phụ thuộc tuổi, mức hợp tác và khả năng phục hồi thân răng.'
+},
+{
+ g:'sua', title:'Gãy chạm tủy – tủy hoại tử (răng sữa)',
+ patient:'Bé gái 4 tuổi, gãy răng cách đây 2 tuần, không điều trị.',
+ clin:'R61 lộ tủy, thân răng đổi màu sẫm, có lỗ dò mủ ở ngách lợi mặt ngoài, gõ hơi khó chịu.',
+ xr:'Thấu quang vùng quanh chóp/vùng chẽ; có thể thấy tiêu chân.',
+ clinOpt:{tooth:3,cond:'discolored'}, xrOpt:{primary:true,apex:'closed',find:'periapical'},
+ dx:'Gãy chạm tủy R61 biến chứng <b>hoại tử tủy</b> (áp xe mạn, lỗ dò).',
+ tx:['<b>Lấy tủy chân</b> (điều trị tủy răng sữa) nếu còn bảo tồn được.','<b>Nhổ răng</b> khi: mất mô răng quá nhiều, nội/ngoại tiêu nhiều, nhiễm trùng lan rộng xuống mầm răng vĩnh viễn, hoặc trẻ không hợp tác.'],
+ fu:['Nếu nhổ: theo dõi sự tiêu chân còn lại và sự mọc của răng vĩnh viễn, giữ khoảng nếu cần.'],
+ note:'Ưu tiên hàng đầu là bảo vệ mầm răng vĩnh viễn bên dưới khỏi nhiễm trùng.'
+},
+{
+ g:'sua', title:'Gãy thân – chân răng đơn giản (răng sữa)',
+ patient:'Bé trai 2 tuổi rưỡi, té cầu thang.',
+ clin:'R61 gãy chéo, đường gãy chạy xuống dưới bờ lợi; mảnh gãy phía thân lung lay, chảy máu khe nướu.',
+ xr:'Đường gãy thân – chân đơn giản (một đường), chưa chẻ dọc phức tạp.',
+ clinOpt:{tooth:3,cond:'crown-root'}, xrOpt:{primary:true,apex:'closed',find:'crown-root'},
+ dx:'Gãy thân – chân răng R61, thể đơn giản.',
+ tx:['<b>Loại bỏ đoạn gãy</b> phía thân và <b>điều trị tủy</b> phần răng còn lại.','Nếu <b>gãy phức tạp</b> (nhiều đường, không phục hồi được): <b>nhổ răng</b>.'],
+ fu:['Theo dõi LS + X-quang sau 6–8 tuần, 1 năm, rồi 1 năm/lần đến khi răng vĩnh viễn mọc.'],
+ note:'Phân biệt đơn giản/phức tạp quyết định bảo tồn hay nhổ.'
+},
+{
+ g:'sua', title:'Gãy chân răng 1/3 giữa – không di lệch (răng sữa)',
+ patient:'Bé gái 5 tuổi, ngã, răng cửa sữa hơi đau.',
+ clin:'R51 không di lệch, lung lay rất nhẹ, gõ hơi nhạy cảm, không chảy máu khe nướu nhiều.',
+ xr:'Đường gãy ngang chân răng ở 1/3 giữa, hai đoạn gãy không di lệch.',
+ clinOpt:{tooth:2,cond:'normal'}, xrOpt:{primary:true,apex:'closed',find:'root-fracture',level:'middle'},
+ dx:'Gãy chân răng sữa 1/3 giữa, không di lệch (hiếm gặp ở răng sữa).',
+ tx:['Gãy 1/3 giữa hoặc 1/3 chóp + <b>răng không di lệch</b>: <b>không cần điều trị</b>, theo dõi.','Nếu có di lệch và lung lay (trẻ hợp tác): <b>cố định 4–8 tuần</b>; không cần điều trị tủy sau cố định.','Nếu xuất hiện áp xe phía đoạn gãy → nghĩ hoại tử tủy thân răng → điều trị tủy phần trên đoạn gãy; phần chóp tự tiêu.'],
+ fu:['Không di lệch/không cố định: theo dõi LS sau 1 tuần, LS+XQ sau 6–8 tuần, 1 năm, 1 năm/lần đến khi răng mọc.'],
+ note:'Phần chóp chân răng sữa thường tự tiêu sinh lý, không cần can thiệp.'
+},
+{
+ g:'sua', title:'Gãy chân răng 1/3 cổ – di lệch (răng sữa)',
+ patient:'Bé trai 3 tuổi, té đập miệng.',
+ clin:'R51 phần thân lung lay nhiều, di lệch rõ; chảy máu khe nướu.',
+ xr:'Đường gãy ngang ở 1/3 cổ chân răng, đoạn gãy phía trên di lệch.',
+ clinOpt:{tooth:2,cond:'mobile'}, xrOpt:{primary:true,apex:'closed',find:'root-fracture',level:'cervical'},
+ dx:'Gãy chân răng sữa 1/3 cổ, đoạn gãy phía trên di lệch.',
+ tx:['<b>Nhổ đoạn gãy phía trên</b>.','Đoạn chóp chân răng còn lại để tự tiêu, không cần lấy ra (trừ khi nhiễm trùng).'],
+ fu:['Theo dõi sự tiêu của chóp chân răng còn lại và sự mọc của răng vĩnh viễn.'],
+ note:'Gãy 1/3 cổ di lệch không thể cố định vững → loại bỏ đoạn gãy.'
+},
+{
+ g:'sua', title:'Chấn động / bán trật khớp (răng sữa)',
+ patient:'Bé gái 2 tuổi, ngã, răng cửa “bị va” nhưng còn nguyên hình thể.',
+ clin:'R51, R61 gõ nhạy cảm; răng không di lệch, không (hoặc rất ít) lung lay, không chảy máu khe nướu rõ.',
+ xr:'Không thấy đường gãy, không di lệch; khoảng dây chằng có thể bình thường.',
+ clinOpt:{tooth:2,cond:'normal'}, xrOpt:{primary:true,apex:'closed',find:'normal'},
+ dx:'Răng chấn động (concussion) / bán trật khớp (subluxation) R51–61.',
+ tx:['<b>Không cần điều trị</b> can thiệp.','Tư vấn vệ sinh răng miệng + <b>chế độ ăn mềm</b>.'],
+ fu:['Theo dõi 6–8 tuần; theo dõi sự đổi màu thân răng.'],
+ note:'Ở răng sữa, dù không thấy di lệch/chảy máu, chấn động vẫn có thể dẫn tới đổi màu thân răng và vôi hóa ống tủy về sau → tái khám định kỳ.'
+},
+{
+ g:'sua', title:'Trật khớp sang bên (răng sữa)',
+ patient:'Bé trai 1 tuổi 5 tháng, té đập mặt.',
+ clin:'R61 trật lệch vào trong (về phía khẩu cái), gây cản trở khớp cắn; R51 lung lay.',
+ xr:'Cần chụp X-quang đánh giá tương quan chân răng với mầm răng vĩnh viễn.',
+ clinOpt:{tooth:3,cond:'lateral-palatal'}, xrOpt:{primary:true,apex:'closed',find:'normal'},
+ dx:'Trật khớp sang bên R61 (lệch vào trong), kèm bán trật R51.',
+ tx:['Di lệch nhỏ, <b>không cản trở khớp cắn</b>: để răng tự điều chỉnh lại vị trí.','<b>Có cản trở khớp cắn</b>: nắn về vị trí + <b>nẹp cố định ~2 tuần</b>.','Di lệch nhiều, hoặc thân răng lệch ra ngoài đe dọa mầm răng vĩnh viễn, hoặc kèm gãy xương ổ răng: <b>nhổ răng</b>.'],
+ fu:['Theo dõi 2–3 tuần, 6–8 tuần, 1 năm.','Theo dõi vôi hóa ống tủy và tiêu chân.'],
+ note:'Thân răng lệch ra phía ngoài thì chóp chân hướng vào mầm răng vĩnh viễn → nguy cơ cao, thường chỉ định nhổ.'
+},
+{
+ g:'sua', title:'Trồi răng (răng sữa)',
+ patient:'Bé gái 2 tuổi rưỡi, ngã, răng cửa “dài ra”.',
+ clin:'R51 trồi ra khỏi ổ răng > 3mm, lung lay, rìa cắn thấp hơn răng kế cận.',
+ xr:'Khoảng dây chằng vùng chóp giãn rộng; chân răng đã đóng chóp.',
+ clinOpt:{tooth:2,cond:'extrusion'}, xrOpt:{primary:true,apex:'closed',find:'extrusion'},
+ dx:'Trồi răng (extrusion) R51.',
+ tx:['<b>Trồi > 3mm, chóp đã đóng → nhổ răng</b>.','Trồi < 3mm và răng còn chóp mở: nắn về vị trí + <b>nẹp cố định ~2 tuần</b>.'],
+ fu:['Theo dõi LS + X-quang sau 6–8 tuần, 6 tháng, 1 năm.','Đánh giá độ sống tủy và sự phát triển răng vĩnh viễn.'],
+ note:'Điều trị phụ thuộc mức độ trồi, giai đoạn chân răng, thời gian chấn thương và mức hợp tác của trẻ.'
+},
+{
+ g:'sua', title:'Lún răng (răng sữa)',
+ patient:'Bé trai 3 tuổi, ngã sấp, răng cửa “lún biến mất”.',
+ clin:'R61 lún sâu vào xương, thân răng gần như không thấy trên cung răng.',
+ xr:'Cần xác định hướng chân răng sữa so với mầm răng vĩnh viễn.',
+ clinOpt:{tooth:3,cond:'intrusion'}, xrOpt:{primary:true,apex:'closed',find:'intrusion'},
+ dx:'Lún răng (intrusion) R61.',
+ tx:['Chân răng lún <b>hướng ra phía mặt ngoài (xa mầm răng vĩnh viễn)</b>: <b>để răng tự mọc lại</b> (trung bình ~3 tháng).','Chân răng <b>hướng về mầm răng vĩnh viễn</b> hoặc nằm sâu trong xương: <b>nhổ răng</b>.'],
+ fu:['Theo dõi LS + X-quang sau 3–4 tuần, 6 tháng, 1 năm, rồi 1 năm/lần sau khi răng mọc lại.'],
+ note:'X-quang giúp xác định mối liên quan với mầm răng vĩnh viễn – yếu tố quyết định để tự mọc hay nhổ.'
+},
+{
+ g:'sua', title:'Răng rơi ra ngoài / bật khỏi ổ (răng sữa)',
+ patient:'Bé gái 2 tuổi, ngã, một răng cửa sữa rơi hẳn ra ngoài; cha mẹ mang răng đến.',
+ clin:'Ổ răng R51 trống, chảy máu; răng sữa nằm ngoài ổ.',
+ xr:'Kiểm tra ổ răng, loại trừ răng bị lún (không phải rơi), và loại trừ gãy xương ổ răng.',
+ clinOpt:{tooth:2,cond:'missing'}, xrOpt:{primary:true,apex:'closed',find:'normal'},
+ dx:'Răng sữa rơi ra ngoài (avulsion) R51.',
+ tx:['<b>KHÔNG cắm lại răng sữa</b> (nguy cơ tổn thương mầm răng vĩnh viễn, không được khuyến cáo).','Vệ sinh, cầm máu, trấn an trẻ và cha mẹ.'],
+ fu:['Theo dõi LS + X-quang sau 6 tháng, 1 năm, rồi 1 năm/lần.','Theo dõi sự mọc của răng vĩnh viễn; cân nhắc giữ khoảng.'],
+ note:'Luôn xác minh răng thật sự rơi ra ngoài hay bị lún hoàn toàn (lún cần đánh giá khác).'
+},
+
+/* ---------------- RĂNG VĨNH VIỄN (13–30) ---------------- */
+{
+ g:'vv', title:'Nứt men (răng vĩnh viễn)',
+ patient:'Bé trai 9 tuổi, va chạm khi chơi thể thao.',
+ clin:'R11 có các đường nứt dọc trong men, không mất mô răng, không lung lay, không ê buốt nhiều; soi đèn chếch thấy vết rạn.',
+ xr:'Bình thường, không thấy đường gãy hay tổn thương quanh chóp.',
+ clinOpt:{tooth:2,cond:'infraction'}, xrOpt:{primary:false,apex:'open',find:'normal'},
+ dx:'Nứt men (enamel infraction) R11.',
+ tx:['<b>Không cần điều trị</b> nếu chỉ nứt men đơn thuần.','Có thể etching/phủ resin để bịt vết nứt rõ vì lý do thẩm mỹ.'],
+ fu:['Nứt men đơn thuần: không bắt buộc theo dõi; nếu có chấn thương kèm theo thì theo dõi theo tổn thương đó.'],
+ note:'Cần loại trừ các tổn thương phối hợp (chấn động, gãy) trước khi kết luận “chỉ nứt men”.'
+},
+{
+ g:'vv', title:'Gãy men (răng vĩnh viễn)',
+ patient:'Bé gái 8 tuổi, ngã xe.',
+ clin:'R21 mẻ góc rìa cắn ở lớp men, không lộ ngà, không ê buốt, không lung lay.',
+ xr:'Không thấy đường gãy chân; chóp răng chưa đóng.',
+ clinOpt:{tooth:3,cond:'enamel-frac'}, xrOpt:{primary:false,apex:'open',find:'normal'},
+ dx:'Gãy men R21.',
+ tx:['Gãy nhỏ: <b>mài nhẵn bờ men</b>.','Gãy lớn: <b>tái tạo bằng composite</b>.'],
+ fu:['Theo dõi LS + X-quang sau 6–8 tuần, 1 năm.'],
+ note:'Giữ lại mảnh gãy nếu có thể để dán lại cho thẩm mỹ tốt.'
+},
+{
+ g:'vv', title:'Gãy men – ngà chưa chạm tủy (răng vĩnh viễn)',
+ patient:'Bé trai 8 tuổi, té cầu thang.',
+ clin:'R11 và R21 gãy lộ ngà vàng, ê buốt khi ăn lạnh/chua; không thấy điểm tủy lộ, không lung lay.',
+ xr:'Đường gãy trong men–ngà, chưa tới tủy; chóp chưa đóng.',
+ clinOpt:{tooth:2,cond:'enamel-dentin'}, xrOpt:{primary:false,apex:'open',find:'normal'},
+ dx:'Gãy men – ngà chưa chạm tủy R11, R21.',
+ tx:['<b>Tái tạo bằng composite</b>; nếu ngà cách tủy < 0,5mm thì <b>che Ca(OH)₂</b> trước.','Có thể dán lại mảnh răng gãy nếu còn.'],
+ fu:['Theo dõi LS + X-quang sau 6–8 tuần, 1 năm.'],
+ note:'Bịt kín ống ngà sớm để bảo vệ tủy, đặc biệt ở răng chóp mở.'
+},
+{
+ g:'vv', title:'Gãy chạm tủy – lộ nhỏ, đến sớm: CHE TỦY TRỰC TIẾP',
+ patient:'Bé gái 8 tuổi, ngã, đến khám sau ~3 giờ.',
+ clin:'R21 gãy lộ một điểm tủy nhỏ (<1,5–2mm) chảy máu ít, tủy sống, chóp chưa đóng.',
+ xr:'Chóp răng mở rộng (chân chưa phát triển hoàn toàn), không tổn thương quanh chóp.',
+ clinOpt:{tooth:3,cond:'pulp-exposure'}, xrOpt:{primary:false,apex:'open',find:'normal'},
+ dx:'Gãy men – ngà – chạm tủy R21, tủy sống, lộ nhỏ, đến sớm.',
+ tx:['<b>Che tủy trực tiếp</b> bằng Ca(OH)₂ / MTA.','Chỉ định: tủy lộ nhỏ (<1,5–2mm), trong vòng 3–4 giờ sau chấn thương, chóp mở, không kèm trật khớp.','Kỹ thuật: rửa sạch mô răng và tủy lộ → cầm máu → đặt tác nhân che tủy → trám composite.','Nếu máu không cầm/chảy kéo dài → chuyển sang lấy tủy buồng.'],
+ fu:['Cầu ngà hình thành ~3 tháng. Theo dõi LS + X-quang sau 6–8 tuần, 3 tháng, 6 tháng, 1 năm.'],
+ note:'Mục tiêu: giữ tủy sống để chân răng tiếp tục phát triển và đóng chóp (apexogenesis).'
+},
+{
+ g:'vv', title:'Gãy chạm tủy – lộ lớn, chóp mở: LẤY TỦY BUỒNG (Cvek)',
+ patient:'Bé trai 9 tuổi, chấn thương ~24 giờ trước.',
+ clin:'R21 gãy lộ tủy lớn (>2mm), tủy còn sống, chảy máu; chóp chưa đóng.',
+ xr:'Chân răng ngắn, chóp mở rộng; không thấy thấu quang quanh chóp.',
+ clinOpt:{tooth:3,cond:'pulp-exposure'}, xrOpt:{primary:false,apex:'open',find:'normal'},
+ dx:'Gãy chạm tủy R21, tủy lộ lớn, răng chóp mở (đang phát triển).',
+ tx:['<b>Lấy tủy buồng</b>: bán phần nếu <72 giờ; toàn phần nếu ≥72 giờ.','Kỹ thuật Cvek: gây tê, đặt đê, mũi khoan tròn lấy 1–2mm mô tủy viêm → cầm máu → đặt Ca(OH)₂/MTA → trám nền composite.','Mục tiêu: giữ mô tủy chân sống để kích thích chân răng phát triển và đóng chóp.'],
+ fu:['Theo dõi LS + X-quang sau 6–8 tuần, 3 tháng, 6 tháng, 1 năm.','Tiêu chuẩn thành công: chân răng phát triển hoàn toàn; LS không đau/lung lay/lỗ dò; XQ không thấu quang quanh chóp, không tiêu chân.'],
+ note:'Ưu tiên giữ tủy sống ở răng vĩnh viễn chưa đóng chóp để đạt apexogenesis.'
+},
+{
+ g:'vv', title:'Tủy hoại tử, chóp mở: GÂY ĐÓNG CHÓP (apexification)',
+ patient:'Bé gái 9 tuổi, gãy răng lộ tủy không điều trị nhiều tuần.',
+ clin:'R21 đổi màu, gõ đau, có thể có lỗ dò; tủy hoại tử.',
+ xr:'Chóp răng còn mở (chân chưa phát triển hoàn toàn) kèm thấu quang quanh chóp.',
+ clinOpt:{tooth:3,cond:'discolored-grey'}, xrOpt:{primary:false,apex:'open',find:'periapical'},
+ dx:'Hoại tử tủy R21, răng chưa đóng chóp, có viêm quanh chóp.',
+ tx:['<b>Lấy tủy chân</b>. Răng đã đóng chóp → trám bít ống tủy thường quy.','Răng <b>chưa đóng chóp</b> → <b>gây đóng chóp (apexification)</b>: bằng Ca(OH)₂ nhiều lần, hoặc đặt <b>nút chóp MTA</b> một lần.','Sau đó trám bít ống tủy; có thể bơm composite gia cố chân răng yếu.'],
+ fu:['Theo dõi đến khi tạo được hàng rào chóp; LS + X-quang định kỳ.'],
+ note:'MTA tạo nút chóp nhanh hơn Ca(OH)₂ và giảm nguy cơ gãy chân do ngâm Ca(OH)₂ kéo dài.'
+},
+{
+ g:'vv', title:'Gãy thân – chân răng đơn giản (răng vĩnh viễn)',
+ patient:'Bé trai 8 tuổi, ngã đập răng cửa.',
+ clin:'R11 gãy chéo thân – chân, đường gãy xuống dưới bờ lợi phía trong, lộ điểm tủy nhỏ; mảnh gãy còn dính lung lay.',
+ xr:'Đường gãy chéo từ thân xuống chân răng, đơn giản.',
+ clinOpt:{tooth:2,cond:'crown-root'}, xrOpt:{primary:false,apex:'open',find:'crown-root'},
+ dx:'Gãy thân – chân răng R11, thể đơn giản, có lộ tủy.',
+ tx:['<b>Che tủy</b> chỗ lộ, sau đó <b>dán lại mảnh gãy</b> hoặc <b>tái tạo bằng composite</b>.'],
+ fu:['Theo dõi LS + X-quang sau 1 tuần, 6–8 tuần, 3 tháng, 6 tháng, 1 năm, 1 năm/lần trong 5 năm.','Tiêu chí: răng không triệu chứng, đáp ứng tủy, chân răng phát triển, phục hồi, nha chu ổn định.'],
+ note:'Thể đơn giản có thể bảo tồn; thể phức tạp cần xử trí phức tạp hơn (xem ca kế).'
+},
+{
+ g:'vv', title:'Gãy thân – chân răng phức tạp (răng vĩnh viễn)',
+ patient:'Bé gái 14 tuổi, R21 đã điều trị tủy trước đó, nay gãy thân – chân.',
+ clin:'Đường gãy phức tạp chạy sâu xuống dưới bờ lợi; mảnh gãy lung lay.',
+ xr:'Đường gãy thân – chân phức tạp; răng đã điều trị tủy.',
+ clinOpt:{tooth:3,cond:'crown-root'}, xrOpt:{primary:false,apex:'closed',find:'crown-root'},
+ dx:'Gãy thân – chân răng R21, thể phức tạp.',
+ tx:['<b>Loại bỏ mảnh gãy</b>, điều trị tủy phần răng còn lại (nếu chưa).','<b>Bộc lộ phần chân còn lại</b> để phục hình: kéo răng bằng chỉnh nha, phẫu thuật kéo răng, hoặc trượt vạt về phía chóp + tạo hình xương ổ răng.','<b>Phục hình</b>; có thể cân nhắc <b>cấy ghép răng chủ động (autotransplantation)</b>.'],
+ fu:['Theo dõi LS + X-quang sau 1 tuần, 6–8 tuần, 3 tháng, 6 tháng, 1 năm.'],
+ note:'Vị trí đường gãy so với bờ xương quyết định khả năng và phương pháp phục hồi.'
+},
+{
+ g:'vv', title:'Gãy chân răng 1/3 giữa (răng vĩnh viễn)',
+ patient:'Bé gái 9 tuổi, ngã, răng cửa lung lay và di lệch nhẹ.',
+ clin:'R21 thân răng lung lay, trồi/di lệch nhẹ, chảy máu khe nướu.',
+ xr:'Đường gãy ngang chân răng ở 1/3 giữa.',
+ clinOpt:{tooth:3,cond:'mobile'}, xrOpt:{primary:false,apex:'closed',find:'root-fracture',level:'middle'},
+ dx:'Gãy chân răng 1/3 giữa R21.',
+ tx:['<b>Nắn lại thân răng gãy về vị trí</b>, <b>nẹp cố định ~4 tuần</b> (gãy 1/3 giữa).','<b>Không điều trị tủy</b> ngay; chỉ can thiệp khi có dấu hiệu hoại tử tủy/tiêu xương.','Nếu hoại tử tủy: điều trị tủy phần thân ngang đến đường gãy (tương tự thủ thuật đóng chóp); phần chóp thường vẫn sống.'],
+ fu:['Theo dõi LS + X-quang sau tháo nẹp (4 tuần), 6–8 tuần, 6 tháng, 1 năm, 1 năm/lần trong 5 năm.','Lành thương: mô calci hóa, mô liên kết, hoặc xương + mô liên kết.'],
+ note:'Tiên lượng tốt hơn khi đường gãy càng về phía chóp.'
+},
+{
+ g:'vv', title:'Gãy chân răng 1/3 cổ (răng vĩnh viễn)',
+ patient:'Bé trai 11 tuổi, chấn thương trực tiếp.',
+ clin:'R11 phần thân lung lay nhiều, chảy máu qua khe nướu rõ.',
+ xr:'Đường gãy ngang ở 1/3 cổ chân răng (nông, gần bờ xương).',
+ clinOpt:{tooth:2,cond:'mobile'}, xrOpt:{primary:false,apex:'closed',find:'root-fracture',level:'cervical'},
+ dx:'Gãy chân răng 1/3 cổ R11 (tiên lượng xấu).',
+ tx:['<b>Nhổ phần thân gãy</b> / cố định răng ~4 tháng.','Nếu chân còn lại đủ dài và thích hợp làm răng giả: <b>bộc lộ chân</b> bằng phẫu thuật hoặc chỉnh nha rồi phục hình.','Nếu chân quá ngắn: <b>nhổ</b>.'],
+ fu:['Theo dõi LS + X-quang sau tháo nẹp (4 tháng), 6 tháng, 1 năm, 1 năm/lần trong 5 năm.'],
+ note:'Gãy 1/3 cổ có tiên lượng xấu nhất vì đường gãy gần bờ xương và khó cố định vững.'
+},
+{
+ g:'vv', title:'Gãy chân răng 1/3 chóp (răng vĩnh viễn)',
+ patient:'Bé trai 12 tuổi, ngã nhẹ.',
+ clin:'R21 vững, gõ hơi nhạy, không di lệch, không lung lay đáng kể.',
+ xr:'Đường gãy ngang chân răng ở 1/3 chóp.',
+ clinOpt:{tooth:3,cond:'normal'}, xrOpt:{primary:false,apex:'closed',find:'root-fracture',level:'apical'},
+ dx:'Gãy chân răng 1/3 chóp R21 (tiên lượng tốt).',
+ tx:['Răng vững, không di lệch: thường <b>không cần nẹp/điều trị tủy</b>, chỉ theo dõi.','Nếu có di lệch: nắn lại + nẹp.','Chỉ điều trị tủy (ngang đoạn gãy) khi có dấu hiệu hoại tử tủy thân răng.'],
+ fu:['Theo dõi đáp ứng tủy và dấu hiệu lành thương đường gãy ít nhất 1 năm.'],
+ note:'Đường gãy càng về chóp, tiên lượng càng tốt; nhiều ca lành nhờ mô calci hóa.'
+},
+{
+ g:'vv', title:'Chấn động & lung lay (răng vĩnh viễn)',
+ patient:'Bé trai 10 tuổi, ngã, răng cửa dưới đau khi cắn.',
+ clin:'R31 gãy men – ngà nhẹ và lung lay; gõ nhạy cảm, không di lệch.',
+ xr:'Không gãy chân, không di lệch; chóp có thể chưa đóng.',
+ clinOpt:{tooth:2,cond:'mobile',arch:'mandible'}, xrOpt:{primary:false,apex:'open',find:'normal'},
+ dx:'Chấn động kèm lung lay (subluxation) R31, có gãy men–ngà nhẹ.',
+ tx:['Chấn động đơn thuần: <b>không cần điều trị</b>.','Lung lay nhiều/nhạy cảm khi ăn nhai: <b>nẹp ~2 tuần</b>.','Xử trí phần gãy men–ngà như tổn thương gãy thân tương ứng.'],
+ fu:['Theo dõi tình trạng tủy ≥ 1 năm: chấn động sau 4 tuần và 1 năm; lung lay sau 2 tuần, 3 tháng, 6 tháng, 1 năm.'],
+ note:'Biến chứng: hoại tử tủy, ngừng phát triển chân, tiêu ngót → nếu hoại tử thì điều trị tủy chân (ca thực tế có thể nhiễm trùng chóp xuất hiện muộn).'
+},
+{
+ g:'vv', title:'Trồi răng (răng vĩnh viễn)',
+ patient:'Bé trai 8 tuổi, đến khám 1 tuần sau chấn thương.',
+ clin:'R11 và R21 trồi ra khỏi ổ, rìa cắn thấp hơn, lung lay; khó đẩy về vị trí cũ do đã có máu đông trong ổ.',
+ xr:'Khoảng dây chằng vùng chóp giãn rộng.',
+ clinOpt:{tooth:2,cond:'extrusion'}, xrOpt:{primary:false,apex:'open',find:'extrusion'},
+ dx:'Trồi răng (extrusion) R11, R21.',
+ tx:['<b>Đặt răng lại đúng vị trí</b>, <b>nẹp ~2 tuần</b> (4 tuần nếu kèm gãy xương ổ răng).','Theo dõi tủy bằng test thử tủy; nếu hoại tử/nhiễm trùng → điều trị tủy phù hợp giai đoạn phát triển (chóp mở → cân nhắc đóng chóp).'],
+ fu:['Theo dõi sau 2 tuần, 4 tuần, 8 tuần, 3 tháng, 6 tháng, 1 năm, 1 năm/lần trong 5 năm.','Biến chứng: hoại tử tủy, tiêu xương, tiêu ngót.'],
+ note:'Đến muộn, máu đông trong ổ có thể cản trở việc đưa răng về vị trí cũ.'
+},
+{
+ g:'vv', title:'Lún răng – chóp mở (răng vĩnh viễn)',
+ patient:'Bé trai 8 tuổi, ngã sấp.',
+ clin:'R11 lún vào xương, rìa cắn cao hơn các răng kế cận; gõ âm “cứng”.',
+ xr:'Mất khoảng dây chằng, thân răng nằm thấp hơn mào xương; chóp chưa đóng.',
+ clinOpt:{tooth:2,cond:'intrusion'}, xrOpt:{primary:false,apex:'open',find:'intrusion'},
+ dx:'Lún răng (intrusion) R11, răng chưa đóng chóp.',
+ tx:['Chưa đóng chóp – để răng tự mọc lại theo mức độ lún:','• Lún nhẹ (<3mm): để tự mọc / theo dõi.','• Lún trung bình (3–6mm): để tự mọc lại hoặc dùng lực chỉnh nha trong 2 tuần.','• Lún nặng (>6mm): đặt răng lại đúng vị trí bằng phẫu thuật.','Răng chưa đóng chóp có thể tái sinh mạch máu tủy; điều trị tủy ngay nếu có dấu hiệu hoại tử/tiêu ngót.'],
+ fu:['Theo dõi tình trạng tủy; nếu không mọc lại trong 4 tuần → kéo răng bằng chỉnh nha. Tái khám định kỳ.'],
+ note:'Lún răng là tổn thương trật khớp nặng, nguy cơ hoại tử tủy cao nhất.'
+},
+{
+ g:'vv', title:'Lún răng – chóp đóng (răng vĩnh viễn)',
+ patient:'Thiếu niên 15 tuổi, tai nạn, răng cửa lún.',
+ clin:'R21 lún, rìa cắn cao hơn răng kế cận, gõ âm cứng.',
+ xr:'Mất khoảng dây chằng; chóp đã đóng.',
+ clinOpt:{tooth:3,cond:'intrusion'}, xrOpt:{primary:false,apex:'closed',find:'intrusion'},
+ dx:'Lún răng R21, răng đã đóng chóp.',
+ tx:['• Lún nhẹ (<3mm): để tự mọc; nếu sau 8 tuần không mọc → đặt lại bằng phẫu thuật + nẹp 4 tuần, hoặc kéo chỉnh nha 2 tuần.','• Lún trung bình (3–6mm): đặt lại bằng phẫu thuật hoặc chỉnh nha.','• Lún nặng (>6mm): đặt lại bằng phẫu thuật.','Răng đã đóng chóp: <b>lấy tủy trong vòng 2 tuần</b> sau chấn thương / ngay sau khi nẹp, <b>quay Ca(OH)₂</b> ngừa tiêu ngót chân.'],
+ fu:['Theo dõi LS + X-quang sau 2,4,8 tuần, 3,6,12 tháng, 1 năm/lần trong 5 năm.','Biến chứng: hoại tử tủy, dính khớp, tiêu ngót do viêm/thay thế.'],
+ note:'Răng đóng chóp gần như chắc chắn hoại tử tủy → chủ động lấy tủy sớm.'
+},
+{
+ g:'vv', title:'Trật khớp sang bên kèm gãy xương ổ răng (răng vĩnh viễn)',
+ patient:'Bé gái 11 tuổi, tai nạn, răng cửa lệch.',
+ clin:'R21 lệch vào trong (về phía khẩu cái), khớp cắn vướng; sờ thấy bất thường bờ xương ổ răng.',
+ xr:'Răng di lệch sang bên; có hình ảnh gãy xương ổ răng.',
+ clinOpt:{tooth:3,cond:'lateral-palatal'}, xrOpt:{primary:false,apex:'closed',find:'normal'},
+ dx:'Trật khớp sang bên R21 kèm gãy xương ổ răng.',
+ tx:['<b>Nắn răng về đúng vị trí</b>, <b>nẹp ~4 tuần</b> (dài hơn nếu gãy xương ổ răng).','Chóp đã đóng + tủy hoại tử: điều trị nội nha (lấy tủy) ~2 tuần sau nẹp.','Chóp chưa đóng: theo dõi, chỉ điều trị tủy khi có dấu hiệu hoại tử.'],
+ fu:['Theo dõi LS + X-quang sau 2,4,8 tuần, 3,6,12 tháng, 1 năm/lần trong 5 năm.','Biến chứng: hoại tử tủy, dính khớp, tiêu xương, tiêu ngót.'],
+ note:'Trật khớp sang bên thường kèm vỡ/gãy xương ổ răng nên cần nẹp lâu hơn.'
+},
+{
+ g:'vv', title:'Răng rơi ra ngoài – chóp đóng, bảo quản tốt, đến sớm',
+ patient:'Bé gái 10 tuổi, R11 bật hoàn toàn ra ngoài; được ngâm trong sữa, đến phòng nha sau 15 phút.',
+ clin:'Ổ răng R11 trống, chảy máu; răng còn nguyên, bề mặt chân ẩm. Chóp đã đóng.',
+ xr:'Kiểm tra ổ răng và loại trừ gãy xương ổ răng trước khi cắm lại.',
+ clinOpt:{tooth:2,cond:'missing'}, xrOpt:{primary:false,apex:'closed',find:'normal'},
+ dx:'Răng vĩnh viễn rơi ra ngoài (avulsion) R11, chóp đóng, thời gian ngoài ổ ngắn, bảo quản trong sữa.',
+ tx:['<b>Cắm lại càng sớm càng tốt</b>. Khô < 2 giờ: rửa nhẹ bằng nước muối vô trùng rồi cắm lại ngay.','Răng đã đóng chóp: <b>nẹp ~2 tuần</b>; <b>điều trị tủy</b> và quay Ca(OH)₂ sau ~2 tuần để ngừa tiêu chân (đặt Ca(OH)₂ ~1 tháng).','Kèm: kháng sinh, giảm đau, súc miệng chlorhexidine, ăn mềm, tránh nhai răng tổn thương, tiêm phòng uốn ván nếu cần.'],
+ fu:['Theo dõi sau 2 tuần, 1, 3, 6, 12 tháng, 1 năm/lần trong 5 năm.'],
+ note:'3 yếu tố quyết định tiên lượng: thời gian răng ngoài ổ, tình trạng bề mặt chân/nha chu, và cách bảo quản. Trước khi cắm: nạo sạch máu tụ, kiểm tra xương ổ răng.'
+},
+{
+ g:'vv', title:'Răng rơi ra ngoài – chóp mở, để khô lâu & môi trường bảo quản',
+ patient:'Bé trai 8 tuổi, R31 (răng dưới) bật ra ngoài; được cắm lại tại chỗ và đến phòng nha sau 1 giờ.',
+ clin:'Ổ răng trống lúc đầu; răng đã được người nhà cắm lại. Chóp chưa đóng.',
+ xr:'Kiểm tra vị trí răng sau cắm; theo dõi nguy cơ tiêu chân.',
+ clinOpt:{tooth:2,cond:'missing',arch:'mandible'}, xrOpt:{primary:false,apex:'open',find:'resorption'},
+ dx:'Răng vĩnh viễn rơi ra ngoài R31, răng chưa đóng chóp.',
+ tx:['Răng <b>chưa đóng chóp</b>: nẹp ~2 tuần; <b>chỉ điều trị tủy khi có dấu hiệu hoại tử tủy</b> (cơ hội tái sinh mạch máu tủy).','Khô < 2 giờ: rửa nước muối, cắm ngay. Khô > 2 giờ: <b>ngâm răng trong dung dịch Fluor 5–20 phút</b> rồi cắm.','Giáo dục cộng đồng – môi trường bảo quản phù hợp khi không cắm lại được: <b>dung dịch Hank (HBSS), sữa, dung dịch ngâm kính sát tròng, nước muối sinh lý, nước bọt (ngậm trong miệng)</b>. Rửa răng dưới vòi nước, <b>tránh cạo bề mặt chân răng</b>.'],
+ fu:['Theo dõi sau 2 tuần, 1, 2, 3, 6, 12 tháng, 1 năm/lần trong 5 năm (răng chưa đóng chóp).'],
+ note:'Biến chứng thường gặp là tiêu chân răng tiến triển (do để khô lâu); có thể dẫn tới mất răng về sau. Di chứng khác: vôi hóa ống tủy, đổi màu, mất xương nâng đỡ.'
+}
+];
+
+/* ============================================================
+   RENDER
+   ============================================================ */
+function el(html){var d=document.createElement('div');d.innerHTML=html.trim();return d.firstChild;}
+
+function buildCard(item, idx){
+  var gLabel = item.g==='sua'?'RĂNG SỮA':'RĂNG VĨNH VIỄN';
+  var card = document.createElement('div');
+  card.className='card'; card.dataset.g=item.g;
+  var html='';
+  html+='<div class="head">';
+  html+='<div class="num">'+(idx+1)+'</div>';
+  html+='<h3>'+item.title+'</h3>';
+  html+='<span class="badge '+item.g+'">'+gLabel+'</span>';
+  html+='</div>';
+  html+='<div class="body">';
+  html+='<div class="figs">';
+  html+='<div class="fig">'+clinical(item.clinOpt)+'<div class="cap">Hình lâm sàng</div></div>';
+  html+='<div class="fig">'+xray(item.xrOpt)+'<div class="cap">Phim X-quang quanh chóp</div></div>';
+  html+='</div>';
+  html+='<div class="vignette">';
+  html+='<p><span class="lab">Bệnh nhân:</span> '+item.patient+'</p>';
+  html+='<p><span class="lab">Lâm sàng:</span> '+item.clin+'</p>';
+  html+='<p><span class="lab">X-quang:</span> '+item.xr+'</p>';
+  html+='</div>';
+  html+='<div class="qbox"><div class="qt">CÂU HỎI</div>'+
+        'Nêu <b>chẩn đoán</b> và trình bày <b>hướng xử trí / điều trị</b> cho trường hợp này.</div>';
+  html+='<button class="reveal">Xem đáp án <span class="chev">▾</span></button>';
+  html+='<div class="answer">';
+  html+='<div class="ans-sec dx"><h4>Chẩn đoán</h4><p>'+item.dx+'</p></div>';
+  html+='<div class="ans-sec tx"><h4>Điều trị</h4>'+listOrP(item.tx)+'</div>';
+  if(item.fu) html+='<div class="ans-sec fu"><h4>Theo dõi</h4>'+listOrP(item.fu)+'</div>';
+  if(item.note) html+='<div class="ans-sec note"><h4>Ghi chú lâm sàng</h4><p>'+item.note+'</p></div>';
+  html+='</div>';
+  html+='</div>';
+  card.innerHTML=html;
+  // wire reveal
+  var btn=card.querySelector('.reveal'), ans=card.querySelector('.answer');
+  btn.addEventListener('click',function(){
+    ans.classList.toggle('open');
+    btn.firstChild.textContent = ans.classList.contains('open')?'Ẩn đáp án ':'Xem đáp án ';
+  });
+  return card;
+}
+function listOrP(arr){
+  if(arr.length===1) return '<p>'+arr[0]+'</p>';
+  return '<ul>'+arr.map(function(x){return '<li>'+x+'</li>';}).join('')+'</ul>';
+}
+
+var cardsEl=document.getElementById('cards');
+Q.forEach(function(it,i){cardsEl.appendChild(buildCard(it,i));});
+
+// filters
+var curF='all';
+function applyFilter(f){
+  curF=f;
+  var n=0;
+  document.querySelectorAll('.card').forEach(function(c){
+    var show = (f==='all'||c.dataset.g===f);
+    c.style.display = show?'':'none';
+    if(show)n++;
+  });
+  document.getElementById('count').textContent = n+' ca';
+}
+document.querySelectorAll('.filter').forEach(function(b){
+  b.addEventListener('click',function(){
+    document.querySelectorAll('.filter').forEach(function(x){x.classList.remove('active');});
+    b.classList.add('active'); applyFilter(b.dataset.f);
+  });
+});
+applyFilter('all');
+
+// toggle all answers
+var allOpen=false;
+document.getElementById('toggleAll').addEventListener('click',function(){
+  allOpen=!allOpen;
+  document.querySelectorAll('.card').forEach(function(c){
+    if(c.style.display==='none')return;
+    var a=c.querySelector('.answer'), b=c.querySelector('.reveal');
+    if(allOpen){a.classList.add('open');b.firstChild.textContent='Ẩn đáp án ';}
+    else{a.classList.remove('open');b.firstChild.textContent='Xem đáp án ';}
+  });
+  this.textContent = allOpen?'Ẩn tất cả đáp án':'Hiện tất cả đáp án';
+});
+</script>
+</body>
+</html>

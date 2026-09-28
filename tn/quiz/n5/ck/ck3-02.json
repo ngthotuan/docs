@@ -1,0 +1,1542 @@
+[
+  {
+    "question": "Theo tài liệu, tỷ lệ trẻ em có nhu cầu điều trị chỉnh hình răng mặt liên quan đến rối loạn trong sự phát triển của phôi thai là bao nhiêu?",
+    "options": [
+      {
+        "text": "Dưới 1%",
+        "isCorrect": true
+      },
+      {
+        "text": "Trên 15%",
+        "isCorrect": false
+      },
+      {
+        "text": "Khoảng 10%",
+        "isCorrect": false
+      },
+      {
+        "text": "Khoảng 5%",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tài liệu nêu rõ: 'chỉ có dưới 1% trẻ em có nhu cầu điều trị chỉnh hình răng mặt là có sự liên quan đến rối loạn trong sự phát triển của phôi thai'."
+  },
+  {
+    "question": "Chất nào sau đây được liệt kê là một ví dụ có thể gây khiếm khuyết phôi thai (như khe hở môi-hàm ếch) nếu sử dụng liều cao khi mang thai?",
+    "options": [
+      {
+        "text": "Vitamin B12",
+        "isCorrect": false
+      },
+      {
+        "text": "Vitamin C",
+        "isCorrect": false
+      },
+      {
+        "text": "Vitamin D",
+        "isCorrect": false
+      },
+      {
+        "text": "Vitamin A",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Ví dụ được đưa ra bao gồm: Aspirin, khói thuốc, Dilantin, valium, và sử dụng vitamin A liều cao khi mang thai."
+  },
+  {
+    "question": "Tình trạng 'sự đè ép xảy ra trong bào thai' nào sau đây có thể làm xương hàm trên kém phát triển?",
+    "options": [
+      {
+        "text": "Đầu phôi thai gập vào ngực",
+        "isCorrect": false
+      },
+      {
+        "text": "Bào thai nằm ngôi ngược",
+        "isCorrect": false
+      },
+      {
+        "text": "Cánh tay của bào thai đè lên mặt",
+        "isCorrect": true
+      },
+      {
+        "text": "Dây rốn quấn quanh cổ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tài liệu đưa ra ví dụ: 'Cánh tay của bào thai đè lên mặt làm xương hàm trên kém phát triển'."
+  },
+  {
+    "question": "Trẻ sơ sinh mắc hội chứng Pierre Robin cần được chăm sóc đặc biệt (như nằm sấp hoặc khâu giữ lưỡi) để tránh nguy cơ tử vong do điều gì?",
+    "options": [
+      {
+        "text": "Nhiễm trùng huyết do khe hở hàm ếch",
+        "isCorrect": false
+      },
+      {
+        "text": "Dị tật tim bẩm sinh đi kèm",
+        "isCorrect": false
+      },
+      {
+        "text": "Suy dinh dưỡng do không thể bú",
+        "isCorrect": false
+      },
+      {
+        "text": "Khó thở do lưỡi tụt ra sau làm tắt đường hô hấp",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Trẻ mắc hội chứng Pierre Robin rất dễ tử vong khi sinh ra do khó thở vì lưỡi tụt ra sau làm tắt đường hô hấp trên."
+  },
+  {
+    "question": "Phương pháp sinh nào được đề cập là có thể gây chấn thương khớp thái dương hàm, dẫn đến kém phát triển hàm dưới?",
+    "options": [
+      {
+        "text": "Sinh bằng forcep",
+        "isCorrect": true
+      },
+      {
+        "text": "Sinh hút (Ventouse)",
+        "isCorrect": false
+      },
+      {
+        "text": "Sinh mổ (Caesarean section)",
+        "isCorrect": false
+      },
+      {
+        "text": "Sinh thường không can thiệp",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sinh bằng forcep được đề cập là có thể gây chấn thương một hoặc cả hai bên khớp thái dương hàm, gây kém phát triển hàm dưới."
+  },
+  {
+    "question": "Theo quan điểm hiện nay, vai trò của sụn lồi cầu đối với sự tăng trưởng của xương hàm dưới là gì?",
+    "options": [
+      {
+        "text": "Chỉ quan trọng trong giai đoạn phôi thai",
+        "isCorrect": false
+      },
+      {
+        "text": "Là trung tâm tăng trưởng quan trọng nhất",
+        "isCorrect": false
+      },
+      {
+        "text": "Không phải là yếu tố quyết định cho sự tăng trưởng",
+        "isCorrect": true
+      },
+      {
+        "text": "Quyết định hoàn toàn kích thước xương hàm dưới",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Quan điểm hiện nay cho rằng sụn lồi cầu không phải là yếu tố quyết định cho sự tăng trưởng của xương hàm dưới."
+  },
+  {
+    "question": "Quan điểm hiện nay cho rằng nếu trẻ sơ sinh có hàm dưới bị lệch lạc thì nguyên nhân là gì?",
+    "options": [
+      {
+        "text": "Do chế độ dinh dưỡng của mẹ",
+        "isCorrect": false
+      },
+      {
+        "text": "Do tư thế nằm của trẻ sau sinh",
+        "isCorrect": false
+      },
+      {
+        "text": "Chắc chắn do chấn thương khi sanh bằng forcep",
+        "isCorrect": false
+      },
+      {
+        "text": "Do bất thường bẩm sinh",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Quan điểm hiện nay cho rằng nếu trẻ sơ sinh có hàm dưới bị lệch lạc là do bất thường bẩm sinh, và người ta nghi ngờ về nguyên nhân do chấn thương khi sanh."
+  },
+  {
+    "question": "Gãy lồi cầu xương hàm dưới ở trẻ nhỏ (do té ngã) có thể gây ra hậu quả nào sau đây?",
+    "options": [
+      {
+        "text": "Làm răng mọc sớm hơn bình thường",
+        "isCorrect": false
+      },
+      {
+        "text": "Cứng khớp cả hai bên khớp thái dương hàm",
+        "isCorrect": false
+      },
+      {
+        "text": "Chậm phát triển xương hàm dưới một bên gây không cân xứng",
+        "isCorrect": true
+      },
+      {
+        "text": "Tăng trưởng quá mức xương hàm dưới một bên",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Trẻ nhỏ té ngã làm gãy lồi cầu có thể gây chậm phát triển xương hàm dưới một bên, biểu hiện bởi tình trạng phát triển không cân xứng của hàm dưới."
+  },
+  {
+    "question": "Hệ cơ mặt ảnh hưởng đến sự tăng trưởng xương hàm theo cách nào?",
+    "options": [
+      {
+        "text": "Ảnh hưởng đến sự thành lập xương ở điểm bám của cơ",
+        "isCorrect": true
+      },
+      {
+        "text": "Chỉ ảnh hưởng đến xương hàm trên",
+        "isCorrect": false
+      },
+      {
+        "text": "Quyết định hình dạng của từng răng",
+        "isCorrect": false
+      },
+      {
+        "text": "Gây ra bệnh to cực (Macromegalia)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Hệ cơ mặt ảnh hưởng đến sự thành lập xương ở điểm bám của cơ, và sự tăng trưởng của cơ mang theo xương hàm dưới xuống dưới và ra trước."
+  },
+  {
+    "question": "Nguyên nhân thường gặp nhất gây mất một phần hệ cơ, làm teo cơ và biến dạng mặt là gì?",
+    "options": [
+      {
+        "text": "Thiếu răng bẩm sinh",
+        "isCorrect": false
+      },
+      {
+        "text": "Tổn thương dây thần kinh vận động",
+        "isCorrect": true
+      },
+      {
+        "text": "Chấn thương do gãy lồi cầu",
+        "isCorrect": false
+      },
+      {
+        "text": "Rối loạn nội tiết tuyến yên",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Nguyên nhân thường gặp nhất là tổn thương dây thần kinh vận động (trong bào thai hoặc khi sanh), làm cho cơ bị teo và làm một phần mặt bị biến dạng."
+  },
+  {
+    "question": "Tình trạng tăng trưởng quá mức một bên của xương hàm dưới (không rõ nguyên nhân) thường xảy ra ở đối tượng nào?",
+    "options": [
+      {
+        "text": "Nam giới, trên 30 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "Nữ giới, tuổi từ 15-20",
+        "isCorrect": true
+      },
+      {
+        "text": "Nữ giới, dưới 10 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "Nam giới, tuổi từ 15-20",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tình trạng này (không rõ nguyên nhân) thỉnh thoảng được ghi nhận, thường xảy ra ở nữ giới, tuổi từ 15-20."
+  },
+  {
+    "question": "Theo tài liệu, rối loạn trong sự phát triển của răng thường kết hợp với sai khớp cắn hạng mấy theo Angle?",
+    "options": [
+      {
+        "text": "Hạng II Angle",
+        "isCorrect": false
+      },
+      {
+        "text": "Không liên quan đến phân loại Angle",
+        "isCorrect": false
+      },
+      {
+        "text": "Hạng III Angle",
+        "isCorrect": false
+      },
+      {
+        "text": "Hạng I Angle",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Rối loạn trong sự phát triển của răng thường kết hợp với sai khớp cắn hạng I Angle."
+  },
+  {
+    "question": "Thuật ngữ 'Anodontia' (Bệnh không răng) mô tả tình trạng nào?",
+    "options": [
+      {
+        "text": "Thiếu một vài răng (1-2 răng)",
+        "isCorrect": false
+      },
+      {
+        "text": "Thiếu tất cả các răng",
+        "isCorrect": true
+      },
+      {
+        "text": "Răng có hình dạng bất thường",
+        "isCorrect": false
+      },
+      {
+        "text": "Thiếu nhiều răng trên cùng một hàm",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Bệnh không răng (Anodontia) là tình trạng thiếu tất cả các răng, rất ít gặp."
+  },
+  {
+    "question": "Thuật ngữ 'Oligodontia' (Bệnh thiếu nhiều răng) mô tả tình trạng nào?",
+    "options": [
+      {
+        "text": "Thiếu chỉ một răng duy nhất",
+        "isCorrect": false
+      },
+      {
+        "text": "Thiếu tất cả các răng",
+        "isCorrect": false
+      },
+      {
+        "text": "Răng mọc dư (supernumerary)",
+        "isCorrect": false
+      },
+      {
+        "text": "Thiếu nhiều răng trên cùng hàm",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Bệnh thiếu nhiều răng (Oligodontia) là tình trạng thiếu nhiều răng trên cùng hàm."
+  },
+  {
+    "question": "Loại răng nào sau đây được mô tả là 'thường thiếu' trong bệnh Hypodontia (thiếu một vài răng)?",
+    "options": [
+      {
+        "text": "Răng cối nhỏ thứ hai",
+        "isCorrect": true
+      },
+      {
+        "text": "Răng cửa giữa hàm trên",
+        "isCorrect": false
+      },
+      {
+        "text": "Răng nanh",
+        "isCorrect": false
+      },
+      {
+        "text": "Răng cối lớn thứ nhất",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Răng thiếu thường là răng ở xa nhất của vùng loại răng. Ví dụ: răng cửa bên, răng cối lớn thứ ba, răng cối nhỏ thứ hai."
+  },
+  {
+    "question": "Bất thường về kích thước và hình dạng răng là hậu quả của rối loạn xảy ra trong thời kỳ nào của sự phát triển răng?",
+    "options": [
+      {
+        "text": "Thời kỳ biệt hóa về mô học và hình thể",
+        "isCorrect": true
+      },
+      {
+        "text": "Thời kỳ ngấm vôi",
+        "isCorrect": false
+      },
+      {
+        "text": "Thời kỳ mọc răng vĩnh viễn",
+        "isCorrect": false
+      },
+      {
+        "text": "Thời kỳ khởi đầu (giai đoạn lá răng)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Đây là hậu quả của sự rối loạn xảy ra trong thời kỳ biệt hóa về phương diện mô học và hình thể của sự phát triển răng."
+  },
+  {
+    "question": "Sự thay đổi về kích thước (răng dị dạng) thường gặp nhất ở các răng nào?",
+    "options": [
+      {
+        "text": "Răng cửa giữa và răng nanh",
+        "isCorrect": false
+      },
+      {
+        "text": "Răng cửa bên và răng cối nhỏ thứ hai",
+        "isCorrect": true
+      },
+      {
+        "text": "Răng cối lớn thứ nhất và răng cối lớn thứ ba",
+        "isCorrect": false
+      },
+      {
+        "text": "Răng nanh và răng cối lớn thứ nhất",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Thường gặp nhất là sự thay đổi về kích thước của răng cửa bên và răng cối nhỏ thứ hai."
+  },
+  {
+    "question": "Ngoài hội chứng loạn sản đòn sọ, dị dạng hình thể răng cũng thường gặp trong hội chứng nào?",
+    "options": [
+      {
+        "text": "Bệnh to cực (Macromegalia)",
+        "isCorrect": false
+      },
+      {
+        "text": "Hội chứng Pierre Robin",
+        "isCorrect": false
+      },
+      {
+        "text": "Chứng loạn sản ngoại bì (Ectodermal dysplasia)",
+        "isCorrect": true
+      },
+      {
+        "text": "Bệnh còi xương",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Dị dạng hình thể răng cũng thường gặp trong chứng loạn sản ngoại bì."
+  },
+  {
+    "question": "Răng dư (supernumerary tooth) thường gây ra vấn đề gì?",
+    "options": [
+      {
+        "text": "Gây bệnh nha chu lan tỏa",
+        "isCorrect": false
+      },
+      {
+        "text": "Gây cản trở cho việc sắp xếp các răng bình thường",
+        "isCorrect": true
+      },
+      {
+        "text": "Luôn luôn mọc đúng vị trí trên cung hàm",
+        "isCorrect": false
+      },
+      {
+        "text": "Làm xương hàm phát triển quá mức",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Răng dư thường gây cản trở cho việc sắp xếp các răng trên cung hàm bình thường, từ đó gây ra sai khớp cắn."
+  },
+  {
+    "question": "Yếu tố nào sau đây có thể cản trở sự mọc răng và dẫn đến sai khớp cắn?",
+    "options": [
+      {
+        "text": "Thiếu răng bẩm sinh",
+        "isCorrect": false
+      },
+      {
+        "text": "Thói quen mút tay",
+        "isCorrect": false
+      },
+      {
+        "text": "Lớp nướu sợi dày",
+        "isCorrect": true
+      },
+      {
+        "text": "Xương hàm kém phát triển",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Các răng dư, xương hoại tử, lớp nướu sợi dày có thể cản trở sự mọc răng và dẫn đến sự sai khớp cắn."
+  },
+  {
+    "question": "Tình trạng cản trở mọc răng (như nướu sợi dày, răng dư) thường hiện diện trong hội chứng nào?",
+    "options": [
+      {
+        "text": "Hội chứng loạn sản đòn sọ",
+        "isCorrect": true
+      },
+      {
+        "text": "Bệnh to cực",
+        "isCorrect": false
+      },
+      {
+        "text": "Hội chứng Pierre Robin",
+        "isCorrect": false
+      },
+      {
+        "text": "Chứng loạn sản ngoại bì",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tình trạng cản trở mọc răng (do nướu sợi dày, răng dư) thường hiện diện trong hội chứng loạn sản đòn sọ."
+  },
+  {
+    "question": "Răng mọc sai vị trí (Ectopic eruption) thường gặp nhất ở răng nào, theo mô tả trong tài liệu?",
+    "options": [
+      {
+        "text": "Răng cửa bên hàm trên (mọc xoay)",
+        "isCorrect": false
+      },
+      {
+        "text": "Răng cối lớn thứ nhất hàm trên (mọc về phía gần)",
+        "isCorrect": true
+      },
+      {
+        "text": "Răng cối nhỏ thứ hai hàm dưới (mọc ngầm)",
+        "isCorrect": false
+      },
+      {
+        "text": "Răng nanh hàm trên (mọc về phía khẩu cái)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Trường hợp này thường gặp ở răng cối lớn thứ nhất hàm trên ở về phía gần."
+  },
+  {
+    "question": "Hậu quả của việc răng cối lớn thứ nhất mọc sai vị trí (ectopic) về phía gần là gì?",
+    "options": [
+      {
+        "text": "Gây dư chỗ cho răng cối nhỏ",
+        "isCorrect": false
+      },
+      {
+        "text": "Làm răng cối lớn thứ hai mọc sớm",
+        "isCorrect": false
+      },
+      {
+        "text": "Gây tiêu chân răng xa của răng cối sữa thứ hai",
+        "isCorrect": true
+      },
+      {
+        "text": "Làm răng cối sữa thứ hai không rụng",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sự mọc lên của răng này (ở vị trí sai) sẽ gây tiêu chân răng xa của răng cối sữa thứ hai."
+  },
+  {
+    "question": "Việc răng cối lớn thứ nhất mọc di gần (do ectopic hoặc mất răng sữa sớm) sẽ dẫn đến hậu quả gì cho vùng răng phía trước?",
+    "options": [
+      {
+        "text": "Gây thưa kẽ vùng răng cối nhỏ vĩnh viễn",
+        "isCorrect": false
+      },
+      {
+        "text": "Không ảnh hưởng đến răng phía trước",
+        "isCorrect": false
+      },
+      {
+        "text": "Làm răng nanh mọc chìa ra ngoài",
+        "isCorrect": false
+      },
+      {
+        "text": "Gây chen chúc vùng răng cối nhỏ vĩnh viễn",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Sự di gần của răng cối lớn thứ nhất có thể dẫn đến sự chen chúc vùng răng cối nhỏ vĩnh viễn."
+  },
+  {
+    "question": "Khi răng nanh sữa và răng cối sữa thứ nhất mất sớm MỘT BÊN, hậu quả thường gặp là gì?",
+    "options": [
+      {
+        "text": "Lệch đường giữa (do răng cửa di chuyển về phía mất răng)",
+        "isCorrect": true
+      },
+      {
+        "text": "Không ảnh hưởng đường giữa",
+        "isCorrect": false
+      },
+      {
+        "text": "Gây cắn sâu vùng răng cửa",
+        "isCorrect": false
+      },
+      {
+        "text": "Lệch đường giữa (do răng cửa di chuyển về phía đối diện)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Nếu mất răng nanh và răng cối sữa thứ nhất một bên, các răng cửa vĩnh viễn sẽ di chuyển về phía đó và làm lệch đường giữa."
+  },
+  {
+    "question": "Trong trường hợp mất răng cối sữa thứ hai sớm, biện pháp can thiệp nào được cho là 'thật sự cần thiết'?",
+    "options": [
+      {
+        "text": "Niềng răng ngay lập tức",
+        "isCorrect": false
+      },
+      {
+        "text": "Thực hiện các bộ phận giữ khoảng",
+        "isCorrect": true
+      },
+      {
+        "text": "Nhổ răng cối vĩnh viễn thứ nhất",
+        "isCorrect": false
+      },
+      {
+        "text": "Chờ đợi mà không can thiệp",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Thực hiện các bộ phận giữ khoảng trong trường hợp này (mất răng cối sữa thứ hai sớm) là thật sự cần thiết."
+  },
+  {
+    "question": "Chấn thương ở răng sữa có thể ảnh hưởng đến mầm răng vĩnh viễn bên dưới như thế nào?",
+    "options": [
+      {
+        "text": "Làm dịch chuyển mầm răng vĩnh viễn",
+        "isCorrect": true
+      },
+      {
+        "text": "Làm răng vĩnh viễn bị thiếu bẩm sinh",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ làm răng sữa đổi màu, không ảnh hưởng răng vĩnh viễn",
+        "isCorrect": false
+      },
+      {
+        "text": "Làm răng vĩnh viễn mọc nhanh hơn",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Chấn thương ở răng sữa có thể làm dịch chuyển mầm răng vĩnh viễn bên dưới. Sự thành lập chân răng có thể bị ngưng lại (chân răng ngắn) hoặc tạo thành một góc."
+  },
+  {
+    "question": "Một trong 3 cách chấn thương gây sai khớp cắn là 'Chấn thương trực tiếp vào răng vĩnh viễn', gây ra hậu quả gì?",
+    "options": [
+      {
+        "text": "Làm răng sữa lung lay",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ gây ê buốt răng",
+        "isCorrect": false
+      },
+      {
+        "text": "Không gây xáo trộn khớp cắn",
+        "isCorrect": false
+      },
+      {
+        "text": "Mất răng hoặc dịch chuyển răng vĩnh viễn",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Cách thứ 3: Chấn thương trực tiếp vào răng vĩnh viễn: gây mất răng hoặc dịch chuyển răng vĩnh viễn gây xáo trộn khớp cắn."
+  },
+  {
+    "question": "Yếu tố di truyền nào sau đây có thể dẫn đến mọc răng chen chúc hoặc thưa kẽ?",
+    "options": [
+      {
+        "text": "Sự bất hài hoà kích thước răng và hàm",
+        "isCorrect": true
+      },
+      {
+        "text": "Di truyền thói quen mút tay",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự không cân xứng giữa xương hàm trên và dưới",
+        "isCorrect": false
+      },
+      {
+        "text": "Di truyền kiểu mặt dài",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Thừa hưởng sự bất hài hoà kích thước răng và hàm có thể dẫn đến sự mọc răng chen chúc hoặc thưa kẽ."
+  },
+  {
+    "question": "Nguyên nhân di truyền nào sau đây dẫn đến tương quan khớp cắn không đúng?",
+    "options": [
+      {
+        "text": "Bất hài hoà kích thước răng và hàm",
+        "isCorrect": false
+      },
+      {
+        "text": "Không cân xứng kích thước và hình dạng của xương hàm trên và dưới",
+        "isCorrect": true
+      },
+      {
+        "text": "Rối loạn phát triển phôi thai",
+        "isCorrect": false
+      },
+      {
+        "text": "Răng dư bẩm sinh",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Không cân xứng giữa kích thước và hình dạng của xương hàm trên và xương hàm dưới dẫn đến tương quan khớp cắn không đúng."
+  },
+  {
+    "question": "Nếu đặc điểm của sai khớp cắn là do xương hàm, nó thường liên quan đến yếu tố nào?",
+    "options": [
+      {
+        "text": "Chấn thương khi sinh",
+        "isCorrect": false
+      },
+      {
+        "text": "Yếu tố môi trường (thói quen)",
+        "isCorrect": false
+      },
+      {
+        "text": "Yếu tố di truyền",
+        "isCorrect": true
+      },
+      {
+        "text": "Dinh dưỡng",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Nếu đặc điểm của sai khớp cắn là do xương hàm thì thường có sự hiện diện của yếu tố di truyền."
+  },
+  {
+    "question": "Nếu sai khớp cắn chỉ là lệch lạc của răng thuần túy, nó thường liên quan đến yếu tố nào?",
+    "options": [
+      {
+        "text": "Rối loạn phôi thai",
+        "isCorrect": false
+      },
+      {
+        "text": "Rối loạn nội tiết",
+        "isCorrect": false
+      },
+      {
+        "text": "Yếu tố di truyền",
+        "isCorrect": false
+      },
+      {
+        "text": "Yếu tố môi trường",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Nếu chỉ là lệch lạc của răng thuần túy thì thường do ảnh hưởng bởi yếu tố môi trường."
+  },
+  {
+    "question": "Tình trạng nào sau đây đứng hàng thứ hai (sau nhô hàm dưới) về ảnh hưởng của yếu tố di truyền?",
+    "options": [
+      {
+        "text": "Thiếu răng bẩm sinh",
+        "isCorrect": false
+      },
+      {
+        "text": "Dị dạng kiểu mặt dài (long face pattern)",
+        "isCorrect": true
+      },
+      {
+        "text": "Răng mọc chen chúc",
+        "isCorrect": false
+      },
+      {
+        "text": "Răng mọc ngầm",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sự ảnh hưởng của yếu tố di truyền thể hiện rất rõ trong nhô hàm dưới. Dị dạng kiểu mặt dài (long face pattern) đứng hàng thứ hai."
+  },
+  {
+    "question": "Theo thuyết cân bằng, lực nào sau đây KHÔNG ảnh hưởng đến vị trí răng?",
+    "options": [
+      {
+        "text": "Lực từ thói quen (mút tay)",
+        "isCorrect": false
+      },
+      {
+        "text": "Lực môi, má, lưỡi (nhẹ, kéo dài)",
+        "isCorrect": false
+      },
+      {
+        "text": "Lực chỉnh hình",
+        "isCorrect": false
+      },
+      {
+        "text": "Lực nhai (mạnh, ngắt quãng)",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Lực nhai là lực mạnh, ngắt quãng sẽ không ảnh hưởng đến vị trí răng. Ngược lại, lực môi, má, lưỡi nhẹ hơn nhưng kéo dài thì có thể ảnh hưởng."
+  },
+  {
+    "question": "Áp lực từ bên ngoài (như thói quen mút tay) ảnh hưởng đến vị trí răng chủ yếu là do yếu tố nào?",
+    "options": [
+      {
+        "text": "Cường độ của lực",
+        "isCorrect": false
+      },
+      {
+        "text": "Tần suất ngắt quãng",
+        "isCorrect": false
+      },
+      {
+        "text": "Thời gian tác động của lực",
+        "isCorrect": true
+      },
+      {
+        "text": "Nhiệt độ (do mút tay)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Thói quen (ví dụ mút tay) ảnh hưởng lên vị trí của răng không phải bởi cường độ của lực mà bởi thời gian tác động của lực."
+  },
+  {
+    "question": "Lực nào từ bên trong được mô tả là 'nhẹ và kéo dài' có ảnh hưởng đến vị trí răng và có thể gây tái phát sau chỉnh nha?",
+    "options": [
+      {
+        "text": "Áp lực máu trong tủy răng",
+        "isCorrect": false
+      },
+      {
+        "text": "Lực đẩy của lưỡi khi nuốt",
+        "isCorrect": false
+      },
+      {
+        "text": "Dây chằng nha chu, sợi nướu",
+        "isCorrect": true
+      },
+      {
+        "text": "Lực mọc của răng khôn",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Áp lực từ bên trong: dây chằng nha chu, sợi nướu: là những lực nhẹ và kéo dài có ảnh hưởng đến vị trí của răng. Những lực này có thể làm thay đổi kết quả chỉnh nha nếu duy trì không đầy đủ."
+  },
+  {
+    "question": "Để kết quả chỉnh nha duy trì lâu dài mà không tái phát, sự di chuyển răng cần đạt được điều gì?",
+    "options": [
+      {
+        "text": "Giữ răng ở vị trí mới trong 1 tháng",
+        "isCorrect": false
+      },
+      {
+        "text": "Loại bỏ hoàn toàn dây chằng nha chu",
+        "isCorrect": false
+      },
+      {
+        "text": "Răng di chuyển ở mức độ tối đa có thể",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự cân bằng của các yếu tố môi trường (lực môi, má, lưỡi)",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Sự di chuyển của răng cần được tính toán để đạt được sự cân bằng của các yếu tố môi trường (lực của môi, má, lưỡi) thì mới mong muốn đạt được sự duy trì kết quả lâu dài."
+  },
+  {
+    "question": "Yếu tố nào quyết định hình dáng của xương ổ răng?",
+    "options": [
+      {
+        "text": "Chế độ dinh dưỡng",
+        "isCorrect": false
+      },
+      {
+        "text": "Lực của cơ bám",
+        "isCorrect": false
+      },
+      {
+        "text": "Chính vị trí của răng",
+        "isCorrect": true
+      },
+      {
+        "text": "Chức năng nhai của răng",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Chính vị trí của răng chứ không phải chức năng của răng quyết định hình dáng xương ổ răng."
+  },
+  {
+    "question": "Nguyên tắc 'di chuyển răng làm thay đổi hình dáng xương ổ răng' được ứng dụng trong loại điều trị nào?",
+    "options": [
+      {
+        "text": "Điều trị phẫu thuật xương hàm",
+        "isCorrect": false
+      },
+      {
+        "text": "Điều trị duy trì sau chỉnh nha",
+        "isCorrect": false
+      },
+      {
+        "text": "Điều trị bệnh nha chu",
+        "isCorrect": false
+      },
+      {
+        "text": "Điều trị ngụy trang bằng sự bù trừ xương ổ răng",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Nguyên tắc này được ứng dụng trong chỉnh hình răng để điều trị ngụy trang bằng sự bù trừ xương ổ răng."
+  },
+  {
+    "question": "Trong việc xác định hình dạng xương (ngoài xương ổ răng), yếu tố nào có tầm quan trọng hơn?",
+    "options": [
+      {
+        "text": "Điểm bám của cơ",
+        "isCorrect": true
+      },
+      {
+        "text": "Mức độ hoạt động của cơ (chức năng nhai)",
+        "isCorrect": false
+      },
+      {
+        "text": "Loại khớp cắn",
+        "isCorrect": false
+      },
+      {
+        "text": "Vị trí của răng",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Điểm bám của cơ có tầm quan trọng hơn mức độ hoạt động của cơ trong việc xác định hình dạng xương."
+  },
+  {
+    "question": "Sự tăng trưởng của cơ quyết định điều gì, và qua đó có thể thay đổi hình dáng của xương (như vùng góc hàm)?",
+    "options": [
+      {
+        "text": "Lực nhai tối đa",
+        "isCorrect": false
+      },
+      {
+        "text": "Tốc độ mọc răng",
+        "isCorrect": false
+      },
+      {
+        "text": "Hình dạng của răng",
+        "isCorrect": false
+      },
+      {
+        "text": "Vị trí của điểm bám cơ",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Sự tăng trưởng của cơ quyết định vị trí của điểm bám. Do đó khi cơ tăng trưởng có thể thay đổi hình dáng của xương, thể hiện rõ nhất là vùng mồm vẹt và góc hàm."
+  },
+  {
+    "question": "Nguyên tắc 'cường độ của lực không quan trọng bằng thời gian tác động' áp dụng cho yếu tố nào?",
+    "options": [
+      {
+        "text": "Chỉ áp dụng cho xương hàm",
+        "isCorrect": false
+      },
+      {
+        "text": "Không áp dụng cho cả hai",
+        "isCorrect": false
+      },
+      {
+        "text": "Cả răng và xương hàm",
+        "isCorrect": true
+      },
+      {
+        "text": "Chỉ áp dụng cho răng",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Nguyên tắc này rõ ràng đối với răng. Đối với xương hàm, tuy không rõ bằng nhưng 'hình như cũng tuân theo nguyên tắc' này."
+  },
+  {
+    "question": "Chế độ ăn thời hiện đại được cho là có ảnh hưởng như thế nào đến khớp cắn?",
+    "options": [
+      {
+        "text": "Giúp khớp cắn phát triển tốt hơn",
+        "isCorrect": false
+      },
+      {
+        "text": "Không ảnh hưởng đến khớp cắn, chỉ gây sâu răng",
+        "isCorrect": false
+      },
+      {
+        "text": "Làm giảm sai khớp cắn",
+        "isCorrect": false
+      },
+      {
+        "text": "Làm gia tăng sai khớp cắn",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Thay đổi về khớp cắn xảy ra cùng lúc với sự thay đổi chế độ ăn và cách sống. Chế độ ăn thời hiện đại làm gia tăng sai khớp cắn."
+  },
+  {
+    "question": "Lực của cơ nhai có phải là yếu tố môi trường chính trong việc kiểm soát sự mọc răng không?",
+    "options": [
+      {
+        "text": "Không phải là yếu tố môi trường chính",
+        "isCorrect": true
+      },
+      {
+        "text": "Chỉ quan trọng đối với răng cối",
+        "isCorrect": false
+      },
+      {
+        "text": "Là yếu tố môi trường quan trọng nhất",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ quan trọng đối với răng cửa",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Lực của cơ nhai không phải là yếu tố môi trường chính trong việc kiểm soát sự mọc răng."
+  },
+  {
+    "question": "Lực của cơ nhai có phải là bệnh căn (nguyên nhân) của cắn sâu và cắn hở không?",
+    "options": [
+      {
+        "text": "Không phải là bệnh căn của cả hai",
+        "isCorrect": true
+      },
+      {
+        "text": "Là bệnh căn chính của cắn sâu",
+        "isCorrect": false
+      },
+      {
+        "text": "Là bệnh căn của cắn sâu, nhưng không phải cắn hở",
+        "isCorrect": false
+      },
+      {
+        "text": "Là bệnh căn chính của cắn hở",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Lực của cơ nhai... không phải là bệnh căn của cắn sâu và cắn hở."
+  },
+  {
+    "question": "Mút tay trong thời kỳ nào được cho là 'ít có hậu quả'?",
+    "options": [
+      {
+        "text": "Thời kỳ răng sữa",
+        "isCorrect": true
+      },
+      {
+        "text": "Thời kỳ bào thai",
+        "isCorrect": false
+      },
+      {
+        "text": "Tuổi dậy thì",
+        "isCorrect": false
+      },
+      {
+        "text": "Thời kỳ răng vĩnh viễn",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Mút tay trong thời kỳ răng sữa ít có hậu quả."
+  },
+  {
+    "question": "Hậu quả của thói quen mút tay kéo dài (như răng cửa trên chìa, hẹp cung hàm trên) là do áp lực trực tiếp lên răng VÀ yếu tố nào khác?",
+    "options": [
+      {
+        "text": "Sự phát triển quá mức của lưỡi",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự thay đổi thành phần nước bọt",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự yếu đi của cơ nhai",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự biến đổi tư thế nghỉ của má và môi",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Đây là hậu quả của việc áp đặt lực trực tiếp lên răng và sự biến đổi tư thế nghỉ của má và môi."
+  },
+  {
+    "question": "Mức độ di chuyển răng do mút tay phụ thuộc nhiều hơn vào yếu tố nào?",
+    "options": [
+      {
+        "text": "Cường độ của lực mút tay (mút mạnh hay nhẹ)",
+        "isCorrect": false
+      },
+      {
+        "text": "Thời điểm bắt đầu mút tay (sơ sinh hay 2 tuổi)",
+        "isCorrect": false
+      },
+      {
+        "text": "Ngón tay nào được mút (ngón cái hay ngón trỏ)",
+        "isCorrect": false
+      },
+      {
+        "text": "Thời gian mút tay trong ngày (ví dụ: mút nhiều giờ)",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Mức độ di chuyển răng phụ thuộc vào thời gian mút tay trong ngày hơn là cường độ của lực mút tay."
+  },
+  {
+    "question": "Điều trị chỉnh hình cho trẻ có thói quen mút tay chỉ nên được bắt đầu khi nào?",
+    "options": [
+      {
+        "text": "Ngay lập tức, bất kể trẻ còn mút hay không",
+        "isCorrect": false
+      },
+      {
+        "text": "Khi đứa trẻ đã bỏ thói quen mút tay",
+        "isCorrect": true
+      },
+      {
+        "text": "Khi trẻ được 6 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "Sau khi trẻ mọc đủ răng vĩnh viễn",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Điều trị chỉnh hình chỉ được bắt đầu khi đứa trẻ đã bỏ thói quen mút tay."
+  },
+  {
+    "question": "Ở trẻ nhỏ có khớp cắn bình thường, hiện tượng đẩy lưỡi khi nuốt được xem là gì?",
+    "options": [
+      {
+        "text": "Một biểu hiện của giai đoạn chuyển tiếp của kiểu nuốt",
+        "isCorrect": true
+      },
+      {
+        "text": "Nguyên nhân chính gây cắn hở sau này",
+        "isCorrect": false
+      },
+      {
+        "text": "Dấu hiệu của tắc nghẽn đường thở",
+        "isCorrect": false
+      },
+      {
+        "text": "Một bệnh lý cần can thiệp khí cụ ngay",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Ở trẻ nhỏ có khớp cắn bình thường, đẩy lưỡi chỉ là một biểu hiện của giai đoạn chuyển tiếp của kiểu nuốt nhũ nhi sang kiểu nuốt bình thường."
+  },
+  {
+    "question": "Tổng thời gian áp đặt lực của lưỡi lên răng khi nuốt (khoảng 1000 lần/ngày) là bao lâu và có đủ phá vỡ cân bằng không?",
+    "options": [
+      {
+        "text": "Liên tục, gây ảnh hưởng nghiêm trọng",
+        "isCorrect": false
+      },
+      {
+        "text": "Khoảng vài phút, không đủ để phá vỡ sự cân bằng",
+        "isCorrect": true
+      },
+      {
+        "text": "Khoảng 1 giây, không ảnh hưởng",
+        "isCorrect": false
+      },
+      {
+        "text": "Khoảng vài giờ, đủ để phá vỡ sự cân bằng",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tổng số lần nuốt # 1000 lần/ngày... tương ứng với thời gian áp đặt lực của lưỡi lên răng khoảng vài phút, không đủ để phá vỡ sự cân bằng."
+  },
+  {
+    "question": "Yếu tố nào của lưỡi có thể được xem là yếu tố nguyên phát (chứ không phải hậu quả) dẫn đến sự di chuyển của răng và hàm?",
+    "options": [
+      {
+        "text": "Lưỡi có tư thế nghỉ ở về phía trước",
+        "isCorrect": true
+      },
+      {
+        "text": "Lực nhai của lưỡi",
+        "isCorrect": false
+      },
+      {
+        "text": "Kích thước lưỡi nhỏ",
+        "isCorrect": false
+      },
+      {
+        "text": "Đẩy lưỡi khi nuốt (chỉ vài phút/ngày)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Lưỡi có tư thế nghỉ ở về phía trước (kéo dài) có thể ảnh hưởng đến vị trí của răng và trong trường hợp này có thể được xem là yếu tố nguyên phát."
+  },
+  {
+    "question": "Tình trạng nào sau đây được khẳng định là 'ảnh hưởng đến tăng trưởng và sai khớp cắn'?",
+    "options": [
+      {
+        "text": "Viêm mũi dị ứng theo mùa",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự tắt nghẽn mũi một phần",
+        "isCorrect": false
+      },
+      {
+        "text": "Thói quen thở miệng (không do tắc nghẽn)",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự tắt nghẽn mũi hoàn toàn",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Sự tắt nghẽn mũi hoàn toàn: ảnh hưởng đến tăng trưởng và sai khớp cắn."
+  },
+  {
+    "question": "Kiểu thở miệng (không rõ nguyên nhân tắc nghẽn) thường gặp nhiều trong thể loại kiểu mặt nào?",
+    "options": [
+      {
+        "text": "Thể loại 'mặt ngắn' (short face)",
+        "isCorrect": false
+      },
+      {
+        "text": "Thể loại 'mặt lồi'",
+        "isCorrect": false
+      },
+      {
+        "text": "Thể loại 'mặt dài' (long face)",
+        "isCorrect": true
+      },
+      {
+        "text": "Thể loại 'mặt vuông'",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Thở miệng gặp nhiều trong thể loại 'mặt dài' mặc dù không phát hiện những chứng có tắc nghẽn đường mũi."
+  },
+  {
+    "question": "Thở miệng (không do tắc nghẽn hoàn toàn) thường được xem là gì trong bệnh căn sai khớp cắn?",
+    "options": [
+      {
+        "text": "Nguyên nhân chính và duy nhất gây sai khớp cắn",
+        "isCorrect": false
+      },
+      {
+        "text": "Hậu quả của sai khớp cắn",
+        "isCorrect": false
+      },
+      {
+        "text": "Một yếu tố nguy cơ, góp phần vào sai khớp cắn",
+        "isCorrect": true
+      },
+      {
+        "text": "Một yếu tố không liên quan đến sai khớp cắn",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Thật sự khó xác định bệnh căn của thở miệng, thường thở miệng được xem là một yếu tố nguy cơ, góp phần vào sự sai khớp cắn."
+  },
+  {
+    "question": "Sự thiếu hụt chất khoáng nào sau đây được đề cập là có thể gây khớp cắn sai?",
+    "options": [
+      {
+        "text": "Kẽm",
+        "isCorrect": false
+      },
+      {
+        "text": "Calci",
+        "isCorrect": true
+      },
+      {
+        "text": "Sắt",
+        "isCorrect": false
+      },
+      {
+        "text": "Magie",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Thiếu calci do hấp thu của cơ thể hay do dinh dưỡng có thể gây khớp cắn sai."
+  },
+  {
+    "question": "Yếu tố nào trong thời kỳ mang thai được đề cập là ảnh hưởng đến sự phát triển của thai nhi (trong mục 3.3. Dinh dưỡng)?",
+    "options": [
+      {
+        "text": "Tập thể dục quá sức",
+        "isCorrect": false
+      },
+      {
+        "text": "Căng thẳng (stress)",
+        "isCorrect": false
+      },
+      {
+        "text": "Thiếu ngủ",
+        "isCorrect": false
+      },
+      {
+        "text": "Rối loạn chuyển hoá",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Rối loạn chuyển hoá trong thời kỳ mang thai cũng ảnh hưởng đến sự phát triển của thai nhi."
+  },
+  {
+    "question": "Theo kết luận, sai khớp cắn hầu như luôn luôn không thay đổi nữa sau khi sự kiện nào chấm dứt?",
+    "options": [
+      {
+        "text": "Sự mọc răng khôn",
+        "isCorrect": false
+      },
+      {
+        "text": "Giai đoạn dậy thì",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự tăng trưởng",
+        "isCorrect": true
+      },
+      {
+        "text": "Sau 25 tuổi",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sai khớp cắn, dù ở mức độ nào, hầu như luôn luôn không thay đổi nữa sau khi sự tăng trưởng chấm dứt."
+  },
+  {
+    "question": "Tại sao việc điều trị sai khớp cắn ở người trưởng thành lại khó khăn?",
+    "options": [
+      {
+        "text": "Vì răng người trưởng thành không thể di chuyển",
+        "isCorrect": false
+      },
+      {
+        "text": "Vì chi phí điều trị quá cao",
+        "isCorrect": false
+      },
+      {
+        "text": "Vì đa số phương pháp điều trị dựa vào sự tăng trưởng (đã chấm dứt)",
+        "isCorrect": true
+      },
+      {
+        "text": "Vì người trưởng thành không tuân thủ điều trị",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Điều trị sai khớp cắn ở người trưởng thành tuy khó khăn vì đa số phương pháp điều trị chỉnh hình răng mặt thường dựa vào sự tăng trưởng của bệnh nhân (mà người lớn thì đã ngưng tăng trưởng)."
+  },
+  {
+    "question": "Tại sao kết quả điều trị chỉnh hình ở người trưởng thành lại được cho là 'ổn định hơn'?",
+    "options": [
+      {
+        "text": "Vì xương người lớn cứng hơn, giữ răng tốt hơn",
+        "isCorrect": false
+      },
+      {
+        "text": "Vì các yếu tố bệnh căn (như tăng trưởng, thói quen) thường không còn",
+        "isCorrect": true
+      },
+      {
+        "text": "Vì thời gian điều trị ngắn hơn",
+        "isCorrect": false
+      },
+      {
+        "text": "Vì họ đeo hàm duy trì tốt hơn trẻ em",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Phần lớn các kết quả điều trị ở người trưởng thành lại ổn định hơn. Các yếu tố bệnh căn thường không hiện diện nữa sau khi sự tăng trưởng hoàn tất."
+  },
+  {
+    "question": "Tóm lại, tài liệu kết luận sai khớp cắn là vấn đề thuộc về sự gì?",
+    "options": [
+      {
+        "text": "Sự di truyền",
+        "isCorrect": false
+      },
+      {
+        "text": "Dinh dưỡng",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự tăng trưởng",
+        "isCorrect": true
+      },
+      {
+        "text": "Các thói quen xấu",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tóm lại sai khớp cắn là vấn đề thuộc về sự tăng trưởng."
+  },
+  {
+    "question": "Theo tài liệu, sai khớp cắn thường là do đâu?",
+    "options": [
+      {
+        "text": "Sự tương tác giữa nhiều yếu tố ảnh hưởng đến phát triển",
+        "isCorrect": true
+      },
+      {
+        "text": "Chỉ do di truyền từ cha mẹ",
+        "isCorrect": false
+      },
+      {
+        "text": "Một yếu tố bệnh căn đặc thù duy nhất",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ do các thói quen chức năng (môi trường)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Thông thường, sai khớp cắn là do sự tương tác giữa nhiều yếu tố ảnh hưởng đến sự phát triển và tăng trưởng ở mức độ vừa phải, khó xác định một yếu tố bệnh căn đặc thù."
+  },
+  {
+    "question": "Răng nào sau đây KHÔNG được liệt kê là răng thường thiếu bẩm sinh (Hypodontia)?",
+    "options": [
+      {
+        "text": "Răng cối lớn thứ ba",
+        "isCorrect": false
+      },
+      {
+        "text": "Răng cối nhỏ thứ hai",
+        "isCorrect": false
+      },
+      {
+        "text": "Răng cối lớn thứ nhất",
+        "isCorrect": true
+      },
+      {
+        "text": "Răng cửa bên",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Răng thiếu thường là răng ở xa nhất của vùng loại răng. Ví dụ: răng cửa bên, răng cối lớn thứ ba, răng cối nhỏ thứ hai. Răng nanh cũng hiếm khi thiếu."
+  },
+  {
+    "question": "Tác động nào của cơ được cho là quyết định vị trí của hàm dưới?",
+    "options": [
+      {
+        "text": "Điểm bám của cơ vùng cằm",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự teo cơ do tổn thương thần kinh",
+        "isCorrect": false
+      },
+      {
+        "text": "Lực co cơ khi nhai",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự tăng trưởng của cơ mang xương hàm dưới xuống dưới và ra trước",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Sự tăng trưởng của cơ mang theo xương hàm dưới xuống phía dưới và ra trước. Vì vậy, sự tăng trưởng của cơ góp phần quyết định vị trí của hàm dưới."
+  },
+  {
+    "question": "Răng dư (supernumerary tooth) và Răng dị dạng (về hình thể) là hậu quả của rối loạn ở các giai đoạn khác nhau. Răng dị dạng (hình thể) là do rối loạn ở giai đoạn nào?",
+    "options": [
+      {
+        "text": "Giai đoạn mọc răng",
+        "isCorrect": false
+      },
+      {
+        "text": "Giai đoạn biệt hóa (mô học và hình thể)",
+        "isCorrect": true
+      },
+      {
+        "text": "Giai đoạn khởi đầu (lá răng)",
+        "isCorrect": false
+      },
+      {
+        "text": "Giai đoạn ngấm vôi",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Bất thường về kích thước và hình dạng răng là hậu quả của sự rối loạn xảy ra trong thời kỳ biệt hóa về phương diện mô học và hình thể."
+  },
+  {
+    "question": "Hậu quả của việc mất răng nanh sữa và răng cối sữa thứ nhất sớm (cùng bên hoặc khác bên) là gì?",
+    "options": [
+      {
+        "text": "Răng cối vĩnh viễn thứ nhất di gần",
+        "isCorrect": false
+      },
+      {
+        "text": "Không gây ảnh hưởng gì",
+        "isCorrect": false
+      },
+      {
+        "text": "Các răng cửa vĩnh viễn có khuynh hướng di xa (do áp lực môi)",
+        "isCorrect": true
+      },
+      {
+        "text": "Các răng cửa vĩnh viễn có khuynh hướng di gần",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Đối với các răng cối sữa thứ nhất và răng nanh sữa mất sớm, các răng cửa vĩnh viễn có khuynh hướng di xa do áp lực của môi."
+  },
+  {
+    "question": "Hiện tượng 'chân răng tạo thành một góc so với thân răng' ở răng vĩnh viễn có thể là hậu quả của nguyên nhân nào?",
+    "options": [
+      {
+        "text": "Chấn thương ở răng sữa làm dịch chuyển mầm răng vĩnh viễn",
+        "isCorrect": true
+      },
+      {
+        "text": "Răng mọc sai vị trí (ectopic eruption)",
+        "isCorrect": false
+      },
+      {
+        "text": "Thiếu calci trong quá trình hình thành răng",
+        "isCorrect": false
+      },
+      {
+        "text": "Rối loạn nội tiết",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Trường hợp phổ biến (khi chấn thương răng sữa) là sự thành lập chân răng vẫn tiếp diễn nhưng phần còn lại của chân răng sẽ tạo thành một góc so với thân răng đã bị dịch chuyển."
+  },
+  {
+    "question": "Lực nào sau đây được mô tả là 'lực vừa phải' (so với lực nhai 'mạnh' và lực môi 'nhẹ')?",
+    "options": [
+      {
+        "text": "Lực của dây chằng nha chu",
+        "isCorrect": false
+      },
+      {
+        "text": "Lực nhai",
+        "isCorrect": false
+      },
+      {
+        "text": "Lực của môi, má, lưỡi ở tư thế nghỉ",
+        "isCorrect": false
+      },
+      {
+        "text": "Lực chỉnh hình và thói quen (mút tay)",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Áp lực từ bên ngoài: thói quen, chỉnh hình là loại lực vừa phải, có thể làm thay đổi vị trí của răng."
+  },
+  {
+    "question": "Tình trạng nào KHÔNG phải là hậu quả điển hình của thói quen mút tay kéo dài sau khi răng vĩnh viễn mọc?",
+    "options": [
+      {
+        "text": "Răng cửa trên mọc chìa ra trước",
+        "isCorrect": false
+      },
+      {
+        "text": "Cắn sâu vùng răng trước",
+        "isCorrect": true
+      },
+      {
+        "text": "Hẹp cung răng hàm trên",
+        "isCorrect": false
+      },
+      {
+        "text": "Cắn hở răng trước",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Các biểu hiện sai khớp cắn gồm: răng cửa trên mọc chìa ra trước, có khe hở, răng cửa dưới nghiêng vào trong, cắn hở răng trước, hẹp cung răng hàm trên. Cắn sâu không được liệt kê là hậu quả."
+  },
+  {
+    "question": "Theo quan điểm hiện nay, đẩy lưỡi khi nuốt ở trẻ có cắn hở thường được xem là gì?",
+    "options": [
+      {
+        "text": "Nguyên nhân chính gây ra cắn hở",
+        "isCorrect": false
+      },
+      {
+        "text": "Hậu quả (sự thích nghi) của sự di chuyển răng cửa trước đó",
+        "isCorrect": true
+      },
+      {
+        "text": "Một biểu hiện bình thường của giai đoạn nuốt nhũ nhi",
+        "isCorrect": false
+      },
+      {
+        "text": "Một thói quen không ảnh hưởng đến răng",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Ở trẻ có sự hiện diện của cắn hở, đẩy lưỡi khi nuốt được xem là hậu quả của sự di chuyển răng cửa trước đó chứ không phải là nguyên nhân (do trẻ đặt lưỡi để đóng kín miệng khi nuốt)."
+  }
+]

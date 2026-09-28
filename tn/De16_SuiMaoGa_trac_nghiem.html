@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sùi mào gà (Condylomata acuminata) — Trắc nghiệm</title>
+<style>
+  :root{--card:#1e293b;--accent:#a78bfa;--ok:#22c55e;--bad:#ef4444;--txt:#e2e8f0;--muted:#94a3b8;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(160deg,#0f172a,#1c1339);color:var(--txt);line-height:1.5;padding:16px;}
+  .wrap{max-width:820px;margin:0 auto;}
+  header{text-align:center;padding:14px 0 8px;}
+  header h1{font-size:1.35rem;margin:0 0 4px;color:#fff;}
+  header p{margin:2px 0;color:var(--muted);font-size:.9rem;}
+  .topnav{text-align:center;margin-top:8px;}
+  .topnav a{color:var(--accent);font-size:.82rem;text-decoration:none;}
+  .panel{background:var(--card);border:1px solid #334155;border-radius:14px;padding:20px;margin-top:16px;box-shadow:0 8px 30px rgba(0,0,0,.35);}
+  .bar{height:8px;background:#0b1220;border-radius:99px;overflow:hidden;margin:10px 0 4px;}
+  .bar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),#22c55e);transition:width .3s;}
+  .meta{display:flex;justify-content:space-between;font-size:.82rem;color:var(--muted);margin-bottom:6px;flex-wrap:wrap;gap:6px;}
+  .q{font-size:1.08rem;font-weight:600;margin:6px 0 14px;color:#fff;}
+  .opt{display:block;width:100%;text-align:left;background:#0b1220;border:1.5px solid #334155;color:var(--txt);border-radius:10px;padding:12px 14px;margin:8px 0;cursor:pointer;font-size:.98rem;transition:all .15s;}
+  .opt:hover:not(:disabled){border-color:var(--accent);}
+  .opt .k{display:inline-block;width:22px;font-weight:700;color:var(--accent);}
+  .opt.correct{border-color:var(--ok);background:rgba(34,197,94,.12);}
+  .opt.wrong{border-color:var(--bad);background:rgba(239,68,68,.12);}
+  .opt:disabled{cursor:default;opacity:.95;}
+  .explain{margin-top:10px;padding:11px 13px;border-radius:10px;background:#0b1220;border-left:4px solid var(--accent);font-size:.9rem;color:#cbd5e1;display:none;}
+  .explain.show{display:block;}
+  .row{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;}
+  button.btn{background:var(--accent);color:#221046;border:none;border-radius:10px;padding:11px 18px;font-weight:700;cursor:pointer;font-size:.95rem;}
+  button.btn.sec{background:#334155;color:#e2e8f0;}
+  button.btn:disabled{opacity:.4;cursor:not-allowed;}
+  .center{text-align:center;}
+  .big{font-size:2.4rem;font-weight:800;color:#fff;margin:6px 0;}
+  .tag{display:inline-block;font-size:.72rem;background:#0b1220;border:1px solid #334155;color:var(--muted);padding:3px 9px;border-radius:99px;margin-bottom:8px;}
+  .grid{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+  .chip{font-size:.8rem;padding:6px 10px;border-radius:8px;border:1px solid #334155;background:#0b1220;cursor:pointer;}
+  .chip.on{border-color:var(--accent);color:var(--accent);}
+  .review-item{border-top:1px solid #334155;padding:12px 0;font-size:.9rem;}
+  .review-item .ri-q{font-weight:600;color:#fff;}
+  .review-item .ri-a{color:#cbd5e1;margin-top:4px;}
+  .ok{color:var(--ok)} .bad{color:var(--bad)}
+  a.src{color:var(--muted);font-size:.78rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">DA LIỄU · SÙI MÀO GÀ</span>
+    <h1>Sùi mào gà (Condylomata acuminata) — Trắc nghiệm</h1>
+    <p>Ôn tập trắc nghiệm bám sát bài giảng Da liễu</p>
+    <div class="topnav"><a href="index.html">&#8592; Danh sách đề</a></div>
+  </header>
+
+  <div class="panel" id="start">
+    <p>Bộ câu hỏi bám sát tài liệu. Mỗi câu có 4 phương án gần giống nhau để tăng độ khó. Chọn số câu muốn luyện:</p>
+    <div class="grid" id="countChips"></div>
+    <div class="row">
+      <label style="display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)">
+        <input type="checkbox" id="shuffle" checked> Xáo trộn câu hỏi &amp; đáp án
+      </label>
+    </div>
+    <div class="row">
+      <button class="btn" onclick="startQuiz()">Bắt đầu luyện tập &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel" id="quiz" style="display:none">
+    <div class="meta"><span id="progressTxt"></span><span id="scoreTxt"></span></div>
+    <div class="bar"><i id="progressBar"></i></div>
+    <div class="q" id="qText"></div>
+    <div id="opts"></div>
+    <div class="explain" id="explain"></div>
+    <div class="row">
+      <button class="btn sec" id="skipBtn" onclick="nextQ()">Bỏ qua</button>
+      <button class="btn" id="nextBtn" onclick="nextQ()" disabled>Câu tiếp &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel center" id="result" style="display:none">
+    <p class="tag">KẾT QUẢ</p>
+    <div class="big" id="finalScore"></div>
+    <p id="finalMsg" style="color:var(--muted)"></p>
+    <div class="row" style="justify-content:center">
+      <button class="btn" onclick="location.reload()">Làm lại &#8635;</button>
+      <button class="btn sec" onclick="toggleReview()">Xem lại bài &#9662;</button>
+    </div>
+    <div id="review" style="text-align:left;display:none;margin-top:14px"></div>
+  </div>
+
+  <p class="center" style="margin-top:18px"><a class="src" href="Sùi mào gà (Condylomata acuminata) — ThS.BS. Mai Thị Cẩm Cát, Bộ môn Da liễu, ĐH Y Dược Huế">Nguồn: Sùi mào gà (Condylomata acuminata) — ThS.BS. Mai Thị Cẩm Cát, Bộ môn Da liễu, ĐH Y Dược Huế</a></p>
+</div>
+
+<script>
+const BANK = [{"q": "Sùi mào gà (Condylomata acuminata) do tác nhân nào gây ra?", "a": ["Neisseria gonorrhoeae", "Herpes simplex virus (HSV)", "Human Papillomavirus (HPV)", "Treponema pallidum"], "c": 2, "e": "Sùi mào gà do Human Papillomavirus (HPV) gây ra; còn gọi là hạt cơm/mụn cóc sinh dục."}, {"q": "Bản chất tổn thương của sùi mào gà là:", "a": ["Thoái hóa tế bào hắc tố", "Loét sâu phá hủy tổ chức", "Tăng sinh tế bào thượng bì niêm mạc và cạnh niêm mạc", "Viêm mạch máu dị ứng"], "c": 2, "e": "SMG biểu hiện bằng tăng sinh tế bào thượng bì niêm mạc và cạnh niêm mạc do HPV."}, {"q": "HPV thuộc họ virus nào?", "a": ["Papovavirus", "Retrovirus", "Poxvirus", "Herpesvirus"], "c": 0, "e": "Human Papillomavirus (HPV) thuộc họ Papovavirus."}, {"q": "Các type HPV NGUY CƠ THẤP thường gây sùi mào gà là:", "a": ["Type 6, 11", "Type 16, 18", "Type 31, 33", "Type 45, 52"], "c": 0, "e": "Type nguy cơ thấp (gây SMG): 6, 11. Type nguy cơ cao (liên quan ung thư): 16, 18, 31, 33, 35..."}, {"q": "Các type HPV NGUY CƠ CAO (liên quan ung thư) bao gồm:", "a": ["Type 16, 18, 31, 33, 35", "Type 61, 70", "Type 42, 44", "Type 6, 11"], "c": 0, "e": "Type nguy cơ cao: 16, 18, 28, 31, 33, 35... liên quan tân sinh trong biểu mô độ cao và ung thư xâm lấn."}, {"q": "Ở Mỹ, tỉ lệ người đã quan hệ tình dục nhiễm HPV type sinh dục khoảng:", "a": ["75%", "10%", "1-2%", "25%"], "c": 0, "e": "Ở Mỹ, 75% người đã quan hệ tình dục nhiễm HPV type sinh dục."}, {"q": "Tỉ lệ người nhiễm HPV có biểu hiện lâm sàng (sùi mào gà) khoảng:", "a": ["15-28%", "1-2%", "40%", "75%"], "c": 1, "e": "Chỉ 1-2% người mắc HPV có biểu hiện lâm sàng (sùi mào gà)."}, {"q": "Đường lây truyền chính của HPV/sùi mào gà là:", "a": ["Đường tiêu hóa", "Muỗi đốt", "Tiếp xúc da-da (kể cả tiếp xúc da đơn thuần) khi quan hệ tình dục", "Đường hô hấp"], "c": 2, "e": "HPV lây qua tiếp xúc da-da (skin to skin), bao gồm cả tiếp xúc da đơn thuần; ngoài ra lây chu sinh (perinatal), trước sinh."}, {"q": "Nguồn lây của sùi mào gà là:", "a": ["Động vật mang HPV", "Người nhiễm HPV (có SMG, nhiễm dưới lâm sàng hoặc tiềm tàng)", "Đất và nước nhiễm HPV", "Chỉ người có sùi mào gà rõ ràng"], "c": 1, "e": "Nguồn lây: người nhiễm HPV — bao gồm người có SMG, nhiễm dưới lâm sàng và nhiễm tiềm tàng."}, {"q": "Yếu tố nào KHÔNG phải yếu tố nguy cơ MẮC HPV?", "a": ["Quan hệ tình dục sớm", "Quan hệ đồng giới nam", "Hút thuốc lá", "Nhiều bạn tình, tần số giao hợp cao"], "c": 2, "e": "Yếu tố nguy cơ MẮC HPV: QHTD sớm, nhiều bạn tình/tần số cao, bạn tình nhiễm HPV, QH đồng giới nam, nhiễm STIs khác. Hút thuốc lá là yếu tố nguy cơ có BIỂU HIỆN lâm sàng."}, {"q": "Yếu tố nguy cơ làm HPV có BIỂU HIỆN LÂM SÀNG (thành sùi mào gà) bao gồm:", "a": ["Suy giảm miễn dịch (HIV, thuốc ức chế MD, ĐTĐ), cấy ghép tạng, hút thuốc lá", "Quan hệ đồng giới nam", "Quan hệ tình dục sớm", "Nhiều bạn tình"], "c": 0, "e": "Yếu tố nguy cơ có biểu hiện lâm sàng: suy giảm miễn dịch (nhiễm HIV, dùng thuốc ức chế MD, ĐTĐ), cấy ghép tạng, hút thuốc lá."}, {"q": "Trong cơ chế bệnh sinh, HPV xâm nhập vào loại tế bào nào đầu tiên?", "a": ["Tế bào sừng đã chết", "Tế bào nội mô mạch máu", "Tế bào lympho", "Tế bào đáy (basal cells) sau một vi chấn thương"], "c": 3, "e": "HPV nhiễm tế bào đáy sau vi chấn thương nhỏ, rồi nhân lên trong TB vật chủ."}, {"q": "Đặc điểm quan trọng về cơ chế bệnh sinh của HPV là:", "a": ["Nhân lên trong máu", "Luôn gây nhiễm khuẩn huyết", "Phá hủy tế bào đáy ngay lập tức", "Không có giai đoạn virus huyết"], "c": 3, "e": "HPV nhân lên trong tế bào vật chủ gây tăng sinh TB và hình thành thương tổn; KHÔNG có giai đoạn virus huyết."}, {"q": "Tế bào đặc trưng do HPV gây ra (thấy trên mô bệnh học) là:", "a": ["Clue cell", "Tế bào Tzanck", "Tế bào khổng lồ đa nhân", "Koilocyte (koilocytosis)"], "c": 3, "e": "HPV gây hình ảnh koilocytosis (tế bào rỗng - koilocyte) khi lắp ráp virion."}, {"q": "Tỉ lệ sùi mào gà không phát hiện HPV DNA sau 1-2 năm (tự khỏi) khoảng:", "a": ["15-28%", "40%", "70-90%", "1-2%"], "c": 2, "e": "Khoảng 70-90% trường hợp không phát hiện HPV DNA sau 1-2 năm (tự thải trừ virus)."}, {"q": "Với HPV type 16, 18, tỉ lệ diễn tiến thành CIN (tân sinh trong biểu mô cổ tử cung) trong 2 năm khoảng:", "a": ["70%", "5%", "1-2%", "40%"], "c": 3, "e": "15-28% nhiễm HPV → CIN trong 2 năm; riêng type 16, 18 khoảng 40%."}, {"q": "Thời gian ủ bệnh của sùi mào gà là:", "a": ["3 tuần - 8 tháng", "1-2 ngày", "2-4 ngày", "5-10 năm"], "c": 0, "e": "Ủ bệnh sùi mào gà: 3 tuần đến 8 tháng."}, {"q": "Triệu chứng cơ năng của sùi mào gà thường là:", "a": ["Sốt cao, rét run", "Loét sâu chảy mủ", "Thường không có triệu chứng; có thể ngứa, rát, chảy máu/đau khi giao hợp", "Luôn đau dữ dội"], "c": 2, "e": "Cơ năng SMG: thường không triệu chứng; có thể ngứa, rát, chảy máu hoặc đau khi giao hợp, tắc nghẽn, lo lắng."}, {"q": "Màu sắc của thương tổn sùi mào gà có thể là:", "a": ["Xanh tím", "Luôn màu đen", "Màu da, đỏ, hồng, nâu", "Luôn trắng đục"], "c": 2, "e": "Màu sắc SMG đa dạng: màu da, đỏ, hồng, nâu."}, {"q": "Vị trí sùi mào gà ở NAM giới thường gặp là:", "a": ["Cổ tử cung", "Vòi trứng", "Hãm môi âm hộ", "Thân dương vật, quy đầu, đai quy đầu, dây hãm"], "c": 3, "e": "Vị trí ở nam: thân dương vật, quy đầu, đai quy đầu, dây hãm..."}, {"q": "Vị trí sùi mào gà có thể gặp ở CẢ HAI GIỚI là:", "a": ["Chỉ ở lòng bàn tay", "Chỉ ở dương vật", "Hậu môn, quanh hậu môn-sinh dục, bẹn, mu, lưỡi, hầu họng", "Chỉ ở cổ tử cung"], "c": 2, "e": "Ở cả hai giới: hậu môn, vùng da quanh hậu môn-sinh dục, bẹn, mu, lưỡi, hầu họng..."}, {"q": "Đặc điểm phân bố thương tổn của sùi mào gà là:", "a": ["Thường nhiều hơn một thương tổn, ở nhiều vị trí → cần thăm khám kỹ", "Chỉ ở một vị trí duy nhất", "Luôn chỉ một thương tổn đơn độc", "Đối xứng tuyệt đối hai bên"], "c": 0, "e": "SMG thường có nhiều hơn một thương tổn, ở nhiều vị trí, nên cần thăm khám kỹ càng."}, {"q": "Sùi mào gà có mấy dạng (thể) lâm sàng?", "a": ["3 thể", "5 thể", "4 thể", "2 thể"], "c": 2, "e": "SMG có 4 thể lâm sàng: sẩn nhỏ, sùi dạng súp lơ, hạt cơm sừng, sẩn mảng phẳng."}, {"q": "Bốn thể lâm sàng của sùi mào gà bao gồm:", "a": ["Sẩn nhỏ, sùi dạng súp lơ, hạt cơm sừng, sẩn mảng phẳng", "Dát, sẩn, mảng, cục", "Sẩn, mụn nước, bọng nước, loét", "Cấp, bán cấp, mạn, tái phát"], "c": 0, "e": "4 thể: sẩn nhỏ (papular warts), sùi dạng súp lơ (condylomata acuminata), hạt cơm sừng (keratotic warts), sẩn mảng phẳng (flat-topped papules)."}, {"q": "Thể sùi mào gà điển hình 'dạng súp lơ' tương ứng với thuật ngữ nào?", "a": ["Papular warts", "Keratotic warts", "Condylomata acuminata", "Flat-topped papules"], "c": 2, "e": "Sùi dạng súp lơ = Condylomata acuminata (thể kinh điển của sùi mào gà)."}, {"q": "Nghiệm pháp cận lâm sàng dùng acid acetic để bộc lộ thương tổn HPV là:", "a": ["Test Nikolsky", "Test Tzanck", "Whiff test với KOH", "Test whitening với acid acetic 3-5% (thương tổn trắng lên)"], "c": 3, "e": "Test whitening: bôi acid acetic 3-5%, thương tổn HPV chuyển màu trắng (whitening)."}, {"q": "Xét nghiệm nào cho phép định TYPE HPV?", "a": ["Pap smear", "Test acid acetic", "Nhuộm Gram", "PCR (HPV PCR real-time, định type HPV)"], "c": 3, "e": "PCR (HPV PCR real-time) cho phép phát hiện và định type HPV."}, {"q": "Xét nghiệm Papanicolaou (Pap smear) trong bối cảnh HPV có vai trò:", "a": ["Đo hiệu giá kháng thể", "Xác định nhuộm Gram lậu cầu", "Định type HPV", "Tầm soát tổn thương/ung thư cổ tử cung"], "c": 3, "e": "Pap smear (phết tế bào cổ tử cung) dùng tầm soát tổn thương/ung thư CTC; ngoài ra làm mô bệnh học, PCR, xét nghiệm STIs khác."}, {"q": "Chẩn đoán sùi mào gà chủ yếu dựa vào:", "a": ["Lâm sàng và tiền sử quan hệ tình dục", "Chỉ chụp CT", "Chỉ nuôi cấy virus", "Chỉ huyết thanh học"], "c": 0, "e": "Chẩn đoán SMG chủ yếu dựa vào lâm sàng và tiền sử QHTD."}, {"q": "Chẩn đoán phân biệt sùi mào gà KHÔNG bao gồm bệnh nào?", "a": ["Hạt ngọc sinh dục (pearly penile papules)", "Vảy nến thể mảng", "Gai sinh dục (vestibular papillomatosis)", "U mềm lây (molluscum contagiosum)"], "c": 1, "e": "CĐPB SMG: hạt ngọc sinh dục, gai sinh dục, u mềm lây, lichen nitidus, ghẻ, Fordyce. Vảy nến thể mảng không thuộc nhóm này."}, {"q": "Để phân biệt gai sinh dục (vestibular papillomatosis) với sùi mào gà, đặc điểm của gai sinh dục là:", "a": ["Phân bố đối xứng/thẳng hàng, mềm, màu hồng như niêm mạc, các gai có chân riêng biệt", "Phân bố không đều, cứng, các nhú chụm vào một chân chung", "Bề mặt sừng hóa", "Acid acetic làm trắng khu trú"], "c": 0, "e": "Vestibular papillomatosis: phân bố đối xứng/thẳng hàng, sờ mềm, màu hồng như niêm mạc, chân các gai riêng biệt, acid acetic không làm trắng khu trú — khác với genital warts (không đều, cứng, chụm chân chung, trắng khu trú)."}, {"q": "Nghiệm pháp acid acetic giúp phân biệt sùi mào gà với gai sinh dục như thế nào?", "a": ["Cả hai đều không đổi màu", "Gai sinh dục trắng, sùi mào gà không", "Cả hai đều trắng như nhau", "Sùi mào gà trắng khu trú (+), gai sinh dục không trắng khu trú"], "c": 3, "e": "Với acid acetic: sùi mào gà cho vùng trắng khu trú (circumscribed whitening); gai sinh dục không có vùng trắng khu trú."}, {"q": "Nguyên tắc điều trị sùi mào gà bao gồm:", "a": ["Không cần sàng lọc bệnh khác", "Điều trị đến khi diệt sạch hoàn toàn virus", "Chỉ điều trị người bệnh, không cần bạn tình", "Điều trị cả bạn tình, không quan hệ khi đang điều trị, sàng lọc STDs khác, theo dõi định kỳ"], "c": 3, "e": "Nguyên tắc: điều trị cho cả bạn tình, không QH trong thời gian điều trị, sàng lọc STDs khác (HIV, giang mai, lậu, Chlamydia), theo dõi định kỳ."}, {"q": "Mục tiêu điều trị sùi mào gà là:", "a": ["Chỉ giảm đau", "Ngăn ngừa tái nhiễm vĩnh viễn", "Loại bỏ thương tổn, cải thiện triệu chứng, giảm lây truyền (chưa có PP loại bỏ hoàn toàn virus)", "Diệt sạch hoàn toàn HPV khỏi cơ thể"], "c": 2, "e": "Mục tiêu: loại bỏ thương tổn, cải thiện triệu chứng, giảm lây truyền; chưa có phương pháp điều trị đặc hiệu loại bỏ hoàn toàn virus; cần cá nhân hóa điều trị."}, {"q": "Nhóm thuốc nào sau đây là 'liệu pháp miễn dịch' trong điều trị sùi mào gà?", "a": ["TCA, BCA", "Imiquimod, sinecatechins, interferon", "Nitơ lỏng", "Podofilox, podophyllum"], "c": 1, "e": "Liệu pháp miễn dịch: imiquimod, sinecatechins, interferon. Podofilox/podophyllum/TCA/BCA là tác nhân gây độc-hủy tế bào; nitơ lỏng là thủ thuật."}, {"q": "Cơ chế tác dụng của kem Imiquimod là:", "a": ["Đông vón protein tế bào", "Chống phân bào trực tiếp", "Gây bỏng lạnh", "Tăng cường miễn dịch tại chỗ, kích thích sản xuất interferon và cytokine khác"], "c": 3, "e": "Imiquimod (Aldara, Imiquad): tăng cường miễn dịch tại chỗ, kích thích sản xuất interferon và các cytokine khác."}, {"q": "Cách dùng kem Imiquimod trong điều trị sùi mào gà là:", "a": ["Thoa 3 lần/ngày trong 3 ngày", "Thoa trước khi đi ngủ, 3 lần/tuần, tối đa 16 tuần, rửa sau 10 giờ", "Bôi 1 lần/tuần", "Uống hằng ngày"], "c": 1, "e": "Imiquimod: thoa trước khi đi ngủ 3 lần/tuần, tối đa 16 tuần, rửa sau 10 giờ."}, {"q": "Cơ chế của Podofilox 0.5% là:", "a": ["Gây bỏng lạnh", "Chống phân bào và hủy tế bào", "Đông vón protein", "Tăng cường miễn dịch tại chỗ"], "c": 1, "e": "Podofilox 0.5%: chống phân bào và hủy tế bào."}, {"q": "Cách dùng Podofilox 0.5% là:", "a": ["Uống liều duy nhất", "Thoa 2 lần/ngày x 3 ngày, nghỉ 4 ngày; tối đa 4 tuần", "Bôi 1 tuần/lần", "Thoa 3 lần/tuần trong 16 tuần"], "c": 1, "e": "Podofilox 0.5%: thoa 2 lần/ngày trong 3 ngày rồi nghỉ 4 ngày, tối đa 4 tuần; CCĐ phụ nữ có thai, kém hiệu quả nếu tổn thương > 10cm²."}, {"q": "Thuốc bôi nào CHỐNG CHỈ ĐỊNH ở phụ nữ có thai?", "a": ["TCA/BCA", "Podofilox và Podophyllum", "Nước muối sinh lý", "Nitơ lỏng"], "c": 1, "e": "Podofilox và Podophyllum chống chỉ định ở phụ nữ có thai; TCA/BCA thì dùng được cho phụ nữ có thai."}, {"q": "Đặc điểm cần lưu ý khi dùng Podophyllum 25% là:", "a": ["Chỉ dùng đường uống", "Độc tính và hấp thu toàn thân: bôi <0.5ml/lần, không dùng cho tổn thương >10cm²", "An toàn cho phụ nữ có thai", "Không có độc tính toàn thân, dùng liều lớn tùy ý"], "c": 1, "e": "Podophyllum 25%: ngăn phân chia tế bào, có độc tính và hấp thu toàn thân nên bôi <0.5ml/lần, không dùng cho tổn thương >10cm², bôi 3 lần/ngày dưới 16 tuần, rửa sau 1-4h, CCĐ phụ nữ có thai."}, {"q": "Cơ chế của Trichloroacetic acid (TCA) là:", "a": ["Chống phân bào", "Gây bỏng lạnh", "Tăng cường miễn dịch", "Đông vón protein, hủy hoại tế bào sừng"], "c": 3, "e": "TCA (và BCA): đông vón protein, hủy hoại tế bào sừng; nồng độ TCA 33-50-80%."}, {"q": "Ưu điểm của TCA/BCA so với podofilox/podophyllum là:", "a": ["Tác dụng nhanh trong 1 ngày", "Sử dụng được cho phụ nữ có thai", "Rẻ hơn nhiều", "Không gây kích ứng da"], "c": 1, "e": "TCA/BCA sử dụng được cho phụ nữ có thai (dùng 1 tuần/lần), khác với podofilox/podophyllum bị chống chỉ định."}, {"q": "Thủ thuật dùng nitơ lỏng trong điều trị sùi mào gà có đặc điểm:", "a": ["Nhiệt độ -196°C, gây bỏng lạnh làm bong thương tổn, không cần gây tê, 1 tuần/lần", "Cần gây mê toàn thân", "Nhiệt độ +196°C, đốt nóng", "Bôi hằng ngày tại nhà"], "c": 0, "e": "Nitơ lỏng: T = -196°C, gây bỏng lạnh làm bong thương tổn, không cần gây tê, thực hiện 1 tuần/lần."}, {"q": "Trong theo dõi sùi mào gà, bệnh nhân thường được tái khám định kỳ:", "a": ["Mỗi tuần suốt đời", "Mỗi 5 năm", "Mỗi 3 tháng (hoặc khi xuất hiện thương tổn mới)", "Chỉ khám một lần duy nhất"], "c": 2, "e": "Theo dõi: tái khám khi xuất hiện thương tổn hoặc định kỳ mỗi 3 tháng."}, {"q": "Sau bao lâu sạch thương tổn thì sùi mào gà gần như không còn khả năng lây?", "a": ["Sau 1 tuần", "Sau 2 năm", "Sau 3 tháng", "Ngay khi hết thương tổn"], "c": 1, "e": "Sau 2 năm sạch thương tổn, gần như không còn khả năng lây."}, {"q": "Các loại vaccine HPV hiện có bao gồm:", "a": ["Loại 5 type và 10 type", "Chỉ có loại 9 type", "Chỉ có loại 1 type", "Loại 2 type, 4 type và 9 type"], "c": 3, "e": "Vaccine HPV có 3 loại: 2 type, 4 type và 9 type (ví dụ Gardasil)."}, {"q": "Theo ACIP, độ tuổi khuyến cáo tiêm vaccine HPV thường quy là:", "a": ["11-12 tuổi (có thể bắt đầu từ 9 tuổi) đến 26 tuổi", "Chỉ sau 30 tuổi", "Chỉ trẻ dưới 5 tuổi", "Chỉ người trên 45 tuổi"], "c": 0, "e": "ACIP: tiêm 11-12 tuổi đến 26 tuổi, có thể bắt đầu từ 9 tuổi."}, {"q": "Thời điểm tiêm vaccine HPV tối ưu nhất là:", "a": ["Sau khi đã nhiễm HPV", "Sau khi có sùi mào gà", "Trước khi bắt đầu quan hệ tình dục", "Chỉ khi mang thai"], "c": 2, "e": "Tối ưu nhất: tiêm vaccine HPV trước khi quan hệ tình dục (chưa phơi nhiễm HPV)."}, {"q": "Với người 26-45 tuổi, việc tiêm vaccine HPV được cân nhắc khi:", "a": ["Tuyệt đối không được tiêm", "Bắt buộc tiêm cho mọi người", "Ít nguy cơ đã tiếp xúc HPV trước đây thì có thể tiêm", "Chỉ tiêm nếu đã có sùi mào gà"], "c": 2, "e": "Người 26-45 tuổi: nếu ít nguy cơ tiếp xúc HPV trước đây thì có thể tiêm được."}, {"q": "Khi điều trị sùi mào gà, cần sàng lọc các bệnh lây truyền qua đường tình dục nào khác?", "a": ["HIV, giang mai, lậu, Chlamydia", "Cúm, sởi", "Viêm gan A, thương hàn", "Lao, sốt rét"], "c": 0, "e": "Cần sàng lọc các STDs khác: HIV, giang mai, lậu, Chlamydia."}, {"q": "Type HPV nào thường được phát hiện nhất trong condylomata acuminata (sùi mào gà điển hình)?", "a": ["HPV 16 và 18", "HPV 52 và 58", "HPV 31 và 33", "HPV 6 và 11"], "c": 3, "e": "Condylomata acuminata thường do HPV type 6 và 11 (nhóm nguy cơ thấp)."}];
+let idx=0, score=0, answers=[], quizSet=[];
+const COUNTS=[20,40,60,100];
+function initChips(){const el=document.getElementById('countChips');COUNTS.forEach((n,i)=>{const c=document.createElement('div');c.className='chip'+(i===COUNTS.length-1?' on':'');c.textContent=n>=BANK.length?'Tất cả ('+BANK.length+')':n+' câu';c.dataset.n=Math.min(n,BANK.length);c.onclick=()=>{document.querySelectorAll('#countChips .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');};el.appendChild(c);});}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function startQuiz(){
+  const sel=document.querySelector('#countChips .chip.on');
+  const n=Math.min(parseInt(sel.dataset.n),BANK.length);
+  const doShuffle=document.getElementById('shuffle').checked;
+  let pool=BANK.map((q,i)=>({...q,_i:i}));
+  if(doShuffle)shuffle(pool);
+  quizSet=pool.slice(0,n).map(q=>{
+    let opts=q.a.map((t,i)=>({t,correct:i===q.c}));
+    if(doShuffle)shuffle(opts);
+    return {q:q.q,opts,e:q.e};
+  });
+  idx=0;score=0;answers=[];
+  document.getElementById('start').style.display='none';
+  document.getElementById('result').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  renderQ();
+}
+function renderQ(){
+  const item=quizSet[idx];
+  document.getElementById('progressTxt').textContent='Câu '+(idx+1)+' / '+quizSet.length;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('progressBar').style.width=((idx)/quizSet.length*100)+'%';
+  document.getElementById('qText').textContent=item.q;
+  const box=document.getElementById('opts');box.innerHTML='';
+  const letters=['A','B','C','D'];
+  item.opts.forEach((o,i)=>{
+    const b=document.createElement('button');
+    b.className='opt';
+    b.innerHTML='<span class="k">'+letters[i]+'.</span> '+o.t;
+    b.onclick=()=>choose(i);
+    box.appendChild(b);
+  });
+  const ex=document.getElementById('explain');ex.className='explain';ex.textContent='';
+  document.getElementById('nextBtn').disabled=true;
+  document.getElementById('skipBtn').style.display='inline-block';
+  document.getElementById('nextBtn').textContent=(idx===quizSet.length-1)?'Xem kết quả ✔':'Câu tiếp ▶';
+}
+function choose(i){
+  const item=quizSet[idx];
+  const btns=document.querySelectorAll('#opts .opt');
+  const correctIdx=item.opts.findIndex(o=>o.correct);
+  btns.forEach((b,j)=>{b.disabled=true;if(j===correctIdx)b.classList.add('correct');if(j===i&&i!==correctIdx)b.classList.add('wrong');});
+  const isRight=i===correctIdx;
+  if(isRight)score++;
+  answers.push({q:item.q,chosen:item.opts[i].t,correct:item.opts[correctIdx].t,right:isRight});
+  const ex=document.getElementById('explain');
+  ex.className='explain show';
+  ex.innerHTML=(isRight?'<b class="ok">✔ Chính xác. </b>':'<b class="bad">✘ Chưa đúng. </b>')+item.e;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('nextBtn').disabled=false;
+  document.getElementById('skipBtn').style.display='none';
+}
+function nextQ(){ if(idx<quizSet.length-1){idx++;renderQ();} else finish(); }
+function finish(){
+  document.getElementById('quiz').style.display='none';
+  const r=document.getElementById('result');r.style.display='block';
+  const pct=Math.round(score/quizSet.length*100);
+  document.getElementById('finalScore').textContent=score+' / '+quizSet.length+' ('+pct+'%)';
+  let msg='';
+  if(pct>=90)msg='Xuất sắc! Bạn nắm rất chắc bài.';
+  else if(pct>=70)msg='Tốt! Ôn lại vài câu sai là ổn.';
+  else if(pct>=50)msg='Khá – cần ôn thêm phần sai.';
+  else msg='Hãy đọc lại tài liệu và luyện lại nhé.';
+  document.getElementById('finalMsg').textContent=msg;
+  const rev=document.getElementById('review');rev.innerHTML='';rev.style.display='none';
+  answers.forEach((a,i)=>{
+    const d=document.createElement('div');d.className='review-item';
+    d.innerHTML='<div class="ri-q">'+(i+1)+'. '+a.q+'</div>'+
+      '<div class="ri-a">Bạn chọn: <span class="'+(a.right?'ok':'bad')+'">'+a.chosen+'</span></div>'+
+      (a.right?'':'<div class="ri-a">Đáp án đúng: <span class="ok">'+a.correct+'</span></div>');
+    rev.appendChild(d);
+  });
+}
+function toggleReview(){const r=document.getElementById('review');r.style.display=r.style.display==='none'?'block':'none';}
+initChips();
+</script>
+</body>
+</html>

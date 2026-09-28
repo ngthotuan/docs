@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bệnh da nhiễm khuẩn</title>
+<style>
+  :root{--card:#1e293b;--accent:#fb7185;--ok:#22c55e;--bad:#ef4444;--txt:#e2e8f0;--muted:#94a3b8;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(160deg,#0f172a,#1a0a10);color:var(--txt);line-height:1.5;padding:16px;}
+  .wrap{max-width:820px;margin:0 auto;}
+  header{text-align:center;padding:14px 0 8px;}
+  header h1{font-size:1.35rem;margin:0 0 4px;color:#fff;}
+  header p{margin:2px 0;color:var(--muted);font-size:.9rem;}
+  .topnav{text-align:center;margin-top:8px;}
+  .topnav a{color:var(--accent);font-size:.82rem;text-decoration:none;}
+  .panel{background:var(--card);border:1px solid #334155;border-radius:14px;padding:20px;margin-top:16px;box-shadow:0 8px 30px rgba(0,0,0,.35);}
+  .bar{height:8px;background:#0b1220;border-radius:99px;overflow:hidden;margin:10px 0 4px;}
+  .bar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),#22c55e);transition:width .3s;}
+  .meta{display:flex;justify-content:space-between;font-size:.82rem;color:var(--muted);margin-bottom:6px;flex-wrap:wrap;gap:6px;}
+  .q{font-size:1.08rem;font-weight:600;margin:6px 0 14px;color:#fff;}
+  .opt{display:block;width:100%;text-align:left;background:#0b1220;border:1.5px solid #334155;color:var(--txt);border-radius:10px;padding:12px 14px;margin:8px 0;cursor:pointer;font-size:.98rem;transition:all .15s;}
+  .opt:hover:not(:disabled){border-color:var(--accent);}
+  .opt .k{display:inline-block;width:22px;font-weight:700;color:var(--accent);}
+  .opt.correct{border-color:var(--ok);background:rgba(34,197,94,.12);}
+  .opt.wrong{border-color:var(--bad);background:rgba(239,68,68,.12);}
+  .opt:disabled{cursor:default;opacity:.95;}
+  .explain{margin-top:10px;padding:11px 13px;border-radius:10px;background:#0b1220;border-left:4px solid var(--accent);font-size:.9rem;color:#cbd5e1;display:none;}
+  .explain.show{display:block;}
+  .row{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;}
+  button.btn{background:var(--accent);color:#3a0512;border:none;border-radius:10px;padding:11px 18px;font-weight:700;cursor:pointer;font-size:.95rem;}
+  button.btn.sec{background:#334155;color:#e2e8f0;}
+  button.btn:disabled{opacity:.4;cursor:not-allowed;}
+  .center{text-align:center;}
+  .big{font-size:2.4rem;font-weight:800;color:#fff;margin:6px 0;}
+  .tag{display:inline-block;font-size:.72rem;background:#0b1220;border:1px solid #334155;color:var(--muted);padding:3px 9px;border-radius:99px;margin-bottom:8px;}
+  .grid{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+  .chip{font-size:.8rem;padding:6px 10px;border-radius:8px;border:1px solid #334155;background:#0b1220;cursor:pointer;}
+  .chip.on{border-color:var(--accent);color:var(--accent);}
+  .review-item{border-top:1px solid #334155;padding:12px 0;font-size:.9rem;}
+  .review-item .ri-q{font-weight:600;color:#fff;}
+  .review-item .ri-a{color:#cbd5e1;margin-top:4px;}
+  .ok{color:var(--ok)} .bad{color:var(--bad)}
+  a.src{color:var(--muted);font-size:.78rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">ĐỀ 10 · Trắc nghiệm A/B/C/D</span>
+    <h1>Bệnh da nhiễm khuẩn</h1>
+    <p>Phân loại · Chốc · Nhọt · Viêm quầng · Viêm mô tế bào · SIRS/Sepsis · Điều trị &amp; theo dõi</p>
+    <div class="topnav"><a href="index.html">&#8592; Danh sách đề</a></div>
+  </header>
+
+  <div class="panel" id="start">
+    <p>Bộ câu hỏi bám sát tài liệu. Mỗi câu có 4 phương án gần giống nhau để tăng độ khó. Chọn số câu muốn luyện:</p>
+    <div class="grid" id="countChips"></div>
+    <div class="row">
+      <label style="display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)">
+        <input type="checkbox" id="shuffle" checked> Xáo trộn câu hỏi &amp; đáp án
+      </label>
+    </div>
+    <div class="row">
+      <button class="btn" onclick="startQuiz()">Bắt đầu luyện tập &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel" id="quiz" style="display:none">
+    <div class="meta"><span id="progressTxt"></span><span id="scoreTxt"></span></div>
+    <div class="bar"><i id="progressBar"></i></div>
+    <div class="q" id="qText"></div>
+    <div id="opts"></div>
+    <div class="explain" id="explain"></div>
+    <div class="row">
+      <button class="btn sec" id="skipBtn" onclick="nextQ()">Bỏ qua</button>
+      <button class="btn" id="nextBtn" onclick="nextQ()" disabled>Câu tiếp &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel center" id="result" style="display:none">
+    <p class="tag">KẾT QUẢ</p>
+    <div class="big" id="finalScore"></div>
+    <p id="finalMsg" style="color:var(--muted)"></p>
+    <div class="row" style="justify-content:center">
+      <button class="btn" onclick="location.reload()">Làm lại &#8635;</button>
+      <button class="btn sec" onclick="toggleReview()">Xem lại bài &#9662;</button>
+    </div>
+    <div id="review" style="text-align:left;display:none;margin-top:14px"></div>
+  </div>
+
+  <p class="center" style="margin-top:18px"><a class="src" href="Nhiễm khuẩn.pdf">Nguồn: Nhiễm khuẩn.pdf</a></p>
+</div>
+
+<script>
+const BANK = [{"q": "Bệnh nào sau đây thuộc nhóm nhiễm khuẩn da NÔNG?", "a": ["Viêm quầng", "Chốc (impetigo)", "Viêm mô tế bào", "Hoại tử mô mềm"], "c": 1, "e": "Nhiễm khuẩn da nông gồm Erythrasma, hà ăn chân (pitted keratolysis), viêm kẽ (trichomycosis), chốc/chốc loét."}, {"q": "Bệnh nào sau đây được xếp vào nhóm VIÊM DA MỦ (pyoderma)?", "a": ["Erythrasma", "Viêm quầng", "Hà ăn chân", "Nhọt, nhọt cụm, áp xe"], "c": 3, "e": "Viêm da mủ (pyoderma) gồm nhọt, nhọt cụm, áp xe."}, {"q": "Bệnh nào KHÔNG thuộc nhóm nhiễm trùng mô mềm (STIs)?", "a": ["Viêm mô tế bào (cellulitis)", "Viêm quầng (erysipelas)", "Viêm bạch mạch (lymphangitis)", "Chốc"], "c": 3, "e": "Nhiễm trùng mô mềm (STIs) gồm viêm quầng, viêm mô tế bào, viêm bạch mạch, viêm mô tế bào hoại thư, hoại tử mô mềm — chốc là nhiễm khuẩn da nông."}, {"q": "Về hệ vi sinh vật của cơ thể người, phát biểu nào đúng?", "a": ["Cơ thể hoàn toàn vô khuẩn", "Vi khuẩn chỉ có ở đường ruột", "Da không có vi khuẩn thường trú", "Cơ thể chứa số lượng tế bào vi khuẩn nhiều hơn ~10 lần so với tế bào người"], "c": 3, "e": "Cơ thể người chứa số lượng tế bào vi khuẩn nhiều hơn khoảng 10 lần so với tế bào người; da chứa các cộng đồng vi khuẩn."}, {"q": "Mật độ vi khuẩn trên da dày đặc hơn ở vùng nào?", "a": ["Vùng da bị sừng hóa dày", "Vùng da ẩm ướt", "Vùng da khô", "Vùng lòng bàn tay"], "c": 1, "e": "Mật độ vi khuẩn trên da dày đặc hơn ở những vùng da ẩm ướt."}, {"q": "Cận lâm sàng nào được dùng khi bệnh nhân nhiễm khuẩn da có sốt/giảm huyết áp?", "a": ["Chụp X-quang", "Cấy máu", "Chỉ đo huyết áp", "Sinh thiết da"], "c": 1, "e": "Với bệnh phẩm (mủ, dịch) thì nuôi cấy; CTM (BCTT) + LS để xem SIRS; khi sốt/giảm HA thì cấy máu."}, {"q": "Chốc hay gặp nhất ở đối tượng nào?", "a": ["Người già > 70 tuổi", "Trẻ em < 6 tuổi", "Thanh niên", "Phụ nữ mang thai"], "c": 1, "e": "Chốc là nhiễm khuẩn da nông, hay gặp ở trẻ em < 6 tuổi."}, {"q": "Nguyên nhân thường gặp nhất của chốc là:", "a": ["Virus Herpes", "Nấm Candida", "Tụ cầu vàng (++), liên cầu tan máu nhóm A (+)", "Trực khuẩn mủ xanh"], "c": 2, "e": "Nguyên nhân chốc: tụ cầu vàng (++) và liên cầu tan máu nhóm A (+)."}, {"q": "Vị trí điển hình của thương tổn chốc là:", "a": ["Chỉ ở lòng bàn chân", "Chỉ ở niêm mạc sinh dục", "Chỉ ở da đầu", "Quanh các hốc tự nhiên (mắt, mũi, miệng), tay chân, lan ra thân mình"], "c": 3, "e": "Chốc hay gặp quanh các hốc tự nhiên (mắt, mũi, miệng...), tay chân, lan ra thân mình."}, {"q": "Thể chốc lây (chốc không bọng nước) chiếm khoảng bao nhiêu và có đặc điểm gì?", "a": ["70%; trợt tròn - vảy tiết màu vàng mật ong, lan nhanh", "10%; loét sâu", "30%; bọng nước lớn", "50%; mụn mủ nang lông"], "c": 0, "e": "Chốc lây (không bọng nước) chiếm ~70%: trợt tròn, vảy tiết màu vàng mật ong, thương tổn lan nhanh, rải rác."}, {"q": "Thể chốc bọng nước chiếm khoảng bao nhiêu và kích thước bọng nước là:", "a": ["70%; bọng nước nhỏ <1mm", "30%; bọng nước 1–5cm, to dần rồi vỡ - trợt - vảy tiết", "10%; sẩn khô", "30%; loét sâu"], "c": 1, "e": "Chốc bọng nước chiếm ~30%: bọng nước 1–5cm, đỏ da xung quanh (+/-), to dần → vỡ → trợt → vảy tiết."}, {"q": "Biến chứng nào đáng lo ngại sau chốc do liên cầu?", "a": ["Viêm cầu thận sau nhiễm liên cầu (2–5%)", "Loét dạ dày", "Xơ gan", "Đái tháo đường"], "c": 0, "e": "Biến chứng của chốc: viêm cầu thận sau nhiễm liên cầu (2–5%), toàn thân SIRS/nhiễm khuẩn hệ thống."}, {"q": "Cận lâm sàng theo dõi biến chứng thận của chốc là:", "a": ["Công thức máu hàng ngày", "Men gan sau 1 tuần", "Protein niệu sau 3 tuần", "Đường huyết đói"], "c": 2, "e": "CLS của chốc: nuôi cấy vi khuẩn và protein niệu sau 3 tuần (theo dõi viêm cầu thận)."}, {"q": "Điều trị chốc gồm:", "a": ["Chỉ dùng corticoid", "Tại chỗ thoa KS; toàn thân uống KS, chống ngứa, giảm đau nếu có", "Phẫu thuật cắt bỏ thương tổn", "Chỉ theo dõi, không điều trị"], "c": 1, "e": "Điều trị chốc: tại chỗ thoa kháng sinh; toàn thân uống kháng sinh, chống ngứa, giảm đau nếu có."}, {"q": "Thông tin/giáo dục nào ĐÚNG cho bệnh nhân chốc?", "a": ["Nên cạy hết vảy tiết", "Bệnh lây nên cho nghỉ học, tìm trẻ bị trong lớp; không tự lấy vảy tiết; tiến triển không để lại sẹo", "Bệnh không lây", "Luôn để lại sẹo lớn"], "c": 1, "e": "Chốc lây → cho nghỉ học, tìm trẻ bị trong lớp; cắt ngắn móng tay, tắm; không tự lấy vảy tiết; tiến triển bệnh không để lại sẹo."}, {"q": "Khi chăm sóc bọng nước trong chốc, thao tác ĐÚNG là:", "a": ["Hút dịch bọng nước nhưng giữ nguyên trần bọng nước, thoa dd sát khuẩn (eosin) rồi băng", "Để nguyên không xử lý", "Bôi corticoid mạnh", "Cắt bỏ toàn bộ trần bọng nước"], "c": 0, "e": "Chăm sóc bọng nước: hút dịch sát trùng nhưng cần giữ nguyên trần bọng nước, thoa dd sát khuẩn (eosin...) rồi băng lại."}, {"q": "Với thương tổn chốc nhiều, lan toả, biện pháp chăm sóc là:", "a": ["Tắm bằng dung dịch sát khuẩn như thuốc tím pha loãng", "Băng kín toàn thân", "Không tắm để tránh lây", "Bôi mỡ kháng sinh cho từng tổn thương nhỏ"], "c": 0, "e": "Thương tổn nhiều, lan toả: tắm bằng dung dịch sát khuẩn như thuốc tím pha loãng; thương tổn khô thì thoa kem/mỡ kháng sinh."}, {"q": "Nhọt là bệnh gì?", "a": ["Viêm bạch mạch", "Nhiễm nấm nang lông", "Viêm nang lông sâu cấp tính, gây hoại tử nang lông và tổ chức xung quanh", "Viêm da nông không hoại tử"], "c": 2, "e": "Nhọt là viêm nang lông sâu cấp tính, gây hoại tử nang lông và tổ chức xung quanh."}, {"q": "Nguyên nhân chủ yếu của nhọt là:", "a": ["Virus", "Nấm da", "Liên cầu tan máu nhóm A", "Tụ cầu vàng"], "c": 3, "e": "Nguyên nhân nhọt chủ yếu là tụ cầu vàng (++)."}, {"q": "Khi nhiều nang lông sát nhau cùng tổn thương thì gọi là:", "a": ["Viêm quầng", "Áp xe đơn độc", "Nhọt cụm", "Chốc loét"], "c": 2, "e": "Khi có nhiều nang lông sát nhau cùng tổn thương thì gọi là nhọt cụm."}, {"q": "Vị trí hay gặp của nhọt là:", "a": ["Mặt, mông, tầng sinh môn, gáy, nách", "Chỉ da đầu", "Chỉ lòng bàn tay", "Chỉ niêm mạc miệng"], "c": 0, "e": "Nhọt hay gặp ở vùng mặt, mông, tầng sinh môn, gáy, nách..."}, {"q": "Bệnh lý nguy hiểm có thể kèm theo khi bị nhọt ở vùng mặt là:", "a": ["Sỏi thận", "Viêm tĩnh mạch huyết khối của xoang hang", "Viêm ruột thừa", "Viêm phổi"], "c": 1, "e": "Nhọt vùng mặt có thể kèm biến chứng viêm tĩnh mạch huyết khối của xoang hang."}, {"q": "Nguyên tắc quan trọng nào trong điều trị nhọt?", "a": ["Nặn hết mủ càng sớm càng tốt", "Không cần kháng sinh", "Không được sờ/nặn thương tổn", "Chỉ dùng corticoid"], "c": 2, "e": "Điều trị nhọt: KHÔNG được sờ/nặn thương tổn; tại chỗ thoa KS, toàn thân uống KS giảm đau; nếu thành áp xe thì xẻ."}, {"q": "Về sẹo, tiến triển của nhọt khác chốc ở điểm nào?", "a": ["Cả hai đều luôn để lại sẹo", "Cả hai đều không để lại sẹo", "Nhọt thường để lại sẹo, chốc thường không để lại sẹo", "Chốc để lại sẹo, nhọt thì không"], "c": 2, "e": "Tiến triển thương tổn nhọt thường để lại sẹo; trong khi chốc thường không để lại sẹo."}, {"q": "Trong kỹ thuật xẻ áp xe, dụng cụ dùng để rạch tổn thương là:", "a": ["Kim tiêm", "Kéo cong", "Que gòn", "Dao số 11"], "c": 3, "e": "Xẻ áp xe: đặt BN tư thế thuận lợi, sát khuẩn, gây tê nếu đau nhiều, dùng dao 11 rạch tổn thương, lấy mủ nuôi cấy, rửa Povidine."}, {"q": "Với ổ áp xe to sau khi xẻ, cần làm gì?", "a": ["Bôi corticoid", "Khâu kín ngay", "Để hở không băng", "Đặt mèche dẫn lưu, thường rút sau 1 ngày"], "c": 3, "e": "Áp xe to: đặt mèche dẫn lưu, thường rút sau 1 ngày, rồi băng vết thương lại."}, {"q": "Viêm quầng (erysipelas) là viêm ở lớp nào của da?", "a": ["Viêm thượng bì", "Viêm hạ bì sâu", "Viêm mô tế bào nông (trung bì)", "Viêm cân cơ"], "c": 2, "e": "Viêm quầng là viêm mô tế bào nông (ở trung bì)."}, {"q": "Nguyên nhân chủ yếu của viêm quầng là:", "a": ["Trực khuẩn lao", "Liên cầu tan máu nhóm A (++), tụ cầu (+)", "Nấm Candida", "Tụ cầu vàng đơn thuần"], "c": 1, "e": "Nguyên nhân viêm quầng: liên cầu tan máu nhóm A (++), tụ cầu (+); cần tìm vết thương hở/đường vào."}, {"q": "Đặc điểm lâm sàng của viêm quầng là:", "a": ["Mảng đỏ, phù nề, nóng, ít đau, giới hạn RÕ, lan giống vết dầu loang", "Mảng viêm giới hạn không rõ với da lành", "Loét sâu hoại tử", "Bọng nước lớn màu vàng mật ong"], "c": 0, "e": "Viêm quầng: mảng đỏ, phù nề kèm nóng, ít đau, giới hạn rõ; thương tổn lan rộng giống vết dầu loang hoặc theo đường bạch huyết; kèm sốt, ớn lạnh, hạch."}, {"q": "Vị trí hay gặp của viêm quầng là:", "a": ["Cẳng chân", "Niêm mạc miệng", "Lòng bàn tay", "Da đầu"], "c": 0, "e": "Viêm quầng hay gặp ở cẳng chân; hay gặp ở trẻ nhỏ và người già."}, {"q": "Viêm mô tế bào (cellulitis) là viêm ở lớp nào?", "a": ["Viêm thượng bì đơn thuần", "Viêm trung bì sâu và hạ bì", "Viêm nang lông", "Viêm trung bì nông"], "c": 1, "e": "Viêm mô tế bào là viêm trung bì sâu và hạ bì (sâu hơn viêm quầng)."}, {"q": "Nguyên nhân của viêm mô tế bào là:", "a": ["Chỉ nấm da", "Trực khuẩn mủ xanh đơn thuần", "Chỉ virus", "Tụ cầu vàng và liên cầu tan máu nhóm A"], "c": 3, "e": "Nguyên nhân viêm mô tế bào: tụ cầu vàng và liên cầu tan máu nhóm A."}, {"q": "Đặc điểm phân biệt viêm mô tế bào với viêm quầng là:", "a": ["Mảng viêm giới hạn KHÔNG rõ với da lành", "Luôn có vảy tiết vàng mật ong", "Mảng viêm giới hạn rất rõ", "Không bao giờ có bọng nước"], "c": 0, "e": "Viêm mô tế bào: mảng viêm giới hạn KHÔNG rõ với da lành (khác viêm quầng giới hạn rõ), tiến triển lan dần, có thể có bọng nước, hoại tử."}, {"q": "Vị trí hay gặp của viêm mô tế bào là:", "a": ["Vùng mặt", "Chi dưới", "Lòng bàn tay", "Da đầu"], "c": 1, "e": "Viêm mô tế bào hay gặp ở chi dưới; tiền triệu mệt mỏi, chán ăn, sốt."}, {"q": "Biến chứng của viêm mô tế bào gồm:", "a": ["Sỏi mật", "Hoại tử, sepsis, viêm cầu thận", "Xơ gan", "Loét dạ dày"], "c": 1, "e": "Biến chứng viêm mô tế bào: hoại tử, sepsis, viêm cầu thận."}, {"q": "Trong điều trị viêm mô tế bào, điều nào KHÔNG được làm?", "a": ["Dùng kháng sinh toàn thân", "Hạn chế đi lại nếu tổn thương ở chi dưới", "Tìm và xử lý đường vào", "Dùng thuốc kháng viêm"], "c": 3, "e": "Điều trị viêm mô tế bào: KHÔNG được dùng kháng viêm; dùng kháng sinh toàn thân (penicillin, erythromycin, roxithromycin, pristinamycin), giảm đau/hạ sốt, tìm đường vào, hạn chế đi lại nếu ở chi dưới."}, {"q": "Để theo dõi ranh giới lan rộng của viêm mô tế bào, biện pháp hữu ích là:", "a": ["Đo vòng chi mỗi giờ", "Dùng bút kẻ giới hạn tổn thương", "Chụp CT hàng ngày", "Sinh thiết lặp lại"], "c": 1, "e": "Theo dõi viêm mô tế bào: dấu hiệu toàn thân và tại chỗ; dùng bút kẻ giới hạn tổn thương để theo dõi tiến triển."}, {"q": "Kháng sinh nào được nêu trong điều trị toàn thân viêm mô tế bào?", "a": ["Penicillin, erythromycin, roxithromycin, pristinamycin", "Chỉ metronidazole", "Chỉ acyclovir", "Chỉ nystatin"], "c": 0, "e": "Điều trị toàn thân viêm mô tế bào: kháng sinh (penicillin, erythromycin, roxithromycin hoặc pristinamycin), giảm đau/hạ sốt nếu có."}, {"q": "Theo dõi bệnh da nhiễm khuẩn về TOÀN THÂN cần đánh giá:", "a": ["Mạch, nhiệt độ, tần số thở, huyết áp (để phát hiện SIRS, SEPSIS)", "Chỉ số lượng thương tổn da", "Chỉ cơ năng tại chỗ", "Chỉ màu sắc thương tổn"], "c": 0, "e": "Theo dõi toàn thân: mạch, nhiệt độ, tần số thở, HA → phát hiện SIRS, SEPSIS; và các cơ quan khác."}, {"q": "SIRS được chẩn đoán khi có bao nhiêu tiêu chuẩn trong 4 tiêu chuẩn kinh điển?", "a": ["Có ≥ 3 trong 4 tiêu chuẩn", "Chỉ cần 1 tiêu chuẩn", "Có đủ cả 4 tiêu chuẩn", "Có ≥ 2 trong 4 tiêu chuẩn"], "c": 3, "e": "Chẩn đoán SIRS khi có ≥ 2 trong 4 tiêu chuẩn (nhiệt độ, nhịp tim, nhịp thở, bạch cầu)."}, {"q": "Tiêu chuẩn nhiệt độ trong SIRS là:", "a": [">37,5°C", ">39°C hoặc <35°C", ">38°C hoặc <36°C", "<38°C"], "c": 2, "e": "Tiêu chuẩn nhiệt độ trong SIRS: >38°C hoặc <36°C."}, {"q": "Tiêu chuẩn nhịp tim trong SIRS là:", "a": [">90 lần/phút", ">100 lần/phút", "<60 lần/phút", ">120 lần/phút"], "c": 0, "e": "Tiêu chuẩn nhịp tim trong SIRS: >90 lần/phút."}, {"q": "Tiêu chuẩn nhịp thở trong SIRS là:", "a": ["<10 lần/phút", ">20 lần/phút hoặc PaCO2 <32 mmHg", ">12 lần/phút", ">30 lần/phút"], "c": 1, "e": "Tiêu chuẩn nhịp thở trong SIRS: >20 lần/phút hoặc PaCO2 <32 mmHg."}, {"q": "Tiêu chuẩn bạch cầu trong SIRS là:", "a": [">12.000/mm3 hoặc <4.000/mm3 hoặc >10% bạch cầu non", "Chỉ >20.000/mm3", "<10.000/mm3", ">15.000/mm3"], "c": 0, "e": "Tiêu chuẩn bạch cầu trong SIRS: >12.000/mm3 hoặc <4.000/mm3 hoặc >10% bạch cầu non (band forms)."}, {"q": "Sepsis (nhiễm trùng hệ thống) được định nghĩa là:", "a": ["Rối loạn chức năng cơ quan đe dọa tính mạng do phản ứng bất thường của cơ thể với nhiễm trùng", "Sốt nhẹ không biến chứng", "Viêm khu trú tại da", "Nhiễm khuẩn da nông đơn thuần"], "c": 0, "e": "Sepsis là tình trạng rối loạn chức năng cơ quan đe dọa tính mạng do phản ứng bất thường của cơ thể với nhiễm trùng."}, {"q": "Thang điểm qSOFA để đánh giá sepsis gồm tiêu chuẩn nào?", "a": ["Nhịp tim, SpO2, lactat", "Nhiệt độ, bạch cầu, CRP", "Nhịp thở ≥22 lần/phút, Glasgow <14, HATT ≤100 mmHg", "Đường huyết, men gan, creatinin"], "c": 2, "e": "qSOFA (≥2 điểm) gồm: nhịp thở ≥22 lần/phút, Glasgow <14, huyết áp tâm thu ≤100 mmHg."}, {"q": "Biểu hiện lâm sàng chung của nhiễm trùng da và mô mềm gồm:", "a": ["Chỉ tăng sắc tố", "Viêm (sưng-nóng-đỏ-đau/ngứa), bọng nước, trợt/loét/xuất huyết, phù, toàn thân sốt", "Chỉ khô da", "Chỉ ngứa đơn thuần"], "c": 1, "e": "Biểu hiện SSTIs: viêm (sưng-nóng-đỏ-đau/ngứa), bọng nước, trợt/loét/xuất huyết, phù, toàn thân (sốt, tăng/giảm huyết áp)."}, {"q": "Cơ chế chung của nhiễm trùng da và mô mềm (SSTIs) là:", "a": ["Tác nhân xâm nhập, tương tác với hệ vi sinh vật tại chỗ và miễn dịch cơ thể gây tổn thương", "Do thiếu vitamin", "Do rối loạn nội tiết", "Do di truyền"], "c": 0, "e": "SSTIs: sự xâm nhập của vi sinh vật vào da; một tác nhân xâm nhập và tương tác với hệ vsv tại chỗ và miễn dịch cơ thể tạo tổn thương."}, {"q": "Vị trí hà ăn chân (pitted keratolysis) thuộc nhóm bệnh nào?", "a": ["Viêm da mủ", "Hoại tử mô mềm", "Nhiễm trùng mô mềm sâu", "Nhiễm khuẩn da nông"], "c": 3, "e": "Hà ăn chân (pitted keratolysis) thuộc nhóm nhiễm khuẩn da nông, cùng với Erythrasma, viêm kẽ (trichomycosis), chốc."}, {"q": "Chốc loét khác chốc lây/chốc bọng nước ở điểm nào?", "a": ["Do nấm gây ra", "Luôn để lại sẹo lớn", "Không bao giờ gặp ở trẻ em", "Là thể tổn thương ở lớp thượng bì, tiến triển thành vết loét"], "c": 3, "e": "Chốc loét là một thể của chốc, tổn thương ở lớp thượng bì, rất phổ biến (nhất là tuổi nhà trẻ, mẫu giáo); ban đầu sẩn đỏ → mụn nước/mụn mủ → vỡ để lại vết trợt/loét."}, {"q": "Về cảm giác đau, viêm quầng và viêm mô tế bào khác nhọt như thế nào?", "a": ["Viêm quầng ít đau; nhọt giai đoạn nung mủ đau nhiều (++)", "Viêm quầng đau nhiều hơn nhọt", "Cả ba đều không đau", "Nhọt hoàn toàn không đau"], "c": 0, "e": "Viêm quầng thường ít đau; nhọt ở giai đoạn nung mủ đau nhiều (++) sau đó giảm dần khi vỡ mủ."}, {"q": "Khi lấy bệnh phẩm nuôi cấy vi khuẩn trong xẻ áp xe, cần lấy:", "a": ["Nước tiểu", "Dịch não tủy", "Mủ để nuôi cấy vi khuẩn", "Máu tĩnh mạch ngoại biên"], "c": 2, "e": "Trong xẻ áp xe: gạc che và nặn tổn thương, lấy mủ để nuôi cấy vi khuẩn."}];
+let idx=0, score=0, answers=[], quizSet=[];
+const COUNTS=[20,40,60,100];
+function initChips(){const el=document.getElementById('countChips');COUNTS.forEach((n,i)=>{const c=document.createElement('div');c.className='chip'+(i===COUNTS.length-1?' on':'');c.textContent=n>=BANK.length?'Tất cả ('+BANK.length+')':n+' câu';c.dataset.n=Math.min(n,BANK.length);c.onclick=()=>{document.querySelectorAll('#countChips .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');};el.appendChild(c);});}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function startQuiz(){
+  const sel=document.querySelector('#countChips .chip.on');
+  const n=Math.min(parseInt(sel.dataset.n),BANK.length);
+  const doShuffle=document.getElementById('shuffle').checked;
+  let pool=BANK.map((q,i)=>({...q,_i:i}));
+  if(doShuffle)shuffle(pool);
+  quizSet=pool.slice(0,n).map(q=>{
+    let opts=q.a.map((t,i)=>({t,correct:i===q.c}));
+    if(doShuffle)shuffle(opts);
+    return {q:q.q,opts,e:q.e};
+  });
+  idx=0;score=0;answers=[];
+  document.getElementById('start').style.display='none';
+  document.getElementById('result').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  renderQ();
+}
+function renderQ(){
+  const item=quizSet[idx];
+  document.getElementById('progressTxt').textContent='Câu '+(idx+1)+' / '+quizSet.length;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('progressBar').style.width=((idx)/quizSet.length*100)+'%';
+  document.getElementById('qText').textContent=item.q;
+  const box=document.getElementById('opts');box.innerHTML='';
+  const letters=['A','B','C','D'];
+  item.opts.forEach((o,i)=>{
+    const b=document.createElement('button');
+    b.className='opt';
+    b.innerHTML='<span class="k">'+letters[i]+'.</span> '+o.t;
+    b.onclick=()=>choose(i);
+    box.appendChild(b);
+  });
+  const ex=document.getElementById('explain');ex.className='explain';ex.textContent='';
+  document.getElementById('nextBtn').disabled=true;
+  document.getElementById('skipBtn').style.display='inline-block';
+  document.getElementById('nextBtn').textContent=(idx===quizSet.length-1)?'Xem kết quả ✔':'Câu tiếp ▶';
+}
+function choose(i){
+  const item=quizSet[idx];
+  const btns=document.querySelectorAll('#opts .opt');
+  const correctIdx=item.opts.findIndex(o=>o.correct);
+  btns.forEach((b,j)=>{b.disabled=true;if(j===correctIdx)b.classList.add('correct');if(j===i&&i!==correctIdx)b.classList.add('wrong');});
+  const isRight=i===correctIdx;
+  if(isRight)score++;
+  answers.push({q:item.q,chosen:item.opts[i].t,correct:item.opts[correctIdx].t,right:isRight});
+  const ex=document.getElementById('explain');
+  ex.className='explain show';
+  ex.innerHTML=(isRight?'<b class="ok">✔ Chính xác. </b>':'<b class="bad">✘ Chưa đúng. </b>')+item.e;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('nextBtn').disabled=false;
+  document.getElementById('skipBtn').style.display='none';
+}
+function nextQ(){ if(idx<quizSet.length-1){idx++;renderQ();} else finish(); }
+function finish(){
+  document.getElementById('quiz').style.display='none';
+  const r=document.getElementById('result');r.style.display='block';
+  const pct=Math.round(score/quizSet.length*100);
+  document.getElementById('finalScore').textContent=score+' / '+quizSet.length+' ('+pct+'%)';
+  let msg='';
+  if(pct>=90)msg='Xuất sắc! Bạn nắm rất chắc bài.';
+  else if(pct>=70)msg='Tốt! Ôn lại vài câu sai là ổn.';
+  else if(pct>=50)msg='Khá – cần ôn thêm phần sai.';
+  else msg='Hãy đọc lại tài liệu và luyện lại nhé.';
+  document.getElementById('finalMsg').textContent=msg;
+  const rev=document.getElementById('review');rev.innerHTML='';rev.style.display='none';
+  answers.forEach((a,i)=>{
+    const d=document.createElement('div');d.className='review-item';
+    d.innerHTML='<div class="ri-q">'+(i+1)+'. '+a.q+'</div>'+
+      '<div class="ri-a">Bạn chọn: <span class="'+(a.right?'ok':'bad')+'">'+a.chosen+'</span></div>'+
+      (a.right?'':'<div class="ri-a">Đáp án đúng: <span class="ok">'+a.correct+'</span></div>');
+    rev.appendChild(d);
+  });
+}
+function toggleReview(){const r=document.getElementById('review');r.style.display=r.style.display==='none'?'block':'none';}
+initChips();
+</script>
+</body>
+</html>

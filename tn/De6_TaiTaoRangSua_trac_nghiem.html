@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kỹ thuật phục hồi (tái tạo) răng sữa</title>
+<style>
+  :root{--card:#1e293b;--accent:#a78bfa;--ok:#22c55e;--bad:#ef4444;--txt:#e2e8f0;--muted:#94a3b8;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(160deg,#0f172a,#140f24);color:var(--txt);line-height:1.5;padding:16px;}
+  .wrap{max-width:820px;margin:0 auto;}
+  header{text-align:center;padding:14px 0 8px;}
+  header h1{font-size:1.35rem;margin:0 0 4px;color:#fff;}
+  header p{margin:2px 0;color:var(--muted);font-size:.9rem;}
+  .topnav{text-align:center;margin-top:8px;}
+  .topnav a{color:var(--accent);font-size:.82rem;text-decoration:none;}
+  .panel{background:var(--card);border:1px solid #334155;border-radius:14px;padding:20px;margin-top:16px;box-shadow:0 8px 30px rgba(0,0,0,.35);}
+  .bar{height:8px;background:#0b1220;border-radius:99px;overflow:hidden;margin:10px 0 4px;}
+  .bar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),#22c55e);transition:width .3s;}
+  .meta{display:flex;justify-content:space-between;font-size:.82rem;color:var(--muted);margin-bottom:6px;flex-wrap:wrap;gap:6px;}
+  .q{font-size:1.08rem;font-weight:600;margin:6px 0 14px;color:#fff;}
+  .opt{display:block;width:100%;text-align:left;background:#0b1220;border:1.5px solid #334155;color:var(--txt);border-radius:10px;padding:12px 14px;margin:8px 0;cursor:pointer;font-size:.98rem;transition:all .15s;}
+  .opt:hover:not(:disabled){border-color:var(--accent);}
+  .opt .k{display:inline-block;width:22px;font-weight:700;color:var(--accent);}
+  .opt.correct{border-color:var(--ok);background:rgba(34,197,94,.12);}
+  .opt.wrong{border-color:var(--bad);background:rgba(239,68,68,.12);}
+  .opt:disabled{cursor:default;opacity:.95;}
+  .explain{margin-top:10px;padding:11px 13px;border-radius:10px;background:#0b1220;border-left:4px solid var(--accent);font-size:.9rem;color:#cbd5e1;display:none;}
+  .explain.show{display:block;}
+  .row{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;}
+  button.btn{background:var(--accent);color:#1e1235;border:none;border-radius:10px;padding:11px 18px;font-weight:700;cursor:pointer;font-size:.95rem;}
+  button.btn.sec{background:#334155;color:#e2e8f0;}
+  button.btn:disabled{opacity:.4;cursor:not-allowed;}
+  .center{text-align:center;}
+  .big{font-size:2.4rem;font-weight:800;color:#fff;margin:6px 0;}
+  .tag{display:inline-block;font-size:.72rem;background:#0b1220;border:1px solid #334155;color:var(--muted);padding:3px 9px;border-radius:99px;margin-bottom:8px;}
+  .grid{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+  .chip{font-size:.8rem;padding:6px 10px;border-radius:8px;border:1px solid #334155;background:#0b1220;cursor:pointer;}
+  .chip.on{border-color:var(--accent);color:var(--accent);}
+  .review-item{border-top:1px solid #334155;padding:12px 0;font-size:.9rem;}
+  .review-item .ri-q{font-weight:600;color:#fff;}
+  .review-item .ri-a{color:#cbd5e1;margin-top:4px;}
+  .ok{color:var(--ok)} .bad{color:var(--bad)}
+  a.src{color:var(--muted);font-size:.78rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">ĐỀ 6 · Trắc nghiệm A/B/C/D</span>
+    <h1>Kỹ thuật phục hồi (tái tạo) răng sữa</h1>
+    <p>Giải phẫu răng sữa · Vật liệu (GIC, Composite, Amalgam) · ART · SSC · Strip Crown · Hall Technique</p>
+    <div class="topnav"><a href="index.html">&#8592; Danh sách đề</a></div>
+  </header>
+
+  <div class="panel" id="start">
+    <p>Bộ câu hỏi bám sát tài liệu. Mỗi câu có 4 phương án gần giống nhau để tăng độ khó. Chọn số câu muốn luyện:</p>
+    <div class="grid" id="countChips"></div>
+    <div class="row">
+      <label style="display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)">
+        <input type="checkbox" id="shuffle" checked> Xáo trộn câu hỏi &amp; đáp án
+      </label>
+    </div>
+    <div class="row">
+      <button class="btn" onclick="startQuiz()">Bắt đầu luyện tập &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel" id="quiz" style="display:none">
+    <div class="meta"><span id="progressTxt"></span><span id="scoreTxt"></span></div>
+    <div class="bar"><i id="progressBar"></i></div>
+    <div class="q" id="qText"></div>
+    <div id="opts"></div>
+    <div class="explain" id="explain"></div>
+    <div class="row">
+      <button class="btn sec" id="skipBtn" onclick="nextQ()">Bỏ qua</button>
+      <button class="btn" id="nextBtn" onclick="nextQ()" disabled>Câu tiếp &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel center" id="result" style="display:none">
+    <p class="tag">KẾT QUẢ</p>
+    <div class="big" id="finalScore"></div>
+    <p id="finalMsg" style="color:var(--muted)"></p>
+    <div class="row" style="justify-content:center">
+      <button class="btn" onclick="location.reload()">Làm lại &#8635;</button>
+      <button class="btn sec" onclick="toggleReview()">Xem lại bài &#9662;</button>
+    </div>
+    <div id="review" style="text-align:left;display:none;margin-top:14px"></div>
+  </div>
+
+  <p class="center" style="margin-top:18px"><a class="src" href="12 TÁI TẠO RĂNG SỮA.pdf">Nguồn: 12 TÁI TẠO RĂNG SỮA.pdf</a></p>
+</div>
+
+<script>
+const BANK = [{"q": "Vai trò nào KHÔNG phải của bộ răng sữa?", "a": ["Kích thích mọc răng khôn sớm", "Chức năng ăn nhai và phát âm", "Duy trì chiều dài cung răng", "Ngăn ngừa thói quen xấu (tật đẩy lưỡi)"], "c": 0, "e": "Vai trò răng sữa: ăn nhai, phát âm, thẩm mỹ, duy trì chiều dài cung răng, ngăn thói quen xấu, ngăn ảnh hưởng tâm lý do mất răng sớm."}, {"q": "Các biện pháp kiểm soát sang thương sâu mặt nhai gồm:", "a": ["Fluoride, sealants và phục hồi (sau khi loại bỏ mô sâu, tạo xoang)", "Chỉ nhổ răng", "Chỉ dùng kháng sinh", "Chỉ súc miệng nước muối"], "c": 0, "e": "Kiểm soát sang thương sâu mặt nhai: Fluoride, Sealants, Phục hồi (sau khi loại bỏ mô sâu và tạo xoang)."}, {"q": "Mục đích của tái tạo răng sữa KHÔNG bao gồm:", "a": ["Rút ngắn thời gian thay răng sữa", "Bảo vệ, bảo tồn sự sống tủy và cấu trúc răng, giảm đau", "Phục hồi chức năng ăn nhai, cải thiện thẩm mỹ", "Duy trì chiều dài cung răng và giữ khoảng cho răng vĩnh viễn"], "c": 0, "e": "Mục đích: bảo vệ/bảo tồn tủy và cấu trúc răng, giảm đau, phục hồi tổn thương, phục hồi ăn nhai, cải thiện thẩm mỹ, dễ VSRM, duy trì chiều dài cung răng và giữ khoảng — không phải rút ngắn thời gian thay răng."}, {"q": "So với răng vĩnh viễn, thân răng sữa có đặc điểm nào?", "a": ["Thấp hơn, mặt nhai thu hẹp nhiều, men ngà mỏng", "Cao hơn, men ngà dày", "Mặt nhai rộng hơn nhiều", "Màu vàng hơn"], "c": 0, "e": "Thân răng sữa: thấp hơn, mặt nhai thu hẹp nhiều, men và ngà mỏng, màu trắng hơn."}, {"q": "Vì men ngà răng sữa mỏng, khi sửa soạn xoang cần lưu ý gì?", "a": ["Giới hạn xoang cho việc sửa soạn, không cần trám lót", "Luôn phải trám lót dày", "Mở xoang rộng tối đa", "Vát thành nướu nhiều"], "c": 0, "e": "Men ngà mỏng nên giới hạn xoang khi sửa soạn và không cần trám lót."}, {"q": "Vùng tiếp xúc của răng cối sữa rộng dẫn tới hệ quả lâm sàng nào?", "a": ["Sâu răng chỉ phát hiện khi tổn thương đã lớn", "Sâu răng dễ phát hiện sớm", "Không bao giờ sâu mặt bên", "Không cần chụp phim"], "c": 0, "e": "Vùng tiếp xúc răng cối rộng khiến sâu răng chỉ phát hiện khi tổn thương lớn."}, {"q": "Vì cổ răng sữa thắt lại nhiều nên có ý nghĩa lâm sàng gì?", "a": ["Lưu giữ tốt cho mão thép làm sẵn", "Không thể gắn mão", "Dễ gãy cổ răng khi ăn", "Không cần đánh bóng"], "c": 0, "e": "Cổ răng sữa thắt lại nhiều tạo sự lưu giữ cho mão thép làm sẵn (SSC)."}, {"q": "Đặc điểm tủy răng sữa so với kích thước thân răng là:", "a": ["Lớn hơn, sừng tủy phía gần cao hơn phía xa → nguy cơ lộ tủy", "Nhỏ hơn nhiều, ít nguy cơ lộ tủy", "Không có sừng tủy", "Sừng tủy phía xa cao hơn phía gần"], "c": 0, "e": "Tủy răng sữa lớn hơn so với kích thước thân răng, sừng tủy gần đường nối men ngà, sừng tủy phía gần cao hơn phía xa → nguy cơ lộ tủy."}, {"q": "Đặc điểm nào của răng sữa KHÔNG ảnh hưởng đến phục hồi?", "a": ["Men răng cứng hơn răng vĩnh viễn", "Khó khăn trong việc đặt đê", "Khả năng dán dính thấp hơn răng vĩnh viễn", "Nguy cơ lộ tủy"], "c": 0, "e": "Đặc điểm ảnh hưởng phục hồi: khó đặt đê, dán dính thấp hơn, nguy cơ mất thành nướu khi tạo xoang, độ bền phục hồi (đặc biệt xoang II), nguy cơ lộ tủy."}, {"q": "Vật liệu nào KHÔNG nằm trong danh sách vật liệu tái tạo răng sữa được nêu?", "a": ["Xi măng phosphate kẽm", "Amalgam", "Glass ionomer cement (GIC) và composite", "Stainless steel crown, mão zirconia"], "c": 0, "e": "Các vật liệu: Amalgam, GIC, RmGIC, Composite, Stainless steel crown, mão resin/zirconia — không nêu xi măng phosphate kẽm."}, {"q": "Lựa chọn vật liệu trám răng trẻ em phụ thuộc yếu tố nào?", "a": ["Tuổi, sự hợp tác của trẻ, nguy cơ và hoạt độ sâu răng, mô răng còn lại, thẩm mỹ, sự tuân thủ của bố mẹ", "Chỉ giá vật liệu", "Chỉ màu răng", "Chỉ loại ghế nha khoa"], "c": 0, "e": "Lựa chọn phụ thuộc: tuổi, sự hợp tác, phát triển bộ răng, thời gian thay răng, nguy cơ và hoạt độ sâu răng, mô răng còn lại, thẩm mỹ, VSRM, sự tuân thủ của bố mẹ."}, {"q": "Đối với răng sữa xoang loại I (mặt nhai), vật liệu phù hợp là:", "a": ["GIC, composite resin, compomer", "Chỉ amalgam", "Chỉ SSC", "Chỉ zirconia"], "c": 0, "e": "Răng sữa mặt nhai (xoang I): GIC, composite resin, compomer."}, {"q": "Đối với răng sữa sâu phá hủy nhiều mặt hoặc phục hồi sau điều trị tủy, vật liệu ưu tiên là:", "a": ["Stainless steel crown (SSC)", "GIC đơn thuần", "Trám bít hố rãnh", "Sealant"], "c": 0, "e": "Sâu phá hủy nhiều mặt hoặc phục hồi sau điều trị tủy: SSC."}, {"q": "Ở răng vĩnh viễn, sâu mặt nhai mới liên quan sâu men thì xử trí là:", "a": ["Trám bít hố rãnh", "Composite/amalgam", "Mão SSC", "Điều trị tủy"], "c": 0, "e": "Răng vĩnh viễn: sâu men mặt nhai → trám bít hố rãnh; sâu vào 1 phần ngà → trám phục hồi kết hợp dự phòng bằng resin; sâu tiến triển vào ngà → composite/silver amalgam."}, {"q": "Mục đích sử dụng của GIC KHÔNG bao gồm:", "a": ["Phục hồi múi răng chịu lực mạnh", "Phục hồi trung gian", "Trám sandwich", "Trám răng không sang chấn (ART) và trám răng sữa"], "c": 0, "e": "GIC dùng: phục hồi trung gian, trám sandwich, ART, trám răng sữa — không dùng phục hồi múi răng chịu lực mạnh."}, {"q": "Ưu điểm nào KHÔNG phải của GIC?", "a": ["Thẩm mỹ cao hơn composite", "Tính dính tốt", "Kháng khuẩn nhờ phóng thích Fluor", "Ngấm ít nước, làm việc được trong môi trường ẩm"], "c": 0, "e": "Ưu điểm GIC: dính tốt, thẩm mỹ, tương hợp sinh học, kháng khuẩn (phóng thích F), dễ dùng, ngấm ít nước, độ cứng tương đối cao — nhưng thẩm mỹ KÉM hơn composite."}, {"q": "Nhược điểm của GIC gồm:", "a": ["Khó điêu khắc, giòn dễ gãy vỡ, xói mòn/mòn, ít cản quang", "Không dính vào răng", "Không kháng khuẩn", "Chỉ dùng được cho răng vĩnh viễn"], "c": 0, "e": "Nhược điểm GIC: khó điêu khắc, thẩm mỹ < composite, giòn dễ gãy vỡ, xu hướng xói mòn và mòn, ít cản quang."}, {"q": "Chỉ định của GIC gồm:", "a": ["Trám vùng không chịu lực, xoang I/II ở răng sữa, tái tạo cùi khi mô răng còn ít nhất 3 thành", "Phục hồi múi răng chịu lực mạnh", "Xoang II, IV chịu lực", "Tái tạo cùi khi mô răng còn < 3 thành"], "c": 0, "e": "Chỉ định GIC: trám vùng không chịu lực, nguy cơ sâu cao, ART, xoang III/V ở trẻ lớn, xoang I/II ở răng sữa, sandwich, trám lót, tái tạo cùi khi mô răng còn ≥3 thành."}, {"q": "Chống chỉ định của GIC gồm:", "a": ["Răng chịu lực mạnh, xoang II/IV, phục hồi múi răng, tái tạo cùi khi mô răng < 3 thành", "Trám vùng không chịu lực", "Nguy cơ sâu răng cao", "Trám lót"], "c": 0, "e": "Chống chỉ định GIC: răng chịu lực mạnh, xoang II/IV, phục hồi múi răng, tái tạo cùi khi mô răng còn < 3 thành."}, {"q": "Trong kỹ thuật GIC, men ngà được xử lý bằng gì?", "a": ["Polyacrylic acid 10% trong 10 giây", "Acid phosphoric 50% trong 60 giây", "Cồn 70% trong 30 giây", "Nước muối sinh lý"], "c": 0, "e": "Xử lý men ngà với polyacrylic acid 10% trong 10 giây (hoặc acid phosphoric 37% trong 5 giây), rồi xịt nước."}, {"q": "Thuận lợi của trám răng không sang chấn (ART) gồm:", "a": ["Đơn giản, không gây đau, không cần kỹ thuật xâm lấn, chi phí thấp", "Đòi hỏi máy móc phức tạp", "Luôn cần gây tê", "Chi phí cao"], "c": 0, "e": "ART thuận lợi: đơn giản dễ thực hiện, BN dễ hợp tác, không gây đau, không cần kỹ thuật xâm lấn, chi phí thấp."}, {"q": "Chỉ định của ART là:", "a": ["Sâu răng lan đến ngà thấy rõ, sâu bề mặt có thể dùng dụng cụ tay nạo ngà", "Sâu lộ tủy trên lâm sàng", "Viêm tủy không hồi phục", "Lỗ sâu không tiếp cận được bằng dụng cụ cầm tay"], "c": 0, "e": "Chỉ định ART: sâu răng lan đến ngà thấy rõ trên lâm sàng, sâu bề mặt có thể dùng dụng cụ tay để nạo ngà."}, {"q": "Chống chỉ định của ART gồm:", "a": ["Sâu lộ tủy, sưng/lỗ dò liên quan răng sâu, viêm tủy không hồi phục, lỗ sâu không tiếp cận bằng dụng cụ cầm tay", "Sâu bề mặt nạo được bằng tay", "Trẻ quá nhỏ cần phục hồi", "Chương trình răng miệng cộng đồng"], "c": 0, "e": "Chống chỉ định ART: sâu lộ tủy trên LS/X quang, sưng/lỗ dò liên quan răng sâu, viêm tủy không hồi phục, lỗ sâu không tiếp cận bằng dụng cụ cầm tay."}, {"q": "Đối tượng nào phù hợp thực hiện ART?", "a": ["Trẻ quá nhỏ, người trưởng thành quá lo sợ, BN có vấn đề tâm thần/thể chất, chương trình cộng đồng", "Chỉ người lớn khỏe mạnh hợp tác", "Chỉ trẻ trên 12 tuổi", "BN cần phục hồi thẩm mỹ cao"], "c": 0, "e": "ART thực hiện cho: điều trị sâu sớm ở trẻ, trẻ quá nhỏ, người trưởng thành quá lo sợ, sang thương cổ răng, BN có vấn đề tâm thần/thể chất, chương trình răng miệng cộng đồng."}, {"q": "Chỉ định của trám bít hố rãnh (sealant) gồm:", "a": ["Trũng/rãnh sâu mắc thám trâm hoặc nhiễm màu, không có sâu mặt bên, có thể cô lập, răng mọc dưới 4 năm", "Sâu ngà sâu lộ tủy", "Răng đã điều trị tủy", "Răng sữa sắp thay"], "c": 0, "e": "Chỉ định sealant: trũng/rãnh sâu mắc thám trâm, trũng/rãnh nhiễm màu, có sâu/miếng trám ở răng khác, không có sâu mặt bên, đang phòng ngừa fluor, có thể cô lập, răng mọc dưới 4 năm."}, {"q": "Chỉ định của trám phục hồi dự phòng (PRR) gồm:", "a": ["Sâu men, xoang I nhỏ, sâu ngà mặt nhai mới chớm", "Sâu nhiều mặt lộ tủy", "Răng vỡ lớn cần mão", "Sâu mặt bên rộng"], "c": 0, "e": "PRR chỉ định: sâu men, xoang I nhỏ, sâu ngà mặt nhai mới chớm."}, {"q": "Mục tiêu của việc loại bỏ mô sâu CHỌN LỌC đến phần ngà mềm là:", "a": ["Ngăn ngừa sự lộ tủy", "Loại bỏ hoàn toàn mọi mô sâu", "Làm lộ tủy để điều trị tủy", "Rút ngắn tuổi thọ răng"], "c": 0, "e": "Mục tiêu loại bỏ mô sâu chọn lọc đến phần ngà mềm: ngăn ngừa sự lộ tủy (vì loại bỏ hoàn toàn ở răng sữa/răng vv đang phát triển sẽ gây lộ tủy)."}, {"q": "Thuận lợi của loại bỏ mô sâu chọn lọc gồm:", "a": ["Giảm đau, giảm lo sợ, giảm bất hợp tác ở trẻ; cho phép phát triển bình thường chân răng", "Bắt buộc điều trị tủy", "Luôn phải gây mê", "Tăng nguy cơ lộ tủy"], "c": 0, "e": "Thuận lợi: giảm tình huống ứng xử ở trẻ (giảm đau, giảm lo sợ, bất hợp tác), cho phép phát triển bình thường chân răng, áp dụng cho răng vĩnh viễn đang phát triển."}, {"q": "Chỉ định loại bỏ mô sâu chọn lọc trên X quang là:", "a": ["Sang thương đến 1/3 dưới ngà răng, không có tiêu xương/bất thường vùng chẽ", "Sang thương đã đến tủy", "Có tiêu xương vùng chẽ", "Có áp xe quanh chóp"], "c": 0, "e": "Chỉ định: sang thương sâu ngà sâu không có tiền sử/triệu chứng viêm tủy; X quang sang thương đến 1/3 dưới ngà răng, không có tiêu xương/bất thường vùng chẽ."}, {"q": "Ưu điểm của Composite gồm:", "a": ["Dính nhờ liên kết vi lưu cơ học, thẩm mỹ, dễ đánh bóng", "Không nhạy nước", "Kỹ thuật đơn giản, ít bước", "Giá thành thấp"], "c": 0, "e": "Ưu điểm composite: dính nhờ liên kết vi lưu cơ học, thẩm mỹ dễ đánh bóng, đặc tính mòn chấp nhận được, dùng cho nha phục hồi/phòng ngừa."}, {"q": "Nhược điểm của Composite gồm:", "a": ["Nhạy 'nước', kỹ thuật nhiều bước, nứt vi kẽ sau trám, giá thành cao", "Không dính vào răng", "Không thẩm mỹ", "Không đánh bóng được"], "c": 0, "e": "Nhược điểm composite: nhạy 'nước', kỹ thuật nhiều bước/nhiều thời gian, nứt vi kẽ sau trám, giá thành cao."}, {"q": "Chống chỉ định của Composite gồm:", "a": ["Không cô lập nước bọt tốt/sâu dưới nướu, BN nguy cơ sâu răng cao, răng trước mất >1/2 cấu trúc thân răng", "Xoang I nhỏ", "Răng có thể cô lập tốt", "Trẻ hợp tác"], "c": 0, "e": "Chống chỉ định composite: không cô lập nước bọt tốt/sâu dưới nướu, lỗ sâu lớn mặt nhai răng cối sữa, nguy cơ sâu cao, không hợp tác, răng trước mất >1/2 cấu trúc, răng sữa lung lay chỉ định nhổ."}, {"q": "Xoang nào KHÔNG nằm trong chỉ định trám của Composite?", "a": ["Chỉ xoang II ở răng chịu lực mạnh không cô lập được", "Xoang I, II", "Xoang III, IV", "Xoang V, VI"], "c": 0, "e": "Composite chỉ định cho xoang I,II,III,IV,V,VI, tái tạo cùi, trám bít hố rãnh, strip crown răng cửa sữa; nhưng chống chỉ định khi không cô lập tốt."}, {"q": "Thuận lợi nào KHÔNG phải của mão thép không rỉ làm sẵn (SSC)?", "a": ["Thẩm mỹ rất cao", "Chắc chắn nhất, là bộ giữ khoảng tốt", "Thực hiện trong 1 lần hẹn, không cần labo", "Ít nhạy cảm với độ ẩm, chi phí hiệu quả"], "c": 0, "e": "Thuận lợi SSC: chắc chắn nhất, bộ giữ khoảng tốt, bảo vệ/nâng đỡ tổ chức còn lại, phục hồi hình thể tự nhiên dễ, 1 lần hẹn, không cần labo, ít nhạy độ ẩm, chi phí hiệu quả — nhưng thẩm mỹ KÉM."}, {"q": "Khó khăn của SSC gồm:", "a": ["Thẩm mỹ kém, mài răng nhiều, bờ phục hồi kém có thể gây viêm nướu", "Không giữ được khoảng", "Không bền chắc", "Cần nhiều lần hẹn và labo"], "c": 0, "e": "Khó khăn SSC: thẩm mỹ kém, không thoải mái/đòi hỏi hợp tác, mài răng nhiều, bờ phục hồi kém/không sạch cement bờ nướu có thể gây viêm nướu."}, {"q": "Chỉ định của SSC gồm:", "a": ["Răng chữa tủy, răng vỡ lớn/nứt gãy, thiểu sản men, bộ giữ khoảng, trẻ nguy cơ sâu cao", "Răng sữa sắp rụng", "Sâu men mặt nhai nhỏ", "Chân răng sữa tiêu quá 1/2"], "c": 0, "e": "Chỉ định SSC: răng chữa tủy, răng vỡ lớn, răng nứt gãy, thiểu sản men, bảo vệ răng cối trẻ nghiến răng, bộ giữ khoảng, trẻ nguy cơ sâu cao."}, {"q": "Chống chỉ định của SSC gồm:", "a": ["BN không hợp tác, chân răng sữa tiêu quá 1/2 chiều dài", "Răng chữa tủy", "Răng vỡ lớn", "Bộ giữ khoảng"], "c": 0, "e": "Chống chỉ định SSC: BN không hợp tác, chân răng sữa tiêu quá 1/2 chiều dài."}, {"q": "Khi sửa soạn mão SSC, mặt nhai được mài giảm khoảng bao nhiêu?", "a": ["1–1,5 mm", "0,2–0,3 mm", "3–4 mm", "Không mài mặt nhai"], "c": 0, "e": "Trong sửa soạn mão SSC: lấy sạch ngà sâu (tái tạo GIC nếu cần), mài giảm mặt nhai 1–1,5mm; mài mặt bên đường hoàn tất bờ xuôi."}, {"q": "Khi thử mão SSC, phần mão dư được cắt bỏ dưới đường đánh dấu khoảng:", "a": ["1 mm", "5 mm", "0,1 mm", "3 mm"], "c": 0, "e": "Dùng kéo cắt bỏ phần mão dư dưới đường đánh dấu 1mm."}, {"q": "Về chiều dài của mão SSC khi gắn, yêu cầu là:", "a": ["Đúng đường viền nướu và trên viền nướu ít, liền với đường lẹm tự nhiên, vượt qua đường vòng lớn nhất", "Ngắn hơn đường viền nướu nhiều", "Chỉ phủ mặt nhai", "Không cần vượt đường vòng lớn nhất"], "c": 0, "e": "Chiều dài mão: đúng đường viền nướu và trên viền nướu một ít, liền với đường lẹm tự nhiên, vượt qua đường vòng lớn nhất."}, {"q": "Yếu tố nào KHÔNG đảm bảo thành công của SSC?", "a": ["Để lại toàn bộ mô sâu để tiết kiệm thời gian", "Loại bỏ mô sâu, điều trị tủy nếu cần", "Chọn kích thước mão phù hợp chiều dài cung răng", "Khít sát bờ nướu, đảm bảo khớp cắn tốt"], "c": 0, "e": "Yếu tố thành công SSC: loại bỏ mô sâu/điều trị tủy nếu cần, mài giảm tối ưu để lưu giữ, giảm chấn thương nướu, chọn kích thước phù hợp, khít sát bờ nướu, khớp cắn tốt, gắn cement đảm bảo — không phải để lại mô sâu."}, {"q": "Mão răng cửa (Strip Crown) có ưu điểm gì?", "a": ["Tính thẩm mỹ, giá thành hợp lý, thời gian thực hiện phù hợp", "Rất bền với nghiến răng", "Không nhạy cảm với độ ẩm", "Không cần cô lập"], "c": 0, "e": "Ưu điểm Strip Crown: thẩm mỹ, giá thành hợp lý, thời gian thực hiện phù hợp."}, {"q": "Chỉ định của mão răng cửa (Strip Crown) gồm:", "a": ["Răng sâu lớn/nhiều mặt, răng cửa đã điều trị tủy, răng cửa gãy/đổi màu sau chấn thương, thiểu sản men", "Răng cửa sắp thay", "BN nghiến răng", "Mô răng còn lại không đủ tạo vi lưu"], "c": 0, "e": "Chỉ định Strip Crown: răng sâu lớn mặt bên/nhiều mặt, răng cửa đã điều trị tủy, gãy/đổi màu sau chấn thương, thiểu sản men, sâu mặt bên nhỏ nhưng mất chất lớn ở cổ răng."}, {"q": "Chống chỉ định của Strip Crown gồm:", "a": ["Khó cô lập, mô răng không đủ tạo vi lưu cơ học, nghiến răng, răng cửa sắp thay", "Răng cửa đã điều trị tủy", "Răng cửa gãy sau chấn thương", "Răng thiểu sản men"], "c": 0, "e": "Chống chỉ định Strip Crown: khó cô lập (tuổi, hành vi, chảy máu nướu), mô răng không đủ tạo vi lưu cơ học, BN nghiến răng, răng cửa sắp thay."}, {"q": "Khi sửa soạn mão composite răng cửa (Strip Crown), rìa cắn được mài khoảng:", "a": ["1 mm", "0,2 mm", "3 mm", "Không mài rìa cắn"], "c": 0, "e": "Mài sửa soạn Strip Crown: mặt bên 0,5mm, rìa cắn 1mm, mặt trong 0,5mm; mão nên dài hơn 1mm dưới bờ nướu."}, {"q": "Chụp sứ tiền chế (zirconia) răng sữa có ưu điểm gì đặc biệt?", "a": ["Thẩm mỹ cao (đặc biệt răng trước), tương hợp sinh học, thay thế cho BN dị ứng nikel", "Mài răng rất ít", "Giá thành thấp", "Không cần cách ly nước bọt"], "c": 0, "e": "Chụp sứ zirconia: thẩm mỹ cao đặc biệt răng trước, tương hợp sinh học, thay thế cho BN dị ứng nikel; nhược điểm là chỉnh sửa ít, mài răng nhiều, cần cách ly tuyệt đối, giá cao."}, {"q": "Đặc điểm cốt lõi của kỹ thuật Hall Technique là:", "a": ["Không loại bỏ sang thương sâu, dán kín sang thương bằng mão kim loại dùng GIC, không gây tê, không mài răng", "Mài răng nhiều và điều trị tủy", "Loại bỏ toàn bộ mô sâu rồi trám composite", "Chỉ dùng cho răng vĩnh viễn"], "c": 0, "e": "Hall Technique: không loại bỏ sang thương sâu; sang thương được dán kín bởi mão kim loại dùng GIC; không cần gây tê, không sửa soạn/mài răng."}, {"q": "Chống chỉ định của Hall Technique gồm:", "a": ["Triệu chứng viêm tủy không hồi phục/áp xe/lỗ dò, X quang có bệnh lý tủy, không đủ mô răng lưu giữ mão, răng dị dạng", "Sâu răng không triệu chứng ở răng cối sữa", "BN không hợp tác trám phục hồi", "Thiểu sản men răng sữa"], "c": 0, "e": "Chống chỉ định Hall: triệu chứng viêm tủy không hồi phục, áp xe/lỗ dò, X quang có dấu hiệu bệnh lý tủy/vùng quanh chóp, không đủ mô răng lưu giữ mão, răng dị dạng."}, {"q": "Ưu điểm của Hall Technique gồm:", "a": ["Không nguy cơ chạm tủy/kích thích, thời gian ngắn, không gây tê, BN dễ chấp nhận", "Cần nhiều lần hẹn", "Đòi hỏi mài răng nhiều", "Chỉ dùng cho người lớn"], "c": 0, "e": "Ưu điểm Hall: không nguy cơ chạm tủy/kích thích, BN hợp tác/giảm lo lắng, thời gian ngắn, không gây tê, hiệu quả LS và kinh tế cao, được BN/gia đình chấp nhận."}, {"q": "Theo bảng đánh giá nguy cơ, trẻ NGUY CƠ CAO nên tái khám mỗi:", "a": ["3 tháng", "12 tháng", "6 tháng", "24 tháng"], "c": 0, "e": "Nguy cơ cao: recall interval 3 tháng; nguy cơ trung bình 6 tháng; nguy cơ thấp 12 tháng."}, {"q": "Theo bảng đánh giá nguy cơ, trẻ NGUY CƠ THẤP nên tái khám mỗi:", "a": ["12 tháng", "3 tháng", "6 tháng", "1 tháng"], "c": 0, "e": "Nguy cơ thấp: recall interval 12 tháng."}, {"q": "Ở răng vĩnh viễn, sâu vùng cổ răng (cervical) được trám bằng:", "a": ["GIC / Composite resin", "Chỉ amalgam", "Chỉ SSC", "Trám bít hố rãnh"], "c": 0, "e": "Răng vĩnh viễn sâu cổ răng (cervical): GIC/composite resin; incisal edge: composite resin; sâu mặt bên: amalgam."}, {"q": "Vì trụ men vùng 1/3 nướu răng sữa hướng về phía mặt nhai nên khi sửa soạn:", "a": ["Không cần vát thành nướu", "Phải vát thành nướu nhiều", "Phải mở rộng về phía chóp", "Phải trám lót dày"], "c": 0, "e": "Trụ men 1/3 nướu hướng về phía mặt nhai nên không cần vát thành nướu."}, {"q": "Kết luận của bài về phục hồi răng sữa nhấn mạnh điều gì?", "a": ["Hiểu vật liệu/chỉ định/kỹ thuật đúng + giáo dục VSRM và tái khám định kỳ để phục hồi lâu dài", "Chỉ cần nhổ răng sâu", "Luôn dùng vật liệu đắt nhất", "Không cần tái khám"], "c": 0, "e": "Kết luận: có nhiều kỹ thuật (không xâm lấn, xâm lấn tối thiểu); hiểu vật liệu/chỉ định/kỹ thuật đúng cho phép phục hồi lâu dài; kết hợp giáo dục VSRM và tái khám định kỳ."}];
+let idx=0, score=0, answers=[], quizSet=[];
+const COUNTS=[20,40,60,100];
+function initChips(){const el=document.getElementById('countChips');COUNTS.forEach((n,i)=>{const c=document.createElement('div');c.className='chip'+(i===COUNTS.length-1?' on':'');c.textContent=n>=BANK.length?'Tất cả ('+BANK.length+')':n+' câu';c.dataset.n=Math.min(n,BANK.length);c.onclick=()=>{document.querySelectorAll('#countChips .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');};el.appendChild(c);});}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function startQuiz(){
+  const sel=document.querySelector('#countChips .chip.on');
+  const n=Math.min(parseInt(sel.dataset.n),BANK.length);
+  const doShuffle=document.getElementById('shuffle').checked;
+  let pool=BANK.map((q,i)=>({...q,_i:i}));
+  if(doShuffle)shuffle(pool);
+  quizSet=pool.slice(0,n).map(q=>{
+    let opts=q.a.map((t,i)=>({t,correct:i===q.c}));
+    if(doShuffle)shuffle(opts);
+    return {q:q.q,opts,e:q.e};
+  });
+  idx=0;score=0;answers=[];
+  document.getElementById('start').style.display='none';
+  document.getElementById('result').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  renderQ();
+}
+function renderQ(){
+  const item=quizSet[idx];
+  document.getElementById('progressTxt').textContent='Câu '+(idx+1)+' / '+quizSet.length;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('progressBar').style.width=((idx)/quizSet.length*100)+'%';
+  document.getElementById('qText').textContent=item.q;
+  const box=document.getElementById('opts');box.innerHTML='';
+  const letters=['A','B','C','D'];
+  item.opts.forEach((o,i)=>{
+    const b=document.createElement('button');
+    b.className='opt';
+    b.innerHTML='<span class="k">'+letters[i]+'.</span> '+o.t;
+    b.onclick=()=>choose(i);
+    box.appendChild(b);
+  });
+  const ex=document.getElementById('explain');ex.className='explain';ex.textContent='';
+  document.getElementById('nextBtn').disabled=true;
+  document.getElementById('skipBtn').style.display='inline-block';
+  document.getElementById('nextBtn').textContent=(idx===quizSet.length-1)?'Xem kết quả ✔':'Câu tiếp ▶';
+}
+function choose(i){
+  const item=quizSet[idx];
+  const btns=document.querySelectorAll('#opts .opt');
+  const correctIdx=item.opts.findIndex(o=>o.correct);
+  btns.forEach((b,j)=>{b.disabled=true;if(j===correctIdx)b.classList.add('correct');if(j===i&&i!==correctIdx)b.classList.add('wrong');});
+  const isRight=i===correctIdx;
+  if(isRight)score++;
+  answers.push({q:item.q,chosen:item.opts[i].t,correct:item.opts[correctIdx].t,right:isRight});
+  const ex=document.getElementById('explain');
+  ex.className='explain show';
+  ex.innerHTML=(isRight?'<b class="ok">✔ Chính xác. </b>':'<b class="bad">✘ Chưa đúng. </b>')+item.e;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('nextBtn').disabled=false;
+  document.getElementById('skipBtn').style.display='none';
+}
+function nextQ(){ if(idx<quizSet.length-1){idx++;renderQ();} else finish(); }
+function finish(){
+  document.getElementById('quiz').style.display='none';
+  const r=document.getElementById('result');r.style.display='block';
+  const pct=Math.round(score/quizSet.length*100);
+  document.getElementById('finalScore').textContent=score+' / '+quizSet.length+' ('+pct+'%)';
+  let msg='';
+  if(pct>=90)msg='Xuất sắc! Bạn nắm rất chắc bài.';
+  else if(pct>=70)msg='Tốt! Ôn lại vài câu sai là ổn.';
+  else if(pct>=50)msg='Khá – cần ôn thêm phần sai.';
+  else msg='Hãy đọc lại tài liệu và luyện lại nhé.';
+  document.getElementById('finalMsg').textContent=msg;
+  const rev=document.getElementById('review');rev.innerHTML='';rev.style.display='none';
+  answers.forEach((a,i)=>{
+    const d=document.createElement('div');d.className='review-item';
+    d.innerHTML='<div class="ri-q">'+(i+1)+'. '+a.q+'</div>'+
+      '<div class="ri-a">Bạn chọn: <span class="'+(a.right?'ok':'bad')+'">'+a.chosen+'</span></div>'+
+      (a.right?'':'<div class="ri-a">Đáp án đúng: <span class="ok">'+a.correct+'</span></div>');
+    rev.appendChild(d);
+  });
+}
+function toggleReview(){const r=document.getElementById('review');r.style.display=r.style.display==='none'?'block':'none';}
+initChips();
+</script>
+</body>
+</html>

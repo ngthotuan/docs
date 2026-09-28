@@ -1,0 +1,1924 @@
+[
+    {
+      "question": "Ưu điểm lớn nhất của khí cụ tháo lắp so với khí cụ cố định là gì?",
+      "options": [
+        {"text": "Có thể tạo ra những chuyển động phức tạp", "isCorrect": false},
+        {"text": "Bệnh nhân có thể tự tháo ra để vệ sinh răng miệng dễ dàng", "isCorrect": true},
+        {"text": "Không phụ thuộc vào sự hợp tác của bệnh nhân", "isCorrect": false},
+        {"text": "Thời gian điều trị ngắn hơn", "isCorrect": false}
+      ],
+      "explanation": "Khí cụ tháo lắp cho phép bệnh nhân tháo ra vệ sinh răng miệng và khí cụ, điều này giúp tăng khả năng chấp nhận điều trị của bệnh nhân."
+    },
+    {
+      "question": "Nhược điểm chính của khí cụ tháo lắp khiến nó bị hạn chế chỉ định là gì?",
+      "options": [
+        {"text": "Dễ làm gãy răng", "isCorrect": false},
+        {"text": "Không tạo được những chuyển động răng phức tạp (như di chuyển tịnh tiến hay xoay trục nhiều)", "isCorrect": true},
+        {"text": "Làm răng bị đổi màu", "isCorrect": false},
+        {"text": "Quá đắt tiền", "isCorrect": false}
+      ],
+      "explanation": "Khí cụ tháo lắp chủ yếu tạo ra chuyển động nghiêng răng đơn giản, không kiểm soát được chân răng tốt như khí cụ cố định."
+    },
+    {
+      "question": "Kết quả điều trị bằng khí cụ tháo lắp phụ thuộc hoàn toàn vào yếu tố nào?",
+      "options": [
+        {"text": "Kỹ năng mài răng của bác sĩ", "isCorrect": false},
+        {"text": "Thái độ hợp tác và thời gian mang khí cụ của bệnh nhân", "isCorrect": true},
+        {"text": "Độ dày của nền nhựa", "isCorrect": false},
+        {"text": "Loại thạch cao dùng đổ mẫu", "isCorrect": false}
+      ],
+      "explanation": "Khí cụ tháo lắp chỉ có tác dụng khi được mang trong miệng, do đó sự hợp tác của bệnh nhân là yếu tố quyết định."
+    },
+    {
+      "question": "Thành phần 'Nền nhựa' của khí cụ tháo lắp có chức năng gì?",
+      "options": [
+        {"text": "Là vật tựa để gắn các thành phần khác và truyền lực đến xương hàm", "isCorrect": true},
+        {"text": "Dùng để kéo răng", "isCorrect": false},
+        {"text": "Dùng để giữ hàm không bị sút", "isCorrect": false},
+        {"text": "Làm trắng răng", "isCorrect": false}
+      ],
+      "explanation": "Nền nhựa đóng vai trò là khung xương của khí cụ, giữ các lò xo, móc và phân phối áp lực lên mô niêm mạc/xương."
+    },
+    {
+      "question": "Dây cung môi (labial bow) trong khí cụ tháo lắp thường được làm bằng dây thép có đường kính bao nhiêu?",
+      "options": [
+        {"text": "0.2 mm", "isCorrect": false},
+        {"text": "0.5 mm", "isCorrect": false},
+        {"text": "0.7 - 0.9 mm", "isCorrect": true},
+        {"text": "2.0 mm", "isCorrect": false}
+      ],
+      "explanation": "Dây cung môi thường sử dụng dây thép không gỉ có độ cứng trung bình, đường kính phổ biến từ 0.7mm đến 0.9mm."
+    },
+    {
+      "question": "Móc Adam (Adam's clasp) thuộc thành phần nào của khí cụ tháo lắp?",
+      "options": [
+        {"text": "Phần tác động (Active part)", "isCorrect": false},
+        {"text": "Phần lưu giữ (Retention part)", "isCorrect": true},
+        {"text": "Nền nhựa", "isCorrect": false},
+        {"text": "Ốc nới rộng", "isCorrect": false}
+      ],
+      "explanation": "Móc Adam là bộ phận lưu giữ quan trọng nhất giúp khí cụ tháo lắp bám chắc vào răng cối lớn."
+    },
+    {
+      "question": "Khí cụ chức năng (Functional appliances) hoạt động dựa trên nguyên lý nào?",
+      "options": [
+        {"text": "Dùng lực từ lò xo kim loại tác động trực tiếp", "isCorrect": false},
+        {"text": "Sử dụng lực từ các cơ hệ thống hàm mặt để làm thay đổi sự tăng trưởng xương", "isCorrect": true},
+        {"text": "Sử dụng lực từ tay bác sĩ", "isCorrect": false},
+        {"text": "Dùng nam châm", "isCorrect": false}
+      ],
+      "explanation": "Khí cụ chức năng làm thay đổi thăng bằng thần kinh cơ, từ đó hướng dẫn sự phát triển của xương hàm."
+    },
+    {
+      "question": "Khí cụ chức năng thường được chỉ định vào giai đoạn nào là hiệu quả nhất?",
+      "options": [
+        {"text": "Khi bệnh nhân đã trưởng thành hoàn toàn", "isCorrect": false},
+        {"text": "Thời kỳ bộ răng hỗn hợp và bệnh nhân đang trong giai đoạn tăng trưởng mạnh", "isCorrect": true},
+        {"text": "Lúc trẻ mới mọc răng sữa", "isCorrect": false},
+        {"text": "Chỉ dành cho người già", "isCorrect": false}
+      ],
+      "explanation": "Khí cụ chức năng tận dụng sự tăng trưởng tự nhiên để sửa chữa các sai hình xương, do đó cần dùng ở trẻ em đang lớn."
+    },
+    {
+      "question": "Khí cụ Activator có cấu tạo đặc trưng như thế nào?",
+      "options": [
+        {"text": "Gồm hai khối nhựa riêng biệt cho hai hàm", "isCorrect": false},
+        {"text": "Là một khối nhựa duy nhất nối hai hàm với nhau", "isCorrect": true},
+        {"text": "Gắn cố định vào răng khôn", "isCorrect": false},
+        {"text": "Làm bằng kim loại đúc", "isCorrect": false}
+      ],
+      "explanation": "Activator là khí cụ tháo lắp một khối (monoblock) dùng để điều trị sai khớp cắn hạng II xương."
+    },
+    {
+      "question": "Khí cụ Twin-block có điểm gì khác biệt so với Activator?",
+      "options": [
+        {"text": "Nó là một khối nhựa cứng", "isCorrect": false},
+        {"text": "Gồm hai khối nhựa riêng biệt cho hàm trên và dưới, cho phép bệnh nhân ăn nhai và nói dễ hơn", "isCorrect": true},
+        {"text": "Chỉ dùng để nhổ răng", "isCorrect": false},
+        {"text": "Làm bằng cao su mềm", "isCorrect": false}
+      ],
+      "explanation": "Twin-block gồm 2 phần lắp khớp với nhau qua các mặt phẳng nghiêng, giúp bệnh nhân thoải mái hơn Activator truyền thống."
+    },
+    {
+      "question": "Mục đích của việc sử dụng 'mặt phẳng nghiêng' trong khí cụ chức năng là:",
+      "options": [
+        {"text": "Để răng mọc chậm lại", "isCorrect": false},
+        {"text": "Dẫn dắt hàm dưới ra trước hoặc lùi sau khi bệnh nhân ngậm miệng", "isCorrect": true},
+        {"text": "Để bảo vệ lưỡi", "isCorrect": false},
+        {"text": "Làm nền nhựa mỏng đi", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng nghiêng ép buộc xương hàm dưới phải định vị lại ở vị trí mới để đạt được sự tăng trưởng mong muốn."
+    },
+    {
+      "question": "Trong khí cụ tháo lắp, 'Móc mũi giáo' (Arrowhead clasp) thường được đặt ở đâu?",
+      "options": [
+        {"text": "Răng cửa giữa", "isCorrect": false},
+        {"text": "Giữa hai răng cối nhỏ hoặc răng cối lớn", "isCorrect": true},
+        {"text": "Dưới sàn lưỡi", "isCorrect": false},
+        {"text": "Trên vòm miệng cứng", "isCorrect": false}
+      ],
+      "explanation": "Móc mũi giáo lọt vào kẽ răng để tạo lực lưu giữ cơ học."
+    },
+    {
+      "question": "Phần tác động (Active part) của khí cụ tháo lắp bao gồm những gì?",
+      "options": [
+        {"text": "Móc Adam và móc tam giác", "isCorrect": false},
+        {"text": "Lò xo, dây cung môi và ốc nới rộng", "isCorrect": true},
+        {"text": "Nền nhựa acrylic", "isCorrect": false},
+        {"text": "Mẫu hàm thạch cao", "isCorrect": false}
+      ],
+      "explanation": "Các bộ phận này trực tiếp tạo ra lực để dịch chuyển răng hoặc nới rộng cung hàm."
+    },
+    {
+      "question": "Ốc nới rộng (Expansion screw) trong khí cụ tháo lắp thường dùng để làm gì?",
+      "options": [
+        {"text": "Làm lún răng cửa", "isCorrect": false},
+        {"text": "Nới rộng cung hàm theo chiều ngang hoặc chiều trước sau", "isCorrect": true},
+        {"text": "Gắn chặt mắc cài", "isCorrect": false},
+        {"text": "Thay thế chân răng", "isCorrect": false}
+      ],
+      "explanation": "Ốc nới rộng được vặn định kỳ để tách đôi nền nhựa, đẩy xương hàm rộng ra."
+    },
+    {
+      "question": "Tại sao khí cụ tháo lắp thường được sử dụng ở giai đoạn đầu của quá trình điều trị?",
+      "options": [
+        {"text": "Vì nó rẻ nhất", "isCorrect": false},
+        {"text": "Để chuẩn bị khoảng trống hoặc chỉnh sửa các sai lệch đơn giản trước khi gắn mắc cài cố định", "isCorrect": true},
+        {"text": "Vì bác sĩ chưa muốn gắn mắc cài", "isCorrect": false},
+        {"text": "Để làm răng sạch hơn", "isCorrect": false}
+      ],
+      "explanation": "Sử dụng khí cụ tháo lắp giúp đơn giản hóa các vấn đề về khoảng hoặc tương quan hàm trước khi tinh chỉnh bằng khí cụ cố định."
+    },
+    {
+      "question": "Bệnh nhân có thể tự điều chỉnh ốc nới rộng tại nhà không?",
+      "options": [
+        {"text": "Không bao giờ", "isCorrect": false},
+        {"text": "Có, theo chỉ dẫn cụ thể của bác sĩ về số vòng vặn và thời gian vặn", "isCorrect": true},
+        {"text": "Chỉ khi thấy đau", "isCorrect": false},
+        {"text": "Tùy ý thích của bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Vặn ốc nới rộng là phần việc bệnh nhân có thể thực hiện tại nhà theo phác đồ bác sĩ đã định."
+    },
+    {
+      "question": "Khí cụ chức năng Bionator được cải tiến từ khí cụ nào?",
+      "options": [
+        {"text": "Mắc cài sứ", "isCorrect": false},
+        {"text": "Activator", "isCorrect": true},
+        {"text": "Headgear", "isCorrect": false},
+        {"text": "Hàm khung tháo lắp", "isCorrect": false}
+      ],
+      "explanation": "Bionator là một dạng thu gọn của Activator nhằm giúp bệnh nhân thoải mái hơn trong sinh hoạt."
+    },
+    {
+      "question": "Lực nới rộng cung hàm bằng ốc thường được gọi là lực gì?",
+      "options": [
+        {"text": "Lực liên tục", "isCorrect": false},
+        {"text": "Lực ngắt quãng (Interrupted force)", "isCorrect": true},
+        {"text": "Lực gián đoạn", "isCorrect": false},
+        {"text": "Lực sinh học", "isCorrect": false}
+      ],
+      "explanation": "Mỗi lần vặn ốc tạo ra một lực mạnh sau đó giảm dần khi xương dãn ra, gọi là lực ngắt quãng."
+    },
+    {
+      "question": "Chỉ định 'Chỉnh hình phòng ngừa' bằng khí cụ tháo lắp bao gồm:",
+      "options": [
+        {"text": "Phẫu thuật cắt xương", "isCorrect": false},
+        {"text": "Giữ khoảng khi mất răng sữa sớm hoặc loại bỏ thói quen xấu", "isCorrect": true},
+        {"text": "Gắn kim cương vào răng", "isCorrect": false},
+        {"text": "Nhổ toàn bộ răng vĩnh viễn", "isCorrect": false}
+      ],
+      "explanation": "Can thiệp sớm bằng khí cụ tháo lắp đơn giản giúp ngăn chặn các sai lệch nghiêm trọng trong tương lai."
+    },
+    {
+      "question": "Vật liệu làm nền hàm khí cụ tháo lắp phổ biến nhất là:",
+      "options": [
+        {"text": "Kim loại đúc", "isCorrect": false},
+        {"text": "Nhựa Acrylic (tự cứng hoặc trùng hợp nhiệt)", "isCorrect": true},
+        {"text": "Cao su mềm", "isCorrect": false},
+        {"text": "Sứ nha khoa", "isCorrect": false}
+      ],
+      "explanation": "Nhựa Acrylic nhẹ, bền và dễ tạo hình trên mẫu hàm thạch cao."
+    },
+    {
+      "question": "Dây cung môi có tác dụng gì trong việc duy trì kết quả điều trị?",
+      "options": [
+        {"text": "Làm răng mọc dài ra", "isCorrect": false},
+        {"text": "Giữ các răng trước không bị di chuyển ra ngoài (vổ lại)", "isCorrect": true},
+        {"text": "Giúp răng trắng bóng", "isCorrect": false},
+        {"text": "Tăng tiết nước bọt", "isCorrect": false}
+      ],
+      "explanation": "Dây cung môi tạo áp lực nhẹ giữ nhóm răng trước ổn định sau khi đã được sắp xếp."
+    },
+    {
+      "question": "Tại sao bệnh nhân mang khí cụ chức năng thường có cảm giác mỏi cơ trong thời gian đầu?",
+      "options": [
+        {"text": "Do nền nhựa quá dày", "isCorrect": false},
+        {"text": "Do khí cụ bắt buộc các cơ nhai phải làm việc ở một vị trí mới không quen thuộc", "isCorrect": true},
+        {"text": "Do dị ứng nhựa", "isCorrect": false},
+        {"text": "Do mầm răng bị hỏng", "isCorrect": false}
+      ],
+      "explanation": "Sự thay đổi chiều dài cơ nhai để thích nghi với khí cụ gây ra cảm giác mỏi sinh lý."
+    },
+    {
+      "question": "Khí cụ Frankel thuộc nhóm khí cụ nào?",
+      "options": [
+        {"text": "Khí cụ cố định", "isCorrect": false},
+        {"text": "Khí cụ chức năng (sử dụng các tấm nhựa đẩy má và môi ra xa răng)", "isCorrect": true},
+        {"text": "Khí cụ ngoài mặt", "isCorrect": false},
+        {"text": "Khâu răng cối", "isCorrect": false}
+      ],
+      "explanation": "Frankel loại bỏ áp lực cơ má và môi lên cung răng, cho phép cung răng phát triển tự nhiên."
+    },
+    {
+      "question": "Điều kiện để sử dụng khí cụ chức năng thành công là gì?",
+      "options": [
+        {"text": "Răng phải bị sâu hết", "isCorrect": false},
+        {"text": "Bệnh nhân phải đang ở tuổi dậy thì hoặc trước dậy thì", "isCorrect": true},
+        {"text": "Phải nhổ ít nhất 4 răng", "isCorrect": false},
+        {"text": "Bác sĩ phải dùng máy khoan", "isCorrect": false}
+      ],
+      "explanation": "Khí cụ chức năng không có tác dụng thay đổi xương khi quá trình tăng trưởng đã chấm dứt."
+    },
+    {
+      "question": "Móc Adam có thể được uốn từ dây thép đường kính bao nhiêu?",
+      "options": [
+        {"text": "0.1 mm", "isCorrect": false},
+        {"text": "0.7 mm", "isCorrect": true},
+        {"text": "1.5 mm", "isCorrect": false},
+        {"text": "5.0 mm", "isCorrect": false}
+      ],
+      "explanation": "Dây thép 0.7mm cung cấp độ đàn hồi và độ bền lý tưởng cho móc Adam bám vào vùng lẹm của răng."
+    },
+    {
+      "question": "Nền nhựa của khí cụ tháo lắp 'phủ lên vòm miệng' đối với hàm trên nhằm mục đích gì?",
+      "options": [
+        {"text": "Để bệnh nhân không nếm được thức ăn", "isCorrect": false},
+        {"text": "Tăng diện tích nâng đỡ và độ vững ổn cho khí cụ", "isCorrect": true},
+        {"text": "Làm nền hàm nặng hơn", "isCorrect": false},
+        {"text": "Che giấu lỗ sâu răng", "isCorrect": false}
+      ],
+      "explanation": "Diện tích tiếp xúc với vòm miệng rộng giúp phân phối lực đều và giữ hàm chắc hơn."
+    },
+    {
+      "question": "Nếu khí cụ tháo lắp gây loét niêm mạc, bác sĩ cần xử lý thế nào?",
+      "options": [
+        {"text": "Yêu cầu bệnh nhân cố chịu đựng", "isCorrect": false},
+        {"text": "Mài chỉnh bớt nhựa tại vùng tỳ đè gây loét", "isCorrect": true},
+        {"text": "Vứt bỏ khí cụ", "isCorrect": false},
+        {"text": "Sơn màu xanh lên vết loét", "isCorrect": false}
+      ],
+      "explanation": "Điều chỉnh tại ghế là bước cần thiết để đảm bảo sự thoải mái và lành thương mô mềm."
+    },
+    {
+      "question": "Sự khác biệt giữa 'khí cụ tháo lắp' và 'retainer' (khí cụ duy trì) là gì?",
+      "options": [
+        {"text": "Retainer không có dây thép", "isCorrect": false},
+        {"text": "Retainer là một loại khí cụ tháo lắp dùng sau khi đã kết thúc giai đoạn di chuyển răng", "isCorrect": true},
+        {"text": "Retainer làm bằng vàng", "isCorrect": false},
+        {"text": "Retainer gắn chặt vào xương", "isCorrect": false}
+      ],
+      "explanation": "Hầu hết các retainer hiện nay là khí cụ tháo lắp loại Hawley."
+    },
+    {
+      "question": "Móc Jackson (Jackson clasp) có cấu tạo cơ bản là gì?",
+      "options": [
+        {"text": "Móc uốn ôm quanh cổ răng", "isCorrect": true},
+        {"text": "Có đầu nhọn như mũi tên", "isCorrect": false},
+        {"text": "Làm bằng nhựa", "isCorrect": false},
+        {"text": "Gắn lò xo", "isCorrect": false}
+      ],
+      "explanation": "Móc Jackson là loại móc đơn giản ôm sát vòng quanh cổ răng để lưu giữ."
+    },
+    {
+      "question": "Tại sao không nên sử dụng khí cụ tháo lắp cho những di chuyển tịnh tiến răng?",
+      "options": [
+        {"text": "Vì nó làm đau tủy", "isCorrect": false},
+        {"text": "Vì điểm đặt lực chỉ ở thân răng, tạo ra moment làm nghiêng răng thay vì tịnh tiến", "isCorrect": true},
+        {"text": "Vì nhựa không chịu được lực kéo", "isCorrect": false},
+        {"text": "Vì răng sẽ mọc dài ra", "isCorrect": false}
+      ],
+      "explanation": "Kiểm soát tịnh tiến đòi hỏi hệ thống lực và ngẫu lực phức tạp mà chỉ mắc cài cố định mới làm tốt."
+    },
+    {
+      "question": "Lò xo 'ngón tay' (Finger spring) thường dùng để di chuyển răng theo hướng nào?",
+      "options": [
+        {"text": "Lún răng", "isCorrect": false},
+        {"text": "Di chuyển răng theo chiều gần-xa dọc theo cung hàm", "isCorrect": true},
+        {"text": "Làm trồi răng", "isCorrect": false},
+        {"text": "Xoay chân răng", "isCorrect": false}
+      ],
+      "explanation": "Lò xo ngón tay tác động lực đẩy răng trượt theo chiều ngang của xương ổ răng."
+    },
+    {
+      "question": "Phát biểu nào đúng về khí cụ tháo lắp?",
+      "options": [
+        {"text": "Nó có thể thay thế hoàn toàn khí cụ cố định", "isCorrect": false},
+        {"text": "Nó ít gây sâu răng hơn vì dễ vệ sinh", "isCorrect": true},
+        {"text": "Nó chỉ dùng được cho trẻ em dưới 6 tuổi", "isCorrect": false},
+        {"text": "Nó không bao giờ làm đau bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Do tháo ra chải răng được nên nguy cơ sâu răng và viêm nướu thấp hơn khí cụ cố định."
+    },
+    {
+      "question": "Bionator giúp điều trị hạng II bằng cách nào?",
+      "options": [
+        {"text": "Lùi hàm trên", "isCorrect": false},
+        {"text": "Kích thích hàm dưới phát triển ra trước nhờ hướng dẫn cơ", "isCorrect": true},
+        {"text": "Nhổ răng cửa", "isCorrect": false},
+        {"text": "Mài bớt răng cối", "isCorrect": false}
+      ],
+      "explanation": "Đây là cơ chế chung của các khí cụ chức năng điều trị móm/vổ do xương hàm dưới."
+    },
+    {
+      "question": "Ký hiệu 'P' trong thiết kế lò xo nới rộng (P-spring) có ý nghĩa gì?",
+      "options": [
+        {"text": "Nâng đỡ", "isCorrect": false},
+        {"text": "Dây cung có hình chữ P để tạo độ đàn hồi", "isCorrect": true},
+        {"text": "Tên bác sĩ", "isCorrect": false},
+        {"text": "Chỉ dành cho hàm dưới", "isCorrect": false}
+      ],
+      "explanation": "Hình dạng vòng lặp giúp lò xo có quãng đàn hồi lớn và lực nhẹ nhàng."
+    },
+    {
+      "question": "Khi vặn ốc nới rộng, cung hàm thường rộng thêm bao nhiêu mỗi lần vặn chuẩn (1/4 vòng)?",
+      "options": [
+        {"text": "0.01 mm", "isCorrect": false},
+        {"text": "0.2 mm - 0.25 mm", "isCorrect": true},
+        {"text": "1.0 mm", "isCorrect": false},
+        {"text": "5.0 mm", "isCorrect": false}
+      ],
+      "explanation": "Mỗi bước vặn 1/4 vòng ốc nới rộng tiêu chuẩn tạo ra độ dãn 0.25mm."
+    },
+    {
+      "question": "Khí cụ chức năng 'cố định' (như Herbst) khác gì so với Activator?",
+      "options": [
+        {"text": "Bệnh nhân có thể tự tháo", "isCorrect": false},
+        {"text": "Bác sĩ gắn chặt vào răng, bệnh nhân không tự tháo được", "isCorrect": true},
+        {"text": "Làm bằng nhựa dẻo", "isCorrect": false},
+        {"text": "Chỉ dùng khi ngủ", "isCorrect": false}
+      ],
+      "explanation": "Khí cụ chức năng cố định giúp loại bỏ hoàn toàn yếu tố không hợp tác của bệnh nhân."
+    },
+    {
+      "question": "Lực chức năng trong khí cụ Activator được kích hoạt khi nào?",
+      "options": [
+        {"text": "Khi bệnh nhân ngủ và vô thức ngậm miệng lại", "isCorrect": true},
+        {"text": "Khi bác sĩ vặn ốc", "isCorrect": false},
+        {"text": "Khi tháo hàm ra", "isCorrect": false},
+        {"text": "Khi ăn kẹo cao su", "isCorrect": false}
+      ],
+      "explanation": "Áp lực từ việc ngậm hàm vào khí cụ kích thích sự thay đổi ở khớp thái dương hàm."
+    },
+    {
+      "question": "Nhóm răng nào thường mang móc lưu giữ của khí cụ tháo lắp?",
+      "options": [
+        {"text": "Răng cửa giữa", "isCorrect": false},
+        {"text": "Răng cối lớn (răng 6 hoặc răng sữa 5)", "isCorrect": true},
+        {"text": "Răng nanh", "isCorrect": false},
+        {"text": "Lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Răng cối lớn có diện tích lớn và vùng lẹm tốt nhất để bám móc."
+    },
+    {
+      "question": "Nghiệm pháp 'mài nhựa' nền hàm được thực hiện khi nào?",
+      "options": [
+        {"text": "Để răng có thể di chuyển vào vị trí mong muốn mà không bị nhựa cản trở", "isCorrect": true},
+        {"text": "Để làm sạch hàm", "isCorrect": false},
+        {"text": "Khi bệnh nhân muốn hàm nhẹ đi", "isCorrect": false},
+        {"text": "Sau khi đã điều trị xong", "isCorrect": false}
+      ],
+      "explanation": "Giải phóng nhựa (relief) là bước kỹ thuật cho phép lò xo đẩy răng dịch chuyển."
+    },
+    {
+      "question": "Tính ổn định của khí cụ tháo lắp (stability) phụ thuộc yếu tố nào nhất?",
+      "options": [
+        {"text": "Độ trắng của nhựa", "isCorrect": false},
+        {"text": "Sự khít sát của nền nhựa với niêm mạc và các móc lưu giữ", "isCorrect": true},
+        {"text": "Giá tiền bệnh nhân trả", "isCorrect": false},
+        {"text": "Thời gian đổ mẫu thạch cao", "isCorrect": false}
+      ],
+      "explanation": "Khít sát giúp khí cụ không bị bập bênh hoặc rơi khi bệnh nhân ăn nói."
+    },
+    {
+      "question": "Tại sao khí cụ tháo lắp KHÔNG được khuyên dùng cho người trưởng thành để nới rộng xương hàm?",
+      "options": [
+        {"text": "Vì họ không hợp tác", "isCorrect": false},
+        {"text": "Vì đường khớp giữa khẩu cái đã cốt hóa (cứng lại), lực từ khí cụ tháo lắp không đủ làm dãn xương", "isCorrect": true},
+        {"text": "Vì răng họ quá chắc", "isCorrect": false},
+        {"text": "Vì họ hay bị đau nướu", "isCorrect": false}
+      ],
+      "explanation": "Ở người lớn, nới rộng hàm thường đòi hỏi khí cụ cố định cực mạnh hoặc phẫu thuật hỗ trợ."
+    },
+    {
+      "question": "Lò xo 'chữ Z' (Z-spring) thường dùng để làm gì?",
+      "options": [
+        {"text": "Kéo lùi răng cửa", "isCorrect": false},
+        {"text": "Đẩy một hoặc nhiều răng cửa từ phía lưỡi ra phía môi (chỉnh cắn ngược)", "isCorrect": true},
+        {"text": "Làm xoay răng cối", "isCorrect": false},
+        {"text": "Giữ khoảng", "isCorrect": false}
+      ],
+      "explanation": "Lò xo Z là công cụ hữu hiệu để điều trị cắn chéo răng cửa đơn lẻ ở trẻ em."
+    },
+    {
+      "question": "Khoảng nói tối thiểu (closest speaking space) có ý nghĩa gì khi mang khí cụ tháo lắp?",
+      "options": [
+        {"text": "Để bác sĩ biết bệnh nhân nói gì", "isCorrect": false},
+        {"text": "Đảm bảo nền nhựa vùng răng trước không quá dày gây cản trở phát âm", "isCorrect": true},
+        {"text": "Để răng không bị gãy", "isCorrect": false},
+        {"text": "Không có ý nghĩa", "isCorrect": false}
+      ],
+      "explanation": "Khí cụ quá dày ở mặt trong răng cửa sẽ làm bệnh nhân nói ngọng."
+    },
+    {
+      "question": "Lực nới rộng hàm dưới bằng khí cụ tháo lắp có đặc điểm gì?",
+      "options": [
+        {"text": "Dễ làm dãn xương hàm dưới", "isCorrect": false},
+        {"text": "Chủ yếu chỉ làm nghiêng các răng ra phía má chứ không làm dãn xương (vì xương hàm dưới đặc hơn hàm trên)", "isCorrect": true},
+        {"text": "Làm cằm to ra", "isCorrect": false},
+        {"text": "Làm mất vị giác", "isCorrect": false}
+      ],
+      "explanation": "Xương hàm dưới là một khối đặc, không có đường khớp giữa như hàm trên nên khó dãn xương."
+    },
+    {
+      "question": "Màu sắc của nền nhựa khí cụ tháo lắp có ảnh hưởng đến tâm lý trẻ em không?",
+      "options": [
+        {"text": "Không", "isCorrect": false},
+        {"text": "Có, lựa chọn màu sắc hoặc hình vẽ yêu thích giúp trẻ tự tin và hợp tác điều trị tốt hơn", "isCorrect": true},
+        {"text": "Làm trẻ sợ hãi", "isCorrect": false},
+        {"text": "Làm răng bị hỏng", "isCorrect": false}
+      ],
+      "explanation": "Cá nhân hóa khí cụ bằng màu sắc là một liệu pháp tâm lý hiệu quả trong nha khoa trẻ em."
+    },
+    {
+      "question": "Tần suất tái khám thông thường khi sử dụng khí cụ tháo lắp là bao lâu?",
+      "options": [
+        {"text": "1 tuần/lần", "isCorrect": false},
+        {"text": "4 - 6 tuần/lần", "isCorrect": true},
+        {"text": "6 tháng/lần", "isCorrect": false},
+        {"text": "Chỉ khám 1 lần duy nhất", "isCorrect": false}
+      ],
+      "explanation": "Khoảng thời gian này đủ để răng dịch chuyển và bác sĩ kích hoạt lại các lò xo."
+    },
+    {
+      "question": "Nếu bệnh nhân bị mất khí cụ tháo lắp, bác sĩ nên làm gì?",
+      "options": [
+        {"text": "Dùng khí cụ của bệnh nhân khác", "isCorrect": false},
+        {"text": "Lấy dấu lại và làm mới hoàn toàn (vì răng đã có sự di chuyển so với mẫu cũ)", "isCorrect": true},
+        {"text": "Bắt bệnh nhân nhịn ăn", "isCorrect": false},
+        {"text": "Gắn mắc cài luôn", "isCorrect": false}
+      ],
+      "explanation": "Cung răng thay đổi liên tục, do đó không thể sử dụng lại mẫu hàm cũ để làm khí cụ mới."
+    },
+    {
+      "question": "Mục tiêu số 1 của bài học này là gì?",
+      "options": [
+        {"text": "Nhổ răng", "isCorrect": false},
+        {"text": "Nêu được các điểm thuận lợi và bất lợi của khí cụ tháo lắp", "isCorrect": true},
+        {"text": "Lấy tủy", "isCorrect": false},
+        {"text": "Mài răng sứ", "isCorrect": false}
+      ],
+      "explanation": "Đây là kiến thức nền tảng để bác sĩ tư vấn cho bệnh nhân trước khi chọn khí cụ."
+    },
+    {
+      "question": "Khí cụ chức năng 'lỏng lẻo' (loose fitting) có nghĩa là gì?",
+      "options": [
+        {"text": "Khí cụ bị hỏng", "isCorrect": false},
+        {"text": "Được thiết kế để không bám chặt vào răng, tạo sự kích thích cơ bắp tối đa", "isCorrect": true},
+        {"text": "Khí cụ quá to so với miệng", "isCorrect": false},
+        {"text": "Làm bằng cao su", "isCorrect": false}
+      ],
+      "explanation": "Sự lỏng lẻo có kiểm soát giúp lưỡi và cơ môi má tác động lên khí cụ sinh lực chỉnh hình."
+    },
+    {
+      "question": "Tại sao phải bôi dầu (vaseline) lên mẫu thạch cao trước khi làm khí cụ tháo lắp (trong labo)?",
+      "options": [
+        {"text": "Để làm sạch mẫu", "isCorrect": false},
+        {"text": "Để nhựa acrylic không dính chặt vào thạch cao, giúp tháo khí cụ dễ dàng", "isCorrect": true},
+        {"text": "Để làm mẫu đẹp hơn", "isCorrect": false},
+        {"text": "Để thạch cao trắng bóng", "isCorrect": false}
+      ],
+      "explanation": "Vaseline đóng vai trò là chất cách ly trong quá trình nhựa hóa."
+    },
+    {
+      "question": "Lò xo nới rộng (Coffin spring) dùng cho hàm trên có hình dạng gì?",
+      "options": [
+        {"text": "Hình tròn", "isCorrect": false},
+        {"text": "Hình chữ W hoặc hình Omega lớn nằm giữa vòm miệng", "isCorrect": true},
+        {"text": "Hình cái kim", "isCorrect": false},
+        {"text": "Hình ngôi sao", "isCorrect": false}
+      ],
+      "explanation": "Lò xo Coffin là loại lò xo kim loại mạnh dùng để nới rộng cung hàm trên thay cho ốc."
+    },
+    {
+      "question": "Trong khí cụ tháo lắp, phần nhựa bao phủ 'mặt nhai' răng sau gọi là gì?",
+      "options": [
+        {"text": "Nền hàm", "isCorrect": false},
+        {"text": "Máng nhai (Posterior bite block/bite plane)", "isCorrect": true},
+        {"text": "Móc Adam", "isCorrect": false},
+        {"text": "Gối sáp", "isCorrect": false}
+      ],
+      "explanation": "Máng nhai nhựa giúp giải phóng khớp cắn, cho phép răng trước di chuyển dễ dàng hơn."
+    },
+    {
+      "question": "Tiêu chuẩn vệ sinh khí cụ tháo lắp đúng cách là:",
+      "options": [
+        {"text": "Luộc trong nước sôi hàng ngày", "isCorrect": false},
+        {"text": "Chải bằng bàn chải mềm và kem đánh răng hoặc xà phòng nhẹ dưới vòi nước lạnh/ấm", "isCorrect": true},
+        {"text": "Ngâm trong cồn 90 độ suốt đêm", "isCorrect": false},
+        {"text": "Dùng máy mài để làm sạch", "isCorrect": false}
+      ],
+      "explanation": "Nước nóng làm biến dạng nhựa, hóa chất mạnh làm hỏng tính chất vật liệu."
+    },
+    {
+      "question": "Khí cụ Hawley là gì?",
+      "options": [
+        {"text": "Khí cụ nhổ răng", "isCorrect": false},
+        {"text": "Loại khí cụ tháo lắp kinh điển nhất gồm cung môi và các móc lưu giữ", "isCorrect": true},
+        {"text": "Một loại mắc cài sứ", "isCorrect": false},
+        {"text": "Hàm giả toàn bộ", "isCorrect": false}
+      ],
+      "explanation": "Hawley là tên gọi phổ biến nhất cho các hàm duy trì và chỉnh răng tháo lắp đơn giản."
+    },
+    {
+      "question": "Khi bệnh nhân không mang khí cụ đủ thời gian, hiện tượng gì thường xảy ra?",
+      "options": [
+        {"text": "Răng mọc nhanh hơn", "isCorrect": false},
+        {"text": "Răng bị di chuyển ngược lại vị trí cũ (tái phát) và khí cụ không còn khít sát", "isCorrect": true},
+        {"text": "Khí cụ tự động chặt lại", "isCorrect": false},
+        {"text": "Bệnh nhân thấy khỏe hơn", "isCorrect": false}
+      ],
+      "explanation": "Răng có khuynh hướng trở về vị trí cũ nếu không được giữ ổn định liên tục."
+    },
+    {
+      "question": "Dây thép uốn khí cụ chỉnh hình có đặc tính 'nhớ hình' không?",
+      "options": [
+        {"text": "Có, rất mạnh", "isCorrect": false},
+        {"text": "Thường là không, nó giữ nguyên hình dạng sau khi uốn (trừ loại dây hợp kim đặc biệt)", "isCorrect": true},
+        {"text": "Nó mềm như bún", "isCorrect": false},
+        {"text": "Nó biến thành nhựa", "isCorrect": false}
+      ],
+      "explanation": "Bác sĩ phải dùng kìm tạo hình và dây thép không gỉ sẽ duy trì hình dạng đó để tạo lực."
+    },
+    {
+      "question": "Tại sao phải 'đánh bóng' khí cụ tháo lắp trước khi giao cho bệnh nhân?",
+      "options": [
+        {"text": "Để cho đẹp", "isCorrect": false},
+        {"text": "Tạo bề mặt trơn láng tránh đọng mảng bám và không gây kích ứng lưỡi, niêm mạc", "isCorrect": true},
+        {"text": "Để nhựa cứng hơn", "isCorrect": false},
+        {"text": "Để tăng giá tiền", "isCorrect": false}
+      ],
+      "explanation": "Đánh bóng là bước hoàn thiện quan trọng đảm bảo tính vệ sinh và thoải mái."
+    },
+    {
+      "question": "Thành phần nào ngăn cản khí cụ tháo lắp bị 'lún' sâu vào nướu?",
+      "options": [
+        {"text": "Phần tựa mặt nhai (Occlusal rest) của các móc hoặc máng nhai", "isCorrect": true},
+        {"text": "Cung môi", "isCorrect": false},
+        {"text": "Ốc nới rộng", "isCorrect": false},
+        {"text": "Lò xo", "isCorrect": false}
+      ],
+      "explanation": "Tựa trên răng giúp truyền lực nhai xuống răng trụ thay vì ép xuống mô mềm."
+    },
+    {
+      "question": "Khí cụ chức năng có thể điều trị sai hình xương hạng III không?",
+      "options": [
+        {"text": "Không thể", "isCorrect": false},
+        {"text": "Có, bằng các khí cụ như hàm mặt nạ (Face mask) hoặc khí cụ ngược", "isCorrect": true},
+        {"text": "Chỉ dùng cho hạng I", "isCorrect": false},
+        {"text": "Chỉ dùng cho người lớn", "isCorrect": false}
+      ],
+      "explanation": "Khí cụ chức năng có nhiều loại thiết kế cho cả hô và móm xương ở trẻ em."
+    },
+    {
+      "question": "Kết luận cuối cùng của chương 'Khí cụ tháo lắp' nhấn mạnh điều gì?",
+      "options": [
+        {"text": "Bác sĩ chỉ cần làm đúng kỹ thuật", "isCorrect": false},
+        {"text": "Sự phối hợp chặt chẽ giữa bác sĩ, labo và sự hợp tác của bệnh nhân là chìa khóa thành công", "isCorrect": true},
+        {"text": "Chỉ cần dùng nhựa tốt", "isCorrect": false},
+        {"text": "Không nên dùng khí cụ tháo lắp", "isCorrect": false}
+      ],
+      "explanation": "Phục hình tháo lắp là một quy trình kỹ thuật và tâm lý tổng hợp."
+    },
+    {
+      "question": "Lò xo 'quạt' (Fan-shaped screw) dùng để nới rộng hàm theo kiểu nào?",
+      "options": [
+        {"text": "Nới rộng đều hai bên", "isCorrect": false},
+        {"text": "Nới rộng vùng răng trước nhiều hơn vùng răng sau", "isCorrect": true},
+        {"text": "Nới rộng vùng răng hàm", "isCorrect": false},
+        {"text": "Kéo lùi cung răng", "isCorrect": false}
+      ],
+      "explanation": "Ốc hình quạt giúp mở rộng cung răng theo dạng rẻ quạt, tập trung vào răng trước."
+    },
+    {
+      "question": "Sử dụng nhựa 'tự cứng' trong làm khí cụ tháo lắp có ưu điểm gì?",
+      "options": [
+        {"text": "Bền hơn nhựa nấu", "isCorrect": false},
+        {"text": "Nhanh, tiện lợi, có thể sửa chữa ngay tại phòng mạch", "isCorrect": true},
+        {"text": "Rẻ hơn sắt", "isCorrect": false},
+        {"text": "Trong suốt hơn", "isCorrect": false}
+      ],
+      "explanation": "Tính linh động của nhựa tự cứng giúp bác sĩ điều chỉnh khí cụ nhanh chóng."
+    },
+    {
+      "question": "Móc mũi giáo (Arrowhead) đòi hỏi dụng cụ gì đặc biệt để uốn?",
+      "options": [
+        {"text": "Kìm nhổ răng", "isCorrect": false},
+        {"text": "Kìm uốn mũi tên chuyên dụng (Tischler piler)", "isCorrect": true},
+        {"text": "Búa", "isCorrect": false},
+        {"text": "Máy hàn", "isCorrect": false}
+      ],
+      "explanation": "Cần kìm chuyên biệt để tạo ra các góc nhọn chính xác của móc mũi giáo."
+    },
+    {
+      "question": "Tại sao phải kiểm tra 'vị trí lưỡi' khi mang khí cụ tháo lắp?",
+      "options": [
+        {"text": "Để xem lưỡi có sạch không", "isCorrect": false},
+        {"text": "Vì nền nhựa có thể chiếm không gian của lưỡi gây khó nói, khó nuốt", "isCorrect": true},
+        {"text": "Để đo vị giác", "isCorrect": false},
+        {"text": "Không cần thiết", "isCorrect": false}
+      ],
+      "explanation": "Sự thoải mái của lưỡi quyết định việc bệnh nhân có chịu mang khí cụ lâu dài hay không."
+    },
+    {
+      "question": "Trong khí cụ tháo lắp, bộ phận nào giúp ngăn răng không bị trồi lên?",
+      "options": [
+        {"text": "Dây cung môi và nền nhựa mặt nhai", "isCorrect": true},
+        {"text": "Ốc nới rộng", "isCorrect": false},
+        {"text": "Lò xo ngón tay", "isCorrect": false},
+        {"text": "Móc tam giác", "isCorrect": false}
+      ],
+      "explanation": "Cấu trúc bao phủ thân răng giúp kiểm soát độ cao của răng."
+    },
+    {
+      "question": "Khí cụ chức năng có làm 'nghiêng răng' không?",
+      "options": [
+        {"text": "Hoàn toàn không", "isCorrect": false},
+        {"text": "Có, như một tác dụng phụ không mong muốn khi điều trị xương", "isCorrect": true},
+        {"text": "Chỉ làm tịnh tiến", "isCorrect": false},
+        {"text": "Làm răng rụng", "isCorrect": false}
+      ],
+      "explanation": "Lực đẩy từ khí cụ lên xương cũng tác động lên răng gây nghiêng răng bù trừ."
+    },
+    {
+      "question": "Khi bệnh nhân bị dị ứng với nhựa Acrylic, giải pháp là gì?",
+      "options": [
+        {"text": "Bắt bệnh nhân nhịn", "isCorrect": false},
+        {"text": "Chuyển sang dùng khí cụ cố định hoặc nhựa không chứa monomer dư", "isCorrect": true},
+        {"text": "Sơn màu đỏ lên hàm", "isCorrect": false},
+        {"text": "Uống nước chanh", "isCorrect": false}
+      ],
+      "explanation": "Một số bệnh nhân nhạy cảm với methyl methacrylate cần loại vật liệu thay thế."
+    },
+    {
+      "question": "Tầm quan trọng của việc 'đánh dấu vị trí vặn ốc' trên nền hàm là gì?",
+      "options": [
+        {"text": "Để cho đẹp", "isCorrect": false},
+        {"text": "Giúp bệnh nhân vặn đúng chiều (thường có mũi tên chỉ hướng)", "isCorrect": true},
+        {"text": "Để bác sĩ tính tiền", "isCorrect": false},
+        {"text": "Để làm sạch hàm", "isCorrect": false}
+      ],
+      "explanation": "Vặn ngược chiều ốc sẽ làm hỏng toàn bộ quá trình nới rộng hàm."
+    },
+    {
+      "question": "Khí cụ tháo lắp từng phần (PHTL) thường dùng dây thép có tính chất gì?",
+      "options": [
+        {"text": "Mềm như vàng", "isCorrect": false},
+        {"text": "Cứng và đàn hồi (Stainless steel)", "isCorrect": true},
+        {"text": "Giòn như thủy tinh", "isCorrect": false},
+        {"text": "Tan trong miệng", "isCorrect": false}
+      ],
+      "explanation": "Thép không gỉ là vật liệu tiêu chuẩn nhờ độ bền và tính tương hợp sinh học."
+    },
+    {
+      "question": "Kết quả cuối cùng của bài học 'Khí cụ tháo lắp' giúp người học:",
+      "options": [
+        {"text": "Biết cách nhổ răng khôn", "isCorrect": false},
+        {"text": "Hiểu rõ cấu tạo, chỉ định và cách quản lý lâm sàng khí cụ tháo lắp/chức năng", "isCorrect": true},
+        {"text": "Biết cách trám răng thẩm mỹ", "isCorrect": false},
+        {"text": "Học cách lấy dấu silicon", "isCorrect": false}
+      ],
+      "explanation": "Nắm vững khí cụ tháo lắp là bước khởi đầu quan trọng trong điều trị chỉnh hình răng mặt."
+    }
+    ,
+        {
+          "question": "Ai được coi là người sáng tạo ra các thế hệ khí cụ cố định kinh điển trong chỉnh nha?",
+          "options": [
+            {"text": "Lawrence Andrews", "isCorrect": false},
+            {"text": "Edward H. Angle", "isCorrect": true},
+            {"text": "Raymond Begg", "isCorrect": false},
+            {"text": "Charles Tweed", "isCorrect": false}
+          ],
+          "explanation": "Edward H. Angle là người thiết lập nền móng cho khí cụ cố định qua các hệ thống E-arch, Ribbon arch và Edgewise."
+        },
+        {
+          "question": "Khí cụ cố định đầu tiên do Angle giới thiệu năm 1907 là gì?",
+          "options": [
+            {"text": "Ribbon arch", "isCorrect": false},
+            {"text": "Edgewise", "isCorrect": false},
+            {"text": "E-arch (Expansion arch)", "isCorrect": true},
+            {"text": "Straight-wire", "isCorrect": false}
+          ],
+          "explanation": "E-arch là khí cụ cố định sơ khai nhất, gồm dây cung lớn bao quanh cung răng để nới rộng."
+        },
+        {
+          "question": "Nhược điểm lớn nhất của khí cụ E-arch là gì?",
+          "options": [
+            {"text": "Dễ bị gãy dây", "isCorrect": false},
+            {"text": "Không kiểm soát được vị trí và độ nghiêng của từng răng riêng biệt", "isCorrect": true},
+            {"text": "Quá đắt tiền", "isCorrect": false},
+            {"text": "Làm răng bị xoay", "isCorrect": false}
+          ],
+          "explanation": "E-arch chỉ có tác dụng nới rộng tổng thể, không thể điều chỉnh tư thế của từng răng lẻ loi."
+        },
+        {
+          "question": "Khí cụ 'Ribbon arch' ra đời năm 1916 có bước tiến gì nổi bật?",
+          "options": [
+            {"text": "Dùng dây cung tròn", "isCorrect": false},
+            {"text": "Sử dụng mắc cài có rãnh dọc để kiểm soát độ nghiêng thân răng tốt hơn", "isCorrect": true},
+            {"text": "Không cần dùng khâu", "isCorrect": false},
+            {"text": "Dùng thun liên hàm", "isCorrect": false}
+          ],
+          "explanation": "Ribbon arch cho phép kiểm soát độ nghiêng gần-xa của răng thông qua các mắc cài sơ khai."
+        },
+        {
+          "question": "Mắc cài Edgewise được Angle giới thiệu lần đầu vào năm nào?",
+          "options": [
+            {"text": "1900", "isCorrect": false},
+            {"text": "1916", "isCorrect": false},
+            {"text": "1928", "isCorrect": true},
+            {"text": "1970", "isCorrect": false}
+          ],
+          "explanation": "Năm 1928, Angle giới thiệu mắc cài Edgewise, đây là tiêu chuẩn vàng cho chỉnh nha cố định trong nhiều thập kỷ."
+        },
+        {
+          "question": "Tại sao hệ thống này lại có tên gọi là 'Edgewise'?",
+          "options": [
+            {"text": "Vì dây cung đi sát rìa cắn", "isCorrect": false},
+            {"text": "Vì dây cung hình chữ nhật được đặt nằm ngang (phần cạnh hẹp đi vào rãnh)", "isCorrect": true},
+            {"text": "Vì nó dùng cho răng nanh", "isCorrect": false},
+            {"text": "Vì mắc cài có hình tam giác", "isCorrect": false}
+          ],
+          "explanation": "Tên gọi mô tả cách thức dây cung chữ nhật khớp vào rãnh mắc cài theo chiều cạnh (edge)."
+        },
+        {
+          "question": "Ưu điểm đột phá của kỹ thuật Edgewise là gì?",
+          "options": [
+            {"text": "Dễ vệ sinh hơn khí cụ tháo lắp", "isCorrect": false},
+            {"text": "Kiểm soát được di chuyển răng theo cả 3 chiều không gian (tịnh tiến, nghiêng, xoay, lún, trồi)", "isCorrect": true},
+            {"text": "Không đau", "isCorrect": false},
+            {"text": "Thời gian đeo chỉ 6 tháng", "isCorrect": false}
+          ],
+          "explanation": "Edgewise cho phép bác sĩ điều khiển răng chính xác tuyệt đối nhờ sự khít sát giữa dây chữ nhật và rãnh mắc cài."
+        },
+        {
+          "question": "Kỹ thuật 'Straight-wire' (dây cung thẳng) được Lawrence Andrews giới thiệu vào năm nào?",
+          "options": [
+            {"text": "1928", "isCorrect": false},
+            {"text": "1950", "isCorrect": false},
+            {"text": "1970", "isCorrect": true},
+            {"text": "1990", "isCorrect": false}
+          ],
+          "explanation": "Straight-wire ra đời năm 1970 như một cuộc cách mạng hóa dựa trên 6 đặc điểm khớp cắn bình thường của Andrews."
+        },
+        {
+          "question": "Nguyên lý cốt lõi của kỹ thuật Straight-wire là gì?",
+          "options": [
+            {"text": "Dùng dây cung thật thẳng", "isCorrect": false},
+            {"text": "Các thông số độ nghiêng (tip), độ dốc (torque) và độ dày mắc cài được thiết kế sẵn trong đế và thân mắc cài", "isCorrect": true},
+            {"text": "Bác sĩ phải tự bẻ dây rất nhiều", "isCorrect": false},
+            {"text": "Chỉ dùng cho răng cửa", "isCorrect": false}
+          ],
+          "explanation": "Khí cụ dây cung thẳng giúp giảm thiểu việc bẻ dây bù trừ nhờ các thông số đã được 'lập trình' sẵn vào mắc cài."
+        },
+        {
+          "question": "Vật liệu phổ biến nhất để sản xuất khâu (Band) chỉnh nha là:",
+          "options": [
+            {"text": "Vàng 24K", "isCorrect": false},
+            {"text": "Thép không gỉ (Stainless Steel)", "isCorrect": true},
+            {"text": "Nhựa Composite", "isCorrect": false},
+            {"text": "Cao su lưu hóa", "isCorrect": false}
+          ],
+          "explanation": "Thép không gỉ có độ bền cao, không rỉ và dễ uốn ôm khít thân răng."
+        },
+        {
+          "question": "Khâu (Band) thường được chỉ định cho loại răng nào?",
+          "options": [
+            {"text": "Răng cửa sữa", "isCorrect": false},
+            {"text": "Răng cối lớn (răng 6, răng 7)", "isCorrect": true},
+            {"text": "Chỉ dùng cho răng nanh", "isCorrect": false},
+            {"text": "Tất cả các răng trên cung hàm", "isCorrect": false}
+          ],
+          "explanation": "Răng cối lớn chịu lực nhai mạnh và lực kéo lớn nên cần dùng khâu bao quanh răng để đảm bảo độ chắc chắn."
+        },
+        {
+          "question": "Mục đích của việc 'Đặt thun tách kẽ' trước khi gắn khâu là gì?",
+          "options": [
+            {"text": "Để làm răng trắng ra", "isCorrect": false},
+            {"text": "Tạo khoảng trống nhỏ giữa các răng tiếp giáp để đưa khâu vào dễ dàng và không gây đau", "isCorrect": true},
+            {"text": "Để nhổ răng", "isCorrect": false},
+            {"text": "Làm sạch vôi răng", "isCorrect": false}
+          ],
+          "explanation": "Thun tách kẽ giúp nới lỏng tiếp điểm răng sau vài ngày chuẩn bị."
+        },
+        {
+          "question": "Thời gian đặt thun tách kẽ thông thường là bao lâu?",
+          "options": [
+            {"text": "1 giờ", "isCorrect": false},
+            {"text": "1 ngày", "isCorrect": false},
+            {"text": "5 - 7 ngày", "isCorrect": true},
+            {"text": "1 tháng", "isCorrect": false}
+          ],
+          "explanation": "Khoảng 1 tuần là thời gian đủ để răng dịch chuyển nhẹ tạo khoảng trống cho khâu."
+        },
+        {
+          "question": "Cấu tạo mắc cài (Bracket) gồm những phần chính nào?",
+          "options": [
+            {"text": "Chỉ có rãnh mắc cài", "isCorrect": false},
+            {"text": "Đế, thân, rãnh (slot) và các cánh (wings)", "isCorrect": true},
+            {"text": "Móc và lò xo", "isCorrect": false},
+            {"text": "Ốc nới rộng", "isCorrect": false}
+          ],
+          "explanation": "Mắc cài có đế để dán vào răng, thân chứa rãnh để đi dây cung và cánh để buộc thun/dây thép."
+        },
+        {
+          "question": "Mắc cài sứ có ưu điểm nổi bật nào?",
+          "options": [
+            {"text": "Rẻ tiền nhất", "isCorrect": false},
+            {"text": "Thẩm mỹ cao do màu sắc trong suốt hoặc trùng màu răng", "isCorrect": true},
+            {"text": "Bền hơn mắc cài kim loại", "isCorrect": false},
+            {"text": "Không bao giờ bị bong", "isCorrect": false}
+          ],
+          "explanation": "Mắc cài sứ đáp ứng nhu cầu thẩm mỹ cho bệnh nhân không muốn lộ kim loại khi cười."
+        },
+        {
+          "question": "Nhược điểm của mắc cài gốm sứ so với kim loại là gì?",
+          "options": [
+            {"text": "Dễ vệ sinh hơn", "isCorrect": false},
+            {"text": "Giòn, dễ vỡ và độ ma sát với dây cung cao hơn", "isCorrect": true},
+            {"text": "Làm răng bị lung lay", "isCorrect": false},
+            {"text": "Mềm như nhựa", "isCorrect": false}
+          ],
+          "explanation": "Độ ma sát lớn của sứ làm chậm quá trình di chuyển răng và nó dễ vỡ nếu bệnh nhân ăn đồ cứng."
+        },
+        {
+          "question": "Rãnh (Slot) mắc cài hiện nay có hai kích thước chuẩn là:",
+          "options": [
+            {"text": "0.010 và 0.015 inch", "isCorrect": false},
+            {"text": "0.018 và 0.022 inch", "isCorrect": true},
+            {"text": "0.5 và 1.0 mm", "isCorrect": false},
+            {"text": "0.045 và 0.051 inch", "isCorrect": false}
+          ],
+          "explanation": "Bác sĩ chọn hệ thống rãnh 0.018 hoặc 0.022 inch tùy theo chiến lược kiểm soát lực và dây cung."
+        },
+        {
+          "question": "Chất gắn mắc cài trực tiếp lên men răng thường là:",
+          "options": [
+            {"text": "Xi măng trám bạc", "isCorrect": false},
+            {"text": "Nhựa Composite chỉnh nha", "isCorrect": true},
+            {"text": "Keo 502", "isCorrect": false},
+            {"text": "Thạch cao đá", "isCorrect": false}
+          ],
+          "explanation": "Composite cung cấp lực dán mạnh mẽ và có thể đông cứng nhanh bằng đèn quang trùng hợp."
+        },
+        {
+          "question": "Tại sao phải 'Etch' men răng bằng axit trước khi dán mắc cài?",
+          "options": [
+            {"text": "Để làm răng trắng hơn", "isCorrect": false},
+            {"text": "Tạo ra các lỗ vi lưu cơ học giúp chất gắn bám chắc vào men răng", "isCorrect": true},
+            {"text": "Để diệt vi khuẩn", "isCorrect": false},
+            {"text": "Để làm răng mềm đi", "isCorrect": false}
+          ],
+          "explanation": "Axit phosphoric 37% làm nhám bề mặt men răng ở mức độ vi thể để tạo độ bám."
+        },
+        {
+          "question": "Hiện tượng men răng sau khi 'Etch' đạt yêu cầu có biểu hiện gì?",
+          "options": [
+            {"text": "Trong suốt", "isCorrect": false},
+            {"text": "Trắng đục như phấn", "isCorrect": true},
+            {"text": "Màu vàng", "isCorrect": false},
+            {"text": "Chảy máu", "isCorrect": false}
+          ],
+          "explanation": "Bề mặt trắng đục cho thấy lớp men đã được xử lý hóa học đúng mức."
+        },
+        {
+          "question": "Mắc cài tự buộc (Self-ligating brackets) có đặc điểm gì đặc biệt?",
+          "options": [
+            {"text": "Phải dùng thun màu để giữ dây", "isCorrect": false},
+            {"text": "Có nắp đậy hoặc khóa tích hợp để giữ dây cung trong rãnh mắc cài", "isCorrect": true},
+            {"text": "Tự động mọc răng mới", "isCorrect": false},
+            {"text": "Làm bằng nhựa dẻo", "isCorrect": false}
+          ],
+          "explanation": "Hệ thống nắp đậy thay thế cho dây thép buộc hoặc thun buộc, giúp giảm ma sát tối đa."
+        },
+        {
+          "question": "Ưu điểm của mắc cài tự buộc trên lâm sàng là gì?",
+          "options": [
+            {"text": "Giá rẻ nhất", "isCorrect": false},
+            {"text": "Giảm ma sát, rút ngắn thời gian thay dây và ít đau hơn cho bệnh nhân", "isCorrect": true},
+            {"text": "Không cần bác sĩ điều chỉnh", "isCorrect": false},
+            {"text": "Chỉ dùng cho người lớn", "isCorrect": false}
+          ],
+          "explanation": "Giảm ma sát giúp răng di chuyển trơn tru hơn trong giai đoạn sắp đều."
+        },
+        {
+          "question": "Ống răng cối (Molar tube) thường có thành phần nào để móc thun hoặc lò xo?",
+          "options": [
+            {"text": "Cánh mắc cài", "isCorrect": false},
+            {"text": "Móc (Hook)", "isCorrect": true},
+            {"text": "Ống Headgear", "isCorrect": false},
+            {"text": "Nắp nhựa", "isCorrect": false}
+          ],
+          "explanation": "Móc trên ống răng cối là điểm tựa quan trọng để mắc thun liên hàm hoặc thun chuỗi."
+        },
+        {
+          "question": "Vị trí gắn mắc cài lý tưởng thường nằm ở đâu trên răng?",
+          "options": [
+            {"text": "Tại cổ răng", "isCorrect": false},
+            {"text": "Tại tâm mặt ngoài của thân răng lâm sàng", "isCorrect": true},
+            {"text": "Tại rìa cắn", "isCorrect": false},
+            {"text": "Tại mặt nhai", "isCorrect": false}
+          ],
+          "explanation": "Gắn vào tâm mặt ngoài giúp lực từ dây cung truyền qua tâm cản của răng hiệu quả nhất."
+        },
+        {
+          "question": "Bẻ dây bậc 1 (First order bends) trong kỹ thuật Edgewise dùng để điều chỉnh yếu tố nào?",
+          "options": [
+            {"text": "Độ nghiêng gần-xa", "isCorrect": false},
+            {"text": "Độ nhô ngoài-trong của từng răng (In-out)", "isCorrect": true},
+            {"text": "Độ nghiêng chân răng", "isCorrect": false},
+            {"text": "Lún răng", "isCorrect": false}
+          ],
+          "explanation": "Bẻ dây bậc 1 giúp bù trừ độ dày khác nhau của các răng trên cung hàm (ví dụ răng cửa bên lùi hơn răng cửa giữa)."
+        },
+        {
+          "question": "Bẻ dây bậc 2 (Second order bends) tương ứng với thông số nào trong mắc cài Straight-wire?",
+          "options": [
+            {"text": "Torque", "isCorrect": false},
+            {"text": "Angulation (Tip)", "isCorrect": true},
+            {"text": "In-out", "isCorrect": false},
+            {"text": "Rotation", "isCorrect": false}
+          ],
+          "explanation": "Tip là độ nghiêng gần-xa của trục răng, được thiết kế sẵn trong rãnh mắc cài dây thẳng."
+        },
+        {
+          "question": "Bẻ dây bậc 3 (Third order bends) hay còn gọi là Torque dùng để điều chỉnh:",
+          "options": [
+            {"text": "Độ xoay thân răng", "isCorrect": false},
+            {"text": "Độ nghiêng ngoài-trong của chân răng", "isCorrect": true},
+            {"text": "Chiều cao rìa cắn", "isCorrect": false},
+            {"text": "Khoảng cách giữa hai răng", "isCorrect": false}
+          ],
+          "explanation": "Torque kiểm soát hướng của chân răng trong xương ổ răng, đảm bảo răng không bị 'bật' chân ra ngoài vỏ xương."
+        },
+        {
+          "question": "Tại sao kỹ thuật Edgewise yêu cầu bác sĩ phải bẻ dây cung rất nhiều?",
+          "options": [
+            {"text": "Để dây cung đẹp hơn", "isCorrect": false},
+            {"text": "Vì mắc cài Edgewise có rãnh phẳng, không chứa các thông số bù trừ hình thái răng", "isCorrect": true},
+            {"text": "Vì dây cung quá cứng", "isCorrect": false},
+            {"text": "Để thu thêm tiền bệnh nhân", "isCorrect": false}
+          ],
+          "explanation": "Bác sĩ phải tự tạo ra các lệnh di chuyển thông qua các nếp bẻ trên dây cung."
+        },
+        {
+          "question": "Khâu răng cối hàm trên thường có thêm 'Ống Headgear' ở mặt nào?",
+          "options": [
+            {"text": "Mặt lưỡi", "isCorrect": false},
+            {"text": "Mặt ngoài (phía má)", "isCorrect": true},
+            {"text": "Mặt gần", "isCorrect": false},
+            {"text": "Mặt xa", "isCorrect": false}
+          ],
+          "explanation": "Ống Headgear có đường kính lớn hơn ống chính, nằm ở phía má để gắn cung mặt ngoài mặt."
+        },
+        {
+          "question": "Gắn mắc cài gián tiếp (Indirect bonding) có ưu điểm gì so với gắn trực tiếp?",
+          "options": [
+            {"text": "Rẻ tiền hơn", "isCorrect": false},
+            {"text": "Độ chính xác vị trí mắc cài cao hơn và giảm thời gian bệnh nhân nằm trên ghế", "isCorrect": true},
+            {"text": "Mắc cài dính chặt hơn", "isCorrect": false},
+            {"text": "Không cần dùng đèn", "isCorrect": false}
+          ],
+          "explanation": "Bác sĩ có thể sắp xếp mắc cài tỉ mỉ trên mẫu hàm trước khi chuyển vào miệng bệnh nhân bằng khay định vị."
+        },
+        {
+          "question": "Xi măng thường dùng để gắn khâu (band) vào răng là:",
+          "options": [
+            {"text": "Composite", "isCorrect": false},
+            {"text": "Glass Ionomer Cement (GIC)", "isCorrect": true},
+            {"text": "Amalgam", "isCorrect": false},
+            {"text": "Vôi sống", "isCorrect": false}
+          ],
+          "explanation": "GIC bám dính tốt vào kim loại và men răng, đồng thời giải phóng Fluor giúp ngừa sâu răng dưới khâu."
+        },
+        {
+          "question": "Nút (Button) hoặc nút gắn mặt lưỡi (Lingual attachment) dùng để làm gì?",
+          "options": [
+            {"text": "Để trang trí", "isCorrect": false},
+            {"text": "Làm điểm tựa để mắc thun kéo xoay răng hoặc kéo răng vào phía trong", "isCorrect": true},
+            {"text": "Thay thế mắc cài mặt ngoài", "isCorrect": false},
+            {"text": "Để bệnh nhân nhai", "isCorrect": false}
+          ],
+          "explanation": "Các phụ kiện mặt trong hỗ trợ các di chuyển xoay răng phức tạp mà mắc cài mặt ngoài khó thực hiện đơn lẻ."
+        },
+        {
+          "question": "Mắc cài mặt trong (Lingual brackets) đáp ứng nhu cầu nào của bệnh nhân?",
+          "options": [
+            {"text": "Ăn nhai tốt nhất", "isCorrect": false},
+            {"text": "Thẩm mỹ tuyệt đối vì khí cụ được giấu kín ở mặt sau răng", "isCorrect": true},
+            {"text": "Dễ vệ sinh nhất", "isCorrect": false},
+            {"text": "Giá thành rẻ nhất", "isCorrect": false}
+          ],
+          "explanation": "Đây là lựa chọn của nhiều người nổi tiếng hoặc người giao tiếp nhiều muốn chỉnh nha bí mật."
+        },
+        {
+          "question": "Mắc cài 'Twin bracket' có đặc điểm cấu tạo là:",
+          "options": [
+            {"text": "Chỉ có 1 cánh", "isCorrect": false},
+            {"text": "Có hai cặp cánh (tổng cộng 4 cánh) giúp kiểm soát độ xoay răng tốt hơn", "isCorrect": true},
+            {"text": "Làm bằng hai loại vật liệu", "isCorrect": false},
+            {"text": "Gắn được cho hai răng", "isCorrect": false}
+          ],
+          "explanation": "Độ rộng của mắc cài Twin giúp dây cung kiểm soát hướng của răng hiệu quả hơn mắc cài đơn."
+        },
+        {
+          "question": "Tại sao mắc cài gốm sứ có thể gây mòn răng đối diện?",
+          "options": [
+            {"text": "Vì nó tiết ra axit", "isCorrect": false},
+            {"text": "Vì độ cứng của gốm sứ cao hơn nhiều so với men răng thật", "isCorrect": true},
+            {"text": "Vì nó có cạnh sắc", "isCorrect": false},
+            {"text": "Do bệnh nhân nghiến răng", "isCorrect": false}
+          ],
+          "explanation": "Nếu răng đối diện chạm vào mắc cài sứ khi nhai, men răng thật sẽ bị mòn nhanh chóng."
+        },
+        {
+          "question": "Dụng cụ 'Tháo mắc cài' (Bracket remover) tác động lực vào đâu để làm bong mắc cài?",
+          "options": [
+            {"text": "Cánh mắc cài", "isCorrect": false},
+            {"text": "Phần đế mắc cài (ép vào ranh giới giữa nhựa dán và men răng)", "isCorrect": true},
+            {"text": "Dây cung", "isCorrect": false},
+            {"text": "Chóp răng", "isCorrect": false}
+          ],
+          "explanation": "Tác động vào đế giúp mắc cài bong ra nguyên vẹn mà không gây nứt vỡ men răng."
+        },
+        {
+          "question": "Sau khi tháo mắc cài, phần nhựa dán còn sót lại trên răng được loại bỏ bằng:",
+          "options": [
+            {"text": "Kìm nhổ răng", "isCorrect": false},
+            {"text": "Mũi khoan nhựa hoặc mũi khoan carbide mịn tốc độ chậm", "isCorrect": true},
+            {"text": "Dùng tay cạy", "isCorrect": false},
+            {"text": "Để nó tự rụng", "isCorrect": false}
+          ],
+          "explanation": "Quy trình này giúp trả lại bề mặt men răng trơn láng ban đầu cho bệnh nhân."
+        },
+        {
+          "question": "Khí cụ 'Begg' sử dụng loại mắc cài nào?",
+          "options": [
+            {"text": "Mắc cài rãnh ngang", "isCorrect": false},
+            {"text": "Mắc cài rãnh dọc (giống Ribbon arch cải tiến) kết hợp lực nhẹ dây cung tròn", "isCorrect": true},
+            {"text": "Mắc cài tự buộc", "isCorrect": false},
+            {"text": "Mắc cài sứ", "isCorrect": false}
+          ],
+          "explanation": "Kỹ thuật Begg dựa trên nguyên lý nghiêng răng tự do và sử dụng dây cung tròn nhẹ."
+        },
+        {
+          "question": "Sự khác biệt chính giữa kỹ thuật Edgewise và Straight-wire là gì?",
+          "options": [
+            {"text": "Straight-wire dùng dây cung bằng nhựa", "isCorrect": false},
+            {"text": "Straight-wire tích hợp sẵn các thông số di chuyển răng vào mắc cài, giảm bớt việc bẻ dây", "isCorrect": true},
+            {"text": "Edgewise không dùng mắc cài", "isCorrect": false},
+            {"text": "Edgewise chỉ dùng cho trẻ em", "isCorrect": false}
+          ],
+          "explanation": "Straight-wire (Pre-adjusted) là sự tiến hóa của Edgewise nhằm chuẩn hóa và đơn giản hóa lâm sàng."
+        },
+        {
+          "question": "Mắc cài nhựa hiện nay ít được sử dụng vì lý do gì?",
+          "options": [
+            {"text": "Quá cứng", "isCorrect": false},
+            {"text": "Dễ bị đổi màu, mòn rãnh và biến dạng dưới tác động của lực chỉnh nha", "isCorrect": true},
+            {"text": "Gây dị ứng 100%", "isCorrect": false},
+            {"text": "Không thể dán được", "isCorrect": false}
+          ],
+          "explanation": "Nhựa không đủ độ cứng ổn định để duy trì các thông số tip và torque trong thời gian dài."
+        },
+        {
+          "question": "Điểm đặt mắc cài trên răng nanh hàm trên thường có đặc điểm gì?",
+          "options": [
+            {"text": "Nằm sát rìa cắn", "isCorrect": false},
+            {"text": "Nằm hơi về phía gần để bù trừ độ xoay tự nhiên của răng nanh", "isCorrect": true},
+            {"text": "Nằm ở mặt trong", "isCorrect": false},
+            {"text": "Nằm ngang với răng cửa giữa", "isCorrect": false}
+          ],
+          "explanation": "Vị trí mắc cài cần được tinh chỉnh theo hình thái cụ thể của từng loại răng."
+        },
+        {
+          "question": "Thành phần 'Tube' (ống) mặt ngoài của khâu răng cối có đường kính rãnh chính thường là:",
+          "options": [
+            {"text": "0.018 hoặc 0.022 inch (tương ứng hệ thống mắc cài đang dùng)", "isCorrect": true},
+            {"text": "1.0 mm", "isCorrect": false},
+            {"text": "0.045 inch", "isCorrect": false},
+            {"text": "Không có kích thước cố định", "isCorrect": false}
+          ],
+          "explanation": "Ống chính phải có kích thước rãnh đồng bộ với mắc cài các răng phía trước để đi dây cung xuyên suốt."
+        },
+        {
+          "question": "Trong gắn mắc cài gián tiếp, 'khay định vị' thường được làm bằng vật liệu gì?",
+          "options": [
+            {"text": "Kim loại", "isCorrect": false},
+            {"text": "Silicon trong suốt hoặc máng nhựa dẻo chân không", "isCorrect": true},
+            {"text": "Thạch cao", "isCorrect": false},
+            {"text": "Sáp ong", "isCorrect": false}
+          ],
+          "explanation": "Vật liệu trong suốt giúp bác sĩ quan sát và chiếu đèn quang trùng hợp xuyên qua khay."
+        },
+        {
+          "question": "Thao tác 'Primer' (chất lót) khi dán mắc cài có tác dụng gì?",
+          "options": [
+            {"text": "Làm răng bóng hơn", "isCorrect": false},
+            {"text": "Tăng cường liên kết hóa học giữa men răng đã etch và nhựa composite", "isCorrect": true},
+            {"text": "Thay thế cho composite", "isCorrect": false},
+            {"text": "Làm khô răng", "isCorrect": false}
+          ],
+          "explanation": "Primer thấm sâu vào các lỗ vi lưu trên men răng, làm cầu nối cho composite dán."
+        },
+        {
+          "question": "Tại sao phải làm sạch màng pellicle trước khi etch men răng?",
+          "options": [
+            {"text": "Để răng trông trắng hơn", "isCorrect": false},
+            {"text": "Vì màng này ngăn cản axit tác động trực tiếp lên men răng, làm giảm lực dán", "isCorrect": true},
+            {"text": "Để không bị hôi miệng", "isCorrect": false},
+            {"text": "Để răng không bị chảy máu", "isCorrect": false}
+          ],
+          "explanation": "Bề mặt men răng phải hoàn toàn sạch và khô mới đạt được hiệu quả etch tối ưu."
+        },
+        {
+          "question": "Hệ thống mắc cài Roth và MBT là đại diện cho trường phái nào?",
+          "options": [
+            {"text": "Standard Edgewise", "isCorrect": false},
+            {"text": "Pre-adjusted Straight-wire (Mắc cài thiết lập sẵn)", "isCorrect": true},
+            {"text": "Khí cụ chức năng", "isCorrect": false},
+            {"text": "Kỹ thuật Begg", "isCorrect": false}
+          ],
+          "explanation": "Roth và MBT là các hệ thống thông số kỹ thuật (prescription) phổ biến nhất của mắc cài dây thẳng."
+        },
+        {
+          "question": "Đặc tính 'Nhớ hình' (Shape memory) thường có ở loại dây cung nào?",
+          "options": [
+            {"text": "Thép không gỉ", "isCorrect": false},
+            {"text": "Nickel-Titanium (NiTi)", "isCorrect": true},
+            {"text": "Vàng", "isCorrect": false},
+            {"text": "Đồng", "isCorrect": false}
+          ],
+          "explanation": "NiTi có khả năng quay lại hình dạng ban đầu sau khi bị uốn cong, tạo lực nhẹ liên tục lý tưởng cho giai đoạn đầu."
+        },
+        {
+          "question": "Vị trí của 'móc' (Hook) thường nằm ở răng nào trên cung hàm mắc cài cố định?",
+          "options": [
+            {"text": "Chỉ ở răng cửa", "isCorrect": false},
+            {"text": "Thường ở răng nanh, răng hàm nhỏ và răng hàm lớn", "isCorrect": true},
+            {"text": "Ở tất cả các răng", "isCorrect": false},
+            {"text": "Không bao giờ dùng móc", "isCorrect": false}
+          ],
+          "explanation": "Móc là nơi để gắn các thun liên hàm hoặc thun chuỗi hỗ trợ đóng khoảng."
+        },
+        {
+          "question": "Trong kỹ thuật Straight-wire, tại sao không cần bẻ dây cung bù trừ độ nghiêng răng nanh?",
+          "options": [
+            {"text": "Vì răng nanh tự đứng thẳng", "isCorrect": false},
+            {"text": "Vì rãnh mắc cài răng nanh đã được nghiêng sẵn một góc theo chỉ định", "isCorrect": true},
+            {"text": "Vì răng nanh không quan trọng", "isCorrect": false},
+            {"text": "Vì dây cung tự bẻ", "isCorrect": false}
+          ],
+          "explanation": "Đó chính là sự tiện lợi của hệ thống mắc cài đã được tính toán thông số sẵn."
+        },
+        {
+          "question": "Khi gắn khâu (band), bờ nướu của khâu nên nằm ở đâu?",
+          "options": [
+            {"text": "Dưới nướu 5mm", "isCorrect": false},
+            {"text": "Vừa chạm hoặc nằm dưới khe nướu một chút (khoảng 0.5mm) để tránh đọng thức ăn", "isCorrect": true},
+            {"text": "Nằm trên mặt nhai", "isCorrect": false},
+            {"text": "Nằm giữa thân răng", "isCorrect": false}
+          ],
+          "explanation": "Vị trí này giúp bảo vệ nướu và ngăn ngừa sâu răng vùng cổ răng."
+        },
+        {
+          "question": "Tầm quan trọng của việc tháo sạch xi măng dư sau khi gắn khâu là gì?",
+          "options": [
+            {"text": "Để khâu bóng hơn", "isCorrect": false},
+            {"text": "Tránh kích ứng nướu và hạn chế mảng bám vi khuẩn gây viêm nướu", "isCorrect": true},
+            {"text": "Để răng mọc nhanh hơn", "isCorrect": false},
+            {"text": "Để tiết kiệm xi măng", "isCorrect": false}
+          ],
+          "explanation": "Xi măng dư thừa là nơi tích tụ mảng bám gây hại cho nha chu."
+        },
+        {
+          "question": "Giai đoạn 'Leveling' (làm phẳng mặt phẳng nhai) yêu cầu loại dây cung nào?",
+          "options": [
+            {"text": "Dây thép cứng đường kính lớn", "isCorrect": false},
+            {"text": "Dây NiTi đàn hồi cao, đường kính nhỏ", "isCorrect": true},
+            {"text": "Dây sáp", "isCorrect": false},
+            {"text": "Dây đồng", "isCorrect": false}
+          ],
+          "explanation": "Dây NiTi giúp làm đều các răng lệch lạc mà không gây áp lực quá lớn lên chân răng."
+        },
+        {
+          "question": "Mắc cài của răng cửa bên hàm trên thường có độ dày như thế nào so với răng cửa giữa (trong kỹ thuật Straight-wire)?",
+          "options": [
+            {"text": "Dày hơn (để bù trừ việc răng cửa bên lùi hơn răng cửa giữa)", "isCorrect": true},
+            {"text": "Mỏng hơn", "isCorrect": false},
+            {"text": "Bằng nhau", "isCorrect": false},
+            {"text": "Không có độ dày", "isCorrect": false}
+          ],
+          "explanation": "Đây là thông số In-out giúp cung răng sau điều trị đạt được đường cong hài hòa."
+        },
+        {
+          "question": "Tại sao bệnh nhân cần được hướng dẫn vệ sinh răng miệng cực kỳ kỹ lưỡng khi mang khí cụ cố định?",
+          "options": [
+            {"text": "Để mắc cài không bị bong", "isCorrect": false},
+            {"text": "Vì mắc cài, dây cung và khâu là những nơi lưu giữ thức ăn rất tốt, dễ gây sâu răng và viêm nướu", "isCorrect": true},
+            {"text": "Để bác sĩ không mắng", "isCorrect": false},
+            {"text": "Để răng nhanh đẹp", "isCorrect": false}
+          ],
+          "explanation": "Vệ sinh kém có thể dẫn đến các vết trắng mất khoáng trên men răng sau khi tháo niềng."
+        },
+        {
+          "question": "Khí cụ 'Cung lưỡi' (Lingual arch) thường được hàn vào đâu?",
+          "options": [
+            {"text": "Mắc cài răng cửa", "isCorrect": false},
+            {"text": "Mặt trong của khâu răng cối hàm dưới", "isCorrect": true},
+            {"text": "Xương hàm", "isCorrect": false},
+            {"text": "Môi", "isCorrect": false}
+          ],
+          "explanation": "Cung lưỡi giúp giữ khoảng hoặc ổn định vị trí răng cối lớn hàm dưới."
+        },
+        {
+          "question": "Mắc cài 'Ceramic' (sứ) có khả năng bị đổi màu theo thời gian không?",
+          "options": [
+            {"text": "Có, rất nhanh", "isCorrect": false},
+            {"text": "Bản thân mắc cài sứ không đổi màu, nhưng thun buộc quanh nó có thể bị nhiễm màu thực phẩm", "isCorrect": true},
+            {"text": "Nó sẽ biến thành kim loại", "isCorrect": false},
+            {"text": "Nó sẽ trở nên trong suốt hơn", "isCorrect": false}
+          ],
+          "explanation": "Bệnh nhân cần tránh các đồ ăn có màu (cà phê, nghệ) để giữ thẩm mỹ cho thun buộc."
+        },
+        {
+          "question": "Ký hiệu 'd' trong cơ học dây cung là đại diện cho:",
+          "options": [
+            {"text": "Chiều dài", "isCorrect": false},
+            {"text": "Đường kính dây", "isCorrect": true},
+            {"text": "Độ cứng", "isCorrect": false},
+            {"text": "Thời gian", "isCorrect": false}
+          ],
+          "explanation": "Đường kính dây (diameter) là yếu tố quyết định cường độ lực tác động lên răng."
+        },
+        {
+          "question": "Sự kết hợp giữa khâu (band) và mắc cài (bracket) trong cùng một ca điều trị gọi là:",
+          "options": [
+            {"text": "Điều trị tháo lắp", "isCorrect": false},
+            {"text": "Điều trị cố định toàn diện", "isCorrect": true},
+            {"text": "Phẫu thuật", "isCorrect": false},
+            {"text": "Chữa răng", "isCorrect": false}
+          ],
+          "explanation": "Đây là phương pháp chuẩn để kiểm soát toàn bộ cung răng."
+        },
+        {
+          "question": "Thước định vị mắc cài (Bracket gauge) dùng để làm gì?",
+          "options": [
+            {"text": "Đo độ sâu sâu răng", "isCorrect": false},
+            {"text": "Xác định chính xác chiều cao từ rìa cắn đến rãnh mắc cài theo milimet", "isCorrect": true},
+            {"text": "Đo huyết áp", "isCorrect": false},
+            {"text": "Đo chiều dài dây cung", "isCorrect": false}
+          ],
+          "explanation": "Độ cao gắn mắc cài quyết định độ lún/trồi của răng trong tương lai."
+        },
+        {
+          "question": "Hiện tượng 'bong mắc cài' thường do nguyên nhân chủ quan nào từ bệnh nhân?",
+          "options": [
+            {"text": "Nói chuyện quá nhiều", "isCorrect": false},
+            {"text": "Ăn thức ăn quá cứng hoặc dai làm gãy liên kết nhựa dán", "isCorrect": true},
+            {"text": "Uống nhiều nước", "isCorrect": false},
+            {"text": "Ngủ nằm nghiêng", "isCorrect": false}
+          ],
+          "explanation": "Lực nhai đồ cứng vượt quá sức chịu đựng của lớp keo dán mắc cài."
+        },
+        {
+          "question": "Mắc cài sứ 'đơn tinh thể' (Monocrystalline) có đặc điểm thẩm mỹ như thế nào?",
+          "options": [
+            {"text": "Màu trắng đục", "isCorrect": false},
+            {"text": "Trong suốt như pha lê (Sapphire)", "isCorrect": true},
+            {"text": "Màu hồng", "isCorrect": false},
+            {"text": "Màu xanh", "isCorrect": false}
+          ],
+          "explanation": "Loại này cực kỳ thẩm mỹ vì nó cho màu răng thật xuyên thấu qua mắc cài."
+        },
+        {
+          "question": "Kết quả cuối cùng của việc học bài 'Khí cụ cố định' giúp bác sĩ:",
+          "options": [
+            {"text": "Tự đúc được mắc cài", "isCorrect": false},
+            {"text": "Nắm vững cấu tạo, lựa chọn và lắp đặt chính xác các thành phần của hệ thống cố định để điều trị thành công", "isCorrect": true},
+            {"text": "Biết cách nhổ răng khôn nhanh nhất", "isCorrect": false},
+            {"text": "Lấy được dấu thạch cao bóng nhất", "isCorrect": false}
+          ],
+          "explanation": "Kiến thức về khí cụ là công cụ hành nghề trực tiếp của bác sĩ chỉnh nha."
+        }
+        ,
+            {
+              "question": "Trong cơ học chỉnh nha, cường độ lực của dây cung tỉ lệ thuận với lũy thừa mấy của đường kính (d)?",
+              "options": [
+                {"text": "Lũy thừa 1", "isCorrect": false},
+                {"text": "Lũy thừa 2", "isCorrect": false},
+                {"text": "Lũy thừa 3", "isCorrect": true},
+                {"text": "Lũy thừa 4", "isCorrect": false}
+              ],
+              "explanation": "Sức bền hay khả năng tạo lực của dây cung tỉ lệ thuận với lũy thừa bậc 3 của đường kính dây."
+            },
+            {
+              "question": "Độ cứng (Stiffness) của dây cung tỉ lệ thuận với lũy thừa mấy của đường kính (d)?",
+              "options": [
+                {"text": "Lũy thừa 2", "isCorrect": false},
+                {"text": "Lũy thừa 3", "isCorrect": false},
+                {"text": "Lũy thừa 4", "isCorrect": true},
+                {"text": "Lũy thừa 5", "isCorrect": false}
+              ],
+              "explanation": "Độ cứng của dây cung tăng rất nhanh theo đường kính, tỉ lệ với lũy thừa bậc 4 của d."
+            },
+            {
+              "question": "Khi tăng gấp đôi chiều dài dây cung (2L), độ cứng của dây sẽ thay đổi như thế nào?",
+              "options": [
+                {"text": "Giảm 2 lần", "isCorrect": false},
+                {"text": "Giảm 4 lần", "isCorrect": false},
+                {"text": "Giảm 8 lần", "isCorrect": true},
+                {"text": "Tăng 8 lần", "isCorrect": false}
+              ],
+              "explanation": "Độ cứng tỉ lệ nghịch với lũy thừa bậc 3 của chiều dài dây, nên khi chiều dài tăng gấp đôi, độ cứng giảm đi 8 lần."
+            },
+            {
+              "question": "Quãng đàn hồi (Range) của dây cung tỉ lệ thuận với lũy thừa mấy của chiều dài (L)?",
+              "options": [
+                {"text": "Lũy thừa 1", "isCorrect": false},
+                {"text": "Lũy thừa 2", "isCorrect": true},
+                {"text": "Lũy thừa 3", "isCorrect": false},
+                {"text": "Lũy thừa 4", "isCorrect": false}
+              ],
+              "explanation": "Quãng đàn hồi tỉ lệ thuận với bình phương chiều dài dây (L^2)."
+            },
+            {
+              "question": "Việc uốn thêm các vòng (loop) trên dây cung nhằm mục đích gì?",
+              "options": [
+                {"text": "Để dây đẹp hơn", "isCorrect": false},
+                {"text": "Làm tăng chiều dài dây để giảm độ cứng và tăng quãng đàn hồi", "isCorrect": true},
+                {"text": "Để dây cứng hơn", "isCorrect": false},
+                {"text": "Để dễ vệ sinh", "isCorrect": false}
+              ],
+              "explanation": "Các vòng loop làm tăng chiều dài dây cung một cách cục bộ, giúp tạo ra lực nhẹ nhàng và ổn định hơn."
+            },
+            {
+              "question": "Vật liệu dây cung nào có đặc tính 'đàn hồi lý tưởng' (siêu dẻo) và nhớ hình?",
+              "options": [
+                {"text": "Thép không gỉ (SS)", "isCorrect": false},
+                {"text": "Niken-Titanium (NiTi)", "isCorrect": true},
+                {"text": "Beta-Titanium (TMA)", "isCorrect": false},
+                {"text": "Hợp kim Vàng", "isCorrect": false}
+              ],
+              "explanation": "NiTi là loại dây cung hiện đại có khả năng phục hồi hình dạng ban đầu sau khi biến dạng lớn, tạo lực nhẹ liên tục."
+            },
+            {
+              "question": "Dây cung Beta-Titanium (TMA) thường được dùng trong giai đoạn nào?",
+              "options": [
+                {"text": "Giai đoạn đầu sắp đều", "isCorrect": false},
+                {"text": "Giai đoạn giữa để điều chỉnh torque và đóng khoảng", "isCorrect": true},
+                {"text": "Chỉ dùng để duy trì", "isCorrect": false},
+                {"text": "Dùng cho trẻ em răng sữa", "isCorrect": false}
+              ],
+              "explanation": "TMA có độ cứng trung gian giữa NiTi và thép, có thể bẻ được, nên rất hữu ích trong giai đoạn điều chỉnh chi tiết."
+            },
+            {
+              "question": "Khí cụ ngoài mặt (Extraoral appliances) thường dùng để tác động lên cấu trúc nào?",
+              "options": [
+                {"text": "Chỉ răng cửa", "isCorrect": false},
+                {"text": "Xương hàm và các răng neo chặn phía sau", "isCorrect": true},
+                {"text": "Lưỡi", "isCorrect": false},
+                {"text": "Xương đòn", "isCorrect": false}
+              ],
+              "explanation": "Khí cụ ngoài mặt cung cấp lực mạnh để thay đổi hướng tăng trưởng xương hàm hoặc giữ neo chặn tuyệt đối cho răng sau."
+            },
+            {
+              "question": "Headgear kéo cao (High-pull Headgear) thường được chỉ định cho kiểu mặt nào?",
+              "options": [
+                {"text": "Mặt ngắn", "isCorrect": false},
+                {"text": "Mặt dài (Dạng tăng trưởng mở)", "isCorrect": true},
+                {"text": "Mặt móm", "isCorrect": false},
+                {"text": "Mặt vuông", "isCorrect": false}
+              ],
+              "explanation": "High-pull tạo lực hướng lên trên giúp kiểm soát sự trồi răng cối và giảm chiều cao tầng mặt dưới."
+            },
+            {
+              "question": "Headgear kéo thấp (Cervical Headgear) có tác dụng gì đối với răng cối lớn hàm trên?",
+              "options": [
+                {"text": "Làm lún răng cối", "isCorrect": false},
+                {"text": "Làm trồi và di xa răng cối lớn", "isCorrect": true},
+                {"text": "Làm xoay răng nanh", "isCorrect": false},
+                {"text": "Đẩy răng cửa ra trước", "isCorrect": false}
+              ],
+              "explanation": "Cervical Headgear dùng vùng tựa ở cổ, tạo lực kéo lùi và có xu hướng làm trồi răng cối."
+            },
+            {
+              "question": "Khí cụ mặt nạ (Facemask) dùng để điều trị sai hình xương loại nào?",
+              "options": [
+                {"text": "Hạng I", "isCorrect": false},
+                {"text": "Hạng II", "isCorrect": false},
+                {"text": "Hạng III do kém phát triển xương hàm trên", "isCorrect": true},
+                {"text": "Cắn sâu", "isCorrect": false}
+              ],
+              "explanation": "Facemask tựa vào trán và cằm để kéo xương hàm trên ra phía trước."
+            },
+            {
+              "question": "Thời gian mang khí cụ ngoài mặt lý tưởng để đạt hiệu quả thay đổi xương là bao nhiêu?",
+              "options": [
+                {"text": "1 - 2 giờ/ngày", "isCorrect": false},
+                {"text": "4 - 6 giờ/ngày", "isCorrect": false},
+                {"text": "12 - 14 giờ/ngày", "isCorrect": true},
+                {"text": "Chỉ mang khi đi khám", "isCorrect": false}
+              ],
+              "explanation": "Cần thời gian đủ dài trong ngày (thường là buổi tối và khi ngủ) để lực tác động lên các đường khớp xương."
+            },
+            {
+              "question": "Quy trình dán mắc cài trực tiếp (Direct Bonding) bước 'Rửa sạch và thổi khô' răng diễn ra sau khi:",
+              "options": [
+                {"text": "Gắn dây cung", "isCorrect": false},
+                {"text": "Etching (Xói mòn bằng axit)", "isCorrect": true},
+                {"text": "Chiếu đèn quang hợp", "isCorrect": false},
+                {"text": "Bôi chất gắn", "isCorrect": false}
+              ],
+              "explanation": "Sau khi xói mòn bằng axit, phải rửa sạch axit và thổi khô men răng để chuẩn bị cho lớp Primer."
+            },
+            {
+              "question": "Chất trám bít rãnh (Sealant) hoặc GIC dùng để gắn khâu (band) giúp gì cho răng?",
+              "options": [
+                {"text": "Làm răng cứng hơn", "isCorrect": false},
+                {"text": "Phóng thích Fluor giúp ngăn ngừa sâu răng dưới khâu", "isCorrect": true},
+                {"text": "Làm khâu đẹp hơn", "isCorrect": false},
+                {"text": "Thay thế mắc cài", "isCorrect": false}
+              ],
+              "explanation": "Khâu bao quanh răng dễ gây đọng thức ăn, Fluor từ chất gắn giúp bảo vệ men răng khỏi sâu."
+            },
+            {
+              "question": "Dây cung thép không gỉ (Stainless Steel) có ưu điểm lớn nhất là gì?",
+              "options": [
+                {"text": "Nhớ hình", "isCorrect": false},
+                {"text": "Rẻ tiền, độ cứng cao và dễ bẻ các nếp gấp điều chỉnh", "isCorrect": true},
+                {"text": "Trong suốt thẩm mỹ", "isCorrect": false},
+                {"text": "Lực nhẹ nhất", "isCorrect": false}
+              ],
+              "explanation": "Dây SS là loại dây cơ bản nhất, cho phép bác sĩ tạo ra các lệnh di chuyển răng chi tiết."
+            },
+            {
+              "question": "Kích thước dây cung chỉnh nha thường được đo bằng đơn vị gì?",
+              "options": [
+                {"text": "Milimet (mm)", "isCorrect": false},
+                {"text": "Inch", "isCorrect": true},
+                {"text": "Centimet (cm)", "isCorrect": false},
+                {"text": "Meter (m)", "isCorrect": false}
+              ],
+              "explanation": "Đơn vị chuẩn quốc tế trong chỉnh nha là Inch (ví dụ dây 0.016, 0.018...)."
+            },
+            {
+              "question": "Một dây cung tiết diện chữ nhật 0.016 x 0.022 inch có ý nghĩa gì?",
+              "options": [
+                {"text": "Cạnh dày 0.016, cạnh rộng 0.022", "isCorrect": true},
+                {"text": "Dây tròn đường kính 0.016", "isCorrect": false},
+                {"text": "Dây dài 22 inch", "isCorrect": false},
+                {"text": "Lực kéo là 16 gram", "isCorrect": false}
+              ],
+              "explanation": "Dây chữ nhật có hai kích thước cạnh để kiểm soát độ nghiêng ngoài-trong (torque) tốt hơn dây tròn."
+            },
+            {
+              "question": "Thành phần 'Cung mặt' (Facebow) của Headgear gồm những phần nào?",
+              "options": [
+                {"text": "Cung trong (gắn vào khâu) và Cung ngoài (mắc vào dây thun/đai đầu)", "isCorrect": true},
+                {"text": "Chỉ có nhựa và dây thép", "isCorrect": false},
+                {"text": "Mắc cài và dây cung", "isCorrect": false},
+                {"text": "Ốc nới rộng", "isCorrect": false}
+              ],
+              "explanation": "Cung mặt là bộ phận trung gian truyền lực từ đai đầu ngoài mặt vào răng trong miệng."
+            },
+            {
+              "question": "Lực tác động của khí cụ tháo lắp thường là:",
+              "options": [
+                {"text": "Lực tịnh tiến hoàn hảo", "isCorrect": false},
+                {"text": "Lực nghiêng răng đơn giản (Tipping)", "isCorrect": true},
+                {"text": "Lực xoay chân răng (Torque)", "isCorrect": false},
+                {"text": "Lực lún chóp răng", "isCorrect": false}
+              ],
+              "explanation": "Khí cụ tháo lắp chỉ đẩy răng tại một điểm trên thân răng, do đó chủ yếu tạo ra di chuyển nghiêng."
+            },
+            {
+              "question": "Hệ thống mắc cài 'Straight-wire' giúp bác sĩ tiết kiệm thời gian nhờ:",
+              "options": [
+                {"text": "Không cần thay dây cung", "isCorrect": false},
+                {"text": "Giảm thiểu việc bẻ các nếp gấp bù trừ trên dây cung", "isCorrect": true},
+                {"text": "Răng tự mọc đều sau 1 tuần", "isCorrect": false},
+                {"text": "Dán mắc cài bằng nước", "isCorrect": false}
+              ],
+              "explanation": "Vì các thông số đã được đúc sẵn trong mắc cài, bác sĩ chỉ cần dùng dây cung thẳng."
+            },
+            {
+              "question": "Dụng cụ 'Kìm Weingart' thường dùng để làm gì?",
+              "options": [
+                {"text": "Uốn móc Adam", "isCorrect": false},
+                {"text": "Đặt và tháo dây cung cố định", "isCorrect": true},
+                {"text": "Nhổ răng cửa", "isCorrect": false},
+                {"text": "Gọt nhựa nền hàm", "isCorrect": false}
+              ],
+              "explanation": "Kìm Weingart có đầu kìm đa năng giúp bác sĩ thao tác với dây cung trong miệng dễ dàng."
+            },
+            {
+              "question": "Mắc cài sứ (Ceramic) có độ ma sát như thế nào với dây cung so với mắc cài kim loại?",
+              "options": [
+                {"text": "Thấp hơn", "isCorrect": false},
+                {"text": "Cao hơn (làm chậm di chuyển răng)", "isCorrect": true},
+                {"text": "Bằng nhau", "isCorrect": false},
+                {"text": "Không có ma sát", "isCorrect": false}
+              ],
+              "explanation": "Độ nhám bề mặt của sứ cao hơn thép, dẫn đến ma sát lớn, đôi khi cần dùng dây thép bọc nhựa để giảm bớt."
+            },
+            {
+              "question": "Tại sao phải bôi chất cách ly niêm mạc (như sáp chỉnh nha) lên mắc cài?",
+              "options": [
+                {"text": "Để mắc cài không bị bong", "isCorrect": false},
+                {"text": "Để che các cạnh sắc gây trầy xước môi má cho bệnh nhân", "isCorrect": true},
+                {"text": "Để làm sạch răng", "isCorrect": false},
+                {"text": "Để dây cung không bị tuột", "isCorrect": false}
+              ],
+              "explanation": "Sáp chỉnh nha giúp bảo vệ mô mềm, tăng sự thoải mái cho bệnh nhân trong giai đoạn đầu."
+            },
+            {
+              "question": "Thành phần 'Thun chuỗi' (Power chain) dùng để làm gì?",
+              "options": [
+                {"text": "Buộc từng mắc cài riêng lẻ", "isCorrect": false},
+                {"text": "Đóng các khoảng thưa giữa các răng liên tiếp", "isCorrect": true},
+                {"text": "Giữ khâu không bị tuột", "isCorrect": false},
+                {"text": "Thay thế dây cung", "isCorrect": false}
+              ],
+              "explanation": "Thun chuỗi liên kết các răng lại với nhau để kéo đóng khoảng."
+            },
+            {
+              "question": "Khí cụ 'Lưới lưỡi' (Tongue crib) dùng để điều trị thói quen xấu nào?",
+              "options": [
+                {"text": "Mút tay", "isCorrect": false},
+                {"text": "Đẩy lưỡi gây cắn hở", "isCorrect": true},
+                {"text": "Thở miệng", "isCorrect": false},
+                {"text": "Nghiến răng", "isCorrect": false}
+              ],
+              "explanation": "Lưới sắt ngăn không cho lưỡi đẩy vào giữa hai hàm răng, giúp răng cửa mọc lên bình thường."
+            },
+            {
+              "question": "Dây cung NiTi nhiệt (Thermal NiTi) có đặc tính gì?",
+              "options": [
+                {"text": "Cứng hơn khi lạnh", "isCorrect": false},
+                {"text": "Chỉ bắt đầu kích hoạt lực khi đạt đến nhiệt độ trong miệng bệnh nhân", "isCorrect": true},
+                {"text": "Tan biến sau 1 tháng", "isCorrect": false},
+                {"text": "Không bẻ được", "isCorrect": false}
+              ],
+              "explanation": "Dây này rất mềm khi ở nhiệt độ phòng, giúp bác sĩ dễ dàng gắn vào mắc cài răng lệch lạc."
+            },
+            {
+              "question": "Khoảng cách giữa các mắc cài (Inter-bracket distance) ảnh hưởng gì đến lực?",
+              "options": [
+                {"text": "Khoảng cách càng ngắn, dây càng dẻo", "isCorrect": false},
+                {"text": "Khoảng cách càng ngắn, dây càng cứng (lực càng mạnh)", "isCorrect": true},
+                {"text": "Không có ảnh hưởng", "isCorrect": false},
+                {"text": "Chỉ ảnh hưởng đến thẩm mỹ", "isCorrect": false}
+              ],
+              "explanation": "Răng càng chen chúc thì đoạn dây giữa các mắc cài càng ngắn, làm tăng áp lực đột ngột."
+            },
+            {
+              "question": "Kỹ thuật 'Begg' sử dụng loại mắc cài có đặc điểm gì?",
+              "options": [
+                {"text": "Rãnh nằm ngang", "isCorrect": false},
+                {"text": "Rãnh dọc và sử dụng các chốt (pins) để giữ dây cung", "isCorrect": true},
+                {"text": "Dán bằng keo dán sắt", "isCorrect": false},
+                {"text": "Làm bằng sứ", "isCorrect": false}
+              ],
+              "explanation": "Mắc cài Begg cho phép răng nghiêng tự do trong giai đoạn đầu điều trị."
+            },
+            {
+              "question": "Tại sao không nên gắn mắc cài lên răng chưa mọc hết?",
+              "options": [
+                {"text": "Vì mắc cài sẽ bị hỏng", "isCorrect": false},
+                {"text": "Vị trí gắn sẽ bị sai lệch so với tâm của răng sau này, dẫn đến di chuyển răng không đúng", "isCorrect": true},
+                {"text": "Để tiết kiệm mắc cài", "isCorrect": false},
+                {"text": "Vì trẻ em không dùng mắc cài", "isCorrect": false}
+              ],
+              "explanation": "Cần chờ răng nhú đủ chiều cao thân răng lâm sàng để định vị mắc cài chính xác."
+            },
+            {
+              "question": "Hiện tượng 'Resorption' (tiêu chân răng) có liên quan gì đến cơ học dây cung?",
+              "options": [
+                {"text": "Do dây cung quá bóng", "isCorrect": false},
+                {"text": "Sử dụng dây cung quá cứng tạo lực mạnh đột ngột vượt quá ngưỡng sinh học", "isCorrect": true},
+                {"text": "Do dây cung bị rỉ", "isCorrect": false},
+                {"text": "Do dùng dây NiTi", "isCorrect": false}
+              ],
+              "explanation": "Kiểm soát lực thông qua tiết diện và vật liệu dây cung là cách tốt nhất để phòng ngừa tiêu chân răng."
+            },
+            {
+              "question": "Khí cụ 'Cung khẩu cái' (Palatal arch/Nance) dùng để làm gì?",
+              "options": [
+                {"text": "Nới rộng hàm nhanh", "isCorrect": false},
+                {"text": "Neo chặn các răng cối lớn hàm trên không cho di gần", "isCorrect": true},
+                {"text": "Mài răng cửa", "isCorrect": false},
+                {"text": "Gắn răng giả", "isCorrect": false}
+              ],
+              "explanation": "Cung khẩu cái tựa vào vòm miệng cứng để giữ cố định vị trí răng hàm."
+            },
+            {
+              "question": "Đặc điểm của dây cung NiTi so với SS là:",
+              "options": [
+                {"text": "SS đàn hồi tốt hơn NiTi", "isCorrect": false},
+                {"text": "NiTi có quãng đàn hồi lớn hơn SS rất nhiều", "isCorrect": true},
+                {"text": "SS nhẹ hơn NiTi", "isCorrect": false},
+                {"text": "NiTi đắt gấp 100 lần SS", "isCorrect": false}
+              ],
+              "explanation": "NiTi cho phép cung răng biến dạng cực đại mà không bị biến dạng vĩnh viễn như thép."
+            },
+            {
+              "question": "Mục tiêu của việc 'buộc dây cung' (Ligation) vào mắc cài là gì?",
+              "options": [
+                {"text": "Để mắc cài đẹp hơn", "isCorrect": false},
+                {"text": "Truyền lực từ dây cung vào mắc cài và răng", "isCorrect": true},
+                {"text": "Để răng không bị sâu", "isCorrect": false},
+                {"text": "Để giữ cho nướu không bị chảy máu", "isCorrect": false}
+              ],
+              "explanation": "Thun buộc hoặc dây thép buộc cố định dây cung vào đáy rãnh mắc cài để sinh lực."
+            },
+            {
+              "question": "Ưu điểm của gắn mắc cài 'Gián tiếp' (Indirect bonding) là gì?",
+              "options": [
+                {"text": "Dán nhanh hơn trong miệng", "isCorrect": true},
+                {"text": "Mắc cài dính chặt hơn", "isCorrect": false},
+                {"text": "Không cần dùng đèn quang trùng hợp", "isCorrect": false},
+                {"text": "Rẻ tiền nhất", "isCorrect": false}
+              ],
+              "explanation": "Toàn bộ mắc cài được gắn lên khay, sau đó ép vào răng cùng lúc, giúp rút ngắn thời gian bệnh nhân há miệng."
+            },
+            {
+              "question": "Chống chỉ định của khí cụ tháo lắp là:",
+              "options": [
+                {"text": "Răng bị chen chúc nhẹ", "isCorrect": false},
+                {"text": "Cần di chuyển tịnh tiến răng hoặc chân răng phức tạp", "isCorrect": true},
+                {"text": "Dùng để giữ khoảng", "isCorrect": false},
+                {"text": "Dùng cho trẻ 10 tuổi", "isCorrect": false}
+              ],
+              "explanation": "Những di chuyển tinh vi đòi hỏi sự kiểm soát 3 chiều không gian của khí cụ cố định."
+            },
+            {
+              "question": "Dụng cụ 'Kìm cắt dây cung' (Distal end cutter) có đặc điểm an toàn gì?",
+              "options": [
+                {"text": "Cắt xong dây sẽ tự tan", "isCorrect": false},
+                {"text": "Có bộ phận giữ lại đầu dây thừa sau khi cắt để không rơi vào họng bệnh nhân", "isCorrect": true},
+                {"text": "Làm bằng nhựa", "isCorrect": false},
+                {"text": "Cắt được cả mắc cài", "isCorrect": false}
+              ],
+              "explanation": "Đây là thiết kế chuyên biệt để đảm bảo an toàn cho bệnh nhân khi bác sĩ cắt tỉa dây cung phía sau."
+            },
+            {
+              "question": "Góc Torque trên mắc cài Straight-wire được tạo ra nhờ:",
+              "options": [
+                {"text": "Bẻ dây cung", "isCorrect": false},
+                {"text": "Độ nghiêng của rãnh mắc cài so với đế mắc cài", "isCorrect": true},
+                {"text": "Dùng thun liên hàm", "isCorrect": false},
+                {"text": "Mài răng thật", "isCorrect": false}
+              ],
+              "explanation": "Rãnh mắc cài được đúc nghiêng sẵn theo một góc độ nhất định cho từng răng."
+            },
+            {
+              "question": "Mắc cài kim loại thường được làm từ hợp kim nào?",
+              "options": [
+                {"text": "Vàng - Bạc", "isCorrect": false},
+                {"text": "Thép không gỉ 18-8 hoặc Niken-Chrome", "isCorrect": true},
+                {"text": "Nhôm - Magie", "isCorrect": false},
+                {"text": "Đồng - Thiếc", "isCorrect": false}
+              ],
+              "explanation": "Hợp kim thép không gỉ đảm bảo độ cứng, không bị ăn mòn trong môi trường nước bọt."
+            },
+            {
+              "question": "Headgear kéo ngang (Straight-pull Headgear) có hướng lực như thế nào?",
+              "options": [
+                {"text": "Song song với mặt phẳng nhai", "isCorrect": true},
+                {"text": "Hướng lên đỉnh đầu", "isCorrect": false},
+                {"text": "Hướng xuống cằm", "isCorrect": false},
+                {"text": "Hướng vào tai", "isCorrect": false}
+              ],
+              "explanation": "Hướng lực này giúp di xa răng cối mà ít gây tác động làm lún hay trồi răng."
+            },
+            {
+              "question": "Tại sao không nên dùng mắc cài nhựa để điều chỉnh Torque (độ nghiêng chân răng)?",
+              "options": [
+                {"text": "Vì nó làm đau tủy", "isCorrect": false},
+                {"text": "Vì nhựa dễ bị biến dạng rãnh dưới lực xoắn của dây cung chữ nhật", "isCorrect": true},
+                {"text": "Vì nó làm răng bị đen", "isCorrect": false},
+                {"text": "Vì nó không dính", "isCorrect": false}
+              ],
+              "explanation": "Nhựa mềm hơn kim loại, rãnh sẽ bị dãn rộng ra thay vì truyền lực làm xoay chân răng."
+            },
+            {
+              "question": "Lò xo nén (Compression spring) đặt giữa hai mắc cài dùng để làm gì?",
+              "options": [
+                {"text": "Đóng khe thưa", "isCorrect": false},
+                {"text": "Tạo thêm khoảng trống bằng cách đẩy hai răng ra xa nhau", "isCorrect": true},
+                {"text": "Làm lún răng", "isCorrect": false},
+                {"text": "Giữ răng không di chuyển", "isCorrect": false}
+              ],
+              "explanation": "Lò xo nén tích trữ lực đàn hồi để dãn rộng khoảng trống trên cung hàm."
+            },
+            {
+              "question": "Việc dán mắc cài 'Lingual' (mặt trong) khó hơn mặt ngoài vì:",
+              "options": [
+                {"text": "Mặt trong răng phẳng quá", "isCorrect": false},
+                {"text": "Tầm nhìn hạn chế và hình thái mặt trong răng rất biến thiên", "isCorrect": true},
+                {"text": "Bệnh nhân không cho dán", "isCorrect": false},
+                {"text": "Mắc cài mặt trong quá to", "isCorrect": false}
+              ],
+              "explanation": "Sự gồ ghề của mặt trong răng cửa đòi hỏi quy trình dán gián tiếp cực kỳ tỉ mỉ."
+            },
+            {
+              "question": "Ký hiệu 'E-arch' đại diện cho thuật ngữ tiếng Anh nào?",
+              "options": [
+                {"text": "Elastic arch", "isCorrect": false},
+                {"text": "Expansion arch (Cung nới rộng)", "isCorrect": true},
+                {"text": "Edge arch", "isCorrect": false},
+                {"text": "Easy arch", "isCorrect": false}
+              ],
+              "explanation": "E-arch là cung cố định đầu tiên của Angle dùng để nới rộng cung răng."
+            },
+            {
+              "question": "Mắc cài tự buộc (Self-ligating) 'thụ động' khác 'chủ động' ở điểm nào?",
+              "options": [
+                {"text": "Nắp đậy không ép vào dây cung, giúp giảm ma sát tối đa", "isCorrect": true},
+                {"text": "Tự động rụng khi hết thuốc", "isCorrect": false},
+                {"text": "Làm bằng sứ", "isCorrect": false},
+                {"text": "Chỉ dùng thun màu", "isCorrect": false}
+              ],
+              "explanation": "Hệ thống thụ động cho phép dây cung trượt tự do trong rãnh, giúp răng di chuyển nhanh hơn trong giai đoạn đầu."
+            },
+            {
+              "question": "Dây cung TMA (Titanium-Molybdenum Alloy) còn có tên gọi khác là:",
+              "options": [
+                {"text": "Dây đồng", "isCorrect": false},
+                {"text": "Dây Beta-Titanium", "isCorrect": true},
+                {"text": "Dây NiTi nhiệt", "isCorrect": false},
+                {"text": "Dây thép dẻo", "isCorrect": false}
+              ],
+              "explanation": "TMA là viết tắt của hợp kim bao gồm Titanium và Molybdenum."
+            },
+            {
+              "question": "Thành phần 'Pillows' (gối nâng khớp) bằng nhựa gắn lên mặt nhai răng sau dùng để:",
+              "options": [
+                {"text": "Làm trắng răng", "isCorrect": false},
+                {"text": "Giải phóng khớp cắn, tránh răng trên cắn vào mắc cài hàm dưới", "isCorrect": true},
+                {"text": "Để bệnh nhân nhai kẹo", "isCorrect": false},
+                {"text": "Giữ cho lưỡi sạch", "isCorrect": false}
+              ],
+              "explanation": "Nâng khớp là thủ thuật cần thiết để bảo vệ mắc cài và đẩy nhanh di chuyển răng trước."
+            },
+            {
+              "question": "Trong gắn mắc cài, bước 'Bôi Primer' diễn ra khi nào?",
+              "options": [
+                {"text": "Ngay sau khi đánh bóng răng", "isCorrect": false},
+                {"text": "Sau khi Etching và làm khô răng hoàn toàn", "isCorrect": true},
+                {"text": "Sau khi đã gắn mắc cài", "isCorrect": false},
+                {"text": "Trước khi lấy dấu", "isCorrect": false}
+              ],
+              "explanation": "Primer là lớp liên kết trung gian giữa men răng sạch và nhựa dán dính mắc cài."
+            },
+            {
+              "question": "Khí cụ ngoài mặt 'Chin cup' (Hàm tựa cằm) dùng cho bệnh nhân:",
+              "options": [
+                {"text": "Hô hàm trên", "isCorrect": false},
+                {"text": "Móm (Hạng III) do quá phát xương hàm dưới ở trẻ em", "isCorrect": true},
+                {"text": "Răng thưa", "isCorrect": false},
+                {"text": "Mặt ngắn", "isCorrect": false}
+              ],
+              "explanation": "Chin cup tạo lực nén lên lồi cầu để hạn chế sự phát triển ra trước của xương hàm dưới."
+            },
+            {
+              "question": "Tại sao phải 'kiểm tra khớp thái dương hàm' trước khi gắn khí cụ chức năng?",
+              "options": [
+                {"text": "Để xem răng có mọc không", "isCorrect": false},
+                {"text": "Tránh làm trầm trọng thêm các loạn năng khớp sẵn có do thay đổi vị trí hàm đột ngột", "isCorrect": true},
+                {"text": "Để mài răng nhanh hơn", "isCorrect": false},
+                {"text": "Bắt buộc theo luật", "isCorrect": false}
+              ],
+              "explanation": "Khí cụ chức năng tác động trực tiếp lên cơ và khớp, nên khớp phải khỏe mạnh mới chịu được lực điều trị."
+            },
+            {
+              "question": "Vật liệu 'Co-Cr' (Cobalt-Chrome/Elgiloy) có đặc điểm gì đặc biệt?",
+              "options": [
+                {"text": "Mềm khi chưa xử lý nhiệt, cứng chắc sau khi hơ nóng", "isCorrect": true},
+                {"text": "Tan trong nước", "isCorrect": false},
+                {"text": "Màu đỏ", "isCorrect": false},
+                {"text": "Làm bằng nhựa", "isCorrect": false}
+              ],
+              "explanation": "Dây Elgiloy cho phép bác sĩ bẻ cung dễ dàng sau đó làm cứng dây bằng nhiệt để duy trì lực."
+            },
+            {
+              "question": "Một bệnh nhân bị 'Cắn sâu' nặng, loại khí cụ chức năng nào thường được dùng?",
+              "options": [
+                {"text": "Ốc nới rộng", "isCorrect": false},
+                {"text": "Activator với gối chặn răng sau được mài bớt (để răng sau trồi)", "isCorrect": true},
+                {"text": "Mắc cài sứ", "isCorrect": false},
+                {"text": "Cung môi", "isCorrect": false}
+              ],
+              "explanation": "Kích thích răng sau mọc thêm giúp nâng cao kích thước đứng và giảm độ cắn sâu."
+            },
+            {
+              "question": "Thời gian 'Etching' men răng bằng axit trung bình là bao lâu?",
+              "options": [
+                {"text": "5 giây", "isCorrect": false},
+                {"text": "15 - 30 giây", "isCorrect": true},
+                {"text": "5 phút", "isCorrect": false},
+                {"text": "1 tiếng", "isCorrect": false}
+              ],
+              "explanation": "Thời gian này đủ để tạo ra bề mặt vi rỗ mà không làm tổn hại quá sâu vào men răng."
+            },
+            {
+              "question": "Thun liên hàm (Intermaxillary elastics) hạng II kéo từ đâu đến đâu?",
+              "options": [
+                {"text": "Răng cửa trên ra sau, răng hàm dưới ra trước", "isCorrect": true},
+                {"text": "Răng cửa dưới ra trước", "isCorrect": false},
+                {"text": "Chỉ kéo ở hàm trên", "isCorrect": false},
+                {"text": "Kéo răng khôn", "isCorrect": false}
+              ],
+              "explanation": "Thun hạng II giúp điều chỉnh tương quan răng hô bằng cách kéo lùi hàm trên và đẩy tiến hàm dưới."
+            },
+            {
+              "question": "Sự di chuyển của răng cửa bên hàm trên trong 'giai đoạn vịt con xấu xí' (nhắc lại) là do:",
+              "options": [
+                {"text": "Mầm răng nanh chèn ép vào chân răng cửa bên", "isCorrect": true},
+                {"text": "Trẻ ăn quá nhiều", "isCorrect": false},
+                {"text": "Bệnh lý sâu răng", "isCorrect": false},
+                {"text": "Do dùng Headgear", "isCorrect": false}
+              ],
+              "explanation": "Đây là hiện tượng sinh lý bình thường trước khi răng nanh mọc hoàn toàn."
+            },
+            {
+              "question": "Kết quả cuối cùng của bài học 'Khí cụ chỉnh hình' giúp người học:",
+              "options": [
+                {"text": "Biết cách nhổ răng khôn nhanh nhất", "isCorrect": false},
+                {"text": "Nắm vững phân loại, cơ chế và ứng dụng lâm sàng của mọi loại khí cụ để điều trị hiệu quả", "isCorrect": true},
+                {"text": "Tự tay đúc vàng làm mắc cài", "isCorrect": false},
+                {"text": "Trám răng không đau", "isCorrect": false}
+              ],
+              "explanation": "Chương này cung cấp vũ khí kỹ thuật cho bác sĩ lâm sàng."
+            },
+            {
+              "question": "Tại sao phải dùng 'móc' (Hook) trên mắc cài răng nanh?",
+              "options": [
+                {"text": "Để nhổ răng nanh cho dễ", "isCorrect": false},
+                {"text": "Để mắc thun liên hàm hoặc thun chuỗi điều chỉnh tương quan", "isCorrect": true},
+                {"text": "Để làm răng nanh nhọn hơn", "isCorrect": false},
+                {"text": "Để trang trí", "isCorrect": false}
+              ],
+              "explanation": "Móc là điểm tựa lực cần thiết cho các di chuyển liên hàm phức tạp."
+            },
+            {
+              "question": "Vật liệu dán mắc cài 'Light-cure' khác 'Self-cure' ở điểm nào?",
+              "options": [
+                {"text": "Tự đông cứng", "isCorrect": false},
+                {"text": "Chỉ đông cứng khi có ánh sáng đèn halogen/LED bước sóng phù hợp", "isCorrect": true},
+                {"text": "Làm bằng vàng", "isCorrect": false},
+                {"text": "Mềm như cao su", "isCorrect": false}
+              ],
+              "explanation": "Nhựa quang trùng hợp giúp bác sĩ có đủ thời gian căn chỉnh vị trí mắc cài hoàn hảo trước khi cố định bằng đèn."
+            },
+            {
+              "question": "Thành phần 'Minor connector' (thanh nối phụ) trong mắc cài cố định là gì?",
+              "options": [
+                {"text": "Chân răng", "isCorrect": false},
+                {"text": "Chính là thân mắc cài và các đế dán", "isCorrect": true},
+                {"text": "Lưỡi", "isCorrect": false},
+                {"text": "Xương hàm", "isCorrect": false}
+              ],
+              "explanation": "Mắc cài đóng vai trò kết nối răng vào hệ thống dây cung chính sinh lực."
+            },
+            {
+              "question": "Tại sao cần 'chụp phim Panorama' sau 6 tháng gắn mắc cài cố định?",
+              "options": [
+                {"text": "Để xem răng có trắng không", "isCorrect": false},
+                {"text": "Kiểm tra độ song song của các chân răng và phát hiện tiêu chân răng sớm", "isCorrect": true},
+                {"text": "Để lấy tủy", "isCorrect": false},
+                {"text": "Theo quy định tính tiền", "isCorrect": false}
+              ],
+              "explanation": "Phim X-quang định kỳ giúp bác sĩ điều chỉnh góc gắn mắc cài (re-bonding) để đạt kết quả hoàn hảo."
+            },
+            {
+              "question": "Nguyên tắc 'Lực nhẹ liên tục' trong cơ học dây cung giúp đạt được:",
+              "options": [
+                {"text": "Tiêu ngót chân răng nhanh", "isCorrect": false},
+                {"text": "Di chuyển răng sinh lý nhất và ít gây đau đớn cho bệnh nhân", "isCorrect": true},
+                {"text": "Răng bị rụng", "isCorrect": false},
+                {"text": "Làm hỏng mắc cài", "isCorrect": false}
+              ],
+              "explanation": "Lực nhẹ đảm bảo lưu thông máu trong dây chằng nha chu, thúc đẩy quá trình tạo và tiêu xương ổn định."
+            }
+          ]

@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Theo định nghĩa trong tài liệu, 'Y pháp' (Med-Law) được hiểu là gì?",
+    "options": [
+      {"text": "Pháp luật phục vụ cho sự phát triển của ngành Y", "isCorrect": false},
+      {"text": "Y học phục vụ cho các yêu cầu của Pháp luật", "isCorrect": true},
+      {"text": "Các quy định về quản lý hành chính trong bệnh viện", "isCorrect": false},
+      {"text": "Nghiên cứu về đạo đức của người thầy thuốc", "isCorrect": false}
+    ],
+    "explanation": "Y pháp là một chuyên khoa của ngành Y, sử dụng kiến thức y học để giải quyết các vấn đề pháp lý."
+  },
+  {
+    "question": "Sự khác biệt cơ bản giữa thuật ngữ 'Pháp y' và 'Y pháp' theo slide bài giảng là gì?",
+    "options": [
+      {"text": "Pháp y nhấn mạnh Y học, Y pháp nhấn mạnh Pháp luật", "isCorrect": false},
+      {"text": "Pháp y nhấn mạnh Pháp luật, Y pháp nhấn mạnh Y học", "isCorrect": true},
+      {"text": "Hai thuật ngữ này hoàn toàn giống nhau về mặt ý nghĩa", "isCorrect": false},
+      {"text": "Y pháp chỉ dành cho bác sĩ, Pháp y chỉ dành cho công an", "isCorrect": false}
+    ],
+    "explanation": "Tài liệu phân biệt: Pháp y là Pháp luật - Y học; Y pháp là Y học - Pháp luật."
+  },
+  {
+    "question": "Tại sao bác sĩ đa khoa cần phải nắm vững kiến thức cơ bản về Y pháp?",
+    "options": [
+      {"text": "Để có thể tự ý tiến hành khám nghiệm tử thi tại hiện trường", "isCorrect": false},
+      {"text": "Để tránh việc bị kiện tụng khi hành nghề chuyên môn", "isCorrect": false},
+      {"text": "Để không gây khó khăn cho công tác điều tra và xét xử", "isCorrect": true},
+      {"text": "Để thay thế vai trò của Giám định viên tư pháp khi cần thiết", "isCorrect": false}
+    ],
+    "explanation": "Nếu bác sĩ không có kiến thức y pháp, họ có thể vô tình làm mất dấu vết hoặc cung cấp thông tin sai lệch, gây khó khăn cho cơ quan hành pháp."
+  },
+  {
+    "question": "Trong lịch sử phát triển Y pháp thế giới, quy định về khám nghiệm tử thi bắt đầu xuất hiện từ thế kỷ nào?",
+    "options": [
+      {"text": "Thế kỷ X", "isCorrect": false},
+      {"text": "Thế kỷ XII", "isCorrect": true},
+      {"text": "Thế kỷ XV", "isCorrect": false},
+      {"text": "Thế kỷ XVIII", "isCorrect": false}
+    ],
+    "explanation": "Quy định khám nghiệm tử thi đã có từ thế kỷ XII."
+  },
+  {
+    "question": "Ngành Y pháp thế giới bắt đầu thực sự mang tính chất khoa học từ thời điểm nào?",
+    "options": [
+      {"text": "Thế kỷ XII", "isCorrect": false},
+      {"text": "Thế kỷ XIII", "isCorrect": false},
+      {"text": "Thế kỷ XVI", "isCorrect": true},
+      {"text": "Thế kỷ XIX", "isCorrect": false}
+    ],
+    "explanation": "Từ thế kỷ XVI, Y pháp mới thực sự mang tính chất khoa học."
+  },
+  {
+    "question": "Sự kiện quan trọng về đào tạo Y pháp diễn ra vào thế kỷ XVIII là gì?",
+    "options": [
+      {"text": "Quy định giám định viên phải làm nhân chứng tại tòa", "isCorrect": false},
+      {"text": "Mổ y pháp đầu tiên cho sinh viên tham dự tại Mỹ", "isCorrect": false},
+      {"text": "Các trường y thành lập bộ môn Y pháp để đào tạo", "isCorrect": true},
+      {"text": "Thông qua Luật Giám định tư pháp quốc tế", "isCorrect": false}
+    ],
+    "explanation": "Vào thế kỷ XVIII, các trường y đã thành lập bộ môn Y pháp để đào tạo chính quy."
+  },
+  {
+    "question": "Y pháp lần đầu tiên được đưa vào chương trình giảng dạy tại trường Y Hà Nội vào năm nào?",
+    "options": [
+      {"text": "1919", "isCorrect": true},
+      {"text": "1930", "isCorrect": false},
+      {"text": "1945", "isCorrect": false},
+      {"text": "1976", "isCorrect": false}
+    ],
+    "explanation": "Năm 1919, Y pháp bắt đầu được đưa vào trường Y Hà Nội."
+  },
+  {
+    "question": "Năm nào đánh dấu mốc bắt đầu giảng dạy chính thức môn Y pháp tại Việt Nam?",
+    "options": [
+      {"text": "1919", "isCorrect": false},
+      {"text": "1930", "isCorrect": true},
+      {"text": "1976", "isCorrect": false},
+      {"text": "1983", "isCorrect": false}
+    ],
+    "explanation": "Sau khi đưa vào trường năm 1919, đến năm 1930 môn học này bắt đầu được giảng dạy."
+  },
+  {
+    "question": "Bác sĩ chuyên khoa (BSCK) Y pháp đầu tiên tại Việt Nam được đào tạo vào năm nào?",
+    "options": [
+      {"text": "1945", "isCorrect": false},
+      {"text": "1976", "isCorrect": true},
+      {"text": "1983", "isCorrect": false},
+      {"text": "1990", "isCorrect": false}
+    ],
+    "explanation": "Năm 1976 là mốc đào tạo BSCK Y pháp đầu tiên của nước ta."
+  },
+  {
+    "question": "Bộ môn Y pháp tại Đại học Y Hà Nội được thành lập vào năm nào?",
+    "options": [
+      {"text": "1977", "isCorrect": false},
+      {"text": "1983", "isCorrect": true},
+      {"text": "1986", "isCorrect": false},
+      {"text": "2001", "isCorrect": false}
+    ],
+    "explanation": "Năm 1983, trường ĐH Y Hà Nội chính thức thành lập Bộ môn Y pháp."
+  },
+  {
+    "question": "Tổ chức Giám định Y pháp Trung ương được thành lập vào ngày tháng năm nào?",
+    "options": [
+      {"text": "21/07/1988", "isCorrect": false},
+      {"text": "18/12/1989", "isCorrect": false},
+      {"text": "30/11/1990", "isCorrect": true},
+      {"text": "17/01/2001", "isCorrect": false}
+    ],
+    "explanation": "Tổ chức Giám định Y pháp TW được thành lập vào ngày 30/11/1990."
+  },
+  {
+    "question": "Viện Y học tư pháp (nay là Viện Pháp y Quốc gia) được thành lập theo quyết định của Chính phủ vào năm nào?",
+    "options": [
+      {"text": "1990", "isCorrect": false},
+      {"text": "2001", "isCorrect": true},
+      {"text": "2004", "isCorrect": false},
+      {"text": "2012", "isCorrect": false}
+    ],
+    "explanation": "Viện Y học tư pháp trực thuộc Bộ Y tế được thành lập ngày 17/01/2001."
+  },
+  {
+    "question": "Pháp lệnh Giám định tư pháp được Ủy ban Thường vụ Quốc hội thông qua vào năm nào?",
+    "options": [
+      {"text": "2001", "isCorrect": false},
+      {"text": "2004", "isCorrect": true},
+      {"text": "2010", "isCorrect": false},
+      {"text": "2012", "isCorrect": false}
+    ],
+    "explanation": "Pháp lệnh Giám định tư pháp được thông qua ngày 29/09/2004."
+  },
+  {
+    "question": "Quốc hội thông qua Luật Giám định tư pháp vào năm nào?",
+    "options": [
+      {"text": "2004", "isCorrect": false},
+      {"text": "2012", "isCorrect": true},
+      {"text": "2015", "isCorrect": false},
+      {"text": "2020", "isCorrect": false}
+    ],
+    "explanation": "Luật Giám định tư pháp được Quốc hội thông qua ngày 20/06/2012."
+  },
+  {
+    "question": "Tổ chức giám định y pháp nào sau đây trực thuộc Bộ Quốc phòng?",
+    "options": [
+      {"text": "Viện Pháp y Quốc gia", "isCorrect": false},
+      {"text": "Trung tâm Pháp y cấp tỉnh", "isCorrect": false},
+      {"text": "Viện Pháp y Quân đội", "isCorrect": true},
+      {"text": "Viện Khoa học Hình sự", "isCorrect": false}
+    ],
+    "explanation": "Viện Pháp y Quân đội là tổ chức giám định công lập thuộc Bộ Quốc phòng."
+  },
+  {
+    "question": "Tổ chức giám định y pháp tâm thần trung ương trực thuộc cơ quan nào?",
+    "options": [
+      {"text": "Bộ Công an", "isCorrect": false},
+      {"text": "Bộ Tư pháp", "isCorrect": false},
+      {"text": "Bộ Y tế", "isCorrect": true},
+      {"text": "UBND Tỉnh", "isCorrect": false}
+    ],
+    "explanation": "Viện Pháp y tâm thần trung ương và các trung tâm khu vực đều thuộc Bộ Y tế."
+  },
+  {
+    "question": "Nội dung 'Giám định sự chết thực sự' thuộc lĩnh vực y pháp nào?",
+    "options": [
+      {"text": "Y pháp hình sự", "isCorrect": true},
+      {"text": "Y pháp dân sự", "isCorrect": false},
+      {"text": "Y pháp nghề nghiệp", "isCorrect": false},
+      {"text": "Y pháp hành chính", "isCorrect": false}
+    ],
+    "explanation": "Xác định cái chết thực sự là một nội dung quan trọng của Y pháp hình sự."
+  },
+  {
+    "question": "Việc xác định một người có giả bệnh hoặc giả thương tích hay không nằm trong phạm vi của:",
+    "options": [
+      {"text": "Y pháp dân sự", "isCorrect": false},
+      {"text": "Y pháp hình sự", "isCorrect": true},
+      {"text": "Y pháp tâm thần", "isCorrect": false},
+      {"text": "Y pháp nghề nghiệp", "isCorrect": false}
+    ],
+    "explanation": "Đây thuộc nội dung giám định trong Y pháp hình sự."
+  },
+  {
+    "question": "Nội dung nào sau đây thuộc về Y pháp dân sự?",
+    "options": [
+      {"text": "Giám định tử thi tình nghi án mạng", "isCorrect": false},
+      {"text": "Xác định phụ hệ", "isCorrect": true},
+      {"text": "Tham gia thi hành án tử hình", "isCorrect": false},
+      {"text": "Kiểm tra vi phạm quy chế chuyên môn", "isCorrect": false}
+    ],
+    "explanation": "Y pháp dân sự bao gồm: Giám định tai nạn lao động, khám trước kết hôn và xác định phụ hệ."
+  },
+  {
+    "question": "Y pháp nghề nghiệp có nhiệm vụ kiểm tra vấn đề gì sau đây?",
+    "options": [
+      {"text": "Khám sức khỏe định kỳ cho cán bộ", "isCorrect": false},
+      {"text": "Xác định danh tính nạn nhân chết trôi", "isCorrect": false},
+      {"text": "Kiểm tra những vụ việc thiếu tinh thần trách nhiệm trong y tế", "isCorrect": true},
+      {"text": "Giám định hung khí gây án", "isCorrect": false}
+    ],
+    "explanation": "Y pháp nghề nghiệp kiểm tra các lỗi chuyên môn, thiếu trách nhiệm hoặc lạm dụng nghề nghiệp."
+  },
+  {
+    "question": "Tiêu chuẩn về trình độ chuyên môn của một Giám định viên y pháp là:",
+    "options": [
+      {"text": "Tốt nghiệp Trung cấp y khoa trở lên", "isCorrect": false},
+      {"text": "Tốt nghiệp Cao đẳng y khoa và có 3 năm kinh nghiệm", "isCorrect": false},
+      {"text": "Có trình độ Đại học trở lên", "isCorrect": true},
+      {"text": "Phải là Tiến sĩ y khoa", "isCorrect": false}
+    ],
+    "explanation": "Tiêu chuẩn bắt buộc là có trình độ đại học trở lên ở lĩnh vực được đào tạo."
+  },
+  {
+    "question": "Một bác sĩ cần có ít nhất bao nhiêu năm kinh nghiệm thực tế chuyên môn để trở thành Giám định viên?",
+    "options": [
+      {"text": "2 năm", "isCorrect": false},
+      {"text": "3 năm", "isCorrect": false},
+      {"text": "5 năm", "isCorrect": true},
+      {"text": "10 năm", "isCorrect": false}
+    ],
+    "explanation": "Người giám định phải có ít nhất 05 năm thực tế hoạt động chuyên môn."
+  },
+  {
+    "question": "Điều kiện về thời gian giúp việc trực tiếp trong hoạt động giám định để trở thành Giám định viên là:",
+    "options": [
+      {"text": "Từ 1 năm trở lên", "isCorrect": false},
+      {"text": "Từ 2 năm trở lên", "isCorrect": false},
+      {"text": "Từ 3 năm trở lên", "isCorrect": true},
+      {"text": "Từ 5 năm trở lên", "isCorrect": false}
+    ],
+    "explanation": "Tiêu chuẩn yêu cầu đã trực tiếp giúp việc trong hoạt động giám định từ 3 năm trở lên."
+  },
+  {
+    "question": "Nhiệm vụ nào sau đây là BẮT BUỘC đối với giám định viên khi có yêu cầu từ tòa án?",
+    "options": [
+      {"text": "Phải có mặt theo giấy triệu tập của Cơ quan trưng cầu", "isCorrect": true},
+      {"text": "Có thể ủy quyền cho người khác đi thay", "isCorrect": false},
+      {"text": "Chỉ gửi văn bản kết luận mà không cần đến tòa", "isCorrect": false},
+      {"text": "Được quyền từ chối nếu đang bận khám bệnh nhân", "isCorrect": false}
+    ],
+    "explanation": "Người giám định có nghĩa vụ phải có mặt theo giấy triệu tập của cơ quan trưng cầu giám định."
+  },
+  {
+    "question": "Giám định viên y pháp có quyền hạn gì đối với tài liệu vụ án?",
+    "options": [
+      {"text": "Không được phép xem tài liệu để đảm bảo khách quan", "isCorrect": false},
+      {"text": "Được quyền tìm hiểu tài liệu của vụ án liên quan đến đối tượng giám định", "isCorrect": true},
+      {"text": "Chỉ được xem tài liệu sau khi đã viết xong kết luận", "isCorrect": false},
+      {"text": "Phải xin phép bị can trước khi xem hồ sơ", "isCorrect": false}
+    ],
+    "explanation": "Người giám định có quyền tìm hiểu tài liệu vụ án phục vụ cho công tác giám định."
+  },
+  {
+    "question": "Trong trường hợp tham gia tố tụng tại phiên tòa, giám định viên có quyền gì?",
+    "options": [
+      {"text": "Được quyền tuyên án bị cáo", "isCorrect": false},
+      {"text": "Được quyền hỏi bị can và những người tham gia tố tụng", "isCorrect": true},
+      {"text": "Được quyền bắt giữ nhân chứng tại chỗ", "isCorrect": false},
+      {"text": "Được quyền thay đổi cáo trạng của Viện kiểm sát", "isCorrect": false}
+    ],
+    "explanation": "Khi tham gia tố tụng tại tòa, GĐV được hỏi bị can để làm rõ các vấn đề chuyên môn."
+  },
+  {
+    "question": "Giám định viên có quyền viết kết luận riêng của mình không?",
+    "options": [
+      {"text": "Không, phải tuyệt đối thống nhất với tập thể", "isCorrect": false},
+      {"text": "Được quyền viết kết luận riêng vào bản kết luận chung", "isCorrect": true},
+      {"text": "Chỉ được viết riêng khi tòa án cho phép", "isCorrect": false},
+      {"text": "Phải theo ý kiến của giám định viên trưởng", "isCorrect": false}
+    ],
+    "explanation": "GĐV có quyền bảo lưu ý kiến và viết kết luận riêng vào bản kết luận chung của đoàn giám định."
+  },
+  {
+    "question": "Ai là người trực tiếp mang quyết định trưng cầu giám định đến cơ quan giám định?",
+    "options": [
+      {"text": "Bác sĩ điều trị", "isCorrect": false},
+      {"text": "Gia đình nạn nhân", "isCorrect": false},
+      {"text": "Cán bộ của cơ quan trưng cầu (Công an, Tòa án...)", "isCorrect": true},
+      {"text": "Nhân viên bưu điện", "isCorrect": false}
+    ],
+    "explanation": "Quyết định trưng cầu phải do cán bộ cơ quan trưng cầu trực tiếp mang đến."
+  },
+  {
+    "question": "Giám định bổ sung được thực hiện trong trường hợp nào?",
+    "options": [
+      {"text": "Khi gia đình nạn nhân không đồng ý với kết luận cũ", "isCorrect": false},
+      {"text": "Khi nội dung kết luận trước chưa đầy đủ hoặc có tình tiết mới", "isCorrect": true},
+      {"text": "Khi giám định viên lần đầu đã nghỉ hưu", "isCorrect": false},
+      {"text": "Mặc định thực hiện sau 6 tháng kể từ lần giám định đầu", "isCorrect": false}
+    ],
+    "explanation": "Giám định bổ sung diễn ra khi kết luận trước chưa rõ hoặc có thêm bằng chứng mới cần làm rõ."
+  },
+  {
+    "question": "Giám định lại được thực hiện khi nào?",
+    "options": [
+      {"text": "Khi có nghi ngờ về kết luận lần đầu hoặc có sai sót", "isCorrect": true},
+      {"text": "Thực hiện định kỳ hàng năm cho mọi vụ án", "isCorrect": false},
+      {"text": "Khi chuyển hồ sơ vụ án lên cấp cao hơn", "isCorrect": false},
+      {"text": "Khi hung thủ đã nhận tội", "isCorrect": false}
+    ],
+    "explanation": "Giám định lại được thực hiện khi có căn cứ cho rằng kết luận lần đầu không chính xác."
+  },
+  {
+    "question": "Bộ luật nào quy định về 'Nguồn chứng cứ' liên quan đến giám định?",
+    "options": [
+      {"text": "Bộ luật Hình sự", "isCorrect": false},
+      {"text": "Bộ luật Dân sự", "isCorrect": false},
+      {"text": "Bộ luật Tố tụng Hình sự (Điều 87)", "isCorrect": true},
+      {"text": "Luật Khám chữa bệnh", "isCorrect": false}
+    ],
+    "explanation": "Điều 87 Bộ luật Tố tụng Hình sự quy định về nguồn chứng cứ."
+  },
+  {
+    "question": "Điều 202 của Bộ luật Tố tụng Hình sự quy định về việc gì?",
+    "options": [
+      {"text": "Trưng cầu giám định", "isCorrect": false},
+      {"text": "Khám nghiệm hiện trường", "isCorrect": false},
+      {"text": "Khám nghiệm tử thi", "isCorrect": true},
+      {"text": "Bắt bị can", "isCorrect": false}
+    ],
+    "explanation": "Đây là điều luật cụ thể quy định về khám nghiệm tử thi trong tố tụng."
+  },
+  {
+    "question": "Việc xem xét dấu vết trên thân thể được quy định tại điều nào của Bộ luật Tố tụng Hình sự?",
+    "options": [
+      {"text": "Điều 100", "isCorrect": false},
+      {"text": "Điều 202", "isCorrect": false},
+      {"text": "Điều 203", "isCorrect": true},
+      {"text": "Điều 303", "isCorrect": false}
+    ],
+    "explanation": "Điều 203 BLTTHS quy định về xem xét dấu vết thân thể."
+  },
+  {
+    "question": "Tội cung cấp tài liệu sai sự thật hoặc khai báo gian dối bị xử lý theo điều nào của Bộ luật Hình sự?",
+    "options": [
+      {"text": "Điều 382", "isCorrect": true},
+      {"text": "Điều 383", "isCorrect": false},
+      {"text": "Điều 384", "isCorrect": false},
+      {"text": "Điều 68", "isCorrect": false}
+    ],
+    "explanation": "Điều 382 BLHS quy định về tội cung cấp tài liệu sai sự thật."
+  },
+  {
+    "question": "Hành vi mua chuộc hoặc cưỡng ép giám định viên cung cấp tài liệu sai sự thật phạm vào điều mấy của BLHS?",
+    "options": [
+      {"text": "Điều 382", "isCorrect": false},
+      {"text": "Điều 383", "isCorrect": false},
+      {"text": "Điều 384", "isCorrect": true},
+      {"text": "Điều 205", "isCorrect": false}
+    ],
+    "explanation": "Điều 384 BLHS quy định về tội mua chuộc hoặc cưỡng ép người khác khai báo gian dối."
+  },
+  {
+    "question": "Tiêu chuẩn đạo đức của một Giám định viên y pháp là:",
+    "options": [
+      {"text": "Có phẩm chất đạo đức tốt", "isCorrect": true},
+      {"text": "Có chứng chỉ tiếng Anh", "isCorrect": false},
+      {"text": "Đã từng tham gia giảng dạy", "isCorrect": false},
+      {"text": "Không cần thiết nếu có chuyên môn giỏi", "isCorrect": false}
+    ],
+    "explanation": "Cùng với sức khỏe và chuyên môn, phẩm chất đạo đức tốt là tiêu chuẩn bắt buộc."
+  },
+  {
+    "question": "Giám định viên y pháp có được phép để lộ kết quả giám định cho bên thứ ba không liên quan không?",
+    "options": [
+      {"text": "Được phép nếu kết quả đó có giá trị khoa học", "isCorrect": false},
+      {"text": "Được phép sau khi vụ án đã kết thúc 10 năm", "isCorrect": false},
+      {"text": "Tuyệt đối không được để lộ tài liệu và kết quả", "isCorrect": true},
+      {"text": "Được phép nếu được sự đồng ý của luật sư bị cáo", "isCorrect": false}
+    ],
+    "explanation": "Bảo mật thông tin là nhiệm vụ trọng yếu của giám định viên."
+  },
+  {
+    "question": "Hình thức 'Giám định tổng hợp' là gì?",
+    "options": [
+      {"text": "Giám định do một người thực hiện nhiều lần", "isCorrect": false},
+      {"text": "Giám định huy động sự tham gia của nhiều chuyên gia ở nhiều lĩnh vực khác nhau", "isCorrect": true},
+      {"text": "Giám định tất cả các vụ án trong một khu vực", "isCorrect": false},
+      {"text": "Giám định kết hợp giữa hiện trường và tử thi bởi 1 người", "isCorrect": false}
+    ],
+    "explanation": "Đây là hình thức giám định phối hợp nhiều chuyên khoa."
+  },
+  {
+    "question": "Cơ quan tiến hành tố tụng bao gồm những cơ quan nào sau đây có quyền trưng cầu giám định?",
+    "options": [
+      {"text": "Bệnh viện, Trạm y tế, Sở y tế", "isCorrect": false},
+      {"text": "Công an, Viện kiểm sát, Tòa án", "isCorrect": true},
+      {"text": "Ủy ban nhân dân các cấp", "isCorrect": false},
+      {"text": "Sở Tư pháp và Đoàn luật sư", "isCorrect": false}
+    ],
+    "explanation": "Các cơ quan này có thẩm quyền trưng cầu giám định để giải quyết vụ án."
+  },
+  {
+    "question": "Giám định viên có quyền yêu cầu cơ quan trưng cầu điều gì?",
+    "options": [
+      {"text": "Yêu cầu thay đổi thẩm phán", "isCorrect": false},
+      {"text": "Yêu cầu tạo điều kiện thuận lợi cho việc thực hiện giám định", "isCorrect": true},
+      {"text": "Yêu cầu tăng mức án cho bị cáo", "isCorrect": false},
+      {"text": "Yêu cầu được giữ kín danh tính hoàn toàn", "isCorrect": false}
+    ],
+    "explanation": "GĐV có quyền yêu cầu hỗ trợ phương tiện, điều kiện để thực hiện nhiệm vụ."
+  },
+  {
+    "question": "Nội dung giám định 'Y pháp cốt học' nhằm mục đích gì?",
+    "options": [
+      {"text": "Chữa bệnh loãng xương", "isCorrect": false},
+      {"text": "Nghiên cứu xương người để xác định giới tính, độ tuổi, nguyên nhân chết", "isCorrect": true},
+      {"text": "Chụp X-quang răng", "isCorrect": false},
+      {"text": "Phẫu thuật chỉnh hình xương", "isCorrect": false}
+    ],
+    "explanation": "Y pháp cốt học tập trung vào việc giám định xương trong các vụ việc pháp lý."
+  },
+  {
+    "question": "Giám định viên y pháp có vai trò gì trong Hội đồng thi hành án tử hình?",
+    "options": [
+      {"text": "Trực tiếp thực hiện việc xử tử", "isCorrect": false},
+      {"text": "Là thành viên hội đồng kiểm tra và xác nhận cái chết thực sự", "isCorrect": true},
+      {"text": "Làm thủ tục chôn cất", "isCorrect": false},
+      {"text": "Thẩm vấn tử tù lần cuối", "isCorrect": false}
+    ],
+    "explanation": "Vai trò của bác sĩ y pháp là xác nhận tử tù đã chết sau khi thi hành án."
+  },
+  {
+    "question": "Bác sĩ Y pháp thường phải làm việc tại hiện trường trong trường hợp nào?",
+    "options": [
+      {"text": "Khi nạn nhân bị thương nhẹ", "isCorrect": false},
+      {"text": "Khi có án mạng hoặc chết chưa rõ nguyên nhân", "isCorrect": true},
+      {"text": "Khi bệnh nhân cần cấp cứu khẩn cấp", "isCorrect": false},
+      {"text": "Khi có tranh chấp đất đai", "isCorrect": false}
+    ],
+    "explanation": "Y pháp hình sự yêu cầu làm việc tại hiện trường để thu thập dấu vết tử thi."
+  },
+  {
+    "question": "Thời kỳ Pháp thuộc, công tác giám định tại Việt Nam được thực hiện như thế nào?",
+    "options": [
+      {"text": "Chưa có bất kỳ hoạt động giám định nào", "isCorrect": false},
+      {"text": "Đã có các quy định về giám định nhưng chủ yếu phục vụ bộ máy cai trị", "isCorrect": true},
+      {"text": "Người dân được tự do yêu cầu giám định", "isCorrect": false},
+      {"text": "Đã thành lập Viện Pháp y Quốc gia", "isCorrect": false}
+    ],
+    "explanation": "Slide 10 đề cập công tác giám định đã tồn tại từ thời Pháp thuộc."
+  },
+  {
+    "question": "Điều luật nào quy định về 'Cam đoan của người giám định' trước phiên tòa?",
+    "options": [
+      {"text": "Điều 68", "isCorrect": false},
+      {"text": "Điều 202", "isCorrect": false},
+      {"text": "Điều 303 BLTTHS", "isCorrect": true},
+      {"text": "Điều 316", "isCorrect": false}
+    ],
+    "explanation": "Điều 303 quy định về lời cam đoan của GĐV tại tòa."
+  },
+  {
+    "question": "Người làm công tác y pháp ứng dụng kiến thức y học vào:",
+    "options": [
+      {"text": "Công tác điều trị bệnh nhân", "isCorrect": false},
+      {"text": "Công tác giám định tư pháp", "isCorrect": true},
+      {"text": "Công tác nghiên cứu dược phẩm", "isCorrect": false},
+      {"text": "Công tác quản lý bảo hiểm y tế", "isCorrect": false}
+    ],
+    "explanation": "Y pháp là ứng dụng y học phục vụ giám định."
+  },
+  {
+    "question": "Trung tâm Giám định Pháp y thuộc Viện Khoa học Hình sự trực thuộc bộ nào?",
+    "options": [
+      {"text": "Bộ Y tế", "isCorrect": false},
+      {"text": "Bộ Quốc phòng", "isCorrect": false},
+      {"text": "Bộ Công an", "isCorrect": true},
+      {"text": "Bộ Tư pháp", "isCorrect": false}
+    ],
+    "explanation": "Viện Khoa học Hình sự thuộc Bộ Công an."
+  },
+  {
+    "question": "Giám định viên y pháp được các cơ quan pháp luật bảo vệ khi nào?",
+    "options": [
+      {"text": "Chỉ khi họ đang khám nghiệm tử thi", "isCorrect": false},
+      {"text": "Chỉ khi họ đang phát biểu tại tòa", "isCorrect": false},
+      {"text": "Trong suốt quá trình thực hiện nhiệm vụ giám định", "isCorrect": true},
+      {"text": "Họ không được bảo vệ đặc biệt hơn người dân", "isCorrect": false}
+    ],
+    "explanation": "GĐV được các cơ quan pháp luật bảo vệ quyền lợi và an toàn khi thi hành nhiệm vụ."
+  },
+  {
+    "question": "Nội dung 'Giám định dấu vết' thuộc tiểu mục nào của Y pháp hình sự?",
+    "options": [
+      {"text": "Y pháp sinh dục", "isCorrect": false},
+      {"text": "Y pháp dấu vết (dấu vân tay, vết máu...)", "isCorrect": true},
+      {"text": "Y pháp tâm thần", "isCorrect": false},
+      {"text": "Y pháp cốt học", "isCorrect": false}
+    ],
+    "explanation": "Dấu vết sinh học là một mảng lớn trong y pháp hình sự."
+  },
+  {
+    "question": "Y pháp ở nước ta được đánh giá là một chuyên khoa như thế nào?",
+    "options": [
+      {"text": "Lâu đời và phát triển nhất", "isCorrect": false},
+      {"text": "Còn non trẻ", "isCorrect": true},
+      {"text": "Không còn cần thiết trong thời đại 4.0", "isCorrect": false},
+      {"text": "Đã bão hòa về nhân lực", "isCorrect": false}
+    ],
+    "explanation": "Tài liệu khẳng định Y pháp Việt Nam là một chuyên khoa còn non trẻ."
+  }
+]

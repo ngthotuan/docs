@@ -1,0 +1,792 @@
+[
+    {
+      "question": "Tổ chức nào đưa ra định nghĩa tiêu chuẩn về vết cắn được sử dụng trong tài liệu?",
+      "options": [
+        {"text": "Interpol", "isCorrect": false},
+        {"text": "American Board of Forensic Odontology (ABFO)", "isCorrect": true},
+        {"text": "Tổ chức Y tế Thế giới (WHO)", "isCorrect": false},
+        {"text": "Hiệp hội Nha khoa Hoa Kỳ (ADA)", "isCorrect": false}
+      ],
+      "explanation": "ABFO là cơ quan thiết lập các tiêu chuẩn chuyên môn về phân tích vết cắn trong pháp y nha khoa."
+    },
+    {
+      "question": "Theo ABFO, vết cắn được định nghĩa là một tổn thương có hình dạng gì?",
+      "options": [
+        {"text": "Hình vuông hoặc chữ nhật", "isCorrect": false},
+        {"text": "Hình tròn hoặc hình bầu dục", "isCorrect": true},
+        {"text": "Vết rách dài không hình thù", "isCorrect": false},
+        {"text": "Hình tam giác đối xứng", "isCorrect": false}
+      ],
+      "explanation": "Vết cắn điển hình tạo ra một vùng tổn thương bao quanh vị trí răng tiếp xúc, thường có dạng tròn hoặc bầu dục."
+    },
+    {
+      "question": "Thành phần cấu tạo nên một vết cắn đặc trưng bao gồm:",
+      "options": [
+        {"text": "Hai vòng cung hình chữ U đối xứng ngăn cách bởi một khoảng trống", "isCorrect": true},
+        {"text": "Một đường thẳng duy nhất", "isCorrect": false},
+        {"text": "Bốn vòng tròn đồng tâm", "isCorrect": false},
+        {"text": "Nhiều vết cắt sâu song song", "isCorrect": false}
+      ],
+      "explanation": "Hình chữ U đối xứng phản ánh hình dạng của cung răng hàm trên và hàm dưới của người cắn."
+    },
+    {
+      "question": "Sự khác biệt cơ bản giữa 'vết cắn' và 'dấu răng' là gì?",
+      "options": [
+        {"text": "Vết cắn chỉ có ở người sống", "isCorrect": false},
+        {"text": "Dấu răng là thụ động, vết cắn là chủ động có sự tham gia của cơ hàm", "isCorrect": true},
+        {"text": "Dấu răng luôn sâu hơn vết cắn", "isCorrect": false},
+        {"text": "Không có sự khác biệt nào", "isCorrect": false}
+      ],
+      "explanation": "Vết cắn liên quan đến hành động ngậm hàm và lực cơ học, trong khi dấu răng chỉ là sự tiếp xúc vật lý đơn thuần giữa răng và vật thể."
+    },
+    {
+      "question": "Tại sao dấu răng thường chỉ cho thấy một cung răng đơn lẻ?",
+      "options": [
+        {"text": "Vì răng đối diện bị rụng", "isCorrect": false},
+        {"text": "Vì đó là sự tiếp xúc thụ động của một hàm lên bề mặt", "isCorrect": true},
+        {"text": "Vì hung thủ chỉ cắn bằng một hàm", "isCorrect": false},
+        {"text": "Do góc chụp hình", "isCorrect": false}
+      ],
+      "explanation": "Do tính chất thụ động, dấu răng thường chỉ ghi lại dấu ấn của cung răng nhô ra hơn hoặc tiếp xúc trước."
+    },
+    {
+      "question": "Vết cắn của con người có đặc điểm nào giúp phân biệt với vết cắn động vật?",
+      "options": [
+        {"text": "Vết cắn người có hình dạng cung rộng, răng cửa tạo vết hình chữ nhật", "isCorrect": true},
+        {"text": "Vết cắn người luôn sâu hơn", "isCorrect": false},
+        {"text": "Răng nanh người dài hơn động vật", "isCorrect": false},
+        {"text": "Người chỉ cắn 1 lần duy nhất", "isCorrect": false}
+      ],
+      "explanation": "Cấu trúc răng người đặc trưng với các răng trước phẳng và cung hàm hình chữ U rộng, khác biệt với răng nhọn và cung hẹp của đa số động vật."
+    },
+    {
+      "question": "Tổn thương ngoại vi của vết cắn bao gồm các loại dấu vết nào?",
+      "options": [
+        {"text": "Vết trầy xước, đụng dập và vết rách riêng lẻ", "isCorrect": true},
+        {"text": "Vết bỏng nhiệt", "isCorrect": false},
+        {"text": "Vết sẹo cũ", "isCorrect": false},
+        {"text": "Vết nám da", "isCorrect": false}
+      ],
+      "explanation": "Lực nén, xé và ma sát của răng lên da tạo ra các tổn thương kết hợp giữa bầm tím, xước và rách da."
+    },
+    {
+      "question": "Trong phân tích vết cắn, 'khoảng trống ở gốc' (Trang 2) đại diện cho điều gì?",
+      "options": [
+        {"text": "Khoảng cách giữa hai môi", "isCorrect": false},
+        {"text": "Khoảng cách ngăn cách hai cung răng hàm trên và hàm dưới", "isCorrect": true},
+        {"text": "Răng bị mất của nạn nhân", "isCorrect": false},
+        {"text": "Vết thương đã lành", "isCorrect": false}
+      ],
+      "explanation": "Vết cắn người thường để lại hai vòng cung tách biệt bởi vùng da không bị răng chạm vào trực tiếp ở giữa."
+    },
+    {
+      "question": "Yếu tố nào làm cho phân tích vết cắn trên da người trở nên khó khăn và mang tính loại trừ?",
+      "options": [
+        {"text": "Do răng thay đổi theo tuổi", "isCorrect": false},
+        {"text": "Do tính co giãn, đàn hồi và biến dạng của da", "isCorrect": true},
+        {"text": "Vì nạn nhân thường xuyên tắm rửa", "isCorrect": false},
+        {"text": "Vì không có máy chụp ảnh", "isCorrect": false}
+      ],
+      "explanation": "Da là vật liệu sinh học không ổn định, nó có thể bị kéo căng hoặc co lại, làm thay đổi kích thước và hình dáng thực tế của vết răng."
+    },
+    {
+      "question": "Phân tích vết cắn thường xuất hiện trong các loại tội phạm nào?",
+      "options": [
+        {"text": "Trộm cắp tài sản công dân", "isCorrect": false},
+        {"text": "Bạo hành trẻ em, bạo lực gia đình và tấn công tình dục", "isCorrect": true},
+        {"text": "Buôn lậu hàng hóa", "isCorrect": false},
+        {"text": "Vi phạm luật giao thông đường bộ", "isCorrect": false}
+      ],
+      "explanation": "Vết cắn là dấu vết đặc trưng của sự giằng co, cưỡng bức hoặc hành vi bạo lực cơ thể trực tiếp."
+    },
+    {
+      "question": "Bước đầu tiên trong quy trình thu thập vật chứng vết cắn là gì?",
+      "options": [
+        {"text": "Lấy dấu thạch cao nghi phạm", "isCorrect": false},
+        {"text": "Chụp ảnh vật chứng có sử dụng thước đo tiêu chuẩn", "isCorrect": true},
+        {"text": "Nhổ răng nạn nhân", "isCorrect": false},
+        {"text": "Gửi hồ sơ cho tòa án", "isCorrect": false}
+      ],
+      "explanation": "Chụp ảnh là cách bảo tồn trạng thái nguyên gốc của vết thương trước khi nó bị biến đổi do lành thương hoặc phân hủy."
+    },
+    {
+      "question": "Thước đo tiêu chuẩn ABFO No.2 có vai trò gì trong chụp ảnh pháp y?",
+      "options": [
+        {"text": "Để che vết thương", "isCorrect": false},
+        {"text": "Đảm bảo tỉ lệ xích chính xác và hiệu chỉnh góc chụp vuông góc", "isCorrect": true},
+        {"text": "Làm cho ảnh sáng hơn", "isCorrect": false},
+        {"text": "Để ghi tên nạn nhân", "isCorrect": false}
+      ],
+      "explanation": "Thước ABFO No.2 có các vạch chia chính xác và vòng tròn hỗ trợ khử méo ảnh khi chụp không vuông góc."
+    },
+    {
+      "question": "Kỹ thuật 'Double swab' (Trang 16 Bài 1/Trang 10 Bài 4) được dùng để:",
+      "options": [
+        {"text": "Rửa sạch vết thương bằng nước muối", "isCorrect": false},
+        {"text": "Thu thập tối đa lượng nước bọt và tế bào biểu mô phục vụ xét nghiệm ADN", "isCorrect": true},
+        {"text": "Bôi thuốc tê cho nạn nhân", "isCorrect": false},
+        {"text": "Lấy dấu vết cắn bằng silicon", "isCorrect": false}
+      ],
+      "explanation": "Dùng một tăm bông ướt sau đó đến một tăm bông khô giúp thu gom hiệu quả các dấu vết sinh học li ti trên da."
+    },
+    {
+      "question": "Khoảng cách ICD (Inter-canine Distance) trong phân tích vết cắn có ý nghĩa gì?",
+      "options": [
+        {"text": "Xác định chiều rộng cung hàm của người cắn", "isCorrect": true},
+        {"text": "Xác định độ tuổi của nạn nhân", "isCorrect": false},
+        {"text": "Xác định giới tính dựa trên màu răng", "isCorrect": false},
+        {"text": "Đo độ sâu của vết rách", "isCorrect": false}
+      ],
+      "explanation": "ICD (khoảng cách giữa hai răng nanh) là một chỉ số nhân trắc học quan trọng giúp thu hẹp danh sách nghi phạm."
+    },
+    {
+      "question": "Trong phân tích vết cắn, 'vết bầm tím' (Contusion) cho biết điều gì?",
+      "options": [
+        {"text": "Nạn nhân bị thiếu máu", "isCorrect": false},
+        {"text": "Lực ép mạnh từ răng gây vỡ các mạch máu dưới da", "isCorrect": true},
+        {"text": "Dấu hiệu của vết cắn cũ đã lành", "isCorrect": false},
+        {"text": "Nhiễm trùng da", "isCorrect": false}
+      ],
+      "explanation": "Vết bầm phản ánh cường độ lực nén của cung hàm hung thủ tác động lên cơ thể nạn nhân."
+    },
+    {
+      "question": "Tại sao phải lấy mẫu nước bọt 'trước' khi thực hiện lấy dấu silicon vết cắn?",
+      "options": [
+        {"text": "Vì silicon làm hỏng ADN", "isCorrect": true},
+        {"text": "Để vết cắn khô ráo", "isCorrect": false},
+        {"text": "Để tiết kiệm thời gian", "isCorrect": false},
+        {"text": "Theo thói quen nha sĩ", "isCorrect": false}
+      ],
+      "explanation": "Quá trình lấy dấu có thể làm nhiễm bẩn hoặc lau mất các vết nước bọt mỏng manh chứa ADN của hung thủ."
+    },
+    {
+      "question": "Phương pháp phân tích vết cắn 'Trực tiếp' là gì?",
+      "options": [
+        {"text": "Dùng mắt nhìn", "isCorrect": false},
+        {"text": "Đặt trực tiếp mô hình hàm răng nghi phạm lên vết cắn hoặc ảnh chụp vết cắn", "isCorrect": true},
+        {"text": "Hỏi nghi phạm xem có cắn không", "isCorrect": false},
+        {"text": "Chụp X-quang toàn thân", "isCorrect": false}
+      ],
+      "explanation": "Đây là cách đối chiếu thô sơ nhất để tìm sự tương đồng về kích thước và hình dáng tổng quát."
+    },
+    {
+      "question": "Phương pháp 'Gián tiếp' trong phân tích vết cắn bao gồm kỹ thuật nào?",
+      "options": [
+        {"text": "Vẽ tay trên tấm acetat và kỹ thuật chồng lớp (Overlay)", "isCorrect": true},
+        {"text": "Nội soi dạ dày", "isCorrect": false},
+        {"text": "Châm cứu", "isCorrect": false},
+        {"text": "Thử nhóm máu", "isCorrect": false}
+      ],
+      "explanation": "Phương pháp gián tiếp sử dụng các vật trung gian hoặc công nghệ để so sánh dữ liệu từ răng và vết thương."
+    },
+    {
+      "question": "Năm 1996, Heidi Christensen đã đóng góp gì cho phân tích vết cắn?",
+      "options": [
+        {"text": "Phát minh ra thước đo ABFO", "isCorrect": false},
+        {"text": "Phát triển phương pháp tạo lớp phủ (Overlay) bằng Adobe Photoshop", "isCorrect": true},
+        {"text": "Tìm ra ADN trong tủy răng", "isCorrect": false},
+        {"text": "Xác định tuổi qua răng cửa", "isCorrect": false}
+      ],
+      "explanation": "Đây là bước ngoặt đưa phân tích vết cắn vào kỷ nguyên kỹ thuật số với độ chính xác cao hơn."
+    },
+    {
+      "question": "Tại sao phương pháp Overlay kỹ thuật số bằng máy tính được xem là 'Tiêu chuẩn vàng' (1998-2003)?",
+      "options": [
+        {"text": "Vì nó rẻ tiền nhất", "isCorrect": false},
+        {"text": "Vì nó loại bỏ được sai số do vẽ tay và cho kết quả đối chiếu khách quan", "isCorrect": true},
+        {"text": "Vì nó có thể chụp xuyên qua da", "isCorrect": false},
+        {"text": "Vì phần mềm tự động tìm ra hung thủ", "isCorrect": false}
+      ],
+      "explanation": "Máy tính giúp việc chồng các lớp ảnh mặt nhai răng lên vết thương đạt độ khít sát và trung thực cao nhất."
+    },
+    {
+      "question": "Nhược điểm lớn nhất của kỹ thuật lớp phủ (Overlay) thông thường là gì?",
+      "options": [
+        {"text": "Không thể thực hiện trên người sống", "isCorrect": false},
+        {"text": "Chỉ phân tích được trên bề mặt phẳng, không ghi lại được không gian 3 chiều", "isCorrect": true},
+        {"text": "Làm mất ADN", "isCorrect": false},
+        {"text": "Quá tốn kém điện năng", "isCorrect": false}
+      ],
+      "explanation": "Overlay truyền thống xử lý trên ảnh 2D, trong khi vết cắn thực tế nằm trên bề mặt cơ thể 3D cong và lồi lõm."
+    },
+    {
+      "question": "Kỹ thuật của Dailey (2002) trong phân tích vết cắn có đặc điểm gì đặc biệt?",
+      "options": [
+        {"text": "Sử dụng màu tương phản để chụp ảnh các lát cắt rìa cắn răng nghi phạm", "isCorrect": true},
+        {"text": "Dùng tia laser để quét da", "isCorrect": false},
+        {"text": "Lấy ADN từ nướu", "isCorrect": false},
+        {"text": "Không cần dùng mẫu hàm", "isCorrect": false}
+      ],
+      "explanation": "Dailey nhúng mẫu răng vào đá nha khoa màu tương phản để tạo ra các hình ảnh mô phỏng giống như lát cắt CT."
+    },
+    {
+      "question": "Tại sao kỹ thuật của Dailey ít được phổ biến rộng rãi?",
+      "options": [
+        {"text": "Vì nó không chính xác", "isCorrect": false},
+        {"text": "Vì quy trình này phá hủy mô hình răng gốc của nghi phạm và đòi hỏi kỹ năng cao", "isCorrect": true},
+        {"text": "Vì phần mềm quá đắt", "isCorrect": false},
+        {"text": "Vì nó làm nạn nhân đau", "isCorrect": false}
+      ],
+      "explanation": "Việc mài mòn mô hình răng để chụp ảnh lát cắt khiến bằng chứng vật chất gốc không còn nguyên vẹn, gây khó khăn cho tố tụng."
+    },
+    {
+      "question": "Vết cắn 'Petechial hemorrhage' (Xuất huyết điểm) tại vùng trung tâm thường do:",
+      "options": [
+        {"text": "Hung thủ sử dụng hung khí", "isCorrect": false},
+        {"text": "Áp lực âm khi mút (vết cắn tình dục hoặc bạo hành)", "isCorrect": true},
+        {"text": "Nạn nhân bị dị ứng da", "isCorrect": false},
+        {"text": "Vi khuẩn ăn mòn", "isCorrect": false}
+      ],
+      "explanation": "Hành động mút tạo ra lực hút chân không, làm vỡ các vi mạch máu dưới da tạo ra các đốm xuất huyết."
+    },
+    {
+      "question": "Việc lấy dấu vết cắn trên da nạn nhân bằng Silicon (Trang 16) yêu cầu điều gì?",
+      "options": [
+        {"text": "Sử dụng vật liệu Silicon có độ chảy cao để ghi lại chi tiết tinh vi", "isCorrect": true},
+        {"text": "Dùng thạch cao cứng đổ trực tiếp lên da", "isCorrect": false},
+        {"text": "Dùng đất sét nặn", "isCorrect": false},
+        {"text": "Dán băng keo lên vết cắn", "isCorrect": false}
+      ],
+      "explanation": "Vật liệu lấy dấu nha khoa cao cấp đảm bảo sao chép chính xác nhất các vết hằn của từng răng đơn lẻ."
+    },
+    {
+      "question": "Trong phân tích vết cắn, 'Individuality' (Tính cá thể) dựa trên yếu tố nào của răng?",
+      "options": [
+        {"text": "Sự xoay, lệch lạc, sứt mẻ và các đặc điểm phục hình của răng nghi phạm", "isCorrect": true},
+        {"text": "Độ trắng của răng", "isCorrect": false},
+        {"text": "Số lượng răng khôn", "isCorrect": false},
+        {"text": "Giá tiền của các miếng trám", "isCorrect": false}
+      ],
+      "explanation": "Sự độc bản của bộ răng ở mỗi người là cơ sở khoa học để xác định vết cắn thuộc về ai."
+    },
+    {
+      "question": "Khi nạn nhân bị cắn xuyên qua quần áo, nha sĩ pháp y cần lưu ý:",
+      "options": [
+        {"text": "Vứt bỏ quần áo", "isCorrect": false},
+        {"text": "Ghi nhận sự biến dạng của vết cắn do cấu trúc sợi vải cản trở", "isCorrect": true},
+        {"text": "Chỉ khám da, không quan tâm quần áo", "isCorrect": false},
+        {"text": "Giặt sạch quần áo để lấy ADN", "isCorrect": false}
+      ],
+      "explanation": "Vải có thể làm giảm độ chi tiết của vết răng hoặc tạo ra những biến dạng giả trên da."
+    },
+    {
+      "question": "Kỹ thuật 'Chụp ảnh tia cực tím' (UV photography) giúp ích gì?",
+      "options": [
+        {"text": "Tiêu diệt vi khuẩn tại vết cắn", "isCorrect": false},
+        {"text": "Phát hiện các vết bầm tím lặn sâu dưới da không thấy được bằng ánh sáng thường", "isCorrect": true},
+        {"text": "Làm cho răng nghi phạm phát quang", "isCorrect": false},
+        {"text": "Thay thế cho xét nghiệm ADN", "isCorrect": false}
+      ],
+      "explanation": "Tia UV bộc lộ các tổn thương mô sâu có tính chất phản xạ quang học khác biệt với mô lành."
+    },
+    {
+      "question": "Vết cắn 'tự gây ra' (Self-inflicted bite marks) thường gặp ở đối tượng nào?",
+      "options": [
+        {"text": "Cảnh sát hình sự", "isCorrect": false},
+        {"text": "Trẻ em có vấn đề tâm thần hoặc nạn nhân cố tình tạo bằng chứng giả", "isCorrect": true},
+        {"text": "Vận động viên thể thao", "isCorrect": false},
+        {"text": "Người cao tuổi", "isCorrect": false}
+      ],
+      "explanation": "Nha sĩ pháp y phải phân biệt được vết cắn từ người khác và vết cắn do chính nạn nhân thực hiện dựa trên vị trí và hướng cắn."
+    },
+    {
+      "question": "Tầm quan trọng của việc xác định 'Thời điểm gây ra vết cắn' (AM hay PM) là:",
+      "options": [
+        {"text": "Xác định xem nạn nhân bị cắn lúc còn sống hay sau khi đã chết", "isCorrect": true},
+        {"text": "Biết nạn nhân đã ăn gì trước khi chết", "isCorrect": false},
+        {"text": "Biết hung thủ thuận tay nào", "isCorrect": false},
+        {"text": "Xác định chủng tộc hung thủ", "isCorrect": false}
+      ],
+      "explanation": "Phản ứng viêm và sự tan máu tại vết thương cho biết nạn nhân có tuần hoàn máu lúc bị cắn hay không."
+    },
+    {
+      "question": "Hệ thống 'ABFO No. 2 scale' được đặt ở vị trí nào khi chụp ảnh vết cắn?",
+      "options": [
+        {"text": "Đè lên trên vết thương", "isCorrect": false},
+        {"text": "Nằm trên cùng một mặt phẳng với vết thương", "isCorrect": true},
+        {"text": "Nằm xa vết thương 1 mét", "isCorrect": false},
+        {"text": "Dưới lưng nạn nhân", "isCorrect": false}
+      ],
+      "explanation": "Việc đặt thước cùng mặt phẳng đảm bảo kích thước của thước và vết thương trên ảnh có cùng độ phóng đại."
+    },
+    {
+      "question": "Phân tích vết cắn mang tính chất 'Loại trừ' (Exclusion) có nghĩa là:",
+      "options": [
+        {"text": "Nếu răng nghi phạm không khớp với vết cắn, họ chắc chắn không phải hung thủ", "isCorrect": true},
+        {"text": "Nha sĩ bị đuổi khỏi tòa", "isCorrect": false},
+        {"text": "Xóa bỏ vết thương trên da", "isCorrect": false},
+        {"text": "Nghi phạm được thả tự do ngay lập tức", "isCorrect": false}
+      ],
+      "explanation": "Mâu thuẫn về hình thái răng là bằng chứng mạnh mẽ nhất để minh oan cho một người."
+    },
+    {
+      "question": "Hình ảnh cung hàm người cắn (Trang 17 bài 1) cho thấy số lượng răng cửa thường để lại dấu vết là bao nhiêu?",
+      "options": [
+        {"text": "2 răng", "isCorrect": false},
+        {"text": "4 răng trên và 4 răng dưới", "isCorrect": true},
+        {"text": "10 răng mỗi hàm", "isCorrect": false},
+        {"text": "Chỉ có răng nanh", "isCorrect": false}
+      ],
+      "explanation": "Trong hành động cắn thông thường, các răng cửa giữa và cửa bên là những răng tiếp xúc mạnh nhất lên da."
+    },
+    {
+      "question": "Kỹ thuật quét 3D (3D Surface scanning) có ưu thế gì so với Overlay 2D?",
+      "options": [
+        {"text": "Ghi nhận được độ sâu và độ cong của bề mặt vết cắn một cách trung thực", "isCorrect": true},
+        {"text": "Không cần dùng máy tính", "isCorrect": false},
+        {"text": "Làm biến mất các vết sẹo", "isCorrect": false},
+        {"text": "Có thể ngửi được mùi nước bọt", "isCorrect": false}
+      ],
+      "explanation": "Quét 3D mô phỏng lại toàn bộ địa hình của vết cắn, loại bỏ sai số do biến dạng 2D trên ảnh chụp."
+    },
+    {
+      "question": "Tại sao phải khám nghiệm 'Khớp cắn' của nghi phạm?",
+      "options": [
+        {"text": "Để nhổ răng sâu cho nghi phạm", "isCorrect": false},
+        {"text": "Xác định tương quan hai hàm (vẩu, móm, cắn hở) để đối chiếu với tổn thương trên da", "isCorrect": true},
+        {"text": "Để biết nghi phạm thích ăn gì", "isCorrect": false},
+        {"text": "Theo yêu cầu của nha sĩ pháp y", "isCorrect": false}
+      ],
+      "explanation": "Các sai lệch khớp cắn đặc thù sẽ để lại những 'dấu ấn' lệch lạc tương ứng trên vết cắn."
+    },
+    {
+      "question": "Vai trò của nha sĩ pháp y trong các vụ 'Bạo hành trẻ em' liên quan đến vết cắn là:",
+      "options": [
+        {"text": "Đánh giá khoảng cách hai răng nanh để phân biệt vết cắn của người lớn hay trẻ em khác", "isCorrect": true},
+        {"text": "Kê đơn thuốc giảm đau cho trẻ", "isCorrect": false},
+        {"text": "Trực tiếp bắt giữ cha mẹ trẻ", "isCorrect": false},
+        {"text": "Dạy trẻ cách đánh răng", "isCorrect": false}
+      ],
+      "explanation": "Xác định kích thước vết cắn giúp làm rõ ai là người đã gây ra thương tích cho đứa trẻ (người lớn hay bạn cùng lứa)."
+    },
+    {
+      "question": "Hiện tượng da bị 'biến dạng' (Distortion) sau khi bị cắn do yếu tố nào?",
+      "options": [
+        {"text": "Phản ứng sưng nề mô và sự thay đổi tư thế của nạn nhân", "isCorrect": true},
+        {"text": "Do dùng thuốc sát trùng", "isCorrect": false},
+        {"text": "Do răng quá trắng", "isCorrect": false},
+        {"text": "Do nhiệt độ phòng", "isCorrect": false}
+      ],
+      "explanation": "Phản ứng sinh học của cơ thể (sưng, bầm) làm thay đổi kích thước ban đầu của vết cắn."
+    },
+    {
+      "question": "Dấu vết cắn trên tử thi đang phân hủy (Trang 45 bài 2) cần được xử lý:",
+      "options": [
+        {"text": "Bỏ qua vì không còn giá trị", "isCorrect": false},
+        {"text": "Cố định vùng da bằng hóa chất hoặc chụp ảnh ngay trước khi da bị hoại tử thêm", "isCorrect": true},
+        {"text": "Rửa sạch bằng xà phòng", "isCorrect": false},
+        {"text": "Dán băng dính che lại", "isCorrect": false}
+      ],
+      "explanation": "Phân hủy làm mất các chi tiết bề mặt và làm biến dạng da nghiêm trọng."
+    },
+    {
+      "question": "Nha sĩ pháp y thực hiện 'đối chiếu trên sáp' nhằm mục đích:",
+      "options": [
+        {"text": "Làm nến", "isCorrect": false},
+        {"text": "Mô phỏng lại cơ chế cắn của nghi phạm và tạo ra một 'vết cắn chuẩn' trên vật liệu ổn định", "isCorrect": true},
+        {"text": "Để nạn nhân nhai", "isCorrect": false},
+        {"text": "Lấy vân tay", "isCorrect": false}
+      ],
+      "explanation": "Sáp ghi lại dấu ấn răng của nghi phạm ở nhiều góc độ và lực khác nhau để so khớp với vết thương."
+    },
+    {
+      "question": "Tại sao 'Adobe Photoshop' được dùng rộng rãi trong Pháp nha?",
+      "options": [
+        {"text": "Vì nó dễ dùng nhất", "isCorrect": false},
+        {"text": "Vì khả năng quản lý lớp (layers) cho phép so sánh độ trùng khớp kỹ thuật số giữa răng và vết cắn", "isCorrect": true},
+        {"text": "Để thay đổi màu da nạn nhân", "isCorrect": false},
+        {"text": "Để vẽ thêm răng cho nghi phạm", "isCorrect": false}
+      ],
+      "explanation": "Tính năng Layer giúp nha sĩ chồng hai hình ảnh lên nhau và điều chỉnh độ trong suốt để kiểm chứng sự tương đồng."
+    },
+    {
+      "question": "Vết cắn được coi là 'Vật chứng vật chất' có giá trị vì:",
+      "options": [
+        {"text": "Răng người mang tính duy nhất và không đổi theo thời gian ngắn", "isCorrect": true},
+        {"text": "Vết cắn luôn chảy máu", "isCorrect": false},
+        {"text": "Nó có màu tím", "isCorrect": false},
+        {"text": "Hung thủ không thể chối cãi", "isCorrect": false}
+      ],
+      "explanation": "Cũng giống như vân tay, cấu trúc răng là một đặc điểm nhận dạng sinh học cá nhân hóa."
+    },
+    {
+      "question": "Khi mô tả vết cắn, mục 'Vị trí giải phẫu' cần ghi nhận vì:",
+      "options": [
+        {"text": "Để biết nạn nhân đau ở đâu", "isCorrect": false},
+        {"text": "Sự co giãn của da thay đổi tùy theo vùng cơ thể (ví dụ da đùi khác da tay)", "isCorrect": true},
+        {"text": "Để chọn loại thuốc bôi", "isCorrect": false},
+        {"text": "Theo yêu cầu của gia đình", "isCorrect": false}
+      ],
+      "explanation": "Nha sĩ pháp y phải hiểu đặc tính cơ lý của da tại vùng bị cắn để giải thích các biến dạng."
+    },
+    {
+      "question": "Quy trình phân tích vết cắn của ABFO nhấn mạnh việc sử dụng:",
+      "options": [
+        {"text": "Ít nhất 2 giám định viên độc lập để đảm bảo khách quan", "isCorrect": true},
+        {"text": "Chỉ một nha sĩ duy nhất", "isCorrect": false},
+        {"text": "Lời kể của nhân chứng", "isCorrect": false},
+        {"text": "Mẫu răng của nạn nhân", "isCorrect": false}
+      ],
+      "explanation": "Phân tích vết cắn có tính chủ quan cao, nên cần sự xác nhận chéo giữa các chuyên gia."
+    },
+    {
+      "question": "Vết cắn 'Dragmarks' thường cho thấy hành vi gì của hung thủ?",
+      "options": [
+        {"text": "Hung thủ đang ngủ", "isCorrect": false},
+        {"text": "Hành vi cắn và kéo lê, thể hiện sự hung hãn hoặc giằng co mạnh", "isCorrect": true},
+        {"text": "Hung thủ đang nhai đồ ăn", "isCorrect": false},
+        {"text": "Hung thủ vô ý chạm răng vào nạn nhân", "isCorrect": false}
+      ],
+      "explanation": "Dragmarks là những đường rách/trầy xước kéo dài từ vị trí răng tiếp xúc ban đầu."
+    },
+    {
+      "question": "Ưu điểm của việc lấy ADN từ vết cắn so với nhận dạng hình thái là:",
+      "options": [
+        {"text": "ADN mang tính khẳng định tuyệt đối hơn trong khi hình thái da dễ biến dạng", "isCorrect": true},
+        {"text": "Lấy ADN nhanh hơn", "isCorrect": false},
+        {"text": "Lấy ADN không cần máy tính", "isCorrect": false},
+        {"text": "ADN không bị phân hủy", "isCorrect": false}
+      ],
+      "explanation": "ADN từ nước bọt hung thủ là bằng chứng khoa học không thể chối cãi, khắc phục được nhược điểm biến dạng của da."
+    },
+    {
+      "question": "Sự hiện diện của 'khe thưa răng' (Diastema) của nghi phạm giúp ích gì?",
+      "options": [
+        {"text": "Làm nghi phạm xấu xí", "isCorrect": false},
+        {"text": "Tạo ra một 'khoảng trống' đặc trưng trong vết cắn trên da", "isCorrect": true},
+        {"text": "Nghi phạm khó cắn hơn", "isCorrect": false},
+        {"text": "Không có ý nghĩa", "isCorrect": false}
+      ],
+      "explanation": "Các bất thường về vị trí răng là những dấu hiệu nhận diện đặc hiệu nhất trong phân tích vết cắn."
+    },
+    {
+      "question": "Tầm quan trọng của việc 'Lấy dấu sáp' tại hiện trường vết cắn (nếu có thể) là:",
+      "options": [
+        {"text": "Để làm nến", "isCorrect": false},
+        {"text": "Ghi lại hình dạng 3D của vết răng trước khi mô bị biến đổi", "isCorrect": true},
+        {"text": "Làm sạch vết thương", "isCorrect": false},
+        {"text": "Để chụp ảnh màu", "isCorrect": false}
+      ],
+      "explanation": "Sáp hoặc vật liệu lấy dấu nhanh giúp bảo tồn mô hình 3D của dấu vết ban đầu."
+    },
+    {
+      "question": "Kết quả 'Nhận dạng có khả năng' (Possible) trong báo cáo vết cắn nghĩa là:",
+      "options": [
+        {"text": "Chắc chắn 100% là hung thủ", "isCorrect": false},
+        {"text": "Có sự tương đồng nhưng không thể khẳng định chắc chắn do bằng chứng bị giới hạn", "isCorrect": true},
+        {"text": "Nghi phạm vô tội", "isCorrect": false},
+        {"text": "Vết cắn là của động vật", "isCorrect": false}
+      ],
+      "explanation": "Đây là kết luận thận trọng khi có sự trùng khớp một phần nhưng dữ liệu không đủ mạnh."
+    },
+    {
+      "question": "Nha sĩ pháp y cần dặn cơ quan điều tra giữ nguyên trạng 'vật phẩm bị cắn' (như táo) vì:",
+      "options": [
+        {"text": "Sợ kiến ăn", "isCorrect": false},
+        {"text": "Vật phẩm hữu cơ dễ bị khô héo và làm thay đổi kích thước dấu răng", "isCorrect": true},
+        {"text": "Để nha sĩ ăn", "isCorrect": false},
+        {"text": "Để chụp ảnh nụ cười", "isCorrect": false}
+      ],
+      "explanation": "Sự mất nước ở trái cây làm co rút bề mặt, gây sai số nghiêm trọng khi đo đạc ICD."
+    },
+    {
+      "question": "Phân tích vết cắn 'theo thời gian' giúp xác định:",
+      "options": [
+        {"text": "Hung thủ đã già đi", "isCorrect": false},
+        {"text": "Mức độ lành thương và thời điểm nạn nhân bị tấn công", "isCorrect": true},
+        {"text": "Khi nào thì răng rụng", "isCorrect": false},
+        {"text": "Khi nào vụ án kết thúc", "isCorrect": false}
+      ],
+      "explanation": "Sự thay đổi về màu sắc và cấu trúc mô tại vết cắn là chỉ số quan trọng về thời gian sinh học."
+    },
+    {
+      "question": "Lực cắn trung bình của một người trưởng thành có thể đạt mức nào?",
+      "options": [
+        {"text": "1 kg", "isCorrect": false},
+        {"text": "Rất lớn, đủ để gây rách mô và vỡ mao mạch dưới da", "isCorrect": true},
+        {"text": "Chỉ bằng lực mút", "isCorrect": false},
+        {"text": "Bằng lực nhổ răng", "isCorrect": false}
+      ],
+      "explanation": "Cơ hàm người là một trong những khối cơ mạnh nhất cơ thể, có khả năng gây ra các thương tích nghiêm trọng."
+    },
+    {
+      "question": "Trong báo cáo giám định, mục 'Mô tả hình thái' vết cắn cần ghi:",
+      "options": [
+        {"text": "Kích thước các răng, khoảng cách giữa các răng và đặc điểm rìa cắn", "isCorrect": true},
+        {"text": "Số lượng vi khuẩn", "isCorrect": false},
+        {"text": "Màu sắc quần áo hung thủ", "isCorrect": false},
+        {"text": "Sở thích của hung thủ", "isCorrect": false}
+      ],
+      "explanation": "Chi tiết hình thái là bằng chứng trực tiếp để đối chiếu với răng của nghi phạm."
+    },
+    {
+      "question": "Tại sao nha sĩ pháp y cần kiến thức về 'Sự tăng trưởng và phát triển răng miệng'?",
+      "options": [
+        {"text": "Để nhổ răng sữa", "isCorrect": false},
+        {"text": "Để xác định tuổi của người để lại vết cắn (người lớn hay trẻ em)", "isCorrect": true},
+        {"text": "Để làm răng giả cho hung thủ", "isCorrect": false},
+        {"text": "Để trám răng thẩm mỹ", "isCorrect": false}
+      ],
+      "explanation": "Số lượng và loại răng trong vết cắn giúp suy đoán giai đoạn phát triển của người gây ra dấu vết."
+    },
+    {
+      "question": "Việc sử dụng 'thuốc cản quang' (Trang 29) trong chụp X-quang vết cắn nhằm:",
+      "options": [
+        {"text": "Làm sạch vết thương", "isCorrect": false},
+        {"text": "Lấp đầy các vết lõm của răng trên da để hiện rõ độ sâu trên phim", "isCorrect": true},
+        {"text": "Làm trắng da", "isCorrect": false},
+        {"text": "Giảm sưng cho nạn nhân", "isCorrect": false}
+      ],
+      "explanation": "Thuốc cản quang giúp biến các dấu vết lún trên da thành hình ảnh cản quang rõ nét trên phim X-quang 2D."
+    },
+    {
+      "question": "Tại sao phải 'thanh trùng' các mẫu hàm nghi phạm sau khi lấy dấu?",
+      "options": [
+        {"text": "Để mẫu hàm đẹp hơn", "isCorrect": false},
+        {"text": "Đảm bảo an toàn sinh học và tránh lây nhiễm chéo trong quá trình phân tích", "isCorrect": true},
+        {"text": "Để nhựa cứng hơn", "isCorrect": false},
+        {"text": "Để ADN không bị mất", "isCorrect": false}
+      ],
+      "explanation": "Mẫu hàm từ miệng nghi phạm có thể chứa vi sinh vật gây bệnh, cần được xử lý an toàn."
+    },
+    {
+      "question": "Bất thường 'răng xoay' của nghi phạm để lại dấu vết gì trên da?",
+      "options": [
+        {"text": "Một vết hình chữ nhật hoàn hảo", "isCorrect": false},
+        {"text": "Một vết răng hẹp hoặc có góc cạnh bất thường so với cung hàm", "isCorrect": true},
+        {"text": "Không để lại vết gì", "isCorrect": false},
+        {"text": "Làm rách da nạn nhân diện rộng", "isCorrect": false}
+      ],
+      "explanation": "Vị trí tiếp xúc của một răng xoay khác biệt hoàn toàn với răng đứng thẳng, tạo ra manh mối nhận dạng quý giá."
+    },
+    {
+      "question": "Tầm quan trọng của việc ghi nhận 'hướng của vết cắn' là gì?",
+      "options": [
+        {"text": "Xác định tư thế tương đối giữa nạn nhân và hung thủ", "isCorrect": true},
+        {"text": "Xác định cân nặng hung thủ", "isCorrect": false},
+        {"text": "Biết hung thủ cao bao nhiêu", "isCorrect": false},
+        {"text": "Biết hung thủ có đeo kính không", "isCorrect": false}
+      ],
+      "explanation": "Vị trí hàm trên/hàm dưới trong vết cắn cho biết hung thủ đã tiếp cận nạn nhân từ phía nào."
+    },
+    {
+      "question": "Khi nạn nhân bị cắn vào vùng 'mô mềm lỏng lẻo' (như bụng), vết cắn thường:",
+      "options": [
+        {"text": "Rất sắc nét", "isCorrect": false},
+        {"text": "Bị biến dạng nặng do da dễ bị kéo căng khi cắn", "isCorrect": true},
+        {"text": "Giống hệt trên sáp", "isCorrect": false},
+        {"text": "Không bao giờ bầm tím", "isCorrect": false}
+      ],
+      "explanation": "Đặc tính của vùng da ảnh hưởng trực tiếp đến độ tin cậy của việc đối chiếu hình thái."
+    },
+    {
+      "question": "Phân tích vết cắn bằng 'phần mềm Photoshop' thực hiện chồng lớp ở độ trong suốt bao nhiêu là lý tưởng?",
+      "options": [
+        {"text": "0% (không thấy gì)", "isCorrect": false},
+        {"text": "50% (để thấy cả mẫu răng và vết cắn cùng lúc)", "isCorrect": true},
+        {"text": "100% (che hoàn toàn)", "isCorrect": false},
+        {"text": "10%", "isCorrect": false}
+      ],
+      "explanation": "Độ trong suốt vừa phải giúp nha sĩ quan sát sự trùng khớp của các rìa cắn lên vết thương bên dưới."
+    },
+    {
+      "question": "Nha sĩ pháp y cần chuẩn bị mẫu hàm nghi phạm bằng vật liệu gì để đối chiếu trực tiếp?",
+      "options": [
+        {"text": "Nhựa trong suốt (Clear acrylic)", "isCorrect": true},
+        {"text": "Thạch cao vàng", "isCorrect": false},
+        {"text": "Sáp mềm", "isCorrect": false},
+        {"text": "Kim loại đúc", "isCorrect": false}
+      ],
+      "explanation": "Mẫu hàm nhựa trong cho phép nhìn thấu qua răng để kiểm tra sự trùng khớp với ảnh vết cắn bên dưới."
+    },
+    {
+      "question": "Việc xác định 'Số lượng răng' tham gia vào vết cắn giúp:",
+      "options": [
+        {"text": "Biết hung thủ có bị mất răng hay không", "isCorrect": true},
+        {"text": "Tính tiền trám răng", "isCorrect": false},
+        {"text": "Biết hung thủ có ăn trầu không", "isCorrect": false},
+        {"text": "Không có ích", "isCorrect": false}
+      ],
+      "explanation": "Sự thiếu hụt một dấu răng trong cung hình chữ U là bằng chứng mạnh mẽ về tình trạng mất răng của hung thủ."
+    },
+    {
+      "question": "Vết cắn 'hình nhẫn' (Ring-shaped) thường do hành động nào?",
+      "options": [
+        {"text": "Cắn trực diện vuông góc", "isCorrect": true},
+        {"text": "Cắn và kéo lê", "isCorrect": false},
+        {"text": "Cắn lướt qua", "isCorrect": false},
+        {"text": "Cắn vào quần áo dày", "isCorrect": false}
+      ],
+      "explanation": "Hình dáng này phản ánh sự ép nén cân bằng của toàn bộ cung răng lên bề mặt da."
+    },
+    {
+      "question": "Tại sao phân tích vết cắn ngày nay thường bị nghi ngờ tại tòa án?",
+      "options": [
+        {"text": "Vì nha sĩ hay nói dối", "isCorrect": false},
+        {"text": "Vì thiếu các nghiên cứu thống kê về tính duy nhất của vết cắn trên da biến dạng", "isCorrect": true},
+        {"text": "Vì không có phần mềm máy tính", "isCorrect": false},
+        {"text": "Vì hung thủ hay nhổ răng sau khi gây án", "isCorrect": false}
+      ],
+      "explanation": "Tính co giãn của da làm cho việc khẳng định 'chỉ duy nhất người này' có thể gây ra vết cắn trở nên kém thuyết phục hơn ADN."
+    },
+    {
+      "question": "Nghiệp vụ 'Phục hồi vết cắn' từ ảnh chụp cũ yêu cầu:",
+      "options": [
+        {"text": "Sử dụng các thuật toán hiệu chỉnh phối cảnh và tỉ lệ xích", "isCorrect": true},
+        {"text": "Vẽ lại bằng bút chì", "isCorrect": false},
+        {"text": "Dùng kính lúp soi", "isCorrect": false},
+        {"text": "Không thực hiện được", "isCorrect": false}
+      ],
+      "explanation": "Công nghệ ảnh số giúp phục dựng các bằng chứng hình ảnh không đạt chuẩn ban đầu."
+    },
+    {
+      "question": "Dấu hiệu 'vết cắn đôi' (Double bite) xảy ra khi nào?",
+      "options": [
+        {"text": "Hung thủ cắn hai lần vào cùng một vị trí", "isCorrect": true},
+        {"text": "Hai hung thủ cùng cắn", "isCorrect": false},
+        {"text": "Nạn nhân cắn lại hung thủ", "isCorrect": false},
+        {"text": "Răng bị lung lay tạo bóng", "isCorrect": false}
+      ],
+      "explanation": "Vết cắn chồng chéo làm nhiễu loạn các đặc điểm nhận dạng và đòi hỏi phân tích tách lớp phức tạp."
+    },
+    {
+      "question": "Sự thay đổi 'tư thế' của nạn nhân lúc bị cắn ảnh hưởng gì đến vết thương?",
+      "options": [
+        {"text": "Làm vết cắn biến dạng khi nạn nhân trở về tư thế nghỉ", "isCorrect": true},
+        {"text": "Làm vết cắn biến mất", "isCorrect": false},
+        {"text": "Làm vết cắn sâu hơn", "isCorrect": false},
+        {"text": "Không ảnh hưởng", "isCorrect": false}
+      ],
+      "explanation": "Da bị kéo căng lúc cắn sẽ co lại lúc nghỉ, khiến hình dáng vết răng bị thay đổi so với mẫu răng hung thủ."
+    },
+    {
+      "question": "Nha sĩ pháp y thực hiện 'đo độ rộng của các răng cửa' trên da nhằm:",
+      "options": [
+        {"text": "Biết hung thủ có răng to hay nhỏ", "isCorrect": true},
+        {"text": "Biết hung thủ có hay đánh răng không", "isCorrect": false},
+        {"text": "Xác định giới tính qua màu sắc", "isCorrect": false},
+        {"text": "Đo độ mòn của nướu", "isCorrect": false}
+      ],
+      "explanation": "Kích thước chiều ngang của các răng cửa là biến số định lượng quan trọng trong đối chiếu."
+    },
+    {
+      "question": "Tại sao phải ghi nhận 'độ sâu' của vết răng trong mẫu silicon?",
+      "options": [
+        {"text": "Để biết lực cắn của hung thủ", "isCorrect": true},
+        {"text": "Để tính tiền thạch cao", "isCorrect": false},
+        {"text": "Để làm sạch vết thương", "isCorrect": false},
+        {"text": "Để biết hung thủ có bị đau răng không", "isCorrect": false}
+      ],
+      "explanation": "Độ sâu cung cấp thông tin về sự lồi lõm của rìa cắn, giúp tái hiện chính xác tư thế răng."
+    },
+    {
+      "question": "Trong trường hợp bạo hành, vết cắn 'mờ nhạt' thường do:",
+      "options": [
+        {"text": "Hung thủ cắn nhẹ hoặc cắn qua lớp quần áo dày", "isCorrect": true},
+        {"text": "Hung thủ không có răng", "isCorrect": false},
+        {"text": "Da nạn nhân quá cứng", "isCorrect": false},
+        {"text": "Ảnh chụp bị nhòe", "isCorrect": false}
+      ],
+      "explanation": "Lực cắn yếu hoặc vật cản làm giảm khả năng ghi dấu ấn của răng lên da."
+    },
+    {
+      "question": "Việc 'đối chiếu âm bản/dương bản' trong phân tích vết cắn giúp:",
+      "options": [
+        {"text": "Quan sát sự trùng khớp giữa các đỉnh răng và các hố lõm trên da", "isCorrect": true},
+        {"text": "Làm ảnh đẹp hơn", "isCorrect": false},
+        {"text": "Tiết kiệm mực in", "isCorrect": false},
+        {"text": "Thay đổi ngày giờ", "isCorrect": false}
+      ],
+      "explanation": "Sử dụng ảnh âm bản giúp làm nổi bật các chi tiết hình thái nhỏ nhất của vết răng."
+    },
+    {
+      "question": "Tại sao nha sĩ pháp y cần thu thập 'thói quen ăn uống' của nghi phạm?",
+      "options": [
+        {"text": "Để biết nghi phạm thích ăn gì", "isCorrect": false},
+        {"text": "Xác định các vết mòn răng đặc thù do thói quen (như cắn hạt dưa, nhai đồ cứng)", "isCorrect": true},
+        {"text": "Để tính tiền thuốc", "isCorrect": false},
+        {"text": "Không cần thiết", "isCorrect": false}
+      ],
+      "explanation": "Thói quen để lại những vết mẻ, mòn đặc trưng trên rìa cắn, hỗ trợ cực tốt cho nhận dạng vết cắn."
+    },
+    {
+      "question": "Thông điệp chính của bài 4 'Phân tích vết cắn' là gì?",
+      "options": [
+        {"text": "Vết cắn là bằng chứng quan trọng nhưng cần được phân tích thận trọng bằng công nghệ hiện đại", "isCorrect": true},
+        {"text": "Chỉ cần chụp ảnh là tìm được hung thủ", "isCorrect": false},
+        {"text": "Vết cắn trên da luôn chính xác 100%", "isCorrect": false},
+        {"text": "Nha sĩ không nên tham gia phá án", "isCorrect": false}
+      ],
+      "explanation": "Bài học nhấn mạnh sự phức tạp của vật chứng vết cắn và vai trò của các kỹ thuật phân tích tiên tiến."
+    },
+    {
+      "question": "Khi nghi phạm có 'răng khểnh' hoặc 'răng mọc lệch', vết cắn sẽ có đặc điểm:",
+      "options": [
+        {"text": "Bị rách da tại vị trí răng nhô ra ngoài", "isCorrect": true},
+        {"text": "Vết cắn sẽ hình vuông", "isCorrect": false},
+        {"text": "Không để lại vết bầm", "isCorrect": false},
+        {"text": "Vết cắn sẽ mờ đi", "isCorrect": false}
+      ],
+      "explanation": "Răng lệch lạc tạo ra các điểm tập trung lực bất thường, gây tổn thương da đặc thù."
+    },
+    {
+      "question": "Sự phối hợp giữa nha sĩ pháp y và chuyên gia ADN trong phân tích vết cắn giúp:",
+      "options": [
+        {"text": "Tăng độ tin cậy của bằng chứng lên mức tối đa", "isCorrect": true},
+        {"text": "Nhổ răng nghi phạm nhanh hơn", "isCorrect": false},
+        {"text": "Giảm bớt thủ tục hành chính", "isCorrect": false},
+        {"text": "Làm sạch hiện trường", "isCorrect": false}
+      ],
+      "explanation": "Kết hợp bằng chứng hình thái (vết cắn) và bằng chứng sinh học (ADN) tạo nên bộ chứng cứ thép."
+    },
+    {
+      "question": "Thời gian tồn tại của vết cắn trên người sống phụ thuộc vào:",
+      "options": [
+        {"text": "Mức độ nghiêm trọng của tổn thương và khả năng lành thương của cơ thể", "isCorrect": true},
+        {"text": "Nhóm máu của nạn nhân", "isCorrect": false},
+        {"text": "Thời tiết", "isCorrect": false},
+        {"text": "Màu răng hung thủ", "isCorrect": false}
+      ],
+      "explanation": "Vết bầm nhẹ có thể tan sau vài ngày, nhưng vết rách sâu sẽ để lại sẹo lâu dài."
+    },
+    {
+      "question": "Trong hình vẽ về 'Dragmarks' (Trang 17 bài 1), dấu vết này cho biết:",
+      "options": [
+        {"text": "Hung thủ đã kéo lê nạn nhân khi đang cắn chặt hàm", "isCorrect": true},
+        {"text": "Nạn nhân tự làm đau mình", "isCorrect": false},
+        {"text": "Hung thủ không có răng nanh", "isCorrect": false},
+        {"text": "Vết thương bị nhiễm trùng", "isCorrect": false}
+      ],
+      "explanation": "Sự kéo lê tạo ra các dải tổn thương song song trên bề mặt da."
+    },
+    {
+      "question": "Phân tích vết cắn 'trên thực phẩm' (Trang 17 bài 1) so với trên da có ưu điểm gì?",
+      "options": [
+        {"text": "Thực phẩm (như phô mai) ít bị biến dạng đàn hồi hơn da người", "isCorrect": true},
+        {"text": "Thực phẩm chứa nhiều ADN hơn", "isCorrect": false},
+        {"text": "Thực phẩm không bao giờ hỏng", "isCorrect": false},
+        {"text": "Dễ chụp ảnh hơn", "isCorrect": false}
+      ],
+      "explanation": "Một số loại thực phẩm giữ khuôn răng rất tốt, cung cấp dữ liệu hình thái ổn định hơn da."
+    },
+    {
+      "question": "Kỹ thuật '3D Reconstruction' vết cắn giúp quan tòa:",
+      "options": [
+        {"text": "Hình dung trực quan cách hung thủ đã cắn nạn nhân như thế nào", "isCorrect": true},
+        {"text": "Biết hung thủ thích ăn gì", "isCorrect": false},
+        {"text": "Xóa tội cho hung thủ", "isCorrect": false},
+        {"text": "Thấy được nụ cười của nạn nhân", "isCorrect": false}
+      ],
+      "explanation": "Mô phỏng 3D là công cụ thuyết phục mạnh mẽ trong việc tái hiện hành vi phạm tội tại tòa."
+    },
+    {
+      "question": "Kết quả cuối cùng của việc giám định vết cắn giúp:",
+      "options": [
+        {"text": "Góp phần xác định hoặc loại trừ nghi phạm trong các vụ án hình sự", "isCorrect": true},
+        {"text": "Làm răng nạn nhân đẹp lại", "isCorrect": false},
+        {"text": "Nghi phạm được đi du lịch", "isCorrect": false},
+        {"text": "Tăng lương cho nha sĩ", "isCorrect": false}
+      ],
+      "explanation": "Mục tiêu tối thượng là phục vụ công lý thông qua các bằng chứng khoa học chính xác."
+    }
+  ]

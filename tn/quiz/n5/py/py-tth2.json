@@ -1,0 +1,1262 @@
+[
+    {
+      "question": "Theo tài liệu, Tử thi học là môn học nghiên cứu về vấn đề gì?",
+      "options": [
+        {"text": "Nghiên cứu về các loại bệnh lý gây tử vong", "isCorrect": false},
+        {"text": "Nghiên cứu các vấn đề liên quan đến sự chết", "isCorrect": true},
+        {"text": "Nghiên cứu về kỹ thuật mổ tử thi hiện đại", "isCorrect": false},
+        {"text": "Nghiên cứu về tâm lý học của người sắp tử vong", "isCorrect": false}
+      ],
+      "explanation": "Đại cương nêu rõ: Tử thi học là môn học nghiên cứu các vấn đề liên quan đến sự chết."
+    },
+    {
+      "question": "Chết được định nghĩa là hiện tượng ngừng hoạt động không hồi phục của những chức năng nào?",
+      "options": [
+        {"text": "Thần kinh và Hô hấp", "isCorrect": false},
+        {"text": "Hô hấp và Tuần hoàn", "isCorrect": false},
+        {"text": "Thần kinh, Hô hấp và Tuần hoàn", "isCorrect": true},
+        {"text": "Thần kinh, Tiêu hóa và Tuần hoàn", "isCorrect": false}
+      ],
+      "explanation": "Chết là hiện tượng ngừng hoạt động không hồi phục các chức năng thần kinh, hô hấp, tuần hoàn."
+    },
+    {
+      "question": "Theo định nghĩa, sự hủy hoại tổ chức cơ thể xảy ra khi nào?",
+      "options": [
+        {"text": "Ngay khi bắt đầu hôn mê sâu", "isCorrect": false},
+        {"text": "Khi nhiệt độ cơ thể giảm xuống dưới 20 độ C", "isCorrect": false},
+        {"text": "Sau khi các chức năng sinh tồn ngừng hoạt động và không còn được nuôi dưỡng", "isCorrect": true},
+        {"text": "Khi vi khuẩn từ môi trường xâm nhập vào máu", "isCorrect": false}
+      ],
+      "explanation": "Sự hủy hoại tổ chức cơ thể xảy ra sau khi các chức năng ngừng hoạt động do không còn được nuôi dưỡng."
+    },
+    {
+      "question": "Tiêu chuẩn lâm sàng để xác định chết não về trạng thái tri giác là gì?",
+      "options": [
+        {"text": "Hôn mê mức độ 2", "isCorrect": false},
+        {"text": "Hôn mê sâu với thang điểm Glasgow bằng 3 điểm", "isCorrect": true},
+        {"text": "Mất trí nhớ ngắn hạn", "isCorrect": false},
+        {"text": "Hôn mê nhưng còn phản xạ đau", "isCorrect": false}
+      ],
+      "explanation": "Tiêu chuẩn lâm sàng đầu tiên để xác định chết não là hôn mê sâu (Glasgow 3 điểm)."
+    },
+    {
+      "question": "Đường kính đồng tử bao nhiêu mm được coi là tiêu chuẩn xác định chết não?",
+      "options": [
+        {"text": "Giãn trên 2 mm", "isCorrect": false},
+        {"text": "Giãn trên 3 mm", "isCorrect": false},
+        {"text": "Giãn trên 4 mm", "isCorrect": true},
+        {"text": "Giãn trên 5 mm", "isCorrect": false}
+      ],
+      "explanation": "Đồng tử cố định với đường kính hai bên giãn trên 4 mm là tiêu chuẩn chết não."
+    },
+    {
+      "question": "Phản xạ nào sau đây bị mất khi xác định chết não lâm sàng?",
+      "options": [
+        {"text": "Phản xạ gân xương", "isCorrect": false},
+        {"text": "Phản xạ giác mạc", "isCorrect": true},
+        {"text": "Phản xạ gân gót", "isCorrect": false},
+        {"text": "Phản xạ cầm nắm", "isCorrect": false}
+      ],
+      "explanation": "Mất phản xạ giác mạc là một trong các tiêu chuẩn lâm sàng xác định chết não."
+    },
+    {
+      "question": "Trong tiêu chuẩn chết não, mắt không quay khi thực hiện nghiệm pháp nào?",
+      "options": [
+        {"text": "Chiếu đèn pin cường độ cao", "isCorrect": false},
+        {"text": "Bơm 50ml nước lạnh vào tai", "isCorrect": true},
+        {"text": "Xoay đầu nạn nhân đột ngột", "isCorrect": false},
+        {"text": "Nhỏ nước muối sinh lý vào mắt", "isCorrect": false}
+      ],
+      "explanation": "Tiêu chuẩn chết não bao gồm dấu hiệu mắt không quay khi bơm 50ml nước lạnh vào tai."
+    },
+    {
+      "question": "Phản xạ ho bị mất khi kích thích vào bộ phận nào trong chẩn đoán chết não?",
+      "options": [
+        {"text": "Niêm mạc mũi", "isCorrect": false},
+        {"text": "Hầu họng", "isCorrect": false},
+        {"text": "Phế quản", "isCorrect": true},
+        {"text": "Thực quản", "isCorrect": false}
+      ],
+      "explanation": "Mất phản xạ ho khi kích thích phế quản là một tiêu chuẩn lâm sàng chết não."
+    },
+    {
+      "question": "Tiêu chuẩn lâm sàng cuối cùng để xác định chết não liên quan đến hô hấp là gì?",
+      "options": [
+        {"text": "Nhịp thở chậm dưới 5 lần/phút", "isCorrect": false},
+        {"text": "Mất khả năng tự thở khi bỏ máy thở", "isCorrect": true},
+        {"text": "Phổi bị xẹp hoàn toàn", "isCorrect": false},
+        {"text": "Tím tái môi và đầu chi", "isCorrect": false}
+      ],
+      "explanation": "Mất khả năng tự thở khi bỏ máy thở là tiêu chuẩn quan trọng để xác định chết não."
+    },
+    {
+      "question": "Tiêu chuẩn cận lâm sàng nào xác định chết não dựa trên hoạt động điện?",
+      "options": [
+        {"text": "Ghi điện tâm đồ", "isCorrect": false},
+        {"text": "Ghi điện não", "isCorrect": true},
+        {"text": "Ghi điện cơ", "isCorrect": false},
+        {"text": "Ghi đa ký giấc ngủ", "isCorrect": false}
+      ],
+      "explanation": "Ghi điện não là phương pháp cận lâm sàng hàng đầu để xác định chết não."
+    },
+    {
+      "question": "Phương pháp cận lâm sàng nào sau đây KHÔNG dùng để xác định chết não?",
+      "options": [
+        {"text": "Chụp cắt lớp vi tính xuyên não", "isCorrect": false},
+        {"text": "Chụp siêu âm Doppler xuyên sọ", "isCorrect": false},
+        {"text": "Chụp X-quang phổi thẳng", "isCorrect": true},
+        {"text": "Chụp X-quang động mạch não", "isCorrect": false}
+      ],
+      "explanation": "X-quang phổi không dùng để xác định chết não. Các phương pháp chụp não và mạch máu não mới là tiêu chuẩn."
+    },
+    {
+      "question": "Nghiệm pháp Icard và nghiệm pháp éther thuộc nhóm xác minh sự chết nào?",
+      "options": [
+        {"text": "Phương pháp đơn giản", "isCorrect": false},
+        {"text": "Kiểm tra hệ thần kinh", "isCorrect": false},
+        {"text": "Các phương pháp khác (Kiểm tra tuần hoàn)", "isCorrect": true},
+        {"text": "Phương pháp siêu sinh", "isCorrect": false}
+      ],
+      "explanation": "Nghiệm pháp éther và Icard thuộc nhóm 'Các phương pháp khác' để xác minh sự chết."
+    },
+    {
+      "question": "Đâu là định nghĩa đúng về chết não theo tài liệu?",
+      "options": [
+        {"text": "Là tình trạng hôn mê sâu có thể hồi phục sau 24 giờ", "isCorrect": false},
+        {"text": "Là tình trạng toàn não bộ bị tổn thương nặng, chức năng ngừng hoạt động và không thể sống lại được", "isCorrect": true},
+        {"text": "Là tình trạng tim ngừng đập nhưng não vẫn còn sóng", "isCorrect": false},
+        {"text": "Là tình trạng liệt toàn thân nhưng vẫn còn tri giác", "isCorrect": false}
+      ],
+      "explanation": "Chết não là tổn thương toàn bộ não nặng, không thể hồi sinh."
+    },
+    {
+      "question": "Dấu hiệu sau chết sớm bao gồm những hiện tượng nào?",
+      "options": [
+        {"text": "Nguội lạnh, Mảng lục, Cứng xác", "isCorrect": false},
+        {"text": "Nguội lạnh, Giảm trọng lượng, Hoen tử thi, Cứng xác", "isCorrect": true},
+        {"text": "Giảm trọng lượng, Hoen tử thi, Hư thối", "isCorrect": false},
+        {"text": "Cứng xác, Mảng lục, Hư thối", "isCorrect": false}
+      ],
+      "explanation": "Tài liệu chia 4 dấu hiệu sớm: Nguội lạnh, Giảm trọng lượng, Hoen tử thi, Cứng xác."
+    },
+    {
+      "question": "Tại sao cơ thể bị nguội lạnh sau khi chết?",
+      "options": [
+        {"text": "Do vi khuẩn yếm khí hút nhiệt", "isCorrect": false},
+        {"text": "Do môi trường xung quanh quá lạnh", "isCorrect": false},
+        {"text": "Do các cơ quan ngừng hoạt động và không tạo ra năng lượng", "isCorrect": true},
+        {"text": "Do máu ngừng lưu thông nên nhiệt độ giảm", "isCorrect": false}
+      ],
+      "explanation": "Khi chết các cơ quan ngừng hoạt động và không tạo ra năng lượng nữa."
+    },
+    {
+      "question": "Vào mùa hè, nhiệt độ tử thi giảm trung bình bao nhiêu?",
+      "options": [
+        {"text": "0,2 - 0,5 độ C/giờ", "isCorrect": false},
+        {"text": "0,5 - 1 độ C/giờ", "isCorrect": true},
+        {"text": "1 - 1,5 độ C/giờ", "isCorrect": false},
+        {"text": "2 độ C/giờ", "isCorrect": false}
+      ],
+      "explanation": "Mùa hè nhiệt độ giảm 0,5 - 1 độ C/giờ."
+    },
+    {
+      "question": "Vào mùa đông, nhiệt độ tử thi giảm trung bình bao nhiêu?",
+      "options": [
+        {"text": "0,5 - 1 độ C/giờ", "isCorrect": false},
+        {"text": "1 - 1,5 độ C/giờ", "isCorrect": true},
+        {"text": "1,5 - 2 độ C/giờ", "isCorrect": false},
+        {"text": "3 độ C/giờ", "isCorrect": false}
+      ],
+      "explanation": "Mùa đông nhiệt độ giảm nhanh hơn, từ 1 - 1,5 độ C/giờ."
+    },
+    {
+      "question": "Nhiệt độ tử thi giảm dần theo hướng nào?",
+      "options": [
+        {"text": "Từ vùng trung tâm ra ngoại vi", "isCorrect": false},
+        {"text": "Từ vùng ngoại vi đến vùng trung tâm", "isCorrect": true},
+        {"text": "Giảm đồng đều toàn bộ cơ thể", "isCorrect": false},
+        {"text": "Giảm ở phần đầu trước, phần chân sau", "isCorrect": false}
+      ],
+      "explanation": "Nhiệt độ của tử thi giảm từ vùng ngoại vi đến vùng trung tâm."
+    },
+    {
+      "question": "Công thức tính thời gian chết dựa trên nhiệt độ (To) là gì?",
+      "options": [
+        {"text": "(37 - To) / 0.5", "isCorrect": false},
+        {"text": "(37 - To) / 1.5", "isCorrect": true},
+        {"text": "(To - 37) / 1.5", "isCorrect": false},
+        {"text": "37 / (To * 1.5)", "isCorrect": false}
+      ],
+      "explanation": "Thời gian chết = (37 độ C - To) / 1.5 độ C."
+    },
+    {
+      "question": "Sự giảm trọng lượng tử thi chủ yếu qua quá trình nào?",
+      "options": [
+        {"text": "Rò rỉ dịch nội tạng", "isCorrect": false},
+        {"text": "Bốc hơi ở bề mặt da", "isCorrect": true},
+        {"text": "Vi khuẩn tiêu hóa mô", "isCorrect": false},
+        {"text": "Sự tiêu hủy xương", "isCorrect": false}
+      ],
+      "explanation": "Sự mất nước diễn ra dần qua bốc hơi ở bề mặt da làm trọng lượng giảm đi."
+    },
+    {
+      "question": "Trung bình một ngày tử thi giảm bao nhiêu trọng lượng?",
+      "options": [
+        {"text": "0,5 kg", "isCorrect": false},
+        {"text": "1 kg", "isCorrect": true},
+        {"text": "1,5 kg", "isCorrect": false},
+        {"text": "2 kg", "isCorrect": false}
+      ],
+      "explanation": "Trung bình trọng lượng giảm 1kg mỗi ngày."
+    },
+    {
+      "question": "Hiện tượng 'da bìa' xuất hiện trong trường hợp nào?",
+      "options": [
+        {"text": "Khi xác chết bị cháy nắng", "isCorrect": false},
+        {"text": "Tổn thương xây xát da xảy ra khi còn sống", "isCorrect": true},
+        {"text": "Xác chết ngâm nước quá lâu", "isCorrect": false},
+        {"text": "Xác chết bị chôn dưới đất cát", "isCorrect": false}
+      ],
+      "explanation": "Tổn thương xây xát da xảy ra khi còn sống sẽ có hiện tượng da bìa (vùng đó khô, chặt lại)."
+    },
+    {
+      "question": "Hoen tử thi được hình thành do cơ chế nào?",
+      "options": [
+        {"text": "Do vi khuẩn sinh khí đẩy máu ra da", "isCorrect": false},
+        {"text": "Do máu không đông đọng lại ở những vùng thấp theo trọng lực", "isCorrect": true},
+        {"text": "Do các mạch máu bị vỡ hàng loạt", "isCorrect": false},
+        {"text": "Do sự tiêu hủy hồng cầu từ bên trong", "isCorrect": false}
+      ],
+      "explanation": "Sau chết máu không đông và đọng lại ở những vùng thấp của tử thi tạo thành mảng sắc tố (hoen)."
+    },
+    {
+      "question": "Vùng nào sau đây sẽ KHÔNG xuất hiện hoen tử thi?",
+      "options": [
+        {"text": "Vùng lưng khi nằm ngửa", "isCorrect": false},
+        {"text": "Vùng bụng khi nằm sấp", "isCorrect": false},
+        {"text": "Những nơi bị tỳ, đè, ép", "isCorrect": true},
+        {"text": "Bắp chân khi đứng treo cổ", "isCorrect": false}
+      ],
+      "explanation": "Những nơi bị tỳ, đè, ép thì máu không thể đọng lại được nên không có hoen."
+    },
+    {
+      "question": "Màu sắc của hoen tử thi diễn tiến như thế nào?",
+      "options": [
+        {"text": "Xanh -> Đen -> Tím", "isCorrect": false},
+        {"text": "Hồng -> Tím nhạt -> Tím sẫm", "isCorrect": true},
+        {"text": "Đỏ tươi -> Xám -> Đen", "isCorrect": false},
+        {"text": "Tím -> Lục -> Nâu", "isCorrect": false}
+      ],
+      "explanation": "Lúc đầu là điểm màu hồng, sau tạo mảng màu tím nhạt rồi tím sẫm."
+    },
+    {
+      "question": "Hoen tử thi giai đoạn 1 diễn ra trong khoảng bao lâu sau chết?",
+      "options": [
+        {"text": "Dưới 2 giờ", "isCorrect": false},
+        {"text": "Từ 2 đến 10 giờ", "isCorrect": true},
+        {"text": "Từ 10 đến 24 giờ", "isCorrect": false},
+        {"text": "Trên 24 giờ", "isCorrect": false}
+      ],
+      "explanation": "Giai đoạn 1: 2-10h, được gọi là giai đoạn dồn máu (hoen không cố định)."
+    },
+    {
+      "question": "Đặc điểm của hoen tử thi giai đoạn 1 (2-10h) là gì?",
+      "options": [
+        {"text": "Hoen bán cố định, nhạt màu chứ không mất đi", "isCorrect": false},
+        {"text": "Hoen không cố định, không có ranh giới rõ ràng", "isCorrect": true},
+        {"text": "Hoen cố định, ranh giới rõ ràng", "isCorrect": false},
+        {"text": "Màu tím sẫm không thay đổi khi lật xác", "isCorrect": false}
+      ],
+      "explanation": "Gd1: hoen không cố định, không có ranh giới rõ ràng."
+    },
+    {
+      "question": "Hoen tử thi giai đoạn 2 (10-24h) được gọi là gì?",
+      "options": [
+        {"text": "Dồn máu", "isCorrect": false},
+        {"text": "Thấm máu", "isCorrect": false},
+        {"text": "Hoen bán cố định", "isCorrect": true},
+        {"text": "Hoen cố định", "isCorrect": false}
+      ],
+      "explanation": "Gd 2: 10-24h là hoen bán cố định."
+    },
+    {
+      "question": "Khi ấn tay vào hoen tử thi giai đoạn 2 (10-24h), hiện tượng gì xảy ra?",
+      "options": [
+        {"text": "Hoen mất đi hoàn toàn", "isCorrect": false},
+        {"text": "Hoen nhạt màu chứ không mất đi", "isCorrect": true},
+        {"text": "Hoen không thay đổi màu sắc", "isCorrect": false},
+        {"text": "Hoen chuyển sang màu đỏ tươi", "isCorrect": false}
+      ],
+      "explanation": "Đặc điểm giai đoạn 2 là hoen bán cố định, nhạt màu chứ không mất đi khi ấn."
+    },
+    {
+      "question": "Hoen tử thi giai đoạn 3 (thấm máu) xuất hiện khi nào?",
+      "options": [
+        {"text": "Sau 2 giờ", "isCorrect": false},
+        {"text": "Sau 10 giờ", "isCorrect": false},
+        {"text": "Trên 24 giờ", "isCorrect": true},
+        {"text": "Sau 36 giờ", "isCorrect": false}
+      ],
+      "explanation": "Gd3: Trên 24h là giai đoạn thấm máu."
+    },
+    {
+      "question": "Giai đoạn hoen cố định (trên 24h) có đặc điểm màu sắc và ranh giới như thế nào?",
+      "options": [
+        {"text": "Màu hồng nhạt, ranh giới mờ", "isCorrect": false},
+        {"text": "Đậm màu, tím sẫm, có ranh giới rõ ràng", "isCorrect": true},
+        {"text": "Vàng lục, ranh giới lan tỏa", "isCorrect": false},
+        {"text": "Đỏ tươi, ranh giới sắc nét", "isCorrect": false}
+      ],
+      "explanation": "Gd3: hoen cố định, đậm màu, tím sẫm, có ranh giới rõ ràng."
+    },
+    {
+      "question": "Ý nghĩa quan trọng của hoen tử thi là giúp xác định điều gì?",
+      "options": [
+        {"text": "Thời gian ăn bữa cuối", "isCorrect": false},
+        {"text": "Ước lượng thời gian chết và phản ánh tư thế khi chết", "isCorrect": true},
+        {"text": "Danh tính của nạn nhân qua vân da", "isCorrect": false},
+        {"text": "Xác định nguyên nhân gây bệnh lý não", "isCorrect": false}
+      ],
+      "explanation": "Hoen giúp ước lượng thời gian chết và phản ánh tư thế, dấu hiệu lật xác."
+    },
+    {
+      "question": "Cứng xác (Rigor mortis) xuất hiện sớm nhất sau chết bao lâu?",
+      "options": [
+        {"text": "Dưới 1 giờ", "isCorrect": false},
+        {"text": "Từ 1 - 2 giờ", "isCorrect": true},
+        {"text": "Từ 2 - 6 giờ", "isCorrect": false},
+        {"text": "Sau 12 giờ", "isCorrect": false}
+      ],
+      "explanation": "Cứng xác bắt đầu từ 1-2 giờ sau chết."
+    },
+    {
+      "question": "Cứng xác bắt đầu xuất hiện sớm nhất tại bộ phận nào?",
+      "options": [
+        {"text": "Bàn tay", "isCorrect": false},
+        {"text": "Cơ đùi", "isCorrect": false},
+        {"text": "Phần đầu", "isCorrect": true},
+        {"text": "Cơ bụng", "isCorrect": false}
+      ],
+      "explanation": "Từ 1-2 giờ sau chết sẽ cứng phần đầu đầu tiên."
+    },
+    {
+      "question": "Hiện tượng 'phá cứng' mà xác cứng trở lại xảy ra trong khoảng thời gian nào?",
+      "options": [
+        {"text": "1 - 2 giờ", "isCorrect": false},
+        {"text": "2 - 6 giờ", "isCorrect": true},
+        {"text": "6 - 12 giờ", "isCorrect": false},
+        {"text": "Sau 24 giờ", "isCorrect": false}
+      ],
+      "explanation": "Từ 2-6 giờ, nếu phá cứng thì xác sẽ cứng trở lại."
+    },
+    {
+      "question": "Điều gì xảy ra nếu thực hiện 'phá cứng' trong khoảng 6 - 36 giờ sau chết?",
+      "options": [
+        {"text": "Xác cứng lại nhanh hơn", "isCorrect": false},
+        {"text": "Xác sẽ mất cứng luôn", "isCorrect": true},
+        {"text": "Xác bắt đầu thối rữa ngay lập tức", "isCorrect": false},
+        {"text": "Xác chuyển màu xanh lục", "isCorrect": false}
+      ],
+      "explanation": "Từ 6-36 giờ, nếu phá cứng thì xác sẽ mất cứng luôn."
+    },
+    {
+      "question": "Sự mất cứng tử thi hoàn toàn xảy ra sau bao nhiêu giờ?",
+      "options": [
+        {"text": "Sau 12 giờ", "isCorrect": false},
+        {"text": "Sau 24 giờ", "isCorrect": false},
+        {"text": "Sau 36 giờ", "isCorrect": true},
+        {"text": "Sau 72 giờ", "isCorrect": false}
+      ],
+      "explanation": "Mất cứng sau 36 giờ."
+    },
+    {
+      "question": "Hiện tượng mất cứng sau 36 giờ là dấu hiệu của quá trình gì?",
+      "options": [
+        {"text": "Hồi phục tế bào", "isCorrect": false},
+        {"text": "Nguội lạnh hoàn toàn", "isCorrect": false},
+        {"text": "Sự hư thối", "isCorrect": true},
+        {"text": "Sự dồn máu", "isCorrect": false}
+      ],
+      "explanation": "Mất cứng sau 36 giờ là dấu hiệu của sự hư thối."
+    },
+    {
+      "question": "Dấu hiệu sau chết muộn gồm những hiện tượng nào?",
+      "options": [
+        {"text": "Hoen tử thi và Cứng xác", "isCorrect": false},
+        {"text": "Nguội lạnh và Mảng lục", "isCorrect": false},
+        {"text": "Mảng lục và Sự hư thối", "isCorrect": true},
+        {"text": "Giảm trọng lượng và Hư thối", "isCorrect": false}
+      ],
+      "explanation": "Mảng lục và Sự hư thối được xếp vào nhóm dấu hiệu muộn."
+    },
+    {
+      "question": "Điểm xuất phát của mảng lục trên cơ thể là ở đâu?",
+      "options": [
+        {"text": "Hố chậu trái", "isCorrect": false},
+        {"text": "Hố chậu phải", "isCorrect": true},
+        {"text": "Rốn", "isCorrect": false},
+        {"text": "Ngực", "isCorrect": false}
+      ],
+      "explanation": "Điểm xuất phát của mảng lục là hố chậu phải."
+    },
+    {
+      "question": "Mảng lục lan từ hố chậu phải sang hố chậu trái rồi đến đâu tiếp theo?",
+      "options": [
+        {"text": "Xuống chi dưới", "isCorrect": false},
+        {"text": "Ra sau lưng", "isCorrect": false},
+        {"text": "Lan đến ngực, bụng", "isCorrect": true},
+        {"text": "Chỉ khu trú ở vùng bụng", "isCorrect": false}
+      ],
+      "explanation": "Mảng lục xuất phát ở hố chậu phải lan sang hố chậu trái rồi lan đến ngực, bụng."
+    },
+    {
+      "question": "H2S kết hợp với Hb tạo thành chất gì gây màu lục?",
+      "options": [
+        {"text": "Methemoglobin", "isCorrect": false},
+        {"text": "Carboxyhemoglobin", "isCorrect": false},
+        {"text": "Sulfhemoglobin (HbS)", "isCorrect": true},
+        {"text": "Oxyhemoglobin", "isCorrect": false}
+      ],
+      "explanation": "H2S + Hb -> HbS (Sulfhemoglobin) gây màu lục."
+    },
+    {
+      "question": "Vi khuẩn tạo ra khí H2S trong quá trình hình thành mảng lục là loại vi khuẩn nào?",
+      "options": [
+        {"text": "Vi khuẩn hiếu khí", "isCorrect": false},
+        {"text": "Vi khuẩn yếm khí", "isCorrect": true},
+        {"text": "Vi khuẩn gram dương", "isCorrect": false},
+        {"text": "Vi khuẩn gram âm", "isCorrect": false}
+      ],
+      "explanation": "H2S được tạo ra bởi vi khuẩn yếm khí kết hợp với Hb."
+    },
+    {
+      "question": "Màu lục ban đầu sẽ biến thành những màu nào theo thời gian?",
+      "options": [
+        {"text": "Đỏ -> Tím -> Đen", "isCorrect": false},
+        {"text": "Nâu lục -> Nâu tím -> Đen", "isCorrect": true},
+        {"text": "Vàng -> Cam -> Nâu", "isCorrect": false},
+        {"text": "Xám -> Trắng -> Đen", "isCorrect": false}
+      ],
+      "explanation": "Màu lục sẽ biến thành màu nâu lục, nâu tím rồi đen."
+    },
+    {
+      "question": "Vào mùa hè, vết lục thường xuất hiện sau bao lâu?",
+      "options": [
+        {"text": "12 giờ", "isCorrect": false},
+        {"text": "24 giờ", "isCorrect": true},
+        {"text": "48 giờ", "isCorrect": false},
+        {"text": "1 tuần", "isCorrect": false}
+      ],
+      "explanation": "Mùa hè vết lục xuất hiện sau 24 giờ."
+    },
+    {
+      "question": "Vào mùa đông, vết lục thường xuất hiện sau bao lâu?",
+      "options": [
+        {"text": "24 giờ", "isCorrect": false},
+        {"text": "36 - 48 giờ", "isCorrect": true},
+        {"text": "72 giờ", "isCorrect": false},
+        {"text": "10 ngày", "isCorrect": false}
+      ],
+      "explanation": "Mùa đông vết lục xuất hiện muộn hơn, khoảng 36 - 48 giờ."
+    },
+    {
+      "question": "Vết lục lan ra toàn bụng trong khoảng bao lâu?",
+      "options": [
+        {"text": "24 giờ", "isCorrect": false},
+        {"text": "48 - 72 giờ", "isCorrect": true},
+        {"text": "1 tuần", "isCorrect": false},
+        {"text": "2 tuần", "isCorrect": false}
+      ],
+      "explanation": "Vết lục lan ra toàn bụng khoảng 48-72 giờ."
+    },
+    {
+      "question": "Khi sự hư thối diễn ra, tử thi có hiện tượng gì về kích thước?",
+      "options": [
+        {"text": "Teo tóp lại nhanh chóng", "isCorrect": false},
+        {"text": "Căng to, bụng phình to", "isCorrect": true},
+        {"text": "Giữ nguyên hình dáng ban đầu", "isCorrect": false},
+        {"text": "Kéo dài ra do giãn cơ", "isCorrect": false}
+      ],
+      "explanation": "Khi vết lục lan ra toàn thân, tử thi căng to bụng phình to."
+    },
+    {
+      "question": "Hiện tượng hư thối ảnh hưởng đến nội tạng như thế nào?",
+      "options": [
+        {"text": "Nội tạng khô lại như gỗ", "isCorrect": false},
+        {"text": "Nội tạng mủm nát, phần mềm tan rã", "isCorrect": true},
+        {"text": "Nội tạng biến thành sáp", "isCorrect": false},
+        {"text": "Nội tạng ngấm vôi", "isCorrect": false}
+      ],
+      "explanation": "Sự hư thối làm nội tạng mủm nát, phần mềm tan rã."
+    },
+    {
+      "question": "Ở giai đoạn hư thối muộn, xương và răng gặp hiện tượng gì?",
+      "options": [
+        {"text": "Bị hòa tan hoàn toàn", "isCorrect": false},
+        {"text": "Trở nên cứng hơn", "isCorrect": false},
+        {"text": "Hiện tượng mụn ải", "isCorrect": true},
+        {"text": "Không có sự thay đổi nào", "isCorrect": false}
+      ],
+      "explanation": "Xương và răng có hiện tượng mụn ải."
+    },
+    {
+      "question": "Nước lưu lại trong dạ dày trong bao lâu?",
+      "options": [
+        {"text": "15 phút", "isCorrect": false},
+        {"text": "1 giờ", "isCorrect": true},
+        {"text": "2 giờ", "isCorrect": false},
+        {"text": "3 giờ", "isCorrect": false}
+      ],
+      "explanation": "Nước lưu lại trong dạ dày khoảng 1 giờ."
+    },
+    {
+      "question": "Cháo lưu lại trong dạ dày trong khoảng bao lâu?",
+      "options": [
+        {"text": "30 phút", "isCorrect": false},
+        {"text": "1 đến 3 giờ", "isCorrect": true},
+        {"text": "4 đến 6 giờ", "isCorrect": false},
+        {"text": "Trên 6 giờ", "isCorrect": false}
+      ],
+      "explanation": "Cháo lưu lại dạ dày từ 1 đến 3 giờ."
+    },
+    {
+      "question": "Cơm và thức ăn đặc lưu lại trong dạ dày bao lâu?",
+      "options": [
+        {"text": "1 - 2 giờ", "isCorrect": false},
+        {"text": "4 - 6 giờ", "isCorrect": true},
+        {"text": "8 - 10 giờ", "isCorrect": false},
+        {"text": "12 giờ", "isCorrect": false}
+      ],
+      "explanation": "Cơm và thức ăn đặc lưu lại dạ dày 4 - 6 giờ."
+    },
+    {
+      "question": "Dấu hiệu thức ăn 'chưa nhuyễn' trong dạ dày chứng tỏ điều gì?",
+      "options": [
+        {"text": "Ở dạ dày dưới 1 giờ", "isCorrect": false},
+        {"text": "Ở dạ dày dưới 3 giờ", "isCorrect": true},
+        {"text": "Ở dạ dày trên 6 giờ", "isCorrect": false},
+        {"text": "Nạn nhân ăn quá nhanh", "isCorrect": false}
+      ],
+      "explanation": "Chưa nhuyễn chứng tỏ ở dạ dày dưới 3 giờ."
+    },
+    {
+      "question": "Phản xạ siêu sinh 'nổi con chuột' tồn tại bao lâu sau chết?",
+      "options": [
+        {"text": "1 - 2 giờ", "isCorrect": false},
+        {"text": "6 - 8 giờ", "isCorrect": true},
+        {"text": "10 - 12 giờ", "isCorrect": false},
+        {"text": "24 giờ", "isCorrect": false}
+      ],
+      "explanation": "Phản xạ nổi con chuột còn tồn tại 6-8 giờ sau chết."
+    },
+    {
+      "question": "Phản xạ siêu sinh 'tiết mồ hôi' tồn tại bao lâu sau chết?",
+      "options": [
+        {"text": "2 giờ", "isCorrect": false},
+        {"text": "6 giờ", "isCorrect": true},
+        {"text": "12 giờ", "isCorrect": false},
+        {"text": "18 giờ", "isCorrect": false}
+      ],
+      "explanation": "Phản xạ tiết mồ hôi còn tồn tại 6 giờ sau chết."
+    },
+    {
+      "question": "Phản xạ co đồng tử còn tồn tại bao lâu sau chết?",
+      "options": [
+        {"text": "6 giờ", "isCorrect": false},
+        {"text": "14 giờ", "isCorrect": true},
+        {"text": "18 giờ", "isCorrect": false},
+        {"text": "24 giờ", "isCorrect": false}
+      ],
+      "explanation": "Phản xạ co đồng tử còn tồn tại 14 giờ sau chết."
+    },
+    {
+      "question": "Phản xạ giãn đồng tử tồn tại bao lâu sau chết?",
+      "options": [
+        {"text": "6 giờ", "isCorrect": false},
+        {"text": "14 giờ", "isCorrect": false},
+        {"text": "17 - 19 giờ", "isCorrect": true},
+        {"text": "24 giờ", "isCorrect": false}
+      ],
+      "explanation": "Phản xạ giãn đồng tử tồn tại từ 17-19 giờ sau chết."
+    },
+    {
+      "question": "Chấy rận có thể sống trên xác chết trong bao lâu?",
+      "options": [
+        {"text": "1 ngày", "isCorrect": false},
+        {"text": "3 ngày", "isCorrect": false},
+        {"text": "Khoảng 6 ngày", "isCorrect": true},
+        {"text": "10 ngày", "isCorrect": false}
+      ],
+      "explanation": "Chấy rận có thể sống ở trên xác khoảng 6 ngày."
+    },
+    {
+      "question": "Trứng ruồi thường nở thành ấu trùng sau bao lâu?",
+      "options": [
+        {"text": "12 giờ", "isCorrect": false},
+        {"text": "1 ngày", "isCorrect": false},
+        {"text": "Khoảng 2 ngày", "isCorrect": true},
+        {"text": "5 ngày", "isCorrect": false}
+      ],
+      "explanation": "Trứng nở thành ấu trùng khoảng 2 ngày."
+    },
+    {
+      "question": "Ấu trùng ruồi phát triển thành nhộng trong khoảng bao lâu?",
+      "options": [
+        {"text": "2 ngày", "isCorrect": false},
+        {"text": "8 ngày", "isCorrect": false},
+        {"text": "Khoảng 12 ngày", "isCorrect": true},
+        {"text": "14 ngày", "isCorrect": false}
+      ],
+      "explanation": "Ấu trùng phát triển thành nhộng khoảng 12 ngày."
+    },
+    {
+      "question": "Nhộng ruồi phát triển thành ruồi con trong bao lâu?",
+      "options": [
+        {"text": "12 ngày", "isCorrect": false},
+        {"text": "Khoảng 14 ngày", "isCorrect": true},
+        {"text": "21 ngày", "isCorrect": false},
+        {"text": "28 ngày", "isCorrect": false}
+      ],
+      "explanation": "Nhộng phát triển thành ruồi con khoảng 14 ngày."
+    },
+    {
+      "question": "Nếu tìm thấy vỏ nhộng ruồi trên xác chết, thời gian nạn nhân ở hiện trường ít nhất là?",
+      "options": [
+        {"text": "14 ngày", "isCorrect": false},
+        {"text": "21 ngày", "isCorrect": false},
+        {"text": "28 ngày", "isCorrect": true},
+        {"text": "60 ngày", "isCorrect": false}
+      ],
+      "explanation": "Tìm thấy vỏ nhộng thì thời gian ít nhất xác có mặt tại hiện trường là 28 ngày."
+    },
+    {
+      "question": "Dấu chân trên hiện trường hoặc đất cát trôi có thể tồn tại trong bao lâu?",
+      "options": [
+        {"text": "8 ngày", "isCorrect": false},
+        {"text": "14 ngày", "isCorrect": true},
+        {"text": "28 ngày", "isCorrect": false},
+        {"text": "1 tháng", "isCorrect": false}
+      ],
+      "explanation": "Dấu chân trên hiện trường, đất cát trôi kéo dài khoảng 14 ngày."
+    },
+    {
+      "question": "Diệp lục của cây cỏ dưới tử thi bị mất sau bao lâu?",
+      "options": [
+        {"text": "2 ngày", "isCorrect": false},
+        {"text": "Khoảng 8 ngày", "isCorrect": true},
+        {"text": "14 ngày", "isCorrect": false},
+        {"text": "28 ngày", "isCorrect": false}
+      ],
+      "explanation": "Diệp lục bị mất sau 8 ngày."
+    },
+    {
+      "question": "Vùng nào trên tử thi nguội lạnh sau cùng?",
+      "options": [
+        {"text": "Vùng đầu", "isCorrect": false},
+        {"text": "Bàn tay, bàn chân", "isCorrect": false},
+        {"text": "Bụng và tầng sinh môn", "isCorrect": true},
+        {"text": "Vùng ngực", "isCorrect": false}
+      ],
+      "explanation": "Bụng và tầng sinh môn là nơi nhiệt độ giảm sau cùng."
+    },
+    {
+      "question": "Xác chết còn ấm, chưa cứng hoặc cứng chưa hoàn toàn chỉ điểm thời gian chết là?",
+      "options": [
+        {"text": "Dưới 12 giờ", "isCorrect": true},
+        {"text": "Dưới 24 giờ", "isCorrect": false},
+        {"text": "Dưới 36 giờ", "isCorrect": false},
+        {"text": "Trên 48 giờ", "isCorrect": false}
+      ],
+      "explanation": "Xác còn ấm chưa cứng hoặc cứng chưa hoàn toàn chết dưới 12 giờ."
+    },
+    {
+      "question": "Sờ bụng tử thi còn ấm chứng tỏ khoảng thời gian chết như thế nào?",
+      "options": [
+        {"text": "Chưa quá 6 giờ", "isCorrect": false},
+        {"text": "Chưa quá 12 giờ", "isCorrect": false},
+        {"text": "Chưa quá 24 giờ", "isCorrect": true},
+        {"text": "Chưa quá 36 giờ", "isCorrect": false}
+      ],
+      "explanation": "Sờ bụng còn ấm khoảng chết chưa quá 24 giờ."
+    },
+    {
+      "question": "Tử thi lạnh cứng, hoen thành mảng tím sẫm cố định chỉ điểm thời gian chết là?",
+      "options": [
+        {"text": "12 - 24 giờ", "isCorrect": false},
+        {"text": "24 - 36 giờ", "isCorrect": true},
+        {"text": "36 - 48 giờ", "isCorrect": false},
+        {"text": "Trên 72 giờ", "isCorrect": false}
+      ],
+      "explanation": "Tử thi lạnh cứng, hoen tím mảng, khoảng chết từ 24-36 giờ."
+    },
+    {
+      "question": "Da bong, đầy mảng lục và mọng nước vào mùa hè xuất hiện sau bao lâu?",
+      "options": [
+        {"text": "48 giờ", "isCorrect": false},
+        {"text": "72 giờ", "isCorrect": false},
+        {"text": "Khoảng 1 tuần", "isCorrect": true},
+        {"text": "1 tháng", "isCorrect": false}
+      ],
+      "explanation": "Mùa hè hiện tượng này xuất hiện sau khoảng 1 tuần."
+    },
+    {
+      "question": "Da bong, đầy mảng lục và mọng nước vào mùa đông xuất hiện sau bao lâu?",
+      "options": [
+        {"text": "1 tuần", "isCorrect": false},
+        {"text": "1 - 2 tuần", "isCorrect": true},
+        {"text": "1 tháng", "isCorrect": false},
+        {"text": "2 tháng", "isCorrect": false}
+      ],
+      "explanation": "Mùa đông hiện tượng này xuất hiện muộn hơn, khoảng 1-2 tuần."
+    },
+    {
+      "question": "Trình tự biến đổi của màu sắc mảng lục từ sớm đến muộn là gì?",
+      "options": [
+        {"text": "Đen -> Nâu -> Lục", "isCorrect": false},
+        {"text": "Lục -> Nâu tím -> Đen", "isCorrect": true},
+        {"text": "Tím -> Lục -> Vàng", "isCorrect": false},
+        {"text": "Đỏ -> Xám -> Đen", "isCorrect": false}
+      ],
+      "explanation": "Màu lục biến thành nâu lục, nâu tím rồi đen."
+    },
+    {
+      "question": "Ấu trùng ruồi tiết ra chất gì giúp đẩy nhanh quá trình phân hủy?",
+      "options": [
+        {"text": "Khí H2S", "isCorrect": false},
+        {"text": "Men tiêu hóa protein", "isCorrect": true},
+        {"text": "Men amylase", "isCorrect": false},
+        {"text": "Axit lactic", "isCorrect": false}
+      ],
+      "explanation": "Ấu trùng tiết men protein giúp tiêu hóa mô và đẩy nhanh phân hủy."
+    },
+    {
+      "question": "Tại hiện trường án mạng, việc tìm thấy báo chí, thư từ giúp xác định điều gì?",
+      "options": [
+        {"text": "Nguyên nhân chết", "isCorrect": false},
+        {"text": "Ước lượng thời gian chết", "isCorrect": true},
+        {"text": "Danh tính hung thủ", "isCorrect": false},
+        {"text": "Nhân thân nạn nhân", "isCorrect": false}
+      ],
+      "explanation": "Ngày tháng trên báo chí, thư từ là dấu hiệu hiện trường giúp ước lượng thời gian chết."
+    },
+    {
+      "question": "Nghiệm pháp rạch động mạch quay dùng để kiểm tra bộ máy nào?",
+      "options": [
+        {"text": "Thần kinh", "isCorrect": false},
+        {"text": "Hô hấp", "isCorrect": false},
+        {"text": "Tuần hoàn", "isCorrect": true},
+        {"text": "Cơ xương khớp", "isCorrect": false}
+      ],
+      "explanation": "Rạch động mạch quay thuộc nhóm kiểm tra tuần hoàn để xác minh sự chết."
+    },
+    {
+      "question": "Phản ứng với acid (dùng giấy quỳ) được thực hiện ở đâu để xác minh sự chết?",
+      "options": [
+        {"text": "Trên da", "isCorrect": false},
+        {"text": "Trong miệng", "isCorrect": false},
+        {"text": "Ở mắt", "isCorrect": true},
+        {"text": "Ở hậu môn", "isCorrect": false}
+      ],
+      "explanation": "Phản ứng acid thường kiểm tra ở mắt bằng giấy quỳ (chuyển đỏ chứng tỏ chết)."
+    },
+    {
+      "question": "Trong phương pháp đơn giản xác minh sự chết, kiểm tra tuần hoàn dùng cách nào?",
+      "options": [
+        {"text": "Bắt mạch cảnh", "isCorrect": true},
+        {"text": "Chiếu đèn pin vào mắt", "isCorrect": false},
+        {"text": "Bơm nước vào tai", "isCorrect": false},
+        {"text": "Rạch da bụng", "isCorrect": false}
+      ],
+      "explanation": "Bắt mạch cảnh, mạch bẹn là cách kiểm tra tuần hoàn đơn giản."
+    },
+    {
+      "question": "Khi lật xác mà hoen tử thi di chuyển và hình thành ở vùng thấp mới thì xác chết ở giai đoạn nào?",
+      "options": [
+        {"text": "Giai đoạn 1 (hoen không cố định)", "isCorrect": true},
+        {"text": "Giai đoạn 2 (hoen bán cố định)", "isCorrect": false},
+        {"text": "Giai đoạn 3 (hoen cố định)", "isCorrect": false},
+        {"text": "Giai đoạn thối rữa", "isCorrect": false}
+      ],
+      "explanation": "Ở Gd1, hoen chưa cố định nên khi thay đổi tư thế hoen sẽ di chuyển."
+    },
+    {
+      "question": "Nếu lật xác mà vết hoen không thay đổi vị trí, xác chết đã tử vong được bao lâu?",
+      "options": [
+        {"text": "Dưới 10 giờ", "isCorrect": false},
+        {"text": "Trên 24 giờ", "isCorrect": true},
+        {"text": "Dưới 2 giờ", "isCorrect": false},
+        {"text": "Khoảng 5 giờ", "isCorrect": false}
+      ],
+      "explanation": "Sau 24 giờ hoen đã cố định, không thay đổi khi lật xác."
+    },
+    {
+      "question": "Tử thi cứng toàn thân thường đạt được sau bao lâu kể từ khi chết?",
+      "options": [
+        {"text": "2 giờ", "isCorrect": false},
+        {"text": "6 giờ", "isCorrect": false},
+        {"text": "10 - 12 giờ", "isCorrect": true},
+        {"text": "24 giờ", "isCorrect": false}
+      ],
+      "explanation": "Thông thường sau 10-12 giờ xác sẽ cứng toàn thân (đỉnh điểm của quá trình cứng)."
+    },
+    {
+      "question": "Theo quy luật Nysten, cứng xác diễn ra theo trình tự nào?",
+      "options": [
+        {"text": "Từ chân lên đầu", "isCorrect": false},
+        {"text": "Từ đầu xuống chân", "isCorrect": true},
+        {"text": "Từ bụng ra chi", "isCorrect": false},
+        {"text": "Tất cả các cơ cùng lúc", "isCorrect": false}
+      ],
+      "explanation": "Quy luật Nysten: cứng xác bắt đầu từ đầu lan dần xuống chân."
+    },
+    {
+      "question": "Dấu hiệu nào cho biết một người ĐÃ CHẾT THỰC SỰ khi kiểm tra hệ thần kinh đơn giản?",
+      "options": [
+        {"text": "Mất tri giác hoàn toàn", "isCorrect": false},
+        {"text": "Mất toàn bộ phản xạ (đau, giác mạc, đồng tử)", "isCorrect": true},
+        {"text": "Ngừng thở", "isCorrect": false},
+        {"text": "Tim ngừng đập", "isCorrect": false}
+      ],
+      "explanation": "Kiểm tra hệ thần kinh gồm tri giác, phản xạ đau, giác mạc, đồng tử."
+    },
+    {
+      "question": "Chết lâm sàng khác chết thực sự ở điểm nào?",
+      "options": [
+        {"text": "Chết lâm sàng có thể hồi phục nếu được cấp cứu kịp thời", "isCorrect": true},
+        {"text": "Chết lâm sàng là não đã thối rữa", "isCorrect": false},
+        {"text": "Chết lâm sàng không có hoen tử thi", "isCorrect": false},
+        {"text": "Hai khái niệm này là một", "isCorrect": false}
+      ],
+      "explanation": "Chết lâm sàng là ngừng hô hấp tuần hoàn tạm thời, có khả năng hồi phục."
+    },
+    {
+      "question": "Tiêu chuẩn lâm sàng 'Mất phản xạ giác mạc' nghĩa là gì?",
+      "options": [
+        {"text": "Chiếu đèn vào mắt đồng tử không co", "isCorrect": false},
+        {"text": "Chạm vào giác mạc mắt không nháy", "isCorrect": true},
+        {"text": "Mắt không thể nhìn thấy vật thể", "isCorrect": false},
+        {"text": "Mắt bị đục", "isCorrect": false}
+      ],
+      "explanation": "Giác mạc mất cảm giác, không có phản xạ nháy mắt khi kích thích."
+    },
+    {
+      "question": "Giai đoạn 'nhão sơ khởi' là gì trong tử thi học?",
+      "options": [
+        {"text": "Xác bắt đầu thối", "isCorrect": false},
+        {"text": "Xác mềm ngay sau khi chết trước khi cứng xác", "isCorrect": true},
+        {"text": "Xác mềm sau khi đã cứng xong", "isCorrect": false},
+        {"text": "Cơ bị vi khuẩn tiêu hủy", "isCorrect": false}
+      ],
+      "explanation": "Ngay sau khi chết, các cơ ở trạng thái lỏng lẻo, gọi là nhão sơ khởi."
+    },
+    {
+      "question": "Tại sao người béo phì thường nguội lạnh chậm hơn người gầy?",
+      "options": [
+        {"text": "Do máu nhiều hơn", "isCorrect": false},
+        {"text": "Do lớp mỡ dưới da dày có tác dụng cách nhiệt", "isCorrect": true},
+        {"text": "Do vi khuẩn hoạt động mạnh sinh nhiệt", "isCorrect": false},
+        {"text": "Do diện tích bề mặt lớn", "isCorrect": false}
+      ],
+      "explanation": "Mỡ là chất dẫn nhiệt kém, giúp giữ nhiệt độ cơ thể lâu hơn."
+    },
+    {
+      "question": "Tử thi trẻ sơ sinh có đặc điểm nguội lạnh như thế nào?",
+      "options": [
+        {"text": "Rất chậm", "isCorrect": false},
+        {"text": "Rất nhanh do diện tích bề mặt lớn so với trọng lượng", "isCorrect": true},
+        {"text": "Giống người lớn", "isCorrect": false},
+        {"text": "Không bao giờ nguội", "isCorrect": false}
+      ],
+      "explanation": "Xác trẻ em, người gầy nguội lạnh nhanh hơn xác người lớn, béo phì."
+    },
+    {
+      "question": "Nghiệm pháp kiểm tra hô hấp bằng cách nào được coi là chắc chắn hơn tấm gương?",
+      "options": [
+        {"text": "Nghe bằng ống nghe y tế", "isCorrect": true},
+        {"text": "Đặt sợi bông", "isCorrect": false},
+        {"text": "Quan sát lồng ngực", "isCorrect": false},
+        {"text": "Bắt mạch tay", "isCorrect": false}
+      ],
+      "explanation": "Nghe bằng ống nghe không thấy rì rào phế nang là phương pháp hô hấp đơn giản."
+    },
+    {
+      "question": "Tiêu chuẩn lâm sàng 'Không có phản xạ đầu - mắt' được thực hiện như thế nào?",
+      "options": [
+        {"text": "Chiếu đèn pin vào mắt", "isCorrect": false},
+        {"text": "Xoay đầu bệnh nhân mắt không chuyển động ngược lại", "isCorrect": true},
+        {"text": "Nhắm mắt bệnh nhân lại", "isCorrect": false},
+        {"text": "Yêu cầu bệnh nhân liếc mắt", "isCorrect": false}
+      ],
+      "explanation": "Đây là phản xạ búp bê (Doll's eye); nếu mất, mắt sẽ đứng yên theo trục đầu."
+    },
+    {
+      "question": "Phản xạ giãn đồng tử (17-19h) biến mất chứng tỏ điều gì?",
+      "options": [
+        {"text": "Não mới ngừng hoạt động", "isCorrect": false},
+        {"text": "Xác chết đã cũ, gần 20 giờ", "isCorrect": true},
+        {"text": "Xác đang cứng", "isCorrect": false},
+        {"text": "Máu bắt đầu đông", "isCorrect": false}
+      ],
+      "explanation": "Giãn đồng tử là phản xạ siêu sinh tồn tại lâu nhất (đến 19h)."
+    },
+    {
+      "question": "Hoen tử thi có ranh giới rõ ràng xuất hiện ở giai đoạn nào?",
+      "options": [
+        {"text": "Giai đoạn 1", "isCorrect": false},
+        {"text": "Giai đoạn 2", "isCorrect": false},
+        {"text": "Giai đoạn 3", "isCorrect": true},
+        {"text": "Giai đoạn thối", "isCorrect": false}
+      ],
+      "explanation": "Ranh giới rõ ràng là đặc điểm của Gd3 (thấm máu)."
+    },
+    {
+      "question": "Nếu xác chết nằm trong phòng kín, nhiệt độ nguội lạnh sẽ như thế nào?",
+      "options": [
+        {"text": "Nhanh hơn ngoài trời", "isCorrect": false},
+        {"text": "Chậm hơn ngoài trời do không có gió và bức xạ", "isCorrect": true},
+        {"text": "Không thay đổi", "isCorrect": false},
+        {"text": "Lạnh đi tức thì", "isCorrect": false}
+      ],
+      "explanation": "Môi trường kín, không gió làm chậm quá trình tán nhiệt."
+    },
+    {
+      "question": "Hiện tượng 'mụn ải' của xương xảy ra do yếu tố nào?",
+      "options": [
+        {"text": "Nhiệt độ cao", "isCorrect": false},
+        {"text": "Sự hư thối muộn và phân hủy khoáng chất", "isCorrect": true},
+        {"text": "Ấu trùng ruồi ăn xương", "isCorrect": false},
+        {"text": "Xác bị ngâm acid", "isCorrect": false}
+      ],
+      "explanation": "Mụn ải là kết quả cuối cùng của sự hư thối tác động lên cấu trúc cứng."
+    },
+    {
+      "question": "Thời gian tồn tại của chấy rận (6 ngày) giúp bác sĩ pháp y kết luận gì?",
+      "options": [
+        {"text": "Xác chết chưa quá 1 tuần", "isCorrect": true},
+        {"text": "Xác chết đã hơn 10 ngày", "isCorrect": false},
+        {"text": "Xác chết bị đầu độc", "isCorrect": false},
+        {"text": "Nạn nhân chết do bệnh truyền nhiễm", "isCorrect": false}
+      ],
+      "explanation": "Chấy rận sống tối đa 6 ngày, nếu thấy chúng còn sống thì xác chết còn mới."
+    },
+    {
+      "question": "Việc bụng phình to trong sự hư thối là do tích tụ khí gì chủ yếu?",
+      "options": [
+        {"text": "Oxy và Nitơ", "isCorrect": false},
+        {"text": "Các khí sinh ra từ phân hủy protein (H2S, Amoniac...)", "isCorrect": true},
+        {"text": "Hơi nước", "isCorrect": false},
+        {"text": "Khí CO2 từ phổi", "isCorrect": false}
+      ],
+      "explanation": "Vi khuẩn phân hủy sinh khí làm căng phồng tử thi."
+    },
+    {
+      "question": "Trình tự lan rộng mảng lục: Hố chậu phải -> Hố chậu trái -> bụng -> ngực -> ...?",
+      "options": [
+        {"text": "Đầu, cổ và toàn thân", "isCorrect": true},
+        {"text": "Chỉ dừng ở ngực", "isCorrect": false},
+        {"text": "Lan xuống bàn chân trước", "isCorrect": false},
+        {"text": "Lan ra tay trước", "isCorrect": false}
+      ],
+      "explanation": "Mảng lục lan từ dưới bụng lên trên ngực rồi lên đầu cổ và toàn thân."
+    },
+    {
+      "question": "Thời điểm cơm biến thành dịch nhuyễn hoàn toàn trong dạ dày là?",
+      "options": [
+        {"text": "Sau 1 giờ", "isCorrect": false},
+        {"text": "Sau 3 giờ", "isCorrect": true},
+        {"text": "Sau 6 giờ", "isCorrect": false},
+        {"text": "Sau 12 giờ", "isCorrect": false}
+      ],
+      "explanation": "Sau 3 giờ thức ăn sẽ nhuyễn; dưới 3 giờ thì chưa nhuyễn."
+    },
+    {
+      "question": "Xác chết có hoen ở mặt trước cơ thể (ngực, bụng) chứng tỏ tư thế chết là?",
+      "options": [
+        {"text": "Nằm ngửa", "isCorrect": false},
+        {"text": "Nằm nghiêng", "isCorrect": false},
+        {"text": "Nằm sấp", "isCorrect": true},
+        {"text": "Treo cổ", "isCorrect": false}
+      ],
+      "explanation": "Máu đọng vùng thấp, nằm sấp thì hoen ở mặt trước."
+    },
+    {
+      "question": "Xác chết có hoen ở vùng thấp của hai tay và hai chân chứng tỏ tư thế chết là?",
+      "options": [
+        {"text": "Nằm sấp", "isCorrect": false},
+        {"text": "Treo cổ đứng", "isCorrect": true},
+        {"text": "Nằm ngửa", "isCorrect": false},
+        {"text": "Ngồi ghế", "isCorrect": false}
+      ],
+      "explanation": "Tư thế đứng (treo cổ) làm máu dồn về các đầu chi."
+    },
+    {
+      "question": "Đặc điểm hoen tử thi ở người chết do mất máu cấp là gì?",
+      "options": [
+        {"text": "Tím sẫm rất rõ", "isCorrect": false},
+        {"text": "Rất nhạt hoặc không có hoen", "isCorrect": true},
+        {"text": "Màu đỏ tươi", "isCorrect": false},
+        {"text": "Màu lục", "isCorrect": false}
+      ],
+      "explanation": "Thiếu máu làm vết hoen mờ nhạt hoặc không hình thành."
+    },
+    {
+      "question": "Dấu hiệu 'ngưng trệ dòng máu não' trên Doppler xuyên sọ chứng tỏ điều gì?",
+      "options": [
+        {"text": "Chết lâm sàng", "isCorrect": false},
+        {"text": "Não vẫn hoạt động", "isCorrect": false},
+        {"text": "Chết não", "isCorrect": true},
+        {"text": "Hôn mê sâu", "isCorrect": false}
+      ],
+      "explanation": "Doppler xuyên sọ thấy máu không lưu thông là tiêu chuẩn chết não."
+    },
+    {
+      "question": "Đặc điểm của vết lục vào mùa đông là?",
+      "options": [
+        {"text": "Xuất hiện nhanh hơn mùa hè", "isCorrect": false},
+        {"text": "Xuất hiện muộn hơn mùa hè (36-48h)", "isCorrect": true},
+        {"text": "Màu sắc nhạt hơn", "isCorrect": false},
+        {"text": "Không bao giờ xuất hiện", "isCorrect": false}
+      ],
+      "explanation": "Lạnh làm chậm hoạt động vi khuẩn yếm khí nên mảng lục xuất hiện muộn."
+    },
+    {
+      "question": "Sự mục nát của cây cỏ ở hiện trường giúp xác định thời gian chết ở giai đoạn nào?",
+      "options": [
+        {"text": "Dưới 24 giờ", "isCorrect": false},
+        {"text": "Dưới 1 tuần", "isCorrect": false},
+        {"text": "Giai đoạn muộn (vài tuần đến vài tháng)", "isCorrect": true},
+        {"text": "Chỉ dùng cho xác chết ngâm nước", "isCorrect": false}
+      ],
+      "explanation": "Biến đổi thực vật là dấu hiệu hiện trường cho mốc thời gian dài."
+    },
+    {
+      "question": "Trạng thái dạ dày 'rỗng' cho thấy thời gian chết so với bữa ăn cuối là?",
+      "options": [
+        {"text": "Dưới 3 giờ", "isCorrect": false},
+        {"text": "Trên 6 - 10 giờ", "isCorrect": true},
+        {"text": "Khoảng 4 giờ", "isCorrect": false},
+        {"text": "Ngay sau khi ăn", "isCorrect": false}
+      ],
+      "explanation": "Thức ăn đặc mất 4-6h ở dạ dày, sau đó chuyển xuống ruột, dạ dày rỗng thường sau 6-10h."
+    },
+    {
+      "question": "Nhiệt độ tử thi bằng với nhiệt độ môi trường thì xác chết đã tử vong ít nhất bao lâu?",
+      "options": [
+        {"text": "2 giờ", "isCorrect": false},
+        {"text": "6 giờ", "isCorrect": false},
+        {"text": "Sau 12 - 24 giờ tùy điều kiện", "isCorrect": true},
+        {"text": "Sau 1 tuần", "isCorrect": false}
+      ],
+      "explanation": "Tùy môi trường nhưng thường sau 1 ngày nhiệt độ xác sẽ cân bằng với môi trường."
+    },
+    {
+      "question": "Nếu phá cứng xác sau 12 giờ, xác có cứng lại không?",
+      "options": [
+        {"text": "Có cứng lại", "isCorrect": false},
+        {"text": "Không, xác sẽ mất cứng", "isCorrect": true},
+        {"text": "Xác cứng hơn ban đầu", "isCorrect": false},
+        {"text": "Tùy thuộc vào nhiệt độ", "isCorrect": false}
+      ],
+      "explanation": "Phá cứng sau 6 giờ (ví dụ 12h) sẽ làm mất cứng luôn."
+    },
+    {
+      "question": "Nội dung mục IV của tài liệu 'Tử thi học' tập trung vào vấn đề gì?",
+      "options": [
+        {"text": "Xác minh sự chết", "isCorrect": false},
+        {"text": "Dấu hiệu sau chết", "isCorrect": false},
+        {"text": "Ước lượng thời gian chết", "isCorrect": true},
+        {"text": "Kỹ thuật giám định hiện trường", "isCorrect": false}
+      ],
+      "explanation": "Mục IV của tài liệu là 'ƯỚC LƯỢNG THỜI GIAN CHẾT'."
+    },
+    {
+      "question": "Thóp trước vôi hóa lúc 2 tuổi, vậy trẻ sơ sinh có nguội lạnh nhanh không?",
+      "options": [
+        {"text": "Có, do diện tích bề mặt lớn so với trọng lượng", "isCorrect": true},
+        {"text": "Không, do xương đầu chưa kín", "isCorrect": false},
+        {"text": "Bình thường", "isCorrect": false},
+        {"text": "Tùy mùa", "isCorrect": false}
+      ],
+      "explanation": "Trẻ em mất nhiệt nhanh hơn người lớn (xem mục 1.1 trang 8)."
+    },
+    {
+      "question": "Cơ chế nào làm da bong tróc và mọng nước sau 1 tuần?",
+      "options": [
+        {"text": "Do vi khuẩn sinh khí và dịch thối đẩy lớp thượng bì", "isCorrect": true},
+        {"text": "Do xác bị khô héo", "isCorrect": false},
+        {"text": "Do nấm mốc phát triển", "isCorrect": false},
+        {"text": "Do tác động cơ học", "isCorrect": false}
+      ],
+      "explanation": "Hư thối tạo khí và dịch làm bong lớp thượng bì da."
+    },
+    {
+      "question": "Sự mất cứng bắt đầu từ khi nào và kết thúc khi nào?",
+      "options": [
+        {"text": "Bắt đầu sau 36h và là dấu hiệu hư thối", "isCorrect": true},
+        {"text": "Bắt đầu sau 12h", "isCorrect": false},
+        {"text": "Bắt đầu sau 2h", "isCorrect": false},
+        {"text": "Bắt đầu ngay sau khi chết", "isCorrect": false}
+      ],
+      "explanation": "Mất cứng sau 36h là đặc điểm được ghi nhận trong tài liệu."
+    },
+    {
+      "question": "Tình trạng 'Xác còn ấm, chưa cứng' cho thấy cái chết mới xảy ra trong vòng?",
+      "options": [
+        {"text": "12 giờ đầu", "isCorrect": true},
+        {"text": "24 giờ đầu", "isCorrect": false},
+        {"text": "36 giờ đầu", "isCorrect": false},
+        {"text": "48 giờ đầu", "isCorrect": false}
+      ],
+      "explanation": "Căn cứ bảng tổng hợp IV.1 trang 19."
+    },
+    {
+      "question": "Màu sắc mảng lục đậm dần và chuyển đen là biểu hiện của giai đoạn nào?",
+      "options": [
+        {"text": "Dấu hiệu sớm", "isCorrect": false},
+        {"text": "Hư thối hoàn toàn", "isCorrect": true},
+        {"text": "Mới chết 24h", "isCorrect": false},
+        {"text": "Giai đoạn dồn máu", "isCorrect": false}
+      ],
+      "explanation": "Màu lục biến nâu tím rồi đen là tiến trình hư thối."
+    },
+    {
+      "question": "Sơ đồ 2.2 trong tài liệu mô tả chu kỳ sinh trưởng của loài vật nào?",
+      "options": [
+        {"text": "Chấy rận", "isCorrect": false},
+        {"text": "Vi khuẩn yếm khí", "isCorrect": false},
+        {"text": "Ruồi", "isCorrect": true},
+        {"text": "Dơi", "isCorrect": false}
+      ],
+      "explanation": "Sơ đồ 2.2 mô tả chu kỳ ruồi để ước lượng thời gian chết."
+    },
+    {
+      "question": "Trong nghiệm pháp siêu sinh, phản xạ giãn đồng tử (17-19h) biến mất cuối cùng, điều này giúp?",
+      "options": [
+        {"text": "Xác định nạn nhân chết do đầu độc", "isCorrect": false},
+        {"text": "Xác định thời gian chết chính xác đến từng phút", "isCorrect": false},
+        {"text": "Hỗ trợ ước lượng thời gian chết trong vòng 1 ngày đầu", "isCorrect": true},
+        {"text": "Biết nạn nhân có bệnh về mắt không", "isCorrect": false}
+      ],
+      "explanation": "Các phản xạ siêu sinh chỉ tồn tại trong thời gian ngắn sau chết."
+    },
+    {
+      "question": "Ước lượng thời gian chết bằng cỏ bị úa vàng chỉ áp dụng khi?",
+      "options": [
+        {"text": "Xác nằm trên cỏ", "isCorrect": true},
+        {"text": "Xác ngâm nước", "isCorrect": false},
+        {"text": "Xác nằm trong nhà", "isCorrect": false},
+        {"text": "Xác bị thiêu", "isCorrect": false}
+      ],
+      "explanation": "Dấu hiệu hiện trường sinh vật học."
+    },
+    {
+      "question": "Việc xác định chết não cần mấy tiêu chuẩn cận lâm sàng theo quy định trong file?",
+      "options": [
+        {"text": "Cần ít nhất một trong các tiêu chuẩn liệt kê (điện não, Doppler...)", "isCorrect": true},
+        {"text": "Cần tất cả 5 tiêu chuẩn", "isCorrect": false},
+        {"text": "Không cần cận lâm sàng, chỉ cần lâm sàng", "isCorrect": false},
+        {"text": "Cần xét nghiệm nước tiểu", "isCorrect": false}
+      ],
+      "explanation": "Tài liệu liệt kê các tiêu chuẩn cận lâm sàng để hỗ trợ xác định."
+    },
+    {
+      "question": "Hoen tử thi có màu đỏ tươi như máu sống thường gặp trong trường hợp nào? (Kiến thức mở rộng dựa trên logic màu sắc hoen)",
+      "options": [
+        {"text": "Chết ngạt", "isCorrect": false},
+        {"text": "Ngộ độc khí CO (Carbon Monoxide)", "isCorrect": true},
+        {"text": "Mất máu", "isCorrect": false},
+        {"text": "Chết đuối", "isCorrect": false}
+      ],
+      "explanation": "Màu sắc hoen thay đổi tùy nguyên nhân chết (trang 15)."
+    },
+    {
+      "question": "Kích thích cơ bằng điện hoặc gõ gây co cơ là phản xạ?",
+      "options": [
+        {"text": "Tự nhiên", "isCorrect": false},
+        {"text": "Siêu sinh", "isCorrect": true},
+        {"text": "Bệnh lý", "isCorrect": false},
+        {"text": "Vô thức", "isCorrect": false}
+      ],
+      "explanation": "Phản xạ nổi con chuột là phản xạ siêu sinh (supravital reaction)."
+    },
+    {
+      "question": "Nhiệt độ tử thi giảm chậm nhất ở vùng nào?",
+      "options": [
+        {"text": "Trán", "isCorrect": false},
+        {"text": "Bàn tay", "isCorrect": false},
+        {"text": "Trực tràng (vùng trung tâm)", "isCorrect": true},
+        {"text": "Ngực", "isCorrect": false}
+      ],
+      "explanation": "Nhiệt độ giảm từ ngoại vi vào trung tâm, nên trực tràng nguội sau cùng."
+    },
+    {
+      "question": "Xác chết sau 28 ngày thường có dấu hiệu gì về côn trùng?",
+      "options": [
+        {"text": "Chỉ có trứng", "isCorrect": false},
+        {"text": "Chỉ có dòi", "isCorrect": false},
+        {"text": "Có vỏ nhộng ruồi rỗng", "isCorrect": true},
+        {"text": "Không có côn trùng", "isCorrect": false}
+      ],
+      "explanation": "Chu kỳ ruồi hoàn tất và để lại vỏ nhộng sau ít nhất 28 ngày."
+    },
+    {
+      "question": "Phản xạ co đồng tử tồn tại ngắn hơn hay dài hơn phản xạ giãn đồng tử?",
+      "options": [
+        {"text": "Ngắn hơn (14h so với 17-19h)", "isCorrect": true},
+        {"text": "Dài hơn", "isCorrect": false},
+        {"text": "Bằng nhau", "isCorrect": false},
+        {"text": "Tùy vào ánh sáng", "isCorrect": false}
+      ],
+      "explanation": "Số liệu: Co (14h), Giãn (17-19h)."
+    },
+    {
+      "question": "Cứng xác sau 36 giờ sẽ như thế nào?",
+      "options": [
+        {"text": "Cứng thêm", "isCorrect": false},
+        {"text": "Bắt đầu mất cứng từ trên xuống", "isCorrect": true},
+        {"text": "Mất cứng đồng loạt", "isCorrect": false},
+        {"text": "Biến mất vĩnh viễn trong 1 giờ", "isCorrect": false}
+      ],
+      "explanation": "Quá trình mất cứng cũng diễn ra theo trình tự như lúc cứng."
+    },
+    {
+      "question": "Việc đẩy nội tạng ra ngoài lỗ tự nhiên do khí thối được gọi là?",
+      "options": [
+        {"text": "Sự dồn máu", "isCorrect": false},
+        {"text": "Sự tháo nội tạng (hư thối)", "isCorrect": true},
+        {"text": "Sự co cơ muộn", "isCorrect": false},
+        {"text": "Sự ly giải", "isCorrect": false}
+      ],
+      "explanation": "Áp lực khí trong xác thối đẩy nội tạng mủm nát ra ngoài."
+    },
+    {
+      "question": "Nếu sờ nách và bẹn tử thi còn ấm nhưng tay chân lạnh, thời gian chết khoảng?",
+      "options": [
+        {"text": "Dưới 2 giờ", "isCorrect": false},
+        {"text": "Khoảng 6 - 12 giờ", "isCorrect": true},
+        {"text": "Trên 24 giờ", "isCorrect": false},
+        {"text": "Vừa mới chết 15 phút", "isCorrect": false}
+      ],
+      "explanation": "Dựa trên quy luật nguội dần từ ngoại vi vào trung tâm."
+    },
+    {
+      "question": "Thức ăn cháo lưu lại dạ dày lâu hơn nước bao nhiêu lâu?",
+      "options": [
+        {"text": "Không lâu hơn", "isCorrect": false},
+        {"text": "Khoảng 2 giờ (cháo 1-3h, nước 1h)", "isCorrect": true},
+        {"text": "Lâu hơn 10 giờ", "isCorrect": false},
+        {"text": "Cháo tiêu nhanh hơn nước", "isCorrect": false}
+      ],
+      "explanation": "Số liệu so sánh từ mục IV.5."
+    },
+    {
+      "question": "Tiêu chuẩn lâm sàng 'Glasgow bằng 3 điểm' tương ứng với trạng thái nào?",
+      "options": [
+        {"text": "Tỉnh táo", "isCorrect": false},
+        {"text": "Ngủ gật", "isCorrect": false},
+        {"text": "Hôn mê sâu nhất (không phản ứng)", "isCorrect": true},
+        {"text": "Lú lẫn", "isCorrect": false}
+      ],
+      "explanation": "3 là mức thấp nhất của thang điểm hôn mê Glasgow."
+    }
+  ]

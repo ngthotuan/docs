@@ -1,0 +1,762 @@
+[
+    {
+      "question": "Thử răng (Try-in) trong phục hình tháo lắp có ý nghĩa gì đối với bệnh nhân?",
+      "options": [
+        {"text": "Là bước để bác sĩ thu tiền", "isCorrect": false},
+        {"text": "Giúp bệnh nhân có cơ hội nhìn thấy được hàm giả trong tương lai ở dạng sáp", "isCorrect": true},
+        {"text": "Là lúc bệnh nhân mang hàm về nhà dùng thử", "isCorrect": false},
+        {"text": "Để mài răng thật cho nhỏ lại", "isCorrect": false}
+      ],
+      "explanation": "Thử răng là giai đoạn lâm sàng giúp bệnh nhân hình dung được thẩm mỹ nụ cười và chức năng của hàm giả tương lai trước khi ép nhựa vĩnh viễn."
+    },
+    {
+      "question": "Chỉ định thử răng bắt buộc áp dụng cho trường hợp nào?",
+      "options": [
+        {"text": "Khi điểm chạm răng thật ít hoặc mất quá nhiều răng", "isCorrect": true},
+        {"text": "Khi chỉ mất 1 răng hàm nhỏ duy nhất", "isCorrect": false},
+        {"text": "Khi bệnh nhân không quan tâm đến thẩm mỹ", "isCorrect": false},
+        {"text": "Mọi trường hợp đều không cần thử răng", "isCorrect": false}
+      ],
+      "explanation": "Khi mất nhiều răng hoặc điểm chạm ít, tương quan khớp cắn khó kiểm soát nên cần thử trên sáp để điều chỉnh chính xác."
+    },
+    {
+      "question": "Việc thử răng nhằm mục đích đánh giá những yếu tố chính nào?",
+      "options": [
+        {"text": "Chỉ thẩm mỹ", "isCorrect": false},
+        {"text": "Chỉ chức năng", "isCorrect": false},
+        {"text": "Thẩm mỹ, chức năng và sự hài lòng của bệnh nhân", "isCorrect": true},
+        {"text": "Giá thành của hàm", "isCorrect": false}
+      ],
+      "explanation": "Bác sĩ cần đánh giá tổng thể từ vẻ ngoài, khả năng ăn nhai, phát âm đến cảm nhận chủ quan của người bệnh."
+    },
+    {
+      "question": "Đánh giá thẩm mỹ khi thử răng bao gồm những nội dung nào?",
+      "options": [
+        {"text": "Sự hài hòa về màu sắc, hình dáng, kích thước với các răng thật", "isCorrect": false},
+        {"text": "Vị trí răng giả so với đường giữa và đường cười", "isCorrect": false},
+        {"text": "Sự nâng đỡ của môi và má", "isCorrect": false},
+        {"text": "Tất cả các nội dung trên", "isCorrect": true}
+      ],
+      "explanation": "Thẩm mỹ trong phục hình là sự tổng hòa của răng giả với các cấu trúc khuôn mặt xung quanh."
+    },
+    {
+      "question": "Thao tác nào giúp bác sĩ đánh giá thẩm mỹ tốt nhất khi thử răng?",
+      "options": [
+        {"text": "Cho bệnh nhân nhắm mắt", "isCorrect": false},
+        {"text": "Cho bệnh nhân nhìn gương cười và thực hiện các động tác diễn cảm", "isCorrect": true},
+        {"text": "Yêu cầu bệnh nhân nằm ngửa", "isCorrect": false},
+        {"text": "Bác sĩ tự quan sát không cần hỏi bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Động tác cười và nói giúp bộc lộ các sai sót về vị trí răng giả so với đường môi nướu tự nhiên."
+    },
+    {
+      "question": "Kiểm tra chức năng khi thử răng tập trung vào yếu tố kỹ thuật nào?",
+      "options": [
+        {"text": "Kích thước dọc và Khớp cắn trung tâm", "isCorrect": true},
+        {"text": "Độ cứng của nhựa", "isCorrect": false},
+        {"text": "Số lượng móc kim loại", "isCorrect": false},
+        {"text": "Mùi của sáp", "isCorrect": false}
+      ],
+      "explanation": "Khớp cắn đúng và kích thước dọc chuẩn là nền tảng của chức năng nhai và sức khỏe khớp thái dương hàm."
+    },
+    {
+      "question": "Hệ quả của việc xác định kích thước dọc (KTD) quá cao là gì?",
+      "options": [
+        {"text": "Mặt bệnh nhân bị móm", "isCorrect": false},
+        {"text": "Bệnh nhân thấy mỏi cơ nhai, khó khép môi và răng giả chạm nhau khi nói", "isCorrect": true},
+        {"text": "Răng giả bị lỏng lẻo", "isCorrect": false},
+        {"text": "Ăn nhai thấy rất nhẹ nhàng", "isCorrect": false}
+      ],
+      "explanation": "KTD cao khiến cơ luôn bị kéo căng quá mức, gây mỏi và mất khoảng hở tự do cần thiết cho phát âm."
+    },
+    {
+      "question": "Hệ quả của việc kích thước dọc quá thấp là gì?",
+      "options": [
+        {"text": "Mặt trông già, cằm nhô ra trước và có thể đau khớp", "isCorrect": true},
+        {"text": "Môi bệnh nhân bị căng", "isCorrect": false},
+        {"text": "Khi nói các răng giả va vào nhau", "isCorrect": false},
+        {"text": "Thẩm mỹ rất tốt", "isCorrect": false}
+      ],
+      "explanation": "KTD thấp làm sụp tầng mặt dưới, khuôn mặt mất đi vẻ trẻ trung và gây quá tải lực lên đĩa khớp."
+    },
+    {
+      "question": "Khi kiểm tra khớp cắn trung tâm, gối sáp và răng thật phải đạt trạng thái nào?",
+      "options": [
+        {"text": "Chỉ răng thật chạm nhau", "isCorrect": false},
+        {"text": "Chỉ răng giả chạm nhau", "isCorrect": false},
+        {"text": "Răng thật và răng giả phải chạm nhau đồng thời và đều đặn", "isCorrect": true},
+        {"text": "Hở khoảng 5mm", "isCorrect": false}
+      ],
+      "explanation": "Sự tiếp xúc đồng đều đảm bảo lực nhai được phân phối cân bằng trên cả răng thật và niêm mạc."
+    },
+    {
+      "question": "Phát âm âm 'S' giúp kiểm tra yếu tố nào?",
+      "options": [
+        {"text": "Màu sắc răng nanh", "isCorrect": false},
+        {"text": "Khoảng nói tối thiểu (răng trên và dưới không được chạm nhau)", "isCorrect": true},
+        {"text": "Độ sâu của vòm miệng", "isCorrect": false},
+        {"text": "Trương lực cơ mút", "isCorrect": false}
+      ],
+      "explanation": "Nếu răng chạm nhau khi nói 'S', chứng tỏ kích thước dọc đang bị đặt quá cao."
+    },
+    {
+      "question": "Âm 'F' và 'V' dùng để kiểm tra vị trí nào của răng trước trên?",
+      "options": [
+        {"text": "Độ nghiêng ngoài trong", "isCorrect": false},
+        {"text": "Chiều dài răng (rìa cắn răng trên chạm nhẹ môi dưới)", "isCorrect": true},
+        {"text": "Khoảng cách đến răng khôn", "isCorrect": false},
+        {"text": "Độ rộng cung hàm", "isCorrect": false}
+      ],
+      "explanation": "Khi phát âm F, V, môi dưới phải tựa nhẹ vào rìa cắn răng trước trên để luồng hơi thoát ra đúng âm tiết."
+    },
+    {
+      "question": "Sau khi thử răng đạt yêu cầu, bước tiếp theo bác sĩ cần làm là gì?",
+      "options": [
+        {"text": "Giao hàm cho bệnh nhân", "isCorrect": false},
+        {"text": "Chuyển Labo vô khuôn, ép nhựa và hoàn thiện", "isCorrect": true},
+        {"text": "Nhổ các răng thật còn lại", "isCorrect": false},
+        {"text": "Lấy dấu lại lần nữa", "isCorrect": false}
+      ],
+      "explanation": "Thử răng sáp thành công là lệnh để xưởng sản xuất phục hình vĩnh viễn bằng nhựa."
+    },
+    {
+      "question": "Quy trình 'Lắp hàm' (Denture Insertion) bắt đầu bằng việc kiểm tra yếu tố nào đầu tiên?",
+      "options": [
+        {"text": "Độ trắng của răng", "isCorrect": false},
+        {"text": "Kiểm tra nền hàm và mặt trong phục hình xem có nốt sần, nhám gây đau không", "isCorrect": true},
+        {"text": "Yêu cầu bệnh nhân trả tiền", "isCorrect": false},
+        {"text": "Uốn móc thật chặt", "isCorrect": false}
+      ],
+      "explanation": "Phải đảm bảo bề mặt tiếp xúc niêm mạc trơn láng trước khi đưa vào miệng bệnh nhân."
+    },
+    {
+      "question": "Cách kiểm tra 'Hướng lắp hàm' chính xác là gì?",
+      "options": [
+        {"text": "Dùng lực mạnh ấn hàm xuống", "isCorrect": false},
+        {"text": "Kiểm tra xem hàm có trượt vào đúng vị trí một cách nhẹ nhàng không", "isCorrect": true},
+        {"text": "Bôi keo vào nướu", "isCorrect": false},
+        {"text": "Mài cụt hết răng trụ", "isCorrect": false}
+      ],
+      "explanation": "Hàm giả phải vào đúng quỹ đạo tháo lắp đã thiết kế trên song song kế mà không bị cản trở."
+    },
+    {
+      "question": "Khi bệnh nhân phàn nàn bị đau ở ngách tiền đình sau khi gắn hàm, bác sĩ nên kiểm tra gì?",
+      "options": [
+        {"text": "Độ dài biên giới nền hàm (có thể bị quá dài)", "isCorrect": true},
+        {"text": "Màu sắc răng", "isCorrect": false},
+        {"text": "Số lượng móc", "isCorrect": false},
+        {"text": "Lưỡi bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Nền hàm quá dài sẽ đâm vào vùng mô di động gây loét và đau khi bệnh nhân cử động môi má."
+    },
+    {
+      "question": "Dụng cụ 'Giấy cắn' dùng trong giai đoạn lắp hàm để làm gì?",
+      "options": [
+        {"text": "Để lau sạch hàm", "isCorrect": false},
+        {"text": "Xác định các điểm vướng, cản trở khớp cắn để mài chỉnh", "isCorrect": true},
+        {"text": "Để trang trí", "isCorrect": false},
+        {"text": "Đo kích thước dọc", "isCorrect": false}
+      ],
+      "explanation": "Giấy cắn đánh dấu các điểm chạm sớm gây bấp bênh hoặc đau khi nhai."
+    },
+    {
+      "question": "Tại sao không nên nắn chỉnh móc quá chặt ngay trong lần đầu gắn hàm?",
+      "options": [
+        {"text": "Để hàm dễ rơi", "isCorrect": false},
+        {"text": "Tránh gây áp lực quá lớn lên răng trụ khiến bệnh nhân khó tháo lắp và gây đau", "isCorrect": true},
+        {"text": "Vì móc sẽ tự chặt lại", "isCorrect": false},
+        {"text": "Tiết kiệm thời gian", "isCorrect": false}
+      ],
+      "explanation": "Cần để bệnh nhân làm quen dần với lực bám giữ, điều chỉnh móc từ từ qua các lần tái khám."
+    },
+    {
+      "question": "Nguyên nhân gây đau vùng 'lẹm mô mềm' khi tháo lắp hàm là do đâu?",
+      "options": [
+        {"text": "Nền hàm nhựa cứng không thể co giãn qua vùng lẹm", "isCorrect": true},
+        {"text": "Nhựa bị nóng", "isCorrect": false},
+        {"text": "Bệnh nhân lười đánh răng", "isCorrect": false},
+        {"text": "Răng sứ quá nhọn", "isCorrect": false}
+      ],
+      "explanation": "Hướng lắp không né được vùng lẹm xương/mô mềm sẽ gây trầy xước niêm mạc mỗi khi tháo lắp hàm."
+    },
+    {
+      "question": "Khi răng mang móc bị nhổ, giải pháp sửa chữa hàm thường là gì?",
+      "options": [
+        {"text": "Vứt hàm cũ làm hàm mới hoàn toàn", "isCorrect": false},
+        {"text": "Thêm răng và thêm móc vào răng trụ mới trên hàm cũ", "isCorrect": true},
+        {"text": "Chỉ cần dán keo", "isCorrect": false},
+        {"text": "Mài móc cũ đi", "isCorrect": false}
+      ],
+      "explanation": "Nền nhựa acrylic cho phép bác sĩ và labo bổ sung thêm linh kiện để kéo dài tuổi thọ phục hình."
+    },
+    {
+      "question": "Quy trình thêm răng/móc bắt đầu bằng bước lâm sàng nào?",
+      "options": [
+        {"text": "Lấy khuôn hai hàm (trong đó có một hàm mang phục hình cũ)", "isCorrect": true},
+        {"text": "Đốt cháy nền hàm", "isCorrect": false},
+        {"text": "Mài răng thật", "isCorrect": false},
+        {"text": "Chụp X-quang", "isCorrect": false}
+      ],
+      "explanation": "Bác sĩ lấy dấu có mang hàm giả trong miệng để labo có mẫu hàm chính xác cho việc sửa chữa."
+    },
+    {
+      "question": "Thuật ngữ 'Đệm hàm' (Relining) được chỉ định trong trường hợp nào?",
+      "options": [
+        {"text": "Khi răng giả bị đen", "isCorrect": false},
+        {"text": "Xương ổ tiêu làm hàm bập bênh, lỏng lẻo sau thời gian sử dụng", "isCorrect": true},
+        {"text": "Khi bệnh nhân muốn thay móc vàng", "isCorrect": false},
+        {"text": "Khi răng bị vỡ", "isCorrect": false}
+      ],
+      "explanation": "Đệm hàm giúp bù đắp khoảng trống do tiêu xương sống hàm, tái lập độ khít sát của nền hàm."
+    },
+    {
+      "question": "Có bao nhiêu phương pháp đệm hàm chính?",
+      "options": [
+        {"text": "1 phương pháp", "isCorrect": false},
+        {"text": "2 phương pháp: Trực tiếp và Gián tiếp (gửi Labo)", "isCorrect": true},
+        {"text": "3 phương pháp", "isCorrect": false},
+        {"text": "Không có phương pháp nào", "isCorrect": false}
+      ],
+      "explanation": "Tùy điều kiện và yêu cầu độ bền mà chọn đệm trực tiếp tại ghế hoặc gửi xưởng nấu nhựa."
+    },
+    {
+      "question": "Đệm hàm bằng nhựa luộc (gián tiếp) có ưu điểm gì so với nhựa tự cứng trực tiếp?",
+      "options": [
+        {"text": "Làm nhanh hơn", "isCorrect": false},
+        {"text": "Nhựa bền hơn, ít bọt khí và ít gây kích ứng niêm mạc do thoát hết monomer", "isCorrect": true},
+        {"text": "Rẻ tiền hơn", "isCorrect": false},
+        {"text": "Bệnh nhân không phải tháo hàm", "isCorrect": false}
+      ],
+      "explanation": "Quy trình nấu nhựa công nghiệp đảm bảo chất lượng vật liệu tốt nhất cho nền hàm."
+    },
+    {
+      "question": "Trước khi đệm hàm, bác sĩ cần làm gì với mặt dưới của nền hàm cũ?",
+      "options": [
+        {"text": "Đánh bóng gương", "isCorrect": false},
+        {"text": "Mài nhám và làm sạch vùng cần đệm", "isCorrect": true},
+        {"text": "Bôi dầu ăn", "isCorrect": false},
+        {"text": "Sơn màu đỏ", "isCorrect": false}
+      ],
+      "explanation": "Tạo độ nhám giúp lớp nhựa mới liên kết bền vững với lớp nhựa cũ."
+    },
+    {
+      "question": "Vật liệu nào thường dùng để lấy dấu chính xác vùng cần đệm hàm?",
+      "options": [
+        {"text": "Thạch cao xây dựng", "isCorrect": false},
+        {"text": "Silicon nhẹ hoặc sáp mềm láng vào đáy hàm", "isCorrect": true},
+        {"text": "Bột mì", "isCorrect": false},
+        {"text": "Nhựa cứng", "isCorrect": false}
+      ],
+      "explanation": "Vật liệu lỏng giúp ghi lại hình dáng sống hàm hiện tại mà không gây áp lực lệch."
+    },
+    {
+      "question": "Sau khi cho vật liệu lấy dấu vào hàm, yêu cầu bệnh nhân thực hiện động tác gì?",
+      "options": [
+        {"text": "Há miệng tối đa", "isCorrect": false},
+        {"text": "Cắn đúng khớp cắn trung tâm và giữ nguyên trong 3-5 phút", "isCorrect": true},
+        {"text": "Nói chuyện liên tục", "isCorrect": false},
+        {"text": "Thổi sáo", "isCorrect": false}
+      ],
+      "explanation": "Việc cắn khớp đảm bảo lớp đệm mới không làm thay đổi tương quan khớp cắn của bệnh nhân."
+    },
+    {
+      "question": "Nhược điểm của phương pháp đệm hàm trực tiếp bằng nhựa tự cứng là gì?",
+      "options": [
+        {"text": "Dễ gây bỏng niêm mạc do phản ứng tỏa nhiệt và monomer dư gây kích ứng", "isCorrect": true},
+        {"text": "Làm hàm bị nặng hơn", "isCorrect": false},
+        {"text": "Nhựa quá trắng", "isCorrect": false},
+        {"text": "Tốn quá nhiều thời gian của bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Nhựa tự cứng trùng hợp ngay trong miệng sinh nhiệt và hóa chất có thể gây hại cho nướu nhạy cảm."
+    },
+    {
+      "question": "Trong quy trình Labo sửa hàm (Trang 41), bước 'Dội sáp' nhằm mục đích gì?",
+      "options": [
+        {"text": "Làm sạch vi khuẩn", "isCorrect": false},
+        {"text": "Loại bỏ sáp tạm để tạo khoảng trống nhồi nhựa vĩnh viễn", "isCorrect": true},
+        {"text": "Để nhựa có mùi thơm", "isCorrect": false},
+        {"text": "Để mài kim loại", "isCorrect": false}
+      ],
+      "explanation": "Đây là bước chuyển đổi từ mẫu sửa bằng sáp sang nhựa acrylic."
+    },
+    {
+      "question": "Khi thay móc mới cho hàm cũ, labo cần làm gì đầu tiên với móc hỏng?",
+      "options": [
+        {"text": "Uốn móc mới đè lên", "isCorrect": false},
+        {"text": "Mài chỉnh nền hàm và lấy bỏ phần đuôi móc cũ", "isCorrect": true},
+        {"text": "Sơn lại móc", "isCorrect": false},
+        {"text": "Gắn keo dán sắt", "isCorrect": false}
+      ],
+      "explanation": "Phải giải phóng không gian trong nền nhựa để đặt đuôi móc mới vào vị trí."
+    },
+    {
+      "question": "Dặn dò bệnh nhân sau khi lắp hàm (Trang 32) bao gồm nội dung gì?",
+      "options": [
+        {"text": "Cách tháo lắp hàm nhẹ nhàng", "isCorrect": false},
+        {"text": "Cách vệ sinh răng thật và hàm giả", "isCorrect": false},
+        {"text": "Lịch tái khám định kỳ", "isCorrect": false},
+        {"text": "Tất cả các nội dung trên", "isCorrect": true}
+      ],
+      "explanation": "Sự tuân thủ của bệnh nhân quyết định độ bền và sức khỏe mô nâng đỡ phục hình."
+    },
+    {
+      "question": "Đánh giá chức năng răng nanh (nhắc lại từ tệp 12) trong giai đoạn thử răng là gì?",
+      "options": [
+        {"text": "Khi đưa hàm sang bên, chỉ răng nanh chạm gây nhà khớp răng sau", "isCorrect": true},
+        {"text": "Răng nanh không được chạm", "isCorrect": false},
+        {"text": "Răng nanh phải màu vàng", "isCorrect": false},
+        {"text": "Răng nanh dùng để cắt bánh mỳ", "isCorrect": false}
+      ],
+      "explanation": "Đây là khái niệm khớp cắn bảo vệ răng sau được kiểm tra kỹ khi thử răng sáp."
+    },
+    {
+      "question": "Tại sao phải kiểm tra 'Đường giữa' của răng giả trước (Trang 5)?",
+      "options": [
+        {"text": "Để bệnh nhân ăn ngon", "isCorrect": false},
+        {"text": "Đảm bảo thẩm mỹ cân đối, tránh khuôn mặt bị lệch khi cười", "isCorrect": true},
+        {"text": "Để răng không bị rụng", "isCorrect": false},
+        {"text": "Tiết kiệm răng giả", "isCorrect": false}
+      ],
+      "explanation": "Đường giữa răng cửa phải trùng với trục dọc của khuôn mặt."
+    },
+    {
+      "question": "Hiện tượng 'tiếng chạm răng' khi bệnh nhân nói chuyện là dấu hiệu của:",
+      "options": [
+        {"text": "Bệnh nhân nói quá nhanh", "isCorrect": false},
+        {"text": "Kích thước dọc bị đặt quá cao", "isCorrect": true},
+        {"text": "Răng giả quá lỏng", "isCorrect": false},
+        {"text": "Nhựa bị giòn", "isCorrect": false}
+      ],
+      "explanation": "Mất khoảng trống tự do khiến các mặt nhai va chạm vào nhau tạo tiếng kêu lạch cạch."
+    },
+    {
+      "question": "Khám phục hình cũ (nhắc lại từ tệp 5) giúp bác sĩ sửa chữa hàm như thế nào?",
+      "options": [
+        {"text": "Biết được thói quen vệ sinh của bệnh nhân", "isCorrect": false},
+        {"text": "Phát hiện các lỗi thiết kế cũ để tránh lặp lại trên hàm mới", "isCorrect": true},
+        {"text": "Để tính tiền rẻ hơn", "isCorrect": false},
+        {"text": "Để lấy mẫu sáp", "isCorrect": false}
+      ],
+      "explanation": "Lịch sử sử dụng hàm cũ là dữ liệu quý báu để cải thiện phục hình mới."
+    },
+    {
+      "question": "Tại sao bệnh nhân cần 'nhìn gương cười' khi thử răng (Trang 5)?",
+      "options": [
+        {"text": "Để họ tự trang điểm", "isCorrect": false},
+        {"text": "Xác nhận sự đồng ý về thẩm mỹ, tránh việc BN không hài lòng sau khi ép nhựa", "isCorrect": true},
+        {"text": "Để bác sĩ nghỉ ngơi", "isCorrect": false},
+        {"text": "Để chụp ảnh làm quảng cáo", "isCorrect": false}
+      ],
+      "explanation": "Khi đã ép nhựa thì việc thay đổi hình dáng, màu sắc răng là cực kỳ khó khăn và tốn kém."
+    },
+    {
+      "question": "Tình trạng 'Bập bênh' của hàm giả cũ là do nguyên nhân sinh lý nào?",
+      "options": [
+        {"text": "Răng mọc dài ra", "isCorrect": false},
+        {"text": "Tiêu xương ổ răng liên tục theo thời gian", "isCorrect": true},
+        {"text": "Cơ nhai khỏe lên", "isCorrect": false},
+        {"text": "Do bệnh nhân già đi", "isCorrect": false}
+      ],
+      "explanation": "Xương tiêu làm nền hàm không còn khít sát với sống hàm, tạo khe hở gây bập bênh."
+    },
+    {
+      "question": "Khi lắp hàm, nếu thấy móc bị lỏng không giữ được hàm, bác sĩ xử trí thế nào?",
+      "options": [
+        {"text": "Nhổ răng trụ", "isCorrect": false},
+        {"text": "Dùng kìm nắn chỉnh nhẹ nhàng tay móc vào vùng lẹm sâu hơn", "isCorrect": true},
+        {"text": "Dán keo dính hàm", "isCorrect": false},
+        {"text": "Mài bỏ luôn cái móc", "isCorrect": false}
+      ],
+      "explanation": "Điều chỉnh móc lâm sàng là bước bắt buộc để đạt được lực giữ mong muốn."
+    },
+    {
+      "question": "Vùng 'Phanh môi, phanh má' (Trang 2) nếu bị nền hàm lấn át sẽ gây hậu quả gì?",
+      "options": [
+        {"text": "Hàm bám chắc hơn", "isCorrect": false},
+        {"text": "Đau loét và làm hàm bị bật ra khi bệnh nhân nói, cười", "isCorrect": true},
+        {"text": "Răng giả bị đổi màu", "isCorrect": false},
+        {"text": "Không có ảnh hưởng gì", "isCorrect": false}
+      ],
+      "explanation": "Biên giới nền hàm phải được giải tỏa tại các vị trí phanh cơ động."
+    },
+    {
+      "question": "Mục tiêu số 4 của bài học đề cập đến vấn đề gì?",
+      "options": [
+        {"text": "Lấy dấu", "isCorrect": false},
+        {"text": "Lên răng", "isCorrect": false},
+        {"text": "Nêu được các loại hàm cũ cần sửa và kỹ thuật thực hiện", "isCorrect": true},
+        {"text": "Mài ổ tựa", "isCorrect": false}
+      ],
+      "explanation": "Tài liệu dành một phần quan trọng hướng dẫn cách bảo trì và sửa chữa phục hình cũ."
+    },
+    {
+      "question": "Màu sắc răng giả được chọn nên dựa trên yếu tố nào là quan trọng nhất?",
+      "options": [
+        {"text": "Sở thích của labo", "isCorrect": false},
+        {"text": "Màu của các răng thật còn lại trên cung hàm", "isCorrect": true},
+        {"text": "Màu trắng tinh khiết", "isCorrect": false},
+        {"text": "Màu đen", "isCorrect": false}
+      ],
+      "explanation": "Sự đồng nhất màu sắc giúp hàm giả trông tự nhiên và khó bị phát hiện."
+    },
+    {
+      "question": "Hệ quả của việc nắn móc 'quá chặt' ngay lần đầu là gì?",
+      "options": [
+        {"text": "Hàm không bao giờ rơi", "isCorrect": false},
+        {"text": "Gây đau răng trụ và bệnh nhân không thể tự tháo hàm để vệ sinh", "isCorrect": true},
+        {"text": "Làm răng trụ chắc hơn", "isCorrect": false},
+        {"text": "Bệnh nhân thấy vui", "isCorrect": false}
+      ],
+      "explanation": "Móc chặt quá mức tạo áp lực ngang gây hại cho nha chu răng trụ và gây cản trở sinh hoạt của BN."
+    },
+    {
+      "question": "Tại sao phải 'thử răng' cho BN mất răng thẩm mỹ vùng cửa (Trang 3)?",
+      "options": [
+        {"text": "Để kiểm tra nhịp tim", "isCorrect": false},
+        {"text": "Vì đây là vùng nhạy cảm ảnh hưởng trực tiếp đến diện mạo và giao tiếp", "isCorrect": true},
+        {"text": "Vì răng cửa rẻ tiền", "isCorrect": false},
+        {"text": "Để lấy tủy răng cửa", "isCorrect": false}
+      ],
+      "explanation": "Sự hài lòng của bệnh nhân về thẩm mỹ răng trước là yếu tố sống còn của ca điều trị."
+    },
+    {
+      "question": "Việc đánh giá 'Sự hài hòa' của răng giả bao gồm các tiêu chí nào?",
+      "options": [
+        {"text": "Màu sắc, hình dáng, kích thước và vị trí", "isCorrect": true},
+        {"text": "Chỉ tính màu sắc", "isCorrect": false},
+        {"text": "Độ nặng nhẹ của hàm", "isCorrect": false},
+        {"text": "Tên thương hiệu răng", "isCorrect": false}
+      ],
+      "explanation": "Cần sự phối hợp của cả 4 tiêu chí trên để tạo nên một bộ răng giả đẹp tự nhiên."
+    },
+    {
+      "question": "Tiêu chuẩn 'Rìa cắn răng cửa trên tiếp xúc bờ môi dưới' (nhắc lại từ tệp 3) giúp gì cho thẩm mỹ?",
+      "options": [
+        {"text": "Tạo đường cười trẻ trung, hài hòa", "isCorrect": true},
+        {"text": "Làm răng ngắn lại", "isCorrect": false},
+        {"text": "Để che sâu răng dưới", "isCorrect": false},
+        {"text": "Làm môi đỏ hơn", "isCorrect": false}
+      ],
+      "explanation": "Sự hài hòa giữa đường cong môi dưới và rìa cắn răng trên tạo nên nụ cười rạng rỡ."
+    },
+    {
+      "question": "Trong hình vẽ trang 42, tình trạng 'hàm giả bập bênh' do tiêu xương ổ răng dẫn đến:",
+      "options": [
+        {"text": "Ăn nhai ngon hơn", "isCorrect": false},
+        {"text": "Khó ăn nhai, đau niêm mạc và dễ gãy hàm do ứng suất lệch", "isCorrect": true},
+        {"text": "Xương mọc lại dày hơn", "isCorrect": false},
+        {"text": "Không có vấn đề gì", "isCorrect": false}
+      ],
+      "explanation": "Bập bênh làm lực nhai tập trung vào những điểm nhất định gây loét và nứt gãy nền nhựa."
+    },
+    {
+      "question": "Nhựa tự cứng trực tiếp thường có đặc điểm gì về mùi vị?",
+      "options": [
+        {"text": "Rất thơm", "isCorrect": false},
+        {"text": "Mùi hăng nồng khó chịu và có vị đắng do monomer tự do", "isCorrect": true},
+        {"text": "Không có mùi", "isCorrect": false},
+        {"text": "Vị ngọt", "isCorrect": false}
+      ],
+      "explanation": "Monomer dư trong nhựa tự cứng là chất hóa học mạnh gây kích ứng vị giác và khứu giác bệnh nhân."
+    },
+    {
+      "question": "Mục đích của việc 'mài nhám' mặt trong răng sứ khi sửa hàm là gì?",
+      "options": [
+        {"text": "Để răng giả to ra", "isCorrect": false},
+        {"text": "Tăng diện tích tiếp xúc và độ bám dính cơ học với nhựa", "isCorrect": true},
+        {"text": "Để thay đổi màu răng", "isCorrect": false},
+        {"text": "Làm sạch răng", "isCorrect": false}
+      ],
+      "explanation": "Răng sứ không dính nhựa hóa học nên cần độ nhám để 'khóa' nhựa vào chân răng giả."
+    },
+    {
+      "question": "Khi thử răng, nếu BN thấy 'căng môi' và 'mặt dài ra', bác sĩ cần làm gì?",
+      "options": [
+        {"text": "Nhổ bớt răng", "isCorrect": false},
+        {"text": "Hạ thấp chiều cao gối sáp vì KTD đang quá cao", "isCorrect": true},
+        {"text": "Bôi thêm sáp", "isCorrect": false},
+        {"text": "Để bệnh nhân tự làm quen", "isCorrect": false}
+      ],
+      "explanation": "Điều chỉnh ngay ở giai đoạn sáp giúp phục hồi lại chiều cao mặt hài hòa."
+    },
+    {
+      "question": "Phát âm âm 'S' mà thấy hở khoảng 10mm giữa hai hàm thì:",
+      "options": [
+        {"text": "Kích thước dọc quá cao", "isCorrect": false},
+        {"text": "Kích thước dọc bị quá thấp (móm)", "isCorrect": true},
+        {"text": "Khớp cắn hoàn hảo", "isCorrect": false},
+        {"text": "Răng giả quá to", "isCorrect": false}
+      ],
+      "explanation": "Khoảng cách quá lớn khi phát âm gió chứng tỏ hàm dưới đang bị đóng quá mức."
+    },
+    {
+      "question": "Kết luận cuối cùng của bài học nhấn mạnh điều gì?",
+      "options": [
+        {"text": "Bác sĩ chỉ cần làm đúng kỹ thuật", "isCorrect": false},
+        {"text": "Sự thành công của phục hình phụ thuộc vào sự phối hợp tỉ mỉ từ thử răng đến lắp hàm và hậu mãi", "isCorrect": true},
+        {"text": "Chỉ cần bệnh nhân trả tiền", "isCorrect": false},
+        {"text": "Hàm nhựa là tốt nhất", "isCorrect": false}
+      ],
+      "explanation": "Mọi giai đoạn lâm sàng đều quan trọng để tạo ra một phục hình bền vững và thoải mái."
+    },
+    {
+      "question": "Tại sao phải thử răng 2 lần (Trang 3) cho một số ca phức tạp?",
+      "options": [
+        {"text": "Để bác sĩ tập luyện", "isCorrect": false},
+        {"text": "Đảm bảo sự khít sát tuyệt đối của cả thẩm mỹ và khớp cắn", "isCorrect": true},
+        {"text": "Để tốn thêm tiền sáp", "isCorrect": false},
+        {"text": "Bệnh nhân muốn vậy", "isCorrect": false}
+      ],
+      "explanation": "Các ca mất nhiều răng hoặc thẩm mỹ cao cần nhiều thời gian tinh chỉnh tỉ mỉ hơn."
+    },
+    {
+      "question": "Khi lắp hàm, 'Thanh nối chính' hàm trên (nhắc lại) cần lưu ý gì?",
+      "options": [
+        {"text": "Phải đè thật mạnh vào vòm miệng", "isCorrect": false},
+        {"text": "Phải khít sát nhưng không gây nén đau mô mềm vòm miệng", "isCorrect": true},
+        {"text": "Phải làm bằng nhựa mềm", "isCorrect": false},
+        {"text": "Nằm trên lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Tiếp xúc đúng mức giúp ổn định hàm mà không gây loét vùng khẩu cái."
+    },
+    {
+      "question": "Hành động 'nắn chỉnh lại móc' sau khi lắp hàm do ai thực hiện?",
+      "options": [
+        {"text": "Bệnh nhân bằng kìm gia đình", "isCorrect": false},
+        {"text": "Bác sĩ lâm sàng tại phòng mạch", "isCorrect": true},
+        {"text": "Bảo vệ phòng khám", "isCorrect": false},
+        {"text": "Bệnh nhân dùng tay kéo", "isCorrect": false}
+      ],
+      "explanation": "Chỉ bác sĩ mới có kiến thức chuyên môn để điều chỉnh lực móc mà không làm gãy kim loại."
+    },
+    {
+      "question": "Đệm hàm gián tiếp yêu cầu bệnh nhân phải:",
+      "options": [
+        {"text": "Đeo hàm 24/24", "isCorrect": false},
+        {"text": "Gửi hàm lại phòng khám hoặc Labo trong 1-2 ngày để nấu nhựa", "isCorrect": true},
+        {"text": "Uống thuốc giảm đau", "isCorrect": false},
+        {"text": "Nhịn ăn", "isCorrect": false}
+      ],
+      "explanation": "Quy trình này cần thời gian xử lý kỹ thuật tại xưởng phục hình."
+    },
+    {
+      "question": "Vết loét niêm mạc do 'biên giới nền hàm quá dài' thường có hình dạng gì?",
+      "options": [
+        {"text": "Hình tròn ở giữa lưỡi", "isCorrect": false},
+        {"text": "Vết loét dài theo rãnh hành lang tương ứng với bờ nền hàm", "isCorrect": true},
+        {"text": "Răng bị đen", "isCorrect": false},
+        {"text": "Sưng toàn bộ mặt", "isCorrect": false}
+      ],
+      "explanation": "Sang chấn cơ học tạo ra vết loét khu trú đúng tại vị trí tỳ đè quá mức."
+    },
+    {
+      "question": "Khi thay móc mới, việc uốn móc do bộ phận nào đảm nhiệm (Trang 41)?",
+      "options": [
+        {"text": "Lâm sàng", "isCorrect": false},
+        {"text": "Labo", "isCorrect": true},
+        {"text": "Bệnh nhân", "isCorrect": false},
+        {"text": "Y tá", "isCorrect": false}
+      ],
+      "explanation": "Kỹ thuật viên labo thực hiện việc uốn móc mới trên mẫu thạch cao chính xác."
+    },
+    {
+      "question": "Răng giả bị 'mòn mặt nhai' sau 5 năm sử dụng thường gặp ở vật liệu nào?",
+      "options": [
+        {"text": "Răng sứ", "isCorrect": false},
+        {"text": "Răng nhựa Acrylic", "isCorrect": true},
+        {"text": "Răng kim loại", "isCorrect": false},
+        {"text": "Răng Composite", "isCorrect": false}
+      ],
+      "explanation": "Nhựa mềm hơn sứ nên tốc độ mòn cơ học do ăn nhai diễn ra nhanh hơn."
+    },
+    {
+      "question": "Mục tiêu 2 của bài học này là gì?",
+      "options": [
+        {"text": "Cách lấy dấu", "isCorrect": false},
+        {"text": "Trình bày được cách lắp hàm", "isCorrect": true},
+        {"text": "Cách đúc khung", "isCorrect": false},
+        {"text": "Cách mài ổ tựa", "isCorrect": false}
+      ],
+      "explanation": "Nội dung mục tiêu 2 tập trung vào kỹ thuật gắn phục hình hoàn thiện vào miệng BN."
+    },
+    {
+      "question": "Tại sao cần 'cho BN tập nói' ngay sau khi lắp hàm mới?",
+      "options": [
+        {"text": "Để BN nhanh hết đau", "isCorrect": false},
+        {"text": "Để lưỡi và các cơ làm quen với vật thể lạ và bác sĩ kiểm tra âm tiết", "isCorrect": true},
+        {"text": "Để BN thấy mệt", "isCorrect": false},
+        {"text": "Để răng trắng hơn", "isCorrect": false}
+      ],
+      "explanation": "Hàm giả ảnh hưởng đến không gian phát âm, BN cần thời gian thích nghi để nói rõ chữ."
+    },
+    {
+      "question": "Việc ghi dấu tương quan tâm khi đệm hàm (Trang 43) giúp ích gì?",
+      "options": [
+        {"text": "Đảm bảo độ dày nền nhựa mới đồng nhất", "isCorrect": false},
+        {"text": "Giữ cho khớp cắn không bị lệch lạc sau khi đệm thêm lớp nhựa mới", "isCorrect": true},
+        {"text": "Để BN thấy khó chịu", "isCorrect": false},
+        {"text": "Làm sạch hàm", "isCorrect": false}
+      ],
+      "explanation": "Khớp cắn ổn định là điều kiện tiên quyết của một ca đệm hàm thành công."
+    },
+    {
+      "question": "Dấu hiệu 'Hàm bị lỏng' sau khi đệm hàm trực tiếp thường do:",
+      "options": [
+        {"text": "Nhựa bị co rút trong quá trình trùng hợp tự cứng", "isCorrect": true},
+        {"text": "Bệnh nhân ăn quá nhiều", "isCorrect": false},
+        {"text": "Răng giả quá nặng", "isCorrect": false},
+        {"text": "Bác sĩ mài quá nhiều", "isCorrect": false}
+      ],
+      "explanation": "Nhựa tự cứng có độ co nhất định, đôi khi làm giảm hiệu quả khít sát so với dự kiến."
+    },
+    {
+      "question": "Răng trụ mới (khi thêm răng/móc) cần được bác sĩ kiểm tra yếu tố nào?",
+      "options": [
+        {"text": "Độ lung lay và sức khỏe nha chu", "isCorrect": true},
+        {"text": "Độ dài chân răng", "isCorrect": false},
+        {"text": "Màu sắc tủy", "isCorrect": false},
+        {"text": "Số lượng lỗ sâu", "isCorrect": false}
+      ],
+      "explanation": "Răng trụ mới phải đủ khỏe mạnh để gánh vác trọng trách nâng đỡ phần phục hình bổ sung."
+    },
+    {
+      "question": "Kỹ thuật 'Mài nhám và làm sạch đáy hàm' trước khi đệm hàm nhằm?",
+      "options": [
+        {"text": "Làm hàm giả nhẹ hơn", "isCorrect": false},
+        {"text": "Tăng cường sự liên kết hóa học và cơ học giữa nhựa cũ và nhựa mới", "isCorrect": true},
+        {"text": "Để nướu không bị đau", "isCorrect": false},
+        {"text": "Để sơn màu nhựa", "isCorrect": false}
+      ],
+      "explanation": "Bề mặt sạch và nhám là điều kiện lý tưởng để hai lớp nhựa dính chặt vào nhau."
+    },
+    {
+      "question": "Tiêu chuẩn thẩm mỹ 'Nhìn gương cười' (Trang 5) giúp đánh giá?",
+      "options": [
+        {"text": "Độ lộ răng", "isCorrect": false},
+        {"text": "Vị trí đường cười", "isCorrect": false},
+        {"text": "Sự hài lòng chủ quan của bệnh nhân", "isCorrect": false},
+        {"text": "Tất cả các ý trên", "isCorrect": true}
+      ],
+      "explanation": "Sự đồng thuận của bệnh nhân về vẻ ngoài là bước quyết định để hoàn tất ca phục hình."
+    },
+    {
+      "question": "Tại sao phải 'kiểm tra khớp cắn' định kỳ sau khi gắn hàm 1 tuần?",
+      "options": [
+        {"text": "Để thu thêm tiền khám", "isCorrect": false},
+        {"text": "Phát hiện các điểm đau hoặc cản trở mới do hàm giả đã 'lún' ổn định vào niêm mạc", "isCorrect": true},
+        {"text": "Để thay răng mới", "isCorrect": false},
+        {"text": "Để đánh bóng lại móc", "isCorrect": false}
+      ],
+      "explanation": "Sau vài ngày sử dụng, hàm giả sẽ có độ lún sinh lý nhất định, cần mài chỉnh lại cho hoàn hảo."
+    },
+    {
+      "question": "Hướng dẫn bệnh nhân 'vệ sinh hàm giả' bằng cách nào là đúng?",
+      "options": [
+        {"text": "Dùng kem đánh răng có hạt mài mòn mạnh", "isCorrect": false},
+        {"text": "Dùng bàn chải mềm và xà phòng nhẹ hoặc dung dịch rửa chuyên dụng", "isCorrect": true},
+        {"text": "Luộc hàm trong nước sôi hàng ngày", "isCorrect": false},
+        {"text": "Ngâm trong cồn 90 độ", "isCorrect": false}
+      ],
+      "explanation": "Kem đánh răng thông thường có thể làm trầy xước nhựa, tạo điều kiện cho vi khuẩn bám dính."
+    },
+    {
+      "question": "Hệ quả của việc để hàm giả bị khô (không ngâm nước khi ngủ)?",
+      "options": [
+        {"text": "Nhựa bị biến dạng và giòn hơn", "isCorrect": true},
+        {"text": "Hàm bám chắc hơn", "isCorrect": false},
+        {"text": "Răng giả sẽ mọc dài ra", "isCorrect": false},
+        {"text": "Móc kim loại sẽ bị rỉ sét", "isCorrect": false}
+      ],
+      "explanation": "Nhựa acrylic cần môi trường ẩm để duy trì tính ổn định kích thước và độ dẻo dai."
+    },
+    {
+      "question": "Khi thử răng, việc đánh giá 'Phát âm' được thực hiện như thế nào?",
+      "options": [
+        {"text": "Cho bệnh nhân đọc các từ có âm gió và âm môi", "isCorrect": true},
+        {"text": "Yêu cầu bệnh nhân im lặng", "isCorrect": false},
+        {"text": "Yêu cầu bệnh nhân hát opera", "isCorrect": false},
+        {"text": "Cho bệnh nhân uống nước", "isCorrect": false}
+      ],
+      "explanation": "Kiểm tra âm S, F, V, M... giúp đảm bảo răng giả không cản trở cử động của lưỡi và môi."
+    },
+    {
+      "question": "Phát âm âm 'M' giúp kiểm tra điều gì?",
+      "options": [
+        {"text": "Độ khép kín của môi và vị trí răng cửa", "isCorrect": true},
+        {"text": "Độ dài răng khôn", "isCorrect": false},
+        {"text": "Vị trí phanh má", "isCorrect": false},
+        {"text": "Màu sắc nướu", "isCorrect": false}
+      ],
+      "explanation": "Âm 'M' đòi hỏi môi khép nhẹ nhàng tự nhiên, không bị căng do răng giả quá vổ."
+    },
+    {
+      "question": "Tại sao phục hình tháo lắp nền nhựa dễ bị hôi nếu vệ sinh kém?",
+      "options": [
+        {"text": "Do nhựa có tính thẩm thấu nước và tích tụ vi khuẩn trong các lỗ vi rỗ", "isCorrect": true},
+        {"text": "Do răng sứ có mùi", "isCorrect": false},
+        {"text": "Do móc kim loại", "isCorrect": false},
+        {"text": "Do sáp bám vào", "isCorrect": false}
+      ],
+      "explanation": "Cấu trúc vi thể của nhựa acrylic luôn có những lỗ nhỏ li ti là nơi trú ngụ của mảng bám."
+    },
+    {
+      "question": "Việc 'mài chỉnh tựa mặt nhai' (nhắc lại từ tệp 1) được thực hiện khi nào?",
+      "options": [
+        {"text": "Lần hẹn gắn hàm để đảm bảo không bị cản trở khớp cắn", "isCorrect": true},
+        {"text": "Trước khi lấy dấu", "isCorrect": false},
+        {"text": "Lúc bệnh nhân đang ngủ", "isCorrect": false},
+        {"text": "Chỉ mài khi răng thật bị vỡ", "isCorrect": false}
+      ],
+      "explanation": "Phải đảm bảo các tựa kim loại nằm lọt hoàn toàn trong ổ tựa mà không làm cao khớp cắn."
+    },
+    {
+      "question": "Tên bài học này được ghi ở slide đầu tiên là gì?",
+      "options": [
+        {"text": "Lấy dấu", "isCorrect": false},
+        {"text": "Thử Răng, Lắp Hàm và sửa chữa hàm cũ", "isCorrect": true},
+        {"text": "Nhổ răng", "isCorrect": false},
+        {"text": "Hàn răng", "isCorrect": false}
+      ],
+      "explanation": "Tiêu đề chính thức của tài liệu đào tạo RHM5."
+    },
+    {
+      "question": "Kích thước dọc nghỉ (RVD) được xác định bằng cách nào (nhắc lại)?",
+      "options": [
+        {"text": "Đo khoảng cách mũi cằm khi cơ hàm thư giãn hoàn toàn", "isCorrect": true},
+        {"text": "Đo khi BN cắn chặt", "isCorrect": false},
+        {"text": "Đo độ dài tai", "isCorrect": false},
+        {"text": "Sử dụng phim X-quang phổi", "isCorrect": false}
+      ],
+      "explanation": "Đây là thông số mốc ổn định để tính toán kích thước dọc cắn khớp."
+    },
+    {
+      "question": "Giá trị của 'Khoảng hở tự do' (nhắc lại) thường là bao nhiêu?",
+      "options": [
+        {"text": "0mm", "isCorrect": false},
+        {"text": "2 - 4mm", "isCorrect": true},
+        {"text": "10mm", "isCorrect": false},
+        {"text": "100mm", "isCorrect": false}
+      ],
+      "explanation": "Con số này xuất hiện xuyên suốt các bài giảng về khớp cắn tháo lắp."
+    },
+    {
+      "question": "Kết quả cuối cùng của việc sửa chữa hàm thành công là:",
+      "options": [
+        {"text": "Hàm giả trông như mới", "isCorrect": false},
+        {"text": "Phục hồi được chức năng và độ vững ổn cho bệnh nhân với chi phí tiết kiệm", "isCorrect": true},
+        {"text": "Bệnh nhân không cần tái khám", "isCorrect": false},
+        {"text": "Răng thật rụng hết", "isCorrect": false}
+      ],
+      "explanation": "Sửa hàm là giải pháp kinh tế và hiệu quả để duy trì phục hình cũ khi có biến đổi nhỏ."
+    },
+    {
+      "question": "Tiêu chuẩn của một ca lắp hàm hoàn hảo là gì?",
+      "options": [
+        {"text": "Hàm bám chắc, nhai tốt, phát âm rõ và BN thấy thoải mái", "isCorrect": true},
+        {"text": "Hàm thật trắng", "isCorrect": false},
+        {"text": "Hàm làm bằng vàng", "isCorrect": false},
+        {"text": "Bác sĩ không cần mài chỉnh", "isCorrect": false}
+      ],
+      "explanation": "Sự cân bằng giữa chức năng, thẩm mỹ và sự thoải mái là mục tiêu tối thượng."
+    }
+  ]

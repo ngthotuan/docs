@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ôn tập PTHM – Đề 2023-2024 (M22)</title>
+<style>
+  :root{
+    --bg:#0f172a; --card:#1e293b; --card2:#334155; --text:#e2e8f0; --muted:#94a3b8;
+    --green:#22c55e; --greenbg:#052e16; --red:#ef4444; --redbg:#450a0a;
+    --blue:#3b82f6; --accent:#38bdf8; --border:#334155;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f1f5f9; --card:#ffffff; --card2:#f8fafc; --text:#0f172a; --muted:#64748b;
+      --greenbg:#dcfce7; --redbg:#fee2e2; --border:#e2e8f0; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    background:var(--bg);color:var(--text);line-height:1.55;padding:16px;}
+  .wrap{max-width:820px;margin:0 auto;}
+  header{text-align:center;margin-bottom:18px;}
+  h1{font-size:20px;margin:0 0 4px;}
+  .sub{color:var(--muted);font-size:14px;}
+  .bar{position:sticky;top:0;z-index:10;background:var(--card);border:1px solid var(--border);
+    border-radius:12px;padding:10px 14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap;
+    margin-bottom:16px;box-shadow:0 2px 10px rgba(0,0,0,.15);}
+  .score{font-weight:600;font-size:15px;}
+  .score b{color:var(--accent);}
+  .bar button{background:var(--card2);color:var(--text);border:1px solid var(--border);
+    border-radius:8px;padding:6px 12px;cursor:pointer;font-size:13px;}
+  .bar button:hover{border-color:var(--accent);}
+  .q{background:var(--card);border:1px solid var(--border);border-radius:12px;
+    padding:16px;margin-bottom:14px;}
+  .qnum{color:var(--accent);font-weight:700;}
+  .qtext{font-weight:600;margin-bottom:12px;}
+  .opt{display:block;width:100%;text-align:left;background:var(--card2);color:var(--text);
+    border:1.5px solid var(--border);border-radius:9px;padding:10px 12px;margin-bottom:8px;
+    cursor:pointer;font-size:15px;transition:.12s;}
+  .opt:hover{border-color:var(--accent);}
+  .opt .lab{font-weight:700;margin-right:8px;}
+  .opt.correct{background:var(--greenbg);border-color:var(--green);}
+  .opt.wrong{background:var(--redbg);border-color:var(--red);}
+  .opt.reveal{border-color:var(--green);}
+  .opt:disabled{cursor:default;}
+  .exp{margin-top:10px;padding:12px;border-radius:9px;background:var(--card2);
+    border-left:4px solid var(--accent);font-size:14px;display:none;}
+  .exp.show{display:block;}
+  .exp .tag{display:inline-block;font-weight:700;font-size:12px;padding:2px 8px;border-radius:6px;
+    margin-bottom:6px;}
+  .tag.ok{background:var(--green);color:#04210f;}
+  .tag.no{background:var(--red);color:#fff;}
+  .exp .kh{color:var(--muted);font-size:13px;margin-top:6px;}
+  .note{color:#f59e0b;font-size:13px;margin-top:6px;}
+  footer{text-align:center;color:var(--muted);font-size:12px;margin:24px 0;}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Ôn tập Phẫu thuật Hàm mặt</h1>
+  <div class="sub">Đề thi 2023-2024 · Lớp RHM5 · M22 · Đề B · 50 câu</div>
+</header>
+<div class="bar">
+  <div class="score">Đúng: <b id="right">0</b> / <span id="done">0</span> · Tổng 50</div>
+  <button onclick="revealAll()">Hiện hết đáp án</button>
+  <button onclick="resetAll()">Làm lại</button>
+</div>
+<div id="quiz"></div>
+<footer>Đáp án được xác định theo y khoa &amp; đối chiếu bản khoanh trên đề. Câu có ⚠️ là câu cần lưu ý.</footer>
+</div>
+<script>
+const DATA = [
+{n:1,q:"Đơn vị giải phẫu nào sau đây phân chia vòm miệng tiên phát và thứ phát?",o:{A:"Lỗ khẩu cái",B:"Lỗ răng cửa",C:"Lỗ tròn",D:"Lỗ bầu dục"},c:"B",kh:"B",e:"Lỗ răng cửa (lỗ cửa/ống răng cửa) là mốc ranh giới giữa vòm miệng tiên phát (phía trước) và vòm miệng thứ phát (phía sau)."},
+{n:2,q:"Phân loại của Kernahan và Stark dựa vào đặc điểm nào sau đây?",o:{A:"Giải phẫu học",B:"Phôi thai học",C:"Nhân chủng học",D:"Tế bào học"},c:"B",kh:"B",e:"Kernahan & Stark (1958) phân loại khe hở dựa trên phôi thai học, lấy lỗ răng cửa làm mốc chia vòm miệng tiên phát và thứ phát."},
+{n:3,q:"Khe hở bên môi trên là do không có sự kết nối giữa các nụ nào sau đây?",o:{A:"Nụ hàm trên và nụ mũi trong",B:"Nụ hàm trên và nụ mũi ngoài",C:"Hai nụ hàm trên",D:"Nụ mũi trong và nụ mũi ngoài"},c:"A",kh:"A",e:"Khe hở môi bên do nụ hàm trên (maxillary) không dính với nụ mũi trong (medial nasal). Đây là vị trí khe hở môi hay gặp nhất."},
+{n:4,q:"Khe hở ngang mặt là do không có sự kết nối các nụ nào sau đây?",o:{A:"Hàm trên và mũi trong",B:"Hàm trên và mũi ngoài",C:"Hàm trên và hàm trên",D:"Hàm trên và hàm dưới"},c:"D",kh:"D",e:"Khe hở ngang mặt (macrostomia) do nụ hàm trên không dính với nụ hàm dưới → khe hở kéo dài từ mép về phía tai."},
+{n:5,q:"Thời gian nào sau đây thích hợp phẫu thuật môi lần đầu cho trẻ bị KHM?",o:{A:"> 3 tháng",B:"> 4 tháng",C:"> 5 tháng",D:"> 6 tháng"},c:"A",kh:"A",e:"Theo \"quy tắc số 10\" (10 tuần tuổi ≈ >3 tháng, ≥10 lbs, Hb ≥10 g/dL) → phẫu thuật môi lần đầu khi trẻ >3 tháng.",note:"Trên đề có vết khoanh ở cả D; đáp án chuẩn theo quy tắc số 10 là A (>3 tháng)."},
+{n:6,q:"Theo phôi thai học, thời gian nào sau đây môi hoàn thiện?",o:{A:"6 tuần",B:"7 tuần",C:"8 tuần",D:"9 tuần"},c:"C",kh:"C",e:"Môi trên hoàn thiện (các nụ dính hoàn toàn) vào khoảng tuần thứ 8 của thời kỳ phôi."},
+{n:7,q:"Sơ đồ chữ Y của Millard (1976) có bổ sung thêm thành phần nào sau đây?",o:{A:"Tổn thương cơ môi",B:"Tổn thương cánh mũi",C:"Tổn thương sụn mũi",D:"Tổn thương cung hàm"},c:"B",kh:"B",e:"Millard (1976) bổ sung phần đánh giá tổn thương cánh mũi / nền mũi (nasal floor) vào sơ đồ chữ Y của Kernahan – khắc phục hạn chế không đánh giá biến dạng mũi."},
+{n:8,q:"Lứa tuổi nào sau đây tốt cho điều trị ghép xương ổ răng ở bệnh nhân khe hở cung hàm?",o:{A:"> 6 tuổi",B:"7-8 tuổi",C:"9-10 tuổi",D:"> 12 tuổi"},c:"C",kh:"C",e:"Ghép xương ổ răng thứ phát tốt nhất lúc 9-11 tuổi, trước khi răng nanh vĩnh viễn mọc → C (9-10 tuổi)."},
+{n:9,q:"Phương pháp đường rạch dọc khe hở thường được áp dụng cho khe hở môi nào sau đây?",o:{A:"Microform",B:"Không toàn bộ",C:"Toàn bộ",D:"KHM và cung hàm"},c:"A",kh:"A",e:"Đường rạch dọc theo khe hở thường dùng cho khe hở môi thể nhẹ (microform / khe hở ẩn) – tổn thương tối thiểu."},
+{n:10,q:"Phức hợp điều trị các khe hở môi – vòm miệng theo thứ tự nào sau đây? (1) Chỉnh hình xương hàm, răng (2) Dạy phát âm (3) Chăm sóc và nuôi dưỡng (4) Phẫu thuật (5) Tư vấn tâm lý",o:{A:"1,2,3,4,5",B:"5,4,3,2,1",C:"4,3,2,1,5",D:"3,4,5,2,1"},c:"B",kh:"B",e:"Trình tự: (5) Tư vấn tâm lý cho gia đình → (4) Phẫu thuật → (3) Chăm sóc, nuôi dưỡng → (2) Dạy phát âm → (1) Chỉnh hình xương hàm, răng. Đáp án 5,4,3,2,1."},
+{n:11,q:"Nếp nhăn tự nhiên được tạo thành do yếu tố nào sau đây?",o:{A:"Cơ co kéo",B:"Cơ chạy song song",C:"Cơ chạy vuông góc",D:"Cơ bám da mặt"},c:"C",kh:"C",e:"Nếp nhăn da hình thành vuông góc với hướng co của cơ bám da (cơ chạy vuông góc với nếp nhăn) → đường rạch nên song song nếp nhăn."},
+{n:12,q:"Cấu trúc nào sau đây cần phục hồi chính trong phẫu thuật môi lần đầu?",o:{A:"Đóng kín khe hở",B:"Da môi",C:"Làn môi đỏ",D:"Cơ vòng môi"},c:"D",kh:"D",e:"Ưu tiên hàng đầu là phục hồi cơ vòng môi (orbicularis oris) đúng giải phẫu để đảm bảo chức năng và thẩm mỹ."},
+{n:13,q:"Khi thực hiện đường rạch da hình elip, chiều dài nào sau đây thích hợp?",o:{A:"Gấp 2 lần chiều rộng",B:"Gấp 3 lần chiều rộng",C:"Gấp 4 lần chiều rộng",D:"Gấp 5 lần chiều rộng"},c:"B",kh:"B",e:"Đường rạch hình thoi/elip lý tưởng có trục dài gấp ~3 lần trục ngang (tỷ lệ 3:1) để đóng kín không tạo \"tai chó\"."},
+{n:14,q:"Loại chỉ nào sau đây là Chỉ tổng hợp?",o:{A:"Vycril (Vicryl)",B:"Silk",C:"Catgut",D:"Chromic"},c:"A",kh:"A",e:"Vicryl là chỉ tổng hợp (polyglactin), tự tiêu bằng thủy phân. Silk, Catgut, Chromic đều là chỉ nguồn gốc tự nhiên."},
+{n:15,q:"Trường hợp hai mép vết thương căng, loại mũi khâu nào sau đây nên sử dụng?",o:{A:"Mũi đơn",B:"Mũi luồn dưới da",C:"Mũi khâu đệm",D:"Mũi khâu vắt"},c:"C",kh:"C",e:"Mũi khâu đệm (mattress) phân bố lực căng đều trên diện rộng, giảm căng mép vết thương → dùng khi hai mép căng."},
+{n:16,q:"Khi khâu da mũi rời, độ sâu đâm kim ở lớp nào sau đây là đúng?",o:{A:"Thượng bì",B:"Trung bì (trung bì giáp hạ bì)",C:"Mỡ",D:"Cơ"},c:"B",kh:"B",e:"Kim đâm sâu tới lớp trung bì (ranh giới trung bì–hạ bì) để lấy đủ mô chịu lực mà không quá sâu gây sẹo lõm."},
+{n:17,q:"Mạch máu nào sau đây cấp máu cho vạt ngẫu nhiên?",o:{A:"Một nhánh động mạch",B:"Đám rối dưới da",C:"Nhiều nhánh động mạch",D:"Động mạch có tên gọi"},c:"B",kh:"B",e:"Vạt ngẫu nhiên (random flap) được nuôi bởi đám rối mạch máu dưới da/trung bì, không có động mạch trục xác định."},
+{n:18,q:"Vết thương mạn tính khi tồn tại kéo dài bao lâu?",o:{A:"> 2 tuần",B:"> 4 tuần",C:"> 6 tuần",D:"> 8 tuần"},c:"A",kh:"A",e:"Vết thương không lành theo tiến trình bình thường, kéo dài trên ~2 tuần được xem là vết thương mạn tính."},
+{n:19,q:"Vết thương vùng hàm mặt có thể khâu kín trong thời gian nào sau đây?",o:{A:"> 12 giờ",B:"> 24 giờ",C:"> 36 giờ",D:"> 48 giờ"},c:"D",kh:"D",e:"Vùng hàm mặt được cấp máu rất giàu nên khả năng khâu kín kỳ đầu kéo dài hơn nơi khác, có thể tới >48 giờ (đề khoanh D)."},
+{n:20,q:"Khi khâu mũi rời, vị trí xuyên kim cách bờ vết thương nào sau đây là đúng?",o:{A:"1-1,5mm",B:"1-2mm",C:"1,5-2mm",D:"2-3mm"},c:"C",kh:"C",e:"Vùng mặt khâu tinh tế: điểm xuyên kim cách bờ vết thương khoảng 1,5-2mm."},
+{n:21,q:"Khi bóc tách vết thương, nên sử dụng loại kéo nào sau đây?",o:{A:"Kéo đầu nhọn",B:"Kéo đầu tù",C:"Kéo cong",D:"Kéo thẳng"},c:"B",kh:"B",e:"Bóc tách mô nên dùng kéo đầu tù để tách theo lớp, tránh làm rách/tổn thương mô lành."},
+{n:22,q:"Tế bào nào sau đây đóng vai trò quan trọng trong giai đoạn đầu của quá trình liền thương?",o:{A:"Hồng cầu",B:"Bạch cầu",C:"Tiểu cầu",D:"Tế bào sợi"},c:"B",kh:"B",e:"Giai đoạn viêm (đầu tiên) sau cầm máu: bạch cầu (neutrophil, đại thực bào) làm sạch, chống nhiễm khuẩn và điều hòa liền thương.",note:"Nếu câu hỏi hướng về giai đoạn cầm máu ngay tức thì thì là tiểu cầu; theo đề khoanh giai đoạn đầu liền thương là bạch cầu (B)."},
+{n:23,q:"Khe hở vòm miệng mềm thuộc phân loại nào sau đây của tác giả Veau?",o:{A:"Loại I",B:"Loại II",C:"Loại III",D:"Loại IV"},c:"A",kh:"A",e:"Phân loại Veau: Loại I = khe hở vòm miệng mềm đơn thuần; II = mềm + cứng; III = 1 bên toàn bộ; IV = 2 bên toàn bộ."},
+{n:24,q:"Phương pháp tạo hình vòm miệng theo hình vẽ là của tác giả nào?",o:{A:"Veau",B:"Dieffenbach",C:"Von Langenback",D:"Bardach"},c:"D",kh:"D",e:"Hình minh họa ứng với kỹ thuật Bardach (two-flap palatoplasty) theo bản khoanh trên đề."},
+{n:25,q:"Hình vẽ thể hiện cho loại vạt nào thuộc phân loại vạt theo nguồn cấp máu?",o:{A:"Vạt ngẫu nhiên",B:"Vạt trục",C:"Vạt trụ",D:"Vạt đảo"},c:"B",kh:"B",e:"Hình có động mạch trục chạy dọc theo vạt → vạt trục (axial flap), được nuôi bởi một động mạch có tên."},
+{n:26,q:"Vạt nào sau đây là vạt ngẫu nhiên?",o:{A:"Vạt dưới cằm",B:"Vạt trán mũi",C:"Vạt A-C (xoay-đẩy)",D:"Vạt thái dương"},c:"C",kh:"C",e:"Vạt xoay-đẩy tại chỗ (A-C) không dựa vào động mạch trục nên là vạt ngẫu nhiên. Vạt dưới cằm, trán mũi, thái dương là vạt trục."},
+{n:27,q:"Vạt nào sau đây là vạt chuyển vị?",o:{A:"Vạt chữ Z",B:"Vạt hai thùy (bilobed)",C:"Vạt trán mũi",D:"Vạt mũi má"},c:"B",kh:"B",e:"Vạt hai thùy (bilobed) là vạt chuyển vị điển hình – xoay hai thùy kế cận để che khuyết.",note:"Vạt chữ Z (hoán vị/transposition) cũng thuộc nhóm chuyển vị; theo đề khoanh đáp án là B."},
+{n:28,q:"Động mạch nào sau đây cấp máu cho vạt trán-mũi?",o:{A:"ĐM mắt",B:"ĐM thái dương nông",C:"ĐM trên ròng rọc",D:"ĐM mặt"},c:"C",kh:"C",e:"Vạt trán (trán-mũi) kinh điển dựa trên động mạch trên ròng rọc (supratrochlear) – một nhánh của ĐM mắt."},
+{n:29,q:"Vạt nào sau đây là vạt đảo?",o:{A:"Vạt dưới cằm",B:"Vạt trán mũi",C:"Vạt hai thùy",D:"Vạt thái dương"},c:"A",kh:"A",e:"Vạt dưới cằm (submental) có thể thiết kế dạng vạt đảo (island flap) – cuống mạch được bóc trần, vạt da tách rời khỏi da xung quanh."},
+{n:30,q:"Thời gian nào sau đây thích hợp để cắt chỉ vùng hàm mặt?",o:{A:"4-6 ngày",B:"5-7 ngày",C:"6-8 ngày",D:"7-10 ngày"},c:"B",kh:"B",e:"Vùng mặt liền nhanh và để tránh sẹo chân chỉ, thường cắt chỉ sớm sau 5-7 ngày."},
+{n:31,q:"Hình vẽ thể hiện cho loại vạt nào?",o:{A:"Vạt xoay",B:"Vạt đẩy",C:"Vạt hoán vị",D:"Vạt chuyển vị"},c:"D",kh:"D",e:"Theo bản khoanh trên đề, hình minh họa ứng với vạt chuyển vị."},
+{n:32,q:"Hình vẽ thể hiện cho phương pháp tạo hình môi theo tác giả nào?",o:{A:"Rose",B:"Tennison",C:"Le Mesurier",D:"Millard"},c:"D",kh:"D",e:"Hình ảnh lâm sàng ứng với kỹ thuật xoay-đẩy Millard (đường khoanh đậm ở D).",note:"Trên đề có vết khoanh mờ ở cả B (Tennison – vạt tam giác); đáp án khoanh rõ là D (Millard)."},
+{n:33,q:"Khi khâu da vùng mặt, khoảng cách giữa các mũi chỉ khâu nào sau đây là thích hợp?",o:{A:"1-2mm",B:"1-3mm",C:"2-3mm",D:"3-5mm"},c:"D",kh:"D",e:"Khoảng cách giữa các mũi khâu ở da mặt khoảng 3-5mm để mép vết thương áp đều."},
+{n:34,q:"Tế bào nào sau đây đóng vai trò giải phóng yếu tố tăng sinh mạch máu trong giai đoạn cầm máu của liền thương?",o:{A:"Hồng cầu",B:"Bạch cầu",C:"Tiểu cầu",D:"Tế bào sợi"},c:"C",kh:"C",e:"Trong giai đoạn cầm máu, tiểu cầu kết tập và giải phóng các yếu tố tăng trưởng (PDGF, VEGF...) kích thích tăng sinh mạch máu."},
+{n:35,q:"Sẹo liền thương đạt độ bền tối đa bao nhiêu so với da bình thường?",o:{A:"50%",B:"60%",C:"80%",D:"90%"},c:"C",kh:"C",e:"Sẹo trưởng thành chỉ đạt tối đa khoảng 70-80% độ bền kéo của da nguyên vẹn → C (80%)."},
+{n:36,q:"Hình vẽ thể hiện cho kiểu khâu da nào?",o:{A:"Mũi rời",B:"Đệm ngang",C:"Đệm đứng",D:"Dưới da"},c:"C",kh:"C",e:"Hình mũi khâu đi sâu rồi ra nông theo trục dọc (far-far-near-near) → mũi khâu đệm đứng (vertical mattress)."},
+{n:37,q:"Điểm đâm kim đầu tiên cách mép vết thương là bao nhiêu?",o:{A:"1mm",B:"2mm",C:"3mm",D:"4mm"},c:"D",kh:"D",e:"Với mũi đệm đứng, điểm đâm kim xa cách mép ~4mm (gần ~1mm) → tạo lực đỡ tốt (ghi chú trên đề: xa 4mm, gần 1mm)."},
+{n:38,q:"Độ sâu đâm kim đầu tiên ở lớp nào?",o:{A:"Lớp thượng bì",B:"Lớp bì",C:"Lớp hạ bì",D:"Lớp cơ"},c:"C",kh:"C",e:"Mũi kim đầu tiên (mũi xa, sâu) đi tới lớp hạ bì để nâng đỡ và làm phẳng mép vết thương."},
+{n:39,q:"Kiểu khâu này chỉ định cho loại vết thương nào?",o:{A:"Vết thương dập nát",B:"Vết thương căng",C:"Vết thương không đều",D:"Vết thương đến muộn"},c:"B",kh:"B",e:"Mũi khâu đệm (đứng) làm giảm căng nên chỉ định cho vết thương có hai mép căng."},
+{n:40,q:"Loại vạt nào sau đây sử dụng trong trường hợp mất da cánh mũi phải đường kính ~1cm?",o:{A:"Vạt A-C",B:"Vạt hai thùy (bilobed)",C:"Vạt V-Y",D:"Vạt bán nguyệt"},c:"B",kh:"B",e:"Khuyết da cánh mũi ~1cm là chỉ định kinh điển của vạt hai thùy (bilobed flap)."},
+{n:41,q:"Đường kính chỉ khâu lớp dưới da nào sau đây thường dùng để khâu vùng hàm mặt?",o:{A:"1.0-2.0",B:"1.0-3.0",C:"2.0-3.0",D:"3.0-4.0 (số 3-0/4-0)"},c:"D",kh:"D",e:"Khâu lớp dưới da vùng mặt thường dùng chỉ số 3-0 đến 4-0; da ngoài mặt dùng chỉ nhỏ hơn 5-0/6-0 (ghi chú trên đề)."},
+{n:42,q:"Loại khe hở nào sau đây hay gặp ở vùng hàm mặt?",o:{A:"KH môi trên",B:"KH môi dưới",C:"KH cung hàm",D:"KH ngang mặt"},c:"A",kh:"A",e:"Khe hở môi trên (một bên, bên trái nhiều hơn) là dị tật bẩm sinh vùng hàm mặt hay gặp nhất."},
+{n:43,q:"Các nụ mặt nào sau đây hình thành nên mặt?",o:{A:"Nụ trán, mũi, hàm dưới",B:"Nụ trán, hàm trên, mũi",C:"Nụ hàm trên, hàm dưới",D:"Nụ trán, hàm trên, hàm dưới"},c:"D",kh:"D",e:"Mặt hình thành từ 5 nụ: 1 nụ trán-mũi, 2 nụ hàm trên, 2 nụ hàm dưới → D."},
+{n:44,q:"Các nụ mũi được hình thành từ nụ mặt nào sau đây?",o:{A:"Nụ hàm trên",B:"Nụ hàm dưới",C:"Nụ trán",D:"Nụ mặt"},c:"C",kh:"C",e:"Tấm mũi và các nụ mũi (trong, ngoài) phát triển từ nụ trán-mũi (frontonasal)."},
+{n:45,q:"Trong các bệnh virus, bệnh nào sau đây có khả năng gây dị tật bẩm sinh cao nhất?",o:{A:"Sởi",B:"Thuỷ đậu",C:"Cúm",D:"Sốt xuất huyết"},c:"C",kh:"C",e:"Nhiễm virus (Cúm/Rubella) trong 3 tháng đầu thai kỳ có nguy cơ gây dị tật bẩm sinh cao. Theo đáp án đề là Cúm (C)."},
+{n:46,q:"Vạt nào sau đây được xem là vạt kinh điển trong tạo hình hàm mặt?",o:{A:"Vạt mũi-má",B:"Vạt trán-mũi",C:"Vạt hai thùy",D:"Vạt chữ Z"},c:"B",kh:"B",e:"Vạt trán (trán-mũi) là vạt kinh điển, được mô tả sớm nhất và dùng nhiều nhất trong tạo hình mũi/mặt."},
+{n:47,q:"Nụ chân bướm khẩu cái tạo thành cấu trúc nào sau đây?",o:{A:"Vòm miệng cứng",B:"Vòm miệng mềm",C:"Lưỡi gà",D:"Toàn bộ vòm miệng"},c:"B",kh:"B",e:"Nụ (mấu) chân bướm-khẩu cái tham gia tạo nên vòm miệng mềm."},
+{n:48,q:"Phân loại nào sau đây là phù hợp với vạt sử dụng ở câu 46/40 (vạt hai thùy)?",o:{A:"Vạt đẩy",B:"Vạt xoay",C:"Vạt chuyển vị",D:"Vạt hoán vị"},c:"D",kh:"D",e:"Vạt hai thùy được xếp vào nhóm vạt hoán vị/chuyển vị theo cách chuyển vạt (ghi chú trên đề: dùng cho case 46)."},
+{n:49,q:"Vai trò nào sau đây là tác dụng chính của vạt chữ Z?",o:{A:"Ngăn chặn sự co kéo của sẹo",B:"Thay đổi hướng sẹo",C:"Làm dài sẹo",D:"Làm nhỏ sẹo"},c:"B",kh:"B",e:"Vạt chữ Z chuyển hướng sẹo về theo nếp nhăn tự nhiên và kéo dài trục sẹo → giải phóng co kéo. Đề khoanh \"Thay đổi hướng sẹo\" (B).",note:"Trên đề có vết khoanh ở cả A (ngăn co kéo sẹo). Cả 3 tác dụng (kéo dài, đổi hướng, giải phóng co kéo) đều đúng về bản chất; câu này chọn 1 nên còn tranh luận."},
+{n:50,q:"Chỉ tự tiêu có nguồn gốc tự nhiên được tiêu hủy bằng cơ chế nào?",o:{A:"Phân hủy protein",B:"Phân hủy cacbon",C:"Phân hủy glucid",D:"Phân hủy lipid"},c:"A",kh:"A",e:"Chỉ tự nhiên (Catgut, Chromic) tiêu bằng phân hủy protein (proteolysis – enzyme). Chỉ tổng hợp tiêu bằng thủy phân (hydrolysis)."}
+];
+renderQuiz(DATA,'quiz');
+function renderQuiz(data,elid){
+  const box=document.getElementById(elid);
+  data.forEach(item=>{
+    const card=document.createElement('div');card.className='q';card.dataset.n=item.n;
+    let opts='';
+    for(const k in item.o){opts+=`<button class="opt" data-k="${k}"><span class="lab">${k}.</span>${item.o[k]}</button>`;}
+    const noteHtml=item.note?`<div class="note">⚠️ ${item.note}</div>`:'';
+    card.innerHTML=`<div class="qtext"><span class="qnum">Câu ${item.n}.</span> ${item.q}</div>${opts}
+      <div class="exp"><span class="tag"></span><div class="expbody"></div>
+      <div class="kh">Đáp án đúng: <b>${item.c}</b> · Đề khoanh: ${item.kh}</div>${noteHtml}</div>`;
+    card.querySelectorAll('.opt').forEach(btn=>{
+      btn.addEventListener('click',()=>choose(card,item,btn.dataset.k));
+    });
+    box.appendChild(card);
+  });
+}
+function choose(card,item,k){
+  if(card.dataset.answered)return;
+  card.dataset.answered='1';
+  const chosenCorrect=(k===item.c);
+  card.querySelectorAll('.opt').forEach(b=>{
+    b.disabled=true;
+    if(b.dataset.k===item.c)b.classList.add(chosenCorrect?'correct':'reveal');
+    if(b.dataset.k===k&&!chosenCorrect)b.classList.add('wrong');
+  });
+  const exp=card.querySelector('.exp');
+  const tag=exp.querySelector('.tag');
+  tag.className='tag '+(chosenCorrect?'ok':'no');
+  tag.textContent=chosenCorrect?'✔ Chính xác':'✘ Chưa đúng';
+  exp.querySelector('.expbody').textContent=item.e;
+  exp.classList.add('show');
+  card.dataset.correct=chosenCorrect?'1':'0';
+  updateScore();
+}
+function updateScore(){
+  const cards=document.querySelectorAll('.q');
+  let done=0,right=0;
+  cards.forEach(c=>{if(c.dataset.answered){done++;if(c.dataset.correct==='1')right++;}});
+  document.getElementById('done').textContent=done;
+  document.getElementById('right').textContent=right;
+}
+function revealAll(){
+  document.querySelectorAll('.q').forEach(card=>{
+    if(card.dataset.answered)return;
+    const item=DATA.find(d=>d.n==card.dataset.n);
+    card.dataset.answered='1';card.dataset.correct='';
+    card.querySelectorAll('.opt').forEach(b=>{b.disabled=true;if(b.dataset.k===item.c)b.classList.add('reveal');});
+    const exp=card.querySelector('.exp');const tag=exp.querySelector('.tag');
+    tag.className='tag ok';tag.textContent='Đáp án: '+item.c;
+    exp.querySelector('.expbody').textContent=item.e;exp.classList.add('show');
+  });
+}
+function resetAll(){location.reload();}
+</script>
+</body>
+</html>

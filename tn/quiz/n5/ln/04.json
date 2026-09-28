@@ -1,0 +1,1003 @@
+[
+    {
+      "question": "Theo tiêu chuẩn của Liên Hợp Quốc và Việt Nam, người cao tuổi được xác định từ lứa tuổi nào?",
+      "options": [
+        {"text": "Từ 55 tuổi trở lên", "isCorrect": false},
+        {"text": "Từ đủ 60 tuổi trở lên", "isCorrect": true},
+        {"text": "Từ 65 tuổi trở lên", "isCorrect": false},
+        {"text": "Từ 70 tuổi trở lên", "isCorrect": false}
+      ],
+      "explanation": "Tại Việt Nam và theo phân loại của Liên Hợp Quốc, mốc 60 tuổi được dùng để xác định người cao tuổi."
+    },
+    {
+      "question": "Dự báo đến năm 2029, tỷ lệ người cao tuổi tại Việt Nam chiếm khoảng bao nhiêu % dân số?",
+      "options": [
+        {"text": "9,45%", "isCorrect": false},
+        {"text": "12,5%", "isCorrect": false},
+        {"text": "16,8%", "isCorrect": true},
+        {"text": "25,0%", "isCorrect": false}
+      ],
+      "explanation": "Số liệu thống kê dự báo sự già hóa dân số tại Việt Nam tăng nhanh, đạt 16,8% vào năm 2029."
+    },
+    {
+      "question": "Yếu tố nào sau đây KHÔNG phải là rào cản chính trong việc tiếp cận chăm sóc răng miệng của người cao tuổi?",
+      "options": [
+        {"text": "Tình trạng suy yếu cơ thể", "isCorrect": false},
+        {"text": "Tình trạng kinh tế", "isCorrect": false},
+        {"text": "Phương tiện đi lại", "isCorrect": false},
+        {"text": "Sợ tiếng máy khoan nha khoa", "isCorrect": true}
+      ],
+      "explanation": "Slide bài giảng nhấn mạnh vào 4 yếu tố: suy yếu cơ thể, kinh tế, phương tiện chăm sóc và phương tiện đi lại là những rào cản thực tế lớn nhất."
+    },
+    {
+      "question": "Vấn đề răng miệng nào là nguyên nhân chính dẫn đến tình trạng mất răng ở người cao tuổi?",
+      "options": [
+        {"text": "Sâu răng và bệnh nha chu", "isCorrect": true},
+        {"text": "Mòn răng hóa học", "isCorrect": false},
+        {"text": "Loạn năng khớp thái dương hàm", "isCorrect": false},
+        {"text": "Nấm miệng", "isCorrect": false}
+      ],
+      "explanation": "Sâu răng (đặc biệt là sâu chân răng) và viêm quanh răng tiến triển là hai thủ phạm chính gây mất răng ở người già."
+    },
+    {
+      "question": "Đặc điểm của bệnh nha chu ở người cao tuổi thường là:",
+      "options": [
+        {"text": "Viêm nướu cấp tính rầm rộ", "isCorrect": false},
+        {"text": "Tình trạng phá hủy mô nâng đỡ răng tích lũy qua nhiều năm", "isCorrect": true},
+        {"text": "Chỉ xảy ra ở răng cửa", "isCorrect": false},
+        {"text": "Dễ điều trị dứt điểm trong 1 lần", "isCorrect": false}
+      ],
+      "explanation": "Bệnh nha chu ở người già là kết quả của quá trình viêm mạn tính kéo dài, dẫn đến tiêu xương và tụt nướu tích lũy."
+    },
+    {
+      "question": "Mục tiêu quan trọng nhất trong điều trị nha chu cho người cao tuổi là gì?",
+      "options": [
+        {"text": "Phẫu thuật ghép xương cho tất cả các răng", "isCorrect": false},
+        {"text": "Loại bỏ mảng bám và duy trì sức khỏe mô quanh răng ở mức ổn định", "isCorrect": true},
+        {"text": "Nhổ bỏ toàn bộ răng lung lay độ 1", "isCorrect": false},
+        {"text": "Làm trắng nướu", "isCorrect": false}
+      ],
+      "explanation": "Ưu tiên hàng đầu là kiểm soát nhiễm khuẩn và duy trì chức năng của các răng còn lại."
+    },
+    {
+      "question": "Tại sao sâu chân răng (Root Caries) lại phổ biến ở người cao tuổi?",
+      "options": [
+        {"text": "Do họ ăn nhiều đồ ngọt hơn", "isCorrect": false},
+        {"text": "Do tình trạng tụt nướu làm lộ bề mặt chân răng", "isCorrect": true},
+        {"text": "Do men răng chân răng quá mỏng", "isCorrect": false},
+        {"text": "Do họ không dùng chỉ nha khoa", "isCorrect": false}
+      ],
+      "explanation": "Khi nướu tụt, bề mặt xê-măng và ngà răng ở chân răng bị lộ ra, vốn có độ khoáng hóa thấp hơn men răng nên dễ bị sâu."
+    },
+    {
+      "question": "Vật liệu trám răng thường được ưu tiên cho tổn thương sâu chân răng ở người già là:",
+      "options": [
+        {"text": "Amalgam", "isCorrect": false},
+        {"text": "Composite", "isCorrect": false},
+        {"text": "Glass Ionomer Cement (GIC)", "isCorrect": true},
+        {"text": "Vàng đúc", "isCorrect": false}
+      ],
+      "explanation": "GIC có khả năng phóng thích Fluoride và dán dính hóa học tốt vào ngà răng, rất phù hợp cho vùng chân răng."
+    },
+    {
+      "question": "Triệu chứng đau của bệnh lý tủy răng ở người cao tuổi thường như thế nào?",
+      "options": [
+        {"text": "Đau dữ dội kịch phát", "isCorrect": false},
+        {"text": "Triệu chứng thường âm thầm, không điển hình do tủy bị thoái hóa xơ", "isCorrect": true},
+        {"text": "Luôn kèm theo sưng mặt", "isCorrect": false},
+        {"text": "Dễ xác định chính xác răng đau hơn người trẻ", "isCorrect": false}
+      ],
+      "explanation": "Do thể tích buồng tủy giảm và thần kinh tủy bị thoái hóa, các phản ứng đau cấp tính thường bị che lấp hoặc giảm nhẹ."
+    },
+    {
+      "question": "Khó khăn chính khi điều trị nội nha (lấy tủy) cho người cao tuổi là gì?",
+      "options": [
+        {"text": "Bệnh nhân không thể há miệng lâu", "isCorrect": false},
+        {"text": "Hệ thống ống tủy bị canxi hóa, thu hẹp lòng ống tủy", "isCorrect": true},
+        {"text": "Tủy răng quá mềm", "isCorrect": false},
+        {"text": "Răng người già dễ bị đổi màu sau lấy tủy", "isCorrect": false}
+      ],
+      "explanation": "Quá trình lão hóa tạo ngà thứ phát làm ống tủy thu hẹp, gây khó khăn cho việc tìm và làm sạch ống tủy."
+    },
+    {
+      "question": "Nguyên nhân hàng đầu gây khô miệng (Xerostomia) ở người cao tuổi là:",
+      "options": [
+        {"text": "Uống quá ít nước", "isCorrect": false},
+        {"text": "Tác dụng phụ của các loại thuốc điều trị bệnh toàn thân", "isCorrect": true},
+        {"text": "Thói quen ăn đồ cay nóng", "isCorrect": false},
+        {"text": "Dùng nước súc miệng chứa cồn", "isCorrect": false}
+      ],
+      "explanation": "Hàng trăm loại thuốc như hạ huyết áp, an thần, lợi tiểu... có tác dụng phụ làm giảm tiết nước bọt."
+    },
+    {
+      "question": "Hệ quả của việc khô miệng đối với hàm giả tháo lắp là gì?",
+      "options": [
+        {"text": "Làm hàm giả nhanh bị mòn", "isCorrect": false},
+        {"text": "Giảm độ lưu giữ (hít) của hàm và gây đau, loét niêm mạc", "isCorrect": true},
+        {"text": "Làm nhựa hàm giả đổi màu", "isCorrect": false},
+        {"text": "Không ảnh hưởng đến hàm giả", "isCorrect": false}
+      ],
+      "explanation": "Nước bọt đóng vai trò là lớp màng đệm và tạo sức căng bề mặt giúp hàm giả bám dính; thiếu nước bọt hàm sẽ bị lỏng và ma sát gây loét."
+    },
+    {
+      "question": "Điều trị khô miệng cho người cao tuổi bao gồm biện pháp nào?",
+      "options": [
+        {"text": "Kích thích tiết nước bọt bằng kẹo cao su không đường", "isCorrect": false},
+        {"text": "Sử dụng nước bọt nhân tạo", "isCorrect": false},
+        {"text": "Thay đổi thuốc điều trị toàn thân nếu có thể (dưới sự đồng ý của bác sĩ nội khoa)", "isCorrect": false},
+        {"text": "Tất cả các biện pháp trên", "isCorrect": true}
+      ],
+      "explanation": "Điều trị khô miệng cần phối hợp giữa kích thích tiết tự nhiên và bổ sung nhân tạo cùng kiểm soát nguyên nhân."
+    },
+    {
+      "question": "Nhiễm nấm Candida (Stomatitis) thường xuất hiện ở vị trí nào dưới đây ở người già?",
+      "options": [
+        {"text": "Mặt lưng lưỡi", "isCorrect": false},
+        {"text": "Vòm miệng, bên dưới nền hàm giả tháo lắp", "isCorrect": true},
+        {"text": "Hành lang môi dưới", "isCorrect": false},
+        {"text": "Nướu răng cửa", "isCorrect": false}
+      ],
+      "explanation": "Môi trường kín, ẩm và vệ sinh hàm giả kém là điều kiện lý tưởng cho nấm Candida phát triển gây đỏ, rát niêm mạc vòm miệng."
+    },
+    {
+      "question": "Biện pháp quan trọng nhất để phòng ngừa nấm miệng ở người mang hàm giả là:",
+      "options": [
+        {"text": "Luộc hàm giả hàng ngày", "isCorrect": false},
+        {"text": "Tháo hàm giả khi đi ngủ và ngâm trong dung dịch sát khuẩn nhẹ", "isCorrect": true},
+        {"text": "Đánh răng bằng muối", "isCorrect": false},
+        {"text": "Dùng thuốc kháng nấm suốt đời", "isCorrect": false}
+      ],
+      "explanation": "Tháo hàm ban đêm giúp niêm mạc được nghỉ ngơi, tiếp xúc với nước bọt và oxy, ngăn chặn sự tích tụ vi nấm."
+    },
+    {
+      "question": "Tổn thương loét niêm mạc ở người cao tuổi kéo dài bao lâu thì cần được nghi ngờ ác tính và sinh thiết?",
+      "options": [
+        {"text": "3 ngày", "isCorrect": false},
+        {"text": "1 tuần", "isCorrect": false},
+        {"text": "Trên 2 tuần", "isCorrect": true},
+        {"text": "Trên 2 tháng", "isCorrect": false}
+      ],
+      "explanation": "Mọi tổn thương loét hoặc mảng trắng/đỏ không lành sau 14 ngày cần được tầm soát ung thư miệng sớm."
+    },
+    {
+      "question": "Yếu tố nào làm tăng rủi ro khi nhổ răng cho người cao tuổi?",
+      "options": [
+        {"text": "Tình trạng loãng xương", "isCorrect": false},
+        {"text": "Sử dụng thuốc chống đông máu", "isCorrect": false},
+        {"text": "Bệnh lý tim mạch và huyết áp", "isCorrect": false},
+        {"text": "Tất cả các yếu tố trên", "isCorrect": true}
+      ],
+      "explanation": "Sức khỏe toàn thân phức tạp của người già đòi hỏi sự chuẩn bị kỹ lưỡng trước khi thực hiện các thủ thuật xâm lấn."
+    },
+    {
+      "question": "Đối với bệnh nhân dùng thuốc chống đông máu (Warfarin), chỉ số xét nghiệm nào cần kiểm tra trước khi nhổ răng?",
+      "options": [
+        {"text": "Đường huyết", "isCorrect": false},
+        {"text": "Chỉ số INR (International Normalized Ratio)", "isCorrect": true},
+        {"text": "Số lượng hồng cầu", "isCorrect": false},
+        {"text": "Tốc độ lắng máu", "isCorrect": false}
+      ],
+      "explanation": "INR giúp đánh giá thời gian đông máu, đảm bảo bệnh nhân không bị chảy máu kéo dài sau khi can thiệp."
+    },
+    {
+      "question": "Bệnh nhân có tiền sử dùng thuốc Bisphosphonates (trị loãng xương) có nguy cơ gặp biến chứng gì khi nhổ răng?",
+      "options": [
+        {"text": "Sốc phản vệ", "isCorrect": false},
+        {"text": "Hoại tử xương hàm (Osteonecrosis of the Jaw)", "isCorrect": true},
+        {"text": "Tăng huyết áp kịch phát", "isCorrect": false},
+        {"text": "Nhiễm nấm toàn thân", "isCorrect": false}
+      ],
+      "explanation": "Thuốc này làm giảm khả năng tái cấu trúc xương, dễ dẫn đến vùng xương nhổ răng không lành và bị hoại tử."
+    },
+    {
+      "question": "Giải pháp phục hình răng phổ biến nhất cho người cao tuổi mất nhiều răng là:",
+      "options": [
+        {"text": "Cầu răng sứ cố định dài", "isCorrect": false},
+        {"text": "Hàm giả tháo lắp (toàn bộ hoặc bán phần)", "isCorrect": true},
+        {"text": "Cấy ghép 28 Implant", "isCorrect": false},
+        {"text": "Chỉ nhai bằng nướu", "isCorrect": false}
+      ],
+      "explanation": "Hàm tháo lắp vẫn là lựa chọn kinh tế và phù hợp với đa số NCT do cấu trúc xương và điều kiện tài chính."
+    },
+    {
+      "question": "Trong phục hình cho người già, tại sao cần thiết lập lại 'Kích thước dọc'?",
+      "options": [
+        {"text": "Để răng trông to hơn", "isCorrect": false},
+        {"text": "Để phục hồi nét mặt trẻ trung và giảm áp lực lên khớp thái dương hàm", "isCorrect": true},
+        {"text": "Để bệnh nhân nói nhanh hơn", "isCorrect": false},
+        {"text": "Để dễ vệ sinh răng", "isCorrect": false}
+      ],
+      "explanation": "Mất răng lâu ngày làm sụp tầng mặt dưới, việc tái lập kích thước dọc đúng giúp cải thiện thẩm mỹ và chức năng cơ-khớp."
+    },
+    {
+      "question": "Lập kế hoạch điều trị mức độ 'Rational' (Hợp lý) có đặc điểm gì?",
+      "options": [
+        {"text": "Chỉ làm những gì bệnh nhân yêu cầu", "isCorrect": false},
+        {"text": "Cân bằng giữa tình trạng sức khỏe, mong muốn của BN và tính khả thi về chức năng", "isCorrect": true},
+        {"text": "Dùng những vật liệu rẻ tiền nhất", "isCorrect": false},
+        {"text": "Thực hiện mọi kỹ thuật hiện đại bất kể sức khỏe BN", "isCorrect": false}
+      ],
+      "explanation": "Kế hoạch hợp lý ưu tiên sự thoải mái và chức năng ăn nhai thay vì đạt được sự hoàn hảo lý tưởng như ở người trẻ."
+    },
+    {
+      "question": "Mức kế hoạch điều trị 'Limited' (Giới hạn) thường được áp dụng khi nào?",
+      "options": [
+        {"text": "BN muốn tiết kiệm tiền", "isCorrect": false},
+        {"text": "BN có sức khỏe rất yếu, chỉ tập trung giải quyết đau, nhiễm trùng và duy trì dinh dưỡng", "isCorrect": true},
+        {"text": "BN không có thời gian đi khám", "isCorrect": false},
+        {"text": "Bác sĩ không đủ dụng cụ", "isCorrect": false}
+      ],
+      "explanation": "Đây là mức độ can thiệp tối thiểu cho bệnh nhân suy kiệt hoặc có tuổi thọ dự kiến ngắn."
+    },
+    {
+      "question": "Mức kế hoạch điều trị 'Comprehensive' (Toàn diện) yêu cầu điều kiện gì?",
+      "options": [
+        {"text": "BN có ASA I hoặc II và có động lực điều trị cao", "isCorrect": true},
+        {"text": "Chỉ cần BN có nhiều tiền", "isCorrect": false},
+        {"text": "Mọi BN trên 60 tuổi đều nên làm", "isCorrect": false},
+        {"text": "BN bị Alzheimer giai đoạn cuối", "isCorrect": false}
+      ],
+      "explanation": "Điều trị toàn diện đòi hỏi bệnh nhân phải có sức khỏe tốt để chịu đựng được các cuộc hẹn dài và thủ thuật phức tạp."
+    },
+    {
+      "question": "Thành phần 'O' trong mô hình OSCAR là viết tắt của:",
+      "options": [
+        {"text": "Overall (Tổng thể)", "isCorrect": false},
+        {"text": "Oral (Tình trạng răng miệng)", "isCorrect": true},
+        {"text": "Old (Tuổi tác)", "isCorrect": false},
+        {"text": "Oxygen (Oxy máu)", "isCorrect": false}
+      ],
+      "explanation": "O đại diện cho việc đánh giá chi tiết răng, nướu, niêm mạc và chức năng của khoang miệng."
+    },
+    {
+      "question": "Khám chức năng nuốt ở người cao tuổi nhằm phát hiện nguy cơ gì?",
+      "options": [
+        {"text": "Nguy cơ sâu răng", "isCorrect": false},
+        {"text": "Nguy cơ sặc và viêm phổi do hít phải (aspiration pneumonia)", "isCorrect": true},
+        {"text": "Nguy cơ đau khớp vai", "isCorrect": false},
+        {"text": "Nguy cơ chảy máu nướu", "isCorrect": false}
+      ],
+      "explanation": "Rối loạn nuốt ở người già có thể dẫn đến thức ăn hoặc nước bọt lọt vào đường hô hấp, gây viêm phổi nguy hiểm."
+    },
+    {
+      "question": "Mòn răng do chải răng sai cách (Abrasion) ở người già thường thấy rõ nhất ở:",
+      "options": [
+        {"text": "Mặt nhai răng cối", "isCorrect": false},
+        {"text": "Vùng cổ răng mặt ngoài", "isCorrect": true},
+        {"text": "Rìa cắn răng cửa", "isCorrect": false},
+        {"text": "Mặt lưỡi răng cửa dưới", "isCorrect": false}
+      ],
+      "explanation": "Lực chải ngang mạnh kết hợp với tụt nướu làm vùng cổ răng (ngà răng mềm) bị mòn khuyết hình chêm."
+    },
+    {
+      "question": "Nguyên tắc 'informed consent' (cam kết điều trị) ở người cao tuổi cần chú ý:",
+      "options": [
+        {"text": "Chỉ cần bệnh nhân gật đầu", "isCorrect": false},
+        {"text": "Cần sự tham gia của người giám hộ hoặc gia đình nếu BN có suy giảm nhận thức", "isCorrect": true},
+        {"text": "Chỉ cần ký sau khi đã làm xong", "isCorrect": false},
+        {"text": "Ký bằng miệng là đủ", "isCorrect": false}
+      ],
+      "explanation": "Để đảm bảo pháp lý và sự thấu hiểu, gia đình cần nắm rõ rủi ro và tiên lượng điều trị."
+    },
+    {
+      "question": "Loạn năng khớp thái dương hàm ở người già thường do nguyên nhân nào?",
+      "options": [
+        {"text": "Mất răng lâu ngày không làm phục hình", "isCorrect": false},
+        {"text": "Hàm giả cũ mòn mặt nhai, sai khớp cắn", "isCorrect": false},
+        {"text": "Quá trình lão hóa tự nhiên của khớp", "isCorrect": false},
+        {"text": "Tất cả các nguyên nhân trên", "isCorrect": true}
+      ],
+      "explanation": "Sự kết hợp của mất răng, hàm giả sai và lão hóa mô khớp dẫn đến đau, tiếng kêu khớp và giới hạn há miệng."
+    },
+    {
+      "question": "Phương pháp 'tăng cường nước bọt tại chỗ' cho BN khô miệng bao gồm:",
+      "options": [
+        {"text": "Uốn nước thường xuyên từng ngụm nhỏ", "isCorrect": false},
+        {"text": "Sử dụng gel giữ ẩm niêm mạc", "isCorrect": false},
+        {"text": "Tránh các chất kích thích như rượu, thuốc lá", "isCorrect": false},
+        {"text": "Tất cả các ý trên", "isCorrect": true}
+      ],
+      "explanation": "Các biện pháp này giúp làm dịu niêm mạc và giảm cảm giác khô rát cho bệnh nhân."
+    },
+    {
+      "question": "Khi lập kế hoạch điều trị cho BN Parkinson, bác sĩ cần lưu ý:",
+      "options": [
+        {"text": "Thời điểm hẹn khám nên vào lúc thuốc toàn thân có tác dụng tốt nhất", "isCorrect": true},
+        {"text": "Luôn luôn phải gây mê", "isCorrect": false},
+        {"text": "Chỉ làm răng vào buổi tối", "isCorrect": false},
+        {"text": "Bắt bệnh nhân ngồi im hoàn toàn", "isCorrect": false}
+      ],
+      "explanation": "Chọn 'giờ vàng' khi thuốc kiểm soát run hoạt động tốt nhất giúp BN hợp tác và điều trị an toàn hơn."
+    },
+    {
+      "question": "Tại sao NCT bị sa sút trí tuệ thường có tình trạng vệ sinh răng miệng rất kém?",
+      "options": [
+        {"text": "Họ quên cách sử dụng bàn chải", "isCorrect": false},
+        {"text": "Họ không còn quan tâm đến bản thân", "isCorrect": false},
+        {"text": "Người chăm sóc gặp khó khăn khi giúp họ vệ sinh", "isCorrect": false},
+        {"text": "Tất cả các lý do trên", "isCorrect": true}
+      ],
+      "explanation": "Sự suy giảm nhận thức dẫn đến mất kỹ năng tự chăm sóc và sự kháng cự khi người khác hỗ trợ."
+    },
+    {
+      "question": "Biểu hiện của 'Candida dạng hồng ban' bên dưới hàm giả thường là:",
+      "options": [
+        {"text": "Các mảng trắng như vôi", "isCorrect": false},
+        {"text": "Niêm mạc đỏ rực, có thể có điểm xuất huyết và đau rát", "isCorrect": true},
+        {"text": "Nướu bị tím tái", "isCorrect": false},
+        {"text": "Mọc nhiều mụn nước", "isCorrect": false}
+      ],
+      "explanation": "Đây là dạng phổ biến nhất của nấm miệng liên quan đến hàm giả, thường gây khó chịu khi ăn uống."
+    },
+    {
+      "question": "Thuốc kháng nấm thường dùng tại chỗ để điều trị Candida miệng là:",
+      "options": [
+        {"text": "Amoxicillin", "isCorrect": false},
+        {"text": "Nystatin hoặc Miconazole", "isCorrect": true},
+        {"text": "Paracetamol", "isCorrect": false},
+        {"text": "Acyclovir", "isCorrect": false}
+      ],
+      "explanation": "Nystatin dạng rơ hoặc gel Miconazole là những lựa chọn hàng đầu cho nấm miệng tại chỗ."
+    },
+    {
+      "question": "Khi nhổ răng cho người cao tuổi, việc sử dụng thuốc tê có chất co mạch (như Epinephrine) cần:",
+      "options": [
+        {"text": "Dùng thoải mái để cầm máu", "isCorrect": false},
+        {"text": "Hết sức thận trọng hoặc chống chỉ định ở BN tim mạch nặng/THA chưa kiểm soát", "isCorrect": true},
+        {"text": "Tuyệt đối không dùng cho mọi người già", "isCorrect": false},
+        {"text": "Chỉ dùng cho nam giới", "isCorrect": false}
+      ],
+      "explanation": "Chất co mạch có thể làm tăng nhịp tim và huyết áp kịch phát, gây nguy hiểm cho BN có sẵn bệnh lý nền."
+    },
+    {
+      "question": "Tầm quan trọng của việc sàng lọc ung thư miệng ở người già là:",
+      "options": [
+        {"text": "Để phát hiện giai đoạn sớm, giúp tăng tỷ lệ sống sót và giảm xâm lấn điều trị", "isCorrect": true},
+        {"text": "Để bán thuốc chống ung thư", "isCorrect": false},
+        {"text": "Vì mọi người già đều bị ung thư", "isCorrect": false},
+        {"text": "Chỉ để làm cho bệnh nhân sợ", "isCorrect": false}
+      ],
+      "explanation": "Ung thư miệng giai đoạn sớm thường không đau, nên bác sĩ nha khoa đóng vai trò 'người gác cổng' trong phát hiện sớm."
+    },
+    {
+      "question": "Trong hình ảnh lâm sàng, 'Bạch sản' (Leukoplakia) ở người già được mô tả là:",
+      "options": [
+        {"text": "Mảng màu đỏ dễ chảy máu", "isCorrect": false},
+        {"text": "Mảng trắng không thể lau sạch bằng gạc và không thuộc bệnh lý nào khác", "isCorrect": true},
+        {"text": "Mảng màu nâu đen", "isCorrect": false},
+        {"text": "Vết loét có mủ", "isCorrect": false}
+      ],
+      "explanation": "Bạch sản là một tổn thương tiền ung thư quan trọng cần được theo dõi sát và sinh thiết."
+    },
+    {
+      "question": "Giải pháp 'hàm phủ' (Overdenture) trên chân răng còn lại giúp gì cho người già?",
+      "options": [
+        {"text": "Duy trì xương ổ răng và tăng cảm giác bản thể khi ăn nhai", "isCorrect": true},
+        {"text": "Làm răng giả nhẹ hơn", "isCorrect": false},
+        {"text": "Không cần vệ sinh răng", "isCorrect": false},
+        {"text": "Làm hơi thở thơm tho", "isCorrect": false}
+      ],
+      "explanation": "Giữ lại một vài chân răng khỏe giúp làm chậm quá trình tiêu xương hàm và giúp BN cảm nhận lực nhai tốt hơn."
+    },
+    {
+      "question": "Khi làm răng cho người bị Alzheimer, quy tắc '4S' bao gồm 'Short' (Ngắn), 'Simple' (Đơn giản) và:",
+      "options": [
+        {"text": "Slight (Nhẹ) và Safe (An toàn)", "isCorrect": true},
+        {"text": "Strong (Mạnh) và Smart (Thông minh)", "isCorrect": false},
+        {"text": "Sweet (Ngọt) và Soft (Mềm)", "isCorrect": false},
+        {"text": "Small (Nhỏ) và Soon (Sớm)", "isCorrect": false}
+      ],
+      "explanation": "Các buổi hẹn ngắn, thủ thuật đơn giản, tác động nhẹ nhàng và đảm bảo an toàn tối đa cho BN."
+    },
+    {
+      "question": "Thuật ngữ 'Frail elderly' dùng để chỉ:",
+      "options": [
+        {"text": "Người già khỏe mạnh", "isCorrect": false},
+        {"text": "Người già suy yếu, dễ bị tổn thương trước các tác động bệnh tật/môi trường", "isCorrect": true},
+        {"text": "Người già tập thể dục thường xuyên", "isCorrect": false},
+        {"text": "Người già giàu có", "isCorrect": false}
+      ],
+      "explanation": "Nhóm này cần được chăm sóc đặc biệt với kế hoạch điều trị mang tính hỗ trợ cao."
+    },
+    {
+      "question": "Biểu hiện 'góc miệng nứt nẻ, đỏ' (Angular Cheilitis) thường liên quan đến:",
+      "options": [
+        {"text": "Thiếu hụt vitamin nhóm B và mất kích thước dọc tầng mặt", "isCorrect": true},
+        {"text": "Đánh răng quá nhiều", "isCorrect": false},
+        {"text": "Dị ứng mắc cài", "isCorrect": false},
+        {"text": "Do thời tiết lạnh", "isCorrect": false}
+      ],
+      "explanation": "Mất kích thước dọc làm nếp gấp khóe miệng sâu hơn, đọng nước bọt gây nhiễm nấm và vi khuẩn dẫn đến viêm khóe mép."
+    },
+    {
+      "question": "Mục tiêu 'thẩm mỹ' trong chỉnh nha cho người cao tuổi:",
+      "options": [
+        {"text": "Phải đạt độ đều đặn hoàn hảo như người mẫu", "isCorrect": false},
+        {"text": "Thường hướng đến sự hài hòa tự nhiên phù hợp với độ tuổi", "isCorrect": true},
+        {"text": "Không quan trọng, chỉ cần nhai được", "isCorrect": false},
+        {"text": "Là ưu tiên số 1 trong mọi trường hợp", "isCorrect": false}
+      ],
+      "explanation": "Thẩm mỹ ở NCT cần tôn trọng vẻ đẹp thời gian, tránh sự 'giả tạo' quá mức."
+    },
+    {
+      "question": "Việc sử dụng thuốc giảm đau NSAIDs (như Ibuprofen) cho người già cần lưu ý nguy cơ:",
+      "options": [
+        {"text": "Viêm loét dạ dày và ảnh hưởng chức năng thận", "isCorrect": true},
+        {"text": "Làm răng bị lung lay", "isCorrect": false},
+        {"text": "Gây mất ngủ", "isCorrect": false},
+        {"text": "Làm hơi thở hôi", "isCorrect": false}
+      ],
+      "explanation": "NSAIDs là nhóm thuốc gây nhiều biến chứng đường tiêu hóa và thận ở NCT, nên dùng Paracetamol là ưu tiên đầu tiên."
+    },
+    {
+      "question": "Chỉ định nhổ răng ở người già nên được đưa ra khi:",
+      "options": [
+        {"text": "Răng có túi nha chu sâu không thể cứu vãn và là ổ nhiễm trùng", "isCorrect": true},
+        {"text": "Răng chỉ bị sâu men", "isCorrect": false},
+        {"text": "Bệnh nhân muốn nhổ để làm hàm giả cho nhanh", "isCorrect": false},
+        {"text": "Răng hơi bị xoay trục", "isCorrect": false}
+      ],
+      "explanation": "Nhổ răng là biện pháp cuối cùng khi răng không còn chức năng và đe dọa sức khỏe toàn thân."
+    },
+    {
+      "question": "Ưu điểm của Implant nha khoa cho người già so với hàm tháo lắp truyền thống là:",
+      "options": [
+        {"text": "Rẻ hơn", "isCorrect": false},
+        {"text": "Giúp cố định hàm giả chắc chắn hơn, cải thiện sức nhai rõ rệt", "isCorrect": true},
+        {"text": "Không cần phẫu thuật", "isCorrect": false},
+        {"text": "Làm trong 1 ngày là xong", "isCorrect": false}
+      ],
+      "explanation": "Implant hỗ trợ hàm giả (Overdenture) là bước tiến lớn giúp người già ăn nhai tự tin hơn."
+    },
+    {
+      "question": "Tầm quan trọng của việc đánh giá 'Khả năng độc lập' (Independence) của BN trong OSCAR là:",
+      "options": [
+        {"text": "Để xem BN đi khám một mình hay có người đi cùng", "isCorrect": false},
+        {"text": "Xác định xem BN có thể tự thực hiện vệ sinh răng miệng tại nhà được không", "isCorrect": true},
+        {"text": "Để biết BN có tự trả tiền được không", "isCorrect": false},
+        {"text": "Để tặng quà cho người chăm sóc", "isCorrect": false}
+      ],
+      "explanation": "Nếu BN không thể tự vệ sinh, bác sĩ phải huấn luyện cho người chăm sóc quy trình chải răng và vệ sinh hàm giả."
+    },
+    {
+      "question": "Thuốc súc miệng chứa Chlorhexidine 0.12% dùng cho người già nhằm:",
+      "options": [
+        {"text": "Làm trắng răng", "isCorrect": false},
+        {"text": "Kiểm soát mảng bám vi khuẩn khi BN gặp khó khăn trong việc chải răng cơ học", "isCorrect": true},
+        {"text": "Thay thế hoàn toàn việc đánh răng", "isCorrect": false},
+        {"text": "Làm giảm hôi miệng vĩnh viễn", "isCorrect": false}
+      ],
+      "explanation": "Đây là biện pháp hỗ trợ hóa học hữu hiệu cho BN bị Parkinson hoặc tai biến khó cầm bàn chải."
+    },
+    {
+      "question": "Hành động đúng khi BN cao tuổi bị ngất trên ghế nha khoa là:",
+      "options": [
+        {"text": "Yêu cầu BN đứng dậy đi lại cho tỉnh", "isCorrect": false},
+        {"text": "Đặt BN nằm ngửa, đầu thấp, chân cao và kiểm tra dấu hiệu sinh tồn", "isCorrect": true},
+        {"text": "Cho uống nước nóng ngay lập tức", "isCorrect": false},
+        {"text": "Vỗ mạnh vào mặt BN", "isCorrect": false}
+      ],
+      "explanation": "Tư thế Trendelenburg giúp tăng cường máu lên não, là xử trí ban đầu chuẩn cho các cơn ngất thông thường."
+    },
+    {
+      "question": "Khi chụp phim X-quang cho người già bị run tay, bác sĩ nên:",
+      "options": [
+        {"text": "Dùng giá giữ phim và yêu cầu người nhà hỗ trợ cố định đầu", "isCorrect": true},
+        {"text": "Mắng BN vì không ngồi yên", "isCorrect": false},
+        {"text": "Tăng cường độ tia X", "isCorrect": false},
+        {"text": "Bỏ qua không chụp nữa", "isCorrect": false}
+      ],
+      "explanation": "Sử dụng các thiết bị hỗ trợ giúp hình ảnh không bị nhòe và đảm bảo chẩn đoán chính xác."
+    },
+    {
+      "question": "Kết quả cuối cùng của bài học Điều trị răng miệng người cao tuổi nhấn mạnh:",
+      "options": [
+        {"text": "Phải chữa hết tất cả các bệnh răng miệng cùng lúc", "isCorrect": false},
+        {"text": "Cải thiện chất lượng cuộc sống (Quality of Life) là mục tiêu tối thượng", "isCorrect": true},
+        {"text": "Nhổ răng là giải pháp tốt nhất", "isCorrect": false},
+        {"text": "Bác sĩ chỉ cần làm đúng kỹ thuật là đủ", "isCorrect": false}
+      ],
+      "explanation": "Điều trị nha khoa người già không chỉ là chữa bệnh mà là giúp họ ăn ngon, nói rõ và tự tin trong những năm tháng xế chiều."
+    }
+    ,
+        {
+          "question": "Tại sao việc lấy cao răng và xử lý mặt chân răng ở NCT cần được thực hiện nhẹ nhàng hơn?",
+          "options": [
+            {"text": "Do men răng NCT rất mềm", "isCorrect": false},
+            {"text": "Do bề mặt xê-măng chân răng mỏng và nướu dễ bị tổn thương, chậm lành", "isCorrect": true},
+            {"text": "Do cao răng người già không cứng bằng người trẻ", "isCorrect": false},
+            {"text": "Để tiết kiệm thời gian điều trị", "isCorrect": false}
+          ],
+          "explanation": "Lão hóa làm niêm mạc miệng mỏng đi và khả năng tái tạo mô chậm lại, việc can thiệp thô bạo dễ gây loét và nhiễm trùng."
+        },
+        {
+          "question": "Sử dụng nước súc miệng Chlorhexidine lâu ngày ở NCT có thể gây ra tác dụng phụ nào?",
+          "options": [
+            {"text": "Làm răng bị trắng phấn", "isCorrect": false},
+            {"text": "Gây nhuộm màu răng, lưỡi và rối loạn vị giác tạm thời", "isCorrect": true},
+            {"text": "Làm nướu bị chảy máu", "isCorrect": false},
+            {"text": "Gây sâu răng chân răng", "isCorrect": false}
+          ],
+          "explanation": "Chlorhexidine là chất sát khuẩn mạnh nhưng dùng kéo dài thường gây bám màu lên bề mặt răng và ảnh hưởng đến cảm nhận mùi vị."
+        },
+        {
+          "question": "Tổn thương 'mòn ngót cổ răng' (Abfraction) thường liên quan đến yếu tố nào?",
+          "options": [
+            {"text": "Do uống nhiều nước ngọt", "isCorrect": false},
+            {"text": "Do lực nhai lệch lạc gây uốn cong thân răng và làm nứt vỡ men vùng cổ", "isCorrect": true},
+            {"text": "Do vi khuẩn sâu răng", "isCorrect": false},
+            {"text": "Do dùng tăm xỉa răng", "isCorrect": false}
+          ],
+          "explanation": "Abfraction là kết quả của sự tập trung ứng suất tại vùng cổ răng do khớp cắn không thuận lợi."
+        },
+        {
+          "question": "Phương pháp 'tái khoáng hóa' chân răng bị lộ ở NCT thường sử dụng chất nào?",
+          "options": [
+            {"text": "Dung dịch nước muối sinh lý", "isCorrect": false},
+            {"text": "Fluor nồng độ cao (như Vecni Fluor hoặc SDF)", "isCorrect": true},
+            {"text": "Cồn 90 độ", "isCorrect": false},
+            {"text": "Nước oxy già", "isCorrect": false}
+          ],
+          "explanation": "Fluor giúp tăng cường cấu trúc khoáng hóa cho bề mặt chân răng, ngăn chặn sự tiến triển của sâu răng và giảm ê buốt."
+        },
+        {
+          "question": "Khi răng bị 'canxi hóa ống tủy' hoàn toàn ở người già, bác sĩ nên xử trí như thế nào?",
+          "options": [
+            {"text": "Cố gắng khoan sâu vào xương hàm để tìm tủy", "isCorrect": false},
+            {"text": "Nếu răng không có triệu chứng lâm sàng và không có tổn thương quanh chóp thì nên theo dõi", "isCorrect": true},
+            {"text": "Bắt buộc phải nhổ bỏ răng đó ngay", "isCorrect": false},
+            {"text": "Yêu cầu bệnh nhân uống thuốc kháng sinh suốt đời", "isCorrect": false}
+          ],
+          "explanation": "Ống tủy bị bít kín do ngà thứ phát là hiện tượng lão hóa bình thường, nếu không có viêm nhiễm thì không nhất thiết phải can thiệp nội nha."
+        },
+        {
+          "question": "Máy định vị chóp (Apex locator) ở NCT có thể cho kết quả sai lệch nếu:",
+          "options": [
+            {"text": "Răng bị sâu men", "isCorrect": false},
+            {"text": "Ống tủy bị canxi hóa hoặc có sỏi tủy lớn gây cản trở dẫn điện", "isCorrect": true},
+            {"text": "Bệnh nhân đeo kính cận", "isCorrect": false},
+            {"text": "Răng đã được trám Amalgam", "isCorrect": false}
+          ],
+          "explanation": "Sự thay đổi cấu trúc khoáng hóa trong ống tủy người già làm thay đổi độ dẫn điện, ảnh hưởng đến độ chính xác của máy."
+        },
+        {
+          "question": "Tai biến tim mạch thường gặp nhất khi gây tê cho NCT là gì?",
+          "options": [
+            {"text": "Hạ đường huyết", "isCorrect": false},
+            {"text": "Tăng huyết áp kịch phát hoặc loạn nhịp tim do chất co mạch", "isCorrect": true},
+            {"text": "Ngừng thở hoàn toàn", "isCorrect": false},
+            {"text": "Chảy máu cam", "isCorrect": false}
+          ],
+          "explanation": "Chất co mạch Epinephrine trong thuốc tê có thể kích thích hệ giao cảm, làm tăng nhịp tim và áp lực máu."
+        },
+        {
+          "question": "Bệnh nhân bị 'Đau thắt ngực ổn định' khi làm răng cần lưu ý:",
+          "options": [
+            {"text": "Tránh các buổi hẹn gây căng thẳng kéo dài", "isCorrect": true},
+            {"text": "Nên làm răng vào ban đêm", "isCorrect": false},
+            {"text": "Yêu cầu nhịn ăn trước khi làm", "isCorrect": false},
+            {"text": "Không được dùng gương soi", "isCorrect": false}
+          ],
+          "explanation": "Căng thẳng (stress) là yếu tố khởi phát cơn đau thắt ngực, do đó cần quản lý tâm lý và rút ngắn thời gian điều trị."
+        },
+        {
+          "question": "Tại sao vết thương nhổ răng ở người già bị bệnh tiểu đường không kiểm soát dễ bị nhiễm trùng?",
+          "options": [
+            {"text": "Do máu chảy quá nhiều", "isCorrect": false},
+            {"text": "Do suy giảm chức năng của bạch cầu và môi trường đường huyết cao thuận lợi cho vi khuẩn", "isCorrect": true},
+            {"text": "Do răng người già có nhiều độc tố", "isCorrect": false},
+            {"text": "Do họ không uống nước", "isCorrect": false}
+          ],
+          "explanation": "Tiểu đường làm giảm khả năng thực bào của bạch cầu và gây rối loạn vi tuần hoàn, làm chậm quá trình lành thương."
+        },
+        {
+          "question": "Tổn thương 'Epulis fissuratum' dưới hàm giả là tình trạng gì?",
+          "options": [
+            {"text": "Sâu răng hàng loạt", "isCorrect": false},
+            {"text": "Sự tăng sản mô liên kết xơ do bờ hàm giả lỏng lẻo tỳ đè kéo dài", "isCorrect": true},
+            {"text": "Nhiễm nấm đen ở vòm miệng", "isCorrect": false},
+            {"text": "Mòn xương hàm cấp tính", "isCorrect": false}
+          ],
+          "explanation": "Đây là các dải thịt dư mọc lên ở ngách hành lang do hàm giả không còn khít sát ma sát vào niêm mạc."
+        },
+        {
+          "question": "Chế độ ăn cho NCT sau khi nhổ răng nên ưu tiên:",
+          "options": [
+            {"text": "Thức ăn cứng để kích thích xương", "isCorrect": false},
+            {"text": "Thức ăn mềm, nguội, giàu vitamin và khoáng chất", "isCorrect": true},
+            {"text": "Chỉ uống nước lọc", "isCorrect": false},
+            {"text": "Ăn đồ cay để kích thích vị giác", "isCorrect": false}
+          ],
+          "explanation": "Dinh dưỡng tốt giúp cơ thể NCT hồi phục nhanh hơn và tránh kích ứng vùng vết thương mới phẫu thuật."
+        },
+        {
+          "question": "Triệu chứng 'Loạn vị giác' (Dysgeusia) ở người già có thể do thiếu hụt vi chất nào?",
+          "options": [
+            {"text": "Sắt và Kẽm", "isCorrect": true},
+            {"text": "Canxi và Magie", "isCorrect": false},
+            {"text": "Vitamin C", "isCorrect": false},
+            {"text": "Nitơ", "isCorrect": false}
+          ],
+          "explanation": "Thiếu kẽm ảnh hưởng trực tiếp đến sự phát triển của các nụ vị giác trên lưỡi."
+        },
+        {
+          "question": "Hiện tượng 'tiêu xương sống hàm' diễn ra nhanh nhất khi nào?",
+          "options": [
+            {"text": "Ngay sau khi mọc răng khôn", "isCorrect": false},
+            {"text": "Trong năm đầu tiên sau khi nhổ răng", "isCorrect": true},
+            {"text": "Sau khi trẻ dậy thì", "isCorrect": false},
+            {"text": "Khi BN bắt đầu dùng thuốc bổ", "isCorrect": false}
+          ],
+          "explanation": "Sự mất đi lực nhai truyền qua chân răng làm xương ổ răng tiêu biến nhanh chóng trong 12 tháng đầu sau nhổ."
+        },
+        {
+          "question": "Ưu điểm của 'Hàm giả bán phần khung kim loại' so với hàm nhựa toàn bộ ở NCT là:",
+          "options": [
+            {"text": "Rẻ tiền hơn", "isCorrect": false},
+            {"text": "Mỏng, nhẹ, dẫn nhiệt tốt giúp BN cảm nhận thức ăn tốt hơn", "isCorrect": true},
+            {"text": "Không cần răng thật để bám", "isCorrect": false},
+            {"text": "Dễ sửa chữa hơn", "isCorrect": false}
+          ],
+          "explanation": "Khung kim loại có độ bền cao, chiếm ít diện tích trong miệng, giúp BN thích nghi nhanh hơn."
+        },
+        {
+          "question": "Tại sao phải khám sàng lọc ung thư miệng định kỳ cho NCT dù họ không còn răng?",
+          "options": [
+            {"text": "Để nhổ các chân răng còn sót", "isCorrect": false},
+            {"text": "Vì niêm mạc miệng và xương hàm vẫn có nguy cơ phát triển khối u ác tính", "isCorrect": true},
+            {"text": "Để bán thêm hàm giả mới", "isCorrect": false},
+            {"text": "Để kiểm tra độ cứng của lợi", "isCorrect": false}
+          ],
+          "explanation": "Người già mất răng vẫn có nguy cơ ung thư biểu mô niêm mạc miệng, đặc biệt là những người có thói quen hút thuốc hoặc uống rượu lâu năm."
+        },
+        {
+          "question": "Biểu hiện của 'Hồng sản' (Erythroplakia) ở miệng người già là:",
+          "options": [
+            {"text": "Mảng màu đỏ rực, bề mặt nhung, có nguy cơ ác tính hóa rất cao", "isCorrect": true},
+            {"text": "Vết đen lốm đốm ở nướu", "isCorrect": false},
+            {"text": "Lưỡi bị trắng đục", "isCorrect": false},
+            {"text": "Nướu bị vàng", "isCorrect": false}
+          ],
+          "explanation": "Erythroplakia là tổn thương tiền ung thư nguy hiểm hơn cả Bạch sản, cần phải được sinh thiết ngay."
+        },
+        {
+          "question": "NCT bị viêm khớp tay nặng nên sử dụng loại bàn chải nào?",
+          "options": [
+            {"text": "Bàn chải có cán thật mỏng", "isCorrect": false},
+            {"text": "Bàn chải điện hoặc bàn chải có cán được làm to/dài thêm", "isCorrect": true},
+            {"text": "Bàn chải lông cứng nhất", "isCorrect": false},
+            {"text": "Chỉ cần dùng ngón tay chà răng", "isCorrect": false}
+          ],
+          "explanation": "Bàn chải cán to giúp BN dễ cầm nắm và kiểm soát động tác khi các khớp ngón tay bị cứng, đau."
+        },
+        {
+          "question": "Sử dụng 'Chỉ nha khoa' ở người già cần lưu ý điều gì?",
+          "options": [
+            {"text": "Không được dùng vì làm thưa răng", "isCorrect": false},
+            {"text": "Nên dùng cung giữ chỉ hoặc bàn chải kẽ răng nếu BN run tay", "isCorrect": true},
+            {"text": "Chỉ dùng cho răng cửa", "isCorrect": false},
+            {"text": "Dùng càng mạnh càng tốt", "isCorrect": false}
+          ],
+          "explanation": "Các dụng cụ hỗ trợ giúp NCT vệ sinh các mặt bên của răng hiệu quả hơn khi không còn sự khéo léo của bàn tay."
+        },
+        {
+          "question": "Tại sao NCT thường hay bị 'hóc/sặc' khi ăn nhai với hàm giả mới?",
+          "options": [
+            {"text": "Do hàm giả quá nặng", "isCorrect": false},
+            {"text": "Do mất cảm giác bản thể từ dây chằng nha chu và giảm khả năng điều phối của lưỡi", "isCorrect": true},
+            {"text": "Do răng giả quá nhọn", "isCorrect": false},
+            {"text": "Do nước bọt quá loãng", "isCorrect": false}
+          ],
+          "explanation": "Dây chằng nha chu chứa các đầu dây thần kinh cảm giác lực nhai; mất răng thật làm giảm sự kiểm soát tinh tế của não bộ đối với thức ăn trong miệng."
+        },
+        {
+          "question": "Chỉ số đánh giá 'Chất lượng cuộc sống liên quan sức khỏe răng miệng' là:",
+          "options": [
+            {"text": "OHIP-14 (Oral Health Impact Profile)", "isCorrect": true},
+            {"text": "Chỉ số BMI", "isCorrect": false},
+            {"text": "Chỉ số IQ", "isCorrect": false},
+            {"text": "Chỉ số Huyết áp", "isCorrect": false}
+          ],
+          "explanation": "OHIP-14 dùng để khảo sát mức độ ảnh hưởng của răng miệng đến tâm lý, xã hội và chức năng hàng ngày của BN."
+        },
+        {
+          "question": "Nguyên nhân gây 'viêm khóe mép' (Angular Cheilitis) thường gặp ở NCT là phối hợp của:",
+          "options": [
+            {"text": "Mất kích thước dọc và nhiễm nấm Candida/vi khuẩn", "isCorrect": true},
+            {"text": "Ăn quá nhiều kẹo và ít uống nước", "isCorrect": false},
+            {"text": "Dùng quá nhiều kem đánh răng và súc miệng bằng muối", "isCorrect": false},
+            {"text": "Do thời tiết nóng bức", "isCorrect": false}
+          ],
+          "explanation": "Kích thước dọc giảm làm khóe mép bị gấp nếp, đọng nước bọt tạo môi trường cho nấm phát triển."
+        },
+        {
+          "question": "Chỉ định nhổ răng cho người cao tuổi cần cân nhắc 'tối thiểu xâm lấn' nghĩa là:",
+          "options": [
+            {"text": "Không dùng thuốc tê", "isCorrect": false},
+            {"text": "Hạn chế rạch nướu, mở xương và bảo tồn xương ổ răng tối đa", "isCorrect": true},
+            {"text": "Nhổ 10 răng cùng lúc cho nhanh", "isCorrect": false},
+            {"text": "Dùng kìm thật to", "isCorrect": false}
+          ],
+          "explanation": "Bảo tồn xương giúp quá trình lành thương nhanh hơn và tạo thuận lợi cho việc làm răng giả sau này."
+        },
+        {
+          "question": "Lão hóa làm thay đổi 'Ngưỡng đau' của niêm mạc miệng như thế nào?",
+          "options": [
+            {"text": "Làm tăng ngưỡng đau (ít cảm thấy đau)", "isCorrect": false},
+            {"text": "Làm giảm ngưỡng đau (dễ cảm thấy đau và khó chịu với các kích thích nhẹ)", "isCorrect": true},
+            {"text": "Không thay đổi", "isCorrect": false},
+            {"text": "Làm mất hoàn toàn cảm giác", "isCorrect": false}
+          ],
+          "explanation": "Niêm mạc mỏng khiến các thụ thể cảm giác nằm gần bề mặt hơn, làm BN nhạy cảm hơn với áp lực từ hàm giả hoặc thức ăn cứng."
+        },
+        {
+          "question": "Biện pháp xử trí 'Sâu chân răng' giai đoạn sớm (chưa tạo lỗ) ở NCT là:",
+          "options": [
+            {"text": "Khoan bỏ để trám ngay", "isCorrect": false},
+            {"text": "Chải răng với kem đánh răng có nồng độ Fluoride cao (5000 ppm) và bôi Vecni Fluor", "isCorrect": true},
+            {"text": "Bọc răng sứ toàn bộ", "isCorrect": false},
+            {"text": "Uống bổ sung canxi viên", "isCorrect": false}
+          ],
+          "explanation": "Tái khoáng hóa hóa học giúp bảo tồn tối đa cấu trúc răng thật ở người già."
+        },
+        {
+          "question": "Dấu hiệu của 'Bệnh Lichen phẳng dạng trợt' ở miệng người già thường là:",
+          "options": [
+            {"text": "Các vết loét đỏ, đau rát, bao quanh bởi các đường trắng dạng lưới (Wickham striae)", "isCorrect": true},
+            {"text": "Mụn nước mọc quanh môi", "isCorrect": false},
+            {"text": "Nướu bị đen toàn bộ", "isCorrect": false},
+            {"text": "Lưỡi bị nứt thành rãnh sâu", "isCorrect": false}
+          ],
+          "explanation": "Lichen phẳng là bệnh lý tự miễn mạn tính phổ biến ở NCT, cần phân biệt với phản ứng thuốc Lichenoid."
+        },
+        {
+          "question": "Để giảm 'khô miệng ban đêm' cho người già, bác sĩ nên khuyên:",
+          "options": [
+            {"text": "Đặt một máy phun sương trong phòng ngủ và dùng gel giữ ẩm trước khi ngủ", "isCorrect": true},
+            {"text": "Uống thật nhiều cà phê trước khi ngủ", "isCorrect": false},
+            {"text": "Bôi mật ong vào nướu", "isCorrect": false},
+            {"text": "Đeo hàm giả khi ngủ", "isCorrect": false}
+          ],
+          "explanation": "Duy trì độ ẩm không khí và sử dụng sản phẩm thay thế nước bọt dạng gel giúp BN ngủ ngon hơn."
+        },
+        {
+          "question": "Sự khác biệt giữa 'Xerostomia' và 'Salivary Gland Hypofunction' là:",
+          "options": [
+            {"text": "Xerostomia là cảm giác chủ quan, Hypofunction là sự giảm tiết khách quan", "isCorrect": true},
+            {"text": "Hai thuật ngữ là một", "isCorrect": false},
+            {"text": "Xerostomia chỉ có ở trẻ em", "isCorrect": false},
+            {"text": "Hypofunction là bệnh ung thư", "isCorrect": false}
+          ],
+          "explanation": "Nhiều bệnh nhân cảm thấy khô miệng (Xerostomia) dù lượng nước bọt đo được vẫn ở mức bình thường."
+        },
+        {
+          "question": "Bệnh nhân bị 'Hội chứng Sjogren' thường có biểu hiện:",
+          "options": [
+            {"text": "Khô mắt và khô miệng trầm trọng", "isCorrect": true},
+            {"text": "Chảy nước mắt liên tục", "isCorrect": false},
+            {"text": "Răng mọc thừa nhiều", "isCorrect": false},
+            {"text": "Nướu quá phát bao trùm răng", "isCorrect": false}
+          ],
+          "explanation": "Sjogren là bệnh tự miễn phá hủy các tuyến ngoại tiết, đặc biệt là tuyến lệ và tuyến nước bọt."
+        },
+        {
+          "question": "Khi làm hàm giả toàn bộ cho người già có 'xương hàm tiêu xương nhiều', bác sĩ nên:",
+          "options": [
+            {"text": "Làm hàm giả thật nặng để nó không rơi", "isCorrect": false},
+            {"text": "Sử dụng kỹ thuật lấy dấu chức năng để tận dụng tối đa diện tích nâng đỡ của mô mềm", "isCorrect": true},
+            {"text": "Khuyên bệnh nhân không nên ăn đồ cứng", "isCorrect": false},
+            {"text": "Chỉ làm hàm trên", "isCorrect": false}
+          ],
+          "explanation": "Kỹ thuật lấy dấu động (chức năng) giúp xác định biên giới hàm giả hài hòa với các cơ môi má lưỡi."
+        },
+        {
+          "question": "Tại sao phải 'Đệm hàm' (Reline) hàm giả cũ của NCT sau mỗi 1-2 năm?",
+          "options": [
+            {"text": "Để thay nhựa màu mới", "isCorrect": false},
+            {"text": "Vì xương hàm tiêu dần làm hàm giả bị lỏng lẻo không còn khít sát", "isCorrect": true},
+            {"text": "Để làm răng giả trắng lại", "isCorrect": false},
+            {"text": "Để thu thêm phí bảo trì", "isCorrect": false}
+          ],
+          "explanation": "Tiêu xương là quá trình liên tục; đệm hàm giúp bù đắp khoảng trống mới phát sinh, duy trì độ vững ổn."
+        },
+        {
+          "question": "Yếu tố 'Thái độ của gia đình' ảnh hưởng thế nào đến kế hoạch điều trị của NCT?",
+          "options": [
+            {"text": "Không có ảnh hưởng", "isCorrect": false},
+            {"text": "Quyết định mức độ hỗ trợ tài chính và chăm sóc vệ sinh răng miệng tại nhà của BN", "isCorrect": true},
+            {"text": "Làm bác sĩ lo lắng thêm", "isCorrect": false},
+            {"text": "Chỉ quan trọng khi BN bị ngất", "isCorrect": false}
+          ],
+          "explanation": "Sự đồng hành của gia đình là chìa khóa để NCT tuân thủ các hướng dẫn điều trị phức tạp."
+        },
+        {
+          "question": "Thuốc nào sau đây thường được dùng để kích thích tiết nước bọt hệ thống (Sialagogues)?",
+          "options": [
+            {"text": "Pilocarpine", "isCorrect": true},
+            {"text": "Atropine", "isCorrect": false},
+            {"text": "Aspirin", "isCorrect": false},
+            {"text": "Amoxicillin", "isCorrect": false}
+          ],
+          "explanation": "Pilocarpine tác động lên hệ đối giao cảm để tăng cường hoạt động của các tuyến nước bọt còn chức năng."
+        },
+        {
+          "question": "Hậu quả của việc 'Mất răng khế' (răng cối lớn) mà không làm phục hình sớm là:",
+          "options": [
+            {"text": "Các răng còn lại bị thưa ra", "isCorrect": false},
+            {"text": "Các răng lân cận bị đổ nghiêng vào khoảng trống và răng đối diện trồi lên làm xáo trộn khớp cắn", "isCorrect": true},
+            {"text": "Răng tự mọc lại cái mới", "isCorrect": false},
+            {"text": "Xương hàm to lên để bù đắp", "isCorrect": false}
+          ],
+          "explanation": "Sự xô lệch răng làm phá vỡ thăng bằng cung răng, gây khó khăn cho việc phục hình sau này."
+        },
+        {
+          "question": "Lập kế hoạch điều trị cho BN bị 'Tai biến mạch máu não' (Stroke) cần:",
+          "options": [
+            {"text": "Trì hoãn điều trị nha khoa ít nhất 6 tháng sau cơn tai biến", "isCorrect": true},
+            {"text": "Nhổ hết răng để phòng nhiễm trùng", "isCorrect": false},
+            {"text": "Làm răng ngay trong tuần đầu tiên", "isCorrect": false},
+            {"text": "Không được dùng thuốc tê", "isCorrect": false}
+          ],
+          "explanation": "6 tháng là thời gian tối thiểu để tình trạng tim mạch và thần kinh của BN ổn định sau cơn đột quỵ."
+        },
+        {
+          "question": "Dấu hiệu 'Lưỡi bị nứt nẻ' (Fissured tongue) ở người già thường là:",
+          "options": [
+            {"text": "Bệnh lý lây nhiễm", "isCorrect": false},
+            {"text": "Biến thái lành tính do tuổi tác hoặc thiếu dinh dưỡng, dễ gây đọng thức ăn và hôi miệng", "isCorrect": true},
+            {"text": "Dấu hiệu ung thư lưỡi", "isCorrect": false},
+            {"text": "Do ăn đồ quá cay", "isCorrect": false}
+          ],
+          "explanation": "Các rãnh sâu trên lưỡi cần được vệ sinh bằng bàn chải lưỡi để tránh viêm nhiễm."
+        },
+        {
+          "question": "Mục đích của việc sử dụng 'Gối nâng khớp' trong điều trị mòn răng ở NCT là:",
+          "options": [
+            {"text": "Để BN nhai kẹo dễ hơn", "isCorrect": false},
+            {"text": "Giải phóng áp lực lên khớp thái dương hàm và bảo vệ các phục hồi răng mới", "isCorrect": true},
+            {"text": "Để làm răng cao lên 10cm", "isCorrect": false},
+            {"text": "Làm trắng men răng", "isCorrect": false}
+          ],
+          "explanation": "Nâng khớp giúp cơ nhai và khớp làm quen lại với chiều cao mặt mới trước khi làm phục hình vĩnh viễn."
+        },
+        {
+          "question": "Sự hiện diện của 'Exostosis' (Lồi xương) ở xương hàm NCT có ảnh hưởng gì?",
+          "options": [
+            {"text": "Làm rụng răng", "isCorrect": false},
+            {"text": "Gây vướng cộm và đau khi mang hàm giả tháo lắp", "isCorrect": true},
+            {"text": "Giúp răng chắc hơn", "isCorrect": false},
+            {"text": "Làm hơi thở hôi", "isCorrect": false}
+          ],
+          "explanation": "Các lồi xương có lớp niêm mạc phủ rất mỏng, dễ bị loét khi hàm nhựa đè ép lên."
+        },
+        {
+          "question": "Trong nhổ răng cho người già, 'phẫu thuật ổ răng' (Alveoloplasty) nhằm mục đích:",
+          "options": [
+            {"text": "Làm xương hàm nhỏ lại", "isCorrect": false},
+            {"text": "Làm phẳng các gờ xương sắc nhọn để chuẩn bị cho việc mang hàm giả sau này", "isCorrect": true},
+            {"text": "Để máu chảy nhiều hơn", "isCorrect": false},
+            {"text": "Để răng mọc lại", "isCorrect": false}
+          ],
+          "explanation": "Mài chỉnh xương ngay lúc nhổ răng giúp tạo hình sống hàm thuận lợi cho phục hình tháo lắp."
+        },
+        {
+          "question": "Thay đổi liều lượng thuốc cho NCT cần tuân theo nguyên tắc 'Start low, go slow' nghĩa là:",
+          "options": [
+            {"text": "Uống thuốc lúc đang đi bộ chậm", "isCorrect": false},
+            {"text": "Bắt đầu với liều thấp và tăng dần từ từ để cơ thể BN thích nghi", "isCorrect": true},
+            {"text": "Chỉ uống thuốc vào buổi sáng", "isCorrect": false},
+            {"text": "Dùng thuốc rẻ tiền trước", "isCorrect": false}
+          ],
+          "explanation": "Do chức năng gan, thận suy giảm nên NCT dễ bị ngộ độc hoặc gặp tác dụng phụ nếu dùng liều chuẩn như người trẻ."
+        },
+        {
+          "question": "Thành phần 'C' (Capability) trong mô hình OSCAR đánh giá yếu tố nào?",
+          "options": [
+            {"text": "Màu sắc răng (Color)", "isCorrect": false},
+            {"text": "Khả năng chức năng: thị lực, thính lực và vận động tay của BN", "isCorrect": true},
+            {"text": "Tiền bạc (Cash)", "isCorrect": false},
+            {"text": "Sự thông minh", "isCorrect": false}
+          ],
+          "explanation": "Capability giúp bác sĩ biết BN có thể tự đi khám, tự chải răng hay nghe được lời dặn dò hay không."
+        },
+        {
+          "question": "Chống chỉ định tuyệt đối của phục hình cố định (cầu răng) ở NCT là:",
+          "options": [
+            {"text": "Bệnh nhân trên 80 tuổi", "isCorrect": false},
+            {"text": "Răng trụ lung lay độ 3 và xương ổ răng tiêu quá 2/3 chiều dài chân răng", "isCorrect": true},
+            {"text": "Bệnh nhân bị mất 1 răng", "isCorrect": false},
+            {"text": "Bệnh nhân bị hôi miệng", "isCorrect": false}
+          ],
+          "explanation": "Răng trụ không đủ sức khỏe nha chu sẽ làm cầu răng thất bại nhanh chóng và gây mất thêm răng."
+        },
+        {
+          "question": "Khám chức năng nói ở NCT mang hàm giả nhằm kiểm tra âm tiết nào?",
+          "options": [
+            {"text": "Âm 'S', 'F', 'V' (để kiểm tra vị trí răng cửa và độ hở răng)", "isCorrect": true},
+            {"text": "Âm 'A', 'O' (chỉ cần há miệng)", "isCorrect": false},
+            {"text": "Không cần kiểm tra", "isCorrect": false},
+            {"text": "Âm 'K', 'G'", "isCorrect": false}
+          ],
+          "explanation": "Vị trí răng giả ảnh hưởng trực tiếp đến luồng hơi phát âm; nếu răng đặt sai, BN sẽ bị nói ngọng."
+        },
+        {
+          "question": "Tại sao NCT thường thích dùng 'Hàm giả nhựa dẻo' (Valplast)?",
+          "options": [
+            {"text": "Vì nó bền nhất", "isCorrect": false},
+            {"text": "Vì nó không có móc kim loại mất thẩm mỹ và ôm khít êm ái hơn", "isCorrect": true},
+            {"text": "Vì nó rẻ hơn nhựa cứng", "isCorrect": false},
+            {"text": "Vì nó làm trắng răng", "isCorrect": false}
+          ],
+          "explanation": "Nhựa dẻo mang lại tính thẩm mỹ cao và sự thoải mái ban đầu tốt hơn hàm nhựa cứng truyền thống."
+        },
+        {
+          "question": "Khi BN bị 'Huyết áp cao kịch phát' tại phòng khám, bác sĩ cần:",
+          "options": [
+            {"text": "Tiếp tục làm cho xong răng", "isCorrect": false},
+            {"text": "Ngừng ngay mọi thủ thuật, cho BN nghỉ ngơi và sử dụng thuốc hạ áp khẩn cấp nếu cần", "isCorrect": true},
+            {"text": "Yêu cầu BN đi bộ quanh phòng", "isCorrect": false},
+            {"text": "Cho BN uống nước ngọt", "isCorrect": false}
+          ],
+          "explanation": "An toàn tính mạng luôn được ưu tiên hàng đầu trước mọi can thiệp nha khoa."
+        },
+        {
+          "question": "Tổn thương 'Bạch sản' (Leukoplakia) có đặc điểm gì?",
+          "options": [
+            {"text": "Mảng trắng lau sạch được bằng gạc", "isCorrect": false},
+            {"text": "Mảng trắng không thể lau sạch và không thể chẩn đoán là bất kỳ bệnh nào khác", "isCorrect": true},
+            {"text": "Là các mụn nước li ti", "isCorrect": false},
+            {"text": "Làm nướu bị sưng to", "isCorrect": false}
+          ],
+          "explanation": "Bạch sản là tổn thương có khả năng chuyển dạng ác tính cao nhất trong các mảng trắng ở miệng."
+        },
+        {
+          "question": "Sử dụng 'Răng sứ zirconia' cho người già có ưu điểm là:",
+          "options": [
+            {"text": "Mềm như răng thật", "isCorrect": false},
+            {"text": "Độ bền cực cao, tương hợp sinh học tốt và thẩm mỹ tự nhiên", "isCorrect": true},
+            {"text": "Giá rẻ nhất thị trường", "isCorrect": false},
+            {"text": "Làm trong 5 phút", "isCorrect": false}
+          ],
+          "explanation": "Zirconia chịu được lực nhai lớn của người già và không gây kích ứng nướu."
+        },
+        {
+          "question": "Phát biểu nào đúng về việc 'Vệ sinh hàm giả'?",
+          "options": [
+            {"text": "Chải bằng bàn chải cứng và kem đánh răng chứa hạt mài mòn mạnh", "isCorrect": false},
+            {"text": "Ngâm trong nước sôi hàng ngày", "isCorrect": false},
+            {"text": "Dùng bàn chải mềm và xà phòng nhẹ hoặc dung dịch làm sạch chuyên dụng", "isCorrect": true},
+            {"text": "Không cần vệ sinh", "isCorrect": false}
+          ],
+          "explanation": "Kem đánh răng thông thường có thể làm trầy xước bề mặt nhựa hàm giả, tạo nơi trú ẩn cho vi khuẩn."
+        },
+        {
+          "question": "Tại sao không nên nhổ răng hàng loạt (>3 răng) cùng lúc cho người già yếu?",
+          "options": [
+            {"text": "Vì BN sẽ không có răng nhai", "isCorrect": false},
+            {"text": "Nguy cơ mất máu, sốc và gây gánh nặng quá mức cho hệ tuần hoàn, hô hấp", "isCorrect": true},
+            {"text": "Vì phòng khám không đủ thuốc tê", "isCorrect": false},
+            {"text": "Vì xương hàm sẽ bị gãy", "isCorrect": false}
+          ],
+          "explanation": "Chia nhỏ các buổi phẫu thuật giúp cơ thể NCT có thời gian hồi phục và giảm rủi ro tai biến."
+        },
+        {
+          "question": "Biểu hiện của 'Bệnh nha chu tiến triển' ở người già bao gồm:",
+          "options": [
+            {"text": "Răng lung lay, túi nha chu có mủ và hơi thở hôi", "isCorrect": true},
+            {"text": "Răng chắc hơn bình thường", "isCorrect": false},
+            {"text": "Nướu có màu trắng phấn", "isCorrect": false},
+            {"text": "Răng tự mọc dài ra 5cm", "isCorrect": false}
+          ],
+          "explanation": "Viêm quanh răng là bệnh mạn tính phá hủy dần tổ chức nâng đỡ răng."
+        },
+        {
+          "question": "Thông điệp cuối cùng của bài học 'Điều trị răng miệng NCT' là gì?",
+          "options": [
+            {"text": "Chăm sóc NCT cần sự kiên nhẫn, thấu hiểu và phối hợp đa chuyên khoa để nâng cao chất lượng sống", "isCorrect": true},
+            {"text": "Người già không cần điều trị răng", "isCorrect": false},
+            {"text": "Mắc cài là lựa chọn tốt nhất cho người 90 tuổi", "isCorrect": false},
+            {"text": "Chỉ cần nhổ hết răng là khỏe", "isCorrect": false}
+          ],
+          "explanation": "Mục tiêu tối thượng là giúp người cao tuổi có một tuổi già an vui với chức năng ăn nhai và thẩm mỹ hài hòa."
+        }
+      ]

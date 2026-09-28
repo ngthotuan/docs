@@ -1,0 +1,1090 @@
+[
+    {
+      "question": "Phục hình tháo lắp bán phần khung bộ (PHTLBPKB) có phần chính là gì? [cite: 1617]",
+      "options": [
+        {"text": "Một nền nhựa acrylic duy nhất", "isCorrect": false},
+        {"text": "Một khung sườn gồm móc, yên, thanh nối được đúc chung một lần", "isCorrect": true},
+        {"text": "Hệ thống các răng sứ gắn cố định vào xương hàm", "isCorrect": false},
+        {"text": "Các tay móc dây uốn rời rạc gắn vào răng trụ", "isCorrect": false}
+      ],
+      "explanation": "Theo định nghĩa, PHTLBPKB có phần chính là một khung sườn kim loại đúc nguyên khối gồm các thành phần móc, yên và thanh nối[cite: 1617]."
+    },
+    {
+      "question": "Lực nhai trong PHTLBPKB dẫn truyền chủ yếu vào đâu? [cite: 1630]",
+      "options": [
+        {"text": "Hoàn toàn lên niêm mạc", "isCorrect": false},
+        {"text": "Chủ yếu lên mô nha chu của răng trụ", "isCorrect": true},
+        {"text": "Trực tiếp vào khớp thái dương hàm", "isCorrect": false},
+        {"text": "Chỉ truyền qua các răng giả", "isCorrect": false}
+      ],
+      "explanation": "PHTLBPKB được nâng đỡ trên răng, lực nhai truyền chủ yếu lên mô nha chu của răng trụ và một phần nhỏ lên niêm mạc[cite: 1630]."
+    },
+    {
+      "question": "Thuật ngữ tiếng Anh 'Removable Partial Denture Framework' tương ứng với loại phục hình nào? [cite: 1615]",
+      "options": [
+        {"text": "Phục hình cố định", "isCorrect": false},
+        {"text": "Phục hình tháo lắp bán phần khung bộ", "isCorrect": true},
+        {"text": "Phục hình tháo lắp bán phần nền nhựa", "isCorrect": false},
+        {"text": "Phục hình toàn hàm", "isCorrect": false}
+      ],
+      "explanation": "Đây là tên gọi chuyên ngành của hàm khung tháo lắp[cite: 1615]."
+    },
+    {
+      "question": "Thành phần nào dùng để gắn các răng thay thế vào yên phục hình trong hàm khung? [cite: 1617]",
+      "options": [
+        {"text": "Kim loại đúc", "isCorrect": false},
+        {"text": "Nhựa acrylic", "isCorrect": true},
+        {"text": "Cement gắn răng", "isCorrect": false},
+        {"text": "Composite quang trùng hợp", "isCorrect": false}
+      ],
+      "explanation": "Các răng thay thế được gắn vào yên phục hình nhờ nhựa acrylic[cite: 1617]."
+    },
+    {
+      "question": "PHTLBP nền nhựa (PHTLBPNN) có đặc điểm cấu tạo chính là gì? [cite: 1674]",
+      "options": [
+        {"text": "Nền bằng nhựa acrylic với hệ thống móc dây uốn", "isCorrect": true},
+        {"text": "Nền bằng hợp kim quý đúc nguyên khối", "isCorrect": false},
+        {"text": "Nền nhựa dẻo không có tay móc", "isCorrect": false},
+        {"text": "Nền bằng sứ gắn vào răng thật", "isCorrect": false}
+      ],
+      "explanation": "PHTLBPNN có nền bằng nhựa acrylic kết hợp với hệ thống móc dây tròn (móc dây uốn) và răng giả[cite: 1674]."
+    },
+    {
+      "question": "Lực nhai của PHTLBPNN truyền như thế nào? [cite: 1675]",
+      "options": [
+        {"text": "Truyền qua răng trụ là chính", "isCorrect": false},
+        {"text": "Truyền từ nền hàm qua niêm mạc xuống xương", "isCorrect": true},
+        {"text": "Truyền qua hệ thống khung sườn kim loại", "isCorrect": false},
+        {"text": "Không truyền lực xuống xương hàm", "isCorrect": false}
+      ],
+      "explanation": "Lực nhai của hàm nhựa truyền từ nền hàm qua niêm mạc xuống xương bên dưới[cite: 1675]."
+    },
+    {
+      "question": "Hệ quả tiêu cực của việc lực nhai truyền trực tiếp qua niêm mạc trong hàm nhựa là gì? [cite: 1676, 1681, 1682]",
+      "options": [
+        {"text": "Gây đau, loét và thúc đẩy tiêu xương vùng mất răng", "isCorrect": true},
+        {"text": "Giúp xương hàm phát triển dày hơn", "isCorrect": false},
+        {"text": "Làm răng trụ chắc hơn", "isCorrect": false},
+        {"text": "Tăng cảm giác vị giác", "isCorrect": false}
+      ],
+      "explanation": "Việc lực nhai nén trực tiếp lên niêm mạc dễ gây đau, loét xương và tiêu xương sống hàm nhanh chóng[cite: 1676, 1681, 1682]."
+    },
+    {
+      "question": "Tay móc của PHTLBPNN thường được làm từ vật liệu gì? [cite: 1684]",
+      "options": [
+        {"text": "Hợp kim đúc cứng chắc", "isCorrect": false},
+        {"text": "Sợi thép mềm hơn (dây uốn)", "isCorrect": true},
+        {"text": "Nhựa acrylic tự cứng", "isCorrect": false},
+        {"text": "Vàng 24k", "isCorrect": false}
+      ],
+      "explanation": "Tay móc của hàm nhựa là sợi thép mềm hơn, đơn giản hơn và không chắc chắn như móc đúc[cite: 1684, 1685]."
+    },
+    {
+      "question": "Tại sao nền nhựa của PHTLBPNN phải thiết kế cồng kềnh? [cite: 1688]",
+      "options": [
+        {"text": "Để bệnh nhân dễ tháo lắp", "isCorrect": false},
+        {"text": "Để tăng diện tích nhai", "isCorrect": false},
+        {"text": "Để tránh bị gãy nền hàm", "isCorrect": true},
+        {"text": "Để che lấp các răng bị thưa", "isCorrect": false}
+      ],
+      "explanation": "Nền nhựa phải cồng kềnh hơn vì nếu không sẽ rất dễ gãy[cite: 1688]."
+    },
+    {
+      "question": "Chỉ định nào sau đây là của PHTLBPKB? [cite: 1692, 1693]",
+      "options": [
+        {"text": "Mất răng không còn răng trụ phía sau", "isCorrect": true},
+        {"text": "Mất 1 răng đơn lẻ ở phía trước", "isCorrect": false},
+        {"text": "Tất cả các răng đều bị lung lay độ 3", "isCorrect": false},
+        {"text": "Răng trụ bị xoay trục quá nhiều", "isCorrect": false}
+      ],
+      "explanation": "Hàm khung được chỉ định khi mất răng không còn răng trụ phía sau hoặc khoảng mất răng quá dài, cong[cite: 1692, 1693]."
+    },
+    {
+      "question": "Trường hợp nào không thể làm phục hình cố định (PHCĐ) và được chỉ định làm hàm khung? [cite: 1693, 1696]",
+      "options": [
+        {"text": "Khoảng mất răng quá dài hoặc quá cong", "isCorrect": false},
+        {"text": "Răng trụ chưa mọc hoàn toàn (bệnh nhân dưới 20 tuổi)", "isCorrect": false},
+        {"text": "Mất răng với mô mềm và mô cứng bị thiếu nhiều", "isCorrect": false},
+        {"text": "Tất cả các ý trên", "isCorrect": true}
+      ],
+      "explanation": "Tài liệu liệt kê các lý do không làm được PHCĐ như khoảng mất răng dài/cong, mô thiếu nhiều hoặc răng trụ chưa mọc đủ ở người trẻ[cite: 1693, 1694, 1696]."
+    },
+    {
+      "question": "PHTLBPKB giúp ích gì cho các răng có mô nha chu yếu (theo một số quan điểm)? [cite: 1695]",
+      "options": [
+        {"text": "Làm răng rụng nhanh hơn để làm toàn hàm", "isCorrect": false},
+        {"text": "Nẹp các răng đó lại", "isCorrect": true},
+        {"text": "Kích thích nướu mọc lại", "isCorrect": false},
+        {"text": "Không có tác dụng gì", "isCorrect": false}
+      ],
+      "explanation": "Một trong những chỉ định (dù có tranh luận) là dùng hàm khung để nẹp các răng có mô nha chu yếu[cite: 1695]."
+    },
+    {
+      "question": "Khi mất răng loại I (Kennedy) và chỉ còn răng số 5 đơn độc, giải pháp kết hợp là gì? [cite: 1707, 1708]",
+      "options": [
+        {"text": "Làm cầu răng cố định toàn bộ", "isCorrect": false},
+        {"text": "Dùng PHCĐ cho răng trước và hàm khung cho răng sau", "isCorrect": true},
+        {"text": "Chỉ làm hàm nhựa tháo lắp", "isCorrect": false},
+        {"text": "Nhổ răng số 5 để làm toàn hàm", "isCorrect": false}
+      ],
+      "explanation": "Trường hợp này nên kết hợp PHCĐ để hạn chế tác dụng đòn bẩy và tăng tính thẩm mỹ[cite: 1707, 1714]."
+    },
+    {
+      "question": "Chỉ định 'Làm hàm giả tức thì sau khi nhổ răng' thuộc về loại phục hình nào? [cite: 1722]",
+      "options": [
+        {"text": "Hàm khung kim loại", "isCorrect": false},
+        {"text": "Cầu răng sứ", "isCorrect": false},
+        {"text": "PHTLBP nền nhựa", "isCorrect": true},
+        {"text": "Implant", "isCorrect": false}
+      ],
+      "explanation": "Hàm nền nhựa thường được dùng làm hàm giả tức thì sau nhổ răng hoặc hàm giữ khoảng[cite: 1722, 1723]."
+    },
+    {
+      "question": "Về mặt tâm lý, tại sao bệnh nhân chọn PHTLBPNN? [cite: 1729, 1730]",
+      "options": [
+        {"text": "Do họ muốn khoe tay móc thép", "isCorrect": false},
+        {"text": "Sợ mài răng và sợ chữa tủy răng", "isCorrect": true},
+        {"text": "Thích cảm giác cồng kềnh trong miệng", "isCorrect": false},
+        {"text": "Muốn hàm nặng để bám chắc hơn", "isCorrect": false}
+      ],
+      "explanation": "Bệnh nhân sợ các thủ tục xâm lấn như mài răng hay chữa tủy thường ưu tiên hàm nhựa[cite: 1729, 1730]."
+    },
+    {
+      "question": "Ưu điểm kinh tế của hàm nhựa so với hàm khung là gì? [cite: 1733, 1734]",
+      "options": [
+        {"text": "Giá thành rẻ hơn", "isCorrect": false},
+        {"text": "Sửa chữa dễ và rẻ tiền", "isCorrect": false},
+        {"text": "Thời gian điều trị nhanh hơn", "isCorrect": false},
+        {"text": "Tất cả các ý trên", "isCorrect": true}
+      ],
+      "explanation": "Hàm nhựa có ưu thế về chi phí thấp, sửa chữa dễ dàng và thời gian điều trị ngắn hơn[cite: 1733, 1734, 1735]."
+    },
+    {
+      "question": "Đâu là một chống chỉ định của PHTLBPKB? [cite: 1738, 1740]",
+      "options": [
+        {"text": "Răng trụ xoay nhiều", "isCorrect": false},
+        {"text": "Bệnh nhân có nguy cơ sâu răng cao", "isCorrect": false},
+        {"text": "Các răng xen kẽ trải đều trên cung hàm", "isCorrect": false},
+        {"text": "Tất cả các ý trên", "isCorrect": true}
+      ],
+      "explanation": "Tài liệu liệt kê răng xoay, răng xen kẽ nhiều và nguy cơ sâu răng cao là các chống chỉ định của hàm khung[cite: 1738, 1739, 1740]."
+    },
+    {
+      "question": "Chống chỉ định chung cho cả hàm khung và hàm nhựa là gì? [cite: 1742, 1745, 1746]",
+      "options": [
+        {"text": "Bệnh nhân bị mất 2 răng cối", "isCorrect": false},
+        {"text": "Bệnh nhân rối loạn tâm thần hoặc không hợp tác", "isCorrect": true},
+        {"text": "Bệnh nhân có điều kiện kinh tế khá giả", "isCorrect": false},
+        {"text": "Bệnh nhân muốn tháo lắp để vệ sinh", "isCorrect": false}
+      ],
+      "explanation": "Vấn đề tâm thần và sự thiếu hợp tác là chống chỉ định quan trọng cho phục hình tháo lắp[cite: 1742, 1745, 1746]."
+    },
+    {
+      "question": "Chống chỉ định đặc thù của PHTLBPNN là gì? [cite: 1744]",
+      "options": [
+        {"text": "Bệnh nhân đang bị viêm nhiễm cấp tính vùng răng miệng", "isCorrect": true},
+        {"text": "Bệnh nhân bị mất răng sau lâu ngày", "isCorrect": false},
+        {"text": "Bệnh nhân sợ mài răng", "isCorrect": false},
+        {"text": "Bệnh nhân muốn tiết kiệm chi phí", "isCorrect": false}
+      ],
+      "explanation": "Không được làm hàm nhựa khi bệnh nhân đang có tình trạng viêm nhiễm cấp tính[cite: 1744]."
+    },
+    {
+      "question": "Ưu điểm vượt trội của hàm khung so với hàm nhựa về mặt cơ học là gì? [cite: 1749]",
+      "options": [
+        {"text": "Dày hơn nên nhai khỏe hơn", "isCorrect": false},
+        {"text": "Ít cồng kềnh hơn", "isCorrect": true},
+        {"text": "Làm bằng nhựa dẻo nên không bao giờ gãy", "isCorrect": false},
+        {"text": "Dễ bị gãy hơn giúp bệnh nhân đổi hàm mới", "isCorrect": false}
+      ],
+      "explanation": "Hàm khung có ưu điểm là ít cồng kềnh hơn đáng kể so với hàm nền nhựa[cite: 1749]."
+    },
+    {
+      "question": "Thành phần nào trong hàm khung giúp giải thoát cổ răng và nướu? [cite: 1749, 1753]",
+      "options": [
+        {"text": "Khung sườn kim loại", "isCorrect": true},
+        {"text": "Nền nhựa dày", "isCorrect": false},
+        {"text": "Móc dây uốn", "isCorrect": false},
+        {"text": "Răng sứ", "isCorrect": false}
+      ],
+      "explanation": "Thiết kế của hàm khung giúp giải thoát vùng cổ răng và nướu của các răng còn lại[cite: 1749, 1753]."
+    },
+    {
+      "question": "Tựa mặt nhai (Rest) trong hàm khung có vai trò gì quan trọng nhất khi ăn nhai? [cite: 1753]",
+      "options": [
+        {"text": "Làm răng giả trông đẹp hơn", "isCorrect": false},
+        {"text": "Ngăn cản phục hình bị lún khi nhai", "isCorrect": true},
+        {"text": "Tạo ra tiếng kêu khi nhai cho vui tai", "isCorrect": false},
+        {"text": "Giúp răng thật mọc dài ra", "isCorrect": false}
+      ],
+      "explanation": "Các tựa mặt nhai ngăn cản phục hình bị lún, giúp truyền lực theo trục răng[cite: 1753, 1756]."
+    },
+    {
+      "question": "Tại sao dùng hàm khung lại tránh được sự tiêu xương nhanh của sống hàm? [cite: 1756]",
+      "options": [
+        {"text": "Vì kim loại đúc kích thích mô xương", "isCorrect": false},
+        {"text": "Vì lực nhai truyền chủ yếu lên mô nha chu răng trụ thay vì niêm mạc", "isCorrect": true},
+        {"text": "Vì bệnh nhân ít khi đeo hàm khi ngủ", "isCorrect": false},
+        {"text": "Vì hàm khung nhẹ hơn hàm nhựa", "isCorrect": false}
+      ],
+      "explanation": "Nhờ truyền lực lên răng trụ, áp lực lên sống hàm giảm bớt, giúp hạn chế tiêu xương[cite: 1756]."
+    },
+    {
+      "question": "Vật liệu làm nền phục hình hàm khung cao cấp thường là gì? [cite: 1756]",
+      "options": [
+        {"text": "Hợp kim quý (HK quý)", "isCorrect": true},
+        {"text": "Nhựa mềm", "isCorrect": false},
+        {"text": "Cao su tổng hợp", "isCorrect": false},
+        {"text": "Sứ nha khoa", "isCorrect": false}
+      ],
+      "explanation": "Nền PH bằng hợp kim quý giúp tránh gãy vỡ và dễ vệ sinh[cite: 1756]."
+    },
+    {
+      "question": "Ưu điểm 'tiết kiệm mô răng' thuộc về loại hàm nào? [cite: 1758]",
+      "options": [
+        {"text": "Hàm khung", "isCorrect": false},
+        {"text": "Hàm nhựa", "isCorrect": true},
+        {"text": "Cầu răng cố định", "isCorrect": false},
+        {"text": "Chụp răng sứ", "isCorrect": false}
+      ],
+      "explanation": "Hàm nhựa ít đòi hỏi mài răng trụ phức tạp nên giúp tiết kiệm mô răng[cite: 1758]."
+    },
+    {
+      "question": "Khuyết điểm lớn nhất của PHTLBPKB là gì? [cite: 1765, 1766]",
+      "options": [
+        {"text": "Làm bệnh nhân bị hôi miệng", "isCorrect": false},
+        {"text": "Kỹ thuật lâm sàng/labo phức tạp và chi phí cao", "isCorrect": true},
+        {"text": "Rất dễ gãy khi rơi", "isCorrect": false},
+        {"text": "Làm mòn hết răng đối diện", "isCorrect": false}
+      ],
+      "explanation": "Hàm khung đòi hỏi kỹ thuật cao, trang thiết bị hiện đại và phí tổn đắt hơn hàm nhựa[cite: 1765, 1766]."
+    },
+    {
+      "question": "Cảm giác vướng víu, khó chịu và hiệu quả nhai thấp là đặc điểm của hàm nào? [cite: 1768, 1769]",
+      "options": [
+        {"text": "Hàm khung", "isCorrect": false},
+        {"text": "Hàm nhựa", "isCorrect": true},
+        {"text": "Implant", "isCorrect": false},
+        {"text": "Cầu răng vàng", "isCorrect": false}
+      ],
+      "explanation": "Đó là những khuyết điểm điển hình của hàm tháo lắp nền nhựa[cite: 1768, 1769]."
+    },
+    {
+      "question": "Trong quy trình làm hàm khung (PHKB), lần hẹn thứ 1 bao gồm bước nào? [cite: 1776, 1779]",
+      "options": [
+        {"text": "Mài ổ tựa", "isCorrect": false},
+        {"text": "Khám, chỉ định, lập bệnh án và lấy dấu sơ khởi", "isCorrect": true},
+        {"text": "Thử khung", "isCorrect": false},
+        {"text": "So màu răng", "isCorrect": false}
+      ],
+      "explanation": "Lần hẹn 1 dành cho việc thăm khám ban đầu và lấy dấu sơ khởi để đổ mẫu nghiên cứu [cite: 1776 - 1781]."
+    },
+    {
+      "question": "Bước 'Mài vùng vướng, tạo MP hướng dẫn và mài ổ tựa' nằm ở lần hẹn mấy của PHKB? [cite: 1785, 1786]",
+      "options": [
+        {"text": "Lần hẹn 1", "isCorrect": false},
+        {"text": "Lần hẹn 2", "isCorrect": true},
+        {"text": "Lần hẹn 3", "isCorrect": false},
+        {"text": "Lần hẹn 4", "isCorrect": false}
+      ],
+      "explanation": "Giai đoạn tiền phục hình và chuẩn bị răng trụ diễn ra ở lần hẹn thứ 2[cite: 1785, 1786]."
+    },
+    {
+      "question": "Trong PHKB, bước lấy dấu sau cùng diễn ra khi nào? [cite: 1816]",
+      "options": [
+        {"text": "Lần hẹn 1", "isCorrect": false},
+        {"text": "Lần hẹn 2", "isCorrect": true},
+        {"text": "Lần hẹn 3", "isCorrect": false},
+        {"text": "Lần hẹn 5", "isCorrect": false}
+      ],
+      "explanation": "Sau khi chuẩn bị răng trụ ở lần hẹn 2, bác sĩ tiến hành lấy dấu sau cùng[cite: 1816]."
+    },
+    {
+      "question": "Việc 'Thử khung' kim loại trong quy trình PHKB được thực hiện ở lần hẹn thứ mấy? [cite: 1789]",
+      "options": [
+        {"text": "Lần hẹn 2", "isCorrect": false},
+        {"text": "Lần hẹn 3", "isCorrect": true},
+        {"text": "Lần hẹn 4", "isCorrect": false},
+        {"text": "Lần hẹn 5", "isCorrect": false}
+      ],
+      "explanation": "Khung sườn sau khi đúc sẽ được thử trên miệng bệnh nhân ở lần hẹn 3[cite: 1789]."
+    },
+    {
+      "question": "Lần hẹn 3 của PHKB bao gồm các bước nào sau đây? [cite: 1789, 1792, 1793]",
+      "options": [
+        {"text": "Thử khung", "isCorrect": false},
+        {"text": "Mài chỉnh tựa mặt nhai", "isCorrect": false},
+        {"text": "So màu răng", "isCorrect": false},
+        {"text": "Tất cả các ý trên", "isCorrect": true}
+      ],
+      "explanation": "Lần hẹn 3 tập trung vào thử khung, chỉnh khớp và chọn màu răng [cite: 1789 - 1793]."
+    },
+    {
+      "question": "Lần hẹn 4 của quy trình PHKB là giai đoạn gì? [cite: 1797]",
+      "options": [
+        {"text": "Gắn hàm vĩnh viễn", "isCorrect": false},
+        {"text": "Lấy dấu sơ khởi lần 2", "isCorrect": false},
+        {"text": "Thử hàm khung đã lên răng trên sáp", "isCorrect": true},
+        {"text": "Nhổ các răng còn lại", "isCorrect": false}
+      ],
+      "explanation": "Sau khi có khung, labo lên răng trên sáp và bác sĩ thử lại trên miệng BN ở lần hẹn 4[cite: 1797]."
+    },
+    {
+      "question": "Bước cuối cùng trong lần hẹn 5 của PHKB là gì? [cite: 1801, 1803]",
+      "options": [
+        {"text": "Chụp phim kiểm tra", "isCorrect": false},
+        {"text": "Hướng dẫn BN tháo lắp hàm và dặn dò BN", "isCorrect": true},
+        {"text": "Lấy dấu khớp cắn", "isCorrect": false},
+        {"text": "Mài ổ tựa", "isCorrect": false}
+      ],
+      "explanation": "Lần hẹn 5 là gắn hàm, chỉnh khớp và hướng dẫn bệnh nhân sử dụng [cite: 1799 - 1803]."
+    },
+    {
+      "question": "Trong quy trình làm hàm nhựa (PHNN), lần hẹn 2 khác PHKB ở điểm nào? [cite: 1819, 1821]",
+      "options": [
+        {"text": "Không lấy dấu sau cùng", "isCorrect": false},
+        {"text": "Chọn răng trụ, thiết kế móc và vị trí đặt móc", "isCorrect": true},
+        {"text": "Tiến hành nhổ răng", "isCorrect": false},
+        {"text": "Thử gối sáp", "isCorrect": false}
+      ],
+      "explanation": "Với hàm nhựa, lần hẹn 2 bác sĩ lấy dấu sau cùng và xác định thiết kế móc trên mẫu [cite: 1816 - 1821]."
+    },
+    {
+      "question": "Việc đo chiều cao tầng mặt dưới và thử gối sáp của hàm nhựa diễn ra ở lần hẹn mấy? [cite: 1822, 1823]",
+      "options": [
+        {"text": "Lần hẹn 1", "isCorrect": false},
+        {"text": "Lần hẹn 2", "isCorrect": false},
+        {"text": "Lần hẹn 3", "isCorrect": true},
+        {"text": "Lần hẹn 4", "isCorrect": false}
+      ],
+      "explanation": "Xác định khớp cắn trung tâm và chiều cao tầng mặt dưới diễn ra ở lần hẹn 3[cite: 1822, 1823]."
+    },
+    {
+      "question": "Trong PHNN, sau khi thử gối sáp ở lần hẹn 3, bước tiếp theo bác sĩ làm là gì? [cite: 1824, 1825]",
+      "options": [
+        {"text": "Mài chỉnh răng thật", "isCorrect": false},
+        {"text": "So màu răng và chuyển labo lên răng", "isCorrect": true},
+        {"text": "Ép nhựa ngay lập tức", "isCorrect": false},
+        {"text": "Gắn móc cho bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Sau khi xác định khớp cắn, bác sĩ so màu răng để labo tiến hành lên răng[cite: 1824, 1825]."
+    },
+    {
+      "question": "Theo thứ tự ưu tiên phục hồi răng mất, loại nào đứng đầu tiên? [cite: 1840]",
+      "options": [
+        {"text": "Hàm giả tháo lắp", "isCorrect": false},
+        {"text": "Hàm giả cố định", "isCorrect": true},
+        {"text": "Hàm khung", "isCorrect": false},
+        {"text": "Hàm nhựa mềm", "isCorrect": false}
+      ],
+      "explanation": "Thứ tự ưu tiên là: 1. Hàm giả cố định -> 2. Hàm giả tháo lắp[cite: 1840, 1842]."
+    },
+    {
+      "question": "Hàm giả nào được gọi là hàm giả 'sinh lý'? [cite: 1844, 1845]",
+      "options": [
+        {"text": "Lực nhai truyền từ hệ thống răng giả qua răng thật xuống xương", "isCorrect": true},
+        {"text": "Lực nhai truyền hoàn toàn qua niêm mạc", "isCorrect": false},
+        {"text": "Lực nhai không truyền qua xương hàm", "isCorrect": false},
+        {"text": "Hàm giả bám dính bằng nam châm", "isCorrect": false}
+      ],
+      "explanation": "Hàm giả sinh lý truyền lực qua hệ thống răng thật xuống xương[cite: 1845]."
+    },
+    {
+      "question": "Hàm giả 'bán sinh lý' truyền lực như thế nào? [cite: 1848, 1849]",
+      "options": [
+        {"text": "Chỉ truyền qua niêm mạc", "isCorrect": false},
+        {"text": "Truyền vừa qua niêm mạc vừa qua hệ thống răng thật xuống xương", "isCorrect": true},
+        {"text": "Chỉ truyền qua móc dây uốn", "isCorrect": false},
+        {"text": "Truyền qua implant", "isCorrect": false}
+      ],
+      "explanation": "Đây là cơ chế truyền lực của hàm khung (PHTLBPKB)[cite: 1847, 1849]."
+    },
+    {
+      "question": "Hàm giả 'không sinh lý' có đặc điểm truyền lực gì? [cite: 1852, 1855]",
+      "options": [
+        {"text": "Truyền lực hoàn toàn qua bề mặt niêm mạc xuống xương", "isCorrect": true},
+        {"text": "Truyền lực qua tựa mặt nhai", "isCorrect": false},
+        {"text": "Truyền lực qua thanh nối chính", "isCorrect": false},
+        {"text": "Không gây nén niêm mạc", "isCorrect": false}
+      ],
+      "explanation": "Hàm nhựa (PHTLBPNN) với móc dây uốn được coi là hàm giả không sinh lý[cite: 1852, 1855, 1856]."
+    },
+    {
+      "question": "Hàm giả tháo lắp bán phần khung bộ thường được gọi tắt là gì? [cite: 1867]",
+      "options": [
+        {"text": "Hàm nhựa cứng", "isCorrect": false},
+        {"text": "Hàm khung", "isCorrect": true},
+        {"text": "Hàm nhựa mềm", "isCorrect": false},
+        {"text": "Toàn hàm", "isCorrect": false}
+      ],
+      "explanation": "Trong phân loại, PHTL từng phần bao gồm hàm khung và hàm nhựa[cite: 1864, 1867, 1868]."
+    },
+    {
+      "question": "Thành phần 'Saddle' trong sơ đồ cấu tạo hàm khung có nghĩa là gì? [cite: 1619, 1645]",
+      "options": [
+        {"text": "Thanh nối", "isCorrect": false},
+        {"text": "Tay móc", "isCorrect": false},
+        {"text": "Yên phục hình", "isCorrect": true},
+        {"text": "Tựa mặt nhai", "isCorrect": false}
+      ],
+      "explanation": "Saddle là phần yên của phục hình tháo lắp[cite: 1619, 1645]."
+    },
+    {
+      "question": "Trong cấu tạo hàm khung, 'Major Connector' là gì? [cite: 1639, 1655]",
+      "options": [
+        {"text": "Thanh nối chính", "isCorrect": true},
+        {"text": "Thanh nối phụ", "isCorrect": false},
+        {"text": "Vật giữ gián tiếp", "isCorrect": false},
+        {"text": "Nền hàm nhựa", "isCorrect": false}
+      ],
+      "explanation": "Major Connector là thanh nối chính, kết nối các phần của hàm khung[cite: 1639, 1655]."
+    },
+    {
+      "question": "Lấy dấu sơ khởi phục vụ mục đích gì đầu tiên? [cite: 1780, 1812]",
+      "options": [
+        {"text": "Để ép nhựa ngay", "isCorrect": false},
+        {"text": "Đổ mẫu nghiên cứu", "isCorrect": true},
+        {"text": "Làm gối sáp", "isCorrect": false},
+        {"text": "Đúc khung kim loại", "isCorrect": false}
+      ],
+      "explanation": "Lấy dấu sơ khởi ở lần hẹn 1 dùng để đổ mẫu nghiên cứu giúp lập kế hoạch điều trị[cite: 1780, 1812]."
+    },
+    {
+      "question": "Theo tài liệu, bước 'Hỏi bệnh' nằm trong giai đoạn nào? [cite: 1782]",
+      "options": [
+        {"text": "Thử khung", "isCorrect": false},
+        {"text": "Tiền phục hình", "isCorrect": false},
+        {"text": "Bước quan trọng trong quá trình khám", "isCorrect": true},
+        {"text": "Lấy dấu sau cùng", "isCorrect": false}
+      ],
+      "explanation": "Khám có bước quan trọng là hỏi bệnh để xem kế hoạch điều trị có phù hợp không[cite: 1782, 1783]."
+    },
+    {
+      "question": "Khi lấy dấu, tiêu chuẩn nào cần đạt được để phục hình chính xác? [cite: 1784]",
+      "options": [
+        {"text": "Lấy được thắng môi thắng má", "isCorrect": true},
+        {"text": "Chỉ cần lấy được mặt nhai răng", "isCorrect": false},
+        {"text": "Lấy càng nhiều nước bọt càng tốt", "isCorrect": false},
+        {"text": "Không cần lấy vùng lồi củ", "isCorrect": false}
+      ],
+      "explanation": "Việc lấy dấu phải lấy được thắng môi thắng má để đảm bảo độ bám và ổn định[cite: 1784]."
+    },
+    {
+      "question": "Thiết kế của PHTLBPKB đòi hỏi việc đúc kim loại như thế nào? [cite: 1666]",
+      "options": [
+        {"text": "Đúc đại khái rồi mài chỉnh sau", "isCorrect": false},
+        {"text": "Đúc phải chính xác đảm bảo hiệu quả cao", "isCorrect": true},
+        {"text": "Đúc càng dày càng tốt", "isCorrect": false},
+        {"text": "Đúc bằng thủ công không cần máy móc", "isCorrect": false}
+      ],
+      "explanation": "Hàm khung đòi hỏi việc đúc sườn phải cực kỳ chính xác[cite: 1666]."
+    },
+    {
+      "question": "Trong PHTLBPKB, răng thay thế thường được làm từ nhựa hay sứ? [cite: 1626]",
+      "options": [
+        {"text": "Chỉ làm bằng nhựa", "isCorrect": false},
+        {"text": "Chỉ làm bằng sứ", "isCorrect": false},
+        {"text": "Có thể là nhựa hoặc sứ", "isCorrect": true},
+        {"text": "Làm bằng kim loại nguyên khối", "isCorrect": false}
+      ],
+      "explanation": "Nhóm răng giả thay thế có thể bằng nhựa hoặc sứ[cite: 1674]."
+    },
+    {
+      "question": "Yên phục hình trong hàm khung có đặc điểm gì để kết nối với nhựa? [cite: 1669]",
+      "options": [
+        {"text": "Bề mặt trơn láng hoàn toàn", "isCorrect": false},
+        {"text": "Có các lỗ để nhựa tràn vào và khóa lại", "isCorrect": true},
+        {"text": "Được gắn bằng keo dán sắt", "isCorrect": false},
+        {"text": "Không có liên kết với nhựa", "isCorrect": false}
+      ],
+      "explanation": "Thiết kế yên có các lỗ để nhựa tràn vào xuyên qua, giúp khóa nhựa không bị tràn ra[cite: 1669]."
+    },
+    {
+      "question": "Khuyết điểm của hàm nhựa so với hàm khung là gì? [cite: 1770]",
+      "options": [
+        {"text": "Khó sửa chữa", "isCorrect": false},
+        {"text": "Thời gian làm quá lâu", "isCorrect": false},
+        {"text": "Dễ gây tiêu xương", "isCorrect": true},
+        {"text": "Chi phí quá đắt đỏ", "isCorrect": false}
+      ],
+      "explanation": "Do truyền lực trực tiếp lên niêm mạc, hàm nhựa dễ gây tiêu xương sống hàm[cite: 1770]."
+    },
+    {
+      "question": "Hàm khung được đúc cùng lúc các thành phần nào? [cite: 1617]",
+      "options": [
+        {"text": "Móc, yên và thanh nối", "isCorrect": true},
+        {"text": "Răng và nền nhựa", "isCorrect": false},
+        {"text": "Móc và gối sáp", "isCorrect": false},
+        {"text": "Chỉ có thanh nối chính", "isCorrect": false}
+      ],
+      "explanation": "Khung sườn gồm các thành phần móc, yên, thanh nối được đúc chung một lần[cite: 1617]."
+    },
+    {
+      "question": "Tại sao PHTLBPKB được coi là 'hàm thig' hay hàm tốt hơn hàm nhựa? [cite: 1616, 1630]",
+      "options": [
+        {"text": "Vì nó nhẹ hơn", "isCorrect": false},
+        {"text": "Vì nó truyền lực nhai sinh lý lên răng trụ", "isCorrect": true},
+        {"text": "Vì nó rẻ tiền hơn", "isCorrect": false},
+        {"text": "Vì nó dễ làm hơn", "isCorrect": false}
+      ],
+      "explanation": "Tính sinh lý nhờ truyền lực qua răng trụ khiến hàm khung được đánh giá cao hơn hàm nhựa[cite: 1630, 1844]."
+    },
+    {
+      "question": "Giai đoạn 'Tiền phục hình' bao gồm công việc gì? [cite: 1785, 1786]",
+      "options": [
+        {"text": "Nhổ răng lung lay", "isCorrect": false},
+        {"text": "Mài vùng vướng, tạo mặt phẳng hướng dẫn", "isCorrect": true},
+        {"text": "Đúc khung kim loại", "isCorrect": false},
+        {"text": "So màu răng", "isCorrect": false}
+      ],
+      "explanation": "Tiền phục hình tập trung chuẩn bị miệng bệnh nhân, mài chỉnh răng trụ[cite: 1785, 1786, 1814]."
+    },
+    {
+      "question": "Việc ghi dấu khớp cắn trong quy trình PHKB diễn ra ở lần hẹn nào? [cite: 1787]",
+      "options": [
+        {"text": "Lần hẹn 1", "isCorrect": false},
+        {"text": "Lần hẹn 2", "isCorrect": true},
+        {"text": "Lần hẹn 3", "isCorrect": false},
+        {"text": "Lần hẹn 4", "isCorrect": false}
+      ],
+      "explanation": "Ghi dấu khớp cắn được thực hiện ở lần hẹn thứ 2 sau khi lấy dấu sau cùng[cite: 1787, 1817]."
+    },
+    {
+      "question": "Trong PHNN, bước nào diễn ra ở lần hẹn thứ 4? [cite: 1829]",
+      "options": [
+        {"text": "Thử khung kim loại", "isCorrect": false},
+        {"text": "Thử hàm đã lên răng trên sáp", "isCorrect": true},
+        {"text": "Gắn hàm vĩnh viễn", "isCorrect": false},
+        {"text": "Mài ổ tựa", "isCorrect": false}
+      ],
+      "explanation": "Lần hẹn 4 của cả hàm khung và hàm nhựa đều là bước thử hàm đã lên răng trên sáp[cite: 1797, 1829]."
+    },
+    {
+      "question": "Bước 'Làm nguội, đánh bóng' phục hình thuộc trách nhiệm của ai? [cite: 1830]",
+      "options": [
+        {"text": "Bác sĩ điều trị", "isCorrect": false},
+        {"text": "Bệnh nhân tại nhà", "isCorrect": false},
+        {"text": "Kỹ thuật viên Labo", "isCorrect": true},
+        {"text": "Trợ thủ nha khoa", "isCorrect": false}
+      ],
+      "explanation": "Đây là các bước hoàn thiện phục hình tại Labo trước khi chuyển lại phòng khám[cite: 1830]."
+    },
+    {
+      "question": "Việc dặn dò bệnh nhân vệ sinh hàm giả được thực hiện khi nào? [cite: 1835]",
+      "options": [
+        {"text": "Ngay lần hẹn 1", "isCorrect": false},
+        {"text": "Sau khi nhổ răng", "isCorrect": false},
+        {"text": "Lần hẹn 5 (gắn hàm)", "isCorrect": true},
+        {"text": "Lần tái khám sau 1 năm", "isCorrect": false}
+      ],
+      "explanation": "Dặn dò và hướng dẫn vệ sinh là bước cuối cùng sau khi gắn hàm[cite: 1803, 1835]."
+    },
+    {
+      "question": "Hàm giả tháo lắp từng phần (PHTLBP) được phân loại dựa trên vật liệu nền hàm thành các loại nào? [cite: 1864, 1867, 1868]",
+      "options": [
+        {"text": "Hàm khung và hàm nhựa", "isCorrect": true},
+        {"text": "Hàm cứng và hàm dẻo", "isCorrect": false},
+        {"text": "Hàm trên và hàm dưới", "isCorrect": false},
+        {"text": "Hàm sứ và hàm vàng", "isCorrect": false}
+      ],
+      "explanation": "PHTLBP gồm có hàm khung bộ và hàm nền nhựa[cite: 1864, 1867, 1868]."
+    },
+    {
+      "question": "Theo sơ đồ Kennedy kết hợp PHCĐ, tại sao nên làm PHCĐ cho răng trước? [cite: 1707]",
+      "options": [
+        {"text": "Để tăng độ cứng cho răng", "isCorrect": false},
+        {"text": "Để tránh lộ tay móc thẩm mỹ và hạn chế đòn bẩy", "isCorrect": true},
+        {"text": "Vì PHCĐ rẻ hơn tháo lắp", "isCorrect": false},
+        {"text": "Vì răng trước không chịu được hàm khung", "isCorrect": false}
+      ],
+      "explanation": "Dùng PHCĐ ở răng trước giúp đảm bảo thẩm mỹ và hỗ trợ cơ học tốt hơn khi kết hợp hàm khung răng sau[cite: 1707]."
+    },
+    {
+      "question": "Chỉ định hàm nhựa cho 'Hàm chuyển tiếp' nghĩa là gì? [cite: 1724]",
+      "options": [
+        {"text": "Dùng tạm thời trước khi làm phục hình vĩnh viễn", "isCorrect": true},
+        {"text": "Dùng để nới rộng xương hàm", "isCorrect": false},
+        {"text": "Dùng cho trẻ em đang thay răng", "isCorrect": false},
+        {"text": "Dùng khi bệnh nhân đi du lịch", "isCorrect": false}
+      ],
+      "explanation": "Hàm nhựa thường được dùng làm giải pháp chuyển tiếp hoặc giữ khoảng[cite: 1723, 1724]."
+    },
+    {
+      "question": "Ưu điểm 'Thời gian điều trị ngắn' thuộc về loại nào? [cite: 1761]",
+      "options": [
+        {"text": "Hàm khung", "isCorrect": false},
+        {"text": "Cầu răng sứ", "isCorrect": false},
+        {"text": "Hàm nhựa", "isCorrect": true},
+        {"text": "Implant toàn hàm", "isCorrect": false}
+      ],
+      "explanation": "Hàm nhựa có quy trình thực hiện nhanh chóng hơn hàm khung[cite: 1761, 1735]."
+    },
+    {
+      "question": "Lực nhai truyền 'vừa qua niêm mạc vừa qua răng thật' là đặc điểm của hàm nào? [cite: 1847, 1849]",
+      "options": [
+        {"text": "Hàm giả sinh lý", "isCorrect": false},
+        {"text": "Hàm giả bán sinh lý", "isCorrect": true},
+        {"text": "Hàm giả không sinh lý", "isCorrect": false},
+        {"text": "Hàm giả toàn bộ", "isCorrect": false}
+      ],
+      "explanation": "Hàm khung được xếp vào nhóm hàm giả bán sinh lý[cite: 1848]."
+    },
+    {
+      "question": "Trong sơ đồ, 'Cast Retentive Arm' là thành phần nào? [cite: 1642]",
+      "options": [
+        {"text": "Móc dây uốn", "isCorrect": false},
+        {"text": "Tay móc đúc", "isCorrect": true},
+        {"text": "Thanh nối phụ", "isCorrect": false},
+        {"text": "Phần tựa", "isCorrect": false}
+      ],
+      "explanation": "Cast Retentive Arm là tay móc được đúc nguyên khối cùng khung sườn[cite: 1642]."
+    },
+    {
+      "question": "Trong PHTLBPNN, răng giả có thể làm bằng gì? [cite: 1674]",
+      "options": [
+        {"text": "Nhựa acrylic hoặc sứ", "isCorrect": true},
+        {"text": "Composite hoặc hợp kim", "isCorrect": false},
+        {"text": "Chỉ làm bằng nhựa dẻo", "isCorrect": false},
+        {"text": "Chỉ làm bằng ngà răng thật", "isCorrect": false}
+      ],
+      "explanation": "Răng giả của hàm nhựa có thể bằng nhựa hoặc sứ tùy nhu cầu[cite: 1674]."
+    },
+    {
+      "question": "Chống chỉ định 'Răng xen kẽ trải đều trên cung hàm' áp dụng cho hàm nào? [cite: 1739]",
+      "options": [
+        {"text": "Hàm khung", "isCorrect": true},
+        {"text": "Hàm nhựa", "isCorrect": false},
+        {"text": "Hàm toàn bộ", "isCorrect": false},
+        {"text": "Cầu răng cố định", "isCorrect": false}
+      ],
+      "explanation": "Khi răng xen kẽ quá nhiều, việc thiết kế khung sườn kim loại trở nên rất khó thực hiện[cite: 1739]."
+    },
+    {
+      "question": "Hàm nhựa có khuyết điểm 'cảm giác bất ổn' do đâu? [cite: 1769]",
+      "options": [
+        {"text": "Do tay móc dây uốn lỏng lẻo và nền hàm tựa lên niêm mạc di động", "isCorrect": true},
+        {"text": "Do nhựa acrylic quá nặng", "isCorrect": false},
+        {"text": "Do răng giả quá to", "isCorrect": false},
+        {"text": "Do nền hàm quá mỏng", "isCorrect": false}
+      ],
+      "explanation": "Sự kết hợp giữa móc dây uốn và truyền lực lên niêm mạc khiến hàm nhựa kém vững ổn[cite: 1684, 1769]."
+    },
+    {
+      "question": "Tại sao PHTLBPKB đòi hỏi trang bị labo hiện đại? [cite: 1765]",
+      "options": [
+        {"text": "Để nấu nhựa cho nhanh", "isCorrect": false},
+        {"text": "Để thực hiện các công đoạn đúc hợp kim chính xác và tinh vi", "isCorrect": true},
+        {"text": "Để chụp ảnh bệnh nhân", "isCorrect": false},
+        {"text": "Để sản xuất răng sứ hàng loạt", "isCorrect": false}
+      ],
+      "explanation": "Kỹ thuật đúc hàm khung phức tạp hơn ép nhựa thông thường[cite: 1765]."
+    },
+    {
+      "question": "Trong quy trình PHKB, việc phác thảo phục hình lên mẫu làm việc diễn ra sau bước nào? [cite: 1788]",
+      "options": [
+        {"text": "Sau lấy dấu sơ khởi", "isCorrect": false},
+        {"text": "Sau lấy dấu sau cùng và đổ mẫu làm việc", "isCorrect": true},
+        {"text": "Sau khi gắn hàm", "isCorrect": false},
+        {"text": "Sau khi so màu răng", "isCorrect": false}
+      ],
+      "explanation": "Sau khi có mẫu làm việc từ lấy dấu sau cùng, bác sĩ phác thảo thiết kế và chuyển Labo đúc khung[cite: 1788]."
+    },
+    {
+      "question": "Mài chỉnh tựa mặt nhai cho đúng khớp cắn diễn ra ở lần hẹn mấy của PHKB? [cite: 1790]",
+      "options": [
+        {"text": "Lần hẹn 2", "isCorrect": false},
+        {"text": "Lần hẹn 3", "isCorrect": true},
+        {"text": "Lần hẹn 4", "isCorrect": false},
+        {"text": "Lần hẹn 5", "isCorrect": false}
+      ],
+      "explanation": "Ở lần hẹn 3 (thử khung), bác sĩ kiểm tra và mài chỉnh tựa cho khít sát với ổ tựa và khớp cắn[cite: 1790]."
+    },
+    {
+      "question": "Bước 'Ép nhựa, làm nguội' nằm giữa những lần hẹn nào của PHNN? [cite: 1830]",
+      "options": [
+        {"text": "Lần hẹn 1 và 2", "isCorrect": false},
+        {"text": "Lần hẹn 2 và 3", "isCorrect": false},
+        {"text": "Lần hẹn 4 và 5", "isCorrect": true},
+        {"text": "Lần hẹn 3 và 4", "isCorrect": false}
+      ],
+      "explanation": "Sau khi thử hàm trên sáp ở lần hẹn 4, Labo tiến hành ép nhựa vĩnh viễn để gắn ở lần hẹn 5[cite: 1830, 1831]."
+    },
+    {
+      "question": "Hàm giả tháo lắp từng phần (PHTL từng phần) được chia thành mấy loại lớn? [cite: 1858, 1864]",
+      "options": [
+        {"text": "2 loại: Khung và Nhựa", "isCorrect": true},
+        {"text": "3 loại: Cứng, Mềm và Dẻo", "isCorrect": false},
+        {"text": "4 loại theo Kennedy", "isCorrect": false},
+        {"text": "Chỉ có 1 loại duy nhất", "isCorrect": false}
+      ],
+      "explanation": "Dựa trên vật liệu và thiết kế nền hàm, PHTLBP chia thành hàm khung và hàm nhựa [cite: 1864 - 1868]."
+    },
+    {
+      "question": "Mục tiêu 'giải thoát cổ răng' của hàm khung giúp ích gì cho sức khỏe răng miệng? [cite: 1749, 1753]",
+      "options": [
+        {"text": "Làm răng trắng hơn", "isCorrect": false},
+        {"text": "Giảm tích tụ mảng bám và bảo vệ mô nướu", "isCorrect": true},
+        {"text": "Giúp răng mọc dài ra", "isCorrect": false},
+        {"text": "Tăng cường cảm giác đau", "isCorrect": false}
+      ],
+      "explanation": "Thiết kế thoáng của hàm khung ít che phủ nướu và cổ răng, giúp vệ sinh tốt hơn[cite: 1749, 1753]."
+    },
+    {
+      "question": "Tại sao PHTLBPNN bị gọi là hàm giả 'không sinh lý'? [cite: 1852, 1855]",
+      "options": [
+        {"text": "Vì nó làm bằng nhựa hóa học", "isCorrect": false},
+        {"text": "Vì lực nhai truyền sai hướng, ép trực tiếp lên niêm mạc gây hại xương", "isCorrect": true},
+        {"text": "Vì nó không có răng", "isCorrect": false},
+        {"text": "Vì nó không thể tháo lắp được", "isCorrect": false}
+      ],
+      "explanation": "Cơ chế truyền lực nén lên niêm mạc không thuận theo sinh lý tự nhiên của hệ thống nhai[cite: 1855, 1856]."
+    },
+    {
+      "question": "Trong sơ đồ, thành phần 'Minor Connector' là gì? [cite: 1640]",
+      "options": [
+        {"text": "Thanh nối chính", "isCorrect": false},
+        {"text": "Thanh nối phụ", "isCorrect": true},
+        {"text": "Vật giữ gián tiếp", "isCorrect": false},
+        {"text": "Phần tựa", "isCorrect": false}
+      ],
+      "explanation": "Minor Connector là thanh nối phụ, kết nối thanh chính với các thành phần khác[cite: 1640]."
+    },
+    {
+      "question": "Cấu tạo 'Yên' (Saddle) trong hàm khung có vai trò gì? [cite: 1617]",
+      "options": [
+        {"text": "Là nơi gắn răng giả", "isCorrect": true},
+        {"text": "Là phần ôm lấy răng thật", "isCorrect": false},
+        {"text": "Là phần đặt lên mặt nhai", "isCorrect": false},
+        {"text": "Là thanh kết nối hai bên hàm", "isCorrect": false}
+      ],
+      "explanation": "Yên là phần nền của khung sườn dùng để mang các răng giả[cite: 1617, 1619]."
+    },
+    {
+      "question": "Khi chuẩn bị răng trụ cho hàm khung, bác sĩ cần làm gì đầu tiên? [cite: 1786]",
+      "options": [
+        {"text": "Gắn keo vào răng", "isCorrect": false},
+        {"text": "Mài vùng vướng và tạo mặt phẳng hướng dẫn", "isCorrect": true},
+        {"text": "Đánh bóng răng", "isCorrect": false},
+        {"text": "Trám các răng bị sâu", "isCorrect": false}
+      ],
+      "explanation": "Chuẩn bị răng trụ bao gồm mài các vùng gây vướng khi tháo lắp và tạo diện hướng dẫn[cite: 1786]."
+    },
+    {
+      "question": "Đổ mẫu nghiên cứu là bước nằm trong lần hẹn mấy? [cite: 1780, 1812]",
+      "options": [
+        {"text": "Lần hẹn 1", "isCorrect": true},
+        {"text": "Lần hẹn 2", "isCorrect": false},
+        {"text": "Lần hẹn 3", "isCorrect": false},
+        {"text": "Lần hẹn 4", "isCorrect": false}
+      ],
+      "explanation": "Mẫu nghiên cứu được đổ ngay sau khi lấy dấu sơ khởi ở lần hẹn đầu tiên[cite: 1780, 1812]."
+    },
+    {
+      "question": "Việc hướng dẫn bệnh nhân vệ sinh 'răng thật' có cần thiết khi dùng hàm tháo lắp? [cite: 1760, 1803]",
+      "options": [
+        {"text": "Rất cần thiết để bảo vệ tổ chức nâng đỡ răng", "isCorrect": true},
+        {"text": "Không cần thiết vì đã có hàm giả che phủ", "isCorrect": false},
+        {"text": "Chỉ cần vệ sinh hàm giả là đủ", "isCorrect": false},
+        {"text": "Bệnh nhân tự biết không cần dặn", "isCorrect": false}
+      ],
+      "explanation": "Vệ sinh răng thật và tổ chức nâng đỡ là yếu tố sống còn của điều trị tháo lắp[cite: 1760, 1803, 1835]."
+    },
+    {
+      "question": "Hàm nhựa thường được dùng cho BN 'mất gần hết răng' vì lý do gì? [cite: 1725]",
+      "options": [
+        {"text": "Vì nó đẹp nhất", "isCorrect": false},
+        {"text": "Vì dễ sửa chữa và giá rẻ, phù hợp giai đoạn chuẩn bị làm toàn hàm", "isCorrect": true},
+        {"text": "Vì nó bám tốt hơn hàm khung", "isCorrect": false},
+        {"text": "Vì bác sĩ lười đúc khung", "isCorrect": false}
+      ],
+      "explanation": "Trong giai đoạn mất gần hết răng, hàm nhựa là lựa chọn kinh tế và linh hoạt nhất[cite: 1725, 1733]."
+    },
+    {
+      "question": "PHTLBPNN có hiệu quả nhai như thế nào? [cite: 1769]",
+      "options": [
+        {"text": "Rất cao", "isCorrect": false},
+        {"text": "Thấp", "isCorrect": true},
+        {"text": "Tương đương răng thật", "isCorrect": false},
+        {"text": "Tương đương cầu răng sứ", "isCorrect": false}
+      ],
+      "explanation": "Hàm nhựa có khuyết điểm là hiệu quả nhai thấp[cite: 1769]."
+    },
+    {
+      "question": "Trong quy trình PHKB, lần hẹn mấy bác sĩ mới tiến hành lấy dấu sau cùng? [cite: 1787]",
+      "options": [
+        {"text": "Lần hẹn 1", "isCorrect": false},
+        {"text": "Lần hẹn 2", "isCorrect": true},
+        {"text": "Lần hẹn 3", "isCorrect": false},
+        {"text": "Lần hẹn 5", "isCorrect": false}
+      ],
+      "explanation": "Lấy dấu sau cùng diễn ra ở lần hẹn 2 sau khi chuẩn bị răng trụ[cite: 1787]."
+    },
+    {
+      "question": "Hợp kim thường dùng đúc hàm khung là gì (kiến thức tổng hợp từ hình ảnh)? [cite: 1621, 1646]",
+      "options": [
+        {"text": "Nhôm", "isCorrect": false},
+        {"text": "Kim loại đúc chuyên dụng (thường là Co-Cr)", "isCorrect": true},
+        {"text": "Đồng thau", "isCorrect": false},
+        {"text": "Sắt tráng kẽm", "isCorrect": false}
+      ],
+      "explanation": "Khung sườn (Metal Framework) được đúc từ hợp kim y tế cứng chắc[cite: 1621, 1646]."
+    },
+    {
+      "question": "Phân loại phục hình theo tính sinh lý, hàm nhựa móc dây uốn thuộc loại nào? [cite: 1855, 1856]",
+      "options": [
+        {"text": "Sinh lý", "isCorrect": false},
+        {"text": "Bán sinh lý", "isCorrect": false},
+        {"text": "Không sinh lý", "isCorrect": true},
+        {"text": "Sinh lý toàn bộ", "isCorrect": false}
+      ],
+      "explanation": "Hàm nhựa móc dây uốn truyền lực hoàn toàn qua niêm mạc nên không sinh lý[cite: 1855, 1856]."
+    },
+    {
+      "question": "Tựa mặt nhai (Rest) có vai trò truyền lực dọc theo trục răng, đúng hay sai? [cite: 1652, 1756]",
+      "options": [
+        {"text": "Đúng", "isCorrect": true},
+        {"text": "Sai", "isCorrect": false}
+      ],
+      "explanation": "Tựa giúp truyền lực nhai dọc theo trục răng trụ, bảo vệ mô nha chu[cite: 1652, 1756]."
+    },
+    {
+      "question": "Thành phần 'Bracing Arm' trong sơ đồ hàm khung có chức năng gì? [cite: 1641]",
+      "options": [
+        {"text": "Giữ hàm không rơi", "isCorrect": false},
+        {"text": "Đối kháng và ổn định hàm theo chiều ngang", "isCorrect": true},
+        {"text": "Nâng đỡ phục hình", "isCorrect": false},
+        {"text": "Dẫn truyền lực nhai", "isCorrect": false}
+      ],
+      "explanation": "Bracing Arm là tay đối kháng/ổn định trong hệ thống móc đúc[cite: 1641]."
+    },
+    {
+      "question": "Ở lần hẹn 5 của cả hai loại hàm, việc quan trọng nhất sau khi gắn là gì? [cite: 1800, 1832]",
+      "options": [
+        {"text": "Thu tiền bệnh nhân", "isCorrect": false},
+        {"text": "Kiểm tra khớp cắn và mài chỉnh", "isCorrect": true},
+        {"text": "Lấy dấu lại lần nữa", "isCorrect": false},
+        {"text": "Nhổ răng trụ", "isCorrect": false}
+      ],
+      "explanation": "Kiểm tra khớp cắn là bước bắt buộc để đảm bảo sự thoải mái và chức năng của phục hình[cite: 1800, 1832]."
+    },
+    {
+      "question": "Hàm khung bộ có tên viết tắt tiếng Anh là gì? [cite: 1615]",
+      "options": [
+        {"text": "Cast RPD", "isCorrect": true},
+        {"text": "Acrylic RPD", "isCorrect": false},
+        {"text": "Fixed Bridge", "isCorrect": false},
+        {"text": "Total Denture", "isCorrect": false}
+      ],
+      "explanation": "PHTLBPKB còn được gọi là Cast RPD (Cast Removable Partial Denture)[cite: 1615, 1616]."
+    },
+    {
+      "question": "PHTLBP từng phần có thể chia nhỏ hơn thành những loại nào? [cite: 1865, 1866]",
+      "options": [
+        {"text": "Từng phần trên và từng phần dưới", "isCorrect": true},
+        {"text": "Từng phần sứ và từng phần nhựa", "isCorrect": false},
+        {"text": "Từng phần cố định và tháo lắp", "isCorrect": false},
+        {"text": "Chỉ có loại toàn phần", "isCorrect": false}
+      ],
+      "explanation": "Phân loại gồm phục hình từng phần cho hàm trên và hàm dưới[cite: 1869, 1870]."
+    },
+    {
+      "question": "Khung sườn kim loại của hàm khung thường mỏng bao nhiêu (kiến thức hình ảnh)? [cite: 1614]",
+      "options": [
+        {"text": "6mm", "isCorrect": true},
+        {"text": "20mm", "isCorrect": false},
+        {"text": "50mm", "isCorrect": false},
+        {"text": "1mm", "isCorrect": false}
+      ],
+      "explanation": "Định nghĩa có nhắc đến kích thước mỏng khoảng 6mm để đảm bảo thẩm mỹ và thoải mái[cite: 1614]."
+    },
+    {
+      "question": "Tại sao răng trụ lung lay độ 3 là một chống chỉ định của hàm khung? [cite: 1741]",
+      "options": [
+        {"text": "Vì mô nha chu quá yếu không thể chịu được lực tựa", "isCorrect": true},
+        {"text": "Vì răng quá to", "isCorrect": false},
+        {"text": "Vì răng quá trắng", "isCorrect": false},
+        {"text": "Vì răng không có dây thần kinh", "isCorrect": false}
+      ],
+      "explanation": "Răng trụ có mô nha chu yếu không thể đóng vai trò nâng đỡ cho hàm khung[cite: 1741]."
+    },
+    {
+      "question": "Thanh nối chính của hàm khung hàm trên thường có hình dạng gì (kiến thức tổng hợp hình ảnh)? [cite: 1634, 1748]",
+      "options": [
+        {"text": "Hình bản rộng phủ khẩu cái", "isCorrect": true},
+        {"text": "Hình thanh nhỏ dưới lưỡi", "isCorrect": false},
+        {"text": "Hình vòng cung ôm sát răng trước", "isCorrect": false},
+        {"text": "Hình chữ U", "isCorrect": false}
+      ],
+      "explanation": "Dựa trên hình ảnh giải phẫu, thanh chính hàm trên thường trải rộng trên vòm khẩu cái để phân phối lực[cite: 1634, 1748]."
+    },
+    {
+      "question": "Việc sử dụng 'Hàm khung' có giúp duy trì các răng thật còn lại tốt hơn hàm nhựa? [cite: 1749, 1756]",
+      "options": [
+        {"text": "Có, vì ít gây hại nướu và truyền lực tốt", "isCorrect": true},
+        {"text": "Không, vì kim loại làm răng bị mòn", "isCorrect": false},
+        {"text": "Hai loại như nhau", "isCorrect": false},
+        {"text": "Hàm nhựa tốt hơn", "isCorrect": false}
+      ],
+      "explanation": "Hàm khung giải thoát cổ răng và nướu, giúp bảo vệ răng thật tốt hơn[cite: 1749, 1756]."
+    },
+    {
+      "question": "Lần hẹn thứ 2 của PHKB có bước 'Ghi dấu khớp cắn' bằng vật liệu gì thông dụng? [cite: 1787]",
+      "options": [
+        {"text": "Cao su hoặc sáp", "isCorrect": true},
+        {"text": "Thạch cao đúc", "isCorrect": false},
+        {"text": "Nhựa acrylic", "isCorrect": false},
+        {"text": "Cement", "isCorrect": false}
+      ],
+      "explanation": "Dấu khớp cắn thường được lấy bằng các vật liệu chuyên dụng như sáp hoặc cao su[cite: 1787]."
+    },
+    {
+      "question": "Sau khi thử răng trên sáp ở lần hẹn 4, labo sẽ thực hiện công đoạn nào? [cite: 1798, 1830]",
+      "options": [
+        {"text": "Đúc kim loại hoặc ép nhựa vĩnh viễn", "isCorrect": true},
+        {"text": "Lấy dấu lại", "isCorrect": false},
+        {"text": "Thiết kế gối sáp mới", "isCorrect": false},
+        {"text": "So màu răng lại từ đầu", "isCorrect": false}
+      ],
+      "explanation": "Đây là bước chuyển đổi từ mẫu sáp sang phục hình thật vĩnh viễn[cite: 1798, 1830]."
+    },
+    {
+      "question": "Tay móc 'Wire Retentive Arm' là loại móc gì? [cite: 1643]",
+      "options": [
+        {"text": "Móc đúc", "isCorrect": false},
+        {"text": "Móc dây uốn hàn vào khung", "isCorrect": true},
+        {"text": "Móc bằng nhựa dẻo", "isCorrect": false},
+        {"text": "Móc gắn trực tiếp vào xương", "isCorrect": false}
+      ],
+      "explanation": "Wire Retentive Arm là loại móc dây uốn, đôi khi được hàn vào khung sườn[cite: 1643]."
+    },
+    {
+      "question": "Đặc điểm 'Dễ sửa chữa: thêm răng, thêm móc' là ưu điểm của loại nào? [cite: 1760]",
+      "options": [
+        {"text": "Hàm nhựa", "isCorrect": true},
+        {"text": "Hàm khung", "isCorrect": false},
+        {"text": "Cầu răng sứ", "isCorrect": false},
+        {"text": "Implant", "isCorrect": false}
+      ],
+      "explanation": "Cấu tạo nhựa acrylic cho phép sửa chữa và bổ sung linh hoạt hơn[cite: 1760]."
+    },
+    {
+      "question": "Tại sao PHTLBPNN bị coi là 'Hàm giả không sinh lý'? [cite: 1852]",
+      "options": [
+        {"text": "Vì nó không có mạch máu", "isCorrect": false},
+        {"text": "Vì nó truyền lực hoàn toàn lên niêm mạc", "isCorrect": true},
+        {"text": "Vì nó làm bằng nhựa", "isCorrect": false},
+        {"text": "Vì nó có thể tháo ra được", "isCorrect": false}
+      ],
+      "explanation": "Sự truyền lực này gây nén niêm mạc bất lợi cho xương[cite: 1855]."
+    },
+    {
+      "question": "Thanh nối phụ (Minor Connector) kết nối bộ phận nào với thanh chính? [cite: 1640]",
+      "options": [
+        {"text": "Chỉ kết nối răng giả", "isCorrect": false},
+        {"text": "Kết nối các phần như móc và tựa mặt nhai", "isCorrect": true},
+        {"text": "Kết nối hai bên hàm với nhau", "isCorrect": false},
+        {"text": "Kết nối implant với nền nhựa", "isCorrect": false}
+      ],
+      "explanation": "Thanh phụ làm trung gian kết nối các bộ phận nhỏ vào khung sườn chính[cite: 1640]."
+    },
+    {
+      "question": "Khi mài ổ tựa trong lần hẹn 2, bác sĩ cần đảm bảo điều gì? [cite: 1786, 1790]",
+      "options": [
+        {"text": "Ổ tựa phải đủ sâu và hình dáng phù hợp để tựa khít sát", "isCorrect": true},
+        {"text": "Mài cho răng trụ nhỏ lại hoàn toàn", "isCorrect": false},
+        {"text": "Mài xuyên qua tủy răng", "isCorrect": false},
+        {"text": "Mài ở mặt trong của răng", "isCorrect": false}
+      ],
+      "explanation": "Chuẩn bị ổ tựa chính xác là yếu tố sống còn cho sự ổn định của hàm khung[cite: 1786, 1790]."
+    },
+    {
+      "question": "Hàm nhựa 'mềm' khác hàm nhựa 'cứng' ở điểm nào trong phân loại? [cite: 1868]",
+      "options": [
+        {"text": "Vật liệu nền hàm là nhựa dẻo", "isCorrect": true},
+        {"text": "Hàm mềm không có răng", "isCorrect": false},
+        {"text": "Hàm mềm không tháo lắp được", "isCorrect": false},
+        {"text": "Hàm mềm chỉ dùng cho trẻ em", "isCorrect": false}
+      ],
+      "explanation": "Phân loại hàm nhựa gồm có loại nhựa cứng truyền thống và nhựa mềm[cite: 1868]."
+    },
+    {
+      "question": "Nghiệm pháp 'Thử hàm' ở lần hẹn 4 nhằm mục đích gì? [cite: 1797, 1829]",
+      "options": [
+        {"text": "Để bệnh nhân ăn thử", "isCorrect": false},
+        {"text": "Kiểm tra thẩm mỹ, khớp cắn và sự hài lòng của BN trước khi hoàn thiện", "isCorrect": true},
+        {"text": "Để BN mang về nhà dùng thử 1 tuần", "isCorrect": false},
+        {"text": "Để bác sĩ mài chỉnh sườn kim loại", "isCorrect": false}
+      ],
+      "explanation": "Giai đoạn thử răng trên sáp cho phép điều chỉnh lần cuối về thẩm mỹ và khớp cắn[cite: 1797, 1829]."
+    },
+    {
+      "question": "PHTLBPKB giúp 'tránh tiêu xương sống hàm' nhờ vào bộ phận nào? [cite: 1753, 1756]",
+      "options": [
+        {"text": "Các tựa mặt nhai", "isCorrect": true},
+        {"text": "Nền nhựa acrylic", "isCorrect": false},
+        {"text": "Các răng giả bằng sứ", "isCorrect": false},
+        {"text": "Thanh nối chính", "isCorrect": false}
+      ],
+      "explanation": "Tựa mặt nhai ngăn hàm bị lún và giảm áp lực nén lên sống hàm[cite: 1753, 1756]."
+    },
+    {
+      "question": "Tại sao PHTLBPNN có hiệu quả nhai thấp? [cite: 1769]",
+      "options": [
+        {"text": "Vì nhựa quá trơn", "isCorrect": false},
+        {"text": "Do sự bất ổn định và truyền lực trực tiếp lên niêm mạc di động", "isCorrect": true},
+        {"text": "Do răng giả bằng nhựa không đủ cứng", "isCorrect": false},
+        {"text": "Do bệnh nhân sợ nhai mạnh gây gãy hàm", "isCorrect": false}
+      ],
+      "explanation": "Sự kém vững ổn cơ học làm giảm lực nhai hữu dụng của hàm nhựa[cite: 1769]."
+    },
+    {
+      "question": "Trong PHNN, bước 'Chọn răng trụ' được thực hiện ở đâu? [cite: 1819]",
+      "options": [
+        {"text": "Trực tiếp trong miệng ở lần hẹn 1", "isCorrect": false},
+        {"text": "Trên mẫu hàm làm việc ở lần hẹn 2", "isCorrect": true},
+        {"text": "Ở lần hẹn 5 khi gắn hàm", "isCorrect": false},
+        {"text": "BN tự chọn răng", "isCorrect": false}
+      ],
+      "explanation": "Sau khi lấy dấu sau cùng, bác sĩ chọn răng trụ để thiết kế móc trên mẫu[cite: 1819]."
+    },
+    {
+      "question": "Việc mài vùng vướng trong tiền phục hình giúp ích gì? [cite: 1786]",
+      "options": [
+        {"text": "Giúp hàm lắp vào và tháo ra dễ dàng theo hướng định sẵn", "isCorrect": true},
+        {"text": "Làm răng nhỏ lại cho đẹp", "isCorrect": false},
+        {"text": "Làm bệnh nhân đau để họ quen với hàm", "isCorrect": false},
+        {"text": "Lấy chỗ để đặt răng sứ", "isCorrect": false}
+      ],
+      "explanation": "Loại bỏ vùng vướng giúp xác định hướng lắp phục hình thuận lợi[cite: 1786, 1815]."
+    },
+    {
+      "question": "Chỉ định hàm nhựa 'Làm hàm giả giữ khoảng' dùng cho trường hợp nào? [cite: 1723]",
+      "options": [
+        {"text": "Trẻ em mất răng sữa sớm để chờ răng vĩnh viễn mọc", "isCorrect": true},
+        {"text": "Người già mất hết răng", "isCorrect": false},
+        {"text": "Bệnh nhân vừa nhổ răng khôn", "isCorrect": false},
+        {"text": "Khi muốn làm thưa răng", "isCorrect": false}
+      ],
+      "explanation": "Hàm nhựa giữ khoảng giúp ngăn các răng còn lại xô lệch vào vùng mất răng[cite: 1723]."
+    },
+    {
+      "question": "Trong sơ đồ cấu tạo hàm khung, 'Rest' được đánh dấu bằng ký hiệu gì? [cite: 1636]",
+      "options": [
+        {"text": "Vòng tròn màu xám", "isCorrect": false},
+        {"text": "Ký hiệu tròn đen nhỏ trên mặt nhai", "isCorrect": true},
+        {"text": "Phần bản rộng giữa hàm", "isCorrect": false},
+        {"text": "Tay móc màu xanh", "isCorrect": false}
+      ],
+      "explanation": "Theo sơ đồ giải phẫu, Rest (tựa) là phần tiếp xúc trực tiếp mặt nhai răng trụ[cite: 1636, 1638]."
+    },
+    {
+      "question": "Nhiệm vụ của bác sĩ nha khoa trong quá trình làm tháo lắp bán phần là gì?",
+      "options": [
+        {"text": "Khám và lập kế hoạch điều trị chính xác", "isCorrect": false},
+        {"text": "Thực hiện các bước lâm sàng và mài chỉnh răng trụ", "isCorrect": false},
+        {"text": "Kiểm soát khớp cắn và hướng dẫn bệnh nhân", "isCorrect": false},
+        {"text": "Tất cả các ý trên", "isCorrect": true}
+      ],
+      "explanation": "Bác sĩ chịu trách nhiệm toàn bộ tiến trình từ khám đến gắn hàm và hậu mãi [cite: 1776 - 1835]."
+    }
+  ]

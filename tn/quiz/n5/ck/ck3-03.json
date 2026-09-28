@@ -1,0 +1,2554 @@
+[
+  {
+    "question": "Phần lớn các xương vòm sọ và xương mặt được hình thành theo cách nào?",
+    "options": [
+      {
+        "text": "Hình thành xương màng (Intramenbranous osification)",
+        "isCorrect": true
+      },
+      {
+        "text": "Bằng cả hai cách với tỷ lệ bằng nhau",
+        "isCorrect": false
+      },
+      {
+        "text": "Hình thành xương từ sụn (Endochondral osification)",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ phát triển từ các đường ráp xương",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tài liệu nêu rõ: 'Phần lớn các xương vòm sọ và xương mặt được hình thành từ xương màng'."
+  },
+  {
+    "question": "Trong quá trình hình thành xương màng, các tế bào trung mô ban đầu phân hóa thành các tế bào nào để tạo ra màng liên kết?",
+    "options": [
+      {
+        "text": "Tế bào hủy xương (osteoclasts)",
+        "isCorrect": false
+      },
+      {
+        "text": "Tế bào sụn (cartilage cell)",
+        "isCorrect": false
+      },
+      {
+        "text": "Tế bào liên kết (fibroblats)",
+        "isCorrect": true
+      },
+      {
+        "text": "Tế bào tạo xương (osteoblats)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Các tế bào trung mô tập trung... và phân hóa thành các tế bào liên kết (fibroblats) sản sinh ra các sợi keo, hình thành màng liên kết."
+  },
+  {
+    "question": "Tế bào nào chịu trách nhiệm hình thành các 'vảy xương' trong quá trình hình thành xương màng?",
+    "options": [
+      {
+        "text": "Tế bào tạo xương (osteoblats)",
+        "isCorrect": true
+      },
+      {
+        "text": "Tế bào sụn (cartilage cell)",
+        "isCorrect": false
+      },
+      {
+        "text": "Tế bào trung mô",
+        "isCorrect": false
+      },
+      {
+        "text": "Tế bào liên kết (fibroblats)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Các tế bào trung mô của màng liên kết tiếp tục phân hóa thành các tế bào tạo xương (osteoblats), sau đó ngấm vôi."
+  },
+  {
+    "question": "Sau khi xương xốp (kiểu màng) được hình thành, sự tăng trưởng tiếp tục xảy ra ở đâu?",
+    "options": [
+      {
+        "text": "Từ trung tâm của xương xốp",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ ở các đường ráp xương",
+        "isCorrect": false
+      },
+      {
+        "text": "Bằng cách sụn hóa xương xốp",
+        "isCorrect": false
+      },
+      {
+        "text": "Ở bề mặt, nhờ hoạt động của màng xương",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Sau đó, sự tăng trưởng chỉ còn xảy ra ở bề mặt nhờ hoạt động của các tế bào màng xương."
+  },
+  {
+    "question": "Hình thành xương từ sụn (Endochondral ossification) chủ yếu xảy ra ở loại xương nào?",
+    "options": [
+      {
+        "text": "Phần lớn các xương dài và các chi",
+        "isCorrect": true
+      },
+      {
+        "text": "Phần lớn các xương vòm sọ",
+        "isCorrect": false
+      },
+      {
+        "text": "Phần lớn các xương mặt",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ ở xương hàm dưới",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Hình thành xương từ sụn xảy ra ở phần lớn các xương dài, các chi và một số xương sọ."
+  },
+  {
+    "question": "Trong quá trình hình thành xương từ sụn, điều gì xảy ra với mô sụn ban đầu?",
+    "options": [
+      {
+        "text": "Sụn trở thành màng xương",
+        "isCorrect": false
+      },
+      {
+        "text": "Sụn ngấm vôi và trở thành xương xốp",
+        "isCorrect": false
+      },
+      {
+        "text": "Sụn chết đi và được thay thế dần bởi xương mới",
+        "isCorrect": true
+      },
+      {
+        "text": "Sụn chuyển thẳng thành xương đặc",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tạo xương từ sụn không phải là mô sụn chuyển thẳng thành xương mà sụn chết được thay thế dần dần bởi xương mới xâm lấn vào mẫu sụn."
+  },
+  {
+    "question": "Đâu KHÔNG phải là một trong ba cách phát triển của xương (sau khi đã được tạo thành)?",
+    "options": [
+      {
+        "text": "Sự đắp thêm xương theo bề mặt",
+        "isCorrect": false
+      },
+      {
+        "text": "Sụn thành xương (tại đường khớp sụn)",
+        "isCorrect": false
+      },
+      {
+        "text": "Mô liên kết giữa các xương biến thành xương",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự hóa vôi của các tế bào trung mô",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Xương đã được tạo thành sẽ phát triển theo 3 cách: (1) Sự đắp thêm xương theo bề mặt, (2) Mô liên kết giữa các xương biến thành xương (sutural), (3) Sụn thành xương (endochondral)."
+  },
+  {
+    "question": "Sự đắp thêm xương theo bề mặt (surface apposition) là hoạt động của các tế bào từ đâu?",
+    "options": [
+      {
+        "text": "Tủy xương",
+        "isCorrect": false
+      },
+      {
+        "text": "Đường ráp xương",
+        "isCorrect": false
+      },
+      {
+        "text": "Màng xương (perioste)",
+        "isCorrect": true
+      },
+      {
+        "text": "Màng sụn",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tế bào mô liên kết của màng xương tạo thành lớp xương đặc bao bọc xương xốp cả mặt trong lẫn mặt ngoài."
+  },
+  {
+    "question": "Sự hình thành xương từ sụn tại đường khớp sụn (synchondrosis) diễn ra ở vị trí nào?",
+    "options": [
+      {
+        "text": "Chỉ ở một bờ của đường khớp",
+        "isCorrect": false
+      },
+      {
+        "text": "Ở cả 2 bờ, cách xa trung tâm đường khớp",
+        "isCorrect": true
+      },
+      {
+        "text": "Chỉ ở trung tâm đường khớp sụn",
+        "isCorrect": false
+      },
+      {
+        "text": "Trên toàn bộ bề mặt sụn",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Nhóm các tế bào sụn trưởng thành nằm trải dài về 2 hướng cách xa trung tâm đường khớp. Sự hình thành xương từ sụn diễn ra ở cả 2 bờ này."
+  },
+  {
+    "question": "Khi sinh ra, xương sọ chủ yếu là loại xương nào?",
+    "options": [
+      {
+        "text": "Những mảnh xương xốp",
+        "isCorrect": true
+      },
+      {
+        "text": "Hoàn toàn là mô liên kết",
+        "isCorrect": false
+      },
+      {
+        "text": "Những khối xương đặc",
+        "isCorrect": false
+      },
+      {
+        "text": "Hoàn toàn là mô sụn",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Khi sinh ra, xương sọ chỉ là những mảnh xương xốp được bao bọc bởi màng xương."
+  },
+  {
+    "question": "Cơ chế nào giúp hộp sọ gia tăng kích thước mà không tăng đáng kể khối lượng?",
+    "options": [
+      {
+        "text": "Đắp xương ở mặt ngoài và tiêu xương ở mặt trong",
+        "isCorrect": true
+      },
+      {
+        "text": "Chỉ tiêu xương ở mặt trong",
+        "isCorrect": false
+      },
+      {
+        "text": "Đắp xương ở cả mặt ngoài và mặt trong",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ tăng trưởng ở các đường ráp",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sự đắp xương ở mặt ngoài làm gia tăng thể tích... sự tiêu xương mặt trong xương sọ... giúp sọ gia tăng về kích thước... mà không có sự gia tăng đáng kể khối lượng của nó."
+  },
+  {
+    "question": "Sự tạo xương ở các đường ráp xương (sutures) làm sọ phát triển theo hướng nào?",
+    "options": [
+      {
+        "text": "Thẳng góc với các đường ráp xương",
+        "isCorrect": true
+      },
+      {
+        "text": "Một cách ngẫu nhiên",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ theo chiều trước-sau",
+        "isCorrect": false
+      },
+      {
+        "text": "Song song với các đường ráp xương",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sự tăng trưởng kích thước của xương theo hướng thẳng góc với các đường ráp xương."
+  },
+  {
+    "question": "Xương sọ được chia làm hai phần chính là gì?",
+    "options": [
+      {
+        "text": "Xương màng và Xương sụn",
+        "isCorrect": false
+      },
+      {
+        "text": "Khối sọ và Khối mặt",
+        "isCorrect": false
+      },
+      {
+        "text": "Vòm sọ và Nền sọ",
+        "isCorrect": true
+      },
+      {
+        "text": "Sọ mặt và Sọ thần kinh",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Xương sọ được chia làm 2 phần: Vòm sọ (vòm sọ) và Nền sọ."
+  },
+  {
+    "question": "Xương nào sau đây KHÔNG thuộc nhóm xương vòm sọ?",
+    "options": [
+      {
+        "text": "Xương sàng (Ethmoid)",
+        "isCorrect": true
+      },
+      {
+        "text": "Xương trán (Frontal)",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương đỉnh (Parietal)",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương chẩm (Occipital)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Các xương vòm sọ bao gồm: Xương trán, Xương đỉnh (xương thành), Xương thái dương, Xương chẩm."
+  },
+  {
+    "question": "Các khoảng trống giữa các xương vòm sọ ở trẻ sơ sinh, được ngăn cách bởi mô liên kết lỏng lẻo, được gọi là gì?",
+    "options": [
+      {
+        "text": "Đường khớp sụn (Synchondroses)",
+        "isCorrect": false
+      },
+      {
+        "text": "Đường ráp xương (Sutures)",
+        "isCorrect": false
+      },
+      {
+        "text": "Xoang (Sinuses)",
+        "isCorrect": false
+      },
+      {
+        "text": "Thóp (Fontanelles)",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Nó ngăn cách nhau khá xa bởi mô liên kết lỏng lẻo (những khoảng trống này gọi là thóp)."
+  },
+  {
+    "question": "Thóp bướm (Sphenoid fontanelle) và thóp chũm (Mastoid fontanelle) thuộc nhóm thóp nào?",
+    "options": [
+      {
+        "text": "Thóp bên",
+        "isCorrect": true
+      },
+      {
+        "text": "Thóp chính",
+        "isCorrect": false
+      },
+      {
+        "text": "Thóp sau",
+        "isCorrect": false
+      },
+      {
+        "text": "Thóp trước",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Các thóp bao gồm: thóp trước, thóp sau và 2 thóp bên (thóp bướm và thóp chũm)."
+  },
+  {
+    "question": "Các thóp ở trẻ sơ sinh thường vôi hóa (cốt hóa) hoàn toàn khi trẻ được bao nhiêu tuổi?",
+    "options": [
+      {
+        "text": "7 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "4 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "2 tuổi",
+        "isCorrect": true
+      },
+      {
+        "text": "6 tháng",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Các thóp này vôi hóa hoàn toàn khi trẻ được 2 tuổi."
+  },
+  {
+    "question": "Xương nào sau đây thuộc nền sọ phần trước?",
+    "options": [
+      {
+        "text": "Xương sàng",
+        "isCorrect": true
+      },
+      {
+        "text": "Xương đỉnh",
+        "isCorrect": false
+      },
+      {
+        "text": "Phần đá của xương thái dương",
+        "isCorrect": false
+      },
+      {
+        "text": "Đáy xương chẩm",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Các xương nền sọ phần trước bao gồm: Xương trán, Xương bướm, Xương sàng."
+  },
+  {
+    "question": "Hai xương nào tạo nên trục trước-sau của nền sọ (phần sau, trên mặt phẳng giữa)?",
+    "options": [
+      {
+        "text": "Cánh lớn xương bướm và Xương thái dương",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương chẩm và Xương đỉnh",
+        "isCorrect": false
+      },
+      {
+        "text": "Thân xương bướm và Đáy xương chẩm",
+        "isCorrect": true
+      },
+      {
+        "text": "Xương sàng và Xương trán",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Phần sau, trên mặt phẳng giữa: Thân xương bướm và Đáy xương chẩm. Cả hai tạo nên trục trước sau."
+  },
+  {
+    "question": "Các xương nền sọ nằm trên đường giữa (midline) được hình thành và tăng trưởng theo kiểu nào?",
+    "options": [
+      {
+        "text": "Chỉ đắp xương bề mặt",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ qua các đường ráp",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương màng (Intramembranous)",
+        "isCorrect": false
+      },
+      {
+        "text": "Sụn thành xương (Endochondral)",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Phần lớn xương nền sọ (xương nằm trên đường giữa) hình thành từ sụn và tăng trưởng theo kiểu sụn thành xương."
+  },
+  {
+    "question": "Các xương nền sọ nằm ở hai bên đường giữa (lateral) tăng trưởng chủ yếu theo kiểu nào?",
+    "options": [
+      {
+        "text": "Chỉ tiêu xương bên trong",
+        "isCorrect": false
+      },
+      {
+        "text": "Sụn thành xương (Endochondral)",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ đắp xương bề mặt",
+        "isCorrect": false
+      },
+      {
+        "text": "Các đường ráp và đắp xương bề mặt",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Trong khi đó các xương ở 2 bên đường giữa tăng trưởng chủ yếu là các đường ráp và đắp xương bề mặt."
+  },
+  {
+    "question": "Đường khớp sụn nào sau đây KHÔNG được liệt kê là một đường khớp sụn chính ở nền sọ?",
+    "options": [
+      {
+        "text": "Đường khớp sụn giữa xương bướm",
+        "isCorrect": false
+      },
+      {
+        "text": "Đường khớp sụn bướm - chẩm",
+        "isCorrect": false
+      },
+      {
+        "text": "Đường khớp sụn trán - sàng",
+        "isCorrect": true
+      },
+      {
+        "text": "Đường khớp sụn bướm - sàng",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Các đường khớp sụn ở nền sọ được minh họa gồm: Đường khớp sụn bướm-sàng, Đường khớp sụn giữa xương bướm, và Đường khớp sụn bướm-chẩm."
+  },
+  {
+    "question": "Vào tháng thứ ba của bào thai, tỷ lệ chiều dài đầu thai nhi so với chiều dài cơ thể là khoảng bao nhiêu?",
+    "options": [
+      {
+        "text": "50%",
+        "isCorrect": true
+      },
+      {
+        "text": "30%",
+        "isCorrect": false
+      },
+      {
+        "text": "70%",
+        "isCorrect": false
+      },
+      {
+        "text": "12%",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Vào tháng thứ ba của bào thai, đầu thai nhi chiếm tỷ lệ khoảng 50% chiều dài cơ thể."
+  },
+  {
+    "question": "Ở giai đoạn bào thai (tháng thứ 3), cấu trúc nào có thể tích lớn hơn nhiều so với cấu trúc còn lại?",
+    "options": [
+      {
+        "text": "Thân mình lớn hơn đầu",
+        "isCorrect": false
+      },
+      {
+        "text": "Mặt lớn hơn nhiều so với sọ",
+        "isCorrect": false
+      },
+      {
+        "text": "Tứ chi lớn hơn đầu",
+        "isCorrect": false
+      },
+      {
+        "text": "Sọ lớn hơn nhiều so với mặt",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Ở giai đoạn này (tháng thứ 3 bào thai), sọ có thể tích lớn hơn nhiều so với mặt."
+  },
+  {
+    "question": "Tỷ lệ kích thước của đầu so với toàn thân lúc sinh ra là khoảng bao nhiêu?",
+    "options": [
+      {
+        "text": "12%",
+        "isCorrect": false
+      },
+      {
+        "text": "50%",
+        "isCorrect": false
+      },
+      {
+        "text": "40%",
+        "isCorrect": false
+      },
+      {
+        "text": "30%",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Lúc sinh ra... tỷ lệ kích thước của đầu so với toàn thân giảm còn 30 phần trăm."
+  },
+  {
+    "question": "Tỷ lệ kích thước của đầu so với toàn thân lúc trưởng thành là khoảng bao nhiêu?",
+    "options": [
+      {
+        "text": "50%",
+        "isCorrect": false
+      },
+      {
+        "text": "30%",
+        "isCorrect": false
+      },
+      {
+        "text": "5%",
+        "isCorrect": false
+      },
+      {
+        "text": "12%",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Đến lúc trưởng thành, tỷ lệ này giảm chỉ còn 12%."
+  },
+  {
+    "question": "Sự tăng trưởng của xương sọ (vòm sọ) diễn ra nhanh nhất trong giai đoạn nào?",
+    "options": [
+      {
+        "text": "Trong 3 tháng cuối thai kỳ",
+        "isCorrect": false
+      },
+      {
+        "text": "Từ 15 đến 18 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "Trong năm đầu sau sinh",
+        "isCorrect": true
+      },
+      {
+        "text": "Từ 7 đến 15 tuổi",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Trong năm đầu, xương sọ tăng trưởng rất nhanh. Sự tăng trưởng giảm dần cho đến khi 15 tuổi."
+  },
+  {
+    "question": "Các đường khớp sụn phần trước của nền sọ (ví dụ: bướm - sàng) hoạt động (tăng trưởng) đến khi trẻ được mấy tuổi?",
+    "options": [
+      {
+        "text": "2 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "7 tuổi",
+        "isCorrect": true
+      },
+      {
+        "text": "18 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "15 tuổi",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Các đường khớp này hoạt động đến khi trẻ 7 tuổi, khi đó phần trước của nền sọ đạt kích thước trưởng thành."
+  },
+  {
+    "question": "Phần nào của nền sọ đạt kích thước trưởng thành khi trẻ 7 tuổi?",
+    "options": [
+      {
+        "text": "Phần bên của nền sọ",
+        "isCorrect": false
+      },
+      {
+        "text": "Phần trước của nền sọ",
+        "isCorrect": true
+      },
+      {
+        "text": "Toàn bộ nền sọ",
+        "isCorrect": false
+      },
+      {
+        "text": "Phần sau của nền sọ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Các đường khớp [trước] hoạt động đến khi trẻ 7 tuổi, khi đó phần trước của nền sọ đạt kích thước trưởng thành."
+  },
+  {
+    "question": "Đường khớp sụn nào được xem là trung tâm tăng trưởng rất quan trọng cho sự phát triển trước-sau của đáy sọ và tồn tại đến 18 tuổi?",
+    "options": [
+      {
+        "text": "Đường khớp sụn bướm - sàng",
+        "isCorrect": false
+      },
+      {
+        "text": "Đường khớp sụn sàng - trán",
+        "isCorrect": false
+      },
+      {
+        "text": "Đường khớp sụn bướm - chẩm",
+        "isCorrect": false
+      },
+      {
+        "text": "Đường khớp sụn giữa xương bướm",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Đường khớp sụn giữa xương bướm [và chẩm] (là trung tâm) tăng trưởng rất quan trọng cho sự phát triển trước-sau của đáy sọ, sụn này tồn tại cho đến 18 tuổi."
+  },
+  {
+    "question": "Sự phát triển của nền sọ theo chiều trước-sau có ảnh hưởng gì đến khối mặt?",
+    "options": [
+      {
+        "text": "Mang mặt cách xa dần cột sống",
+        "isCorrect": true
+      },
+      {
+        "text": "Làm hẹp mặt theo chiều ngang",
+        "isCorrect": false
+      },
+      {
+        "text": "Không ảnh hưởng đến vị trí của mặt",
+        "isCorrect": false
+      },
+      {
+        "text": "Làm mặt lùi về phía sau",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Vì mặt gắn liền với nền sọ và sự phát triển của nền sọ theo chiều trước - sau... nên mang mặt cách xa dần cột sống."
+  },
+  {
+    "question": "Cơ chế nào làm cho xoang bướm (sphenoid sinus) rộng ra?",
+    "options": [
+      {
+        "text": "Sự tiêu xương của các đường ráp",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự đắp xương / tiêu xương bề mặt",
+        "isCorrect": true
+      },
+      {
+        "text": "Sự tăng trưởng của đường khớp sụn bướm-sàng",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự tăng trưởng của đường khớp sụn bướm-chẩm",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Ngay cả trong nền sọ, sự đắp xương/ tiêu xương bề mặt cũng rất quan trọng. Đó là cơ chế làm xoang bướm (sphenoid sinus) rộng ra."
+  },
+  {
+    "question": "Đường khớp nào sau đây tham gia vào sự tăng trưởng theo chiều ĐỨNG của sọ?",
+    "options": [
+      {
+        "text": "Xương sàng - xương trán",
+        "isCorrect": false
+      },
+      {
+        "text": "Khớp dọc giữa (giữa hai xương đỉnh)",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương thái dương - xương đỉnh",
+        "isCorrect": true
+      },
+      {
+        "text": "Xương bướm - xương sàng",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sự tăng trưởng theo chiều đứng của sọ lớn theo đường khớp: Xương trán - xương bướm; Xương thái dương - xương đỉnh; Xương chẩm - xương đỉnh."
+  },
+  {
+    "question": "Đường khớp nào sau đây tham gia chính vào sự tăng trưởng theo chiều NGANG của sọ?",
+    "options": [
+      {
+        "text": "Đường khớp sụn bướm - chẩm",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương trán - xương bướm",
+        "isCorrect": false
+      },
+      {
+        "text": "Khớp dọc giữa (giữa hai xương đỉnh)",
+        "isCorrect": true
+      },
+      {
+        "text": "Xương thái dương - xương đỉnh",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sự tăng trưởng theo chiều ngang của sọ: Khớp dọc giữa (giữa hai xương đỉnh)."
+  },
+  {
+    "question": "Vòm khẩu cứng (hard palate) được hợp thành từ những xương nào?",
+    "options": [
+      {
+        "text": "Xương hàm trên và xương lá mía",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương khẩu cái và xương chân bướm",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương hàm trên và xương khẩu cái",
+        "isCorrect": true
+      },
+      {
+        "text": "Chỉ xương hàm trên",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Xương hàm trên và xương khẩu cái hợp thành vòm khẩu cứng."
+  },
+  {
+    "question": "Xương hàm trên (maxilla) phát triển sau sinh chủ yếu bằng sự hình thành từ loại xương nào?",
+    "options": [
+      {
+        "text": "Cả xương màng và xương sụn",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương màng (intramembranous ossification)",
+        "isCorrect": true
+      },
+      {
+        "text": "Xương sụn (endochondral ossification)",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ từ màng xương",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Xương hàm trên phát triển sau sinh bằng sự hình thành từ xương màng (intramembranous ossification)."
+  },
+  {
+    "question": "Sự tăng trưởng của xương hàm trên theo chiều rộng (ngang) chủ yếu là nhờ?",
+    "options": [
+      {
+        "text": "Sự tiêu xương ở mặt ngoài",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự phát triển của vách mũi",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự đắp xương ở hai bên đường dọc giữa (vòm miệng)",
+        "isCorrect": true
+      },
+      {
+        "text": "Sự đắp xương ở lồi củ hàm trên",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tăng trưởng theo chiều rộng bằng đường ráp xương: Sự đắp xương mới ở hai bên đường dọc giữa (vòm miệng)."
+  },
+  {
+    "question": "Đường khớp giữa khẩu cái (mid-palatal suture) KHÔNG dính liền hoàn toàn cho đến độ tuổi nào?",
+    "options": [
+      {
+        "text": "18 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "7 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "15 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "25 tuổi",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Đường khớp giữa khẩu cái không dính liền cho đến 25 tuổi."
+  },
+  {
+    "question": "Kích thước ngang của vòm miệng lúc 4 tuổi chiếm khoảng bao nhiêu so với người trưởng thành?",
+    "options": [
+      {
+        "text": "1/3 (33%)",
+        "isCorrect": false
+      },
+      {
+        "text": "5/6 (khoảng 83%)",
+        "isCorrect": true
+      },
+      {
+        "text": "Đã hoàn thiện (100%)",
+        "isCorrect": false
+      },
+      {
+        "text": "1/2 (50%)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Kích thước ngang của vòm miệng lúc 4 tuổi chiếm 5/6 so với người trưởng thành."
+  },
+  {
+    "question": "Việc đường khớp giữa khẩu cái không dính liền cho đến 25 tuổi có ứng dụng lâm sàng quan trọng nào trong chỉnh nha?",
+    "options": [
+      {
+        "text": "Cắm minivis",
+        "isCorrect": false
+      },
+      {
+        "text": "Di xa toàn hàm",
+        "isCorrect": false
+      },
+      {
+        "text": "Nới rộng hàm (Rapid Palatal Expansion)",
+        "isCorrect": true
+      },
+      {
+        "text": "Làm lún răng cối",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Việc đường khớp giữa khẩu cái không dính liền cho đến 25 tuổi là cơ sở cho ứng dụng nới rộng hàm trong điều trị chỉnh nha."
+  },
+  {
+    "question": "Sự hình thành và phát triển của xoang hàm (maxillary sinus) là do cơ chế nào?",
+    "options": [
+      {
+        "text": "Sự kéo giãn của các đường ráp",
+        "isCorrect": false
+      },
+      {
+        "text": "Đắp xương ở mặt trong xương hàm",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự phát triển của sụn vách mũi",
+        "isCorrect": false
+      },
+      {
+        "text": "Tiêu xương ở mặt trong và ở giữa xương hàm",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Cùng với sự đắp xương mặt ngoài là sự tiêu xương ở mặt trong và ở giữa xương hàm để tạo nên các xoang hàm."
+  },
+  {
+    "question": "Trong ba chiều không gian, sự tăng trưởng của mặt theo chiều nào kết thúc sớm nhất?",
+    "options": [
+      {
+        "text": "Chiều rộng (ngang)",
+        "isCorrect": true
+      },
+      {
+        "text": "Cả 3 chiều kết thúc cùng lúc",
+        "isCorrect": false
+      },
+      {
+        "text": "Chiều trước sau",
+        "isCorrect": false
+      },
+      {
+        "text": "Chiều đứng (cao)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sự tăng trưởng theo chiều này [rộng] ít nhất và kết thúc sớm hơn sự tăng trưởng theo chiều cao và chiều trước sau."
+  },
+  {
+    "question": "Yếu tố nào đóng góp phần LỚN NHẤT vào sự tăng trưởng theo chiều đứng của mặt?",
+    "options": [
+      {
+        "text": "Sự tăng trưởng của vách mũi",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự tăng trưởng ở đường khớp gò má - hàm trên",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự tăng trưởng chiều cao cung răng (xương ổ răng)",
+        "isCorrect": true
+      },
+      {
+        "text": "Sự tăng trưởng ở đường khớp trán - hàm trên",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Phần lớn sự tăng trưởng chiều cao mặt là do sự tăng trưởng chiều cao cung răng."
+  },
+  {
+    "question": "Sự phát triển xuống dưới của vòm miệng (khẩu cái) diễn ra theo cơ chế nào?",
+    "options": [
+      {
+        "text": "Đắp xương ở phía miệng và tiêu xương ở phía mũi",
+        "isCorrect": true
+      },
+      {
+        "text": "Chỉ tiêu xương ở phía mũi",
+        "isCorrect": false
+      },
+      {
+        "text": "Tiêu xương ở phía miệng và đắp xương ở phía mũi",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ đắp xương ở phía miệng",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sự phát triển xuống dưới của vòm miệng (đắp xương, phía miệng và tiêu xương ở phía mũi)."
+  },
+  {
+    "question": "Sự di chuyển ra trước của xương hàm trên một cách gián tiếp (tăng trưởng thứ phát) là do sự tăng trưởng của cấu trúc nào?",
+    "options": [
+      {
+        "text": "Cột sống cổ",
+        "isCorrect": false
+      },
+      {
+        "text": "Sụn vách mũi",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương hàm dưới đẩy ra trước",
+        "isCorrect": false
+      },
+      {
+        "text": "Thùy thái dương và thùy giữa của hố giữa sọ",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Sự tăng trưởng thứ phát: Xương hàm trên di chuyển một cách gián tiếp bởi sự tăng trưởng của thùy thái dương và thùy giữa của hố giữa sọ."
+  },
+  {
+    "question": "Sự đắp xương ở mặt sau của cung răng hàm trên (lồi củ) nhằm mục đích chính là gì?",
+    "options": [
+      {
+        "text": "Để tăng chiều cao tầng mặt",
+        "isCorrect": false
+      },
+      {
+        "text": "Để đủ chỗ cho các răng cối vĩnh viễn mọc",
+        "isCorrect": true
+      },
+      {
+        "text": "Để tăng chiều rộng cung hàm",
+        "isCorrect": false
+      },
+      {
+        "text": "Để khớp với lồi cầu xương hàm dưới",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Do sự đắp xương bề mặt, nhất là mặt sau của cung răng để đủ chỗ cho các răng cối vĩnh viễn mọc."
+  },
+  {
+    "question": "Hướng dịch chuyển TỔNG THỂ của xương hàm trên (so với nền sọ) là hướng nào?",
+    "options": [
+      {
+        "text": "Chỉ ra trước",
+        "isCorrect": false
+      },
+      {
+        "text": "Lên trên và ra sau",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ xuống dưới",
+        "isCorrect": false
+      },
+      {
+        "text": "Xuống dưới và ra trước",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Xương hàm trên khi tăng trưởng phải di chuyển đáng kể xuống dưới và ra trước so với các xương sọ và nền sọ."
+  },
+  {
+    "question": "Khi xương hàm trên dịch chuyển (displacement) xuống dưới và ra trước, bề mặt phía trước của nó có xu hướng gì?",
+    "options": [
+      {
+        "text": "Bị tiêu đi (resorption)",
+        "isCorrect": true
+      },
+      {
+        "text": "Không thay đổi",
+        "isCorrect": false
+      },
+      {
+        "text": "Dày lên đáng kể",
+        "isCorrect": false
+      },
+      {
+        "text": "Được bồi đắp (apposition)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Khi xương hàm trên tăng trưởng xuống dưới và ra trước, bề mặt phía trước hàm trên... có khuynh hướng bị tiêu đi."
+  },
+  {
+    "question": "Hình ảnh minh họa 'cái bục đặt trên xe kéo' (Hình 3.10) cho thấy điều gì về sự tăng trưởng của XHT?",
+    "options": [
+      {
+        "text": "Hướng bồi đắp/tiêu xương bề mặt cùng hướng với hướng dịch chuyển tổng thể",
+        "isCorrect": false
+      },
+      {
+        "text": "Hướng bồi đắp/tiêu xương bề mặt ngược lại với hướng dịch chuyển tổng thể",
+        "isCorrect": true
+      },
+      {
+        "text": "Xương hàm trên không dịch chuyển, chỉ bồi đắp",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương hàm trên chỉ dịch chuyển, không bồi đắp",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Hình 3.10 minh họa cho hướng bồi đắp xương/ tiêu xương ở bề mặt ngược lại với hướng dịch chuyển xương."
+  },
+  {
+    "question": "Xương hàm dưới (mandible) phát triển từ loại xương nào?",
+    "options": [
+      {
+        "text": "Chỉ từ màng xương",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ xương sụn",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ xương màng",
+        "isCorrect": false
+      },
+      {
+        "text": "Cả xương màng và sụn",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Xương hàm dưới phát triển từ xương màng và sụn (lồi cầu, mấu quạ, góc hàm)."
+  },
+  {
+    "question": "Sau khi sinh, sụn nào ở xương hàm dưới vẫn tiếp tục hoạt động (có thể đến 16-25 tuổi)?",
+    "options": [
+      {
+        "text": "Sụn ở mấu quạ",
+        "isCorrect": false
+      },
+      {
+        "text": "Sụn ở góc hàm",
+        "isCorrect": false
+      },
+      {
+        "text": "Sụn ở lồi cầu",
+        "isCorrect": true
+      },
+      {
+        "text": "Sụn ở đường khớp giữa cằm",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sau khi sinh, chỉ còn sụn ở lồi cầu hoạt động cho đến 16 tuổi, có khi đến 25 tuổi."
+  },
+  {
+    "question": "Xương hàm dưới phát triển nhanh trong giai đoạn nào?",
+    "options": [
+      {
+        "text": "6-7 tuổi",
+        "isCorrect": true
+      },
+      {
+        "text": "1-2 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "Sau 18 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "10-12 tuổi",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Xương hàm dưới phát triển nhanh lúc 6-7 tuổi, chấm dứt lúc 25 tuổi."
+  },
+  {
+    "question": "Sự tăng trưởng theo chiều rộng (ngang) của xương hàm dưới xảy ra chủ yếu ở đâu?",
+    "options": [
+      {
+        "text": "Đường khớp giữa cằm",
+        "isCorrect": false
+      },
+      {
+        "text": "Phần góc hàm (nơi giao nhau của cành ngang và nhánh đứng)",
+        "isCorrect": true
+      },
+      {
+        "text": "Mấu quạ",
+        "isCorrect": false
+      },
+      {
+        "text": "Lồi cầu",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sự tăng trưởng theo chiều ngang xảy ra nhiều chủ yếu ở phần góc hàm, nơi giao nhau của cành ngang và nhánh đứng."
+  },
+  {
+    "question": "Tại sao khoảng rộng giữa hai răng nanh hàm dưới (chiều ngang) ít thay đổi sau khi sinh?",
+    "options": [
+      {
+        "text": "Do áp lực của môi",
+        "isCorrect": false
+      },
+      {
+        "text": "Do sự tăng trưởng của lồi cầu",
+        "isCorrect": false
+      },
+      {
+        "text": "Do đường khớp giữa cằm hóa xương sớm (4-12 tháng)",
+        "isCorrect": true
+      },
+      {
+        "text": "Do áp lực của lưỡi",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Khoảng rộng giữa hai răng nanh là không thay đổi do sự tăng trưởng ở đường khớp giữa cằm là không đáng kể (hóa xương từ 4 - 12 tháng)."
+  },
+  {
+    "question": "Yếu tố nào sau đây KHÔNG góp phần vào sự tăng trưởng theo chiều cao của xương hàm dưới?",
+    "options": [
+      {
+        "text": "Sự tiêu xương ở bờ dưới xương hàm dưới",
+        "isCorrect": true
+      },
+      {
+        "text": "Sự phát triển của răng",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự tăng trưởng chiều cao của xương ổ răng",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự đắp xương ở bờ dưới xương hàm dưới",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tăng trưởng theo chiều cao do: (1) Sự tăng trưởng chiều cao của xương ổ răng cùng với sự phát triển của răng; (2) Sự đắp xương mặt ngoài ở bờ dưới xương hàm dưới."
+  },
+  {
+    "question": "Sự tăng trưởng theo chiều trước-sau của xương hàm dưới chủ yếu là do cơ chế nào?",
+    "options": [
+      {
+        "text": "Đắp xương ở bờ sau và tiêu xương ở bờ trước của nhánh đứng",
+        "isCorrect": true
+      },
+      {
+        "text": "Tiêu xương ở bờ sau và đắp xương ở bờ trước của nhánh đứng",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ đắp xương ở vùng cằm",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ tạo xương từ sụn lồi cầu",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tăng trưởng theo chiều trước sau do sự đắp xương ở bờ sau và sự tiêu xương ở bờ trước của nhánh đứng xương hàm dưới."
+  },
+  {
+    "question": "Yếu tố nào làm tăng kích thước nhánh đứng xương hàm dưới theo cả chiều trước-sau và chiều cao?",
+    "options": [
+      {
+        "text": "Sự đắp xương ở bờ dưới",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự tăng trưởng xương ổ răng",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự tiêu xương ở bờ trước",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự tạo xương từ sụn lồi cầu",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Do sự tạo xương từ sụn lồi cầu... do đó tăng trưởng chiều trước sau nhiều hơn chiều cao. Sự tạo xương đầu lồi cầu làm tăng kích thước nhánh đứng xương hàm dưới theo chiều trước sau."
+  },
+  {
+    "question": "Khi quan sát từ nền sọ (theo quan điểm cổ điển), xương hàm dưới DỊCH CHUYỂN (displacement) theo hướng nào?",
+    "options": [
+      {
+        "text": "Xuống dưới và ra trước",
+        "isCorrect": true
+      },
+      {
+        "text": "Chỉ xuống dưới",
+        "isCorrect": false
+      },
+      {
+        "text": "Lên trên và ra sau",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ ra trước",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Khi quan sát từ nền sọ ở hình A: xương hàm dưới dịch chuyển xuống dưới và ra trước."
+  },
+  {
+    "question": "Khi sử dụng chất đánh dấu (implant) nghiên cứu của Bjork, thực chất xương hàm dưới TĂNG TRƯỞNG (growth) theo hướng nào?",
+    "options": [
+      {
+        "text": "Chỉ ra sau",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ lên trên",
+        "isCorrect": false
+      },
+      {
+        "text": "Xuống dưới và ra trước",
+        "isCorrect": false
+      },
+      {
+        "text": "Lên trên và ra sau",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Hình B: khi sử dụng chất đánh dấu thấy thực chất xương hàm dưới tăng trưởng theo hướng lên trên và ra sau."
+  },
+  {
+    "question": "Nhánh đứng của xương hàm dưới di chuyển về phía sau trong quá trình tăng trưởng là do đâu?",
+    "options": [
+      {
+        "text": "Sự tiêu xương ở bờ sau và đắp xương ở bờ trước",
+        "isCorrect": false
+      },
+      {
+        "text": "Do sự đẩy của răng cối lớn",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự đắp xương ở bờ sau và tiêu xương ở bờ trước",
+        "isCorrect": true
+      },
+      {
+        "text": "Chỉ do sự tăng trưởng của lồi cầu",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Xương hàm dưới gia tăng kích thước bằng sự đắp thêm xương ở bờ sau nhánh đứng... và sự tiêu xương ở bờ trước... làm cho nhánh đứng di chuyển về phía sau."
+  },
+  {
+    "question": "Nghiên cứu của Bjork và cộng sự (Đan Mạch) vào những năm 1960 đã phát hiện ra điều gì về sự tăng trưởng của xương hàm?",
+    "options": [
+      {
+        "text": "Xương hàm dưới không tăng trưởng sau 7 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự xoay của cả hai xương hàm trong khi chúng dịch chuyển",
+        "isCorrect": true
+      },
+      {
+        "text": "Xương hàm chỉ tăng trưởng tại chỗ",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương hàm chỉ dịch chuyển mà không xoay",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Nghiên cứu... của Bjork... đã phát hiện ra sự xoay của cả hai xương hàm trong khi chúng dịch chuyển do sự tăng trưởng."
+  },
+  {
+    "question": "Sự tăng trưởng của xương hàm dưới ra xa xương hàm trên tạo ra điều kiện gì?",
+    "options": [
+      {
+        "text": "Ngăn cản răng mọc",
+        "isCorrect": false
+      },
+      {
+        "text": "Tạo ra khoảng trống để các răng mọc lên",
+        "isCorrect": true
+      },
+      {
+        "text": "Gây cắn sâu ngay lập tức",
+        "isCorrect": false
+      },
+      {
+        "text": "Làm hẹp cung hàm",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sự tăng trưởng của xương hàm dưới ra xa xương hàm trên, tạo ra khoảng trống để các răng mọc lên."
+  },
+  {
+    "question": "Hướng mọc (eruption) của các răng hàm trên là hướng nào?",
+    "options": [
+      {
+        "text": "Lên trên và hơi ra trước",
+        "isCorrect": false
+      },
+      {
+        "text": "Xuống dưới và hơi ra sau",
+        "isCorrect": false
+      },
+      {
+        "text": "Xuống dưới và hơi ra trước",
+        "isCorrect": true
+      },
+      {
+        "text": "Chỉ xuống dưới",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Hướng mọc của các răng hàm trên là xuống dưới và hơi ra trước."
+  },
+  {
+    "question": "Trong sự tăng trưởng bình thường, xương hàm trên thường xoay theo hướng nào?",
+    "options": [
+      {
+        "text": "Không xoay",
+        "isCorrect": false
+      },
+      {
+        "text": "Xoay ra trước vài độ (hướng đóng)",
+        "isCorrect": true
+      },
+      {
+        "text": "Xoay ra sau vài độ (hướng mở)",
+        "isCorrect": false
+      },
+      {
+        "text": "Xoay 90 độ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Trong sự tăng trưởng bình thường của, xương hàm trên thường xoay ra trước vài độ (hướng đóng)."
+  },
+  {
+    "question": "Khi xương hàm trên xoay ra trước (hướng đóng), điều này ảnh hưởng đến răng cửa trên như thế nào?",
+    "options": [
+      {
+        "text": "Làm nghiêng các răng cửa trên ra trước, gia tăng độ cắn chìa",
+        "isCorrect": true
+      },
+      {
+        "text": "Gây cắn hở",
+        "isCorrect": false
+      },
+      {
+        "text": "Làm răng cửa trên đứng thẳng hơn, giảm độ cắn chìa",
+        "isCorrect": false
+      },
+      {
+        "text": "Không ảnh hưởng đến răng cửa",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sự xoay ra trước sẽ làm nghiêng các răng cửa trên ra trước, gia tăng độ nhô (cắn chìa) của chúng."
+  },
+  {
+    "question": "Khi xương hàm trên xoay về phía sau (hướng mở), điều này ảnh hưởng đến răng cửa trên như thế nào?",
+    "options": [
+      {
+        "text": "Làm nghiêng các răng cửa trên ra trước, tăng độ cắn chìa",
+        "isCorrect": false
+      },
+      {
+        "text": "Gây cắn sâu",
+        "isCorrect": false
+      },
+      {
+        "text": "Không ảnh hưởng đến răng cửa",
+        "isCorrect": false
+      },
+      {
+        "text": "Làm răng cửa trên đứng thẳng hơn, giảm độ cắn chìa",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Trong khi sự xoay về phía sau sẽ làm răng cửa đứng thẳng hơn và làm giảm độ cắn chìa."
+  },
+  {
+    "question": "Hướng mọc (eruption) của các răng hàm dưới là hướng nào?",
+    "options": [
+      {
+        "text": "Lên trên và hơi ra sau",
+        "isCorrect": false
+      },
+      {
+        "text": "Lên trên và hơi ra trước",
+        "isCorrect": true
+      },
+      {
+        "text": "Chỉ lên trên",
+        "isCorrect": false
+      },
+      {
+        "text": "Xuống dưới và hơi ra trước",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Hướng mọc của các răng hàm dưới là hướng lên trên và hơi ra trước."
+  },
+  {
+    "question": "Sự xoay bình thường của xương hàm dưới (hướng đóng) đưa phần trước của xương hàm dưới hướng nào?",
+    "options": [
+      {
+        "text": "Không thay đổi hướng",
+        "isCorrect": false
+      },
+      {
+        "text": "Hướng xuống dưới",
+        "isCorrect": false
+      },
+      {
+        "text": "Hướng ra sau",
+        "isCorrect": false
+      },
+      {
+        "text": "Hướng lên trên",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Sự xoay bình thường của hàm dưới đưa phần trước của xương hàm dưới hướng lên trên (hướng đóng)."
+  },
+  {
+    "question": "Sự xoay bình thường (hướng đóng) của xương hàm dưới ảnh hưởng đến các răng cửa hàm dưới như thế nào?",
+    "options": [
+      {
+        "text": "Làm răng cửa hàm dưới nghiêng vào trong (quặp)",
+        "isCorrect": false
+      },
+      {
+        "text": "Làm răng cửa hàm dưới nghiêng ra trước (chìa)",
+        "isCorrect": false
+      },
+      {
+        "text": "Làm răng cửa hàm dưới có vị trí đứng thẳng hơn",
+        "isCorrect": true
+      },
+      {
+        "text": "Không ảnh hưởng vị trí răng cửa",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Do hướng xoay này, các răng cửa hàm dưới có vị trị đứng thẳng hơn."
+  },
+  {
+    "question": "Trong kiểu mặt ngắn (short face), sự xoay quá mức ra trước của xương hàm dưới thường gây ra hậu quả gì ở vùng răng cửa?",
+    "options": [
+      {
+        "text": "Răng chìa ra trước",
+        "isCorrect": false
+      },
+      {
+        "text": "Cắn hở và thưa",
+        "isCorrect": false
+      },
+      {
+        "text": "Cắn sâu và chen chúc",
+        "isCorrect": true
+      },
+      {
+        "text": "Không gây hậu quả gì",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Trong kiểu mặt ngắn, các răng cửa dưới có khuynh hướng cắn sâu và di chuyển về phía trong có thể gây sự chen chúc."
+  },
+  {
+    "question": "Trong kiểu mặt dài (long face), xương hàm dưới có xu hướng xoay theo hướng nào?",
+    "options": [
+      {
+        "text": "Chỉ xuống dưới",
+        "isCorrect": false
+      },
+      {
+        "text": "Lên trên và ra trước (hướng đóng)",
+        "isCorrect": false
+      },
+      {
+        "text": "Xuống dưới và ra sau (hướng mở)",
+        "isCorrect": true
+      },
+      {
+        "text": "Chỉ ra sau",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Trái lại, trong kiểu mặt dài, xương hàm dưới xoay theo hướng xuống dưới và ra sau (hướng mở)."
+  },
+  {
+    "question": "Sự xoay xương hàm dưới theo hướng mở (xuống dưới và ra sau) ở kiểu mặt dài thường gây ra hậu quả nào?",
+    "options": [
+      {
+        "text": "Chen chúc răng cửa",
+        "isCorrect": false
+      },
+      {
+        "text": "Giảm chiều cao tầng mặt dưới",
+        "isCorrect": false
+      },
+      {
+        "text": "Cắn sâu các răng trước và nhô hàm dưới",
+        "isCorrect": false
+      },
+      {
+        "text": "Cắn hở các răng trước và lùi hàm dưới",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Sự xoay này sẽ tạo ra sự cắn hở các răng trước và lùi hàm dưới."
+  },
+  {
+    "question": "Kiểu xoay hàm dưới hướng mở (ở mặt dài) ảnh hưởng thế nào đến chiều cao tầng mặt dưới?",
+    "options": [
+      {
+        "text": "Chỉ làm tăng chiều cao tầng mặt giữa",
+        "isCorrect": false
+      },
+      {
+        "text": "Không ảnh hưởng chiều cao tầng mặt dưới",
+        "isCorrect": false
+      },
+      {
+        "text": "Làm tăng chiều cao tầng mặt dưới",
+        "isCorrect": true
+      },
+      {
+        "text": "Làm giảm chiều cao tầng mặt dưới",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sự xoay này [hướng mở]... chiều cao tầng mặt dưới và góc mặt phẳng hàm dưới tăng."
+  },
+  {
+    "question": "Kích thước sọ (cranium) lúc 7 tuổi đạt khoảng bao nhiêu phần trăm kích thước người trưởng thành?",
+    "options": [
+      {
+        "text": "1/2 (50%)",
+        "isCorrect": false
+      },
+      {
+        "text": "Đã hoàn thiện (100%)",
+        "isCorrect": false
+      },
+      {
+        "text": "3/4 (75%)",
+        "isCorrect": true
+      },
+      {
+        "text": "4/5 (80%)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "7 tuổi sọ đạt 3/4 kích thước của người trưởng thành."
+  },
+  {
+    "question": "Sự phát triển của sọ (cranium) ngừng vào khoảng bao nhiêu tuổi?",
+    "options": [
+      {
+        "text": "20 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "18 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "14 tuổi",
+        "isCorrect": true
+      },
+      {
+        "text": "7 tuổi",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Ngừng phát triển lúc 14 tuổi."
+  },
+  {
+    "question": "Kích thước mặt (face) lúc mới sinh đạt khoảng bao nhiêu phần trăm kích thước người trưởng thành?",
+    "options": [
+      {
+        "text": "40%",
+        "isCorrect": true
+      },
+      {
+        "text": "30%",
+        "isCorrect": false
+      },
+      {
+        "text": "50%",
+        "isCorrect": false
+      },
+      {
+        "text": "12%",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Lúc mới sinh: đạt 40% kích thước người trưởng thành."
+  },
+  {
+    "question": "Kích thước mặt (face) lúc 6 tuổi đạt khoảng bao nhiêu phần trăm kích thước người trưởng thành?",
+    "options": [
+      {
+        "text": "100%",
+        "isCorrect": false
+      },
+      {
+        "text": "60%",
+        "isCorrect": false
+      },
+      {
+        "text": "80%",
+        "isCorrect": true
+      },
+      {
+        "text": "50%",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sáu tuổi: đạt 80% kích thước người trưởng thành."
+  },
+  {
+    "question": "Sự phát triển của mặt (face) có thể tiếp tục đến năm bao nhiêu tuổi?",
+    "options": [
+      {
+        "text": "14 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "20 tuổi",
+        "isCorrect": true
+      },
+      {
+        "text": "15 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "12 tuổi",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Mặt vẫn phát triển đến năm 20 tuổi."
+  },
+  {
+    "question": "Hướng tăng trưởng chung của hệ thống mặt là về hướng nào?",
+    "options": [
+      {
+        "text": "Chỉ về phía dưới",
+        "isCorrect": false
+      },
+      {
+        "text": "Về phía sau và lên trên",
+        "isCorrect": false
+      },
+      {
+        "text": "Về phía trước và xuống dưới",
+        "isCorrect": true
+      },
+      {
+        "text": "Chỉ về phía trước",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Hướng tăng trưởng chung của hệ thống mặt là về phía trước và xuống dưới."
+  },
+  {
+    "question": "Trong quá trình tăng trưởng chung, điểm Nasion (N) di chuyển theo hướng nào?",
+    "options": [
+      {
+        "text": "Ra trước và xuống dưới",
+        "isCorrect": false
+      },
+      {
+        "text": "Ra sau và xuống dưới",
+        "isCorrect": false
+      },
+      {
+        "text": "Ra trước và lên trên",
+        "isCorrect": true
+      },
+      {
+        "text": "Ra sau và lên trên",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Điểm Nasion: hướng ra trước và lên trên."
+  },
+  {
+    "question": "Trong quá trình tăng trưởng chung, điểm Gonion (Go) di chuyển theo hướng nào?",
+    "options": [
+      {
+        "text": "Ra trước và lên trên",
+        "isCorrect": false
+      },
+      {
+        "text": "Ra sau và lên trên",
+        "isCorrect": false
+      },
+      {
+        "text": "Ra sau và xuống dưới",
+        "isCorrect": true
+      },
+      {
+        "text": "Ra trước và xuống dưới",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Điểm Gonion: hướng ra sau và xuống dưới."
+  },
+  {
+    "question": "Theo Krogman, tỷ lệ giữa hộp sọ và mặt lúc mới sanh là bao nhiêu?",
+    "options": [
+      {
+        "text": "1/1 (bằng nhau)",
+        "isCorrect": false
+      },
+      {
+        "text": "1/8 (mặt gấp 8 lần sọ)",
+        "isCorrect": false
+      },
+      {
+        "text": "8/1 (sọ gấp 8 lần mặt)",
+        "isCorrect": true
+      },
+      {
+        "text": "3/1 (sọ gấp 3 lần mặt)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Theo Krogman: Lúc mới sanh, tỷ lệ giữa hộp sọ và mặt là 8/1."
+  },
+  {
+    "question": "Theo Krogman, tỷ lệ giữa sọ và mặt lúc trưởng thành là bao nhiêu?",
+    "options": [
+      {
+        "text": "Sọ lớn gấp 8 lần mặt (8/1)",
+        "isCorrect": false
+      },
+      {
+        "text": "Sọ lớn gấp 3 lần mặt (3/1)",
+        "isCorrect": true
+      },
+      {
+        "text": "Bằng nhau (1/1)",
+        "isCorrect": false
+      },
+      {
+        "text": "Mặt lớn gấp 2 lần sọ (1/2)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Theo Krogman: Lúc trưởng thành, sọ lớn gấp 3 lần mặt."
+  },
+  {
+    "question": "Theo Brodie, từ khi mới sinh đến khi trưởng thành, mặt (face) lớn lên gấp mấy lần?",
+    "options": [
+      {
+        "text": "Không thay đổi",
+        "isCorrect": false
+      },
+      {
+        "text": "4 lần",
+        "isCorrect": false
+      },
+      {
+        "text": "8 lần",
+        "isCorrect": false
+      },
+      {
+        "text": "12 lần",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Theo Brodie, từ khi mới sinh đến khi trưởng thành: Mặt lớn lên gấp 12 lần."
+  },
+  {
+    "question": "Theo Brodie, từ khi mới sinh đến khi trưởng thành, sọ (cranium) lớn lên gấp mấy lần?",
+    "options": [
+      {
+        "text": "8 lần",
+        "isCorrect": false
+      },
+      {
+        "text": "4 lần",
+        "isCorrect": true
+      },
+      {
+        "text": "2 lần",
+        "isCorrect": false
+      },
+      {
+        "text": "12 lần",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Theo Brodie, từ khi mới sinh đến khi trưởng thành: Sọ lớn lên 4 lần."
+  },
+  {
+    "question": "Ở người trưởng thành, xương hàm ở NAM giới có khuynh hướng tiếp tục xoay theo hướng nào?",
+    "options": [
+      {
+        "text": "Xoay ngẫu nhiên",
+        "isCorrect": false
+      },
+      {
+        "text": "Ngừng xoay hoàn toàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Xoay ra trước",
+        "isCorrect": true
+      },
+      {
+        "text": "Xoay ra sau",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Thông thường, hai xương hàm ở nam đều xoay ra trước."
+  },
+  {
+    "question": "Ở người trưởng thành, xương hàm ở NỮ giới có khuynh hướng tiếp tục xoay theo hướng nào?",
+    "options": [
+      {
+        "text": "Xoay ra trước",
+        "isCorrect": false
+      },
+      {
+        "text": "Xoay ra sau",
+        "isCorrect": true
+      },
+      {
+        "text": "Ngừng xoay hoàn toàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Xoay ngẫu nhiên",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Trong khi xương hàm ở nữ có khuynh hướng xoay ra sau."
+  },
+  {
+    "question": "Sự xoay ra trước của xương hàm ở nam giới trưởng thành ảnh hưởng đến góc mặt phẳng hàm dưới như thế nào?",
+    "options": [
+      {
+        "text": "Làm tăng góc mặt phẳng hàm dưới",
+        "isCorrect": false
+      },
+      {
+        "text": "Không làm thay đổi góc",
+        "isCorrect": false
+      },
+      {
+        "text": "Làm góc bằng 0",
+        "isCorrect": false
+      },
+      {
+        "text": "Làm giảm nhẹ góc mặt phẳng hàm dưới",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Hai xương hàm ở nam đều xoay ra trước, làm giảm nhẹ góc mặt phẳng hàm dưới."
+  },
+  {
+    "question": "Sự xoay ra sau của xương hàm ở nữ giới trưởng thành ảnh hưởng đến góc mặt phẳng hàm dưới như thế nào?",
+    "options": [
+      {
+        "text": "Làm giảm góc mặt phẳng hàm dưới",
+        "isCorrect": false
+      },
+      {
+        "text": "Làm tăng góc mặt phẳng hàm dưới",
+        "isCorrect": true
+      },
+      {
+        "text": "Làm góc bằng 0",
+        "isCorrect": false
+      },
+      {
+        "text": "Không làm thay đổi góc",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Xương hàm ở nữ có khuynh hướng xoay ra sau, góc mặt phẳng hàm dưới tăng."
+  },
+  {
+    "question": "Ở người trưởng thành, cấu trúc nào thay đổi nhiều hơn khi nhìn nghiêng?",
+    "options": [
+      {
+        "text": "Cả hai thay đổi như nhau",
+        "isCorrect": false
+      },
+      {
+        "text": "Mô mềm mặt",
+        "isCorrect": true
+      },
+      {
+        "text": "Răng",
+        "isCorrect": false
+      },
+      {
+        "text": "Hệ xương mặt",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Mô mềm mặt nhìn nghiêng thay đổi nhiều hơn hệ xương mặt."
+  },
+  {
+    "question": "Thay đổi nào sau đây KHÔNG phải là thay đổi mô mềm mặt điển hình ở người trưởng thành?",
+    "options": [
+      {
+        "text": "Hai môi trở nên dày và nhô hơn",
+        "isCorrect": true
+      },
+      {
+        "text": "Mũi dài ra (đáng kể)",
+        "isCorrect": false
+      },
+      {
+        "text": "Cằm trở nên nổi bật hơn",
+        "isCorrect": false
+      },
+      {
+        "text": "Hai môi phẳng hơn",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Những thay đổi của mô mềm gồm có: mũi dài ra (thường dài ra đáng kể ở người trưởng thành), hai môi phẳng hơn và cằm trở nên nổi bật hơn."
+  },
+  {
+    "question": "Sự hình thành xương từ sụn (Endochondral) KHÔNG phải là quá trình nào?",
+    "options": [
+      {
+        "text": "Sụn chết được thay thế bởi xương mới",
+        "isCorrect": false
+      },
+      {
+        "text": "Mô sụn chuyển thẳng thành xương",
+        "isCorrect": true
+      },
+      {
+        "text": "Tế bào liên kết màng sụn biệt hóa thành tế bào xương",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương mới xâm lấn vào mẫu sụn",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tạo xương từ sụn không phải là mô sụn chuyển thẳng thành xương mà sụn chết được thay thế dần dần bởi xương mới xâm lấn vào mẫu sụn."
+  },
+  {
+    "question": "Tăng trưởng xương sọ theo chiều đứng là nhờ sự tăng trưởng ở đường khớp nào sau đây?",
+    "options": [
+      {
+        "text": "Đường khớp sụn bướm - sàng",
+        "isCorrect": false
+      },
+      {
+        "text": "Đường khớp sụn bướm - chẩm",
+        "isCorrect": false
+      },
+      {
+        "text": "Khớp dọc giữa",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương trán - xương bướm",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Sự tăng trưởng theo chiều đứng của sọ lớn theo đường khớp: Xương trán - xương bướm; Xương thái dương - xương đỉnh; Xương chẩm - xương đỉnh."
+  },
+  {
+    "question": "Phần lớn sự tăng trưởng chiều cao mặt là do sự tăng trưởng chiều cao của cấu trúc nào?",
+    "options": [
+      {
+        "text": "Các đường ráp xương",
+        "isCorrect": false
+      },
+      {
+        "text": "Cung răng (xương ổ răng)",
+        "isCorrect": true
+      },
+      {
+        "text": "Vách mũi",
+        "isCorrect": false
+      },
+      {
+        "text": "Xoang hàm",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Phần lớn sự tăng trưởng chiều cao mặt là do sự tăng trưởng chiều cao cung răng."
+  },
+  {
+    "question": "Sự tăng trưởng ở đường khớp sụn bướm-chẩm (spheno-occipital) kết thúc khi nào?",
+    "options": [
+      {
+        "text": "25 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "18 tuổi",
+        "isCorrect": true
+      },
+      {
+        "text": "14 tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "7 tuổi",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Đường khớp sụn bướm-chẩm... sụn này tồn tại cho đến 18 tuổi."
+  },
+  {
+    "question": "Đường ráp xương nào sau đây giúp vào sự tăng trưởng theo chiều rộng của xương hàm trên?",
+    "options": [
+      {
+        "text": "Đường ráp xương hàm trên - khẩu cái",
+        "isCorrect": false
+      },
+      {
+        "text": "Đường ráp xương hàm trên - gò má",
+        "isCorrect": false
+      },
+      {
+        "text": "Đường ráp xương hàm trên và cánh xương bướm",
+        "isCorrect": true
+      },
+      {
+        "text": "Đường ráp xương trán và hàm trên",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tăng trưởng theo chiều rộng... + Đường ráp xương hàm trên và cánh xương bướm."
+  },
+  {
+    "question": "Đường ráp xương nào sau đây KHÔNG giúp vào sự tăng trưởng theo chiều đứng của xương hàm trên?",
+    "options": [
+      {
+        "text": "Chân bướm và khẩu cái",
+        "isCorrect": false
+      },
+      {
+        "text": "Trán và hàm trên",
+        "isCorrect": false
+      },
+      {
+        "text": "Đường ráp dọc giữa (vòm miệng)",
+        "isCorrect": true
+      },
+      {
+        "text": "Gò má và hàm trên",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tăng trưởng chiều đứng nhờ các đường ráp xương: Trán và hàm trên; Gò má và hàm trên; Chân bướm và khẩu cái. Đường ráp dọc giữa là cho chiều rộng."
+  },
+  {
+    "question": "Sự tăng trưởng trước-sau của xương hàm trên (thứ phát) chịu ảnh hưởng của cấu trúc nào?",
+    "options": [
+      {
+        "text": "Sự mọc của răng cửa",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự đắp xương ở mặt trước",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự di chuyển ra trước của nền sọ",
+        "isCorrect": true
+      },
+      {
+        "text": "Sự tăng trưởng của xương hàm dưới",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tăng trưởng chiều trước sau: Chịu ảnh hưởng của sự di chuyển ra trước của nền sọ. Được gọi là sự tăng trưởng thứ phát."
+  },
+  {
+    "question": "Đường ráp xương nào sau đây giúp vào sự tăng trưởng theo chiều trước-sau của xương hàm trên?",
+    "options": [
+      {
+        "text": "Xương trán - hàm trên",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương hàm trên - gò má",
+        "isCorrect": true
+      },
+      {
+        "text": "Khớp dọc giữa",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương thái dương - xương đỉnh",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Do sự tạo xương ở các đường ráp xương hàm trên và các xương khác: Xương hàm trên - gò má; Xương hàm trên - khẩu cái."
+  },
+  {
+    "question": "Sự tăng trưởng theo chiều cao của xương hàm dưới là nhờ đắp xương ở đâu?",
+    "options": [
+      {
+        "text": "Đường khớp giữa cằm",
+        "isCorrect": false
+      },
+      {
+        "text": "Mặt trong xương hàm dưới",
+        "isCorrect": false
+      },
+      {
+        "text": "Bờ trước nhánh đứng",
+        "isCorrect": false
+      },
+      {
+        "text": "Bờ dưới xương hàm dưới",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Theo chiều cao: Do sự đắp xương mặt ngoài ở bờ dưới xương hàm dưới."
+  },
+  {
+    "question": "Xương hàm dưới phát triển theo chiều rộng nhờ cơ chế chính nào?",
+    "options": [
+      {
+        "text": "Sự phát triển của sụn lồi cầu",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ đắp xương ở mặt ngoài",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ tiêu xương ở mặt trong",
+        "isCorrect": false
+      },
+      {
+        "text": "Kết hợp đắp xương ở mặt ngoài và tiêu xương ở mặt trong",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Theo chiều rộng: Chủ yếu là sự kết hợp đắp xương ở mặt ngoài và tiêu xương ở mặt trong."
+  },
+  {
+    "question": "Sự tăng trưởng theo chiều ngang của sọ (cranium) chủ yếu nhờ vào đường khớp nào?",
+    "options": [
+      {
+        "text": "Đường khớp sụn bướm - chẩm",
+        "isCorrect": false
+      },
+      {
+        "text": "Khớp vành (Coronal)",
+        "isCorrect": false
+      },
+      {
+        "text": "Khớp Lambdoid",
+        "isCorrect": false
+      },
+      {
+        "text": "Khớp dọc giữa (giữa hai xương đỉnh)",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Sự tăng trưởng theo chiều ngang của sọ: Khớp dọc giữa (giữa hai xương đỉnh)."
+  },
+  {
+    "question": "Xương nào sau đây KHÔNG thuộc nền sọ phần trước?",
+    "options": [
+      {
+        "text": "Đáy xương chẩm",
+        "isCorrect": true
+      },
+      {
+        "text": "Xương trán",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương sàng",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương bướm",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Nền sọ phần trước bao gồm: Xương trán, Xương bướm, Xương sàng. Đáy xương chẩm thuộc phần sau."
+  },
+  {
+    "question": "Thóp nào sau đây nằm ở phía sau của sọ trẻ sơ sinh?",
+    "options": [
+      {
+        "text": "Thóp sau và Thóp chũm",
+        "isCorrect": true
+      },
+      {
+        "text": "Chỉ Thóp bướm",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ Thóp trước",
+        "isCorrect": false
+      },
+      {
+        "text": "Thóp trước và Thóp bướm",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Các thóp bao gồm: thóp trước, thóp sau và 2 thóp bên (thóp bướm và thóp chũm). Thóp sau và thóp chũm (mastoid) nằm ở phía sau."
+  },
+  {
+    "question": "Quá trình nào mô tả sụn chết đi và được thay thế dần dần bởi xương mới xâm lấn vào mẫu sụn?",
+    "options": [
+      {
+        "text": "Hình thành xương từ sụn (Endochondral osification)",
+        "isCorrect": true
+      },
+      {
+        "text": "Đắp thêm xương theo bề mặt",
+        "isCorrect": false
+      },
+      {
+        "text": "Tái cấu trúc xương (Remodeling)",
+        "isCorrect": false
+      },
+      {
+        "text": "Hình thành xương màng (Intramenbranous osification)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tạo xương từ sụn... sụn chết được thay thế dần dần bởi xương mới xâm lấn vào mẫu sụn."
+  },
+  {
+    "question": "Phương thức 'Sự đắp thêm xương theo bề mặt' là hoạt động của các tế bào từ đâu?",
+    "options": [
+      {
+        "text": "Tế bào sụn chưa trưởng thành",
+        "isCorrect": false
+      },
+      {
+        "text": "Tế bào sụn trưởng thành",
+        "isCorrect": false
+      },
+      {
+        "text": "Tế bào trung mô",
+        "isCorrect": false
+      },
+      {
+        "text": "Tế bào mô liên kết của màng xương",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Sự đắp thêm xương theo bề mặt: Tế bào mô liên kết của màng xương tạo thành lớp xương đặc."
+  },
+  {
+    "question": "Trong hình thành xương màng, tế bào nào phân hóa từ tế bào trung mô của màng liên kết để tạo ra các vảy xương?",
+    "options": [
+      {
+        "text": "Tế bào liên kết (fibroblats)",
+        "isCorrect": false
+      },
+      {
+        "text": "Tế bào tạo xương (osteoblats)",
+        "isCorrect": true
+      },
+      {
+        "text": "Tế bào hủy xương (osteoclasts)",
+        "isCorrect": false
+      },
+      {
+        "text": "Tế bào mỡ (adipocytes)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Các tế bào trung mô của màng liên kết tiếp tục phân hóa thành các tế bào tạo xương (osteoblats)."
+  },
+  {
+    "question": "Xương nào sau đây được hình thành chủ yếu theo kiểu xương màng?",
+    "options": [
+      {
+        "text": "Xương nền sọ (đường giữa)",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương đỉnh (vòm sọ)",
+        "isCorrect": true
+      },
+      {
+        "text": "Xương đùi (xương dài)",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương cánh tay (xương dài)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Phần lớn các xương vòm sọ và xương mặt được hình thành từ xương màng."
+  },
+  {
+    "question": "Xương nào sau đây được hình thành chủ yếu theo kiểu xương sụn (endochondral)?",
+    "options": [
+      {
+        "text": "Xương hàm trên (xương mặt)",
+        "isCorrect": false
+      },
+      {
+        "text": "Các xương chi (xương dài)",
+        "isCorrect": true
+      },
+      {
+        "text": "Xương đỉnh (vòm sọ)",
+        "isCorrect": false
+      },
+      {
+        "text": "Xương trán (vòm sọ)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Hình thành xương từ sụn: Phần lớn các xương dài, các chi và một số xương sọ."
+  },
+  {
+    "question": "Kích thước mặt (face) đạt 50% kích thước người trưởng thành vào lúc nào?",
+    "options": [
+      {
+        "text": "Lúc mới sinh",
+        "isCorrect": false
+      },
+      {
+        "text": "Hai tuổi",
+        "isCorrect": true
+      },
+      {
+        "text": "Sáu tuổi",
+        "isCorrect": false
+      },
+      {
+        "text": "Bảy tuổi",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Hai tuổi: đạt 50% kích thước người trưởng thành."
+  },
+  {
+    "question": "Hướng di chuyển của điểm Orbital (điểm dưới ổ mắt) trong quá trình tăng trưởng là gì?",
+    "options": [
+      {
+        "text": "Ra trước và xuống dưới",
+        "isCorrect": true
+      },
+      {
+        "text": "Ra sau và xuống dưới",
+        "isCorrect": false
+      },
+      {
+        "text": "Chỉ ra trước",
+        "isCorrect": false
+      },
+      {
+        "text": "Ra trước và lên trên",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Điểm Orbital: ra trước và xuống dưới."
+  },
+  {
+    "question": "Hướng di chuyển của điểm Gnathion (điểm cằm) trong quá trình tăng trưởng là gì?",
+    "options": [
+      {
+        "text": "Chỉ xuống dưới",
+        "isCorrect": false
+      },
+      {
+        "text": "Ra trước và xuống dưới",
+        "isCorrect": true
+      },
+      {
+        "text": "Ra trước và lên trên",
+        "isCorrect": false
+      },
+      {
+        "text": "Ra sau và xuống dưới",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Điểm Gnathion: hướng ra trước và xuống dưới."
+  },
+  {
+    "question": "Thay đổi nào của mô mềm làm 'cằm trở nên nổi bật hơn' ở người trưởng thành?",
+    "options": [
+      {
+        "text": "Sự thay đổi của mô mềm mặt khi nhìn nghiêng",
+        "isCorrect": true
+      },
+      {
+        "text": "Sự xoay ra trước của xương hàm dưới",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự mọc của răng khôn",
+        "isCorrect": false
+      },
+      {
+        "text": "Sự dày lên của da vùng cằm",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Những thay đổi của mô mềm gồm có: ... cằm trở nên nổi bật hơn."
+  },
+  {
+    "question": "Sự tăng trưởng xoay ra trước của xương hàm ở nam giới trưởng thành làm giảm góc nào?",
+    "options": [
+      {
+        "text": "Góc SNA",
+        "isCorrect": false
+      },
+      {
+        "text": "Góc ANB",
+        "isCorrect": false
+      },
+      {
+        "text": "Góc SNB",
+        "isCorrect": false
+      },
+      {
+        "text": "Góc mặt phẳng hàm dưới",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Hai xương hàm ở nam đều xoay ra trước, làm giảm nhẹ góc mặt phẳng hàm dưới."
+  },
+  {
+    "question": "Sự tăng trưởng xoay ra sau của xương hàm ở nữ giới trưởng thành làm tăng góc nào?",
+    "options": [
+      {
+        "text": "Góc mặt phẳng hàm dưới",
+        "isCorrect": true
+      },
+      {
+        "text": "Góc SNA",
+        "isCorrect": false
+      },
+      {
+        "text": "Góc ANB",
+        "isCorrect": false
+      },
+      {
+        "text": "Góc liên răng cửa",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Xương hàm ở nữ có khuynh hướng xoay ra sau, góc mặt phẳng hàm dưới tăng."
+  },
+  {
+    "question": "Kiểu mặt ngắn (short face), với sự xoay ra trước quá mức của xương hàm dưới, có khuynh hướng gây ra sai khớp cắn nào?",
+    "options": [
+      {
+        "text": "Cắn chìa (Overjet)",
+        "isCorrect": false
+      },
+      {
+        "text": "Cắn sâu (Deep bite)",
+        "isCorrect": true
+      },
+      {
+        "text": "Cắn chéo (Crossbite)",
+        "isCorrect": false
+      },
+      {
+        "text": "Cắn hở (Open bite)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Trong kiểu mặt ngắn, các răng cửa dưới có khuynh hướng cắn sâu."
+  }
+]

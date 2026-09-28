@@ -1,0 +1,1352 @@
+[
+    {
+        "question": "Vật liệu nào đã được P. I. Branemark công bố vào năm 1952 có thể khắc phục các nhược điểm của kỹ thuật làm răng giả thông thường?",
+        "options": [
+            { "text": "Vàng", "isCorrect": false },
+            { "text": "Bạch kim", "isCorrect": false },
+            { "text": "Titanium", "isCorrect": true },
+            { "text": "Gỗ", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 1. Đại Cương, năm 1952, P. I. Branemark đã công bố về vật liệu Titanium có thể khắc phục các nhược điểm của các kỹ thuật làm răng giả thông thường."
+    },
+    {
+        "question": "Bệnh nhân đầu tiên được cấy ghép răng bằng Titanium vào năm nào?",
+        "options": [
+            { "text": "1952", "isCorrect": false },
+            { "text": "1960", "isCorrect": false },
+            { "text": "1965", "isCorrect": true },
+            { "text": "1982", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 1. Đại Cương, bệnh nhân đầu tiên được cấy ghép răng bằng Titanium vào năm 1965."
+    },
+    {
+        "question": "Hội nghị nào vào năm 1982 đã chính thức công nhận lý thuyết về tích hợp xương (Osseointegration)?",
+        "options": [
+            { "text": "Hội nghị Nha khoa Quốc tế Việt Nam", "isCorrect": false },
+            { "text": "Hội nghị Gothenburg", "isCorrect": false },
+            { "text": "Hội nghị Toronto", "isCorrect": true },
+            { "text": "Hội nghị Thụy Điển", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 1. Đại Cương, năm 1982 tại Hội nghị Toronto, các nhà khoa học mới chính thức công nhận lý thuyết về tích hợp xương."
+    },
+    {
+        "question": "Ưu điểm chính của cấy ghép nha khoa là gì?",
+        "options": [
+            { "text": "Chức năng ăn nhai tốt", "isCorrect": false },
+            { "text": "Ngăn chặn tình trạng tiêu xương", "isCorrect": false },
+            { "text": "Giữ cho xương hàm không bị tiêu đi và gương mặt không bị biến dạng", "isCorrect": false },
+            { "text": "Tất cả các câu trên", "isCorrect": true }
+        ],
+        "explanation": "Theo Bài 1, mục 1. Đại Cương, cấy ghép nha khoa mang lại nhiều ưu điểm, đó là cho chức năng ăn nhai tốt, ngăn chặn tình trạng tiêu xương, giữ cho xương hàm không bị tiêu đi và gương mặt sẽ không bị biến dạng."
+    },
+    {
+        "question": "Khảo cổ học cho thấy người Ai Cập và người Nam Mỹ cổ xưa đã thay thế răng bằng vật liệu nào?",
+        "options": [
+            { "text": "Vàng và bạc", "isCorrect": false },
+            { "text": "Ngà voi, vỏ sò hoặc gỗ mài nhỏ", "isCorrect": true },
+            { "text": "Titanium", "isCorrect": false },
+            { "text": "Sứ", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 2.1. Nghiên cứu trên thế giới, khảo cổ học cho thấy người Ai Cập và người Nam Mỹ cổ xưa đã thay thế những răng thật đã mất bằng ngà voi, vỏ sò hoặc gỗ mài nhỏ."
+    },
+    {
+        "question": "Ai là người đã tìm ra hiện tượng 'Sự tương hợp-tích hợp xương (Osseointegration)'?",
+        "options": [
+            { "text": "M. Tischler", "isCorrect": false },
+            { "text": "Per Ingvar Branemark", "isCorrect": true },
+            { "text": "Linder", "isCorrect": false },
+            { "text": "Albrektsson", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 2.1. Nghiên cứu trên thế giới, GS. Per Ingvar Branemark đã tìm ra hiện tượng 'Sự tương hợp-tích hợp xương (Osseointegration)' khi nghiên cứu trên xương đùi thỏ."
+    },
+    {
+        "question": "Implant cấy ghép bằng vỏ sò cắm vào xương hàm của người Ai Cập cổ đại cho thấy điều gì?",
+        "options": [
+            { "text": "Đã có ý tưởng thay thế răng bị mất từ rất sớm", "isCorrect": true },
+            { "text": "Vỏ sò là vật liệu tích hợp xương tốt nhất", "isCorrect": false },
+            { "text": "Người Ai Cập cổ đại đã sử dụng Titanium", "isCorrect": false },
+            { "text": "Kỹ thuật cấy ghép đã hoàn hảo từ thời cổ đại", "isCorrect": false }
+        ],
+        "explanation": "Theo Hình 1.1 và mô tả, hình ảnh răng cấy ghép bằng vỏ sò cắm vào xương hàm của người Ai Cập cổ đại cho thấy việc thay thế răng bị mất bằng chân răng giả đã xuất hiện từ rất sớm, dù kỹ thuật còn thô sơ."
+    },
+    {
+        "question": "Ca cấy ghép nha khoa bằng Titanium đầu tiên được thực hiện vào năm nào và ở đâu?",
+        "options": [
+            { "text": "1952 tại Thụy Điển", "isCorrect": false },
+            { "text": "1965 tại Thụy Điển", "isCorrect": true },
+            { "text": "1982 tại Toronto", "isCorrect": false },
+            { "text": "1986 tại Việt Nam", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 2.1. Nghiên cứu trên thế giới, ca cấy ghép nha khoa bằng Titanium đầu tiên được thực hiện vào năm 1965 tại Thụy Điển."
+    },
+    {
+        "question": "Nghiên cứu của Ekelund JA và cs (2003) về implant Brånemark chuẩn sau 20 năm theo dõi cho thấy tỉ lệ thành công là bao nhiêu?",
+        "options": [
+            { "text": "80%", "isCorrect": false },
+            { "text": "85%", "isCorrect": false },
+            { "text": "98.8%", "isCorrect": true },
+            { "text": "90%", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 2.1. Nghiên cứu trên thế giới, Ekelund JA và cs (2003) đã nghiên cứu và cho thấy tỉ lệ thành công của implant qua 20 năm là 98.8%."
+    },
+    {
+        "question": "Nghiên cứu của Linkevicius T. và cs (2009) cho thấy bề dày mô nướu ban đầu tại mào xương ổ ảnh hưởng thế nào đến tiêu xương quanh implant?",
+        "options": [
+            { "text": "Không ảnh hưởng", "isCorrect": false },
+            { "text": "Nếu độ dày mô là 2.0mm hoặc ít hơn, phần mào xương bị tiêu đi lên đến 1.45mm", "isCorrect": true },
+            { "text": "Nếu độ dày mô là 2.0mm hoặc ít hơn, tiêu xương giảm đi", "isCorrect": false },
+            { "text": "Chỉ ảnh hưởng khi mô nướu quá dày", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 2.1. Nghiên cứu trên thế giới, Linkevicius T. và cs (2009) cho thấy nếu độ dày mô là 2.0mm hoặc ít hơn, phần mào xương bị tiêu đi lên đến 1.45mm."
+    },
+    {
+        "question": "Implant đầu tiên tại Việt Nam được cấy ghép vào năm nào và ở đâu?",
+        "options": [
+            { "text": "1986 tại Viện Răng Hàm Mặt Quốc gia", "isCorrect": true },
+            { "text": "1994 tại Dinh Thống Nhất", "isCorrect": false },
+            { "text": "2007 tại TP. Hồ Chí Minh", "isCorrect": false },
+            { "text": "2009 tại Huế", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 2.2. Nghiên cứu ở Việt Nam, năm 1986 bệnh nhân cấy ghép implant đầu tiên tại Việt Nam được cấy ở Viện Răng Hàm Mặt Quốc gia."
+    },
+    {
+        "question": "Implant là gì?",
+        "options": [
+            { "text": "Một trụ nhỏ làm bằng sứ, gắn lên nướu", "isCorrect": false },
+            { "text": "Một trụ nhỏ làm bằng Titanium, vặn vào xương hàm như chân răng", "isCorrect": true },
+            { "text": "Một mão răng bằng sứ gắn lên răng thật", "isCorrect": false },
+            { "text": "Một khung kim loại đặt trên nướu", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 3.1. Implant là gì?, Implant là một trụ nhỏ làm bằng Titanium, có kích thước trung bình: đường kính từ 3.5 đến 5 mm, dài 10 đến 16 mm. Một phần implant được vặn vào xương hàm nơi mất răng, đóng vai trò như một chân răng."
+    },
+    {
+        "question": "Chất liệu phổ biến nào thường được phủ lên bề mặt implant Titanium để tăng khả năng tương thích sinh học?",
+        "options": [
+            { "text": "Vàng", "isCorrect": false },
+            { "text": "Bạc", "isCorrect": false },
+            { "text": "Hydroxyapatit (HAp)", "isCorrect": true },
+            { "text": "Sứ", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 3.1. Implant là gì?, người ta thường sử dụng loại implant bằng titan nguyên chất có phủ một lớp hydroxyapatit (HAp)."
+    },
+    {
+        "question": "Phần Fixture của implant có những loại nào về hình dáng?",
+        "options": [
+            { "text": "Loại thẳng và loại cong", "isCorrect": false },
+            { "text": "Loại thuôn và loại hình nón", "isCorrect": false },
+            { "text": "Loại thẳng và loại thuôn", "isCorrect": true },
+            { "text": "Loại ren và loại không ren", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 3.2. Cấu tạo của implant, Fixture có 2 loại: Loại thẳng, loại thuôn."
+    },
+    {
+        "question": "Abutment loại nghiêng thường dùng cho răng nào?",
+        "options": [
+            { "text": "Răng hàm", "isCorrect": false },
+            { "text": "Răng cửa trên", "isCorrect": true },
+            { "text": "Răng giả toàn bộ", "isCorrect": false },
+            { "text": "Răng khôn", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 3.2. Cấu tạo của implant, Abutment loại nghiêng: $15^{irc} - 25^{irc}$ dùng cho răng cửa trên."
+    },
+    {
+        "question": "Implant dưới màng xương được thiết kế để lưu giữ ở đâu?",
+        "options": [
+            { "text": "Trong xương hàm", "isCorrect": false },
+            { "text": "Dưới màng xương, trên bề mặt xương", "isCorrect": true },
+            { "text": "Trong niêm mạc miệng", "isCorrect": false },
+            { "text": "Trên nướu", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 4.3. Implant dưới màng xương, đây là loại implant được lưu giữ trực tiếp trên bề mặt xương, dưới màng xương."
+    },
+    {
+        "question": "Implant xuyên xương (transosteal) thường được dùng trong trường hợp nào và cho răng nào?",
+        "options": [
+            { "text": "Thiếu xương, chỉ dùng cho răng cửa hàm trên", "isCorrect": false },
+            { "text": "Thiếu xương, chỉ dùng cho răng cửa hàm dưới", "isCorrect": true },
+            { "text": "Xương đầy đủ, dùng cho tất cả các răng", "isCorrect": false },
+            { "text": "Xương hàm trên phẳng, dùng cho răng hàm", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 4.4. Implant xuyên xương, Implant xuyên xương được dùng trong trường hợp thiếu xương và chỉ dùng cho răng cửa hàm dưới."
+    },
+    {
+        "question": "Loại implant nào là phổ biến nhất hiện nay, được đặt trực tiếp vào xương hàm sau khi khoan tạo lỗ có kích thước tương ứng với trụ?",
+        "options": [
+            { "text": "Implant dạng bản", "isCorrect": false },
+            { "text": "Implant dưới màng xương", "isCorrect": false },
+            { "text": "Implant dạng chân răng (hình trụ)", "isCorrect": true },
+            { "text": "Implant xuyên xương", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 4.7. Implant dạng chân răng, Implant hình trụ theo thiết kế của Branemark là loại implant phổ biến hiện nay, được đặt trực tiếp vào xương hàm sau khi khoan tạo lỗ có kích thước tương ứng với trụ."
+    },
+    {
+        "question": "Theo Albrektsson và cộng sự, tiêu chuẩn thành công tối thiểu của implant sau năm đầu tiên hoạt động chức năng là mức độ tiêu xương theo chiều dọc ít hơn bao nhiêu mỗi năm?",
+        "options": [
+            { "text": "0.1 mm", "isCorrect": false },
+            { "text": "0.2 mm", "isCorrect": true },
+            { "text": "0.5 mm", "isCorrect": false },
+            { "text": "1.0 mm", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 2, mục 1. Giới thiệu, Albrektsson và cộng sự đã đề ra tiêu chuẩn thành công tối thiểu: mức độ tiêu xương theo chiều dọc ít hơn 0.2 mm mỗi năm sau năm đầu tiên hoạt động chức năng."
+    },
+    {
+        "question": "Theo tiêu chuẩn của Albrektsson, tỉ lệ thành công của implant sau 5 năm theo dõi là bao nhiêu?",
+        "options": [
+            { "text": "80%", "isCorrect": false },
+            { "text": "85%", "isCorrect": true },
+            { "text": "90%", "isCorrect": false },
+            { "text": "95%", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 2, mục 1. Giới thiệu, nếu đạt được đầy đủ các tiêu chí, tỉ lệ thành công sẽ đạt khoảng 85% sau 5 năm, và 80% sau 10 năm theo dõi."
+    },
+    {
+        "question": "Tiêu chuẩn tiên quyết về sự thành công của cấy ghép nha khoa là gì?",
+        "options": [
+            { "text": "Implant không đau", "isCorrect": false },
+            { "text": "Implant tích hợp cứng chắc trong xương", "isCorrect": true },
+            { "text": "Trên phim X quang không có vùng thấu quang quanh implant", "isCorrect": false },
+            { "text": "Không có nhiễm trùng", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 2, mục 1. Giới thiệu, tiêu chuẩn tiên quyết đó là implant không được chuyển động, nghĩa là tích hợp cứng chắc trong xương."
+    },
+    {
+        "question": "Đối với cắm ghép Implant ở vùng răng sau hàm trên, tỷ lệ thành công có xu hướng như thế nào so với hàm dưới?",
+        "options": [
+            { "text": "Cao hơn", "isCorrect": false },
+            { "text": "Không có sự khác biệt rõ ràng", "isCorrect": false },
+            { "text": "Thấp hơn do implant ngắn và xương mềm", "isCorrect": true },
+            { "text": "Chỉ cao hơn khi dùng implant đường kính lớn", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 2, mục 1. Giới thiệu, khi cắm ghép Implant ở vùng răng sau hàm trên phải đặt implant ngắn hơn, xương lại mềm hơn nên đã cho thấy những tỷ lệ thành công khác nhau, thường là thấp hơn."
+    },
+    {
+        "question": "Đâu không phải là một chống chỉ định của cắm implant?",
+        "options": [
+            { "text": "Bệnh nhân mắc các bệnh tim mạch đã được kiểm soát tốt", "isCorrect": true },
+            { "text": "Bệnh nhân có thói quen nghiện thuốc lá nặng", "isCorrect": false },
+            { "text": "Bệnh nhân dưới 18 tuổi", "isCorrect": false },
+            { "text": "Bệnh nhân có xạ trị xương hàm trước đó", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 2, mục 2.2. Chống chỉ định, các bệnh toàn thân được kiểm soát tốt không phải là chống chỉ định tuyệt đối, và mục 2.1 Chỉ định nêu 'Bệnh nhân có tình trạng sức khỏe toàn thân tốt, không mắc những bệnh cấp hay mạn tính làm ảnh hưởng tới kết quả sau cắm implant'."
+    },
+    {
+        "question": "Tuổi tối thiểu để đặt implant thường là bao nhiêu?",
+        "options": [
+            { "text": "16 tuổi", "isCorrect": false },
+            { "text": "18 tuổi", "isCorrect": true },
+            { "text": "20 tuổi", "isCorrect": false },
+            { "text": "25 tuổi", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 2, mục 2.1. Chỉ định, tuổi bệnh nhân cắm implant tốt nhất là < 18, vì lúc này sự phát triển xương hàm tương đối ổn định."
+    },
+    {
+        "question": "Việc đặt implant ở trẻ em sẽ dẫn đến vấn đề gì?",
+        "options": [
+            { "text": "Không ảnh hưởng đến kết quả", "isCorrect": false },
+            { "text": "Mối tương quan không đúng giữa phục hồi trên implant với sự phát triển của xương xung quanh", "isCorrect": true },
+            { "text": "Implant sẽ bị đào thải ngay lập tức", "isCorrect": false },
+            { "text": "Gây nhiễm trùng nặng", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 2, mục 2.2.1. Tuổi, việc đặt implant ở một đứa trẻ sẽ dẫn đến mối tương quan không đúng giữa phục hồi trên implant với sự phát triển vẫn còn đang tiếp diễn của xương xung quanh."
+    },
+    {
+        "question": "Tại sao vệ sinh răng miệng kém là một chống chỉ định hoặc yếu tố nguy cơ trong cấy ghép implant?",
+        "options": [
+            { "text": "Gây viêm quanh implant và mất xương", "isCorrect": true },
+            { "text": "Làm mất cảm giác ăn nhai", "isCorrect": false },
+            { "text": "Ảnh hưởng đến thẩm mỹ", "isCorrect": false },
+            { "text": "Làm thay đổi màu sắc implant", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 2, mục 2.2.2. Những bệnh răng miệng không được điều trị, vệ sinh răng miệng kém sẽ dẫn đến viêm quanh implant và mô mềm quanh implant, có thể dẫn tới mất xương."
+    },
+    {
+        "question": "Tỷ lệ thất bại trung bình trong cấy ghép nha khoa ở người hút thuốc cao gấp bao nhiêu lần so với người không hút thuốc?",
+        "options": [
+            { "text": "1.5 lần", "isCorrect": false },
+            { "text": "2 lần", "isCorrect": true },
+            { "text": "3 lần", "isCorrect": false },
+            { "text": "Không có sự khác biệt", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 2, mục 2.2.4. Hút thuốc lá và lạm dụng ma tuý, một vài nghiên cứu đã cho thấy tỷ lệ thất bại trung bình trong cấy ghép nha khoa ở người hút thuốc cao gấp 2 lần so với người không hút thuốc."
+    },
+    {
+        "question": "Bệnh nhân điều trị loãng xương với biphosphonate đường tiêm tĩnh mạch có thể gặp biến chứng nào liên quan đến xương hàm?",
+        "options": [
+            { "text": "Tăng mật độ xương", "isCorrect": false },
+            { "text": "Hoại tử xương", "isCorrect": true },
+            { "text": "Giảm thể tích xương", "isCorrect": false },
+            { "text": "Không ảnh hưởng", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 2, mục 2.2.5. Chất lượng xương kém, bệnh nhân điều trị biphosphonate tiêm tĩnh mạch để điều trị ung thư di căn xương thì có thể gặp biến chứng hoại tử xương."
+    },
+    {
+        "question": "Khi bệnh nhân có xạ trị xương hàm trước đó, cần tính toán thời gian đặt implant sau khi xạ trị tối thiểu bao lâu?",
+        "options": [
+            { "text": "3 tháng", "isCorrect": false },
+            { "text": "6 tháng", "isCorrect": false },
+            { "text": "9 tháng", "isCorrect": false },
+            { "text": "12 tháng", "isCorrect": true }
+        ],
+        "explanation": "Theo Bài 2, mục 2.2.6. Có xạ trị xương hàm trước đó, phải tính toán thời gian đặt implant sau khi xạ trị và cung cấp liệu pháp oxy cao áp, thời gian tối thiểu trên 12 tháng."
+    },
+    {
+        "question": "Tại sao việc đánh giá sức khỏe toàn thân trước cấy ghép nha khoa là quan trọng?",
+        "options": [
+            { "text": "Chỉ để chọn thuốc tê phù hợp", "isCorrect": false },
+            { "text": "Là bước quan trọng quyết định sự thành công và hạn chế tai biến", "isCorrect": true },
+            { "text": "Chỉ để xác định chi phí điều trị", "isCorrect": false },
+            { "text": "Không cần thiết nếu bệnh nhân tự tin", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 3, mục 1. Đại Cương, việc đánh giá sức khỏe toàn thân trước cấy ghép nha khoa là một bước quan trọng trong hành nghề nha khoa, quyết định sự thành công, hạn chế được nhiều tai biến."
+    },
+    {
+        "question": "Khi khai thác bệnh sử của bệnh nhân trước cấy ghép implant, cần hỏi về các bệnh hệ thống nào?",
+        "options": [
+            { "text": "Bệnh tim mạch", "isCorrect": false },
+            { "text": "Bệnh hô hấp", "isCorrect": false },
+            { "text": "Gan mật, tiêu hóa, tiết niệu, thần kinh, nội tiết", "isCorrect": false },
+            { "text": "Tất cả các bệnh trên", "isCorrect": true }
+        ],
+        "explanation": "Theo Bài 3, mục 2.1.1.1. Tiền sử bệnh, cần khai thác để biết bệnh nhân có các bệnh khác kèm theo như gan mật, tiêu hóa, tiết niệu, bệnh thần kinh, nội tiết, bệnh hệ thống, sốt rét."
+    },
+    {
+        "question": "Quy tắc 2-4-6-8 trong chế độ nhịn ăn nhịn uống trước phẫu thuật dưới gây mê/an thần tiền mê nghĩa là gì?",
+        "options": [
+            { "text": "Uống nước trong đến 2 giờ trước phẫu thuật, sữa mẹ 4 giờ, sữa công nghiệp 6 giờ, bữa ăn bình thường 8 giờ", "isCorrect": true },
+            { "text": "Chỉ nhịn ăn uống hoàn toàn 8 giờ trước phẫu thuật", "isCorrect": false },
+            { "text": "Chỉ cần nhịn ăn 2 giờ trước phẫu thuật", "isCorrect": false },
+            { "text": "Uống nước thoải mái trước phẫu thuật", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 3, mục 2.4. Chuẩn bị tâm lý, hướng dẫn chế độ dinh dưỡng và chăm sóc, quy tắc 2-4-6-8 được giải thích chi tiết."
+    },
+    {
+        "question": "Đối với bệnh nhân có vấn đề tim mạch, việc ngưng hay tiếp tục dùng thuốc tim mạch phải luôn luôn có chỉ định của ai?",
+        "options": [
+            { "text": "Bác sĩ nha khoa", "isCorrect": false },
+            { "text": "Bác sĩ chuyên khoa tim mạch", "isCorrect": true },
+            { "text": "Bệnh nhân tự quyết định", "isCorrect": false },
+            { "text": "Y tá", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 3, mục 3.1. Bệnh nhân có vấn đề tim mạch, việc ngưng hay tiếp tục dùng thuốc phải luôn luôn có chỉ định của bác sĩ chuyên khoa tim mạch."
+    },
+    {
+        "question": "Thuốc nào có thể gây tình trạng chảy máu kéo dài sau phẫu thuật và cần cân nhắc ở bệnh nhân đang dùng thuốc chống đông?",
+        "options": [
+            { "text": "Aspirine", "isCorrect": false },
+            { "text": "Clopidogrel", "isCorrect": false },
+            { "text": "Sintrom, Warfarine", "isCorrect": false },
+            { "text": "Tất cả các thuốc trên", "isCorrect": true }
+        ],
+        "explanation": "Theo Bài 3, mục 3.1. Bệnh nhân có vấn đề tim mạch, các thuốc chống đông như Aspirine, Clopidogrel, Sintrom, Warfarine có thể gây tình trạng chảy máu kéo dài sau phẫu thuật."
+    },
+    {
+        "question": "Đối với bệnh nhân đái tháo đường, bác sĩ nha khoa cần phối hợp với ai trước và sau phẫu thuật cấy ghép implant?",
+        "options": [
+            { "text": "Chuyên gia dinh dưỡng", "isCorrect": false },
+            { "text": "Bác sĩ điều trị bệnh đái tháo đường", "isCorrect": true },
+            { "text": "Dược sĩ", "isCorrect": false },
+            { "text": "Bệnh nhân", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 3, mục 3.2. Bệnh nhân đái tháo đường, cần có sự phối hợp với bác sĩ điều trị bệnh đái tháo đường trước và sau phẫu thuật."
+    },
+    {
+        "question": "Tại sao nên trì hoãn thủ thuật ở bệnh nhân đang trong giai đoạn hành kinh?",
+        "options": [
+            { "text": "Do trạng thái bất ổn và dễ kích thích, có tình trạng xung huyết ở lợi răng, dễ chảy máu nhiều khó cầm", "isCorrect": true },
+            { "text": "Để tránh lây nhiễm chéo", "isCorrect": false },
+            { "text": "Không ảnh hưởng đến kết quả phẫu thuật", "isCorrect": false },
+            { "text": "Chỉ cần gây tê mạnh hơn là đủ", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 3, mục 3.9. Bệnh nhân đang trong giai đoạn hành kinh, thường có trạng thái bất ổn và dễ kích thích, có tình trạng xung huyết ở lợi răng nên khi can thiệp thủ thuật sẽ có khả năng chảy máu nhiều khó cầm, dễ xiu."
+    },
+    {
+        "question": "Đâu là một phần chính của xương hàm trên?",
+        "options": [
+            { "text": "Ngành hàm", "isCorrect": false },
+            { "text": "Thân xương hình tháp", "isCorrect": true },
+            { "text": "Lồi cầu", "isCorrect": false },
+            { "text": "Gai Spix", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 1. XƯƠNG HÀM TRÊN, mỗi một xương hàm trên gồm có: thân xương hình tháp, xoang hàm trên, bốn mỏm."
+    },
+    {
+        "question": "Thành dưới của xoang hàm trên được tạo nên bởi xương nào?",
+        "options": [
+            { "text": "Xương trán", "isCorrect": false },
+            { "text": "Xương gò má", "isCorrect": false },
+            { "text": "Xương khẩu cái và mỏm ổ răng", "isCorrect": true },
+            { "text": "Xương sàng", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 1. XƯƠNG HÀM TRÊN, Thành dưới của xoang hàm trên tạo nên bởi xương khẩu cái và mỏm ổ răng."
+    },
+    {
+        "question": "Khi mất răng, xoang hàm trên có thể giãn rộng về phía mỏm ổ răng làm cho điều gì xảy ra?",
+        "options": [
+            { "text": "Tăng chiều cao xương để cấy implant", "isCorrect": false },
+            { "text": "Giảm chiều cao xương để cấy implant", "isCorrect": true },
+            { "text": "Không ảnh hưởng đến chiều cao xương", "isCorrect": false },
+            { "text": "Tăng thể tích xoang hàm", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 1. XƯƠNG HÀM TRÊN, khi mất răng, xoang hàm có thể giãn rộng về phía mỏm ổ răng làm cho chiều cao xương để cấy implant giảm đi."
+    },
+    {
+        "question": "Trục của răng hàm trên phía sau nghiêng về phía nào?",
+        "options": [
+            { "text": "Phía lưỡi", "isCorrect": false },
+            { "text": "Phía môi", "isCorrect": false },
+            { "text": "Phía má", "isCorrect": true },
+            { "text": "Không nghiêng", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 1. XƯƠNG HÀM TRÊN, Răng phía sau của hàm trên nghiêng về phía má từ $5^{irc}$ đến $10^{irc}$."
+    },
+    {
+        "question": "Thần kinh răng dưới đi vào xương hàm dưới qua lỗ nào?",
+        "options": [
+            { "text": "Lỗ cằm", "isCorrect": false },
+            { "text": "Lỗ ô van", "isCorrect": false },
+            { "text": "Lỗ hàm dưới", "isCorrect": true },
+            { "text": "Lỗ tròn", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 3. MẠCH MÁU VÀ THẦN KINH HÀM DƯỚI, Thần kinh răng dưới đi vào xương hàm dưới qua lỗ hàm dưới."
+    },
+    {
+        "question": "Thần kinh lưỡi phân bố các nhánh cảm giác tới đâu?",
+        "options": [
+            { "text": "Lợi, niêm mạc sàn miệng và hai phần ba trước của lưỡi", "isCorrect": true },
+            { "text": "Chỉ lợi và sàn miệng", "isCorrect": false },
+            { "text": "Chỉ phần ba sau của lưỡi", "isCorrect": false },
+            { "text": "Chỉ răng hàm dưới", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 4. THẦN KINH LƯỠI, Thần kinh lưỡi phân bố các nhánh cảm giác tới lợi, niêm mạc sàn miệng cũng như hai phần ba trước của lưỡi."
+    },
+    {
+        "question": "Mạch máu nào liên quan nhiều nhất đến cấy ghép nha khoa trong các nhánh của động mạch hàm trên?",
+        "options": [
+            { "text": "Nhánh răng dưới và nhánh động mạch răng trên sau", "isCorrect": true },
+            { "text": "Nhánh gò má", "isCorrect": false },
+            { "text": "Nhánh dưới ổ mắt", "isCorrect": false },
+            { "text": "Nhánh chân bướm khẩu cái", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 5. ĐỘNG MẠCH HÀM TRÊN, Động mạch hàm trên chia nhiều nhánh, trong đó liên quan nhiều nhất đến cấy ghép nha khoa là nhánh răng dưới và nhánh động mạch răng trên sau."
+    },
+    {
+        "question": "Niêm mạc hệ nhai (keratin hóa) trong miệng che phủ ở đâu?",
+        "options": [
+            { "text": "Má và tiền đình", "isCorrect": false },
+            { "text": "Sống hàm và vòm miệng cứng", "isCorrect": true },
+            { "text": "Vòm miệng mềm và lưỡi gà", "isCorrect": false },
+            { "text": "Phần nền của mỏm ổ răng", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 6. NIÊM MẠC MIỆNG, Niêm mạc keratin hóa che phủ sống hàm và vòm miệng cứng."
+    },
+    {
+        "question": "Nghiên cứu của Tallgren A. (1972) cho thấy tốc độ tiêu xương trong năm đầu tiên sau mất răng nhanh gấp bao nhiêu lần so với những năm tiếp theo?",
+        "options": [
+            { "text": "Hai lần", "isCorrect": false },
+            { "text": "Năm lần", "isCorrect": false },
+            { "text": "Mười lần", "isCorrect": true },
+            { "text": "Không có sự khác biệt", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 7. THAY ĐỔI GIẢI PHẪU SAU MẤT RĂNG, Nghiên cứu của Tallgren A. (1972) cho thấy tiêu xương trong năm đầu tiên sau mất răng nhanh gấp mười lần so với những năm tiếp theo."
+    },
+    {
+        "question": "Sự khác biệt rõ ràng nhất ở cả hai xương hàm khi mất răng là gì?",
+        "options": [
+            { "text": "Tăng chiều cao sống hàm", "isCorrect": false },
+            { "text": "Giảm chiều cao sống hàm", "isCorrect": true },
+            { "text": "Thay đổi hình dạng khớp thái dương hàm", "isCorrect": false },
+            { "text": "Tăng mật độ xương", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 7. THAY ĐỔI GIẢI PHẪU SAU MẤT RĂNG, Thay đổi rõ ràng nhất ở cả hai xương hàm khi mất răng là giảm chiều cao sống hàm."
+    },
+    {
+        "question": "Khi mất răng, răng đối không còn tiếp xúc và sẽ bị trồi lên. Khoảng trống này cần có kích thước ít nhất bao nhiêu mm để đủ cho trụ phục hình (Abutment) và mão răng dự kiến?",
+        "options": [
+            { "text": "3mm", "isCorrect": false },
+            { "text": "5mm", "isCorrect": true },
+            { "text": "7mm", "isCorrect": false },
+            { "text": "10mm", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 7. THAY ĐỔI GIẢI PHẪU SAU MẤT RĂNG, Khoảng trống này cần phải có kích thước ít nhất 5mm để đủ cho trụ phục hình (Abutment) và mão răng dự kiến."
+    },
+    {
+        "question": "Theo Misch và July (1985), loại xương nào thường gặp khi mới mất răng, và tất cả các kích thước đều thuận lợi cho việc đặt implant có chiều dài $>0mm$ và đường kính $>mm$?",
+        "options": [
+            { "text": "Loại B (xương gần đủ)", "isCorrect": false },
+            { "text": "Loại A (xương đầy đủ)", "isCorrect": true },
+            { "text": "Loại C (xương thiếu)", "isCorrect": false },
+            { "text": "Loại D (thiểu sản xương hàm)", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 5, mục 3. PHÂN LOẠI XƯƠNG THEO KÍCH THƯỚC, Loại A (xương đầy đủ) thường gặp khi mới mất răng. Ở loại này, tất cả các kích thước đều thuận lợi cho việc đặt implant có chiều dài $>10mm$ và đường kính $>4mm$."
+    },
+    {
+        "question": "Theo phân loại của Misch và Judy, loại xương nào thường gặp sau khi mất răng từ 1 đến 3 năm, xương bị tiêu theo chiều dày và vẫn đủ chiều cao?",
+        "options": [
+            { "text": "Loại A", "isCorrect": false },
+            { "text": "Loại B", "isCorrect": true },
+            { "text": "Loại C", "isCorrect": false },
+            { "text": "Loại D", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 5, mục 3. PHÂN LOẠI XƯƠNG THEO KÍCH THƯỚC, Loại B (xương gần đủ) thường gặp sau khi mất răng từ 1 đến 3 năm. Ở giai đoạn này, xương bị tiêu theo chiều dày và vẫn đủ chiều cao."
+    },
+    {
+        "question": "Trong cấy ghép nha khoa, chiều cao xương được hiểu là gì?",
+        "options": [
+            { "text": "Khoảng cách từ bờ sống hàm đến nền mũi hoặc đáy xoang hàm trên (hàm trên), hoặc ống thần kinh hàm dưới (hàm dưới)", "isCorrect": true },
+            { "text": "Chiều dài của implant được sử dụng", "isCorrect": false },
+            { "text": "Độ dày của xương vỏ", "isCorrect": false },
+            { "text": "Khoảng cách giữa hai răng kế cận", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 5, mục 2.1. Chiều cao xương, chiều cao xương được hiểu là khoảng cách đo từ bờ sống hàm đến tổ chức giải phẫu quan trọng bên dưới (giới hạn của chiều dài implant)."
+    },
+    {
+        "question": "Chiều dày xương tối thiểu bao bọc quanh implant là bao nhiêu để đảm bảo đủ vững cho implant và máu nuôi dưỡng xương?",
+        "options": [
+            { "text": "0.2 mm", "isCorrect": false },
+            { "text": "0.5 mm", "isCorrect": true },
+            { "text": "1.0 mm", "isCorrect": false },
+            { "text": "2.0 mm", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 5, mục 2.2. Chiều dày xương, Chiều dày xương tối thiểu bao bọc quanh implant là 0.5mm để đảm bảo đủ vững cho implant và máu nuôi dưỡng xương."
+    },
+    {
+        "question": "Khoảng cách giữa hai chân răng cấy ghép được quy định là bao nhiêu mm?",
+        "options": [
+            { "text": "0.5 mm", "isCorrect": false },
+            { "text": "1.5 mm", "isCorrect": false },
+            { "text": "3 mm", "isCorrect": true },
+            { "text": "5 mm", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 5, mục 2.3. Chiều rộng xương, khoảng cách giữa hai chân răng cấy ghép được quy định là 3mm."
+    },
+    {
+        "question": "Mối liên kết trực tiếp về cấu trúc và chức năng giữa xương sống đã được tái cấu trúc và bề mặt implant chịu lực chức năng được gọi là gì?",
+        "options": [
+            { "text": "Thuyết tích hợp sợi xương", "isCorrect": false },
+            { "text": "Tích hợp xương (osseointegration)", "isCorrect": true },
+            { "text": "Cố định đại thể", "isCorrect": false },
+            { "text": "Cố định vi thể", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 1.2. Định nghĩa tích hợp xương, tích hợp xương được định nghĩa là một mối liên kết trực tiếp về cấu trúc và chức năng giữa xương sống đã được tái cấu trúc và bề mặt implant chịu lực chức năng."
+    },
+    {
+        "question": "Quá trình hình thành xương dệt lưới (woven bone) sau khi đặt implant diễn ra trong khoảng thời gian nào?",
+        "options": [
+            { "text": "Tuần 0 đến tuần 6", "isCorrect": true },
+            { "text": "Tuần 6 đến tuần 18", "isCorrect": false },
+            { "text": "Tuần 18 đến tuần 54", "isCorrect": false },
+            { "text": "Sau 6 tháng", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 2.1. Liền xương đại cương, sự hình thành xương quanh implant gồm 2 giai đoạn: hình thành xương dệt lưới (woven bone) từ tuần 0 đến tuần 6."
+    },
+    {
+        "question": "Quá trình sửa chữa và tái cấu trúc xương (hình thành xương lá/bè - lamellar bone) diễn ra trong khoảng thời gian nào sau khi đặt implant?",
+        "options": [
+            { "text": "Tuần 0 đến tuần 6", "isCorrect": false },
+            { "text": "Tuần 6 đến tuần 18", "isCorrect": true },
+            { "text": "Sau 1 năm", "isCorrect": false },
+            { "text": "Sau 5 năm", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 2.1. Liền xương đại cương, sự hình thành xương lá/bè (lamellar bone) diễn ra từ tuần 6 đến tuần 18."
+    },
+    {
+        "question": "Thuyết tích hợp sợi xương bị loại bỏ vì các nghiên cứu mô học về sau phát hiện ra điều gì?",
+        "options": [
+            { "text": "Các tổ chức sợi có chức năng truyền lực như dây chằng nha chu", "isCorrect": false },
+            { "text": "Các tổ chức sợi không có chức năng truyền lực như dây chằng nha chu và tái cấu trúc xương không thực hiện được trong tổ chức sợi", "isCorrect": true },
+            { "text": "Implant bị bao quanh bởi mô xương", "isCorrect": false },
+            { "text": "Implant chịu lực tốt khi bị bao quanh bởi mô sợi", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 1.2. Định nghĩa tích hợp xương, thuyết tích hợp sợi xương bị loại bỏ vì các nghiên cứu mô học về sau phát hiện ra các tổ chức sợi không có chức năng truyền lực như dây chằng nha chu và tái cấu trúc xương không thực hiện được trong tổ chức sợi."
+    },
+    {
+        "question": "Vật liệu nào có tính kích hoạt sinh học (bioactive) và kích thích sự lắng đọng thành phần khoáng của xương trên bề mặt implant?",
+        "options": [
+            { "text": "Titan", "isCorrect": false },
+            { "text": "Thép không gỉ", "isCorrect": false },
+            { "text": "Hydroxyapatite", "isCorrect": true },
+            { "text": "Zirconia", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 3.1.1. Vật liệu, thiết kế và bề mặt Implant, các vật liệu có tính kích hoạt sinh học (bioactive) như Ca-P, Hydroxyapatite, sứ vitro tạo ra phản ứng hóa học giữa bề mặt implant và xương, kích thích sự lắng đọng thành phần khoáng của xương trực tiếp trên bề mặt."
+    },
+    {
+        "question": "Trong các loại vật liệu hiện tại sử dụng trên lâm sàng, vật liệu nào được coi là tối ưu nhất để chế tác implant nhờ có tính kháng mòn cao, vừa cứng vừa dẻo, đàn hồi, nhẹ, không độc, thích nghi sinh học?",
+        "options": [
+            { "text": "Sứ Zirconia", "isCorrect": false },
+            { "text": "Titan", "isCorrect": true },
+            { "text": "Vàng", "isCorrect": false },
+            { "text": "Cobalt-Chromium", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 3.1.1. Vật liệu, thiết kế và bề mặt Implant, Titan là vật liệu tối ưu nhất để chế tác implant nhờ các đặc tính vượt trội."
+    },
+    {
+        "question": "Sinh nhiệt trong quá trình cắt xương vượt quá mức bao nhiêu độ C có thể gây chết tế bào xương và phá hủy sợi collagen, ngăn chặn quá trình tích hợp xương?",
+        "options": [
+            { "text": "$37^{irc}C$", "isCorrect": false },
+            { "text": "$42^{irc}C$", "isCorrect": false },
+            { "text": "$47^{irc}C$", "isCorrect": true },
+            { "text": "$50^{irc}C$", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 3.1.2. Nhiễm bẩn bề mặt implant và sinh nhiệt, nếu lực ma sát lên implant sinh nhiệt vượt mức $47^{irc}C$, có thể dẫn tới khả năng gây chết tế bào xương."
+    },
+    {
+        "question": "Chịu lực tức thì (immediate loading) trên implant yêu cầu điều kiện gì?",
+        "options": [
+            { "text": "Chất lượng xương tốt và lực chức năng được kiểm soát thích hợp", "isCorrect": true },
+            { "text": "Chất lượng xương kém", "isCorrect": false },
+            { "text": "Thời gian chờ 6 tháng", "isCorrect": false },
+            { "text": "Bề mặt implant không cần xử lý", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 3.1.3. Khả năng chịu lực, để thực hiện chịu lực tức thì yêu cầu chất lượng xương tốt, lực chức năng được kiểm soát thích hợp."
+    },
+    {
+        "question": "Theo Branemark, thời gian chịu lực muộn đối với implant hàm trên là bao lâu?",
+        "options": [
+            { "text": "3 tháng", "isCorrect": false },
+            { "text": "6 tháng", "isCorrect": true },
+            { "text": "12 tháng", "isCorrect": false },
+            { "text": "Ngay lập tức", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 3.1.3. Khả năng chịu lực, theo Branemark, thời gian chịu lực hàm trên là 6 tháng, hàm dưới là 3 tháng."
+    },
+    {
+        "question": "Yếu tố nào liên quan đến bệnh nhân ảnh hưởng trực tiếp lên khả năng tích hợp xương?",
+        "options": [
+            { "text": "Thể tích xương", "isCorrect": false },
+            { "text": "Mật độ xương", "isCorrect": true },
+            { "text": "Chiều cao xương", "isCorrect": false },
+            { "text": "Chiều rộng xương", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 3.2.1. Tình trạng xương, mật độ xương có ảnh hưởng trực tiếp lên khả năng tích hợp xương."
+    },
+    {
+        "question": "Phương pháp đánh giá khả năng tích hợp xương nào sau đây không xâm nhập và cho giá trị khách quan?",
+        "options": [
+            { "text": "Phương pháp gõ (percussion test)", "isCorrect": false },
+            { "text": "Phương pháp torque ngược (reverse torque)", "isCorrect": false },
+            { "text": "Phân tích tần số cộng hưởng (Resonance frequency analysis - RFA)", "isCorrect": true },
+            { "text": "Sử dụng máy đo độ lung lay răng Periotest", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 4.3. Phân tích tần số cộng hưởng (Resonance frequency analysis - RFA), ưu điểm của phương pháp này là hoàn toàn không xâm nhập, không ảnh hưởng lên sự tích hợp xương và cho giá trị khách quan."
+    },
+    {
+        "question": "Khi sử dụng máy Periotest để đánh giá độ lung lay của implant, nếu giá trị đo được từ -8 đến 0, điều đó có nghĩa là gì?",
+        "options": [
+            { "text": "Chưa tích hợp xương, implant không chịu lực được", "isCorrect": false },
+            { "text": "Thăm khám lâm sàng để chắc chắn khả năng tích hợp xương", "isCorrect": false },
+            { "text": "Tích hợp xương tốt, implant sẵn sàng chịu lực", "isCorrect": true },
+            { "text": "Có thể tích hợp xương sau đó", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 4.1. Phương pháp gõ (percussion test), nếu giá trị đo được từ -8 đến 0: tích hợp xương tốt, implant sẵn sàng chịu lực."
+    },
+    {
+        "question": "Theo quan điểm ngày nay về tích hợp xương, implant sống sót có hẳn là implant thành công không?",
+        "options": [
+            { "text": "Hoàn toàn đúng", "isCorrect": false },
+            { "text": "Không hẳn, vì việc đánh giá thành công bao gồm cả tình trạng và chức năng của implant", "isCorrect": true },
+            { "text": "Chỉ đúng khi không có nhiễm trùng", "isCorrect": false },
+            { "text": "Chỉ đúng khi không lung lay", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 1.2. Định nghĩa tích hợp xương, theo quan điểm ngày nay về tích hợp xương, implant sống sót chưa hẳn là implant thành công. Bởi lẽ, việc đánh giá implant có thành công là bao gồm cả tình trạng implant và chức năng của implant."
+    },
+    {
+        "question": "Quá trình lành thương xương quanh implant diễn ra trong mấy giai đoạn chính?",
+        "options": [
+            { "text": "1 giai đoạn", "isCorrect": false },
+            { "text": "2 giai đoạn", "isCorrect": false },
+            { "text": "3 giai đoạn", "isCorrect": true },
+            { "text": "4 giai đoạn", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 2.1.1. Quá trình lành thương, quá trình lành thương thường xảy ra trong 6 tuần đầu tiên sau khi implant đặt vào xương hàm, được chia thành các giai đoạn: hình thành cục máu đông, sinh sợi, hình thành xương."
+    },
+    {
+        "question": "Trong giai đoạn hình thành cục máu đông (ngày 1 - ngày 3) sau khi đặt implant, điều gì bắt đầu xảy ra?",
+        "options": [
+            { "text": "Hình thành xương lá", "isCorrect": false },
+            { "text": "Phản ứng viêm", "isCorrect": true },
+            { "text": "Tái cấu trúc giao diện", "isCorrect": false },
+            { "text": "Lắng đọng xương", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 2.1.1. Quá trình lành thương, cục máu đông hình thành quanh vùng đặt implant, chứa nhiều tiểu cầu và fibrin, phản ứng viêm bắt đầu xảy ra."
+    },
+    {
+        "question": "Khoảng cách giữa chân răng cấy ghép và chân răng thật được quy định là bao nhiêu mm?",
+        "options": [
+            { "text": "0.5 mm", "isCorrect": true },
+            { "text": "1.0 mm", "isCorrect": false },
+            { "text": "1.5 mm", "isCorrect": false },
+            { "text": "3.0 mm", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 5, mục 2.3. Chiều rộng xương, khoảng cách giữa chân răng cấy ghép và chân răng thật được quy định là 0.5mm."
+    },
+    {
+        "question": "Khi mất răng, các răng liên quan không còn tiếp xúc, răng đó sẽ trôi hoặc nghiêng về phía nào?",
+        "options": [
+            { "text": "Phía xa", "isCorrect": false },
+            { "text": "Phía gần", "isCorrect": true },
+            { "text": "Phía ngoài", "isCorrect": false },
+            { "text": "Phía trong", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 7. THAY ĐỔI GIẢI PHẪU SAU MẤT RĂNG, khi mất răng, các răng liên quan không còn tiếp xúc, răng đó sẽ trôi hoặc nghiêng về phía gần."
+    },
+    {
+        "question": "Sự ổn định implant về mặt lâm sàng còn tùy thuộc vào việc chèn ép cơ học giữa xương khoáng hóa và bề mặt nào của implant?",
+        "options": [
+            { "text": "Bề mặt nhẵn", "isCorrect": false },
+            { "text": "Bề mặt sần sùi", "isCorrect": true },
+            { "text": "Bề mặt phủ polycarbonate", "isCorrect": false },
+            { "text": "Bề mặt phủ hydroxyapatit", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 2.1. Nghiên cứu trên thế giới, sự ổn định implant về mặt lâm sàng còn tùy thuộc vào việc chèn ép cơ học giữa xương khoáng hóa và bề mặt sần sùi của implant được tạo lúc sản xuất."
+    },
+    {
+        "question": "Đâu là một trong các yếu tố ảnh hưởng đến thành công của cấy ghép implant, theo Bài 2?",
+        "options": [
+            { "text": "Mức độ đau của bệnh nhân", "isCorrect": false },
+            { "text": "Vị trí đặt implant (ví dụ: hàm dưới trước)", "isCorrect": true },
+            { "text": "Kích thước ban đầu của răng mất", "isCorrect": false },
+            { "text": "Loại thuốc giảm đau sử dụng", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 2, mục 1. Giới thiệu, 'Implant được đặt ở hàm dưới (đặc biệt là phía trước lỗ cằm) có tỷ lệ thành công cao, như vậy sẽ không có sự khác biệt rõ ràng giữa các hệ thống implant khác nhau.'"
+    },
+    {
+        "question": "Mô tả nào dưới đây đúng về chất lượng xương loại D1 theo phân loại của Misch?",
+        "options": [
+            { "text": "Xương vỏ dày với xương xốp thô bên trong", "isCorrect": false },
+            { "text": "Xương vỏ mỏng xốp", "isCorrect": false },
+            { "text": "Xương vỏ, đặc", "isCorrect": true },
+            { "text": "Xương xốp mịn", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 5, Bảng 5.2. Phân loại độ đặc xương theo Misch, loại D1 là xương vỏ, đặc."
+    },
+    {
+        "question": "Độ dày của niêm cốt mạc trên sống hàm được cho là thuận lợi cho cấy ghép nha khoa và phục hình là bao nhiêu?",
+        "options": [
+            { "text": "1-2 mm", "isCorrect": false },
+            { "text": "2-3 mm", "isCorrect": true },
+            { "text": "3-4 mm", "isCorrect": false },
+            { "text": "Trên 4 mm", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 6. NIÊM MẠC MIỆNG, Niêm cốt mạc có độ dày 2-3 mm được cho là thuận lợi cho cấy ghép nha khoa và phục hình."
+    },
+    {
+        "question": "Khi mất răng, mỏm xương ổ răng ở hàm dưới thu về phía nào so với thân xương?",
+        "options": [
+            { "text": "Phía ngoài", "isCorrect": false },
+            { "text": "Phía trong", "isCorrect": true },
+            { "text": "Phía gần", "isCorrect": false },
+            { "text": "Phía xa", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 2. XƯƠNG HÀM DƯỚI, mỏm ổ răng có hình cung thu hẹp lại khi đi về phía xa, như vậy mỏm ổ răng phía sau thu về phía trong hơn so với thân xương."
+    },
+    {
+        "question": "Nhánh thần kinh nào của thần kinh hàm dưới liên quan nhiều nhất đến cấy ghép nha khoa?",
+        "options": [
+            { "text": "Thần kinh gò má", "isCorrect": false },
+            { "text": "Thần kinh răng dưới", "isCorrect": true },
+            { "text": "Thần kinh lưỡi", "isCorrect": false },
+            { "text": "Thần kinh má", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 3. MẠCH MÁU VÀ THẦN KINH HÀM DƯỚI, trong các nhánh của thần kinh hàm dưới, liên quan nhiều nhất đến cấy ghép nha khoa là nhánh thần kinh răng dưới."
+    },
+    {
+        "question": "Đâu là một trong những tiêu chuẩn thành công của implant theo Alberktsson và cộng sự (1986)?",
+        "options": [
+            { "text": "Có đau, có nhiễm trùng", "isCorrect": false },
+            { "text": "Có lung lay", "isCorrect": false },
+            { "text": "Không thấu quang quanh implant", "isCorrect": true },
+            { "text": "Có tổn thương răng kế cận", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 1.2. Định nghĩa tích hợp xương, các tiêu chí của một implant thành công là: Không đau, không nhiễm trùng, không lung lay, không thấu quang quanh implant, không tổn thương răng kế cận, ống hàm dưới và xoang hàm, và tiêu xương quanh implant sau năm đầu tiên chịu lực $<0.2mm/n{a}m.$"
+    },
+    {
+        "question": "Trong giai đoạn sinh sợi (ngày 4 – ngày 7) của quá trình lành thương sau đặt implant, điều gì xuất hiện?",
+        "options": [
+            { "text": "Cục máu đông", "isCorrect": false },
+            { "text": "Sự xâm nhập của tế bào trung mô quanh Implant và tăng sinh mạch", "isCorrect": true },
+            { "text": "Xương dệt hình thành", "isCorrect": false },
+            { "text": "Xương lá hình thành", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 2.1.1. Quá trình lành thương, trong giai đoạn sinh sợi (ngày 4 – ngày 7), mô hạt thay thế dần cục máu đông, xuất hiện sự xâm nhập của tế bào trung mô quanh Implant và có hiện tượng tăng sinh mạch quanh vùng đặt implant."
+    },
+    {
+        "question": "Thuyết tích hợp xương (osseointegration) được định nghĩa là gì?",
+        "options": [
+            { "text": "Mối liên kết giữa xương và implant có sự xen vào của tổ chức sợi", "isCorrect": false },
+            { "text": "Mối liên kết trực tiếp về cấu trúc và chức năng giữa xương sống đã được tái cấu trúc và bề mặt implant chịu lực chức năng", "isCorrect": true },
+            { "text": "Hiện tượng implant bị đào thải", "isCorrect": false },
+            { "text": "Sự dán dính hóa học giữa xương và implant", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 1.2. Định nghĩa tích hợp xương, Tích hợp xương được định nghĩa là một mối liên kết trực tiếp về cấu trúc và chức năng giữa xương sống đã được tái cấu trúc và bề mặt implant chịu lực chức năng."
+    },
+    {
+        "question": "Một trong những yếu tố liên quan đến bệnh nhân ảnh hưởng đến sự tích hợp xương là gì?",
+        "options": [
+            { "text": "Tuổi càng lớn, khả năng tích hợp xương càng nhanh", "isCorrect": false },
+            { "text": "Vệ sinh răng miệng kém làm tăng khả năng tích hợp xương", "isCorrect": false },
+            { "text": "Hút thuốc lá làm giảm sự lành thương và tích hợp xương", "isCorrect": true },
+            { "text": "Tiểu đường không kiểm soát không ảnh hưởng đến tích hợp xương", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 3.2.2. Tình trạng toàn thân, Hút thuốc, thiếu máu, thiếu vitamin C, đái tháo đường không kiểm soát, xạ trị hóa trị làm giảm sự lành thương nói chung và tích hợp xương nói riêng."
+    },
+    {
+        "question": "Trong quá trình cắm implant, lực torque lý tưởng là bao nhiêu?",
+        "options": [
+            { "text": "20 N/Cm", "isCorrect": false },
+            { "text": "30 N/Cm", "isCorrect": false },
+            { "text": "45 N/Cm", "isCorrect": true },
+            { "text": "60 N/Cm", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 3.3. Yếu tố liên quan phẫu thuật, lực torque 45N/Cm là lý tưởng."
+    },
+    {
+        "question": "Phương pháp gõ (percussion test) để đánh giá tích hợp xương có ưu điểm gì?",
+        "options": [
+            { "text": "Chính xác và khách quan", "isCorrect": false },
+            { "text": "Dễ thực hiện và không tốn chi phí", "isCorrect": true },
+            { "text": "Không xâm lấn", "isCorrect": false },
+            { "text": "Cho thông số ISQ", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 4.1. Phương pháp gõ (percussion test), ưu điểm của phương pháp này là đơn giản, không tốn chi phí."
+    },
+    {
+        "question": "Thần kinh sinh ba là dây thần kinh hỗn hợp gồm phần cảm giác và phần vận động, chi phối cho hoạt động của cơ nào?",
+        "options": [
+            { "text": "Cơ mặt", "isCorrect": false },
+            { "text": "Cơ nhai", "isCorrect": true },
+            { "text": "Cơ lưỡi", "isCorrect": false },
+            { "text": "Cơ cổ", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 3. MẠCH MÁU VÀ THẦN KINH HÀM DƯỚI, Phần vận động chi phối cho hoạt động của các cơ nhai."
+    },
+    {
+        "question": "Xương hàm dưới được mô tả là xương khỏe nhất vùng nào?",
+        "options": [
+            { "text": "Vùng sọ não", "isCorrect": false },
+            { "text": "Vùng cổ", "isCorrect": false },
+            { "text": "Vùng hàm mặt", "isCorrect": true },
+            { "text": "Vùng ngực", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 2. XƯƠNG HÀM DƯỚI, Xương hàm dưới là xương khỏe nhất vùng hàm mặt, gồm có thân xương hình móng ngựa và hai ngành hàm."
+    },
+    {
+        "question": "Khi mất răng, tương quan hai hàm có xu hướng chuyển sang loại nào theo phân loại của Atwood?",
+        "options": [
+            { "text": "Loại I hoặc II", "isCorrect": false },
+            { "text": "Loại III hoặc cắn chéo", "isCorrect": true },
+            { "text": "Không thay đổi", "isCorrect": false },
+            { "text": "Loại IV", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 7. THAY ĐỔI GIẢI PHẪU SAU MẤT RĂNG, Khi tiêu xương tiến triển, tương quan hai hàm có xu hướng chuyển sang loại III hoặc cắn chéo."
+    },
+    {
+        "question": "Tỷ lệ chiều dài thân răng - implant ảnh hưởng đến yếu tố nào?",
+        "options": [
+            { "text": "Thẩm mỹ của phục hình", "isCorrect": false },
+            { "text": "Mô men lực tác động lên implant", "isCorrect": false },
+            { "text": "Cả thẩm mỹ của phục hình và mô men lực tác động lên implant", "isCorrect": true },
+            { "text": "Không ảnh hưởng", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 5, mục 2.5. Tỷ lệ chiều dài thân răng – implant, Tỷ lệ chiều dài thân răng - implant ảnh hưởng đến thẩm mỹ của phục hình và mô men lực tác động lên implant."
+    },
+    {
+        "question": "Theo Misch, sự hình thành xương quanh implant gồm mấy giai đoạn?",
+        "options": [
+            { "text": "1 giai đoạn", "isCorrect": false },
+            { "text": "2 giai đoạn", "isCorrect": true },
+            { "text": "3 giai đoạn", "isCorrect": false },
+            { "text": "4 giai đoạn", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 2.1. Liền xương đại cương, Theo Misch, sự hình thành xương quanh implant gồm 2 giai đoạn: hình thành xương dệt lưới và hình thành xương lá/bè."
+    },
+    {
+        "question": "Trong giai đoạn trưởng thành khối xương (tuần 18 đến tuần 54), điều gì xảy ra?",
+        "options": [
+            { "text": "Thể tích xương tăng, mật độ xương giảm", "isCorrect": false },
+            { "text": "Thể tích xương giảm, mật độ xương tăng", "isCorrect": true },
+            { "text": "Không có thay đổi về thể tích và mật độ xương", "isCorrect": false },
+            { "text": "Xương lưới bị thay thế bởi mô sợi", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 2.1.2. Quá trình sửa chữa và tái cấu trúc, trong giai đoạn trưởng thành khối xương, thể tích xương giảm, mật độ xương tăng, đảm bảo khả năng chịu lực chức năng của implant."
+    },
+    {
+        "question": "Đâu là một trong các yếu tố liên quan đến phẫu thuật ảnh hưởng lên sự tích hợp xương?",
+        "options": [
+            { "text": "Tuổi bệnh nhân", "isCorrect": false },
+            { "text": "Mật độ xương", "isCorrect": false },
+            { "text": "Xâm lấn mô quá mức", "isCorrect": true },
+            { "text": "Tình trạng toàn thân của bệnh nhân", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 3.3. Yếu tố liên quan phẫu thuật, Xâm lấn mô quá mức trong quá trình phẫu thuật làm cản trở sự lành thương."
+    },
+    {
+        "question": "Implant có thể chịu lực sớm (early loading) sau bao lâu cắm ghép implant?",
+        "options": [
+            { "text": "Ngay lập tức", "isCorrect": false },
+            { "text": "Sau 6 tuần", "isCorrect": true },
+            { "text": "Sau 3 tháng", "isCorrect": false },
+            { "text": "Sau 6 tháng", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 3.1.3. Khả năng chịu lực, chịu lực sớm (early loading): chịu lực sau 6 tuần cắm ghép implant."
+    },
+    {
+        "question": "Phương pháp torque ngược (reverse torque) để đánh giá tích hợp xương có ưu điểm gì?",
+        "options": [
+            { "text": "Hoàn toàn không xâm nhập", "isCorrect": false },
+            { "text": "Dễ thực hiện", "isCorrect": true },
+            { "text": "Cho giá trị ISQ", "isCorrect": false },
+            { "text": "Chính xác tuyệt đối", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 4.2. Phương pháp torque ngược (reverse torque), ưu điểm là dễ thực hiện."
+    },
+    {
+        "question": "Khi đặt implant cho những răng ở phía sau của hàm dưới, vùng răng hàm lớn thứ nhất là chỗ an toàn nhất theo chiều nào?",
+        "options": [
+            { "text": "Trong ngoài", "isCorrect": false },
+            { "text": "Trên dưới", "isCorrect": false },
+            { "text": "Trước sau", "isCorrect": true },
+            { "text": "Không xác định", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 3. MẠCH MÁU VÀ THẦN KINH HÀM DƯỚI, Thần kinh huyệt răng dưới đi thấp nhất ở vùng răng hàm lớn thứ nhất và sau đó lại đi cao lên để đi ra qua lỗ cằm. Như vậy, khi đặt implant cho những răng ở phía sau của hàm dưới thì vùng răng hàm lớn thứ nhất là chỗ an toàn nhất."
+    },
+    {
+        "question": "Theo Misch và Judy (1985), loại xương nào có thể gặp với các tiểu loại: thiếu chiều dày, thiếu chiều cao hoặc thiếu đồng thời nhiều kích thước?",
+        "options": [
+            { "text": "Loại A", "isCorrect": false },
+            { "text": "Loại B", "isCorrect": false },
+            { "text": "Loại C", "isCorrect": true },
+            { "text": "Loại D", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 5, mục 3. PHÂN LOẠI XƯƠNG THEO KÍCH THƯỚC, Loại C (xương thiếu) có thể gặp với các tiểu loại: thiếu chiều dày, thiếu chiều cao hoặc thiếu đồng thời nhiều kích thước."
+    },
+    {
+        "question": "Trong phân loại của Misch theo độ đặc xương, xương vỏ dày (có thể đặc hoặc xốp) ở sống hàm với xương xốp thô bên trong thuộc loại nào?",
+        "options": [
+            { "text": "D1", "isCorrect": false },
+            { "text": "D2", "isCorrect": true },
+            { "text": "D3", "isCorrect": false },
+            { "text": "D4", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 5, Bảng 5.2. Phân loại độ đặc xương theo Misch, loại D2 là xương vỏ dày (có thể đặc hoặc xốp) ở sống hàm với xương xốp thô bên trong."
+    },
+    {
+        "question": "Đâu là ưu điểm của cấy ghép nha khoa so với hàm giả tháo lắp?",
+        "options": [
+            { "text": "Không gây vướng víu trong miệng", "isCorrect": false },
+            { "text": "Chức năng ăn nhai cao hơn", "isCorrect": false },
+            { "text": "Giảm tiêu xương hàm", "isCorrect": false },
+            { "text": "Tất cả các câu trên", "isCorrect": true }
+        ],
+        "explanation": "Theo Bài 1, mục 1. Đại Cương, cấy ghép nha khoa mang lại nhiều ưu điểm so với hàm giả tháo lắp như: không gây vướng víu, chức năng ăn nhai tốt, ngăn chặn tình trạng tiêu xương."
+    },
+    {
+        "question": "Hội nghị Nha khoa Quốc tế lần đầu tiên được tổ chức tại Việt Nam (Dinh Thống Nhất) vào năm nào, và implant đầu tiên được đặt tại TP. Hồ Chí Minh nhân Hội nghị này?",
+        "options": [
+            { "text": "1986", "isCorrect": false },
+            { "text": "1990", "isCorrect": false },
+            { "text": "1994", "isCorrect": true },
+            { "text": "2007", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 2.2. Nghiên cứu ở Việt Nam, năm 1994, implant chính thức được giới thiệu tại Hội nghị Nha khoa Quốc tế lần đầu tiên được tổ chức tại Việt Nam (Dinh Thống Nhất) và implant đầu tiên được đặt tại Viện Răng Hàm Mặt thành phố Hồ Chí Minh."
+    },
+    {
+        "question": "Cấu tạo của implant gồm những phần chính nào?",
+        "options": [
+            { "text": "Fixture, Abutment, và phục hình trên implant", "isCorrect": true },
+            { "text": "Thân răng, chân răng, và tủy răng", "isCorrect": false },
+            { "text": "Mão sứ, dây cung, và mắc cài", "isCorrect": false },
+            { "text": "Chốt, vít, và xi măng", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 3.2. Cấu tạo của implant, Implant gồm có: Fixture, Abutment, và phục hình trên implant."
+    },
+    {
+        "question": "Theo phân loại của Linkow và Robert (1967), implant dạng bản được thiết kế để phù hợp với điều kiện xương nào?",
+        "options": [
+            { "text": "Sống hàm hẹp", "isCorrect": true },
+            { "text": "Sống hàm rộng", "isCorrect": false },
+            { "text": "Xương đặc", "isCorrect": false },
+            { "text": "Xương xốp", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 1, mục 4.6. Implant dạng bản, loại implant này đòi hỏi chia sẻ sự nâng đỡ với các răng khác, bản thân nó không thể đảm đương chức năng nếu chỉ có một mình, đặc biệt có thể cắm ghép vào sống hàm hẹp."
+    },
+    {
+        "question": "Trong các tiêu chuẩn thành công tối thiểu của Albrektsson và cộng sự, nếu đạt được đầy đủ các tiêu chí thì tỉ lệ thành công sẽ đạt khoảng 80% sau bao nhiêu năm theo dõi?",
+        "options": [
+            { "text": "3 năm", "isCorrect": false },
+            { "text": "5 năm", "isCorrect": false },
+            { "text": "10 năm", "isCorrect": true },
+            { "text": "15 năm", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 2, mục 1. Giới thiệu, nếu đạt được đầy đủ các tiêu chí trên thì tỉ lệ thành công sẽ đạt khoảng 85% sau 5 năm, và 80% sau 10 năm theo dõi."
+    },
+    {
+        "question": "Đâu là một trong các bệnh răng miệng không được điều trị được xem là chống chỉ định trước khi cấy ghép implant?",
+        "options": [
+            { "text": "Sâu răng men", "isCorrect": false },
+            { "text": "Viêm quanh implant", "isCorrect": false },
+            { "text": "Viêm nha chu không kiểm soát", "isCorrect": true },
+            { "text": "Răng khôn mọc lệch", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 2, mục 2.2.2. Những bệnh răng miệng không được điều trị, việc đặt implant ở những bệnh nhân viêm nha chu có thể làm gia tăng tỉ lệ thất bại và tiêu nhiều xương hơn."
+    },
+    {
+        "question": "Khi xác định bệnh nhân có bệnh tim mạch trước cấy ghép implant, nên làm gì đầu tiên?",
+        "options": [
+            { "text": "Tiến hành phẫu thuật ngay", "isCorrect": false },
+            { "text": "Hoãn can thiệp và hướng dẫn bệnh nhân liên hệ bác sĩ chuyên khoa tim mạch để xin khám lại tim", "isCorrect": true },
+            { "text": "Chỉ tăng liều thuốc tim mạch", "isCorrect": false },
+            { "text": "Chỉ yêu cầu xét nghiệm máu", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 3, mục 3.1. Bệnh nhân có vấn đề tim mạch, khi xác định bệnh nhân có bệnh tim mạch, nên hoãn can thiệp ở lần gặp đầu tiên. Hướng dẫn bệnh nhân liên hệ với bác sĩ chuyên khoa tim mạch để xin khám lại tim."
+    },
+    {
+        "question": "Trong xét nghiệm cơ bản trước cấy ghép implant, xét nghiệm huyết học bao gồm những gì?",
+        "options": [
+            { "text": "Urê, creatinin, đường máu", "isCorrect": false },
+            { "text": "Công thức máu (CTM), máu chảy, máu đông, nhóm máu", "isCorrect": true },
+            { "text": "10 thông số nước tiểu", "isCorrect": false },
+            { "text": "Điện tim (ECG)", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 3, mục 2.3.1. Xét nghiệm cơ bản, Huyết học: Công thức máu (CTM), máu chảy, máu đông, nhóm máu..."
+    },
+    {
+        "question": "Xương hàm dưới có lỗ hàm dưới thông với ống hàm dưới để mạch và thần kinh nào đi qua?",
+        "options": [
+            { "text": "Thần kinh mặt", "isCorrect": false },
+            { "text": "Thần kinh răng dưới", "isCorrect": true },
+            { "text": "Thần kinh lưỡi", "isCorrect": false },
+            { "text": "Thần kinh má", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 2. XƯƠNG HÀM DƯỚI, Giữa mặt trong của ngành hàm có lỗ hàm dưới thông với ống hàm dưới để mạch và thần kinh răng dưới đi qua."
+    },
+    {
+        "question": "Phương pháp lập kế hoạch điều trị cấy ghép nha khoa đơn giản nhất được gọi là gì?",
+        "options": [
+            { "text": "Từ dưới lên trên", "isCorrect": false },
+            { "text": "Từ trên xuống dưới", "isCorrect": true },
+            { "text": "Từ ngoài vào trong", "isCorrect": false },
+            { "text": "Từ trong ra ngoài", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 5, mục 2. KÍCH THƯỚC XƯƠNG, Phương pháp lập kế hoạch điều trị cấy ghép nha khoa đơn giản nhất là 'Từ trên xuống dưới'."
+    },
+    {
+        "question": "Khi tăng đường kính implant lên 1 mm, thì diện tích bề mặt tiếp xúc xương tăng lên bao nhiêu phần trăm?",
+        "options": [
+            { "text": "10-20%", "isCorrect": false },
+            { "text": "20-30%", "isCorrect": true },
+            { "text": "30-40%", "isCorrect": false },
+            { "text": "Trên 40%", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 5, mục 2. KÍCH THƯỚC XƯƠNG, Đối với implant hình trụ, tăng đường kính implant lên 1 mm, thì diện tích bề mặt tiếp xúc xương tăng lên 20-30%."
+    },
+    {
+        "question": "Xương tại vùng răng cấy ghép được đánh giá theo những yếu tố nào?",
+        "options": [
+            { "text": "Chỉ kích thước xương", "isCorrect": false },
+            { "text": "Chỉ chất lượng xương", "isCorrect": false },
+            { "text": "Kích thước và chất lượng xương", "isCorrect": true },
+            { "text": "Màu sắc xương", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 5, mục 4. PHÂN LOẠI XƯƠNG THEO ĐỘ ĐẶC XƯƠNG, Xương tại vùng răng cấy ghép được đánh giá theo kích thước và chất lượng xương."
+    },
+    {
+        "question": "Hiện tượng tích hợp giữa xương và implant Titan lần đầu tiên được quan sát vào năm nào?",
+        "options": [
+            { "text": "1930", "isCorrect": false },
+            { "text": "1940", "isCorrect": true },
+            { "text": "1950", "isCorrect": false },
+            { "text": "1965", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 1.1. Lịch sử ra đời của khái niệm tích hợp xương, hiện tượng tích hợp giữa xương và implant Titan lần đầu được quan sát vào năm 1940 bởi các nhà khoa học Bothe, Beaton và Davenport."
+    },
+    {
+        "question": "Cố định vi thể (hay ổn định thứ phát) của implant là một ổn định như thế nào?",
+        "options": [
+            { "text": "Cơ học", "isCorrect": false },
+            { "text": "Sinh học", "isCorrect": true },
+            { "text": "Vật lý", "isCorrect": false },
+            { "text": "Hóa học", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 2. QUÁ TRÌNH TÍCH HỢP XƯƠNG, Cố định vi thể hay ổn định thứ phát, là một ổn định sinh học."
+    },
+    {
+        "question": "Đối với bệnh nhân nghiện rượu, nguy cơ nào dễ xảy ra khi phẫu thuật?",
+        "options": [
+            { "text": "Nhiễm trùng cao", "isCorrect": false },
+            { "text": "Chảy máu ngấm ngầm do thiếu Prothrombin", "isCorrect": false },
+            { "text": "Khó gây tê", "isCorrect": false },
+            { "text": "Cả B và C", "isCorrect": true }
+        ],
+        "explanation": "Theo Bài 3, mục 3.7. Bệnh nhân nghiện rượu, Người nghiện rượu dễ có nguy cơ chảy máu ngấm ngầm do thiếu Prothrombin, ngoài ra theo kinh nghiệm một số nha sĩ nhận thấy thường rất khó gây tê cho những bệnh nhân này."
+    },
+    {
+        "question": "Chất nicotine trong thuốc lá ảnh hưởng đến quá trình liền sẹo của vết thương sau cấy ghép implant như thế nào?",
+        "options": [
+            { "text": "Làm nhanh quá trình liền sẹo", "isCorrect": false },
+            { "text": "Làm chậm quá trình liền sẹo", "isCorrect": true },
+            { "text": "Không ảnh hưởng", "isCorrect": false },
+            { "text": "Chỉ ảnh hưởng đến màu sắc vết thương", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 3, mục 3.8. Bệnh nhân nghiện thuốc lá, Chất nicotine trong thuốc lá làm chậm quá trình liền sẹo, vết thương lâu lành, nguy cơ nhiễm trùng cao tại những vị trí cấy ghép implant."
+    },
+    {
+        "question": "Yếu tố nào không phải là một yếu tố liên quan đến implant ảnh hưởng đến sự tích hợp xương?",
+        "options": [
+            { "text": "Vật liệu chế tạo", "isCorrect": false },
+            { "text": "Thiết kế implant", "isCorrect": false },
+            { "text": "Độ nhiễm bẩn bề mặt", "isCorrect": false },
+            { "text": "Tuổi của bệnh nhân", "isCorrect": true }
+        ],
+        "explanation": "Theo Bài 6, mục 3. YẾU TỐ ẢNH HƯỞNG LÊN QUÁ TRÌNH TÍCH HỢP XƯƠNG, tuổi của bệnh nhân là yếu tố liên quan đến bệnh nhân, không phải liên quan đến implant."
+    },
+    {
+        "question": "Theo Misch và Judy, xương hàm trên phẳng, xương hàm dưới nhọn như đầu bút chì, và mất xương nền là đặc điểm của loại xương nào?",
+        "options": [
+            { "text": "Loại A", "isCorrect": false },
+            { "text": "Loại B", "isCorrect": false },
+            { "text": "Loại C", "isCorrect": false },
+            { "text": "Loại D", "isCorrect": true }
+        ],
+        "explanation": "Theo Bài 5, Bảng 5.1. Phân loại xương theo Misch và Judy, Loại D (thiểu sản xương hàm) có đặc điểm tiêu xương trầm trọng, mất xương nền, xương hàm trên phẳng, xương hàm dưới nhọn như đầu bút chì."
+    },
+    {
+        "question": "Chất lượng xương loại D4 theo Misch có đặc điểm gì?",
+        "options": [
+            { "text": "Xương vỏ, đặc", "isCorrect": false },
+            { "text": "Xương vỏ dày với xương xốp thô bên trong", "isCorrect": false },
+            { "text": "Xương vỏ mỏng xốp", "isCorrect": false },
+            { "text": "Xương xốp mịn", "isCorrect": true }
+        ],
+        "explanation": "Theo Bài 5, Bảng 5.2. Phân loại độ đặc xương theo Misch, loại D4 là xương xốp mịn."
+    },
+    {
+        "question": "Trên phim chụp cắt lớp vi tính (CT), mật độ xương loại D1 có giá trị Hounsfield units là bao nhiêu?",
+        "options": [
+            { "text": "<150 HU", "isCorrect": false },
+            { "text": "150-350 HU", "isCorrect": false },
+            { "text": "350-850 HU", "isCorrect": false },
+            { "text": ">1250 HU", "isCorrect": true }
+        ],
+        "explanation": "Theo Bài 5, Bảng 5.4. Đánh giá mật độ xương trên cắt lớp vi tính, loại D1 có mật độ >1250 Hounsfield units."
+    },
+    {
+        "question": "Niêm cốt mạc có độ dày 2-3 mm được cho là thuận lợi cho cấy ghép nha khoa và phục hình vì sao?",
+        "options": [
+            { "text": "Giúp cổ răng phục hình nằm ngang bờ lợi hoặc nằm dưới lợi, đạt thẩm mỹ cao", "isCorrect": true },
+            { "text": "Làm cho phần phục hình bị kéo dài", "isCorrect": false },
+            { "text": "Ảnh hưởng xấu tới tỷ lệ chiều dài chân răng và thân răng", "isCorrect": false },
+            { "text": "Gây tiêu xương cổ chân răng cấy ghép", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 6. NIÊM MẠC MIỆNG, Niêm cốt mạc có độ dày 2-3 mm được cho là thuận lợi cho cấy ghép nha khoa và phục hình, giúp cổ răng phục hình có vị trí tốt."
+    },
+    {
+        "question": "Trong quá trình tiêu xương ổ răng ở hàm trên, theo phân loại Atwood, giai đoạn III được mô tả là gì?",
+        "options": [
+            { "text": "Thay đổi sống hàm tối thiểu", "isCorrect": false },
+            { "text": "Thiểu sản sống hàm sắc cạnh", "isCorrect": false },
+            { "text": "Sống hàm dạng nền", "isCorrect": true },
+            { "text": "Tiêu xương nền", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, Bảng 4.1. Các giai đoạn tiêu sống hàm sau khi mất răng (Atwood, 1963), Giai đoạn III là sống hàm dạng nền."
+    },
+    {
+        "question": "Lớp niêm cốt mạc (niêm mạc xoang) trong xoang hàm mỏng và dính với cốt mạc bên dưới, có thể bóc tách tương đối dễ khi làm phẫu thuật nào?",
+        "options": [
+            { "text": "Phẫu thuật nâng đáy xoang hàm", "isCorrect": true },
+            { "text": "Phẫu thuật nhổ răng", "isCorrect": false },
+            { "text": "Phẫu thuật nội nha", "isCorrect": false },
+            { "text": "Phẫu thuật điều chỉnh xương hàm", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 1. XƯƠNG HÀM TRÊN, Lớp niêm cốt mạc có thể bóc tách tương đối dễ khi làm phẫu thuật nâng đáy xoang hàm."
+    },
+    {
+        "question": "Khoảng cách từ trần của ống hàm dưới tới sàn của huyệt ổ răng hàm lớn thứ ba trung bình là bao nhiêu mm?",
+        "options": [
+            { "text": "3-4 mm", "isCorrect": true },
+            { "text": "5-6 mm", "isCorrect": false },
+            { "text": "7-8 mm", "isCorrect": false },
+            { "text": "Trên 8 mm", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 2. XƯƠNG HÀM DƯỚI, Khoảng cách từ trần của ống hàm dưới tới sàn của huyệt ổ răng hàm lớn thứ ba từ 3-4 mm, và khoảng 8 mm với răng hàm lớn thứ nhất."
+    },
+    {
+        "question": "Khi mất răng, răng đối không còn tiếp xúc và sẽ bị trồi lên. Khoảng trống này cần có kích thước ít nhất bao nhiêu mm để đủ cho trụ phục hình (Abutment) và mão răng dự kiến?",
+        "options": [
+            { "text": "3mm", "isCorrect": false },
+            { "text": "5mm", "isCorrect": true },
+            { "text": "7mm", "isCorrect": false },
+            { "text": "10mm", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 4, mục 7. THAY ĐỔI GIẢI PHẪU SAU MẤT RĂNG, Khoảng trống này cần phải có kích thước ít nhất 5mm để đủ cho trụ phục hình (Abutment) và mão răng dự kiến."
+    },
+    {
+        "question": "Theo nghiên cứu của Oikarinen K. và cs. trên 431 bệnh nhân, chiều dài chân răng cấy ghép được sử dụng nhiều nhất là bao nhiêu mm?",
+        "options": [
+            { "text": "6 mm", "isCorrect": false },
+            { "text": "10 mm", "isCorrect": false },
+            { "text": "11.5 mm", "isCorrect": false },
+            { "text": "16 mm", "isCorrect": true }
+        ],
+        "explanation": "Theo Bài 5, mục 2.1. Chiều cao xương, nghiên cứu của Oikarinen K. và cs. trên 431 bệnh nhân cho thấy chiều dài chân răng cấy ghép, 6mm được sử dụng ở 38% bệnh nhân, và chiều dài 16mm- ở 50% bệnh nhân."
+    },
+    {
+        "question": "Nghiên cứu của Hoàng Tuấn Anh và cs. (2005) trên 200 chân răng cấy ghép tại Việt Nam cho thấy chiều dài implant được sử dụng nhiều nhất là bao nhiêu mm?",
+        "options": [
+            { "text": "8 mm", "isCorrect": false },
+            { "text": "10 mm", "isCorrect": false },
+            { "text": "11.5 mm", "isCorrect": true },
+            { "text": "13 mm", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 5, mục 2.1. Chiều cao xương, nghiên cứu của Hoàng Tuấn Anh và cs. (2005) trên 200 chân răng cấy ghép cho thấy chiều dài được sử dụng nhiều nhất là 11.5mm (43%)."
+    },
+    {
+        "question": "Khi xương loại B (xương gần đủ), phương án điều trị nào có thể được lựa chọn?",
+        "options": [
+            { "text": "Chỉ cấy implant đường kính lớn (4mm)", "isCorrect": false },
+            { "text": "Tạo hình xương, ghép xương, cấy implant đường kính nhỏ", "isCorrect": true },
+            { "text": "Cấy implant dạng bản dẹt", "isCorrect": false },
+            { "text": "Không điều trị", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 5, mục 3. PHÂN LOẠI XƯƠNG THEO KÍCH THƯỚC, Đối với xương loại B, các phương án điều trị có thể lựa chọn là: tạo hình xương, ghép xương, cấy implant đường kính nhỏ (3.25mm hoặc 2.5mm)."
+    },
+    {
+        "question": "Mật độ xương có thể xác định chính xác khi nào?",
+        "options": [
+            { "text": "Bằng cảm giác khi làm phẫu thuật", "isCorrect": false },
+            { "text": "Bằng xác suất khi gặp tại các vùng giải phẫu khác nhau", "isCorrect": false },
+            { "text": "Bằng phim X quang thường", "isCorrect": false },
+            { "text": "Đo mật độ trên phim chụp cắt lớp vi tính bằng đơn vị Hounsfield", "isCorrect": true }
+        ],
+        "explanation": "Theo Bài 5, mục 4. PHÂN LOẠI XƯƠNG THEO ĐỘ ĐẶC XƯƠNG, Xác định mật độ xương chỉ chính xác khi đo mật độ trên phim chụp cắt lớp vi tính bằng đơn vị Hounsfield."
+    },
+    {
+        "question": "Theo Bảng 5.3, loại xương D2 thường gặp nhiều nhất ở vị trí giải phẫu nào?",
+        "options": [
+            { "text": "Phần trước hàm trên", "isCorrect": false },
+            { "text": "Phần sau hàm trên", "isCorrect": false },
+            { "text": "Phần trước hàm dưới", "isCorrect": true },
+            { "text": "Phần sau hàm dưới", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 5, Bảng 5.3. Vị trí giải phẫu thường gặp của các mật độ xương, loại D2 có tỉ lệ cao nhất ở phần trước hàm dưới (66%)."
+    },
+    {
+        "question": "Theo Bảng 5.4, mật độ xương loại D5 có giá trị Hounsfield units là bao nhiêu?",
+        "options": [
+            { "text": ">1250 HU", "isCorrect": false },
+            { "text": "850-1250 HU", "isCorrect": false },
+            { "text": "350-850 HU", "isCorrect": false },
+            { "text": "<150 HU", "isCorrect": true }
+        ],
+        "explanation": "Theo Bài 5, Bảng 5.4. Đánh giá mật độ xương trên cắt lớp vi tính, loại D5 có giá trị <150 Hounsfield units."
+    },
+    {
+        "question": "Khi implant bị bao quanh bởi mô sợi, nếu có lực tác dụng, mô sợi dãn ra, kích thích phản ứng viêm, gây tiêu xương, kết quả là gì?",
+        "options": [
+            { "text": "Implant thành công", "isCorrect": false },
+            { "text": "Implant ổn định", "isCorrect": false },
+            { "text": "Implant thất bại", "isCorrect": true },
+            { "text": "Implant tích hợp xương tốt", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 1.2. Định nghĩa tích hợp xương (Thuyết tích hợp xương-sợi), Khi implant bị bao quanh bởi mô sợi, nếu có lực tác dụng, mô sợi dãn ra, kích thích phản ứng viêm, gây tiêu xương, kết quả là implant thất bại."
+    },
+    {
+        "question": "Quá trình lành xương nguyên phát thường xảy ra ở vùng tổn thương như thế nào?",
+        "options": [
+            { "text": "Tổn thương khuyết hồng/nứt gãy lớn", "isCorrect": false },
+            { "text": "Vùng tổn thương sạch", "isCorrect": true },
+            { "text": "Vùng có nhiễm trùng", "isCorrect": false },
+            { "text": "Vùng có tổ chức sợi-sụn", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 2.1. Liền xương đại cương, Liền xương nguyên phát: Xảy ra ở vùng tổn thương sạch."
+    },
+    {
+        "question": "Hình thành xương không tiếp xúc (distance osteogenesis) là gì?",
+        "options": [
+            { "text": "Xương hình thành trực tiếp trên bề mặt implant", "isCorrect": false },
+            { "text": "Xương hình thành từ phía bề mặt xương cũ, tiến dần về phía implant", "isCorrect": true },
+            { "text": "Tế bào xương xuyên qua lớp máu đông đến bám vào bề mặt implant", "isCorrect": false },
+            { "text": "Là quá trình nhanh, tạo sự bền vững sớm", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 2.1. Liền xương đại cương, Hình thành xương không tiếp xúc (distance osteogenesis): xương hình thành từ phía bề mặt xương cũ, tiến dần về phía implant."
+    },
+    {
+        "question": "Giai đoạn hình thành xương (tuần 1 - tuần 5) trong quá trình lành thương bao gồm sự xuất hiện của gì?",
+        "options": [
+            { "text": "Cục máu đông", "isCorrect": false },
+            { "text": "Mô hạt", "isCorrect": false },
+            { "text": "Nhiều mạch máu và xương dệt hình thành", "isCorrect": true },
+            { "text": "Xương lá", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 2.1.1. Quá trình lành thương, Giai đoạn hình thành xương (tuần 1 - tuần 5): xuất hiện nhiều mạch máu. Xương dệt hình thành và phát triển từ xương cũ tiến về phía mô liên kết."
+    },
+    {
+        "question": "Quá trình tái cấu trúc giao diện xương-implant và xương nâng đỡ lân cận diễn ra trong khoảng thời gian nào?",
+        "options": [
+            { "text": "Tuần 0 đến tuần 6", "isCorrect": false },
+            { "text": "Tuần 6 đến tuần 18", "isCorrect": true },
+            { "text": "Tuần 18 đến tuần 54", "isCorrect": false },
+            { "text": "Sau 1 năm", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 2.1.2. Quá trình sửa chữa và tái cấu trúc, Tái cấu trúc giao diện: xảy ra từ tuần 6 đến tuần 18."
+    },
+    {
+        "question": "Vật liệu có tính chấp nhận sinh học (biotolerant) có đặc điểm gì?",
+        "options": [
+            { "text": "Xảy ra tích hợp xương trực tiếp", "isCorrect": false },
+            { "text": "Hình thành một lớp mô mềm quanh implant", "isCorrect": true },
+            { "text": "Kích thích lắng đọng khoáng xương", "isCorrect": false },
+            { "text": "Có phản ứng hóa học với xương", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 3.1.1. Vật liệu, thiết kế và bề mặt Implant, Trên bề mặt các vật liệu có tính chấp nhận sinh học (biotolerant), sự tích hợp xương không xảy ra, thay vào đó là một lớp mô mềm."
+    },
+    {
+        "question": "Chất liệu Zirconia được dùng làm abutment từ những năm 90, nhưng còn hạn chế khi chế tác làm trụ implant do đặc tính nào?",
+        "options": [
+            { "text": "Tính dẻo", "isCorrect": false },
+            { "text": "Tính cứng", "isCorrect": false },
+            { "text": "Tính giòn", "isCorrect": true },
+            { "text": "Tính thích nghi sinh học kém", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 3.1.1. Vật liệu, thiết kế và bề mặt Implant, Zirconia có tính giòn nên việc chế tác làm trụ implant còn nhiều hạn chế."
+    },
+    {
+        "question": "Đâu là một yếu tố liên quan đến bệnh nhân ảnh hưởng đến sự tích hợp xương?",
+        "options": [
+            { "text": "Thiết kế implant", "isCorrect": false },
+            { "text": "Sinh nhiệt trong quá trình cắt xương", "isCorrect": false },
+            { "text": "Vệ sinh răng miệng kém", "isCorrect": true },
+            { "text": "Lực torque khi cắm implant", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 3.2.2. Tình trạng toàn thân, Vệ sinh răng miệng kém, bệnh nha chu không kiểm soát làm giảm khả năng tích hợp xương."
+    },
+    {
+        "question": "Trong kỹ thuật cắm implant, tốc độ mũi khoan lý tưởng nên dưới bao nhiêu rpm?",
+        "options": [
+            { "text": "1000 rpm", "isCorrect": false },
+            { "text": "2000 rpm", "isCorrect": true },
+            { "text": "3000 rpm", "isCorrect": false },
+            { "text": "4000 rpm", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 3.3. Yếu tố liên quan phẫu thuật, Dùng mũi khoan sắc với tốc độ <2000 rpm."
+    },
+    {
+        "question": "Khi sử dụng máy đo độ lung lay răng Periotest, nếu giá trị đo được từ +10 đến +50, điều đó có nghĩa là gì?",
+        "options": [
+            { "text": "Tích hợp xương tốt", "isCorrect": false },
+            { "text": "Sẵn sàng chịu lực", "isCorrect": false },
+            { "text": "Chưa tích hợp xương, implant không chịu lực được", "isCorrect": true },
+            { "text": "Có thể tích hợp xương sau đó", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 4.1. Phương pháp gõ (percussion test), nếu giá trị đo được từ +10 đến +50: chưa tích hợp xương, implant không chịu lực được."
+    },
+    {
+        "question": "Phương pháp torque ngược (reverse torque) có thể gây ra biến chứng gì nếu thực hiện trên implant đã tích hợp xương?",
+        "options": [
+            { "text": "Tăng tích hợp xương", "isCorrect": false },
+            { "text": "Không ảnh hưởng", "isCorrect": false },
+            { "text": "Nứt gãy sự tích hợp đang diễn ra", "isCorrect": true },
+            { "text": "Giảm nhiễm trùng", "isCorrect": false }
+        ],
+        "explanation": "Theo Bài 6, mục 4.2. Phương pháp torque ngược (reverse torque), nếu thực hiện vặn ngược trên implant đã tích hợp xương, có khả năng gây nứt gãy sự tích hợp đang diễn ra."
+    }
+]

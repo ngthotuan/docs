@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Những thói quen xấu về răng miệng ở trẻ em</title>
+<style>
+  :root{--card:#1e293b;--accent:#2dd4bf;--ok:#22c55e;--bad:#ef4444;--txt:#e2e8f0;--muted:#94a3b8;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(160deg,#0f172a,#08201d);color:var(--txt);line-height:1.5;padding:16px;}
+  .wrap{max-width:820px;margin:0 auto;}
+  header{text-align:center;padding:14px 0 8px;}
+  header h1{font-size:1.35rem;margin:0 0 4px;color:#fff;}
+  header p{margin:2px 0;color:var(--muted);font-size:.9rem;}
+  .topnav{text-align:center;margin-top:8px;}
+  .topnav a{color:var(--accent);font-size:.82rem;text-decoration:none;}
+  .panel{background:var(--card);border:1px solid #334155;border-radius:14px;padding:20px;margin-top:16px;box-shadow:0 8px 30px rgba(0,0,0,.35);}
+  .bar{height:8px;background:#0b1220;border-radius:99px;overflow:hidden;margin:10px 0 4px;}
+  .bar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),#22c55e);transition:width .3s;}
+  .meta{display:flex;justify-content:space-between;font-size:.82rem;color:var(--muted);margin-bottom:6px;flex-wrap:wrap;gap:6px;}
+  .q{font-size:1.08rem;font-weight:600;margin:6px 0 14px;color:#fff;}
+  .opt{display:block;width:100%;text-align:left;background:#0b1220;border:1.5px solid #334155;color:var(--txt);border-radius:10px;padding:12px 14px;margin:8px 0;cursor:pointer;font-size:.98rem;transition:all .15s;}
+  .opt:hover:not(:disabled){border-color:var(--accent);}
+  .opt .k{display:inline-block;width:22px;font-weight:700;color:var(--accent);}
+  .opt.correct{border-color:var(--ok);background:rgba(34,197,94,.12);}
+  .opt.wrong{border-color:var(--bad);background:rgba(239,68,68,.12);}
+  .opt:disabled{cursor:default;opacity:.95;}
+  .explain{margin-top:10px;padding:11px 13px;border-radius:10px;background:#0b1220;border-left:4px solid var(--accent);font-size:.9rem;color:#cbd5e1;display:none;}
+  .explain.show{display:block;}
+  .row{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;}
+  button.btn{background:var(--accent);color:#052e2b;border:none;border-radius:10px;padding:11px 18px;font-weight:700;cursor:pointer;font-size:.95rem;}
+  button.btn.sec{background:#334155;color:#e2e8f0;}
+  button.btn:disabled{opacity:.4;cursor:not-allowed;}
+  .center{text-align:center;}
+  .big{font-size:2.4rem;font-weight:800;color:#fff;margin:6px 0;}
+  .tag{display:inline-block;font-size:.72rem;background:#0b1220;border:1px solid #334155;color:var(--muted);padding:3px 9px;border-radius:99px;margin-bottom:8px;}
+  .grid{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+  .chip{font-size:.8rem;padding:6px 10px;border-radius:8px;border:1px solid #334155;background:#0b1220;cursor:pointer;}
+  .chip.on{border-color:var(--accent);color:var(--accent);}
+  .review-item{border-top:1px solid #334155;padding:12px 0;font-size:.9rem;}
+  .review-item .ri-q{font-weight:600;color:#fff;}
+  .review-item .ri-a{color:#cbd5e1;margin-top:4px;}
+  .ok{color:var(--ok)} .bad{color:var(--bad)}
+  a.src{color:var(--muted);font-size:.78rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">ĐỀ 7 · Trắc nghiệm A/B/C/D</span>
+    <h1>Những thói quen xấu về răng miệng ở trẻ em</h1>
+    <p>Nghiến răng · Mút ngón tay · Mút/cắn môi má · Thở miệng · Đẩy lưỡi · Khí cụ điều trị</p>
+    <div class="topnav"><a href="index.html">&#8592; Danh sách đề</a></div>
+  </header>
+
+  <div class="panel" id="start">
+    <p>Bộ câu hỏi bám sát tài liệu. Mỗi câu có 4 phương án gần giống nhau để tăng độ khó. Chọn số câu muốn luyện:</p>
+    <div class="grid" id="countChips"></div>
+    <div class="row">
+      <label style="display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)">
+        <input type="checkbox" id="shuffle" checked> Xáo trộn câu hỏi &amp; đáp án
+      </label>
+    </div>
+    <div class="row">
+      <button class="btn" onclick="startQuiz()">Bắt đầu luyện tập &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel" id="quiz" style="display:none">
+    <div class="meta"><span id="progressTxt"></span><span id="scoreTxt"></span></div>
+    <div class="bar"><i id="progressBar"></i></div>
+    <div class="q" id="qText"></div>
+    <div id="opts"></div>
+    <div class="explain" id="explain"></div>
+    <div class="row">
+      <button class="btn sec" id="skipBtn" onclick="nextQ()">Bỏ qua</button>
+      <button class="btn" id="nextBtn" onclick="nextQ()" disabled>Câu tiếp &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel center" id="result" style="display:none">
+    <p class="tag">KẾT QUẢ</p>
+    <div class="big" id="finalScore"></div>
+    <p id="finalMsg" style="color:var(--muted)"></p>
+    <div class="row" style="justify-content:center">
+      <button class="btn" onclick="location.reload()">Làm lại &#8635;</button>
+      <button class="btn sec" onclick="toggleReview()">Xem lại bài &#9662;</button>
+    </div>
+    <div id="review" style="text-align:left;display:none;margin-top:14px"></div>
+  </div>
+
+  <p class="center" style="margin-top:18px"><a class="src" href="8. THÓI QUEN XẤU.pdf">Nguồn: 8. THÓI QUEN XẤU.pdf</a></p>
+</div>
+
+<script>
+const BANK = [{"q": "Thói quen được định nghĩa là:", "a": ["Hành động cố định, được lặp đi lặp lại thường xuyên", "Hành động ngẫu nhiên chỉ xảy ra một lần", "Phản xạ bẩm sinh không thay đổi", "Bệnh lý tâm thần"], "c": 0, "e": "Thói quen là hành động cố định, được lặp đi lặp lại thường xuyên."}, {"q": "Thói quen răng miệng kéo dài bao lâu thì gây triệu chứng và trở thành 'thói quen xấu'?", "a": ["3–4 năm", "6 tháng", "10 năm", "Vài tuần"], "c": 0, "e": "Thói quen kéo dài trong 3–4 năm sẽ gây ra triệu chứng, có thể ảnh hưởng xấu đến sự phát triển của hệ thống hàm mặt → thói quen xấu."}, {"q": "Sự hiện diện thói quen răng miệng ở độ tuổi nào là phát hiện quan trọng khi khám lâm sàng?", "a": ["Khoảng 3–6 tuổi", "0–1 tuổi", "10–12 tuổi", "Trên 15 tuổi"], "c": 0, "e": "Sự hiện diện của thói quen răng miệng trong khoảng 3–6 tuổi là phát hiện quan trọng trong thăm khám lâm sàng."}, {"q": "Dạng thay đổi trong bộ răng do thói quen gây ra phụ thuộc vào 3 yếu tố nào?", "a": ["Cường độ, tần suất, thời gian", "Tuổi, giới, cân nặng", "Màu răng, số răng, hình răng", "Di truyền, dinh dưỡng, hormon"], "c": 0, "e": "Dạng thay đổi phụ thuộc cường độ, tần suất và thời gian của thói quen."}, {"q": "'Cường độ' của thói quen được hiểu là:", "a": ["Độ lớn của lực tác động lên răng khi thực hiện thói quen", "Số lần thực hiện trong một đơn vị thời gian", "Thời gian thực hiện trong một ngày", "Số năm duy trì thói quen"], "c": 0, "e": "Cường độ là độ lớn của lực tác động lên răng khi thực hiện thói quen (ví dụ mút tay)."}, {"q": "'Tần suất' của thói quen được hiểu là:", "a": ["Số lần thực hiện thói quen trong một đơn vị thời gian", "Độ lớn của lực tác động", "Thời gian thực hiện trong một ngày", "Cường độ của lực"], "c": 0, "e": "Tần suất là số lần thực hiện thói quen trong một đơn vị thời gian."}, {"q": "Yếu tố nào đóng vai trò QUAN TRỌNG NHẤT trong sự di chuyển răng?", "a": ["Thời gian", "Cường độ", "Tần suất", "Tuổi của trẻ"], "c": 0, "e": "Thời gian đóng vai trò quan trọng nhất trong sự di chuyển răng."}, {"q": "Theo lâm sàng và thực nghiệm, thời gian lực tác động cần thiết mỗi ngày để gây di chuyển răng là:", "a": ["4–6 tiếng/ngày", "1–2 tiếng/ngày", "10–12 tiếng/ngày", "Chỉ vài phút/ngày"], "c": 0, "e": "4–6 tiếng lực tác động/ngày là yếu tố cần thiết gây ra di chuyển răng."}, {"q": "Điều quan trọng nhất quyết định sự thành công của điều trị thói quen là:", "a": ["Can thiệp làm cho đứa trẻ không tiếp tục thói quen nữa", "Dùng khí cụ đắt tiền nhất", "Trừng phạt trẻ nghiêm khắc", "Nhổ răng bị ảnh hưởng"], "c": 0, "e": "Bất kỳ sự can thiệp nào mà chính can thiệp đó làm đứa trẻ không tiếp tục thói quen thì điều trị sẽ thành công."}, {"q": "Ba liệu pháp điều trị thói quen (theo mức độ sẵn sàng của trẻ) là:", "a": ["Nhắc nhở, phần thưởng, khí cụ", "Nhổ răng, trám răng, chỉnh nha", "Kháng sinh, giảm đau, an thần", "Phẫu thuật, laser, cấy ghép"], "c": 0, "e": "Ba liệu pháp: nhắc nhở, phần thưởng và khí cụ (tùy sự sẵn sàng của trẻ để dừng thói quen)."}, {"q": "Liệu pháp NHẮC NHỞ phù hợp với đối tượng nào?", "a": ["Trẻ muốn dừng thói quen nhưng cần sự trợ giúp để dừng hoàn toàn", "Trẻ không muốn dừng thói quen", "Trẻ chậm phát triển trí tuệ nặng", "Trẻ đã bỏ hẳn thói quen"], "c": 0, "e": "Liệu pháp nhắc nhở thích hợp với ai muốn dừng thói quen nhưng cần trợ giúp để dừng hoàn toàn (ví dụ thoa chất có mùi, bọc bao ngón tay)."}, {"q": "Liệu pháp KHÍ CỤ được dùng khi nào?", "a": ["Khi hai liệu pháp nhắc nhở và phần thưởng thất bại", "Ngay từ đầu cho mọi trẻ", "Chỉ khi trẻ đã bỏ thói quen", "Không bao giờ dùng cho trẻ em"], "c": 0, "e": "Liệu pháp khí cụ dùng khi 2 liệu pháp trên thất bại; không phải hình phạt mà là sự nhắc nhở lâu dài."}, {"q": "Thời gian mang khí cụ tối thiểu để loại bỏ thói quen là:", "a": ["6 tháng", "1 tháng", "2 năm", "2 tuần"], "c": 0, "e": "Thời gian mang khí cụ tối thiểu 6 tháng để loại bỏ thói quen; thời gian duy trì tùy loại khí cụ."}, {"q": "Khí cụ điều trị thói quen có thể gây ảnh hưởng tạm thời nào?", "a": ["Ăn uống, phát âm, giấc ngủ", "Mất thị lực", "Rối loạn tiêu hóa vĩnh viễn", "Suy giảm trí nhớ"], "c": 0, "e": "Khí cụ có thể ảnh hưởng tạm thời đến ăn uống, phát âm, giấc ngủ."}, {"q": "Nguyên nhân nào KHÔNG được nêu cho tật nghiến răng?", "a": ["Thiếu Fluor", "Sự căng thẳng thần kinh", "Khớp cắn chưa ổn định, có cản trở", "Động kinh, viêm não, xáo trộn tiêu hóa"], "c": 0, "e": "Nguyên nhân nghiến răng: căng thẳng thần kinh, kích thích ngứa, khớp cắn chưa ổn định/có cản trở, dịch tả/động kinh/viêm não/xáo trộn tiêu hóa — không phải thiếu Fluor."}, {"q": "Triệu chứng khách quan của nghiến răng gồm:", "a": ["Tiếng nghiến ban đêm, mòn răng (mặt nhai răng cối), vỡ men bờ cắn", "Sốt cao", "Chảy máu nướu tự nhiên", "Sưng hạch cổ"], "c": 0, "e": "Triệu chứng khách quan: tiếng (ban đêm), mòn răng (mặt nhai răng cối, mặt lưỡi răng trên), vỡ men bờ cắn, tổn thương tủy (hiếm)."}, {"q": "Điều trị nghiến răng ở giai đoạn hệ răng hỗn hợp và vĩnh viễn thường dùng:", "a": ["Máng cao su mềm", "Mão zirconia toàn hàm", "Nhổ răng cối", "Kháng sinh dài ngày"], "c": 0, "e": "Ở giai đoạn răng hỗn hợp và vĩnh viễn: dùng những máng cao su mềm."}, {"q": "Với trẻ nghiến răng ở thời kỳ răng sữa/mới mọc răng cối vĩnh viễn thứ nhất, xử trí là:", "a": ["Phục hồi chiều cao khớp cắn (răng cối dùng mão kim loại toàn diện)", "Chỉ dùng máng cao su mềm", "Nhổ răng nghiến", "Không cần điều trị"], "c": 0, "e": "Với trẻ thời kỳ răng sữa hay mới mọc răng cối vĩnh viễn thứ nhất: phục hồi chiều cao khớp cắn; răng cối dùng mão kim loại toàn diện."}, {"q": "Thói quen tự gây chấn thương thường gặp ở nhóm nào?", "a": ["10–20% người chậm phát triển trí tuệ (hiếm ở trẻ bình thường)", "Đa số trẻ bình thường", "Chỉ người lớn tuổi", "Trẻ sơ sinh"], "c": 0, "e": "Tự gây chấn thương hiếm gặp ở trẻ bình thường; gặp ở 10–20% người chậm phát triển trí tuệ."}, {"q": "Biểu hiện lâm sàng của thói quen tự gây chấn thương gồm:", "a": ["Trầy xước mô quanh răng, nướu tụt (phía ngoài), tiêu xương ổ", "Sâu răng lan tỏa", "Vỡ men bờ cắn", "Mòn mặt nhai răng cối"], "c": 0, "e": "Tự gây chấn thương: khu trú một/nhiều răng, trầy xước mô quanh răng, nướu tụt phía ngoài, tiêu xương ổ."}, {"q": "Điều trị thói quen tự gây chấn thương gồm:", "a": ["Tìm nguyên nhân (stress, miếng trám, phục hình, khớp cắn), chuyển chuyên gia tâm lý, điều chỉnh khớp cắn", "Nhổ toàn bộ răng bị ảnh hưởng", "Dùng kháng sinh", "Chỉ theo dõi không can thiệp"], "c": 0, "e": "Điều trị: tìm nguyên nhân (stress, miếng trám, phục hình, khớp cắn), giải thích phụ huynh, chuyển chuyên gia tâm lý, điều chỉnh khớp cắn/miếng trám/phục hình."}, {"q": "Nguyên nhân của thói quen cắn môi má gồm:", "a": ["Stress tâm lý (lo âu, căng thẳng, sợ hãi) hoặc sau khi ngưng thói quen mút ngón tay", "Thiếu canxi", "Nhiễm nấm miệng", "Mọc răng khôn"], "c": 0, "e": "Cắn môi má do stress tâm lý (lo âu, căng thẳng, sợ hãi) hoặc do thói quen xuất hiện sau khi ngưng mút ngón tay."}, {"q": "Điều trị cắn môi má thường phối hợp:", "a": ["Bác sĩ tâm thần, bác sĩ tâm lý, gia đình và khí cụ ngăn ngừa", "Chỉ nhổ răng", "Chỉ dùng kháng sinh", "Phẫu thuật cắt môi"], "c": 0, "e": "Điều trị cắn môi má: phối hợp bác sĩ tâm thần, tâm lý, gia đình và dùng khí cụ ngăn ngừa."}, {"q": "Về tật cắn móng tay, phát biểu nào ĐÚNG?", "a": ["Không có bằng chứng gây rối loạn khớp cắn và không có liệu pháp điều trị nào được đưa ra", "Luôn gây lệch lạc khớp cắn nặng", "Cần nhổ răng ngay", "Chỉ gặp ở trẻ dưới 3 tuổi"], "c": 0, "e": "Cắn móng tay hiếm gặp trước 3–6 tuổi, thường gặp ở tuổi thanh niên, do stress; không có bằng chứng gây rối loạn khớp cắn và không có liệu pháp điều trị nào được đưa ra."}, {"q": "Cắn móng tay thường gặp nhất ở độ tuổi nào?", "a": ["Tuổi thanh niên", "Trẻ sơ sinh", "Trẻ 1–2 tuổi", "Người cao tuổi"], "c": 0, "e": "Cắn móng tay hiếm gặp ở trẻ trước 3–6 tuổi, thường gặp ở tuổi thanh niên."}, {"q": "Biểu hiện lâm sàng của tật mút môi (dưới) gồm:", "a": ["Cắn chìa, cắn sâu, môi dưới nằm trong răng cửa trên, sang thương bán nguyệt môi dưới", "Cắn ngược toàn hàm", "Mặt phẳng, cằm lẹm", "Răng dưới nghiêng ngoài"], "c": 0, "e": "Mút môi dưới: cắn chìa, cắn sâu, môi dưới trong răng cửa trên, sang thương bán nguyệt/môi dưới dễ bội nhiễm nứt nẻ, cắn hở, hẹp hàm trên, tăng trương lực cơ cằm."}, {"q": "Mút môi TRÊN có thể gây biểu hiện nào?", "a": ["Cắn ngược", "Cắn chìa", "Cắn sâu", "Hẹp hàm dưới"], "c": 0, "e": "Mút môi trên có thể gây cắn ngược; mút môi dưới gây cắn chìa/cắn sâu."}, {"q": "Điều trị tật mút môi gồm:", "a": ["Điều trị tâm lý, điều trị viêm loét môi, khí cụ chỉnh hình giảm cắn chìa", "Nhổ răng cửa", "Chỉ dùng kháng sinh", "Phẫu thuật hàm"], "c": 0, "e": "Điều trị mút môi: điều trị tâm lý, điều trị viêm loét môi, khí cụ chỉnh hình giảm cắn chìa đến mức chấp nhận được."}, {"q": "Khí cụ 'Lip Bumper' (tấm chặn môi) có chỉ định nào?", "a": ["Loại bỏ thói quen mút/cắn môi, thở miệng; tạo khoảng giảm chen chúc răng hàm dưới", "Điều trị nghiến răng ban đêm", "Trám bít hố rãnh", "Nhổ răng thừa"], "c": 0, "e": "Lip Bumper chỉ định: loại bỏ thói quen mút môi/cắn môi, loại bỏ thở miệng, tạo khoảng làm giảm chen chúc răng hàm dưới, tạo sự ăn khớp giữa răng hàm trên và dưới."}, {"q": "Thở miệng được định nghĩa là:", "a": ["Thói quen hô hấp bằng miệng thay vì hô hấp bằng mũi", "Thói quen ngậm miệng khi ngủ", "Nuốt lệch khi ăn", "Đẩy lưỡi ra trước"], "c": 0, "e": "Thở miệng là thói quen hô hấp bằng miệng thay vì hô hấp bằng mũi."}, {"q": "Rối loạn khớp cắn liên quan thở miệng đặc trưng bởi:", "a": ["Khuôn mặt dài và hàm trên hẹp", "Khuôn mặt ngắn và hàm trên rộng", "Cằm nhô, mặt vuông", "Không có thay đổi hình thái"], "c": 0, "e": "Có bằng chứng về mối liên hệ giữa thở miệng và rối loạn khớp cắn đặc trưng bởi khuôn mặt dài và hàm trên hẹp."}, {"q": "Nguyên nhân của thở miệng KHÔNG bao gồm:", "a": ["Thiếu vitamin D", "Di truyền hình thái khuôn mặt", "Đường mũi bị cản trở", "Giải phẫu (môi trên ngắn)"], "c": 0, "e": "Nguyên nhân thở miệng: di truyền hình thái khuôn mặt, đường mũi bị cản trở, thói quen, giải phẫu (môi trên ngắn) — không phải thiếu vitamin D."}, {"q": "Biểu hiện lâm sàng của thở miệng gồm:", "a": ["Mặt dài hẹp, răng cửa hàm trên nhô trước, cung hàm trên hình chữ V, vòm khẩu cao", "Mặt ngắn rộng, cằm nhô", "Cắn ngược toàn hàm", "Răng dưới nghiêng ngoài"], "c": 0, "e": "LS thở miệng: mặt dài và hẹp, răng cửa hàm trên nhô trước, môi hở (môi dưới sau răng cửa trên), cung hàm trên hình chữ V, vòm khẩu cao, mô nướu viêm khô."}, {"q": "Khí cụ điều trị thở miệng gồm:", "a": ["Tấm chặn môi (Lip Bumper) và Trainer", "Máng cao su nghiến răng", "Mão thép làm sẵn", "Hàm giả tháo lắp"], "c": 0, "e": "Điều trị thở miệng: loại trừ nguyên nhân, khí cụ (tấm chặn môi, Trainer)."}, {"q": "Tỷ lệ trẻ mút ngón tay theo tuổi được nêu là:", "a": ["50% trẻ 1 tuổi, 15% trẻ 6 tuổi, 5% trẻ 9–14 tuổi", "90% trẻ mọi lứa tuổi", "10% trẻ 1 tuổi", "50% trẻ 12 tuổi"], "c": 0, "e": "Mút ngón tay: 50% trẻ 1 tuổi, 15% trẻ 6 tuổi, 5% trẻ 9–14 tuổi."}, {"q": "Về mút ngón tay và cách cho ăn, phát biểu nào ĐÚNG?", "a": ["Thói quen mút tay không liên quan thời gian cho ăn hay cách cho ăn (bú bình hay bú mẹ)", "Chỉ gặp ở trẻ bú bình", "Chỉ gặp ở trẻ bú mẹ", "Luôn liên quan việc cho ăn muộn"], "c": 0, "e": "Thói quen mút tay không liên quan thời gian cho ăn, cách thức cho ăn (bú bình hay bú mẹ)."}, {"q": "Biểu hiện lâm sàng của mút ngón tay gồm:", "a": ["Răng trên nghiêng trước thưa, răng dưới nghiêng lưỡi, răng sau cắn chéo, cắn hở", "Răng đều đẹp, khớp cắn bình thường", "Cắn ngược toàn hàm", "Răng trên nghiêng lưỡi"], "c": 0, "e": "LS mút ngón tay: răng trên nghiêng trước thưa, răng dưới nghiêng lưỡi, răng sau cắn chéo, cắn hở (đẩy lưỡi, phát âm), ngón tay bị mút to/dẹt/ướt, khớp cắn hạng II chi 1."}, {"q": "Mút ngón tay thường liên quan loại khớp cắn nào?", "a": ["Khớp cắn hạng II chi 1", "Khớp cắn hạng III", "Khớp cắn hạng I bình thường", "Không ảnh hưởng khớp cắn"], "c": 0, "e": "Mút ngón tay thường liên quan khớp cắn hạng II chi 1."}, {"q": "Thời điểm thích hợp áp dụng các biện pháp điều trị mút ngón tay là:", "a": ["4–6 tuổi", "0–1 tuổi", "10–12 tuổi", "Sau 15 tuổi"], "c": 0, "e": "Áp dụng các biện pháp điều trị vào thời điểm 4–6 tuổi; trẻ nên dừng thói quen trước khi răng vĩnh viễn mọc lên; trì hoãn nếu trẻ bị stress/thay đổi lớn."}, {"q": "Khí cụ tháo lắp 'Modified Hawley' điều trị mút ngón tay có đặc điểm nào?", "a": ["Dùng ở giai đoạn răng sữa/đầu răng hỗn hợp, dễ thực hiện và điều chỉnh, tránh cảm giác trừng phạt", "Cố định, không tháo được", "Chỉ dùng cho răng vĩnh viễn hoàn chỉnh", "Gây đau nhiều"], "c": 0, "e": "Khí cụ tháo lắp (Modified Hawley) dùng ở giai đoạn răng sữa/đầu hệ răng hỗn hợp, dễ thực hiện/điều chỉnh, tránh cảm giác trừng phạt, nhưng phụ thuộc nhiều vào trẻ (mất khí cụ, hợp tác)."}, {"q": "Tác dụng của khí cụ Hawley trong điều trị mút ngón tay là:", "a": ["Miệng không kín hơi nên không mút tay được và sắp xếp răng đúng vị trí", "Làm răng mọc nhanh hơn", "Tăng tiết nước bọt", "Giảm đau khớp thái dương hàm"], "c": 0, "e": "Tác dụng khí cụ Hawley: miệng không kín hơi → không mút tay được; đồng thời sắp xếp các răng đúng vị trí, đóng khe hở giữa răng cửa."}, {"q": "Khí cụ CỐ ĐỊNH điều trị mút ngón tay (ví dụ Quad Helix) có thời gian điều trị là:", "a": ["6–12 tháng", "1–2 tuần", "2–3 năm", "Vĩnh viễn"], "c": 0, "e": "Khí cụ cố định (Quad Helix, hàng rào chặn lưỡi) không tháo ra được, BN không hài lòng; thời gian điều trị 6–12 tháng."}, {"q": "'Hàng rào chặn lưỡi' (Hayrake, Palatal Crib) có chỉ định nào?", "a": ["Trẻ không có cắn chéo, duy trì sau nong rộng hàm trên bằng Quad Helix nhưng chưa bỏ thói quen", "Trẻ có cắn chéo nặng", "Điều trị nghiến răng", "Trám bít hố rãnh"], "c": 0, "e": "Hàng rào chặn lưỡi chỉ định cho trẻ không có cắn chéo, duy trì sau khi nong rộng hàm trên bằng Quad Helix nhưng vẫn chưa bỏ hẳn thói quen."}, {"q": "Đẩy lưỡi được định nghĩa là:", "a": ["Lưỡi đẩy ra trước tỳ vào răng hoặc nằm giữa các răng khi nuốt/phát âm/nghỉ", "Lưỡi luôn nằm sát sàn miệng", "Thói quen ngậm miệng khi ngủ", "Nghiến răng ban đêm"], "c": 0, "e": "Đẩy lưỡi là thói quen lưỡi đẩy ra trước và tỳ vào các răng hoặc nằm giữa các răng trước khi nuốt, khi phát âm, hoặc ở trạng thái nghỉ."}, {"q": "Theo Gerlin, tỷ lệ đẩy lưỡi (nuốt lệch) ở trẻ mới sinh và trẻ 12 tuổi là:", "a": ["97% trẻ mới sinh, 3% trẻ 12 tuổi", "3% trẻ mới sinh, 97% trẻ 12 tuổi", "50% ở cả hai", "80% trẻ 12 tuổi"], "c": 0, "e": "Theo Gerlin: 97% trẻ mới sinh, 80% trẻ 5–6 tuổi, 3% trẻ 12 tuổi có kiểu nuốt lệch (đẩy lưỡi bẩm sinh)."}, {"q": "Đẩy lưỡi không điển hình cần điều trị khi nào?", "a": ["Ở trẻ > 4 tuổi", "Ở mọi trẻ ngay từ sơ sinh", "Chỉ khi trẻ trên 12 tuổi", "Không bao giờ cần điều trị"], "c": 0, "e": "Đẩy lưỡi nên được xem là phát hiện lâm sàng; đẩy lưỡi không điển hình ở trẻ > 4 tuổi thì cần điều trị."}, {"q": "Trong kiểu nuốt BÌNH THƯỜNG, đầu lưỡi được đặt ở đâu?", "a": ["Gờ khẩu cái phía sau các răng trước trên", "Giữa các răng cửa", "Sát sàn miệng", "Tỳ vào răng cửa dưới"], "c": 0, "e": "Nuốt bình thường: đầu lưỡi đặt ở gờ khẩu cái phía sau các răng trước trên, môi đóng chặt, răng tiếp xúc cắn khớp chặt chẽ."}, {"q": "Trong nuốt LỆCH, đặc điểm nào đúng?", "a": ["Các răng không tiếp xúc cắn khớp, lưỡi đưa ra trước đẩy giữa các răng, gây cắn hở", "Răng tiếp xúc cắn khớp chặt chẽ", "Môi đóng chặt hoàn toàn", "Lưỡi đặt ở gờ khẩu cái"], "c": 0, "e": "Nuốt lệch: răng không tiếp xúc cắn khớp, lưỡi đưa ra trước đẩy ra giữa các răng, hàm dưới đưa ra trước, gây cắn hở một phần hay toàn bộ."}, {"q": "Nguyên nhân nào KHÔNG được nêu cho tật đẩy lưỡi (nuốt lệch)?", "a": ["Thừa răng cửa", "Hậu quả của mút ngón tay", "Hạch hạnh nhân/VA lớn, lưỡi to bất thường", "Phanh lưỡi ngắn (lưỡi dính), mất răng sữa sớm"], "c": 0, "e": "Nguyên nhân nuốt lệch: hậu quả mút ngón tay, dị ứng/viêm tắc mũi → thở miệng, hạch hạnh nhân/VA lớn, lưỡi to, mất răng sữa sớm, phanh lưỡi ngắn, di truyền, yếu tố thần kinh cơ tinh thần — không phải thừa răng cửa."}, {"q": "Biểu hiện lâm sàng của đẩy lưỡi gồm:", "a": ["Răng trước trên/dưới nghiêng trước thưa, cắn hở, khó phát âm /s/ /z/", "Cắn sâu, cắn chìa nặng", "Răng chen chúc, cắn ngược", "Khớp cắn hạng I bình thường"], "c": 0, "e": "LS đẩy lưỡi: răng trước trên dưới nghiêng trước thưa, cắn hở, nuốt lưỡi giữa răng trước, khó phát âm /s/ /z/, thở miệng/mút ngón tay kết hợp, tư thế nghỉ miệng mở lưỡi đẩy trước."}, {"q": "Điều trị đẩy lưỡi bao gồm biện pháp nào?", "a": ["Tập nuốt (lưỡi đúng vị trí), tập phát âm, khí cụ ngăn ngừa (tấm chặn lưỡi)", "Nhổ răng cửa", "Chỉ dùng kháng sinh", "Phẫu thuật cắt lưỡi"], "c": 0, "e": "Điều trị đẩy lưỡi: quan sát tần suất/thời gian, điều trị nguyên nhân và thói quen kết hợp, tập nuốt (lưỡi đúng vị trí), tập phát âm, khí cụ ngăn ngừa (tấm chặn lưỡi), khí cụ hướng dẫn lưỡi."}, {"q": "Tác dụng của tấm chặn lưỡi trong điều trị đẩy lưỡi gồm:", "a": ["Nhắc nhở/ngăn lưỡi đẩy ra trước, thiết lập kiểu thần kinh cơ mới, cải thiện thói quen lưỡi, cho phép mọc răng cửa", "Làm răng mọc chậm lại", "Gây cắn hở", "Tăng tiết nước bọt"], "c": 0, "e": "Tấm chặn lưỡi: nhắc nhở ngăn lưỡi đẩy ra trước, ngăn mút ngón tay, thiết lập kiểu thần kinh cơ mới, cải thiện thói quen lưỡi, cho phép mọc răng cửa, đóng khớp cắn."}, {"q": "Một thói quen răng miệng KHÔNG còn được xem là bình thường khi nào?", "a": ["Khi còn kéo dài đến cuối thời kỳ thơ ấu", "Khi xuất hiện ở trẻ 1 tuổi", "Khi chỉ xảy ra ban ngày", "Khi trẻ tự nhận biết"], "c": 0, "e": "Một thói quen răng miệng không được xem là bình thường nữa khi thói quen đó còn kéo dài đến cuối thời kỳ thơ ấu."}, {"q": "Nguyên nhân mút ngón tay liên quan đến yếu tố nào?", "a": ["Phản xạ nuốt (co cơ miệng ở bào thai, phản xạ mút khi sinh) và thỏa mãn nhu cầu tình cảm", "Thiếu canxi và vitamin D", "Nhiễm khuẩn răng miệng", "Chấn thương hàm mặt"], "c": 0, "e": "Nguyên nhân mút ngón tay: phản xạ nuốt (bào thai co cơ miệng, sinh ra phản xạ mút, sự độc lập) và thỏa mãn nhu cầu tình cảm."}, {"q": "Câu hỏi nào KHÔNG thuộc nhóm câu hỏi quan trọng khi thăm khám thói quen?", "a": ["Trẻ có nhóm máu gì?", "Đứa trẻ có thói quen bao lâu rồi?", "Thói quen bắt đầu khi nào, ngày hay đêm, liên tục?", "Có ai chế nhạo trẻ không?"], "c": 0, "e": "Câu hỏi thăm khám thói quen: bao lâu rồi, bắt đầu khi nào (ngày/đêm, liên tục), ở nhà/ở trường, có ai chế nhạo trẻ — không hỏi nhóm máu."}, {"q": "Điều trị chung cho các thói quen xấu bao gồm:", "a": ["Loại bỏ nguyên nhân, trao đổi thảo luận, các liệu pháp điều trị", "Nhổ răng ngay", "Chỉ dùng khí cụ cố định", "Chỉ dùng thuốc an thần"], "c": 0, "e": "Điều trị chung: loại bỏ nguyên nhân, trao đổi/thảo luận, và các liệu pháp điều trị."}, {"q": "Sang thương do cắn môi má đôi khi xuất hiện trong hoàn cảnh đặc biệt nào?", "a": ["Sau khi gây tê vùng", "Sau khi ăn nóng", "Sau khi chải răng", "Sau khi ngủ dậy"], "c": 0, "e": "LS cắn môi má: sang thương niêm mạc môi má rải rác, đặc biệt có thể gặp sang thương sau khi gây tê vùng (trẻ tự cắn khi tê)."}];
+let idx=0, score=0, answers=[], quizSet=[];
+const COUNTS=[20,40,60,100];
+function initChips(){const el=document.getElementById('countChips');COUNTS.forEach((n,i)=>{const c=document.createElement('div');c.className='chip'+(i===COUNTS.length-1?' on':'');c.textContent=n>=BANK.length?'Tất cả ('+BANK.length+')':n+' câu';c.dataset.n=Math.min(n,BANK.length);c.onclick=()=>{document.querySelectorAll('#countChips .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');};el.appendChild(c);});}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function startQuiz(){
+  const sel=document.querySelector('#countChips .chip.on');
+  const n=Math.min(parseInt(sel.dataset.n),BANK.length);
+  const doShuffle=document.getElementById('shuffle').checked;
+  let pool=BANK.map((q,i)=>({...q,_i:i}));
+  if(doShuffle)shuffle(pool);
+  quizSet=pool.slice(0,n).map(q=>{
+    let opts=q.a.map((t,i)=>({t,correct:i===q.c}));
+    if(doShuffle)shuffle(opts);
+    return {q:q.q,opts,e:q.e};
+  });
+  idx=0;score=0;answers=[];
+  document.getElementById('start').style.display='none';
+  document.getElementById('result').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  renderQ();
+}
+function renderQ(){
+  const item=quizSet[idx];
+  document.getElementById('progressTxt').textContent='Câu '+(idx+1)+' / '+quizSet.length;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('progressBar').style.width=((idx)/quizSet.length*100)+'%';
+  document.getElementById('qText').textContent=item.q;
+  const box=document.getElementById('opts');box.innerHTML='';
+  const letters=['A','B','C','D'];
+  item.opts.forEach((o,i)=>{
+    const b=document.createElement('button');
+    b.className='opt';
+    b.innerHTML='<span class="k">'+letters[i]+'.</span> '+o.t;
+    b.onclick=()=>choose(i);
+    box.appendChild(b);
+  });
+  const ex=document.getElementById('explain');ex.className='explain';ex.textContent='';
+  document.getElementById('nextBtn').disabled=true;
+  document.getElementById('skipBtn').style.display='inline-block';
+  document.getElementById('nextBtn').textContent=(idx===quizSet.length-1)?'Xem kết quả ✔':'Câu tiếp ▶';
+}
+function choose(i){
+  const item=quizSet[idx];
+  const btns=document.querySelectorAll('#opts .opt');
+  const correctIdx=item.opts.findIndex(o=>o.correct);
+  btns.forEach((b,j)=>{b.disabled=true;if(j===correctIdx)b.classList.add('correct');if(j===i&&i!==correctIdx)b.classList.add('wrong');});
+  const isRight=i===correctIdx;
+  if(isRight)score++;
+  answers.push({q:item.q,chosen:item.opts[i].t,correct:item.opts[correctIdx].t,right:isRight});
+  const ex=document.getElementById('explain');
+  ex.className='explain show';
+  ex.innerHTML=(isRight?'<b class="ok">✔ Chính xác. </b>':'<b class="bad">✘ Chưa đúng. </b>')+item.e;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('nextBtn').disabled=false;
+  document.getElementById('skipBtn').style.display='none';
+}
+function nextQ(){ if(idx<quizSet.length-1){idx++;renderQ();} else finish(); }
+function finish(){
+  document.getElementById('quiz').style.display='none';
+  const r=document.getElementById('result');r.style.display='block';
+  const pct=Math.round(score/quizSet.length*100);
+  document.getElementById('finalScore').textContent=score+' / '+quizSet.length+' ('+pct+'%)';
+  let msg='';
+  if(pct>=90)msg='Xuất sắc! Bạn nắm rất chắc bài.';
+  else if(pct>=70)msg='Tốt! Ôn lại vài câu sai là ổn.';
+  else if(pct>=50)msg='Khá – cần ôn thêm phần sai.';
+  else msg='Hãy đọc lại tài liệu và luyện lại nhé.';
+  document.getElementById('finalMsg').textContent=msg;
+  const rev=document.getElementById('review');rev.innerHTML='';rev.style.display='none';
+  answers.forEach((a,i)=>{
+    const d=document.createElement('div');d.className='review-item';
+    d.innerHTML='<div class="ri-q">'+(i+1)+'. '+a.q+'</div>'+
+      '<div class="ri-a">Bạn chọn: <span class="'+(a.right?'ok':'bad')+'">'+a.chosen+'</span></div>'+
+      (a.right?'':'<div class="ri-a">Đáp án đúng: <span class="ok">'+a.correct+'</span></div>');
+    rev.appendChild(d);
+  });
+}
+function toggleReview(){const r=document.getElementById('review');r.style.display=r.style.display==='none'?'block':'none';}
+initChips();
+</script>
+</body>
+</html>

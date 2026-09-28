@@ -1,0 +1,1052 @@
+[
+    {
+      "question": "Điểm mốc S (Sella turcica) được định nghĩa là gì?",
+      "options": [
+        {"text": "Bờ dưới ổ mắt", "isCorrect": false},
+        {"text": "Điểm giữa hố yên xương bướm", "isCorrect": true},
+        {"text": "Trước trên ống tai ngoài", "isCorrect": false},
+        {"text": "Điểm khớp mũi trán", "isCorrect": false}
+      ],
+      "explanation": "Điểm mốc S là trung tâm của hố yên thuộc xương bướm."
+    },
+    {
+      "question": "Điểm mốc Or (Orbitaire) nằm ở vị trí nào?",
+      "options": [
+        {"text": "Bờ dưới ổ mắt", "isCorrect": true},
+        {"text": "Bờ dưới cằm", "isCorrect": false},
+        {"text": "Gai mũi trước", "isCorrect": false},
+        {"text": "Góc hàm", "isCorrect": false}
+      ],
+      "explanation": "Điểm Or xác định vị trí bờ dưới của ổ mắt."
+    },
+    {
+      "question": "Điểm mốc Po (Porion) được xác định tại đâu?",
+      "options": [
+        {"text": "Điểm giữa hố yên", "isCorrect": false},
+        {"text": "Trước trên ống tai ngoài", "isCorrect": true},
+        {"text": "Khớp mũi trán", "isCorrect": false},
+        {"text": "Đỉnh lồi cầu", "isCorrect": false}
+      ],
+      "explanation": "Po là điểm mốc nằm ở phía trước và phía trên của lỗ ống tai ngoài."
+    },
+    {
+      "question": "Điểm Na (Nasion) nằm ở vị trí nào trên khuôn mặt?",
+      "options": [
+        {"text": "Gai mũi sau", "isCorrect": false},
+        {"text": "Điểm trước nhất giữa khớp mũi trán", "isCorrect": true},
+        {"text": "Điểm lồi nhất ở cằm", "isCorrect": false},
+        {"text": "Dưới vách mũi", "isCorrect": false}
+      ],
+      "explanation": "Na là điểm nằm ở vị trí trước nhất trên đường giữa, tại nơi khớp xương mũi và xương trán gặp nhau."
+    },
+    {
+      "question": "Ký hiệu ENP dùng để chỉ mốc giải phẫu nào?",
+      "options": [
+        {"text": "Gai mũi trước", "isCorrect": false},
+        {"text": "Gai mũi sau", "isCorrect": true},
+        {"text": "Tâm lồi cầu", "isCorrect": false},
+        {"text": "Góc hàm", "isCorrect": false}
+      ],
+      "explanation": "ENP (Epine Nasale Postérieure) là gai mũi sau."
+    },
+    {
+      "question": "ENA là ký hiệu của mốc giải phẫu nào?",
+      "options": [
+        {"text": "Gai mũi trước", "isCorrect": true},
+        {"text": "Gai mũi sau", "isCorrect": false},
+        {"text": "Điểm dưới vách mũi", "isCorrect": false},
+        {"text": "Góc hàm", "isCorrect": false}
+      ],
+      "explanation": "ENA (Epine Nasale Antérieure) là gai mũi trước."
+    },
+    {
+      "question": "Điểm mốc C (Condylien) đại diện cho vị trí nào?",
+      "options": [
+        {"text": "Góc hàm", "isCorrect": false},
+        {"text": "Tâm lồi cầu xương hàm dưới", "isCorrect": true},
+        {"text": "Điểm lồi nhất ở cằm", "isCorrect": false},
+        {"text": "Bờ dưới cằm", "isCorrect": false}
+      ],
+      "explanation": "Điểm C xác định vị trí tâm của lồi cầu xương hàm dưới."
+    },
+    {
+      "question": "Điểm Pg (Pogonion) là điểm mốc tại đâu?",
+      "options": [
+        {"text": "Bờ dưới cằm", "isCorrect": false},
+        {"text": "Điểm xương lồi nhất ở cằm", "isCorrect": true},
+        {"text": "Góc hàm", "isCorrect": false},
+        {"text": "Gai mũi sau", "isCorrect": false}
+      ],
+      "explanation": "Pg là điểm nhô ra xa nhất về phía trước của xương cằm."
+    },
+    {
+      "question": "Điểm Me (Menton) nằm ở vị trí nào?",
+      "options": [
+        {"text": "Bờ dưới cằm", "isCorrect": true},
+        {"text": "Góc hàm", "isCorrect": false},
+        {"text": "Điểm lồi nhất ở dưới xương trán", "isCorrect": false},
+        {"text": "Dưới vách mũi", "isCorrect": false}
+      ],
+      "explanation": "Me là điểm mốc nằm tại bờ dưới của vùng cằm."
+    },
+    {
+      "question": "Gnathion (Gn) là điểm mốc nằm ở đâu?",
+      "options": [
+        {"text": "Nằm giữa điểm Pg và điểm Me", "isCorrect": true},
+        {"text": "Nằm tại góc hàm", "isCorrect": false},
+        {"text": "Nằm tại chân tóc trán", "isCorrect": false},
+        {"text": "Nằm tại hố yên", "isCorrect": false}
+      ],
+      "explanation": "Gn là điểm nằm trên đường cong của cằm, nằm giữa hai điểm mốc Pg và Me."
+    },
+    {
+      "question": "Điểm mốc Go (Gonion) xác định vị trí nào?",
+      "options": [
+        {"text": "Góc hàm", "isCorrect": true},
+        {"text": "Tâm lồi cầu", "isCorrect": false},
+        {"text": "Bờ dưới ổ mắt", "isCorrect": false},
+        {"text": "Đỉnh khớp mũi trán", "isCorrect": false}
+      ],
+      "explanation": "Go là điểm mốc đại diện cho góc của xương hàm dưới."
+    },
+    {
+      "question": "Tr (Trichion) là điểm mốc xác định tại đâu?",
+      "options": [
+        {"text": "Giữa 2 cung mày", "isCorrect": false},
+        {"text": "Điểm chân tóc trán", "isCorrect": true},
+        {"text": "Dưới vách mũi", "isCorrect": false},
+        {"text": "Bờ dưới cằm", "isCorrect": false}
+      ],
+      "explanation": "Tr là điểm mốc nằm tại đường chân tóc ở vùng trán."
+    },
+    {
+      "question": "Glabella (Gl) nằm ở vị trí nào trên sọ?",
+      "options": [
+        {"text": "Điểm lồi nhất ở dưới xương trán, giữa 2 cung mày", "isCorrect": true},
+        {"text": "Dưới vách mũi", "isCorrect": false},
+        {"text": "Chân tóc trán", "isCorrect": false},
+        {"text": "Gai mũi trước", "isCorrect": false}
+      ],
+      "explanation": "Gl là điểm nhô nhất trên xương trán tại khu vực giữa hai chân mày."
+    },
+    {
+      "question": "Điểm mốc Sn (Sous nasal) nằm ở đâu?",
+      "options": [
+        {"text": "Gai mũi sau", "isCorrect": false},
+        {"text": "Dưới vách mũi", "isCorrect": true},
+        {"text": "Đỉnh mũi", "isCorrect": false},
+        {"text": "Khóe miệng", "isCorrect": false}
+      ],
+      "explanation": "Sn là điểm nằm ngay phía dưới vách ngăn mũi."
+    },
+    {
+      "question": "Mặt phẳng Francfort (F) đi qua những điểm mốc nào?",
+      "options": [
+        {"text": "ENA và ENP", "isCorrect": false},
+        {"text": "Or và Po", "isCorrect": true},
+        {"text": "Me và Go", "isCorrect": false},
+        {"text": "Na và Sn", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng Francfort là mặt phẳng chuẩn đi ngang qua hai điểm Or (Orbitaire) và Po (Porion)."
+    },
+    {
+      "question": "Mặt phẳng khẩu cái (plan palatin) đi qua những điểm mốc nào?",
+      "options": [
+        {"text": "ENA và ENP", "isCorrect": true},
+        {"text": "Or và Po", "isCorrect": false},
+        {"text": "Me và Go", "isCorrect": false},
+        {"text": "Gl và Sn", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng khẩu cái đi ngang qua gai mũi trước (ENA) và gai mũi sau (ENP)."
+    },
+    {
+      "question": "Mặt phẳng Camper đi qua các điểm mốc nào?",
+      "options": [
+        {"text": "ENA và Po", "isCorrect": true},
+        {"text": "ENP và Or", "isCorrect": false},
+        {"text": "Go và Me", "isCorrect": false},
+        {"text": "Na và Or", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng Camper đi ngang qua gai mũi trước (ENA) và Porion (Po)."
+    },
+    {
+      "question": "Mặt phẳng Camper tạo với mặt phẳng Francfort một góc bao nhiêu độ?",
+      "options": [
+        {"text": "9 độ", "isCorrect": false},
+        {"text": "15 độ", "isCorrect": true},
+        {"text": "25 độ", "isCorrect": false},
+        {"text": "45 độ", "isCorrect": false}
+      ],
+      "explanation": "Trong hình thái học, mặt phẳng Camper nghiêng một góc 15 độ so với mặt phẳng Francfort."
+    },
+    {
+      "question": "Mặt phẳng cắn (plan occlusal) đi ngang qua các vị trí nào trên khuôn mặt?",
+      "options": [
+        {"text": "Dái tai và khóe miệng", "isCorrect": true},
+        {"text": "Chân tóc và vách mũi", "isCorrect": false},
+        {"text": "Gò má và cằm", "isCorrect": false},
+        {"text": "Ống tai ngoài và ổ mắt", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng cắn được xác định đi ngang qua phần dái tai và khóe miệng."
+    },
+    {
+      "question": "Mặt phẳng cắn tạo với mặt phẳng Francfort một góc bao nhiêu độ?",
+      "options": [
+        {"text": "5 độ", "isCorrect": false},
+        {"text": "9 độ", "isCorrect": true},
+        {"text": "15 độ", "isCorrect": false},
+        {"text": "28 độ", "isCorrect": false}
+      ],
+      "explanation": "Góc giữa mặt phẳng cắn và mặt phẳng Francfort theo tiêu chuẩn là 9 độ."
+    },
+    {
+      "question": "Mặt phẳng xương hàm dưới (mandibulaire) đi qua các điểm nào?",
+      "options": [
+        {"text": "Me và Go", "isCorrect": true},
+        {"text": "Pg và Gn", "isCorrect": false},
+        {"text": "ENA và Po", "isCorrect": false},
+        {"text": "Or và Go", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng xương hàm dưới đi ngang qua điểm Menton (Me) và Gonion (Go)."
+    },
+    {
+      "question": "Mặt phẳng xương hàm dưới tạo với mặt phẳng khẩu cái một góc bao nhiêu độ?",
+      "options": [
+        {"text": "15 độ", "isCorrect": false},
+        {"text": "25 - 28 độ", "isCorrect": true},
+        {"text": "35 độ", "isCorrect": false},
+        {"text": "45 độ", "isCorrect": false}
+      ],
+      "explanation": "Góc tạo bởi mặt phẳng hàm dưới và mặt phẳng khẩu cái thường nằm trong khoảng 25 đến 28 độ."
+    },
+    {
+      "question": "Mặt phẳng dọc giữa đi qua các điểm mốc nào để chia đôi mặt?",
+      "options": [
+        {"text": "Gl, Sn, Gn", "isCorrect": true},
+        {"text": "Or, Po, ENA", "isCorrect": false},
+        {"text": "Tr, Gl, Or", "isCorrect": false},
+        {"text": "Sn, Me, Go", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng dọc giữa chia đôi khuôn mặt đi qua các điểm Glabella, Sous-nasal và Gnathion."
+    },
+    {
+      "question": "Mặt phẳng Simon được định nghĩa như thế nào?",
+      "options": [
+        {"text": "Song song với mặt phẳng cắn", "isCorrect": false},
+        {"text": "Mặt phẳng trán mặt, thẳng góc với mặt phẳng Francfort và mặt phẳng dọc giữa, đi qua điểm Or", "isCorrect": true},
+        {"text": "Đi ngang qua dái tai và khóe miệng", "isCorrect": false},
+        {"text": "Đi qua khớp mũi trán", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng Simon là mặt phẳng trán mặt, vuông góc với mặt phẳng Francfort và mặt phẳng dọc giữa, đi qua điểm Orbitaire."
+    },
+    {
+      "question": "Mặt phẳng Dreyfus đi qua điểm nào và song song với mặt phẳng nào?",
+      "options": [
+        {"text": "Qua điểm Gl, song song mặt phẳng cắn", "isCorrect": false},
+        {"text": "Qua điểm Na, song song mặt phẳng Simon", "isCorrect": true},
+        {"text": "Qua điểm Sn, song song mặt phẳng Francfort", "isCorrect": false},
+        {"text": "Qua điểm Go, song song mặt phẳng dọc giữa", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng Dreyfus là mặt phẳng trán mũi, song song với mặt phẳng Simon và đi qua điểm Nasion (Na)."
+    },
+    {
+      "question": "Mặt phẳng Izard đi qua điểm mốc nào?",
+      "options": [
+        {"text": "Na", "isCorrect": false},
+        {"text": "Gl (Glabelin)", "isCorrect": true},
+        {"text": "Sn", "isCorrect": false},
+        {"text": "Gn", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng Izard là mặt phẳng trán - giao mày, song song với mặt phẳng Simon và đi qua điểm Glabella (Gl)."
+    },
+    {
+      "question": "Tầng mặt trên được giới hạn từ điểm nào đến điểm nào?",
+      "options": [
+        {"text": "Tr đến Gl", "isCorrect": true},
+        {"text": "Gl đến Sn", "isCorrect": false},
+        {"text": "Sn đến Gn", "isCorrect": false},
+        {"text": "Tr đến Sn", "isCorrect": false}
+      ],
+      "explanation": "Tầng mặt trên tính từ đường chân tóc (Trichion) đến điểm giữa hai cung mày (Glabella)."
+    },
+    {
+      "question": "Tầng mặt giữa được giới hạn từ điểm nào đến điểm nào?",
+      "options": [
+        {"text": "Tr đến Gl", "isCorrect": false},
+        {"text": "Gl đến Sn", "isCorrect": true},
+        {"text": "Sn đến Gn", "isCorrect": false},
+        {"text": "Gl đến Me", "isCorrect": false}
+      ],
+      "explanation": "Tầng mặt giữa tính từ Glabella (Gl) đến dưới vách mũi (Sn)."
+    },
+    {
+      "question": "Tầng mặt dưới được giới hạn từ điểm nào đến điểm nào?",
+      "options": [
+        {"text": "Gl đến Sn", "isCorrect": false},
+        {"text": "Sn đến Gn", "isCorrect": true},
+        {"text": "Tr đến Sn", "isCorrect": false},
+        {"text": "Sn đến Me", "isCorrect": false}
+      ],
+      "explanation": "Tầng mặt dưới tính từ dưới vách mũi (Sn) đến dưới cằm (Gnathion)."
+    },
+    {
+      "question": "Theo Sigaud, loại khuôn mặt 'bắp thịt' (type musculare) có đặc điểm gì?",
+      "options": [
+        {"text": "Tầng mặt trên phát triển", "isCorrect": false},
+        {"text": "Ba tầng mặt cân đối", "isCorrect": true},
+        {"text": "Tầng mặt dưới phát triển", "isCorrect": false},
+        {"text": "Tầng mặt giữa phát triển", "isCorrect": false}
+      ],
+      "explanation": "Khuôn mặt bắp thịt theo Sigaud có sự cân đối giữa ba tầng mặt."
+    },
+    {
+      "question": "Loại khuôn mặt 'hô hấp' (type respiratoire) theo Sigaud có tầng mặt nào phát triển hơn?",
+      "options": [
+        {"text": "Tầng mặt trên", "isCorrect": false},
+        {"text": "Tầng mặt giữa", "isCorrect": true},
+        {"text": "Tầng mặt dưới", "isCorrect": false},
+        {"text": "Cả ba tầng bằng nhau", "isCorrect": false}
+      ],
+      "explanation": "Khuôn mặt hô hấp đặc trưng bởi sự phát triển trội của tầng mặt giữa."
+    },
+    {
+      "question": "Loại khuôn mặt 'tiêu hóa' (type digestive) theo Sigaud có tầng mặt nào phát triển?",
+      "options": [
+        {"text": "Tầng mặt trên", "isCorrect": false},
+        {"text": "Tầng mặt giữa", "isCorrect": false},
+        {"text": "Tầng mặt dưới", "isCorrect": true},
+        {"text": "Không tầng nào phát triển", "isCorrect": false}
+      ],
+      "explanation": "Khuôn mặt tiêu hóa có tầng mặt dưới phát triển chiếm ưu thế."
+    },
+    {
+      "question": "Loại khuôn mặt 'trí tuệ' (type célébrale) theo Sigaud có tầng mặt nào phát triển?",
+      "options": [
+        {"text": "Tầng mặt trên", "isCorrect": true},
+        {"text": "Tầng mặt giữa", "isCorrect": false},
+        {"text": "Tầng mặt dưới", "isCorrect": false},
+        {"text": "Toàn bộ khuôn mặt nhỏ lại", "isCorrect": false}
+      ],
+      "explanation": "Khuôn mặt trí tuệ đặc trưng bởi tầng mặt trên (vùng trán) phát triển mạnh hơn các tầng khác."
+    },
+    {
+      "question": "Cách xác định dạng mặt theo Dalbey và Wavrin là sử dụng công cụ gì?",
+      "options": [
+        {"text": "Thước cặp", "isCorrect": false},
+        {"text": "Hai thước dẹt đặt hai bên mặt tiếp xúc gò má và bờ dưới hàm", "isCorrect": true},
+        {"text": "Compa", "isCorrect": false},
+        {"text": "Thước dây", "isCorrect": false}
+      ],
+      "explanation": "Dalbey và Wavrin xác định dạng mặt bằng cách đặt hai thước dẹt tiếp xúc gò má và bờ dưới xương hàm dưới."
+    },
+    {
+      "question": "Khuôn mặt hình vuông (type carré) theo Dalbey và Wavrin được xác định khi nào?",
+      "options": [
+        {"text": "Hai thước giao nhau ở dưới", "isCorrect": false},
+        {"text": "Hai thước song song", "isCorrect": true},
+        {"text": "Hai thước giao nhau ở trên", "isCorrect": false},
+        {"text": "Hai thước tạo góc 45 độ", "isCorrect": false}
+      ],
+      "explanation": "Nếu hai thước đặt bên mặt song song với nhau thì khuôn mặt được phân loại là hình vuông."
+    },
+    {
+      "question": "Khuôn mặt hình tam giác (type tryangualairre) theo Dalbey và Wavrin xác định khi nào?",
+      "options": [
+        {"text": "Hai thước giao nhau ở dưới", "isCorrect": true},
+        {"text": "Hai thước song song", "isCorrect": false},
+        {"text": "Hai thước giao nhau ở trên", "isCorrect": false},
+        {"text": "Hai thước giao nhau tại Na", "isCorrect": false}
+      ],
+      "explanation": "Khuôn mặt hình tam giác khi hai thước đặt bên mặt có xu hướng giao nhau ở phía dưới cằm."
+    },
+    {
+      "question": "Khuôn mặt hình trứng (type ovoùde) theo Dalbey và Wavrin xác định khi nào?",
+      "options": [
+        {"text": "Hai thước giao nhau ở dưới", "isCorrect": false},
+        {"text": "Hai thước song song", "isCorrect": false},
+        {"text": "Hai thước giao nhau ở trên", "isCorrect": true},
+        {"text": "Hai thước giao nhau tại khóe miệng", "isCorrect": false}
+      ],
+      "explanation": "Khuôn mặt hình trứng khi hai thước đặt bên mặt có xu hướng giao nhau ở phía trên đầu."
+    },
+    {
+      "question": "Phân loại khuôn mặt theo J.L. Williams bổ sung thêm dạng nào so với Dalbey và Wavrin?",
+      "options": [
+        {"text": "Hình tròn", "isCorrect": false},
+        {"text": "Hình vuông tam giác hay tam giác kéo dài", "isCorrect": true},
+        {"text": "Hình thoi", "isCorrect": false},
+        {"text": "Hình chữ nhật", "isCorrect": false}
+      ],
+      "explanation": "J.L. Williams dựa trên luật hài hòa và bổ sung thêm khuôn mặt vuông tam giác hoặc tam giác kéo dài."
+    },
+    {
+      "question": "Bộ ba Nelson mô tả mối liên quan mật thiết giữa 3 yếu tố nào?",
+      "options": [
+        {"text": "Môi, răng, nướu", "isCorrect": false},
+        {"text": "Răng cửa giữa trên, cung hàm và khuôn mặt", "isCorrect": true},
+        {"text": "Xương hàm, khớp thái dương hàm, cơ nhai", "isCorrect": false},
+        {"text": "Mắt, mũi, miệng", "isCorrect": false}
+      ],
+      "explanation": "Bộ ba Nelson khẳng định sự tương đồng về hình dáng giữa răng cửa giữa hàm trên, dạng cung hàm và dạng khuôn mặt."
+    },
+    {
+      "question": "Theo Boucher và Vũ Khoái, phụ nữ thường có đặc điểm răng như thế nào?",
+      "options": [
+        {"text": "Răng hình khối rõ", "isCorrect": false},
+        {"text": "Răng thon, thanh tú và tròn cạnh", "isCorrect": true},
+        {"text": "Răng ngắn và to ngang", "isCorrect": false},
+        {"text": "Răng nhọn và sắc", "isCorrect": false}
+      ],
+      "explanation": "Phụ nữ thường có khuôn mặt mềm mại đi kèm với răng thon và các cạnh răng tròn thanh tú."
+    },
+    {
+      "question": "Đặc điểm khuôn mặt và răng của nam giới theo tài liệu là gì?",
+      "options": [
+        {"text": "Mềm mại, thanh mảnh", "isCorrect": false},
+        {"text": "Thô khỏe, răng có hình khối tương đối rõ", "isCorrect": true},
+        {"text": "Cằm nhọn, răng tròn", "isCorrect": false},
+        {"text": "Mặt dài, răng thưa", "isCorrect": false}
+      ],
+      "explanation": "Nam giới đặc trưng bởi khuôn mặt thô khỏe và răng có hình khối mạnh mẽ, rõ ràng."
+    },
+    {
+      "question": "Nghiên cứu năm 1992 của Hoàng Tử Hùng và Huỳnh Thị Kim Khang cho thấy cung răng người Việt trưởng thành có dạng gì?",
+      "options": [
+        {"text": "Dạng hình vuông", "isCorrect": false},
+        {"text": "Dạng hình Elip", "isCorrect": true},
+        {"text": "Dạng hình tam giác", "isCorrect": false},
+        {"text": "Dạng hình tròn", "isCorrect": false}
+      ],
+      "explanation": "Nghiên cứu chỉ ra cung răng hàm trên người Việt trưởng thành có dạng Elip."
+    },
+    {
+      "question": "Kích thước cung răng ở nam giới so với nữ giới người Việt trưởng thành như thế nào?",
+      "options": [
+        {"text": "Bằng nhau", "isCorrect": false},
+        {"text": "Nhỏ hơn", "isCorrect": false},
+        {"text": "Lớn hơn", "isCorrect": true},
+        {"text": "Không thể so sánh", "isCorrect": false}
+      ],
+      "explanation": "Nghiên cứu khẳng định kích thước cung răng ở nam lớn hơn ở nữ."
+    },
+    {
+      "question": "Nghiên cứu của Raberin và cộng sự năm 1993 trên người Pháp cho thấy điều gì về dạng cung răng giữa 2 giới?",
+      "options": [
+        {"text": "Có sự khác biệt lớn", "isCorrect": false},
+        {"text": "Không có sự khác biệt về dạng cung răng", "isCorrect": true},
+        {"text": "Nữ có dạng cung hàm tròn hơn", "isCorrect": false},
+        {"text": "Nam có dạng cung hàm vuông hơn", "isCorrect": false}
+      ],
+      "explanation": "Nghiên cứu trên 278 mẫu của người Pháp cho thấy không có sự khác biệt về dạng cung răng giữa nam và nữ."
+    },
+    {
+      "question": "Màu sắc răng của người trẻ thường có đặc điểm gì?",
+      "options": [
+        {"text": "Màu đậm", "isCorrect": false},
+        {"text": "Màu sáng, hình dáng rõ", "isCorrect": true},
+        {"text": "Bị mòn nhiều", "isCorrect": false},
+        {"text": "Có nhiều vết nứt", "isCorrect": false}
+      ],
+      "explanation": "Răng người trẻ thường sáng màu và giữ được hình dáng nguyên thủy rõ nét."
+    },
+    {
+      "question": "Tại sao răng người già thường có màu đậm hơn?",
+      "options": [
+        {"text": "Do dùng nhiều thuốc", "isCorrect": false},
+        {"text": "Do mòn răng, sang chấn và thay đổi cấu trúc theo tuổi tác", "isCorrect": true},
+        {"text": "Do xương hàm dài ra", "isCorrect": false},
+        {"text": "Do tụt lợi làm lộ tủy", "isCorrect": false}
+      ],
+      "explanation": "Sự lão hóa kèm theo mòn răng và sang chấn khiến màu răng già trở nên đậm hơn."
+    },
+    {
+      "question": "Đặc điểm hình thể múi răng nanh hàm trên biểu hiện tính cách 'hung hăng' là gì?",
+      "options": [
+        {"text": "Múi răng cùn", "isCorrect": false},
+        {"text": "Múi răng sắc nhọn", "isCorrect": true},
+        {"text": "Múi răng ngắn", "isCorrect": false},
+        {"text": "Răng nanh nhỏ", "isCorrect": false}
+      ],
+      "explanation": "Răng nanh có múi sắc nhọn thường được liên hệ với cá tính hung hăng, thù địch."
+    },
+    {
+      "question": "Múi răng nanh cùn, ngắn biểu hiện tính cách gì?",
+      "options": [
+        {"text": "Năng động", "isCorrect": false},
+        {"text": "Thụ động, mềm yếu", "isCorrect": true},
+        {"text": "Dễ gần", "isCorrect": false},
+        {"text": "Thông minh", "isCorrect": false}
+      ],
+      "explanation": "Hình thể múi răng nanh cùn và ngắn biểu hiện sự thụ động và mềm yếu."
+    },
+    {
+      "question": "Theo chỉ số Lee, chiều cao thân răng cửa trên được tính bằng khoảng cách nào?",
+      "options": [
+        {"text": "Từ Na đến Sn", "isCorrect": false},
+        {"text": "Từ mặt phẳng cắn đến đường cười", "isCorrect": true},
+        {"text": "Từ Tr đến Gl", "isCorrect": false},
+        {"text": "Từ khóe miệng đến dái tai", "isCorrect": false}
+      ],
+      "explanation": "Chiều cao thân răng cửa trên tương ứng với khoảng cách từ mặt phẳng cắn đến đường cười khi cười tối đa."
+    },
+    {
+      "question": "Theo chỉ số Lee, chiều rộng răng cửa giữa trên bằng bao nhiêu khoảng cách 2 chân cánh mũi?",
+      "options": [
+        {"text": "1/2", "isCorrect": false},
+        {"text": "1/4", "isCorrect": true},
+        {"text": "1/3", "isCorrect": false},
+        {"text": "1/5", "isCorrect": false}
+      ],
+      "explanation": "Chiều rộng răng cửa giữa trên bằng 1/4 khoảng cách giữa hai chân cánh mũi."
+    },
+    {
+      "question": "Theo chỉ số Lee, hai đường thẳng dọc hạ từ chân cánh mũi sẽ đi qua vị trí nào?",
+      "options": [
+        {"text": "Răng cửa giữa", "isCorrect": false},
+        {"text": "Đỉnh 2 răng nanh trên", "isCorrect": true},
+        {"text": "Khóe miệng", "isCorrect": false},
+        {"text": "Răng hàm nhỏ thứ nhất", "isCorrect": false}
+      ],
+      "explanation": "Đường thẳng hạ từ chân cánh mũi thường đi qua đỉnh của răng nanh hàm trên."
+    },
+    {
+      "question": "Khóe miệng là giới hạn xa của bộ phận nào khi 2 môi vừa chạm nhau (theo Lee)?",
+      "options": [
+        {"text": "Răng cửa bên", "isCorrect": false},
+        {"text": "2 răng nanh trên", "isCorrect": true},
+        {"text": "Răng hàm lớn", "isCorrect": false},
+        {"text": "Vòm miệng", "isCorrect": false}
+      ],
+      "explanation": "Vị trí khóe miệng xác định giới hạn phía xa của hai răng nanh hàm trên."
+    },
+    {
+      "question": "Đường cười được định nghĩa là gì?",
+      "options": [
+        {"text": "Bờ dưới môi dưới", "isCorrect": false},
+        {"text": "Bờ dưới môi trên khi cười tối đa", "isCorrect": true},
+        {"text": "Đường nối hai khóe miệng", "isCorrect": false},
+        {"text": "Rìa cắn răng cửa dưới", "isCorrect": false}
+      ],
+      "explanation": "Đường cười là giới hạn thấp nhất của bờ môi trên khi bệnh nhân thực hiện động tác cười lớn nhất."
+    },
+    {
+      "question": "Một chỉ số khác nêu chiều rộng thân răng cửa giữa trên bằng chiều rộng của bộ phận nào?",
+      "options": [
+        {"text": "Mũi", "isCorrect": false},
+        {"text": "Nhân trung", "isCorrect": true},
+        {"text": "Cằm", "isCorrect": false},
+        {"text": "Mắt", "isCorrect": false}
+      ],
+      "explanation": "Có sự tương đồng về kích thước chiều rộng giữa răng cửa giữa trên và vùng nhân trung."
+    },
+    {
+      "question": "Theo chỉ số Justi, tổng kích thước ngang của 6 răng trước dưới bằng bao nhiêu tổng kích thước ngang 6 răng trước trên?",
+      "options": [
+        {"text": "1/2", "isCorrect": false},
+        {"text": "4/5", "isCorrect": true},
+        {"text": "2/3", "isCorrect": false},
+        {"text": "3/4", "isCorrect": false}
+      ],
+      "explanation": "Justi quy định tỷ lệ 4/5 giữa tổng chiều ngang 6 răng trước hàm dưới và hàm trên."
+    },
+    {
+      "question": "Chiều dài khối răng hàm bằng bao nhiêu khoảng cách 2 tam giác sau xương hàm dưới?",
+      "options": [
+        {"text": "1/2", "isCorrect": false},
+        {"text": "3/6 (hay 1/2)", "isCorrect": true},
+        {"text": "2/3", "isCorrect": false},
+        {"text": "1/4", "isCorrect": false}
+      ],
+      "explanation": "Tài liệu ghi nhận chiều dài khối răng hàm bằng 3/6 khoảng cách hai tam giác sau hàm dưới."
+    },
+    {
+      "question": "Chỉ số Pont xác định chiều rộng vùng răng 14-24 bằng công thức nào?",
+      "options": [
+        {"text": "Rộng 4 răng cửa trên x (100/80)", "isCorrect": true},
+        {"text": "Rộng 4 răng cửa trên x (100/64)", "isCorrect": false},
+        {"text": "Rộng gò má / 16", "isCorrect": false},
+        {"text": "Chiều dài mặt / 20", "isCorrect": false}
+      ],
+      "explanation": "Pont dùng kích thước 4 răng cửa trên nhân với tỷ lệ 100/80 để tính chiều rộng cung răng vùng răng hàm nhỏ."
+    },
+    {
+      "question": "Chỉ số Pont xác định chiều rộng vùng răng 16-26 bằng công thức nào?",
+      "options": [
+        {"text": "Rộng 4 răng cửa trên x (100/80)", "isCorrect": false},
+        {"text": "Rộng 4 răng cửa trên x (100/64)", "isCorrect": true},
+        {"text": "Dài mặt x 16", "isCorrect": false},
+        {"text": "Rộng nhân trung x 4", "isCorrect": false}
+      ],
+      "explanation": "Pont dùng kích thước 4 răng cửa trên nhân với tỷ lệ 100/64 để tính chiều rộng cung răng vùng răng hàm lớn."
+    },
+    {
+      "question": "Theo chỉ số Izard, chiều rộng nhất của cung hàm bằng gì?",
+      "options": [
+        {"text": "Khoảng cách 2 cung tiếp", "isCorrect": true},
+        {"text": "Khoảng cách 2 khóe miệng", "isCorrect": false},
+        {"text": "Khoảng cách Na - Sn", "isCorrect": false},
+        {"text": "Rộng 4 răng cửa", "isCorrect": false}
+      ],
+      "explanation": "Chỉ số Izard mô tả sự liên quan: rộng nhất cung hàm bằng khoảng cách giữa hai cung tiếp gò má."
+    },
+    {
+      "question": "Theo chỉ số Izard, chiều dài nhất của cung hàm bằng gì?",
+      "options": [
+        {"text": "Chiều dài mặt", "isCorrect": false},
+        {"text": "Chiều sâu mặt", "isCorrect": true},
+        {"text": "Khoảng cách Tr - Me", "isCorrect": false},
+        {"text": "Khoảng cách 2 dái tai", "isCorrect": false}
+      ],
+      "explanation": "Chiều dài nhất của cung hàm theo Izard tương ứng với chiều sâu của khuôn mặt."
+    },
+    {
+      "question": "Chiều sâu mặt được tính từ răng cửa giữa trên đến vị trí nào?",
+      "options": [
+        {"text": "Đường nối 2 điểm tai", "isCorrect": true},
+        {"text": "Khớp mũi trán", "isCorrect": false},
+        {"text": "Bờ dưới cằm", "isCorrect": false},
+        {"text": "Ống tai ngoài", "isCorrect": false}
+      ],
+      "explanation": "Chiều sâu mặt là khoảng cách tính từ răng cửa giữa hàm trên đến đường thẳng nối hai điểm tai."
+    },
+    {
+      "question": "Theo Berry, chiều rộng răng cửa giữa hàm trên bằng bao nhiêu chiều rộng giữa 2 mỏm gò má?",
+      "options": [
+        {"text": "1/4", "isCorrect": false},
+        {"text": "1/16", "isCorrect": true},
+        {"text": "1/20", "isCorrect": false},
+        {"text": "1/7", "isCorrect": false}
+      ],
+      "explanation": "Berry cho rằng chiều rộng răng cửa giữa trên bằng 1/16 chiều rộng giữa hai xương gò má."
+    },
+    {
+      "question": "Theo Berry, chiều rộng răng cửa giữa hàm trên bằng bao nhiêu chiều dài của mặt?",
+      "options": [
+        {"text": "1/10", "isCorrect": false},
+        {"text": "1/20", "isCorrect": true},
+        {"text": "1/16", "isCorrect": false},
+        {"text": "1/30", "isCorrect": false}
+      ],
+      "explanation": "Berry cũng tính toán tỷ lệ 1/20 giữa chiều rộng răng cửa giữa trên và chiều dài mặt."
+    },
+    {
+      "question": "Chiều dài mặt dùng trong chỉ số Berry được tính từ đâu đến đâu?",
+      "options": [
+        {"text": "Tr đến Sn", "isCorrect": false},
+        {"text": "Tr đến bờ dưới của cằm", "isCorrect": true},
+        {"text": "Gl đến Gn", "isCorrect": false},
+        {"text": "Na đến Me", "isCorrect": false}
+      ],
+      "explanation": "Chiều dài mặt trong Berry tính từ đường chân tóc (Trichion) đến bờ dưới cằm."
+    },
+    {
+      "question": "Theo Pound, chiều rộng răng cửa giữa trên bằng bao nhiêu chiều rộng gò má?",
+      "options": [
+        {"text": "1/4", "isCorrect": false},
+        {"text": "1/16", "isCorrect": true},
+        {"text": "1/20", "isCorrect": false},
+        {"text": "1/8", "isCorrect": false}
+      ],
+      "explanation": "Pound đồng ý với tỷ lệ 1/16 chiều rộng gò má để xác định chiều rộng răng cửa giữa."
+    },
+    {
+      "question": "Theo Pound, chiều dài răng cửa giữa trên bằng bao nhiêu chiều dài mặt?",
+      "options": [
+        {"text": "1/10", "isCorrect": false},
+        {"text": "1/16", "isCorrect": true},
+        {"text": "1/20", "isCorrect": false},
+        {"text": "1/12", "isCorrect": false}
+      ],
+      "explanation": "Khác với Berry, Pound dùng tỷ lệ 1/16 chiều dài mặt để tính chiều dài răng cửa giữa."
+    },
+    {
+      "question": "Tên các tác giả khác được nhắc đến liên quan đến chỉ số răng và sọ gồm những ai?",
+      "options": [
+        {"text": "House, Loop, Sears, Kern, Gerber, Martin", "isCorrect": true},
+        {"text": "Sigaud, Nelson, Williams", "isCorrect": false},
+        {"text": "Dalbey, Wavrin, Justi", "isCorrect": false},
+        {"text": "Lee, Izard, Pont", "isCorrect": false}
+      ],
+      "explanation": "Các tác giả này đều nghiên cứu sự hài hòa kích thước giữa răng và cấu trúc sọ mặt."
+    },
+    {
+      "question": "Dáng cười I theo Jaegle có đặc điểm bờ dưới môi trên như thế nào?",
+      "options": [
+        {"text": "Lõm", "isCorrect": false},
+        {"text": "Ngang", "isCorrect": true},
+        {"text": "Lồi", "isCorrect": false},
+        {"text": "Bất đối xứng", "isCorrect": false}
+      ],
+      "explanation": "Dáng cười I đặc trưng bởi bờ dưới môi trên nằm ngang."
+    },
+    {
+      "question": "Dáng cười II theo Jaegle có đặc điểm bờ dưới môi trên như thế nào?",
+      "options": [
+        {"text": "Ngang", "isCorrect": false},
+        {"text": "Lõm", "isCorrect": true},
+        {"text": "Lồi", "isCorrect": false},
+        {"text": "Cong chữ S", "isCorrect": false}
+      ],
+      "explanation": "Dáng cười II có đặc điểm bờ dưới môi trên cong lõm."
+    },
+    {
+      "question": "Dáng cười III theo Jaegle có đặc điểm bờ dưới môi trên như thế nào?",
+      "options": [
+        {"text": "Ngang", "isCorrect": false},
+        {"text": "Lõm", "isCorrect": false},
+        {"text": "Lồi", "isCorrect": true},
+        {"text": "Zic-zac", "isCorrect": false}
+      ],
+      "explanation": "Dáng cười III có bờ dưới môi trên cong lồi."
+    },
+    {
+      "question": "Khi cười, rìa cắn răng cửa trên nên tiếp xúc với bộ phận nào?",
+      "options": [
+        {"text": "Bờ dưới môi trên", "isCorrect": false},
+        {"text": "Bờ môi dưới", "isCorrect": true},
+        {"text": "Vòm miệng cứng", "isCorrect": false},
+        {"text": "Lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Sự hài hòa thẩm mỹ đạt được khi rìa cắn răng trước trên tiếp xúc nhẹ với đường cong môi dưới khi cười."
+    },
+    {
+      "question": "Bờ dưới môi trên khi cười thường ngang với vị trí nào của răng cửa trên?",
+      "options": [
+        {"text": "Rìa cắn", "isCorrect": false},
+        {"text": "Cổ răng", "isCorrect": true},
+        {"text": "Điểm giữa thân răng", "isCorrect": false},
+        {"text": "Phía trên nướu", "isCorrect": false}
+      ],
+      "explanation": "Thẩm mỹ cười bình thường là khi môi trên che vừa hết nướu và ngang cổ răng cửa."
+    },
+    {
+      "question": "Khoảng cách giữa môi trên và môi dưới khi cười bằng bao nhiêu chiều rộng miệng?",
+      "options": [
+        {"text": "1/2", "isCorrect": false},
+        {"text": "1/7", "isCorrect": true},
+        {"text": "1/10", "isCorrect": false},
+        {"text": "1/5", "isCorrect": false}
+      ],
+      "explanation": "Tài liệu ghi nhận tỷ lệ khoảng cách môi trên - môi dưới bằng 1/7 chiều rộng miệng."
+    },
+    {
+      "question": "Trong phục hình, bác sĩ phải xác định mốc giải phẫu lên vật dụng gì để gửi labo?",
+      "options": [
+        {"text": "Khay lấy dấu", "isCorrect": false},
+        {"text": "Gối sáp", "isCorrect": true},
+        {"text": "Mẫu thạch cao sơ khởi", "isCorrect": false},
+        {"text": "Phim X-quang", "isCorrect": false}
+      ],
+      "explanation": "Bác sĩ lâm sàng xác định đường giữa, mặt phẳng cắn... lên gối sáp để kỹ thuật viên lên răng giả."
+    },
+    {
+      "question": "Đường giữa mặt được xác định thông qua mặt phẳng nào?",
+      "options": [
+        {"text": "Mặt phẳng ngang", "isCorrect": false},
+        {"text": "Mặt phẳng dọc giữa", "isCorrect": true},
+        {"text": "Mặt phẳng trán", "isCorrect": false},
+        {"text": "Mặt phẳng Francfort", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng dọc giữa dùng để xác định đường trung tâm khuôn mặt."
+    },
+    {
+      "question": "Mặt phẳng cắn trên gối sáp được xác định thông qua mặt phẳng nào?",
+      "options": [
+        {"text": "Mặt phẳng Simon", "isCorrect": false},
+        {"text": "Mặt phẳng Camper", "isCorrect": true},
+        {"text": "Mặt phẳng khẩu cái", "isCorrect": false},
+        {"text": "Mặt phẳng xương hàm dưới", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng cắn được xác định song song hoặc dựa trên mặt phẳng Camper."
+    },
+    {
+      "question": "Vị trí giới hạn trên của chiều cao răng cửa trên theo chỉ số Lee là gì?",
+      "options": [
+        {"text": "Chân cánh mũi", "isCorrect": false},
+        {"text": "Cổ răng trùng với đường cười", "isCorrect": true},
+        {"text": "Rìa cắn răng cửa dưới", "isCorrect": false},
+        {"text": "Khóe miệng", "isCorrect": false}
+      ],
+      "explanation": "Giới hạn trên của răng cửa là nơi cổ răng trùng với đường cười tối đa."
+    },
+    {
+      "question": "Ở tư thế nghỉ sinh lý, rìa cắn răng cửa trên lộ ra khỏi bờ môi trên bao nhiêu mm?",
+      "options": [
+        {"text": "0 mm", "isCorrect": false},
+        {"text": "1,5 - 2 mm", "isCorrect": true},
+        {"text": "5 mm", "isCorrect": false},
+        {"text": "10 mm", "isCorrect": false}
+      ],
+      "explanation": "Khi cơ giãn nghỉ, răng trước trên thường lộ ra khoảng 1.5 đến 2 mm dưới bờ môi trên."
+    },
+    {
+      "question": "Trong các điểm mốc, điểm nào nằm thấp nhất trên sọ mặt?",
+      "options": [
+        {"text": "Gn", "isCorrect": false},
+        {"text": "Me (Menton)", "isCorrect": true},
+        {"text": "Pg", "isCorrect": false},
+        {"text": "Go", "isCorrect": false}
+      ],
+      "explanation": "Menton là điểm mốc tại bờ dưới xương cằm, là điểm thấp nhất."
+    },
+    {
+      "question": "Mặt phẳng ngang qua Or và Po còn được gọi là mặt phẳng gì?",
+      "options": [
+        {"text": "Mặt phẳng nhai", "isCorrect": false},
+        {"text": "Mặt phẳng mắt tai (hay Francfort)", "isCorrect": true},
+        {"text": "Mặt phẳng hàm", "isCorrect": false},
+        {"text": "Mặt phẳng trán", "isCorrect": false}
+      ],
+      "explanation": "Francfort còn được gọi là mặt phẳng mắt tai vì đi qua bờ dưới ổ mắt và Porion."
+    },
+    {
+      "question": "ENA có vị trí trùng tới bao nhiêu phần trăm với chân cánh mũi?",
+      "options": [
+        {"text": "50%", "isCorrect": false},
+        {"text": "90%", "isCorrect": true},
+        {"text": "100%", "isCorrect": false},
+        {"text": "70%", "isCorrect": false}
+      ],
+      "explanation": "Ghi chú trong tài liệu nêu gai mũi trước (ENA) trùng đến 90% với chân cánh mũi."
+    },
+    {
+      "question": "Mặt phẳng nào được dùng làm chuẩn để tính góc của mặt phẳng Camper và mặt phẳng cắn?",
+      "options": [
+        {"text": "Mặt phẳng dọc giữa", "isCorrect": false},
+        {"text": "Mặt phẳng Francfort", "isCorrect": true},
+        {"text": "Mặt phẳng ngang", "isCorrect": false},
+        {"text": "Mặt phẳng khẩu cái", "isCorrect": false}
+      ],
+      "explanation": "Francfort là mặt phẳng quy chiếu chính để xác định các góc nghiêng của các mặt phẳng khác."
+    },
+    {
+      "question": "Mặt phẳng xương hàm dưới đi qua điểm mốc nào ở phía sau?",
+      "options": [
+        {"text": "C", "isCorrect": false},
+        {"text": "Go (Gonion)", "isCorrect": true},
+        {"text": "Po", "isCorrect": false},
+        {"text": "ENP", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng hàm dưới đi qua Menton ở trước và Gonion (góc hàm) ở sau."
+    },
+    {
+      "question": "Mặt phẳng Simon đi qua điểm Orbitaire và vuông góc với mấy mặt phẳng?",
+      "options": [
+        {"text": "1", "isCorrect": false},
+        {"text": "2 (Francfort và dọc giữa)", "isCorrect": true},
+        {"text": "3", "isCorrect": false},
+        {"text": "Không vuông góc", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng Simon thẳng góc với cả mặt phẳng Francfort và mặt phẳng dọc giữa."
+    },
+    {
+      "question": "Sella turcica (S) thuộc xương nào?",
+      "options": [
+        {"text": "Xương trán", "isCorrect": false},
+        {"text": "Xương bướm", "isCorrect": true},
+        {"text": "Xương sàng", "isCorrect": false},
+        {"text": "Xương thái dương", "isCorrect": false}
+      ],
+      "explanation": "Hố yên (Sella turcica) là cấu trúc thuộc xương bướm."
+    },
+    {
+      "question": "Điểm Nasion (Na) là điểm giao giữa xương nào?",
+      "options": [
+        {"text": "Xương mũi và xương trán", "isCorrect": true},
+        {"text": "Xương gò má và xương trán", "isCorrect": false},
+        {"text": "Xương hàm trên và xương mũi", "isCorrect": false},
+        {"text": "Xương sàng và xương mũi", "isCorrect": false}
+      ],
+      "explanation": "Na là điểm giữa của khớp nối xương mũi và xương trán."
+    },
+    {
+      "question": "Điểm nhô nhất của cằm trên phim đo sọ là?",
+      "options": [
+        {"text": "Me", "isCorrect": false},
+        {"text": "Pg (Pogonion)", "isCorrect": true},
+        {"text": "Gn", "isCorrect": false},
+        {"text": "Go", "isCorrect": false}
+      ],
+      "explanation": "Pogonion là điểm xương lồi nhất về phía trước của cằm."
+    },
+    {
+      "question": "Dạng khuôn mặt nào thường gắn với răng có hình thể tròn trịa hơn?",
+      "options": [
+        {"text": "Hình vuông", "isCorrect": false},
+        {"text": "Hình trứng", "isCorrect": true},
+        {"text": "Hình tam giác", "isCorrect": false},
+        {"text": "Hình chữ nhật", "isCorrect": false}
+      ],
+      "explanation": "Khuôn mặt hình trứng (ovoid) thường hài hòa với răng có cạnh tròn."
+    },
+    {
+      "question": "Theo Sigaud, người có bụng to và hàm dưới phát triển thuộc nhóm nào?",
+      "options": [
+        {"text": "Bắp thịt", "isCorrect": false},
+        {"text": "Hô hấp", "isCorrect": false},
+        {"text": "Tiêu hóa", "isCorrect": true},
+        {"text": "Trí tuệ", "isCorrect": false}
+      ],
+      "explanation": "Dạng mặt tiêu hóa có đặc điểm tầng mặt dưới (liên quan ăn uống) rất phát triển."
+    },
+    {
+      "question": "Điểm mốc nào sau đây KHÔNG nằm trên đường giữa?",
+      "options": [
+        {"text": "Na", "isCorrect": false},
+        {"text": "Sn", "isCorrect": false},
+        {"text": "Or", "isCorrect": true},
+        {"text": "Me", "isCorrect": false}
+      ],
+      "explanation": "Điểm Orbitaire (Or) nằm ở bờ dưới ổ mắt, có 2 điểm đối xứng 2 bên, không nằm trên đường giữa."
+    },
+    {
+      "question": "ENA và ENP dùng để xác định mặt phẳng nào?",
+      "options": [
+        {"text": "Mặt phẳng cắn", "isCorrect": false},
+        {"text": "Mặt phẳng khẩu cái", "isCorrect": true},
+        {"text": "Mặt phẳng hàm dưới", "isCorrect": false},
+        {"text": "Mặt phẳng Simon", "isCorrect": false}
+      ],
+      "explanation": "Gai mũi trước và gai mũi sau xác định mặt phẳng khẩu cái (xương khẩu cái/hàm trên)."
+    },
+    {
+      "question": "Mặt phẳng Francfort còn được ký hiệu là gì?",
+      "options": [
+        {"text": "P", "isCorrect": false},
+        {"text": "F", "isCorrect": true},
+        {"text": "C", "isCorrect": false},
+        {"text": "M", "isCorrect": false}
+      ],
+      "explanation": "Ký hiệu chuẩn cho mặt phẳng Francfort trong tài liệu là (F)."
+    },
+    {
+      "question": "Góc 15 độ là góc giữa mặt phẳng Camper và mặt phẳng nào?",
+      "options": [
+        {"text": "Mặt phẳng cắn", "isCorrect": false},
+        {"text": "Mặt phẳng Francfort", "isCorrect": true},
+        {"text": "Mặt phẳng dọc giữa", "isCorrect": false},
+        {"text": "Mặt phẳng khẩu cái", "isCorrect": false}
+      ],
+      "explanation": "Góc nghiêng của Camper so với Francfort là 15 độ."
+    },
+    {
+      "question": "Răng thon, tròn cạnh là đặc điểm thẩm mỹ dành cho?",
+      "options": [
+        {"text": "Trẻ em", "isCorrect": false},
+        {"text": "Nam giới", "isCorrect": false},
+        {"text": "Phụ nữ", "isCorrect": true},
+        {"text": "Người già", "isCorrect": false}
+      ],
+      "explanation": "Đây là đặc điểm hình thể răng hài hòa với sự mềm mại của phái nữ."
+    },
+    {
+      "question": "Khi hai thước đặt bên mặt có xu hướng song song, khuôn mặt đó là?",
+      "options": [
+        {"text": "Tam giác", "isCorrect": false},
+        {"text": "Vuông", "isCorrect": true},
+        {"text": "Trứng", "isCorrect": false},
+        {"text": "Dài", "isCorrect": false}
+      ],
+      "explanation": "Sự song song của hai thước theo phương pháp Dalbey định nghĩa khuôn mặt hình vuông."
+    },
+    {
+      "question": "Răng mòn và màu răng sậm hơn là đặc điểm của?",
+      "options": [
+        {"text": "Bệnh lý sâu răng", "isCorrect": false},
+        {"text": "Người trẻ tuổi", "isCorrect": false},
+        {"text": "Người lớn tuổi", "isCorrect": true},
+        {"text": "Nam giới khỏe mạnh", "isCorrect": false}
+      ],
+      "explanation": "Đây là những biến đổi sinh lý tự nhiên của răng theo tuổi tác."
+    },
+    {
+      "question": "Điểm mốc nào nằm trên ống tai ngoài?",
+      "options": [
+        {"text": "Or", "isCorrect": false},
+        {"text": "Po", "isCorrect": true},
+        {"text": "Go", "isCorrect": false},
+        {"text": "S", "isCorrect": false}
+      ],
+      "explanation": "Porion (Po) nằm ở bờ trên lỗ ống tai ngoài."
+    },
+    {
+      "question": "ENA là viết tắt của thuật ngữ tiếng Pháp nào?",
+      "options": [
+        {"text": "Epine Nasale Antérieure", "isCorrect": true},
+        {"text": "Epine Nasale Postérieure", "isCorrect": false},
+        {"text": "Entrée Nasale Antérieure", "isCorrect": false},
+        {"text": "Espace Nasale Antérieure", "isCorrect": false}
+      ],
+      "explanation": "ENA là gai mũi trước (Epine Nasale Antérieure)."
+    },
+    {
+      "question": "Menton (Me) thuộc về phần nào của xương hàm?",
+      "options": [
+        {"text": "Cành lên", "isCorrect": false},
+        {"text": "Bờ dưới vùng cằm", "isCorrect": true},
+        {"text": "Lồi cầu", "isCorrect": false},
+        {"text": "Góc hàm", "isCorrect": false}
+      ],
+      "explanation": "Me nằm tại điểm thấp nhất của xương cằm hàm dưới."
+    },
+    {
+      "question": "Mặt phẳng Simon đi qua điểm Or và vuông góc với Francfort còn được gọi là mặt phẳng gì?",
+      "options": [
+        {"text": "Mặt phẳng ngang", "isCorrect": false},
+        {"text": "Mặt phẳng trán mặt", "isCorrect": true},
+        {"text": "Mặt phẳng cắn", "isCorrect": false},
+        {"text": "Mặt phẳng môi", "isCorrect": false}
+      ],
+      "explanation": "Trong hệ thống đo đạc, mặt phẳng Simon đóng vai trò là mặt phẳng trán mặt."
+    },
+    {
+      "question": "Na là ký hiệu của điểm mốc nào?",
+      "options": [
+        {"text": "Nasion", "isCorrect": true},
+        {"text": "Nasale", "isCorrect": false},
+        {"text": "Neron", "isCorrect": false},
+        {"text": "Node", "isCorrect": false}
+      ],
+      "explanation": "Ký hiệu chuẩn cho điểm mốc tại khớp mũi trán là Na (Nasion)."
+    },
+    {
+      "question": "Pg là điểm xương lồi nhất của bộ phận nào?",
+      "options": [
+        {"text": "Gò má", "isCorrect": false},
+        {"text": "Cằm", "isCorrect": true},
+        {"text": "Trán", "isCorrect": false},
+        {"text": "Mũi", "isCorrect": false}
+      ],
+      "explanation": "Pogonion (Pg) là điểm nhô nhất của xương cằm."
+    },
+    {
+      "question": "Tầng mặt trung bình chiếm bao nhiêu phần chiều dài mặt (theo ý tưởng chia 3 tầng)?",
+      "options": [
+        {"text": "1/2", "isCorrect": false},
+        {"text": "1/3", "isCorrect": true},
+        {"text": "1/4", "isCorrect": false},
+        {"text": "2/3", "isCorrect": false}
+      ],
+      "explanation": "Sự cân đối thẩm mỹ thường đạt được khi ba tầng mặt có kích thước xấp xỉ 1/3 tổng chiều dài mặt."
+    },
+    {
+      "question": "Mặt phẳng Francfort thường được dùng làm tham chiếu trong?",
+      "options": [
+        {"text": "Phẫu thuật thẩm mỹ", "isCorrect": false},
+        {"text": "Chỉnh nha và Phục hình", "isCorrect": true},
+        {"text": "Nhổ răng khôn", "isCorrect": false},
+        {"text": "Hàn răng", "isCorrect": false}
+      ],
+      "explanation": "Francfort là mặt phẳng cơ bản trong chẩn đoán đo sọ và thiết kế phục hình răng miệng."
+    },
+    {
+      "question": "Tựa trên sơ đồ trang 3, điểm nào nằm gần răng hàm lớn nhất?",
+      "options": [
+        {"text": "ENA", "isCorrect": false},
+        {"text": "ENP", "isCorrect": true},
+        {"text": "Pg", "isCorrect": false},
+        {"text": "Na", "isCorrect": false}
+      ],
+      "explanation": "Gai mũi sau (ENP) nằm ở phía sau vòm miệng, gần khu vực răng hàm lớn."
+    }
+  ]

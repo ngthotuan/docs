@@ -1,0 +1,522 @@
+[
+    {
+      "question": "Tại sao khoang miệng người cao tuổi (NCT) là môi trường lý tưởng cho vi sinh vật phát triển?",
+      "options": [
+        {"text": "Do hệ miễn dịch suy giảm và lưu lượng nước bọt giảm", "isCorrect": true},
+        {"text": "Do người già ăn nhiều thịt hơn", "isCorrect": false},
+        {"text": "Do cấu trúc răng người già trở nên xốp hơn", "isCorrect": false},
+        {"text": "Do nhiệt độ trong miệng người già cao hơn", "isCorrect": false}
+      ],
+      "explanation": "Sự suy giảm miễn dịch tự nhiên cùng với tình trạng khô miệng (giảm nước bọt) làm mất đi cơ chế tự làm sạch và bảo vệ niêm mạc."
+    },
+    {
+      "question": "Trong 1 mg mảng bám răng của NCT, ước tính chứa khoảng bao nhiêu vi khuẩn?",
+      "options": [
+        {"text": "1 triệu vi khuẩn", "isCorrect": false},
+        {"text": "1 tỷ vi khuẩn", "isCorrect": false},
+        {"text": "100 tỷ (10^11) vi khuẩn", "isCorrect": true},
+        {"text": "10.000 vi khuẩn", "isCorrect": false}
+      ],
+      "explanation": "Mảng bám răng là một khối vi sinh vật cực kỳ dày đặc với hơn 700 loài khác nhau cùng tồn tại."
+    },
+    {
+      "question": "Chế độ ăn nào ở NCT góp phần làm tăng tích lũy mảng bám vi khuẩn?",
+      "options": [
+        {"text": "Ăn nhiều rau xanh và chất xơ", "isCorrect": false},
+        {"text": "Ăn thức ăn mềm, dính và nhiều tinh bột", "isCorrect": true},
+        {"text": "Uống nhiều nước lọc", "isCorrect": false},
+        {"text": "Ăn thức ăn cay nóng", "isCorrect": false}
+      ],
+      "explanation": "Thức ăn mềm và tinh bột dễ bám dính vào bề mặt răng và hàm giả, cung cấp nguồn năng lượng cho vi khuẩn lên men."
+    },
+    {
+      "question": "Mục tiêu quan trọng nhất của việc dự phòng bệnh răng miệng ở NCT là gì?",
+      "options": [
+        {"text": "Để răng thật trắng sáng", "isCorrect": false},
+        {"text": "Kiểm soát mảng bám vi khuẩn hiệu quả", "isCorrect": true},
+        {"text": "Nhổ bỏ các răng bị lung lay nhẹ", "isCorrect": false},
+        {"text": "Dùng nước súc miệng thay thế hoàn toàn chải răng", "isCorrect": false}
+      ],
+      "explanation": "Mảng bám vi khuẩn là nguyên nhân gốc rễ của sâu răng chân răng và bệnh nha chu ở người cao tuổi."
+    },
+    {
+      "question": "Phương pháp chải răng nào thường được khuyến cáo cho NCT để làm sạch vùng khe nướu?",
+      "options": [
+        {"text": "Phương pháp Scrub (chải ngang)", "isCorrect": false},
+        {"text": "Phương pháp Bass hoặc Bass cải tiến", "isCorrect": true},
+        {"text": "Phương pháp xoay tròn", "isCorrect": false},
+        {"text": "Chỉ cần súc miệng mạnh", "isCorrect": false}
+      ],
+      "explanation": "Phương pháp Bass đưa lông bàn chải nghiêng 45 độ vào khe nướu, giúp loại bỏ mảng bám dưới nướu hiệu quả nhất."
+    },
+    {
+      "question": "Tại sao phương pháp chải ngang (Scrub) không được khuyến khích cho NCT?",
+      "options": [
+        {"text": "Vì làm sạch quá nhanh", "isCorrect": false},
+        {"text": "Dễ gây mòn cổ răng hình chêm và tổn thương nướu", "isCorrect": true},
+        {"text": "Làm lông bàn chải nhanh hỏng", "isCorrect": false},
+        {"text": "Không làm sạch được mặt nhai", "isCorrect": false}
+      ],
+      "explanation": "Lực chải ngang mạnh lên vùng cổ răng vốn đã bị tụt nướu sẽ làm mòn lớp ngà chân răng rất nhanh."
+    },
+    {
+      "question": "NCT bị hạn chế vận động khớp tay nên sử dụng loại dụng cụ nào để chải răng?",
+      "options": [
+        {"text": "Bàn chải có cán thật ngắn", "isCorrect": false},
+        {"text": "Bàn chải điện hoặc bàn chải có cán được chế biến to thêm", "isCorrect": true},
+        {"text": "Chỉ dùng tăm xỉa răng", "isCorrect": false},
+        {"text": "Nhờ người khác chải răng 1 tuần 1 lần", "isCorrect": false}
+      ],
+      "explanation": "Dụng cụ hỗ trợ giúp NCT dễ cầm nắm và thực hiện động tác làm sạch khi sự khéo léo của bàn tay bị suy giảm."
+    },
+    {
+      "question": "Thời gian chải răng tối thiểu để đạt hiệu quả làm sạch mảng bám là bao nhiêu?",
+      "options": [
+        {"text": "30 giây", "isCorrect": false},
+        {"text": "1 phút", "isCorrect": false},
+        {"text": "Tối thiểu 2 - 3 phút", "isCorrect": true},
+        {"text": "10 phút", "isCorrect": false}
+      ],
+      "explanation": "Cần đủ thời gian để lông bàn chải tiếp xúc và lấy đi mảng bám ở tất cả các mặt răng."
+    },
+    {
+      "question": "Bàn chải kẽ răng (Interdental brush) có ưu điểm gì so với chỉ nha khoa ở người già?",
+      "options": [
+        {"text": "Rẻ tiền hơn", "isCorrect": false},
+        {"text": "Dễ sử dụng hơn khi có vùng kẽ răng rộng do tụt nướu", "isCorrect": true},
+        {"text": "Làm trắng răng kẽ", "isCorrect": false},
+        {"text": "Không bao giờ gây chảy máu", "isCorrect": false}
+      ],
+      "explanation": "NCT thường bị tụt nướu tạo khoảng hở lớn, bàn chải kẽ răng sẽ làm sạch các mặt bên hiệu quả hơn chỉ nha khoa mỏng."
+    },
+    {
+      "question": "Tại sao việc làm sạch lưỡi hàng ngày lại quan trọng đối với NCT?",
+      "options": [
+        {"text": "Để lưỡi dài ra", "isCorrect": false},
+        {"text": "Loại bỏ vi khuẩn, nấm men và giảm hôi miệng", "isCorrect": true},
+        {"text": "Tăng khả năng nói to", "isCorrect": false},
+        {"text": "Làm sạch răng cửa", "isCorrect": false}
+      ],
+      "explanation": "Bề mặt lưỡi nứt nẻ ở người già là nơi trú ngụ của rất nhiều vi sinh vật gây bệnh và mùi hôi."
+    },
+    {
+      "question": "Nồng độ Fluoride trong kem đánh răng dành cho NCT có nguy cơ sâu răng cao nên là bao nhiêu?",
+      "options": [
+        {"text": "500 ppm", "isCorrect": false},
+        {"text": "1000 ppm", "isCorrect": false},
+        {"text": "5000 ppm (theo chỉ định bác sĩ)", "isCorrect": true},
+        {"text": "Không nên dùng Fluoride", "isCorrect": false}
+      ],
+      "explanation": "Nồng độ cao giúp tái khoáng hóa bề mặt chân răng đã bị lộ, chống lại sự tấn công của axit vi khuẩn."
+    },
+    {
+      "question": "Chất sát khuẩn nào được coi là 'tiêu chuẩn vàng' trong kiểm soát mảng bám hóa học?",
+      "options": [
+        {"text": "Nước muối sinh lý", "isCorrect": false},
+        {"text": "Chlorhexidine (CHX) 0.12%", "isCorrect": true},
+        {"text": "Oxy già", "isCorrect": false},
+        {"text": "Rượu trắng", "isCorrect": false}
+      ],
+      "explanation": "Chlorhexidine có khả năng bám dính vào mô miệng và giải phóng dần dần, giúp ức chế vi khuẩn trong thời gian dài."
+    },
+    {
+      "question": "Sử dụng nước súc miệng chứa cồn ở NCT bị khô miệng sẽ dẫn đến hậu quả gì?",
+      "options": [
+        {"text": "Làm miệng thơm hơn", "isCorrect": false},
+        {"text": "Làm trầm trọng thêm tình trạng khô rát niêm mạc", "isCorrect": true},
+        {"text": "Diệt hết vi khuẩn nấm men", "isCorrect": false},
+        {"text": "Làm nướu chắc khỏe", "isCorrect": false}
+      ],
+      "explanation": "Cồn làm bay hơi độ ẩm và gây kích ứng niêm mạc mỏng của người già."
+    },
+    {
+      "question": "Chất Xylitol trong kẹo cao su không đường có tác dụng gì trong dự phòng sâu răng?",
+      "options": [
+        {"text": "Làm răng trắng sáng", "isCorrect": false},
+        {"text": "Vi khuẩn không thể lên men Xylitol để tạo axit và kích thích tiết nước bọt", "isCorrect": true},
+        {"text": "Giết chết vi khuẩn ngay lập tức", "isCorrect": false},
+        {"text": "Thay thế việc đánh răng", "isCorrect": false}
+      ],
+      "explanation": "Xylitol vừa không tạo axit vừa giúp trung hòa môi trường miệng nhờ tăng tiết nước bọt khi nhai."
+    },
+    {
+      "question": "Nguyên tắc vệ sinh hàm giả tháo lắp đúng cách là:",
+      "options": [
+        {"text": "Luộc hàm giả trong nước sôi 100 độ", "isCorrect": false},
+        {"text": "Dùng bàn chải mềm và xà phòng nhẹ hoặc dung dịch chuyên dụng", "isCorrect": true},
+        {"text": "Dùng kem đánh răng có độ mài mòn cao", "isCorrect": false},
+        {"text": "Chỉ cần ngâm nước không cần chải", "isCorrect": false}
+      ],
+      "explanation": "Nhựa hàm giả dễ bị trầy xước nếu dùng chất mài mòn mạnh, tạo khe hở cho vi khuẩn và nấm bám vào."
+    },
+    {
+      "question": "NCT nên tháo hàm giả vào thời điểm nào trong ngày?",
+      "options": [
+        {"text": "Khi đi bơi", "isCorrect": false},
+        {"text": "Ít nhất 6 - 8 giờ khi đi ngủ ban đêm", "isCorrect": true},
+        {"text": "Khi đang ăn", "isCorrect": false},
+        {"text": "Không bao giờ nên tháo", "isCorrect": false}
+      ],
+      "explanation": "Tháo hàm giúp niêm mạc được nghỉ ngơi, giảm nguy cơ nhiễm nấm Candida và tiêu xương sống hàm."
+    },
+    {
+      "question": "Dự phòng khô miệng ở NCT bao gồm lời khuyên nào?",
+      "options": [
+        {"text": "Uống nhiều cà phê và trà đặc", "isCorrect": false},
+        {"text": "Uống nước thường xuyên từng ngụm nhỏ và tránh đồ uống có đường", "isCorrect": true},
+        {"text": "Súc miệng bằng chanh nguyên chất", "isCorrect": false},
+        {"text": "Ăn thức ăn thật khô để kích thích cơ nhai", "isCorrect": false}
+      ],
+      "explanation": "Nước lọc giúp duy trì độ ẩm, trong khi cà phê và rượu làm tăng tình trạng mất nước."
+    },
+    {
+      "question": "Ung thư miệng ở NCT thường liên quan chặt chẽ đến thói quen xấu nào?",
+      "options": [
+        {"text": "Uống nhiều nước đá", "isCorrect": false},
+        {"text": "Hút thuốc lá và uống rượu bia kéo dài", "isCorrect": true},
+        {"text": "Ăn nhiều đồ ngọt", "isCorrect": false},
+        {"text": "Đánh răng 3 lần/ngày", "isCorrect": false}
+      ],
+      "explanation": "Thuốc lá và rượu là hai yếu tố nguy cơ hàng đầu gây đột biến tế bào niêm mạc miệng."
+    },
+    {
+      "question": "Dấu hiệu 'tự kiểm tra' ung thư miệng quan trọng nhất tại nhà là:",
+      "options": [
+        {"text": "Răng bị lung lay", "isCorrect": false},
+        {"text": "Bất kỳ vết loét hoặc mảng màu lạ không lành sau 2 tuần", "isCorrect": true},
+        {"text": "Chảy máu nướu khi đánh răng", "isCorrect": false},
+        {"text": "Đau răng khi ăn lạnh", "isCorrect": false}
+      ],
+      "explanation": "Sự kéo dài bất thường của tổn thương mô mềm là dấu hiệu cảnh báo cần đi khám chuyên khoa ngay."
+    },
+    {
+      "question": "Dự phòng mòn răng hóa học (Erosion) cho người bị trào ngược dạ dày là:",
+      "options": [
+        {"text": "Đánh răng ngay sau khi bị nôn", "isCorrect": false},
+        {"text": "Súc miệng bằng nước sạch hoặc dung dịch kiềm nhẹ, chờ 30-60 phút mới đánh răng", "isCorrect": true},
+        {"text": "Uống nước chanh để trung hòa", "isCorrect": false},
+        {"text": "Mài răng sớm", "isCorrect": false}
+      ],
+      "explanation": "Đánh răng ngay khi men răng đang bị axit làm mềm sẽ làm mòn răng nhanh hơn."
+    },
+    {
+      "question": "Tại sao việc khám răng định kỳ 3-6 tháng/lần là cần thiết đối với NCT?",
+      "options": [
+        {"text": "Để bác sĩ nhổ hết răng", "isCorrect": false},
+        {"text": "Phát hiện sớm các tổn thương sâu chân răng và tiền ung thư", "isCorrect": true},
+        {"text": "Để thay hàm giả mới liên tục", "isCorrect": false},
+        {"text": "Để tính tiền phí bảo hiểm", "isCorrect": false}
+      ],
+      "explanation": "Can thiệp sớm giúp bảo tồn răng thật và tăng tỷ lệ điều trị thành công các bệnh lý ác tính."
+    },
+    {
+      "question": "Sử dụng 'Chỉ nha khoa' ở NCT run tay cần thiết bị hỗ trợ nào?",
+      "options": [
+        {"text": "Kim khâu", "isCorrect": false},
+        {"text": "Cung giữ chỉ nha khoa (Floss holder)", "isCorrect": true},
+        {"text": "Kìm rút chỉ", "isCorrect": false},
+        {"text": "Dây đồng mỏng", "isCorrect": false}
+      ],
+      "explanation": "Cung giữ chỉ giúp BN dễ điều khiển sợi chỉ vào kẽ răng chỉ bằng một tay hoặc khi khớp tay bị cứng."
+    },
+    {
+      "question": "Loại nước súc miệng nào nên tránh dùng cho NCT bị teo niêm mạc miệng?",
+      "options": [
+        {"text": "Nước súc miệng chứa Fluoride", "isCorrect": false},
+        {"text": "Nước súc miệng chứa cồn nồng độ cao", "isCorrect": true},
+        {"text": "Nước muối sinh lý 0.9%", "isCorrect": false},
+        {"text": "Nước súc miệng chứa tinh dầu tự nhiên", "isCorrect": false}
+      ],
+      "explanation": "Cồn gây cảm giác nóng rát và làm khô niêm mạc vốn đã mỏng manh của người già."
+    },
+    {
+      "question": "Biện pháp dự phòng nhiễm nấm Candida hiệu quả nhất cho người bệnh nằm lâu ngày là:",
+      "options": [
+        {"text": "Cho bệnh nhân ăn nhiều đường", "isCorrect": false},
+        {"text": "Vệ sinh miệng sạch sẽ bằng gạc ẩm và kiểm soát hàm giả", "isCorrect": true},
+        {"text": "Hạn chế uống nước", "isCorrect": false},
+        {"text": "Để bệnh nhân tự vệ sinh", "isCorrect": false}
+      ],
+      "explanation": "Người bệnh nằm lâu giảm khả năng tự làm sạch, cần người chăm sóc hỗ trợ vệ sinh môi trường miệng."
+    },
+    {
+      "question": "Vecni Fluoride (Fluoride Varnish) được dùng trong dự phòng NCT nhằm mục đích:",
+      "options": [
+        {"text": "Làm răng bóng như sứ", "isCorrect": false},
+        {"text": "Tái khoáng hóa và ngăn ngừa sâu răng chân răng hiệu quả", "isCorrect": true},
+        {"text": "Nhổ răng không đau", "isCorrect": false},
+        {"text": "Thay thế cho việc lấy cao răng", "isCorrect": false}
+      ],
+      "explanation": "Vecni Fluor dính chặt vào bề mặt răng, phóng thích Fluor kéo dài giúp bảo vệ vùng chân răng nhạy cảm."
+    },
+    {
+      "question": "Khi chải răng cho người bị sa sút trí tuệ, người chăm sóc nên:",
+      "options": [
+        {"text": "Nói thật nhanh và mạnh bạo", "isCorrect": false},
+        {"text": "Sử dụng hướng dẫn từng bước ngắn gọn, kiên nhẫn và tạo không khí vui vẻ", "isCorrect": true},
+        {"text": "Bắt bệnh nhân nhắm mắt", "isCorrect": false},
+        {"text": "Chỉ làm sạch răng trước", "isCorrect": false}
+      ],
+      "explanation": "BN sa sút trí tuệ dễ bị kích động, cần sự nhẹ nhàng và giải thích đơn giản để hợp tác."
+    },
+    {
+      "question": "Dự phòng 'mòn răng do bàn chải' (Abrasion) ở người già bao gồm việc sử dụng:",
+      "options": [
+        {"text": "Bàn chải lông cứng", "isCorrect": false},
+        {"text": "Bàn chải lông mềm và kem đánh răng có độ mài mòn thấp", "isCorrect": true},
+        {"text": "Bàn chải bằng sợi kim loại", "isCorrect": false},
+        {"text": "Đánh răng 10 lần một ngày", "isCorrect": false}
+      ],
+      "explanation": "Lông mềm giảm tác động cơ học lên ngà chân răng mềm, bảo vệ cấu trúc răng."
+    },
+    {
+      "question": "Tầm quan trọng của việc kiểm soát đường huyết trong dự phòng bệnh nha chu ở NCT là:",
+      "options": [
+        {"text": "Giúp răng mọc thêm", "isCorrect": false},
+        {"text": "Giảm phản ứng viêm và cải thiện khả năng lành thương của nướu", "isCorrect": true},
+        {"text": "Làm nướu có màu trắng", "isCorrect": false},
+        {"text": "Không liên quan đến nướu", "isCorrect": false}
+      ],
+      "explanation": "Đường huyết cao làm trầm trọng thêm tình trạng viêm nha chu và gây mất răng nhanh hơn."
+    },
+    {
+      "question": "NCT nên thay bàn chải đánh răng định kỳ bao lâu một lần?",
+      "options": [
+        {"text": "Khi nào lông bàn chải rụng hết", "isCorrect": false},
+        {"text": "Mỗi 3 tháng hoặc khi lông bàn chải bị tòe", "isCorrect": true},
+        {"text": "1 năm 1 lần", "isCorrect": false},
+        {"text": "Chỉ thay khi bị sâu răng", "isCorrect": false}
+      ],
+      "explanation": "Bàn chải tòe lông mất khả năng làm sạch và có thể chứa nhiều vi khuẩn tích tụ."
+    },
+    {
+      "question": "Tại sao NCT nên hạn chế ăn vặt giữa các bữa ăn chính?",
+      "options": [
+        {"text": "Để tiết kiệm tiền", "isCorrect": false},
+        {"text": "Giảm thời gian răng tiếp xúc với axit và đường, ngăn ngừa sâu răng", "isCorrect": true},
+        {"text": "Để giảm cân", "isCorrect": false},
+        {"text": "Làm cho răng chắc hơn", "isCorrect": false}
+      ],
+      "explanation": "Mỗi lần ăn vặt là một lần môi trường pH trong miệng giảm xuống mức gây mất khoáng men răng."
+    },
+    {
+      "question": "Dấu hiệu nào cho thấy nướu của NCT đang ở trạng thái khỏe mạnh?",
+      "options": [
+        {"text": "Nướu đỏ rực và sưng to", "isCorrect": false},
+        {"text": "Nướu màu hồng nhạt, săn chắc và không chảy máu khi thăm khám", "isCorrect": true},
+        {"text": "Nướu phủ kín toàn bộ mặt nhai", "isCorrect": false},
+        {"text": "Nướu có mủ chảy ra", "isCorrect": false}
+      ],
+      "explanation": "Màu hồng nhạt và độ săn chắc là tiêu chuẩn của mô nha chu ổn định."
+    },
+    {
+      "question": "Khí cụ 'Máy tăm nước' (Water Flosser) hỗ trợ gì cho NCT?",
+      "options": [
+        {"text": "Làm răng lung lay", "isCorrect": false},
+        {"text": "Làm sạch thức ăn ở kẽ răng và dưới bờ hàm giả hiệu quả cho người kém khéo léo", "isCorrect": true},
+        {"text": "Thay thế việc lấy cao răng tại phòng khám", "isCorrect": false},
+        {"text": "Làm trắng răng tự nhiên", "isCorrect": false}
+      ],
+      "explanation": "Tia nước áp lực giúp đẩy mảng bám ở những vùng khó tiếp cận mà không đòi hỏi vận động tay phức tạp."
+    },
+    {
+      "question": "Biện pháp dự phòng 'mất răng' hiệu quả nhất cho NCT là gì?",
+      "options": [
+        {"text": "Nhổ hết răng từ lúc 50 tuổi", "isCorrect": false},
+        {"text": "Duy trì vệ sinh răng miệng tốt và điều trị sớm các bệnh lý nha chu/sâu răng", "isCorrect": true},
+        {"text": "Uống nhiều sữa canxi", "isCorrect": false},
+        {"text": "Không nhai đồ cứng", "isCorrect": false}
+      ],
+      "explanation": "Giữ gìn răng thật thông qua chăm sóc chủ động là chìa khóa của sức khỏe răng miệng tuổi già."
+    },
+    {
+      "question": "Trong dự phòng ung thư miệng, 'sinh thiết' được thực hiện khi nào?",
+      "options": [
+        {"text": "Khi răng bị sâu", "isCorrect": false},
+        {"text": "Khi có tổn thương nghi ngờ ác tính để xác định bản chất tế bào", "isCorrect": true},
+        {"text": "Khi muốn lấy cao răng", "isCorrect": false},
+        {"text": "Bất cứ khi nào bệnh nhân yêu cầu", "isCorrect": false}
+      ],
+      "explanation": "Sinh thiết là phương pháp chẩn đoán xác định duy nhất để biết khối u là lành tính hay ác tính."
+    },
+    {
+      "question": "Hệ quả của việc không dự phòng 'khô miệng' kéo dài ở NCT là:",
+      "options": [
+        {"text": "Sâu răng lan tràn, khó ăn nhai và giảm chất lượng cuộc sống", "isCorrect": true},
+        {"text": "Răng mọc dài thêm 5cm", "isCorrect": false},
+        {"text": "Lưỡi bị biến mất", "isCorrect": false},
+        {"text": "Nướu trở nên trắng đục", "isCorrect": false}
+      ],
+      "explanation": "Thiếu nước bọt tàn phá bộ răng vĩnh viễn và niêm mạc miệng một cách nhanh chóng."
+    },
+    {
+      "question": "Phát biểu nào sau đây đúng về việc dùng 'Tăm xỉa răng' ở người già?",
+      "options": [
+        {"text": "Nên dùng tăm tre nhọn để làm sạch kẽ", "isCorrect": false},
+        {"text": "Hạn chế dùng tăm tre vì dễ gây tổn thương nhú lợi và làm rộng kẽ răng", "isCorrect": true},
+        {"text": "Tăm tre giúp nướu chắc khỏe hơn", "isCorrect": false},
+        {"text": "Dùng tăm tre thay thế cho chỉ nha khoa là tốt nhất", "isCorrect": false}
+      ],
+      "explanation": "Tăm tre cứng và nhọn thường gây sang chấn cơ học làm tụt nướu và viêm nhiễm kẽ răng."
+    },
+    {
+      "question": "Kết luận quan trọng của Chương 5 về dự phòng cho NCT là:",
+      "options": [
+        {"text": "Dự phòng chỉ hiệu quả ở người trẻ", "isCorrect": false},
+        {"text": "Dự phòng là biện pháp kinh tế, nhân văn và hiệu quả nhất để bảo vệ sức khỏe RM người già", "isCorrect": true},
+        {"text": "Hàm giả là giải pháp dự phòng tốt nhất", "isCorrect": false},
+        {"text": "Mọi người già đều sẽ mất răng dù có dự phòng hay không", "isCorrect": false}
+      ],
+      "explanation": "Chăm sóc chủ động giúp kéo dài tuổi thọ răng thật và nâng cao chất lượng sống cho NCT."
+    },
+    {
+      "question": "Để dự phòng nấm miệng, hàm giả sau khi rửa sạch nên được ngâm trong:",
+      "options": [
+        {"text": "Nước sôi", "isCorrect": false},
+        {"text": "Dung dịch giấm pha loãng hoặc dung dịch làm sạch chuyên dụng", "isCorrect": true},
+        {"text": "Rượu mạnh 40 độ", "isCorrect": false},
+        {"text": "Dung dịch axit clohydric", "isCorrect": false}
+      ],
+      "explanation": "Các dung dịch này giúp diệt nấm men Candida bám trên bề mặt nhựa hàm giả mà không làm hỏng nhựa."
+    },
+    {
+      "question": "Chỉ số mảng bám răng (Plaque Index) giúp ích gì trong dự phòng?",
+      "options": [
+        {"text": "Để tính tiền điều trị", "isCorrect": false},
+        {"text": "Đánh giá mức độ vệ sinh răng miệng và hiệu quả của các biện pháp dự phòng đang dùng", "isCorrect": true},
+        {"text": "Để biết răng có trắng không", "isCorrect": false},
+        {"text": "Để chọn màu răng giả", "isCorrect": false}
+      ],
+      "explanation": "Chỉ số này là bằng chứng khách quan giúp bác sĩ điều chỉnh kỹ thuật chải răng cho bệnh nhân."
+    },
+    {
+      "question": "Trường hợp NCT bị liệt nửa người sau tai biến, ai là người đóng vai trò chủ chốt trong dự phòng răng miệng?",
+      "options": [
+        {"text": "Bác sĩ nha khoa", "isCorrect": false},
+        {"text": "Người chăm sóc trực tiếp (gia đình hoặc điều dưỡng)", "isCorrect": true},
+        {"text": "Chính bản thân bệnh nhân", "isCorrect": false},
+        {"text": "Nhân viên bán bàn chải", "isCorrect": false}
+      ],
+      "explanation": "Khi BN mất khả năng tự vận động, vệ sinh răng miệng phụ thuộc hoàn toàn vào sự hỗ trợ của người khác."
+    },
+    {
+      "question": "Bôi Vecni Fluor định kỳ cho NCT nên thực hiện bao lâu một lần?",
+      "options": [
+        {"text": "1 tuần 1 lần", "isCorrect": false},
+        {"text": "Mỗi 3 - 6 tháng trong các kỳ khám định kỳ", "isCorrect": true},
+        {"text": "10 năm 1 lần", "isCorrect": false},
+        {"text": "Chỉ làm khi bị đau răng", "isCorrect": false}
+      ],
+      "explanation": "Khoảng thời gian này đảm bảo nồng độ Fluor luôn duy trì ở mức bảo vệ cho chân răng."
+    },
+    {
+      "question": "Dự phòng 'loét niêm mạc do hàm giả' ở người già bằng cách:",
+      "options": [
+        {"text": "Dán hàm giả bằng keo dán sắt", "isCorrect": false},
+        {"text": "Kiểm tra độ khít sát của hàm định kỳ và mài chỉnh các điểm vướng cộm", "isCorrect": true},
+        {"text": "Bắt bệnh nhân nhịn ăn đồ cứng hoàn toàn", "isCorrect": false},
+        {"text": "Chỉ đeo hàm trên", "isCorrect": false}
+      ],
+      "explanation": "Hàm giả ổn định sẽ không gây ma sát làm loét mô mềm."
+    },
+    {
+      "question": "Tại sao NCT nên sử dụng kem đánh răng có độ mài mòn thấp (RDA thấp)?",
+      "options": [
+        {"text": "Để răng không bị đổi màu", "isCorrect": false},
+        {"text": "Bảo vệ lớp ngà chân răng mỏng manh không bị mòn cơ học", "isCorrect": true},
+        {"text": "Để kem không bị sủi bọt", "isCorrect": false},
+        {"text": "Vì kem đó rẻ tiền", "isCorrect": false}
+      ],
+      "explanation": "Răng người già thường bị tụt nướu lộ ngà; kem đánh răng quá mạnh sẽ tàn phá lớp ngà này rất nhanh."
+    },
+    {
+      "question": "Âm thanh 'lụp cụp' khi nhai với hàm giả là dấu hiệu của:",
+      "options": [
+        {"text": "Xương hàm đang phát triển", "isCorrect": false},
+        {"text": "Hàm giả bị lỏng hoặc sai khớp cắn cần dự phòng biến chứng khớp", "isCorrect": true},
+        {"text": "Răng giả rất tốt", "isCorrect": false},
+        {"text": "Không có ý nghĩa gì", "isCorrect": false}
+      ],
+      "explanation": "Hàm lỏng gây tiếng động và làm sang chấn khớp thái dương hàm."
+    },
+    {
+      "question": "Nguyên tắc '3 sạch' trong dự phòng cho người mang hàm giả là:",
+      "options": [
+        {"text": "Sạch răng, sạch lợi, sạch ví tiền", "isCorrect": false},
+        {"text": "Sạch răng thật, sạch hàm giả và sạch niêm mạc miệng", "isCorrect": true},
+        {"text": "Sạch bàn, sạch ghế, sạch phòng khám", "isCorrect": false},
+        {"text": "Sạch tay, sạch miệng, sạch chân", "isCorrect": false}
+      ],
+      "explanation": "Vệ sinh toàn diện các thành phần trong khoang miệng mới ngăn chặn được bệnh tật."
+    },
+    {
+      "question": "NCT bị khô miệng nên hạn chế loại thực phẩm nào?",
+      "options": [
+        {"text": "Thức ăn nhiều nước", "isCorrect": false},
+        {"text": "Thức ăn mặn, khô, cay và đồ uống có cồn", "isCorrect": true},
+        {"text": "Rau luộc", "isCorrect": false},
+        {"text": "Thịt hầm mềm", "isCorrect": false}
+      ],
+      "explanation": "Muối và cồn làm rút nước từ niêm mạc, đồ cay gây kích ứng vùng miệng đang thiếu bảo vệ của nước bọt."
+    },
+    {
+      "question": "Mảng đỏ (Erythroplakia) ở miệng người già đáng lo ngại hơn mảng trắng vì:",
+      "options": [
+        {"text": "Nó có màu đẹp hơn", "isCorrect": false},
+        {"text": "Tỷ lệ chuyển sang ung thư cao hơn rất nhiều (lên đến 90%)", "isCorrect": true},
+        {"text": "Nó dễ lau sạch bằng nước", "isCorrect": false},
+        {"text": "Vì nó không gây đau", "isCorrect": false}
+      ],
+      "explanation": "Hồng sản là tổn thương có nguy cơ ác tính cao nhất trong các tổn thương tiền ung thư miệng."
+    },
+    {
+      "question": "Khám sàng lọc ung thư miệng ở NCT bác sĩ cần quan sát kỹ vùng nào nhất?",
+      "options": [
+        {"text": "Rìa cắn răng cửa", "isCorrect": false},
+        {"text": "Bờ bên lưỡi, sàn miệng và vòm miệng mềm", "isCorrect": true},
+        {"text": "Mặt ngoài của nướu", "isCorrect": false},
+        {"text": "Xương gò má", "isCorrect": false}
+      ],
+      "explanation": "Đây là những 'vùng nguy hiểm' nơi ung thư biểu mô thường khởi phát."
+    },
+    {
+      "question": "Sử dụng bàn chải điện ở NCT giúp ích gì cho dự phòng?",
+      "options": [
+        {"text": "Tiết kiệm tiền mua kem", "isCorrect": false},
+        {"text": "Tự động tạo ra các chuyển động làm sạch chuẩn xác mà không cần sự khéo léo của tay", "isCorrect": true},
+        {"text": "Làm răng mọc đều hơn", "isCorrect": false},
+        {"text": "Thay thế cho việc đi khám răng", "isCorrect": false}
+      ],
+      "explanation": "Chuyển động rung và xoay của bàn chải điện làm sạch mảng bám tốt hơn chải tay ở người già yếu cơ tay."
+    },
+    {
+      "question": "Hệ quả của 'thở miệng' ở người già đối với sâu răng là:",
+      "options": [
+        {"text": "Làm sạch răng nhờ luồng khí", "isCorrect": false},
+        {"text": "Làm khô miệng, giảm khả năng đệm của nước bọt và tăng nguy cơ sâu răng", "isCorrect": true},
+        {"text": "Làm răng chắc hơn", "isCorrect": false},
+        {"text": "Không có tác động", "isCorrect": false}
+      ],
+      "explanation": "Thở miệng làm bay hơi nước bọt nhanh chóng, khiến răng không còn lớp bảo vệ tự nhiên."
+    },
+    {
+      "question": "Tại sao nên dặn NCT 'nhìn gương khi chải răng'?",
+      "options": [
+        {"text": "Để trang điểm", "isCorrect": false},
+        {"text": "Để quan sát và đảm bảo lông bàn chải đi vào đúng các vùng kẽ răng và khe nướu", "isCorrect": true},
+        {"text": "Để soi gương cho vui", "isCorrect": false},
+        {"text": "Để kiểm tra mắt", "isCorrect": false}
+      ],
+      "explanation": "Sử dụng thị giác giúp NCT kiểm soát động tác làm sạch chính xác hơn khi cảm giác tay bị giảm."
+    },
+    {
+      "question": "Thông điệp cuối cùng cho người chăm sóc NCT là:",
+      "options": [
+        {"text": "Răng người già rụng là chuyện đương nhiên", "isCorrect": false},
+        {"text": "Một khoang miệng sạch giúp NCT ăn ngon, khỏe mạnh và hạnh phúc hơn", "isCorrect": true},
+        {"text": "Chỉ cần cho bệnh nhân ăn đủ chất", "isCorrect": false},
+        {"text": "Đừng để người già đi khám răng", "isCorrect": false}
+      ],
+      "explanation": "Sức khỏe răng miệng là nền tảng của sức khỏe toàn thân và chất lượng cuộc sống người cao tuổi."
+    }
+  ]

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Viêm da cơ địa (Atopic dermatitis) — Trắc nghiệm</title>
+<style>
+  :root{--card:#1e293b;--accent:#38bdf8;--ok:#22c55e;--bad:#ef4444;--txt:#e2e8f0;--muted:#94a3b8;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(160deg,#0f172a,#0b2537);color:var(--txt);line-height:1.5;padding:16px;}
+  .wrap{max-width:820px;margin:0 auto;}
+  header{text-align:center;padding:14px 0 8px;}
+  header h1{font-size:1.35rem;margin:0 0 4px;color:#fff;}
+  header p{margin:2px 0;color:var(--muted);font-size:.9rem;}
+  .topnav{text-align:center;margin-top:8px;}
+  .topnav a{color:var(--accent);font-size:.82rem;text-decoration:none;}
+  .panel{background:var(--card);border:1px solid #334155;border-radius:14px;padding:20px;margin-top:16px;box-shadow:0 8px 30px rgba(0,0,0,.35);}
+  .bar{height:8px;background:#0b1220;border-radius:99px;overflow:hidden;margin:10px 0 4px;}
+  .bar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),#22c55e);transition:width .3s;}
+  .meta{display:flex;justify-content:space-between;font-size:.82rem;color:var(--muted);margin-bottom:6px;flex-wrap:wrap;gap:6px;}
+  .q{font-size:1.08rem;font-weight:600;margin:6px 0 14px;color:#fff;}
+  .opt{display:block;width:100%;text-align:left;background:#0b1220;border:1.5px solid #334155;color:var(--txt);border-radius:10px;padding:12px 14px;margin:8px 0;cursor:pointer;font-size:.98rem;transition:all .15s;}
+  .opt:hover:not(:disabled){border-color:var(--accent);}
+  .opt .k{display:inline-block;width:22px;font-weight:700;color:var(--accent);}
+  .opt.correct{border-color:var(--ok);background:rgba(34,197,94,.12);}
+  .opt.wrong{border-color:var(--bad);background:rgba(239,68,68,.12);}
+  .opt:disabled{cursor:default;opacity:.95;}
+  .explain{margin-top:10px;padding:11px 13px;border-radius:10px;background:#0b1220;border-left:4px solid var(--accent);font-size:.9rem;color:#cbd5e1;display:none;}
+  .explain.show{display:block;}
+  .row{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;}
+  button.btn{background:var(--accent);color:#04263a;border:none;border-radius:10px;padding:11px 18px;font-weight:700;cursor:pointer;font-size:.95rem;}
+  button.btn.sec{background:#334155;color:#e2e8f0;}
+  button.btn:disabled{opacity:.4;cursor:not-allowed;}
+  .center{text-align:center;}
+  .big{font-size:2.4rem;font-weight:800;color:#fff;margin:6px 0;}
+  .tag{display:inline-block;font-size:.72rem;background:#0b1220;border:1px solid #334155;color:var(--muted);padding:3px 9px;border-radius:99px;margin-bottom:8px;}
+  .grid{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+  .chip{font-size:.8rem;padding:6px 10px;border-radius:8px;border:1px solid #334155;background:#0b1220;cursor:pointer;}
+  .chip.on{border-color:var(--accent);color:var(--accent);}
+  .review-item{border-top:1px solid #334155;padding:12px 0;font-size:.9rem;}
+  .review-item .ri-q{font-weight:600;color:#fff;}
+  .review-item .ri-a{color:#cbd5e1;margin-top:4px;}
+  .ok{color:var(--ok)} .bad{color:var(--bad)}
+  a.src{color:var(--muted);font-size:.78rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">DA LIỄU · VIÊM DA CƠ ĐỊA</span>
+    <h1>Viêm da cơ địa (Atopic dermatitis) — Trắc nghiệm</h1>
+    <p>Ôn tập trắc nghiệm bám sát bài giảng Da liễu</p>
+    <div class="topnav"><a href="index.html">&#8592; Danh sách đề</a></div>
+  </header>
+
+  <div class="panel" id="start">
+    <p>Bộ câu hỏi bám sát tài liệu. Mỗi câu có 4 phương án gần giống nhau để tăng độ khó. Chọn số câu muốn luyện:</p>
+    <div class="grid" id="countChips"></div>
+    <div class="row">
+      <label style="display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)">
+        <input type="checkbox" id="shuffle" checked> Xáo trộn câu hỏi &amp; đáp án
+      </label>
+    </div>
+    <div class="row">
+      <button class="btn" onclick="startQuiz()">Bắt đầu luyện tập &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel" id="quiz" style="display:none">
+    <div class="meta"><span id="progressTxt"></span><span id="scoreTxt"></span></div>
+    <div class="bar"><i id="progressBar"></i></div>
+    <div class="q" id="qText"></div>
+    <div id="opts"></div>
+    <div class="explain" id="explain"></div>
+    <div class="row">
+      <button class="btn sec" id="skipBtn" onclick="nextQ()">Bỏ qua</button>
+      <button class="btn" id="nextBtn" onclick="nextQ()" disabled>Câu tiếp &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel center" id="result" style="display:none">
+    <p class="tag">KẾT QUẢ</p>
+    <div class="big" id="finalScore"></div>
+    <p id="finalMsg" style="color:var(--muted)"></p>
+    <div class="row" style="justify-content:center">
+      <button class="btn" onclick="location.reload()">Làm lại &#8635;</button>
+      <button class="btn sec" onclick="toggleReview()">Xem lại bài &#9662;</button>
+    </div>
+    <div id="review" style="text-align:left;display:none;margin-top:14px"></div>
+  </div>
+
+  <p class="center" style="margin-top:18px"><a class="src" href="Viêm da cơ địa (Atopic dermatitis) — ThS.BS. Võ Tường Thảo Vy, Bộ môn Da liễu">Nguồn: Viêm da cơ địa (Atopic dermatitis) — ThS.BS. Võ Tường Thảo Vy, Bộ môn Da liễu</a></p>
+</div>
+
+<script>
+const BANK = [{"q": "Viêm da cơ địa (VDCĐ) còn có tên gọi nào khác?", "a": ["Lang ben", "Viêm da tiết bã", "Chàm thể tạng (atopic eczema/dermatitis)", "Vảy nến"], "c": 2, "e": "VDCĐ còn gọi là chàm thể tạng, atopic eczema, atopic dermatitis."}, {"q": "Hai triệu chứng đặc trưng CHÍNH của viêm da cơ địa là:", "a": ["Sốt và phát ban", "Đau và loét da", "Mụn mủ và vảy tiết vàng", "Ngứa dữ dội và khô da"], "c": 3, "e": "VDCĐ là viêm da mạn tính, hay tái phát, đặc trưng bởi ngứa dữ dội và khô da."}, {"q": "Viêm da cơ địa có bản chất là:", "a": ["Viêm da mạn tính, hay tái phát", "Ung thư da", "Bệnh tự miễn cấp tính", "Nhiễm trùng da cấp tính"], "c": 0, "e": "VDCĐ là bệnh viêm da mạn tính, hay tái phát."}, {"q": "Viêm da cơ địa liên quan đến sự tăng chất nào trong huyết thanh?", "a": ["IgE", "IgA", "IgG", "IgM"], "c": 0, "e": "VDCĐ liên quan đến tăng IgE huyết thanh và cơ địa dị ứng (atopy)."}, {"q": "Cơ địa dị ứng (atopy) liên quan VDCĐ KHÔNG bao gồm bệnh nào?", "a": ["Đái tháo đường", "Viêm mũi dị ứng", "Viêm kết mạc dị ứng", "Hen phế quản"], "c": 0, "e": "Atopy gồm: hen phế quản, viêm mũi dị ứng, viêm kết mạc dị ứng, dị ứng thức ăn, mày đay. Đái tháo đường không thuộc nhóm này."}, {"q": "Tỉ lệ mắc viêm da cơ địa ở trẻ em trên toàn thế giới khoảng:", "a": ["30-40%", "0.1-0.5%", "5-10%", "50-60%"], "c": 2, "e": "Tỉ lệ mắc VDCĐ khoảng 5-10% trẻ em toàn thế giới."}, {"q": "Tỉ lệ VDCĐ khởi phát trong 5 năm đầu đời khoảng:", "a": ["50%", "95%", "20%", "10%"], "c": 1, "e": "95% VDCĐ khởi phát trong 5 năm đầu đời, 85% trong năm đầu đời (đặc biệt từ 3 tháng tuổi)."}, {"q": "Tỉ lệ VDCĐ khởi phát ngay trong năm đầu đời khoảng:", "a": ["50%", "25%", "10%", "85%"], "c": 3, "e": "85% VDCĐ khởi phát trong năm đầu đời, đặc biệt từ 3 tháng tuổi."}, {"q": "Về giới, viêm da cơ địa gặp ở:", "a": ["Chỉ gặp ở nam", "Nữ > Nam", "Nam = Nữ", "Nam > Nữ"], "c": 1, "e": "VDCĐ gặp ở nữ nhiều hơn nam (Nữ > Nam)."}, {"q": "Tỉ lệ con mắc VDCĐ khi CẢ bố và mẹ đều mắc VDCĐ là:", "a": ["60%", "40%", "81%", "20%"], "c": 2, "e": "Con mắc VDCĐ khi bố hoặc mẹ mắc: 60%; khi cả bố và mẹ đều mắc: 81%."}, {"q": "Tỉ lệ con mắc VDCĐ khi CHỈ bố HOẶC mẹ mắc VDCĐ là:", "a": ["60%", "30%", "10%", "81%"], "c": 0, "e": "Con mắc VDCĐ khi bố hoặc mẹ mắc là 60%."}, {"q": "Tỉ lệ cùng mắc VDCĐ của cặp sinh đôi CÙNG trứng là:", "a": ["80%", "20%", "50%", "100%"], "c": 0, "e": "Tỉ lệ cùng mắc của sinh đôi cùng trứng là 80%, khác trứng là 20% — cho thấy vai trò di truyền mạnh."}, {"q": "Gen nào bị đột biến mất chức năng mã hóa profilaggrin liên quan VDCĐ?", "a": ["Gen HLA-B27", "Gen FLG (filaggrin)", "Gen TP53", "Gen BRCA1"], "c": 1, "e": "Đột biến mất chức năng gen FLG mã hóa profilaggrin — thành phần quan trọng của hàng rào bảo vệ da (HRBV)."}, {"q": "Các gen TLR-2, 4, 6, 9 liên quan VDCĐ mã hóa cho:", "a": ["Toll-like receptor (đáp ứng miễn dịch bẩm sinh)", "Enzyme keratinase", "Collagen type I", "Kênh natri"], "c": 0, "e": "Gen TLR-2, 4, 6, 9 mã hóa toll-like receptor, liên quan đáp ứng miễn dịch bẩm sinh."}, {"q": "Tỉ lệ bệnh nhân VDCĐ có tiền sử gia đình mắc bệnh 'atopy' khoảng:", "a": ["20%", "40%", "10%", "70%"], "c": 3, "e": "Khoảng 70% bệnh nhân VDCĐ có tiền sử gia đình mắc bệnh atopy."}, {"q": "Yếu tố môi trường nào là dị nguyên thức ăn thường gặp trong VDCĐ?", "a": ["Thịt bò, thịt heo", "Trứng, đậu phộng, sữa bò", "Rau xanh các loại", "Gạo, khoai, sắn"], "c": 1, "e": "Dị nguyên thức ăn thường gặp: trứng, đậu phộng, sữa bò..."}, {"q": "Tác nhân nhiễm trùng thường liên quan làm nặng VDCĐ là:", "a": ["Pseudomonas", "E. coli", "Streptococcus pneumoniae", "Staphylococcus aureus"], "c": 3, "e": "Nhiễm trùng làm nặng VDCĐ thường do Staphylococcus aureus."}, {"q": "Ba cơ chế bệnh sinh chính của viêm da cơ địa là:", "a": ["Nhiễm khuẩn, nhiễm virus, nhiễm nấm", "Di truyền đơn thuần", "Rối loạn nội tiết", "Rối loạn chức năng hàng rào bảo vệ da; rối loạn điều hòa miễn dịch; yếu tố môi trường và hệ vi sinh vật trên da"], "c": 3, "e": "3 cơ chế chính: (1) rối loạn chức năng hàng rào bảo vệ da (HRBV), (2) rối loạn điều hòa miễn dịch, (3) yếu tố môi trường và hệ vi sinh vật trên da."}, {"q": "Filaggrin là loại protein gì và có nguồn gốc từ đâu?", "a": ["Kháng thể của lớp gai", "Protein cấu trúc lớp sừng, tạo ra từ tiền tố profilaggrin của lớp hạt", "Enzyme phân giải lipid", "Protein vận chuyển của lớp đáy"], "c": 1, "e": "Filaggrin là protein cấu trúc quan trọng của lớp sừng, được tạo ra từ tiền tố profilaggrin của lớp hạt."}, {"q": "Các chất chuyển hóa của filaggrin tạo thành:", "a": ["Sebum - tạo nhờn", "Collagen - nâng đỡ da", "Yếu tố giữ ẩm tự nhiên (NMF) - giữ ẩm, chống mất nước", "Melanin - tạo sắc tố"], "c": 2, "e": "Filaggrin là histidine-rich protein; chuyển hóa của nó tạo 'yếu tố giữ ẩm tự nhiên' (NMF: natural moisturizing factor) giúp giữ ẩm, chống mất nước."}, {"q": "Lipid gian bào của lớp sừng gồm 3 thành phần chính:", "a": ["Collagen, elastin và keratin", "Albumin, globulin và fibrin", "Ceramide, cholesterol và acid béo tự do", "Glucose, fructose và lactose"], "c": 2, "e": "Lipid gian bào (cấu trúc dạng phiến giúp giữ nước) gồm: ceramide, cholesterol và acid béo tự do."}, {"q": "Cấu trúc hàng rào bảo vệ da thường được ví như mô hình nào?", "a": ["Mô hình 'tổ ong'", "Mô hình 'gạch - vữa' (tế bào sừng là gạch, lipid gian bào là vữa)", "Mô hình 'lưới đánh cá'", "Mô hình 'xoắn ốc'"], "c": 1, "e": "HRBV da có cấu trúc 'gạch - vữa': tế bào sừng (corneocyte) là gạch, lipid gian bào là vữa."}, {"q": "Biểu hiện lâm sàng của VDCĐ ở giai đoạn CẤP tính là:", "a": ["Mảng đỏ da, mụn nước, xuất tiết nhiều, đóng vảy tiết", "Da lành hoàn toàn", "Mảng đỏ khô, ít xuất tiết, tróc ít vảy", "Mảng dày da, lichen hóa, thay đổi sắc tố"], "c": 0, "e": "Giai đoạn cấp: mảng đỏ da, mụn nước, xuất tiết nhiều, đóng vảy tiết."}, {"q": "Biểu hiện của VDCĐ ở giai đoạn MẠN tính là:", "a": ["Mảng dày da, lichen hóa, vảy da, thay đổi sắc tố", "Mụn nước, xuất tiết nhiều", "Loét sâu bờ cứng", "Bọng nước lớn nền đỏ"], "c": 0, "e": "Giai đoạn mạn tính: mảng dày da, lichen hóa, vảy da, thay đổi sắc tố (tăng/giảm sắc tố)."}, {"q": "Biểu hiện của VDCĐ ở giai đoạn BÁN CẤP là:", "a": ["Mụn nước, xuất tiết nhiều, đóng vảy tiết", "Bọng nước lan tỏa", "Mảng đỏ da khô dần, ít xuất tiết, vảy tiết, tróc ít vảy da", "Lichen hóa dày da"], "c": 2, "e": "Giai đoạn bán cấp: mảng đỏ da khô dần, ít xuất tiết, vảy tiết, tróc ít vảy da."}, {"q": "Viêm da cơ địa ở trẻ nhũ nhi (0-2 tuổi) còn được gọi là:", "a": ["Chàm sữa", "Chàm mi mắt", "Chàm núm vú", "Chàm bìu"], "c": 0, "e": "VDCĐ ở trẻ nhũ nhi (0-2 tuổi) còn gọi là chàm sữa, khởi phát ≥3 tháng tuổi."}, {"q": "Vị trí thương tổn của VDCĐ ở trẻ nhũ nhi là:", "a": ["Nếp gấp khuỷu, khoeo", "Vùng lồi của mặt (má, trán, cằm), da đầu, mặt duỗi chi", "Vùng sinh dục", "Bàn tay, cẳng-bàn chân"], "c": 1, "e": "VDCĐ nhũ nhi: vùng lồi của mặt (má, trán, cằm), da đầu, mặt duỗi chi; thường biểu hiện giai đoạn cấp tính."}, {"q": "Vị trí thương tổn của VDCĐ ở trẻ em (2-16 tuổi) là:", "a": ["Chỉ ở da đầu", "Vùng kẽ (cổ, sau tai), nếp gấp các chi (khuỷu, khoeo, cổ tay, mắt cá)", "Vùng lồi của mặt và mặt duỗi chi", "Bàn tay người lớn"], "c": 1, "e": "VDCĐ trẻ em: vùng kẽ (cổ, sau tai), nếp gấp các chi (khuỷu, khoeo, cổ tay, mắt cá); thường giai đoạn bán cấp."}, {"q": "Nếp đôi dưới mí mắt (Dennie-Morgan) là dấu hiệu thường gặp ở thể VDCĐ nào?", "a": ["VDCĐ nhũ nhi", "VDCĐ ở trẻ em", "Chỉ ở người già", "Không gặp trong VDCĐ"], "c": 1, "e": "Ở VDCĐ trẻ em có thể có: dày sừng nang lông, lằn chỉ tay nổi rõ, vảy phấn trắng, nếp đôi dưới mí mắt (Dennie-Morgan)."}, {"q": "VDCĐ ở người lớn thường có đặc điểm về vị trí và giai đoạn:", "a": ["Chỉ ở da đầu", "Chỉ ở mặt, giai đoạn cấp", "Lan tỏa toàn thân, giai đoạn cấp", "Khu trú hơn (bàn tay, cẳng-bàn chân), thường biểu hiện giai đoạn mạn tính"], "c": 3, "e": "VDCĐ người lớn: vị trí bàn tay, cẳng-bàn chân...; khu trú hơn, thường biểu hiện giai đoạn mạn tính."}, {"q": "Thể khu trú của VDCĐ ở người lớn KHÔNG bao gồm:", "a": ["Chàm vú", "Chàm sữa", "Chàm bìu, chàm âm hộ", "Chàm mi mắt, chàm môi"], "c": 1, "e": "Thể khu trú người lớn: chàm vú, chàm bìu, chàm âm hộ, chàm mi mắt, chàm môi, chàm bàn tay chân. Chàm sữa là VDCĐ nhũ nhi."}, {"q": "Đặc điểm mô bệnh học của viêm da cơ địa là:", "a": ["Rất đặc hiệu, đủ chẩn đoán", "Có koilocyte", "Có tế bào Tzanck đặc trưng", "Không đặc hiệu"], "c": 3, "e": "Mô bệnh học VDCĐ không đặc hiệu; chẩn đoán chủ yếu dựa vào lâm sàng."}, {"q": "Xét nghiệm xác định tác nhân dị ứng trong VDCĐ bao gồm:", "a": ["Công thức máu, CRP", "Nhuộm Gram, nuôi cấy vi khuẩn", "Test lẩy da với dị nguyên, định lượng IgE huyết thanh đặc hiệu", "Chụp X-quang"], "c": 2, "e": "XN xác định tác nhân dị ứng: test lẩy da với dị nguyên, định lượng nồng độ IgE huyết thanh đặc hiệu."}, {"q": "Chẩn đoán xác định viêm da cơ địa chủ yếu dựa vào:", "a": ["Sinh thiết da bắt buộc", "Nuôi cấy vi khuẩn", "Lâm sàng đặc trưng (và các tiêu chuẩn chẩn đoán)", "Nồng độ IgE đơn thuần"], "c": 2, "e": "Chẩn đoán VDCĐ chủ yếu dựa vào lâm sàng đặc trưng; hỗ trợ bằng tiêu chuẩn Hanifin-Rajka 1980 hoặc AAD 2003."}, {"q": "Hai bộ tiêu chuẩn chẩn đoán viêm da cơ địa được đề cập là:", "a": ["Tiêu chuẩn Hutchinson", "Tiêu chuẩn Hanifin và Rajka 1980; tiêu chuẩn Hiệp hội Da liễu Hoa Kỳ 2003", "Tiêu chuẩn Rome; tiêu chuẩn Light", "Tiêu chuẩn Jones; tiêu chuẩn Duke"], "c": 1, "e": "Hai bộ tiêu chuẩn: Hanifin và Rajka 1980; Hiệp hội Da liễu Hoa Kỳ (AAD) 2003."}, {"q": "Số tiêu chuẩn CHÍNH trong tiêu chuẩn Hanifin và Rajka 1980 là:", "a": ["8 tiêu chuẩn chính", "4 tiêu chuẩn chính", "6 tiêu chuẩn chính", "2 tiêu chuẩn chính"], "c": 1, "e": "Hanifin-Rajka có 4 tiêu chuẩn chính: ngứa; viêm da mạn tính tái phát; hình thái-vị trí thương tổn điển hình; tiền sử cá nhân/gia đình bệnh dị ứng."}, {"q": "Tiêu chuẩn CHÍNH của Hanifin và Rajka 1980 KHÔNG bao gồm:", "a": ["Ngứa", "Khô da", "Viêm da mạn tính và tái phát", "Tiền sử cá nhân hay gia đình có bệnh dị ứng"], "c": 1, "e": "4 tiêu chuẩn chính: ngứa; viêm da mạn tính tái phát; hình thái-vị trí điển hình; tiền sử dị ứng. Khô da là tiêu chuẩn phụ."}, {"q": "Theo tiêu chuẩn AAD 2003, dấu hiệu CHÍNH (phải có và đủ để chẩn đoán) là:", "a": ["Da vẽ nổi", "Tăng IgE và da khô", "Ngứa và viêm da đặc trưng theo tuổi, có tiền sử mạn tính/tái phát", "Tuổi khởi phát sớm"], "c": 2, "e": "AAD 2003 dấu hiệu chính (bắt buộc): ngứa; viêm da đặc trưng theo độ tuổi và có tiền sử mạn tính hay tái phát."}, {"q": "Theo AAD 2003, 'dấu hiệu quan trọng' (củng cố chẩn đoán) bao gồm:", "a": ["Chỉ có ngứa", "Viêm kết mạc", "Tuổi khởi phát sớm, bệnh cơ địa (tăng IgE), da khô", "Da vẽ nổi, dày sừng nang lông"], "c": 2, "e": "AAD 2003 dấu hiệu quan trọng: tuổi khởi phát sớm; bệnh cơ địa (tiền sử cá nhân/gia đình, tăng IgE); da khô."}, {"q": "Chẩn đoán phân biệt của viêm da cơ địa KHÔNG bao gồm:", "a": ["Viêm da tiết bã", "Sùi mào gà", "Ghẻ, vảy nến, nấm da", "Viêm da tiếp xúc"], "c": 1, "e": "CĐPB VDCĐ: viêm da tiết bã, viêm da tiếp xúc, ghẻ, vảy nến, nấm da. Sùi mào gà không thuộc nhóm này."}, {"q": "Biến chứng nhiễm virus HSV trên nền VDCĐ được gọi là:", "a": ["Eczema coxsackium", "Eczema molluscatum", "Eczema herpeticum", "Chốc hóa"], "c": 2, "e": "Nhiễm HSV trên VDCĐ gây eczema herpeticum; coxsackie virus gây eczema coxsackium; S. aureus gây chốc hóa."}, {"q": "Biến chứng 'chốc hóa' trên nền VDCĐ do tác nhân nào?", "a": ["Coxsackie virus", "Nấm sợi", "Staphylococcus aureus (vi khuẩn)", "HSV (virus)"], "c": 2, "e": "Chốc hóa (bội nhiễm vi khuẩn) trên VDCĐ thường do Staphylococcus aureus."}, {"q": "Nguyên tắc điều trị viêm da cơ địa bao gồm:", "a": ["Cắt bỏ vùng da tổn thương", "Điều trị triệu chứng (giảm ngứa, kháng viêm), phục hồi HRBV da, dự phòng biến chứng, tư vấn tránh yếu tố khởi phát", "Chỉ dùng kháng sinh toàn thân", "Diệt hoàn toàn vi khuẩn trên da"], "c": 1, "e": "Nguyên tắc: điều trị triệu chứng (giảm ngứa, kháng viêm), phục hồi hàng rào bảo vệ da, dự phòng biến chứng, tư vấn phòng tránh yếu tố khởi phát và làm nặng bệnh."}, {"q": "Thuốc bôi nào là thuốc ĐẦU TAY trong điều trị hầu hết các giai đoạn VDCĐ?", "a": ["Kháng histamin bôi", "Corticoid tại chỗ (TCS)", "Kháng sinh bôi", "Thuốc tiêu sừng"], "c": 1, "e": "Corticoid tại chỗ (TCS) là thuốc đầu tay, dùng hầu hết các giai đoạn VDCĐ; tác dụng giảm viêm, giảm ngứa."}, {"q": "Việc chọn loại corticoid tại chỗ (độ mạnh, dạng bào chế) dựa vào:", "a": ["Chỉ dựa vào giá thành", "Tuổi, vị trí, đặc điểm tổn thương (cấp/bán cấp/mạn), diện tích tổn thương", "Chọn ngẫu nhiên", "Chỉ dựa vào giới tính"], "c": 1, "e": "Chọn corticoid dựa vào: tuổi, vị trí, đặc điểm tổn thương (cấp, bán cấp, mạn), diện tích tổn thương; thoa 1-2 lần/ngày rồi giảm dần."}, {"q": "Thuốc ức chế calcineurin tại chỗ (TCI) bao gồm:", "a": ["Salicylic acid và Urea", "Hydrocortisone và Clobetasol", "Acyclovir và Valacyclovir", "Tacrolimus và Pimecrolimus"], "c": 3, "e": "Ức chế calcineurin tại chỗ: Tacrolimus 0.03%/0.1%, Pimecrolimus 1%."}, {"q": "Thuốc ức chế calcineurin tại chỗ được chỉ định cho trẻ từ mấy tuổi trở lên?", "a": ["Từ sơ sinh", "Từ 6 tuổi", "Chỉ người lớn", "Từ 2 tuổi trở lên"], "c": 3, "e": "TCI (Tacrolimus, Pimecrolimus) chỉ định cho trẻ từ 2 tuổi trở lên, và khi tác dụng phụ corticoid đã xuất hiện rõ."}, {"q": "Nồng độ Tacrolimus 0.03% được dùng cho đối tượng/vị trí nào?", "a": ["Chỉ da đầu người lớn", "Trẻ em, vùng mặt (môi, mi mắt)", "Chỉ vùng lòng bàn chân", "Người lớn, thân mình"], "c": 1, "e": "Tacrolimus 0.03% dùng cho trẻ em, vùng mặt (môi, mi mắt); 0.1% dùng cho người lớn."}, {"q": "Ưu điểm của thuốc ức chế calcineurin so với corticoid là:", "a": ["Giá rẻ hơn", "Tác dụng mạnh hơn nhiều lần", "Kháng viêm, an toàn, bôi được lâu dài (không gây tác dụng phụ như corticoid)", "Diệt được vi khuẩn"], "c": 2, "e": "TCI có tác dụng kháng viêm, an toàn, bôi được lâu dài; tác dụng phụ chủ yếu là kích ứng da."}, {"q": "Vai trò của dưỡng ẩm trong điều trị VDCĐ là:", "a": ["Không cần thiết", "Thay thế hoàn toàn corticoid trong đợt cấp nặng", "Chỉ dùng khi có bội nhiễm", "Rất quan trọng: phục hồi HRBV, dự phòng tái phát, an toàn khi dùng lâu dài diện rộng"], "c": 3, "e": "Dưỡng ẩm có vai trò rất quan trọng: phục hồi hàng rào bảo vệ da, dự phòng và hạn chế tái phát, đủ cải thiện trường hợp nhẹ, an toàn khi dùng lâu dài, diện tích rộng."}, {"q": "Chỉ định điều trị TOÀN THÂN trong VDCĐ là:", "a": ["Chỉ khi bệnh nhân yêu cầu", "VDCĐ trung bình - nặng, thất bại với điều trị tại chỗ", "VDCĐ nhẹ ở trẻ em", "Mọi trường hợp VDCĐ"], "c": 1, "e": "Điều trị toàn thân chỉ định cho VDCĐ trung bình - nặng, thất bại với điều trị tại chỗ."}, {"q": "Trong điều trị VDCĐ, thuốc kháng histamin nào thường được ưu tiên?", "a": ["Kháng histamin thế hệ 3", "Kháng histamin thế hệ 1", "Không dùng kháng histamin", "Kháng histamin thế hệ 2"], "c": 1, "e": "Trong VDCĐ, ưu tiên kháng histamin thế hệ 1 (có tác dụng an thần, giảm ngứa về đêm)."}, {"q": "Corticoid toàn thân trong VDCĐ được dùng như thế nào?", "a": ["Dùng liều cao kéo dài nhiều tháng", "Dùng suốt đời", "Không bao giờ được dùng", "Đợt ngắn khi bùng phát nặng: Prednisolon 0,5 mg/kg/ngày trong 3-7 ngày, không dùng kéo dài"], "c": 3, "e": "Corticoid toàn thân chỉ dùng 1 đợt ngắn ngày khi bùng phát nặng: Prednisolon 0,5 mg/kg/ngày trong 3-7 ngày, KHÔNG dùng kéo dài."}, {"q": "Thuốc ức chế miễn dịch dùng trong VDCĐ nặng bao gồm:", "a": ["Insulin, metformin", "Aspirin, ibuprofen", "Amoxicillin, azithromycin", "MTX, cyclosporin, MMF, azathioprine"], "c": 3, "e": "Thuốc ức chế miễn dịch toàn thân trong VDCĐ: MTX (methotrexate), cyclosporin, MMF (mycophenolate mofetil), azathioprine."}, {"q": "Thuốc SINH HỌC được dùng trong VDCĐ nặng bao gồm:", "a": ["Acyclovir, valacyclovir", "Penicillin, cephalosporin", "Dupilumab, tralokinumab, thuốc ức chế JAK", "Prednisolon, dexamethason"], "c": 2, "e": "Thuốc sinh học/nhắm đích trong VDCĐ: Dupilumab, tralokinumab, các thuốc ức chế JAK."}, {"q": "Trong điều trị tại chỗ theo giai đoạn, giai đoạn CẤP của VDCĐ nên dùng:", "a": ["Dạng kem hoặc mỡ kèm tiêu sừng", "Không điều trị", "Tắm thuốc tím pha loãng, đắp dung dịch Jarish/NaCl 0,9%, dung dịch màu (eosin 2%, milian)", "Chỉ dùng mỡ salicylic đậm đặc"], "c": 2, "e": "Giai đoạn cấp: tắm thuốc tím pha loãng, đắp liên tục bằng dung dịch Jarish/NaCl 0,9%, dung dịch màu eosin 2%, milian."}, {"q": "Trong điều trị tại chỗ, giai đoạn MẠN của VDCĐ nên dùng dạng bào chế:", "a": ["Bột rắc khô", "Dạng kem hoặc mỡ, kèm tiêu sừng", "Chỉ dùng thuốc tím pha loãng", "Dung dịch đắp ướt"], "c": 1, "e": "Giai đoạn mạn: dạng kem hoặc mỡ, kèm tiêu sừng (do da dày, lichen hóa)."}, {"q": "Trong điều trị tại chỗ, giai đoạn BÁN CẤP của VDCĐ nên dùng dạng bào chế:", "a": ["Dung dịch đắp liên tục", "Mỡ đậm đặc kèm tiêu sừng mạnh", "Bột khô", "Dạng hồ hoặc kem"], "c": 3, "e": "Giai đoạn bán cấp: dùng dạng hồ hoặc kem."}, {"q": "Thuốc tiêu sừng dùng trong VDCĐ giai đoạn mạn bao gồm:", "a": ["Salicylic acid, urea", "Tacrolimus, pimecrolimus", "Penicillin, doxycyclin", "Acyclovir, valacyclovir"], "c": 0, "e": "Thuốc tiêu sừng: salicylic acid, urea... (dùng ở giai đoạn mạn có dày sừng)."}, {"q": "Biểu hiện lâm sàng của VDCĐ phụ thuộc vào các yếu tố nào?", "a": ["Không thay đổi theo tuổi", "Tuổi, chủng tộc, giai đoạn bệnh, mức độ nặng", "Chỉ phụ thuộc giới tính", "Chỉ phụ thuộc mùa"], "c": 1, "e": "Biểu hiện lâm sàng VDCĐ tùy thuộc: tuổi, chủng tộc, giai đoạn bệnh, mức độ nặng của bệnh."}, {"q": "Vảy phấn trắng (pityriasis alba) là dấu hiệu có thể gặp trong:", "a": ["Giang mai", "Viêm da cơ địa (ở trẻ em)", "Bệnh lậu", "Sùi mào gà"], "c": 1, "e": "Vảy phấn trắng là một trong các biểu hiện da kèm theo của VDCĐ ở trẻ em (cùng dày sừng nang lông, Dennie-Morgan...)."}];
+let idx=0, score=0, answers=[], quizSet=[];
+const COUNTS=[20,40,60,100];
+function initChips(){const el=document.getElementById('countChips');COUNTS.forEach((n,i)=>{const c=document.createElement('div');c.className='chip'+(i===COUNTS.length-1?' on':'');c.textContent=n>=BANK.length?'Tất cả ('+BANK.length+')':n+' câu';c.dataset.n=Math.min(n,BANK.length);c.onclick=()=>{document.querySelectorAll('#countChips .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');};el.appendChild(c);});}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function startQuiz(){
+  const sel=document.querySelector('#countChips .chip.on');
+  const n=Math.min(parseInt(sel.dataset.n),BANK.length);
+  const doShuffle=document.getElementById('shuffle').checked;
+  let pool=BANK.map((q,i)=>({...q,_i:i}));
+  if(doShuffle)shuffle(pool);
+  quizSet=pool.slice(0,n).map(q=>{
+    let opts=q.a.map((t,i)=>({t,correct:i===q.c}));
+    if(doShuffle)shuffle(opts);
+    return {q:q.q,opts,e:q.e};
+  });
+  idx=0;score=0;answers=[];
+  document.getElementById('start').style.display='none';
+  document.getElementById('result').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  renderQ();
+}
+function renderQ(){
+  const item=quizSet[idx];
+  document.getElementById('progressTxt').textContent='Câu '+(idx+1)+' / '+quizSet.length;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('progressBar').style.width=((idx)/quizSet.length*100)+'%';
+  document.getElementById('qText').textContent=item.q;
+  const box=document.getElementById('opts');box.innerHTML='';
+  const letters=['A','B','C','D'];
+  item.opts.forEach((o,i)=>{
+    const b=document.createElement('button');
+    b.className='opt';
+    b.innerHTML='<span class="k">'+letters[i]+'.</span> '+o.t;
+    b.onclick=()=>choose(i);
+    box.appendChild(b);
+  });
+  const ex=document.getElementById('explain');ex.className='explain';ex.textContent='';
+  document.getElementById('nextBtn').disabled=true;
+  document.getElementById('skipBtn').style.display='inline-block';
+  document.getElementById('nextBtn').textContent=(idx===quizSet.length-1)?'Xem kết quả ✔':'Câu tiếp ▶';
+}
+function choose(i){
+  const item=quizSet[idx];
+  const btns=document.querySelectorAll('#opts .opt');
+  const correctIdx=item.opts.findIndex(o=>o.correct);
+  btns.forEach((b,j)=>{b.disabled=true;if(j===correctIdx)b.classList.add('correct');if(j===i&&i!==correctIdx)b.classList.add('wrong');});
+  const isRight=i===correctIdx;
+  if(isRight)score++;
+  answers.push({q:item.q,chosen:item.opts[i].t,correct:item.opts[correctIdx].t,right:isRight});
+  const ex=document.getElementById('explain');
+  ex.className='explain show';
+  ex.innerHTML=(isRight?'<b class="ok">✔ Chính xác. </b>':'<b class="bad">✘ Chưa đúng. </b>')+item.e;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('nextBtn').disabled=false;
+  document.getElementById('skipBtn').style.display='none';
+}
+function nextQ(){ if(idx<quizSet.length-1){idx++;renderQ();} else finish(); }
+function finish(){
+  document.getElementById('quiz').style.display='none';
+  const r=document.getElementById('result');r.style.display='block';
+  const pct=Math.round(score/quizSet.length*100);
+  document.getElementById('finalScore').textContent=score+' / '+quizSet.length+' ('+pct+'%)';
+  let msg='';
+  if(pct>=90)msg='Xuất sắc! Bạn nắm rất chắc bài.';
+  else if(pct>=70)msg='Tốt! Ôn lại vài câu sai là ổn.';
+  else if(pct>=50)msg='Khá – cần ôn thêm phần sai.';
+  else msg='Hãy đọc lại tài liệu và luyện lại nhé.';
+  document.getElementById('finalMsg').textContent=msg;
+  const rev=document.getElementById('review');rev.innerHTML='';rev.style.display='none';
+  answers.forEach((a,i)=>{
+    const d=document.createElement('div');d.className='review-item';
+    d.innerHTML='<div class="ri-q">'+(i+1)+'. '+a.q+'</div>'+
+      '<div class="ri-a">Bạn chọn: <span class="'+(a.right?'ok':'bad')+'">'+a.chosen+'</span></div>'+
+      (a.right?'':'<div class="ri-a">Đáp án đúng: <span class="ok">'+a.correct+'</span></div>');
+    rev.appendChild(d);
+  });
+}
+function toggleReview(){const r=document.getElementById('review');r.style.display=r.style.display==='none'?'block':'none';}
+initChips();
+</script>
+</body>
+</html>

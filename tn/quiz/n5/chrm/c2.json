@@ -1,0 +1,1153 @@
+[
+    {
+      "question": "Lực trong chỉnh hình răng mặt được biểu thị bằng một vector gồm bao nhiêu yếu tố?",
+      "options": [
+        {"text": "2 yếu tố", "isCorrect": false},
+        {"text": "3 yếu tố", "isCorrect": false},
+        {"text": "4 yếu tố (cường độ, phương, hướng, điểm đặt lực)", "isCorrect": true},
+        {"text": "5 yếu tố", "isCorrect": false}
+      ],
+      "explanation": "Lực là một vector được biểu thị bằng bốn yếu tố: cường độ, phương, hướng và điểm đặt lực[cite: 2, 30]."
+    },
+    {
+      "question": "Đơn vị tính lực trong chỉnh hình răng mặt thường dùng nhất trên lâm sàng là gì?",
+      "options": [
+        {"text": "Newtons", "isCorrect": false},
+        {"text": "Grams hoặc ounces", "isCorrect": true},
+        {"text": "Kilograms", "isCorrect": false},
+        {"text": "Pounds", "isCorrect": false}
+      ],
+      "explanation": "Mặc dù lực được tính bằng đơn vị Newtons, nhưng trong thực tế lâm sàng, lực thường được đo bằng grams hay ounces[cite: 2, 32]."
+    },
+    {
+      "question": "Theo Định luật 1 của Newton, một vật ở trạng thái cân bằng khi nào?",
+      "options": [
+        {"text": "Tổng lực tác động bằng 0", "isCorrect": false},
+        {"text": "Tổng moment bằng 0", "isCorrect": false},
+        {"text": "Cả tổng lực và tổng moment đều bằng 0", "isCorrect": true},
+        {"text": "Gia tốc bằng cường độ lực", "isCorrect": false}
+      ],
+      "explanation": "Khi vật ở trạng thái cân bằng, tổng lực tác động lên vật bằng 0 ($\\Sigma F=0$), và tổng moment cũng bằng 0 ($\\Sigma M=0$) [cite: 3, 45-48]."
+    },
+    {
+      "question": "Công thức biểu diễn Định luật 2 của Newton về gia tốc là gì?",
+      "options": [
+        {"text": "a = F x M", "isCorrect": false},
+        {"text": "a = F / M", "isCorrect": true},
+        {"text": "a = M / F", "isCorrect": false},
+        {"text": "F = M / a", "isCorrect": false}
+      ],
+      "explanation": "Gia tốc của vật (a) tỉ lệ thuận với lực tác động (F) và tỉ lệ nghịch với khối lượng (M)[cite: 3, 50, 56]."
+    },
+    {
+      "question": "Trong CHRM, khi dùng răng 5 và 6 để kéo răng 3 lui sau 2mm, răng 5 và 6 bị di gần 1mm. Đây là minh họa cho định luật nào?",
+      "options": [
+        {"text": "Định luật 1 Newton", "isCorrect": false},
+        {"text": "Định luật 2 Newton", "isCorrect": false},
+        {"text": "Định luật 3 Newton (Lực và phản lực)", "isCorrect": true},
+        {"text": "Qui tắc hình bình hành", "isCorrect": false}
+      ],
+      "explanation": "Lực tác động tạo ra phản lực có cường độ tương tự nhưng ngược chiều, khiến các răng neo chặn cũng bị di chuyển [cite: 3, 51-54]."
+    },
+    {
+      "question": "Tâm cản (Center of Resistance - CR) của một vật được định nghĩa là gì?",
+      "options": [
+        {"text": "Điểm mà lực đi qua sẽ làm vật xoay", "isCorrect": false},
+        {"text": "Điểm mà lực đơn giản đi qua sẽ làm vật di chuyển tịnh tiến", "isCorrect": true},
+        {"text": "Điểm nằm ở rìa cắn của răng", "isCorrect": false},
+        {"text": "Điểm nằm ở chóp chân răng", "isCorrect": false}
+      ],
+      "explanation": "Tâm cản là điểm mà nếu lực tác động qua đó, tất cả các điểm trên vật sẽ di chuyển theo đường thẳng song song (tịnh tiến)[cite: 4, 68]."
+    },
+    {
+      "question": "Vị trí tâm cản của một răng một chân thường nằm ở đâu?",
+      "options": [
+        {"text": "Tại mào xương ổ răng", "isCorrect": false},
+        {"text": "Tại chóp chân răng", "isCorrect": false},
+        {"text": "Khoảng 1/3 đến 1/2 chiều dài chân răng nằm trong xương", "isCorrect": true},
+        {"text": "Ngay tại cổ răng sinh lý", "isCorrect": false}
+      ],
+      "explanation": "Vị trí tâm cản của răng một chân thường ở khoảng 1/3 đến 1/2 chiều dài chân răng [cite: 4, 70-71]."
+    },
+    {
+      "question": "Đối với răng nhiều chân, tâm cản thường nằm ở vị trí nào?",
+      "options": [
+        {"text": "Nằm ở đỉnh múi", "isCorrect": false},
+        {"text": "Nằm giữa các chân răng, cách chẽ chân răng 1-2mm", "isCorrect": true},
+        {"text": "Nằm ở chân răng dài nhất", "isCorrect": false},
+        {"text": "Nằm ở mặt trong xương ổ răng", "isCorrect": false}
+      ],
+      "explanation": "Với răng nhiều chân, tâm cản thường nằm giữa các chân răng, cách vùng chẽ từ 1-2mm[cite: 4, 72]."
+    },
+    {
+      "question": "Yếu tố nào làm thay đổi vị trí của tâm cản răng?",
+      "options": [
+        {"text": "Chiều dài chân răng", "isCorrect": false},
+        {"text": "Chiều cao xương ổ răng", "isCorrect": false},
+        {"text": "Cả hai yếu tố trên", "isCorrect": true},
+        {"text": "Không yếu tố nào", "isCorrect": false}
+      ],
+      "explanation": "Vị trí tâm cản thay đổi phụ thuộc vào chiều dài chân răng và chiều cao xương ổ răng hỗ trợ[cite: 4, 74]."
+    },
+    {
+      "question": "Moment là gì trong cơ học chỉnh hình răng mặt?",
+      "options": [
+        {"text": "Lực tác động ngay tại tâm cản", "isCorrect": false},
+        {"text": "Lực tác động ở một khoảng cách xa tâm cản", "isCorrect": true},
+        {"text": "Lực làm răng di chuyển tịnh tiến", "isCorrect": false},
+        {"text": "Lực kéo dài thời gian mọc răng", "isCorrect": false}
+      ],
+      "explanation": "Moment được tạo ra khi lực tác động không đi qua tâm cản, gây ra khuynh hướng xoay cho vật [cite: 4, 75-76]."
+    },
+    {
+      "question": "Công thức tính cường độ Moment (M) là gì?",
+      "options": [
+        {"text": "M = F / d", "isCorrect": false},
+        {"text": "M = F x d", "isCorrect": true},
+        {"text": "M = d / F", "isCorrect": false},
+        {"text": "M = F + d", "isCorrect": false}
+      ],
+      "explanation": "Moment là tích số của cường độ lực (F) và khoảng cách (d) từ đường hoạt động của lực đến tâm cản[cite: 4, 77]."
+    },
+    {
+      "question": "Khi đặt lực ở thân răng (xa tâm cản), hiện tượng gì sẽ xảy ra?",
+      "options": [
+        {"text": "Răng di chuyển tịnh tiến", "isCorrect": false},
+        {"text": "Răng vừa di chuyển theo hướng lực, vừa xoay quanh tâm cản (nghiêng răng)", "isCorrect": true},
+        {"text": "Răng bị lún xuống", "isCorrect": false},
+        {"text": "Răng không di chuyển", "isCorrect": false}
+      ],
+      "explanation": "Lực đặt ở thân răng tạo ra moment, làm răng nghiêng khi di chuyển thay vì tịnh tiến [cite: 4, 80-81]."
+    },
+    {
+      "question": "Ngẫu lực (Couple) được cấu tạo từ mấy lực?",
+      "options": [
+        {"text": "Hai lực cùng chiều, cùng cường độ", "isCorrect": false},
+        {"text": "Hai lực ngược chiều, khác cường độ", "isCorrect": false},
+        {"text": "Hai lực cùng cường độ, ngược chiều và cách nhau một khoảng cách d", "isCorrect": true},
+        {"text": "Một lực và một moment", "isCorrect": false}
+      ],
+      "explanation": "Ngẫu lực gồm hai lực cùng cường độ nhưng ngược chiều nhau và cách nhau một khoảng cách[cite: 5, 93]."
+    },
+    {
+      "question": "Tại sao ngẫu lực được gọi là 'moment thuần túy'?",
+      "options": [
+        {"text": "Vì nó làm vật di chuyển rất nhanh", "isCorrect": false},
+        {"text": "Vì nó làm vật xoay tại chỗ quanh tâm cản mà không có lực tịnh tiến", "isCorrect": true},
+        {"text": "Vì nó không tạo ra lực", "isCorrect": false},
+        {"text": "Vì nó chỉ có trong tủy răng", "isCorrect": false}
+      ],
+      "explanation": "Ngẫu lực chỉ làm vật xoay tròn xung quanh tâm cản do các lực tịnh tiến triệt tiêu lẫn nhau[cite: 5, 96]."
+    },
+    {
+      "question": "Tâm xoay (Center of Rotation - CO) được định nghĩa là gì?",
+      "options": [
+        {"text": "Là tâm cản của răng", "isCorrect": false},
+        {"text": "Là tâm điểm xoay của răng trong khi di chuyển", "isCorrect": true},
+        {"text": "Là điểm nằm ở chóp răng", "isCorrect": false},
+        {"text": "Là một hằng số không đổi", "isCorrect": false}
+      ],
+      "explanation": "Tâm xoay là điểm mà xung quanh đó răng xoay trong quá trình dịch chuyển [cite: 5, 100-101]."
+    },
+    {
+      "question": "Làm thế nào để kiểm soát tâm xoay và tạo ra sự di chuyển tịnh tiến cho răng?",
+      "options": [
+        {"text": "Tăng cường lực kéo thật mạnh", "isCorrect": false},
+        {"text": "Kết hợp một lực và một ngẫu lực ở thân răng với tỉ lệ thích hợp", "isCorrect": true},
+        {"text": "Chỉ sử dụng ngẫu lực", "isCorrect": false},
+        {"text": "Sử dụng lực ngắt quãng", "isCorrect": false}
+      ],
+      "explanation": "Sự kết hợp lực và ngẫu lực cho phép điều khiển tâm xoay ra vô cực để tạo di chuyển tịnh tiến [cite: 5, 102-103]."
+    },
+    {
+      "question": "Khi không có ngẫu lực ($M_C / M_F = 0$), răng sẽ di chuyển như thế nào?",
+      "options": [
+        {"text": "Di chuyển tịnh tiến", "isCorrect": false},
+        {"text": "Răng xoay quanh tâm cản (xoay răng thuần túy)", "isCorrect": true},
+        {"text": "Di chuyển chân răng", "isCorrect": false},
+        {"text": "Răng bị lún", "isCorrect": false}
+      ],
+      "explanation": "Nếu chỉ có lực làm di chuyển răng mà không có ngẫu lực kiểm soát, răng sẽ xoay quanh tâm cản[cite: 5, 119]."
+    },
+    {
+      "question": "Để răng di chuyển tịnh tiến, tâm xoay phải ở vị trí nào?",
+      "options": [
+        {"text": "Ở chóp răng", "isCorrect": false},
+        {"text": "Ở vô cực", "isCorrect": true},
+        {"text": "Ở rìa cắn", "isCorrect": false},
+        {"text": "Ở ngay tâm cản", "isCorrect": false}
+      ],
+      "explanation": "Khi $M_C / M_F = 1$, tâm xoay di chuyển về vô cực và răng di chuyển tịnh tiến[cite: 5, 122]."
+    },
+    {
+      "question": "Lực liên tục trong chỉnh hình răng mặt được định nghĩa là gì?",
+      "options": [
+        {"text": "Lực giảm đột ngột đến không khi tháo khí cụ", "isCorrect": false},
+        {"text": "Lực duy trì cường độ ổn định hoặc giảm ít giữa các lần hẹn", "isCorrect": true},
+        {"text": "Lực chỉ tác động lúc bệnh nhân nhai", "isCorrect": false},
+        {"text": "Lực tăng dần theo thời gian", "isCorrect": false}
+      ],
+      "explanation": "Lực liên tục được duy trì giữa những lần tạo lực cho khí cụ, mặc dù có thể giảm đi đôi chút khi răng dịch chuyển[cite: 6, 129]."
+    },
+    {
+      "question": "Lực gián đoạn khác lực liên tục ở điểm nào?",
+      "options": [
+        {"text": "Cường độ lực tăng liên tục", "isCorrect": false},
+        {"text": "Cường độ lực giảm đến không giữa những lần tăng lực", "isCorrect": true},
+        {"text": "Dùng cho khí cụ tháo lắp", "isCorrect": false},
+        {"text": "Không gây đau", "isCorrect": false}
+      ],
+      "explanation": "Lực gián đoạn có cường độ giảm về mức 0 giữa các lần bác sĩ điều chỉnh tăng lực[cite: 6, 131]."
+    },
+    {
+      "question": "Khí cụ nào thường tạo ra lực ngắt quãng?",
+      "options": [
+        {"text": "Mắc cài gắn cố định", "isCorrect": false},
+        {"text": "Khí cụ tháo lắp, headgear, thun kéo", "isCorrect": true},
+        {"text": "Lò xo lý tưởng", "isCorrect": false},
+        {"text": "Dây cung thép không gỉ", "isCorrect": false}
+      ],
+      "explanation": "Lực ngắt quãng do bệnh nhân tự mang, lực giảm về 0 khi tháo khí cụ ra khỏi miệng[cite: 6, 136]."
+    },
+    {
+      "question": "Tại sao lực tạo ra do nhai, nuốt, nói thường không ảnh hưởng đến vị trí răng?",
+      "options": [
+        {"text": "Vì cường độ quá yếu", "isCorrect": false},
+        {"text": "Vì không được duy trì đủ thời gian trong ngày (dưới 6 giờ)", "isCorrect": true},
+        {"text": "Vì răng rất cứng", "isCorrect": false},
+        {"text": "Vì dây chằng nha chu quá dày", "isCorrect": false}
+      ],
+      "explanation": "Các lực chức năng này thường ngắt quãng và không đủ thời gian tác động liên tục để gây di chuyển răng[cite: 6, 137]."
+    },
+    {
+      "question": "Vật liệu sản xuất dây chỉnh hình răng mặt cần bao nhiêu đặc tính quan trọng?",
+      "options": [
+        {"text": "2 đặc tính", "isCorrect": false},
+        {"text": "3 đặc tính (sức bền, độ cứng/đàn hồi, quãng đàn hồi)", "isCorrect": true},
+        {"text": "5 đặc tính", "isCorrect": false},
+        {"text": "1 đặc tính duy nhất", "isCorrect": false}
+      ],
+      "explanation": "Ba đặc tính quan trọng là sức bền vật liệu, độ cứng (hoặc đàn hồi) và quãng đàn hồi[cite: 6, 151]."
+    },
+    {
+      "question": "Công thức tính sức bền vật liệu dây cung là gì?",
+      "options": [
+        {"text": "Sức bền = Độ cứng / Quãng đàn hồi", "isCorrect": false},
+        {"text": "Sức bền = Độ cứng x Quãng đàn hồi", "isCorrect": true},
+        {"text": "Sức bền = Độ cứng + Quãng đàn hồi", "isCorrect": false},
+        {"text": "Sức bền = Gia tốc x Khối lượng", "isCorrect": false}
+      ],
+      "explanation": "Sức bền vật liệu là tích số của độ cứng và quãng đàn hồi[cite: 6, 154]."
+    },
+    {
+      "question": "Quãng đàn hồi của dây cung được hiểu là gì?",
+      "options": [
+        {"text": "Độ dài của toàn bộ sợi dây", "isCorrect": false},
+        {"text": "Khoảng mà dây còn giữ tính đàn hồi trước khi bị biến dạng hoàn toàn", "isCorrect": true},
+        {"text": "Thời gian dây bắt đầu gãy", "isCorrect": false},
+        {"text": "Đường kính của dây", "isCorrect": false}
+      ],
+      "explanation": "Quãng đàn hồi là phạm vi biến dạng mà dây có thể phục hồi lại hình dáng ban đầu[cite: 6, 153]."
+    },
+    {
+      "question": "Một dây chỉnh hình lý tưởng cần có đặc điểm gì về độ cứng?",
+      "options": [
+        {"text": "Càng cứng càng tốt", "isCorrect": false},
+        {"text": "Ít cứng rắn (đàn hồi cao) trong đa số trường hợp", "isCorrect": true},
+        {"text": "Không có tính đàn hồi", "isCorrect": false},
+        {"text": "Cứng ở chóp răng, mềm ở thân răng", "isCorrect": false}
+      ],
+      "explanation": "Dây lý tưởng cần ít cứng rắn để tạo lực nhẹ và có quãng đàn hồi lớn [cite: 7, 159-161]."
+    },
+    {
+      "question": "Nếu tăng gấp đôi đường kính dây tròn (2d), khả năng tạo lực tăng lên bao nhiêu lần?",
+      "options": [
+        {"text": "2 lần", "isCorrect": false},
+        {"text": "4 lần", "isCorrect": false},
+        {"text": "8 lần", "isCorrect": true},
+        {"text": "16 lần", "isCorrect": false}
+      ],
+      "explanation": "Tăng gấp đôi đường kính sẽ tăng khả năng tạo lực của dây lên 8 lần[cite: 7, 167]."
+    },
+    {
+      "question": "Khi tăng gấp đôi đường kính dây (2d), độ co dãn của dây thay đổi như thế nào?",
+      "options": [
+        {"text": "Tăng 2 lần", "isCorrect": false},
+        {"text": "Giảm 1/2 lần", "isCorrect": false},
+        {"text": "Giảm 1/16 lần", "isCorrect": true},
+        {"text": "Giảm 1/4 lần", "isCorrect": false}
+      ],
+      "explanation": "Đường kính tăng gấp đôi làm giảm độ co dãn của dây đi 1/16 lần[cite: 7, 167]."
+    },
+    {
+      "question": "Tăng gấp đôi chiều dài dây lò xo (2L) ảnh hưởng thế nào đến khả năng tạo lực?",
+      "options": [
+        {"text": "Tăng 2 lần", "isCorrect": false},
+        {"text": "Giảm phân nửa (1/2)", "isCorrect": true},
+        {"text": "Giảm 1/8 lần", "isCorrect": false},
+        {"text": "Không đổi", "isCorrect": false}
+      ],
+      "explanation": "Chiều dài dây tăng gấp đôi làm khả năng tạo lực giảm đi một nửa[cite: 7, 170]."
+    },
+    {
+      "question": "Tăng gấp đôi chiều dài dây (2L) làm độ co dãn của dây tăng lên mấy lần?",
+      "options": [
+        {"text": "2 lần", "isCorrect": false},
+        {"text": "4 lần", "isCorrect": false},
+        {"text": "8 lần", "isCorrect": true},
+        {"text": "16 lần", "isCorrect": false}
+      ],
+      "explanation": "Độ co dãn tăng tỉ lệ thuận với lũy thừa 3 của chiều dài, nên tăng 2L sẽ tăng độ co dãn 8 lần[cite: 7, 170]."
+    },
+    {
+      "question": "Chiều rộng trung bình của dây chằng nha chu quanh chân răng là bao nhiêu?",
+      "options": [
+        {"text": "0,1 mm", "isCorrect": false},
+        {"text": "0,5 mm", "isCorrect": true},
+        {"text": "1,0 mm", "isCorrect": false},
+        {"text": "2,0 mm", "isCorrect": false}
+      ],
+      "explanation": "Trong điều kiện bình thường, dây chằng nha chu rộng khoảng 0,5mm[cite: 7, 173]."
+    },
+    {
+      "question": "Thành phần chính của dây chằng nha chu là gì?",
+      "options": [
+        {"text": "Tế bào mỡ", "isCorrect": false},
+        {"text": "Hệ thống các sợi collagen song song", "isCorrect": true},
+        {"text": "Mô sụn", "isCorrect": false},
+        {"text": "Tinh thể Hydroxyapatite", "isCorrect": false}
+      ],
+      "explanation": "Dây chằng nha chu cấu tạo chủ yếu từ các sợi collagen gắn cement chân răng với xương ổ răng[cite: 7, 174]."
+    },
+    {
+      "question": "Hướng bám của các sợi collagen dây chằng nha chu có đặc điểm gì?",
+      "options": [
+        {"text": "Nằm ngang hoàn toàn", "isCorrect": false},
+        {"text": "Tạo góc nghiêng về phía chóp chân răng", "isCorrect": true},
+        {"text": "Nghiêng về phía mặt nhai", "isCorrect": false},
+        {"text": "Xoắn ốc", "isCorrect": false}
+      ],
+      "explanation": "Các sợi collagen nghiêng về phía chóp răng để chống lại sự dịch chuyển của răng [cite: 7, 175-176]."
+    },
+    {
+      "question": "Thành phần nào trong màng nha chu đóng vai trò như 'thiết bị giảm sốc'?",
+      "options": [
+        {"text": "Hủy cốt bào", "isCorrect": false},
+        {"text": "Dịch mô", "isCorrect": true},
+        {"text": "Mạch máu", "isCorrect": false},
+        {"text": "Đầu tận cùng thần kinh", "isCorrect": false}
+      ],
+      "explanation": "Dịch mô trong vùng dây chằng giúp giảm bớt các chấn động tác động lên răng[cite: 7, 187]."
+    },
+    {
+      "question": "Đặc điểm của tế bào trong màng nha chu là gì?",
+      "options": [
+        {"text": "Chỉ tạo sợi mới", "isCorrect": false},
+        {"text": "Chỉ hủy sợi cũ", "isCorrect": false},
+        {"text": "Có thể vừa hoạt động tạo sợi, vừa hoạt động hủy sợi", "isCorrect": true},
+        {"text": "Không thay đổi trong suốt đời người", "isCorrect": false}
+      ],
+      "explanation": "Hệ thống collagen luôn được làm mới nhờ các tế bào có khả năng tái tạo và sửa đổi [cite: 7, 180-181]."
+    },
+    {
+      "question": "Xương và cement chân răng được tái tạo bởi những loại tế bào nào?",
+      "options": [
+        {"text": "Tạo cốt bào và tế bào tạo cement", "isCorrect": false},
+        {"text": "Hủy cốt bào và tế bào hủy cement", "isCorrect": true},
+        {"text": "Tế bào thần kinh", "isCorrect": false},
+        {"text": "Hồng cầu", "isCorrect": false}
+      ],
+      "explanation": "Quá trình sửa đổi xương và cement chân răng do hoạt động của các hủy cốt bào và tế bào hủy cement[cite: 7, 183]."
+    },
+    {
+      "question": "Thuyết nào giải thích cơ chế di chuyển răng trong chỉnh hình?",
+      "options": [
+        {"text": "Thuyết tiến hóa", "isCorrect": false},
+        {"text": "Thuyết sức căng - sức ép", "isCorrect": true},
+        {"text": "Thuyết vạn vật hấp dẫn", "isCorrect": false},
+        {"text": "Thuyết tế bào học", "isCorrect": false}
+      ],
+      "explanation": "Răng dịch chuyển tạo ra vùng chịu sức ép và vùng chịu sức căng trong dây chằng nha chu[cite: 8, 196]."
+    },
+    {
+      "question": "Trong chuyển động nghiêng răng, phía đặt lực có hiện tượng gì tại vùng nha chu?",
+      "options": [
+        {"text": "Cổ răng chịu sức ép, chóp răng chịu sức căng", "isCorrect": false},
+        {"text": "Cổ răng chịu sức căng, chóp răng chịu sức ép", "isCorrect": true},
+        {"text": "Toàn bộ chân răng chịu sức căng", "isCorrect": false},
+        {"text": "Không có sức ép", "isCorrect": false}
+      ],
+      "explanation": "Tại phía đặt lực, răng nghiêng khiến vùng cổ răng bị kéo căng và chóp răng bị đè ép[cite: 8, 199]."
+    },
+    {
+      "question": "Lưu thông máu tại vùng chịu sức ép trong màng nha chu thay đổi như thế nào?",
+      "options": [
+        {"text": "Tăng lên đáng kể", "isCorrect": false},
+        {"text": "Bị giảm đi", "isCorrect": true},
+        {"text": "Giữ nguyên không đổi", "isCorrect": false},
+        {"text": "Biến mất hoàn toàn ngay lập tức", "isCorrect": false}
+      ],
+      "explanation": "Áp lực làm giảm sự lưu thông máu ở vùng chịu sức ép[cite: 8, 202]."
+    },
+    {
+      "question": "Môi trường hóa học tại vùng chịu sức ép thay đổi như thế nào sau vài phút tác động lực?",
+      "options": [
+        {"text": "Oxygen tăng", "isCorrect": false},
+        {"text": "Oxygen bị giảm", "isCorrect": true},
+        {"text": "Chất chuyển hóa biến mất", "isCorrect": false},
+        {"text": "Không có sự thay đổi hóa học", "isCorrect": false}
+      ],
+      "explanation": "Sự giảm lưu thông máu dẫn đến mức độ oxygen giảm nhanh chóng tại vùng bị nén[cite: 8, 205]."
+    },
+    {
+      "question": "Có bao nhiêu hiện tượng chính xảy ra trong sự chuyển động của răng?",
+      "options": [
+        {"text": "2 hiện tượng", "isCorrect": false},
+        {"text": "3 hiện tượng (mạch máu, hóa học, tế bào)", "isCorrect": true},
+        {"text": "4 hiện tượng", "isCorrect": false},
+        {"text": "5 hiện tượng", "isCorrect": false}
+      ],
+      "explanation": "Ba hiện tượng chính là: thay đổi lưu thông máu, phóng thích chất hóa học và hoạt động tế bào [cite: 8, 207-210]."
+    },
+    {
+      "question": "Hiện tượng thoái hóa kính (hyalinization) xảy ra ở đâu?",
+      "options": [
+        {"text": "Vùng chịu sức căng", "isCorrect": false},
+        {"text": "Vùng chịu sức ép mạnh trong màng nha chu", "isCorrect": true},
+        {"text": "Ngay tại tủy răng", "isCorrect": false},
+        {"text": "Trên mặt nhai của răng", "isCorrect": false}
+      ],
+      "explanation": "Áp lực lớn làm tắc nghẽn mạch máu và gây hoại tử vô trùng gọi là thoái hóa kính [cite: 9, 234-235]."
+    },
+    {
+      "question": "Kích thước của vùng thoái hóa kính thường là bao nhiêu?",
+      "options": [
+        {"text": "0,1 - 0,5 mm", "isCorrect": false},
+        {"text": "1 - 2 mm", "isCorrect": true},
+        {"text": "5 - 10 mm", "isCorrect": false},
+        {"text": "Không có kích thước cố định", "isCorrect": false}
+      ],
+      "explanation": "Vùng thoái hóa kính thường có đường kính khoảng 1-2mm[cite: 9, 235]."
+    },
+    {
+      "question": "Điều gì xảy ra với răng khi vùng thoái hóa kính được hình thành?",
+      "options": [
+        {"text": "Răng di chuyển cực nhanh", "isCorrect": false},
+        {"text": "Răng tạm thời ngừng di chuyển", "isCorrect": true},
+        {"text": "Răng bị rụng ngay lập tức", "isCorrect": false},
+        {"text": "Răng tự đứng thẳng lại", "isCorrect": false}
+      ],
+      "explanation": "Trong vùng thoái hóa kính không có hủy cốt bào, nên răng ngừng di chuyển cho đến khi vùng này bị loại bỏ [cite: 9, 236-237]."
+    },
+    {
+      "question": "Vùng thoái hóa kính do lực nhẹ ở người trẻ thường kéo dài trong bao lâu?",
+      "options": [
+        {"text": "1 - 3 ngày", "isCorrect": false},
+        {"text": "2 - 4 tuần", "isCorrect": true},
+        {"text": "6 tháng", "isCorrect": false},
+        {"text": "Chỉ vài giờ", "isCorrect": false}
+      ],
+      "explanation": "Thoái hóa kính do lực nhẹ thường kéo dài từ 2 đến 4 tuần ở người trẻ[cite: 9, 223]."
+    },
+    {
+      "question": "Tiêu xương bề mặt (trực tiếp) diễn ra khi nào?",
+      "options": [
+        {"text": "Khi lực tác động quá mạnh", "isCorrect": false},
+        {"text": "Khi lực được duy trì ở mức độ vừa phải và màng nha chu rộng ra", "isCorrect": true},
+        {"text": "Khi răng bị chết tủy", "isCorrect": false},
+        {"text": "Khi không có hủy cốt bào", "isCorrect": false}
+      ],
+      "explanation": "Nếu lực vừa phải, hủy cốt bào xuất hiện trực tiếp trên bề mặt lamina dura và răng di chuyển nhanh [cite: 9, 243-244]."
+    },
+    {
+      "question": "Trong tiêu xương ngầm (indirect resorption), hiện tượng răng di chuyển như thế nào?",
+      "options": [
+        {"text": "Răng di chuyển liên tục, đều đặn", "isCorrect": false},
+        {"text": "Răng có một sự trì hoãn, sau đó 'nhảy' qua vị trí mới", "isCorrect": true},
+        {"text": "Răng chỉ xoay tại chỗ", "isCorrect": false},
+        {"text": "Răng di chuyển ngược hướng lực", "isCorrect": false}
+      ],
+      "explanation": "Tiêu xương ngầm cần thời gian để lấy đi lớp xương cạnh răng, sau đó răng mới dịch chuyển đột ngột [cite: 10, 271-272]."
+    },
+    {
+      "question": "Tại sao răng thường lung lay nhẹ trong quá trình điều trị chỉnh nha?",
+      "options": [
+        {"text": "Do màng nha chu trở nên rộng hơn và dây chằng bất ổn định", "isCorrect": true},
+        {"text": "Do tủy răng bị hỏng", "isCorrect": false},
+        {"text": "Do men răng bị mòn", "isCorrect": false},
+        {"text": "Do thiếu canxi", "isCorrect": false}
+      ],
+      "explanation": "Sự tái sắp xếp của dây chằng và sự nới rộng màng nha chu làm răng lung lay vừa phải [cite: 10, 274-276]."
+    },
+    {
+      "question": "Cơn đau do đặt lực chỉnh nha thường xuất hiện và kéo dài như thế nào?",
+      "options": [
+        {"text": "Đau ngay lập tức và kéo dài cả tháng", "isCorrect": false},
+        {"text": "Xuất hiện sau vài giờ và kéo dài từ 2-4 ngày", "isCorrect": true},
+        {"text": "Chỉ đau lúc bác sĩ đang làm", "isCorrect": false},
+        {"text": "Không bao giờ đau", "isCorrect": false}
+      ],
+      "explanation": "Với lực thích hợp, cơn đau thường bắt đầu sau vài giờ và tự biến mất sau 2-4 ngày [cite: 10, 281-282]."
+    },
+    {
+      "question": "Đau trong chỉnh hình răng mặt có liên quan chủ yếu đến hiện tượng gì?",
+      "options": [
+        {"text": "Sự hình thành vùng thoái hóa kính", "isCorrect": true},
+        {"text": "Răng bị sâu", "isCorrect": false},
+        {"text": "Mắc cài bị bong", "isCorrect": false},
+        {"text": "Nước bọt tiết quá nhiều", "isCorrect": false}
+      ],
+      "explanation": "Cảm giác đau liên quan mật thiết đến sự hình thành vùng hoại tử vô trùng (thoái hóa kính)[cite: 10, 286]."
+    },
+    {
+      "question": "Lực lý tưởng để làm lún răng (Intrusion) là bao nhiêu?",
+      "options": [
+        {"text": "10-20 grams", "isCorrect": true},
+        {"text": "35-60 grams", "isCorrect": false},
+        {"text": "70-120 grams", "isCorrect": false},
+        {"text": "200 grams", "isCorrect": false}
+      ],
+      "explanation": "Lực làm lún phải rất nhẹ (10-20g) vì lực tập trung tại một vùng rất nhỏ ở chóp răng [cite: 15, 471-472]."
+    },
+    {
+      "question": "Lực lý tưởng cho di chuyển tịnh tiến (Translation) là bao nhiêu?",
+      "options": [
+        {"text": "10-20 grams", "isCorrect": false},
+        {"text": "35-60 grams", "isCorrect": false},
+        {"text": "70-120 grams", "isCorrect": true},
+        {"text": "500 grams", "isCorrect": false}
+      ],
+      "explanation": "Di chuyển tịnh tiến đòi hỏi lực lớn nhất (70-120g) để phân phối đều trên toàn bộ bề mặt nha chu[cite: 15, 471]."
+    },
+    {
+      "question": "Lực lý tưởng cho di chuyển nghiêng răng (Tipping) là bao nhiêu?",
+      "options": [
+        {"text": "10-20 grams", "isCorrect": false},
+        {"text": "35-60 grams", "isCorrect": true},
+        {"text": "150-200 grams", "isCorrect": false},
+        {"text": "5-10 grams", "isCorrect": false}
+      ],
+      "explanation": "Lực làm nghiêng răng lý tưởng nằm trong khoảng 35-60 grams[cite: 15, 471]."
+    },
+    {
+      "question": "Di chuyển Torque chân răng đòi hỏi lực lý tưởng là bao nhiêu?",
+      "options": [
+        {"text": "10-20 grams", "isCorrect": false},
+        {"text": "35-60 grams", "isCorrect": false},
+        {"text": "50-100 grams", "isCorrect": true},
+        {"text": "120-150 grams", "isCorrect": false}
+      ],
+      "explanation": "Di chuyển chân răng (Torque) cần lực trung bình từ 50-100 grams[cite: 15, 471]."
+    },
+    {
+      "question": "Lực làm xoay răng và trồi răng có cường độ lý tưởng giống với loại di chuyển nào?",
+      "options": [
+        {"text": "Di chuyển tịnh tiến", "isCorrect": false},
+        {"text": "Di chuyển nghiêng răng (35-60g)", "isCorrect": true},
+        {"text": "Lún răng", "isCorrect": false},
+        {"text": "Không giống loại nào", "isCorrect": false}
+      ],
+      "explanation": "Cả xoay răng, trồi răng và nghiêng răng đều sử dụng lực lý tưởng 35-60 grams[cite: 15, 471]."
+    },
+    {
+      "question": "Yếu tố nào sau đây làm tăng nguy cơ tiêu ngót chân răng?",
+      "options": [
+        {"text": "Thời gian điều trị kéo dài", "isCorrect": false},
+        {"text": "Sử dụng lực quá mạnh và liên tục", "isCorrect": false},
+        {"text": "Chân răng đụng vào vỏ xương", "isCorrect": false},
+        {"text": "Tất cả các yếu tố trên", "isCorrect": true}
+      ],
+      "explanation": "Tiêu ngót chân răng bị ảnh hưởng bởi thời gian, cường độ lực và giải phẫu chân răng/xương ổ [cite: 11, 303-307]."
+    },
+    {
+      "question": "Răng đã điều trị nội nha (lấy tủy) có thể di chuyển bằng lực chỉnh nha không?",
+      "options": [
+        {"text": "Không, vì răng đã chết", "isCorrect": false},
+        {"text": "Có, vì phản ứng chính nằm ở mô nha chu chứ không phải tủy", "isCorrect": true},
+        {"text": "Chỉ di chuyển được 1mm", "isCorrect": false},
+        {"text": "Chỉ dùng được lực ngắt quãng", "isCorrect": false}
+      ],
+      "explanation": "Di chuyển răng phụ thuộc vào mô nha chu, nên răng lấy tủy vẫn di chuyển bình thường[cite: 10, 294]."
+    },
+    {
+      "question": "Hiện tượng 'nhảy' răng qua vị trí mới khi tiêu xương ngầm thường liên quan đến?",
+      "options": [
+        {"text": "Lực nhẹ", "isCorrect": false},
+        {"text": "Lực mạnh", "isCorrect": true},
+        {"text": "Dây cung NiTi", "isCorrect": false},
+        {"text": "Thun chuỗi", "isCorrect": false}
+      ],
+      "explanation": "Lực mạnh gây ra tiêu xương ngầm, dẫn đến việc răng đứng yên một thời gian rồi dịch chuyển đột ngột [cite: 10, 271-272]."
+    },
+    {
+      "question": "Tỉ lệ chân răng nằm trong xương ổ răng thay đổi như thế nào khi làm lún răng đúng kỹ thuật?",
+      "options": [
+        {"text": "Giảm đi một nửa", "isCorrect": false},
+        {"text": "Tăng lên", "isCorrect": false},
+        {"text": "Hầu như không đổi vì xương ổ răng lún theo răng", "isCorrect": true},
+        {"text": "Chân răng bị đẩy ra ngoài xương", "isCorrect": false}
+      ],
+      "explanation": "Khi răng lún, mào xương ổ răng cũng dịch chuyển theo, nên tỉ lệ chân răng trong xương được duy trì[cite: 11, 315]."
+    },
+    {
+      "question": "Moment của ngẫu lực ($M_C$) trong chỉnh nha cố định thường được tạo ra bởi?",
+      "options": [
+        {"text": "Dây tròn trong mắc cài tròn", "isCorrect": false},
+        {"text": "Dây hình chữ nhật đặt trong rãnh mắc cài hình chữ nhật", "isCorrect": true},
+        {"text": "Thun kéo liên hàm", "isCorrect": false},
+        {"text": "Khí cụ Headgear", "isCorrect": false}
+      ],
+      "explanation": "Sự tiếp xúc giữa các cạnh của dây chữ nhật và rãnh mắc cài tạo ra ngẫu lực để kiểm soát chân răng[cite: 5, 109]."
+    }
+    ,
+        {
+          "question": "Thành phần nào chiếm khoảng 0,5mm chiều rộng xung quanh chân răng trong điều kiện bình thường?",
+          "options": [
+            {"text": "Xương ổ răng", "isCorrect": false},
+            {"text": "Dây chằng nha chu", "isCorrect": true},
+            {"text": "Cement", "isCorrect": false},
+            {"text": "Ngà răng", "isCorrect": false}
+          ],
+          "explanation": "Dây chằng nha chu chiếm một vùng khoảng 0,5mm chiều rộng chung quanh chân răng."
+        },
+        {
+          "question": "Thành phần chính của dây chằng nha chu là gì?",
+          "options": [
+            {"text": "Sợi chun", "isCorrect": false},
+            {"text": "Hệ thống các sợi collagen nằm song song nhau", "isCorrect": true},
+            {"text": "Các tinh thể canxi", "isCorrect": false},
+            {"text": "Mô mỡ", "isCorrect": false}
+          ],
+          "explanation": "Thành phần chính của dây chằng nha chu là hệ thống các sợi collagen nằm song song nhau."
+        },
+        {
+          "question": "Các sợi collagen của dây chằng nha chu bám từ đâu đến đâu?",
+          "options": [
+            {"text": "Từ ngà răng đến xương ổ răng", "isCorrect": false},
+            {"text": "Từ cement chân răng đến lamina dura của xương ổ răng", "isCorrect": true},
+            {"text": "Từ tủy răng đến nướu", "isCorrect": false},
+            {"text": "Từ men răng đến xương hàm", "isCorrect": false}
+          ],
+          "explanation": "Một đầu sợi collagen gắn vào cement ở bề mặt chân răng và đầu kia bám vào lamina dura của xương ổ răng."
+        },
+        {
+          "question": "Hướng bám của các sợi collagen dây chằng nha chu tạo thành một góc nghiêng về phía nào?",
+          "options": [
+            {"text": "Về phía mặt nhai", "isCorrect": false},
+            {"text": "Về phía chóp chân răng", "isCorrect": true},
+            {"text": "Nằm ngang hoàn toàn", "isCorrect": false},
+            {"text": "Xoắn ốc quanh thân răng", "isCorrect": false}
+          ],
+          "explanation": "Hướng bám của các sợi collagen tạo thành một góc nghiêng về phía chóp chân răng để chống lại sự dịch chuyển của răng trong chức năng bình thường."
+        },
+        {
+          "question": "Chất nào giúp dây chằng nha chu hoạt động như một thiết bị giảm sốc?",
+          "options": [
+            {"text": "Sợi collagen", "isCorrect": false},
+            {"text": "Dịch mô", "isCorrect": true},
+            {"text": "Tế bào tạo cốt bào", "isCorrect": false},
+            {"text": "Mạch máu", "isCorrect": false}
+          ],
+          "explanation": "Dịch mô giúp cho vùng dây chằng nha chu hoạt động như một thiết bị giảm sốc trong chức năng bình thường."
+        },
+        {
+          "question": "Ba hiện tượng chính xảy ra trong sự chuyển động của răng bao gồm thay đổi lưu thông máu, hoạt động tế bào và yếu tố nào nữa?",
+          "options": [
+            {"text": "Sự mòn men răng", "isCorrect": false},
+            {"text": "Hình thành và/hoặc phóng thích các chất hóa học", "isCorrect": true},
+            {"text": "Sự tăng trưởng của lưỡi", "isCorrect": false},
+            {"text": "Sự thay đổi vị giác", "isCorrect": false}
+          ],
+          "explanation": "Có 3 hiện tượng chính: thay đổi lưu thông máu, hình thành/phóng thích chất hóa học và hoạt động của tế bào."
+        },
+        {
+          "question": "Trong di chuyển nghiêng răng thuần túy, vùng nha chu nào chịu sức ép ở phía đặt lực?",
+          "options": [
+            {"text": "Vùng cổ răng", "isCorrect": false},
+            {"text": "Vùng chóp răng", "isCorrect": true},
+            {"text": "Toàn bộ chân răng", "isCorrect": false},
+            {"text": "Không vùng nào chịu sức ép", "isCorrect": false}
+          ],
+          "explanation": "Ở phía đặt lực, vùng nha chu ở cổ răng chịu sức căng và ở chóp răng chịu sức ép."
+        },
+        {
+          "question": "Hiện tượng thoái hóa kính (hyalinization) xảy ra do nguyên nhân gì?",
+          "options": [
+            {"text": "Lực quá nhẹ", "isCorrect": false},
+            {"text": "Áp lực ngăn cản lưu thông máu và phân chia tế bào tại vùng chịu sức ép", "isCorrect": true},
+            {"text": "Răng bị sâu", "isCorrect": false},
+            {"text": "Sự bồi đắp xương quá mức", "isCorrect": false}
+          ],
+          "explanation": "Áp lực ngăn cản lưu thông máu làm tế bào và mạch máu bị thoái hóa, tạo nên vùng hoại tử vô trùng gọi là thoái hóa kính."
+        },
+        {
+          "question": "Tại vùng thoái hóa kính, hoạt động tiêu xương diễn ra như thế nào?",
+          "options": [
+            {"text": "Tiêu xương bề mặt diễn ra nhanh chóng", "isCorrect": false},
+            {"text": "Không có hủy cốt bào và không có sự tiêu xương trực tiếp", "isCorrect": true},
+            {"text": "Xương mọc dày thêm", "isCorrect": false},
+            {"text": "Tiêu xương diễn ra ngay lập tức", "isCorrect": false}
+          ],
+          "explanation": "Trong vùng thoái hóa kính không có hủy cốt bào, do đó không có sự tiêu xương trực tiếp tại đó."
+        },
+        {
+          "question": "Tiêu xương ngầm (undermining resorption) xảy ra ở đâu so với vùng thoái hóa kính?",
+          "options": [
+            {"text": "Ngay tại vùng thoái hóa kính", "isCorrect": false},
+            {"text": "Ở vùng xương xốp bên dưới hoặc vùng tủy xương kế cận", "isCorrect": true},
+            {"text": "Ở mặt ngoài xương hàm", "isCorrect": false},
+            {"text": "Tại mặt nhai của răng", "isCorrect": false}
+          ],
+          "explanation": "Tiêu xương ngầm diễn ra ở vùng tủy xương kế cận hoặc bên dưới vùng thoái hóa kính để loại bỏ vùng này."
+        },
+        {
+          "question": "Tiêu xương trực tiếp hay tiêu xương bề mặt (frontal resorption) diễn ra khi nào?",
+          "options": [
+            {"text": "Khi sử dụng lực cực mạnh", "isCorrect": false},
+            {"text": "Khi lực được duy trì ở mức độ vừa phải và màng nha chu rộng ra", "isCorrect": true},
+            {"text": "Khi răng bị chết tủy", "isCorrect": false},
+            {"text": "Khi vùng thoái hóa kính quá rộng", "isCorrect": false}
+          ],
+          "explanation": "Nếu lực vừa phải, xương sẽ được lấy đi thêm dưới hình thức trực tiếp (tiêu xương bề mặt) bởi các hủy cốt bào."
+        },
+        {
+          "question": "Lực di chuyển chân răng (Torque) có cường độ lý tưởng là bao nhiêu?",
+          "options": [
+            {"text": "10 - 20g", "isCorrect": false},
+            {"text": "35 - 60g", "isCorrect": false},
+            {"text": "50 - 100g", "isCorrect": true},
+            {"text": "150 - 200g", "isCorrect": false}
+          ],
+          "explanation": "Theo bảng lực lý tưởng, di chuyển chân răng cần lực từ 50-100g."
+        },
+        {
+          "question": "Tại sao lực làm lún răng (Intrusion) lại phải rất nhẹ (10 - 20g)?",
+          "options": [
+            {"text": "Vì răng dễ bị gãy", "isCorrect": false},
+            {"text": "Vì toàn bộ lực chỉ tập trung ở vùng nhỏ quanh chóp răng", "isCorrect": true},
+            {"text": "Vì xương ở chóp răng rất mềm", "isCorrect": false},
+            {"text": "Để tránh răng bị xoay", "isCorrect": false}
+          ],
+          "explanation": "Lực lún tập trung vào diện tích rất nhỏ ở chóp răng, nếu dùng lực mạnh sẽ gây chết tủy do chèn ép mạch máu."
+        },
+        {
+          "question": "Di chuyển răng nào đòi hỏi lực lớn nhất trong các dạng di chuyển?",
+          "options": [
+            {"text": "Nghiêng răng", "isCorrect": false},
+            {"text": "Di chuyển tịnh tiến (Translation)", "isCorrect": true},
+            {"text": "Trồi răng", "isCorrect": false},
+            {"text": "Xoay răng", "isCorrect": false}
+          ],
+          "explanation": "Di chuyển tịnh tiến cần lực 70-120g, cao nhất vì lực phải phân phối đều trên toàn bộ bề mặt nha chu."
+        },
+        {
+          "question": "Theo giản đồ REITAN, giai đoạn 1 (thoái hóa kính) ở người trẻ thường kéo dài bao lâu?",
+          "options": [
+            {"text": "2 - 3 ngày", "isCorrect": false},
+            {"text": "2 - 4 tuần", "isCorrect": true},
+            {"text": "2 - 10 tháng", "isCorrect": false},
+            {"text": "Suốt quá trình điều trị", "isCorrect": false}
+          ],
+          "explanation": "Giai đoạn thoái hóa kính do lực nhẹ có thể kéo dài từ 2 đến 4 tuần ở người trẻ."
+        },
+        {
+          "question": "Trong tiêu xương ngầm, hiện tượng răng di chuyển biểu hiện như thế nào?",
+          "options": [
+            {"text": "Di chuyển liên tục không nghỉ", "isCorrect": false},
+            {"text": "Có sự trì hoãn, sau đó răng 'nhảy' qua vị trí mới", "isCorrect": true},
+            {"text": "Răng di chuyển về phía ngược lại", "isCorrect": false},
+            {"text": "Răng không bao giờ di chuyển", "isCorrect": false}
+          ],
+          "explanation": "Trong tiêu xương ngầm có một sự trì hoãn cho đến khi lớp xương cạnh răng được lấy đi, sau đó răng mới dịch chuyển đột ngột."
+        },
+        {
+          "question": "X-quang trong quá trình răng di chuyển thường cho thấy màng nha chu thay đổi thế nào?",
+          "options": [
+            {"text": "Màng nha chu biến mất", "isCorrect": false},
+            {"text": "Màng nha chu trở nên rộng hơn", "isCorrect": true},
+            {"text": "Màng nha chu bị vôi hóa", "isCorrect": false},
+            {"text": "Màng nha chu hẹp lại", "isCorrect": false}
+          ],
+          "explanation": "Khi răng di chuyển, màng nha chu trở nên rộng hơn, dẫn đến tăng độ lung lay răng sinh lý."
+        },
+        {
+          "question": "Sử dụng lực mạnh trong chỉnh nha dẫn đến cơn đau xuất hiện khi nào?",
+          "options": [
+            {"text": "Sau 2 ngày", "isCorrect": false},
+            {"text": "Ngay lập tức sau khi màng nha chu chịu sức ép", "isCorrect": true},
+            {"text": "Chỉ đau khi tháo mắc cài", "isCorrect": false},
+            {"text": "Không bao giờ đau", "isCorrect": false}
+          ],
+          "explanation": "Nếu sử dụng lực mạnh, cơn đau sẽ xuất hiện ngay lập tức."
+        },
+        {
+          "question": "Cơn đau do lực chỉnh nha thích hợp thường kéo dài bao lâu?",
+          "options": [
+            {"text": "Vài giờ", "isCorrect": false},
+            {"text": "2 - 4 ngày", "isCorrect": true},
+            {"text": "Cả tháng", "isCorrect": false},
+            {"text": "Suốt đời", "isCorrect": false}
+          ],
+          "explanation": "Với lực thích hợp, cơn đau thường xuất hiện sau vài giờ và kéo dài từ 2-4 ngày rồi biến mất."
+        },
+        {
+          "question": "Tiêu ngót chân răng (root resorption) làm cho chân răng thay đổi thế nào?",
+          "options": [
+            {"text": "Chân răng dài ra", "isCorrect": false},
+            {"text": "Chân răng hẹp lại", "isCorrect": false},
+            {"text": "Chân răng ngắn đi", "isCorrect": true},
+            {"text": "Chân răng biến thành sụn", "isCorrect": false}
+          ],
+          "explanation": "Chân răng sẽ trở nên ngắn đi chứ không hẹp lại do hoạt động của các hủy cốt bào tại chóp răng."
+        },
+        {
+          "question": "Yếu tố nào làm tăng nguy cơ tiêu ngót chân răng?",
+          "options": [
+            {"text": "Sử dụng lực nhẹ liên tục", "isCorrect": false},
+            {"text": "Thời gian điều trị quá kéo dài", "isCorrect": true},
+            {"text": "Răng đã mọc hoàn toàn", "isCorrect": false},
+            {"text": "Vệ sinh răng miệng tốt", "isCorrect": false}
+          ],
+          "explanation": "Thời gian điều trị kéo dài và lực quá mạnh/liên tục là những yếu tố chính gây tiêu ngót chân răng."
+        },
+        {
+          "question": "Điều trị chỉnh nha hầu như không đưa đến mất xương mào xương ổ răng vì lý do gì?",
+          "options": [
+            {"text": "Vì xương ổ răng không thể bị tiêu", "isCorrect": false},
+            {"text": "Vì vị trí răng quyết định vị trí xương ổ răng (răng di chuyển mang theo xương)", "isCorrect": true},
+            {"text": "Vì có dây chằng nha chu bảo vệ", "isCorrect": false},
+            {"text": "Vì lực chỉnh nha chỉ tác động lên răng", "isCorrect": false}
+          ],
+          "explanation": "Răng khi mọc hay di chuyển sẽ mang theo xương ổ răng, trừ trường hợp có bệnh nha chu tiến triển."
+        },
+        {
+          "question": "Di chuyển nghiêng răng thuần túy xảy ra khi lực đặt ở đâu?",
+          "options": [
+            {"text": "Ngay tại tâm cản", "isCorrect": false},
+            {"text": "Tại thân răng (một lực đơn giản)", "isCorrect": true},
+            {"text": "Tại chóp chân răng", "isCorrect": false},
+            {"text": "Đặt hai lực ngược chiều", "isCorrect": false}
+          ],
+          "explanation": "Răng nghiêng thuần túy khi có một lực đơn giản đặt ở thân răng, răng xoay quanh tâm cản của nó."
+        },
+        {
+          "question": "Trong nghiêng răng có kiểm soát, tâm xoay nằm ở đâu?",
+          "options": [
+            {"text": "Ở ngay tâm cản", "isCorrect": false},
+            {"text": "Ở về phía chóp răng", "isCorrect": true},
+            {"text": "Ở vô cực", "isCorrect": false},
+            {"text": "Ở mặt nhai", "isCorrect": false}
+          ],
+          "explanation": "Nghiêng răng có kiểm soát dịch chuyển thân răng theo phương lực với tâm xoay ở phía chóp răng."
+        },
+        {
+          "question": "Di chuyển chân răng (Torque) xảy ra khi tâm xoay ở vị trí nào?",
+          "options": [
+            {"text": "Ở chóp răng", "isCorrect": false},
+            {"text": "Ở gần hoặc về phía bờ cắn/rìa cắn", "isCorrect": true},
+            {"text": "Ở vô cực", "isCorrect": false},
+            {"text": "Ở mào xương ổ răng", "isCorrect": false}
+          ],
+          "explanation": "Torque là khi chân răng di chuyển nhiều hơn thân răng, tâm xoay nằm ở phía bờ cắn."
+        },
+        {
+          "question": "Di chuyển trồi răng lý tưởng về lý thuyết tạo ra sức gì trong mô nha chu?",
+          "options": [
+            {"text": "Sức ép", "isCorrect": false},
+            {"text": "Chỉ tạo sức căng", "isCorrect": true},
+            {"text": "Cả ép và căng bằng nhau", "isCorrect": false},
+            {"text": "Không tạo sức gì", "isCorrect": false}
+          ],
+          "explanation": "Trồi răng lý tưởng chỉ tạo sức căng trong mô nha chu, không có sức ép."
+        },
+        {
+          "question": "Neo chặn (Anchorage) trong chỉnh hình răng mặt được định nghĩa là gì?",
+          "options": [
+            {"text": "Lực dùng để kéo răng", "isCorrect": false},
+            {"text": "Sự kháng lại những di chuyển ngoài ý muốn của răng do phản lực", "isCorrect": true},
+            {"text": "Vị trí đặt mắc cài", "isCorrect": false},
+            {"text": "Thời gian răng bắt đầu dịch chuyển", "isCorrect": false}
+          ],
+          "explanation": "Neo chặn là sự kháng lại các chuyển động răng không mong muốn do phản lực từ lực chỉnh nha chính gây ra."
+        },
+        {
+          "question": "Để kiểm soát neo chặn tốt nhất, áp lực trong các răng neo chặn cần đạt yêu cầu gì?",
+          "options": [
+            {"text": "Càng lớn càng tốt", "isCorrect": false},
+            {"text": "Phải vượt qua ngưỡng di chuyển răng", "isCorrect": false},
+            {"text": "Không đạt đến ngưỡng di chuyển răng", "isCorrect": true},
+            {"text": "Bằng với áp lực răng cần di chuyển", "isCorrect": false}
+          ],
+          "explanation": "Kiểm soát neo chặn tốt nhất khi áp lực tại răng neo chặn thấp hơn ngưỡng gây di chuyển răng."
+        },
+        {
+          "question": "Di chuyển răng hỗ tương xảy ra khi nào?",
+          "options": [
+            {"text": "Khi răng neo chặn to hơn răng di chuyển", "isCorrect": false},
+            {"text": "Khi hai răng hoặc vùng có cùng kích thước được kéo gần lại nhau", "isCorrect": true},
+            {"text": "Khi dùng lực ngoài mặt", "isCorrect": false},
+            {"text": "Khi răng bị lún", "isCorrect": false}
+          ],
+          "explanation": "Di chuyển hỗ tương là khi hai răng/vùng tương đương về giá trị neo chặn cùng di chuyển về phía nhau."
+        },
+        {
+          "question": "Giá trị neo chặn của mỗi răng tỉ lệ thuận với yếu tố nào?",
+          "options": [
+            {"text": "Chiều cao thân răng", "isCorrect": false},
+            {"text": "Diện tích bề mặt chân răng hoặc mô nha chu", "isCorrect": true},
+            {"text": "Độ trắng của men răng", "isCorrect": false},
+            {"text": "Số lượng múi răng", "isCorrect": false}
+          ],
+          "explanation": "Giá trị neo chặn tỉ lệ với diện tích bề mặt chân răng được xương ổ răng bao phủ."
+        },
+        {
+          "question": "Răng nào có giá trị neo chặn thấp nhất ở hàm trên theo bảng trị giá?",
+          "options": [
+            {"text": "Răng nanh", "isCorrect": false},
+            {"text": "Răng cửa bên", "isCorrect": true},
+            {"text": "Răng cối lớn thứ nhất", "isCorrect": false},
+            {"text": "Răng cối nhỏ thứ hai", "isCorrect": false}
+          ],
+          "explanation": "Theo bảng giá trị neo chặn, răng 2 hàm trên có giá trị thấp nhất trong nhóm răng trước (giá trị 3 so với răng nanh là 9)."
+        },
+        {
+          "question": "Tổng giá trị neo chặn của các răng cửa và răng nanh xấp xỉ với tổng giá trị của nhóm răng nào?",
+          "options": [
+            {"text": "Hai răng cối lớn", "isCorrect": false},
+            {"text": "Răng cối nhỏ thứ hai và răng cối lớn thứ nhất", "isCorrect": true},
+            {"text": "Tất cả các răng hàm dưới", "isCorrect": false},
+            {"text": "Bốn răng cối nhỏ", "isCorrect": false}
+          ],
+          "explanation": "Theo tài liệu, tổng giá trị neo chặn răng 1+2+3 xấp xỉ bằng răng 5+6."
+        },
+        {
+          "question": "Headgear (lực ngoài mặt) được sử dụng nhằm mục đích gì trong kiểm soát neo chặn?",
+          "options": [
+            {"text": "Để làm trắng răng", "isCorrect": false},
+            {"text": "Tăng cường neo chặn bằng cách chống lại lực di gần các răng sau", "isCorrect": true},
+            {"text": "Để mài răng nhanh hơn", "isCorrect": false},
+            {"text": "Để thay thế mắc cài", "isCorrect": false}
+          ],
+          "explanation": "Headgear cung cấp vùng tựa ngoài mặt để hỗ trợ neo chặn cho các răng phía sau."
+        },
+        {
+          "question": "Lực mạnh ảnh hưởng như thế nào đến neo chặn?",
+          "options": [
+            {"text": "Giúp giữ neo chặn tốt hơn", "isCorrect": false},
+            {"text": "Làm mất neo chặn (răng neo chặn di chuyển tương đương răng muốn di chuyển)", "isCorrect": true},
+            {"text": "Không ảnh hưởng đến neo chặn", "isCorrect": false},
+            {"text": "Làm xương ổ răng mọc dày thêm", "isCorrect": false}
+          ],
+          "explanation": "Lực mạnh đẩy áp lực tại vùng neo chặn lên đỉnh cao của đường biểu diễn đáp ứng, gây mất neo chặn."
+        },
+        {
+          "question": "Tại sao vỏ của xương hàm (cortical bone) có thể dùng làm neo chặn?",
+          "options": [
+            {"text": "Vì nó rất mềm", "isCorrect": false},
+            {"text": "Vì nó khó bị tiêu xương so với tủy xương (xương xốp)", "isCorrect": true},
+            {"text": "Vì nó chứa nhiều mạch máu", "isCorrect": false},
+            {"text": "Vì nó không có tế bào", "isCorrect": false}
+          ],
+          "explanation": "Vỏ xương hàm đặc chắc và khó tiêu xương hơn, giúp làm chậm sự di chuyển của răng chạm vào nó."
+        },
+        {
+          "question": "Sử dụng Implant làm neo chặn có đặc điểm gì?",
+          "options": [
+            {"text": "Implant vẫn di chuyển 1mm mỗi tháng", "isCorrect": false},
+            {"text": "Implant hoàn toàn không di chuyển dưới lực chỉnh nha (tuyệt đối)", "isCorrect": true},
+            {"text": "Implant dễ bị rụng khi kéo răng", "isCorrect": false},
+            {"text": "Chỉ dùng được cho hàm trên", "isCorrect": false}
+          ],
+          "explanation": "Implant tích hợp xương cung cấp neo chặn tuyệt đối vì nó không có dây chằng nha chu để di chuyển."
+        },
+        {
+          "question": "Tầm quan trọng của việc sử dụng lực nhẹ trong kiểm soát neo chặn là gì?",
+          "options": [
+            {"text": "Giảm đau và chấn thương", "isCorrect": false},
+            {"text": "Giữ áp lực vùng neo chặn ở mức thấp dưới ngưỡng di chuyển", "isCorrect": false},
+            {"text": "Cả hai ý trên đều đúng", "isCorrect": true},
+            {"text": "Lực nhẹ không có tác dụng kiểm soát neo chặn", "isCorrect": false}
+          ],
+          "explanation": "Lực nhẹ vừa đảm bảo an toàn sinh học vừa giúp giữ vững neo chặn hiệu quả nhất."
+        },
+        {
+          "question": "Di chuyển xoay răng thường có khuynh hướng gì sau điều trị?",
+          "options": [
+            {"text": "Ổn định vĩnh viễn", "isCorrect": false},
+            {"text": "Khuynh hướng tái phát do tính đàn hồi của dây chằng nha chu", "isCorrect": true},
+            {"text": "Răng tự xoay ngược lại 360 độ", "isCorrect": false},
+            {"text": "Răng bị lún", "isCorrect": false}
+          ],
+          "explanation": "Tính đàn hồi của hệ thống sợi trong dây chằng nha chu khiến răng xoay rất dễ bị tái phát."
+        },
+        {
+          "question": "Kiểu di chuyển nào có sơ đồ chịu lực của mô nha chu là hình chữ nhật?",
+          "options": [
+            {"text": "Nghiêng răng thuần túy", "isCorrect": false},
+            {"text": "Di chuyển tịnh tiến (Translation)", "isCorrect": true},
+            {"text": "Torque chân răng", "isCorrect": false},
+            {"text": "Xoay trục", "isCorrect": false}
+          ],
+          "explanation": "Di chuyển tịnh tiến đòi hỏi áp lực bằng nhau trên toàn bộ bề mặt dây chằng, tạo sơ đồ hình chữ nhật."
+        },
+        {
+          "question": "Sơ đồ chịu lực của mô nha chu trong di chuyển nghiêng răng có hình dạng gì?",
+          "options": [
+            {"text": "Hình chữ nhật", "isCorrect": false},
+            {"text": "Hình vuông", "isCorrect": false},
+            {"text": "Hai hình tam giác đối đỉnh tại tâm cản", "isCorrect": true},
+            {"text": "Hình tròn", "isCorrect": false}
+          ],
+          "explanation": "Áp lực mạnh nhất ở chóp và mào xương, giảm dần về không ở tâm cản, tạo thành hai hình tam giác."
+        },
+        {
+          "question": "Việc kết hợp lực nghiêng răng ở nhóm răng trước và di chuyển tịnh tiến ở nhóm răng sau giúp gì?",
+          "options": [
+            {"text": "Làm răng mọc nhanh hơn", "isCorrect": false},
+            {"text": "Kiểm soát neo chặn (giảm phản lực ở nhóm răng sau)", "isCorrect": true},
+            {"text": "Làm mặt phẳng nhai bị lệch", "isCorrect": false},
+            {"text": "Không có tác dụng lâm sàng", "isCorrect": false}
+          ],
+          "explanation": "Di chuyển nghiêng răng cần lực ít hơn, từ đó tạo ra phản lực ít hơn lên nhóm răng neo chặn tịnh tiến."
+        },
+        {
+          "question": "Tế bào nào có nguồn gốc từ tế bào trung mô trong dây chằng nha chu?",
+          "options": [
+            {"text": "Tế bào tạo sợi, tạo cốt bào", "isCorrect": true},
+            {"text": "Bạch cầu, tiểu cầu", "isCorrect": false},
+            {"text": "Tế bào thần kinh cảm giác", "isCorrect": false},
+            {"text": "Tế bào biểu mô", "isCorrect": false}
+          ],
+          "explanation": "Dây chằng nha chu chứa các tế bào biệt hóa từ trung mô như tế bào tạo sợi và tạo cốt bào."
+        },
+        {
+          "question": "Thoái hóa kính thường được mô tả là một vùng hoại tử như thế nào?",
+          "options": [
+            {"text": "Hoại tử có vi khuẩn", "isCorrect": false},
+            {"text": "Hoại tử vô trùng", "isCorrect": true},
+            {"text": "Hoại tử mủ", "isCorrect": false},
+            {"text": "Hoại tử lỏng", "isCorrect": false}
+          ],
+          "explanation": "Hyalinization là một vùng hoại tử vô trùng (sterile necrosis) do thiếu máu nuôi cục bộ."
+        },
+        {
+          "question": "Lực làm trồi răng lý tưởng nằm trong khoảng nào?",
+          "options": [
+            {"text": "10 - 20g", "isCorrect": false},
+            {"text": "35 - 60g", "isCorrect": true},
+            {"text": "70 - 120g", "isCorrect": false},
+            {"text": "500g", "isCorrect": false}
+          ],
+          "explanation": "Lực làm trồi răng lý tưởng tương đương lực làm nghiêng răng (35-60g)."
+        },
+        {
+          "question": "Tại sao răng đã điều trị nội nha vẫn có thể di chuyển bằng chỉnh nha?",
+          "options": [
+            {"text": "Vì tủy răng không quan trọng", "isCorrect": false},
+            {"text": "Vì yếu tố chính trong di chuyển răng là phản ứng của mô nha chu chứ không phải tủy", "isCorrect": true},
+            {"text": "Vì răng đã chết thì xương mềm hơn", "isCorrect": false},
+            {"text": "Vì răng đó được gắn mắc cài chặt hơn", "isCorrect": false}
+          ],
+          "explanation": "Cơ chế di chuyển răng dựa trên sự đáp ứng của dây chằng nha chu và xương ổ răng, tủy răng không trực tiếp tham gia."
+        },
+        {
+          "question": "Mục tiêu số 4 của Chương 2 đề cập đến nội dung gì?",
+          "options": [
+            {"text": "Tính chất dây cung", "isCorrect": false},
+            {"text": "Phản ứng của màng nha chu và xương đối với lực", "isCorrect": true},
+            {"text": "Các định luật Newton", "isCorrect": false},
+            {"text": "Cách nhổ răng", "isCorrect": false}
+          ],
+          "explanation": "Mục tiêu 4 là mô tả phản ứng của màng nha chu và xương đối với lực chỉnh hình."
+        },
+        {
+          "question": "Giá trị neo chặn của răng cối lớn thứ nhất hàm trên là bao nhiêu theo bảng?",
+          "options": [
+            {"text": "5", "isCorrect": false},
+            {"text": "10", "isCorrect": false},
+            {"text": "9", "isCorrect": true},
+            {"text": "4", "isCorrect": false}
+          ],
+          "explanation": "Theo bảng trang 59, răng số 6 hàm trên có giá trị neo chặn là 9."
+        },
+        {
+          "question": "Cơ chế nào dẫn đến sự ngắn lại của chân răng (tiêu ngót)?",
+          "options": [
+            {"text": "Hủy cốt bào tấn công cement và làm rời vùng khiếm khuyết ở chóp răng", "isCorrect": true},
+            {"text": "Răng bị lún quá sâu", "isCorrect": false},
+            {"text": "Tủy răng bị viêm", "isCorrect": false},
+            {"text": "Men răng bị mòn", "isCorrect": false}
+          ],
+          "explanation": "Khi hoạt động hủy cốt bào làm rời các vùng cement bị khiếm khuyết dính liền nhau ở chóp, chân răng sẽ bị ngắn lại."
+        },
+        {
+          "question": "Trong các di chuyển sau, di chuyển nào sử dụng lực nhẹ nhất (10 - 20g)?",
+          "options": [
+            {"text": "Trồi răng", "isCorrect": false},
+            {"text": "Lún răng (Intrusion)", "isCorrect": true},
+            {"text": "Xoay răng", "isCorrect": false},
+            {"text": "Torque chân răng", "isCorrect": false}
+          ],
+          "explanation": "Lún răng là loại di chuyển nhạy cảm nhất, đòi hỏi lực nhẹ nhất để bảo vệ tủy."
+        },
+        {
+          "question": "Phát biểu nào sau đây đúng về tiêu xương bề mặt?",
+          "options": [
+            {"text": "Xảy ra khi dùng lực cực mạnh", "isCorrect": false},
+            {"text": "Làm răng di chuyển liên tục, không trì hoãn", "isCorrect": true},
+            {"text": "Không cần sự xuất hiện của hủy cốt bào", "isCorrect": false},
+            {"text": "Chỉ xảy ra ở người già", "isCorrect": false}
+          ],
+          "explanation": "Tiêu xương bề mặt diễn ra liên tục trên lamina dura, giúp răng dịch chuyển đều đặn."
+        },
+        {
+          "question": "Việc nhổ răng cối nhỏ thứ nhất để điều trị hô cần thêm răng nào vào vùng tựa để tăng neo chặn?",
+          "options": [
+            {"text": "Răng cửa bên", "isCorrect": false},
+            {"text": "Răng cối lớn thứ hai", "isCorrect": true},
+            {"text": "Răng nanh", "isCorrect": false},
+            {"text": "Răng cửa giữa", "isCorrect": false}
+          ],
+          "explanation": "Thêm răng cối lớn thứ hai giúp mở rộng diện tích bề mặt neo chặn, chống lại lực di gần của nhóm răng sau."
+        },
+        {
+          "question": "Hệ thống sợi trong màng nha chu được sửa đổi và sắp xếp lại khi nào?",
+          "options": [
+            {"text": "Ngay khi vừa đặt lực", "isCorrect": false},
+            {"text": "Trong giai đoạn sau sự thoái hóa kính", "isCorrect": true},
+            {"text": "Chỉ sau khi tháo niềng", "isCorrect": false},
+            {"text": "Khi răng bị lún", "isCorrect": false}
+          ],
+          "explanation": "Sau khi vùng thoái hóa kính bị loại bỏ, màng nha chu rộng ra và hệ thống sợi bắt đầu được tái cấu trúc."
+        },
+        {
+          "question": "Nguy cơ chết tủy răng khi làm lún răng (Intrusion) là do yếu tố nào?",
+          "options": [
+            {"text": "Lực quá nhẹ", "isCorrect": false},
+            {"text": "Sử dụng lực quá mạnh ảnh hưởng đến mạch máu nuôi dưỡng ở chóp", "isCorrect": true},
+            {"text": "Do răng bị sâu", "isCorrect": false},
+            {"text": "Do sáp nha khoa", "isCorrect": false}
+          ],
+          "explanation": "Lực mạnh tập trung tại chóp làm tắc nghẽn mạch máu, dẫn đến hoại tử tủy."
+        },
+        {
+          "question": "Giá trị neo chặn của răng cửa giữa hàm dưới là bao nhiêu?",
+          "options": [
+            {"text": "1", "isCorrect": true},
+            {"text": "2", "isCorrect": false},
+            {"text": "4", "isCorrect": false},
+            {"text": "8", "isCorrect": false}
+          ],
+          "explanation": "Theo bảng trang 59, răng số 1 hàm dưới có giá trị neo chặn thấp nhất là 1."
+        },
+        {
+          "question": "Kết luận cuối cùng của Chương 2 nhấn mạnh điều gì?",
+          "options": [
+            {"text": "Chỉnh nha chỉ là vật lý thuần túy", "isCorrect": false},
+            {"text": "Cần hiểu rõ cơ chế sinh học và kiểm soát lực để đạt hiệu quả điều trị an toàn", "isCorrect": true},
+            {"text": "Càng dùng lực mạnh răng càng đẹp", "isCorrect": false},
+            {"text": "Implant là lựa chọn duy nhất cho neo chặn", "isCorrect": false}
+          ],
+          "explanation": "Hiểu biết về cơ sinh học là nền tảng để bác sĩ chỉnh nha điều khiển răng đúng hướng và tránh các tai biến."
+        }
+      ]

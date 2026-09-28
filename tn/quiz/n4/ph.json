@@ -1,0 +1,1573 @@
+[
+    {
+      "question": "Phát biểu nào sau đây *không đúng* về 'cầu ngắt lực' (non rigid connector)?",
+      "options": [
+        { "text": "Là cầu răng có phần nối không cứng chắc.", "isCorrect": false },
+        { "text": "Giúp phân phối lực đều hơn lên các răng trụ.", "isCorrect": true },
+        { "text": "Có thể sử dụng ngàm tựa hoặc khóa ngàm.", "isCorrect": false },
+        { "text": "Thường được chỉ định khi cần giảm chuyển động xoắn trên răng trụ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 1.4 'Phần nối' của cầu răng, cầu ngắt lực có phần nối không cứng chắc (non rigid connector) như ngàm tựa, khóa ngàm. Mục đích chính của nó là cho phép một mức độ chuyển động nhỏ giữa các phần của cầu, thường là để giảm lực xoắn lên răng trụ hoặc khi có sự nghiêng lệch của răng trụ, chứ không phải để phân phối lực đều hơn theo cách truyền thống."
+    },
+    {
+      "question": "Một bệnh nhân mất răng 46 và 47, có VSRM tốt, khớp cắn thuận lợi. Tuy nhiên, răng 45 và 48 (răng trụ) có mô nha chu suy yếu. Dựa vào chỉ định và chống chỉ định của cầu răng, quyết định điều trị nào là phù hợp nhất?",
+      "options": [
+        { "text": "Chỉ định làm cầu răng vì VSRM tốt và khớp cắn thuận lợi.", "isCorrect": false },
+        { "text": "Chống chỉ định làm cầu răng do răng trụ có mô nha chu suy yếu.", "isCorrect": true },
+        { "text": "Có thể làm cầu răng nếu thêm răng trụ cặp (double abutment).", "isCorrect": false },
+        { "text": "Làm cầu răng dán để giảm lực lên răng trụ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 3 'Chống chỉ định' của cầu răng, 'Răng có mô nha chu suy yếu' là một chống chỉ định làm cầu răng. Tình trạng nha chu của răng trụ là yếu tố sống còn quyết định sự thành công lâu dài của cầu răng."
+    },
+    {
+      "question": "Một bệnh nhân thanh thiếu niên bị mất răng cửa hàm trên do chấn thương, không đủ tuổi để cấy ghép implant. Khoảng mất răng hẹp, các răng kế cận khỏe mạnh. Loại cầu răng nào là lựa chọn phù hợp nhất trong trường hợp này và tại sao?",
+      "options": [
+        { "text": "Cầu răng kim loại toàn diện vì độ bền cao.", "isCorrect": false },
+        { "text": "Cầu răng toàn sứ (ví dụ: Zirconia) vì đáp ứng thẩm mỹ cao ở vùng răng trước và lực nhai thấp.", "isCorrect": true },
+        { "text": "Cầu răng với phần nối không cứng chắc để bảo vệ răng trụ.", "isCorrect": false },
+        { "text": "Cầu răng dán để tránh mài răng trụ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục II.1 'Chỉ định chung' và 'Chỉ định cụ thể: Vùng răng trước', cầu với toàn sứ chủ yếu được chỉ định ở vùng trước để thay thế răng cửa hàm trên/dưới do lực thấp và yêu cầu thẩm mỹ. Sứ Zirconia được đề cập có thể thiết kế kích thước tương tự kim loại, phù hợp với độ ổn định."
+    },
+    {
+      "question": "Khi thay thế răng nanh bằng cầu với bằng sứ, tại sao 'các kích thước của phần giữ và phần nối phải được tăng lên' và 'phải cung cấp đủ không gian bằng cách mài răng trụ xâm lấn hơn'?",
+      "options": [
+        { "text": "Để cải thiện thẩm mỹ của cầu răng.", "isCorrect": false },
+        { "text": "Vì răng nanh chịu lực kéo cao trong quá trình chuyển động khớp cắn và sang bên, làm tăng nguy cơ gãy hoặc bong sút phục hình nếu không đủ độ bền.", "isCorrect": true },
+        { "text": "Để giảm chi phí vật liệu.", "isCorrect": false },
+        { "text": "Để tránh tổn thương tủy răng trụ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục II.1 'Thay thế răng nanh', 'Trong quá trình chuyển động khớp cắn và sang bên, lực kéo cao được truyền đến phần giữ và/ hoặc phần nối của cầu với. Điều này có thể làm tăng nguy cơ gãy hoặc bong sút phục hình nếu không đủ độ bền. Do đó, các kích thước của phần giữ và phần nối phải được tăng lên trong vùng răng nanh và phải cung cấp đủ không gian bằng cách mài răng trụ xâm lấn hơn'."
+    },
+    {
+      "question": "Một bệnh nhân có khớp cắn sâu và răng chen chúc, muốn làm cầu răng sứ. Dựa vào chống chỉ định tương đối, yếu tố nào cần được xử lý *trước tiên* để tăng khả năng thành công của phục hình?",
+      "options": [
+        { "text": "Chỉ định làm cầu răng ngay lập tức.", "isCorrect": false },
+        { "text": "Xử lý tiền chỉnh nha để tạo đủ không gian hoặc điều chỉnh độ nghiêng lệch của răng trụ.", "isCorrect": true },
+        { "text": "Làm cầu răng dán để tránh mài răng.", "isCorrect": false },
+        { "text": "Sử dụng vật liệu sứ có độ bền cao nhất.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục II.2 'Chống chỉ định tương đối', 'Thiếu không gian hoặc răng trụ nghiêng lệch ở những bệnh nhân có khớp cắn sâu hoặc răng chen chúc. Nên xử lý tiền chỉnh nha trước khi PH'."
+    },
+    {
+      "question": "Một răng trụ có tỷ lệ thân/chân răng là 1/1. Phát biểu nào sau đây là *không đúng* về tiên lượng của răng trụ này?",
+      "options": [
+        { "text": "Đây là tỷ lệ thân/chân răng lý tưởng cho một răng trụ.", "isCorrect": true },
+        { "text": "Răng có tỷ lệ này cao thường khó chịu đựng được các lực nhai tăng thêm đối với răng trụ của cầu răng.", "isCorrect": false },
+        { "text": "Tỷ lệ này có thể chấp nhận được trong một số trường hợp giới hạn.", "isCorrect": false },
+        { "text": "Tỷ lệ này được đánh giá trên X-quang.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.4 'Tỷ lệ thân/chân răng', tỷ lệ lý tưởng là 1/2, trung bình là 2/3, và giới hạn là 1/1. Do đó, 1/1 không phải là lý tưởng mà là giới hạn."
+    },
+    {
+      "question": "Định luật Ante trong phục hình cố định có ý nghĩa gì và hạn chế của nó là gì?",
+      "options": [
+        { "text": "Định luật Ante khẳng định diện tích tiếp xúc bề mặt các chân răng trụ phải nhỏ hơn diện tích bề mặt các chân răng mất.", "isCorrect": false },
+        { "text": "Định luật Ante nói rằng diện tích tiếp xúc bề mặt các chân răng trụ phải lớn hơn hoặc bằng diện tích bề mặt các chân răng mất cần phục hình thì cầu răng mới được vững chắc, nhưng chỉ có giá trị tương đối và chính xác khi răng có mô nha chu bình thường.", "isCorrect": true },
+        { "text": "Định luật Ante chỉ áp dụng cho cầu răng ở vùng răng trước.", "isCorrect": false },
+        { "text": "Định luật Ante là một nguyên tắc tuyệt đối và luôn chính xác trong mọi trường hợp.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.5 'Diện tích bề mặt chân răng tiếp xúc với xương răng', Định luật Ante nêu rõ yêu cầu về diện tích bề mặt chân răng trụ so với răng mất, nhưng cũng chỉ ra 'Định luật này chỉ có giá trị tương đối và chỉ chính xác khi răng có mô nha chu bình thường. Trong trường hợp có tiêu xương ở răng thì định luật này ít có giá trị'."
+    },
+    {
+      "question": "Một cầu răng được thiết kế qua vùng cong của cung răng (ví dụ: nanh-nanh hoặc cửa-tiền hàm). Tại sao điều này có thể gây tác động đòn bẩy và làm tăng nguy cơ thất bại của cầu răng?",
+      "options": [
+        { "text": "Vì vật liệu làm cầu răng không đủ cứng chắc.", "isCorrect": false },
+        { "text": "Vì nhịp cầu nằm trên một đường cong, đỉnh đường cong cách trụ nối hai phần giữ một khoảng, tác động như một đòn bẩy và gây nên chuyển động xoay quanh trục này làm bật cầu răng hoặc chấn thương cho các răng trụ.", "isCorrect": true },
+        { "text": "Vì các răng trụ không đủ dài.", "isCorrect": false },
+        { "text": "Vì lực nhai ở vùng cong luôn lớn hơn các vùng khác.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.6 'Hình dạng cung răng', 'Nếu các nhịp cầu nằm trên một đường cong, đỉnh đường cong cách trụ nổi hai phần giữ một khoảng, thì nó tác động như một đòn bẩy và gây nên chuyển động xoay quanh trục này làm bật cầu răng hoặc chấn thương cho các răng trụ'."
+    },
+    {
+      "question": "Chuyển động ngoài trong của cầu răng thường sinh ra do điểm vướng khi hàm dưới chuyển động bên. Nếu phần giữ là các inlay có hố nông hoặc các vách quá thoát, hậu quả có thể là gì?",
+      "options": [
+        { "text": "Răng trụ sẽ chuyển động theo chiều ngoài trong và dẫn đến tiêu xương răng.", "isCorrect": false },
+        { "text": "Phần giữ này sẽ dễ bật sút.", "isCorrect": false },
+        { "text": "Cả A và B.", "isCorrect": true },
+        { "text": "Cầu răng sẽ bị gãy ngang nhịp cầu.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.2 'Chuyển động ngoài trong', 'Nếu phần giữ là các inlay có hố nông hoặc các vách quá thoát, phần giữ này sẽ dễ bật sút'."
+    },
+    {
+      "question": "Chuyển động xa gần của cầu răng thường xảy ra hơn các hướng khác. Khi chịu lực tác động theo hướng này, nếu cầu răng làm bằng hợp kim cứng chắc và có điểm tiếp giáp với răng kế cận tốt, điều gì sẽ xảy ra?",
+      "options": [
+        { "text": "Răng trụ sẽ bị nghiêng về phía gần và xoay quanh tâm xoay.", "isCorrect": false },
+        { "text": "Chuyển động này không xảy ra.", "isCorrect": true },
+        { "text": "Các bờ vật giữ phía xa bị hở gây sâu răng.", "isCorrect": false },
+        { "text": "Cầu răng có nguy cơ bị bong ra khỏi răng trụ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.3 'Chuyển động xa gần', 'Nếu cầu răng có điểm tiếp giáp với răng kế cận tốt và cung răng sắp xếp tốt, cầu răng làm bằng hợp kim cứng chắc thì chuyển động này không xảy ra'."
+    },
+    {
+      "question": "Chuyển động uốn cong của cầu răng phát sinh khi lực tác động lên giữa các nhịp cầu. Điều gì là nguyên nhân chính dẫn đến chuyển động này và hậu quả là gì?",
+      "options": [
+        { "text": "Cầu răng làm bằng vật liệu, kích thước không đủ độ cứng hoặc cầu răng có nhịp cầu dán; nhịp cầu bị biến dạng cong xuống tạo nên lực kéo hai răng trụ nghiêng vào nhau, có thể làm bật phần giữ.", "isCorrect": true },
+        { "text": "Do có điểm chạm sớm trên răng trụ.", "isCorrect": false },
+        { "text": "Do điểm vướng khi hàm dưới chuyển động bên.", "isCorrect": false },
+        { "text": "Do lực ngang tác động vào nhịp cầu.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.5 'Chuyển động uốn cong', chuyển động này phát sinh khi cầu răng làm bằng vật liệu, kích thước không đủ độ cứng hoặc cầu răng có nhịp cầu dán, dẫn đến nhịp cầu bị cong xuống và có thể làm bật phần giữ."
+    },
+    {
+      "question": "Đường hoàn tất bờ xuôi (feather edge/chisel edge) có những bất lợi nào trong thực hành lâm sàng?",
+      "options": [
+        { "text": "Dễ thực hiện.", "isCorrect": false },
+        { "text": "Bờ cạnh mão mỏng, dễ biến dạng khi thử mão và khó thấy giới hạn của đường hoàn tất trên mẫu thạch cao.", "isCorrect": true },
+        { "text": "Không phân biệt rõ ranh giới với phần mô răng bên dưới nó.", "isCorrect": false },
+        { "text": "Chỉ định cho mão kim loại toàn diện.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục V.1 'Bờ xuôi', các bất lợi bao gồm 'Bờ cạnh mão mỏng, dễ biến dạng khi thử mão' và 'Khó thấy giới hạn của đường hoàn tất trên mẫu thạch cao'."
+    },
+    {
+      "question": "Đường hoàn tất bờ vai (shoulder) có đặc điểm và chỉ định như thế nào?",
+      "options": [
+        { "text": "Dễ thực hiện, không đòi hỏi mài nhiều ngà răng.", "isCorrect": false },
+        { "text": "Được mài như một bậc thang thẳng góc với vách đứng của cùi răng, đòi hỏi phải mài nhiều ngà răng; chỉ định cho mão jacket nhựa, sứ, mặt ngoài của mão veneer.", "isCorrect": true },
+        { "text": "Cạnh mão mỏng và dễ biến dạng.", "isCorrect": false },
+        { "text": "Dùng cho nhiều kiểu mão răng kim loại.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục V.2 'Bờ vai', đường hoàn tất này 'được mài như một bậc thang thẳng góc với vách đứng của cùi răng, đòi hỏi phải mài nhiều ngà răng' và 'Chỉ định cho mão jacket nhựa, sứ, mặt ngoài của mão veneer'."
+    },
+    {
+      "question": "Mão kim loại làm sẵn được chế tạo từ những vật liệu nào và có mấy loại hình dạng chính?",
+      "options": [
+        { "text": "Chỉ từ nhôm; có dạng hình hộp và hình thể giải phẫu.", "isCorrect": false },
+        { "text": "Từ nhôm, Nickel-crom hoặc thiếc mạ bạc; có dạng hình hộp và dạng có hình thể giải phẫu.", "isCorrect": true },
+        { "text": "Chỉ từ Nickel-crom; có dạng hình hộp.", "isCorrect": false },
+        { "text": "Từ thiếc mạ bạc; có dạng hình thể giải phẫu.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VI.6.1 'Mão kim loại làm sẵn', mão có thể làm từ 'nhôm, Nickel-crom hoặc thiếc có ma bạc' và có 2 loại: 'Dạng hình hộp' và 'Dạng có hình thể giải phẫu'."
+    },
+    {
+      "question": "Khi làm mão bằng nhựa tự cứng gián tiếp trên mẫu hàm, bước nào sau đây *không* thuộc quy trình?",
+      "options": [
+        { "text": "Lấy dấu răng trước khi mài cùi bằng alginate.", "isCorrect": false },
+        { "text": "Đưa dấu vào miệng bệnh nhân, ăn sát.", "isCorrect": true },
+        { "text": "Cho nhựa tự cứng vào huyệt răng (tương ứng với cùi răng) trên mẫu alginate.", "isCorrect": false },
+        { "text": "Chờ khô, lấy mão tạm ra, mài nhẵn.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VI.6.2 'Mão bằng nhựa tự cứng', 'Làm gián tiếp trên mẫu hàm' không bao gồm bước 'Đưa dấu vào miệng BN, ăn sát' vì bước này thuộc quy trình làm trực tiếp trên miệng bệnh nhân."
+    },
+    {
+      "question": "Phát biểu nào sau đây mô tả đúng nhất về chốt ngà răng (les tenons dentinaires)?",
+      "options": [
+        { "text": "Chỉ được sử dụng trên răng chết tủy.", "isCorrect": false },
+        { "text": "Có kích thước từ 0,5 đến 1mm, cắm vào trong ngà răng sau khi ngà răng đã được khoan bằng những mũi khoan đặc biệt thích hợp, thường được sử dụng trên răng còn sống.", "isCorrect": true },
+        { "text": "Luôn được gắn bằng cement.", "isCorrect": false },
+        { "text": "Chỉ dùng để tái tạo thân răng vỡ lớn.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VII.2.1 'Chốt ngà răng', các chốt này có kích thước từ 0,5 đến 1mm, cắm vào trong ngà răng và 'thường được sử dụng trên răng còn sống'."
+    },
+    {
+      "question": "Một bệnh nhân mất răng 36 và 37. Răng 35 và 38 là răng trụ. Nếu răng 35 có thân răng ngắn và nhỏ, điều này ảnh hưởng như thế nào đến khả năng làm răng trụ?",
+      "options": [
+        { "text": "Thuận lợi cho việc làm răng trụ vì dễ mài sửa soạn.", "isCorrect": false },
+        { "text": "Không thuận lợi để làm răng trụ vì ảnh hưởng xấu đến sự bền vững và thẩm mỹ của cầu răng, đặc biệt là độ lưu giữ cần thiết.", "isCorrect": true },
+        { "text": "Chỉ ảnh hưởng đến thẩm mỹ, không ảnh hưởng đến độ bền vững.", "isCorrect": false },
+        { "text": "Có thể làm răng trụ nếu thêm chốt chân răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.2 'Hình dạng và kích thước thân răng', 'Các răng trụ cần có chiều cao (nhai nướu) của thân răng đủ để đảm bảo độ lưu giữ cần thiết'. Thân răng ngắn, nhỏ sẽ không đảm bảo độ lưu giữ."
+    },
+    {
+      "question": "Trong các yếu tố đánh giá một răng trụ cho cầu răng, tại sao 'chân răng dài, to' và 'có nhiều chân và phân kỳ' lại được xem là thuận lợi hơn?",
+      "options": [
+        { "text": "Vì chúng dễ điều trị nội nha hơn.", "isCorrect": false },
+        { "text": "Vì chúng vững chắc hơn, cung cấp diện tích bề mặt tiếp xúc với xương ổ răng lớn hơn, giúp tăng cường sự ổn định và chịu lực của cầu răng.", "isCorrect": true },
+        { "text": "Vì chúng có tính thẩm mỹ cao hơn.", "isCorrect": false },
+        { "text": "Vì chúng ít bị sâu răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.3 'Hình dạng chân răng', 'Chân răng dài, to thì vững chắc hơn chân răng ngắn, nhỏ' và 'Răng có nhiều chân và phân kỳ thì vững chắc hơn các răng có một chân hoặc chân răng hội tụ, dính liền hoặc có dạng hình nón'."
+    },
+    {
+      "question": "Một cầu răng được làm bằng vật liệu không đủ độ cứng, hoặc có nhịp cầu dán. Khi lực tác động lên giữa các nhịp cầu, chuyển động uốn cong phát sinh. Hậu quả chính của chuyển động này là gì?",
+      "options": [
+        { "text": "Nhịp cầu bị biến dạng cong xuống tạo nên lực kéo hai răng trụ nghiêng vào nhau, có thể làm bật phần giữ, gây giảm hoặc mất lưu giữ của cầu răng.", "isCorrect": true },
+        { "text": "Răng trụ bị xoay.", "isCorrect": false },
+        { "text": "Răng trụ bị lún xuống và trồi lên.", "isCorrect": false },
+        { "text": "Chỉ gây đau mà không ảnh hưởng đến lưu giữ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.5 'Chuyển động uốn cong', 'Nhịp cầu bị biến dạng cong xuống tạo nên lực kéo hai răng trụ nghiêng vào nhau Nêu các phần giữ không vững chắc thì sẽ bị bật lên làm cầu giảm hoặc mất lưu giữ'."
+    },
+    {
+      "question": "Để khắc phục chuyển động ngoài trong của cầu răng (do điểm vướng khi hàm dưới chuyển động bên) khi phần giữ là các inlay có hố nông hoặc vách quá thoát, biện pháp nào sau đây là phù hợp?",
+      "options": [
+        { "text": "Tạo hố đủ sâu, các vách ngoài, trong phải song song trong khoảng 2-$5^{irc}$ và mở rộng inlay hai mặt thành inlay ba mặt hoặc tạo đuôi én.", "isCorrect": true },
+        { "text": "Chỉ sử dụng mão $3/4$ hoặc mão toàn diện.", "isCorrect": false },
+        { "text": "Không cần làm gì, cầu răng sẽ tự ổn định.", "isCorrect": false },
+        { "text": "Giảm lực nhai lên cầu răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.2 'Chuyển động ngoài trong', 'Để phần inlay khỏi bật, hố phải đủ sâu, các vách ngoài, trong phải song song trong khoảng 2 $-5^{irc}$ và mở rộng inlay hai mặt thành inlay ba mặt hoặc tạo đuôi én'."
+    },
+    {
+      "question": "Một cầu răng có vật giữ là inlay hai mặt xa mặt nhai ở răng trụ phía trước và inlay hai mặt gần-mặt nhai ở răng trụ phía sau. Dựa trên nguyên lý chuyển động xa gần, tại sao không nên làm cầu răng với thiết kế này?",
+      "options": [
+        { "text": "Vì thiết kế này tăng cường sự vững chắc của cầu răng.", "isCorrect": false },
+        { "text": "Vì hướng chuyển động xa gần có thể làm cho răng trụ nghiêng gần, làm cho các bờ vật giữ phía xa bị hở gây sâu răng, và cầu răng có nguy cơ bị bong ra khỏi răng trụ.", "isCorrect": true },
+        { "text": "Vì nó chỉ phù hợp cho cầu răng ở hàm trên.", "isCorrect": false },
+        { "text": "Vì nó làm giảm tính thẩm mỹ của cầu răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.3 'Chuyển động xa gần', 'Dựa trên nguyên lý của chuyển động trên, không nên làm cầu răng có vật giữ là inlay hai mặt xa mặt nhai ở răng trụ phía trước và inlay hai mặt gần- mặt nhai ở răng trụ phía sau' vì nguy cơ hở bờ và bong sút."
+    },
+    {
+      "question": "Đường hoàn tất bờ cong (chamfer) có ưu điểm gì so với bờ vai (shoulder) và chỉ định cho những kiểu mão răng nào?",
+      "options": [
+        { "text": "Đòi hỏi mài nhiều ngà răng hơn bờ vai.", "isCorrect": false },
+        { "text": "Có dạng cong, phân biệt rõ ràng ranh giới, có thể dùng thay thế cho shoulder, và được dùng cho nhiều kiểu mão răng như mão kim loại toàn diện, mặt trong của mão sứ sườn kim loại, mão toàn sứ.", "isCorrect": true },
+        { "text": "Cạnh mão dày và cứng hơn bờ vai.", "isCorrect": false },
+        { "text": "Không khuyến khích sử dụng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục V.3 'Bờ cong', bờ cong có dạng cong, phân biệt rõ ràng ranh giới, có thể dùng thay thế cho shoulder và được dùng cho nhiều kiểu mão răng đã nêu."
+    },
+    {
+      "question": "Một bệnh nhân có răng chết tủy chưa được chữa nội nha và tái tạo tốt. Dựa vào chống chỉ định của cầu răng, phát biểu nào sau đây là đúng?",
+      "options": [
+        { "text": "Đây là chống chỉ định tuyệt đối để làm cầu răng.", "isCorrect": true },
+        { "text": "Đây là chỉ định tương đối, có thể làm cầu răng nếu răng không đau.", "isCorrect": false },
+        { "text": "Có thể làm cầu răng nếu răng trụ là răng sống tủy.", "isCorrect": false },
+        { "text": "Chỉ cần làm cầu răng tạm thời.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 3 'Chống chỉ định' của cầu răng, 'Răng chết tuỷ chưa được chữa nội nha và tái tạo tốt' là một chống chỉ định làm cầu răng."
+    },
+    {
+      "question": "Trong các loại phục hình tạm cho cầu răng, 'Mão bằng nhựa tự cứng' có thể được thực hiện theo hai cách: gián tiếp trên mẫu hàm hoặc trực tiếp trên miệng bệnh nhân. Sự khác biệt chính giữa hai cách này là gì?",
+      "options": [
+        { "text": "Cách gián tiếp không cần lấy dấu răng trước khi mài cùi.", "isCorrect": false },
+        { "text": "Cách gián tiếp được thực hiện hoàn toàn ngoài miệng bệnh nhân trên mẫu hàm, trong khi cách trực tiếp có bước đưa dấu vào miệng bệnh nhân để nhựa trùng hợp.", "isCorrect": true },
+        { "text": "Cách trực tiếp luôn cho kết quả thẩm mỹ tốt hơn.", "isCorrect": false },
+        { "text": "Chỉ có cách gián tiếp mới cần ngâm dấu vào nước.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VI.6.2 'Mão bằng nhựa tự cứng', quy trình 'Làm gián tiếp trên mẫu hàm' và 'Làm trực tiếp trên miệng bệnh nhân' có sự khác biệt rõ ràng ở bước 'Đưa dấu vào miệng BN, ăn sát' chỉ có ở cách trực tiếp, và các bước thực hiện trên mẫu hàm ở cách gián tiếp."
+    },
+    {
+      "question": "Một bệnh nhân có thân răng trụ dạng tam giác. Điều này ảnh hưởng như thế nào đến việc thực hiện các phần giữ là mão từng phần?",
+      "options": [
+        { "text": "Thuận lợi hơn vì dễ mài sửa soạn.", "isCorrect": false },
+        { "text": "Không thuận lợi vì ảnh hưởng xấu đến sự bền vững của mão từng phần, cần phải sửa soạn toàn bộ răng trụ.", "isCorrect": true },
+        { "text": "Không ảnh hưởng gì.", "isCorrect": false },
+        { "text": "Chỉ ảnh hưởng đến thẩm mỹ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.2 'Hình dạng và kích thước thân răng', 'Các thân răng trụ có dạng vuông sẽ thuận lợi cho việc thực hiện các phần giữ là mão từng phần hơn thân răng có dạng tam giác hay bầu dục'."
+    },
+    {
+      "question": "Khi một cầu răng có điểm chạm sớm, và có lực thẳng tác dụng đồng thời trên răng hàm nhỏ và răng hàm lớn được nối rắn chắc với nhau, điều gì có thể xảy ra?",
+      "options": [
+        { "text": "Răng sẽ bị ấn xuống phía chóp dẫn đến sự căng của tất cả sợi nha chu, trừ những sợi ở dính chóp.", "isCorrect": false },
+        { "text": "Toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ, dẫn đến một răng trụ bị lún xuống và một răng trụ kia bị trồi lên.", "isCorrect": true },
+        { "text": "Cầu răng sẽ bị gãy ngang nhịp cầu.", "isCorrect": false },
+        { "text": "Không có chuyển động nào xảy ra.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.1 'Chuyển động lên xuống', 'Khi có lực tác động lên một đầu răng trụ thì toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ và ở khoảng $1/3$ giữa của chân răng. Hậu quả là một răng trụ bị lún xuống và một răng trụ kia bị trồi lên'."
+    },
+    {
+      "question": "Phát biểu nào sau đây *không đúng* về răng trụ trung gian (intermediate abutment)?",
+      "options": [
+        { "text": "Là răng trụ nằm giữa hai nhịp cầu.", "isCorrect": false },
+        { "text": "Thường được chỉ định để tăng cường sự vững chắc cho cầu răng dài.", "isCorrect": false },
+        { "text": "Có thể gây ra tác động đòn bẩy nếu cầu răng đi qua vùng cong của cung răng.", "isCorrect": false },
+        { "text": "Luôn là lựa chọn lý tưởng để phân phối lực đều trên cầu răng.", "isCorrect": true }
+      ],
+      "explanation": "Theo mục 1.1 'Răng trụ', răng trụ trung gian là răng trụ giữa. Tuy nhiên, nếu cầu răng đi qua vùng cong, nó có thể tạo tác động đòn bẩy (mục III.6), làm tăng nguy cơ thất bại, do đó không phải lúc nào cũng là lựa chọn lý tưởng để phân phối lực đều."
+    },
+    {
+      "question": "Khi răng trụ nghiêng nhiều (quá 15 độ theo chiều gần xa), tại sao đây là một chống chỉ định làm cầu răng?",
+      "options": [
+        { "text": "Vì không thể mài sửa soạn răng trụ đúng trục.", "isCorrect": false },
+        { "text": "Vì khó đạt được đường lắp và độ lưu giữ cần thiết cho phục hình, làm tăng nguy cơ bong sút và thất bại của cầu răng.", "isCorrect": true },
+        { "text": "Vì ảnh hưởng đến thẩm mỹ của cầu răng.", "isCorrect": false },
+        { "text": "Vì răng nghiêng sẽ tự động thẳng lại sau khi làm cầu răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 3 'Chống chỉ định', 'Răng trụ nghiêng nhiều' là một chống chỉ định. Răng nghiêng quá mức gây khó khăn trong việc tạo đường lắp, độ thuôn và độ lưu giữ của cùi răng, dẫn đến nguy cơ thất bại cao."
+    },
+    {
+      "question": "Một bệnh nhân có khiếm khuyết về men (thiếu sản men) và mòn răng hóa học. Loại cầu răng nào là chống chỉ định tuyệt đối trong trường hợp này?",
+      "options": [
+        { "text": "Cầu răng kim loại toàn diện.", "isCorrect": false },
+        { "text": "Cầu răng dán (ví dụ: cầu với bằng sứ).", "isCorrect": true },
+        { "text": "Cầu răng sứ sườn kim loại.", "isCorrect": false },
+        { "text": "Cầu răng toàn sứ (Zirconia).", "isCorrect": false }
+      ],
+      "explanation": "Theo mục II.2 'Chống chỉ định tuyệt đối' của cầu răng dán, 'Khiếm khuyết về men (thiếu sản men)' và 'Tất cả các dạng khuyết tật khác của men (mòn răng hóa học, mòn răng bệnh lý)' là chống chỉ định. Điều này là do cầu răng dán cần men răng khỏe mạnh để bám dính."
+    },
+    {
+      "question": "Một răng trụ đã được điều trị tủy tốt, không còn triệu chứng và có bằng chứng trên X-quang cho thấy đã hàn kín và đầy đủ hệ thống ống tủy. Phát biểu nào sau đây là đúng về việc sử dụng răng này làm răng trụ?",
+      "options": [
+        { "text": "Không thể sử dụng làm răng trụ vì răng đã chết tủy.", "isCorrect": false },
+        { "text": "Có thể được sử dụng làm răng trụ, nhưng cần theo dõi chặt chẽ.", "isCorrect": true },
+        { "text": "Chỉ sử dụng làm răng trụ cho cầu răng ngắn.", "isCorrect": false },
+        { "text": "Luôn cần phải nhổ bỏ và thay thế bằng implant.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.1 'Tủy răng', 'Tuy nhiên, một răng đã được điều trị tủy tốt, không còn triệu chứng với bằng chứng trên X Quang cho thấy đã hàn kín và đầy đủ hệ thống ống tủy cũng có thể được sử dụng làm răng trụ'."
+    },
+    {
+      "question": "Khi mài sửa soạn một thân răng trụ có dạng bất thường, xoay hoặc lệch, tại sao điều này không thuận lợi và giải pháp nào được đề xuất?",
+      "options": [
+        { "text": "Vì ảnh hưởng đến độ cứng của vật liệu phục hình.", "isCorrect": false },
+        { "text": "Vì ảnh hưởng xấu đến sự bền vững và thẩm mỹ của cầu răng; nếu có thể, nên chỉnh trục răng cho thẳng sẽ giúp phục hình thuận lợi hơn.", "isCorrect": true },
+        { "text": "Vì không thể lấy dấu chính xác.", "isCorrect": false },
+        { "text": "Chỉ cần mài nhiều hơn để bù đắp cho sự lệch lạc.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.2 'Hình dạng và kích thước thân răng', 'Thân răng có dạng bất thường, xoay, lệch thì không thuận lợi để làm răng trụ vì ảnh hưởng xấu đến sự bền vững và thẩm mỹ của cầu răng. Trong các trường hợp này, nếu có thể chỉnh trục răng cho thẳng sẽ giúp phục hình thuận lợi hơn'."
+    },
+    {
+      "question": "Tỷ lệ thân/chân răng lý tưởng cho một răng trụ là 1/2. Điều gì xảy ra nếu một răng trụ có tỷ lệ thân/chân răng cao hơn (ví dụ: 1/1) và răng đối diện là hàm giả tháo lắp?",
+      "options": [
+        { "text": "Răng trụ sẽ chịu lực nhai tốt hơn.", "isCorrect": false },
+        { "text": "Răng trụ thường khó chịu đựng được các lực nhai tăng thêm đối với răng trụ của cầu răng, đặc biệt khi răng đối diện là hàm giả tháo lắp hoặc có mô nha chu suy yếu.", "isCorrect": true },
+        { "text": "Tỷ lệ này không ảnh hưởng đến khả năng chịu lực.", "isCorrect": false },
+        { "text": "Chỉ ảnh hưởng đến thẩm mỹ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.4 'Tỷ lệ thân/chân răng', 'Răng có tỷ lệ này cao thường khó chịu đựng được các lực nhai tăng thêm đối với răng trụ của cầu răng' và 'giới hạn là 1/1 đối với răng 1 chân, răng đối diện là hàm giả tháo lắp hoặc răng đối diện có mô nha chu suy yếu'."
+    },
+    {
+      "question": "Diện tích bề mặt chân răng tiếp xúc với xương ổ răng (được bao phủ bởi dây chằng nha chu) có vai trò quan trọng như thế nào đối với sự vững chắc của răng trụ?",
+      "options": [
+        { "text": "Diện tích này càng nhỏ thì răng trụ càng vững chắc.", "isCorrect": false },
+        { "text": "Diện tích này càng lớn thì răng trụ càng vững chắc, vì nó giúp phân phối lực nhai và tăng khả năng chống chịu lực.", "isCorrect": true },
+        { "text": "Diện tích này chỉ liên quan đến số lượng chân răng, không liên quan đến thể tích chân răng.", "isCorrect": false },
+        { "text": "Không có vai trò đáng kể trong sự vững chắc của răng trụ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.5 'Diện tích bề mặt chân răng tiếp xúc với xương răng', 'Diện tích bề mặt chân răng càng lớn thì răng trụ càng vững chắc Diện tích này này thuộc vào thể tích chân răng, số lượng chân răng và mức độ của xương răng'."
+    },
+    {
+      "question": "Một cầu răng được thiết kế với nhịp cầu nằm trên một đường cong lớn của cung răng. Điều này có thể dẫn đến hậu quả gì đối với các răng trụ và tại sao?",
+      "options": [
+        { "text": "Làm tăng độ bền của cầu răng.", "isCorrect": false },
+        { "text": "Cánh tay đòn bẩy càng lớn, đồng nghĩa các răng trụ chịu lực tác động xoay càng lớn, làm tăng nguy cơ bật cầu răng hoặc chấn thương cho các răng trụ.", "isCorrect": true },
+        { "text": "Giảm lực tác động lên răng trụ.", "isCorrect": false },
+        { "text": "Không ảnh hưởng gì đến các răng trụ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.6 'Hình dạng cung răng', 'Cầu răng ở các vị trí cung răng có độ cong càng lớn thì cánh tay đòn bẩy càng lớn, đồng nghĩa các răng trụ chịu lực tác động xoay càng lớn'."
+    },
+    {
+      "question": "Chuyển động lên xuống của cầu răng sinh ra do có điểm chạm sớm. Khi có lực tác động lên một đầu răng trụ, điều gì xảy ra với toàn bộ cầu răng và các răng trụ?",
+      "options": [
+        { "text": "Toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ, dẫn đến một răng trụ bị lún xuống và một răng trụ kia bị trồi lên.", "isCorrect": true },
+        { "text": "Cầu răng sẽ bị gãy ngang nhịp cầu.", "isCorrect": false },
+        { "text": "Chỉ răng trụ chịu lực tác động sẽ bị lún xuống.", "isCorrect": false },
+        { "text": "Không có chuyển động nào xảy ra nếu phần giữ chắc chắn.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.1 'Chuyển động lên xuống', 'Khi có lực tác động lên một đầu răng trụ thì toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ và ở khoảng $1/3$ giữa của chân răng. Hậu quả là một răng trụ bị lún xuống và một răng trụ kia bị trồi lên'."
+    },
+    {
+      "question": "Chuyển động xoắn của cầu răng thường sinh ra trong trường hợp cầu răng với trên răng trụ một chân khi có một lực ngang tác động vào nhịp cầu (điển hình là cầu ở răng trước). Hậu quả chính của chuyển động này là gì?",
+      "options": [
+        { "text": "Làm răng trụ bị lún xuống.", "isCorrect": false },
+        { "text": "Làm răng trụ bị xoay nếu răng trụ không đủ chắc hoặc phần giữ bị lỏng.", "isCorrect": true },
+        { "text": "Làm cầu răng bị uốn cong.", "isCorrect": false },
+        { "text": "Không có ảnh hưởng đáng kể nếu là răng trước.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.4 'Chuyển động xoắn', 'Hậu quả của chuyển động này làm răng trụ bị xoay nếu răng trụ không đủ chắc hoặc phần giữ bị lỏng'."
+    },
+    {
+      "question": "Đường hoàn tất bờ xuôi (feather edge/chisel edge) được 'không khuyến khích' sử dụng trong nhiều trường hợp. Tại sao?",
+      "options": [
+        { "text": "Vì nó khó thực hiện.", "isCorrect": false },
+        { "text": "Vì bờ cạnh mão mỏng, dễ biến dạng khi thử mão và khó thấy giới hạn của đường hoàn tất trên mẫu thạch cao, làm tăng nguy cơ sai sót trong quá trình chế tạo và lắp mão.", "isCorrect": true },
+        { "text": "Vì nó đòi hỏi mài quá nhiều mô răng.", "isCorrect": false },
+        { "text": "Vì nó không tương thích với vật liệu sứ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục V.1 'Bờ xuôi', nó có các bất lợi là 'Bờ cạnh mão mỏng, dễ biến dạng khi thử mão' và 'Khó thấy giới hạn của đường hoàn tất trên mẫu thạch cao'."
+    },
+    {
+      "question": "Đường hoàn tất bờ vai (shoulder) được chỉ định cho mặt ngoài của trụ cầu sứ sườn kim loại răng trước và mặt ngoài của trụ cầu kim loại sứ răng sau với đường hoàn tất trên nướu. Đặc điểm nào của bờ vai làm nó phù hợp cho các chỉ định này?",
+      "options": [
+        { "text": "Nó dễ thực hiện và không cần mài nhiều ngà răng.", "isCorrect": false },
+        { "text": "Nó tạo ra cạnh mão dày và cứng, phân biệt ranh giới rõ ràng, giúp dễ dàng chế tạo và lắp mão chính xác, đặc biệt quan trọng cho các phục hình thẩm mỹ và chịu lực.", "isCorrect": true },
+        { "text": "Nó có dạng cong, dễ chuyển tiếp với mô răng.", "isCorrect": false },
+        { "text": "Nó giúp giảm chuyển động xoắn trên răng trụ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục V.2 'Bờ vai', 'Cạnh mão dày và cứng' và 'Phân biệt ranh giới rõ ràng với phần mô răng bên dưới' là các đặc điểm chính làm nó phù hợp."
+    },
+    {
+      "question": "Trong các loại phục hình tạm, mão kim loại làm sẵn (preformed metal crown) có ưu điểm gì và được chế tạo từ vật liệu nào?",
+      "options": [
+        { "text": "Ưu điểm là thẩm mỹ cao; chế tạo từ vàng.", "isCorrect": false },
+        { "text": "Ưu điểm là dễ uốn nắn, nhiều kích cỡ; chế tạo từ nhôm, Nickel-crom hoặc thiếc mạ bạc.", "isCorrect": true },
+        { "text": "Ưu điểm là độ cứng vượt trội; chế tạo từ thép không gỉ.", "isCorrect": false },
+        { "text": "Ưu điểm là có hình thể giải phẫu hoàn hảo; chế tạo từ titan.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VI.6.1 'Mão kim loại làm sẵn', mão được chế tạo từ 'nhôm, Nickel-crom hoặc thiếc có ma bạc' và có ưu điểm 'dễ uốn nắn, nhiều kích cỡ'."
+    },
+    {
+      "question": "Khi tái tạo phần thân răng vỡ lớn và chết tủy, tại sao chốt chân răng (les tenons radiculaires) lại cần thiết và có mấy dạng chốt chính?",
+      "options": [
+        { "text": "Để làm trắng răng; có 1 dạng chốt.", "isCorrect": false },
+        { "text": "Để tạo sự vững chắc cho các phần tái tạo; có 2 dạng chốt: chốt làm sẵn và chốt đúc.", "isCorrect": true },
+        { "text": "Để giảm đau; có 3 dạng chốt.", "isCorrect": false },
+        { "text": "Để thay thế toàn bộ thân răng; có 4 dạng chốt.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VII.2.2 'Chốt chân răng', chốt chân răng được dùng 'Để tạo sự vững chắc cho các phần tái tạo ở những răng có thân răng vỡ lớn và chết tuỷ' và có 2 dạng: 'Chốt làm sẵn' và 'Chốt đúc'."
+    },
+    {
+      "question": "Một bệnh nhân có nguy cơ sâu răng cao và VSRM kém. Dựa vào chống chỉ định của cầu răng, phát biểu nào sau đây là đúng về việc làm cầu răng cho bệnh nhân này?",
+      "options": [
+        { "text": "Chỉ định làm cầu răng vì có thể cải thiện VSRM.", "isCorrect": false },
+        { "text": "Chống chỉ định làm cầu răng vì nguy cơ sâu răng cao và VSRM kém sẽ dẫn đến thất bại phục hình và tổn thương răng trụ.", "isCorrect": true },
+        { "text": "Có thể làm cầu răng nếu sử dụng vật liệu sứ toàn diện.", "isCorrect": false },
+        { "text": "Chỉ định làm cầu răng dán để giảm nguy cơ sâu răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 3 'Chống chỉ định', 'Có nguy cơ sâu răng cao. VSRM kém' là một chống chỉ định làm cầu răng."
+    },
+    {
+      "question": "Tại sao việc 'kiểm soát kỹ vệ sinh răng miệng' là một nguyên tắc quan trọng khi cố định răng lung lay trong cầu răng?",
+      "options": [
+        { "text": "Để tránh làm răng trụ bị đau.", "isCorrect": false },
+        { "text": "Để ngăn ngừa sâu răng và bệnh nha chu phát triển dưới phục hình, đảm bảo sự lành mạnh và bền vững lâu dài của răng trụ và cầu răng.", "isCorrect": true },
+        { "text": "Để răng trụ không bị nghiêng quá 15 độ.", "isCorrect": false },
+        { "text": "Không liên quan đến sự thành công của cố định răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.4 'Tỷ lệ thân/chân răng', 'luôn kiểm soát kỹ vệ sinh răng miệng' là một phần của nguyên tắc cố định răng lung lay, nhằm duy trì sức khỏe nha chu và phòng ngừa biến chứng."
+    },
+    {
+      "question": "Mão nhựa làm sẵn có ưu điểm gì và cần lưu ý gì khi lựa chọn kích cỡ?",
+      "options": [
+        { "text": "Có nhiều kích cỡ khác nhau, cần chọn kích cỡ vừa gần với răng đã mài, sau đó mài chỉnh và gắn mẫu.", "isCorrect": true },
+        { "text": "Thẩm mỹ cao, không cần mài chỉnh.", "isCorrect": false },
+        { "text": "Chỉ dùng cho răng trước.", "isCorrect": false },
+        { "text": "Độ bền vượt trội so với mão kim loại làm sẵn.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VI.6.3 'Mão nhựa làm sẵn', mão có 'nhiều kích cỡ khác nhau' và cần 'Chọn kích cỡ vừa gần với răng đã mài'."
+    },
+    {
+      "question": "Khi một cầu răng có chuyển động xoắn, điều này thường xảy ra trên răng trụ có đặc điểm gì và hậu quả là gì?",
+      "options": [
+        { "text": "Răng trụ nhiều chân; làm cầu răng bị uốn cong.", "isCorrect": false },
+        { "text": "Răng trụ một chân khi có một lực ngang tác động vào nhịp cầu (điển hình là cầu ở răng trước); làm răng trụ bị xoay nếu răng trụ không đủ chắc hoặc phần giữ bị lỏng.", "isCorrect": true },
+        { "text": "Răng trụ có tỷ lệ thân/chân răng thấp; làm răng trụ bị lún xuống.", "isCorrect": false },
+        { "text": "Răng trụ có mô nha chu khỏe mạnh; không gây ra hậu quả nào.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.4 'Chuyển động xoắn', 'Chuyển động xoắn thường sinh ra trong trường hợp cầu răng với trên răng trụ một chân khi có một lực ngang tác động vào nhịp cầu điển hình là cầu ở răng trước. Hậu quả của chuyển động này làm răng trụ bị xoay nếu răng trụ không đủ chắc hoặc phần giữ bị lỏng'."
+    },
+    {
+      "question": "Phát biểu nào sau đây *không đúng* về chỉ định của cầu răng dán?",
+      "options": [
+        { "text": "Thanh thiếu niên bị mất răng bẩm sinh hoặc mất răng do chấn thương, không thể lựa chọn bằng cấy ghép đơn lẻ do bệnh nhân chưa đủ tuổi để chỉ định.", "isCorrect": false },
+        { "text": "Bệnh nhân có khoảng mất răng hẹp không thích hợp cho việc đặt implant.", "isCorrect": false },
+        { "text": "Bệnh nhân không muốn thực hiện phẫu thuật cấy ghép trên cơ sở chỉ bị mất một răng đơn lẻ và các răng kế cận khỏe mạnh.", "isCorrect": false },
+        { "text": "Bệnh nhân có thói quen xấu cận chức năng và nghiến răng.", "isCorrect": true }
+      ],
+      "explanation": "Theo mục II.2 'Chống chỉ định tương đối' của cầu răng dán, 'Bệnh nhân có thói quen xấu cận chức năng và nghiến răng' là một chống chỉ định tương đối, không phải chỉ định."
+    },
+    {
+      "question": "Trong các loại đường hoàn tất, đường nào được mài bằng mũi mài nón trụ nhọn đầu và có vách đứng cùi răng nghiêng nhiều nên dễ phân biệt giới hạn trên mẫu thạch cao?",
+      "options": [
+        { "text": "Bờ vai (shoulder).", "isCorrect": false },
+        { "text": "Bờ xuôi (knife edge/chisel).", "isCorrect": true },
+        { "text": "Bờ cong (chamfer).", "isCorrect": false },
+        { "text": "Bờ vai vát (beveled shoulder).", "isCorrect": false }
+      ],
+      "explanation": "Theo mục V.1 'Bờ xuôi', 'Đường hoàn tất knife edge (forme de couteau) hoặc chisel còn được gọi là bờ xuôi: có vách đứng của cùi răng nghiêng nhiều nên đễ phân biệt giới hạn của đường hoàn tất trên mẫu thạch cao. Đường hoàn tất bờ xuôi được mài bằng mũi mài nón trụ nhọn đầu'."
+    },
+    {
+      "question": "Khi tái tạo phần thân răng, vật liệu nào là nhựa hỗn hợp ở dạng bột nhão, cứng nhanh trong vài phút khi ánh sáng halogène chiếu vào, và thường được dùng tái tạo cùi cho các răng trước?",
+      "options": [
+        { "text": "Cement: glass ionomer có khung nhựa.", "isCorrect": false },
+        { "text": "Amalgam.", "isCorrect": false },
+        { "text": "Composite.", "isCorrect": true },
+        { "text": "Kim loại đúc.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VII.1.3 'Composite', đây là vật liệu 'nhựa hỗn hợp ở dạng bột nhão, cứng khi ánh sáng halogène chiếu vào' và 'thường được dùng tái tạo cùi cho các răng trước'."
+    },
+    {
+      "question": "Một bệnh nhân có khoảng mất răng quá dài và không đủ răng trụ. Dựa vào chống chỉ định của cầu răng, phát biểu nào sau đây là đúng về việc làm cầu răng cho bệnh nhân này?",
+      "options": [
+        { "text": "Đây là chỉ định để làm cầu răng dài.", "isCorrect": false },
+        { "text": "Đây là chống chỉ định làm cầu răng vì không đảm bảo sự vững chắc và phân phối lực.", "isCorrect": true },
+        { "text": "Có thể làm cầu răng nếu sử dụng vật liệu có độ bền cao.", "isCorrect": false },
+        { "text": "Chỉ cần thêm răng trụ trung gian.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 3 'Chống chỉ định', 'Khoảng mất răng quá dài, không đủ răng trụ' là một chống chỉ định làm cầu răng."
+    },
+    {
+      "question": "Khi làm mão kim loại làm sẵn, sau khi điều chỉnh kích cỡ và mài chỉnh, bước cuối cùng trước khi gắn mão tạm là gì?",
+      "options": [
+        { "text": "Bôi chất cách ly lên cùi răng.", "isCorrect": false },
+        { "text": "Đệm nhựa vào trong mão kim loại làm sẵn.", "isCorrect": false },
+        { "text": "Đánh bóng, làm sạch và gắn mão tạm bằng cement gắn tạm.", "isCorrect": true },
+        { "text": "Đặt mão có nhựa đệm vào cốc nước ấm.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VI.6.1 'Mão kim loại làm sẵn', các bước cuối cùng là 'Mài chỉnh khớp cắn', 'Nếu điểm tiếp xúc hở có thể đệm bằng nhựa', và 'Đánh bóng, làm sạch và gắn mão tạm bằng cement gắn tạm'."
+    },
+    {
+      "question": "Trong các yếu tố đánh giá răng trụ, tại sao 'thân răng ít eo thắt vùng cổ' và 'các răng trước có kích thước ngoài trong dày' lại được coi là thuận lợi?",
+      "options": [
+        { "text": "Vì chúng dễ dàng cho việc vệ sinh răng miệng.", "isCorrect": false },
+        { "text": "Vì chúng giúp đảm bảo độ dày mô răng mài đi khi sửa soạn không quá nhiều mà vẫn giữ được độ thuôn của cùi răng và sự sống của tủy răng.", "isCorrect": true },
+        { "text": "Vì chúng có tính thẩm mỹ cao hơn.", "isCorrect": false },
+        { "text": "Vì chúng có khả năng chịu lực nhai lớn hơn.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.2 'Hình dạng và kích thước thân răng', 'Thân răng ít eo thắt vùng cổ thì thuận lợi hơn các răng có vùng cổ quá eo thắt để đảm bảo độ dày mô răng mài đi khi sửa soạn không quá nhiều mà vẫn giữ được độ thuôn của cùi răng.' và 'Các răng trước có kích thước ngoài trong dày thì thuận lợi hơn khi mài sửa soạn răng trụ nhằm đảm bảo sự sống của tủy răng và độ dày của cùi răng đủ vững chắc'."
+    },
+    {
+      "question": "Một bệnh nhân có thói quen xấu cận chức năng và nghiến răng. Dựa vào chống chỉ định tương đối của cầu răng dán, điều gì cần được thực hiện trước khi quyết định làm phục hình?",
+      "options": [
+        { "text": "Chỉ định làm cầu răng dán ngay lập tức vì nó bền.", "isCorrect": false },
+        { "text": "Bệnh nhân cần được thông báo trước về nguy cơ bong sút hoặc gây vỡ phục hình nếu muốn thực hiện, và cân nhắc điều trị các thói quen xấu trước.", "isCorrect": true },
+        { "text": "Chỉ định làm cầu răng kim loại toàn diện.", "isCorrect": false },
+        { "text": "Không cần làm gì, thói quen sẽ tự biến mất.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục II.2 'Chống chỉ định tương đối', 'Bệnh nhân có thói quen xấu cận chức năng và nghiến răng. Những bệnh nhân này cần được thông báo trước về nguy cơ bong sút hoặc gây vỡ PH nếu muốn thực hiện'."
+    },
+    {
+      "question": "Phát biểu nào sau đây là *không đúng* về định luật Ante và giá trị của nó trong thực tế lâm sàng?",
+      "options": [
+        { "text": "Định luật Ante có giá trị tương đối và chỉ chính xác khi răng có mô nha chu bình thường.", "isCorrect": false },
+        { "text": "Trong trường hợp có tiêu xương ở răng, định luật này ít có giá trị.", "isCorrect": false },
+        { "text": "Để dễ tính toán diện tích bề mặt chân răng, Jepson (1963) đã đưa ra bảng giá trị trung bình diện tích bề mặt tiếp xúc của các chân răng vĩnh viễn.", "isCorrect": false },
+        { "text": "Định luật Ante là nguyên tắc tuyệt đối và luôn được tuân thủ nghiêm ngặt trong mọi trường hợp, kể cả khi có tiêu xương.", "isCorrect": true }
+      ],
+      "explanation": "Theo mục III.5 'Diện tích bề mặt chân răng tiếp xúc với xương răng', Định luật Ante 'chỉ có giá trị tương đối và chỉ chính xác khi răng có mô nha chu bình thường. Trong trường hợp có tiêu xương ở răng thì định luật này ít có giá trị'."
+    },
+    {
+      "question": "Một bệnh nhân có cầu răng qua vùng cong của cung răng. Để giảm bớt chuyển động đòn bẩy và tăng sự ổn định, biện pháp nào sau đây có thể được xem xét?",
+      "options": [
+        { "text": "Sử dụng vật liệu làm cầu răng mềm dẻo hơn.", "isCorrect": false },
+        { "text": "Thêm răng trụ đối kháng (ví dụ: răng trụ cặp) để chống lại chuyển động xoay.", "isCorrect": true },
+        { "text": "Giảm số lượng răng trụ.", "isCorrect": false },
+        { "text": "Làm cho nhịp cầu dài hơn.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.6 'Hình dạng cung răng', 'để giảm bớt chuyển động này, cần phải thêm răng trụ đối kháng'."
+    },
+    {
+      "question": "Khi một cầu răng có chuyển động xoắn, điều này thường xảy ra trên răng trụ có đặc điểm gì và hậu quả là gì?",
+      "options": [
+        { "text": "Răng trụ nhiều chân; làm cầu răng bị uốn cong.", "isCorrect": false },
+        { "text": "Răng trụ một chân khi có một lực ngang tác động vào nhịp cầu (điển hình là cầu ở răng trước); làm răng trụ bị xoay nếu răng trụ không đủ chắc hoặc phần giữ bị lỏng.", "isCorrect": true },
+        { "text": "Răng trụ có tỷ lệ thân/chân răng thấp; làm răng trụ bị lún xuống.", "isCorrect": false },
+        { "text": "Răng trụ có mô nha chu khỏe mạnh; không gây ra hậu quả nào.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.4 'Chuyển động xoắn', 'Chuyển động xoắn thường sinh ra trong trường hợp cầu răng với trên răng trụ một chân khi có một lực ngang tác động vào nhịp cầu điển hình là cầu ở răng trước. Hậu quả của chuyển động này làm răng trụ bị xoay nếu răng trụ không đủ chắc hoặc phần giữ bị lỏng'."
+    },
+    {
+      "question": "Đường hoàn tất bờ cong (chamfer) có ưu điểm gì so với bờ vai (shoulder) và chỉ định cho những kiểu mão răng nào?",
+      "options": [
+        { "text": "Đòi hỏi mài nhiều ngà răng hơn bờ vai.", "isCorrect": false },
+        { "text": "Có dạng cong, phân biệt rõ ràng ranh giới, có thể dùng thay thế cho shoulder, và được dùng cho nhiều kiểu mão răng như mão kim loại toàn diện, mặt trong của mão sứ sườn kim loại, mão toàn sứ.", "isCorrect": true },
+        { "text": "Cạnh mão dày và cứng hơn bờ vai.", "isCorrect": false },
+        { "text": "Không khuyến khích sử dụng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục V.3 'Bờ cong', bờ cong có dạng cong, phân biệt rõ ràng ranh giới, có thể dùng thay thế cho shoulder và được dùng cho nhiều kiểu mão răng đã nêu."
+    },
+    {
+      "question": "Một bệnh nhân có răng chết tủy chưa được chữa nội nha và tái tạo tốt. Dựa vào chống chỉ định của cầu răng, phát biểu nào sau đây là đúng?",
+      "options": [
+        { "text": "Đây là chống chỉ định tuyệt đối để làm cầu răng.", "isCorrect": true },
+        { "text": "Đây là chỉ định tương đối, có thể làm cầu răng nếu răng không đau.", "isCorrect": false },
+        { "text": "Có thể làm cầu răng nếu răng trụ là răng sống tủy.", "isCorrect": false },
+        { "text": "Chỉ cần làm cầu răng tạm thời.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 3 'Chống chỉ định' của cầu răng, 'Răng chết tuỷ chưa được chữa nội nha và tái tạo tốt' là một chống chỉ định làm cầu răng."
+    },
+    {
+      "question": "Trong các loại phục hình tạm cho cầu răng, 'Mão bằng nhựa tự cứng' có thể được thực hiện theo hai cách: gián tiếp trên mẫu hàm hoặc trực tiếp trên miệng bệnh nhân. Sự khác biệt chính giữa hai cách này là gì?",
+      "options": [
+        { "text": "Cách gián tiếp không cần lấy dấu răng trước khi mài cùi.", "isCorrect": false },
+        { "text": "Cách gián tiếp được thực hiện hoàn toàn ngoài miệng bệnh nhân trên mẫu hàm, trong khi cách trực tiếp có bước đưa dấu vào miệng bệnh nhân để nhựa trùng hợp.", "isCorrect": true },
+        { "text": "Cách trực tiếp luôn cho kết quả thẩm mỹ tốt hơn.", "isCorrect": false },
+        { "text": "Chỉ có cách gián tiếp mới cần ngâm dấu vào nước.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VI.6.2 'Mão bằng nhựa tự cứng', quy trình 'Làm gián tiếp trên mẫu hàm' và 'Làm trực tiếp trên miệng bệnh nhân' có sự khác biệt rõ ràng ở bước 'Đưa dấu vào miệng BN, ăn sát' chỉ có ở cách trực tiếp, và các bước thực hiện trên mẫu hàm ở cách gián tiếp."
+    },
+    {
+      "question": "Một bệnh nhân có thân răng trụ dạng tam giác. Điều này ảnh hưởng như thế nào đến việc thực hiện các phần giữ là mão từng phần?",
+      "options": [
+        { "text": "Thuận lợi hơn vì dễ mài sửa soạn.", "isCorrect": false },
+        { "text": "Không thuận lợi vì ảnh hưởng xấu đến sự bền vững của mão từng phần, cần phải sửa soạn toàn bộ răng trụ.", "isCorrect": true },
+        { "text": "Không ảnh hưởng gì.", "isCorrect": false },
+        { "text": "Chỉ ảnh hưởng đến thẩm mỹ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.2 'Hình dạng và kích thước thân răng', 'Các thân răng trụ có dạng vuông sẽ thuận lợi cho việc thực hiện các phần giữ là mão từng phần hơn thân răng có dạng tam giác hay bầu dục'."
+    },
+    {
+      "question": "Khi một cầu răng có điểm chạm sớm, và có lực thẳng tác dụng đồng thời trên răng hàm nhỏ và răng hàm lớn được nối rắn chắc với nhau, điều gì có thể xảy ra?",
+      "options": [
+        { "text": "Răng sẽ bị ấn xuống phía chóp dẫn đến sự căng của tất cả sợi nha chu, trừ những sợi ở dính chóp.", "isCorrect": false },
+        { "text": "Toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ, dẫn đến một răng trụ bị lún xuống và một răng trụ kia bị trồi lên.", "isCorrect": true },
+        { "text": "Cầu răng sẽ bị gãy ngang nhịp cầu.", "isCorrect": false },
+        { "text": "Không có chuyển động nào xảy ra.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.1 'Chuyển động lên xuống', 'Khi có lực tác động lên một đầu răng trụ thì toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ và ở khoảng $1/3$ giữa của chân răng. Hậu quả là một răng trụ bị lún xuống và một răng trụ kia bị trồi lên'."
+    },
+    {
+      "question": "Phát biểu nào sau đây *không đúng* về răng trụ cặp (double abutment)?",
+      "options": [
+        { "text": "Là một loại răng trụ được sử dụng để tăng cường sự vững chắc cho cầu răng dài hoặc khi răng trụ chính không đủ mạnh.", "isCorrect": false },
+        { "text": "Luôn là răng trụ nằm ở vị trí tận cùng của cầu răng.", "isCorrect": true },
+        { "text": "Giúp phân phối lực nhai tốt hơn lên nhiều răng.", "isCorrect": false },
+        { "text": "Có thể là răng trụ trung gian.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 1.1 'Răng trụ', răng trụ cặp (double abutment) là một loại răng trụ được sử dụng để tăng cường sự vững chắc, không nhất thiết phải nằm ở vị trí tận cùng. Răng trụ tận cùng là 'terminal abutment'."
+    },
+    {
+      "question": "Một bệnh nhân có thân răng trụ ngắn và nhỏ. Dựa vào yếu tố hình dạng và kích thước thân răng, điều này ảnh hưởng như thế nào đến độ lưu giữ của cầu răng?",
+      "options": [
+        { "text": "Tăng độ lưu giữ vì dễ dàng sửa soạn cùi răng.", "isCorrect": false },
+        { "text": "Giảm độ lưu giữ cần thiết vì không đủ chiều cao thân răng (nhai nướu) để đảm bảo sự bám giữ của phục hình.", "isCorrect": true },
+        { "text": "Không ảnh hưởng đến độ lưu giữ.", "isCorrect": false },
+        { "text": "Chỉ ảnh hưởng đến thẩm mỹ, không liên quan đến chức năng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.2 'Hình dạng và kích thước thân răng', 'Các răng trụ cần có chiều cao (nhai nướu) của thân răng đủ để đảm bảo độ lưu giữ cần thiết'. Thân răng ngắn, nhỏ sẽ làm giảm chiều cao này, ảnh hưởng đến lưu giữ."
+    },
+    {
+      "question": "Tại sao 'chân răng cong, lưỡi lê, dùi trống' lại được coi là tăng tính vững chắc cho răng trụ nhưng đồng thời là bất lợi nếu cần điều trị nội nha?",
+      "options": [
+        { "text": "Vì chúng dễ dàng cho việc điều trị nội nha.", "isCorrect": false },
+        { "text": "Vì hình dạng phức tạp của chúng giúp tăng diện tích bề mặt tiếp xúc và chống lại lực xoắn, nhưng lại gây khó khăn trong việc làm sạch và tạo hình ống tủy nếu cần điều trị nội nha.", "isCorrect": true },
+        { "text": "Vì chúng chỉ vững chắc khi có nhiều chân.", "isCorrect": false },
+        { "text": "Vì chúng không bao giờ cần điều trị nội nha.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.3 'Hình dạng chân răng', 'Chân răng cong, lưỡi lê, dùi trống tăng tính vững chắc cho răng trụ nhưng bất lợi nếu cần điều trị nội nha' do hình dạng phức tạp gây khó khăn cho việc tiếp cận và làm sạch ống tủy."
+    },
+    {
+      "question": "Trong các yếu tố đánh giá răng trụ, tại sao 'tình trạng răng đối diện' (răng thật, cầu răng, hàm khung, hàm giả nền nhựa) lại quan trọng?",
+      "options": [
+        { "text": "Vì nó ảnh hưởng đến màu sắc của cầu răng.", "isCorrect": false },
+        { "text": "Vì nó ảnh hưởng đến loại và cường độ lực tác động lên cầu răng và răng trụ, từ đó ảnh hưởng đến thiết kế và tiên lượng của phục hình.", "isCorrect": true },
+        { "text": "Vì nó chỉ liên quan đến thẩm mỹ.", "isCorrect": false },
+        { "text": "Không có liên quan đáng kể.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.5 'Diện tích bề mặt chân răng tiếp xúc với xương răng', 'Thực tế trên lâm sàng, việc chọn lựa số lượng răng trụ cho cầu răng tùy thuộc nhiều yếu tố khác như... Tình trạng răng đối diện (răng thật, cầu răng, hàm khung, hàm giả nền nhựa)'. Tình trạng răng đối diện ảnh hưởng đến lực nhai và cách phân phối lực."
+    },
+    {
+      "question": "Một cầu răng có chuyển động ngoài trong do điểm vướng khi hàm dưới chuyển động bên. Nếu phần giữ là mão $3/4$ hoặc mão toàn diện, điều gì sẽ xảy ra so với việc dùng inlay?",
+      "options": [
+        { "text": "Chúng chống lại lực này tốt hơn inlay, nhưng các vách cùi răng phải không quá hội tụ về phía mặt nhai.", "isCorrect": true },
+        { "text": "Chúng sẽ dễ bật sút hơn inlay.", "isCorrect": false },
+        { "text": "Chúng không có khả năng chống lại lực này.", "isCorrect": false },
+        { "text": "Chỉ dùng cho răng trước.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.2 'Chuyển động ngoài trong', 'Mão $3/4$ và mão toàn diện chống lại lực này tốt hơn inlay, nhưng các vách cùi răng phải không quá hội tụ về phía mặt nhai'."
+    },
+    {
+      "question": "Phát biểu nào sau đây là *không đúng* về vật liệu Amalgam trong tái tạo phần thân răng?",
+      "options": [
+        { "text": "Là vật liệu tái tạo tương đối tốt, thường được dùng, dễ sử dụng.", "isCorrect": false },
+        { "text": "Độ cứng của amalgam không bằng kim loại đúc.", "isCorrect": false },
+        { "text": "Nên tái tạo amalgam cho các răng trước vì không làm đổi màu phân mô răng tiếp cận.", "isCorrect": true },
+        { "text": "Việc tái tạo amalgam phải được thực hiện 1 kỳ lâm sàng trước khi mài cùi răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VII.1.2 'Amalgam', 'không nên tái tạo amalgam cho các răng trước vì thường làm đổi màu đen phân mô răng tiếp cận ảnh hưởng đến thẩm mỹ'."
+    },
+    {
+      "question": "Trong các loại vật liệu tái tạo phần thân răng, vật liệu nào có ưu điểm là cứng nhanh trong vài phút khi ánh sáng halogène chiếu vào, nên có thể mài cùi răng ngay sau khi tái tạo, và không làm đổi màu mô răng tiếp cận?",
+      "options": [
+        { "text": "Cement: glass ionomer có khung nhựa.", "isCorrect": false },
+        { "text": "Amalgam.", "isCorrect": false },
+        { "text": "Composite.", "isCorrect": true },
+        { "text": "Kim loại đúc.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VII.1.3 'Composite', ưu điểm là 'cứng nhanh trong vài phút nên có thể mài cùi răng ngay sau khi tái tạo, không làm đổi màu mô răng tiếp cận nên thường được dùng tái tạo cùi cho các răng trước không tạo ra dòng điện hoá học trong miệng'."
+    },
+    {
+      "question": "Sứ đúc (cast ceramic) được sử dụng để tái tạo cùi răng nhằm mục đích gì?",
+      "options": [
+        { "text": "Tăng độ cứng cơ học so với kim loại đúc.", "isCorrect": false },
+        { "text": "Đáp ứng tính thẩm mỹ của việc tái tạo cùi, đặc biệt khi kết hợp với các sợi carbon.", "isCorrect": true },
+        { "text": "Giảm chi phí so với các vật liệu khác.", "isCorrect": false },
+        { "text": "Chỉ dùng cho răng sau.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VII.1.5 'Sứ đúc', 'hiện nay người ta có thể dụng dạng sứ kết hợp với các sợi carbon để đúc dùng cho việc tái tạo cùi răng để đáp ứng tính thẩm mỹ của việc tái tạo cùi'."
+    },
+    {
+      "question": "Một bệnh nhân có khớp cắn không thuận lợi. Dựa vào chống chỉ định của cầu răng, phát biểu nào sau đây là đúng?",
+      "options": [
+        { "text": "Đây là chỉ định để làm cầu răng.", "isCorrect": false },
+        { "text": "Đây là chống chỉ định làm cầu răng vì có thể gây ra các lực bất lợi lên cầu răng và răng trụ.", "isCorrect": true },
+        { "text": "Có thể làm cầu răng nếu sử dụng vật liệu có độ bền cao.", "isCorrect": false },
+        { "text": "Chỉ cần điều chỉnh khớp cắn sau khi làm cầu răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 3 'Chống chỉ định', 'Khớp cắn không thuận lợi' là một chống chỉ định làm cầu răng."
+    },
+    {
+      "question": "Phát biểu nào sau đây mô tả đúng nhất về 'phần giữ' (retainer) của cầu răng?",
+      "options": [
+        { "text": "Là phần thay thế cho răng mất.", "isCorrect": false },
+        { "text": "Là phần của cầu răng bám giữ trên răng trụ.", "isCorrect": true },
+        { "text": "Là phần nối giữa nhịp cầu và răng trụ.", "isCorrect": false },
+        { "text": "Là thân răng được mài hay chân răng, nâng đỡ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 1.2 'Phần giữ', 'Là phần của cầu răng bám giữ trên răng trụ'."
+    },
+    {
+      "question": "Nhịp cầu (pontic) có dạng thích hợp sinh học với mô nướu. Điều này có ý nghĩa gì trong thiết kế nhịp cầu?",
+      "options": [
+        { "text": "Nhịp cầu phải tiếp xúc chặt chẽ với mô nướu để tăng độ lưu giữ.", "isCorrect": false },
+        { "text": "Nhịp cầu phải có hình dạng và kích thước phù hợp để không gây viêm nhiễm mô nướu, dễ vệ sinh, và đảm bảo tính thẩm mỹ.", "isCorrect": true },
+        { "text": "Nhịp cầu phải được làm bằng kim loại để chống lại lực nhai.", "isCorrect": false },
+        { "text": "Không cần quan tâm đến mô nướu khi thiết kế nhịp cầu.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 1.3 'Nhịp cầu', 'Là phần thay thế cho răng mất có dạng thích hợp sinh học với mô nướu'. Điều này bao hàm các yếu tố về vệ sinh, thẩm mỹ và sức khỏe mô mềm xung quanh."
+    },
+    {
+      "question": "Khi một cầu răng có chuyển động xoắn, điều này thường sinh ra trong trường hợp cầu răng với trên răng trụ một chân khi có một lực ngang tác động vào nhịp cầu (điển hình là cầu ở răng trước). Hậu quả chính của chuyển động này là gì?",
+      "options": [
+        { "text": "Làm răng trụ bị lún xuống.", "isCorrect": false },
+        { "text": "Làm răng trụ bị xoay nếu răng trụ không đủ chắc hoặc phần giữ bị lỏng.", "isCorrect": true },
+        { "text": "Làm cầu răng bị uốn cong.", "isCorrect": false },
+        { "text": "Không có ảnh hưởng đáng kể nếu là răng trước.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.4 'Chuyển động xoắn', 'Hậu quả của chuyển động này làm răng trụ bị xoay nếu răng trụ không đủ chắc hoặc phần giữ bị lỏng'."
+    },
+    {
+      "question": "Đường hoàn tất bờ cong (chamfer) có ưu điểm gì so với bờ vai (shoulder) và chỉ định cho những kiểu mão răng nào?",
+      "options": [
+        { "text": "Đòi hỏi mài nhiều ngà răng hơn bờ vai.", "isCorrect": false },
+        { "text": "Có dạng cong, phân biệt rõ ràng ranh giới, có thể dùng thay thế cho shoulder, và được dùng cho nhiều kiểu mão răng như mão kim loại toàn diện, mặt trong của mão sứ sườn kim loại, mão toàn sứ.", "isCorrect": true },
+        { "text": "Cạnh mão dày và cứng hơn bờ vai.", "isCorrect": false },
+        { "text": "Không khuyến khích sử dụng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục V.3 'Bờ cong', bờ cong có dạng cong, phân biệt rõ ràng ranh giới, có thể dùng thay thế cho shoulder và được dùng cho nhiều kiểu mão răng đã nêu."
+    },
+    {
+      "question": "Một bệnh nhân có răng chết tủy chưa được chữa nội nha và tái tạo tốt. Dựa vào chống chỉ định của cầu răng, phát biểu nào sau đây là đúng?",
+      "options": [
+        { "text": "Đây là chống chỉ định tuyệt đối để làm cầu răng.", "isCorrect": true },
+        { "text": "Đây là chỉ định tương đối, có thể làm cầu răng nếu răng không đau.", "isCorrect": false },
+        { "text": "Có thể làm cầu răng nếu răng trụ là răng sống tủy.", "isCorrect": false },
+        { "text": "Chỉ cần làm cầu răng tạm thời.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 3 'Chống chỉ định' của cầu răng, 'Răng chết tuỷ chưa được chữa nội nha và tái tạo tốt' là một chống chỉ định làm cầu răng."
+    },
+    {
+      "question": "Trong các loại phục hình tạm cho cầu răng, 'Mão bằng nhựa tự cứng' có thể được thực hiện theo hai cách: gián tiếp trên mẫu hàm hoặc trực tiếp trên miệng bệnh nhân. Sự khác biệt chính giữa hai cách này là gì?",
+      "options": [
+        { "text": "Cách gián tiếp không cần lấy dấu răng trước khi mài cùi.", "isCorrect": false },
+        { "text": "Cách gián tiếp được thực hiện hoàn toàn ngoài miệng bệnh nhân trên mẫu hàm, trong khi cách trực tiếp có bước đưa dấu vào miệng bệnh nhân để nhựa trùng hợp.", "isCorrect": true },
+        { "text": "Cách trực tiếp luôn cho kết quả thẩm mỹ tốt hơn.", "isCorrect": false },
+        { "text": "Chỉ có cách gián tiếp mới cần ngâm dấu vào nước.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VI.6.2 'Mão bằng nhựa tự cứng', quy trình 'Làm gián tiếp trên mẫu hàm' và 'Làm trực tiếp trên miệng bệnh nhân' có sự khác biệt rõ ràng ở bước 'Đưa dấu vào miệng BN, ăn sát' chỉ có ở cách trực tiếp, và các bước thực hiện trên mẫu hàm ở cách gián tiếp."
+    },
+    {
+      "question": "Một bệnh nhân có thân răng trụ dạng tam giác. Điều này ảnh hưởng như thế nào đến việc thực hiện các phần giữ là mão từng phần?",
+      "options": [
+        { "text": "Thuận lợi hơn vì dễ mài sửa soạn.", "isCorrect": false },
+        { "text": "Không thuận lợi vì ảnh hưởng xấu đến sự bền vững của mão từng phần, cần phải sửa soạn toàn bộ răng trụ.", "isCorrect": true },
+        { "text": "Không ảnh hưởng gì.", "isCorrect": false },
+        { "text": "Chỉ ảnh hưởng đến thẩm mỹ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.2 'Hình dạng và kích thước thân răng', 'Các thân răng trụ có dạng vuông sẽ thuận lợi cho việc thực hiện các phần giữ là mão từng phần hơn thân răng có dạng tam giác hay bầu dục'."
+    },
+    {
+      "question": "Khi một cầu răng có điểm chạm sớm, và có lực thẳng tác dụng đồng thời trên răng hàm nhỏ và răng hàm lớn được nối rắn chắc với nhau, điều gì có thể xảy ra?",
+      "options": [
+        { "text": "Răng sẽ bị ấn xuống phía chóp dẫn đến sự căng của tất cả sợi nha chu, trừ những sợi ở dính chóp.", "isCorrect": false },
+        { "text": "Toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ, dẫn đến một răng trụ bị lún xuống và một răng trụ kia bị trồi lên.", "isCorrect": true },
+        { "text": "Cầu răng sẽ bị gãy ngang nhịp cầu.", "isCorrect": false },
+        { "text": "Không có chuyển động nào xảy ra.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.1 'Chuyển động lên xuống', 'Khi có lực tác động lên một đầu răng trụ thì toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ và ở khoảng $1/3$ giữa của chân răng. Hậu quả là một răng trụ bị lún xuống và một răng trụ kia bị trồi lên'."
+    },
+    {
+      "question": "Phát biểu nào sau đây *không đúng* về răng trụ cặp (double abutment)?",
+      "options": [
+        { "text": "Là một loại răng trụ được sử dụng để tăng cường sự vững chắc cho cầu răng dài hoặc khi răng trụ chính không đủ mạnh.", "isCorrect": false },
+        { "text": "Luôn là răng trụ nằm ở vị trí tận cùng của cầu răng.", "isCorrect": true },
+        { "text": "Giúp phân phối lực nhai tốt hơn lên nhiều răng.", "isCorrect": false },
+        { "text": "Có thể là răng trụ trung gian.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 1.1 'Răng trụ', răng trụ cặp (double abutment) là một loại răng trụ được sử dụng để tăng cường sự vững chắc, không nhất thiết phải nằm ở vị trí tận cùng. Răng trụ tận cùng là 'terminal abutment'."
+    },
+    {
+      "question": "Khi răng trụ nghiêng nhiều (quá 15 độ theo chiều gần xa), tại sao đây là một chống chỉ định làm cầu răng?",
+      "options": [
+        { "text": "Vì không thể mài sửa soạn răng trụ đúng trục.", "isCorrect": false },
+        { "text": "Vì khó đạt được đường lắp và độ lưu giữ cần thiết cho phục hình, làm tăng nguy cơ bong sút và thất bại của cầu răng.", "isCorrect": true },
+        { "text": "Vì ảnh hưởng đến thẩm mỹ của cầu răng.", "isCorrect": false },
+        { "text": "Vì răng nghiêng sẽ tự động thẳng lại sau khi làm cầu răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 3 'Chống chỉ định', 'Răng trụ nghiêng nhiều' là một chống chỉ định. Răng nghiêng quá mức gây khó khăn trong việc tạo đường lắp, độ thuôn và độ lưu giữ của cùi răng, dẫn đến nguy cơ thất bại cao."
+    },
+    {
+      "question": "Một bệnh nhân có khiếm khuyết về men (thiếu sản men) và mòn răng hóa học. Loại cầu răng nào là chống chỉ định tuyệt đối trong trường hợp này?",
+      "options": [
+        { "text": "Cầu răng kim loại toàn diện.", "isCorrect": false },
+        { "text": "Cầu răng dán (ví dụ: cầu với bằng sứ).", "isCorrect": true },
+        { "text": "Cầu răng sứ sườn kim loại.", "isCorrect": false },
+        { "text": "Cầu răng toàn sứ (Zirconia).", "isCorrect": false }
+      ],
+      "explanation": "Theo mục II.2 'Chống chỉ định tuyệt đối' của cầu răng dán, 'Khiếm khuyết về men (thiếu sản men)' và 'Tất cả các dạng khuyết tật khác của men (mòn răng hóa học, mòn răng bệnh lý)' là chống chỉ định. Điều này là do cầu răng dán cần men răng khỏe mạnh để bám dính."
+    },
+    {
+      "question": "Một răng trụ đã được điều trị tủy tốt, không còn triệu chứng và có bằng chứng trên X-quang cho thấy đã hàn kín và đầy đủ hệ thống ống tủy. Phát biểu nào sau đây là đúng về việc sử dụng răng này làm răng trụ?",
+      "options": [
+        { "text": "Không thể sử dụng làm răng trụ vì răng đã chết tủy.", "isCorrect": false },
+        { "text": "Có thể được sử dụng làm răng trụ, nhưng cần theo dõi chặt chẽ.", "isCorrect": true },
+        { "text": "Chỉ sử dụng làm răng trụ cho cầu răng ngắn.", "isCorrect": false },
+        { "text": "Luôn cần phải nhổ bỏ và thay thế bằng implant.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.1 'Tủy răng', 'Tuy nhiên, một răng đã được điều trị tủy tốt, không còn triệu chứng với bằng chứng trên X Quang cho thấy đã hàn kín và đầy đủ hệ thống ống tủy cũng có thể được sử dụng làm răng trụ'."
+    },
+    {
+      "question": "Khi mài sửa soạn một thân răng trụ có dạng bất thường, xoay hoặc lệch, tại sao điều này không thuận lợi và giải pháp nào được đề xuất?",
+      "options": [
+        { "text": "Vì ảnh hưởng đến độ cứng của vật liệu phục hình.", "isCorrect": false },
+        { "text": "Vì ảnh hưởng xấu đến sự bền vững và thẩm mỹ của cầu răng; nếu có thể, nên chỉnh trục răng cho thẳng sẽ giúp phục hình thuận lợi hơn.", "isCorrect": true },
+        { "text": "Vì không thể lấy dấu chính xác.", "isCorrect": false },
+        { "text": "Chỉ cần mài nhiều hơn để bù đắp cho sự lệch lạc.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.2 'Hình dạng và kích thước thân răng', 'Thân răng có dạng bất thường, xoay, lệch thì không thuận lợi để làm răng trụ vì ảnh hưởng xấu đến sự bền vững và thẩm mỹ của cầu răng. Trong các trường hợp này, nếu có thể chỉnh trục răng cho thẳng sẽ giúp phục hình thuận lợi hơn'."
+    },
+    {
+      "question": "Tỷ lệ thân/chân răng lý tưởng cho một răng trụ là 1/2. Điều gì xảy ra nếu một răng trụ có tỷ lệ thân/chân răng cao hơn (ví dụ: 1/1) và răng đối diện là hàm giả tháo lắp?",
+      "options": [
+        { "text": "Răng trụ sẽ chịu lực nhai tốt hơn.", "isCorrect": false },
+        { "text": "Răng trụ thường khó chịu đựng được các lực nhai tăng thêm đối với răng trụ của cầu răng, đặc biệt khi răng đối diện là hàm giả tháo lắp hoặc có mô nha chu suy yếu.", "isCorrect": true },
+        { "text": "Tỷ lệ này không ảnh hưởng đến khả năng chịu lực.", "isCorrect": false },
+        { "text": "Chỉ ảnh hưởng đến thẩm mỹ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.4 'Tỷ lệ thân/chân răng', 'Răng có tỷ lệ này cao thường khó chịu đựng được các lực nhai tăng thêm đối với răng trụ của cầu răng' và 'giới hạn là 1/1 đối với răng 1 chân, răng đối diện là hàm giả tháo lắp hoặc răng đối diện có mô nha chu suy yếu'."
+    },
+    {
+      "question": "Diện tích bề mặt chân răng tiếp xúc với xương ổ răng (được bao phủ bởi dây chằng nha chu) có vai trò quan trọng như thế nào đối với sự vững chắc của răng trụ?",
+      "options": [
+        { "text": "Diện tích này càng nhỏ thì răng trụ càng vững chắc.", "isCorrect": false },
+        { "text": "Diện tích này càng lớn thì răng trụ càng vững chắc, vì nó giúp phân phối lực nhai và tăng khả năng chống chịu lực.", "isCorrect": true },
+        { "text": "Diện tích này chỉ liên quan đến số lượng chân răng, không liên quan đến thể tích chân răng.", "isCorrect": false },
+        { "text": "Không có vai trò đáng kể trong sự vững chắc của răng trụ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.5 'Diện tích bề mặt chân răng tiếp xúc với xương răng', 'Diện tích bề mặt chân răng càng lớn thì răng trụ càng vững chắc Diện tích này này thuộc vào thể tích chân răng, số lượng chân răng và mức độ của xương răng'."
+    },
+    {
+      "question": "Một cầu răng được thiết kế với nhịp cầu nằm trên một đường cong lớn của cung răng. Điều này có thể dẫn đến hậu quả gì đối với các răng trụ và tại sao?",
+      "options": [
+        { "text": "Làm tăng độ bền của cầu răng.", "isCorrect": false },
+        { "text": "Cánh tay đòn bẩy càng lớn, đồng nghĩa các răng trụ chịu lực tác động xoay càng lớn, làm tăng nguy cơ bật cầu răng hoặc chấn thương cho các răng trụ.", "isCorrect": true },
+        { "text": "Giảm lực tác động lên răng trụ.", "isCorrect": false },
+        { "text": "Không ảnh hưởng gì đến các răng trụ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.6 'Hình dạng cung răng', 'Cầu răng ở các vị trí cung răng có độ cong càng lớn thì cánh tay đòn bẩy càng lớn, đồng nghĩa các răng trụ chịu lực tác động xoay càng lớn'."
+    },
+    {
+      "question": "Chuyển động lên xuống của cầu răng sinh ra do có điểm chạm sớm. Khi có lực tác động lên một đầu răng trụ, điều gì xảy ra với toàn bộ cầu răng và các răng trụ?",
+      "options": [
+        { "text": "Răng sẽ bị ấn xuống phía chóp dẫn đến sự căng của tất cả sợi nha chu, trừ những sợi ở dính chóp.", "isCorrect": false },
+        { "text": "Toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ, dẫn đến một răng trụ bị lún xuống và một răng trụ kia bị trồi lên.", "isCorrect": true },
+        { "text": "Cầu răng sẽ bị gãy ngang nhịp cầu.", "isCorrect": false },
+        { "text": "Không có chuyển động nào xảy ra.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.1 'Chuyển động lên xuống', 'Khi có lực tác động lên một đầu răng trụ thì toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ và ở khoảng $1/3$ giữa của chân răng. Hậu quả là một răng trụ bị lún xuống và một răng trụ kia bị trồi lên'."
+    },
+    {
+      "question": "Chuyển động ngoài trong của cầu răng thường sinh ra do điểm vướng khi hàm dưới chuyển động bên. Nếu phần giữ là các inlay có hố nông hoặc các vách quá thoát, hậu quả có thể là gì?",
+      "options": [
+        { "text": "Răng trụ sẽ chuyển động theo chiều ngoài trong và dẫn đến tiêu xương răng.", "isCorrect": false },
+        { "text": "Phần giữ này sẽ dễ bật sút.", "isCorrect": false },
+        { "text": "Cả A và B.", "isCorrect": true },
+        { "text": "Cầu răng sẽ bị gãy ngang nhịp cầu.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.2 'Chuyển động ngoài trong', 'Nếu phần giữ là các inlay có hố nông hoặc các vách quá thoát, phần giữ này sẽ dễ bật sút'."
+    },
+    {
+      "question": "Chuyển động xa gần của cầu răng thường xảy ra hơn các hướng khác. Khi chịu lực tác động theo hướng này, nếu cầu răng làm bằng hợp kim cứng chắc và có điểm tiếp giáp với răng kế cận tốt, điều gì sẽ xảy ra?",
+      "options": [
+        { "text": "Răng trụ sẽ bị nghiêng về phía gần và xoay quanh tâm xoay.", "isCorrect": false },
+        { "text": "Chuyển động này không xảy ra.", "isCorrect": true },
+        { "text": "Các bờ vật giữ phía xa bị hở gây sâu răng.", "isCorrect": false },
+        { "text": "Cầu răng có nguy cơ bị bong ra khỏi răng trụ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.3 'Chuyển động xa gần', 'Nếu cầu răng có điểm tiếp giáp với răng kế cận tốt và cung răng sắp xếp tốt, cầu răng làm bằng hợp kim cứng chắc thì chuyển động này không xảy ra'."
+    },
+    {
+      "question": "Chuyển động uốn cong của cầu răng phát sinh khi lực tác động lên giữa các nhịp cầu. Điều gì là nguyên nhân chính dẫn đến chuyển động này và hậu quả là gì?",
+      "options": [
+        { "text": "Cầu răng làm bằng vật liệu, kích thước không đủ độ cứng hoặc cầu răng có nhịp cầu dán; nhịp cầu bị biến dạng cong xuống tạo nên lực kéo hai răng trụ nghiêng vào nhau, có thể làm bật phần giữ.", "isCorrect": true },
+        { "text": "Do có điểm chạm sớm trên răng trụ.", "isCorrect": false },
+        { "text": "Do điểm vướng khi hàm dưới chuyển động bên.", "isCorrect": false },
+        { "text": "Do lực ngang tác động vào nhịp cầu.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.5 'Chuyển động uốn cong', chuyển động này phát sinh khi cầu răng làm bằng vật liệu, kích thước không đủ độ cứng hoặc cầu răng có nhịp cầu dán, dẫn đến nhịp cầu bị cong xuống và có thể làm bật phần giữ."
+    },
+    {
+      "question": "Đường hoàn tất bờ xuôi (feather edge/chisel edge) có những bất lợi nào trong thực hành lâm sàng?",
+      "options": [
+        { "text": "Dễ thực hiện.", "isCorrect": false },
+        { "text": "Bờ cạnh mão mỏng, dễ biến dạng khi thử mão và khó thấy giới hạn của đường hoàn tất trên mẫu thạch cao.", "isCorrect": true },
+        { "text": "Không phân biệt rõ ranh giới với phần mô răng bên dưới nó.", "isCorrect": false },
+        { "text": "Chỉ định cho mão kim loại toàn diện.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục V.1 'Bờ xuôi', các bất lợi bao gồm 'Bờ cạnh mão mỏng, dễ biến dạng khi thử mão' và 'Khó thấy giới hạn của đường hoàn tất trên mẫu thạch cao'."
+    },
+    {
+      "question": "Đường hoàn tất bờ vai (shoulder) có đặc điểm và chỉ định như thế nào?",
+      "options": [
+        { "text": "Dễ thực hiện, không đòi hỏi mài nhiều ngà răng.", "isCorrect": false },
+        { "text": "Được mài như một bậc thang thẳng góc với vách đứng của cùi răng, đòi hỏi phải mài nhiều ngà răng; chỉ định cho mão jacket nhựa, sứ, mặt ngoài của mão veneer.", "isCorrect": true },
+        { "text": "Cạnh mão mỏng và dễ biến dạng.", "isCorrect": false },
+        { "text": "Dùng cho nhiều kiểu mão răng kim loại.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục V.2 'Bờ vai', đường hoàn tất này 'được mài như một bậc thang thẳng góc với vách đứng của cùi răng, đòi hỏi phải mài nhiều ngà răng' và 'Chỉ định cho mão jacket nhựa, sứ, mặt ngoài của mão veneer'."
+    },
+    {
+      "question": "Mão kim loại làm sẵn được chế tạo từ những vật liệu nào và có mấy loại hình dạng chính?",
+      "options": [
+        { "text": "Chỉ từ nhôm; có dạng hình hộp và hình thể giải phẫu.", "isCorrect": false },
+        { "text": "Từ nhôm, Nickel-crom hoặc thiếc mạ bạc; có dạng hình hộp và dạng có hình thể giải phẫu.", "isCorrect": true },
+        { "text": "Chỉ từ Nickel-crom; có dạng hình hộp.", "isCorrect": false },
+        { "text": "Từ thiếc mạ bạc; có dạng hình thể giải phẫu.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VI.6.1 'Mão kim loại làm sẵn', mão có thể làm từ 'nhôm, Nickel-crom hoặc thiếc có ma bạc' và có 2 loại: 'Dạng hình hộp' và 'Dạng có hình thể giải phẫu'."
+    },
+    {
+      "question": "Khi làm mão bằng nhựa tự cứng gián tiếp trên mẫu hàm, bước nào sau đây *không* thuộc quy trình?",
+      "options": [
+        { "text": "Lấy dấu răng trước khi mài cùi bằng alginate.", "isCorrect": false },
+        { "text": "Đưa dấu vào miệng bệnh nhân, ăn sát.", "isCorrect": true },
+        { "text": "Cho nhựa tự cứng vào huyệt răng (tương ứng với cùi răng) trên mẫu alginate.", "isCorrect": false },
+        { "text": "Chờ khô, lấy mão tạm ra, mài nhẵn.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VI.6.2 'Mão bằng nhựa tự cứng', 'Làm gián tiếp trên mẫu hàm' không bao gồm bước 'Đưa dấu vào miệng BN, ăn sát' vì bước này thuộc quy trình làm trực tiếp trên miệng bệnh nhân."
+    },
+    {
+      "question": "Phát biểu nào sau đây mô tả đúng nhất về chốt ngà răng (les tenons dentinaires)?",
+      "options": [
+        { "text": "Chỉ được sử dụng trên răng chết tủy.", "isCorrect": false },
+        { "text": "Có kích thước từ 0,5 đến 1mm, cắm vào trong ngà răng sau khi ngà răng đã được khoan bằng những mũi khoan đặc biệt thích hợp, thường được sử dụng trên răng còn sống.", "isCorrect": true },
+        { "text": "Luôn được gắn bằng cement.", "isCorrect": false },
+        { "text": "Chỉ dùng để tái tạo thân răng vỡ lớn.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VII.2.1 'Chốt ngà răng', các chốt này có kích thước từ 0,5 đến 1mm, cắm vào trong ngà răng và 'thường được sử dụng trên răng còn sống'."
+    },
+    {
+      "question": "Một bệnh nhân mất răng 36 và 37. Răng 35 và 38 là răng trụ. Nếu răng 35 có thân răng ngắn và nhỏ, điều này ảnh hưởng như thế nào đến khả năng làm răng trụ?",
+      "options": [
+        { "text": "Thuận lợi cho việc làm răng trụ vì dễ mài sửa soạn.", "isCorrect": false },
+        { "text": "Không thuận lợi để làm răng trụ vì ảnh hưởng xấu đến sự bền vững và thẩm mỹ của cầu răng, đặc biệt là độ lưu giữ cần thiết.", "isCorrect": true },
+        { "text": "Chỉ ảnh hưởng đến thẩm mỹ, không ảnh hưởng đến độ bền vững.", "isCorrect": false },
+        { "text": "Có thể làm răng trụ nếu thêm chốt chân răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.2 'Hình dạng và kích thước thân răng', 'Các răng trụ cần có chiều cao (nhai nướu) của thân răng đủ để đảm bảo độ lưu giữ cần thiết'. Thân răng ngắn, nhỏ sẽ không đảm bảo độ lưu giữ."
+    },
+    {
+      "question": "Trong các yếu tố đánh giá một răng trụ cho cầu răng, tại sao 'chân răng dài, to' và 'có nhiều chân và phân kỳ' lại được xem là thuận lợi hơn?",
+      "options": [
+        { "text": "Vì chúng dễ điều trị nội nha hơn.", "isCorrect": false },
+        { "text": "Vì chúng vững chắc hơn, cung cấp diện tích bề mặt tiếp xúc với xương ổ răng lớn hơn, giúp tăng cường sự ổn định và chịu lực của cầu răng.", "isCorrect": true },
+        { "text": "Vì chúng có tính thẩm mỹ cao hơn.", "isCorrect": false },
+        { "text": "Vì chúng ít bị sâu răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.3 'Hình dạng chân răng', 'Chân răng dài, to thì vững chắc hơn chân răng ngắn, nhỏ' và 'Răng có nhiều chân và phân kỳ thì vững chắc hơn các răng có một chân hoặc chân răng hội tụ, dính liền hoặc có dạng hình nón'."
+    },
+    {
+      "question": "Một cầu răng được làm bằng vật liệu không đủ độ cứng, hoặc có nhịp cầu dán. Khi lực tác động lên giữa các nhịp cầu, chuyển động uốn cong phát sinh. Hậu quả chính của chuyển động này là gì?",
+      "options": [
+        { "text": "Nhịp cầu bị biến dạng cong xuống tạo nên lực kéo hai răng trụ nghiêng vào nhau, có thể làm bật phần giữ, gây giảm hoặc mất lưu giữ của cầu răng.", "isCorrect": true },
+        { "text": "Răng trụ bị xoay.", "isCorrect": false },
+        { "text": "Răng trụ bị lún xuống và trồi lên.", "isCorrect": false },
+        { "text": "Chỉ gây đau mà không ảnh hưởng đến lưu giữ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.5 'Chuyển động uốn cong', 'Nhịp cầu bị biến dạng cong xuống tạo nên lực kéo hai răng trụ nghiêng vào nhau Nêu các phần giữ không vững chắc thì sẽ bị bật lên làm cầu giảm hoặc mất lưu giữ'."
+    },
+    {
+      "question": "Để khắc phục chuyển động ngoài trong của cầu răng (do điểm vướng khi hàm dưới chuyển động bên) khi phần giữ là các inlay có hố nông hoặc vách quá thoát, biện pháp nào sau đây là phù hợp?",
+      "options": [
+        { "text": "Tạo hố đủ sâu, các vách ngoài, trong phải song song trong khoảng 2-$5^{irc}$ và mở rộng inlay hai mặt thành inlay ba mặt hoặc tạo đuôi én.", "isCorrect": true },
+        { "text": "Chỉ sử dụng mão $3/4$ hoặc mão toàn diện.", "isCorrect": false },
+        { "text": "Không cần làm gì, cầu răng sẽ tự ổn định.", "isCorrect": false },
+        { "text": "Giảm lực nhai lên cầu răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.2 'Chuyển động ngoài trong', 'Để phần inlay khỏi bật, hố phải đủ sâu, các vách ngoài, trong phải song song trong khoảng 2 $-5^{irc}$ và mở rộng inlay hai mặt thành inlay ba mặt hoặc tạo đuôi én'."
+    },
+    {
+      "question": "Một cầu răng có vật giữ là inlay hai mặt xa mặt nhai ở răng trụ phía trước và inlay hai mặt gần-mặt nhai ở răng trụ phía sau. Dựa trên nguyên lý chuyển động xa gần, tại sao không nên làm cầu răng với thiết kế này?",
+      "options": [
+        { "text": "Vì thiết kế này tăng cường sự vững chắc của cầu răng.", "isCorrect": false },
+        { "text": "Vì hướng chuyển động xa gần có thể làm cho răng trụ nghiêng gần, làm cho các bờ vật giữ phía xa bị hở gây sâu răng, và cầu răng có nguy cơ bị bong ra khỏi răng trụ.", "isCorrect": true },
+        { "text": "Vì nó chỉ phù hợp cho cầu răng ở hàm trên.", "isCorrect": false },
+        { "text": "Vì nó làm giảm tính thẩm mỹ của cầu răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.3 'Chuyển động xa gần', 'Dựa trên nguyên lý của chuyển động trên, không nên làm cầu răng có vật giữ là inlay hai mặt xa mặt nhai ở răng trụ phía trước và inlay hai mặt gần- mặt nhai ở răng trụ phía sau' vì nguy cơ hở bờ và bong sút."
+    },
+    {
+      "question": "Đường hoàn tất bờ cong (chamfer) có ưu điểm gì so với bờ vai (shoulder) và chỉ định cho những kiểu mão răng nào?",
+      "options": [
+        { "text": "Đòi hỏi mài nhiều ngà răng hơn bờ vai.", "isCorrect": false },
+        { "text": "Có dạng cong, phân biệt rõ ràng ranh giới, có thể dùng thay thế cho shoulder, và được dùng cho nhiều kiểu mão răng như mão kim loại toàn diện, mặt trong của mão sứ sườn kim loại, mão toàn sứ.", "isCorrect": true },
+        { "text": "Cạnh mão dày và cứng hơn bờ vai.", "isCorrect": false },
+        { "text": "Không khuyến khích sử dụng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục V.3 'Bờ cong', bờ cong có dạng cong, phân biệt rõ ràng ranh giới, có thể dùng thay thế cho shoulder và được dùng cho nhiều kiểu mão răng đã nêu."
+    },
+    {
+      "question": "Một bệnh nhân có răng chết tủy chưa được chữa nội nha và tái tạo tốt. Dựa vào chống chỉ định của cầu răng, phát biểu nào sau đây là đúng?",
+      "options": [
+        { "text": "Đây là chống chỉ định tuyệt đối để làm cầu răng.", "isCorrect": true },
+        { "text": "Đây là chỉ định tương đối, có thể làm cầu răng nếu răng không đau.", "isCorrect": false },
+        { "text": "Có thể làm cầu răng nếu răng trụ là răng sống tủy.", "isCorrect": false },
+        { "text": "Chỉ cần làm cầu răng tạm thời.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 3 'Chống chỉ định' của cầu răng, 'Răng chết tuỷ chưa được chữa nội nha và tái tạo tốt' là một chống chỉ định làm cầu răng."
+    },
+    {
+      "question": "Trong các loại phục hình tạm cho cầu răng, 'Mão bằng nhựa tự cứng' có thể được thực hiện theo hai cách: gián tiếp trên mẫu hàm hoặc trực tiếp trên miệng bệnh nhân. Sự khác biệt chính giữa hai cách này là gì?",
+      "options": [
+        { "text": "Cách gián tiếp không cần lấy dấu răng trước khi mài cùi.", "isCorrect": false },
+        { "text": "Cách gián tiếp được thực hiện hoàn toàn ngoài miệng bệnh nhân trên mẫu hàm, trong khi cách trực tiếp có bước đưa dấu vào miệng bệnh nhân để nhựa trùng hợp.", "isCorrect": true },
+        { "text": "Cách trực tiếp luôn cho kết quả thẩm mỹ tốt hơn.", "isCorrect": false },
+        { "text": "Chỉ có cách gián tiếp mới cần ngâm dấu vào nước.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VI.6.2 'Mão bằng nhựa tự cứng', quy trình 'Làm gián tiếp trên mẫu hàm' và 'Làm trực tiếp trên miệng bệnh nhân' có sự khác biệt rõ ràng ở bước 'Đưa dấu vào miệng BN, ăn sát' chỉ có ở cách trực tiếp, và các bước thực hiện trên mẫu hàm ở cách gián tiếp."
+    },
+    {
+      "question": "Một bệnh nhân có thân răng trụ dạng tam giác. Điều này ảnh hưởng như thế nào đến việc thực hiện các phần giữ là mão từng phần?",
+      "options": [
+        { "text": "Thuận lợi hơn vì dễ mài sửa soạn.", "isCorrect": false },
+        { "text": "Không thuận lợi vì ảnh hưởng xấu đến sự bền vững của mão từng phần, cần phải sửa soạn toàn bộ răng trụ.", "isCorrect": true },
+        { "text": "Không ảnh hưởng gì.", "isCorrect": false },
+        { "text": "Chỉ ảnh hưởng đến thẩm mỹ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.2 'Hình dạng và kích thước thân răng', 'Các thân răng trụ có dạng vuông sẽ thuận lợi cho việc thực hiện các phần giữ là mão từng phần hơn thân răng có dạng tam giác hay bầu dục'."
+    },
+    {
+      "question": "Khi một cầu răng có điểm chạm sớm, và có lực thẳng tác dụng đồng thời trên răng hàm nhỏ và răng hàm lớn được nối rắn chắc với nhau, điều gì có thể xảy ra?",
+      "options": [
+        { "text": "Răng sẽ bị ấn xuống phía chóp dẫn đến sự căng của tất cả sợi nha chu, trừ những sợi ở dính chóp.", "isCorrect": false },
+        { "text": "Toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ, dẫn đến một răng trụ bị lún xuống và một răng trụ kia bị trồi lên.", "isCorrect": true },
+        { "text": "Cầu răng sẽ bị gãy ngang nhịp cầu.", "isCorrect": false },
+        { "text": "Không có chuyển động nào xảy ra.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.1 'Chuyển động lên xuống', 'Khi có lực tác động lên một đầu răng trụ thì toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ và ở khoảng $1/3$ giữa của chân răng. Hậu quả là một răng trụ bị lún xuống và một răng trụ kia bị trồi lên'."
+    },
+    {
+      "question": "Phát biểu nào sau đây *không đúng* về răng trụ cặp (double abutment)?",
+      "options": [
+        { "text": "Là một loại răng trụ được sử dụng để tăng cường sự vững chắc cho cầu răng dài hoặc khi răng trụ chính không đủ mạnh.", "isCorrect": false },
+        { "text": "Luôn là răng trụ nằm ở vị trí tận cùng của cầu răng.", "isCorrect": true },
+        { "text": "Giúp phân phối lực nhai tốt hơn lên nhiều răng.", "isCorrect": false },
+        { "text": "Có thể là răng trụ trung gian.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 1.1 'Răng trụ', răng trụ cặp (double abutment) là một loại răng trụ được sử dụng để tăng cường sự vững chắc, không nhất thiết phải nằm ở vị trí tận cùng. Răng trụ tận cùng là 'terminal abutment'."
+    },
+    {
+      "question": "Khi răng trụ nghiêng nhiều (quá 15 độ theo chiều gần xa), tại sao đây là một chống chỉ định làm cầu răng?",
+      "options": [
+        { "text": "Vì không thể mài sửa soạn răng trụ đúng trục.", "isCorrect": false },
+        { "text": "Vì khó đạt được đường lắp và độ lưu giữ cần thiết cho phục hình, làm tăng nguy cơ bong sút và thất bại của cầu răng.", "isCorrect": true },
+        { "text": "Vì ảnh hưởng đến thẩm mỹ của cầu răng.", "isCorrect": false },
+        { "text": "Vì răng nghiêng sẽ tự động thẳng lại sau khi làm cầu răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 3 'Chống chỉ định', 'Răng trụ nghiêng nhiều' là một chống chỉ định. Răng nghiêng quá mức gây khó khăn trong việc tạo đường lắp, độ thuôn và độ lưu giữ của cùi răng, dẫn đến nguy cơ thất bại cao."
+    },
+    {
+      "question": "Một bệnh nhân có khiếm khuyết về men (thiếu sản men) và mòn răng hóa học. Loại cầu răng nào là chống chỉ định tuyệt đối trong trường hợp này?",
+      "options": [
+        { "text": "Cầu răng kim loại toàn diện.", "isCorrect": false },
+        { "text": "Cầu răng dán (ví dụ: cầu với bằng sứ).", "isCorrect": true },
+        { "text": "Cầu răng sứ sườn kim loại.", "isCorrect": false },
+        { "text": "Cầu răng toàn sứ (Zirconia).", "isCorrect": false }
+      ],
+      "explanation": "Theo mục II.2 'Chống chỉ định tuyệt đối' của cầu răng dán, 'Khiếm khuyết về men (thiếu sản men)' và 'Tất cả các dạng khuyết tật khác của men (mòn răng hóa học, mòn răng bệnh lý)' là chống chỉ định. Điều này là do cầu răng dán cần men răng khỏe mạnh để bám dính."
+    },
+    {
+      "question": "Một răng trụ đã được điều trị tủy tốt, không còn triệu chứng và có bằng chứng trên X-quang cho thấy đã hàn kín và đầy đủ hệ thống ống tủy. Phát biểu nào sau đây là đúng về việc sử dụng răng này làm răng trụ?",
+      "options": [
+        { "text": "Không thể sử dụng làm răng trụ vì răng đã chết tủy.", "isCorrect": false },
+        { "text": "Có thể được sử dụng làm răng trụ, nhưng cần theo dõi chặt chẽ.", "isCorrect": true },
+        { "text": "Chỉ sử dụng làm răng trụ cho cầu răng ngắn.", "isCorrect": false },
+        { "text": "Luôn cần phải nhổ bỏ và thay thế bằng implant.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.1 'Tủy răng', 'Tuy nhiên, một răng đã được điều trị tủy tốt, không còn triệu chứng với bằng chứng trên X Quang cho thấy đã hàn kín và đầy đủ hệ thống ống tủy cũng có thể được sử dụng làm răng trụ'."
+    },
+    {
+      "question": "Khi mài sửa soạn một thân răng trụ có dạng bất thường, xoay hoặc lệch, tại sao điều này không thuận lợi và giải pháp nào được đề xuất?",
+      "options": [
+        { "text": "Vì ảnh hưởng đến độ cứng của vật liệu phục hình.", "isCorrect": false },
+        { "text": "Vì ảnh hưởng xấu đến sự bền vững và thẩm mỹ của cầu răng; nếu có thể, nên chỉnh trục răng cho thẳng sẽ giúp phục hình thuận lợi hơn.", "isCorrect": true },
+        { "text": "Vì không thể lấy dấu chính xác.", "isCorrect": false },
+        { "text": "Chỉ cần mài nhiều hơn để bù đắp cho sự lệch lạc.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.2 'Hình dạng và kích thước thân răng', 'Thân răng có dạng bất thường, xoay, lệch thì không thuận lợi để làm răng trụ vì ảnh hưởng xấu đến sự bền vững và thẩm mỹ của cầu răng. Trong các trường hợp này, nếu có thể chỉnh trục răng cho thẳng sẽ giúp phục hình thuận lợi hơn'."
+    },
+    {
+      "question": "Tỷ lệ thân/chân răng lý tưởng cho một răng trụ là 1/2. Điều gì xảy ra nếu một răng trụ có tỷ lệ thân/chân răng cao hơn (ví dụ: 1/1) và răng đối diện là hàm giả tháo lắp?",
+      "options": [
+        { "text": "Răng trụ sẽ chịu lực nhai tốt hơn.", "isCorrect": false },
+        { "text": "Răng trụ thường khó chịu đựng được các lực nhai tăng thêm đối với răng trụ của cầu răng, đặc biệt khi răng đối diện là hàm giả tháo lắp hoặc có mô nha chu suy yếu.", "isCorrect": true },
+        { "text": "Tỷ lệ này không ảnh hưởng đến khả năng chịu lực.", "isCorrect": false },
+        { "text": "Chỉ ảnh hưởng đến thẩm mỹ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.4 'Tỷ lệ thân/chân răng', 'Răng có tỷ lệ này cao thường khó chịu đựng được các lực nhai tăng thêm đối với răng trụ của cầu răng' và 'giới hạn là 1/1 đối với răng 1 chân, răng đối diện là hàm giả tháo lắp hoặc răng đối diện có mô nha chu suy yếu'."
+    },
+    {
+      "question": "Diện tích bề mặt chân răng tiếp xúc với xương ổ răng (được bao phủ bởi dây chằng nha chu) có vai trò quan trọng như thế nào đối với sự vững chắc của răng trụ?",
+      "options": [
+        { "text": "Diện tích này càng nhỏ thì răng trụ càng vững chắc.", "isCorrect": false },
+        { "text": "Diện tích này càng lớn thì răng trụ càng vững chắc, vì nó giúp phân phối lực nhai và tăng khả năng chống chịu lực.", "isCorrect": true },
+        { "text": "Diện tích này chỉ liên quan đến số lượng chân răng, không liên quan đến thể tích chân răng.", "isCorrect": false },
+        { "text": "Không có vai trò đáng kể trong sự vững chắc của răng trụ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.5 'Diện tích bề mặt chân răng tiếp xúc với xương răng', 'Diện tích bề mặt chân răng càng lớn thì răng trụ càng vững chắc Diện tích này này thuộc vào thể tích chân răng, số lượng chân răng và mức độ của xương răng'."
+    },
+    {
+      "question": "Một cầu răng được thiết kế với nhịp cầu nằm trên một đường cong lớn của cung răng. Điều này có thể dẫn đến hậu quả gì đối với các răng trụ và tại sao?",
+      "options": [
+        { "text": "Làm tăng độ bền của cầu răng.", "isCorrect": false },
+        { "text": "Cánh tay đòn bẩy càng lớn, đồng nghĩa các răng trụ chịu lực tác động xoay càng lớn, làm tăng nguy cơ bật cầu răng hoặc chấn thương cho các răng trụ.", "isCorrect": true },
+        { "text": "Giảm lực tác động lên răng trụ.", "isCorrect": false },
+        { "text": "Không ảnh hưởng gì đến các răng trụ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.6 'Hình dạng cung răng', 'Cầu răng ở các vị trí cung răng có độ cong càng lớn thì cánh tay đòn bẩy càng lớn, đồng nghĩa các răng trụ chịu lực tác động xoay càng lớn'."
+    },
+    {
+      "question": "Chuyển động lên xuống của cầu răng sinh ra do có điểm chạm sớm. Khi có lực tác động lên một đầu răng trụ, điều gì xảy ra với toàn bộ cầu răng và các răng trụ?",
+      "options": [
+        { "text": "Răng sẽ bị ấn xuống phía chóp dẫn đến sự căng của tất cả sợi nha chu, trừ những sợi ở dính chóp.", "isCorrect": false },
+        { "text": "Toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ, dẫn đến một răng trụ bị lún xuống và một răng trụ kia bị trồi lên.", "isCorrect": true },
+        { "text": "Cầu răng sẽ bị gãy ngang nhịp cầu.", "isCorrect": false },
+        { "text": "Không có chuyển động nào xảy ra.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.1 'Chuyển động lên xuống', 'Khi có lực tác động lên một đầu răng trụ thì toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ và ở khoảng $1/3$ giữa của chân răng. Hậu quả là một răng trụ bị lún xuống và một răng trụ kia bị trồi lên'."
+    },
+    {
+      "question": "Chuyển động ngoài trong của cầu răng thường sinh ra do điểm vướng khi hàm dưới chuyển động bên. Nếu phần giữ là các inlay có hố nông hoặc các vách quá thoát, hậu quả có thể là gì?",
+      "options": [
+        { "text": "Răng trụ sẽ chuyển động theo chiều ngoài trong và dẫn đến tiêu xương răng.", "isCorrect": false },
+        { "text": "Phần giữ này sẽ dễ bật sút.", "isCorrect": false },
+        { "text": "Cả A và B.", "isCorrect": true },
+        { "text": "Cầu răng sẽ bị gãy ngang nhịp cầu.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.2 'Chuyển động ngoài trong', 'Nếu phần giữ là các inlay có hố nông hoặc các vách quá thoát, phần giữ này sẽ dễ bật sút'."
+    },
+    {
+      "question": "Chuyển động xa gần của cầu răng thường xảy ra hơn các hướng khác. Khi chịu lực tác động theo hướng này, nếu cầu răng làm bằng hợp kim cứng chắc và có điểm tiếp giáp với răng kế cận tốt, điều gì sẽ xảy ra?",
+      "options": [
+        { "text": "Răng trụ sẽ bị nghiêng về phía gần và xoay quanh tâm xoay.", "isCorrect": false },
+        { "text": "Chuyển động này không xảy ra.", "isCorrect": true },
+        { "text": "Các bờ vật giữ phía xa bị hở gây sâu răng.", "isCorrect": false },
+        { "text": "Cầu răng có nguy cơ bị bong ra khỏi răng trụ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.3 'Chuyển động xa gần', 'Nếu cầu răng có điểm tiếp giáp với răng kế cận tốt và cung răng sắp xếp tốt, cầu răng làm bằng hợp kim cứng chắc thì chuyển động này không xảy ra'."
+    },
+    {
+      "question": "Chuyển động uốn cong của cầu răng phát sinh khi lực tác động lên giữa các nhịp cầu. Điều gì là nguyên nhân chính dẫn đến chuyển động này và hậu quả là gì?",
+      "options": [
+        { "text": "Cầu răng làm bằng vật liệu, kích thước không đủ độ cứng hoặc cầu răng có nhịp cầu dán; nhịp cầu bị biến dạng cong xuống tạo nên lực kéo hai răng trụ nghiêng vào nhau, có thể làm bật phần giữ.", "isCorrect": true },
+        { "text": "Do có điểm chạm sớm trên răng trụ.", "isCorrect": false },
+        { "text": "Do điểm vướng khi hàm dưới chuyển động bên.", "isCorrect": false },
+        { "text": "Do lực ngang tác động vào nhịp cầu.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.5 'Chuyển động uốn cong', chuyển động này phát sinh khi cầu răng làm bằng vật liệu, kích thước không đủ độ cứng hoặc cầu răng có nhịp cầu dán, dẫn đến nhịp cầu bị cong xuống và có thể làm bật phần giữ."
+    },
+    {
+      "question": "Đường hoàn tất bờ xuôi (feather edge/chisel edge) có những bất lợi nào trong thực hành lâm sàng?",
+      "options": [
+        { "text": "Dễ thực hiện.", "isCorrect": false },
+        { "text": "Bờ cạnh mão mỏng, dễ biến dạng khi thử mão và khó thấy giới hạn của đường hoàn tất trên mẫu thạch cao.", "isCorrect": true },
+        { "text": "Không phân biệt rõ ranh giới với phần mô răng bên dưới nó.", "isCorrect": false },
+        { "text": "Chỉ định cho mão kim loại toàn diện.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục V.1 'Bờ xuôi', các bất lợi bao gồm 'Bờ cạnh mão mỏng, dễ biến dạng khi thử mão' và 'Khó thấy giới hạn của đường hoàn tất trên mẫu thạch cao'."
+    },
+    {
+      "question": "Đường hoàn tất bờ vai (shoulder) có đặc điểm và chỉ định như thế nào?",
+      "options": [
+        { "text": "Dễ thực hiện, không đòi hỏi mài nhiều ngà răng.", "isCorrect": false },
+        { "text": "Được mài như một bậc thang thẳng góc với vách đứng của cùi răng, đòi hỏi phải mài nhiều ngà răng; chỉ định cho mão jacket nhựa, sứ, mặt ngoài của mão veneer.", "isCorrect": true },
+        { "text": "Cạnh mão mỏng và dễ biến dạng.", "isCorrect": false },
+        { "text": "Dùng cho nhiều kiểu mão răng kim loại.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục V.2 'Bờ vai', đường hoàn tất này 'được mài như một bậc thang thẳng góc với vách đứng của cùi răng, đòi hỏi phải mài nhiều ngà răng' và 'Chỉ định cho mão jacket nhựa, sứ, mặt ngoài của mão veneer'."
+    },
+    {
+      "question": "Mão kim loại làm sẵn được chế tạo từ những vật liệu nào và có mấy loại hình dạng chính?",
+      "options": [
+        { "text": "Chỉ từ nhôm; có dạng hình hộp và hình thể giải phẫu.", "isCorrect": false },
+        { "text": "Từ nhôm, Nickel-crom hoặc thiếc mạ bạc; có dạng hình hộp và dạng có hình thể giải phẫu.", "isCorrect": true },
+        { "text": "Chỉ từ Nickel-crom; có dạng hình hộp.", "isCorrect": false },
+        { "text": "Từ thiếc mạ bạc; có dạng hình thể giải phẫu.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VI.6.1 'Mão kim loại làm sẵn', mão có thể làm từ 'nhôm, Nickel-crom hoặc thiếc có ma bạc' và có 2 loại: 'Dạng hình hộp' và 'Dạng có hình thể giải phẫu'."
+    },
+    {
+      "question": "Khi làm mão bằng nhựa tự cứng gián tiếp trên mẫu hàm, bước nào sau đây *không* thuộc quy trình?",
+      "options": [
+        { "text": "Lấy dấu răng trước khi mài cùi bằng alginate.", "isCorrect": false },
+        { "text": "Đưa dấu vào miệng bệnh nhân, ăn sát.", "isCorrect": true },
+        { "text": "Cho nhựa tự cứng vào huyệt răng (tương ứng với cùi răng) trên mẫu alginate.", "isCorrect": false },
+        { "text": "Chờ khô, lấy mão tạm ra, mài nhẵn.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VI.6.2 'Mão bằng nhựa tự cứng', 'Làm gián tiếp trên mẫu hàm' không bao gồm bước 'Đưa dấu vào miệng BN, ăn sát' vì bước này thuộc quy trình làm trực tiếp trên miệng bệnh nhân."
+    },
+    {
+      "question": "Phát biểu nào sau đây mô tả đúng nhất về chốt ngà răng (les tenons dentinaires)?",
+      "options": [
+        { "text": "Chỉ được sử dụng trên răng chết tủy.", "isCorrect": false },
+        { "text": "Có kích thước từ 0,5 đến 1mm, cắm vào trong ngà răng sau khi ngà răng đã được khoan bằng những mũi khoan đặc biệt thích hợp, thường được sử dụng trên răng còn sống.", "isCorrect": true },
+        { "text": "Luôn được gắn bằng cement.", "isCorrect": false },
+        { "text": "Chỉ dùng để tái tạo thân răng vỡ lớn.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VII.2.1 'Chốt ngà răng', các chốt này có kích thước từ 0,5 đến 1mm, cắm vào trong ngà răng và 'thường được sử dụng trên răng còn sống'."
+    },
+    {
+      "question": "Một bệnh nhân mất răng 36 và 37. Răng 35 và 38 là răng trụ. Nếu răng 35 có thân răng ngắn và nhỏ, điều này ảnh hưởng như thế nào đến khả năng làm răng trụ?",
+      "options": [
+        { "text": "Thuận lợi cho việc làm răng trụ vì dễ mài sửa soạn.", "isCorrect": false },
+        { "text": "Không thuận lợi để làm răng trụ vì ảnh hưởng xấu đến sự bền vững và thẩm mỹ của cầu răng, đặc biệt là độ lưu giữ cần thiết.", "isCorrect": true },
+        { "text": "Chỉ ảnh hưởng đến thẩm mỹ, không ảnh hưởng đến độ bền vững.", "isCorrect": false },
+        { "text": "Có thể làm răng trụ nếu thêm chốt chân răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.2 'Hình dạng và kích thước thân răng', 'Các răng trụ cần có chiều cao (nhai nướu) của thân răng đủ để đảm bảo độ lưu giữ cần thiết'. Thân răng ngắn, nhỏ sẽ không đảm bảo độ lưu giữ."
+    },
+    {
+      "question": "Trong các yếu tố đánh giá một răng trụ cho cầu răng, tại sao 'chân răng dài, to' và 'có nhiều chân và phân kỳ' lại được xem là thuận lợi hơn?",
+      "options": [
+        { "text": "Vì chúng dễ điều trị nội nha hơn.", "isCorrect": false },
+        { "text": "Vì chúng vững chắc hơn, cung cấp diện tích bề mặt tiếp xúc với xương ổ răng lớn hơn, giúp tăng cường sự ổn định và chịu lực của cầu răng.", "isCorrect": true },
+        { "text": "Vì chúng có tính thẩm mỹ cao hơn.", "isCorrect": false },
+        { "text": "Vì chúng ít bị sâu răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.3 'Hình dạng chân răng', 'Chân răng dài, to thì vững chắc hơn chân răng ngắn, nhỏ' và 'Răng có nhiều chân và phân kỳ thì vững chắc hơn các răng có một chân hoặc chân răng hội tụ, dính liền hoặc có dạng hình nón'."
+    },
+    {
+      "question": "Một cầu răng được làm bằng vật liệu không đủ độ cứng, hoặc có nhịp cầu dán. Khi lực tác động lên giữa các nhịp cầu, chuyển động uốn cong phát sinh. Hậu quả chính của chuyển động này là gì?",
+      "options": [
+        { "text": "Nhịp cầu bị biến dạng cong xuống tạo nên lực kéo hai răng trụ nghiêng vào nhau, có thể làm bật phần giữ, gây giảm hoặc mất lưu giữ của cầu răng.", "isCorrect": true },
+        { "text": "Răng trụ bị xoay.", "isCorrect": false },
+        { "text": "Răng trụ bị lún xuống và trồi lên.", "isCorrect": false },
+        { "text": "Chỉ gây đau mà không ảnh hưởng đến lưu giữ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.5 'Chuyển động uốn cong', 'Nhịp cầu bị biến dạng cong xuống tạo nên lực kéo hai răng trụ nghiêng vào nhau Nêu các phần giữ không vững chắc thì sẽ bị bật lên làm cầu giảm hoặc mất lưu giữ'."
+    },
+    {
+      "question": "Để khắc phục chuyển động ngoài trong của cầu răng (do điểm vướng khi hàm dưới chuyển động bên) khi phần giữ là các inlay có hố nông hoặc vách quá thoát, biện pháp nào sau đây là phù hợp?",
+      "options": [
+        { "text": "Tạo hố đủ sâu, các vách ngoài, trong phải song song trong khoảng 2-$5^{irc}$ và mở rộng inlay hai mặt thành inlay ba mặt hoặc tạo đuôi én.", "isCorrect": true },
+        { "text": "Chỉ sử dụng mão $3/4$ hoặc mão toàn diện.", "isCorrect": false },
+        { "text": "Không cần làm gì, cầu răng sẽ tự ổn định.", "isCorrect": false },
+        { "text": "Giảm lực nhai lên cầu răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.2 'Chuyển động ngoài trong', 'Để phần inlay khỏi bật, hố phải đủ sâu, các vách ngoài, trong phải song song trong khoảng 2 $-5^{irc}$ và mở rộng inlay hai mặt thành inlay ba mặt hoặc tạo đuôi én'."
+    },
+    {
+      "question": "Một cầu răng có vật giữ là inlay hai mặt xa mặt nhai ở răng trụ phía trước và inlay hai mặt gần-mặt nhai ở răng trụ phía sau. Dựa trên nguyên lý chuyển động xa gần, tại sao không nên làm cầu răng với thiết kế này?",
+      "options": [
+        { "text": "Vì thiết kế này tăng cường sự vững chắc của cầu răng.", "isCorrect": false },
+        { "text": "Vì hướng chuyển động xa gần có thể làm cho răng trụ nghiêng gần, làm cho các bờ vật giữ phía xa bị hở gây sâu răng, và cầu răng có nguy cơ bị bong ra khỏi răng trụ.", "isCorrect": true },
+        { "text": "Vì nó chỉ phù hợp cho cầu răng ở hàm trên.", "isCorrect": false },
+        { "text": "Vì nó làm giảm tính thẩm mỹ của cầu răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.3 'Chuyển động xa gần', 'Dựa trên nguyên lý của chuyển động trên, không nên làm cầu răng có vật giữ là inlay hai mặt xa mặt nhai ở răng trụ phía trước và inlay hai mặt gần- mặt nhai ở răng trụ phía sau' vì nguy cơ hở bờ và bong sút."
+    },
+    {
+      "question": "Đường hoàn tất bờ cong (chamfer) có ưu điểm gì so với bờ vai (shoulder) và chỉ định cho những kiểu mão răng nào?",
+      "options": [
+        { "text": "Đòi hỏi mài nhiều ngà răng hơn bờ vai.", "isCorrect": false },
+        { "text": "Có dạng cong, phân biệt rõ ràng ranh giới, có thể dùng thay thế cho shoulder, và được dùng cho nhiều kiểu mão răng như mão kim loại toàn diện, mặt trong của mão sứ sườn kim loại, mão toàn sứ.", "isCorrect": true },
+        { "text": "Cạnh mão dày và cứng hơn bờ vai.", "isCorrect": false },
+        { "text": "Không khuyến khích sử dụng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục V.3 'Bờ cong', bờ cong có dạng cong, phân biệt rõ ràng ranh giới, có thể dùng thay thế cho shoulder và được dùng cho nhiều kiểu mão răng đã nêu."
+    },
+    {
+      "question": "Một bệnh nhân có răng chết tủy chưa được chữa nội nha và tái tạo tốt. Dựa vào chống chỉ định của cầu răng, phát biểu nào sau đây là đúng?",
+      "options": [
+        { "text": "Đây là chống chỉ định tuyệt đối để làm cầu răng.", "isCorrect": true },
+        { "text": "Đây là chỉ định tương đối, có thể làm cầu răng nếu răng không đau.", "isCorrect": false },
+        { "text": "Có thể làm cầu răng nếu răng trụ là răng sống tủy.", "isCorrect": false },
+        { "text": "Chỉ cần làm cầu răng tạm thời.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 3 'Chống chỉ định' của cầu răng, 'Răng chết tuỷ chưa được chữa nội nha và tái tạo tốt' là một chống chỉ định làm cầu răng."
+    },
+    {
+      "question": "Trong các loại phục hình tạm cho cầu răng, 'Mão bằng nhựa tự cứng' có thể được thực hiện theo hai cách: gián tiếp trên mẫu hàm hoặc trực tiếp trên miệng bệnh nhân. Sự khác biệt chính giữa hai cách này là gì?",
+      "options": [
+        { "text": "Cách gián tiếp không cần lấy dấu răng trước khi mài cùi.", "isCorrect": false },
+        { "text": "Cách gián tiếp được thực hiện hoàn toàn ngoài miệng bệnh nhân trên mẫu hàm, trong khi cách trực tiếp có bước đưa dấu vào miệng bệnh nhân để nhựa trùng hợp.", "isCorrect": true },
+        { "text": "Cách trực tiếp luôn cho kết quả thẩm mỹ tốt hơn.", "isCorrect": false },
+        { "text": "Chỉ có cách gián tiếp mới cần ngâm dấu vào nước.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VI.6.2 'Mão bằng nhựa tự cứng', quy trình 'Làm gián tiếp trên mẫu hàm' và 'Làm trực tiếp trên miệng bệnh nhân' có sự khác biệt rõ ràng ở bước 'Đưa dấu vào miệng BN, ăn sát' chỉ có ở cách trực tiếp, và các bước thực hiện trên mẫu hàm ở cách gián tiếp."
+    },
+    {
+      "question": "Một bệnh nhân có thân răng trụ dạng tam giác. Điều này ảnh hưởng như thế nào đến việc thực hiện các phần giữ là mão từng phần?",
+      "options": [
+        { "text": "Thuận lợi hơn vì dễ mài sửa soạn.", "isCorrect": false },
+        { "text": "Không thuận lợi vì ảnh hưởng xấu đến sự bền vững của mão từng phần, cần phải sửa soạn toàn bộ răng trụ.", "isCorrect": true },
+        { "text": "Không ảnh hưởng gì.", "isCorrect": false },
+        { "text": "Chỉ ảnh hưởng đến thẩm mỹ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.2 'Hình dạng và kích thước thân răng', 'Các thân răng trụ có dạng vuông sẽ thuận lợi cho việc thực hiện các phần giữ là mão từng phần hơn thân răng có dạng tam giác hay bầu dục'."
+    },
+    {
+      "question": "Khi một cầu răng có điểm chạm sớm, và có lực thẳng tác dụng đồng thời trên răng hàm nhỏ và răng hàm lớn được nối rắn chắc với nhau, điều gì có thể xảy ra?",
+      "options": [
+        { "text": "Răng sẽ bị ấn xuống phía chóp dẫn đến sự căng của tất cả sợi nha chu, trừ những sợi ở dính chóp.", "isCorrect": false },
+        { "text": "Toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ, dẫn đến một răng trụ bị lún xuống và một răng trụ kia bị trồi lên.", "isCorrect": true },
+        { "text": "Cầu răng sẽ bị gãy ngang nhịp cầu.", "isCorrect": false },
+        { "text": "Không có chuyển động nào xảy ra.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.1 'Chuyển động lên xuống', 'Khi có lực tác động lên một đầu răng trụ thì toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ và ở khoảng $1/3$ giữa của chân răng. Hậu quả là một răng trụ bị lún xuống và một răng trụ kia bị trồi lên'."
+    },
+    {
+      "question": "Phát biểu nào sau đây *không đúng* về răng trụ cặp (double abutment)?",
+      "options": [
+        { "text": "Là một loại răng trụ được sử dụng để tăng cường sự vững chắc cho cầu răng dài hoặc khi răng trụ chính không đủ mạnh.", "isCorrect": false },
+        { "text": "Luôn là răng trụ nằm ở vị trí tận cùng của cầu răng.", "isCorrect": true },
+        { "text": "Giúp phân phối lực nhai tốt hơn lên nhiều răng.", "isCorrect": false },
+        { "text": "Có thể là răng trụ trung gian.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 1.1 'Răng trụ', răng trụ cặp (double abutment) là một loại răng trụ được sử dụng để tăng cường sự vững chắc, không nhất thiết phải nằm ở vị trí tận cùng. Răng trụ tận cùng là 'terminal abutment'."
+    },
+    {
+      "question": "Khi răng trụ nghiêng nhiều (quá 15 độ theo chiều gần xa), tại sao đây là một chống chỉ định làm cầu răng?",
+      "options": [
+        { "text": "Vì không thể mài sửa soạn răng trụ đúng trục.", "isCorrect": false },
+        { "text": "Vì khó đạt được đường lắp và độ lưu giữ cần thiết cho phục hình, làm tăng nguy cơ bong sút và thất bại của cầu răng.", "isCorrect": true },
+        { "text": "Vì ảnh hưởng đến thẩm mỹ của cầu răng.", "isCorrect": false },
+        { "text": "Vì răng nghiêng sẽ tự động thẳng lại sau khi làm cầu răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 3 'Chống chỉ định', 'Răng trụ nghiêng nhiều' là một chống chỉ định. Răng nghiêng quá mức gây khó khăn trong việc tạo đường lắp, độ thuôn và độ lưu giữ của cùi răng, dẫn đến nguy cơ thất bại cao."
+    },
+    {
+      "question": "Một bệnh nhân có khiếm khuyết về men (thiếu sản men) và mòn răng hóa học. Loại cầu răng nào là chống chỉ định tuyệt đối trong trường hợp này?",
+      "options": [
+        { "text": "Cầu răng kim loại toàn diện.", "isCorrect": false },
+        { "text": "Cầu răng dán (ví dụ: cầu với bằng sứ).", "isCorrect": true },
+        { "text": "Cầu răng sứ sườn kim loại.", "isCorrect": false },
+        { "text": "Cầu răng toàn sứ (Zirconia).", "isCorrect": false }
+      ],
+      "explanation": "Theo mục II.2 'Chống chỉ định tuyệt đối' của cầu răng dán, 'Khiếm khuyết về men (thiếu sản men)' và 'Tất cả các dạng khuyết tật khác của men (mòn răng hóa học, mòn răng bệnh lý)' là chống chỉ định. Điều này là do cầu răng dán cần men răng khỏe mạnh để bám dính."
+    },
+    {
+      "question": "Một răng trụ đã được điều trị tủy tốt, không còn triệu chứng và có bằng chứng trên X-quang cho thấy đã hàn kín và đầy đủ hệ thống ống tủy. Phát biểu nào sau đây là đúng về việc sử dụng răng này làm răng trụ?",
+      "options": [
+        { "text": "Không thể sử dụng làm răng trụ vì răng đã chết tủy.", "isCorrect": false },
+        { "text": "Có thể được sử dụng làm răng trụ, nhưng cần theo dõi chặt chẽ.", "isCorrect": true },
+        { "text": "Chỉ sử dụng làm răng trụ cho cầu răng ngắn.", "isCorrect": false },
+        { "text": "Luôn cần phải nhổ bỏ và thay thế bằng implant.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.1 'Tủy răng', 'Tuy nhiên, một răng đã được điều trị tủy tốt, không còn triệu chứng với bằng chứng trên X Quang cho thấy đã hàn kín và đầy đủ hệ thống ống tủy cũng có thể được sử dụng làm răng trụ'."
+    },
+    {
+      "question": "Khi mài sửa soạn một thân răng trụ có dạng bất thường, xoay hoặc lệch, tại sao điều này không thuận lợi và giải pháp nào được đề xuất?",
+      "options": [
+        { "text": "Vì ảnh hưởng đến độ cứng của vật liệu phục hình.", "isCorrect": false },
+        { "text": "Vì ảnh hưởng xấu đến sự bền vững và thẩm mỹ của cầu răng; nếu có thể, nên chỉnh trục răng cho thẳng sẽ giúp phục hình thuận lợi hơn.", "isCorrect": true },
+        { "text": "Vì không thể lấy dấu chính xác.", "isCorrect": false },
+        { "text": "Chỉ cần mài nhiều hơn để bù đắp cho sự lệch lạc.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.2 'Hình dạng và kích thước thân răng', 'Thân răng có dạng bất thường, xoay, lệch thì không thuận lợi để làm răng trụ vì ảnh hưởng xấu đến sự bền vững và thẩm mỹ của cầu răng. Trong các trường hợp này, nếu có thể chỉnh trục răng cho thẳng sẽ giúp phục hình thuận lợi hơn'."
+    },
+    {
+      "question": "Tỷ lệ thân/chân răng lý tưởng cho một răng trụ là 1/2. Điều gì xảy ra nếu một răng trụ có tỷ lệ thân/chân răng cao hơn (ví dụ: 1/1) và răng đối diện là hàm giả tháo lắp?",
+      "options": [
+        { "text": "Răng trụ sẽ chịu lực nhai tốt hơn.", "isCorrect": false },
+        { "text": "Răng trụ thường khó chịu đựng được các lực nhai tăng thêm đối với răng trụ của cầu răng, đặc biệt khi răng đối diện là hàm giả tháo lắp hoặc có mô nha chu suy yếu.", "isCorrect": true },
+        { "text": "Tỷ lệ này không ảnh hưởng đến khả năng chịu lực.", "isCorrect": false },
+        { "text": "Chỉ ảnh hưởng đến thẩm mỹ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.4 'Tỷ lệ thân/chân răng', 'Răng có tỷ lệ này cao thường khó chịu đựng được các lực nhai tăng thêm đối với răng trụ của cầu răng' và 'giới hạn là 1/1 đối với răng 1 chân, răng đối diện là hàm giả tháo lắp hoặc răng đối diện có mô nha chu suy yếu'."
+    },
+    {
+      "question": "Diện tích bề mặt chân răng tiếp xúc với xương ổ răng (được bao phủ bởi dây chằng nha chu) có vai trò quan trọng như thế nào đối với sự vững chắc của răng trụ?",
+      "options": [
+        { "text": "Diện tích này càng nhỏ thì răng trụ càng vững chắc.", "isCorrect": false },
+        { "text": "Diện tích này càng lớn thì răng trụ càng vững chắc, vì nó giúp phân phối lực nhai và tăng khả năng chống chịu lực.", "isCorrect": true },
+        { "text": "Diện tích này chỉ liên quan đến số lượng chân răng, không liên quan đến thể tích chân răng.", "isCorrect": false },
+        { "text": "Không có vai trò đáng kể trong sự vững chắc của răng trụ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.5 'Diện tích bề mặt chân răng tiếp xúc với xương răng', 'Diện tích bề mặt chân răng càng lớn thì răng trụ càng vững chắc Diện tích này này thuộc vào thể tích chân răng, số lượng chân răng và mức độ của xương răng'."
+    },
+    {
+      "question": "Một cầu răng được thiết kế với nhịp cầu nằm trên một đường cong lớn của cung răng. Điều này có thể dẫn đến hậu quả gì đối với các răng trụ và tại sao?",
+      "options": [
+        { "text": "Làm tăng độ bền của cầu răng.", "isCorrect": false },
+        { "text": "Cánh tay đòn bẩy càng lớn, đồng nghĩa các răng trụ chịu lực tác động xoay càng lớn, làm tăng nguy cơ bật cầu răng hoặc chấn thương cho các răng trụ.", "isCorrect": true },
+        { "text": "Giảm lực tác động lên răng trụ.", "isCorrect": false },
+        { "text": "Không ảnh hưởng gì đến các răng trụ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.6 'Hình dạng cung răng', 'Cầu răng ở các vị trí cung răng có độ cong càng lớn thì cánh tay đòn bẩy càng lớn, đồng nghĩa các răng trụ chịu lực tác động xoay càng lớn'."
+    },
+    {
+      "question": "Chuyển động lên xuống của cầu răng sinh ra do có điểm chạm sớm. Khi có lực tác động lên một đầu răng trụ, điều gì xảy ra với toàn bộ cầu răng và các răng trụ?",
+      "options": [
+        { "text": "Răng sẽ bị ấn xuống phía chóp dẫn đến sự căng của tất cả sợi nha chu, trừ những sợi ở dính chóp.", "isCorrect": false },
+        { "text": "Toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ, dẫn đến một răng trụ bị lún xuống và một răng trụ kia bị trồi lên.", "isCorrect": true },
+        { "text": "Cầu răng sẽ bị gãy ngang nhịp cầu.", "isCorrect": false },
+        { "text": "Không có chuyển động nào xảy ra.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.1 'Chuyển động lên xuống', 'Khi có lực tác động lên một đầu răng trụ thì toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ và ở khoảng $1/3$ giữa của chân răng. Hậu quả là một răng trụ bị lún xuống và một răng trụ kia bị trồi lên'."
+    },
+    {
+      "question": "Chuyển động ngoài trong của cầu răng thường sinh ra do điểm vướng khi hàm dưới chuyển động bên. Nếu phần giữ là các inlay có hố nông hoặc các vách quá thoát, hậu quả có thể là gì?",
+      "options": [
+        { "text": "Răng trụ sẽ chuyển động theo chiều ngoài trong và dẫn đến tiêu xương răng.", "isCorrect": false },
+        { "text": "Phần giữ này sẽ dễ bật sút.", "isCorrect": false },
+        { "text": "Cả A và B.", "isCorrect": true },
+        { "text": "Cầu răng sẽ bị gãy ngang nhịp cầu.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.2 'Chuyển động ngoài trong', 'Nếu phần giữ là các inlay có hố nông hoặc các vách quá thoát, phần giữ này sẽ dễ bật sút'."
+    },
+    {
+      "question": "Chuyển động xa gần của cầu răng thường xảy ra hơn các hướng khác. Khi chịu lực tác động theo hướng này, nếu cầu răng làm bằng hợp kim cứng chắc và có điểm tiếp giáp với răng kế cận tốt, điều gì sẽ xảy ra?",
+      "options": [
+        { "text": "Răng trụ sẽ bị nghiêng về phía gần và xoay quanh tâm xoay.", "isCorrect": false },
+        { "text": "Chuyển động này không xảy ra.", "isCorrect": true },
+        { "text": "Các bờ vật giữ phía xa bị hở gây sâu răng.", "isCorrect": false },
+        { "text": "Cầu răng có nguy cơ bị bong ra khỏi răng trụ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.3 'Chuyển động xa gần', 'Nếu cầu răng có điểm tiếp giáp với răng kế cận tốt và cung răng sắp xếp tốt, cầu răng làm bằng hợp kim cứng chắc thì chuyển động này không xảy ra'."
+    },
+    {
+      "question": "Chuyển động uốn cong của cầu răng phát sinh khi lực tác động lên giữa các nhịp cầu. Điều gì là nguyên nhân chính dẫn đến chuyển động này và hậu quả là gì?",
+      "options": [
+        { "text": "Cầu răng làm bằng vật liệu, kích thước không đủ độ cứng hoặc cầu răng có nhịp cầu dán; nhịp cầu bị biến dạng cong xuống tạo nên lực kéo hai răng trụ nghiêng vào nhau, có thể làm bật phần giữ.", "isCorrect": true },
+        { "text": "Do có điểm chạm sớm trên răng trụ.", "isCorrect": false },
+        { "text": "Do điểm vướng khi hàm dưới chuyển động bên.", "isCorrect": false },
+        { "text": "Do lực ngang tác động vào nhịp cầu.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.5 'Chuyển động uốn cong', chuyển động này phát sinh khi cầu răng làm bằng vật liệu, kích thước không đủ độ cứng hoặc cầu răng có nhịp cầu dán, dẫn đến nhịp cầu bị cong xuống và có thể làm bật phần giữ."
+    },
+    {
+      "question": "Đường hoàn tất bờ xuôi (feather edge/chisel edge) có những bất lợi nào trong thực hành lâm sàng?",
+      "options": [
+        { "text": "Dễ thực hiện.", "isCorrect": false },
+        { "text": "Bờ cạnh mão mỏng, dễ biến dạng khi thử mão và khó thấy giới hạn của đường hoàn tất trên mẫu thạch cao.", "isCorrect": true },
+        { "text": "Không phân biệt rõ ranh giới với phần mô răng bên dưới nó.", "isCorrect": false },
+        { "text": "Chỉ định cho mão kim loại toàn diện.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục V.1 'Bờ xuôi', các bất lợi bao gồm 'Bờ cạnh mão mỏng, dễ biến dạng khi thử mão' và 'Khó thấy giới hạn của đường hoàn tất trên mẫu thạch cao'."
+    },
+    {
+      "question": "Đường hoàn tất bờ vai (shoulder) có đặc điểm và chỉ định như thế nào?",
+      "options": [
+        { "text": "Dễ thực hiện, không đòi hỏi mài nhiều ngà răng.", "isCorrect": false },
+        { "text": "Được mài như một bậc thang thẳng góc với vách đứng của cùi răng, đòi hỏi phải mài nhiều ngà răng; chỉ định cho mão jacket nhựa, sứ, mặt ngoài của mão veneer.", "isCorrect": true },
+        { "text": "Cạnh mão mỏng và dễ biến dạng.", "isCorrect": false },
+        { "text": "Dùng cho nhiều kiểu mão răng kim loại.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục V.2 'Bờ vai', đường hoàn tất này 'được mài như một bậc thang thẳng góc với vách đứng của cùi răng, đòi hỏi phải mài nhiều ngà răng' và 'Chỉ định cho mão jacket nhựa, sứ, mặt ngoài của mão veneer'."
+    },
+    {
+      "question": "Mão kim loại làm sẵn được chế tạo từ những vật liệu nào và có mấy loại hình dạng chính?",
+      "options": [
+        { "text": "Chỉ từ nhôm; có dạng hình hộp và hình thể giải phẫu.", "isCorrect": false },
+        { "text": "Từ nhôm, Nickel-crom hoặc thiếc mạ bạc; có dạng hình hộp và dạng có hình thể giải phẫu.", "isCorrect": true },
+        { "text": "Chỉ từ Nickel-crom; có dạng hình hộp.", "isCorrect": false },
+        { "text": "Từ thiếc mạ bạc; có dạng hình thể giải phẫu.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VI.6.1 'Mão kim loại làm sẵn', mão có thể làm từ 'nhôm, Nickel-crom hoặc thiếc có ma bạc' và có 2 loại: 'Dạng hình hộp' và 'Dạng có hình thể giải phẫu'."
+    },
+    {
+      "question": "Khi làm mão bằng nhựa tự cứng gián tiếp trên mẫu hàm, bước nào sau đây *không* thuộc quy trình?",
+      "options": [
+        { "text": "Lấy dấu răng trước khi mài cùi bằng alginate.", "isCorrect": false },
+        { "text": "Đưa dấu vào miệng bệnh nhân, ăn sát.", "isCorrect": true },
+        { "text": "Cho nhựa tự cứng vào huyệt răng (tương ứng với cùi răng) trên mẫu alginate.", "isCorrect": false },
+        { "text": "Chờ khô, lấy mão tạm ra, mài nhẵn.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VI.6.2 'Mão bằng nhựa tự cứng', 'Làm gián tiếp trên mẫu hàm' không bao gồm bước 'Đưa dấu vào miệng BN, ăn sát' vì bước này thuộc quy trình làm trực tiếp trên miệng bệnh nhân."
+    },
+    {
+      "question": "Phát biểu nào sau đây mô tả đúng nhất về chốt ngà răng (les tenons dentinaires)?",
+      "options": [
+        { "text": "Chỉ được sử dụng trên răng chết tủy.", "isCorrect": false },
+        { "text": "Có kích thước từ 0,5 đến 1mm, cắm vào trong ngà răng sau khi ngà răng đã được khoan bằng những mũi khoan đặc biệt thích hợp, thường được sử dụng trên răng còn sống.", "isCorrect": true },
+        { "text": "Luôn được gắn bằng cement.", "isCorrect": false },
+        { "text": "Chỉ dùng để tái tạo thân răng vỡ lớn.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VII.2.1 'Chốt ngà răng', các chốt này có kích thước từ 0,5 đến 1mm, cắm vào trong ngà răng và 'thường được sử dụng trên răng còn sống'."
+    },
+    {
+      "question": "Một bệnh nhân mất răng 36 và 37. Răng 35 và 38 là răng trụ. Nếu răng 35 có thân răng ngắn và nhỏ, điều này ảnh hưởng như thế nào đến khả năng làm răng trụ?",
+      "options": [
+        { "text": "Thuận lợi cho việc làm răng trụ vì dễ mài sửa soạn.", "isCorrect": false },
+        { "text": "Không thuận lợi để làm răng trụ vì ảnh hưởng xấu đến sự bền vững và thẩm mỹ của cầu răng, đặc biệt là độ lưu giữ cần thiết.", "isCorrect": true },
+        { "text": "Chỉ ảnh hưởng đến thẩm mỹ, không ảnh hưởng đến độ bền vững.", "isCorrect": false },
+        { "text": "Có thể làm răng trụ nếu thêm chốt chân răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.2 'Hình dạng và kích thước thân răng', 'Các răng trụ cần có chiều cao (nhai nướu) của thân răng đủ để đảm bảo độ lưu giữ cần thiết'. Thân răng ngắn, nhỏ sẽ không đảm bảo độ lưu giữ."
+    },
+    {
+      "question": "Trong các yếu tố đánh giá một răng trụ cho cầu răng, tại sao 'chân răng dài, to' và 'có nhiều chân và phân kỳ' lại được xem là thuận lợi hơn?",
+      "options": [
+        { "text": "Vì chúng dễ điều trị nội nha hơn.", "isCorrect": false },
+        { "text": "Vì chúng vững chắc hơn, cung cấp diện tích bề mặt tiếp xúc với xương ổ răng lớn hơn, giúp tăng cường sự ổn định và chịu lực của cầu răng.", "isCorrect": true },
+        { "text": "Vì chúng có tính thẩm mỹ cao hơn.", "isCorrect": false },
+        { "text": "Vì chúng ít bị sâu răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.3 'Hình dạng chân răng', 'Chân răng dài, to thì vững chắc hơn chân răng ngắn, nhỏ' và 'Răng có nhiều chân và phân kỳ thì vững chắc hơn các răng có một chân hoặc chân răng hội tụ, dính liền hoặc có dạng hình nón'."
+    },
+    {
+      "question": "Một cầu răng được làm bằng vật liệu không đủ độ cứng, hoặc có nhịp cầu dán. Khi lực tác động lên giữa các nhịp cầu, chuyển động uốn cong phát sinh. Hậu quả chính của chuyển động này là gì?",
+      "options": [
+        { "text": "Nhịp cầu bị biến dạng cong xuống tạo nên lực kéo hai răng trụ nghiêng vào nhau, có thể làm bật phần giữ, gây giảm hoặc mất lưu giữ của cầu răng.", "isCorrect": true },
+        { "text": "Răng trụ bị xoay.", "isCorrect": false },
+        { "text": "Răng trụ bị lún xuống và trồi lên.", "isCorrect": false },
+        { "text": "Chỉ gây đau mà không ảnh hưởng đến lưu giữ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.5 'Chuyển động uốn cong', 'Nhịp cầu bị biến dạng cong xuống tạo nên lực kéo hai răng trụ nghiêng vào nhau Nêu các phần giữ không vững chắc thì sẽ bị bật lên làm cầu giảm hoặc mất lưu giữ'."
+    },
+    {
+      "question": "Để khắc phục chuyển động ngoài trong của cầu răng (do điểm vướng khi hàm dưới chuyển động bên) khi phần giữ là các inlay có hố nông hoặc vách quá thoát, biện pháp nào sau đây là phù hợp?",
+      "options": [
+        { "text": "Tạo hố đủ sâu, các vách ngoài, trong phải song song trong khoảng 2-$5^{irc}$ và mở rộng inlay hai mặt thành inlay ba mặt hoặc tạo đuôi én.", "isCorrect": true },
+        { "text": "Chỉ sử dụng mão $3/4$ hoặc mão toàn diện.", "isCorrect": false },
+        { "text": "Không cần làm gì, cầu răng sẽ tự ổn định.", "isCorrect": false },
+        { "text": "Giảm lực nhai lên cầu răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.2 'Chuyển động ngoài trong', 'Để phần inlay khỏi bật, hố phải đủ sâu, các vách ngoài, trong phải song song trong khoảng 2 $-5^{irc}$ và mở rộng inlay hai mặt thành inlay ba mặt hoặc tạo đuôi én'."
+    },
+    {
+      "question": "Một cầu răng có vật giữ là inlay hai mặt xa mặt nhai ở răng trụ phía trước và inlay hai mặt gần-mặt nhai ở răng trụ phía sau. Dựa trên nguyên lý chuyển động xa gần, tại sao không nên làm cầu răng với thiết kế này?",
+      "options": [
+        { "text": "Vì thiết kế này tăng cường sự vững chắc của cầu răng.", "isCorrect": false },
+        { "text": "Vì hướng chuyển động xa gần có thể làm cho răng trụ nghiêng gần, làm cho các bờ vật giữ phía xa bị hở gây sâu răng, và cầu răng có nguy cơ bị bong ra khỏi răng trụ.", "isCorrect": true },
+        { "text": "Vì nó chỉ phù hợp cho cầu răng ở hàm trên.", "isCorrect": false },
+        { "text": "Vì nó làm giảm tính thẩm mỹ của cầu răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.3 'Chuyển động xa gần', 'Dựa trên nguyên lý của chuyển động trên, không nên làm cầu răng có vật giữ là inlay hai mặt xa mặt nhai ở răng trụ phía trước và inlay hai mặt gần- mặt nhai ở răng trụ phía sau' vì nguy cơ hở bờ và bong sút."
+    },
+    {
+      "question": "Đường hoàn tất bờ cong (chamfer) có ưu điểm gì so với bờ vai (shoulder) và chỉ định cho những kiểu mão răng nào?",
+      "options": [
+        { "text": "Đòi hỏi mài nhiều ngà răng hơn bờ vai.", "isCorrect": false },
+        { "text": "Có dạng cong, phân biệt rõ ràng ranh giới, có thể dùng thay thế cho shoulder, và được dùng cho nhiều kiểu mão răng như mão kim loại toàn diện, mặt trong của mão sứ sườn kim loại, mão toàn sứ.", "isCorrect": true },
+        { "text": "Cạnh mão dày và cứng hơn bờ vai.", "isCorrect": false },
+        { "text": "Không khuyến khích sử dụng.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục V.3 'Bờ cong', bờ cong có dạng cong, phân biệt rõ ràng ranh giới, có thể dùng thay thế cho shoulder và được dùng cho nhiều kiểu mão răng đã nêu."
+    },
+    {
+      "question": "Một bệnh nhân có răng chết tủy chưa được chữa nội nha và tái tạo tốt. Dựa vào chống chỉ định của cầu răng, phát biểu nào sau đây là đúng?",
+      "options": [
+        { "text": "Đây là chống chỉ định tuyệt đối để làm cầu răng.", "isCorrect": true },
+        { "text": "Đây là chỉ định tương đối, có thể làm cầu răng nếu răng không đau.", "isCorrect": false },
+        { "text": "Có thể làm cầu răng nếu răng trụ là răng sống tủy.", "isCorrect": false },
+        { "text": "Chỉ cần làm cầu răng tạm thời.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục 3 'Chống chỉ định' của cầu răng, 'Răng chết tuỷ chưa được chữa nội nha và tái tạo tốt' là một chống chỉ định làm cầu răng."
+    },
+    {
+      "question": "Trong các loại phục hình tạm cho cầu răng, 'Mão bằng nhựa tự cứng' có thể được thực hiện theo hai cách: gián tiếp trên mẫu hàm hoặc trực tiếp trên miệng bệnh nhân. Sự khác biệt chính giữa hai cách này là gì?",
+      "options": [
+        { "text": "Cách gián tiếp không cần lấy dấu răng trước khi mài cùi.", "isCorrect": false },
+        { "text": "Cách gián tiếp được thực hiện hoàn toàn ngoài miệng bệnh nhân trên mẫu hàm, trong khi cách trực tiếp có bước đưa dấu vào miệng bệnh nhân để nhựa trùng hợp.", "isCorrect": true },
+        { "text": "Cách trực tiếp luôn cho kết quả thẩm mỹ tốt hơn.", "isCorrect": false },
+        { "text": "Chỉ có cách gián tiếp mới cần ngâm dấu vào nước.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục VI.6.2 'Mão bằng nhựa tự cứng', quy trình 'Làm gián tiếp trên mẫu hàm' và 'Làm trực tiếp trên miệng bệnh nhân' có sự khác biệt rõ ràng ở bước 'Đưa dấu vào miệng BN, ăn sát' chỉ có ở cách trực tiếp, và các bước thực hiện trên mẫu hàm ở cách gián tiếp."
+    },
+    {
+      "question": "Một bệnh nhân có thân răng trụ dạng tam giác. Điều này ảnh hưởng như thế nào đến việc thực hiện các phần giữ là mão từng phần?",
+      "options": [
+        { "text": "Thuận lợi hơn vì dễ mài sửa soạn.", "isCorrect": false },
+        { "text": "Không thuận lợi vì ảnh hưởng xấu đến sự bền vững của mão từng phần, cần phải sửa soạn toàn bộ răng trụ.", "isCorrect": true },
+        { "text": "Không ảnh hưởng gì.", "isCorrect": false },
+        { "text": "Chỉ ảnh hưởng đến thẩm mỹ.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục III.2 'Hình dạng và kích thước thân răng', 'Các thân răng trụ có dạng vuông sẽ thuận lợi cho việc thực hiện các phần giữ là mão từng phần hơn thân răng có dạng tam giác hay bầu dục'."
+    },
+    {
+      "question": "Khi một cầu răng có điểm chạm sớm, và có lực thẳng tác dụng đồng thời trên răng hàm nhỏ và răng hàm lớn được nối rắn chắc với nhau, điều gì có thể xảy ra?",
+      "options": [
+        { "text": "Răng sẽ bị ấn xuống phía chóp dẫn đến sự căng của tất cả sợi nha chu, trừ những sợi ở dính chóp.", "isCorrect": false },
+        { "text": "Toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ, dẫn đến một răng trụ bị lún xuống và một răng trụ kia bị trồi lên.", "isCorrect": true },
+        { "text": "Cầu răng sẽ bị gãy ngang nhịp cầu.", "isCorrect": false },
+        { "text": "Không có chuyển động nào xảy ra.", "isCorrect": false }
+      ],
+      "explanation": "Theo mục IV.1 'Chuyển động lên xuống', 'Khi có lực tác động lên một đầu răng trụ thì toàn bộ cầu răng sẽ chuyển động quanh một tâm xoay ở vùng xương ở giữa hai răng trụ và ở khoảng $1/3$ giữa của chân răng. Hậu quả là một răng trụ bị lún xuống và một răng trụ kia bị trồi lên'."
+    }
+  ]
+  

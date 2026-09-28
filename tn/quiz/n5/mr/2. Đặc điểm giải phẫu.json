@@ -1,0 +1,1392 @@
+[
+    {
+      "question": "Hệ thống nhai bao gồm bao nhiêu thành phần chính theo sơ đồ cấu trúc?",
+      "options": [
+        {"text": "6 thành phần", "isCorrect": false},
+        {"text": "8 thành phần", "isCorrect": true},
+        {"text": "10 thành phần", "isCorrect": false},
+        {"text": "12 thành phần", "isCorrect": false}
+      ],
+      "explanation": "Hệ thống nhai gồm: Bộ răng, mô nha chu, xương hàm, khớp thái dương hàm, các cơ liên hệ, hệ thống môi-má, lưỡi, tuyến nước bọt, thần kinh và mạch máu [cite: 525 - 535]."
+    },
+    {
+      "question": "Thuật ngữ 'Neurocranium' dùng để chỉ phần nào của hộp sọ?",
+      "options": [
+        {"text": "Sọ mặt", "isCorrect": false},
+        {"text": "Sọ não", "isCorrect": true},
+        {"text": "Nền sọ", "isCorrect": false},
+        {"text": "Xương hàm dưới", "isCorrect": false}
+      ],
+      "explanation": "Neurocranium là sọ não, phân biệt với Viscerocranium là sọ mặt[cite: 539, 542]."
+    },
+    {
+      "question": "Đặc điểm cấu trúc của xương sọ mặt (Viscerocranium) là gì?",
+      "options": [
+        {"text": "Thành xương dày và phẳng", "isCorrect": false},
+        {"text": "Thành xương liên tục cong và mỏng", "isCorrect": true},
+        {"text": "Cấu trúc nguyên khối không chia ngăn", "isCorrect": false},
+        {"text": "Dẫn truyền lực kém", "isCorrect": false}
+      ],
+      "explanation": "Xương sọ mặt có đặc điểm thành xương liên tục cong và mỏng, cấu trúc thành từng ngăn, trụ xương bền vững và dẫn truyền lực tốt [cite: 543 - 545]."
+    },
+    {
+      "question": "Thành phần di động duy nhất của hệ thống nhai là bộ phận nào?",
+      "options": [
+        {"text": "Xương hàm trên", "isCorrect": false},
+        {"text": "Xương hàm dưới (Mandible)", "isCorrect": true},
+        {"text": "Xương gò má", "isCorrect": false},
+        {"text": "Đĩa khớp", "isCorrect": false}
+      ],
+      "explanation": "Xương hàm dưới là thành phần di động duy nhất của hệ thống nhai[cite: 546, 547]."
+    },
+    {
+      "question": "Đặc điểm hình thể nào của xương hàm dưới giúp tạo sự đàn hồi nhất định?",
+      "options": [
+        {"text": "Các lỗ thần kinh", "isCorrect": false},
+        {"text": "Những chỗ uốn theo chiều ngang và chiều dọc", "isCorrect": true},
+        {"text": "Độ dày của vùng cằm", "isCorrect": false},
+        {"text": "Cấu trúc xốp của lồi cầu", "isCorrect": false}
+      ],
+      "explanation": "Hình thể xương hàm dưới có những chỗ uốn ngang và dọc tạo điều kiện hoạt động chức năng và tạo sự đàn hồi[cite: 547]."
+    },
+    {
+      "question": "Mốc giải phẫu 'Mental foramen' trên xương hàm dưới có nghĩa là gì?",
+      "options": [
+        {"text": "Lỗ hàm dưới", "isCorrect": false},
+        {"text": "Lỗ cằm", "isCorrect": true},
+        {"text": "Lỗ gai cằm", "isCorrect": false},
+        {"text": "Lỗ khẩu cái", "isCorrect": false}
+      ],
+      "explanation": "Mental foramen là lỗ cằm, nằm ở mặt ngoài thân xương hàm dưới[cite: 561]."
+    },
+    {
+      "question": "Mốc giải phẫu nào nằm ở mặt trong cành lên xương hàm dưới, nơi thần kinh răng dưới đi vào?",
+      "options": [
+        {"text": "Mandibular foramen", "isCorrect": true},
+        {"text": "Mental foramen", "isCorrect": false},
+        {"text": "Oblique line", "isCorrect": false},
+        {"text": "Mylohyoid line", "isCorrect": false}
+      ],
+      "explanation": "Mandibular foramen là lỗ hàm dưới, nằm ở mặt trong cành lên[cite: 552]."
+    },
+    {
+      "question": "Đường mốc giải phẫu 'Mylohyoid line' là nơi bám của cơ nào?",
+      "options": [
+        {"text": "Cơ mút", "isCorrect": false},
+        {"text": "Cơ cằm móng", "isCorrect": false},
+        {"text": "Cơ hàm móng", "isCorrect": true},
+        {"text": "Cơ nhị thân", "isCorrect": false}
+      ],
+      "explanation": "Mylohyoid line là đường hàm móng, nơi cơ hàm móng bám vào[cite: 555, 617]."
+    },
+    {
+      "question": "Lồi cầu xương hàm dưới nằm ở vị trí mốc giải phẫu nào?",
+      "options": [
+        {"text": "Coronoid process", "isCorrect": false},
+        {"text": "Condylar process", "isCorrect": true},
+        {"text": "Mandibular angle", "isCorrect": false},
+        {"text": "Mental tubercle", "isCorrect": false}
+      ],
+      "explanation": "Lồi cầu nằm trên mỏm lồi cầu (Condylar process)[cite: 565, 549]."
+    },
+    {
+      "question": "Nhóm 'Cơ nâng hàm' bao gồm những cơ nào?",
+      "options": [
+        {"text": "Cơ cắn, cơ thái dương, cơ chân bướm trong", "isCorrect": true},
+        {"text": "Cơ cắn, cơ chân bướm ngoài, cơ nhị thân", "isCorrect": false},
+        {"text": "Cơ thái dương, cơ hàm móng, cơ mút", "isCorrect": false},
+        {"text": "Cơ chân bướm trong và chân bướm ngoài", "isCorrect": false}
+      ],
+      "explanation": "Nhóm cơ nâng hàm (ngậm miệng) gồm cơ cắn, cơ thái dương và cơ chân bướm trong[cite: 582, 590, 594]."
+    },
+    {
+      "question": "Cơ cắn (Masseter muscle) có bám tận tại vị trí nào?",
+      "options": [
+        {"text": "Mỏm vẹt", "isCorrect": false},
+        {"text": "Góc hàm và mặt ngoài cành lên xương hàm dưới", "isCorrect": true},
+        {"text": "Lồi củ xương hàm trên", "isCorrect": false},
+        {"text": "Cung tiếp xương thái dương", "isCorrect": false}
+      ],
+      "explanation": "Cơ cắn đi từ cung tiếp đến bám tận ở góc hàm và mặt ngoài cành lên XHD[cite: 584, 585]."
+    },
+    {
+      "question": "Chức năng chính của cơ thái dương (Temporalis muscle) là gì?",
+      "options": [
+        {"text": "Há miệng và đưa hàm ra trước", "isCorrect": false},
+        {"text": "Ngậm miệng, đưa hàm dưới lui sau và sang bên", "isCorrect": true},
+        {"text": "Chỉ có tác dụng há miệng", "isCorrect": false},
+        {"text": "Kéo lưỡi lên trên", "isCorrect": false}
+      ],
+      "explanation": "Cơ thái dương giúp ngậm miệng, đưa hàm lui sau và sang bên[cite: 592]."
+    },
+    {
+      "question": "Cơ chân bướm trong (Medial pterygoid) có hướng hoạt động đồng vận với cơ nào?",
+      "options": [
+        {"text": "Cơ nhị thân", "isCorrect": false},
+        {"text": "Cơ cắn", "isCorrect": true},
+        {"text": "Cơ chân bướm ngoài", "isCorrect": false},
+        {"text": "Cơ cằm lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Cơ chân bướm trong đồng vận với cơ cắn trong việc nâng hàm[cite: 599]."
+    },
+    {
+      "question": "Cơ nào có chức năng chính là há miệng và đưa hàm dưới ra trước?",
+      "options": [
+        {"text": "Cơ chân bướm trong", "isCorrect": false},
+        {"text": "Cơ chân bướm ngoài (Lateral pterygoid)", "isCorrect": true},
+        {"text": "Cơ thái dương", "isCorrect": false},
+        {"text": "Cơ vòng môi", "isCorrect": false}
+      ],
+      "explanation": "Cơ chân bướm ngoài có chức năng há miệng và đưa hàm dưới ra trước[cite: 604]."
+    },
+    {
+      "question": "Cơ chân bướm ngoài bám từ xương bướm đến vị trí nào trên xương hàm dưới?",
+      "options": [
+        {"text": "Góc hàm", "isCorrect": false},
+        {"text": "Hố cơ chân bướm trước lồi cầu và đĩa khớp", "isCorrect": true},
+        {"text": "Mỏm vẹt", "isCorrect": false},
+        {"text": "Đường chéo ngoài", "isCorrect": false}
+      ],
+      "explanation": "Cơ chân bướm ngoài bám tận tại hố cơ chân bướm trước lồi cầu và phần trước bao/đĩa khớp[cite: 603]."
+    },
+    {
+      "question": "Cơ nhị thân (Digastric muscle) có vai trò gì trong vận động hàm?",
+      "options": [
+        {"text": "Giúp ngậm miệng chặt", "isCorrect": false},
+        {"text": "Giúp há to miệng", "isCorrect": true},
+        {"text": "Đưa hàm sang bên làm việc", "isCorrect": false},
+        {"text": "Nâng vòm miệng mềm", "isCorrect": false}
+      ],
+      "explanation": "Cơ nhị thân giúp há to miệng[cite: 608]."
+    },
+    {
+      "question": "Cơ cằm móng (Geniohyoid) nằm ở vị trí nào và có chức năng gì?",
+      "options": [
+        {"text": "Nằm nông, giúp ngậm miệng", "isCorrect": false},
+        {"text": "Nằm sâu, giúp há miệng và kéo lưỡi lên trên", "isCorrect": true},
+        {"text": "Nằm trong lưỡi, giúp phát âm âm rung", "isCorrect": false},
+        {"text": "Bám vào mỏm vẹt, giúp đưa hàm ra sau", "isCorrect": false}
+      ],
+      "explanation": "Cơ cằm móng nằm sâu, từ gai cằm đến xương móng, giúp há miệng và kéo lưỡi lên[cite: 613, 614]."
+    },
+    {
+      "question": "Khối cơ lưỡi bao gồm bao nhiêu đôi cơ?",
+      "options": [
+        {"text": "4 đôi cơ", "isCorrect": false},
+        {"text": "8 đôi cơ và 1 cơ lẻ", "isCorrect": true},
+        {"text": "12 đôi cơ", "isCorrect": false},
+        {"text": "6 đôi cơ và 2 cơ lẻ", "isCorrect": false}
+      ],
+      "explanation": "Khối cơ lưỡi gồm 8 đôi cơ và 1 cơ lẻ[cite: 621]."
+    },
+    {
+      "question": "Cơ nào trong khối cơ lưỡi có chức năng kéo lưỡi ra trước?",
+      "options": [
+        {"text": "Cơ trâm - lưỡi", "isCorrect": false},
+        {"text": "Cơ cằm lưỡi (Genioglossus)", "isCorrect": true},
+        {"text": "Cơ móng lưỡi", "isCorrect": false},
+        {"text": "Cơ khít hầu trên", "isCorrect": false}
+      ],
+      "explanation": "Cơ cằm lưỡi có chức năng kéo lưỡi ra trước[cite: 625, 626]."
+    },
+    {
+      "question": "Cơ mút (Buccinator) và cơ vòng môi thuộc hệ thống nào?",
+      "options": [
+        {"text": "Nhóm cơ nâng hàm", "isCorrect": false},
+        {"text": "Vòng đai môi má", "isCorrect": true},
+        {"text": "Nhóm cơ hạ hàm", "isCorrect": false},
+        {"text": "Nhóm cơ khẩu cái", "isCorrect": false}
+      ],
+      "explanation": "Cơ mút và cơ vòng môi tạo nên vòng đai môi má[cite: 646, 650, 651]."
+    },
+    {
+      "question": "Vai trò của cơ vòng môi trong thẩm mỹ phục hình là gì?",
+      "options": [
+        {"text": "Nghiền nát thức ăn", "isCorrect": false},
+        {"text": "Đánh giá xem bệnh nhân có cười hở lợi hay không", "isCorrect": true},
+        {"text": "Nâng lồi cầu vào hõm chão", "isCorrect": false},
+        {"text": "Tạo vị giác mặn", "isCorrect": false}
+      ],
+      "explanation": "Cơ vòng môi quan trọng khi cười, giúp đánh giá thẩm mỹ hở lợi[cite: 644]."
+    },
+    {
+      "question": "Nhiệm vụ của các cơ vòm miệng mềm là gì?",
+      "options": [
+        {"text": "Chỉ dùng để phát âm nguyên âm trầm", "isCorrect": false},
+        {"text": "Ngăn họng mũi và họng miệng, tham gia nuốt và phát âm", "isCorrect": true},
+        {"text": "Đẩy lưỡi ra phía trước khi nhai", "isCorrect": false},
+        {"text": "Tiết nước bọt tuyến dưới hàm", "isCorrect": false}
+      ],
+      "explanation": "Cơ vòm miệng mềm là màng cơ ngăn họng mũi và họng miệng, giúp nâng/hạ vòm miệng mềm để nuốt và phát âm[cite: 653]."
+    },
+    {
+      "question": "Cấu tạo của khớp thái dương hàm bao gồm thành phần nào sau đây?",
+      "options": [
+        {"text": "Lồi cầu, hõm chão, đĩa khớp, bao khớp và dây chằng", "isCorrect": true},
+        {"text": "Xương hàm trên, xương gò má và đĩa khớp", "isCorrect": false},
+        {"text": "Lồi cầu, mỏm vẹt và cơ cắn", "isCorrect": false},
+        {"text": "Chỉ gồm xương thái dương và xương hàm dưới", "isCorrect": false}
+      ],
+      "explanation": "Khớp THD gồm lồi cầu, diện khớp xương thái dương (hõm chão), đĩa khớp, bao khớp và dây chằng[cite: 659, 664, 665, 700]."
+    },
+    {
+      "question": "Diện khớp của lồi cầu và hõm chão được phủ bởi lớp mô gì?",
+      "options": [
+        {"text": "Sụn trong (Hyaline cartilage)", "isCorrect": false},
+        {"text": "Mô sợi không có mạch máu, chứa ít tế bào sụn", "isCorrect": true},
+        {"text": "Màng xương dày", "isCorrect": false},
+        {"text": "Lớp biểu mô sừng hóa", "isCorrect": false}
+      ],
+      "explanation": "Diện khớp được phủ lớp mô sợi không mạch máu, ít tế bào sụn, không được bao bọc bởi sụn trong[cite: 678]."
+    },
+    {
+      "question": "Vị trí của diện khớp trên lồi cầu xương hàm dưới nằm ở đâu?",
+      "options": [
+        {"text": "Mặt xa của lồi cầu", "isCorrect": false},
+        {"text": "Phía trước trên của lồi cầu", "isCorrect": true},
+        {"text": "Phía sau dưới của lồi cầu", "isCorrect": false},
+        {"text": "Toàn bộ bề mặt lồi cầu", "isCorrect": false}
+      ],
+      "explanation": "Diện khớp ở phía trước trên của lồi cầu, mặt xa nằm ngoài khớp[cite: 677]."
+    },
+    {
+      "question": "Bao khớp thái dương hàm có đặc điểm gì về buồng khớp?",
+      "options": [
+        {"text": "Chỉ có một buồng duy nhất", "isCorrect": false},
+        {"text": "Có 2 buồng: trên và dưới sụn chêm", "isCorrect": true},
+        {"text": "Có 3 buồng chia theo các dây chằng", "isCorrect": false},
+        {"text": "Không có buồng khớp", "isCorrect": false}
+      ],
+      "explanation": "Bao khớp có 2 buồng: trên sụn chêm-xương thái dương và dưới sụn chêm-lồi cầu[cite: 706]."
+    },
+    {
+      "question": "Dây chằng nào giúp đề phòng trật khớp khi há miệng quá to?",
+      "options": [
+        {"text": "Dây chằng bướm hàm", "isCorrect": false},
+        {"text": "Dây chằng trâm hàm", "isCorrect": false},
+        {"text": "Dây chằng bao khớp (và dây chằng bên trong)", "isCorrect": true},
+        {"text": "Dây chằng chéo", "isCorrect": false}
+      ],
+      "explanation": "Dây chằng giúp đề phòng trật khớp khi há to hoặc đưa hàm sang bên quá mức[cite: 736]."
+    },
+    {
+      "question": "Sơ đồ Posselt ghi lại các chuyển động của xương hàm dưới trên mặt phẳng nào?",
+      "options": [
+        {"text": "Mặt phẳng ngang", "isCorrect": false},
+        {"text": "Mặt phẳng đứng ngang", "isCorrect": false},
+        {"text": "Mặt phẳng đứng dọc giữa", "isCorrect": true},
+        {"text": "Mặt phẳng Camper", "isCorrect": false}
+      ],
+      "explanation": "Sơ đồ Posselt ghi chuyển động XHD trên mặt phẳng đứng dọc giữa qua điểm giữa rìa cắn hai răng cửa giữa dưới[cite: 741, 742]."
+    },
+    {
+      "question": "Trong sơ đồ Posselt, vị trí số 1 (I) đại diện cho trạng thái nào?",
+      "options": [
+        {"text": "Lồng múi tối đa", "isCorrect": false},
+        {"text": "Khớp cắn ở tương quan trung tâm", "isCorrect": true},
+        {"text": "Há miệng tối đa", "isCorrect": false},
+        {"text": "Tư thế nghỉ", "isCorrect": false}
+      ],
+      "explanation": "Vị trí 1 trong sơ đồ Posselt là khớp cắn ở tương quan trung tâm[cite: 751]."
+    },
+    {
+      "question": "Vị trí II (2 La Mã) trong sơ đồ Posselt là giới hạn của loại chuyển động nào?",
+      "options": [
+        {"text": "Chuyển động trượt ra trước", "isCorrect": false},
+        {"text": "Chuyển động xoay đơn thuần", "isCorrect": true},
+        {"text": "Chuyển động đưa sang bên", "isCorrect": false},
+        {"text": "Chuyển động ngậm miệng nhanh", "isCorrect": false}
+      ],
+      "explanation": "Vị trí II là giới hạn há miệng với chuyển động xoay đơn thuần tại chỗ của lồi cầu[cite: 756, 757, 760]."
+    },
+    {
+      "question": "Khi há miệng tối đa (Vị trí III), lồi cầu di chuyển như thế nào?",
+      "options": [
+        {"text": "Xoay tại chỗ", "isCorrect": false},
+        {"text": "Trượt ra trước và xuống dưới", "isCorrect": true},
+        {"text": "Trượt ra sau", "isCorrect": false},
+        {"text": "Nâng lên trên", "isCorrect": false}
+      ],
+      "explanation": "Há tối đa đưa hàm xuống vị trí III, lồi cầu trượt ra trước và xuống dưới[cite: 761]."
+    },
+    {
+      "question": "Cung đoạn (h) trong sơ đồ Posselt mô tả động tác gì?",
+      "options": [
+        {"text": "Đưa hàm ra trước tối đa", "isCorrect": false},
+        {"text": "Động tác ngậm thông thường từ vị trí há tối đa", "isCorrect": true},
+        {"text": "Chuyển động xoay bản lề", "isCorrect": false},
+        {"text": "Trượt từ tương quan tâm sang lồng múi tối đa", "isCorrect": false}
+      ],
+      "explanation": "Cung đoạn (h) là từ vị trí há tối đa (III) tới vị trí chạm múi tối đa (2), là động tác ngậm thông thường[cite: 764]."
+    },
+    {
+      "question": "Góc lồi cầu (pente condylienne) được tạo bởi quỹ đạo lồi cầu với mặt phẳng nào?",
+      "options": [
+        {"text": "Mặt phẳng nhai", "isCorrect": false},
+        {"text": "Mặt phẳng đứng dọc", "isCorrect": false},
+        {"text": "Mặt phẳng Francfort", "isCorrect": true},
+        {"text": "Mặt phẳng ngang", "isCorrect": false}
+      ],
+      "explanation": "Góc lồi cầu tạo bởi cung trượt của lồi cầu với mặt phẳng Francfort tham chiếu[cite: 784]."
+    },
+    {
+      "question": "Trong vận động đưa hàm sang bên, lồi cầu bên làm việc di chuyển như thế nào?",
+      "options": [
+        {"text": "Trượt ra trước và xuống dưới", "isCorrect": false},
+        {"text": "Di chuyển theo vận động Bennett (nhẹ ra sau, ra ngoài)", "isCorrect": true},
+        {"text": "Xoay đơn thuần tại hố khớp", "isCorrect": false},
+        {"text": "Không di chuyển", "isCorrect": false}
+      ],
+      "explanation": "Lồi cầu làm việc di chuyển theo vận động Bennett, nhẹ ra sau và ra ngoài khoảng 1,5mm[cite: 787, 788]."
+    },
+    {
+      "question": "Công thức Hanau dùng để tính góc Bennett (L) là gì?",
+      "options": [
+        {"text": "L = (Góc lồi cầu / 12) + 8", "isCorrect": false},
+        {"text": "L = (Góc lồi cầu / 8) + 12", "isCorrect": true},
+        {"text": "L = Góc lồi cầu x 2", "isCorrect": false},
+        {"text": "L = 37 - To / 1.5", "isCorrect": false}
+      ],
+      "explanation": "Góc Bennett tính theo công thức Hanau: L = (độ nghiêng quỹ đạo lồi cầu / 8) + 12[cite: 789, 790]."
+    },
+    {
+      "question": "Theo Jawkelson, động tác nhai bao gồm các giai đoạn nào?",
+      "options": [
+        {"text": "Há, ngậm, cắn khớp", "isCorrect": false},
+        {"text": "Cắt/cắn, nhai nghiền và nuốt", "isCorrect": true},
+        {"text": "Làm dập và nuốt", "isCorrect": false},
+        {"text": "Chạm đầu và chạm múi", "isCorrect": false}
+      ],
+      "explanation": "Jawkelson chia động tác nhai thành: cắt/cắn, nhai nghiền và nuốt[cite: 799]."
+    },
+    {
+      "question": "Lực cắn của các răng sau trung bình thay đổi trong khoảng nào?",
+      "options": [
+        {"text": "5-15 kgf", "isCorrect": false},
+        {"text": "50-150 kgf", "isCorrect": true},
+        {"text": "200-300 kgf", "isCorrect": false},
+        {"text": "1000 kgf", "isCorrect": false}
+      ],
+      "explanation": "Lực cắn răng sau thay đổi từ 50-150 kgf, giảm dần đối với răng phía trước[cite: 806]."
+    },
+    {
+      "question": "Mỗi chu kỳ nhai thường kéo dài bao lâu?",
+      "options": [
+        {"text": "0,1 - 0,2 giây", "isCorrect": false},
+        {"text": "0,5 - 1 giây", "isCorrect": true},
+        {"text": "2 - 3 giây", "isCorrect": false},
+        {"text": "5 giây", "isCorrect": false}
+      ],
+      "explanation": "Mỗi chu kỳ nhai từ 0,5 - 1 giây[cite: 811]."
+    },
+    {
+      "question": "Khoảng trượt giữa các răng trong quá trình nhai thường bé hơn bao nhiêu?",
+      "options": [
+        {"text": "0,1 mm", "isCorrect": false},
+        {"text": "1 mm", "isCorrect": true},
+        {"text": "3 mm", "isCorrect": false},
+        {"text": "5 mm", "isCorrect": false}
+      ],
+      "explanation": "Khoảng trượt giữa các răng thường bé hơn 1mm[cite: 813]."
+    },
+    {
+      "question": "Động tác nuốt trống (nuốt không thức ăn) có mục đích chính là gì?",
+      "options": [
+        {"text": "Luyện tập cơ lưỡi", "isCorrect": false},
+        {"text": "Thoát nước bọt và làm ướt các cấu trúc miệng", "isCorrect": true},
+        {"text": "Làm sạch răng giả", "isCorrect": false},
+        {"text": "Điều chỉnh khớp thái dương hàm", "isCorrect": false}
+      ],
+      "explanation": "Nuốt trống xảy ra liên tục để thoát nước bọt và làm ướt khoang miệng[cite: 820]."
+    },
+    {
+      "question": "Số lần nuốt trung bình mỗi giờ khi thức là bao nhiêu?",
+      "options": [
+        {"text": "10 lần/giờ", "isCorrect": false},
+        {"text": "40 lần/giờ", "isCorrect": true},
+        {"text": "100 lần/giờ", "isCorrect": false},
+        {"text": "500 lần/giờ", "isCorrect": false}
+      ],
+      "explanation": "Trung bình 40 lần/giờ khi thức và ít hơn khi ngủ[cite: 821]."
+    },
+    {
+      "question": "Sinh lý vị giác cảm nhận được bao nhiêu vị cơ bản?",
+      "options": [
+        {"text": "2 vị", "isCorrect": false},
+        {"text": "4 vị (đắng, ngọt, mặn, chua)", "isCorrect": true},
+        {"text": "5 vị (thêm vị cay)", "isCorrect": false},
+        {"text": "6 vị", "isCorrect": false}
+      ],
+      "explanation": "Kích thích vị giác gồm 4 vị: đắng, ngọt, mặn và chua[cite: 828]."
+    },
+    {
+      "question": "Con người KHÔNG cảm nhận được vị giác ở ngưỡng nhiệt độ nào?",
+      "options": [
+        {"text": "20 - 30 độ C", "isCorrect": false},
+        {"text": "Dưới 0 độ C và trên 50 độ C", "isCorrect": true},
+        {"text": "37 độ C", "isCorrect": false},
+        {"text": "15 độ C", "isCorrect": false}
+      ],
+      "explanation": "Vị giác không cảm nhận được ở nhiệt độ dưới 0 độ C và trên 50 độ C[cite: 830]."
+    },
+    {
+      "question": "Dây thần kinh sọ nào dẫn truyền vị giác ở 1/3 sau lưỡi?",
+      "options": [
+        {"text": "Dây V (Tam thoa)", "isCorrect": false},
+        {"text": "Dây VII (Mặt)", "isCorrect": false},
+        {"text": "Dây IX (Thiệt hầu)", "isCorrect": true},
+        {"text": "Dây XII (Hạ thiệt)", "isCorrect": false}
+      ],
+      "explanation": "Dây thiệt hầu (IX) dẫn vị giác 1/3 sau lưỡi; dây lưỡi (VII) dẫn vị giác 2/3 trước lưỡi[cite: 836]."
+    },
+    {
+      "question": "Sự phát âm là sự phối hợp giữa thành phần nào?",
+      "options": [
+        {"text": "Chỉ có thanh đới và lưỡi", "isCorrect": false},
+        {"text": "Hoạt động thanh đới, cộng hưởng xoang vang và điều tiết của bộ phận tạo tiếng", "isCorrect": true},
+        {"text": "Răng và môi dưới", "isCorrect": false},
+        {"text": "Áp lực phổi và khí quản", "isCorrect": false}
+      ],
+      "explanation": "Nói là sự phối hợp của thanh đới, các xoang vang và các bộ phận răng, môi, lưỡi, má...[cite: 839]."
+    },
+    {
+      "question": "Các nguyên âm trầm như /ô/, /u/ được tạo ra kèm theo sự vận động nào?",
+      "options": [
+        {"text": "Nâng xương hàm dưới", "isCorrect": false},
+        {"text": "Hạ xương hàm dưới và thu hẹp môi", "isCorrect": true},
+        {"text": "Mở rộng miệng tối đa", "isCorrect": false},
+        {"text": "Kéo lưỡi ra trước", "isCorrect": false}
+      ],
+      "explanation": "Âm trầm /ô/, /u/ phát ra kèm sự hạ XHD và thu hẹp môi[cite: 843]."
+    },
+    {
+      "question": "Âm /a/, /e/ được phát ra trong trạng thái miệng như thế nào?",
+      "options": [
+        {"text": "Miệng mở rộng, xoang âm đồng nhất", "isCorrect": true},
+        {"text": "Miệng ngậm chặt", "isCorrect": false},
+        {"text": "Môi kéo sang bên", "isCorrect": false},
+        {"text": "Lưỡi chạm răng hàm lớn", "isCorrect": false}
+      ],
+      "explanation": "Âm /a/, /e/ phát khi miệng mở rộng, xoang âm đồng nhất[cite: 845]."
+    },
+    {
+      "question": "Phụ âm môi kéo dài /v/, /ph/ được tạo ra khi luồng âm thoát ra ở đâu?",
+      "options": [
+        {"text": "Giữa hai môi", "isCorrect": false},
+        {"text": "Giữa bờ răng cửa trên và môi dưới", "isCorrect": true},
+        {"text": "Giữa đầu lưỡi và vòm miệng", "isCorrect": false},
+        {"text": "Ở gốc lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Âm /v/, /ph/ phát ra khi luồng âm thoát ra giữa bờ răng cửa trên và môi dưới[cite: 847]."
+    },
+    {
+      "question": "Phụ âm /s/ được tạo ra do tác động của bộ phận nào?",
+      "options": [
+        {"text": "Môi và răng cửa", "isCorrect": false},
+        {"text": "Lưỡi lên vòm miệng", "isCorrect": true},
+        {"text": "Gốc lưỡi và màn hầu", "isCorrect": false},
+        {"text": "Thanh quản rung mạnh", "isCorrect": false}
+      ],
+      "explanation": "Phụ âm /s/ do tác động lưỡi lên vòm miệng[cite: 857]."
+    },
+    {
+      "question": "Phụ âm lưỡi nổ như /đ/, /t/, /l/ phát ra do cơ chế gì?",
+      "options": [
+        {"text": "Luồng âm bị đứt đoạn vì đầu lưỡi áp vào vòm miệng", "isCorrect": true},
+        {"text": "Lưỡi ép lên răng cửa dưới", "isCorrect": false},
+        {"text": "Miệng mở tối đa", "isCorrect": false},
+        {"text": "Môi mím chặt", "isCorrect": false}
+      ],
+      "explanation": "Âm /đ/, /t/, /z/, /l/ do luồng âm bị đứt đoạn vì đầu lưỡi áp vào nhiều chỗ ở vòm miệng[cite: 848]."
+    },
+    {
+      "question": "Trong phục hồi thẩm mỹ, khoảng lộ răng cửa trên khi cười ở Nam giới trung bình là?",
+      "options": [
+        {"text": "1 - 2 mm", "isCorrect": false},
+        {"text": "3 - 5 mm", "isCorrect": true},
+        {"text": "6 - 8 mm", "isCorrect": false},
+        {"text": "10 mm", "isCorrect": false}
+      ],
+      "explanation": "Nam thẩm mỹ tầm 3-5mm[cite: 851]."
+    },
+    {
+      "question": "Trong phục hồi thẩm mỹ, khoảng lộ răng cửa trên khi cười ở Nữ giới trung bình là?",
+      "options": [
+        {"text": "1 mm", "isCorrect": false},
+        {"text": "2 - 4 mm", "isCorrect": true},
+        {"text": "5 - 7 mm", "isCorrect": false},
+        {"text": "8 mm", "isCorrect": false}
+      ],
+      "explanation": "Nữ thẩm mỹ lộ tầm 2-4 mm[cite: 851]."
+    },
+    {
+      "question": "Phụ âm nào quan trọng để quyết định độ cắn chìa giữa răng cửa trên và dưới?",
+      "options": [
+        {"text": "Âm /m/", "isCorrect": false},
+        {"text": "Âm /s/", "isCorrect": true},
+        {"text": "Âm /a/", "isCorrect": false},
+        {"text": "Âm /kh/", "isCorrect": false}
+      ],
+      "explanation": "Âm /s/ quan trọng vì tương quan giữa răng cửa trên và dưới quyết định độ cắn chìa[cite: 853]."
+    },
+    {
+      "question": "Phụ âm nào dùng để kiểm tra độ dài răng cửa trên sao cho chạm vào môi dưới?",
+      "options": [
+        {"text": "Âm /f/ và /v/", "isCorrect": true},
+        {"text": "Âm /l/ và /n/", "isCorrect": false},
+        {"text": "Âm /ô/ và /u/", "isCorrect": false},
+        {"text": "Âm /r/", "isCorrect": false}
+      ],
+      "explanation": "Âm /f/ và /v/ quan trọng vì đảm bảo độ dài của răng cửa trên chạm vào môi dưới[cite: 854]."
+    },
+    {
+      "question": "Đặc điểm của đĩa khớp (sụn chêm) thái dương hàm là?",
+      "options": [
+        {"text": "Cứng và cố định", "isCorrect": false},
+        {"text": "Có thể thay đổi vị trí và hình dáng để lấp đầy khoảng diện khớp", "isCorrect": true},
+        {"text": "Luôn nằm ở phía sau lồi cầu", "isCorrect": false},
+        {"text": "Được nuôi dưỡng bởi nhiều mạch máu", "isCorrect": false}
+      ],
+      "explanation": "Đĩa khớp có thể thay đổi vị trí/hình dáng để tạo ổn định cho XHD trong mọi pha vận động[cite: 698]."
+    },
+    {
+      "question": "Vùng nào của đĩa khớp thái dương hàm không có mạch máu (avascular)?",
+      "options": [
+        {"text": "Phần trước", "isCorrect": false},
+        {"text": "Phần sau", "isCorrect": false},
+        {"text": "Phần trung tâm (Intermediate zone)", "isCorrect": true},
+        {"text": "Toàn bộ đĩa khớp", "isCorrect": false}
+      ],
+      "explanation": "Phần giữa (Intermediate zone/avascular part) của sụn chêm không có mạch máu[cite: 661, 691]."
+    },
+    {
+      "question": "Trụ xương bền vững và dẫn truyền lực tốt là đặc điểm của?",
+      "options": [
+        {"text": "Sọ não", "isCorrect": false},
+        {"text": "Sọ mặt", "isCorrect": true},
+        {"text": "Răng", "isCorrect": false},
+        {"text": "Lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Đây là đặc điểm của sọ mặt (Viscerocranium)[cite: 545]."
+    },
+    {
+      "question": "Gai cằm (Mental spines) nằm ở vị trí nào?",
+      "options": [
+        {"text": "Mặt ngoài vùng cằm", "isCorrect": false},
+        {"text": "Mặt trong vùng cằm", "isCorrect": true},
+        {"text": "Góc hàm", "isCorrect": false},
+        {"text": "Mỏm vẹt", "isCorrect": false}
+      ],
+      "explanation": "Gai cằm nằm ở mặt trong vùng cằm của xương hàm dưới[cite: 572]."
+    },
+    {
+      "question": "Hố dưới hàm (Submandibular fossa) nằm ở đâu?",
+      "options": [
+        {"text": "Phía trên đường hàm móng", "isCorrect": false},
+        {"text": "Phía dưới đường hàm móng", "isCorrect": true},
+        {"text": "Phía trước lỗ cằm", "isCorrect": false},
+        {"text": "Trên cành lên", "isCorrect": false}
+      ],
+      "explanation": "Hố dưới hàm nằm ở mặt trong thân xương, bên dưới đường hàm móng[cite: 574]."
+    },
+    {
+      "question": "Cơ móng lưỡi (Hyoglossus) có chức năng gì?",
+      "options": [
+        {"text": "Kéo lưỡi ra trước", "isCorrect": false},
+        {"text": "Kéo lui sau và hạ lưỡi xuống", "isCorrect": true},
+        {"text": "Nâng vòm miệng mềm", "isCorrect": false},
+        {"text": "Co thắt hầu", "isCorrect": false}
+      ],
+      "explanation": "Cơ móng lưỡi giúp kéo lui sau và hạ lưỡi xuống[cite: 639, 640]."
+    },
+    {
+      "question": "Tuyến nước bọt nào quan trọng nhất cho chức năng vị giác qua việc nếm?",
+      "options": [
+        {"text": "Tuyến mang tai", "isCorrect": false},
+        {"text": "Tuyến dưới hàm", "isCorrect": true},
+        {"text": "Tuyến dưới lưỡi", "isCorrect": false},
+        {"text": "Tuyến nước bọt phụ", "isCorrect": false}
+      ],
+      "explanation": "Mầm vị giác cảm thụ qua trung gian nước bọt, đặc biệt là tuyến dưới hàm để nếm[cite: 834]."
+    },
+    {
+      "question": "Âm rung /r/ được tạo ra do vận động của bộ phận nào?",
+      "options": [
+        {"text": "Gốc lưỡi rung", "isCorrect": false},
+        {"text": "Đầu lưỡi cong và rung", "isCorrect": true},
+        {"text": "Môi rung", "isCorrect": false},
+        {"text": "Màn hầu rung", "isCorrect": false}
+      ],
+      "explanation": "Phụ âm rung /r/ do đầu lưỡi cong và rung phát ra[cite: 856]."
+    },
+    {
+      "question": "Phụ âm họng /kh/, /nh/ phát ra do luồng âm bị cắt ở đâu?",
+      "options": [
+        {"text": "Giữa hai môi", "isCorrect": false},
+        {"text": "Giữa gốc lưỡi và vòm miệng mềm", "isCorrect": true},
+        {"text": "Giữa đầu lưỡi và răng cửa", "isCorrect": false},
+        {"text": "Tại thanh quản", "isCorrect": false}
+      ],
+      "explanation": "Âm họng do luồng âm bị cắt giữa gốc lưỡi và vòm miệng mềm[cite: 850, 855]."
+    },
+    {
+      "question": "Tại sao diện kích thích càng rộng thì ngưỡng vị giác càng thay đổi?",
+      "options": [
+        {"text": "Do tăng số lượng tế bào cảm thụ tiếp xúc", "isCorrect": true},
+        {"text": "Do lưỡi bị mỏi", "isCorrect": false},
+        {"text": "Do nước bọt tiết ít đi", "isCorrect": false},
+        {"text": "Do nhiệt độ tăng cao", "isCorrect": false}
+      ],
+      "explanation": "Vị giác nhờ lưỡi tiếp xúc với gai vị giác trên diện càng rộng càng tốt[cite: 837]."
+    },
+    {
+      "question": "Thời gian kích thích tối ưu để đạt cường độ vị giác tối đa là bao lâu?",
+      "options": [
+        {"text": "0,5 giây", "isCorrect": false},
+        {"text": "4 - 8 giây", "isCorrect": true},
+        {"text": "30 giây", "isCorrect": false},
+        {"text": "2 phút", "isCorrect": false}
+      ],
+      "explanation": "Khi thời gian t = 4-8 giây thì cường độ vị giác đạt tối đa[cite: 831]."
+    },
+    {
+      "question": "Mầm vị giác được cấu tạo bao gồm bao nhiêu tế bào cảm thụ?",
+      "options": [
+        {"text": "Chỉ 1 tế bào", "isCorrect": false},
+        {"text": "Từ 1 - 400 tế bào", "isCorrect": true},
+        {"text": "Cố định 1000 tế bào", "isCorrect": false},
+        {"text": "Không có tế bào", "isCorrect": false}
+      ],
+      "explanation": "Cấu tạo từ các mầm vị giác từ 1-400[cite: 834]."
+    },
+    {
+      "question": "Cơ màng hầu (Levator veli palatini) có nhiệm vụ gì?",
+      "options": [
+        {"text": "Nâng vòm miệng mềm", "isCorrect": true},
+        {"text": "Hạ vòm miệng mềm", "isCorrect": false},
+        {"text": "Đưa lưỡi sang bên", "isCorrect": false},
+        {"text": "Cắn chặt răng", "isCorrect": false}
+      ],
+      "explanation": "Cơ nâng màng hầu có nhiệm vụ nâng vòm miệng mềm[cite: 653, 656]."
+    },
+    {
+      "question": "Bao hoạt dịch trong khớp thái dương hàm có chức năng gì?",
+      "options": [
+        {"text": "Dẫn truyền thần kinh", "isCorrect": false},
+        {"text": "Bôi trơn đĩa khớp và diện khớp", "isCorrect": true},
+        {"text": "Làm cứng khớp", "isCorrect": false},
+        {"text": "Chứa canxi nuôi xương", "isCorrect": false}
+      ],
+      "explanation": "Bao hoạt dịch bôi trơn các mặt của sụn chêm và diện khớp[cite: 699]."
+    },
+    {
+      "question": "Trong nhai nghiền, lực cắn các răng thay đổi từ bao nhiêu?",
+      "options": [
+        {"text": "1-5 kgf", "isCorrect": false},
+        {"text": "50 - 150 kgf", "isCorrect": true},
+        {"text": "200 - 500 kgf", "isCorrect": false},
+        {"text": "Không xác định", "isCorrect": false}
+      ],
+      "explanation": "Lực cắn răng sau thay đổi từ 50-150 kgf[cite: 806]."
+    },
+    {
+      "question": "Giai đoạn cắn khớp trong chu kỳ nhai thường kéo dài bao lâu?",
+      "options": [
+        {"text": "0,01 giây", "isCorrect": false},
+        {"text": "Khoảng 0,2 giây", "isCorrect": true},
+        {"text": "1 giây", "isCorrect": false},
+        {"text": "5 giây", "isCorrect": false}
+      ],
+      "explanation": "Giai đoạn cắn khớp khoảng 0,2 giây[cite: 812]."
+    },
+    {
+      "question": "Cơ nào giúp đưa hàm dưới lui sau khi ngậm miệng?",
+      "options": [
+        {"text": "Bó sau cơ thái dương", "isCorrect": true},
+        {"text": "Cơ chân bướm ngoài", "isCorrect": false},
+        {"text": "Cơ mút", "isCorrect": false},
+        {"text": "Cơ cằm lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Cơ thái dương giúp đưa hàm dưới lui sau[cite: 592]."
+    },
+    {
+      "question": "Dây chằng bướm hàm (Sphenomandibular lig.) bám vào đâu trên xương hàm dưới?",
+      "options": [
+        {"text": "Lồi cầu", "isCorrect": false},
+        {"text": "Lưỡi hàm (Lingula)", "isCorrect": true},
+        {"text": "Góc hàm", "isCorrect": false},
+        {"text": "Gai cằm", "isCorrect": false}
+      ],
+      "explanation": "Dây chằng bướm hàm bám vào vùng lưỡi hàm dưới[cite: 720, 726]."
+    },
+    {
+      "question": "Lồi cầu làm việc di chuyển trung bình bao nhiêu mm ra ngoài?",
+      "options": [
+        {"text": "0,1 mm", "isCorrect": false},
+        {"text": "1,5 mm", "isCorrect": true},
+        {"text": "5 mm", "isCorrect": false},
+        {"text": "10 mm", "isCorrect": false}
+      ],
+      "explanation": "Lồi cầu làm việc di chuyển nhẹ ra ngoài, trung bình 1,5mm[cite: 788]."
+    },
+    {
+      "question": "Ở người già, loại răng giả nào thường được khuyên dùng để nhai nát thức ăn tốt hơn?",
+      "options": [
+        {"text": "Răng giải phẫu", "isCorrect": false},
+        {"text": "Răng bán giải phẫu", "isCorrect": true},
+        {"text": "Răng phẳng hoàn toàn", "isCorrect": false},
+        {"text": "Răng sứ cứng", "isCorrect": false}
+      ],
+      "explanation": "Bệnh nhân lớn tuổi nên làm răng bán giải phẫu để nhai nát tốt hơn[cite: 832]."
+    },
+    {
+      "question": "Đặc điểm diện khớp hõm chão là gì?",
+      "options": [
+        {"text": "Lồi ở phía gần và lõm ở phía xa", "isCorrect": true},
+        {"text": "Lõm hoàn toàn", "isCorrect": false},
+        {"text": "Lồi hoàn toàn", "isCorrect": false},
+        {"text": "Phẳng như mặt bàn", "isCorrect": false}
+      ],
+      "explanation": "Hõm chão lồi phía gần (củ khớp) và lõm ở phía xa (hố khớp)[cite: 680]."
+    },
+    {
+      "question": "Phụ âm môi kéo dài gồm những âm nào?",
+      "options": [
+        {"text": "/đ/, /t/", "isCorrect": false},
+        {"text": "/v/, /ph/", "isCorrect": true},
+        {"text": "/kh/, /nh/", "isCorrect": false},
+        {"text": "/a/, /e/", "isCorrect": false}
+      ],
+      "explanation": "Âm môi kéo dài là /v/, /ph/[cite: 847]."
+    },
+    {
+      "question": "Tâm lồi cầu xương hàm dưới được ký hiệu là mốc gì trên phim?",
+      "options": [
+        {"text": "S", "isCorrect": false},
+        {"text": "C (Condylien)", "isCorrect": true},
+        {"text": "Or", "isCorrect": false},
+        {"text": "Po", "isCorrect": false}
+      ],
+      "explanation": "C (Condylien) là tâm lồi cầu XHD[cite: 549]."
+    },
+    {
+      "question": "Tư thế nghỉ của hàm dưới được ký hiệu là chữ gì trong sơ đồ Posselt?",
+      "options": [
+        {"text": "H", "isCorrect": false},
+        {"text": "R", "isCorrect": true},
+        {"text": "C", "isCorrect": false},
+        {"text": "P", "isCorrect": false}
+      ],
+      "explanation": "R là tư thế nghỉ của hàm dưới (Rest position)[cite: 759, 779]."
+    },
+    {
+      "question": "Cơ cằm lưỡi bám từ vị trí nào đến lưỡi?",
+      "options": [
+        {"text": "Gai cằm", "isCorrect": true},
+        {"text": "Góc hàm", "isCorrect": false},
+        {"text": "Lồi cầu", "isCorrect": false},
+        {"text": "Xương thái dương", "isCorrect": false}
+      ],
+      "explanation": "Cơ cằm lưỡi bám từ gai cằm (mental spines)[cite: 572, 626]."
+    },
+    {
+      "question": "Bờ dưới cằm được ký hiệu là điểm mốc nào?",
+      "options": [
+        {"text": "Na", "isCorrect": false},
+        {"text": "Me (Menton)", "isCorrect": true},
+        {"text": "Go", "isCorrect": false},
+        {"text": "Po", "isCorrect": false}
+      ],
+      "explanation": "Me (Menton) là bờ dưới cằm[cite: 549]."
+    },
+    {
+      "question": "Góc hàm được ký hiệu là mốc giải phẫu nào?",
+      "options": [
+        {"text": "Pg", "isCorrect": false},
+        {"text": "Go (Gonion)", "isCorrect": true},
+        {"text": "Gn", "isCorrect": false},
+        {"text": "Po", "isCorrect": false}
+      ],
+      "explanation": "Go (Gonion) là góc hàm[cite: 549]."
+    },
+    {
+      "question": "Hố chân bướm (Pterygoid fovea) nằm ở đâu?",
+      "options": [
+        {"text": "Ở cằm", "isCorrect": false},
+        {"text": "Trước lồi cầu xương hàm dưới", "isCorrect": true},
+        {"text": "Trên mỏm vẹt", "isCorrect": false},
+        {"text": "Ở hố chậu", "isCorrect": false}
+      ],
+      "explanation": "Hố chân bướm nằm ở trước lồi cầu XHD, nơi cơ chân bướm ngoài bám[cite: 563, 603]."
+    },
+    {
+      "question": "Sụn chêm (Articular disc) chia khớp thành bao nhiêu khoang?",
+      "options": [
+        {"text": "1 khoang", "isCorrect": false},
+        {"text": "2 khoang (trên và dưới)", "isCorrect": true},
+        {"text": "4 khoang", "isCorrect": false},
+        {"text": "Không chia khoang", "isCorrect": false}
+      ],
+      "explanation": "Sụn chêm chia khớp thành buồng trên và buồng dưới[cite: 706]."
+    },
+    {
+      "question": "Thanh đới khép chặt và rung lên khi nào?",
+      "options": [
+        {"text": "Khi thở bình thường", "isCorrect": false},
+        {"text": "Khi phát âm", "isCorrect": true},
+        {"text": "Khi nuốt", "isCorrect": false},
+        {"text": "Khi nhai", "isCorrect": false}
+      ],
+      "explanation": "Khi phát âm, hai thanh đới khép chặt và rung tạo sóng âm[cite: 841]."
+    },
+    {
+      "question": "Trong giai đoạn cắn khớp của chu kỳ nhai, các cơ nâng hàm hoạt động như thế nào?",
+      "options": [
+        {"text": "Co lệch một bên", "isCorrect": false},
+        {"text": "Co đối xứng", "isCorrect": true},
+        {"text": "Giãn hoàn toàn", "isCorrect": false},
+        {"text": "Không hoạt động", "isCorrect": false}
+      ],
+      "explanation": "Trong giai đoạn cắn khớp, các cơ nâng hàm co đối xứng[cite: 810]."
+    },
+    {
+      "question": "Khoảng nghỉ giữa hai chu kỳ nhai là bao nhiêu?",
+      "options": [
+        {"text": "0,1 giây", "isCorrect": true},
+        {"text": "1 giây", "isCorrect": false},
+        {"text": "5 giây", "isCorrect": false},
+        {"text": "Không có khoảng nghỉ", "isCorrect": false}
+      ],
+      "explanation": "Khoảng nghỉ giữa 2 chu kỳ nhai khoảng 0,1 giây[cite: 811]."
+    },
+    {
+      "question": "Lưỡi được nâng lên khi nuốt nhờ sự hỗ trợ của các cơ nào?",
+      "options": [
+        {"text": "Cơ mút", "isCorrect": false},
+        {"text": "Cơ nhị thân, trâm-lưỡi, trâm-móng, lưỡi-khẩu cái", "isCorrect": true},
+        {"text": "Cơ nâng màng hầu", "isCorrect": false},
+        {"text": "Cơ vòng môi", "isCorrect": false}
+      ],
+      "explanation": "Lưỡi nâng lên nhờ các cơ nhị thân, trâm-lưỡi, trâm-móng, lưỡi-khẩu cái[cite: 817]."
+    },
+    {
+      "question": "Trục bản lề (Hinge axis) là gì?",
+      "options": [
+        {"text": "Trục xoay của răng", "isCorrect": false},
+        {"text": "Trục xoay trung tâm của hàm dưới khi há miệng xoay đơn thuần", "isCorrect": true},
+        {"text": "Trục của lồi cầu bên không làm việc", "isCorrect": false},
+        {"text": "Trục của xương hàm trên", "isCorrect": false}
+      ],
+      "explanation": "Trục xoay trung tâm gọi là trục bản lề, tại đó lồi cầu xoay tại chỗ (từ vị trí 1 đến II)[cite: 760]."
+    },
+    {
+      "question": "Cơ chân bướm ngoài (Lateral pterygoid) có bao nhiêu đầu cơ?",
+      "options": [
+        {"text": "1 đầu", "isCorrect": false},
+        {"text": "2 đầu (Superior head và Inferior head)", "isCorrect": true},
+        {"text": "3 đầu", "isCorrect": false},
+        {"text": "4 đầu", "isCorrect": false}
+      ],
+      "explanation": "Cơ chân bướm ngoài có đầu trên (superior) và đầu dưới (inferior)[cite: 696, 697]."
+    },
+    {
+      "question": "Dây chằng nào bám từ mỏm trâm đến góc hàm?",
+      "options": [
+        {"text": "Dây chằng trâm hàm (Stylomandibular lig.)", "isCorrect": true},
+        {"text": "Dây chằng bướm hàm", "isCorrect": false},
+        {"text": "Dây chằng thái dương hàm", "isCorrect": false},
+        {"text": "Dây chằng khớp", "isCorrect": false}
+      ],
+      "explanation": "Stylomandibular ligament là dây chằng trâm hàm[cite: 714, 715]."
+    },
+    {
+      "question": "Lồi củ xương hàm trên là nơi bám của cơ nâng hàm nào?",
+      "options": [
+        {"text": "Cơ cắn", "isCorrect": false},
+        {"text": "Cơ chân bướm trong và cơ chân bướm ngoài", "isCorrect": true},
+        {"text": "Cơ thái dương", "isCorrect": false},
+        {"text": "Cơ mút", "isCorrect": false}
+      ],
+      "explanation": "Cơ chân bướm trong và ngoài đều có phần bám ở lồi củ xương hàm trên[cite: 597, 603]."
+    },
+    {
+      "question": "Ngưỡng vị giác có thể thay đổi tùy thuộc vào yếu tố nào?",
+      "options": [
+        {"text": "Diện kích thích và thời gian kích thích", "isCorrect": true},
+        {"text": "Màu sắc thức ăn", "isCorrect": false},
+        {"text": "Độ dày của xương hàm", "isCorrect": false},
+        {"text": "Vị trí lỗ cằm", "isCorrect": false}
+      ],
+      "explanation": "Ngưỡng vị giác thay đổi theo diện tiếp xúc và thời gian[cite: 831]."
+    },
+    {
+      "question": "Phụ âm nào được gọi là 'phụ âm lưỡi kéo'?",
+      "options": [
+        {"text": "/m/, /n/", "isCorrect": false},
+        {"text": "/x/ (xa, xê, xi...)", "isCorrect": true},
+        {"text": "/đ/, /t/", "isCorrect": false},
+        {"text": "/v/, /ph/", "isCorrect": false}
+      ],
+      "explanation": "Âm /x/ là phụ âm lưỡi kéo, lưỡi ép lên mặt trong răng dưới[cite: 849]."
+    },
+    {
+      "question": "Xương hàm dưới có bao nhiêu cành lên?",
+      "options": [
+        {"text": "1", "isCorrect": false},
+        {"text": "2 (Ramus of mandible)", "isCorrect": true},
+        {"text": "3", "isCorrect": false},
+        {"text": "Không có cành lên", "isCorrect": false}
+      ],
+      "explanation": "Xương hàm dưới có 2 cành lên (Ramus) đối xứng hai bên[cite: 551]."
+    },
+    {
+      "question": "Hố dưới lưỡi (Sublingual fossa) nằm ở đâu?",
+      "options": [
+        {"text": "Phía trên đường hàm móng vùng răng trước", "isCorrect": true},
+        {"text": "Phía dưới đường hàm móng vùng răng sau", "isCorrect": false},
+        {"text": "Mặt ngoài vùng góc hàm", "isCorrect": false},
+        {"text": "Phía trên mỏm vẹt", "isCorrect": false}
+      ],
+      "explanation": "Hố dưới lưỡi nằm ở mặt trong vùng răng trước, phía trên đường hàm móng[cite: 569]."
+    },
+    {
+      "question": "Vận động trượt răng cửa dưới đến vị trí đối đầu răng cửa trên trong sơ đồ Posselt là di chuyển từ đâu đến đâu?",
+      "options": [
+        {"text": "Từ 1 đến 2", "isCorrect": false},
+        {"text": "Từ 1 qua 3", "isCorrect": true},
+        {"text": "Từ II đến III", "isCorrect": false},
+        {"text": "Từ 5 đến 4", "isCorrect": false}
+      ],
+      "explanation": "Trượt răng cửa dưới đến vị trí đối đầu qua cung đoạn (3)[cite: 783]."
+    },
+    {
+      "question": "Cơ vòm miệng - lưỡi (Palatoglossus) có chức năng gì?",
+      "options": [
+        {"text": "Kéo lưỡi ra trước", "isCorrect": false},
+        {"text": "Kéo lui sau và nâng lưỡi lên", "isCorrect": true},
+        {"text": "Há miệng tối đa", "isCorrect": false},
+        {"text": "Làm rung thanh đới", "isCorrect": false}
+      ],
+      "explanation": "Cơ vòm miệng - lưỡi giúp kéo lui sau và nâng lưỡi lên[cite: 630]."
+    },
+    {
+      "question": "Lực nhai dẫn truyền qua phục hình tháo lắp khung bộ chủ yếu vào mô nha chu của răng trụ chiếm bao nhiêu phần?",
+      "options": [
+        {"text": "Một phần nhỏ", "isCorrect": false},
+        {"text": "Chủ yếu", "isCorrect": true},
+        {"text": "100%", "isCorrect": false},
+        {"text": "Không dẫn truyền", "isCorrect": false}
+      ],
+      "explanation": "Lực nhai dẫn truyền chủ yếu trên mô nha chu răng trụ[cite: 512, 517]."
+    },
+    {
+      "question": "Mỏm vẹt của xương hàm dưới là vị trí bám của cơ nào?",
+      "options": [
+        {"text": "Cơ cắn", "isCorrect": false},
+        {"text": "Cơ thái dương", "isCorrect": true},
+        {"text": "Cơ mút", "isCorrect": false},
+        {"text": "Cơ vòng môi", "isCorrect": false}
+      ],
+      "explanation": "Cơ thái dương bám vào mỏm vẹt (Coronoid process)[cite: 591, 562]."
+    },
+    {
+      "question": "Hệ thống môi má có vai trò gì trong đánh giá phục hình?",
+      "options": [
+        {"text": "Chức năng nhai", "isCorrect": false},
+        {"text": "Đánh giá thẩm mỹ và nước bọt", "isCorrect": true},
+        {"text": "Vị giác mặn ngọt", "isCorrect": false},
+        {"text": "Nâng đỡ xương hàm", "isCorrect": false}
+      ],
+      "explanation": "Hệ thống môi-má quan trọng trong đánh giá thẩm mỹ và liên quan nước bọt[cite: 531, 532]."
+    },
+    {
+      "question": "Gai mùi sau (ENP) và Gai mùi trước (ENA) là các mốc giải phẫu quan trọng trên xương nào?",
+      "options": [
+        {"text": "Xương hàm dưới", "isCorrect": false},
+        {"text": "Xương hàm trên", "isCorrect": true},
+        {"text": "Xương bướm", "isCorrect": false},
+        {"text": "Xương thái dương", "isCorrect": false}
+      ],
+      "explanation": "ENA và ENP là các mốc gai mũi thuộc xương hàm trên[cite: 549]."
+    },
+    {
+      "question": "Chuyển động đưa hàm sang bên bao gồm mấy loại lồi cầu?",
+      "options": [
+        {"text": "Lồi cầu làm việc và lồi cầu không làm việc", "isCorrect": true},
+        {"text": "Lồi cầu trái và lồi cầu phải", "isCorrect": false},
+        {"text": "Lồi cầu trên và lồi cầu dưới", "isCorrect": false},
+        {"text": "Lồi cầu xoay và lồi cầu trượt", "isCorrect": false}
+      ],
+      "explanation": "Phân biệt lồi cầu bên làm việc và lồi cầu bên không làm việc[cite: 786]."
+    },
+    {
+      "question": "Âm /v/, /ph/ quan trọng để kiểm tra yếu tố nào trong phục hình?",
+      "options": [
+        {"text": "Độ dày nền hàm", "isCorrect": false},
+        {"text": "Độ dài răng hàm trên chạm vào môi dưới", "isCorrect": true},
+        {"text": "Độ rộng của vòm miệng", "isCorrect": false},
+        {"text": "Trương lực cơ mút", "isCorrect": false}
+      ],
+      "explanation": "Âm /f/ và /v/ giúp đảm bảo độ dài răng trên chạm môi dưới[cite: 854]."
+    },
+    {
+      "question": "Tại sao diện tiếp xúc rộng lại làm vị giác nhạy bén hơn?",
+      "options": [
+        {"text": "Vì kích thích được nhiều gai vị giác hơn", "isCorrect": true},
+        {"text": "Vì thức ăn loãng hơn", "isCorrect": false},
+        {"text": "Vì miệng mở rộng hơn", "isCorrect": false},
+        {"text": "Vì nhiệt độ ổn định ở 50 độ C", "isCorrect": false}
+      ],
+      "explanation": "Lưỡi tiếp xúc gai vị giác trên diện càng rộng càng tốt để cảm thụ tốt hơn[cite: 837]."
+    },
+    {
+      "question": "Đặc điểm cơ mút (Buccinator) là?",
+      "options": [
+        {"text": "Cơ dùng để há miệng", "isCorrect": false},
+        {"text": "Khối cơ môi má giúp tạo hình thẩm mỹ như núm đồng tiền", "isCorrect": true},
+        {"text": "Bám vào lồi cầu", "isCorrect": false},
+        {"text": "Điều khiển vị giác chua", "isCorrect": false}
+      ],
+      "explanation": "Cơ mút thuộc vòng đai môi má, tạo hình thẩm mỹ núm đồng tiền[cite: 645, 650]."
+    },
+    {
+      "question": "Chức năng của sụn chêm trong khớp thái dương hàm là?",
+      "options": [
+        {"text": "Chống mòn xương", "isCorrect": false},
+        {"text": "Tạo ổn định cho phần sau xương hàm dưới trong mọi pha vận động", "isCorrect": true},
+        {"text": "Dẫn truyền vị giác", "isCorrect": false},
+        {"text": "Tiết dịch khớp", "isCorrect": false}
+      ],
+      "explanation": "Sụn chêm tạo ổn định cho XHD trong mọi pha vận động[cite: 698]."
+    },
+    {
+      "question": "Đặc điểm của vận động nhai là?",
+      "options": [
+        {"text": "Mỗi chu kỳ chỉ có giai đoạn há", "isCorrect": false},
+        {"text": "Thời gian há lớn hơn thời gian ngậm", "isCorrect": true},
+        {"text": "Không có giai đoạn cắn khớp", "isCorrect": false},
+        {"text": "Chu kỳ nhai kéo dài 5 giây", "isCorrect": false}
+      ],
+      "explanation": "Trong chu kỳ nhai, thời gian giai đoạn há lớn hơn giai đoạn ngậm[cite: 812]."
+    },
+    {
+      "question": "Đường dẫn vị giác ở 2/3 trước lưỡi là dây thần kinh nào?",
+      "options": [
+        {"text": "Dây thiệt hầu (IX)", "isCorrect": false},
+        {"text": "Dây lưỡi (vị giác của dây VII)", "isCorrect": true},
+        {"text": "Dây hạ thiệt (XII)", "isCorrect": false},
+        {"text": "Dây tam thoa (V)", "isCorrect": false}
+      ],
+      "explanation": "Dây lưỡi dẫn vị giác 2/3 trước lưỡi[cite: 836]."
+    },
+    {
+      "question": "Hố cơ nhị thân (Digastric fossa) nằm ở đâu trên xương hàm dưới?",
+      "options": [
+        {"text": "Mặt trong, gần gai cằm", "isCorrect": true},
+        {"text": "Trên lồi cầu", "isCorrect": false},
+        {"text": "Mặt ngoài cành lên", "isCorrect": false},
+        {"text": "Ở góc hàm", "isCorrect": false}
+      ],
+      "explanation": "Digastric fossa nằm ở mặt trong thân xương gần vùng cằm[cite: 576]."
+    },
+    {
+      "question": "Trục bản lề (Hinge axis) xuất hiện trong pha vận động nào?",
+      "options": [
+        {"text": "Há miệng tối đa", "isCorrect": false},
+        {"text": "Há miệng từ vị trí 1 đến II", "isCorrect": true},
+        {"text": "Đưa hàm sang bên", "isCorrect": false},
+        {"text": "Ngậm miệng từ vị trí III", "isCorrect": false}
+      ],
+      "explanation": "Hàm dưới há theo trục bản lề đến vị trí II (lồi cầu xoay tại chỗ)[cite: 760]."
+    },
+    {
+      "question": "Vai trò của nước bọt trong sinh lý vị giác là gì?",
+      "options": [
+        {"text": "Diệt vi khuẩn", "isCorrect": false},
+        {"text": "Môi trường hòa tan các phân tử vật chất để mầm vị giác cảm nhận", "isCorrect": true},
+        {"text": "Làm trơn răng", "isCorrect": false},
+        {"text": "Làm nóng thức ăn", "isCorrect": false}
+      ],
+      "explanation": "Các phân tử vật chất hòa tan trong nước bọt mới được mầm vị giác tiếp nhận[cite: 825, 834]."
+    },
+    {
+      "question": "Phụ âm nào được gọi là 'phụ âm họng'?",
+      "options": [
+        {"text": "/kh/, /nh/, /n/", "isCorrect": true},
+        {"text": "/đ/, /t/", "isCorrect": false},
+        {"text": "/a/, /e/", "isCorrect": false},
+        {"text": "/p/, /b/", "isCorrect": false}
+      ],
+      "explanation": "Âm /kh/, /nh/, /n/ là các phụ âm họng[cite: 850]."
+    },
+    {
+      "question": "Diện khớp của hõm chão có cấu tạo lồi ở phía gần được gọi là gì?",
+      "options": [
+        {"text": "Hố khớp", "isCorrect": false},
+        {"text": "Củ khớp (Tubercule glénoide)", "isCorrect": true},
+        {"text": "Lồi cầu", "isCorrect": false},
+        {"text": "Mỏm vẹt", "isCorrect": false}
+      ],
+      "explanation": "Hõm chão lồi ở phía gần gọi là củ khớp[cite: 680]."
+    },
+    {
+      "question": "Khớp thái dương hàm được bôi trơn bởi thành phần nào?",
+      "options": [
+        {"text": "Máu", "isCorrect": false},
+        {"text": "Bao hoạt dịch", "isCorrect": true},
+        {"text": "Nước bọt", "isCorrect": false},
+        {"text": "Dịch tủy xương", "isCorrect": false}
+      ],
+      "explanation": "Các mặt sụn chêm và diện khớp được bôi trơn bởi bao hoạt dịch[cite: 699]."
+    },
+    {
+      "question": "Cơ nào giúp kéo lưỡi lui sau và nâng lưỡi lên?",
+      "options": [
+        {"text": "Cơ trâm - lưỡi (Styloglossus)", "isCorrect": true},
+        {"text": "Cơ cằm lưỡi", "isCorrect": false},
+        {"text": "Cơ vòng môi", "isCorrect": false},
+        {"text": "Cơ khít hầu trên", "isCorrect": false}
+      ],
+      "explanation": "Cơ trâm - lưỡi giúp kéo lui sau và nâng lưỡi lên[cite: 631, 629]."
+    },
+    {
+      "question": "Chức năng chính của xương hàm dưới là gì?",
+      "options": [
+        {"text": "Bảo vệ não bộ", "isCorrect": false},
+        {"text": "Thực hiện chức năng ăn nhai và phát âm", "isCorrect": true},
+        {"text": "Lưu trữ canxi", "isCorrect": false},
+        {"text": "Nâng đỡ mũi", "isCorrect": false}
+      ],
+      "explanation": "XHD là thành phần di động giúp thực hiện các hoạt động chức năng như nhai, nuốt, phát âm[cite: 547]."
+    },
+    {
+      "question": "Mầm vị giác tập trung chủ yếu ở bộ phận nào?",
+      "options": [
+        {"text": "Răng", "isCorrect": false},
+        {"text": "Gai lưỡi", "isCorrect": true},
+        {"text": "Vòm miệng cứng", "isCorrect": false},
+        {"text": "Cơ cắn", "isCorrect": false}
+      ],
+      "explanation": "Vị giác cảm thụ từ những gai lưỡi[cite: 837]."
+    },
+    {
+      "question": "Vị trí hố dưới hàm chứa bộ phận nào?",
+      "options": [
+        {"text": "Tuyến mang tai", "isCorrect": false},
+        {"text": "Tuyến dưới hàm", "isCorrect": true},
+        {"text": "Thần kinh thị giác", "isCorrect": false},
+        {"text": "Xoang hàm", "isCorrect": false}
+      ],
+      "explanation": "Hố dưới hàm (submandibular fossa) là nơi nằm của tuyến dưới hàm[cite: 574]."
+    },
+    {
+      "question": "Lỗ cằm (Mental foramen) thường nằm gần vị trí răng nào?",
+      "options": [
+        {"text": "Răng cửa", "isCorrect": false},
+        {"text": "Răng hàm nhỏ (răng cối nhỏ)", "isCorrect": true},
+        {"text": "Răng khôn", "isCorrect": false},
+        {"text": "Răng nanh", "isCorrect": false}
+      ],
+      "explanation": "Lỗ cằm thường nằm ở vùng dưới các răng hàm nhỏ[cite: 561]."
+    },
+    {
+      "question": "Cơ vòm miệng mềm có bao nhiêu cơ chính được liệt kê?",
+      "options": [
+        {"text": "2 cơ (Nâng màng hầu và Căng màng hầu)", "isCorrect": true},
+        {"text": "4 cơ", "isCorrect": false},
+        {"text": "6 cơ", "isCorrect": false},
+        {"text": "1 cơ", "isCorrect": false}
+      ],
+      "explanation": "Tài liệu liệt kê Levator veli palatini và Tensor veli palatini[cite: 656, 657]."
+    },
+    {
+      "question": "Đường nhãn của lồi cầu khi đưa hàm ra trước có hình dạng gì?",
+      "options": [
+        {"text": "Hình chữ V", "isCorrect": false},
+        {"text": "Hình chữ S", "isCorrect": true},
+        {"text": "Đường thẳng tắp", "isCorrect": false},
+        {"text": "Hình vòng cung tròn", "isCorrect": false}
+      ],
+      "explanation": "Lồi cầu chuyển động theo cung đoạn hình chữ S ra trước và xuống dưới[cite: 784]."
+    },
+    {
+      "question": "Khi răng cửa ở tư thế chạm đầu, xương hàm dưới đang ở pha vận động nào?",
+      "options": [
+        {"text": "Pha cắt/cắn", "isCorrect": true},
+        {"text": "Pha nuốt", "isCorrect": false},
+        {"text": "Pha ngậm miệng lui sau", "isCorrect": false},
+        {"text": "Pha há tối đa", "isCorrect": false}
+      ],
+      "explanation": "Trong pha cắt/cắn, XHD đưa ra trước hoặc sang bên để răng cửa chạm đầu[cite: 802]."
+    },
+    {
+      "question": "Cơ nào giúp kéo thẳng lưỡi ra sau?",
+      "options": [
+        {"text": "Cơ khít hầu trên", "isCorrect": true},
+        {"text": "Cơ mút", "isCorrect": false},
+        {"text": "Cơ cằm lưỡi", "isCorrect": false},
+        {"text": "Cơ nâng màng hầu", "isCorrect": false}
+      ],
+      "explanation": "Cơ khít hầu trên giúp kéo thẳng và lui sau[cite: 633, 634]."
+    },
+    {
+      "question": "Phụ âm rung /r/ do bộ phận nào rung?",
+      "options": [
+        {"text": "Gốc lưỡi", "isCorrect": false},
+        {"text": "Đầu lưỡi", "isCorrect": true},
+        {"text": "Môi", "isCorrect": false},
+        {"text": "Răng", "isCorrect": false}
+      ],
+      "explanation": "Âm /r/ do đầu lưỡi cong và rung[cite: 856]."
+    },
+    {
+      "question": "Vị trí 'r' trên cung đoạn (h) trong sơ đồ Posselt là gì?",
+      "options": [
+        {"text": "Há miệng tối đa", "isCorrect": false},
+        {"text": "Vị trí nghỉ", "isCorrect": true},
+        {"text": "Vị trí lồng múi", "isCorrect": false},
+        {"text": "Vị trí đối đầu", "isCorrect": false}
+      ],
+      "explanation": "r trên cung đoạn (h) là vị trí nghỉ[cite: 764]."
+    },
+    {
+      "question": "Trình bày nào đúng về lồi cầu không làm việc?",
+      "options": [
+        {"text": "Nó xoay tại chỗ", "isCorrect": false},
+        {"text": "Nó trượt ra sau", "isCorrect": false},
+        {"text": "Nó di chuyển ra trước, xuống dưới và vào trong", "isCorrect": true},
+        {"text": "Nó không di chuyển", "isCorrect": false}
+      ],
+      "explanation": "Lồi cầu bên không làm việc trượt ra trước, xuống dưới và vào trong[cite: 789]."
+    },
+    {
+      "question": "Chức năng nhai được tái lập tốt nhất khi đưa khớp cắn về hạng mấy?",
+      "options": [
+        {"text": "Hạng 1", "isCorrect": true},
+        {"text": "Hạng 2", "isCorrect": false},
+        {"text": "Hạng 3", "isCorrect": false},
+        {"text": "Không cần theo hạng", "isCorrect": false}
+      ],
+      "explanation": "Để tái lập chức năng, thông thường đưa khớp cắn về hạng 1[cite: 798]."
+    },
+    {
+      "question": "Điểm Po (Porion) nằm ở vị trí nào?",
+      "options": [
+        {"text": "Dưới mắt", "isCorrect": false},
+        {"text": "Trước trên ống tai ngoài", "isCorrect": true},
+        {"text": "Đỉnh đầu", "isCorrect": false},
+        {"text": "Góc hàm", "isCorrect": false}
+      ],
+      "explanation": "Po (Porion) nằm ở trước trên ống tai ngoài[cite: 549]."
+    },
+    {
+      "question": "Điểm Or (Orbitaire) nằm ở đâu?",
+      "options": [
+        {"text": "Góc miệng", "isCorrect": false},
+        {"text": "Bờ dưới ổ mắt", "isCorrect": true},
+        {"text": "Xương sàng", "isCorrect": false},
+        {"text": "Đỉnh lồi cầu", "isCorrect": false}
+      ],
+      "explanation": "Or (Orbitaire) là bờ dưới ổ mắt[cite: 549]."
+    },
+    {
+      "question": "Năng lượng cắn khớp lớn nhất tập trung ở nhóm răng nào?",
+      "options": [
+        {"text": "Răng cửa", "isCorrect": false},
+        {"text": "Răng nanh", "isCorrect": false},
+        {"text": "Răng sau (răng hàm)", "isCorrect": true},
+        {"text": "Răng giả", "isCorrect": false}
+      ],
+      "explanation": "Lực cắn răng sau là lớn nhất (50-150kgf) và giảm dần về phía trước[cite: 806]."
+    },
+    {
+      "question": "Sự dịch chuyển nhẹ của răng trong xương ổ răng khi nhai có tác dụng gì?",
+      "options": [
+        {"text": "Làm lung lay răng", "isCorrect": false},
+        {"text": "Làm giảm tác hại lên răng", "isCorrect": true},
+        {"text": "Gây đau đớn", "isCorrect": false},
+        {"text": "Kích thích sâu răng", "isCorrect": false}
+      ],
+      "explanation": "Dịch chuyển nhẹ của răng giúp giảm tác hại lên răng[cite: 814]."
+    },
+    {
+      "question": "Khi phát âm rung ngắn /ê/, /i/, hốc miệng thay đổi như thế nào?",
+      "options": [
+        {"text": "Mở rộng tối đa", "isCorrect": false},
+        {"text": "Thu ngắn do môi kéo lại và lưỡi nâng cao", "isCorrect": true},
+        {"text": "Kéo dài ra sau", "isCorrect": false},
+        {"text": "Môi chu ra trước", "isCorrect": false}
+      ],
+      "explanation": "Phát âm /ê/, /i/ hốc miệng thu ngắn, lưỡi nâng cao chạm răng hàm[cite: 844]."
+    },
+    {
+      "question": "Hố cơ cắn (Masseteric tuberosity) nằm ở đâu?",
+      "options": [
+        {"text": "Mặt ngoài góc hàm", "isCorrect": true},
+        {"text": "Mặt trong cành lên", "isCorrect": false},
+        {"text": "Trên mỏm vẹt", "isCorrect": false},
+        {"text": "Ở cằm", "isCorrect": false}
+      ],
+      "explanation": "Masseteric tuberosity nằm ở mặt ngoài góc hàm, nơi cơ cắn bám[cite: 567, 584]."
+    },
+    {
+      "question": "Lồi củ chân bướm (Pterygoid tuberosity) nằm ở vị trí nào?",
+      "options": [
+        {"text": "Mặt trong góc hàm", "isCorrect": true},
+        {"text": "Mặt ngoài cành ngang", "isCorrect": false},
+        {"text": "Trên lồi cầu", "isCorrect": false},
+        {"text": "Gần gai cằm", "isCorrect": false}
+      ],
+      "explanation": "Pterygoid tuberosity nằm ở mặt trong góc hàm[cite: 570]."
+    },
+    {
+      "question": "Đường chéo ngoài (Oblique line) của xương hàm dưới đi từ đâu?",
+      "options": [
+        {"text": "Từ cằm đến lồi cầu", "isCorrect": false},
+        {"text": "Từ bờ trước cành lên đến vùng răng hàm lớn", "isCorrect": true},
+        {"text": "Từ lỗ cằm đến góc hàm", "isCorrect": false},
+        {"text": "Chạy dọc mặt trong cành ngang", "isCorrect": false}
+      ],
+      "explanation": "Oblique line chạy từ bờ trước cành lên xuống mặt ngoài cành ngang[cite: 566]."
+    },
+    {
+      "question": "Xoang vang rộng phía sau khi phát âm những âm nào?",
+      "options": [
+        {"text": "/ô/, /u/", "isCorrect": false},
+        {"text": "/ê/, /i/", "isCorrect": true},
+        {"text": "/a/, /e/", "isCorrect": false},
+        {"text": "/m/, /p/", "isCorrect": false}
+      ],
+      "explanation": "Khi phát âm /ê/, /i/ xoang vang rộng phía sau[cite: 844]."
+    },
+    {
+      "question": "Trong vận động há ngậm, sự cân bằng lực xảy ra ở đâu?",
+      "options": [
+        {"text": "Chỉ ở cơ nâng hàm", "isCorrect": false},
+        {"text": "Các cơ nâng và hạ hàm", "isCorrect": true},
+        {"text": "Môi và má", "isCorrect": false},
+        {"text": "Thanh đới", "isCorrect": false}
+      ],
+      "explanation": "Trong há ngậm, lực co và dãn các cơ nâng và hạ hàm cân bằng[cite: 809]."
+    },
+    {
+      "question": "Tuyến nước bọt mang tai có vai trò gì trong nhai nuốt?",
+      "options": [
+        {"text": "Tiết dịch lỏng giúp làm mềm thức ăn", "isCorrect": true},
+        {"text": "Tiết dịch nhầy làm dính thức ăn", "isCorrect": false},
+        {"text": "Chỉ tiết dịch khi ngủ", "isCorrect": false},
+        {"text": "Không có vai trò gì", "isCorrect": false}
+      ],
+      "explanation": "Các tuyến nước bọt giúp nhai, nuốt và làm ướt cấu trúc miệng[cite: 820, 534]."
+    },
+    {
+      "question": "Lồi cầu làm việc di chuyển trong bao chuyển động có hình gì?",
+      "options": [
+        {"text": "Hình chóp nón", "isCorrect": true},
+        {"text": "Hình trụ", "isCorrect": false},
+        {"text": "Hình lập phương", "isCorrect": false},
+        {"text": "Hình elip", "isCorrect": false}
+      ],
+      "explanation": "Lồi cầu làm việc di chuyển trong bao chuyển động hình chóp nón[cite: 787]."
+    }
+  ]

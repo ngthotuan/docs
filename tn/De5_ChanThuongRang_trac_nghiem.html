@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chấn thương răng trẻ em</title>
+<style>
+  :root{--card:#1e293b;--accent:#f43f5e;--ok:#22c55e;--bad:#ef4444;--txt:#e2e8f0;--muted:#94a3b8;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(160deg,#0f172a,#1a0a10);color:var(--txt);line-height:1.5;padding:16px;}
+  .wrap{max-width:820px;margin:0 auto;}
+  header{text-align:center;padding:14px 0 8px;}
+  header h1{font-size:1.35rem;margin:0 0 4px;color:#fff;}
+  header p{margin:2px 0;color:var(--muted);font-size:.9rem;}
+  .topnav{text-align:center;margin-top:8px;}
+  .topnav a{color:var(--accent);font-size:.82rem;text-decoration:none;}
+  .panel{background:var(--card);border:1px solid #334155;border-radius:14px;padding:20px;margin-top:16px;box-shadow:0 8px 30px rgba(0,0,0,.35);}
+  .bar{height:8px;background:#0b1220;border-radius:99px;overflow:hidden;margin:10px 0 4px;}
+  .bar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),#22c55e);transition:width .3s;}
+  .meta{display:flex;justify-content:space-between;font-size:.82rem;color:var(--muted);margin-bottom:6px;flex-wrap:wrap;gap:6px;}
+  .q{font-size:1.08rem;font-weight:600;margin:6px 0 14px;color:#fff;}
+  .opt{display:block;width:100%;text-align:left;background:#0b1220;border:1.5px solid #334155;color:var(--txt);border-radius:10px;padding:12px 14px;margin:8px 0;cursor:pointer;font-size:.98rem;transition:all .15s;}
+  .opt:hover:not(:disabled){border-color:var(--accent);}
+  .opt .k{display:inline-block;width:22px;font-weight:700;color:var(--accent);}
+  .opt.correct{border-color:var(--ok);background:rgba(34,197,94,.12);}
+  .opt.wrong{border-color:var(--bad);background:rgba(239,68,68,.12);}
+  .opt:disabled{cursor:default;opacity:.95;}
+  .explain{margin-top:10px;padding:11px 13px;border-radius:10px;background:#0b1220;border-left:4px solid var(--accent);font-size:.9rem;color:#cbd5e1;display:none;}
+  .explain.show{display:block;}
+  .row{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;}
+  button.btn{background:var(--accent);color:#3a0512;border:none;border-radius:10px;padding:11px 18px;font-weight:700;cursor:pointer;font-size:.95rem;}
+  button.btn.sec{background:#334155;color:#e2e8f0;}
+  button.btn:disabled{opacity:.4;cursor:not-allowed;}
+  .center{text-align:center;}
+  .big{font-size:2.4rem;font-weight:800;color:#fff;margin:6px 0;}
+  .tag{display:inline-block;font-size:.72rem;background:#0b1220;border:1px solid #334155;color:var(--muted);padding:3px 9px;border-radius:99px;margin-bottom:8px;}
+  .grid{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+  .chip{font-size:.8rem;padding:6px 10px;border-radius:8px;border:1px solid #334155;background:#0b1220;cursor:pointer;}
+  .chip.on{border-color:var(--accent);color:var(--accent);}
+  .review-item{border-top:1px solid #334155;padding:12px 0;font-size:.9rem;}
+  .review-item .ri-q{font-weight:600;color:#fff;}
+  .review-item .ri-a{color:#cbd5e1;margin-top:4px;}
+  .ok{color:var(--ok)} .bad{color:var(--bad)}
+  a.src{color:var(--muted);font-size:.78rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">ĐỀ 5 · Trắc nghiệm A/B/C/D</span>
+    <h1>Chấn thương răng trẻ em</h1>
+    <p>Dịch tễ · Phân loại · Thăm khám · Điều trị răng sữa &amp; vĩnh viễn · Di chứng bệnh lý</p>
+    <div class="topnav"><a href="index.html">&#8592; Danh sách đề</a></div>
+  </header>
+
+  <div class="panel" id="start">
+    <p>Bộ câu hỏi bám sát tài liệu. Mỗi câu có 4 phương án gần giống nhau để tăng độ khó. Chọn số câu muốn luyện:</p>
+    <div class="grid" id="countChips"></div>
+    <div class="row">
+      <label style="display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)">
+        <input type="checkbox" id="shuffle" checked> Xáo trộn câu hỏi &amp; đáp án
+      </label>
+    </div>
+    <div class="row">
+      <button class="btn" onclick="startQuiz()">Bắt đầu luyện tập &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel" id="quiz" style="display:none">
+    <div class="meta"><span id="progressTxt"></span><span id="scoreTxt"></span></div>
+    <div class="bar"><i id="progressBar"></i></div>
+    <div class="q" id="qText"></div>
+    <div id="opts"></div>
+    <div class="explain" id="explain"></div>
+    <div class="row">
+      <button class="btn sec" id="skipBtn" onclick="nextQ()">Bỏ qua</button>
+      <button class="btn" id="nextBtn" onclick="nextQ()" disabled>Câu tiếp &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel center" id="result" style="display:none">
+    <p class="tag">KẾT QUẢ</p>
+    <div class="big" id="finalScore"></div>
+    <p id="finalMsg" style="color:var(--muted)"></p>
+    <div class="row" style="justify-content:center">
+      <button class="btn" onclick="location.reload()">Làm lại &#8635;</button>
+      <button class="btn sec" onclick="toggleReview()">Xem lại bài &#9662;</button>
+    </div>
+    <div id="review" style="text-align:left;display:none;margin-top:14px"></div>
+  </div>
+
+  <p class="center" style="margin-top:18px"><a class="src" href="9. chan thuong rang.pdf">Nguồn: 9. chan thuong rang.pdf</a></p>
+</div>
+
+<script>
+const BANK = [{"q": "Chấn thương răng sữa hay gặp nhất ở lứa tuổi nào?", "a": ["Dưới 3 tuổi, đặc biệt 18–30 tháng", "6–12 tuổi", "Trên 12 tuổi", "3–6 tuổi"], "c": 0, "e": "Chấn thương răng sữa gặp nhiều ở trẻ <3 tuổi, đặc biệt giai đoạn 18–30 tháng tuổi."}, {"q": "Tỷ lệ trẻ em bị chấn thương răng sữa theo tài liệu là:", "a": ["Khoảng 1/3 trẻ em", "Khoảng 1/10 trẻ em", "Khoảng 2/3 trẻ em", "Khoảng 1/2 trẻ em"], "c": 0, "e": "Khoảng 1/3 trẻ em bị chấn thương răng sữa."}, {"q": "Răng nào hay bị chấn thương nhất trong hệ răng sữa?", "a": ["Răng cửa giữa trên", "Răng cửa bên trên", "Răng nanh trên", "Răng cối sữa dưới"], "c": 0, "e": "Vị trí hay gặp: răng cửa giữa trên, sau đó đến răng cửa bên trên."}, {"q": "Kiểu chấn thương răng sữa thường gặp nhất là:", "a": ["Trật khớp (~70%)", "Gãy răng (~70%)", "Rơi răng hoàn toàn", "Gãy xương hàm"], "c": 0, "e": "Kiểu chấn thương răng sữa: trật khớp ~70%, gãy răng ~30%."}, {"q": "Yếu tố nào KHÔNG phải là yếu tố thuận lợi gây chấn thương răng sữa?", "a": ["Vệ sinh răng miệng kém", "Tăng độ cắn chìa", "Động kinh, bị ngược đãi", "Hội chứng tăng động"], "c": 0, "e": "Yếu tố thuận lợi: tăng độ cắn chìa, động kinh, bị ngược đãi, hội chứng tăng động — không phải vệ sinh răng miệng kém."}, {"q": "Trong bệnh sử toàn thân của trẻ chấn thương, bệnh tim cần lưu ý điều gì?", "a": ["Cần phòng ngừa viêm nội tâm mạc bán cấp", "Không cần lưu ý", "Chống chỉ định mọi điều trị", "Chỉ cần đo huyết áp"], "c": 0, "e": "Với bệnh tim cần phòng ngừa viêm nội tâm mạc bán cấp; cũng cần lưu ý rối loạn chảy máu, dị ứng thuốc, động kinh, chủng ngừa uốn ván."}, {"q": "Thông tin nào cần khai thác trong bệnh sử răng chấn thương?", "a": ["Đau tự phát, nhạy cảm nóng/lạnh/chua/ngọt, nhạy cảm khi chạm hoặc ăn nhai", "Nhóm máu của trẻ", "Chiều cao cân nặng", "Thói quen chải răng của mẹ"], "c": 0, "e": "Bệnh sử răng tổn thương: tình trạng răng trước/sau tổn thương, đau tự phát, nhạy cảm nóng/lạnh/chua/ngọt, nhạy cảm khi chạm hoặc ăn nhai."}, {"q": "Trên phim tia X khi khám răng chấn thương KHÔNG đánh giá yếu tố nào?", "a": ["Màu sắc thân răng", "Vết gãy chân răng và mức độ phát triển chân răng", "Thấu quang quanh chóp, sự tiêu xương", "Vị trí răng chưa mọc, vật lạ trong mô mềm"], "c": 0, "e": "Phim tia X đánh giá vết gãy chân răng, mức phát triển chân răng, kích thước buồng tủy, thấu quang quanh chóp, tiêu xương, răng chưa mọc, gãy xương hàm, vật lạ — không đánh giá màu sắc."}, {"q": "Trước khi lập kế hoạch điều trị chấn thương, cần chú ý các vấn đề nào?", "a": ["Tuổi bệnh nhân, độ an toàn của biện pháp, khả năng điều trị của nha sĩ, khả năng theo dõi", "Giá vật liệu, màu răng", "Số lượng nhân viên phòng nha", "Loại ghế nha khoa"], "c": 0, "e": "Cần chú ý: tuổi bệnh nhân, độ an toàn của biện pháp, khả năng điều trị của nha sĩ, khả năng theo dõi của bệnh nhân."}, {"q": "Với răng sữa gãy men mức độ nhỏ, xử trí là:", "a": ["Mài nhẵn bờ men", "Tái tạo composite", "Điều trị tủy", "Nhổ răng"], "c": 0, "e": "Gãy men nhỏ: mài nhẵn bờ men; gãy lớn: tái tạo bằng composite."}, {"q": "Với răng sữa gãy men ngà chưa chạm tủy, xử trí là:", "a": ["Đặt Ca(OH)2 rồi trám composite", "Che tủy trực tiếp bắt buộc", "Nhổ răng", "Lấy tủy chân"], "c": 0, "e": "Răng sữa gãy men ngà chưa chạm tủy: đặt Ca(OH)2 → composite; theo dõi 2 tuần, 1 tháng, 2 tháng, 3 tháng."}, {"q": "Với răng sữa gãy men ngà CHẠM tủy, quan điểm điều trị đúng là:", "a": ["Không chỉ định che tủy trực tiếp; theo dõi, nếu tủy chết thì lấy tủy chân/nhổ", "Luôn che tủy trực tiếp như răng vĩnh viễn", "Bắt buộc nhổ ngay", "Chỉ trám composite là đủ"], "c": 0, "e": "Ở răng sữa chạm tủy: không chỉ định che tủy trực tiếp; theo dõi 6–8 tuần; nếu tủy chết → lấy tủy chân/nhổ."}, {"q": "Chỉ định NHỔ răng sữa chấn thương gồm trường hợp nào?", "a": ["Mất mô răng quá nhiều, nội/ngoại tiêu, nhiễm trùng lan xuống mầm răng vĩnh viễn, trẻ không hợp tác", "Chỉ đổi màu răng", "Chỉ nứt men đơn thuần", "Nhạy cảm nhẹ khi ăn"], "c": 0, "e": "Nhổ răng sữa khi mất mô răng quá nhiều, nội/ngoại tiêu, nhiễm trùng lan xuống mầm Rvv, trẻ không chịu hợp tác."}, {"q": "Với gãy thân–chân răng sữa loại ĐƠN GIẢN, xử trí là:", "a": ["Loại bỏ đoạn gãy và điều trị tủy", "Nhổ răng ngay", "Chỉ mài nhẵn", "Che tủy trực tiếp"], "c": 0, "e": "Gãy thân–chân đơn giản: loại bỏ đoạn gãy - điều trị tủy; theo dõi 6–8 tuần, 1 năm."}, {"q": "Với gãy thân–chân răng sữa loại PHỨC TẠP, xử trí là:", "a": ["Nhổ răng", "Chỉ trám composite", "Che tủy trực tiếp", "Không điều trị"], "c": 0, "e": "Gãy thân–chân phức tạp: nhổ răng."}, {"q": "Gãy chân răng sữa ở vị trí 1/3 giữa hoặc 1/3 chóp mà răng KHÔNG di lệch thì:", "a": ["Không cần điều trị", "Nhổ răng ngay", "Điều trị tủy toàn bộ", "Cố định 8 tuần bắt buộc"], "c": 0, "e": "Gãy 1/3 giữa và 1/3 chóp mà răng không di lệch: không điều trị."}, {"q": "Gãy chân răng sữa ở 1/3 cổ với đoạn gãy DI LỆCH thì xử trí:", "a": ["Nhổ đoạn gãy phía trên", "Cố định vĩnh viễn", "Cắm lại đoạn gãy", "Che tủy"], "c": 0, "e": "Gãy 1/3 cổ, đoạn gãy di lệch: nhổ đoạn gãy phía trên."}, {"q": "Sau khi cố định răng sữa gãy chân răng, việc điều trị tủy được chỉ định thế nào?", "a": ["Không cần điều trị tủy sau cố định (trừ khi có dấu hiệu hoại tử)", "Luôn điều trị tủy ngay sau cố định", "Nhổ răng sau cố định", "Che tủy trực tiếp"], "c": 0, "e": "Cố định răng 4–8 tuần nếu có di lệch/lung lay và trẻ hợp tác; không cần điều trị tủy sau cố định. Nếu có áp xe (hoại tử tủy thân răng) mới điều trị tủy phía trên đoạn gãy."}, {"q": "Răng chấn động và bán trật khớp ở răng sữa được xử trí thế nào?", "a": ["Không cần điều trị, theo dõi 6–8 tuần, tư vấn VSRM và ăn mềm", "Nhổ răng", "Điều trị tủy ngay", "Nẹp cố định 8 tuần"], "c": 0, "e": "Răng chấn động và bán trật khớp: không cần điều trị, theo dõi 6–8 tuần, theo dõi đổi màu, tư vấn vệ sinh răng miệng + chế độ ăn mềm."}, {"q": "Trong trật khớp sang bên răng sữa, trường hợp nào có chỉ định NHỔ?", "a": ["Di lệch nhiều / răng trật về phía ngoài kèm gãy xương ổ răng", "Di lệch nhỏ không cản khớp cắn", "Chỉ đổi màu nhẹ", "Không có triệu chứng"], "c": 0, "e": "Trật khớp sang bên: di lệch nhỏ không cản khớp cắn thì răng tự điều chỉnh; có cản khớp cắn thì nẹp 2 tuần; di lệch nhiều/gãy xương ổ → nhổ."}, {"q": "Với răng sữa TRỒI >3mm và chóp đã đóng, xử trí là:", "a": ["Nhổ răng", "Nẹp cố định 2 tuần", "Để tự mọc lại", "Che tủy"], "c": 0, "e": "Trồi >3mm, chóp đóng: chỉ định nhổ. Trồi <3mm, răng có chóp mở: nẹp cố định 2 tuần."}, {"q": "Với răng sữa LÚN về phía mặt ngoài, xử trí là:", "a": ["Để răng tự mọc lại (trung bình khoảng 3 tháng)", "Nhổ ngay", "Kéo răng xuống bằng chỉnh nha", "Điều trị tủy"], "c": 0, "e": "Răng sữa lún về mặt ngoài: để tự mọc lại, thời gian trung bình ~3 tháng. Nếu lún trong xương/hướng về mầm Rvv thì nhổ."}, {"q": "Với răng sữa lún vào trong xương/chân răng hướng về mầm răng vĩnh viễn, xử trí là:", "a": ["Nhổ răng", "Để tự mọc lại", "Nẹp cố định", "Che tủy"], "c": 0, "e": "Răng sữa lún nằm trong xương hoặc chân hướng về mầm Rvv: chỉ định nhổ để tránh tổn thương mầm răng vĩnh viễn."}, {"q": "Với răng sữa bị rơi ra ngoài (bật khỏi ổ răng), khuyến cáo điều trị là:", "a": ["Không khuyến cáo cắm lại răng sữa", "Cắm lại ngay lập tức như răng vĩnh viễn", "Ngâm dung dịch Hank rồi cắm", "Nẹp cố định 4 tuần"], "c": 0, "e": "Với răng sữa rơi ra ngoài, việc cắm lại răng KHÔNG được khuyến cáo; chỉ theo dõi."}, {"q": "Nguyên tắc chung khi xử trí trật khớp răng sữa là:", "a": ["Để lành thương tự nhiên, tránh lực tác động vào mầm răng vĩnh viễn bên dưới", "Luôn nẹp cố định mọi trường hợp", "Luôn điều trị tủy dự phòng", "Cắm chỉnh mạnh về vị trí cũ"], "c": 0, "e": "Các tác giả khuyến cáo để lành thương tự nhiên, tránh lực tác động vào mầm răng vĩnh viễn."}, {"q": "Ở răng sữa trật khớp, khi nào chỉ định điều trị tủy?", "a": ["Chỉ khi có hoại tử tủy (áp xe)", "Ngay khi có đổi màu", "Ngay khi vôi hóa ống tủy", "Mọi trường hợp trật khớp"], "c": 0, "e": "Chỉ điều trị tủy khi có hoại tử tủy (áp xe); vôi hóa ống tủy và tiêu chân răng nhanh chóng xảy ra sau điều trị thì không cần can thiệp."}, {"q": "'Sung huyết tủy' là gì trong di chứng chấn thương?", "a": ["Đáp ứng đầu tiên của tủy với chấn thương, có thể phục hồi hoàn toàn", "Tình trạng tủy đã hoại tử chắc chắn", "Nhiễm trùng lan xuống xương", "Vôi hóa hoàn toàn ống tủy"], "c": 0, "e": "Sung huyết tủy là đáp ứng đầu tiên của tủy với chấn thương, nhạy cảm gõ, có thể phục hồi hoàn toàn; nặng thì đổi màu tồn tại vĩnh viễn hoặc tắc nghẽn máu vùng chóp gây hoại tử tủy."}, {"q": "Ở răng sữa, nếu chỉ có sự ĐỔI MÀU đơn thuần thì:", "a": ["Không chỉ định điều trị tủy hoặc nhổ", "Bắt buộc điều trị tủy", "Bắt buộc nhổ", "Che tủy trực tiếp"], "c": 0, "e": "Ở răng sữa, không chỉ định điều trị tủy hoặc nhổ nếu chỉ có sự đổi màu."}, {"q": "'Tiêu ngót thay thế (cứng khớp)' có đặc điểm nào?", "a": ["Do tổn thương không hồi phục của dây chằng nha chu, răng thường màu vàng nhạt, không chỉ định điều trị", "Tiến triển rất nhanh, cần nội nha gấp", "Chỉ gặp ở răng chưa chấn thương", "Luôn cần nhổ ngay"], "c": 0, "e": "Tiêu ngót thay thế (cứng khớp): do tổn thương không hồi phục của dây chằng NC, ngà lắng đọng, răng màu vàng nhạt, không có chỉ định điều trị."}, {"q": "'Tiêu ngót do viêm' (nội/ngoại tiêu) có đặc điểm nào?", "a": ["Gặp ở chấn thương trật khớp, liên quan tủy hoại tử và dây chằng viêm, tiến triển rất nhanh, điều trị nội nha", "Tiến triển chậm, tự khỏi", "Không liên quan tủy hoại tử", "Chỉ điều trị bằng Fluor"], "c": 0, "e": "Tiêu ngót do viêm gặp ở chấn thương trật khớp, liên quan tủy hoại tử và dây chằng nha chu viêm, tiến triển rất nhanh, điều trị bằng nội nha."}, {"q": "Di chứng nào được xem là NGUY HIỂM NHẤT khi chấn thương răng sữa?", "a": ["Tổn thương mầm răng vĩnh viễn", "Đổi màu răng sữa", "Vôi hóa ống tủy", "Lung lay răng sữa"], "c": 0, "e": "Tổn thương trên mầm răng vĩnh viễn là di chứng nguy hiểm nhất: thiểu sản men, thân răng dị tật, chân răng cong, mọc sai chỗ/mọc chậm — cần thông báo cho bố mẹ."}, {"q": "Biểu hiện nào KHÔNG thuộc tổn thương mầm răng vĩnh viễn do chấn thương răng sữa?", "a": ["Tăng số lượng răng vĩnh viễn", "Thiểu sản men", "Thân răng dị tật, chân răng cong", "Mọc sai chỗ hoặc mọc chậm"], "c": 0, "e": "Tổn thương mầm Rvv: thiểu sản men, thân răng dị tật, chân răng cong, mọc sai chỗ/mọc chậm — không phải tăng số lượng răng."}, {"q": "Chấn thương răng vĩnh viễn đang phát triển hay gặp ở răng nào nhất?", "a": ["Răng cửa giữa trên", "Răng nanh trên", "Răng cối lớn thứ nhất", "Răng cửa bên dưới"], "c": 0, "e": "Răng cửa giữa trên hay bị chấn thương nhất ở răng vĩnh viễn đang phát triển (6–12 tuổi)."}, {"q": "Yếu tố nguy cơ nào KHÔNG được nêu cho chấn thương răng vĩnh viễn?", "a": ["Nhiễm Fluor răng", "Tăng độ cắn chìa", "Hoạt động thể thao, tai nạn giao thông", "Hội chứng tăng động"], "c": 0, "e": "Yếu tố nguy cơ: tăng độ cắn chìa, hoạt động thể thao, tai nạn sinh hoạt, tai nạn giao thông, hội chứng tăng động — không phải nhiễm Fluor."}, {"q": "Trên phim tia X, sau bao lâu có thể nhận biết HOẠI TỬ TỦY và tiêu ngót do viêm?", "a": ["Sau 1 tháng", "Sau 1 tuần", "Sau 6 tháng", "Ngay lập tức"], "c": 0, "e": "Phim tia X: sau 1 tháng nhận biết hoại tử tủy và tiêu ngót do viêm; sau 2 tháng nhận biết cứng khớp."}, {"q": "Trên phim tia X, sau bao lâu có thể nhận biết CỨNG KHỚP (tiêu ngót thay thế)?", "a": ["Sau 2 tháng", "Sau 1 tháng", "Sau 1 tuần", "Sau 1 năm"], "c": 0, "e": "Sau 2 tháng có thể nhận biết cứng khớp trên phim tia X."}, {"q": "Với răng vĩnh viễn chỉ NỨT MEN đơn thuần, xử trí là:", "a": ["Không cần điều trị và không cần theo dõi", "Mài nhẵn và theo dõi 1 năm", "Trám composite", "Che tủy Ca(OH)2"], "c": 0, "e": "Nứt men: không cần điều trị, không theo dõi nếu chỉ nứt men đơn thuần."}, {"q": "Với răng vĩnh viễn gãy men ngà chưa chạm tủy, khi nào cần che Ca(OH)2?", "a": ["Khi cách tủy khoảng 0,5mm", "Luôn luôn che", "Không bao giờ che", "Chỉ khi tủy đã lộ"], "c": 0, "e": "Gãy men ngà chưa chạm tủy: tái tạo composite, che Ca(OH)2 nếu cách tủy 0,5mm; theo dõi 6–8 tuần, 1 năm."}, {"q": "Mảnh răng gãy nên được bảo quản trong dung dịch nào để gắn lại?", "a": ["Dung dịch Hank, nước muối sinh lý, sữa", "Nước máy thường", "Cồn 70 độ", "Dung dịch xà phòng"], "c": 0, "e": "Mảnh gãy bảo quản trong dung dịch Hank, nước muối sinh lý, sữa; mảnh nhỏ dùng composite lỏng, mảnh lớn dùng resin composite + bond."}, {"q": "Yếu tố nào QUAN TRỌNG NHẤT ảnh hưởng kế hoạch điều trị răng vĩnh viễn gãy chạm tủy?", "a": ["Giai đoạn phát triển của răng gãy", "Màu răng", "Giá vật liệu", "Sự hợp tác của phụ huynh"], "c": 0, "e": "Yếu tố quan trọng nhất là giai đoạn phát triển của răng gãy; kèm kích thước tủy lộ, thời gian tủy lộ, độ sống tủy, khả năng tái tạo thân răng, chấn thương sai khớp đi kèm."}, {"q": "Trong che tủy trực tiếp, nếu máu KHÔNG cầm được thì chuyển sang:", "a": ["Lấy tủy buồng", "Nhổ răng", "Trám composite ngay", "Kết thúc, hẹn tái khám"], "c": 0, "e": "Che tủy trực tiếp: rửa sạch, cầm máu, đặt tác nhân che tủy, trám composite; nếu máu không cầm thì chỉ định lấy tủy buồng."}, {"q": "Về thời điểm tủy lộ, khi nào lấy tủy buồng BÁN PHẦN và khi nào TOÀN PHẦN?", "a": ["<72h: bán phần; ≥72h: toàn phần", "<72h: toàn phần; ≥72h: bán phần", "Luôn toàn phần", "Luôn bán phần"], "c": 0, "e": "Tủy lộ <72h: lấy tủy buồng bán phần; ≥72h: lấy tủy buồng toàn phần."}, {"q": "Vì sao lấy tủy buồng được dùng nhiều ở răng vĩnh viễn đang phát triển?", "a": ["Giữ lại mô tủy sống để kích thích sự phát triển chân răng", "Vì nhanh và rẻ hơn nhổ răng", "Vì không cần theo dõi", "Vì răng đã đóng chóp"], "c": 0, "e": "Lấy tủy buồng dùng nhiều ở Rvv đang phát triển lộ tủy để giữ lại mô tủy sống, kích thích sự phát triển chân răng."}, {"q": "Trong kỹ thuật lấy tủy buồng (phương pháp Cvek), lấy đi khoảng bao nhiêu mô tủy?", "a": ["1–2 mm mô tủy", "5–6 mm mô tủy", "Toàn bộ tủy chân", "Không lấy, chỉ cầm máu"], "c": 0, "e": "Phương pháp Cvek: gây tê, đặt đê, dùng mũi khoan tròn lấy đi 1–2mm mô tủy, cầm máu, đặt Ca(OH)2/MTA - trám nền - composite."}, {"q": "Tiêu chuẩn thành công của lấy tủy buồng KHÔNG bao gồm:", "a": ["Răng đổi màu vàng nhạt", "Sự phát triển hoàn toàn của chân răng", "Lâm sàng không đau, không lung lay, không lỗ dò", "X quang không thấu quang quanh chóp/tiêu chân răng"], "c": 0, "e": "Tiêu chuẩn thành công: chân răng phát triển hoàn toàn, LS không đau/lung lay/lỗ dò, X quang không thấu quang quanh chóp/tiêu chân — không phải đổi màu vàng nhạt."}, {"q": "Với răng vĩnh viễn tủy hoại tử nhưng CHƯA đóng chóp, xử trí là:", "a": ["Phương pháp gây đóng chóp (Ca(OH)2 hoặc MTA)", "Trám bít ống tủy ngay", "Che tủy trực tiếp", "Nhổ răng"], "c": 0, "e": "Lấy tủy chân: răng đã đóng chóp thì trám bít ống tủy; răng chưa đóng chóp thì dùng phương pháp gây đóng chóp (Ca(OH)2 / MTA - TBOT)."}, {"q": "Trong gãy thân–chân răng vĩnh viễn phức tạp, khi răng ĐÃ đóng chóp thì lấy tủy:", "a": ["Toàn phần", "Bán phần", "Không lấy tủy", "Chỉ che tủy"], "c": 0, "e": "Gãy thân–chân phức tạp: răng chưa đóng chóp → lấy tủy bán phần; răng đã đóng chóp → lấy tủy toàn phần."}, {"q": "Làm trồi răng bằng PHẪU THUẬT được khuyến cáo cho trường hợp nào?", "a": ["Răng đã đóng chóp và đường gãy phức tạp", "Răng chưa đóng chóp, gãy đơn giản", "Nứt men đơn thuần", "Răng sữa lung lay"], "c": 0, "e": "Làm trồi răng bằng phẫu thuật được khuyến cáo với răng đóng chóp và đường gãy phức tạp; ĐTNN hoàn tất 3–4 tuần sau phẫu thuật, phục hồi 1–2 tháng sau ĐTNN."}, {"q": "Vị trí gãy chân răng vĩnh viễn nào có tiên lượng TỐT hơn?", "a": ["Gãy 1/3 chóp", "Gãy 1/3 cổ", "Gãy 1/3 giữa kèm di lệch", "Gãy 1/3 cổ có chảy máu khe nướu"], "c": 0, "e": "Vị trí gãy ảnh hưởng tiên lượng: 1/3 chóp tốt, 1/3 cổ xấu."}, {"q": "Gãy chân răng vĩnh viễn ở 1/3 GIỮA có di lệch được cố định nẹp trong bao lâu?", "a": ["4 tuần", "1 tuần", "4 tháng", "2 tuần"], "c": 0, "e": "Gãy 1/3 giữa: nắn thân răng và cố định với nẹp 4 tuần; gãy 1/3 cổ thì nẹp 4 tháng."}, {"q": "Gãy chân răng vĩnh viễn ở 1/3 CỔ được cố định nẹp trong bao lâu?", "a": ["4 tháng", "4 tuần", "2 tuần", "1 tuần"], "c": 0, "e": "Gãy 1/3 cổ: nẹp cố định 4 tháng (so với 4 tuần ở 1/3 giữa)."}, {"q": "Kiểu lành thương nào KHÔNG được nêu cho gãy chân răng?", "a": ["Lành thương nhờ mô sụn", "Lành thương nhờ mô calci hóa", "Lành thương nhờ mô liên kết", "Lành thương nhờ mô xương và mô liên kết"], "c": 0, "e": "Đáp ứng lành thương gãy chân răng: mô calci hóa, mô liên kết, mô xương và mô liên kết, mô hạt xen kẽ — không có 'mô sụn'."}, {"q": "Với răng vĩnh viễn CHẤN ĐỘNG, xử trí là:", "a": ["Không cần điều trị, theo dõi tình trạng tủy ít nhất 1 năm", "Nẹp cố định 4 tuần", "Điều trị tủy ngay", "Nhổ răng"], "c": 0, "e": "Răng chấn động: không cần điều trị, tiên lượng thường tốt, theo dõi tình trạng tủy ít nhất 1 năm (sau 4 tuần, 1 năm)."}, {"q": "Với răng vĩnh viễn LUNG LAY nhiều/nhạy cảm khi ăn nhai, xử trí là:", "a": ["Nẹp 2 tuần, theo dõi tình trạng tủy ít nhất 1 năm", "Nẹp 4 tháng", "Nhổ răng", "Điều trị tủy ngay"], "c": 0, "e": "Răng lung lay: nẹp 2 tuần nếu lung lay nhiều/nhạy cảm khi ăn nhai; theo dõi tình trạng tủy ít nhất 1 năm (2 tuần, 3 tháng, 6 tháng, 1 năm)."}, {"q": "Với răng vĩnh viễn TRỒI ra và có kèm gãy xương ổ răng, thời gian nẹp là:", "a": ["4 tuần", "2 tuần", "1 tuần", "8 tuần"], "c": 0, "e": "Trồi răng: đặt lại đúng vị trí, nẹp 2 tuần; nếu có gãy xương ổ răng thì nẹp 4 tuần."}, {"q": "Với răng vĩnh viễn ĐÃ đóng chóp bị LÚN nhẹ (<3mm), xử trí đầu tiên là:", "a": ["Để tự mọc lại; nếu không mọc sau 8 tuần thì phẫu thuật/chỉnh nha", "Nhổ răng ngay", "Phẫu thuật đặt lại ngay", "Điều trị tủy trước tiên"], "c": 0, "e": "Răng đóng chóp lún nhẹ <3mm: để tự mọc lại; nếu không mọc sau 8 tuần thì đặt lại bằng phẫu thuật + nẹp 4 tuần hoặc dùng lực chỉnh nha 2 tuần."}, {"q": "Với răng vĩnh viễn đóng chóp bị lún NẶNG (>6mm), xử trí là:", "a": ["Đặt lại đúng vị trí bằng phẫu thuật", "Để tự mọc lại", "Chỉnh nha kéo trong 2 tuần", "Không can thiệp"], "c": 0, "e": "Lún nặng >6mm: đặt răng lại vào đúng vị trí bằng phẫu thuật (áp dụng cho cả răng đóng và chưa đóng chóp)."}, {"q": "Với răng vĩnh viễn ĐÃ đóng chóp bị lún, khi nào cần lấy tủy?", "a": ["Trong vòng 2 tuần sau chấn thương/ngay sau khi nẹp răng, quay Ca(OH)2 ngừa tiêu ngót", "Không bao giờ lấy tủy", "Chỉ khi răng đổi màu", "Sau 1 năm theo dõi"], "c": 0, "e": "Răng đã đóng chóp bị lún: lấy tủy trong vòng 2 tuần sau chấn thương/ngay sau khi nẹp, quay Ca(OH)2 để ngăn ngừa tiêu ngót chân răng."}, {"q": "Trật khớp sang bên răng vĩnh viễn thường kèm theo tổn thương nào?", "a": ["Gãy xương ổ răng", "Sâu răng", "Nhiễm nấm", "Viêm nướu mạn"], "c": 0, "e": "Trật khớp sang bên Rvv thường kèm gãy xương ổ răng nên khó khăn điều trị; nặng thì mất dây chằng nha chu, vỡ xương ổ răng. Nắn lại đúng vị trí, nẹp 4 tuần."}, {"q": "Loại chấn thương nào được xem là NẶNG NỀ NHẤT?", "a": ["Răng rơi ra ngoài (bật khỏi ổ răng)", "Răng chấn động", "Nứt men", "Trồi răng nhẹ"], "c": 0, "e": "Răng rơi ra ngoài là chấn thương nặng nề nhất, ảnh hưởng mạch máu, thần kinh và dây chằng nha chu."}, {"q": "Ba yếu tố ảnh hưởng kết quả điều trị răng rơi ra ngoài là:", "a": ["Thời gian răng nằm ngoài ổ, tình trạng bề mặt chân răng/mô nha chu, cách bảo quản răng", "Màu răng, hình dạng răng, kích thước răng", "Tuổi, giới, cân nặng", "Loại vật liệu trám, giá thành"], "c": 0, "e": "Ba yếu tố: khoảng thời gian răng nằm ngoài ổ răng, tình trạng bề mặt chân răng và mô nha chu, cách bảo quản răng trước khi cắm lại."}, {"q": "Với răng vĩnh viễn rơi ra ngoài, thời gian khô ngoài ổ răng DƯỚI 2 giờ thì:", "a": ["Rửa sạch bằng nước muối vô trùng và cắm lại ngay", "Ngâm Fluor 5–20 phút rồi cắm", "Bỏ răng, làm phục hình", "Ngâm cồn rồi cắm"], "c": 0, "e": "Răng khô ngoài ổ <2h: rửa sạch bằng nước muối vô trùng, cắm lại ngay. >2h: ngâm dung dịch Fluor 5–20 phút rồi cắm."}, {"q": "Với răng vĩnh viễn rơi ra ngoài khô >2 giờ, xử trí trước khi cắm là:", "a": ["Ngâm răng trong dung dịch Fluor 5–20 phút rồi cắm", "Cắm ngay không xử lý", "Bỏ răng", "Ngâm nước máy 1 giờ"], "c": 0, "e": "Răng khô ngoài ổ >2h: ngâm trong dung dịch Fluor 5–20 phút rồi cắm."}, {"q": "Với răng vĩnh viễn đã cắm lại và ĐÃ đóng chóp, xử trí tủy là:", "a": ["Điều trị tủy, quay Ca(OH)2 sau 2 tuần để ngừa tiêu chân", "Không điều trị tủy", "Chỉ theo dõi", "Che tủy trực tiếp"], "c": 0, "e": "Răng đã đóng chóp: nẹp cố định 2 tuần, điều trị tủy, quay Ca(OH)2 sau 2 tuần để ngừa tiêu chân, điều trị Ca(OH)2 trong 1 tháng."}, {"q": "Với răng vĩnh viễn cắm lại nhưng CHƯA đóng chóp, xử trí tủy là:", "a": ["Chỉ điều trị tủy khi có dấu hiệu hoại tử tủy", "Điều trị tủy ngay lập tức", "Nhổ răng", "Trám bít ống tủy ngay"], "c": 0, "e": "Răng chưa đóng chóp: nẹp ~2 tuần, chỉ điều trị tủy khi có dấu hiệu hoại tử tủy (răng chưa đóng chóp có thể tái sinh mạch máu tủy)."}, {"q": "Sau cắm lại răng, thuốc/biện pháp hỗ trợ nào được dùng?", "a": ["Kháng sinh, giảm đau, súc miệng chlorhexidine, ăn mềm, tiêm phòng uốn ván nếu cần", "Chỉ dùng vitamin", "Không dùng gì", "Chỉ dùng thuốc hạ sốt"], "c": 0, "e": "Sau cắm lại: kháng sinh, giảm đau, súc miệng chlorhexidine, ăn thức ăn mềm, tránh nhai trên răng ảnh hưởng, tiêm phòng uốn ván nếu cần."}, {"q": "Khi giáo dục cộng đồng về răng rơi ra ngoài, thao tác nào ĐÚNG?", "a": ["Rửa sạch dưới vòi nước chảy, tránh cạo chân răng, cắm lại giữ 5–10 phút, đến phòng nha ngay", "Chà sạch chân răng bằng bàn chải", "Ngâm cồn để sát khuẩn", "Để răng khô trong túi giấy"], "c": 0, "e": "Giáo dục cộng đồng: rửa sạch răng dưới vòi nước chảy (tránh cạo chân răng), cắm lại và giữ 5–10 phút, lập tức đến phòng nha."}, {"q": "Nếu KHÔNG thể cắm lại răng, có thể ngâm răng trong dung dịch nào?", "a": ["Dung dịch Hank (HBSS), sữa, dd ngâm kính sát tròng, nước muối sinh lý, nước bọt", "Nước có ga", "Cồn 90 độ", "Nước xà phòng"], "c": 0, "e": "Nếu không cắm lại được, ngâm răng trong: dung dịch Hank (HBSS), sữa, dung dịch ngâm kính sát tròng, nước muối sinh lý, nước bọt."}, {"q": "Về di chứng hoại tử tủy ở răng vĩnh viễn, dấu thấu quang trên X quang xuất hiện khi nào?", "a": ["2–3 tuần sau chấn thương", "Ngay lập tức", "Sau 6 tháng", "Sau 2 năm"], "c": 0, "e": "Hoại tử tủy: TCLS ít (đau tự nhiên/nhạy cảm gõ/lung lay nhẹ), X quang thấu quang 2–3 tuần sau chấn thương."}, {"q": "Nguy cơ hoại tử tủy CAO hơn ở nhóm nào?", "a": ["Lún răng/trồi răng và răng đã đóng chóp", "Bán trật khớp và răng chưa đóng chóp", "Nứt men", "Răng sữa chấn động"], "c": 0, "e": "Yếu tố nguy cơ hoại tử tủy: lún răng/trồi răng > bán trật khớp; răng đã đóng chóp > răng chưa đóng chóp."}, {"q": "Di chứng 'vôi hóa buồng/ống tủy' ở răng vĩnh viễn xuất hiện sau bao lâu và do đâu?", "a": ["Sau 9–12 tháng, do hình thành ngà thứ phát", "Sau 1 tuần, do nhiễm trùng", "Sau 5 năm, do sâu răng", "Ngay lập tức, do gãy men"], "c": 0, "e": "Vôi hóa từng phần/toàn bộ sau 9–12 tháng, do hình thành ngà thứ phát; LS đổi màu vàng xám, đáp ứng kém với thử tủy, X quang thu hẹp buồng tủy."}, {"q": "Mất tổ chức xương nâng đỡ xảy ra trong khoảng bao nhiêu % các trường hợp trật khớp?", "a": ["Khoảng 10%", "Khoảng 50%", "Khoảng 90%", "Khoảng 1%"], "c": 0, "e": "Mất tổ chức xương nâng đỡ xảy ra trong khoảng 10% các trường hợp trật khớp."}, {"q": "Với răng vĩnh viễn CHƯA đóng chóp bị lún mà không mọc lại trong 4 tuần, xử trí là:", "a": ["Dùng chỉnh nha kéo răng", "Nhổ răng", "Tiếp tục chờ vô thời hạn", "Cắm lại răng khác"], "c": 0, "e": "Rvv chưa đóng chóp bị lún có thể tự mọc lại tùy mức độ; nếu không mọc lại trong 4 tuần thì chỉnh nha kéo răng; theo dõi tình trạng tủy."}, {"q": "Với răng vĩnh viễn chưa đóng chóp bị lún TRUNG BÌNH (3–6mm), xử trí là:", "a": ["Để tự mọc lại hoặc dùng lực chỉnh nha trong 2 tuần", "Nhổ răng", "Chỉ theo dõi 1 năm", "Trám bít ống tủy"], "c": 0, "e": "Răng chưa đóng chóp lún trung bình 3–6mm: để tự mọc lại hoặc dùng lực chỉnh nha trong 2 tuần; lún nặng >6mm thì phẫu thuật đặt lại."}, {"q": "Theo dõi gãy chân răng vĩnh viễn cần thực hiện trong thời gian tối thiểu bao lâu?", "a": ["Ít nhất 1 năm (và 1 năm/lần trong 5 năm)", "Chỉ 1 tuần", "Chỉ 6–8 tuần", "Không cần theo dõi"], "c": 0, "e": "Sự lành thương gãy chân răng được theo dõi ít nhất 1 năm; lịch: sau tháo nẹp, 6–8 tuần, 6 tháng, 1 năm, 1 năm/lần trong 5 năm."}, {"q": "Tiêu chí đánh giá khi theo dõi gãy chân răng KHÔNG bao gồm:", "a": ["Màu sắc nước bọt", "Đáp ứng của tủy", "Dấu hiệu lành thương đường gãy trên X quang", "Mức độ lung lay răng"], "c": 0, "e": "Tiêu chí đánh giá: đáp ứng của tủy, dấu hiệu lành thương đường gãy trên X quang, mức độ lung lay răng — không phải màu sắc nước bọt."}, {"q": "Biến chứng không mong muốn khi theo dõi gãy chân răng gồm:", "a": ["Răng có triệu chứng, trồi/lung lay bất thường, thấu quang rộng ở đường gãy, hoại tử tủy/nhiễm trùng đoạn gãy", "Răng trắng sáng hơn", "Nướu hồng hào", "Răng vững chắc hơn bình thường"], "c": 0, "e": "Biến chứng: răng có triệu chứng, răng trồi và/hoặc lung lay bất thường, thấu quang rộng ở đường gãy, hoại tử tủy/nhiễm trùng ngay đoạn gãy."}, {"q": "'Knee-to-knee position' được dùng để làm gì?", "a": ["Tư thế khám răng cho trẻ nhỏ (bố mẹ và nha sĩ ngồi đối diện, gối chạm gối)", "Tư thế nhổ răng khôn", "Tư thế phẫu thuật xương hàm", "Tư thế chụp phim toàn cảnh"], "c": 0, "e": "Knee-to-knee position là tư thế khám răng cho trẻ nhỏ, thường dùng trong thăm khám và xử trí chấn thương ở trẻ."}, {"q": "Thủ thuật 'decoronation and root submergence' (chôn vùi chân răng) là một lựa chọn cho:", "a": ["Gãy thân–chân răng vĩnh viễn đơn giản", "Nứt men răng sữa", "Răng chấn động", "Sâu răng nhẹ"], "c": 0, "e": "Chôn vùi chân răng (decoronation and root submergence) là một trong các lựa chọn xử trí gãy thân–chân răng vĩnh viễn đơn giản, cùng gắn lại mảnh gãy, loại bỏ mảnh gãy + trám/chỉnh nha/phẫu thuật làm trồi, hoặc nhổ răng."}];
+let idx=0, score=0, answers=[], quizSet=[];
+const COUNTS=[20,40,60,100];
+function initChips(){const el=document.getElementById('countChips');COUNTS.forEach((n,i)=>{const c=document.createElement('div');c.className='chip'+(i===COUNTS.length-1?' on':'');c.textContent=n>=BANK.length?'Tất cả ('+BANK.length+')':n+' câu';c.dataset.n=Math.min(n,BANK.length);c.onclick=()=>{document.querySelectorAll('#countChips .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');};el.appendChild(c);});}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function startQuiz(){
+  const sel=document.querySelector('#countChips .chip.on');
+  const n=Math.min(parseInt(sel.dataset.n),BANK.length);
+  const doShuffle=document.getElementById('shuffle').checked;
+  let pool=BANK.map((q,i)=>({...q,_i:i}));
+  if(doShuffle)shuffle(pool);
+  quizSet=pool.slice(0,n).map(q=>{
+    let opts=q.a.map((t,i)=>({t,correct:i===q.c}));
+    if(doShuffle)shuffle(opts);
+    return {q:q.q,opts,e:q.e};
+  });
+  idx=0;score=0;answers=[];
+  document.getElementById('start').style.display='none';
+  document.getElementById('result').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  renderQ();
+}
+function renderQ(){
+  const item=quizSet[idx];
+  document.getElementById('progressTxt').textContent='Câu '+(idx+1)+' / '+quizSet.length;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('progressBar').style.width=((idx)/quizSet.length*100)+'%';
+  document.getElementById('qText').textContent=item.q;
+  const box=document.getElementById('opts');box.innerHTML='';
+  const letters=['A','B','C','D'];
+  item.opts.forEach((o,i)=>{
+    const b=document.createElement('button');
+    b.className='opt';
+    b.innerHTML='<span class="k">'+letters[i]+'.</span> '+o.t;
+    b.onclick=()=>choose(i);
+    box.appendChild(b);
+  });
+  const ex=document.getElementById('explain');ex.className='explain';ex.textContent='';
+  document.getElementById('nextBtn').disabled=true;
+  document.getElementById('skipBtn').style.display='inline-block';
+  document.getElementById('nextBtn').textContent=(idx===quizSet.length-1)?'Xem kết quả ✔':'Câu tiếp ▶';
+}
+function choose(i){
+  const item=quizSet[idx];
+  const btns=document.querySelectorAll('#opts .opt');
+  const correctIdx=item.opts.findIndex(o=>o.correct);
+  btns.forEach((b,j)=>{b.disabled=true;if(j===correctIdx)b.classList.add('correct');if(j===i&&i!==correctIdx)b.classList.add('wrong');});
+  const isRight=i===correctIdx;
+  if(isRight)score++;
+  answers.push({q:item.q,chosen:item.opts[i].t,correct:item.opts[correctIdx].t,right:isRight});
+  const ex=document.getElementById('explain');
+  ex.className='explain show';
+  ex.innerHTML=(isRight?'<b class="ok">✔ Chính xác. </b>':'<b class="bad">✘ Chưa đúng. </b>')+item.e;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('nextBtn').disabled=false;
+  document.getElementById('skipBtn').style.display='none';
+}
+function nextQ(){ if(idx<quizSet.length-1){idx++;renderQ();} else finish(); }
+function finish(){
+  document.getElementById('quiz').style.display='none';
+  const r=document.getElementById('result');r.style.display='block';
+  const pct=Math.round(score/quizSet.length*100);
+  document.getElementById('finalScore').textContent=score+' / '+quizSet.length+' ('+pct+'%)';
+  let msg='';
+  if(pct>=90)msg='Xuất sắc! Bạn nắm rất chắc bài.';
+  else if(pct>=70)msg='Tốt! Ôn lại vài câu sai là ổn.';
+  else if(pct>=50)msg='Khá – cần ôn thêm phần sai.';
+  else msg='Hãy đọc lại tài liệu và luyện lại nhé.';
+  document.getElementById('finalMsg').textContent=msg;
+  const rev=document.getElementById('review');rev.innerHTML='';rev.style.display='none';
+  answers.forEach((a,i)=>{
+    const d=document.createElement('div');d.className='review-item';
+    d.innerHTML='<div class="ri-q">'+(i+1)+'. '+a.q+'</div>'+
+      '<div class="ri-a">Bạn chọn: <span class="'+(a.right?'ok':'bad')+'">'+a.chosen+'</span></div>'+
+      (a.right?'':'<div class="ri-a">Đáp án đúng: <span class="ok">'+a.correct+'</span></div>');
+    rev.appendChild(d);
+  });
+}
+function toggleReview(){const r=document.getElementById('review');r.style.display=r.style.display==='none'?'block':'none';}
+initChips();
+</script>
+</body>
+</html>

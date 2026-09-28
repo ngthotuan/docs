@@ -1,0 +1,522 @@
+[
+    {
+      "question": "Theo Luật Người cao tuổi tại Việt Nam, mốc tuổi để xác định một người là người cao tuổi là bao nhiêu?",
+      "options": [
+        {"text": "Từ đủ 55 tuổi trở lên", "isCorrect": false},
+        {"text": "Từ đủ 60 tuổi trở lên", "isCorrect": true},
+        {"text": "Từ đủ 65 tuổi trở lên", "isCorrect": false},
+        {"text": "Từ đủ 70 tuổi trở lên", "isCorrect": false}
+      ],
+      "explanation": "Tại Việt Nam, Luật Người cao tuổi quy định NCT là công dân Việt Nam từ đủ 60 tuổi trở lên."
+    },
+    {
+      "question": "Liên Hợp Quốc phân chia nhóm người cao tuổi 'Trung lão' ở độ tuổi nào?",
+      "options": [
+        {"text": "60 - 69 tuổi", "isCorrect": false},
+        {"text": "70 - 79 tuổi", "isCorrect": true},
+        {"text": "80 tuổi trở lên", "isCorrect": false},
+        {"text": "Trên 90 tuổi", "isCorrect": false}
+      ],
+      "explanation": "Liên Hợp Quốc chia làm 3 nhóm: Sơ lão (60-69), Trung lão (70-79) và Đại lão (từ 80 trở lên)."
+    },
+    {
+      "question": "Đặc điểm sinh lý chung của quá trình lão hóa là gì?",
+      "options": [
+        {"text": "Mô bị khô, mất nước, giảm tính đàn hồi", "isCorrect": true},
+        {"text": "Tăng khả năng thích nghi của cơ quan", "isCorrect": false},
+        {"text": "Tăng tốc độ phân chia tế bào", "isCorrect": false},
+        {"text": "Tăng tính thấm của màng tế bào", "isCorrect": false}
+      ],
+      "explanation": "Lão hóa dẫn đến sự mất nước của mô, giảm đàn hồi và thay đổi tính thấm tế bào, làm giảm khả năng thích nghi."
+    },
+    {
+      "question": "Tại sao men răng người cao tuổi thường có màu tối và đục hơn?",
+      "options": [
+        {"text": "Do men răng dày lên", "isCorrect": false},
+        {"text": "Do men răng trở nên trong suốt hơn và ngà thứ phát bên dưới dày lên", "isCorrect": true},
+        {"text": "Do mất hoàn toàn khoáng chất", "isCorrect": false},
+        {"text": "Do nồng độ canxi giảm mạnh", "isCorrect": false}
+      ],
+      "explanation": "Men răng trở nên trong suốt hơn theo tuổi, làm lộ màu vàng của lớp ngà thứ phát đang dày lên bên dưới."
+    },
+    {
+      "question": "Nồng độ chất nào sau đây tăng lên ở men răng người cao tuổi?",
+      "options": [
+        {"text": "Canxi", "isCorrect": false},
+        {"text": "Fluor và Nitrogen", "isCorrect": true},
+        {"text": "Photpho", "isCorrect": false},
+        {"text": "Oxy", "isCorrect": false}
+      ],
+      "explanation": "Các nghiên cứu cho thấy nồng độ Fluor và Nitrogen ở lớp bề mặt men răng tăng dần theo tuổi."
+    },
+    {
+      "question": "Sự hình thành ngà thứ phát (Secondary Dentin) có đặc điểm gì?",
+      "options": [
+        {"text": "Hình thành trước khi răng mọc", "isCorrect": false},
+        {"text": "Hình thành liên tục suốt đời sau khi răng đã hoàn tất đóng chóp", "isCorrect": true},
+        {"text": "Chỉ hình thành khi có sâu răng", "isCorrect": false},
+        {"text": "Làm buồng tủy rộng ra", "isCorrect": false}
+      ],
+      "explanation": "Ngà thứ phát được sản sinh liên tục sau khi đóng chóp, dẫn đến việc buồng tủy và ống tủy thu hẹp dần."
+    },
+    {
+      "question": "Ngà xơ hóa (Sclerotic Dentin) được hình thành do cơ chế nào?",
+      "options": [
+        {"text": "Các ống ngà bị bít kín bởi quá trình calci hóa", "isCorrect": true},
+        {"text": "Mất hoàn toàn ống ngà", "isCorrect": false},
+        {"text": "Do tủy răng bị chết", "isCorrect": false},
+        {"text": "Do axit từ thức ăn", "isCorrect": false}
+      ],
+      "explanation": "Đây là vùng ngà mà các ống ngà bị lấp đầy bởi chất khoáng, giúp bảo vệ tủy khỏi các tác nhân xâm nhập."
+    },
+    {
+      "question": "Tại sao người cao tuổi thường ít nhạy cảm với nhiệt độ và sâu răng hơn người trẻ?",
+      "options": [
+        {"text": "Do ngà răng NCT dày và có hiện tượng xơ hóa ống ngà", "isCorrect": true},
+        {"text": "Do dây thần kinh tủy hoạt động mạnh hơn", "isCorrect": false},
+        {"text": "Do men răng dày hơn", "isCorrect": false},
+        {"text": "Do nước bọt có tính kiềm cao", "isCorrect": false}
+      ],
+      "explanation": "Ngà thứ phát dày lên và sự xơ hóa ống ngà làm giảm khả năng dẫn truyền kích thích đến tủy."
+    },
+    {
+      "question": "Ngà sửa chữa (Tertiary Dentin) được sản sinh khi nào?",
+      "options": [
+        {"text": "Khi răng bắt đầu mọc", "isCorrect": false},
+        {"text": "Đáp ứng với các kích thích tại chỗ như sâu răng, mòn răng", "isCorrect": true},
+        {"text": "Khi thiếu canxi toàn thân", "isCorrect": false},
+        {"text": "Chỉ có ở răng sữa", "isCorrect": false}
+      ],
+      "explanation": "Ngà sửa chữa là loại ngà phản ứng, được tạo ra tại vị trí tủy bị kích thích để tự bảo vệ."
+    },
+    {
+      "question": "Thay đổi nào sau đây xảy ra ở tủy răng người già?",
+      "options": [
+        {"text": "Tăng số lượng tế bào", "isCorrect": false},
+        {"text": "Giảm tưới máu tủy và giảm số lượng tế bào, tăng sợi collagen", "isCorrect": true},
+        {"text": "Tăng kích thước buồng tủy", "isCorrect": false},
+        {"text": "Tăng khả năng tự phục hồi tủy", "isCorrect": false}
+      ],
+      "explanation": "Tủy răng già bị xơ hóa, giảm mạch máu và tế bào, khiến khả năng chống đỡ bệnh tật kém đi."
+    },
+    {
+      "question": "Tỷ lệ xuất hiện sỏi tủy ở người cao tuổi vào khoảng bao nhiêu?",
+      "options": [
+        {"text": "1 - 2%", "isCorrect": false},
+        {"text": "6 - 7%", "isCorrect": true},
+        {"text": "20 - 30%", "isCorrect": false},
+        {"text": "Trên 50%", "isCorrect": false}
+      ],
+      "explanation": "Sỏi tủy thường gặp ở người già nhưng hiếm khi gây ra triệu chứng lâm sàng."
+    },
+    {
+      "question": "Độ dày lớp xê-măng (cementum) ở người già thay đổi thế nào so với người trẻ?",
+      "options": [
+        {"text": "Mỏng đi do bị mòn", "isCorrect": false},
+        {"text": "Tăng gấp khoảng 3 lần so với tuổi trẻ", "isCorrect": true},
+        {"text": "Không thay đổi", "isCorrect": false},
+        {"text": "Biến mất hoàn toàn", "isCorrect": false}
+      ],
+      "explanation": "Xê-măng chân răng được bồi đắp liên tục suốt đời để bù trừ cho sự mòn răng ở mặt nhai."
+    },
+    {
+      "question": "Tụt nướu ở người cao tuổi được coi là:",
+      "options": [
+        {"text": "Hiện tượng sinh lý bình thường 100%", "isCorrect": false},
+        {"text": "Sự kết hợp giữa lão hóa sinh lý và bệnh lý quanh răng tích lũy", "isCorrect": true},
+        {"text": "Do dùng bàn chải cứng", "isCorrect": false},
+        {"text": "Do thiếu vitamin C", "isCorrect": false}
+      ],
+      "explanation": "Tụt nướu là sự tổng hòa của quá trình lão hóa tự nhiên và các tổn thương mô nha chu qua nhiều năm."
+    },
+    {
+      "question": "Đặc điểm của dây chằng nha chu ở người già là:",
+      "options": [
+        {"text": "Dày lên và tăng tế bào", "isCorrect": false},
+        {"text": "Mỏng đi, giảm số lượng tế bào và giảm tưới máu", "isCorrect": true},
+        {"text": "Rất đàn hồi", "isCorrect": false},
+        {"text": "Chỉ gồm các sợi thần kinh", "isCorrect": false}
+      ],
+      "explanation": "Sự suy giảm cấu trúc dây chằng làm giảm khả năng giảm chấn của răng khi nhai."
+    },
+    {
+      "question": "Niêm mạc miệng người cao tuổi có đặc điểm lâm sàng nào?",
+      "options": [
+        {"text": "Mỏng, khô, nhẵn và dễ bị tổn thương", "isCorrect": true},
+        {"text": "Dày và có nhiều hạt bã nhờn", "isCorrect": false},
+        {"text": "Tăng khả năng đàn hồi", "isCorrect": false},
+        {"text": "Hồi phục vết thương rất nhanh", "isCorrect": false}
+      ],
+      "explanation": "Biểu mô niêm mạc teo mỏng và giảm tiết dịch khiến miệng NCT dễ bị loét khi sang chấn nhẹ."
+    },
+    {
+      "question": "Sự thay đổi vị giác ở người già thường là:",
+      "options": [
+        {"text": "Tăng khả năng cảm nhận vị đắng", "isCorrect": false},
+        {"text": "Giảm cảm nhận vị mặn và vị ngọt trước tiên", "isCorrect": true},
+        {"text": "Tăng cảm nhận vị chua", "isCorrect": false},
+        {"text": "Không có sự thay đổi vị giác", "isCorrect": false}
+      ],
+      "explanation": "NCT thường bị suy giảm nụ vị giác, dẫn đến việc họ ăn mặn hơn hoặc ngọt hơn bình thường."
+    },
+    {
+      "question": "Hậu quả của việc giảm tiết nước bọt ở người cao tuổi bao gồm:",
+      "options": [
+        {"text": "Tăng nguy cơ nhiễm nấm Candida", "isCorrect": false},
+        {"text": "Khó khăn trong việc nhai và nuốt thức ăn", "isCorrect": false},
+        {"text": "Dễ bị sâu răng chân răng", "isCorrect": false},
+        {"text": "Tất cả các ý trên", "isCorrect": true}
+      ],
+      "explanation": "Nước bọt đóng vai trò bôi trơn, làm sạch và bảo vệ niêm mạc; thiếu nước bọt gây ra tất cả các vấn đề trên."
+    },
+    {
+      "question": "Xương hàm trên của người già khi mất răng thường tiêu theo hướng nào?",
+      "options": [
+        {"text": "Tiêu ly tâm (rộng ra)", "isCorrect": false},
+        {"text": "Tiêu hướng tâm (thu hẹp lại)", "isCorrect": true},
+        {"text": "Tiêu thẳng đứng lên trên", "isCorrect": false},
+        {"text": "Không bị tiêu xương", "isCorrect": false}
+      ],
+      "explanation": "Xương hàm trên tiêu dần vào phía trong (hướng tâm), làm cung hàm nhỏ lại."
+    },
+    {
+      "question": "Xương hàm dưới của người già khi mất răng thường tiêu theo hướng nào?",
+      "options": [
+        {"text": "Tiêu hướng tâm", "isCorrect": false},
+        {"text": "Tiêu ly tâm (rộng ra)", "isCorrect": true},
+        {"text": "Tiêu về phía sau", "isCorrect": false},
+        {"text": "Tiêu xuống dưới cổ", "isCorrect": false}
+      ],
+      "explanation": "Xương hàm dưới tiêu hướng ra ngoài (ly tâm), làm cung hàm trông có vẻ rộng hơn hàm trên."
+    },
+    {
+      "question": "Sự thay đổi ở khớp thái dương hàm người cao tuổi là:",
+      "options": [
+        {"text": "Lồi cầu to ra", "isCorrect": false},
+        {"text": "Diện khớp phẳng hơn và đĩa đệm mỏng đi hoặc xơ hóa", "isCorrect": true},
+        {"text": "Tăng tiết dịch khớp", "isCorrect": false},
+        {"text": "Hố khớp sâu hơn", "isCorrect": false}
+      ],
+      "explanation": "Lão hóa làm các diện khớp bị mòn phẳng, giảm tính đàn hồi của đĩa khớp."
+    },
+    {
+      "question": "Tại sao hiệu quả nhai của NCT giảm sút ngay cả khi còn đủ răng?",
+      "options": [
+        {"text": "Do giảm trương lực cơ nhai và phối hợp thần kinh cơ kém", "isCorrect": true},
+        {"text": "Do răng quá cứng", "isCorrect": false},
+        {"text": "Do lưỡi quá to", "isCorrect": false},
+        {"text": "Do nước bọt quá đặc", "isCorrect": false}
+      ],
+      "explanation": "Sức mạnh cơ nhai giảm cùng sự kém linh hoạt của lưỡi, môi, má làm giảm hiệu quả nghiền nát thức ăn."
+    },
+    {
+      "question": "Nhu mô tuyến nước bọt của NCT thường bị thay thế bởi loại mô nào?",
+      "options": [
+        {"text": "Mô xương", "isCorrect": false},
+        {"text": "Mô mỡ và mô liên kết", "isCorrect": true},
+        {"text": "Mô thần kinh", "isCorrect": false},
+        {"text": "Mô cơ", "isCorrect": false}
+      ],
+      "explanation": "Quá trình thoái hóa nhu mô tuyến và thay thế bằng mỡ làm giảm lượng nước bọt tiết ra."
+    },
+    {
+      "question": "Attrition là hiện tượng mòn răng do:",
+      "options": [
+        {"text": "Chải răng sai cách", "isCorrect": false},
+        {"text": "Tiếp xúc răng - răng trong quá trình ăn nhai", "isCorrect": true},
+        {"text": "Acid dạ dày", "isCorrect": false},
+        {"text": "Dùng tăm xỉa răng", "isCorrect": false}
+      ],
+      "explanation": "Attrition là mòn răng cơ học tự nhiên do các mặt răng chạm vào nhau."
+    },
+    {
+      "question": "Erosion là hiện tượng mòn răng do:",
+      "options": [
+        {"text": "Nghiến răng", "isCorrect": false},
+        {"text": "Tác nhân hóa học (acid không do vi khuẩn)", "isCorrect": true},
+        {"text": "Bàn chải cứng", "isCorrect": false},
+        {"text": "Kẹp tăm", "isCorrect": false}
+      ],
+      "explanation": "Erosion thường do acid từ thực phẩm hoặc dịch dạ dày trào ngược làm hòa tan khoáng chất răng."
+    },
+    {
+      "question": "Ngà vỏ (Mantle dentin) là lớp ngà:",
+      "options": [
+        {"text": "Nằm sát buồng tủy", "isCorrect": false},
+        {"text": "Được hình thành đầu tiên, nằm sát đường nối men - ngà", "isCorrect": true},
+        {"text": "Chứa nhiều khoáng nhất", "isCorrect": false},
+        {"text": "Là ngà xơ hóa", "isCorrect": false}
+      ],
+      "explanation": "Ngà vỏ là lớp ngà nguyên phát đầu tiên được tạo ra trong quá trình hình thành răng."
+    },
+    {
+      "question": "Ống ngà ở vùng ngà thứ phát có đặc điểm gì so với ngà nguyên phát?",
+      "options": [
+        {"text": "Nhiều hơn và thẳng hơn", "isCorrect": false},
+        {"text": "Ít hơn và có hướng đi uốn lượn hơn", "isCorrect": true},
+        {"text": "Không có ống ngà", "isCorrect": false},
+        {"text": "To hơn về đường kính", "isCorrect": false}
+      ],
+      "explanation": "Sự lắng đọng ngà thứ phát diễn ra chậm và cấu trúc ống ngà thường kém đều đặn hơn ngà nguyên phát."
+    },
+    {
+      "question": "Sự lắng đọng ngà thứ phát diễn ra mạnh nhất ở đâu trong buồng tủy răng cối?",
+      "options": [
+        {"text": "Vách bên", "isCorrect": false},
+        {"text": "Trần và sàn buồng tủy", "isCorrect": true},
+        {"text": "Chóp răng", "isCorrect": false},
+        {"text": "Sát cổ răng", "isCorrect": false}
+      ],
+      "explanation": "Sự bồi đắp ở trần và sàn làm buồng tủy bị dẹt lại theo chiều đứng theo thời gian."
+    },
+    {
+      "question": "Mòn răng cơ học Abrasion thường do nguyên nhân nào?",
+      "options": [
+        {"text": "Trào ngược dạ dày", "isCorrect": false},
+        {"text": "Chải răng theo chiều ngang với lực mạnh", "isCorrect": true},
+        {"text": "Nghiến răng", "isCorrect": false},
+        {"text": "Ăn đồ chua", "isCorrect": false}
+      ],
+      "explanation": "Abrasion là mòn răng do các vật ngoại lai tác động cơ học lên bề mặt răng."
+    },
+    {
+      "question": "Lão hóa là một quá trình sinh lý:",
+      "options": [
+        {"text": "Có thể phòng ngừa hoàn toàn", "isCorrect": false},
+        {"text": "Không thể tránh khỏi, diễn ra chậm và tăng dần", "isCorrect": true},
+        {"text": "Là một loại bệnh lý", "isCorrect": false},
+        {"text": "Xảy ra đột ngột ở tuổi 60", "isCorrect": false}
+      ],
+      "explanation": "Lão hóa là sự suy giảm chức năng sinh học tự nhiên theo thời gian."
+    },
+    {
+      "question": "Dân số Việt Nam hiện nay đang ở giai đoạn nào?",
+      "options": [
+        {"text": "Dân số trẻ", "isCorrect": false},
+        {"text": "Bắt đầu bước vào giai đoạn già hóa dân số", "isCorrect": true},
+        {"text": "Dân số già ổn định", "isCorrect": false},
+        {"text": "Dân số siêu già", "isCorrect": false}
+      ],
+      "explanation": "Việt Nam là một trong những quốc gia có tốc độ già hóa dân số nhanh nhất thế giới."
+    },
+    {
+      "question": "Tuổi thọ trung bình của người Việt Nam năm 2023 là bao nhiêu?",
+      "options": [
+        {"text": "72 tuổi", "isCorrect": false},
+        {"text": "76,6 tuổi", "isCorrect": true},
+        {"text": "80 tuổi", "isCorrect": false},
+        {"text": "65 tuổi", "isCorrect": false}
+      ],
+      "explanation": "Tuổi thọ trung bình của người Việt (76,6) cao hơn mức trung bình của thế giới (72)."
+    },
+    {
+      "question": "Thuật ngữ 'Lão nha' (Gerodontology) nghiên cứu về vấn đề gì?",
+      "options": [
+        {"text": "Chăm sóc răng miệng cho trẻ em", "isCorrect": false},
+        {"text": "Mối liên quan giữa lão hóa và sức khỏe răng miệng", "isCorrect": true},
+        {"text": "Cách làm răng sứ", "isCorrect": false},
+        {"text": "Chấn thương hàm mặt", "isCorrect": false}
+      ],
+      "explanation": "Lão nha tập trung vào các đặc điểm bệnh lý, giải phẫu và điều trị răng miệng riêng biệt cho NCT."
+    },
+    {
+      "question": "Khi lão hóa, khả năng bù trừ của các cơ quan sẽ:",
+      "options": [
+        {"text": "Tăng lên", "isCorrect": false},
+        {"text": "Giảm xuống", "isCorrect": true},
+        {"text": "Không thay đổi", "isCorrect": false},
+        {"text": "Biến mất hoàn toàn", "isCorrect": false}
+      ],
+      "explanation": "Sự suy giảm khả năng dự trữ và bù trừ khiến NCT dễ mắc bệnh khi có tác động từ môi trường."
+    },
+    {
+      "question": "Chỉ số già hóa là tỷ số giữa:",
+      "options": [
+        {"text": "Người trên 60 tuổi và tổng dân số", "isCorrect": false},
+        {"text": "Người trên 60 tuổi trên 100 người dưới 15 tuổi", "isCorrect": true},
+        {"text": "Người trên 80 tuổi và người 60 tuổi", "isCorrect": false},
+        {"text": "Nam giới và nữ giới cao tuổi", "isCorrect": false}
+      ],
+      "explanation": "Chỉ số già hóa phản ánh tốc độ thay đổi cấu trúc dân số giữa nhóm trẻ em và người già."
+    },
+    {
+      "question": "Ngà xơ hóa xuất hiện sớm nhất ở loại răng nào?",
+      "options": [
+        {"text": "Răng cửa", "isCorrect": false},
+        {"text": "Răng nanh", "isCorrect": false},
+        {"text": "Răng cối nhỏ", "isCorrect": true},
+        {"text": "Răng khôn", "isCorrect": false}
+      ],
+      "explanation": "Nghiên cứu cho thấy ngà xơ hóa bắt đầu ở răng cối nhỏ vào khoảng 18 tuổi."
+    },
+    {
+      "question": "Màu sắc răng ở người già có xu hướng vàng hơn là do:",
+      "options": [
+        {"text": "Lớp ngà răng bên dưới dày lên", "isCorrect": true},
+        {"text": "Dùng nhiều kháng sinh", "isCorrect": false},
+        {"text": "Đánh răng không sạch", "isCorrect": false},
+        {"text": "Uống nhiều trà, cà phê", "isCorrect": false}
+      ],
+      "explanation": "Màu sắc răng chủ yếu do ngà răng quyết định; ngà răng dày lên làm răng vàng đậm hơn."
+    },
+    {
+      "question": "Tế bào nào trong tủy răng giảm mạnh nhất khi về già?",
+      "options": [
+        {"text": "Tế bào lympho", "isCorrect": false},
+        {"text": "Nguyên bào ngà (Odontoblasts)", "isCorrect": true},
+        {"text": "Bạch cầu đa nhân", "isCorrect": false},
+        {"text": "Tế bào mỡ", "isCorrect": false}
+      ],
+      "explanation": "Sự sụt giảm nguyên bào ngà làm hạn chế khả năng tạo ngà sửa chữa khi có kích thích."
+    },
+    {
+      "question": "Loại sỏi tủy nào được hình thành từ xác tế bào và tơ huyết?",
+      "options": [
+        {"text": "Sỏi tủy thật", "isCorrect": false},
+        {"text": "Sỏi tủy giả (calci hóa lan tỏa)", "isCorrect": true},
+        {"text": "Sỏi ống ngà", "isCorrect": false},
+        {"text": "Sỏi túi lợi", "isCorrect": false}
+      ],
+      "explanation": "Sỏi tủy giả là các đám mây calci hóa không có cấu trúc ống ngà rõ rệt."
+    },
+    {
+      "question": "Tại sao việc nhổ răng ở người già đôi khi khó khăn hơn?",
+      "options": [
+        {"text": "Do xương hàm quá mềm", "isCorrect": false},
+        {"text": "Do hiện tượng dính khớp (ankylosis) xê-măng và xương ổ răng", "isCorrect": true},
+        {"text": "Do răng người già to hơn", "isCorrect": false},
+        {"text": "Do nướu bám chặt", "isCorrect": false}
+      ],
+      "explanation": "Xê-măng bồi đắp quá mức có thể gây dính chặt chân răng vào xương ổ."
+    },
+    {
+      "question": "Sự teo gai lưỡi ở người già có thể gây ra hiện tượng:",
+      "options": [
+        {"text": "Lưỡi bóng và nhẵn", "isCorrect": true},
+        {"text": "Lưỡi xù xì", "isCorrect": false},
+        {"text": "Lưỡi bị chảy máu", "isCorrect": false},
+        {"text": "Lưỡi mọc thêm gai mới", "isCorrect": false}
+      ],
+      "explanation": "Teo gai lưỡi làm bề mặt lưỡi mất đi độ nhám tự nhiên, trông nhẵn bóng."
+    },
+    {
+      "question": "Thoái hóa mạch máu tủy răng NCT có biểu hiện gì?",
+      "options": [
+        {"text": "Xơ vữa các vi động mạch và dày nội mạc thành mạch", "isCorrect": true},
+        {"text": "Tăng tuần hoàn máu", "isCorrect": false},
+        {"text": "Mạch máu dãn rộng", "isCorrect": false},
+        {"text": "Không có sự thay đổi mạch máu", "isCorrect": false}
+      ],
+      "explanation": "Mạch máu tủy răng cũng bị xơ cứng giống như mạch máu toàn thân ở người già."
+    },
+    {
+      "question": "Dịch nướu ở người già thay đổi như thế nào?",
+      "options": [
+        {"text": "Tăng lượng tiết", "isCorrect": false},
+        {"text": "Giảm khả năng sát khuẩn và rửa sạch khe nướu", "isCorrect": true},
+        {"text": "Chứa nhiều kháng thể hơn", "isCorrect": false},
+        {"text": "Biến mất hoàn toàn", "isCorrect": false}
+      ],
+      "explanation": "Sự suy giảm chất lượng dịch nướu làm tăng nguy cơ viêm quanh răng ở NCT."
+    },
+    {
+      "question": "Loãng xương sinh lý ở người già ảnh hưởng gì đến xương hàm?",
+      "options": [
+        {"text": "Làm xương cứng hơn", "isCorrect": false},
+        {"text": "Giảm khối lượng xương, xương xốp và dễ gãy", "isCorrect": true},
+        {"text": "Tăng mật độ canxi", "isCorrect": false},
+        {"text": "Không ảnh hưởng", "isCorrect": false}
+      ],
+      "explanation": "Loãng xương toàn thân cũng diễn ra ở xương hàm, làm tăng rủi ro khi thực hiện phẫu thuật."
+    },
+    {
+      "question": "Sự giảm khéo léo của môi, má, lưỡi ở NCT dẫn đến khó khăn gì?",
+      "options": [
+        {"text": "Khó phát âm rõ chữ", "isCorrect": false},
+        {"text": "Dễ bị đọng thức ăn ở hành lang miệng", "isCorrect": false},
+        {"text": "Khó kiểm soát hàm giả tháo lắp", "isCorrect": false},
+        {"text": "Tất cả các ý trên", "isCorrect": true}
+      ],
+      "explanation": "Các cơ mô mềm suy yếu làm giảm khả năng tự làm sạch và vận hành các khí cụ nha khoa."
+    },
+    {
+      "question": "Tuyến nước bọt nào ở NCT bị thay thế nhu mô bằng mỡ nhiều nhất?",
+      "options": [
+        {"text": "Tuyến mang tai", "isCorrect": false},
+        {"text": "Tuyến dưới hàm và tuyến dưới lưỡi", "isCorrect": true},
+        {"text": "Tuyến nước bọt phụ", "isCorrect": false},
+        {"text": "Cả 3 tuyến bằng nhau", "isCorrect": false}
+      ],
+      "explanation": "Tuyến dưới hàm thường chịu ảnh hưởng nặng nề hơn tuyến mang tai trong quá trình lão hóa."
+    },
+    {
+      "question": "Phát biểu nào đúng về triệu chứng đau răng ở người cao tuổi?",
+      "options": [
+        {"text": "Luôn đau dữ dội hơn người trẻ", "isCorrect": false},
+        {"text": "Triệu chứng thường nghèo nàn, khó xác định vị trí đau chính xác", "isCorrect": true},
+        {"text": "Cảm giác đau rất nhạy bén", "isCorrect": false},
+        {"text": "Không bao giờ bị đau răng", "isCorrect": false}
+      ],
+      "explanation": "Do tủy bị xơ hóa và giảm thần kinh dẫn truyền nên phản ứng đau của NCT thường không điển hình."
+    },
+    {
+      "question": "Sự thay đổi của cơ nhai ở NCT bao gồm:",
+      "options": [
+        {"text": "Tăng khối lượng cơ", "isCorrect": false},
+        {"text": "Giảm số lượng sợi cơ và thay thế bằng mô liên kết/mỡ", "isCorrect": true},
+        {"text": "Cơ trở nên linh hoạt hơn", "isCorrect": false},
+        {"text": "Tăng lực cắn tối đa", "isCorrect": false}
+      ],
+      "explanation": "Cơ nhai bị teo đi và giảm sức mạnh đáng kể ở người già."
+    },
+    {
+      "question": "Hệ vi khuẩn trong miệng NCT thay đổi như thế nào?",
+      "options": [
+        {"text": "Ít vi khuẩn hơn người trẻ", "isCorrect": false},
+        {"text": "Tăng các chủng nấm men và vi khuẩn có hại do khô miệng", "isCorrect": true},
+        {"text": "Toàn vi khuẩn có lợi", "isCorrect": false},
+        {"text": "Không thay đổi", "isCorrect": false}
+      ],
+      "explanation": "Khô miệng và vệ sinh kém tạo điều kiện cho vi khuẩn cơ hội và nấm phát triển mạnh."
+    },
+    {
+      "question": "Ngà quanh ống ngà (Peritubular dentin) ở NCT có xu hướng:",
+      "options": [
+        {"text": "Dày lên làm hẹp lòng ống ngà", "isCorrect": true},
+        {"text": "Mỏng đi", "isCorrect": false},
+        {"text": "Biến mất", "isCorrect": false},
+        {"text": "Mềm đi", "isCorrect": false}
+      ],
+      "explanation": "Sự bồi đắp liên tục của ngà quanh ống là nguyên nhân gây xơ hóa ống ngà."
+    },
+    {
+      "question": "Rối loạn chuyển hóa ở NCT tạo ra trạng thái gì cho cơ thể?",
+      "options": [
+        {"text": "Trạng thái tiền viêm (pro-inflammatory state)", "isCorrect": true},
+        {"text": "Trạng thái miễn dịch siêu cấp", "isCorrect": false},
+        {"text": "Trạng thái cân bằng tuyệt đối", "isCorrect": false},
+        {"text": "Trạng thái trẻ hóa tế bào", "isCorrect": false}
+      ],
+      "explanation": "Sự tăng các chất chỉ thị viêm (như CRP) khiến NCT dễ bị tổn thương mô khi có kích thích."
+    },
+    {
+      "question": "Teo niêm mạc miệng ở người già dẫn đến nguy cơ nào khi mang hàm giả?",
+      "options": [
+        {"text": "Hàm giả bám chắc hơn", "isCorrect": false},
+        {"text": "Dễ bị loét và đau do tỳ đè lên nền xương", "isCorrect": true},
+        {"text": "Không ảnh hưởng", "isCorrect": false},
+        {"text": "Làm xương hàm mọc lại", "isCorrect": false}
+      ],
+      "explanation": "Lớp đệm niêm mạc mỏng không đủ bảo vệ xương khỏi áp lực của hàm nhựa."
+    },
+    {
+      "question": "Kết luận quan trọng về lão hóa trong tài liệu là:",
+      "options": [
+        {"text": "Lão hóa là một bệnh lý cần điều trị", "isCorrect": false},
+        {"text": "Lão hóa làm kịch phát tác động của các bệnh lý toàn thân sẵn có", "isCorrect": true},
+        {"text": "Lão hóa không ảnh hưởng đến răng miệng", "isCorrect": false},
+        {"text": "Chỉ người già ở nước phát triển mới bị lão hóa", "isCorrect": false}
+      ],
+      "explanation": "Bản thân lão hóa không phải bệnh, nhưng nó làm các bệnh lý khác trở nên nghiêm trọng hơn."
+    }
+  ]

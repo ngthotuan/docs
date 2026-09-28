@@ -1,0 +1,752 @@
+[
+    {
+      "question": "Định nghĩa chính xác nhất về Pháp nha (Forensic Dentistry) là gì?",
+      "options": [
+        {"text": "Sự ứng dụng kiến thức nha khoa vào luật hình sự và dân sự", "isCorrect": true},
+        {"text": "Kỹ thuật nhổ răng cho tội phạm", "isCorrect": false},
+        {"text": "Chăm sóc răng miệng cho bệnh nhân tại bệnh viện tâm thần", "isCorrect": false},
+        {"text": "Nghiên cứu về các loại sâu răng trong quá khứ", "isCorrect": false}
+      ],
+      "explanation": "Pháp nha là một nhánh của nha khoa và pháp y, sử dụng các bằng chứng về răng miệng để phục vụ cho các mục đích pháp lý."
+    },
+    {
+      "question": "Gốc từ Latin của từ 'Forensic' có nghĩa là gì?",
+      "options": [
+        {"text": "Cơ sở dữ liệu", "isCorrect": false},
+        {"text": "Diễn đàn thảo luận các vấn đề pháp lý", "isCorrect": true},
+        {"text": "Phòng mổ tử thi", "isCorrect": false},
+        {"text": "Bằng chứng thép", "isCorrect": false}
+      ],
+      "explanation": "Từ 'Forensic' bắt nguồn từ 'forensis' trong tiếng Latin, liên quan đến các hoạt động thảo luận công khai và pháp lý tại tòa án."
+    },
+    {
+      "question": "Nha sĩ pháp y hỗ trợ cơ quan điều tra trong việc xác minh yếu tố nào của nạn nhân?",
+      "options": [
+        {"text": "Tuổi tác, chủng tộc, nghề nghiệp", "isCorrect": true},
+        {"text": "Địa chỉ nhà cũ", "isCorrect": false},
+        {"text": "Khả năng tài chính hiện tại", "isCorrect": false},
+        {"text": "Sở thích âm nhạc", "isCorrect": false}
+      ],
+      "explanation": "Thông qua cấu trúc xương và răng, nha sĩ pháp y có thể suy đoán các đặc điểm sinh học và tình trạng kinh tế xã hội của nạn nhân."
+    },
+    {
+      "question": "Việc nhận dạng nạn nhân trong pháp nha được thực hiện chủ yếu bằng cách so sánh:",
+      "options": [
+        {"text": "Vân tay và nhóm máu", "isCorrect": false},
+        {"text": "Hồ sơ nha khoa trước khi chết (AM) và sau khi chết (PM)", "isCorrect": true},
+        {"text": "Chiều cao và cân nặng", "isCorrect": false},
+        {"text": "Quần áo và trang sức", "isCorrect": false}
+      ],
+      "explanation": "So sánh đối chiếu AM (Ante-mortem) và PM (Post-mortem) là phương pháp cốt lõi để xác định danh tính một cá nhân thông qua răng."
+    },
+    {
+      "question": "Tại sao X-quang nha khoa được coi là tính năng ưu việt trong nhận dạng tử thi?",
+      "options": [
+        {"text": "Vì nó rẻ tiền", "isCorrect": false},
+        {"text": "Vì các đặc điểm như hình dáng chân răng, xoang trám là duy nhất và khó bị phân hủy", "isCorrect": true},
+        {"text": "Vì máy X-quang nào cũng giống nhau", "isCorrect": false},
+        {"text": "Vì nó hiển thị được màu sắc của răng", "isCorrect": false}
+      ],
+      "explanation": "Răng và các phục hồi nha khoa cực kỳ bền vững với nhiệt độ và sự phân hủy, cung cấp dữ liệu hình thái ổn định lâu dài."
+    },
+    {
+      "question": "Pháp nha tham gia vào các lĩnh vực luật nào?",
+      "options": [
+        {"text": "Chỉ luật hình sự", "isCorrect": false},
+        {"text": "Chỉ luật dân sự", "isCorrect": false},
+        {"text": "Cả luật hình sự và luật dân sự", "isCorrect": true},
+        {"text": "Chỉ luật lao động", "isCorrect": false}
+      ],
+      "explanation": "Pháp nha phục vụ điều tra án mạng, bạo hành (hình sự) và cả xác định thừa kế, bồi thường (dân sự)."
+    },
+    {
+      "question": "Nhiệm vụ chính của Pháp nha bao gồm việc xử lý, khám nghiệm và:",
+      "options": [
+        {"text": "Đánh giá các bằng chứng nha khoa phục vụ pháp luật", "isCorrect": true},
+        {"text": "Kê đơn thuốc giảm đau cho nạn nhân", "isCorrect": false},
+        {"text": "Trực tiếp bắt giữ nghi phạm", "isCorrect": false},
+        {"text": "Chỉnh răng cho tử thi", "isCorrect": false}
+      ],
+      "explanation": "Quy trình bao gồm thu thập bằng chứng tại hiện trường/tử thi, phân tích trong labo và báo cáo trước cơ quan pháp luật."
+    },
+    {
+      "question": "Bằng chứng nha khoa có thể giúp xác định tuổi chính xác nhất ở đối tượng nào?",
+      "options": [
+        {"text": "Người già", "isCorrect": false},
+        {"text": "Trẻ em", "isCorrect": true},
+        {"text": "Người trung niên", "isCorrect": false},
+        {"text": "Đã qua tuổi 30", "isCorrect": false}
+      ],
+      "explanation": "Quá trình mọc răng và phát triển mầm răng ở trẻ em diễn ra theo trình tự thời gian rất chặt chẽ, giúp ước tính tuổi chính xác."
+    },
+    {
+      "question": "Trong nhận dạng, hồ sơ nha khoa bao gồm những gì?",
+      "options": [
+        {"text": "X-quang, hình ảnh và thử ADN", "isCorrect": true},
+        {"text": "Sổ hộ khẩu và chứng minh thư", "isCorrect": false},
+        {"text": "Đơn thuốc cũ và hóa đơn viện phí", "isCorrect": false},
+        {"text": "Mẫu tóc và da", "isCorrect": false}
+      ],
+      "explanation": "Hồ sơ nha khoa hiện đại kết hợp giữa dữ liệu hình thái (phim, ảnh) và dữ liệu sinh học phân tử (DNA từ tủy răng)."
+    },
+    {
+      "question": "Tổ chức ABFO được nhắc đến trong tài liệu là gì?",
+      "options": [
+        {"text": "Hiệp hội Nha sĩ Thế giới", "isCorrect": false},
+        {"text": "Hội đồng Pháp nha Hoa Kỳ (American Board of Forensic Odontology)", "isCorrect": true},
+        {"text": "Tổ chức Y tế Thế giới nhánh nha khoa", "isCorrect": false},
+        {"text": "Cơ quan điều tra hiện trường", "isCorrect": false}
+      ],
+      "explanation": "ABFO là tổ chức hàng đầu thế giới về thiết lập các tiêu chuẩn và hướng dẫn thực hành pháp nha."
+    },
+    {
+      "question": "Theo hướng dẫn của ABFO, đặc điểm nào sau đây được đánh giá chung?",
+      "options": [
+        {"text": "Khoảng hở giữa các răng", "isCorrect": false},
+        {"text": "Kích thước và hình dạng cung hàm", "isCorrect": true},
+        {"text": "Vết sứt mẻ răng cửa", "isCorrect": false},
+        {"text": "Vết mòn răng do nghề nghiệp", "isCorrect": false}
+      ],
+      "explanation": "Kích thước và hình dạng cung hàm là những biến tổng quát, trong khi các đặc điểm răng cụ thể được xử lý như các biến riêng biệt."
+    },
+    {
+      "question": "Tại hiện trường thu thập dấu vết, bước 'Chụp hình' cần lưu ý gì?",
+      "options": [
+        {"text": "Chỉ chụp bằng điện thoại", "isCorrect": false},
+        {"text": "Sử dụng thước đo tiêu chuẩn và góc chụp vuông góc", "isCorrect": true},
+        {"text": "Chụp càng xa càng tốt", "isCorrect": false},
+        {"text": "Chụp không cần đèn flash", "isCorrect": false}
+      ],
+      "explanation": "Chụp ảnh pháp y cần độ chính xác về tỉ lệ xích để có thể phân tích kích thước thực tế của dấu vết."
+    },
+    {
+      "question": "Phương pháp 'Overlay' trong phân tích vết cắn sử dụng phần mềm nào phổ biến?",
+      "options": [
+        {"text": "Microsoft Word", "isCorrect": false},
+        {"text": "Adobe Photoshop", "isCorrect": true},
+        {"text": "PowerPoint", "isCorrect": false},
+        {"text": "AutoCAD", "isCorrect": false}
+      ],
+      "explanation": "Adobe Photoshop cho phép chồng các lớp ảnh mẫu răng của nghi phạm lên ảnh vết cắn trên da nạn nhân để tìm sự tương đồng."
+    },
+    {
+      "question": "Kỹ thuật quét 3D cung hàm giúp ích gì cho nha sĩ pháp y?",
+      "options": [
+        {"text": "Mô phỏng lại hình dạng và kích thước cung hàm của hung thủ", "isCorrect": true},
+        {"text": "Thay đổi màu sắc của răng", "isCorrect": false},
+        {"text": "Nhổ răng nhanh hơn", "isCorrect": false},
+        {"text": "Để in ảnh màu", "isCorrect": false}
+      ],
+      "explanation": "Quét 3D tạo ra mô hình kỹ thuật số độ chính xác cao, giúp đối chiếu các góc độ và kích thước cung hàm không gian 3 chiều."
+    },
+    {
+      "question": "Trong trường hợp nghi ngờ vết cắn, nha sĩ cần lấy mẫu gì tại vùng bị cắn?",
+      "options": [
+        {"text": "Lấy mẫu nước bọt để phân tích ADN", "isCorrect": true},
+        {"text": "Lấy mẫu máu nạn nhân", "isCorrect": false},
+        {"text": "Lấy mẫu tóc nạn nhân", "isCorrect": false},
+        {"text": "Lấy mẫu da lành xung quanh", "isCorrect": false}
+      ],
+      "explanation": "Nước bọt của hung thủ thường bám lại tại vị trí vết cắn, cung cấp bằng chứng ADN quý giá."
+    },
+    {
+      "question": "Vết cắn thường xuất hiện trong các vụ án nào theo tài liệu?",
+      "options": [
+        {"text": "Trộm cắp tài sản", "isCorrect": false},
+        {"text": "Bạo hành hoặc tấn công tình dục", "isCorrect": true},
+        {"text": "Tai nạn giao thông đơn thuần", "isCorrect": false},
+        {"text": "Vi phạm luật lao động", "isCorrect": false}
+      ],
+      "explanation": "Vết cắn là dấu vết sinh học đặc trưng của sự giằng co và bạo lực cơ thể."
+    },
+    {
+      "question": "Tại sao nhận dạng bằng răng có thể thực hiện được sau hàng chục năm?",
+      "options": [
+        {"text": "Vì răng không bao giờ rơi ra", "isCorrect": false},
+        {"text": "Vì mô răng có độ khoáng hóa cao nhất cơ thể và kháng lại sự phân hủy", "isCorrect": true},
+        {"text": "Vì nha sĩ nào cũng giữ hồ sơ bệnh nhân vĩnh viễn", "isCorrect": false},
+        {"text": "Vì tủy răng tự đóng băng", "isCorrect": false}
+      ],
+      "explanation": "Cấu trúc cứng của răng bảo vệ các thông tin di truyền và hình thái học ngay cả trong những điều kiện khắc nghiệt nhất."
+    },
+    {
+      "question": "Đặc điểm 'khe hở giữa các răng' được coi là gì trong pháp nha?",
+      "options": [
+        {"text": "Một biến riêng biệt dùng để đối chiếu", "isCorrect": true},
+        {"text": "Một bệnh lý cần chữa trị", "isCorrect": false},
+        {"text": "Dấu hiệu của người già", "isCorrect": false},
+        {"text": "Không có giá trị nhận dạng", "isCorrect": false}
+      ],
+      "explanation": "Mỗi khoảng hở, vị trí răng xoay hay sứt mẻ là những 'vân tay' của bộ răng dùng để nhận diện cá nhân."
+    },
+    {
+      "question": "Hồ sơ AM (Ante-mortem) bao gồm những dữ liệu nào?",
+      "options": [
+        {"text": "Dữ liệu được thu thập từ tử thi", "isCorrect": false},
+        {"text": "Hồ sơ điều trị nha khoa khi người đó còn sống", "isCorrect": true},
+        {"text": "Ảnh chụp hiện trường vụ án", "isCorrect": false},
+        {"text": "Lời khai của nghi phạm", "isCorrect": false}
+      ],
+      "explanation": "AM là hồ sơ 'trước khi chết' từ các phòng khám nha khoa mà nạn nhân đã từng điều trị."
+    },
+    {
+      "question": "Quy trình đối chiếu vết cắn thực hiện trên sáp giúp xác định điều gì?",
+      "options": [
+        {"text": "Độ sâu và cơ chế cắn của răng", "isCorrect": true},
+        {"text": "Nhóm máu của hung thủ", "isCorrect": false},
+        {"text": "Tuổi của nạn nhân", "isCorrect": false},
+        {"text": "Thời gian xảy ra vụ án", "isCorrect": false}
+      ],
+      "explanation": "Cắn thử trên sáp bằng mẫu hàm của nghi phạm giúp tái hiện lại hình ảnh vết cắn một cách trực quan."
+    },
+    {
+      "question": "Hình ảnh cung hàm trong tài liệu (Hình 1) mô tả các thông số nào?",
+      "options": [
+        {"text": "Kích thước ICD và vị trí các răng cửa, răng nanh", "isCorrect": true},
+        {"text": "Chiều dài chân răng khôn", "isCorrect": false},
+        {"text": "Màu sắc của lợi", "isCorrect": false},
+        {"text": "Số lượng lỗ sâu răng", "isCorrect": false}
+      ],
+      "explanation": "Các thông số về chiều rộng, hình dạng cung hàm là dữ liệu quan trọng trong phân tích dấu vết."
+    },
+    {
+      "question": "Nha sĩ pháp y cần phối hợp với đối tượng nào trong hệ thống tư pháp?",
+      "options": [
+        {"text": "Cơ quan công an và pháp y toàn thân", "isCorrect": true},
+        {"text": "Công ty bảo hiểm nhân thọ", "isCorrect": false},
+        {"text": "Người dân xung quanh hiện trường", "isCorrect": false},
+        {"text": "Các hiệu thuốc", "isCorrect": false}
+      ],
+      "explanation": "Đây là một sự phối hợp liên ngành để giải quyết các vụ án phức tạp."
+    },
+    {
+      "question": "Chủng tộc của nạn nhân có thể được suy đoán qua đặc điểm nào của răng?",
+      "options": [
+        {"text": "Màu men răng", "isCorrect": false},
+        {"text": "Hình dạng răng cửa hình xẻng (Shovel-shaped incisors)", "isCorrect": true},
+        {"text": "Số lượng răng sâu", "isCorrect": false},
+        {"text": "Độ dài của cung hàm", "isCorrect": false}
+      ],
+      "explanation": "Một số chủng tộc có các biến thể hình thái răng đặc trưng, ví dụ răng cửa hình xẻng phổ biến ở người Châu Á và người Mỹ bản địa."
+    },
+    {
+      "question": "Phân tích định lượng trong pháp nha đề cập đến việc gì?",
+      "options": [
+        {"text": "Đo đạc các thông số kích thước của vết thương và răng", "isCorrect": true},
+        {"text": "Đếm số người bị nạn", "isCorrect": false},
+        {"text": "Tính tiền bồi thường", "isCorrect": false},
+        {"text": "Đo nồng độ cồn", "isCorrect": false}
+      ],
+      "explanation": "Định lượng giúp đưa ra các bằng chứng số liệu khách quan trước tòa thay vì chỉ nhận xét cảm tính."
+    },
+    {
+      "question": "Mục đích cuối cùng của Pháp nha là gì?",
+      "options": [
+        {"text": "Tăng doanh thu cho phòng khám", "isCorrect": false},
+        {"text": "Phục vụ công lý thông qua bằng chứng nha khoa", "isCorrect": true},
+        {"text": "Nghiên cứu khoa học thuần túy", "isCorrect": false},
+        {"text": "Tẩy trắng răng cho nạn nhân", "isCorrect": false}
+      ],
+      "explanation": "Mọi hoạt động của pháp nha đều hướng tới việc làm sáng tỏ sự thật và hỗ trợ hệ thống pháp luật."
+    },
+    {
+      "question": "Xác minh nghề nghiệp của nạn nhân qua răng dựa trên:",
+      "options": [
+        {"text": "Các vết mòn đặc trưng (ví dụ thợ may hay ngậm kim, nghệ sĩ thổi kèn)", "isCorrect": true},
+        {"text": "Giá trị của các răng sứ", "isCorrect": false},
+        {"text": "Hàm lượng canxi", "isCorrect": false},
+        {"text": "Độ trắng của răng", "isCorrect": false}
+      ],
+      "explanation": "Nghề nghiệp để lại những dấu ấn thói quen cơ học lên răng qua thời gian dài."
+    },
+    {
+      "question": "Dữ liệu PM (Post-mortem) được thu thập từ đâu?",
+      "options": [
+        {"text": "Từ gia đình nạn nhân", "isCorrect": false},
+        {"text": "Từ việc khám nghiệm thi thể hoặc hài cốt", "isCorrect": true},
+        {"text": "Từ dữ liệu đám mây", "isCorrect": false},
+        {"text": "Từ nha sĩ cũ", "isCorrect": false}
+      ],
+      "explanation": "PM là dữ liệu 'sau khi chết', phản ánh tình trạng hiện tại của bộ răng tử thi."
+    },
+    {
+      "question": "Nếu hồ sơ AM không có phim X-quang, nha sĩ pháp y có thể dùng gì?",
+      "options": [
+        {"text": "Ảnh chụp nụ cười của nạn nhân khi còn sống", "isCorrect": true},
+        {"text": "Dấu vân tay", "isCorrect": false},
+        {"text": "Mẫu sáp cắn mới", "isCorrect": false},
+        {"text": "Ảnh chụp quần áo", "isCorrect": false}
+      ],
+      "explanation": "Ảnh chân dung có lộ răng có thể giúp nhận diện các đặc điểm răng cửa đặc trưng."
+    },
+    {
+      "question": "Nha sĩ pháp y cần có kiến thức về lĩnh vực nào ngoài nha khoa?",
+      "options": [
+        {"text": "Giải phẫu bệnh và luật pháp", "isCorrect": true},
+        {"text": "Kinh tế học", "isCorrect": false},
+        {"text": "Thiết kế thời trang", "isCorrect": false},
+        {"text": "Ẩm thực", "isCorrect": false}
+      ],
+      "explanation": "Sự hiểu biết về y pháp và quy trình tố tụng là bắt buộc để bằng chứng có giá trị pháp lý."
+    },
+    {
+      "question": "Tầm quan trọng của việc đối chiếu X-quang là gì?",
+      "options": [
+        {"text": "Xác định các chi tiết ẩn như cấu trúc xoang hàm, chóp răng", "isCorrect": true},
+        {"text": "Biết được nạn nhân có hay ăn đồ ngọt không", "isCorrect": false},
+        {"text": "Để chụp ảnh đẹp hơn", "isCorrect": false},
+        {"text": "Để nhổ răng khôn", "isCorrect": false}
+      ],
+      "explanation": "Phim X-quang cho thấy những đặc điểm nội tại không thể thay đổi của xương và răng."
+    },
+    {
+      "question": "Nhận dạng trong các thảm họa hàng loạt (sóng thần, máy bay rơi) thường ưu tiên phương pháp nào?",
+      "options": [
+        {"text": "Nhìn mặt", "isCorrect": false},
+        {"text": "Pháp nha và ADN", "isCorrect": true},
+        {"text": "Vân tay toàn bộ", "isCorrect": false},
+        {"text": "Nhận dạng quần áo", "isCorrect": false}
+      ],
+      "explanation": "Khi tử thi bị biến dạng nặng, răng và ADN là hai kênh nhận dạng tin cậy nhất."
+    },
+    {
+      "question": "Phân tích dấu vết răng (bite marks) mang tính chất gì trong điều trị?",
+      "options": [
+        {"text": "Mang tính chất chẩn đoán bệnh", "isCorrect": false},
+        {"text": "Mang tính chất đối chiếu hung thủ", "isCorrect": true},
+        {"text": "Mang tính chất làm đẹp", "isCorrect": false},
+        {"text": "Không có ý nghĩa", "isCorrect": false}
+      ],
+      "explanation": "Dấu vết răng là 'chữ ký' của hung thủ để lại trên cơ thể nạn nhân."
+    },
+    {
+      "question": "Việc so sánh AM và PM đạt kết quả 'Tích cực' (Positive) khi nào?",
+      "options": [
+        {"text": "Khi không có đặc điểm nào giống", "isCorrect": false},
+        {"text": "Khi có đủ các điểm tương đồng đặc trưng và không có sự mâu thuẫn không thể giải thích", "isCorrect": true},
+        {"text": "Khi nạn nhân có răng giả", "isCorrect": false},
+        {"text": "Khi nghi phạm nhận tội", "isCorrect": false}
+      ],
+      "explanation": "Sự trùng khớp tuyệt đối về cấu trúc nha khoa dẫn đến nhận dạng xác định."
+    },
+    {
+      "question": "Nghiệp vụ nào thuộc nhiệm vụ của Pháp nha dân sự?",
+      "options": [
+        {"text": "Xác định danh tính để thừa kế tài sản", "isCorrect": true},
+        {"text": "Tìm hung thủ giết người", "isCorrect": false},
+        {"text": "Xác định hung khí là dao hay kéo", "isCorrect": false},
+        {"text": "Khám nghiệm hiện trường vụ trộm", "isCorrect": false}
+      ],
+      "explanation": "Pháp nha dân sự giải quyết các vấn đề quyền lợi cá nhân và tranh chấp tài sản liên quan đến người đã khuất."
+    },
+    {
+      "question": "Kỹ thuật 'Dragmarks' trên da (Hình 17) mô tả điều gì?",
+      "options": [
+        {"text": "Vết răng kéo lê trên bề mặt da", "isCorrect": true},
+        {"text": "Sâu răng lan tỏa", "isCorrect": false},
+        {"text": "Vết bầm tím do đánh", "isCorrect": false},
+        {"text": "Sẹo cũ", "isCorrect": false}
+      ],
+      "explanation": "Dragmarks phản ánh hành động cắn và kéo, giúp hình dung tư thế của hung thủ và nạn nhân."
+    },
+    {
+      "question": "Nha sĩ pháp y có quyền phẫu tích tử thi không?",
+      "options": [
+        {"text": "Không bao giờ", "isCorrect": false},
+        {"text": "Có, khi được cơ quan pháp luật cho phép để lộ vùng răng miệng khi có cứng khít hàm", "isCorrect": true},
+        {"text": "Phải hỏi ý kiến người nhà", "isCorrect": false},
+        {"text": "Chỉ được đứng nhìn", "isCorrect": false}
+      ],
+      "explanation": "Khi thi thể bị co cứng cơ (rigor mortis), phẫu tích hàm là cần thiết để thu thập dữ liệu PM đầy đủ."
+    },
+    {
+      "question": "Vật liệu lấy mẫu vết cắn trực tiếp trên da thường dùng là gì?",
+      "options": [
+        {"text": "Xi măng trám răng", "isCorrect": false},
+        {"text": "Silicon lấy dấu độ chính xác cao", "isCorrect": true},
+        {"text": "Thạch cao xây dựng", "isCorrect": false},
+        {"text": "Nhựa acrylic", "isCorrect": false}
+      ],
+      "explanation": "Silicon giúp ghi lại chi tiết tinh vi nhất của vết răng trên bề mặt da."
+    },
+    {
+      "question": "Sự biến đổi của cung hàm sau khi chết cần lưu ý điều gì?",
+      "options": [
+        {"text": "Răng có thể bị rơi ra hoặc xương bị gãy do tác động môi trường", "isCorrect": true},
+        {"text": "Xương hàm to ra", "isCorrect": false},
+        {"text": "Răng tự mọc dài thêm", "isCorrect": false},
+        {"text": "Răng chuyển sang màu xanh", "isCorrect": false}
+      ],
+      "explanation": "Nha sĩ pháp y phải phân biệt được tổn thương có trước khi chết (AM) và tổn thương do môi trường sau khi chết (PM)."
+    },
+    {
+      "question": "Hồ sơ nha khoa điện tử có lợi ích gì trong pháp nha?",
+      "options": [
+        {"text": "Dễ dàng truy xuất và gửi dữ liệu AM nhanh chóng qua mạng", "isCorrect": true},
+        {"text": "Làm răng trắng hơn", "isCorrect": false},
+        {"text": "Không cần chụp X-quang", "isCorrect": false},
+        {"text": "Tự động tìm ra hung thủ", "isCorrect": false}
+      ],
+      "explanation": "Số hóa hồ sơ là bước tiến lớn giúp nhận dạng xuyên quốc gia trong các thảm họa quốc tế."
+    },
+    {
+      "question": "Ai là người đưa ra kết luận cuối cùng về danh tính dựa trên bằng chứng nha khoa?",
+      "options": [
+        {"text": "Gia đình nạn nhân", "isCorrect": false},
+        {"text": "Nha sĩ pháp y (trong báo cáo giám định gửi tòa)", "isCorrect": true},
+        {"text": "Y tá phòng khám", "isCorrect": false},
+        {"text": "Người dân chứng kiến", "isCorrect": false}
+      ],
+      "explanation": "Nha sĩ pháp y chịu trách nhiệm chuyên môn về tính chính xác của nhận dạng nha khoa."
+    },
+    {
+      "question": "Kích thước 'Maxillary ICD' là gì?",
+      "options": [
+        {"text": "Khoảng cách giữa hai răng nanh hàm trên (Inter-Canine Distance)", "isCorrect": true},
+        {"text": "Chiều cao của răng cửa", "isCorrect": false},
+        {"text": "Độ dày của môi", "isCorrect": false},
+        {"text": "Chiều dài vòm miệng", "isCorrect": false}
+      ],
+      "explanation": "ICD là thông số đo đạc căn bản để xác định kích thước cung hàm hung thủ để lại vết cắn."
+    },
+    {
+      "question": "Hiện tượng 'Petechial hemorrhage' tại vết cắn là gì?",
+      "options": [
+        {"text": "Xuất huyết điểm do áp lực nén của răng", "isCorrect": true},
+        {"text": "Sâu răng chảy máu", "isCorrect": false},
+        {"text": "Vết bẩn trên da", "isCorrect": false},
+        {"text": "Nốt ruồi", "isCorrect": false}
+      ],
+      "explanation": "Xuất huyết điểm phản ánh lực cắn mạnh gây vỡ các mao mạch dưới da."
+    },
+    {
+      "question": "Việc sử dụng tia cực tím (UV) trong chụp ảnh vết cắn nhằm:",
+      "options": [
+        {"text": "Làm cho ảnh đẹp hơn", "isCorrect": false},
+        {"text": "Phát hiện các vết bầm hoặc dấu vết lặn sâu dưới da không thấy được bằng mắt thường", "isCorrect": true},
+        {"text": "Diệt khuẩn hiện trường", "isCorrect": false},
+        {"text": "Đo độ trắng răng", "isCorrect": false}
+      ],
+      "explanation": "Tia UV giúp bộc lộ những tổn thương mô sâu có đặc tính phản xạ ánh sáng khác biệt."
+    },
+    {
+      "question": "Tại sao phải lấy dấu cung hàm của nạn nhân ngay cả khi họ đã chết?",
+      "options": [
+        {"text": "Để làm hàm giả cho họ", "isCorrect": false},
+        {"text": "Để tạo mô hình PM phục vụ đối chiếu lâu dài và đo đạc định lượng", "isCorrect": true},
+        {"text": "Để nhổ răng cho sạch", "isCorrect": false},
+        {"text": "Theo thói quen nha khoa", "isCorrect": false}
+      ],
+      "explanation": "Mẫu hàm PM là bằng chứng vật chất quan trọng có thể lưu trữ vĩnh viễn."
+    },
+    {
+      "question": "Ưu điểm của việc so sánh ADN từ tủy răng là gì?",
+      "options": [
+        {"text": "Răng bảo vệ tủy tốt khỏi nhiệt độ cao và hóa chất", "isCorrect": true},
+        {"text": "Lấy ADN tủy răng nhanh hơn lấy máu", "isCorrect": false},
+        {"text": "Tủy răng ai cũng giống nhau", "isCorrect": false},
+        {"text": "Không cần máy móc phức tạp", "isCorrect": false}
+      ],
+      "explanation": "Trong các vụ cháy hoặc xác phân hủy mạnh, tủy răng thường là nơi duy nhất còn ADN nguyên vẹn."
+    },
+    {
+      "question": "Nha sĩ pháp y có tham gia vào việc xác định bạo hành trẻ em không?",
+      "options": [
+        {"text": "Có, qua các vết cắn hoặc chấn thương vùng hàm mặt đặc trưng", "isCorrect": true},
+        {"text": "Không, đó là việc của bác sĩ nhi khoa", "isCorrect": false},
+        {"text": "Chỉ khi trẻ em bị mất răng", "isCorrect": false},
+        {"text": "Chỉ khi cảnh sát yêu cầu nhổ răng", "isCorrect": false}
+      ],
+      "explanation": "Dấu hiệu bạo hành thường xuất hiện ở vùng mặt, nha sĩ là người đầu tiên có thể phát hiện các vết cắn bất thường."
+    },
+    {
+      "question": "Khám nghiệm nha khoa Post-mortem bắt đầu bằng:",
+      "options": [
+        {"text": "Chụp X-quang", "isCorrect": false},
+        {"text": "Làm sạch vùng miệng và mô tả tình trạng răng hiện có", "isCorrect": true},
+        {"text": "Nhổ toàn bộ răng", "isCorrect": false},
+        {"text": "Hỏi tên nạn nhân", "isCorrect": false}
+      ],
+      "explanation": "Làm sạch tử thi giúp quan sát rõ các chi tiết giải phẫu và bệnh lý răng miệng."
+    },
+    {
+      "question": "Tầm quan trọng của việc xác định 'Tình trạng kinh tế xã hội' qua răng là gì?",
+      "options": [
+        {"text": "Để thu tiền viện phí", "isCorrect": false},
+        {"text": "Thu hẹp phạm vi tìm kiếm danh tính (ví dụ phục hình đắt tiền, răng sứ cao cấp)", "isCorrect": true},
+        {"text": "Để biết nạn nhân có giàu không", "isCorrect": false},
+        {"text": "Không có giá trị", "isCorrect": false}
+      ],
+      "explanation": "Các loại vật liệu trám và phục hình phản ánh trình độ chăm sóc nha khoa mà nạn nhân từng tiếp nhận."
+    },
+    {
+      "question": "Trong pháp nha, 'Sự loại trừ' (Exclusion) có nghĩa là gì?",
+      "options": [
+        {"text": "Hồ sơ AM và PM có những mâu thuẫn cơ bản không thể giải thích, khẳng định không phải là một người", "isCorrect": true},
+        {"text": "Đuổi nha sĩ ra ngoài", "isCorrect": false},
+        {"text": "Xóa hồ sơ cũ", "isCorrect": false},
+        {"text": "Nạn nhân không có răng", "isCorrect": false}
+      ],
+      "explanation": "Nếu AM cho thấy răng 46 đã nhổ nhưng PM thấy răng 46 vẫn còn, có thể kết luận ngay đây không phải là nạn nhân cần tìm."
+    },
+    {
+      "question": "Phương pháp 'Mô phỏng lại vết cắn' (Hình 17-18) dùng để:",
+      "options": [
+        {"text": "Tìm ra lực cắn của hung thủ", "isCorrect": false},
+        {"text": "Tìm mức độ tương đồng giữa mẫu hàm nghi phạm và vết thương", "isCorrect": true},
+        {"text": "Để quay phim", "isCorrect": false},
+        {"text": "Làm trắng da", "isCorrect": false}
+      ],
+      "explanation": "Sử dụng các vật phẩm như nhựa, hoa quả hoặc máy tính để tái hiện lại cách vết cắn hình thành."
+    },
+    {
+      "question": "Việc sử dụng 'Adobe Photoshop 7.0.1' (Trang 19) trong Overlay giúp:",
+      "options": [
+        {"text": "Làm ảnh nạn nhân đẹp hơn", "isCorrect": false},
+        {"text": "Chồng lớp mặt nhai răng lên ảnh vết cắn để so sánh", "isCorrect": true},
+        {"text": "Thay đổi ngày giờ chụp ảnh", "isCorrect": false},
+        {"text": "Xóa dấu vết hung thủ", "isCorrect": false}
+      ],
+      "explanation": "Công nghệ số giúp việc so sánh trực quan và chính xác hơn các phương pháp vẽ tay cũ."
+    },
+    {
+      "question": "Trong nhận dạng nha khoa, 'Đặc điểm cá nhân' bao gồm:",
+      "options": [
+        {"text": "Hình dạng cung hàm, vị trí răng, các lỗ sâu và miếng trám", "isCorrect": true},
+        {"text": "Kiểu tóc và màu mắt", "isCorrect": false},
+        {"text": "Cân nặng và chiều cao", "isCorrect": false},
+        {"text": "Sở thích ăn uống", "isCorrect": false}
+      ],
+      "explanation": "Sự kết hợp của nhiều yếu tố răng miệng tạo nên một 'mã vạch' riêng cho mỗi cá nhân."
+    },
+    {
+      "question": "Mục đích của báo cáo giám định pháp nha là gì?",
+      "options": [
+        {"text": "Để lưu trữ bí mật", "isCorrect": false},
+        {"text": "Cung cấp bằng chứng khoa học cho cơ quan điều tra và tòa án", "isCorrect": true},
+        {"text": "Để viết bài báo", "isCorrect": false},
+        {"text": "Để quảng cáo phòng khám", "isCorrect": false}
+      ],
+      "explanation": "Báo cáo là văn bản pháp lý có giá trị chứng cứ quan trọng trong tố tụng."
+    },
+    {
+      "question": "Dấu răng (dental impression) khác vết cắn (bite mark) ở điểm nào?",
+      "options": [
+        {"text": "Dấu răng là thụ động, vết cắn là chủ động có sự tham gia của cơ hàm", "isCorrect": true},
+        {"text": "Giống nhau hoàn toàn", "isCorrect": false},
+        {"text": "Dấu răng chỉ có ở người sống", "isCorrect": false},
+        {"text": "Vết cắn chỉ có ở người chết", "isCorrect": false}
+      ],
+      "explanation": "Vết cắn liên quan đến hành vi và lực sinh học, trong khi dấu răng là sự tiếp xúc vật lý đơn thuần."
+    },
+    {
+      "question": "Nha sĩ pháp y có thể xác định nạn nhân là nam hay nữ không?",
+      "options": [
+        {"text": "Không, răng nam và nữ giống hệt nhau", "isCorrect": false},
+        {"text": "Có, dựa trên kích thước răng (thường răng nam to hơn) và phân tích ADN từ tủy", "isCorrect": true},
+        {"text": "Chỉ dựa vào màu sắc răng", "isCorrect": false},
+        {"text": "Chỉ dựa vào số lượng răng sâu", "isCorrect": false}
+      ],
+      "explanation": "Pháp nha kết hợp các thông số đo đạc nhân trắc học và di truyền học để xác định giới tính."
+    },
+    {
+      "question": "Việc xác định 'nguồn gốc địa lý' qua phân tích đồng vị phóng xạ trong răng giúp gì?",
+      "options": [
+        {"text": "Biết nạn nhân từng sống ở đâu trong giai đoạn hình thành răng", "isCorrect": true},
+        {"text": "Biết nạn nhân có bị nhiễm xạ không", "isCorrect": false},
+        {"text": "Biết nạn nhân có hay đi du lịch không", "isCorrect": false},
+        {"text": "Biết nạn nhân có thích ăn cá không", "isCorrect": false}
+      ],
+      "explanation": "Các nguyên tố trong nước uống và thực phẩm được lưu lại trong men răng, phản ánh vùng địa lý nơi người đó lớn lên."
+    },
+    {
+      "question": "Tiêu chuẩn vàng trong nhận dạng nha khoa hiện nay là gì?",
+      "options": [
+        {"text": "Nhìn tận mắt", "isCorrect": false},
+        {"text": "Đối chiếu AM-PM bằng X-quang và phần mềm máy tính", "isCorrect": true},
+        {"text": "Hỏi ý kiến người nhà", "isCorrect": false},
+        {"text": "Kiểm tra ví tiền", "isCorrect": false}
+      ],
+      "explanation": "Công nghệ số và X-quang cung cấp độ tin cậy cao nhất được tòa án chấp nhận."
+    },
+    {
+      "question": "Hồ sơ nha khoa cần được lưu trữ bao lâu để phục vụ pháp nha?",
+      "options": [
+        {"text": "1 năm", "isCorrect": false},
+        {"text": "Vĩnh viễn hoặc ít nhất 10-20 năm tùy quy định pháp luật", "isCorrect": true},
+        {"text": "Hết đợt điều trị thì xóa", "isCorrect": false},
+        {"text": "Chỉ lưu khi bệnh nhân yêu cầu", "isCorrect": false}
+      ],
+      "explanation": "Việc lưu trữ hồ sơ cẩn thận là trách nhiệm của nha sĩ và là nguồn dữ liệu AM vô giá."
+    },
+    {
+      "question": "Dấu vết cắn trên vật phẩm (như táo, phô mai) có giá trị gì?",
+      "options": [
+        {"text": "Không có giá trị", "isCorrect": false},
+        {"text": "Giúp thu hẹp danh sách nghi phạm thông qua đối chiếu dấu răng", "isCorrect": true},
+        {"text": "Xác định loại thực phẩm hung thủ thích", "isCorrect": false},
+        {"text": "Xác định thời gian hung thủ ăn", "isCorrect": false}
+      ],
+      "explanation": "Hung thủ có thể vô tình để lại 'dấu ấn' răng trên thực phẩm tại hiện trường."
+    },
+    {
+      "question": "Trong hình dạng cung hàm, biến 'khoảng cách giữa các răng' được xử lý như thế nào?",
+      "options": [
+        {"text": "Bỏ qua vì không quan trọng", "isCorrect": false},
+        {"text": "Được xử lý như một biến riêng biệt", "isCorrect": true},
+        {"text": "Tính chung vào hình dạng cung hàm", "isCorrect": false},
+        {"text": "Đo bằng mắt", "isCorrect": false}
+      ],
+      "explanation": "Các đặc điểm cá thể hóa (individuality) là chìa khóa để phân biệt người này với người khác."
+    },
+    {
+      "question": "Nha sĩ pháp y cần chuẩn bị gì khi ra tòa?",
+      "options": [
+        {"text": "Báo cáo chuyên môn rõ ràng và các bằng chứng hình ảnh minh họa trực quan", "isCorrect": true},
+        {"text": "Dụng cụ nhổ răng", "isCorrect": false},
+        {"text": "Kê đơn thuốc cho quan tòa", "isCorrect": false},
+        {"text": "Máy chụp X-quang cầm tay", "isCorrect": false}
+      ],
+      "explanation": "Tại tòa, nha sĩ đóng vai trò nhân chứng chuyên gia (expert witness), cần trình bày khoa học để thuyết phục bồi thẩm đoàn."
+    },
+    {
+      "question": "Tính bền vững của miếng trám Amalgam giúp gì cho pháp nha?",
+      "options": [
+        {"text": "Làm răng đẹp hơn", "isCorrect": false},
+        {"text": "Giữ nguyên hình dạng và vị trí ngay cả khi tử thi bị hỏa táng", "isCorrect": true},
+        {"text": "Phát ra tia laser", "isCorrect": false},
+        {"text": "Chứa ADN của nha sĩ", "isCorrect": false}
+      ],
+      "explanation": "Nhiều vật liệu nha khoa chịu được nhiệt độ cực cao, giúp ích cho việc nhận dạng nạn nhân trong các vụ cháy."
+    },
+    {
+      "question": "Tài liệu nhắc đến việc sử dụng X-quang để:",
+      "options": [
+        {"text": "Xác định tuổi của trẻ em qua sự phát triển mầm răng", "isCorrect": true},
+        {"text": "Điều trị tủy cho tử thi", "isCorrect": false},
+        {"text": "Làm sạch răng", "isCorrect": false},
+        {"text": "Đo huyết áp", "isCorrect": false}
+      ],
+      "explanation": "Phim X-quang là công cụ quan trọng nhất để ước tính độ tuổi sinh học dựa trên các mốc tăng trưởng xương hàm."
+    },
+    {
+      "question": "Khái niệm 'Forensic Odontology' và 'Forensic Dentistry' khác nhau như thế nào?",
+      "options": [
+        {"text": "Giống nhau hoàn toàn về ý nghĩa", "isCorrect": true},
+        {"text": "Odontology chỉ dành cho người sống", "isCorrect": false},
+        {"text": "Dentistry chỉ dành cho người chết", "isCorrect": false},
+        {"text": "Odontology là nghiên cứu về lợi", "isCorrect": false}
+      ],
+      "explanation": "Hai thuật ngữ này được dùng thay thế cho nhau để chỉ chuyên ngành pháp nha."
+    },
+    {
+      "question": "Công việc nào sau đây KHÔNG thuộc phạm vi của Pháp nha?",
+      "options": [
+        {"text": "Phân tích ADN từ vết máu trên sàn nhà", "isCorrect": true},
+        {"text": "Nhận dạng tử thi qua răng", "isCorrect": false},
+        {"text": "Phân tích vết cắn trên da nạn nhân", "isCorrect": false},
+        {"text": "Xác định tuổi nạn nhân qua mầm răng", "isCorrect": false}
+      ],
+      "explanation": "Phân tích ADN từ vết máu thuộc về pháp y huyết thanh hoặc di truyền học nói chung, không chuyên biệt cho nha khoa trừ khi lấy từ tủy răng."
+    },
+    {
+      "question": "Khi nạn nhân bị cứng khít hàm (Trang 45), dụng cụ nào hỗ trợ chụp phim?",
+      "options": [
+        {"text": "Rinn XCP (dụng cụ tự giữ phim)", "isCorrect": true},
+        {"text": "Kìm nhổ răng", "isCorrect": false},
+        {"text": "Gương soi mặt", "isCorrect": false},
+        {"text": "Thước Willis", "isCorrect": false}
+      ],
+      "explanation": "Các thiết bị hỗ trợ giúp định vị phim chính xác trong không gian hạn hẹp của khoang miệng tử thi."
+    },
+    {
+      "question": "Pháp nha đóng góp gì trong việc xác định 'nhân quyền'?",
+      "options": [
+        {"text": "Trả lại danh tính cho người mất tích, giúp gia đình an lòng", "isCorrect": true},
+        {"text": "Tăng thuế nha khoa", "isCorrect": false},
+        {"text": "Bắt mọi người phải đi khám răng", "isCorrect": false},
+        {"text": "Xóa bỏ hồ sơ cũ", "isCorrect": false}
+      ],
+      "explanation": "Xác định danh tính là một khía cạnh nhân văn sâu sắc của y pháp học."
+    },
+    {
+      "question": "Trong phân tích vết cắn, 'hình chữ U đối xứng' đại diện cho cấu trúc nào?",
+      "options": [
+        {"text": "Cung răng của con người", "isCorrect": true},
+        {"text": "Vết móng tay", "isCorrect": false},
+        {"text": "Dấu giày", "isCorrect": false},
+        {"text": "Vết thương do dao", "isCorrect": false}
+      ],
+      "explanation": "Vết cắn điển hình của con người có hình dáng đặc trưng của hai cung hàm hình chữ U."
+    },
+    {
+      "question": "Việc 'Lấy mẫu nước bọt' tại vết cắn cần thực hiện khi nào?",
+      "options": [
+        {"text": "Càng sớm càng tốt trước khi vết thương bị rửa sạch hoặc biến đổi", "isCorrect": true},
+        {"text": "Sau khi nạn nhân đã tắm rửa", "isCorrect": false},
+        {"text": "Sau 1 tuần", "isCorrect": false},
+        {"text": "Chỉ lấy khi có lệnh của tòa án tối cao", "isCorrect": false}
+      ],
+      "explanation": "ADN trong nước bọt rất dễ bị ngoại nhiễm hoặc phân hủy bởi môi trường."
+    },
+    {
+      "question": "Tại sao nha sĩ pháp y cần nghiên cứu về 'chủng tộc'?",
+      "options": [
+        {"text": "Để thu hẹp danh sách mất tích dựa trên đặc điểm hình thái học", "isCorrect": true},
+        {"text": "Để phân biệt giàu nghèo", "isCorrect": false},
+        {"text": "Để biết nạn nhân nói tiếng gì", "isCorrect": false},
+        {"text": "Không cần thiết", "isCorrect": false}
+      ],
+      "explanation": "Mỗi nhóm chủng tộc có những đặc trưng xương hàm mặt khác nhau giúp định hướng tìm kiếm danh tính."
+    },
+    {
+      "question": "Bằng chứng nha khoa có thể bị phá hủy bởi yếu tố nào?",
+      "options": [
+        {"text": "Nhiệt độ cực cao (hỏa táng hoàn toàn) hoặc tác động cơ học nghiền nát", "isCorrect": true},
+        {"text": "Nước mưa thông thường", "isCorrect": false},
+        {"text": "Thời gian 10 năm", "isCorrect": false},
+        {"text": "Vi khuẩn sâu răng bình thường", "isCorrect": false}
+      ],
+      "explanation": "Dù rất bền nhưng răng vẫn có thể bị phá hủy trong các điều kiện cực đoan như cháy rừng hoặc nổ lớn."
+    },
+    {
+      "question": "Ưu điểm của phương pháp '3D Scanning' so với lấy dấu thạch cao truyền thống là:",
+      "options": [
+        {"text": "Không làm biến dạng dấu vết và dễ dàng lưu trữ, chia sẻ dữ liệu số", "isCorrect": true},
+        {"text": "Rẻ tiền hơn 100 lần", "isCorrect": false},
+        {"text": "Có thể ngửi được mùi", "isCorrect": false},
+        {"text": "Tự động nhổ răng lệch", "isCorrect": false}
+      ],
+      "explanation": "Công nghệ 3D giúp bảo tồn nguyên vẹn bằng chứng gốc và cho phép phân tích không xâm lấn."
+    },
+    {
+      "question": "Lịch sử pháp nha ghi nhận việc nhận dạng qua răng đã có từ thời đại nào?",
+      "options": [
+        {"text": "Thời La Mã cổ đại", "isCorrect": true},
+        {"text": "Năm 1990", "isCorrect": false},
+        {"text": "Thế kỷ 21", "isCorrect": false},
+        {"text": "Thời kỳ đồ đá", "isCorrect": false}
+      ],
+      "explanation": "Lịch sử ghi lại nhiều ca nhận dạng danh nhân từ thời cổ đại dựa trên các đặc điểm răng miệng nổi bật."
+    },
+    {
+      "question": "Nghiệp vụ 'Phác họa chân dung' từ xương hàm giúp gì?",
+      "options": [
+        {"text": "Tái tạo khuôn mặt nạn nhân giúp người dân nhận diện", "isCorrect": true},
+        {"text": "Để làm phim hoạt hình", "isCorrect": false},
+        {"text": "Để xem nạn nhân có đẹp không", "isCorrect": false},
+        {"text": "Xác định hung khí", "isCorrect": false}
+      ],
+      "explanation": "Kết hợp nha khoa và nhân trắc học giúp dựng lại diện mạo nạn nhân từ hộp sọ và xương hàm."
+    },
+    {
+      "question": "Thông điệp chính của bài 1 'Đại cương về pháp nha' là gì?",
+      "options": [
+        {"text": "Nha khoa không chỉ để chữa răng mà còn là công cụ quan trọng của pháp luật", "isCorrect": true},
+        {"text": "Mọi người nên đi khám răng thường xuyên", "isCorrect": false},
+        {"text": "Học pháp nha để làm cảnh sát", "isCorrect": false},
+        {"text": "Chỉ nha sĩ mới biết bắt tội phạm", "isCorrect": false}
+      ],
+      "explanation": "Bài học nhấn mạnh vai trò đa dạng và thiết yếu của nha khoa trong đời sống xã hội và tư pháp."
+    }
+  ]

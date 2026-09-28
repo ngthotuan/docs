@@ -1,0 +1,1002 @@
+[
+    {
+      "question": "Theo định nghĩa của Stewart, song song kế là gì?",
+      "options": [
+        {"text": "Dụng cụ dùng để mài răng trụ", "isCorrect": false},
+        {"text": "Dụng cụ đo độ song song, dùng để xác định sự tương quan song song giữa các mặt răng hoặc các vùng trên mẫu hàm", "isCorrect": true},
+        {"text": "Dụng cụ dùng để đúc khung kim loại", "isCorrect": false},
+        {"text": "Dụng cụ dùng để đo huyết áp bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Stewart định nghĩa song song kế là một dụng cụ chuyên dụng để đo và xác định sự tương quan song song của các cấu trúc trên mẫu hàm."
+    },
+    {
+      "question": "Mục đích chính của việc sử dụng song song kế trên mẫu hàm mất răng từng phần là gì?",
+      "options": [
+        {"text": "Xác định các vùng lẹm có ích và vùng vướng phải loại bỏ", "isCorrect": false},
+        {"text": "Xác định hướng tháo lắp của hàm giả", "isCorrect": false},
+        {"text": "Xác định vị trí chính xác của móc trên răng trụ", "isCorrect": false},
+        {"text": "Tất cả các mục đích trên", "isCorrect": true}
+      ],
+      "explanation": "Song song kế là công cụ phân tích đa năng giúp bác sĩ thiết kế hướng tháo lắp, vị trí móc và các bước tiền phục hình cần thiết."
+    },
+    {
+      "question": "Song song kế giúp đưa ra phác họa thành phần nào của phục hình?",
+      "options": [
+        {"text": "Răng sứ", "isCorrect": false},
+        {"text": "Khung sườn kim loại", "isCorrect": true},
+        {"text": "Nền nhựa tháo lắp", "isCorrect": false},
+        {"text": "Móc dây uốn", "isCorrect": false}
+      ],
+      "explanation": "Dựa trên các dữ liệu phân tích từ song song kế, bác sĩ sẽ đưa ra phác họa thiết kế khung sườn chính xác."
+    },
+    {
+      "question": "Thành phần nào sau đây KHÔNG thuộc cấu tạo cơ bản của một song song kế?",
+      "options": [
+        {"text": "Bàn mẫu hàm (Platform)", "isCorrect": false},
+        {"text": "Trục đứng (Vertical column)", "isCorrect": false},
+        {"text": "Tay ngang (Horizontal arm)", "isCorrect": false},
+        {"text": "Tay khoan tốc độ cao", "isCorrect": true}
+      ],
+      "explanation": "Song song kế là dụng cụ phân tích tĩnh, không bao gồm các tay khoan vận hành điện."
+    },
+    {
+      "question": "Bàn mẫu hàm của song song kế có vai trò gì?",
+      "options": [
+        {"text": "Dùng để đặt và cố định mẫu hàm trong quá trình phân tích", "isCorrect": true},
+        {"text": "Dùng để đánh bóng thạch cao", "isCorrect": false},
+        {"text": "Dùng để đo chiều cao tầng mặt", "isCorrect": false},
+        {"text": "Dùng để trộn alginate", "isCorrect": false}
+      ],
+      "explanation": "Bàn mẫu hàm cung cấp mặt phẳng ngang chuẩn để đặt mẫu hàm lên trên."
+    },
+    {
+      "question": "Phần khớp vạn năng (Universal joint) trên song song kế dùng để làm gì?",
+      "options": [
+        {"text": "Cố định trục đứng", "isCorrect": false},
+        {"text": "Cho phép thay đổi độ nghiêng của mẫu hàm theo nhiều hướng", "isCorrect": true},
+        {"text": "Giữ cây bút chì", "isCorrect": false},
+        {"text": "Khóa tay ngang", "isCorrect": false}
+      ],
+      "explanation": "Khớp vạn năng giúp mẫu hàm có thể nghiêng theo các hướng khác nhau để tìm hướng tháo lắp tối ưu."
+    },
+    {
+      "question": "Cây phân tích (Analyzing rod) có hình dạng và chức năng như thế nào?",
+      "options": [
+        {"text": "Hình trụ thẳng, dùng để kiểm tra sự song song và sự hiện diện của vùng lẹm", "isCorrect": true},
+        {"text": "Hình kim nhọn, dùng để lấy tủy", "isCorrect": false},
+        {"text": "Hình cái đĩa, dùng để cắt nhựa", "isCorrect": false},
+        {"text": "Có rãnh lưu để đo độ sâu sâu răng", "isCorrect": false}
+      ],
+      "explanation": "Cây phân tích là dụng cụ đầu tiên được gắn vào song song kế để thăm dò độ song song của các mặt răng."
+    },
+    {
+      "question": "Cây carbon (Carbon marker) dùng để làm gì trên song song kế?",
+      "options": [
+        {"text": "Mài răng thạch cao", "isCorrect": false},
+        {"text": "Vạch đường vòng lớn nhất (Survey line) lên răng và các tổ chức", "isCorrect": true},
+        {"text": "Đo độ nhạy cảm của tủy", "isCorrect": false},
+        {"text": "Lấy dấu khớp cắn", "isCorrect": false}
+      ],
+      "explanation": "Cây carbon giúp bác sĩ vẽ lại ranh giới giữa vùng không lẹm và vùng lẹm (đường vòng lớn nhất)."
+    },
+    {
+      "question": "Có bao nhiêu kích thước chuẩn của cây đo độ lẹm (Undercut gauges)?",
+      "options": [
+        {"text": "2 kích thước", "isCorrect": false},
+        {"text": "3 kích thước (0.25mm, 0.5mm, 0.75mm)", "isCorrect": true},
+        {"text": "4 kích thước (0.1mm, 0.25mm, 0.5mm, 0.75mm)", "isCorrect": false},
+        {"text": "5 kích thước", "isCorrect": false}
+      ],
+      "explanation": "Thông thường có 3 cây đo độ lẹm chuẩn được sử dụng rộng rãi là 0.25mm (10), 0.5mm (20) và 0.75mm (30)."
+    },
+    {
+      "question": "Cây tỉa sáp (Wax trimmer) được sử dụng khi nào trên song song kế?",
+      "options": [
+        {"text": "Giai đoạn tiền phục hình mài răng thật", "isCorrect": false},
+        {"text": "Để mài chỉnh các phần sáp dư, đảm bảo tính song song của các mặt hướng dẫn trên mẫu sáp", "isCorrect": true},
+        {"text": "Để gỡ mẫu hàm khỏi đế thạch cao", "isCorrect": false},
+        {"text": "Dùng để đánh bóng móc đúc", "isCorrect": false}
+      ],
+      "explanation": "Cây tỉa sáp giúp loại bỏ sáp thừa tại các vùng lẹm đã được lấp đầy, tạo ra các bề mặt song song tuyệt đối."
+    },
+    {
+      "question": "Đường vòng lớn nhất (Survey line) được định nghĩa là gì?",
+      "options": [
+        {"text": "Đường chia răng thành hai phần bằng nhau về chiều cao", "isCorrect": false},
+        {"text": "Đường đi qua các điểm lồi nhất trên mặt răng so với một hướng lắp xác định", "isCorrect": true},
+        {"text": "Đường cổ răng sinh lý", "isCorrect": false},
+        {"text": "Đường mòn trên mặt nhai", "isCorrect": false}
+      ],
+      "explanation": "Đường vòng lớn nhất xác định chu vi lớn nhất của răng tại một hướng lắp nhất định, phân chia răng thành vùng trên đường vòng và vùng lẹm."
+    },
+    {
+      "question": "Vùng nằm bên dưới đường vòng lớn nhất so với hướng lắp được gọi là gì?",
+      "options": [
+        {"text": "Vùng không lẹm (Non-undercut area)", "isCorrect": false},
+        {"text": "Vùng vướng (Interference area)", "isCorrect": false},
+        {"text": "Vùng lẹm (Undercut area)", "isCorrect": true},
+        {"text": "Vùng tựa mặt nhai", "isCorrect": false}
+      ],
+      "explanation": "Vùng lẹm là vùng nằm từ đường vòng lớn nhất về phía nướu, nơi móc phục hình có thể bám vào."
+    },
+    {
+      "question": "Tại sao hướng lắp hàm giả tháo lắp bán phần khung bộ thường khác với hướng lắp răng cửa?",
+      "options": [
+        {"text": "Để tăng thẩm mỹ cho các răng sau", "isCorrect": false},
+        {"text": "Để tận dụng các vùng lẹm và tránh các vùng vướng trên nhiều răng trụ khác nhau", "isCorrect": true},
+        {"text": "Vì răng cửa không chịu được lực nhai", "isCorrect": false},
+        {"text": "Do nền nhựa che phủ hết vòm miệng", "isCorrect": false}
+      ],
+      "explanation": "Bác sĩ phải cân đối độ nghiêng của mẫu hàm để tìm ra một hướng lắp chung nhất cho toàn bộ phục hình."
+    },
+    {
+      "question": "Yếu tố 'Mặt phẳng hướng dẫn' (Guiding planes) ảnh hưởng thế nào đến hướng tháo lắp?",
+      "options": [
+        {"text": "Làm hàm giả lỏng hơn", "isCorrect": false},
+        {"text": "Tạo sự ổn định, định hướng cho hàm khi tháo lắp và hạn chế các chuyển động xoay", "isCorrect": true},
+        {"text": "Giúp răng giả mọc dài ra", "isCorrect": false},
+        {"text": "Làm tăng độ sâu vùng lẹm", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng hướng dẫn là các diện song song trên răng trụ giúp phục hình trượt vào/ra đúng quỹ đạo."
+    },
+    {
+      "question": "Vùng vướng (Interference) trên mẫu hàm thường xuất hiện ở đâu?",
+      "options": [
+        {"text": "Răng bị nghiêng nhiều", "isCorrect": false},
+        {"text": "Lồi xương (Torus) hoặc vùng lẹm mô mềm quá lớn", "isCorrect": false},
+        {"text": "Vùng lồi củ hoặc tam giác sau hàm", "isCorrect": false},
+        {"text": "Tất cả các vị trí trên", "isCorrect": true}
+      ],
+      "explanation": "Vùng vướng là những cản trở giải phẫu hoặc răng xô lệch ngăn cản phục hình lắp vào đúng vị trí."
+    },
+    {
+      "question": "Cách xử lý tốt nhất khi phát hiện vùng vướng quá lớn không thể vượt qua bằng thiết kế?",
+      "options": [
+        {"text": "Mài bớt nướu của bệnh nhân", "isCorrect": false},
+        {"text": "Chỉ định phẫu thuật sửa soạn nướu/xương hoặc mài chỉnh răng trụ trong giai đoạn tiền phục hình", "isCorrect": true},
+        {"text": "Bỏ qua không làm phục hình nữa", "isCorrect": false},
+        {"text": "Gắn hàm thật mạnh tay để ép xương lún xuống", "isCorrect": false}
+      ],
+      "explanation": "Tiền phục hình là giai đoạn chuẩn bị môi trường miệng thuận lợi nhất cho việc đặt hàm giả dựa trên phân tích song song kế."
+    },
+    {
+      "question": "Trong trường hợp mất răng cửa, nên ưu tiên chọn hướng tháo lắp như thế nào để đảm bảo thẩm mỹ?",
+      "options": [
+        {"text": "Hướng nằm ngang hoàn toàn", "isCorrect": false},
+        {"text": "Hướng thẳng đứng để răng được sắp xếp tự nhiên và khít sát mô mềm", "isCorrect": true},
+        {"text": "Nghiêng tối đa về phía sau", "isCorrect": false},
+        {"text": "Nghiêng tối đa về phía trước", "isCorrect": false}
+      ],
+      "explanation": "Hướng lắp thẳng đứng giúp răng giả cửa khít sát với mô nướu, tránh các khoảng hở mất thẩm mỹ."
+    },
+    {
+      "question": "Vị trí đặt móc trên răng trụ được xác định dựa trên tiêu chí nào?",
+      "options": [
+        {"text": "Đặt vào vùng lẹm đủ sâu để bám nhưng không quá sâu gây biến dạng móc", "isCorrect": true},
+        {"text": "Luôn luôn đặt sát cổ răng", "isCorrect": false},
+        {"text": "Đặt ở mặt nhai để bệnh nhân dễ thấy", "isCorrect": false},
+        {"text": "Đặt ở mặt trong răng nanh", "isCorrect": false}
+      ],
+      "explanation": "Phần lưu giữ của móc phải nằm dưới đường vòng lớn nhất tại vị trí có độ lẹm phù hợp với vật liệu làm móc."
+    },
+    {
+      "question": "Ghi tương quan mẫu với song song kế (Tripoding) nhằm mục đích gì?",
+      "options": [
+        {"text": "Để mẫu hàm không bị vỡ", "isCorrect": false},
+        {"text": "Có thể đặt mẫu lại đúng vị trí song song kế mà hướng tháo lắp đã chọn trước đó", "isCorrect": true},
+        {"text": "Để đo màu răng lại lần 2", "isCorrect": false},
+        {"text": "Để gắn mẫu hàm lên giá khớp", "isCorrect": false}
+      ],
+      "explanation": "Tripoding giúp kỹ thuật viên labo xác định lại đúng độ nghiêng của mẫu hàm mà bác sĩ đã phân tích tại phòng mạch."
+    },
+    {
+      "question": "Cách 1 để ghi tương quan mẫu (Tripoding) thực hiện như thế nào?",
+      "options": [
+        {"text": "Đánh dấu 3 điểm ở bề mặt tổ chức của mẫu khi trục đứng được khóa cố định", "isCorrect": true},
+        {"text": "Vẽ một đường tròn quanh đế mẫu", "isCorrect": false},
+        {"text": "Dán keo mẫu hàm vào bàn mẫu", "isCorrect": false},
+        {"text": "Chụp ảnh mẫu hàm", "isCorrect": false}
+      ],
+      "explanation": "3 điểm không thẳng hàng tạo thành một mặt phẳng xác định độ nghiêng cố định của mẫu."
+    },
+    {
+      "question": "Khi đặt mẫu lại theo cách 1, làm sao biết mẫu đã đúng vị trí cũ?",
+      "options": [
+        {"text": "Khi mẫu nằm phẳng trên bàn", "isCorrect": false},
+        {"text": "Khi đầu cây phân tích chạm cả 3 điểm đã đánh dấu trong một mặt phẳng", "isCorrect": true},
+        {"text": "Khi 3 điểm chuyển sang màu đỏ", "isCorrect": false},
+        {"text": "Khi các răng trụ đứng thẳng", "isCorrect": false}
+      ],
+      "explanation": "Sự tiếp xúc đồng thời của cây phân tích với 3 điểm chuẩn khẳng định độ nghiêng ban đầu đã được tái lập."
+    },
+    {
+      "question": "Cách 2 để ghi tương quan mẫu thực hiện bằng thao tác gì?",
+      "options": [
+        {"text": "Sơn màu lên toàn bộ đế mẫu", "isCorrect": false},
+        {"text": "Vạch 2 vạch ở bên và 1 vạch ở phía sau đế mẫu theo cây phân tích", "isCorrect": true},
+        {"text": "Khoan lỗ trên mẫu thạch cao", "isCorrect": false},
+        {"text": "Gắn nam châm dưới đế mẫu", "isCorrect": false}
+      ],
+      "explanation": "3 đường vạch dọc trên đế mẫu song song với trục đứng của song song kế là một cách ghi nhớ hướng lắp hiệu quả."
+    },
+    {
+      "question": "Vùng lẹm 'không có ích' của mô mềm cần được xử lý như thế nào?",
+      "options": [
+        {"text": "Loại bỏ trong giai đoạn tiền phục hình", "isCorrect": true},
+        {"text": "Dùng tay ấn mạnh cho lún xuống", "isCorrect": false},
+        {"text": "Che phủ bằng nhựa mềm", "isCorrect": false},
+        {"text": "Bôi dầu luyn lên đó", "isCorrect": false}
+      ],
+      "explanation": "Vùng lẹm mô mềm gây cản trở đường lắp và gây đau cần được phẫu thuật chỉnh sửa."
+    },
+    {
+      "question": "Thành phần 'Spindle' trong cấu tạo song song kế có đặc điểm gì?",
+      "options": [
+        {"text": "Là thanh ngang cố định", "isCorrect": false},
+        {"text": "Có thể di chuyển lên xuống và mang các dụng cụ phân tích", "isCorrect": true},
+        {"text": "Chứa bộ phận sưởi ấm sáp", "isCorrect": false},
+        {"text": "Là chân đế của thiết bị", "isCorrect": false}
+      ],
+      "explanation": "Spindle (trục trượt) là bộ phận mang đầu phân tích di động theo chiều dọc."
+    },
+    {
+      "question": "Tại sao việc đặt mẫu hàm nghiên cứu lên song song kế cần thảo luận giữa bác sĩ và labo?",
+      "options": [
+        {"text": "Để chia sẻ chi phí", "isCorrect": false},
+        {"text": "Để thống nhất việc thiết kế khung sườn và lộ trình điều trị", "isCorrect": true},
+        {"text": "Để so sánh độ bền của thạch cao", "isCorrect": false},
+        {"text": "Để kiểm tra xem mẫu hàm có bị rơi không", "isCorrect": false}
+      ],
+      "explanation": "Sự phối hợp chặt chẽ đảm bảo khung sườn đúc ra khít sát và đúng ý đồ lâm sàng."
+    },
+    {
+      "question": "Dụng cụ nào được gắn vào song song kế để tạo đường vòng lớn nhất?",
+      "options": [
+        {"text": "Analyzing rod", "isCorrect": false},
+        {"text": "Carbon marker", "isCorrect": true},
+        {"text": "Undercut gauge", "isCorrect": false},
+        {"text": "Wax trimmer", "isCorrect": false}
+      ],
+      "explanation": "Carbon marker (cây carbon) để lại vết mực trên răng tương ứng với chu vi lớn nhất."
+    },
+    {
+      "question": "Số lượng cây đo độ lẹm chuẩn trong bộ dụng cụ là bao nhiêu?",
+      "options": [
+        {"text": "1", "isCorrect": false},
+        {"text": "2", "isCorrect": false},
+        {"text": "3", "isCorrect": true},
+        {"text": "4", "isCorrect": false}
+      ],
+      "explanation": "Mỗi bộ song song kế thường đi kèm 3 cây đo độ lẹm với độ nhô khác nhau."
+    },
+    {
+      "question": "Việc mài mặt bên răng trụ để làm mặt phẳng hướng dẫn nằm trong bước nào?",
+      "options": [
+        {"text": "Lên răng trên sáp", "isCorrect": false},
+        {"text": "Giai đoạn tiền phục hình", "isCorrect": true},
+        {"text": "Gắn hàm vĩnh viễn", "isCorrect": false},
+        {"text": "Lấy dấu sơ khởi", "isCorrect": false}
+      ],
+      "explanation": "Mài chỉnh răng trụ để tạo sự song song giữa các mặt hướng dẫn là một phần của sửa soạn miệng (tiền phục hình)."
+    },
+    {
+      "question": "Yếu tố nào sau đây quyết định vị trí đặt phần đối kháng của móc?",
+      "options": [
+        {"text": "Độ sâu vùng lẹm", "isCorrect": false},
+        {"text": "Đường vòng lớn nhất", "isCorrect": true},
+        {"text": "Chiều dài thân răng", "isCorrect": false},
+        {"text": "Màu sắc nướu", "isCorrect": false}
+      ],
+      "explanation": "Phần đối kháng của móc phải nằm hoàn toàn trên đường vòng lớn nhất để không tạo lực lưu giữ khi tháo lắp."
+    },
+    {
+      "question": "Song song kế xác định sự song song 'tương đối' hay 'tuyệt đối' giữa các mặt răng?",
+      "options": [
+        {"text": "Tương đối", "isCorrect": true},
+        {"text": "Tuyệt đối", "isCorrect": false},
+        {"text": "Không xác định", "isCorrect": false},
+        {"text": "Chỉ song song với khớp thái dương hàm", "isCorrect": false}
+      ],
+      "explanation": "Song song kế tìm sự song song tương đối giữa các bề mặt khác nhau của mẫu hàm để tìm hướng lắp chung."
+    },
+    {
+      "question": "Khái niệm 'Surveying' trong phục hình tháo lắp có nghĩa là gì?",
+      "options": [
+        {"text": "Đo độ lún của nướu", "isCorrect": false},
+        {"text": "Sự phân tích mẫu hàm trên song song kế", "isCorrect": true},
+        {"text": "Kỹ thuật nhổ răng khôn", "isCorrect": false},
+        {"text": "Cách lấy dấu alginate", "isCorrect": false}
+      ],
+      "explanation": "Surveying là quá trình khảo sát và phân tích mẫu hàm chuyên sâu."
+    },
+    {
+      "question": "Dây chuyền thực hiện phục hình tháo lắp bán phần (RPD) gồm mấy bước lớn theo tài liệu?",
+      "options": [
+        {"text": "3 bước", "isCorrect": false},
+        {"text": "6 bước", "isCorrect": true},
+        {"text": "10 bước", "isCorrect": false},
+        {"text": "2 bước", "isCorrect": false}
+      ],
+      "explanation": "Quy trình từ đổ mẫu nghiên cứu đến hoàn tất phục hình gồm 6 giai đoạn chính."
+    },
+    {
+      "question": "Bước số 4 trong quy trình thực hiện phục hình là gì?",
+      "options": [
+        {"text": "Đổ mẫu nghiên cứu", "isCorrect": false},
+        {"text": "Làm khung sườn/Làm nền tạm- gối sáp", "isCorrect": true},
+        {"text": "Lên răng", "isCorrect": false},
+        {"text": "Lấy dấu sơ khởi", "isCorrect": false}
+      ],
+      "explanation": "Sau khi nghiên cứu mẫu hàm, labo sẽ tiến hành làm khung sườn kim loại hoặc nền tạm."
+    },
+    {
+      "question": "Thanh nối chính của hàm giả được thiết kế dựa trên thông tin từ bộ phận nào của song song kế?",
+      "options": [
+        {"text": "Trục đứng và cây phân tích", "isCorrect": true},
+        {"text": "Khớp vạn năng", "isCorrect": false},
+        {"text": "Cây tỉa sáp", "isCorrect": false},
+        {"text": "Bàn tay bác sĩ", "isCorrect": false}
+      ],
+      "explanation": "Trục đứng và cây phân tích giúp xác định hướng lắp và vị trí đặt thanh nối chính không bị vướng."
+    },
+    {
+      "question": "Khi sử dụng cây đo lẹm 0.5mm, đầu đo sẽ tiếp xúc với răng ở vị trí nào?",
+      "options": [
+        {"text": "Sát vào cổ răng", "isCorrect": false},
+        {"text": "Vùng lẹm có độ sâu chính xác 0.5mm so với trục đứng", "isCorrect": true},
+        {"text": "Trên mặt nhai", "isCorrect": false},
+        {"text": "Ở kẽ răng cửa", "isCorrect": false}
+      ],
+      "explanation": "Dụng cụ này đo chính xác khoảng cách lẹm ngang so với phương thẳng đứng."
+    },
+    {
+      "question": "Móc thanh (bar clasps) thường có ưu điểm gì hơn móc vòng theo tài liệu?",
+      "options": [
+        {"text": "Bám chắc hơn 10 lần", "isCorrect": false},
+        {"text": "Tính thẩm mỹ cao hơn", "isCorrect": true},
+        {"text": "Rẻ tiền hơn", "isCorrect": false},
+        {"text": "Dễ uốn hơn", "isCorrect": false}
+      ],
+      "explanation": "Thẩm mỹ là yếu tố quan trọng khi chọn hướng thuận lợi và loại móc phục hình."
+    },
+    {
+      "question": "Việc đặt 3 điểm đánh dấu tripoding nên nằm ở đâu?",
+      "options": [
+        {"text": "Trên các răng trụ", "isCorrect": false},
+        {"text": "Trên các vùng mô mềm ổn định của mẫu hàm (bề mặt tổ chức)", "isCorrect": true},
+        {"text": "Dưới đáy mẫu thạch cao", "isCorrect": false},
+        {"text": "Trên mặt nhai răng cửa", "isCorrect": false}
+      ],
+      "explanation": "Vùng mô mềm ít biến dạng giúp duy trì 3 điểm mốc lâu dài trong quá trình làm việc."
+    },
+    {
+      "question": "Trong cách 2 của Tripoding, tại sao cần vạch 3 vạch dọc trên đế mẫu?",
+      "options": [
+        {"text": "Để trang trí", "isCorrect": false},
+        {"text": "Để mẫu thạch cao cứng hơn", "isCorrect": false},
+        {"text": "Các vạch này song song với trục đứng, giúp tái lập hướng lắp nhanh chóng", "isCorrect": true},
+        {"text": "Để ghi tên bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "3 vạch dọc cung cấp tham chiếu hình học về phương thẳng đứng ban đầu."
+    },
+    {
+      "question": "Mặt phẳng Dreyfus và mặt phẳng Simon có tương quan như thế nào?",
+      "options": [
+        {"text": "Vuông góc", "isCorrect": false},
+        {"text": "Song song", "isCorrect": true},
+        {"text": "Cắt nhau góc 15 độ", "isCorrect": false},
+        {"text": "Không liên quan", "isCorrect": false}
+      ],
+      "explanation": "Đây là các mặt phẳng tham chiếu song song trong hệ thống đo đạc hình thái."
+    },
+    {
+      "question": "Thành phần 'Tool holder' trên song song kế dùng để làm gì?",
+      "options": [
+        {"text": "Giữ chặt mẫu hàm", "isCorrect": false},
+        {"text": "Chứa và khóa các dụng cụ phân tích (cây carbon, cây đo lẹm...)", "isCorrect": true},
+        {"text": "Đựng nước bọt bệnh nhân", "isCorrect": false},
+        {"text": "Lưu trữ sáp dư", "isCorrect": false}
+      ],
+      "explanation": "Đầu giữ dụng cụ giúp cố định các đầu phân tích vào trục đứng Spindle."
+    },
+    {
+      "question": "Khi xác định hướng lắp, nếu phát hiện răng số 8 bị nghiêng quá mức, bác sĩ nên làm gì?",
+      "options": [
+        {"text": "Bỏ qua răng đó", "isCorrect": false},
+        {"text": "Dùng song song kế để tính toán mức độ mài chỉnh răng đó (tiền phục hình)", "isCorrect": true},
+        {"text": "Dùng hàm nhựa để ép răng đứng thẳng lại", "isCorrect": false},
+        {"text": "Yêu cầu bệnh nhân tự nhổ răng", "isCorrect": false}
+      ],
+      "explanation": "Song song kế là công cụ chỉ định các ca mài chỉnh răng trụ hiệu quả."
+    },
+    {
+      "question": "Khung sườn phục hình tháo lắp bán phần khung bộ (Cast RPD) được gọi là 'hàm thig' vì lý do gì?",
+      "options": [
+        {"text": "Lực nhai truyền sinh lý lên răng trụ", "isCorrect": true},
+        {"text": "Nó làm bằng kim loại", "isCorrect": false},
+        {"text": "Nó nhẹ nhất", "isCorrect": false},
+        {"text": "Nó có màu trắng", "isCorrect": false}
+      ],
+      "explanation": "Tính sinh lý nhờ các tựa mặt nhai được phân tích kỹ trên song song kế là ưu điểm lớn nhất."
+    },
+    {
+      "question": "Đặc điểm của 'Undercut gauges' 0.25mm là gì?",
+      "options": [
+        {"text": "Dùng cho móc thép uốn", "isCorrect": false},
+        {"text": "Thường dùng cho phần lưu giữ của móc đúc hợp kim cứng", "isCorrect": true},
+        {"text": "Đo độ mòn của răng", "isCorrect": false},
+        {"text": "Dùng để đánh bóng mẫu thạch cao", "isCorrect": false}
+      ],
+      "explanation": "Hợp kim đúc cứng cần độ lẹm ít (0.25mm) để đảm bảo móc không bị gãy khi tháo lắp."
+    },
+    {
+      "question": "Tại sao phải ghi lại tương quan của mẫu trước khi gửi đi labo?",
+      "options": [
+        {"text": "Để labo không làm mất mẫu", "isCorrect": false},
+        {"text": "Để labo có thể tái lập đúng hướng lắp đã phân tích trên lâm sàng", "isCorrect": true},
+        {"text": "Để labo biết giá tiền phục hình", "isCorrect": false},
+        {"text": "Để labo chọn đúng màu nhựa", "isCorrect": false}
+      ],
+      "explanation": "Thiếu thông tin Tripoding sẽ khiến labo đúc khung sườn sai hướng lắp."
+    },
+    {
+      "question": "Cấu tạo 'Base' (đế) của song song kế cần đảm bảo tính chất gì?",
+      "options": [
+        {"text": "Mềm mại", "isCorrect": false},
+        {"text": "Nặng và phẳng để tạo sự vững chắc", "isCorrect": true},
+        {"text": "Làm bằng gỗ", "isCorrect": false},
+        {"text": "Có thể xoay tròn liên tục", "isCorrect": false}
+      ],
+      "explanation": "Đế nặng giúp máy không bị rung lắc khi di chuyển tay ngang phân tích."
+    },
+    {
+      "question": "Mục tiêu số 2 của quy trình thực hiện phục hình là gì?",
+      "options": [
+        {"text": "Lấy dấu sơ khởi", "isCorrect": false},
+        {"text": "Nghiên cứu các mẫu hàm trên song song kế và thảo luận thiết kế", "isCorrect": true},
+        {"text": "Ép nhựa phục hình", "isCorrect": false},
+        {"text": "Mài ổ tựa trong miệng", "isCorrect": false}
+      ],
+      "explanation": "Đây là bước quan trọng nhất để chuyển từ khám lâm sàng sang thiết kế kỹ thuật."
+    },
+    {
+      "question": "Lồi xương khẩu cái (Torus palatinus) quá lớn sẽ ảnh hưởng thế nào đến thanh nối chính?",
+      "options": [
+        {"text": "Làm hàm bám chắc hơn", "isCorrect": false},
+        {"text": "Gây cản trở đường lắp và làm hàm bị bập bênh nếu che phủ trực tiếp", "isCorrect": true},
+        {"text": "Giúp răng khỏe hơn", "isCorrect": false},
+        {"text": "Không có ảnh hưởng", "isCorrect": false}
+      ],
+      "explanation": "Torus là một 'vùng vướng' mô cứng điển hình cần tránh khi thiết kế hướng lắp."
+    },
+    {
+      "question": "Khi xác định hướng lắp, yếu tố 'Lưu giữ' (Retention) đòi hỏi điều gì?",
+      "options": [
+        {"text": "Mọi móc phải bám vào vùng lẹm sâu nhất có thể", "isCorrect": false},
+        {"text": "Phải có sự cân bằng lực giữ giữa các răng trụ khác nhau", "isCorrect": true},
+        {"text": "Chỉ cần 1 móc duy nhất là đủ", "isCorrect": false},
+        {"text": "Dùng keo dán răng", "isCorrect": false}
+      ],
+      "explanation": "Lực giữ hàm phải phân bố đều trên các răng trụ để tránh làm lỏng lẻo răng thật."
+    },
+    {
+      "question": "Phát biểu nào đúng về 'Analyzing rod'?",
+      "options": [
+        {"text": "Nó dùng để vẽ lên răng", "isCorrect": false},
+        {"text": "Nó là thanh kim loại song song hoàn toàn với trục đứng của máy", "isCorrect": true},
+        {"text": "Nó có độ nhô 0.75mm", "isCorrect": false},
+        {"text": "Nó làm bằng sáp", "isCorrect": false}
+      ],
+      "explanation": "Analyzing rod là dụng cụ chuẩn để đối chiếu độ song song của các diện răng."
+    },
+    {
+      "question": "Ưu điểm của Tripoding bằng cách vạch đế (Cách 2) là gì?",
+      "options": [
+        {"text": "Thẩm mỹ cao", "isCorrect": false},
+        {"text": "Vạch sẽ không bao giờ mất dù mẫu bị mòn bề mặt tổ chức", "isCorrect": true},
+        {"text": "Làm mẫu nhẹ hơn", "isCorrect": false},
+        {"text": "Tăng độ bóng thạch cao", "isCorrect": false}
+      ],
+      "explanation": "Cách vạch lên đế mẫu mang tính bền vững hơn trong suốt quá trình mài chỉnh labo."
+    },
+    {
+      "question": "Trong phục hình Kennedy loại I, song song kế giúp xác định điều gì ở răng trụ cuối cùng?",
+      "options": [
+        {"text": "Độ dài chân răng", "isCorrect": false},
+        {"text": "Vị trí đặt tựa và móc để giảm thiểu tác động đòn bẩy", "isCorrect": true},
+        {"text": "Màu sắc men răng", "isCorrect": false},
+        {"text": "Lỗ sâu mặt bên", "isCorrect": false}
+      ],
+      "explanation": "Kennedy loại I có yên tự do nên thiết kế móc phải cực kỳ cẩn thận để bảo vệ răng trụ."
+    },
+    {
+      "question": "Cây tỉa sáp thường được dùng kèm với dụng cụ hỗ trợ nào trên máy?",
+      "options": [
+        {"text": "Đèn chiếu sáng", "isCorrect": false},
+        {"text": "Bộ phận sưởi ấm (đôi khi được tích hợp)", "isCorrect": true},
+        {"text": "Máy khoan", "isCorrect": false},
+        {"text": "Bơm nước", "isCorrect": false}
+      ],
+      "explanation": "Nhiệt giúp cây tỉa gọt sáp mịn màng và chính xác theo phương thẳng đứng."
+    },
+    {
+      "question": "Tại sao phải dùng cây đo lẹm 0.75mm cho móc vàng hoặc móc dây uốn?",
+      "options": [
+        {"text": "Vì chúng rẻ tiền", "isCorrect": false},
+        {"text": "Vì các vật liệu này có tính đàn hồi cao, cần bám sâu hơn để giữ hàm", "isCorrect": true},
+        {"text": "Vì móc vàng rất nặng", "isCorrect": false},
+        {"text": "Vì móc vàng dễ bị mòn", "isCorrect": false}
+      ],
+      "explanation": "Độ sâu lẹm 0.75mm phù hợp với tính chất vật lý dẻo và đàn hồi của dây thép uốn."
+    },
+    {
+      "question": "Đường vòng lớn nhất mô mềm (Tissue undercut) quan trọng vì lý do gì?",
+      "options": [
+        {"text": "Để cấy implant", "isCorrect": false},
+        {"text": "Tránh việc nền hàm bị vướng hoặc gây loét niêm mạc khi lắp vào", "isCorrect": true},
+        {"text": "Để đo độ rộng môi", "isCorrect": false},
+        {"text": "Để chọn màu nướu nhựa", "isCorrect": false}
+      ],
+      "explanation": "Nền hàm cứng không thể chui qua các vùng mô mềm lẹm quá sâu nếu không được giải tỏa."
+    },
+    {
+      "question": "Khi nghiêng mẫu hàm trên song song kế, góc nghiêng tối đa thường là bao nhiêu độ?",
+      "options": [
+        {"text": "5 độ", "isCorrect": false},
+        {"text": "15 - 20 độ", "isCorrect": true},
+        {"text": "45 độ", "isCorrect": false},
+        {"text": "90 độ", "isCorrect": false}
+      ],
+      "explanation": "Nghiêng quá mức sẽ tạo ra những hướng lắp phi thực tế và gây khó khăn khi sử dụng."
+    },
+    {
+      "question": "Mục tiêu 'Tối ưu hóa hướng tháo lắp' bao gồm những tiêu chí nào?",
+      "options": [
+        {"text": "Dễ lắp vào, dễ tháo ra cho bệnh nhân", "isCorrect": false},
+        {"text": "Thẩm mỹ, ổn định và lưu giữ tốt", "isCorrect": false},
+        {"text": "Ít mài chỉnh răng thật nhất", "isCorrect": false},
+        {"text": "Tất cả các tiêu chí trên", "isCorrect": true}
+      ],
+      "explanation": "Hướng lắp hoàn hảo là sự dung hòa giữa kỹ thuật, chức năng và mong muốn của bệnh nhân."
+    },
+    {
+      "question": "Vị trí của Spindle thường nằm ở đâu trong song song kế?",
+      "options": [
+        {"text": "Nằm ngang sàn nhà", "isCorrect": false},
+        {"text": "Nằm ở cuối tay ngang, song song với trục đứng chính", "isCorrect": true},
+        {"text": "Dưới bàn mẫu hàm", "isCorrect": false},
+        {"text": "Trên cây carbon", "isCorrect": false}
+      ],
+      "explanation": "Spindle là trục làm việc chính mang các dụng cụ phân tích hướng về mẫu hàm."
+    },
+    {
+      "question": "Hình minh họa trang 32 của tài liệu 'Giải phẫu' liên quan đến chấn thương dọc răng, còn trong tài liệu 'Song song kế', mốc quan trọng nhất là:",
+      "options": [
+        {"text": "Mặt nhai", "isCorrect": false},
+        {"text": "Đường vòng lớn nhất", "isCorrect": true},
+        {"text": "Chóp chân răng", "isCorrect": false},
+        {"text": "Tủy răng", "isCorrect": false}
+      ],
+      "explanation": "Đường vòng lớn nhất là 'trái tim' của việc phân tích trên song song kế."
+    },
+    {
+      "question": "Dụng cụ nào được dùng để xác định các mặt phẳng hướng dẫn (Guiding planes) tốt nhất?",
+      "options": [
+        {"text": "Analyzing rod", "isCorrect": true},
+        {"text": "Carbon marker", "isCorrect": false},
+        {"text": "Móc đúc", "isCorrect": false},
+        {"text": "Nhựa tự cứng", "isCorrect": false}
+      ],
+      "explanation": "Cây phân tích giúp phát hiện diện tiếp xúc giữa răng trụ và thành phục hình."
+    },
+    {
+      "question": "Tại sao không nên dùng cây carbon để đo độ sâu vùng lẹm?",
+      "options": [
+        {"text": "Vì nó dễ gãy", "isCorrect": false},
+        {"text": "Vì nó chỉ vạch đường chu vi, không có khả năng đo kích thước ngang", "isCorrect": true},
+        {"text": "Vì nó quá đắt", "isCorrect": false},
+        {"text": "Vì nó làm hỏng thạch cao", "isCorrect": false}
+      ],
+      "explanation": "Cây carbon chỉ xác định vị trí lồi nhất, muốn biết độ lẹm bao nhiêu phải dùng Undercut gauges."
+    },
+    {
+      "question": "Vùng 'Saddle' (yên phục hình) có cần khảo sát trên song song kế không?",
+      "options": [
+        {"text": "Có, để xem sống hàm có bị lẹm quá mức gây vướng nền hàm không", "isCorrect": true},
+        {"text": "Không, chỉ khảo sát răng", "isCorrect": false},
+        {"text": "Chỉ khảo sát nếu là hàm nhựa", "isCorrect": false},
+        {"text": "Tùy bác sĩ", "isCorrect": false}
+      ],
+      "explanation": "Vùng yên liên quan trực tiếp đến phần mở rộng của nền hàm kim loại hoặc nhựa."
+    },
+    {
+      "question": "Khi ghi tương quan mẫu hàm, cây bút đánh dấu 3 điểm nằm trên bộ phận nào?",
+      "options": [
+        {"text": "Platform", "isCorrect": false},
+        {"text": "Spindle", "isCorrect": true},
+        {"text": "Universal joint", "isCorrect": false},
+        {"text": "Đế máy", "isCorrect": false}
+      ],
+      "explanation": "Bút được gắn vào trục trượt (spindle) để đảm bảo 3 điểm nằm trên cùng một phương thẳng đứng so với máy."
+    },
+    {
+      "question": "Hành động 'khóa tay ngang' trên song song kế giúp ích gì?",
+      "options": [
+        {"text": "Để di chuyển mẫu hàm dễ hơn", "isCorrect": false},
+        {"text": "Duy trì sự ổn định của trục làm việc tại một vị trí phân tích xác định", "isCorrect": true},
+        {"text": "Để tiết kiệm điện", "isCorrect": false},
+        {"text": "Làm máy bền hơn", "isCorrect": false}
+      ],
+      "explanation": "Đảm bảo tính chính xác và không bị xê dịch khi bác sĩ đang vạch đường vòng lớn nhất."
+    },
+    {
+      "question": "Thứ tự sử dụng dụng cụ trên song song kế đúng là:",
+      "options": [
+        {"text": "Cây tỉa sáp -> Cây carbon -> Cây phân tích", "isCorrect": false},
+        {"text": "Cây phân tích -> Cây carbon -> Cây đo lẹm", "isCorrect": true},
+        {"text": "Cây đo lẹm -> Cây phân tích -> Cây carbon", "isCorrect": false},
+        {"text": "Tất cả dùng cùng lúc", "isCorrect": false}
+      ],
+      "explanation": "Khảo sát hướng trước (phân tích), vẽ ranh giới (carbon), sau đó mới đo độ sâu (gauge)."
+    },
+    {
+      "question": "Undercut gauge kích thước 0.75mm tương đương với số hiệu nào trên dụng cụ?",
+      "options": [
+        {"text": "Số 10", "isCorrect": false},
+        {"text": "Số 20", "isCorrect": false},
+        {"text": "Số 30", "isCorrect": true},
+        {"text": "Số 40", "isCorrect": false}
+      ],
+      "explanation": "Số 30 là ký hiệu cho độ lẹm 0.03 inch tương đương 0.75mm."
+    },
+    {
+      "question": "Lồi xương hàm dưới (Mandibular Torus) thường gây vướng cho thành phần nào của hàm khung?",
+      "options": [
+        {"text": "Tựa mặt nhai", "isCorrect": false},
+        {"text": "Thanh nối chính (Major connector)", "isCorrect": true},
+        {"text": "Răng giả", "isCorrect": false},
+        {"text": "Móc đối kháng", "isCorrect": false}
+      ],
+      "explanation": "Thanh nối chính hàm dưới (thanh lưỡi) thường bị cản trở bởi lồi xương mặt trong."
+    },
+    {
+      "question": "Tiêu chuẩn mài cạnh đế mẫu hàm 'Vuông góc' giúp gì cho Tripoding?",
+      "options": [
+        {"text": "Dễ cầm hơn", "isCorrect": false},
+        {"text": "Tạo mặt phẳng đứng chuẩn để vạch các đường tham chiếu (Cách 2)", "isCorrect": true},
+        {"text": "Làm mẫu đẹp hơn", "isCorrect": false},
+        {"text": "Giảm bớt trọng lượng", "isCorrect": false}
+      ],
+      "explanation": "Cạnh đứng vuông góc là điều kiện cần để các vạch dọc tham chiếu có ý nghĩa kỹ thuật."
+    },
+    {
+      "question": "Tại sao hướng tháo lắp 'đơn nhất' là mục tiêu lý tưởng của phục hình?",
+      "options": [
+        {"text": "Làm hàm giả bám chặt gấp đôi", "isCorrect": false},
+        {"text": "Giúp bệnh nhân dễ tháo lắp và giảm thiểu lực sang chấn lên răng trụ", "isCorrect": true},
+        {"text": "Để không phải mài răng", "isCorrect": false},
+        {"text": "Để hàm giả không bị hôi", "isCorrect": false}
+      ],
+      "explanation": "Nhiều hướng lắp sẽ làm hàm bị bập bênh và làm lung lay răng trụ nhanh chóng."
+    },
+    {
+      "question": "Dụng cụ nào được dùng cuối cùng trong quá trình chuẩn bị khung sáp phục hình trên song song kế?",
+      "options": [
+        {"text": "Cây tỉa sáp", "isCorrect": true},
+        {"text": "Cây carbon", "isCorrect": false},
+        {"text": "Cây phân tích", "isCorrect": false},
+        {"text": "Cây đo lẹm 10", "isCorrect": false}
+      ],
+      "explanation": "Tỉa sáp là bước hoàn thiện các diện song song trước khi đưa đi đúc khung."
+    },
+    {
+      "question": "Tài liệu này thuộc chương trình đào tạo của đối tượng nào?",
+      "options": [
+        {"text": "Sinh viên Điều dưỡng", "isCorrect": false},
+        {"text": "Sinh viên Răng Hàm Mặt", "isCorrect": true},
+        {"text": "Sinh viên Kỹ thuật y sinh", "isCorrect": false},
+        {"text": "Sinh viên Dược", "isCorrect": false}
+      ],
+      "explanation": "Đây là nội dung chuyên sâu về kỹ thuật phục hình răng dành cho bác sĩ nha khoa tương lai."
+    },
+    {
+      "question": "Điểm mốc Na (Nasion) nằm ở trang nào của tài liệu 'Hình thái học' tương quan?",
+      "options": [
+        {"text": "Trang 3", "isCorrect": true},
+        {"text": "Trang 10", "isCorrect": false},
+        {"text": "Trang 20", "isCorrect": false},
+        {"text": "Trang 45", "isCorrect": false}
+      ],
+      "explanation": "Nasion là mốc giải phẫu quan trọng được liệt kê ngay từ trang 3."
+    },
+    {
+      "question": "Song song kế là dụng cụ để xác định sự song song giữa các mặt răng nhằm mục đích gì?",
+      "options": [
+        {"text": "Xác định hướng lắp phục hình", "isCorrect": true},
+        {"text": "Vạch đường mòn men răng", "isCorrect": false},
+        {"text": "Đo độ lung lay răng", "isCorrect": false},
+        {"text": "Xác định màu răng", "isCorrect": false}
+      ],
+      "explanation": "Xác định hướng lắp là mục đích hàng đầu của việc dùng song song kế."
+    },
+    {
+      "question": "Mẫu hàm nghiên cứu được đặt trên bộ phận nào khi phân tích?",
+      "options": [
+        {"text": "Trục đứng", "isCorrect": false},
+        {"text": "Bàn mẫu hàm (Platform)", "isCorrect": true},
+        {"text": "Tay ngang", "isCorrect": false},
+        {"text": "Cán khay", "isCorrect": false}
+      ],
+      "explanation": "Platform là mặt phẳng đặt mẫu hàm thạch cao."
+    },
+    {
+      "question": "Vùng lẹm mô mềm (Soft tissue undercut) được ghi nhận bằng dụng cụ nào?",
+      "options": [
+        {"text": "Cây carbon", "isCorrect": true},
+        {"text": "Bút lông", "isCorrect": false},
+        {"text": "Thước dây", "isCorrect": false},
+        {"text": "Kìm", "isCorrect": false}
+      ],
+      "explanation": "Cây carbon vạch đường vòng lớn nhất trên cả răng và mô mềm lân cận."
+    },
+    {
+      "question": "Đặc điểm của 'Móc thanh' (bar) so với móc vòng là?",
+      "options": [
+        {"text": "Tiếp xúc nướu nhiều hơn", "isCorrect": false},
+        {"text": "Thẩm mỹ cao hơn", "isCorrect": true},
+        {"text": "Dễ gãy hơn", "isCorrect": false},
+        {"text": "Luôn làm bằng nhựa", "isCorrect": false}
+      ],
+      "explanation": "Thiết kế móc thanh che giấu kim loại tốt hơn nên thẩm mỹ cao hơn móc vòng."
+    },
+    {
+      "question": "Khi mài mặt phẳng phía sau đế mẫu hàm, cần cách răng khôn bao nhiêu mm?",
+      "options": [
+        {"text": "1mm", "isCorrect": false},
+        {"text": "5mm", "isCorrect": true},
+        {"text": "10mm", "isCorrect": false},
+        {"text": "Không cần cách", "isCorrect": false}
+      ],
+      "explanation": "Khoảng cách 5mm đảm bảo không làm tổn hại cấu trúc răng trên mẫu."
+    },
+    {
+      "question": "Trục ngang của song song kế có thể xoay hay cố định?",
+      "options": [
+        {"text": "Luôn cố định", "isCorrect": false},
+        {"text": "Có thể xoay quanh trục đứng để khảo sát toàn bộ mẫu hàm", "isCorrect": true},
+        {"text": "Chỉ di chuyển lên xuống", "isCorrect": false},
+        {"text": "Làm bằng nhựa dẻo", "isCorrect": false}
+      ],
+      "explanation": "Khả năng xoay giúp bác sĩ đưa đầu phân tích đến mọi răng trên cung hàm."
+    },
+    {
+      "question": "Đường vòng lớn nhất 'lý tưởng' cho móc đúc thường nằm ở vị trí nào của thân răng?",
+      "options": [
+        {"text": "Sát mặt nhai", "isCorrect": false},
+        {"text": "Khoảng 1/3 giữa hoặc 1/3 nướu tùy thiết kế móc", "isCorrect": true},
+        {"text": "Ở rìa cắn", "isCorrect": false},
+        {"text": "Dưới chân răng", "isCorrect": false}
+      ],
+      "explanation": "Vị trí này đảm bảo móc bám chắc mà không gây quá tải cho răng trụ."
+    },
+    {
+      "question": "Cây đo độ lẹm 0.25mm tương ứng với bao nhiêu inch?",
+      "options": [
+        {"text": "0.01 inch", "isCorrect": true},
+        {"text": "0.02 inch", "isCorrect": false},
+        {"text": "0.03 inch", "isCorrect": false},
+        {"text": "0.1 inch", "isCorrect": false}
+      ],
+      "explanation": "10 tương ứng với 0.01 inch (0.25mm), 20 là 0.02 inch (0.50mm), 30 là 0.03 inch (0.75mm)."
+    },
+    {
+      "question": "Kết quả cuối cùng của việc sử dụng song song kế là gì?",
+      "options": [
+        {"text": "Mẫu hàm sạch sẽ hơn", "isCorrect": false},
+        {"text": "Bản thiết kế phục hình tháo lắp tối ưu về mặt sinh học và cơ học", "isCorrect": true},
+        {"text": "Bệnh nhân hết đau răng", "isCorrect": false},
+        {"text": "Lấy được dấu chính xác hơn", "isCorrect": false}
+      ],
+      "explanation": "Toàn bộ quá trình phân tích phục vụ cho thiết kế kỹ thuật của phục hình."
+    },
+    {
+      "question": "Hướng tháo lắp được chọn khi mẫu hàm đang ở trạng thái nào?",
+      "options": [
+        {"text": "Nằm nghiêng 90 độ", "isCorrect": false},
+        {"text": "Nghiêng một góc sao cho vùng lẹm và vùng vướng được cân đối tốt nhất", "isCorrect": true},
+        {"text": "Đặt trong nước", "isCorrect": false},
+        {"text": "Đã được gắn răng giả", "isCorrect": false}
+      ],
+      "explanation": "Bác sĩ thay đổi độ nghiêng mẫu trên khớp vạn năng để tìm hướng lắp thuận lợi nhất."
+    },
+    {
+      "question": "Tay đối kháng (Reciprocal arm) của móc đúc nằm ở đâu?",
+      "options": [
+        {"text": "Dưới đường vòng lớn nhất", "isCorrect": false},
+        {"text": "Trên đường vòng lớn nhất", "isCorrect": true},
+        {"text": "Sát nướu rời", "isCorrect": false},
+        {"text": "Mặt nhai", "isCorrect": false}
+      ],
+      "explanation": "Tay đối kháng phải nằm vùng không lẹm để không gây khó khăn khi tháo lắp."
+    },
+    {
+      "question": "Mục đích của việc lấp đầy (block-out) các vùng lẹm không có ích bằng sáp là gì?",
+      "options": [
+        {"text": "Để làm răng giả to ra", "isCorrect": false},
+        {"text": "Để khung kim loại đúc ra không bị kẹt khi lắp vào miệng bệnh nhân", "isCorrect": true},
+        {"text": "Để thay thế răng bị mất", "isCorrect": false},
+        {"text": "Để bệnh nhân ăn ngon hơn", "isCorrect": false}
+      ],
+      "explanation": "Khung sườn kim loại cứng không thể chui vào vùng lẹm răng nếu không được xử lý mặt phẳng."
+    },
+    {
+      "question": "Sử dụng song song kế thuộc giai đoạn nào trong quy trình 6 bước?",
+      "options": [
+        {"text": "Bước 1", "isCorrect": false},
+        {"text": "Bước 2", "isCorrect": true},
+        {"text": "Bước 5", "isCorrect": false},
+        {"text": "Bước 6", "isCorrect": false}
+      ],
+      "explanation": "Bước 2 là nghiên cứu các mẫu hàm trên song song kế và thảo luận thiết kế."
+    },
+    {
+      "question": "Bàn mẫu hàm (Platform) có thể khóa hay luôn di động?",
+      "options": [
+        {"text": "Luôn di động 360 độ", "isCorrect": false},
+        {"text": "Có bộ phận khóa để giữ mẫu ở một độ nghiêng nhất định sau khi đã phân tích xong", "isCorrect": true},
+        {"text": "Không có khả năng di chuyển", "isCorrect": false},
+        {"text": "Chỉ di chuyển theo chiều dọc", "isCorrect": false}
+      ],
+      "explanation": "Việc khóa bàn mẫu là bước bắt buộc để duy trì hướng lắp đã chọn."
+    },
+    {
+      "question": "Ký hiệu 'ENA' và 'ENP' giúp xác định mặt phẳng nào trong thiết kế?",
+      "options": [
+        {"text": "Mặt phẳng cắn", "isCorrect": false},
+        {"text": "Mặt phẳng khẩu cái", "isCorrect": true},
+        {"text": "Mặt phẳng hàm dưới", "isCorrect": false},
+        {"text": "Mặt phẳng đứng ngang", "isCorrect": false}
+      ],
+      "explanation": "Gai mũi trước và gai mũi sau xác định mặt phẳng xương hàm trên/khẩu cái."
+    },
+    {
+      "question": "Đường vạch tripoding Cách 2 nằm ở vị trí nào của mẫu hàm?",
+      "options": [
+        {"text": "Mặt nhai răng", "isCorrect": false},
+        {"text": "Đế thạch cao (2 bên và phía sau)", "isCorrect": true},
+        {"text": "Mặt lưỡi", "isCorrect": false},
+        {"text": "Mặt ngoài môi", "isCorrect": false}
+      ],
+      "explanation": "Vạch lên đế là phương pháp Tripoding phổ biến trong labo."
+    },
+    {
+      "question": "Sự lưu giữ của hàm giả (Retention) phụ thuộc chủ yếu vào thành phần nào?",
+      "options": [
+        {"text": "Màu sắc nướu", "isCorrect": false},
+        {"text": "Tay móc nằm trong vùng lẹm", "isCorrect": true},
+        {"text": "Nước bọt bệnh nhân", "isCorrect": false},
+        {"text": "Chiều dài thanh nối chính", "isCorrect": false}
+      ],
+      "explanation": "Lực giữ hàm chống lại lực kéo ra phụ thuộc vào móc bám vùng lẹm."
+    },
+    {
+      "question": "Cây tỉa sáp thường có đầu hình dạng như thế nào?",
+      "options": [
+        {"text": "Hình bầu dục", "isCorrect": false},
+        {"text": "Hình cái đục hoặc cạnh phẳng sắc để gạt sáp phẳng theo phương đứng", "isCorrect": true},
+        {"text": "Hình xoắn ốc", "isCorrect": false},
+        {"text": "Hình ngôi sao", "isCorrect": false}
+      ],
+      "explanation": "Cây tỉa giúp tạo ra diện hướng dẫn phẳng tuyệt đối trên mẫu sáp."
+    },
+    {
+      "question": "Vùng lẹm mô mềm 'có ích' dùng để làm gì?",
+      "options": [
+        {"text": "Để nhổ răng", "isCorrect": false},
+        {"text": "Sử dụng cho nền hàm nhựa (đôi khi) để tăng lực giữ", "isCorrect": true},
+        {"text": "Để chứa thức ăn", "isCorrect": false},
+        {"text": "Không có tác dụng gì", "isCorrect": false}
+      ],
+      "explanation": "Một số vùng lẹm mô mềm có thể được tận dụng cho các loại vật liệu có tính đàn hồi nhẹ."
+    },
+    {
+      "question": "Khi thực hiện Tripoding Cách 1, 3 điểm đó nên tạo thành hình gì?",
+      "options": [
+        {"text": "Đường thẳng", "isCorrect": false},
+        {"text": "Hình tam giác", "isCorrect": true},
+        {"text": "Hình vuông", "isCorrect": false},
+        {"text": "Vòng tròn", "isCorrect": false}
+      ],
+      "explanation": "3 điểm không thẳng hàng tạo thành một mặt phẳng xác định duy nhất."
+    },
+    {
+      "question": "Song song kế Stewart nhấn mạnh việc đo độ song song của bộ phận nào?",
+      "options": [
+        {"text": "Các mặt của các răng", "isCorrect": true},
+        {"text": "Chiều dài mũi", "isCorrect": false},
+        {"text": "Độ sâu ổ mắt", "isCorrect": false},
+        {"text": "Trọng lượng xương", "isCorrect": false}
+      ],
+      "explanation": "Xác định sự song song của các mặt răng là cốt lõi của việc thiết kế hướng lắp."
+    },
+    {
+      "question": "Vùng lẹm 'không có ích' trên răng trụ cần làm gì?",
+      "options": [
+        {"text": "Đắp sáp lấp đầy", "isCorrect": true},
+        {"text": "Mài cho răng mỏng đi", "isCorrect": false},
+        {"text": "Nhổ răng", "isCorrect": false},
+        {"text": "Bọc sứ toàn bộ", "isCorrect": false}
+      ],
+      "explanation": "Lấp sáp giúp khung sườn không bị kẹt ở những vùng không cần thiết cho lưu giữ."
+    },
+    {
+      "question": "Tại sao Tripoding là bước bắt buộc trước khi chuyển mẫu cho labo?",
+      "options": [
+        {"text": "Vì quy trình quy định vậy", "isCorrect": false},
+        {"text": "Đảm bảo tính đồng bộ giữa lâm sàng và phục hình labo", "isCorrect": true},
+        {"text": "Để tiết kiệm thời gian lấy dấu lại", "isCorrect": false},
+        {"text": "Để labo tính đúng tiền công", "isCorrect": false}
+      ],
+      "explanation": "Tripoding là ngôn ngữ kỹ thuật truyền tải hướng tháo lắp từ bác sĩ sang kỹ thuật viên."
+    },
+    {
+      "question": "Dấu chân trên hiện trường kéo dài 14 ngày (ghi chú bổ sung) có ý nghĩa gì trong bài?",
+      "options": [
+        {"text": "Không liên quan đến nha khoa", "isCorrect": false},
+        {"text": "Đây là thông tin nhắc lại từ bài Tử thi học về ước lượng thời gian", "isCorrect": true},
+        {"text": "Giúp chọn khay lấy dấu", "isCorrect": false},
+        {"text": "Giúp mài ổ tựa", "isCorrect": false}
+      ],
+      "explanation": "Thông tin này được bác sĩ ghi chú thêm để liên hệ kiến thức cũ."
+    },
+    {
+      "question": "Cấu tạo Platform (Bàn mẫu hàm) gồm mấy phần nhỏ?",
+      "options": [
+        {"text": "Chỉ 1 bàn phẳng", "isCorrect": false},
+        {"text": "Chân đế và bàn kẹp mẫu hàm có khớp xoay", "isCorrect": true},
+        {"text": "Thanh ngang và trục đứng", "isCorrect": false},
+        {"text": "Cán khay và thìa khay", "isCorrect": false}
+      ],
+      "explanation": "Bàn mẫu gồm phần chân di động và phần kẹp mẫu có khả năng nghiêng đa hướng."
+    },
+    {
+      "question": "Vai trò của 'Lớp xương đặc' (Lamina dura) trong chẩn đoán X-quang phục hình là gì?",
+      "options": [
+        {"text": "Để phim đẹp hơn", "isCorrect": false},
+        {"text": "Sự liên tục của nó chứng tỏ răng trụ khỏe mạnh", "isCorrect": true},
+        {"text": "Nó là một loại sâu răng", "isCorrect": false},
+        {"text": "Nó là cao răng", "isCorrect": false}
+      ],
+      "explanation": "Lamina dura lành mạnh là chỉ số quan trọng cho sức khỏe răng trụ mang móc."
+    },
+    {
+      "question": "Tại sao phải mài đế mẫu hàm thạch cao trước khi phân tích?",
+      "options": [
+        {"text": "Để mẫu hàm đẹp và đứng vững trên bàn máy", "isCorrect": true},
+        {"text": "Để làm thạch cao trắng hơn", "isCorrect": false},
+        {"text": "Để bệnh nhân dễ cầm", "isCorrect": false},
+        {"text": "Để labo không chê bác sĩ", "isCorrect": false}
+      ],
+      "explanation": "Đế phẳng và sạch giúp mẫu hàm ổn định tuyệt đối trong quá trình đo đạc."
+    },
+    {
+      "question": "Khái niệm 'Survey line' tương ứng với bộ phận nào trong hình vẽ?",
+      "options": [
+        {"text": "Đường mực đen bao quanh răng", "isCorrect": true},
+        {"text": "Vạch trắng ở cổ răng", "isCorrect": false},
+        {"text": "Các chấm đỏ ở mặt nhai", "isCorrect": false},
+        {"text": "Vạch xanh ở vùng lợi", "isCorrect": false}
+      ],
+      "explanation": "Đường khảo sát là ranh giới do cây carbon vẽ ra tại chu vi lớn nhất."
+    },
+    {
+      "question": "Mục tiêu tối hậu của việc sử dụng song song kế là gì?",
+      "options": [
+        {"text": "Giúp bác sĩ thu nhập dữ liệu tốt hơn", "isCorrect": false},
+        {"text": "Đạt được sự ổn định, thẩm mỹ và sức khỏe lâu dài cho bộ răng còn lại", "isCorrect": true},
+        {"text": "Để không phải nhổ răng khôn", "isCorrect": false},
+        {"text": "Để thay thế implant", "isCorrect": false}
+      ],
+      "explanation": "Phân tích song song kế là nền tảng cho một phục hình tháo lắp thành công."
+    }
+  ]

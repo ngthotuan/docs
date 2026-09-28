@@ -1,0 +1,902 @@
+[
+    {
+      "question": "[S1] Hội chứng Costen (1934) được mô tả với các triệu chứng chính nào?",
+      "options": [
+        { "text": "Đau ở vùng tai kèm ù tai, hoa mắt, khó nuốt.", "isCorrect": false },
+        { "text": "Mất nhiều răng và giảm kích thước tầng mặt dưới.", "isCorrect": false },
+        { "text": "Cả A và B.", "isCorrect": true },
+        { "text": "Chỉ đau khớp thái dương hàm khi há miệng.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 5, hội chứng Costen có triệu chứng đau ở vùng tai kèm ù tai, hoa mắt, khó nuốt, mất nhiều răng và giảm kích thước tầng mặt dưới. [cite: 1952]"
+    },
+    {
+      "question": "[S1] Giải pháp điều trị được áp dụng cho 13 bệnh nhân mắc hội chứng Costen dẫn đến các triệu chứng 'biến mất' là gì?",
+      "options": [
+        { "text": "Phẫu thuật khớp thái dương hàm.", "isCorrect": false },
+        { "text": "Làm hàm giả để thay thế các răng mất.", "isCorrect": true },
+        { "text": "Điều trị bằng thuốc giảm đau.", "isCorrect": false },
+        { "text": "Châm cứu.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 5, các triệu chứng của bệnh nhân Costen dường như biến mất sau khi làm hàm giả để thay thế các răng mất. [cite: 1953, 1954]"
+    },
+    {
+      "question": "[S1] Ngày nay, thuật ngữ nào được hầu hết các tác giả chấp nhận để chỉ các rối loạn liên quan đến hệ thống nhai?",
+      "options": [
+        { "text": "Costen's syndrome.", "isCorrect": false },
+        { "text": "Myofascial dysfunction pain syndrome.", "isCorrect": false },
+        { "text": "Rối loạn thái dương hàm (Temporomandibular Disorders - TMD).", "isCorrect": true },
+        { "text": "Craniomandibular dysfunction (CMD).", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 7, ngày nay, hầu như mọi tác giả đều chấp nhận thuật ngữ 'Rối loạn thái dương hàm (Temporomandibular Disorders - TMD)'. [cite: 1969, 1970]"
+    },
+    {
+      "question": "[S1] Theo định nghĩa của GPT 9-2017, TMD (temporomandibular disorders) là gì?",
+      "options": [
+        { "text": "Các tình trạng gây ra chức năng bất thường, không hoàn chỉnh, hoặc suy yếu của một hoặc cả hai khớp thái dương hàm và/hoặc các cơ nhai.", "isCorrect": false },
+        { "text": "Một tập hợp các triệu chứng thường được quan sát thấy trong các sự kết hợp khác nhau, được mô tả lần đầu bởi Costen (1934, 1937).", "isCorrect": false },
+        { "text": "Cả A và B.", "isCorrect": true },
+        { "text": "Chỉ các vấn đề liên quan đến đau đầu và ù tai.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 8, TMD là các tình trạng gây ra chức năng bất thường của khớp thái dương hàm và/hoặc các cơ nhai, và cũng là một tập hợp các triệu chứng được Costen mô tả. [cite: 1973, 1974]"
+    },
+    {
+      "question": "[S1] Theo Okeson JP (1996), TMD bao gồm những tình trạng lâm sàng nào?",
+      "options": [
+        { "text": "Chỉ khớp thái dương hàm.", "isCorrect": false },
+        { "text": "Chỉ cơ nhai.", "isCorrect": false },
+        { "text": "Một số tình trạng lâm sàng liên quan đến khớp thái dương hàm, các cơ nhai hoặc cả hai.", "isCorrect": true },
+        { "text": "Chỉ các rối loạn thần kinh.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 10, TMD bao gồm một số tình trạng lâm sàng liên quan đến khớp thái dương hàm, các cơ nhai hoặc cả hai. [cite: 1981, 1982]"
+    },
+    {
+      "question": "[S1] Phân loại rối loạn khớp thái dương hàm (TMD) theo AAOP bao gồm các nhóm chính nào?",
+      "options": [
+        { "text": "Chỉ các tình trạng đau khớp.", "isCorrect": false },
+        { "text": "Rối loạn khớp thái dương hàm, Rối loạn cơ nhai, Đau cơ nhai do rối loạn hệ thống toàn thân, Đau đầu do TMD, và các Rối loạn liên quan đến răng.", "isCorrect": true },
+        { "text": "Chỉ các rối loạn đĩa khớp.", "isCorrect": false },
+        { "text": "Chỉ các rối loạn phát triển và bẩm sinh.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 13, AAOP phân loại TMD thành các nhóm như Joint pain (đau khớp), Joint disorders (rối loạn khớp), Masticatory muscle disorders (rối loạn cơ nhai), và Headaches attributed to TMDs (đau đầu do TMDs). Nó còn bao gồm các rối loạn bẩm sinh/phát triển và các tổn thương khác. [cite: 2011, 2046, 2070, 2073]"
+    },
+    {
+      "question": "[S1] Trong phân loại TMD phổ biến nhất (RDC/TMD), Group I bao gồm các rối loạn cơ nào?",
+      "options": [
+        { "text": "Chỉ Myofascial pain.", "isCorrect": false },
+        { "text": "Myofascial pain và Myofascial pain with limited opening.", "isCorrect": true },
+        { "text": "Arthralgia.", "isCorrect": false },
+        { "text": "Disc Displacement with reduction.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 15, RDC/TMD Group I là Muscle disorders, bao gồm Myofascial pain (I.a) và Myofascial pain with limited opening (I.b). [cite: 2081, 2082, 2083]"
+    },
+    {
+      "question": "[S1] Trong phân loại TMD phổ biến nhất (RDC/TMD), Group II bao gồm các tình trạng lệch đĩa khớp (Disc Displacements - DD) nào?",
+      "options": [
+        { "text": "DD with reduction.", "isCorrect": false },
+        { "text": "DD without reduction with limited opening.", "isCorrect": false },
+        { "text": "DD without reduction without limited opening.", "isCorrect": false },
+        { "text": "Tất cả các loại DD trên.", "isCorrect": true }
+      ],
+      "explanation": "Theo slide 15, RDC/TMD Group II là Disc Displacements, bao gồm DD with reduction (II.a), DD without reduction with limited opening (II.b), và DD without reduction without limited opening (II.c). [cite: 2084, 2085, 2086, 2087]"
+    },
+    {
+      "question": "[S1] Trong phân loại TMD phổ biến nhất (RDC/TMD), Group III bao gồm các rối loạn khớp phổ biến khác nào?",
+      "options": [
+        { "text": "Chỉ Arthralgia.", "isCorrect": false },
+        { "text": "Arthralgia, Osteoarthritis và Osteoarthrosis.", "isCorrect": true },
+        { "text": "Chỉ Osteoarthritis.", "isCorrect": false },
+        { "text": "Chỉ Myofascial pain.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 15, RDC/TMD Group III là Other common Joint disorders, bao gồm Arthralgia (III.a), Osteoarthritis (III.b), và Osteoarthrosis (III.c). [cite: 2088, 2089, 2090, 2091]"
+    },
+    {
+      "question": "[S1] Mô hình sinh y học về đau (Biomedical Model of Pain) theo Descartes (1664) mô tả con đường đau như thế nào?",
+      "options": [
+        { "text": "Sức mạnh tín hiệu thần kinh được xác định bởi biên độ kích thích.", "isCorrect": false },
+        { "text": "Không có lửa thì không có đau.", "isCorrect": false },
+        { "text": "Tất cả các câu trên.", "isCorrect": true },
+        { "text": "Đau được xác định bởi các yếu tố tâm lý.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 18, mô hình Biomedical Model of Pain của Descartes (1664) mô tả đường dẫn đau thẳng, trong đó Stimulus magnitude determines Signal strength, Cortical response, và Pain appreciation, với nguyên tắc 'No fire - no pain'. [cite: 2096, 2097, 2098, 2099, 2100, 2101, 2102, 2103]"
+    },
+    {
+      "question": "[S1] Mô hình đau sinh học-tâm lý-xã hội (Biopsychosocial Model of Pain) nhấn mạnh các yếu tố nào ảnh hưởng đến đau?",
+      "options": [
+        { "text": "Yếu tố sinh học (nhạy cảm ngoại vi/trung ương, thay đổi sinh lý, di truyền).", "isCorrect": false },
+        { "text": "Yếu tố tâm lý (cảm xúc, nhận thức, hành vi, bệnh đồng mắc tâm lý).", "isCorrect": false },
+        { "text": "Yếu tố xã hội (bệnh nhân rút lui khỏi xã hội, cảm xúc/nhận thức/hành vi của cha mẹ, hành vi/đánh giá của bạn bè).", "isCorrect": false },
+        { "text": "Tất cả các yếu tố trên.", "isCorrect": true }
+      ],
+      "explanation": "Theo slide 19, mô hình Biopsychosocial Model of Pain bao gồm các yếu tố Bio (Periphere/central sensitization, Subclinical changes in physiological processes, Genetic disposition), Psycho (Emotions, Cognitions, Behavior, Psychological comorbidity), và Social (Patient: social withdrawal, Parents: emotions/cognitions/behavior, Peers: hehavoir and appraisal). [cite: 2108, 2109, 2110, 2111, 2112, 2113, 2118, 2119, 2120, 2121]"
+    },
+    {
+      "question": "[S1] Có bao nhiêu loại yếu tố gây bệnh và vai trò của chúng trong bệnh nguyên của rối loạn hệ thống nhai?",
+      "options": [
+        { "text": "2 loại: yếu tố khởi phát và yếu tố duy trì.", "isCorrect": false },
+        { "text": "3 loại: yếu tố khởi phát, yếu tố tăng cường và yếu tố duy trì.", "isCorrect": true },
+        { "text": "4 loại: yếu tố di truyền, tâm lý, tại chỗ và toàn thân.", "isCorrect": false },
+        { "text": "5 loại yếu tố chính được xem là bệnh sinh.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 20, có 3 loại yếu tố gây bệnh và vai trò: yếu tố khởi phát, yếu tố tăng cường và yếu tố duy trì. [cite: 2128, 2129]"
+    },
+    {
+      "question": "[S1] Các yếu tố bệnh sinh chính dẫn đến rối loạn thái dương hàm bao gồm những gì?",
+      "options": [
+        { "text": "Yếu tố khớp cắn, Chấn thương, Cơn đau nội tại, Rối loạn tâm lý, Hoạt động cận chức năng.", "isCorrect": true },
+        { "text": "Chỉ yếu tố di truyền và hormone.", "isCorrect": false },
+        { "text": "Chỉ khớp cắn và chấn thương.", "isCorrect": false },
+        { "text": "Chỉ rối loạn tâm lý và hormone.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 21, các yếu tố bệnh sinh chính bao gồm Yếu tố khớp cắn, Chấn thương, Cơn đau nội tại, Rối loạn tâm lý, Hoạt động cận chức năng. [cite: 2135, 2136, 2137, 2138, 2139, 2140]"
+    },
+    {
+      "question": "[S1] Các yếu tố tại chỗ được xem là bệnh nguyên của rối loạn hệ thống nhai là gì?",
+      "options": [
+        { "text": "Tình trạng khớp cắn, Chấn thương, Cơn đau nội tại, Hoạt động cận chức năng.", "isCorrect": true },
+        { "text": "Tuổi và yếu tố gen.", "isCorrect": false },
+        { "text": "Stress và trầm cảm.", "isCorrect": false },
+        { "text": "Hội chứng lỏng khớp và bất thường tư thế.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 22, các yếu tố tại chỗ bao gồm Tình trạng khớp cắn, Chấn thương, Cơn đau nội tại (Deep pain input), và Hoạt động cận chức năng. [cite: 2148, 2149, 2150, 2151]"
+    },
+    {
+      "question": "[S1] Tình trạng khớp cắn (malocclusion) có vai trò như thế nào trong rối loạn thái dương hàm (RLTDH)?",
+      "options": [
+        { "text": "Là yếu tố quan trọng nhất gây ra RLTDH.", "isCorrect": false },
+        { "text": "Có vai trò rất ít hoặc không có.", "isCorrect": true },
+        { "text": "Luôn là nguyên nhân chính gây đau.", "isCorrect": false },
+        { "text": "Can thiệp vào khớp cắn luôn giải quyết được RLTDH.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 23, mặc dù có thể có các sai khớp cắn, yếu tố khớp cắn được xem là có vai trò rất ít hoặc không có trong nguyên nhân gây đau. [cite: 2156, 2157]"
+    },
+    {
+      "question": "[S1] Chấn thương (Trauma) ảnh hưởng đến rối loạn thái dương hàm như thế nào?",
+      "options": [
+        { "text": "Chủ yếu gây ra rối loạn cơ.", "isCorrect": false },
+        { "text": "Tác động lớn đến rối loạn trong khớp hơn là những rối loạn cơ.", "isCorrect": true },
+        { "text": "Chỉ liên quan đến chấn thương đập trực tiếp vào mặt.", "isCorrect": false },
+        { "text": "Không gây ra những thay đổi cấu trúc.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 24, chấn thương tác động lớn đến rối loạn trong khớp hơn là những rối loạn cơ. [cite: 2159, 2160]"
+    },
+    {
+      "question": "[S1] Cơn đau nội tại (Deep pain input) có thể gây ra hiện tượng gì trong rối loạn hệ thống nhai?",
+      "options": [
+        { "text": "Sự co cơ bảo vệ dẫn đến đau mặt và há miệng hạn chế.", "isCorrect": true },
+        { "text": "Tăng cường hoạt động chức năng của hàm.", "isCorrect": false },
+        { "text": "Chỉ gây đau răng.", "isCorrect": false },
+        { "text": "Không ảnh hưởng đến vận động hàm.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 30, cơn đau nội tại có thể gây ra sự co cơ bảo vệ dẫn đến đau mặt và há miệng hạn chế. [cite: 2182]"
+    },
+    {
+      "question": "[S1] Nguyên nhân của cơn đau nội tại có thể bao gồm những gì?",
+      "options": [
+        { "text": "Đau răng, đau do xoang, đau tai, đau cổ, đau niêm mạc miệng.", "isCorrect": true },
+        { "text": "Chỉ đau khớp thái dương hàm.", "isCorrect": false },
+        { "text": "Chỉ đau cơ nhai.", "isCorrect": false },
+        { "text": "Chỉ chấn thương trực tiếp vào hàm.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 30, nguyên nhân của cơn đau nội tại bao gồm đau răng, đau do xoang, đau tai, đau cổ, đau niêm mạc miệng. [cite: 2183]"
+    },
+    {
+      "question": "[S1] Hoạt động cận chức năng ban đêm của hệ thống nhai bao gồm gì?",
+      "options": [
+        { "text": "Nghiến răng và cắn lưỡi.", "isCorrect": false },
+        { "text": "Siết chặt răng và nghiến răng.", "isCorrect": true },
+        { "text": "Cắn bút chì và cắn móng tay.", "isCorrect": false },
+        { "text": "Mút tay và tư thế bất thường.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 32, hoạt động cận chức năng ban đêm bao gồm siết chặt răng và nghiến răng. [cite: 2195]"
+    },
+    {
+      "question": "[S1] Hoạt động cận chức năng ban ngày của hệ thống nhai bao gồm gì?",
+      "options": [
+        { "text": "Nghiến răng và siết chặt răng.", "isCorrect": false },
+        { "text": "Cắn lưỡi hoặc má, mút tay, tư thế bất thường.", "isCorrect": false },
+        { "text": "Các hoạt động liên quan đến nghề nghiệp như cắn bút chì, cắn móng tay, giữ vật dụng dưới cằm.", "isCorrect": false },
+        { "text": "Tất cả các câu trên.", "isCorrect": true }
+      ],
+      "explanation": "Theo slide 32, hoạt động cận chức năng ban ngày bao gồm nghiến răng/siết chặt răng, cắn lưỡi/má, mút tay, tư thế bất thường, và các hoạt động liên quan đến nghề nghiệp. [cite: 2197, 2198, 2199, 2200]"
+    },
+    {
+      "question": "[S1] Theo đồng thuận quốc tế năm 2013, Bruxism (nghiến răng) được định nghĩa và đặc trưng bởi hoạt động nào?",
+      "options": [
+        { "text": "Hoạt động lặp lại của cơ hàm.", "isCorrect": false },
+        { "text": "Đặc trưng bởi cắn chặt răng hoặc nghiến răng và/hoặc đưa hàm hoặc giữ hàm ở một vị trí.", "isCorrect": false },
+        { "text": "Cả A và B.", "isCorrect": true },
+        { "text": "Chỉ xảy ra khi ngủ.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 33, Bruxism được định nghĩa là hoạt động lặp lại của cơ hàm, đặc trưng bởi cắn chặt răng hoặc nghiến răng và/hoặc đưa hàm hoặc giữ hàm ở một vị trí. [cite: 2202, 2204, 2205]"
+    },
+    {
+      "question": "[S1] Nghiến răng được chia thành hai nhóm theo đặc điểm liên quan tới sinh học là gì?",
+      "options": [
+        { "text": "Nghiến răng ban ngày và nghiến răng ban đêm.", "isCorrect": false },
+        { "text": "Nghiến răng khi ngủ và nghiến răng lúc tỉnh.", "isCorrect": true },
+        { "text": "Nghiến răng có đau và nghiến răng không đau.", "isCorrect": false },
+        { "text": "Nghiến răng do stress và nghiến răng do khớp cắn.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 33, nghiến răng được chia thành hai nhóm: nghiến răng KHI NGỦ và nghiến răng LÚC TỈNH. [cite: 2214, 2215]"
+    },
+    {
+      "question": "[S1] Yếu tố toàn thân nào có liên quan đến rối loạn thái dương hàm?",
+      "options": [
+        { "text": "Tuổi 15-30 tuổi.", "isCorrect": false },
+        { "text": "Yếu tố gen (Gen Catechol O-methyltransferase - COMT gene).", "isCorrect": false },
+        { "text": "Giới (nội tiết tố nữ).", "isCorrect": false },
+        { "text": "Tất cả các yếu tố trên.", "isCorrect": true }
+      ],
+      "explanation": "Theo slide 34, các yếu tố toàn thân liên quan bao gồm Tuổi (15-30 tuổi), Yếu tố gen (COMT gene), và Giới (nội tiết tố nữ). [cite: 2217, 2218, 2219, 2220]"
+    },
+    {
+      "question": "[S1] Hội chứng lỏng khớp (hyperlaxity) bao gồm các hội chứng nào có thể liên quan đến rối loạn thái dương hàm?",
+      "options": [
+        { "text": "Ehlers Danlos syndrome và Marfan syndrome.", "isCorrect": true },
+        { "text": "Chỉ Ehlers Danlos syndrome.", "isCorrect": false },
+        { "text": "Chỉ Marfan syndrome.", "isCorrect": false },
+        { "text": "Không có hội chứng nào liên quan.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 35, hội chứng lỏng khớp bao gồm Ehlers Danlos syndrome và Marfan syndrome. [cite: 2222]"
+    },
+    {
+      "question": "[S1] Rối loạn tâm lý có thể kích thích trục nào gây ra phản ứng co toàn bộ bắp cơ và tăng cơ lực?",
+      "options": [
+        { "text": "Trục Thần kinh - Cơ.", "isCorrect": false },
+        { "text": "Trục DĐ-TY-TT (Đồi thị - Tuyến yên - Tuyến thượng thận).", "isCorrect": true },
+        { "text": "Trục Cảm giác - Vận động.", "isCorrect": false },
+        { "text": "Trục Tủy sống - Não bộ.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 39, sang chấn tâm lý có thể kích thích trục DĐ-TY-TT và hệ thần kinh tự động, dẫn đến phản xạ co toàn bộ bắp cơ và tăng cơ lực. [cite: 2235, 2236]"
+    },
+    {
+      "question": "[S1] Các thành phần chính của cơ chế bệnh sinh rối loạn hệ thống nhai là gì?",
+      "options": [
+        { "text": "Răng, cơ và khớp thái dương hàm.", "isCorrect": true },
+        { "text": "Xương hàm, cơ mặt và thần kinh sinh ba.", "isCorrect": false },
+        { "text": "Khớp cắn, khớp thái dương hàm và yếu tố tâm lý.", "isCorrect": false },
+        { "text": "Chỉ khớp thái dương hàm và cơ nhai.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 42, cơ chế bệnh sinh rối loạn hệ thống nhai liên quan đến 3 thành phần: răng, cơ và khớp TDH. [cite: 2257]"
+    },
+    {
+      "question": "[S1] Co thắt cơ kéo dài và cơ nhai bị kéo giãn quá mức có thể dẫn đến điều gì trong rối loạn cơ nhai?",
+      "options": [
+        { "text": "Tăng cường lưu thông máu đến cơ.", "isCorrect": false },
+        { "text": "Chèn ép các mạch máu nuôi cơ, dẫn đến thiếu máu nuôi dưỡng và ứ đọng sản phẩm chuyển hóa, gây kích thích và đau.", "isCorrect": true },
+        { "text": "Chỉ gây mỏi cơ đơn thuần.", "isCorrect": false },
+        { "text": "Không có tác động đáng kể đến cơ.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 43, co thắt cơ kéo dài và cơ nhai bị kéo giãn quá mức có thể chèn ép các mạch máu, gây thiếu máu cục bộ và đau. [cite: 2272]"
+    },
+    {
+      "question": "[S1] Hoạt động cận chức năng như siết chặt răng có vai trò như thế nào trong đau cơ?",
+      "options": [
+        { "text": "Luôn gây ra đau mặt mạn tính.", "isCorrect": false },
+        { "text": "Tạo ra đau mặt miệng ở nhiều cá nhân và có mối quan hệ hai chiều với rối loạn thái dương hàm (RLTDH).", "isCorrect": true },
+        { "text": "Luôn giảm đau khi tiếp xúc nhai giảm.", "isCorrect": false },
+        { "text": "Không liên quan đến yếu tố di truyền hay tâm lý xã hội.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 44, siết chặt răng lặp đi lặp lại có thể tạo ra đau mặt miệng ở nhiều cá nhân và có mối quan hệ hai chiều với RLTDH. [cite: 2279, 2280]"
+    },
+    {
+      "question": "[S1] Các bằng chứng mới nhất cho thấy vai trò của vấn đề khớp cắn trong nguyên nhân đau cơ là gì?",
+      "options": [
+        { "text": "Là yếu tố quan trọng nhất gây đau cơ.", "isCorrect": false },
+        { "text": "Nguy cơ gây đau do vấn đề khớp cắn là rất thấp.", "isCorrect": true },
+        { "text": "Luôn là nguyên nhân chính gây ra đau cơ mạn tính.", "isCorrect": false },
+        { "text": "Những thay đổi khớp cắn không bao giờ là hậu quả của đau.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 46, các bằng chứng mới nhất cho thấy nguy cơ gây đau do vấn đề khớp cắn là rất thấp. [cite: 2328]"
+    },
+    {
+      "question": "[S1] Đau cơ mạc được đặc trưng bởi những dấu hiệu nào?",
+      "options": [
+        { "text": "Đau âm ỉ, có tính chuyển vị và có điểm kích đau tại nhiều vị trí (ít nhất ba vị trí).", "isCorrect": true },
+        { "text": "Đau nhói, khu trú và không có tính chuyển vị.", "isCorrect": false },
+        { "text": "Chỉ đau khi vận động mạnh.", "isCorrect": false },
+        { "text": "Không có điểm kích đau.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 47, đau cơ mạc có nhiều vị trí (ít nhất ba vị trí) với đặc điểm đau âm ỉ, có tính chuyển vị và có điểm kích đau. [cite: 2331]"
+    },
+    {
+      "question": "[S1] Điểm kích đau (Trigger point) là gì?",
+      "options": [
+        { "text": "Vị trí cơ căng cứng khu trú không nhạy cảm.", "isCorrect": false },
+        { "text": "Vị trí cơ căng cứng khu trú nhạy cảm, khi kích thích sẽ gây chuyển vị đau.", "isCorrect": true },
+        { "text": "Chỉ là vị trí đau khi ấn mạnh.", "isCorrect": false },
+        { "text": "Một vùng đau lan tỏa trên cơ.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 47, điểm kích đau là vị trí cơ căng cứng khu trú nhạy cảm, khi kích thích sẽ gây chuyển vị đau. [cite: 2332]"
+    },
+    {
+      "question": "[S1] Đau cơ khu trú (Localized muscle pain) có đặc điểm gì?",
+      "options": [
+        { "text": "Nguyên nhân và bệnh sinh đã được hiểu rõ.", "isCorrect": false },
+        { "text": "Đau xảy ra do co cơ lệch tâm (vận động nhai nghiền) hơn là co cơ đồng tâm (co cơ tại lồng múi tối đa).", "isCorrect": true },
+        { "text": "Đau là do ứ đọng axit lactic.", "isCorrect": false },
+        { "text": "Chỉ tồn tại trong thời gian dài.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 49, đau cơ khu trú xảy ra do co cơ lệch tâm và không phải do ứ đọng axit lactic. [cite: 2345, 2346]"
+    },
+    {
+      "question": "[S1] Nẹp cơ bảo vệ (Protective co-contraction) là gì và khi nào nó giảm?",
+      "options": [
+        { "text": "Phản xạ co cơ nhằm bảo vệ hệ thống nhai khỏi bị tổn thương thêm do vận động.", "isCorrect": false },
+        { "text": "Có thể xảy ra khi đau khớp hay viêm quanh lợi trùm răng khôn.", "isCorrect": false },
+        { "text": "Khi loại bỏ nguồn đau, nẹp cơ sẽ giảm.", "isCorrect": false },
+        { "text": "Tất cả các câu trên.", "isCorrect": true }
+      ],
+      "explanation": "Theo slide 50, nẹp cơ bảo vệ là phản xạ co cơ để bảo vệ hệ thống nhai, xảy ra khi có đau và giảm khi loại bỏ nguồn đau. [cite: 2353, 2355]"
+    },
+    {
+      "question": "[S1] Viêm cơ (Myositis) gây ra các triệu chứng nào?",
+      "options": [
+        { "text": "Chỉ đau cơ.", "isCorrect": false },
+        { "text": "Đau cơ, vận động hàm giới hạn và có thể sưng nề.", "isCorrect": true },
+        { "text": "Chỉ sưng nề.", "isCorrect": false },
+        { "text": "Không ảnh hưởng đến vận động hàm.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 51, viêm cơ gây ra đau cơ, vận động hàm giới hạn và có thể sưng nề. [cite: 2359]"
+    },
+    {
+      "question": "[S1] Co thắt cơ (Muscle spasm) là tình trạng như thế nào?",
+      "options": [
+        { "text": "Co cơ có chủ ý và không gây đau.", "isCorrect": false },
+        { "text": "Co cơ không chủ ý và thường gây đau cơ dữ dội, có thể do thiếu máu cục bộ.", "isCorrect": true },
+        { "text": "Luôn có thể phát hiện được cơ co thắt khi sờ.", "isCorrect": false },
+        { "text": "Không liên quan đến há miệng hạn chế.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 52, co thắt cơ là tình trạng co cơ không chủ ý và thường gây đau cơ dữ dội, có thể do thiếu máu cục bộ. [cite: 2363]"
+    },
+    {
+      "question": "[S1] Viêm động mạch tế bào khổng lồ (Giant cell arteritis) là nguyên nhân gây đau cơ do nguyên nhân khác, đặc trưng bởi gì?",
+      "options": [
+        { "text": "Thường gặp ở người dưới 50 tuổi.", "isCorrect": false },
+        { "text": "Cơn đau đầu vùng thái dương, nhạy cảm da đầu và đau khi nhai.", "isCorrect": true },
+        { "text": "Bệnh nhân không kèm triệu chứng toàn thân.", "isCorrect": false },
+        { "text": "Mất thị lực không phải là dấu hiệu nghiêm trọng.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 53, viêm động mạch tế bào khổng lồ thường gặp ở người trên 50 tuổi, có cơn đau đầu vùng thái dương, nhạy cảm da đầu và đau khi nhai, kèm triệu chứng toàn thân. Mất thị lực là dấu hiệu nghiêm trọng nếu không điều trị kịp thời. [cite: 2369, 2370, 2371, 2372, 2373]"
+    },
+    {
+      "question": "[S1] Nhồi máu cơ tim có thể gây đau chuyển vị đến vùng hàm mặt với đặc điểm nào?",
+      "options": [
+        { "text": "Kéo dài từ vài giây đến một phút.", "isCorrect": false },
+        { "text": "Kéo dài từ vài phút đến hai giờ, trầm trọng hơn do gắng sức và giảm bớt khi nghỉ ngơi.", "isCorrect": true },
+        { "text": "Không liên quan đến gắng sức.", "isCorrect": false },
+        { "text": "Chỉ gây đau nhói.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 54, nhồi máu cơ tim có thể gây đau chuyển vị đến vùng hàm mặt, đặc trưng bởi kéo dài từ vài phút đến hai giờ, trầm trọng hơn do gắng sức và giảm bớt khi nghỉ ngơi. [cite: 2375]"
+    },
+    {
+      "question": "[S1] Các nguyên nhân hiếm gặp khác gây đau cơ bao gồm những gì?",
+      "options": [
+        { "text": "Do thuốc (ức chế men chuyển angiotensin, statin, cocaine).", "isCorrect": false },
+        { "text": "Mất cân bằng điện giải (giảm canxi máu).", "isCorrect": false },
+        { "text": "Bệnh lý tuyến giáp, ung thư (ung thư vòm họng) và nhiễm trùng (bệnh Lyme).", "isCorrect": false },
+        { "text": "Tất cả các câu trên.", "isCorrect": true }
+      ],
+      "explanation": "Theo slide 54, các nguyên nhân hiếm gặp khác gây đau cơ bao gồm các yếu tố đã nêu. [cite: 2377]"
+    },
+    {
+      "question": "[S1] Rối loạn khớp thái dương hàm có thể do những nguyên nhân nào?",
+      "options": [
+        { "text": "Bất thường cấu trúc và hình thái khớp.", "isCorrect": false },
+        { "text": "Tổn thương khớp do phản ứng miễn dịch.", "isCorrect": false },
+        { "text": "Rối loạn nội tiết tố.", "isCorrect": false },
+        { "text": "Tất cả các câu trên.", "isCorrect": true }
+      ],
+      "explanation": "Theo slide 55, rối loạn khớp thái dương hàm có thể do bất thường cấu trúc, tổn thương do phản ứng miễn dịch, rối loạn nội tiết tố, chấn thương trực tiếp/gián tiếp, và vi chấn thương. [cite: 2379, 2380, 2381, 2382, 2383]"
+    },
+    {
+      "question": "[S1] Những bất thường cấu trúc và hình thái khớp có thể dẫn đến rối loạn khớp thái dương hàm là gì?",
+      "options": [
+        { "text": "Lồi cầu nhỏ, lồi cầu hai thùy (bifid condyle).", "isCorrect": false },
+        { "text": "Trục dọc lồi cầu hướng ra sau, hõm khớp sâu.", "isCorrect": false },
+        { "text": "Lỏng khớp.", "isCorrect": false },
+        { "text": "Tất cả các câu trên.", "isCorrect": true }
+      ],
+      "explanation": "Theo slide 56, các bất thường cấu trúc bao gồm lồi cầu nhỏ, lồi cầu hai thùy, trục dọc lồi cầu hướng ra sau, hõm khớp sâu, và lỏng khớp. [cite: 2385, 2386, 2387, 2388, 2389]"
+    },
+    {
+      "question": "[S1] Tổn thương khớp do phản ứng miễn dịch có thể bao gồm các loại viêm khớp nào?",
+      "options": [
+        { "text": "Viêm khớp phản ứng do vi khuẩn (Chlamydia tracomatis, Mycoplasma genitalium, Nesseria gonorrhoeae).", "isCorrect": false },
+        { "text": "Viêm khớp phản ứng do phản ứng miễn dịch (Viêm đa khớp, Viêm khớp thấp, Viêm khớp vẩy nến).", "isCorrect": false },
+        { "text": "Cả A và B.", "isCorrect": true },
+        { "text": "Chỉ viêm khớp do chấn thương.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 61, tổn thương khớp do phản ứng miễn dịch bao gồm viêm khớp phản ứng do vi khuẩn và viêm khớp phản ứng do phản ứng miễn dịch như viêm khớp thấp, viêm khớp vẩy nến. [cite: 2401, 2402, 2403, 2404, 2405, 2406, 2407, 2408]"
+    },
+    {
+      "question": "[S1] Rối loạn nội tiết tố, đặc biệt Estrogen, ảnh hưởng đến rối loạn khớp thái dương hàm như thế nào?",
+      "options": [
+        { "text": "Tăng tình trạng dãn dây chằng khớp và rối loạn chuyển hóa mô sụn sợi, giảm ngưỡng đau, thiếu thụ thể estrogen.", "isCorrect": true },
+        { "text": "Tăng ngưỡng đau.", "isCorrect": false },
+        { "text": "Giảm mật độ khoáng xương ở vùng xương dưới sụn.", "isCorrect": false },
+        { "text": "Tăng khả năng hấp thụ lực trong quá trình nhai.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 62, Estrogen ảnh hưởng đến dãn dây chằng khớp, chuyển hóa mô sụn sợi, và giảm ngưỡng đau. [cite: 2410]"
+    },
+    {
+      "question": "[S1] Tình trạng loãng xương ở phụ nữ mãn kinh có thể ảnh hưởng đến khớp thái dương hàm như thế nào?",
+      "options": [
+        { "text": "Giảm mật độ khoáng xương ở vùng xương dưới sụn.", "isCorrect": false },
+        { "text": "Tăng mật độ khoáng xương ở vùng xương dưới sụn, giảm khả năng hấp thụ lực trong quá trình nhai.", "isCorrect": true },
+        { "text": "Tăng ngưỡng đau.", "isCorrect": false },
+        { "text": "Không liên quan đến khớp thái dương hàm.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 62, loãng xương ở phụ nữ mãn kinh có thể tăng mật độ khoáng xương vùng xương dưới sụn, giảm khả năng hấp thụ lực nhai. [cite: 2411]"
+    },
+    {
+      "question": "[S1] Vi chấn thương khớp do bất thường hoạt động cơ nhai bao gồm những yếu tố nào?",
+      "options": [
+        { "text": "Mất khớp cắn chức năng.", "isCorrect": false },
+        { "text": "Lệch lạc khớp cắn hạng II, stress hay rối loạn tư thế đầu.", "isCorrect": false },
+        { "text": "Tình trạng tăng trương lực cơ quá mức kéo dài.", "isCorrect": false },
+        { "text": "Tất cả các yếu tố trên.", "isCorrect": true }
+      ],
+      "explanation": "Theo slide 64, vi chấn thương khớp do bất thường hoạt động cơ nhai liên quan đến mất khớp cắn chức năng, lệch lạc khớp cắn hạng II, stress, rối loạn tư thế đầu và tăng trương lực cơ kéo dài. [cite: 2419, 2420, 2421]"
+    },
+    {
+      "question": "[S1] Sợi collagen loại nào chịu ma sát cao và hấp thụ lực nén ép kém trong cấu trúc sụn khớp?",
+      "options": [
+        { "text": "Sợi collagen type II.", "isCorrect": false },
+        { "text": "Sợi collagen type I.", "isCorrect": true },
+        { "text": "Sợi collagen type III.", "isCorrect": false },
+        { "text": "Sợi collagen type IV.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 65, sợi collagen type I chịu ma sát cao và hấp thụ lực nén ép kém. [cite: 2425]"
+    },
+    {
+      "question": "[S1] Chất cơ bản trong sụn khớp, bao gồm nước và proteoglycan, có nhiệm vụ gì?",
+      "options": [
+        { "text": "Cung cấp dinh dưỡng cho sụn.", "isCorrect": false },
+        { "text": "Hấp thụ lực tác dụng lên sụn khớp.", "isCorrect": true },
+        { "text": "Tăng độ cứng cho sụn.", "isCorrect": false },
+        { "text": "Tạo ra các enzyme tiêu protein.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 65, chất cơ bản (nước và proteoglycan) có nhiệm vụ hấp thụ lực tác dụng lên sụn khớp. [cite: 2426]"
+    },
+    {
+      "question": "[S1] Theo Quinn J., sự tiêu sụn khớp trải qua bao nhiêu giai đoạn?",
+      "options": [
+        { "text": "2 giai đoạn.", "isCorrect": false },
+        { "text": "3 giai đoạn.", "isCorrect": false },
+        { "text": "4 giai đoạn.", "isCorrect": true },
+        { "text": "5 giai đoạn.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 67 và 68, sự tiêu sụn khớp trải qua 4 giai đoạn theo Quinn J. [cite: 2437, 2444]"
+    },
+    {
+      "question": "[S1] Giai đoạn I của sự tiêu sụn khớp theo Quinn J. được mô tả như thế nào?",
+      "options": [
+        { "text": "Collagenase làm thoái hoá Proteoglycan, gây ra mềm sụn khớp.", "isCorrect": true },
+        { "text": "Tiêu Proteoglycan làm mất khả năng hấp thụ lực nén và ma sát.", "isCorrect": false },
+        { "text": "Mất bám dính rộng của sợi collagen lớp sâu.", "isCorrect": false },
+        { "text": "Tiếp tục phá huỷ lớp sâu và làm lộ đầu xương.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 68, Giai đoạn I là khi Collagenase làm thoái hoá Proteoglycan, gây mềm sụn khớp. [cite: 2445]"
+    },
+    {
+      "question": "[S1] Mối liên quan giữa Rối loạn phức hợp đĩa – lồi cầu và Rối loạn cơ nhai có thể dẫn đến gì?",
+      "options": [
+        { "text": "Rối loạn viêm khớp.", "isCorrect": false },
+        { "text": "Chấn thương.", "isCorrect": false },
+        { "text": "Rối loạn hạn chế vận động hàm dưới.", "isCorrect": false },
+        { "text": "Tất cả các câu trên đều có thể liên quan hoặc ảnh hưởng qua lại.", "isCorrect": true }
+      ],
+      "explanation": "Theo slide 69, sơ đồ 'Mối liên quan giữa các dạng khác nhau của rối loạn thái dương hàm' cho thấy các dạng rối loạn này có thể liên quan và ảnh hưởng qua lại lẫn nhau."
+    },
+    {
+      "question": "[S1] Trong mô hình tương quan các dạng rối loạn cơ, 'Yếu tố tác động' có thể dẫn đến các tình trạng nào?",
+      "options": [
+        { "text": "Chỉ Chức năng bình thường.", "isCorrect": false },
+        { "text": "Nẹp cơ bảo vệ và Đau cơ khu trú.", "isCorrect": true },
+        { "text": "Chỉ Đau cơ toàn thể.", "isCorrect": false },
+        { "text": "Chỉ Hiệu ứng thần kinh trung ương.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 70, 'Yếu tố tác động' có thể dẫn đến 'Nẹp cơ bảo vệ' và 'Đau cơ khu trú'. [cite: 2460, 2464, 2465]"
+    },
+    {
+        "question": "[S2] Trong khám lâm sàng rối loạn hệ thống nhai, hỏi bệnh là quá trình thu thập thông tin về những gì?",
+        "options": [
+            { "text": "Thông tin cá nhân bệnh nhân.", "isCorrect": false },
+            { "text": "Than phiền chính và bệnh sử về tình trạng bệnh hiện tại (đau, thói quen cận chức năng, dấu hiệu/triệu chứng loạn năng, điều trị trước đây, stress cảm xúc).", "isCorrect": false },
+            { "text": "Tiền sử bệnh về sức khỏe toàn thân và răng hàm mặt.", "isCorrect": false },
+            { "text": "Tất cả các câu trên.", "isCorrect": true }
+        ],
+        "explanation": "Theo slide 3, hỏi bệnh bao gồm việc thu thập thông tin về cá nhân bệnh nhân, than phiền chính, bệnh sử hiện tại và tiền sử bệnh."
+    },
+    {
+        "question": "[S2] Khám lâm sàng rối loạn hệ thống nhai bao gồm các nội dung chính nào?",
+        "options": [
+            { "text": "Khám khớp thái dương hàm và đánh giá vận động hàm dưới.", "isCorrect": false },
+            { "text": "Khám cơ nhai.", "isCorrect": false },
+            { "text": "Đánh giá chung về răng miệng.", "isCorrect": false },
+            { "text": "Tất cả các câu trên.", "isCorrect": true }
+        ],
+        "explanation": "Theo slide 4, khám lâm sàng bao gồm khám khớp thái dương hàm, khám cơ nhai, đánh giá răng miệng, và khám khớp cắn."
+    },
+    {
+        "question": "[S2] Các tiêu chuẩn chẩn đoán rối loạn thái dương hàm được đề cập trong bài bao gồm những tiêu chuẩn nào?",
+        "options": [
+            { "text": "Tiêu chuẩn RDC/TMD theo Dworkin SF và Le Resche năm 1992.", "isCorrect": false },
+            { "text": "Tiêu chuẩn của McNeil 1997.", "isCorrect": false },
+            { "text": "Tiêu chuẩn chẩn đoán của Truelove, 1992.", "isCorrect": false },
+            { "text": "Tất cả các câu trên.", "isCorrect": true }
+        ],
+        "explanation": "Theo slide 5, các tiêu chuẩn chẩn đoán được đề cập là RDC/TMD, McNeil 1997, Truelove 1992 và Schiffman 2014 (DC/TMD)."
+    },
+    {
+        "question": "[S2] Quá trình dẫn truyền và cảm nhận đau bao gồm các giai đoạn nào?",
+        "options": [
+            { "text": "Transduction (chuyển đổi).", "isCorrect": false },
+            { "text": "Transmission (truyền dẫn).", "isCorrect": false },
+            { "text": "Perception (cảm nhận) và Modulation (điều biến).", "isCorrect": false },
+            { "text": "Tất cả các câu trên.", "isCorrect": true }
+        ],
+        "explanation": "Theo slide 6, quá trình sinh lý của cảm nhận đau bao gồm Transduction, Transmission, Modulation và Perception."
+    },
+    {
+        "question": "[S2] Trong cơ chế dẫn truyền đau, 'Transduction' xảy ra ở đâu?",
+        "options": [
+            { "text": "Trong não bộ.", "isCorrect": false },
+            { "text": "Tại các mô ngoại vi với sự kích hoạt của các thụ thể cảm giác.", "isCorrect": true },
+            { "text": "Tại tủy sống.", "isCorrect": false },
+            { "text": "Trong thân não.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 7, Transduction xảy ra ở các mô ngoại vi với sự kích hoạt của các thụ thể cảm giác."
+    },
+    {
+        "question": "[S2] Tiêu chuẩn chẩn đoán DC/TMD (Diagnostic Criteria for Temporomandibular Disorders) dựa vào công cụ gì?",
+        "options": [
+            { "text": "Chỉ dựa vào phim X-quang.", "isCorrect": false },
+            { "text": "Chẩn đoán dựa vào bảng câu hỏi triệu chứng (Symptom Questionnaire) và mẫu khám lâm sàng (DC/TMD Examination Form).", "isCorrect": true },
+            { "text": "Chỉ dựa vào xét nghiệm máu.", "isCorrect": false },
+            { "text": "Chỉ dựa vào sự quan sát của bác sĩ.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 9 và 10, DC/TMD dựa vào Symptom Questionnaire và DC/TMD Examination Form."
+    },
+    {
+        "question": "[S2] Trong bảng câu hỏi triệu chứng của DC/TMD, than phiền về đau được hỏi trong khoảng thời gian nào?",
+        "options": [
+            { "text": "Trong 7 ngày qua.", "isCorrect": false },
+            { "text": "Trong 30 ngày qua.", "isCorrect": true },
+            { "text": "Trong 6 tháng qua.", "isCorrect": false },
+            { "text": "Trong 1 năm qua.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 10, bảng câu hỏi triệu chứng hỏi về đau và tiếng kêu khớp trong 30 ngày qua."
+    },
+    {
+        "question": "[S2] Khi chẩn đoán đau liên quan đến TMD và đau đầu theo cây quyết định DC/TMD, bước đầu tiên là gì?",
+        "options": [
+            { "text": "Khám palpation cơ nhai (muscle palpation).", "isCorrect": false },
+            { "text": "Đánh giá đau vùng (Regional pain) và đau thay đổi do vận động hàm, chức năng hoặc cận chức năng (Pain modified by jaw movement, function, or parafunction).", "isCorrect": true },
+            { "text": "Xác nhận vị trí đau bởi người khám (Examiner confirmation of pain location).", "isCorrect": false },
+            { "text": "Đánh giá đau đầu kiểu thái dương.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 12 (Diagnostic Decision Tree), bước đầu tiên là đánh giá Regional pain [SQ3] AND Pain modified by jaw movement, function, or parafunction [SQ4]."
+    },
+    {
+        "question": "[S2] Triệu chứng rối loạn chức năng cơ phổ biến nhất là gì trong rối loạn hệ thống nhai?",
+        "options": [
+            { "text": "Đau răng.", "isCorrect": false },
+            { "text": "Há miệng hạn chế.", "isCorrect": true },
+            { "text": "Tiếng kêu khớp.", "isCorrect": false },
+            { "text": "Sưng nề vùng mặt.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 23, 'há miệng hạn chế' là một triệu chứng lâm sàng phổ biến của rối loạn chức năng cơ."
+    },
+    {
+        "question": "[S2] Đau cơ trong rối loạn hệ thống nhai thường hiện diện ở vị trí nào của cơ?",
+        "options": [
+            { "text": "Bụng cơ.", "isCorrect": false },
+            { "text": "Vị trí bám cơ (nguyên ủy và bám tận).", "isCorrect": true },
+            { "text": "Điểm giữa cơ.", "isCorrect": false },
+            { "text": "Toàn bộ cơ.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 18, đau cơ thường hiện diện ở vị trí bám cơ hơn là bụng cơ."
+    },
+    {
+        "question": "[S2] Trong các cơ nhai, đau cơ nào xảy ra thường xuyên nhất?",
+        "options": [
+            { "text": "Cơ chân bướm ngoài.", "isCorrect": false },
+            { "text": "Cơ thái dương.", "isCorrect": false },
+            { "text": "Cơ cắn.", "isCorrect": true },
+            { "text": "Cơ chân bướm trong.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 18, trong các cơ nhai, đau cơ cắn xảy ra thường xuyên nhất."
+    },
+    {
+        "question": "[S2] Khi vị trí đau (site of pain) không phải là nguồn đau (source of pain), đó có thể là dạng đau gì?",
+        "options": [
+            { "text": "Đau khu trú.", "isCorrect": false },
+            { "text": "Đau chuyển vị hay đau lan.", "isCorrect": true },
+            { "text": "Đau phản xạ.", "isCorrect": false },
+            { "text": "Đau tâm lý.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 19, trường hợp vị trí đau và nguồn đau khác nhau có thể là đau chuyển vị hay đau lan."
+    },
+    {
+        "question": "[S2] Mô hình đau cơ nhai (mô hình tương quan các dạng rối loạn cơ) phân biệt các dạng đau cơ nào?",
+        "options": [
+            { "text": "Cứng cơ (nẹp cơ).", "isCorrect": false },
+            { "text": "Đau cơ khu trú, đau cơ mạc, đau co thắt cơ.", "isCorrect": false },
+            { "text": "Đau cơ mạn tính do nguyên nhân thần kinh (đau cơ sợi).", "isCorrect": false },
+            { "text": "Tất cả các dạng trên.", "isCorrect": true }
+        ],
+        "explanation": "Theo slide 22, rối loạn đau cơ nhai có năm dạng khác nhau: cứng cơ (nẹp cơ), đau cơ khu trú, đau cơ mạc, đau co thắt cơ và đau cơ mạn tính do nguyên nhân thần kinh."
+    },
+    {
+        "question": "[S2] Đau được gọi là mạn tính khi đã hiện diện trong ít nhất bao lâu?",
+        "options": [
+            { "text": "1 tháng.", "isCorrect": false },
+            { "text": "3 tháng.", "isCorrect": false },
+            { "text": "6 tháng.", "isCorrect": true },
+            { "text": "1 năm.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 27, theo nguyên tắc chung, đau được gọi là mạn tính khi đã hiện diện trong ít nhất 6 tháng."
+    },
+    {
+        "question": "[S2] Yếu tố quan trọng nhất cần xem xét trong việc xác định tình trạng đau mạn tính là gì?",
+        "options": [
+            { "text": "Thời gian đau.", "isCorrect": false },
+            { "text": "Mức độ đau.", "isCorrect": false },
+            { "text": "Sự liên tục của cơn đau.", "isCorrect": true },
+            { "text": "Nguyên nhân gây đau.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 27, thời gian đau chưa phải là yếu tố quan trọng nhất trong việc xác định tình trạng mạn tính, yếu tố quan trọng là sự liên tục của cơn đau."
+    },
+    {
+        "question": "[S2] Các yếu tố tại chỗ nào có thể góp phần làm rối loạn đau cơ chuyển sang mạn tính?",
+        "options": [
+            { "text": "Nguyên nhân kéo dài (không loại bỏ được nguyên nhân gây rối loạn đau cơ cấp tính).", "isCorrect": false },
+            { "text": "Nguyên nhân tái phát (các đợt đau tái phát do cùng một nguyên nhân, ví dụ nghiến răng).", "isCorrect": false },
+            { "text": "Điều trị sai (điều trị không đúng cách sẽ không giải quyết được các triệu chứng).", "isCorrect": false },
+            { "text": "Tất cả các yếu tố trên.", "isCorrect": true }
+        ],
+        "explanation": "Theo slide 28, các yếu tố tại chỗ gây đau mạn tính bao gồm nguyên nhân kéo dài, nguyên nhân tái phát và điều trị sai."
+    },
+    {
+        "question": "[S2] Suy giảm chức năng hệ thống ức chế xuống (descending inhibitory system) ảnh hưởng đến đau mạn tính như thế nào?",
+        "options": [
+            { "text": "Giảm xung gây hại đến vỏ não.", "isCorrect": false },
+            { "text": "Làm tăng các xung gây hại đến vỏ não dẫn đến cảm nhận đau lớn hơn.", "isCorrect": true },
+            { "text": "Không liên quan đến cảm nhận đau.", "isCorrect": false },
+            { "text": "Chỉ ảnh hưởng đến phản ứng cơ.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 29, nếu hệ thống ức chế xuống trở nên kém hiệu quả, các xung gây hại đến vỏ não gia tăng dẫn đến cảm nhận đau lớn hơn."
+    },
+    {
+        "question": "[S2] Rối loạn giấc ngủ và đau mạn tính có mối quan hệ như thế nào?",
+        "options": [
+            { "text": "Không có mối quan hệ.", "isCorrect": false },
+            { "text": "Có mối quan hệ nhân quả (nguyên nhân – hệ quả), cần được nhận diện và giải quyết trong khi điều trị.", "isCorrect": true },
+            { "text": "Rối loạn giấc ngủ luôn là nguyên nhân của đau mạn tính.", "isCorrect": false },
+            { "text": "Đau mạn tính luôn là nguyên nhân của rối loạn giấc ngủ.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 30, mối quan hệ giữa rối loạn giấc ngủ và đau mạn tính là nhân quả (nguyên nhân – hệ quả), cần được nhận diện và giải quyết."
+    },
+    {
+        "question": "[S2] Hành vi bệnh lý (illness behavior) là gì trong bối cảnh đau mạn tính?",
+        "options": [
+            { "text": "Đau kéo dài có thể phát triển một hành vi 'bệnh lý' góp phần kéo dài rối loạn đau.", "isCorrect": true },
+            { "text": "Luôn là nguyên nhân chính gây đau.", "isCorrect": false },
+            { "text": "Chỉ xảy ra ở bệnh nhân không điều trị.", "isCorrect": false },
+            { "text": "Không ảnh hưởng đến quá trình phục hồi.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 30, đau kéo dài có thể phát triển một hành vi 'bệnh lý' góp phần kéo dài rối loạn đau."
+    },
+    {
+        "question": "[S2] Trầm cảm có mối liên hệ như thế nào với bệnh nhân đau mạn tính?",
+        "options": [
+            { "text": "Không có mối liên hệ.", "isCorrect": false },
+            { "text": "Là một vấn đề phổ biến và cần được giải quyết nhằm điều trị toàn diện bệnh nhân đau mạn tính.", "isCorrect": true },
+            { "text": "Chỉ xuất hiện ở giai đoạn cuối của bệnh.", "isCorrect": false },
+            { "text": "Loại bỏ vấn đề đau đơn thuần sẽ loại bỏ được vấn đề trầm cảm.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 30, trầm cảm là một vấn đề phổ biến ở bệnh nhân đau mạn tính và cần được giải quyết để điều trị toàn diện."
+    },
+    {
+        "question": "[S2] Các triệu chứng rối loạn chức năng khớp bao gồm những gì?",
+        "options": [
+            { "text": "Đau khớp.", "isCorrect": false },
+            { "text": "Tiếng kêu khớp thái dương hàm.", "isCorrect": false },
+            { "text": "Rối loạn vận động (há miệng hạn chế, há miệng zic-zac, há miệng lệch, ngậm miệng kẹt).", "isCorrect": false },
+            { "text": "Tất cả các câu trên.", "isCorrect": true }
+        ],
+        "explanation": "Theo slide 31, các triệu chứng rối loạn chức năng khớp bao gồm đau khớp, tiếng kêu khớp và rối loạn vận động."
+    },
+    {
+        "question": "[S2] Khi đánh giá đau khớp, cần chú ý đến tính chất của đau theo mô hình nào?",
+        "options": [
+            { "text": "ABC.", "isCorrect": false },
+            { "text": "SOAP.", "isCorrect": false },
+            { "text": "SOCRATES.", "isCorrect": true },
+            { "text": "PQRST.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 32, khi đánh giá đau khớp, cần chú ý đến tính chất của đau theo SOCRATES."
+    },
+    {
+        "question": "[S2] Tiếng kêu khớp thái dương hàm 'Click' thường xuất hiện ở giai đoạn nào của vận động hàm?",
+        "options": [
+            { "text": "Chỉ khi há miệng.", "isCorrect": false },
+            { "text": "Khi há miệng và/hoặc khi ngậm miệng.", "isCorrect": true },
+            { "text": "Chỉ khi vận động hàm sang bên.", "isCorrect": false },
+            { "text": "Chỉ khi nhai thức ăn cứng.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 33 (hình ảnh 'Click' ở cả 2 vị trí há và ngậm), tiếng kêu click có thể xuất hiện khi há và/hoặc ngậm miệng."
+    },
+    {
+        "question": "[S3] Mục tiêu của điều trị ban đầu đối với bệnh nhân loạn năng hệ thống nhai là gì?",
+        "options": [
+          { "text": "Giảm đau nhanh và có hiệu quả lâu dài.", "isCorrect": false },
+          { "text": "Theo hướng điều trị bảo tồn, không xâm lấn và tránh các can thiệp không hoàn nguyên.", "isCorrect": false },
+          { "text": "Ít gây phiền toái, xáo trộn cách sống của bệnh nhân, và điều trị trong phạm vi thực hành nha khoa.", "isCorrect": false },
+          { "text": "Tất cả các câu trên.", "isCorrect": true }
+        ],
+        "explanation": "Theo slide 4, điều trị ban đầu cần đáp ứng tất cả các tiêu chí trên."
+      },
+      {
+        "question": "[S3] Các phương thức điều trị ban đầu cần được xét đến trong điều trị loạn năng hệ thống nhai bao gồm những gì?",
+        "options": [
+          { "text": "Thuốc và chế độ ăn.", "isCorrect": false },
+          { "text": "Vật lý trị liệu (chườm nóng, siêu âm...).", "isCorrect": false },
+          { "text": "Thay đổi hành vi/thói quen răng miệng (Behavioral modification).", "isCorrect": false },
+          { "text": "Tất cả các câu trên.", "isCorrect": true }
+        ],
+        "explanation": "Theo slide 5 và 9, các phương thức điều trị ban đầu bao gồm thuốc và chế độ ăn, vật lý trị liệu, thay đổi hành vi/thói quen răng miệng, phản hồi sinh học, thôi miên và thiền, và kết hợp đông y."
+      },
+      {
+        "question": "[S3] Trong điều trị ban đầu rối loạn cắn khớp, khi không thể phát hiện yếu tố nguyên nhân, phương thức điều trị nào là cần thiết?",
+        "options": [
+          { "text": "Phẫu thuật ngay lập tức.", "isCorrect": false },
+          { "text": "Một trong những phương thức điều trị triệu chứng có hoàn nguyên.", "isCorrect": true },
+          { "text": "Chỉ dùng thuốc giảm đau mạnh.", "isCorrect": false },
+          { "text": "Để bệnh nhân tự khỏi.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 6, khi không thể phát hiện yếu tố nguyên nhân, một trong những phương thức điều trị triệu chứng có hoàn nguyên là cần thiết."
+      },
+      {
+        "question": "[S3] Thuốc kháng viêm không steroid (NSAIDs) được sử dụng như thế nào trong điều trị ban đầu?",
+        "options": [
+          { "text": "Là thuốc được sử dụng thường xuyên nhất, có thể dùng trong 2 tuần, 2-4 lần/ngày.", "isCorrect": true },
+          { "text": "Có thể dùng kéo dài mà không cần kiểm tra phản ứng dạ dày và máu.", "isCorrect": false },
+          { "text": "Chỉ dùng Aspirin cho đau nặng.", "isCorrect": false },
+          { "text": "Nên kết hợp với thuốc ngủ để tăng hiệu quả.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 10, NSAIDs là thuốc thường dùng nhất, có thể dùng trong 2 tuần, 2-4 lần/ngày, cần kiểm tra phản ứng dạ dày và máu, tránh dùng kéo dài."
+      },
+      {
+        "question": "[S3] Tại sao không nên cho bệnh nhân dùng thuốc an thần như Valium trong điều trị rối loạn đau?",
+        "options": [
+          { "text": "Vì thuốc không có hiệu quả tốt đối với rối loạn đau và bệnh nhân có thể ỷ lại thuốc.", "isCorrect": true },
+          { "text": "Vì thuốc gây buồn ngủ.", "isCorrect": false },
+          { "text": "Vì thuốc gây nghiện.", "isCorrect": false },
+          { "text": "Vì thuốc làm tăng đau.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 10, Valium không hiệu quả tốt đối với rối loạn đau và có thể khiến bệnh nhân ỷ lại."
+      },
+      {
+        "question": "[S3] Thuốc tê tại chỗ được tiêm vào các vùng đau hay điểm cò để làm gì?",
+        "options": [
+          { "text": "Giảm đau trong thời gian ngắn và cho phép há miệng để khám hay lấy dấu.", "isCorrect": false },
+          { "text": "Hỗ trợ chẩn đoán tốt.", "isCorrect": false },
+          { "text": "Cả A và B.", "isCorrect": true },
+          { "text": "Điều trị vĩnh viễn cơn đau.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 11, thuốc tê tại chỗ giúp giảm đau ngắn hạn, hỗ trợ khám và chẩn đoán."
+      },
+      {
+        "question": "[S3] Việc kết hợp điều trị bằng thuốc với các biện pháp vật lý nhằm mục đích gì?",
+        "options": [
+          { "text": "Tạo ra hiệu quả giả thuốc càng nhiều càng tốt đối với bệnh nhân.", "isCorrect": true },
+          { "text": "Chỉ để giảm đau.", "isCorrect": false },
+          { "text": "Chỉ để chữa khỏi bệnh.", "isCorrect": false },
+          { "text": "Để bệnh nhân ỷ lại vào thuốc.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 11, người ta khuyên nên kết hợp thuốc với các biện pháp điều trị vật lý, và tạo ra hiệu quả giả thuốc càng nhiều càng tốt đối với bệnh nhân."
+      },
+      {
+        "question": "[S3] Trong vật lý trị liệu, hơi nóng ẩm (Sử dụng khăn ướt, xông hơi nóng tại chỗ) và siêu âm được khuyên dùng vì có hiệu quả như thế nào?",
+        "options": [
+          { "text": "Làm giảm đau lập tức đối với đau trầm trọng nhưng hiệu quả thường ngắn.", "isCorrect": false },
+          { "text": "Có hiệu quả thâm nhập sâu tốt hơn hơi nóng khô.", "isCorrect": true },
+          { "text": "Chỉ có tác dụng với viêm khớp thấp.", "isCorrect": false },
+          { "text": "Không có hiệu quả lâu dài.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 14, hơi nóng ẩm và siêu âm có hiệu quả thâm nhập sâu tốt hơn hơi nóng khô."
+      },
+      {
+        "question": "[S3] Bài tập cơ để điều trị rối loạn thái dương hàm được áp dụng như thế nào?",
+        "options": [
+          { "text": "Áp dụng các bài tập để tìm lại sự hiệp đồng chức năng của các cơ.", "isCorrect": false },
+          { "text": "Áp dụng các bài tập đẳng trường để tăng sức mạnh cơ.", "isCorrect": false },
+          { "text": "Là chống chỉ định nếu bệnh nhân đang có rối loạn ngay tại khớp, như viêm khớp.", "isCorrect": false },
+          { "text": "Tất cả các câu trên.", "isCorrect": true }
+        ],
+        "explanation": "Theo slide 15, các bài tập cơ có thể áp dụng để tìm lại hiệp đồng chức năng, tăng sức mạnh cơ, nhưng chống chỉ định nếu có viêm khớp."
+      },
+      {
+        "question": "[S3] Trong các bài tập thư giãn cơ, 'sự thư giãn phản xạ' dựa vào hiện tượng nào?",
+        "options": [
+          { "text": "Ức chế và kích thích hỗ tương.", "isCorrect": true },
+          { "text": "Co cơ chủ động.", "isCorrect": false },
+          { "text": "Tăng cường hoạt động cơ.", "isCorrect": false },
+          { "text": "Kích thích điện.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 15, quan niệm phổ biến nhất trong các bài tập thư giãn cơ là sự thư giãn phản xạ dựa vào hiện tượng ức chế và kích thích hỗ tương."
+      },
+      {
+        "question": "[S3] Các bài tập há miệng có kháng lực được thực hiện với bao nhiêu động tác/lần và bao nhiêu lần/ngày?",
+        "options": [
+          { "text": "10 động tác/lần x 1 lần/ngày.", "isCorrect": false },
+          { "text": "15 động tác/lần x 2 lần/ngày.", "isCorrect": false },
+          { "text": "25 động tác/lần x 2 lần/ngày.", "isCorrect": true },
+          { "text": "30 động tác/lần x 3 lần/ngày.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 15, các bài tập được lặp lại 25 động tác /lần x 2 lần / ngày."
+      },
+      {
+        "question": "[S3] Vai trò của tư vấn trong thay đổi hành vi/thói quen răng miệng là gì?",
+        "options": [
+          { "text": "Là một giả dược.", "isCorrect": false },
+          { "text": "Là một điều trị chủ động, giúp giảm căng cơ khi bệnh nhân hiểu được hậu quả của sự căng thẳng.", "isCorrect": true },
+          { "text": "Không cần thiết nếu đã có điều trị bằng thuốc.", "isCorrect": false },
+          { "text": "Chỉ dành cho bệnh nhân có vấn đề tâm thần nặng.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 20, tư vấn là một điều trị chủ động, không phải là một giả dược, và giúp giảm căng cơ."
+      },
+      {
+        "question": "[S3] Thói quen tiếp xúc răng (Tooth Contacting Habit - TCH) được định nghĩa như thế nào?",
+        "options": [
+          { "text": "Hoạt động nghiến răng mạnh liên tục.", "isCorrect": false },
+          { "text": "Thói quen mà răng hàm trên và hàm dưới tiếp xúc liên tục với lực tối thiểu trong tình huống không chức năng (tiếp xúc nhưng không siết chặt).", "isCorrect": true },
+          { "text": "Chỉ xảy ra khi ngủ.", "isCorrect": false },
+          { "text": "Thói quen cắn chặt răng liên tục.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 21, TCH được định nghĩa là một hành vi thói quen mà răng hàm trên và hàm dưới tiếp xúc liên tục với lực tối thiểu trong tình huống không chức năng."
+      },
+      {
+        "question": "[S3] Các bước trong quá trình thay đổi hành vi/thói quen răng miệng theo CBT (Cognitive Behavioral Therapy) bao gồm gì?",
+        "options": [
+          { "text": "Tạo động lực, Nhận thức về thói quen xấu, Hành động lặp lại, Củng cố.", "isCorrect": true },
+          { "text": "Chỉ nhận thức và củng cố.", "isCorrect": false },
+          { "text": "Chỉ hành động lặp lại và củng cố.", "isCorrect": false },
+          { "text": "Chỉ tạo động lực và hành động lặp lại.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 22 và 23, các bước trong quá trình thay đổi hành vi/thói quen răng miệng là Tạo động lực, Nhận thức về thói quen xấu, Hành động lặp lại, Củng cố."
+      },
+      {
+        "question": "[S3] Phản hồi sinh học (Biofeedback) là biện pháp hỗ trợ như thế nào?",
+        "options": [
+          { "text": "Giúp thực hiện sự kiểm soát hoạt động của cơ thông qua luyện tập, được trợ giúp bằng máy ghi điện cơ.", "isCorrect": true },
+          { "text": "Chỉ có ích trong nghiên cứu.", "isCorrect": false },
+          { "text": "Ít được sử dụng trong thực tế điều trị và không có giá trị trong kiểm soát nghiến răng về đêm.", "isCorrect": false },
+          { "text": "Là một biện pháp độc lập, không cần kết hợp với các trị liệu khác.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 24, phản hồi sinh học là một biện pháp giúp kiểm soát hoạt động của cơ thông qua luyện tập, được trợ giúp bằng máy ghi điện cơ."
+      },
+      {
+        "question": "[S3] Thôi miên được khuyên sử dụng cho bệnh nhân đau loạn năng với mục đích gì?",
+        "options": [
+          { "text": "Thư giãn, làm thay đổi nhận thức về đau và kiểm soát cảm giác đau.", "isCorrect": true },
+          { "text": "Chỉ để giúp bệnh nhân ngủ ngon hơn.", "isCorrect": false },
+          { "text": "Đã có nhiều nghiên cứu lâm sàng công bố về lợi ích đặc hiệu của thôi miên trong xử trí loạn năng hệ thống nhai.", "isCorrect": false },
+          { "text": "Không có lợi ích đặc biệt nào.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 27, thôi miên được khuyên dùng để thư giãn, làm thay đổi nhận thức về đau và kiểm soát cảm giác đau, tuy nhiên chưa có nghiên cứu lâm sàng công bố lợi ích đặc hiệu."
+      },
+      {
+        "question": "[S3] Khả năng kết hợp điều trị bằng y học cổ truyền có thế mạnh gì trong điều trị rối loạn thái dương hàm?",
+        "options": [
+          { "text": "Làm giảm các chứng đau và rối loạn cơ năng.", "isCorrect": true },
+          { "text": "Thay thế hoàn toàn các phương pháp điều trị hiện đại.", "isCorrect": false },
+          { "text": "Chỉ chữa khỏi các bệnh nhiễm trùng.", "isCorrect": false },
+          { "text": "Không có vai trò gì đáng kể.", "isCorrect": false }
+        ],
+        "explanation": "Theo slide 29, làm giảm các chứng đau và rối loạn cơ năng là một trong những thế mạnh của y học cổ truyền."
+      }
+  ]

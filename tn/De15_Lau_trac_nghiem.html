@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lậu (Gonorrhoea) — Trắc nghiệm</title>
+<style>
+  :root{--card:#1e293b;--accent:#fbbf24;--ok:#22c55e;--bad:#ef4444;--txt:#e2e8f0;--muted:#94a3b8;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(160deg,#0f172a,#2a2109);color:var(--txt);line-height:1.5;padding:16px;}
+  .wrap{max-width:820px;margin:0 auto;}
+  header{text-align:center;padding:14px 0 8px;}
+  header h1{font-size:1.35rem;margin:0 0 4px;color:#fff;}
+  header p{margin:2px 0;color:var(--muted);font-size:.9rem;}
+  .topnav{text-align:center;margin-top:8px;}
+  .topnav a{color:var(--accent);font-size:.82rem;text-decoration:none;}
+  .panel{background:var(--card);border:1px solid #334155;border-radius:14px;padding:20px;margin-top:16px;box-shadow:0 8px 30px rgba(0,0,0,.35);}
+  .bar{height:8px;background:#0b1220;border-radius:99px;overflow:hidden;margin:10px 0 4px;}
+  .bar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),#22c55e);transition:width .3s;}
+  .meta{display:flex;justify-content:space-between;font-size:.82rem;color:var(--muted);margin-bottom:6px;flex-wrap:wrap;gap:6px;}
+  .q{font-size:1.08rem;font-weight:600;margin:6px 0 14px;color:#fff;}
+  .opt{display:block;width:100%;text-align:left;background:#0b1220;border:1.5px solid #334155;color:var(--txt);border-radius:10px;padding:12px 14px;margin:8px 0;cursor:pointer;font-size:.98rem;transition:all .15s;}
+  .opt:hover:not(:disabled){border-color:var(--accent);}
+  .opt .k{display:inline-block;width:22px;font-weight:700;color:var(--accent);}
+  .opt.correct{border-color:var(--ok);background:rgba(34,197,94,.12);}
+  .opt.wrong{border-color:var(--bad);background:rgba(239,68,68,.12);}
+  .opt:disabled{cursor:default;opacity:.95;}
+  .explain{margin-top:10px;padding:11px 13px;border-radius:10px;background:#0b1220;border-left:4px solid var(--accent);font-size:.9rem;color:#cbd5e1;display:none;}
+  .explain.show{display:block;}
+  .row{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;}
+  button.btn{background:var(--accent);color:#3a2606;border:none;border-radius:10px;padding:11px 18px;font-weight:700;cursor:pointer;font-size:.95rem;}
+  button.btn.sec{background:#334155;color:#e2e8f0;}
+  button.btn:disabled{opacity:.4;cursor:not-allowed;}
+  .center{text-align:center;}
+  .big{font-size:2.4rem;font-weight:800;color:#fff;margin:6px 0;}
+  .tag{display:inline-block;font-size:.72rem;background:#0b1220;border:1px solid #334155;color:var(--muted);padding:3px 9px;border-radius:99px;margin-bottom:8px;}
+  .grid{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+  .chip{font-size:.8rem;padding:6px 10px;border-radius:8px;border:1px solid #334155;background:#0b1220;cursor:pointer;}
+  .chip.on{border-color:var(--accent);color:var(--accent);}
+  .review-item{border-top:1px solid #334155;padding:12px 0;font-size:.9rem;}
+  .review-item .ri-q{font-weight:600;color:#fff;}
+  .review-item .ri-a{color:#cbd5e1;margin-top:4px;}
+  .ok{color:var(--ok)} .bad{color:var(--bad)}
+  a.src{color:var(--muted);font-size:.78rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">DA LIỄU · BỆNH LẬU</span>
+    <h1>Lậu (Gonorrhoea) — Trắc nghiệm</h1>
+    <p>Ôn tập trắc nghiệm bám sát bài giảng Da liễu</p>
+    <div class="topnav"><a href="index.html">&#8592; Danh sách đề</a></div>
+  </header>
+
+  <div class="panel" id="start">
+    <p>Bộ câu hỏi bám sát tài liệu. Mỗi câu có 4 phương án gần giống nhau để tăng độ khó. Chọn số câu muốn luyện:</p>
+    <div class="grid" id="countChips"></div>
+    <div class="row">
+      <label style="display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)">
+        <input type="checkbox" id="shuffle" checked> Xáo trộn câu hỏi &amp; đáp án
+      </label>
+    </div>
+    <div class="row">
+      <button class="btn" onclick="startQuiz()">Bắt đầu luyện tập &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel" id="quiz" style="display:none">
+    <div class="meta"><span id="progressTxt"></span><span id="scoreTxt"></span></div>
+    <div class="bar"><i id="progressBar"></i></div>
+    <div class="q" id="qText"></div>
+    <div id="opts"></div>
+    <div class="explain" id="explain"></div>
+    <div class="row">
+      <button class="btn sec" id="skipBtn" onclick="nextQ()">Bỏ qua</button>
+      <button class="btn" id="nextBtn" onclick="nextQ()" disabled>Câu tiếp &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel center" id="result" style="display:none">
+    <p class="tag">KẾT QUẢ</p>
+    <div class="big" id="finalScore"></div>
+    <p id="finalMsg" style="color:var(--muted)"></p>
+    <div class="row" style="justify-content:center">
+      <button class="btn" onclick="location.reload()">Làm lại &#8635;</button>
+      <button class="btn sec" onclick="toggleReview()">Xem lại bài &#9662;</button>
+    </div>
+    <div id="review" style="text-align:left;display:none;margin-top:14px"></div>
+  </div>
+
+  <p class="center" style="margin-top:18px"><a class="src" href="Lậu (Gonorrhoea) — ThS.BS. Mai Thị Cẩm Cát, Bộ môn Da liễu, ĐH Y Dược Huế">Nguồn: Lậu (Gonorrhoea) — ThS.BS. Mai Thị Cẩm Cát, Bộ môn Da liễu, ĐH Y Dược Huế</a></p>
+</div>
+
+<script>
+const BANK = [{"q": "Tác nhân gây bệnh lậu là:", "a": ["Trichomonas vaginalis", "Treponema pallidum", "Neisseria gonorrhoeae (lậu cầu)", "Chlamydia trachomatis"], "c": 2, "e": "Bệnh lậu do lậu cầu Neisseria gonorrhoeae gây ra."}, {"q": "Về hình thái, lậu cầu Neisseria gonorrhoeae là:", "a": ["Cầu khuẩn Gram dương thành chuỗi", "Song cầu Gram âm, hiếu khí, hình hạt cà phê", "Xoắn khuẩn Gram âm", "Trực khuẩn Gram dương"], "c": 1, "e": "Lậu cầu: song cầu Gram âm, hiếu khí, hình hạt cà phê."}, {"q": "Vật chủ của lậu cầu là:", "a": ["Người là vật chủ duy nhất", "Người và động vật", "Đất và nước", "Côn trùng trung gian"], "c": 0, "e": "Người là vật chủ duy nhất của lậu cầu; lậu cầu không chịu được môi trường khô bên ngoài cơ thể."}, {"q": "Đặc điểm nào ĐÚNG về sức đề kháng của lậu cầu?", "a": ["Không chịu được môi trường khô bên ngoài cơ thể", "Sống được trong đất nhiều tháng", "Sống lâu ngoài môi trường khô", "Chịu được nhiệt độ cao và khô hạn"], "c": 0, "e": "Lậu cầu không chịu được môi trường khô bên ngoài cơ thể."}, {"q": "Đường lây truyền chủ yếu của bệnh lậu là:", "a": ["Đường hô hấp", "Quan hệ tình dục", "Đường tiêu hóa", "Muỗi đốt"], "c": 1, "e": "Lậu lây truyền chủ yếu qua QHTD; ngoài ra mẹ sang con, tự lây nhiễm."}, {"q": "Số người mắc lậu mới mỗi năm trên thế giới ước tính:", "a": ["Khoảng 5 triệu người", "> 80 triệu người", "< 1 triệu người", "> 500 triệu người"], "c": 1, "e": "Ước tính > 80 triệu người mắc lậu mới mỗi năm."}, {"q": "Bệnh lậu thường kết hợp (đồng nhiễm) với các tác nhân nào?", "a": ["Vi khuẩn lao", "Nấm sợi, ghẻ", "Chlamydia, Mycoplasma, HIV", "Sốt rét, giun sán"], "c": 2, "e": "Lậu thường kết hợp với các tác nhân khác: Chlamydia, Mycoplasma, HIV..."}, {"q": "Nếu không điều trị, bệnh lậu có thể gây biến chứng nào?", "a": ["Suy tuyến giáp", "Vô sinh, thai ngoài tử cung", "Xơ gan", "Đái tháo đường"], "c": 1, "e": "Lậu không điều trị có thể gây vô sinh, thai ngoài tử cung..."}, {"q": "Có bao nhiêu tác nhân STIs thường gặp được đề cập?", "a": ["3 tác nhân", "8 tác nhân", "30 tác nhân", "15 tác nhân"], "c": 1, "e": "Có hơn 30 tác nhân gây STIs, trong đó 8 tác nhân thường gặp: lậu cầu, xoắn khuẩn giang mai, Trichomonas, Chlamydia, HBV, HIV, HSV, HPV."}, {"q": "Nhóm 8 tác nhân STIs thường gặp KHÔNG bao gồm tác nhân nào?", "a": ["HPV", "Chlamydia", "Lậu cầu", "Candida albicans"], "c": 3, "e": "8 tác nhân thường gặp: lậu cầu, xoắn khuẩn giang mai, Trichomonas, Chlamydia, HBV, HIV, HSV, HPV. Candida không nằm trong nhóm này."}, {"q": "Thời gian ủ bệnh lậu ở NAM giới là:", "a": ["1-2 giờ", "1 tháng", "10-14 ngày", "2-4 ngày"], "c": 3, "e": "Ủ bệnh lậu ở nam: 2-4 ngày."}, {"q": "Thời gian ủ bệnh lậu ở NỮ giới là khoảng:", "a": ["1-2 ngày", "2-4 ngày", "10 ngày", "1 tháng"], "c": 2, "e": "Ủ bệnh lậu ở nữ: khoảng 10 ngày."}, {"q": "Biểu hiện lâm sàng thường gặp nhất ở nam giới mắc lậu là:", "a": ["Không triệu chứng hoàn toàn", "Viêm khớp đơn thuần", "Viêm niệu đạo cấp tính (khoảng 90%)", "Viêm kết mạc"], "c": 2, "e": "Ở nam, 90% biểu hiện viêm niệu đạo cấp tính."}, {"q": "Triệu chứng viêm niệu đạo cấp do lậu ở nam bao gồm:", "a": ["Không đau, không tiết dịch", "Nóng, rát, tiểu buốt, tiểu rắt, tiểu lắt nhắt ± tiểu máu", "Đau bụng dưới đơn thuần", "Chỉ ngứa nhẹ"], "c": 1, "e": "Viêm niệu đạo cấp ở nam: nóng, rát, tiểu buốt, tiểu rắt, tiểu lắt nhắt, có thể tiểu máu."}, {"q": "Đặc điểm dịch mủ niệu đạo trong bệnh lậu ở nam là:", "a": ["Ít, trong suốt, không màu", "Đặc như bã đậu, trắng", "Loãng, vàng/trắng đục, lượng nhiều, dễ ra → tiểu mủ", "Có máu tươi đơn thuần"], "c": 2, "e": "Dịch mủ niệu đạo lậu: loãng, vàng/trắng đục, lượng nhiều, dễ ra, dẫn đến tiểu mủ; miệng sáo sưng đỏ."}, {"q": "Biến chứng tại chỗ ở nam khi lậu lan lên có thể gây:", "a": ["Viêm vòi trứng", "Viêm tuyến Bartholin", "Viêm mào tinh hoàn (sưng, đau tinh hoàn)", "Viêm cổ tử cung"], "c": 2, "e": "Ở nam, lậu có thể gây viêm mào tinh hoàn (sưng, đau tinh hoàn), xơ hẹp niệu đạo."}, {"q": "Tỉ lệ nữ giới mắc lậu KHÔNG có triệu chứng lâm sàng khoảng:", "a": ["10%", "90%", "0%", "50%"], "c": 3, "e": "Khoảng 50% nữ giới mắc lậu không có triệu chứng lâm sàng."}, {"q": "Biểu hiện viêm cổ tử cung do lậu ở nữ gồm:", "a": ["Tăng tiết dịch, đau, ra máu khi quan hệ, ra máu ngoài kỳ kinh, CTC phù nề sưng đỏ", "Không tiết dịch, CTC bình thường", "Chỉ đau bụng, không thay đổi CTC", "Khí hư trắng như váng sữa đơn thuần"], "c": 0, "e": "Viêm CTC do lậu: tăng tiết dịch, đau, ra máu khi quan hệ, ra máu ngoài kỳ kinh; CTC phù nề, sưng đỏ."}, {"q": "Ở nữ, lậu có thể gây sưng đau các tuyến nào?", "a": ["Tuyến thượng thận", "Tuyến Skene và Bartholin", "Tuyến nước bọt", "Tuyến giáp và cận giáp"], "c": 1, "e": "Ở nữ, lậu gây sưng đau tuyến Skene, Bartholin; viêm vùng chậu."}, {"q": "Nhiễm lậu lan tỏa (disseminated infection) có thể biểu hiện hội chứng nào?", "a": ["Hội chứng viêm khớp - viêm da (arthritis-dermatitis)", "Hội chứng thận hư", "Hội chứng Cushing", "Hội chứng ruột kích thích"], "c": 0, "e": "Nhiễm lậu lan tỏa: hội chứng viêm khớp + viêm da (arthritis-dermatitis), nhiễm khuẩn huyết, viêm nội tâm mạc, viêm màng não."}, {"q": "Biến chứng nặng của nhiễm lậu lan tỏa KHÔNG bao gồm:", "a": ["Nhiễm khuẩn huyết", "Viêm nội tâm mạc", "Xơ gan do rượu", "Viêm màng não"], "c": 2, "e": "Nhiễm lậu lan tỏa: viêm khớp-viêm da, nhiễm khuẩn huyết, viêm nội tâm mạc, viêm màng não. Xơ gan do rượu không liên quan."}, {"q": "Biến chứng của lậu ở nữ dẫn tới vô sinh thường qua con đường:", "a": ["Viêm mào tinh hoàn", "Xơ hẹp niệu đạo nam", "Viêm vùng chậu, viêm vòi trứng, viêm buồng trứng", "Viêm quy đầu"], "c": 2, "e": "Ở nữ, lậu gây viêm nội mạc TC, viêm vòi trứng, viêm buồng trứng, viêm vùng chậu → vô sinh, nhiễm khuẩn huyết."}, {"q": "Xét nghiệm nhuộm Gram trong chẩn đoán lậu có ưu điểm:", "a": ["Cho phép làm kháng sinh đồ", "Thuận tiện, nhạy và đặc hiệu cao ở nam giới có triệu chứng viêm niệu đạo cấp", "Phát hiện tốt lậu hầu họng, hậu môn", "Là tiêu chuẩn vàng cho mọi vị trí"], "c": 1, "e": "Nhuộm Gram: thuận tiện, nhạy và đặc hiệu cao ở nam có triệu chứng viêm niệu đạo cấp; vị trí lấy: niệu đạo (nam), CTC (nữ)."}, {"q": "Nhuộm Gram KHÔNG có vai trò trong chẩn đoán lậu ở vị trí nào?", "a": ["Niệu đạo nam có triệu chứng", "Cổ tử cung nữ", "Lậu hậu môn và hầu họng", "Niệu đạo nam viêm cấp"], "c": 2, "e": "Nhuộm Gram không có vai trò trong chẩn đoán lậu hậu môn, hầu họng."}, {"q": "Tiêu chuẩn vàng trong chẩn đoán lậu và cho phép làm kháng sinh đồ là:", "a": ["NAATs (PCR)", "Nuôi cấy", "Nhuộm Gram", "Soi tươi"], "c": 1, "e": "Nuôi cấy là tiêu chuẩn vàng, cho phép làm kháng sinh đồ; bệnh phẩm: dịch phết niệu đạo (nam), CTC (nữ), trực tràng, hầu họng."}, {"q": "Bệnh phẩm dùng cho nuôi cấy lậu cầu bao gồm:", "a": ["Chỉ nước tiểu giữa dòng", "Dịch não tủy", "Dịch phết niệu đạo (nam), CTC (nữ), trực tràng, hầu họng", "Chỉ máu tĩnh mạch"], "c": 2, "e": "Bệnh phẩm nuôi cấy: dịch phết niệu đạo (nam), CTC (nữ), trực tràng, hầu họng."}, {"q": "Xét nghiệm NAATs (khuếch đại acid nucleic) trong chẩn đoán lậu có đặc điểm:", "a": ["Chỉ dùng cho bệnh phẩm máu", "Kém nhạy hơn nhuộm Gram", "Nhạy và đặc hiệu hơn nuôi cấy nhưng chi phí cao", "Không phát hiện được lậu cầu"], "c": 2, "e": "NAATs (PCR) phát hiện acid nucleic lậu cầu, nhạy và đặc hiệu hơn nuôi cấy, chi phí cao; bệnh phẩm đa dạng: nước tiểu, dịch âm đạo, CTC, niệu đạo, trực tràng, hầu họng."}, {"q": "Ưu điểm của NAATs so với nuôi cấy về loại bệnh phẩm là:", "a": ["Chỉ dùng được dịch niệu đạo", "Bắt buộc lấy máu", "Có thể dùng nước tiểu, dịch âm đạo... (đa dạng, ít xâm lấn)", "Chỉ dùng dịch não tủy"], "c": 2, "e": "NAATs dùng được nhiều loại bệnh phẩm: nước tiểu, dịch âm đạo, CTC, dịch niệu đạo, trực tràng, hầu, họng."}, {"q": "Tác nhân nhiễm khuẩn thường gặp NHẤT trong các bệnh lây qua đường tình dục (hay đồng nhiễm với lậu) là:", "a": ["Candida albicans", "Trichomonas vaginalis", "Treponema pallidum", "Chlamydia trachomatis"], "c": 3, "e": "Chlamydia trachomatis là tác nhân nhiễm khuẩn thường gặp nhất trong các BLTQĐTD; lậu đồng nhiễm C. trachomatis khoảng 40-45%."}, {"q": "Tỉ lệ lậu đồng nhiễm Chlamydia trachomatis khoảng:", "a": ["5-10%", "1-2%", "40-45%", "70-90%"], "c": 2, "e": "Lậu đồng nhiễm C. trachomatis khoảng 40-45%."}, {"q": "Nhiễm Chlamydia trachomatis thường có đặc điểm:", "a": ["Gây tiết dịch mủ vàng nhiều như lậu", "Chỉ gặp ở nam", "Luôn có triệu chứng rầm rộ", "Thường không biểu hiện triệu chứng (nữ 70-90%, nam 50%)"], "c": 3, "e": "Chlamydia thường không biểu hiện triệu chứng (nữ 70-90%, nam 50%), dẫn đến chẩn đoán muộn và tăng biến chứng."}, {"q": "Trichomonas vaginalis (trùng roi âm đạo) gây khí hư có đặc điểm:", "a": ["Mủ vàng đặc", "Dịch âm đạo lượng nhiều, vàng xanh, hôi, có bọt", "Trong suốt, không mùi", "Trắng như váng sữa, không mùi"], "c": 1, "e": "Trichomonas ở nữ: ngứa, đau, tiểu khó, tiết dịch âm đạo lượng nhiều, vàng xanh, hôi, có bọt; dấu hiệu CTC dâu tây (strawberry cervix)."}, {"q": "Dấu hiệu 'cổ tử cung dâu tây' (strawberry cervix) gợi ý nhiễm:", "a": ["Lậu cầu", "Candida albicans", "Chlamydia", "Trichomonas vaginalis"], "c": 3, "e": "Dấu hiệu CTC dâu tây gợi ý nhiễm Trichomonas vaginalis."}, {"q": "Trichomonas vaginalis gặp ở giới nào nhiều hơn?", "a": ["Nam nhiều hơn nữ", "Nữ nhiều hơn nam rõ rệt (nữ >> nam)", "Nam = Nữ", "Chỉ gặp ở nam"], "c": 1, "e": "Trichomonas vaginalis: nữ >> nam, thường đồng mắc với viêm âm đạo do vi khuẩn (BV) 20-80%."}, {"q": "Loài Candida thường gây bệnh nhất là:", "a": ["Candida glabrata", "Candida albicans (khoảng 80%)", "Candida tropicalis", "Candida krusei"], "c": 1, "e": "Candida albicans là loài hay gặp nhất (khoảng 80%)."}, {"q": "Khí hư trong nhiễm Candida ở nữ có đặc điểm:", "a": ["Vàng xanh, có bọt, hôi", "Nhiều, trắng như váng sữa; âm hộ-âm đạo đỏ, phù nề, nhiều mảng trắng", "Trong suốt không màu", "Mủ vàng loãng lượng nhiều"], "c": 1, "e": "Candida ở nữ: ngứa, đau, bỏng rát, khí hư nhiều trắng như váng sữa; âm hộ-âm đạo đỏ, phù nề, nhiều mảng trắng."}, {"q": "Trong viêm âm đạo do vi khuẩn (Gardnerella, Mycoplasma), xét nghiệm nào dương tính?", "a": ["Dịch mủ vàng đặc", "CTC dâu tây", "Clue cell (+), pH âm đạo > 5, Whiff test mùi tanh khi nhỏ KOH", "Khí hư váng sữa, mảng trắng"], "c": 2, "e": "Viêm âm đạo do vi khuẩn (Gardnerella vaginalis, Mycoplasma hominis): pH âm đạo > 5, Clue cell (+), Whiff test mùi tanh đặc trưng khi nhỏ KOH."}, {"q": "Nghiệm pháp Whiff test dương tính (mùi tanh khi nhỏ KOH) gợi ý:", "a": ["Nhiễm HSV", "Viêm âm đạo do vi khuẩn (BV)", "Nhiễm lậu cầu", "Nhiễm Candida"], "c": 1, "e": "Whiff test dương tính (mùi tanh khi nhỏ KOH) là dấu hiệu của viêm âm đạo do vi khuẩn."}, {"q": "Thuốc điều trị lậu (không biến chứng) theo phác đồ BYT 2023 bao gồm lựa chọn nào?", "a": ["Acyclovir 400mg x 3 lần/ngày", "Ceftriaxone 250mg TB liều duy nhất", "Metronidazol 2g liều duy nhất", "Benzathin penicillin 2,4 triệu ĐV"], "c": 1, "e": "Điều trị lậu: Ceftriaxone 250mg TB liều duy nhất, hoặc Cefixim 400mg uống liều duy nhất, hoặc Spectinomycin 2g TB liều duy nhất."}, {"q": "Cefixim trong điều trị lậu được dùng với liều:", "a": ["100mg x 2 lần/ngày x 7 ngày", "250mg mỗi tuần", "1g tiêm bắp", "400mg uống liều duy nhất"], "c": 3, "e": "Cefixim 400mg uống liều duy nhất là một lựa chọn điều trị lậu."}, {"q": "Spectinomycin trong điều trị lậu được dùng với liều:", "a": ["250mg tiêm bắp", "2g tiêm bắp liều duy nhất", "400mg uống", "500mg x 2 lần/ngày"], "c": 1, "e": "Spectinomycin 2g tiêm bắp liều duy nhất là một lựa chọn điều trị lậu."}, {"q": "Vì sao khi điều trị lậu thường phối hợp thêm thuốc điều trị Chlamydia?", "a": ["Vì Chlamydia kháng mọi thuốc", "Vì để dự phòng HIV", "Vì tỉ lệ đồng nhiễm Chlamydia cao (40-45%)", "Vì lậu không có thuốc đặc trị"], "c": 2, "e": "Do lậu thường đồng nhiễm Chlamydia (~40-45%) nên điều trị thường phối hợp thêm thuốc diệt Chlamydia."}, {"q": "Thuốc phối hợp điều trị Chlamydia khi điều trị lậu là:", "a": ["Penicillin 2,4 triệu ĐV", "Ceftriaxone 250mg tiêm bắp", "Azithromycin 1g uống liều duy nhất hoặc Doxycyclin 100mg x2/ngày x7 ngày", "Fluconazole 150mg"], "c": 2, "e": "Kết hợp điều trị Chlamydia: Azithromycin 1g uống liều duy nhất, hoặc Doxycyclin 100mg uống 2 viên/ngày (chia 2) trong 7 ngày."}, {"q": "Liều Doxycyclin điều trị Chlamydia phối hợp là:", "a": ["500mg x 3 lần/ngày x 14 ngày", "50mg mỗi tuần", "100mg uống 2 lần/ngày trong 7 ngày", "100mg liều duy nhất"], "c": 2, "e": "Doxycyclin 100mg uống 2 viên/ngày (chia 2 lần) trong 7 ngày."}, {"q": "Trong theo dõi điều trị lậu, được coi là 'thất bại' khi triệu chứng còn kéo dài quá:", "a": ["14 ngày", "1 ngày", "3-5 ngày", "1 tháng"], "c": 2, "e": "Thất bại điều trị theo triệu chứng: còn triệu chứng > 3-5 ngày; theo nuôi cấy: dương > 7 ngày; theo NAATs: dương > 14 ngày."}, {"q": "Trong theo dõi lậu, xét nghiệm NAATs còn dương tính sau bao lâu được xem là thất bại/cần đánh giá?", "a": ["> 14 ngày", "> 3 ngày", "> 7 ngày", "> 30 ngày"], "c": 0, "e": "Theo NAATs, dương tính > 14 ngày được xem là dấu hiệu thất bại (NAATs có thể còn dương do xác vi khuẩn nên phải chờ lâu hơn nuôi cấy)."}, {"q": "Trong theo dõi lậu, nuôi cấy còn dương sau bao lâu được xem là thất bại điều trị?", "a": ["> 14 ngày", "> 30 ngày", "> 3 ngày", "> 7 ngày"], "c": 3, "e": "Theo nuôi cấy, dương tính > 7 ngày được xem là thất bại điều trị."}, {"q": "Biện pháp dự phòng bệnh lậu và các STI chủ yếu là:", "a": ["Giáo dục tình dục an toàn, dùng bao cao su, xét nghiệm tầm soát", "Uống kháng sinh dự phòng hằng ngày", "Tiêm vắc-xin lậu định kỳ", "Chỉ cần vệ sinh sau quan hệ"], "c": 0, "e": "Dự phòng: giáo dục tình dục an toàn (sex education), sử dụng bao cao su để phòng STDs, và đi xét nghiệm (get tested)."}, {"q": "Nhiễm lậu ở hầu họng và hậu môn thường có đặc điểm gì về triệu chứng?", "a": ["Chỉ gặp ở nữ", "Luôn gây loét sâu", "Luôn có triệu chứng rầm rộ", "Thường không có triệu chứng (asymptomatic)"], "c": 3, "e": "Nhiễm lậu ở hầu họng (oropharyngeal) và hậu môn (anal) thường không triệu chứng."}, {"q": "Miệng sáo (lỗ tiểu) trong viêm niệu đạo do lậu ở nam thường:", "a": ["Teo nhỏ", "Sưng đỏ", "Không thay đổi", "Loét sâu bờ cứng"], "c": 1, "e": "Trong viêm niệu đạo cấp do lậu ở nam, miệng sáo sưng đỏ kèm tiết dịch mủ."}, {"q": "Nhiễm trùng lây qua đường tình dục (STIs) được định nghĩa là:", "a": ["Nhiễm trùng lây qua thức ăn", "Nhiễm trùng di truyền", "Nhiễm trùng lây từ người sang người chủ yếu qua quan hệ tình dục", "Nhiễm trùng chỉ lây qua đường máu"], "c": 2, "e": "STIs/STDs là những nhiễm trùng lây từ người sang người chủ yếu thông qua quan hệ tình dục."}];
+let idx=0, score=0, answers=[], quizSet=[];
+const COUNTS=[20,40,60,100];
+function initChips(){const el=document.getElementById('countChips');COUNTS.forEach((n,i)=>{const c=document.createElement('div');c.className='chip'+(i===COUNTS.length-1?' on':'');c.textContent=n>=BANK.length?'Tất cả ('+BANK.length+')':n+' câu';c.dataset.n=Math.min(n,BANK.length);c.onclick=()=>{document.querySelectorAll('#countChips .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');};el.appendChild(c);});}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function startQuiz(){
+  const sel=document.querySelector('#countChips .chip.on');
+  const n=Math.min(parseInt(sel.dataset.n),BANK.length);
+  const doShuffle=document.getElementById('shuffle').checked;
+  let pool=BANK.map((q,i)=>({...q,_i:i}));
+  if(doShuffle)shuffle(pool);
+  quizSet=pool.slice(0,n).map(q=>{
+    let opts=q.a.map((t,i)=>({t,correct:i===q.c}));
+    if(doShuffle)shuffle(opts);
+    return {q:q.q,opts,e:q.e};
+  });
+  idx=0;score=0;answers=[];
+  document.getElementById('start').style.display='none';
+  document.getElementById('result').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  renderQ();
+}
+function renderQ(){
+  const item=quizSet[idx];
+  document.getElementById('progressTxt').textContent='Câu '+(idx+1)+' / '+quizSet.length;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('progressBar').style.width=((idx)/quizSet.length*100)+'%';
+  document.getElementById('qText').textContent=item.q;
+  const box=document.getElementById('opts');box.innerHTML='';
+  const letters=['A','B','C','D'];
+  item.opts.forEach((o,i)=>{
+    const b=document.createElement('button');
+    b.className='opt';
+    b.innerHTML='<span class="k">'+letters[i]+'.</span> '+o.t;
+    b.onclick=()=>choose(i);
+    box.appendChild(b);
+  });
+  const ex=document.getElementById('explain');ex.className='explain';ex.textContent='';
+  document.getElementById('nextBtn').disabled=true;
+  document.getElementById('skipBtn').style.display='inline-block';
+  document.getElementById('nextBtn').textContent=(idx===quizSet.length-1)?'Xem kết quả ✔':'Câu tiếp ▶';
+}
+function choose(i){
+  const item=quizSet[idx];
+  const btns=document.querySelectorAll('#opts .opt');
+  const correctIdx=item.opts.findIndex(o=>o.correct);
+  btns.forEach((b,j)=>{b.disabled=true;if(j===correctIdx)b.classList.add('correct');if(j===i&&i!==correctIdx)b.classList.add('wrong');});
+  const isRight=i===correctIdx;
+  if(isRight)score++;
+  answers.push({q:item.q,chosen:item.opts[i].t,correct:item.opts[correctIdx].t,right:isRight});
+  const ex=document.getElementById('explain');
+  ex.className='explain show';
+  ex.innerHTML=(isRight?'<b class="ok">✔ Chính xác. </b>':'<b class="bad">✘ Chưa đúng. </b>')+item.e;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('nextBtn').disabled=false;
+  document.getElementById('skipBtn').style.display='none';
+}
+function nextQ(){ if(idx<quizSet.length-1){idx++;renderQ();} else finish(); }
+function finish(){
+  document.getElementById('quiz').style.display='none';
+  const r=document.getElementById('result');r.style.display='block';
+  const pct=Math.round(score/quizSet.length*100);
+  document.getElementById('finalScore').textContent=score+' / '+quizSet.length+' ('+pct+'%)';
+  let msg='';
+  if(pct>=90)msg='Xuất sắc! Bạn nắm rất chắc bài.';
+  else if(pct>=70)msg='Tốt! Ôn lại vài câu sai là ổn.';
+  else if(pct>=50)msg='Khá – cần ôn thêm phần sai.';
+  else msg='Hãy đọc lại tài liệu và luyện lại nhé.';
+  document.getElementById('finalMsg').textContent=msg;
+  const rev=document.getElementById('review');rev.innerHTML='';rev.style.display='none';
+  answers.forEach((a,i)=>{
+    const d=document.createElement('div');d.className='review-item';
+    d.innerHTML='<div class="ri-q">'+(i+1)+'. '+a.q+'</div>'+
+      '<div class="ri-a">Bạn chọn: <span class="'+(a.right?'ok':'bad')+'">'+a.chosen+'</span></div>'+
+      (a.right?'':'<div class="ri-a">Đáp án đúng: <span class="ok">'+a.correct+'</span></div>');
+    rev.appendChild(d);
+  });
+}
+function toggleReview(){const r=document.getElementById('review');r.style.display=r.style.display==='none'?'block':'none';}
+initChips();
+</script>
+</body>
+</html>

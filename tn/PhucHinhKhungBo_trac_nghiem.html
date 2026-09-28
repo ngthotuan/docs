@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ngân hàng trắc nghiệm · Phục hình khung bộ</title>
+<style>
+:root{
+  --bg:#0f1720; --card:#18232f; --card2:#1e2b3a; --line:#2a3a4c;
+  --ink:#e8eef4; --mut:#9fb0c0; --brand:#2e97c9; --brand2:#1d6fa5;
+  --good:#2e9e5b; --goodbg:#132b1e; --bad:#d9534f; --badbg:#2c1616;
+  --warn:#f0ad4e; --easy:#3fb27f; --med:#e0a13a; --hard:#e06a6a;
+}
+@media (prefers-color-scheme:light){
+  :root{--bg:#eef3f7;--card:#fff;--card2:#f4f8fb;--line:#d6e0ea;--ink:#12222f;--mut:#5a6b7a;--goodbg:#e7f7ee;--badbg:#fdecec;}
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+  background:var(--bg);color:var(--ink);line-height:1.5;-webkit-text-size-adjust:100%}
+.wrap{max-width:820px;margin:0 auto;padding:16px 14px 60px}
+header.top{display:flex;align-items:center;gap:10px;padding:14px 0 8px}
+header.top h1{font-size:18px;margin:0;flex:1}
+.badge{background:var(--brand);color:#fff;border-radius:20px;padding:2px 10px;font-size:12px;font-weight:600}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin:12px 0;box-shadow:0 2px 10px rgba(0,0,0,.12)}
+h2{font-size:16px;margin:2px 0 12px}
+p.mut{color:var(--mut);font-size:14px;margin:6px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-top:10px}
+button{font-family:inherit;font-size:15px;cursor:pointer;border:none;border-radius:10px;padding:11px 14px;
+  background:var(--card2);color:var(--ink);border:1px solid var(--line);transition:.12s;text-align:left}
+button:hover{border-color:var(--brand)}
+button:active{transform:translateY(1px)}
+.btn-primary{background:linear-gradient(90deg,var(--brand2),var(--brand));color:#fff;border:none;font-weight:600;text-align:center}
+.btn-lesson{display:flex;flex-direction:column;gap:3px}
+.btn-lesson b{font-size:15px}
+.btn-lesson span{font-size:12px;color:var(--mut)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0}
+.chip{padding:7px 13px;border-radius:20px;border:1px solid var(--line);background:var(--card2);font-size:13px;cursor:pointer}
+.chip.on{background:var(--brand);color:#fff;border-color:var(--brand)}
+.seg{display:flex;gap:6px;flex-wrap:wrap}
+label.lbl{font-size:13px;color:var(--mut);margin-right:4px}
+select,input[type=number]{background:var(--card2);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:14px;font-family:inherit}
+/* quiz */
+.qbar{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--line);
+  display:flex;align-items:center;gap:10px;font-size:13px;color:var(--mut)}
+.prog{flex:1;height:8px;background:var(--card2);border-radius:6px;overflow:hidden}
+.prog>i{display:block;height:100%;background:linear-gradient(90deg,var(--brand2),var(--brand));width:0;transition:.25s}
+.qmeta{display:flex;gap:8px;align-items:center;margin-bottom:6px;flex-wrap:wrap}
+.tagB{font-size:11px;font-weight:700;background:var(--brand2);color:#fff;border-radius:10px;padding:2px 9px}
+.tagD{font-size:11px;font-weight:700;border-radius:10px;padding:2px 9px}
+.d1{background:var(--easy);color:#04240f} .d2{background:var(--med);color:#2c1e02} .d3{background:var(--hard);color:#2c0808}
+.qtext{font-size:16.5px;font-weight:600;margin:6px 0 12px;white-space:pre-wrap}
+.opts{display:flex;flex-direction:column;gap:9px}
+.opt{display:flex;gap:10px;align-items:flex-start;padding:12px 13px;border-radius:11px;border:1.5px solid var(--line);
+  background:var(--card);cursor:pointer;font-size:15px}
+.opt .k{font-weight:700;color:var(--brand);flex:none;width:20px}
+.opt:hover{border-color:var(--brand)}
+.opt.correct{background:var(--goodbg);border-color:var(--good)}
+.opt.wrong{background:var(--badbg);border-color:var(--bad)}
+.opt.correct .k{color:var(--good)} .opt.wrong .k{color:var(--bad)}
+.opt.dim{opacity:.65}
+.explain{margin-top:12px;padding:11px 13px;border-radius:10px;background:var(--card2);border-left:4px solid var(--brand);font-size:14.5px;display:none}
+.explain.show{display:block}
+.explain b{color:var(--brand)}
+.navbtns{display:flex;gap:10px;margin-top:16px}
+.navbtns button{flex:1;text-align:center}
+.hide{display:none}
+.result-score{font-size:44px;font-weight:800;text-align:center;margin:6px 0}
+.result-sub{text-align:center;color:var(--mut);margin-bottom:10px}
+.reviewitem{padding:10px;border:1px solid var(--line);border-radius:10px;margin:8px 0;font-size:14px}
+.reviewitem .q{font-weight:600;margin-bottom:5px}
+.reviewitem .a{font-size:13px}
+.ok{color:var(--good)} .no{color:var(--bad)}
+.foot{text-align:center;color:var(--mut);font-size:12px;margin-top:20px}
+kbd{background:var(--card2);border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:12px}
+a{color:var(--brand)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <span style="font-size:22px">🦷</span>
+    <h1>Trắc nghiệm Phục hình khung bộ</h1>
+    <span class="badge" id="totalBadge">…</span>
+  </header>
+
+  <!-- HOME -->
+  <div id="home">
+    <div class="card">
+      <h2>📚 Học theo từng bài</h2>
+      <p class="mut">Làm lần lượt, hiện đáp án &amp; giải thích ngay sau mỗi câu.</p>
+      <div class="grid" id="lessonGrid"></div>
+    </div>
+
+    <div class="card">
+      <h2>📝 Thi thử (random)</h2>
+      <p class="mut">Trộn ngẫu nhiên câu hỏi. Chấm điểm &amp; xem lại câu sai ở cuối.</p>
+      <div class="row">
+        <span class="lbl">Phạm vi:</span>
+        <select id="examScope"></select>
+      </div>
+      <div class="row">
+        <span class="lbl">Độ khó:</span>
+        <div class="seg" id="diffSeg">
+          <span class="chip on" data-d="all">Tất cả</span>
+          <span class="chip" data-d="1">Dễ</span>
+          <span class="chip" data-d="2">Trung bình</span>
+          <span class="chip" data-d="3">Khó</span>
+        </div>
+      </div>
+      <div class="row">
+        <span class="lbl">Số câu:</span>
+        <div class="seg" id="numSeg">
+          <span class="chip" data-n="10">10</span>
+          <span class="chip on" data-n="20">20</span>
+          <span class="chip" data-n="40">40</span>
+          <span class="chip" data-n="60">60</span>
+          <span class="chip" data-n="0">Tất cả</span>
+        </div>
+      </div>
+      <div class="row">
+        <label class="lbl"><input type="checkbox" id="instantChk"> Hiện đáp án ngay sau mỗi câu</label>
+      </div>
+      <button class="btn-primary" style="width:100%;margin-top:6px" onclick="startExam()">🚀 Bắt đầu thi</button>
+    </div>
+    <div class="foot">Ngân hàng gồm 6 bài · Chọn đáp án bằng chuột hoặc phím <kbd>1</kbd>–<kbd>4</kbd>, câu sau <kbd>Enter</kbd>.</div>
+  </div>
+
+  <!-- QUIZ -->
+  <div id="quiz" class="hide">
+    <div class="qbar">
+      <button onclick="quitQuiz()" style="padding:5px 10px;font-size:13px">✕ Thoát</button>
+      <div class="prog"><i id="progBar"></i></div>
+      <span id="qCount">0/0</span>
+      <span id="scoreLive"></span>
+    </div>
+    <div class="card">
+      <div class="qmeta">
+        <span class="tagB" id="qBai">Bài</span>
+        <span class="tagD" id="qDiff">…</span>
+      </div>
+      <div class="qtext" id="qText"></div>
+      <div class="opts" id="qOpts"></div>
+      <div class="explain" id="qExplain"></div>
+      <div class="navbtns">
+        <button id="skipBtn" onclick="nextQ()">Bỏ qua →</button>
+        <button class="btn-primary" id="nextBtn" onclick="nextQ()" style="display:none">Câu tiếp →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESULT -->
+  <div id="result" class="hide">
+    <div class="card">
+      <div class="result-score" id="rScore">0/0</div>
+      <div class="result-sub" id="rSub"></div>
+      <div class="row" style="justify-content:center">
+        <button class="btn-primary" onclick="location.reload()">🏠 Về trang chủ</button>
+        <button onclick="retryWrong()" id="retryBtn">🔁 Làm lại câu sai</button>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Xem lại</h2>
+      <div id="reviewList"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ================= NGÂN HÀNG CÂU HỎI =================
+   b: số bài (15..20) | d: độ khó 1=dễ 2=TB 3=khó
+   q: câu hỏi | o: 4 lựa chọn | a: index đáp án đúng (0-3) | e: giải thích */
+const BANK = [
+// ===== BÀI 15 · MÓC =====
+{b:15,d:1,q:"Trong phục hình khung bộ, vật giữ trực tiếp là gì?",o:["Thanh nối chính","Móc hoặc attachment đặt ở răng trụ","Tựa mặt nhai","Nền hàm giả"],a:1,e:"Vật giữ trực tiếp (direct retainer) là móc hoặc attachment đặt ở răng trụ nhằm giữ hàm phục hình đúng vị trí."},
+{b:15,d:1,q:"Tính lưu giữ (retention) của hàm PHTLBP là lực giúp hàm giả:",o:["Kháng lại sự lún theo chiều dọc","Kháng lại sự bật sút hàm theo hướng lắp","Truyền lực nhai theo trục răng","Chống di chuyển ngang"],a:1,e:"Retention = lực giúp hàm kháng lại sự bật sút hàm theo hướng lắp (chiều đứng)."},
+{b:15,d:1,q:"Móc được phân làm 2 loại theo hướng tiếp cận là:",o:["Móc đúc và móc chế tạo sẵn","Tiếp cận từ phía nhai và tiếp cận từ phía nướu","Móc Ney và móc RPI","Móc cứng và móc đàn hồi"],a:1,e:"2 loại: tiếp cận từ phía nhai (móc vòng - Ney) và tiếp cận từ phía nướu (móc thanh - Roach)."},
+{b:15,d:1,q:"Móc tiếp cận từ phía nhai thuộc hệ thống móc nào?",o:["Hệ thống Roach (móc thanh)","Hệ thống Ney (móc vòng)","Móc RPI","Attachment"],a:1,e:"Tiếp cận từ phía nhai = các hệ thống móc vòng = hệ thống Ney."},
+{b:15,d:1,q:"Móc tiếp cận từ phía nướu (móc thanh) thuộc hệ thống nào?",o:["Ney","Roach","Akers","Nally"],a:1,e:"Móc thanh (bar clasp) thuộc hệ thống Roach, tiếp cận vùng lẹm từ phía nướu."},
+{b:15,d:1,q:"Móc được tạo thành bởi mấy phần?",o:["2 phần","3 phần","4 phần","5 phần"],a:1,e:"3 phần: phần nâng đỡ, phần ôm, phần giữ."},
+{b:15,d:1,q:"Phần nào của móc nằm DƯỚI đường vòng lớn nhất (ĐVLN)?",o:["Phần nâng đỡ","Phần ôm","Phần giữ (lưu giữ)","Tựa mặt nhai"],a:2,e:"Chỉ phần giữ (cánh tay lưu giữ) nằm dưới ĐVLN ở vùng lẹm. Nâng đỡ và ôm nằm trên ĐVLN."},
+{b:15,d:1,q:"Phần ôm của móc luôn nằm ở đâu so với ĐVLN?",o:["Trên ĐVLN","Dưới ĐVLN","Ngay trên ĐVLN rồi xuống dưới","Không liên quan ĐVLN"],a:0,e:"Phần ôm LUÔN nằm trên ĐVLN, có tác dụng không để răng di chuyển ra khỏi móc."},
+{b:15,d:1,q:"Thành phần nào của phần nâng đỡ tiếp xúc với mặt nhai/rìa cắn/cingulum?",o:["Thân móc","Tựa (rest)","Cánh tay lưu giữ","Thanh nối phụ"],a:1,e:"Tựa mặt nhai tiếp xúc mặt nhai, rìa cắn hoặc cingulum của răng."},
+{b:15,d:1,q:"Đặc tính nào được xem là QUAN TRỌNG NHẤT của móc?",o:["Vững ổn","Nâng đỡ","Giữ dính (retention)","Tính thụ động"],a:2,e:"Giữ dính là đặc tính quan trọng nhất, tạo sự lưu giữ chính cho hàm giả tháo lắp."},
+{b:15,d:1,q:"Móc Akers là móc số mấy của hệ thống Ney?",o:["Số 1","Số 2","Số 3","Số 6"],a:0,e:"Móc Akers là móc số 1 hệ thống Ney, còn gọi simple circlet clasp."},
+{b:15,d:1,q:"Móc nào được xem là thông dụng nhất, đơn giản, dễ làm và dễ sửa chữa?",o:["Móc chữ T","Móc Akers","Móc RPI","Móc Bonwill"],a:1,e:"Móc Akers thông dụng nhất, đơn giản, dễ thực hiện, dễ sửa chữa, dễ lắp."},
+{b:15,d:1,q:"Móc vòng (móc nhẫn) thường được dùng cho răng nào?",o:["Răng cửa","R6, R7 nghiêng, đứng một mình","Răng nanh","Răng cối nhỏ thứ nhất"],a:1,e:"Móc vòng dùng ở R6,7 nghiêng, đứng một mình, đối xứng 2 bên cung hàm."},
+{b:15,d:1,q:"Hệ thống móc Roach được giới thiệu năm nào?",o:["1920","1930","1950","2000"],a:1,e:"Móc Roach giới thiệu năm 1930 bởi Dr. F. Ewing Roach."},
+{b:15,d:1,q:"Móc RPI còn được gọi là móc gì?",o:["Móc Akers","Móc Kratochvil","Móc Bonwill","Móc Nally"],a:1,e:"RPI (Rest–Proximal plate–I bar) còn gọi là móc Kratochvil."},
+{b:15,d:1,q:"Chữ 'I' trong móc RPI là viết tắt của thành phần nào?",o:["Tựa mặt nhai","Tấm trượt phía xa","Tay móc chữ i mặt ngoài","Thanh nối chính"],a:2,e:"RPI: R=Rest (tựa gần), P=Proximal plate (tấm trượt xa), I=I bar (móc chữ i mặt ngoài)."},
+{b:15,d:1,q:"Móc Bonwill còn được gọi là:",o:["Móc đơn","Móc Double Akers (C kép)","Móc chữ Y","Móc onlay"],a:1,e:"Móc Bonwill = Double Akers = C kép = embrasure clasp."},
+{b:15,d:2,q:"Cánh tay đối kháng (tương hỗ) của móc Akers nằm ở đâu?",o:["Mặt hành lang, dưới ĐVLN","Mặt lưỡi/khẩu cái, hoàn toàn trên ĐVLN","Mặt hành lang, trên ĐVLN","Mặt xa, vùng lẹm"],a:1,e:"Tay móc phía lưỡi/khẩu cái là cánh tay đối kháng, hoàn toàn nằm trên ĐVLN. Tay phía hành lang là cánh tay lưu giữ."},
+{b:15,d:2,q:"Cánh tay lưu giữ và cánh tay đối kháng phải tiếp xúc với răng trụ như thế nào khi tháo/lắp hàm?",o:["Cánh tay lưu giữ tiếp xúc trước","Đồng thời","Cánh tay đối kháng tiếp xúc trước","Không cần tiếp xúc"],a:1,e:"Hai cánh tay phải tiếp xúc ĐỒNG THỜI để phần hỗ tương trung hòa lực ngang, bảo vệ răng trụ."},
+{b:15,d:2,q:"Yếu tố nào KHÔNG làm tăng độ đàn hồi của tay móc?",o:["Tăng độ dài tay móc","Giảm đường kính tay móc","Tăng đường kính tay móc","Dùng vật liệu đàn hồi hơn"],a:2,e:"Đường kính NHỎ → đàn hồi lớn. Tăng đường kính làm giảm đàn hồi."},
+{b:15,d:2,q:"Về hình dạng mặt cắt, tay móc nào đàn hồi/lưu giữ tốt hơn?",o:["Bán nguyệt tốt hơn tròn","Tròn tốt hơn bán nguyệt","Vuông tốt hơn tròn","Như nhau"],a:1,e:"Mặt cắt tròn đàn hồi mọi hướng nên lưu giữ tốt hơn bán nguyệt."},
+{b:15,d:2,q:"Móc Akers thường được chỉ định cho răng trụ có vòng đai cực đại số mấy?",o:["Số 1 (ĐVLN thấp phía mất răng, cao phía còn răng)","Số 2 (ĐVLN cao phía mất răng)","Không phụ thuộc vòng đai","Cả số 1 và 2 đều được"],a:0,e:"Móc Akers dùng cho răng có vòng đai cực đại số 1: ĐVLN thấp phía mất răng, lên cao phía còn răng."},
+{b:15,d:2,q:"Móc chữ T (hệ Ney) chỉ định cho mất răng loại nào?",o:["Kennedy III, V","Kennedy I, II","Chỉ Kennedy IV","Không dùng cho yên tự do"],a:1,e:"Móc chữ T dùng cho mất răng loại I, II Kennedy, răng có vòng đai cực đại số 2."},
+{b:15,d:2,q:"Trong móc chữ T (Ney), phần nào của chữ T có tác dụng giữ dính?",o:["Phần trên ĐVLN","Phần dưới ĐVLN","Chân móc","Tựa mặt nhai"],a:1,e:"Phần chữ T dưới ĐVLN → giữ dính; phần trên ĐVLN → ôm."},
+{b:15,d:2,q:"Móc hệ thống Roach chủ yếu được sử dụng trong mất răng loại nào?",o:["Kennedy III và IV","Kennedy I và II","Chỉ Kennedy V","Không dùng cho yên tự do"],a:1,e:"Móc Roach (móc thanh) chủ yếu dùng trong mất răng Kennedy I và II."},
+{b:15,d:2,q:"Trong hệ thống Roach, móc nào cho tác dụng giữ dính TỐT NHẤT?",o:["Móc chữ i và ½ T","Móc chữ T và Y","Móc onlay","Tất cả như nhau"],a:1,e:"Móc chữ T và Y giữ dính tốt nhất; móc i và ½ T ít thấy kim loại (thẩm mỹ hơn)."},
+{b:15,d:2,q:"Móc thanh của hệ Roach thường chỉ được dùng ở nhóm răng nào?",o:["Răng cối lớn","Răng nanh và tiền cối","Răng cửa giữa","Tất cả các răng sau"],a:1,e:"Móc Roach thường chỉ dùng ở răng nanh và tiền cối."},
+{b:15,d:2,q:"Nhược điểm chính của móc RPI là gì?",o:["Không thẩm mỹ","Lưu giữ kém","Khó làm","Gây nghiêng răng trụ"],a:1,e:"Ưu điểm RPI: giảm lực co kéo R trụ, thẩm mỹ; nhược điểm: lưu giữ kém."},
+{b:15,d:2,q:"Móc Bonwill bắt buộc phải làm gì trên răng trụ?",o:["Bọc mão toàn phần","Mài sửa soạn vùng kẽ răng (gờ bên)","Không cần sửa soạn","Đặt implant"],a:1,e:"Móc Bonwill bắt buộc mài sửa soạn gờ bên/vùng kẽ răng cho tay móc băng ngang mặt nhai đủ dày."},
+{b:15,d:2,q:"Móc Nally Martinet thường dùng cho các răng nào?",o:["R1, R2","R3, 4, 5 kế KMR trong Kennedy I và II","R6, R7","Chỉ răng nanh"],a:1,e:"Móc Nally Martinet dùng cho R3,4,5 kế KMR trong Kennedy I và II."},
+{b:15,d:2,q:"Ưu điểm của móc Nally Martinet nhờ đặc điểm nào?",o:["Tay móc ngắn, cứng","Tay móc dài nên đàn hồi, ít gây chấn thương R trụ","Không có tựa","Bọc kín thân răng"],a:1,e:"Tay móc dài → đàn hồi, ít chấn thương R trụ; tựa đặt phía nhai gần tránh nghiêng R trụ."},
+{b:15,d:2,q:"Móc Bonwill được chỉ định dùng trong phần cung hàm như thế nào?",o:["Có nhiều khoảng mất răng","Không có khoảng mất răng (bên còn răng)","Chỉ mất răng sau cùng","Yên tự do 2 bên"],a:1,e:"Bonwill dùng trong phần cung hàm KHÔNG có khoảng mất răng (bên còn răng); chỉ định Kennedy II, IV, V, VI."},
+{b:15,d:2,q:"Biến thể RPA của móc RPI khác RPI ở điểm nào?",o:["Thay tựa gần bằng tựa xa","Thay móc chữ i bằng móc Akers","Bỏ tấm trượt phía xa","Thêm 2 tựa"],a:1,e:"RPA = RPI nhưng thay I-clasp (móc chữ i) bằng móc Akers."},
+{b:15,d:2,q:"Móc multiple circlet (2 móc Akers nối nhau) thường được dùng khi nào?",o:["Răng khỏe mạnh bình thường","Răng mang móc bị bệnh nha chu (như nẹp răng)","Mất răng loại IV","Răng nanh đơn độc"],a:1,e:"Multiple circlet phối hợp 2 móc Akers nối ở đầu cánh tay đối kháng, dùng gia tăng lưu giữ khi răng bị bệnh nha chu, như một dạng nẹp răng."},
+{b:15,d:3,q:"Bệnh nhân mất răng Kennedy I hàm dưới, R5 hai bên làm trụ. Vì sao KHÔNG nên chọn móc Akers cho răng trụ này?",o:["Akers không thẩm mỹ","Akers cứng rắn, tâm xoay ở phía xa gây nghiêng răng trụ khi nhai; hơn nữa Akers cần R còn phía sau","Akers lưu giữ quá mạnh","Akers chỉ dùng cho hàm trên"],a:1,e:"Akers cứng, khi có lực nhai trên yên tự do tâm xoay ở phía xa làm tay móc mặt ngoài gây nghiêng R; Akers chỉ định cho răng còn răng phía sau (loại III,V,VI), không hợp yên tự do."},
+{b:15,d:3,q:"Vì sao móc RPI bảo vệ răng trụ tốt hơn khi có lực nhai trên yên tự do?",o:["Vì móc RPI cứng hơn","Vì tâm xoay ở tựa phía gần, đầu móc chữ i di chuyển về phía gần và xuống dưới, thoát khỏi vùng lẹm","Vì RPI có 2 tựa","Vì RPI ôm >180 độ"],a:1,e:"Khi lực nhai tác động nền hàm xa, hàm xoay quanh tựa phía gần → đầu móc i đi về gần & xuống dưới (thoát lẹm), không ép R trụ → chỉ tạo lực nhẹ."},
+{b:15,d:3,q:"So sánh phản ứng của móc Akers và RPA khi có lực nhai, phát biểu nào ĐÚNG?",o:["Cả hai đều làm nghiêng răng","Akers tâm xoay phía xa gây nghiêng răng; RPA tâm xoay phía gần, tay móc đi về gần và xuống dưới nên tránh nghiêng răng","RPA gây nghiêng răng nhiều hơn Akers","Cả hai đều không ảnh hưởng răng"],a:1,e:"Akers: tâm xoay phía xa → nghiêng răng. RPA/RPI: tâm xoay phía gần → tay móc về phía gần và xuống → tránh nghiêng răng."},
+{b:15,d:3,q:"Một răng cối nhỏ có ĐVLN số 1 ở mặt trong và ĐVLN số 2 ở mặt ngoài, răng hơi nghiêng và xoay. Móc nào phù hợp nhất?",o:["Móc Akers thuần","Móc chữ T thuần","Móc hỗn hợp 1 và 2","Móc vòng"],a:2,e:"Móc hỗn hợp 1 và 2: cánh tay số 2 (chữ T) ở mặt ngoài (ĐVLN số 2), cánh tay số 1 ở mặt trong (ĐVLN số 1) — hợp với răng nghiêng xoay, chỉ định K II, III."},
+{b:15,d:3,q:"Tại sao khi thiết kế cần cân nhắc mức độ lưu giữ dù vùng lẹm càng lớn thì lưu giữ càng tốt?",o:["Vì vùng lẹm lớn làm móc dễ gãy do đàn hồi kém","Vì vùng lẹm quá sâu tạo lực đối kháng lớn, khi tháo lắp tay móc tì qua ĐVLN mạnh, gây hại răng trụ","Vì lưu giữ mạnh làm hàm không tháo được","Vì thẩm mỹ kém"],a:1,e:"Vùng lẹm quá sâu → lực đối kháng lớn trên răng trụ → khi tháo/lắp lực tì tay móc qua ĐVLN càng lớn → hại răng trụ. Phải chọn mức lưu giữ (thường lẹm độ 1,2,3) phù hợp."},
+{b:15,d:3,q:"Bệnh nhân cần phục hình nhưng răng trụ mang móc có bệnh nha chu, muốn nẹp giữ nhóm răng. Giải pháp móc nào hợp lý?",o:["Móc RPI","Móc multiple circlet (2 Akers nối nhau)","Móc chữ i","Móc onlay"],a:1,e:"Multiple circlet nối 2 móc Akers ở đầu cánh tay đối kháng, gia tăng lưu giữ và có tác dụng như nẹp răng khi răng bị bệnh nha chu."},
+{b:15,d:3,q:"Vì sao móc thuộc hệ thống móc vòng đúc (cast circumferential) có tính vững ổn tốt hơn móc thanh?",o:["Vì móc vòng dài hơn","Vì móc vòng có phần vai (shoulder) cứng chắc, còn móc thanh không có phần vai","Vì móc thanh không có tựa","Vì móc vòng bằng vàng"],a:1,e:"Móc vòng đúc vững ổn tốt hơn nhờ cấu tạo cứng chắc của phần vai; móc dây rèn có vai đàn hồi, móc thanh không có vai nên ít vững ổn hơn."},
+{b:15,d:3,q:"Đặc tính 'ôm >180 độ' của móc nhằm mục đích gì?",o:["Tăng lưu giữ theo chiều dọc","Chống lại sự di chuyển theo chiều ngang của răng trụ, tránh răng thoát khỏi móc","Tăng nâng đỡ","Giảm lực nhai"],a:1,e:"Ôm quanh răng >180° (bằng điểm tiếp xúc liên tục/không liên tục) giúp chống di chuyển ngang của răng trụ, tránh răng thoát khỏi móc."},
+{b:15,d:3,q:"Một R cối lớn có ĐVLN thấp mặt lưỡi, cần đặt phần cứng của móc lên đó mà không cộm khi cắn. Móc Ney nào phù hợp?",o:["Móc Akers","Móc vòng","Móc tác dụng phía sau","Móc chữ T"],a:2,e:"Móc tác dụng phía sau chỉ định cho răng có ĐVLN đi thấp mặt lưỡi để đặt phần cứng của móc mà không cộm khi cắn lại; đường này lên cao dần ở phía xa và ngoài."},
+{b:15,d:3,q:"Phát biểu nào về tính thụ động (passivity) của móc là ĐÚNG và ý nghĩa của nó?",o:["Móc luôn tạo lực ép để giữ răng chặt","Móc không tạo lực lên răng khi phục hình đã vào đúng vị trí, quan trọng cho mô nha chu răng trụ","Móc chỉ thụ động khi tháo hàm","Tính thụ động làm giảm lưu giữ"],a:1,e:"Tính thụ động: móc không tạo lực lên răng khi phục hình vào đúng vị trí → bảo vệ mô nha chu răng trụ; chỉ khi tháo/lắp móc mới tạm biến dạng."},
+{b:15,d:3,q:"Vì sao đầu tận cùng của cánh tay lưu giữ được làm càng nhỏ, dẻo và dễ uốn?",o:["Để tăng nâng đỡ","Vì nó nằm vùng lẹm và cần đàn hồi để vượt ĐVLN mà không gây lực quá lớn lên răng","Để cứng hơn thân móc","Để tăng thẩm mỹ"],a:1,e:"Đầu cánh tay lưu giữ nằm dưới ĐVLN (vùng lẹm), càng ra tận cùng càng nhỏ/dẻo/dễ uốn để đàn hồi vượt qua ĐVLN, tạo lưu giữ mà không gây lực có hại."},
+{b:15,d:3,q:"Bệnh nhân mất răng Kennedy II, bên còn răng đủ răng (không có KMR). Cần thêm lưu giữ ở bên còn răng. Móc nào thường được chọn và vì sao?",o:["Móc RPI vì thẩm mỹ","Móc Bonwill vì tạo lưu giữ kép, chỉ cần 1 thanh nối phụ nối với thanh chính","Móc Nally vì đàn hồi","Móc chữ i vì ít kim loại"],a:1,e:"Ở bên cung hàm không có KMR, dùng móc Bonwill (2 tựa dính liền) tạo lưu giữ kép, chỉ cần MỘT thanh nối phụ nối với thanh chính để trợ giúp lưu giữ."},
+{b:15,d:2,q:"Thành phần hỗ tương (reciprocation) của móc nằm ở đâu và có vai trò gì?",o:["Dưới ĐVLN, tạo lưu giữ","Trên ĐVLN, trung hòa lực ngang do phần lưu giữ tạo ra","Ở mặt nhai, nâng đỡ","Ở nền hàm, chống lún"],a:1,e:"Thành phần hỗ tương nằm trên ĐVLN, trung hòa lực ngang do phần lưu giữ tạo ra; có thể là tay móc, thanh nối phụ hoặc bản lưỡi."},
+{b:15,d:1,q:"Thân móc là phần có đặc điểm gì?",o:["Mỏng và đàn hồi nhất","Cứng và dày nhất, nối tựa mặt nhai với thanh nối phụ","Nằm dưới ĐVLN","Không tiếp xúc răng"],a:1,e:"Thân móc là phần cứng chắc, dày nhất, nối tựa mặt nhai với thanh nối phụ."},
+// ===== BÀI 16 · SỬA SOẠN RĂNG TRỤ =====
+{b:16,d:1,q:"Ba bước sửa soạn răng trụ cho hàm khung bộ theo thứ tự là:",o:["Sửa soạn ổ tựa → MPHD → điều chỉnh ĐVLN","Sửa soạn MPHD → điều chỉnh ĐVLN → sửa soạn ổ tựa","Điều chỉnh ĐVLN → ổ tựa → MPHD","Ổ tựa → điều chỉnh ĐVLN → MPHD"],a:1,e:"Thứ tự: (1) Sửa soạn mặt phẳng hướng dẫn → (2) Điều chỉnh ĐVLN → (3) Sửa soạn ổ tựa."},
+{b:16,d:1,q:"Khi mài sửa soạn răng trụ, tốt nhất là:",o:["Mài sâu vào ngà","Không vượt quá lớp men","Mài đến tủy","Không cần giới hạn"],a:1,e:"Tốt nhất không vượt quá lớp men; sau khi mài phải đánh bóng và bôi fluor tại chỗ."},
+{b:16,d:1,q:"Sau khi mài sửa soạn răng trụ, mặt sửa soạn cần được:",o:["Để tự nhiên","Đánh bóng và bôi fluor tại chỗ","Trám composite","Bọc mão ngay"],a:1,e:"Sau khi mài, mặt sửa soạn cần đánh bóng và bôi fluor tại chỗ để bảo vệ men."},
+{b:16,d:1,q:"Nếu mài quá lớp men, xâm phạm vào mô ngà thì nên:",o:["Bôi thêm fluor là đủ","Xem xét chỉ định bọc mão","Bỏ qua","Trám amalgam"],a:1,e:"Nếu mài quá lớp men xâm phạm mô ngà → xem xét chỉ định bọc mão."},
+{b:16,d:1,q:"Mặt phẳng hướng dẫn (MPHD) là gì?",o:["Mặt phẳng vuông góc răng trụ","Các mặt phẳng song song với nhau ảnh hưởng đến hướng tháo lắp hàm","Mặt nhai của răng trụ","Bờ nướu viền"],a:1,e:"MPHD là các mặt phẳng song song với nhau nằm trên răng trụ/phục hình cố định, ảnh hưởng hướng tháo lắp của hàm phục hình."},
+{b:16,d:1,q:"Tựa (rest) là thành phần có tính chất gì của khung sườn?",o:["Mềm, đàn hồi","Cứng, ổn định","Nằm dưới ĐVLN","Không tiếp xúc răng"],a:1,e:"Tựa là thành phần cứng, ổn định của khung sườn đặt vào ổ tựa trên các răng còn lại."},
+{b:16,d:1,q:"Tựa mặt nhai được sửa soạn ở vị trí nào của răng?",o:["Trũng gờ bên gần hoặc xa","Đỉnh múi","Mặt ngoài cổ răng","Mặt nhai trung tâm hoàn toàn"],a:0,e:"Ổ tựa mặt nhai cong lõm, nằm ở trũng gờ bên gần hoặc xa."},
+{b:16,d:1,q:"Loại tựa nào thông dụng nhất?",o:["Tựa cingulum","Tựa rìa cắn","Tựa mặt nhai","Tựa mặt ngoài"],a:2,e:"Tựa mặt nhai là loại tựa thông dụng nhất."},
+{b:16,d:1,q:"Ổ tựa được sửa soạn bằng dụng cụ nào?",o:["Tay khoan nhanh với lực nhẹ","Cây nạo","Đục","Tay khoan chậm lực mạnh"],a:0,e:"Sửa soạn ổ tựa bằng tay khoan nhanh với lực nhẹ; thực hiện hoàn toàn trong men thì tốt nhất."},
+{b:16,d:1,q:"Tựa cingulum thường được đặt ở răng nào?",o:["Răng cửa giữa","Răng nanh","Răng cối lớn","Răng cối nhỏ"],a:1,e:"Tựa cingulum thường đặt ở răng nanh vì chân răng nanh dài/lớn, chân răng cửa yếu."},
+{b:16,d:1,q:"Tựa rìa cắn (cạnh cắn) có đặc điểm gì?",o:["Thông dụng nhất","Ít dùng vì không thẩm mỹ và dễ làm răng trụ nghiêng","Chỉ dùng răng cối","Rất bền"],a:1,e:"Tựa rìa cắn ít dùng vì không thẩm mỹ và dễ làm răng trụ nghiêng."},
+{b:16,d:2,q:"Mục đích của sửa soạn MPHD KHÔNG bao gồm điều nào?",o:["Giới hạn hướng lắp còn 1 hướng (single path)","Tránh nhồi nhét thức ăn","Tạo sự hỗ tương đối kháng","Tăng độ lưu giữ bằng cách tạo vùng lẹm sâu"],a:3,e:"MPHD nhằm giới hạn hướng lắp, tránh nhồi nhét thức ăn, tạo hỗ tương đối kháng, thẩm mỹ — không nhằm tạo vùng lẹm sâu (đó là việc của phần lưu giữ)."},
+{b:16,d:2,q:"MPHD nên nằm ở vị trí nào của thân răng lâm sàng khi nhìn từ phía gần/xa?",o:["1/3 nhai","1/3 giữa","1/3 cổ","Toàn bộ thân răng"],a:1,e:"MPHD nên nằm ở 1/3 giữa của thân răng lâm sàng khi nhìn từ phía gần hoặc xa."},
+{b:16,d:2,q:"Chiều cao MPHD cho răng trụ kế KMR với phần hàm MỞ RỘNG phía xa (yên tự do) là:",o:["1,5-2 mm","2-4 mm","4-6 mm","Toàn bộ thân răng"],a:0,e:"Yên mở rộng phía xa: MPHD từ 1,5-2 mm chiều cao."},
+{b:16,d:2,q:"Chiều cao MPHD cho răng trụ kế KMR với phần hàm NÂNG ĐỠ TRÊN RĂNG (còn răng 2 đầu) là:",o:["0,5-1 mm","1,5-2 mm","2-4 mm (½-⅓ thân răng)","Toàn bộ chiều cao"],a:2,e:"Yên nâng đỡ trên răng (Kennedy III): MPHD ít nhất ½-⅓ chiều cao thân răng, thường 2-4 mm."},
+{b:16,d:2,q:"Mài sửa soạn MPHD phải theo nguyên tắc nào?",o:["Mài phẳng dẹt","Mài theo độ cong của thân răng","Mài lõm sâu","Cắt vuông góc"],a:1,e:"Mài sửa soạn MPHD theo độ cong của thân răng."},
+{b:16,d:2,q:"Góc tạo bởi sàn ổ tựa mặt nhai và thành bên của răng nên là:",o:["Đúng 90°","Nhỏ hơn 90°","Lớn hơn 90°","120°"],a:1,e:"Góc < 90° để lực nhai truyền theo trục răng; không tạo góc nhọn/vuông vì dễ gãy tựa."},
+{b:16,d:2,q:"Độ sâu của ổ tựa mặt nhai để đảm bảo tựa đủ dày, tránh gãy là:",o:["0,5 mm","1,5-2 mm","3-4 mm","5 mm"],a:1,e:"Độ sâu ổ tựa mặt nhai 1,5-2 mm để tựa đủ dày, tránh gãy khi thực hiện chức năng nhai."},
+{b:16,d:2,q:"Đường kính ổ tựa mặt nhai nhìn từ mặt nhai (răng cối nhỏ - răng cối lớn) khoảng:",o:["1 - 1,5 mm","2 - 2,5 mm","3 - 3,5 mm","4 - 5 mm"],a:1,e:"Đường kính ổ tựa mặt nhai: 2 mm (răng cối nhỏ) - 2,5 mm (răng cối lớn)."},
+{b:16,d:2,q:"Kích thước gần-xa của ổ tựa mặt nhai so với răng trụ là:",o:["1/4 - 1/3 R trụ","1/3 - 1/2 R trụ","1/2 - 2/3 R trụ","Toàn bộ R trụ"],a:1,e:"Kích thước ổ tựa: gần-xa = 1/3-1/2 R trụ; ngoài-trong ≈ 1/2 R trụ."},
+{b:16,d:2,q:"Hình dạng của ổ tựa mặt nhai là:",o:["Hình vuông","Tam giác tròn, đỉnh hướng về trung tâm mặt nhai","Hình chữ nhật","Hình sao"],a:1,e:"Ổ tựa mặt nhai hình tam giác tròn với đỉnh hướng về trung tâm mặt nhai."},
+{b:16,d:2,q:"Nếu dùng mũi khoan tròn để sửa soạn ổ tựa, cần lưu ý gì?",o:["Không cần lưu ý","Chú ý tránh tạo các vùng lẹm, nên hoàn tất bằng mũi trụ thuôn","Mài thật sâu","Tạo góc nhọn"],a:1,e:"Mũi khoan tròn dễ tạo vùng lẹm → nên dùng mũi trụ thuôn đầu tròn để tránh vùng lẹm."},
+{b:16,d:2,q:"Kiểm tra độ sâu ổ tựa bằng sáp cắn, sáp thỏi có kích thước khoảng:",o:["Dày 1 mm, đường kính 5 mm","Dày 4 mm, đường kính 15 mm","Dày 10 mm, đường kính 30 mm","Dày 2 mm, đường kính 8 mm"],a:1,e:"Dùng sáp thỏi dày ~4 mm, đường kính ~15 mm đặt vùng sửa soạn cho bệnh nhân cắn."},
+{b:16,d:2,q:"Ổ tựa kẽ răng (embrasure) dùng cho móc Bonwill cần mài khoảng trống phía má và lưỡi:",o:["Rộng 1 mm, sâu 0,5 mm","Rộng 2 mm, sâu 1,5 mm","Rộng 4 mm, sâu 3 mm","Rộng 5 mm, sâu 2 mm"],a:1,e:"Ổ tựa kẽ răng: mài đủ khoảng trống phía má và lưỡi rộng 2 mm, sâu 1,5 mm; tránh làm mất điểm tiếp xúc."},
+{b:16,d:2,q:"Hình dạng tựa cingulum khi nhìn từ phía trong và từ mặt bên lần lượt là:",o:["Hình tròn và hình vuông","Hình liềm và hình V","Hình V và hình liềm","Hình tam giác và hình chữ nhật"],a:1,e:"Tựa cingulum: hình liềm khi nhìn từ phía trong, hình V khi nhìn từ mặt bên."},
+{b:16,d:2,q:"Hoàn tất sửa soạn tựa cingulum thường dùng dụng cụ gì?",o:["Mũi kim cương thô","Mũi đá xanh với tay khoan chậm, đánh bóng bằng bánh xe cao su","Đục men","Giấy nhám thô"],a:1,e:"Hoàn tất tựa cingulum bằng mũi đá xanh với tay khoan chậm, đánh bóng và làm tròn với bánh xe cao su."},
+{b:16,d:2,q:"Mục đích chính của điều chỉnh ĐVLN là gì?",o:["Tăng độ dày men","Điều chỉnh vị trí đặt tay móc và loại bỏ vùng vướng khi đặt thanh nối chính","Tạo ổ tựa","Bọc mão"],a:1,e:"Điều chỉnh ĐVLN nhằm điều chỉnh vị trí đặt tay móc và loại bỏ các vùng vướng khi đặt thanh nối chính."},
+{b:16,d:2,q:"Răng sau HÀM TRÊN thường có xu hướng nghiêng theo hướng nào gây khó khăn cho tay móc lưu giữ?",o:["Nghiêng trong","Nghiêng ngoài → tay móc lưu giữ không thẩm mỹ","Nghiêng gần","Không nghiêng"],a:1,e:"Răng sau hàm trên có xu hướng nghiêng ngoài → tay móc lưu giữ không thẩm mỹ."},
+{b:16,d:2,q:"Răng sau HÀM DƯỚI thường có xu hướng nghiêng theo hướng nào?",o:["Nghiêng ngoài","Nghiêng trong → khó đặt tay móc đối kháng/thanh nối chính mặt trong","Nghiêng xa","Không nghiêng"],a:1,e:"Răng sau hàm dưới nghiêng trong → khó đặt tay móc đối kháng/thanh nối chính mặt trong."},
+{b:16,d:1,q:"Kích thước gần-xa của tựa cingulum ở răng nanh HÀM TRÊN là:",o:["1-1,5 mm","2,5-3 mm","4-5 mm","0,5 mm"],a:1,e:"Tựa cingulum R nanh hàm trên: gần-xa 2,5-3 mm, sâu 1,5 mm."},
+{b:16,d:2,q:"Vì sao khi làm tựa cingulum ở răng nanh HÀM DƯỚI cần chụp X-quang?",o:["Để xem tủy","Để xem chiều dày men răng trước (mỏng)","Để đo chiều dài chân","Không cần thiết"],a:1,e:"R nanh dưới: gần-xa 2-2,5 mm, sâu 1 mm; cần chụp XQ để xem chiều dày men răng trước (men mỏng)."},
+{b:16,d:2,q:"Để ít ảnh hưởng thẩm mỹ, tựa rìa cắn nên đặt ở đâu?",o:["Phía gần răng nanh","Phía xa răng nanh","Giữa rìa cắn răng cửa","Bất kỳ"],a:1,e:"Để ít ảnh hưởng thẩm mỹ, tựa rìa cắn nên đặt ở phía xa răng nanh."},
+{b:16,d:3,q:"Bệnh nhân có răng nanh dùng làm tựa cingulum. Sàn ổ tựa rìa cắn (nếu dùng) tạo góc thế nào so với thanh nối phụ và tại sao?",o:["Góc >90° để dễ tháo","Góc <90° để tạo hố tựa dễ nằm vào, tránh trượt ra","Góc 90° cho vững","Không tạo góc"],a:1,e:"Sàn ổ tựa rìa cắn tạo góc nhỏ hơn 90° so với thanh nối phụ để tạo hố tựa dễ mắc vào, tránh thanh nối phụ trượt ra."},
+{b:16,d:3,q:"Vì sao góc giữa sàn ổ tựa mặt nhai và thành bên < 90° lại quan trọng về mặt cơ học?",o:["Để tựa mỏng hơn","Để lực nhai truyền dọc theo trục răng trụ thay vì gây lực trượt làm nghiêng răng","Để dễ tháo hàm","Để tăng thẩm mỹ"],a:1,e:"Góc < 90° (sàn nghiêng về trung tâm răng) giúp lực nhai truyền theo trục răng; nếu góc >90° hoặc vuông, lực sẽ trượt gây nghiêng răng hoặc làm tựa trượt ra."},
+{b:16,d:3,q:"Vì sao sửa soạn ổ tựa nên thực hiện SAU khi sửa soạn mặt phẳng hướng dẫn?",o:["Vì ổ tựa dễ làm hơn","Vì MPHD định hướng tháo lắp; ổ tựa phải phù hợp hướng đó, tránh cản trở khớp cắn","Vì thứ tự không quan trọng","Vì ổ tựa cần gây tê trước"],a:1,e:"MPHD xác định hướng tháo lắp; sửa soạn ổ tựa sau để phù hợp và không cản trở khớp cắn (nếu sửa ổ tựa nông thì trám lại phần dày = chỉnh khớp)."},
+{b:16,d:3,q:"Bệnh nhân có ĐVLN răng trụ đi gần mặt nhai. Khi điều chỉnh, hướng xử trí hợp lý là:",o:["Bọc mão ngay","Chỉ cần mài bớt nhẹ vì ĐVLN đã gần mặt nhai","Mài sâu vào ngà","Nhổ răng"],a:1,e:"Nếu ĐVLN đi về đâu thì chỉnh về đó; ĐVLN gần mặt nhai thì chỉ cần mài bớt nhẹ. Chỉ khi mài mà độ dày quá lớn (lộ ngà nhiều) mới nên bọc mão."},
+{b:16,d:3,q:"Vì sao thực hiện sửa soạn ổ tựa hoàn toàn trong men là tốt nhất?",o:["Để tựa cứng hơn","Để tránh phải gây tê (không xâm phạm ngà nhạy cảm)","Để tăng lưu giữ","Để dễ đánh bóng"],a:1,e:"Thực hiện hoàn toàn trong men thì tốt nhất để tránh phải gây tê, vì không xâm phạm mô ngà nhạy cảm."},
+{b:16,d:3,q:"Một răng trụ răng cửa dưới men ở cingulum mỏng, chân yếu. Nếu buộc phải dùng tựa ở đó, cách xử trí hợp lý là:",o:["Mài sâu tạo ổ tựa lớn","Phối hợp với tấm bản lưỡi hoặc bản khẩu cái","Không dùng tựa","Bọc mão toàn hàm"],a:1,e:"Nếu dùng tựa ở răng cửa (men cingulum mỏng) thường phối hợp với tấm bản lưỡi hoặc bản khẩu cái để phân tán lực."},
+{b:16,d:3,q:"Tại sao khi làm ổ tựa kẽ răng cho móc Bonwill phải tránh làm mất điểm tiếp xúc giữa 2 răng?",o:["Vì thẩm mỹ","Vì điểm tiếp xúc giữ ổn định răng và tránh nhồi nhét thức ăn giữa 2 răng","Vì để móc chặt hơn","Không quan trọng"],a:1,e:"Ổ tựa kẽ răng đi từ hố bên gần răng này đến hố bên xa răng bên cạnh nhưng phải giữ điểm tiếp xúc để duy trì ổn định răng và tránh nhồi nhét thức ăn."},
+{b:16,d:3,q:"Mục đích tổng hợp của bước sửa soạn răng trụ là để hàm khung cung cấp được các yếu tố nào?",o:["Chỉ lưu giữ","Nâng đỡ, ổn định, tương hỗ và lưu giữ","Chỉ thẩm mỹ","Chỉ nâng đỡ"],a:1,e:"Sửa soạn răng trụ để cung cấp sự nâng đỡ, ổn định, tương hỗ và lưu giữ cho hàm PHTLBPKB."},
+{b:16,d:2,q:"Tấm trượt phía sau nền hàm giả tiếp xúc với răng trụ trong phục hình có phần mở rộng phía xa gọi là:",o:["Guide plane","Guide plate (tấm trượt)","Rest seat","Major connector"],a:1,e:"MPHD-R trụ = guide plane/surface; tấm trượt-hàm giả = guide plate."},
+{b:16,d:2,q:"Sửa soạn ĐVLN thường dùng mũi khoan gì và làm nhẵn bằng gì?",o:["Mũi tròn; giấy nhám","Mũi kim cương trụ thuôn; làm nhẵn bằng bánh xe/đầu cao su đánh bóng","Đục; nước","Mũi cắt; khoan chậm"],a:1,e:"Điều chỉnh ĐVLN bằng mũi kim cương trụ thuôn, làm nhẵn bằng bánh xe/đầu cao su đánh bóng."},
+{b:16,d:1,q:"Chức năng của tựa KHÔNG bao gồm:",o:["Tạo nâng đỡ theo chiều dọc","Ngăn cản trồi răng trụ","Truyền lực nhai theo trục răng","Tạo lưu giữ chính chống bật hàm"],a:3,e:"Lưu giữ chống bật hàm là chức năng của móc (phần giữ), không phải tựa. Tựa: nâng đỡ dọc, ngăn trồi răng, truyền lực theo trục, chống lún."},
+{b:16,d:2,q:"Tựa có thể đóng vai trò VẬT GIỮ GIÁN TIẾP trong trường hợp nào?",o:["Hàm hoàn toàn tựa răng","Hàm giả có phần mở rộng phía xa (yên tự do)","Hàm cố định","Không bao giờ"],a:1,e:"Tựa đóng vai trò vật giữ gián tiếp ở các hàm giả có phần mở rộng phía xa (yên tự do)."},
+{b:16,d:3,q:"Khi sửa soạn tựa cingulum, đường sửa soạn đi như thế nào?",o:["Chỉ ở trung tâm cingulum","Bắt đầu từ 1 gờ bên, băng qua cingulum, kết thúc ở gờ bên đối diện","Từ rìa cắn xuống cổ","Vòng quanh toàn răng"],a:1,e:"Sửa soạn tựa cingulum bắt đầu từ 1 gờ bên, băng qua cingulum và kết thúc ở gờ bên đối diện; làm tròn các góc."},
+// ===== BÀI 17 · VẬT GIỮ GIÁN TIẾP =====
+{b:17,d:1,q:"Hàm giả tựa hoàn toàn trên răng (tựa + tay móc ở cả 2 R trụ giới hạn 2 đầu KMR) tương ứng loại mất răng nào?",o:["Kennedy I","Kennedy II","Kennedy III","Kennedy IV"],a:2,e:"Kennedy III có răng trụ giới hạn 2 đầu KMR → hàm tựa hoàn toàn trên răng."},
+{b:17,d:1,q:"Hàm giả 'vừa tựa lên răng vừa tựa lên mô' tương ứng loại mất răng nào?",o:["Chỉ Kennedy III","Kennedy I, II, IV","Chỉ Kennedy V","Không loại nào"],a:1,e:"KMR chỉ có răng trụ giới hạn ở 1 đầu (Kennedy I, II, IV) → hàm vừa tựa răng vừa tựa mô → có chuyển động xoay."},
+{b:17,d:1,q:"Vật giữ gián tiếp (VGGT) tiếng Anh là:",o:["Direct retainer","Indirect retainer","Major connector","Rest seat"],a:1,e:"Vật giữ gián tiếp = Indirect retainer."},
+{b:17,d:1,q:"Trục xoay (fulcrum line) đi qua thành phần nào?",o:["Nền hàm giả","Tựa mặt nhai của các răng trụ","Thanh nối chính","Bờ nướu"],a:1,e:"Trục xoay băng qua tựa mặt nhai của các răng trụ."},
+{b:17,d:1,q:"VGGT được đặt như thế nào so với trục xoay?",o:["Ngay trên trục xoay","Đối diện với trục xoay (xa trục xoay)","Trên nền hàm giả","Trên yên tự do"],a:1,e:"VGGT đặt trên răng còn lại đối diện với trục xoay để tạo lực đối kháng chống xoay."},
+{b:17,d:1,q:"Chức năng CHÍNH của vật giữ gián tiếp là:",o:["Truyền lực nhai theo trục","Ngăn cản sự quay của hàm quanh một trục","Lưu giữ chống bật hàm theo hướng lắp","Tạo mặt phẳng hướng dẫn"],a:1,e:"Chức năng chính của VGGT là ngăn cản sự quay (xoay) của hàm quanh một trục."},
+{b:17,d:1,q:"Hình thức VGGT hay gặp nhất là:",o:["Tựa cingulum răng cửa","Tựa mặt nhai phụ ở răng tiền cối","Thanh môi","Bản toàn diện"],a:1,e:"Tựa mặt nhai phụ ở răng tiền cối là hình thức VGGT hay gặp nhất."},
+{b:17,d:2,q:"Trong hàm khung yên tự do, dưới lực dọc, răng trụ và niêm mạc lún khác nhau khoảng bao nhiêu?",o:["Răng trụ 1 mm; niêm mạc 0,1 mm","Răng trụ ~0,1 mm (1/10); niêm mạc 0,4-2 mm","Cả hai lún 1 mm","Cả hai lún như nhau"],a:1,e:"Răng trụ lún ~1/10 mm còn niêm mạc lún 4/10-2 mm; chênh lệch này tạo chuyển động xoay."},
+{b:17,d:2,q:"Nguyên lý đòn bẩy của VGGT: F, E, R lần lượt là gì?",o:["F=lực, E=điểm tựa, R=phản lực","F=điểm tựa (trục xoay), E=lực làm bật hàm, R=phản lực của VGGT","F=răng, E=nền, R=móc","F=lún, E=xoay, R=trồi"],a:1,e:"F (fulcrum) = điểm tựa/trục xoay; E (effort) = lực làm bật/nâng hàm; R (resistance) = phản lực của VGGT."},
+{b:17,d:2,q:"Trong mất răng loại II Kennedy, trục xoay đi theo hướng nào?",o:["Ngang song song cung răng","Đường chéo qua mặt xa răng còn lại phía xa nhất","Vuông góc cung răng","Không có trục xoay"],a:1,e:"Kennedy II: trục xoay là đường chéo, đi qua mặt xa của răng còn lại phía xa nhất."},
+{b:17,d:2,q:"Trong mất răng loại IV, hàm xoay theo chiều nào?",o:["Xoay đứng dọc phía xa","Xoay đứng dọc phía gần","Không xoay","Chỉ xoay ngang"],a:1,e:"Kennedy IV (mất răng trước): hàm xoay theo chiều đứng dọc phía gần."},
+{b:17,d:2,q:"Yếu tố nào KHÔNG ảnh hưởng đến biên độ chuyển động xoay của hàm yên tự do?",o:["Chất lượng/độ dày/tính đàn hồi mô niêm mạc","Sự chính xác của nền hàm","Lực đặt vào","Màu sắc răng giả"],a:3,e:"Biên độ xoay tùy: mô niêm mạc (chất lượng, độ dày, đàn hồi), độ chính xác nền hàm, lực đặt vào. Màu răng không liên quan."},
+{b:17,d:2,q:"Răng như thế nào KHÔNG được dùng để đặt vật giữ gián tiếp?",o:["Răng khỏe, chân dài","Răng nghiêng hoặc yếu","Răng thẳng, không lung lay","Răng có mô nha chu mạnh"],a:1,e:"Răng nghiêng/yếu không được dùng để đặt VGGT; cần răng đủ dài, đủ khỏe, không lung lay, thẳng."},
+{b:17,d:2,q:"Tựa mặt nhai trên răng trụ chính phải được giữ trong ổ tựa nhờ thành phần nào?",o:["Thanh nối chính","Cánh tay lưu giữ của móc (vật giữ trực tiếp)","Nền hàm","Răng giả"],a:1,e:"Tựa mặt nhai được giữ trong ổ tựa nhờ cánh tay lưu giữ của vật giữ trực tiếp (móc)."},
+{b:17,d:2,q:"Hình thức VGGT nào dùng khi răng cối nhỏ quá gần trục xoay?",o:["Tựa mặt nhai phụ răng tiền cối","Tựa cingulum răng nanh","Thanh môi","Bản toàn diện"],a:1,e:"Khi răng cối nhỏ quá gần trục xoay → dùng tựa cingulum răng nanh (xa trục xoay hơn)."},
+{b:17,d:2,q:"Về mặt kỹ thuật, thanh cingulum và tấm bản lưỡi có phải là VGGT không?",o:["Có, chúng là VGGT","Không phải VGGT; VGGT thực sự là tựa mặt nhai/tựa cingulum răng nanh ở 2 đầu","Chỉ tấm bản lưỡi là VGGT","Chỉ thanh cingulum là VGGT"],a:1,e:"Về kỹ thuật, thanh cingulum/tấm bản lưỡi không phải VGGT; VGGT là tựa mặt nhai hoặc tựa cingulum răng nanh ở 2 đầu."},
+{b:17,d:2,q:"Thanh cingulum/tấm bản lưỡi không nên đặt quá phần nào của răng để tránh làm nghiêng răng?",o:["Phần ba cổ","Phần ba giữa","Phần ba cắn","Rìa cắn"],a:1,e:"Không đặt quá phần ba giữa của răng để tránh làm nghiêng răng."},
+{b:17,d:3,q:"Bệnh nhân Kennedy I hàm trên, trục xoay qua tựa mặt nhai 2 răng trụ gần R4. Vị trí đặt VGGT hợp lý nhất là:",o:["Ngay trên trục xoay","Cingulum răng nanh / hố giữa phía trước (xa trục xoay)","Trên yên tự do phía xa","Trên răng cối lớn phía sau"],a:1,e:"VGGT phải đặt càng xa trục xoay càng tốt để cánh tay đòn dài → chống xoay hiệu quả. Ở Kennedy I trục xoay ở sau nên VGGT đặt phía trước."},
+{b:17,d:3,q:"Vì sao khoảng cách từ VGGT đến trục xoay càng LỚN thì càng tốt?",o:["Vì đẹp hơn","Vì cánh tay đòn dài hơn tạo lực đối kháng lớn hơn với cùng lực bật, chống xoay hiệu quả hơn","Vì đỡ tốn kim loại","Vì răng chắc hơn"],a:1,e:"Theo nguyên lý đòn bẩy, VGGT càng xa trục xoay → cánh tay đòn càng dài → lực đối kháng (R) chống xoay càng hiệu quả."},
+{b:17,d:3,q:"Nếu độ cứng của thanh nối với VGGT không đảm bảo (thanh mềm), hậu quả là gì?",o:["VGGT hoạt động tốt hơn","Lực không được truyền đủ nên VGGT không phát huy tác dụng chống xoay","Không ảnh hưởng","Răng trụ chắc hơn"],a:1,e:"Độ cứng của thanh nối với VGGT là yếu tố ảnh hưởng; thanh mềm sẽ tự uốn, không truyền đủ lực, VGGT mất tác dụng chống xoay."},
+{b:17,d:3,q:"Trong hàm giả tựa hoàn toàn trên răng (Kennedy III), tại sao thường KHÔNG cần VGGT?",o:["Vì răng trụ yếu","Vì hàm có tựa + tay móc ở cả 2 đầu KMR nên không có chuyển động xoay quanh 1 trục","Vì không có lực nhai","Vì hàm nhỏ"],a:1,e:"Kennedy III tựa hoàn toàn trên răng (2 đầu KMR đều có tựa+móc) nên hàm được giữ vững ổn, không xoay quanh 1 trục → không cần VGGT."},
+{b:17,d:3,q:"Bệnh nhân có thói quen nhai một bên, khoảng cách sai. VGGT giúp ích gì trong tình huống này?",o:["Tăng thẩm mỹ","Hạn chế hàm di chuyển theo chiều ngang, kiểm soát tốt để bệnh nhân nhai đều 2 bên","Tăng lưu giữ dọc","Thay răng giả"],a:1,e:"Một chức năng của VGGT là hạn chế hàm di chuyển theo chiều ngang; giúp kiểm soát khoảng cách để bệnh nhân nhai đều 2 bên."},
+{b:17,d:3,q:"VGGT là một thanh phụ ở răng cửa trước sẽ có thêm tác dụng gì?",o:["Chống di chuyển của răng trước về phía lưỡi","Tăng lún hàm","Giảm nâng đỡ","Làm răng trước nghiêng ngoài"],a:0,e:"Nếu VGGT là thanh phụ ở răng cửa trước → chống sự di chuyển của răng trước về phía lưỡi."},
+{b:17,d:3,q:"Trong mất răng loại II, VGGT thường đặt ở đâu để chống lực xoay?",o:["Trên yên tự do","Ở răng kế cận đối bên (chống lại đường chéo trục xoay)","Trên chính răng trụ giới hạn","Không cần"],a:1,e:"Kennedy II: trục xoay là đường chéo; VGGT đặt ở răng kế cận đối bên để tạo đối kháng chống xoay."},
+{b:17,d:3,q:"Tựa mặt nhai VGGT có thêm tác dụng gợi ý điều gì cho bác sĩ về nền hàm mở rộng?",o:["Gợi ý thay răng giả","Gợi ý về việc cần làm lại (relining) nền hàm mở rộng","Gợi ý nhổ răng","Không có ý nghĩa"],a:1,e:"VGGT là tựa mặt nhai có tác dụng chống lún hàm và giúp gợi ý về việc làm lại nền hàm mở rộng (khi hàm bắt đầu lún, VGGT giúp phát hiện)."},
+{b:17,d:3,q:"Trong hàm khung Kennedy IV (mất răng trước), đặt VGGT ở đâu để chặn lực xoay hiệu quả nhất?",o:["Răng ngay cạnh KMR","Răng cối lớn phía sau (xa nhất trục xoay)","Trên nền hàm","Ngay tại trục xoay"],a:1,e:"Kennedy IV trục xoay qua tựa 2 răng trụ phía sau (gần R4,R5); VGGT đặt ở răng xa nhất trục xoay (R6/R7) để chống lực xoay hiệu quả."},
+{b:17,d:2,q:"Tựa mặt nhai giúp hàm giả chống lại lực nào, còn móc giúp chống lại lực nào?",o:["Tựa chống bật, móc chống lún","Tựa giúp hàm không lún, móc giúp hàm không bật","Cả hai chống lún","Cả hai chống bật"],a:1,e:"Tựa mặt nhai giúp hàm giả không lún (chống lực đẩy xuống); móc giúp hàm giả không bật (chống lực nâng lên)."},
+{b:17,d:1,q:"Các chuyển động của yên tự do cần đến vật giữ gián tiếp gồm xoay theo các chiều, NGOẠI TRỪ:",o:["Xoay chiều đứng dọc","Xoay quanh trục sống hàm","Di động theo hướng ngang","Không có chuyển động nào"],a:3,e:"Yên tự do có các chuyển động: xoay đứng dọc, xoay quanh trục sống hàm, di động ngang → cần VGGT. 'Không có chuyển động nào' là sai."},
+{b:17,d:2,q:"Hình thức VGGT 'tựa mặt nhai răng tiền cối nối dài đến mặt trong răng nanh' dùng khi nào?",o:["Răng nanh mất","Khi răng cối nhỏ vừa làm răng trụ vừa mang VGGT","Mất toàn bộ răng sau","Không bao giờ dùng"],a:1,e:"Dùng khi răng cối nhỏ vừa làm răng trụ vừa mang VGGT — tựa nối dài đến mặt trong răng nanh để tăng độ vững."},
+{b:17,d:3,q:"Chuyển động xoay của hàm yên tự do có nguồn gốc cơ học từ đâu?",o:["Từ độ cứng của kim loại","Từ chênh lệch độ lún giữa răng trụ (ít lún) và niêm mạc (lún nhiều)","Từ lực nhai quá mạnh","Từ răng giả nặng"],a:1,e:"Mô nâng đỡ gồm răng (lún ~0,1 mm) khác mô mềm (lún 0,4-2 mm); sự chênh lệch độ lún này tạo chuyển động xoay quanh trục qua tựa 2 răng trụ."},
+{b:17,d:2,q:"Bốn yếu tố ảnh hưởng đến VGGT bao gồm điều nào sau đây?",o:["Màu răng giả","Khả năng nâng đỡ của răng (răng nghiêng/yếu không dùng)","Loại vật liệu răng giả","Tuổi bệnh nhân"],a:1,e:"4 yếu tố: tựa được giữ trong ổ tựa nhờ móc; khoảng cách VGGT-trục xoay; độ cứng thanh nối; khả năng nâng đỡ của răng (răng nghiêng/yếu không dùng)."},
+{b:17,d:3,q:"Bệnh nhân Kennedy I, nền hàm mở rộng phía xa DÀI. Điều này ảnh hưởng thế nào đến thiết kế VGGT?",o:["Không ảnh hưởng","Nền hàm càng dài, lực F càng lớn, hàm càng dễ lún/xoay → cần VGGT mạnh và nền hàm nâng đỡ tốt","Càng dài càng ít cần VGGT","Chỉ cần thêm móc"],a:1,e:"Nền hàm mở rộng phía xa càng dài → lực F (đòn bẩy) càng lớn → hàm dễ lún/xoay → cần chú ý độ dài nền hàm, và nền hàm phải nâng đỡ tốt (độ dày, độ nảy), VGGT đặt xa trục xoay."},
+{b:17,d:3,q:"VGGT giúp răng trụ không bị nghiêng theo chiều trước-sau, đặc biệt quan trọng khi nào?",o:["Khi răng trụ đứng thành nhóm","Khi răng trụ là răng đứng một mình","Khi có nhiều răng trụ","Khi mất răng loại III"],a:1,e:"VGGT giúp răng trụ không nghiêng theo chiều trước-sau, đặc biệt quan trọng khi răng trụ là răng đứng một mình (dễ bị nghiêng)."},
+// ===== BÀI 18 · CÁC THANH NỐI =====
+{b:18,d:1,q:"Thanh nối chính là gì?",o:["Phần đặt răng giả","Thành phần cơ bản của khung PH, nơi các thành phần khác nối vào","Phần lưu giữ","Tựa mặt nhai"],a:1,e:"Thanh nối chính là thành phần cơ bản của khung phục hình, là nơi các thành phần khác nối vào trực tiếp/gián tiếp."},
+{b:18,d:1,q:"Thanh nối chính cần cách xa bờ nướu viền của răng trụ bao nhiêu?",o:["2 mm","5 mm","10 mm","0,3 mm"],a:1,e:"Thanh nối chính cách xa bờ nướu viền của các răng trụ 5 mm, tránh các lồi xương."},
+{b:18,d:1,q:"Chức năng của thanh nối chính KHÔNG bao gồm:",o:["Kết nối các thành phần hàm khung","Phân tán lực chức năng lên răng và niêm mạc","Ổn định chéo cung hàm","Lưu giữ hàm chống bật (vai trò của móc)"],a:3,e:"Lưu giữ chống bật là của móc. Thanh nối chính: kết nối, phân tán lực, ổn định chéo cung hàm."},
+{b:18,d:1,q:"Về độ cứng, vật liệu nào cứng nhất cho thanh nối chính?",o:["HK vàng","Chrome-cobalt","HK rèn","Nhựa"],a:1,e:"Về cứng rắn: chrome-cobalt > HK vàng; HK đúc > rèn."},
+{b:18,d:1,q:"Bờ thanh nối chính cách bờ nướu HÀM TRÊN ít nhất bao nhiêu?",o:["4 mm","6 mm","2 mm","0,3 mm"],a:1,e:"Bờ thanh chính cách bờ nướu hàm trên ít nhất 6 mm."},
+{b:18,d:1,q:"Bờ thanh nối chính cách bờ nướu HÀM DƯỚI ít nhất bao nhiêu?",o:["6 mm","4 mm","2 mm","8 mm"],a:1,e:"Bờ thanh chính cách bờ nướu hàm dưới ít nhất 4 mm."},
+{b:18,d:1,q:"Thanh nối chính HÀM DƯỚI thông dụng nhất là:",o:["Thanh môi","Thanh lưỡi","Bản toàn diện","Thanh khẩu cái"],a:1,e:"Thanh lưỡi là thanh nối chính hàm dưới thông dụng nhất, hình ½ quả lê."},
+{b:18,d:1,q:"Thanh lưỡi có hình dạng mặt cắt là:",o:["½ tròn","½ quả lê","Dẹt","Chữ nhật"],a:1,e:"Thanh lưỡi hình ½ quả lê, nằm trên niêm mạc nhưng không đè nén lên mô."},
+{b:18,d:1,q:"Thanh nối phụ xuất phát từ đâu?",o:["Nền hàm","Thanh nối chính","Răng giả","Móc"],a:1,e:"Thanh nối phụ xuất phát từ thanh nối chính, nối thanh chính với các phần khác (VGGT, tựa, móc)."},
+{b:18,d:1,q:"Thanh nối phụ nên được đặt ở vị trí nào để ít bị vướng?",o:["Giữa mặt nhai","Vùng kẽ răng","Trên đỉnh múi","Mặt ngoài răng"],a:1,e:"Thanh nối phụ nên đặt trong vùng kẽ răng để ít bị vướng, đặt thẳng góc với thanh chính."},
+{b:18,d:2,q:"Về hình dáng, độ cứng của thanh nối chính giảm dần theo thứ tự nào?",o:["Dẹt > ½ lê > ½ tròn","½ tròn > ½ hình lê > dẹt","½ lê > dẹt > ½ tròn","Dẹt > ½ tròn > ½ lê"],a:1,e:"Về hình dáng độ cứng: ½ tròn > ½ hình lê > dẹt."},
+{b:18,d:2,q:"Thanh khẩu đơn (single palatal bar) được chỉ định khi nào?",o:["KMR dài, yên tự do","Hàm hoàn toàn tựa lên răng thật, KMR ngắn","Mất hết răng sau","Có lồi rắn lớn"],a:1,e:"Thanh khẩu đơn dùng cho hàm hoàn toàn tựa lên răng thật, KMR ngắn; nhược điểm dễ biến dạng khi nhai."},
+{b:18,d:2,q:"Thanh khẩu kép (double palatal bar) có ưu điểm gì so với thanh đơn?",o:["Mỏng hơn","Ít biến dạng khi nhai","Rẻ hơn","Dễ làm hơn"],a:1,e:"Thanh khẩu kép dùng mất răng loại III có KMR dài, có lồi rắn khẩu cái; ít biến dạng khi nhai hơn thanh đơn."},
+{b:18,d:2,q:"Bản chữ U (hình móng ngựa) thường được chỉ định khi nào?",o:["Không có lồi rắn","Mất răng loại I và có lồi rắn (torus)","KMR ngắn","Răng trụ khỏe"],a:1,e:"Bản chữ U thường dùng cho mất răng loại I và có lồi rắn; nhược điểm rất yếu, dễ biến dạng → ít dùng."},
+{b:18,d:2,q:"Nhược điểm chính của bản chữ U (móng ngựa) là:",o:["Quá cứng","Rất yếu, dễ biến dạng nên phải làm dày, dễ gây khó chịu","Che phủ ít","Không thẩm mỹ"],a:1,e:"Bản chữ U rất yếu, dễ biến dạng → phải làm dày → dễ gây khó chịu; do đó ít dùng."},
+{b:18,d:2,q:"Bản toàn diện hàm trên được chỉ định khi:",o:["KMR ngắn","Mất hết răng phía sau chỉ còn nhóm răng cửa, nanh","Mất 1 răng","Có lồi rắn lớn"],a:1,e:"Bản toàn diện dùng khi mất hết răng phía sau, chỉ còn nhóm răng cửa và nanh."},
+{b:18,d:2,q:"Mặt trong bản toàn diện/tấm bản lưỡi cần tạo vùng hở bờ nướu viền khoảng bao nhiêu để tránh viêm nướu?",o:["0,3 mm","2 mm","5 mm","1 cm"],a:0,e:"Mặt trong tạo vùng hở bờ nướu viền khoảng 0,3 mm để tránh viêm nướu / đè ép vùng này."},
+{b:18,d:2,q:"Độ dày tối thiểu của thanh nối chính hàm trên dạng thanh (bar) là:",o:["6 gauge (4,11 mm)","1 mm","0,5 mm","10 mm"],a:0,e:"Dạng thanh: độ dày ít nhất 6 gauge (4,11 mm), độ rộng ít nhất 4 mm."},
+{b:18,d:2,q:"Độ rộng của thanh nối chính hàm trên dạng tấm/bản (plate) dao động khoảng:",o:["2-3 mm","6-8 mm","10-12 mm","1-2 mm"],a:1,e:"Dạng tấm/bản: độ rộng 6-8 mm, độ dày 0,51-0,64 mm."},
+{b:18,d:2,q:"Thanh môi (labial bar) hàm dưới có đặc điểm gì?",o:["Thông dụng nhất","Ít dùng, chỉ dùng khi không dùng được thanh lưỡi","Rất cứng","Không gây khó chịu"],a:1,e:"Thanh môi ít dùng, chỉ dùng khi không dùng được thanh lưỡi; nhược điểm nằm ngoài → bệnh nhân khó chịu."},
+{b:18,d:2,q:"Tấm bản lưỡi (linguoplate) KHÔNG được chỉ định trong trường hợp nào?",o:["Răng cửa dưới yếu (tác dụng như nẹp)","Mất răng loại I sống hàm tiêu xương nhiều","Có dự hậu nhổ và thay thế vài răng cửa","Răng cửa dưới rất khỏe và không cần nẹp"],a:3,e:"Tấm bản lưỡi chỉ định: răng cửa yếu (nẹp), mất R loại I tiêu xương nhiều, bệnh nhân khó chịu thanh lưỡi, dự hậu nhổ răng. Răng khỏe không cần thì không chỉ định đặc biệt."},
+{b:18,d:2,q:"Thanh nối phụ 'thanh tiếp cận của móc thanh' có đặc điểm ĐẶC BIỆT gì?",o:["Cứng nhất","Là thanh nối phụ DUY NHẤT không cần phải cứng","Dày nhất","Nằm trên mặt nhai"],a:1,e:"Thanh tiếp cận của móc thanh là thanh nối phụ duy nhất không cần cứng (nâng đỡ tay móc đàn hồi); không chạy qua chỗ lẹm mô mềm."},
+{b:18,d:2,q:"Thanh nối phụ được đặt như thế nào so với thanh nối chính?",o:["Song song","Thẳng góc","Chéo 45°","Cong tròn"],a:1,e:"Thanh nối phụ đặt thẳng góc với thanh chính, nằm trong vùng kẽ răng."},
+{b:18,d:2,q:"Chức năng của thanh nối phụ là:",o:["Lưu giữ hàm","Truyền lực nhai từ tựa/VGGT xuống nền hàm rồi chuyển tải đi suốt cung răng","Tạo thẩm mỹ","Nâng đỡ niêm mạc"],a:1,e:"Thanh nối phụ truyền lực nhai từ tựa/VGGT xuống nền hàm rồi chuyển tải lực đi suốt cung răng → phải cứng rắn."},
+{b:18,d:2,q:"Yên hàm dưới nên dài khoảng bao nhiêu sống hàm?",o:["1/2 sống hàm","2/3 sống hàm","Toàn bộ sống hàm","1/3 sống hàm"],a:1,e:"Kennedy I,II hàm dưới: yên chỉ nên dài 2/3 sống hàm; hàm trên: yên kéo dài phủ lồi cùng."},
+{b:18,d:2,q:"Điểm chặn phía sau yên (tissue stop) có hình dạng và kích thước:",o:["Hình tròn 5 mm","Hình vuông khoảng 2 mm","Hình tam giác 4 mm","Không có hình cố định"],a:1,e:"Điểm chặn phía sau yên hình vuông khoảng 2 mm → không cho khung xoay khi ép nhựa chỗ nền hàm giả."},
+{b:18,d:2,q:"Ổn định chéo cung hàm của thanh nối chính nhằm chống lại lực nào?",o:["Lực dọc","Lực đòn bẩy / lực ngang (horizontal stress)","Lực kéo","Lực xoay răng trụ"],a:1,e:"Ổn định chéo cung hàm giúp chống lại lực ngang (đòn bẩy)."},
+{b:18,d:3,q:"Bệnh nhân hàm trên có lồi rắn giữa khẩu cái LỚN nhưng chấp nhận phẫu thuật cắt bỏ. Thanh nối chính nào tối ưu hơn bản chữ U?",o:["Vẫn phải dùng bản chữ U","Có thể dùng bản mé sau/bản toàn diện (cứng hơn) sau khi cắt lồi","Thanh khẩu đơn","Thanh môi"],a:1,e:"Bản chữ U dùng khi có lồi rắn mà không cắt bỏ. Nếu bệnh nhân chấp nhận cắt lồi thì nên dùng loại bản cứng hơn (mé sau/toàn diện) vì bản chữ U yếu, dễ biến dạng."},
+{b:18,d:3,q:"Vì sao bờ thanh nối chính hàm trên (6 mm) phải cách bờ nướu XA HƠN hàm dưới (4 mm)?",o:["Vì hàm trên rộng hơn nên tránh vùng nướu và tổ chức quanh cổ răng, giảm kích thích viêm nướu","Vì hàm trên mỏng hơn","Vì thẩm mỹ","Ngẫu nhiên"],a:0,e:"Bờ thanh chính phải cách nướu để tránh đè ép gây viêm nướu; hàm trên có khẩu cái rộng nên đặt cách xa hơn (≥6 mm) so với hàm dưới (≥4 mm)."},
+{b:18,d:3,q:"Bản mé sau BẢN HẸP khác BẢN RỘNG ở chỉ định như thế nào?",o:["Bản hẹp cho mất răng loại I; bản rộng cho răng trụ kẹp 2 đầu","Bản hẹp dùng khi mất R cối có răng trụ kẹp 2 đầu KMR; bản rộng dùng mất răng loại I","Cả hai giống nhau","Bản rộng chỉ dùng hàm dưới"],a:1,e:"Bản hẹp: mất R cối có R trụ kẹp 2 đầu KMR (nằm giữa 2 đường trước-sau). Bản rộng: mất răng loại I Kennedy (R4/R5 hai đầu, sống hàm thấp)."},
+{b:18,d:3,q:"Vì sao yên hàm dưới chỉ nên dài 2/3 sống hàm còn hàm trên phủ lồi cùng?",o:["Vì hàm dưới nhỏ hơn","Vì hàm dưới phía sau có tam giác sau hàm/mô mềm di động, phủ hết dễ gây khó chịu và bật hàm; hàm trên phủ lồi cùng tăng lưu giữ và nâng đỡ","Vì thẩm mỹ","Vì tiết kiệm nhựa"],a:1,e:"Hàm dưới phía sau là vùng mô mềm di động (tam giác sau hàm), yên chỉ dài 2/3 để tránh khó chịu; hàm trên yên phủ lồi cùng để tăng lưu giữ và nâng đỡ diện rộng."},
+{b:18,d:3,q:"Trong tất cả các thanh nối phụ, tại sao chỉ 'thanh tiếp cận của móc thanh' KHÔNG cần cứng?",o:["Vì nó ngắn","Vì nó nâng đỡ cho tay móc đàn hồi (móc thanh) ôm vào vùng lẹm, cần đủ dẻo","Vì nó không chịu lực nhai","Vì nó ở xa răng"],a:1,e:"Thanh tiếp cận của móc thanh nâng đỡ vật giữ trực tiếp (tay móc) ôm vào vùng lẹm; nó cần dẻo phù hợp tay móc đàn hồi, không như các thanh phụ khác phải cứng để truyền lực."},
+{b:18,d:3,q:"Bản chữ U biến thể (thêm bản kim loại nối phía sau) có ưu điểm gì khiến dùng được cho hầu hết dạng mất răng?",o:["Mỏng nhất","Cứng và khỏe (mỗi bản đảm bảo rộng ≥6 mm), khắc phục nhược điểm yếu của chữ U","Rẻ nhất","Thẩm mỹ nhất"],a:1,e:"Bản chữ U biến thể có thêm bản nối phía sau → cứng và khỏe, khắc phục nhược điểm dễ biến dạng của chữ U → dùng được hầu hết dạng mất răng."},
+{b:18,d:3,q:"Thanh lưỡi KHÔNG tham dự vào chức năng nào của hàm khung?",o:["Kết nối các thành phần","Nâng đỡ và vững ổn","Nằm trên niêm mạc","Cách xa nướu viền"],a:1,e:"Thanh lưỡi không tham dự vào sự nâng đỡ và vững ổn (nằm trên niêm mạc nhưng không đè nén, càng xa nướu viền càng tốt)."},
+{b:18,d:3,q:"Khi móc KHÔNG nằm kế KMR, thanh nối phụ nối móc với nối chính nên đặt ở đâu?",o:["Sát KMR","Ở vị trí giữa 2 răng để giảm sự vướng lưỡi","Trên mặt nhai","Trên bờ nướu"],a:1,e:"Khi móc không nằm kế KMR, thanh nối phụ phải ở vị trí giữa 2 răng để giảm sự vướng lưỡi."},
+{b:18,d:3,q:"Chỗ nối yên hàm giả vào thanh nối chính cần đặc điểm gì và vì sao?",o:["Mềm để đàn hồi","Phải cứng để truyền và ổn định lực, tránh gãy/biến dạng chỗ tiếp nối","Mỏng để nhẹ","Rỗng để thoáng"],a:1,e:"Chỗ nối yên vào nối chính phải cứng để đảm bảo truyền lực và ổn định; đây là vùng chịu lực nên cần cứng rắn."},
+{b:18,d:2,q:"Yêu cầu 'không gây xáo trộn phát âm' của thanh nối chính đòi hỏi tránh vùng nào?",o:["Vùng má","Phần sau răng cửa trên và vùng gai khẩu cái","Vùng lưỡi dưới","Vùng lồi cùng"],a:1,e:"Để không xáo trộn phát âm: tránh phần sau răng cửa trên và vùng gai khẩu cái."},
+{b:18,d:2,q:"Yên hàm giả (phần khung để răng giả và nền hàm gắn vào) có thể có hình gì?",o:["Hình trơn nhẵn","Hình lưới, mắt cáo","Hình tròn đặc","Hình tam giác đặc"],a:1,e:"Yên là phần khung sườn để răng giả và nền hàm gắn vào, có thể có hình lưới, mắt cáo để giữ nhựa."},
+// ===== BÀI 19 · PHÁC HỌA PHẦN GIỮ VÀ NÂNG ĐỠ =====
+{b:19,d:1,q:"Hàm khung phục hình được chia thành 2 nhóm phần chính nào?",o:["Phần cứng và phần mềm","Phần giữ và phần nâng đỡ","Phần trước và phần sau","Móc và thanh nối"],a:1,e:"Hàm khung có 2 nhóm: phần giữ (tay móc lưu giữ - dưới ĐVLN) và phần nâng đỡ (tựa - kháng lực lún)."},
+{b:19,d:1,q:"Chức năng của các phần giữ là:",o:["Chống lún hàm","Chống lại lực kéo, giữ PH ở yên trong vị trí","Truyền lực nhai","Tạo mặt phẳng hướng dẫn"],a:1,e:"Phần giữ chống lại lực kéo và giữ PH ở yên trong vị trí cả ở trạng thái tĩnh và chức năng."},
+{b:19,d:1,q:"PH chống lại được lực kéo khi lực lưu giữ của móc đạt bao nhiêu?",o:["0,1-0,2 kg","0,5-1,0 kg","2-3 kg","5 kg"],a:1,e:"PH có thể chống lại lực kéo khi lực lưu giữ của móc đạt 0,5-1,0 kg."},
+{b:19,d:1,q:"Đường giữ là gì?",o:["Đường nối các tựa mặt nhai","Đường nối giữa các phần giữ của phục hình với nhau (tay móc, mão chụp lồng, khe trượt)","Đường vòng lớn nhất","Bờ nướu viền"],a:1,e:"Đường giữ là đường nối giữa các phần giữ của phục hình với nhau như các tay móc, mão chụp lồng, khe trượt."},
+{b:19,d:1,q:"Chức năng của các phần nâng đỡ là tiếp nhận và phân bố lực nhai chủ yếu lên đâu?",o:["Niêm mạc","Mô nha chu của răng trụ (chủ yếu) và thứ yếu lên mô xương-niêm mạc","Nền hàm","Lưỡi"],a:1,e:"Phần nâng đỡ phân bố lực nhai chủ yếu lên mô nha chu răng trụ, thứ yếu lên mô xương-niêm mạc nền tựa."},
+{b:19,d:1,q:"Hai hình thức nâng đỡ trên răng của PHKB là:",o:["Nâng đỡ trước và sau","Nâng đỡ gần yên và xa yên","Nâng đỡ trong và ngoài","Nâng đỡ cứng và mềm"],a:1,e:"Hai hình thức: nâng đỡ gần yên và nâng đỡ xa yên."},
+{b:19,d:1,q:"Nâng đỡ GẦN YÊN có đặc điểm gì?",o:["Nối với thanh chính","Đặt ở mặt nhai R trụ kế KMR và nối trực tiếp xuống yên","Cách xa yên 1 thân răng","Đặt trên răng cửa"],a:1,e:"Nâng đỡ gần yên: đặt ở mặt nhai R trụ kế KMR, nối trực tiếp xuống yên. Điển hình: móc Akers, móc vòng, chụp lồng, khe trượt."},
+{b:19,d:1,q:"Theo Steffel, có mấy kiểu nâng đỡ trên răng cơ bản?",o:["2","3","4","5"],a:2,e:"Theo Steffel có 4 kiểu: hình tứ giác, hình đa giác, hình tam giác, đường thẳng."},
+{b:19,d:1,q:"Kiểu nâng đỡ nào được xem là đơn giản nhất và hiệu quả nhất?",o:["Đường thẳng","Hình tam giác","Hình tứ giác (4 điểm)","Hình đa giác"],a:2,e:"Nâng đỡ hình tứ giác (4 điểm) là hình thức đơn giản nhất, hiệu quả nhất."},
+{b:19,d:1,q:"Kiểu nâng đỡ tam giác (3 điểm) điển hình cho loại mất răng nào?",o:["Kennedy III","Mất răng sau cùng một bên (thường Kennedy II)","Kennedy IV","Mất răng xen kẽ nhiều khoảng"],a:1,e:"Nâng đỡ hình tam giác chỉ định cho mất răng sau cùng một bên (hay gặp Kennedy II)."},
+{b:19,d:2,q:"Mức độ lưu giữ của phần giữ được xác định bằng:",o:["Độ dày kim loại","Lực đối kháng lại với lực làm biến dạng hợp kim đúc","Số lượng móc","Chiều dài yên"],a:1,e:"Mức độ lưu giữ = lực đối kháng lại với lực làm biến dạng hợp kim đúc (khi tay móc qua ĐVLN vào vùng lẹm phải giãn ra)."},
+{b:19,d:2,q:"Để giảm lực lưu giữ quá mức (tránh lực ngang thái quá lên R trụ), người ta làm gì?",o:["Tăng độ sâu vùng lẹm","Tạo các mặt bên và mặt lưỡi song song với hướng tháo lắp","Dùng móc dày hơn","Tăng số móc"],a:1,e:"Để giảm lực: tạo các mặt bên và mặt lưỡi (nơi đặt phần ôm) song song với hướng tháo lắp hàm."},
+{b:19,d:2,q:"Nguyên tắc: đường giữ cắt như thế nào với bề mặt cung hàm thì PH lưu giữ tốt?",o:["Song song trục cung hàm","Cắt chéo bề mặt cung hàm","Trùng ngoại vi cung hàm","Nằm 1 bên cung hàm"],a:1,e:"Đường giữ cắt chéo bề mặt cung hàm → PH lưu giữ tốt."},
+{b:19,d:2,q:"Khi đường giữ nằm ở ngoại vi cung hàm, phần giữ phải như thế nào mới lưu giữ tốt?",o:["Chỉ cần móc thường","Phải bao phủ cả thân răng (như mão chụp lồng)","Đặt ở mặt nhai","Không cần thay đổi"],a:1,e:"Khi đường giữ ở ngoại vi cung hàm thì phần giữ phải bao phủ cả thân răng (như mão chụp lồng) mới lưu giữ cao."},
+{b:19,d:2,q:"Ổ tựa mài ĐÚNG thì phân bố lực nhai như thế nào?",o:["Theo trục răng trụ","Ra ngoài trục răng","Chỉ lên niêm mạc","Gây nghiêng răng"],a:0,e:"Ổ tựa mài đúng → phân bố lực nhai theo trục răng trụ. Mài sai → không theo trục, làm nghiêng răng trụ."},
+{b:19,d:2,q:"Điển hình của nâng đỡ XA YÊN là móc nào?",o:["Móc Akers","Móc Nally Martinet (và móc có tay hướng về yên như Bonwill)","Móc vòng","Chụp lồng"],a:1,e:"Nâng đỡ xa yên: điển hình móc Nally Martinet, móc có tay móc hướng về yên (Bonwill)."},
+{b:19,d:2,q:"Ưu điểm QUAN TRỌNG NHẤT của nâng đỡ xa yên là gì?",o:["Thẩm mỹ hơn","Răng trụ kế KMR vững ổn khi chịu lực nhai và KHÔNG bị nghiêng về KMR","Dễ vệ sinh","Lưu giữ mạnh hơn"],a:1,e:"Ưu điểm quan trọng nhất của nâng đỡ xa yên: R trụ kế KMR vững ổn khi chịu lực nhai, không bị nghiêng về KMR như nâng đỡ gần yên."},
+{b:19,d:2,q:"Nhược điểm của nâng đỡ GẦN YÊN khi yên sau cùng ngắn là:",o:["Lưu giữ kém","Tạo đòn bẩy lớn lên răng trụ làm răng nghiêng về khoảng mất răng","Khó vệ sinh","Không thẩm mỹ"],a:1,e:"Nâng đỡ gần yên nhược điểm: yên sau cùng ngắn tạo đòn bẩy lớn lên R trụ → răng nghiêng về KMR."},
+{b:19,d:2,q:"Nhược điểm của nâng đỡ XA YÊN là:",o:["Răng trụ dễ nghiêng","Phần nối giữa móc và thanh chính khó vệ sinh mô nha chu; độ nhún yên vượt quá độ nhún sinh lý R trụ","Lưu giữ quá mạnh","Không dùng được cho Kennedy I"],a:1,e:"Nhược điểm xa yên: phần nối móc-thanh chính khó vệ sinh mô NC; độ nhún của yên vượt quá độ nhún sinh lý của R trụ."},
+{b:19,d:2,q:"Đường nâng đỡ là gì?",o:["Đường nối các phần giữ","Đường thẳng nối các tựa mặt nhai (hoặc trục trung tâm mão chụp lồng/khe trượt)","Đường vòng lớn nhất","Bờ thanh chính"],a:1,e:"Đường nâng đỡ = đường thẳng nối các tựa mặt nhai hoặc trục trung tâm các mão chụp lồng/khe trượt. Nhiều đường giao nhau tạo mặt phẳng nâng đỡ."},
+{b:19,d:2,q:"Nguyên tắc: mặt phẳng nâng đỡ càng tiến sát vị trí nào thì PH càng vững ổn?",o:["Trung tâm cung hàm","Ngoại vi cung hàm","Phía lưỡi","Phía sau"],a:1,e:"Mặt phẳng nâng đỡ càng tiến sát ngoại vi cung hàm thì phục hình càng vững ổn."},
+{b:19,d:2,q:"Kiểu nâng đỡ hình đa giác được chỉ định khi nào?",o:["Mất răng sau cùng 1 bên","Mất răng xen kẽ với nhiều khoảng mất răng","Mất răng trước","Chỉ còn 2 răng"],a:1,e:"Nâng đỡ hình đa giác: mất răng xen kẽ với nhiều khoảng mất răng."},
+{b:19,d:2,q:"Nhược điểm của nâng đỡ hình đa giác là:",o:["Kém vững ổn","Khó tìm hướng lắp và dễ lưu giữ thức ăn","Đòn bẩy lớn","Kém thẩm mỹ"],a:1,e:"Nâng đỡ đa giác: mp nâng đỡ rộng nên vững ổn, nhưng khó tìm hướng lắp và dễ lưu giữ thức ăn."},
+{b:19,d:2,q:"Nâng đỡ theo ĐƯỜNG THẲNG được chỉ định khi nào?",o:["Còn đầy đủ răng","Cung hàm chỉ còn 2 hay nhiều răng ở một bên; mất răng sau cùng 2 bên; chỉ còn 1-2 răng cối lớn mỗi bên","Mất 1 răng","Kennedy IV"],a:1,e:"Nâng đỡ đường thẳng: cung hàm chỉ còn 2+ răng một bên; mất răng sau cùng 2 bên; hoặc chỉ còn 1-2 răng cối lớn sau cùng mỗi bên."},
+{b:19,d:3,q:"Bệnh nhân Kennedy I hàm dưới, sống hàm phía xa tiêu nhiều, R trụ R5 nha chu hơi yếu. Để tránh R trụ nghiêng về KMR khi nhai, chọn hình thức nào?",o:["Nâng đỡ gần yên","Nâng đỡ xa yên","Không dùng tựa","Đặt tựa trên yên"],a:1,e:"Nâng đỡ xa yên (di chuyển tựa ra xa KMR như Nally/RPI) làm R trụ vững ổn, không bị nghiêng về KMR — ưu điểm quan trọng nhất."},
+{b:19,d:3,q:"Cơ chế nào giải thích tại sao đặt tựa GẦN yên làm R trụ dễ nghiêng về KMR?",o:["Vì tựa quá nặng","Vì khi nhai, lực nén nền hàm tạo lực có xu hướng theo chiều ngang kéo R trụ nghiêng về khoảng mất răng","Vì móc quá lỏng","Vì răng giả to"],a:1,e:"Đặt tựa gần khoảng mất răng → khi nhai lực nén nền hàm có xu hướng theo chiều ngang → kéo/nghiêng R trụ về phía KMR."},
+{b:19,d:3,q:"Trong nâng đỡ hình tam giác, nguyên tắc CTĐK ≥ CTĐB nghĩa là gì?",o:["Cánh tay đòn bẩy phải dài hơn cánh tay đối kháng","Cánh tay đối kháng (khoảng từ nâng đỡ đến trục xoay) phải ≥ cánh tay đòn bẩy (lực lên yên)","Hai cánh tay bằng nhau","Không liên quan"],a:1,e:"Mặt phẳng nâng đỡ phải rộng tối đa để cánh tay đối kháng (CTĐK) ≥ cánh tay đòn bẩy (CTĐB), giúp lực lên yên gặp đủ đối kháng."},
+{b:19,d:3,q:"Với mất răng trước (dùng nâng đỡ tứ giác), tại sao điểm nâng đỡ phía trước đặt càng gần phía trước càng tốt?",o:["Để thẩm mỹ","Để cánh tay đòn bẩy ngắn lại (các răng thay thế nằm ngoài mặt phẳng nâng đỡ tạo trục quay)","Để dễ lắp","Để tăng lưu giữ"],a:1,e:"Răng thay thế phía trước nằm ngoài mp nâng đỡ → đường nâng đỡ qua 2 R trụ trước trở thành trục quay; đặt điểm nâng đỡ càng gần phía trước → cánh tay đòn bẩy ngắn lại."},
+{b:19,d:3,q:"Khi số răng còn lại quá ít, nằm về một bên theo đường thẳng và PH lưu giữ nhờ móc, hiệu quả lưu giữ kém. Cách tăng cường là gì?",o:["Thêm nhiều móc","Tăng cường độ tiếp xúc nền hàm với niêm mạc & sống hàm (lực hút giữa nền hàm và niêm mạc)","Bọc mão toàn bộ","Dùng răng giả nặng"],a:1,e:"Khi lưu giữ bằng móc kém, tăng cường bằng độ tiếp xúc nền hàm với niêm mạc và sống hàm → tạo lực hút (lưu giữ) giữa nền hàm và niêm mạc."},
+{b:19,d:3,q:"Trong nâng đỡ hình tam giác, nếu S1 (mặt phẳng nâng đỡ) không thể dài, tối thiểu S1 phải bằng gì?",o:["Bằng nửa cung răng","Bằng phần yên chịu lực nhai chức năng","Bằng toàn cung hàm","Không có yêu cầu"],a:1,e:"Nếu S1 không thể dài, S1 tối thiểu phải bằng phần yên chịu lực nhai chức năng; các điểm nâng đỡ trước-sau đối xứng, răng nâng đỡ phía xa đặt càng xa càng tốt."},
+{b:19,d:3,q:"Móc đặt ở PHÍA TRƯỚC trục xoay (VD trên răng nanh) thì phần lưu giữ nên đặt ở đâu và vì sao?",o:["Dưới vùng lẹm để giữ chặt","Ngay tại ĐVLN (không phải dưới lẹm) để giải phóng móc khi hàm bị nén xuống ở vùng nền phía sau","Trên mặt nhai","Ở cổ răng"],a:1,e:"Móc phía trước trục xoay không nên tác dụng với vùng lẹm; đặt ngay tại ĐVLN để khi hàm bị nén xuống ở nền phía sau, móc được giải phóng, tránh nhấc răng nanh gây hại nha chu."},
+{b:19,d:3,q:"Vì sao khi thiết kế hàm khung mất nâng đỡ phía sau cần lưu ý trục xoay đi qua tựa mặt nhai ở gần khoảng mất răng nhất?",o:["Vì tựa đó dễ gãy","Vì đó là trục mà hàm sẽ xoay quanh khi có lực nhai; xác định đúng trục mới bố trí được VGGT/nâng đỡ chống xoay","Vì thẩm mỹ","Vì tiết kiệm"],a:1,e:"Trục xoay đi qua các tựa mặt nhai gần KMR nhất là trục hàm sẽ xoay quanh khi có lực chức năng; phải xác định đúng để bố trí phần nâng đỡ/VGGT chống xoay."},
+{b:19,d:3,q:"Bệnh nhân mất răng sau cùng 1 bên (Kennedy II), chỉ lưu ý nâng đỡ trên răng thì hậu quả gì?",o:["PH quá vững","PH không đủ vững ổn (cần thêm móc Bonwill hoặc liên kết 2 răng trụ)","Răng trụ chắc hơn","Không vấn đề gì"],a:1,e:"Nhược điểm nâng đỡ tam giác: PH không đủ vững ổn nếu chỉ lưu ý nâng đỡ trên răng → thường dùng móc Bonwill trên 2 R trụ kế KMR hoặc liên kết bằng phục hình cố định."},
+{b:19,d:3,q:"Trong nâng đỡ đường thẳng, nền hàm hàm trên và hàm dưới cần thiết kế thế nào?",o:["Cả hai đều thu nhỏ","Hàm trên là bản toàn diện, hàm dưới phải mở rộng","Cả hai bản hẹp","Hàm trên nhỏ, hàm dưới nhỏ"],a:1,e:"Nâng đỡ đường thẳng: nền hàm trên phải là bản toàn diện, nền hàm dưới phải mở rộng để tăng diện tích tiếp xúc niêm mạc, bù cho nâng đỡ trên răng kém."},
+{b:19,d:2,q:"Ưu điểm của nâng đỡ GẦN YÊN là:",o:["Răng trụ vững, không nghiêng","Loại bỏ sự lún bờ yên kế răng trụ; chuyển động yên bằng độ nhún sinh lý của răng trụ","Dễ vệ sinh mô nha chu","Không cần móc"],a:1,e:"Ưu điểm gần yên: loại bỏ sự lún bờ yên kế R trụ; chuyển động yên bằng độ nhún sinh lý R trụ; chống lực xô đẩy ngang."},
+{b:19,d:3,q:"Đường nâng đỡ nối các răng trụ THUẬN LỢI NHẤT khi nằm ở đâu?",o:["Lệch về phía má","Nằm giữa sống hàm và các răng thay thế sắp ngay trên đường này","Lệch về phía lưỡi","Ngoài cung răng"],a:1,e:"Đường nâng đỡ nối các răng trụ thuận lợi nhất nếu nằm giữa sống hàm và các răng thay thế được sắp ngay trên đường này."},
+{b:19,d:2,q:"Chỉ định của nâng đỡ gần yên ở khoảng mất răng sau cùng (K I,II) đòi hỏi điều kiện gì?",o:["Răng trụ yếu là được","Răng trụ vững chắc/mô nha chu mạnh, thân răng ngắn, sống hàm tốt, yên dài","Sống hàm tiêu nhiều","Hàm đối diện lực mạnh"],a:1,e:"Nâng đỡ gần yên ở KMR sau cùng cần: R trụ vững chắc/nha chu mạnh (hoặc liên kết PHCĐ), thân răng ngắn (tỉ lệ đòn bẩy tốt), sống hàm hình dạng tốt niêm mạc săn chắc, răng đối diện lực vừa phải, yên sau cùng dài."},
+{b:19,d:3,q:"Vì sao nâng đỡ xa yên giúp 'bờ yên phía xa ít bị lún xuống niêm mạc' hơn gần yên?",o:["Vì yên ngắn hơn","Vì tựa đặt xa KMR làm hướng lực có xu hướng giữ tiếp xúc với răng kế cận, phân bố lên nhiều răng thay vì dồn lún bờ yên","Vì niêm mạc dày hơn","Vì móc chặt hơn"],a:1,e:"Di chuyển tựa ra xa KMR tạo hướng lực giữ tiếp xúc với răng kế cận → nâng đỡ nhiều răng, giảm dồn lực làm lún bờ yên phía xa."},
+// ===== BÀI 20 · THỬ KHUNG SƯỜN & LẮP HÀM =====
+{b:20,d:1,q:"Trước khi hẹn bệnh nhân, khung sườn (framework) được kiểm tra ở đâu?",o:["Trực tiếp trên miệng","Trên mẫu hàm chính (master cast)","Trên phim X-quang","Không cần kiểm tra"],a:1,e:"Trước khi hẹn BN: lấy khung ra kiểm tra độ phù hợp của khung trên mẫu hàm chính (master cast)."},
+{b:20,d:1,q:"Khi thử khung, cần kiểm tra thành phần nào sau đây?",o:["Chỉ tựa","Tựa/ổ tựa, móc/răng, điểm chặn sống hàm","Chỉ màu răng","Chỉ nền hàm"],a:1,e:"Kiểm tra: tựa/ổ tựa (rest/rest seat), móc/răng (clasp/tooth), điểm chặn sống hàm/sống hàm mất răng (tissue stop/edentulous ridge)."},
+{b:20,d:1,q:"Để phát hiện điểm cộm khi thử khung trên miệng, dùng gì?",o:["Sáp cắn","Chất chỉ thị (disclosing agent/fit checker)","Giấy than","Không cần dụng cụ"],a:1,e:"Dùng chất chỉ thị (disclosing agent/fit checker/occlude spray) bôi mặt trong khung để phát hiện điểm cộm."},
+{b:20,d:1,q:"Khi đặt khung vào miệng và ấn 2 bên thấy khung di động (bập bênh) nghĩa là:",o:["Khung đã vừa khít","Khung có điểm cộm","Móc quá chặt","Nền hàm quá dài"],a:1,e:"Khung di động/bập bênh khi ấn 2 bên = khung cộm → cần tìm và mài điểm cộm."},
+{b:20,d:1,q:"Kỹ thuật lấy dấu sau cùng cho hàm yên tự do (Kennedy I, II) gọi là:",o:["Kỹ thuật lấy dấu 1 thì","Altered cast technique","Kỹ thuật lấy dấu sơ khởi","Kỹ thuật in 3D"],a:1,e:"Altered cast technique - kỹ thuật đổ lại phần sống hàm mất răng để ghi vùng yên dưới trạng thái chịu lực."},
+{b:20,d:2,q:"Trong kỹ thuật altered cast, phần nào của mẫu được GIỮ NGUYÊN?",o:["Phần sống hàm mất răng","Phần còn răng","Toàn bộ mẫu","Không giữ phần nào"],a:1,e:"Phần còn răng giữ nguyên (không thay đổi); chỉ đổ lại phần sống hàm mất răng (altered cast)."},
+{b:20,d:2,q:"Mục đích chính của altered cast technique là:",o:["Làm răng giả đẹp hơn","Ghi vùng sống hàm mất răng dưới trạng thái chịu lực, tối ưu độ nhún niêm mạc","Tăng lưu giữ của móc","Rút ngắn thời gian"],a:1,e:"Altered cast ghi vùng yên dưới áp lực chức năng để tối ưu độ nhún niêm mạc, giúp nền hàm phân bố lực đều, giảm đòn bẩy hại răng trụ."},
+{b:20,d:2,q:"Điều chỉnh sinh lý (physiologic adjustment) khi thử khung nhằm mục đích gì?",o:["Chỉ thẩm mỹ","Cho bệnh nhân vận động môi má, há ngậm để phát hiện và mài điểm cộm theo chức năng","Đo khớp cắn","Lấy dấu"],a:1,e:"Điều chỉnh sinh lý: bôi disclosing agent vào MPHD, thanh phụ, ngách hành lang, cho BN vận động môi má/há ngậm rồi mài chỉnh để khung ăn khớp đúng chức năng."},
+{b:20,d:2,q:"Trong altered cast, viền vật liệu lấy dấu vùng yên được cắt cách đáy ngách khoảng:",o:["1-2 mm","5 mm","1 cm","Sát đáy ngách"],a:0,e:"Cắt viền cách đáy ngách 1-2 mm, bờ làm nhẵn tròn dày khoảng 1-2 mm."},
+{b:20,d:2,q:"Vật liệu thường dùng lấy dấu chức năng vùng yên (ít nén) là:",o:["Alginate","Silicon lỏng / cao su lấy dấu trung bình","Thạch cao","Sáp nóng"],a:1,e:"Lấy dấu chức năng vùng yên bằng vật liệu ít nén, thường dùng silicon lỏng / cao su lấy dấu trung bình để tối ưu độ nhún."},
+{b:20,d:2,q:"Khi thử khung, phát hiện thiết kế sai như 'wrong reciprocal arm design' nghĩa là sai ở đâu?",o:["Tựa mặt nhai","Cánh tay đối kháng","Nền hàm","Răng giả"],a:1,e:"Wrong reciprocal arm design = thiết kế sai cánh tay đối kháng (tương hỗ)."},
+{b:20,d:3,q:"Khi thử khung trên miệng thấy khung bập bênh. Bước xử trí ĐÚNG tiếp theo là:",o:["Lắp hàm ngay vì khung đã vừa","Dùng chất chỉ thị tìm điểm cộm rồi mài chỉnh cho khung ngồi khít","Làm lại khung mới hoàn toàn","Tăng lực lưu giữ móc"],a:1,e:"Khung bập bênh = có điểm cộm; dùng disclosing agent/fit checker bôi mặt trong khung để tìm điểm cộm (chỗ lộ kim loại/màu trồi lên) rồi mài bớt đến khi khung ổn định."},
+{b:20,d:3,q:"Nguyên lý cơ học đằng sau altered cast: vùng răng và vùng niêm mạc chịu lún khác nhau. Điều này đòi hỏi gì?",o:["Lấy dấu cả 2 vùng cùng 1 độ nén","Lấy dấu vùng yên (niêm mạc) dưới áp lực chức năng để khi chịu lực nhai nền hàm tiếp xúc đều, giảm đòn bẩy hại răng trụ","Bỏ qua vùng yên","Chỉ lấy dấu vùng răng"],a:1,e:"Vùng răng lún ít (~0,1 mm), niêm mạc lún nhiều (0,4-2 mm). Altered cast lấy dấu vùng yên dưới áp lực giúp nền hàm tiếp xúc đều khi chịu lực nhai → giảm đòn bẩy hại răng trụ."},
+{b:20,d:3,q:"Vì sao với hàm Kennedy III (tựa hoàn toàn trên răng) thường KHÔNG cần altered cast?",o:["Vì răng trụ yếu","Vì hàm tựa hoàn toàn trên răng, không có yên tự do nên không có chênh lệch lún răng-niêm mạc đáng kể","Vì khó thực hiện","Vì tốn kém"],a:1,e:"Kennedy III tựa hoàn toàn trên răng, không có yên tự do → không có chuyển động xoay do chênh lệch lún răng-niêm mạc → không cần lấy dấu chức năng kiểu altered cast."},
+{b:20,d:3,q:"Tại sao khi lấy dấu chức năng vùng yên phải dùng vật liệu ÍT NÉN thay vì alginate?",o:["Vì alginate đắt","Vì cần ghi niêm mạc ở trạng thái chịu lực chức năng; vật liệu ít nén tạo áp lực tối ưu lên niêm mạc, còn alginate quá lỏng không nén đúng","Vì alginate cứng quá","Vì alginate độc"],a:1,e:"Cần ghi vùng yên dưới áp lực chức năng để tối ưu độ nhún niêm mạc; vật liệu ít nén (silicon/cao su TB) tạo áp lực phù hợp, còn alginate quá lỏng không tạo được nén đúng."},
+{b:20,d:2,q:"Trình tự các bước lâm sàng sau khi thử khung sườn (bước 7) là gì?",o:["Lắp hàm ngay","Ghi tương quan hàm trên-dưới → thử răng → lắp hàm","Lấy dấu sơ khởi","Sửa soạn răng trụ"],a:1,e:"Sau thử khung (bước 7): ghi tương quan hàm trên-hàm dưới (8) → thử răng (9) → lắp hàm (10)."},
+{b:20,d:2,q:"Điểm chặn sống hàm (tissue stop) khi thử khung có vai trò gì?",o:["Tăng lưu giữ","Không cho khung xoay/di chuyển khi ép nhựa chỗ nền hàm giả","Tạo thẩm mỹ","Truyền lực nhai"],a:1,e:"Điểm chặn sống hàm (hình vuông ~2 mm phía sau yên) giữ cho khung không xoay khi ép nhựa chỗ nền hàm giả."},
+{b:20,d:3,q:"Nếu khi thử khung, tựa không ngồi khít vào ổ tựa mà kênh lên, nguyên nhân có thể là:",o:["Ổ tựa quá sâu","Có điểm cộm ở tựa hoặc thân khung, hoặc ổ tựa sửa soạn chưa đủ/khung đúc sai","Móc quá lỏng","Nền hàm ngắn"],a:1,e:"Tựa kênh lên (không khít ổ tựa) thường do điểm cộm ở tựa/thân khung hoặc sai sót đúc/sửa soạn ổ tựa → dùng chất chỉ thị tìm và mài điểm cộm, kiểm tra lại ổ tựa."},
+{b:20,d:1,q:"Chất chỉ thị (fit checker/occlude spray) thường có màu gì để dễ phát hiện điểm cộm?",o:["Trong suốt","Màu đỏ/xanh","Đen","Trắng"],a:1,e:"Chất chỉ thị thường có màu đỏ/xanh; chỗ nào lộ kim loại hoặc màu trồi lên là điểm cộm."},
+{b:20,d:2,q:"Kiểm tra khung di động bằng cách nào trên miệng?",o:["Cho bệnh nhân nhai mạnh","Dùng tay đặt/ấn ở 2 bên khung xem có bập bênh không, rồi cho bệnh nhân cắn kiểm tra","Chụp X-quang","Đo lực"],a:1,e:"Đặt khung vào miệng, dùng tay ấn 2 bên xem khung có bập bênh/di động không; nếu di động = cộm → cho BN cắn kiểm tra thêm."},
+{b:20,d:3,q:"Trong altered cast, một lớp sáp nền (baseplate wax) được đặt lên vùng nào?",o:["Vùng còn răng","Vùng sống hàm mất răng","Toàn bộ khẩu cái","Mặt nhai răng trụ"],a:1,e:"Một lớp sáp nền đặt lên vùng sống hàm mất răng; khung đặt khít trên mẫu, lấy bỏ sáp quanh nối chính nền hàm rồi lấy dấu chức năng."},
+{b:20,d:2,q:"Vì sao chỗ lấy dấu chức năng vùng yên có bờ làm nhẵn tròn (dày ~1-2 mm)?",o:["Để đẹp","Để tạo bờ nền hàm phù hợp ngách hành lang, không kích thích mô mềm, tăng độ dày biên giới nền hàm","Để cứng hơn","Để tiết kiệm vật liệu"],a:1,e:"Bờ làm nhẵn tròn dày ~1-2 mm, cắt cách đáy ngách 1-2 mm để tạo biên giới nền hàm phù hợp ngách hành lang, không kích thích/gây loét mô mềm."},
+{b:20,d:1,q:"Sau khi kiểm tra khung phù hợp trên mẫu chính, bước tiếp theo là:",o:["Ép nhựa ngay","Thử khung trên miệng bệnh nhân và phát hiện điểm cộm","Nhổ răng","Lấy dấu lại"],a:1,e:"Sau khi kiểm tra khung trên mẫu chính (labo), bước tiếp là thử khung trên miệng bệnh nhân và phát hiện điểm cộm."},
+{b:20,d:3,q:"Bệnh nhân Kennedy I, nếu KHÔNG dùng altered cast mà lấy dấu thường, nguy cơ gì?",o:["Không có nguy cơ","Nền hàm không khít niêm mạc khi chịu lực → hàm xoay/lún, tạo đòn bẩy hại răng trụ, giảm hiệu quả nhai","Răng giả đổi màu","Móc quá chặt"],a:1,e:"Không dùng altered cast → nền hàm không ghi được vùng yên ở trạng thái chịu lực → khi nhai hàm lún/xoay, tạo đòn bẩy hại răng trụ và giảm phân bố lực, hiệu quả nhai kém."},
+{b:20,d:2,q:"Khi thử khung, 'extra minor connector' hoặc thanh nối phụ thừa cần được xử trí thế nào?",o:["Giữ nguyên","Nhận diện và điều chỉnh/loại bỏ nếu gây vướng hoặc sai thiết kế","Thêm nhiều hơn","Bọc nhựa"],a:1,e:"Khi thử khung cần nhận diện các sai sót thiết kế (thanh nối phụ thừa, cánh tay đối kháng sai...) và điều chỉnh cho phù hợp."},
+{b:20,d:2,q:"Vùng còn răng trong altered cast không thay đổi vì lý do gì?",o:["Vì răng không lún đáng kể, đã ghi chính xác ở dấu sơ khởi","Vì khó lấy dấu","Vì thẩm mỹ","Vì tiết kiệm"],a:0,e:"Vùng còn răng gần như không lún (răng chỉ lún ~0,1 mm), đã được ghi chính xác từ dấu sơ khởi nên giữ nguyên; chỉ cần đổ lại vùng sống hàm mất răng chịu lún nhiều."},
+{b:20,d:1,q:"Thử khung sườn là bước thứ mấy trong quy trình 10 bước điều trị PHKB?",o:["Bước 5","Bước 7","Bước 10","Bước 1"],a:1,e:"Thử khung là bước 7 trong quy trình: ...sửa soạn răng trụ (5) → lấy dấu (5/6) → thử khung (7) → ghi tương quan (8) → thử răng (9) → lắp hàm (10)."},
+{b:20,d:3,q:"Tổng hợp: mục tiêu cuối cùng của bước thử khung sườn và phát hiện điểm cộm là gì?",o:["Chỉ để kiểm tra thẩm mỹ","Đảm bảo khung ngồi khít, ổn định, các thành phần (tựa, móc, thanh) đúng vị trí trước khi chuyển sang các bước hoàn thiện","Để nhổ răng","Để lấy dấu lại toàn bộ"],a:1,e:"Mục tiêu thử khung: đảm bảo khung phù hợp/ngồi khít trên mô, ổn định không bập bênh, các thành phần đúng vị trí và không cộm — nền tảng cho các bước ghi tương quan, thử răng, lắp hàm sau đó."},
+
+// ===== BỔ SUNG BÀI 17 =====
+{b:17,d:1,q:"Trong phục hình khung bộ, nếu hàm chỉ có 1 đường nâng đỡ thì khi hoạt động chức năng hàm sẽ:",o:["Đứng yên tuyệt đối","Xoay quanh một trục","Bật ra hoàn toàn","Lún đều"],a:1,e:"Khi hàm chỉ có 1 đường nâng đỡ (mất răng loại I, II, IV), hàm sẽ chuyển động xoay quanh một trục khi có lực chức năng → cần VGGT."},
+{b:17,d:2,q:"Lực đối kháng do VGGT tạo ra (lực R) có tác dụng gì?",o:["Làm hàm bật nhanh hơn","Hạn chế chuyển động xoay của hàm quanh trục","Tăng lún hàm","Làm nghiêng răng trụ"],a:1,e:"Những tựa đặt trên răng còn lại đối diện trục xoay tạo lực đối kháng (R) để hạn chế chuyển động xoay của hàm."},
+{b:17,d:2,q:"Trong hình thức VGGT, Class I (tựa mặt nhai phụ răng tiền cối) đặt ở đâu?",o:["Gờ bên trong gần của 2 răng cối nhỏ 2 bên","Gờ bên xa 1 răng","Cingulum răng nanh","Mặt ngoài răng cối lớn"],a:0,e:"Class I: gờ bên trong gần của 2 răng cối nhỏ 2 bên; Class II: gờ bên trong gần của răng cối nhỏ bên đối diện KMR."},
+{b:17,d:1,q:"Trong hàm giả tựa hoàn toàn trên răng (Kennedy III), hàm được giữ vững ổn khi chịu các lực NGOẠI TRỪ:",o:["Làm lún hàm","Làm rơi hàm","Di động ngang và xoay dọc","Lực trọng trường của Trái Đất triệt tiêu răng trụ"],a:3,e:"Kennedy III giữ vững ổn khi chịu lực làm lún, làm rơi, di động ngang và xoay dọc. Phương án cuối vô nghĩa."},
+{b:17,d:3,q:"Bệnh nhân mất răng loại IV (mất răng trước qua đường giữa). Hàm xoay chiều đứng dọc phía gần. Điều này đòi hỏi VGGT đặt ở đâu để hiệu quả?",o:["Ngay răng cạnh khoảng mất răng phía trước","Răng phía sau xa nhất trục xoay (R6/R7)","Trên nền hàm","Không cần VGGT"],a:1,e:"Loại IV trục xoay qua tựa 2 răng trụ phía sau; hàm xoay phía gần → VGGT đặt ở răng xa nhất trục xoay (R6/R7) mới đủ cánh tay đòn chống xoay."},
+{b:17,d:2,q:"Vì sao khi thiết kế VGGT cần chú ý cả 'độ dài nền hàm mở rộng phía xa'?",o:["Vì thẩm mỹ","Vì nền hàm càng dài, lực F càng lớn → hàm càng dễ lún/xoay","Vì nền hàm ngắn dễ gãy","Không liên quan"],a:1,e:"Nền hàm mở rộng phía xa càng dài thì cánh tay đòn lực F càng lớn, hàm dễ lún/xoay → phải chú ý khi thiết kế VGGT và nền hàm nâng đỡ."},
+{b:17,d:2,q:"Trong mất răng loại I, VGGT thường đặt ở vị trí nào?",o:["Trên yên tự do 2 bên","Ở răng nanh hoặc hố giữa gần R4 (xa trục xoay)","Ở răng cối lớn cuối cùng","Ngay trên trục xoay"],a:1,e:"Loại I: trục xoay qua tựa 2 răng trụ (gần R4 hai bên); VGGT đặt ở răng nanh/hố giữa gần R4 để xa trục xoay."},
+{b:17,d:3,q:"Một hàm khung yên tự do được thiết kế VGGT đặt QUÁ GẦN trục xoay. Hậu quả cơ học là gì?",o:["Chống xoay rất tốt","Cánh tay đòn ngắn → lực đối kháng yếu → chống xoay kém hiệu quả","Không ảnh hưởng","Hàm không tháo được"],a:1,e:"VGGT quá gần trục xoay → cánh tay đòn ngắn → với cùng lực bật, lực đối kháng nhỏ → chống xoay kém. VGGT cần đặt càng xa trục xoay càng tốt."},
+{b:17,d:1,q:"Trong phục hình khung bộ, 'móc' đóng vai trò là vật giữ nào và tựa mặt nhai đóng vai trò gì?",o:["Móc = gián tiếp; tựa = trực tiếp","Móc = trực tiếp; tựa (đối diện trục xoay) = gián tiếp","Cả hai đều trực tiếp","Cả hai đều gián tiếp"],a:1,e:"Móc là vật giữ trực tiếp; còn tựa đặt trên răng đối diện trục xoay đóng vai trò vật giữ gián tiếp."},
+{b:17,d:2,q:"Biên độ chuyển động xoay của hàm phụ thuộc mô niêm mạc sợi ở khía cạnh nào?",o:["Màu sắc","Chất lượng, độ dày, tính đàn hồi","Vị trí lưỡi","Số lượng răng giả"],a:1,e:"Biên độ xoay phụ thuộc chất lượng, độ dày và tính đàn hồi của mô niêm mạc sợi (cùng độ chính xác nền hàm và lực đặt vào)."},
+{b:17,d:3,q:"Tổng hợp: vì sao hàm khung Kennedy I cần CẢ móc (VGTT) và VGGT, mỗi thứ chống một loại lực khác nhau?",o:["Vì để đẹp hơn","Vì móc chống lực bật hàm theo hướng lắp, còn VGGT chống lực xoay của yên tự do quanh trục","Vì cùng chống 1 lực","Vì tăng số kim loại"],a:1,e:"Kennedy I có yên tự do: móc (VGTT) giữ hàm chống bật theo hướng lắp; VGGT (tựa xa trục xoay) chống lực xoay của yên tự do khi nhai. Hai cơ chế bổ sung nhau."},
+
+// ===== BỔ SUNG BÀI 18 =====
+{b:18,d:1,q:"Yêu cầu về hình dạng của thanh nối chính là:",o:["Bất đối xứng, góc nhọn","Đối xứng, góc tròn","Dẹt mỏng","Nhiều cạnh"],a:1,e:"Thanh nối chính cần hình dạng đối xứng, góc tròn để không gây khó chịu và phân lực đều."},
+{b:18,d:2,q:"Thanh nối chính KHÔNG nên đặt trên vùng mô cứng nào?",o:["Niêm mạc má","Đường ráp giữa khẩu cái hoặc lồi xương hàm dưới","Sống hàm mất răng","Vùng lồi cùng"],a:1,e:"Tránh đặt thanh chính trên vùng mô cứng như đường ráp giữa khẩu cái hoặc lồi xương hàm dưới (dễ đau, kênh)."},
+{b:18,d:2,q:"Thanh lưỡi phụ (thanh cingulum răng) nằm ở đâu và dùng để làm gì?",o:["Trên mặt nhai; nâng đỡ","Trên cingulum các răng cửa dưới; kết hợp thanh lưỡi để tăng giữ dính & vững ổn","Trên khẩu cái; lưu giữ","Trên lồi cùng; ổn định"],a:1,e:"Thanh lưỡi phụ nằm trên cingulum các răng cửa dưới, dùng kết hợp với thanh lưỡi để tăng cường giữ dính và vững ổn của hàm."},
+{b:18,d:3,q:"Bệnh nhân hàm dưới có ngách lưỡi nông (thanh lưỡi không đủ chỗ) và răng cửa dưới hơi yếu. Thanh nối chính nào hợp lý nhất?",o:["Thanh môi","Tấm bản lưỡi (linguoplate)","Thanh khẩu đơn","Bản chữ U"],a:1,e:"Ngách lưỡi nông không đủ chỗ đặt thanh lưỡi, thêm răng cửa yếu → tấm bản lưỡi phù hợp (ôm mặt trong răng cửa, tác dụng như nẹp, chỉ cần ít chiều cao)."},
+{b:18,d:2,q:"Bản toàn diện hàm trên phía sau cần cách đường ranh giới khẩu cái cứng-mềm khoảng:",o:["1-3 mm","6 mm","10 mm","Sát ranh giới"],a:0,e:"Bản toàn diện: phía sau cách đường ranh giới khẩu cái cứng-mềm chừng 1-3 mm."},
+{b:18,d:3,q:"Vì sao thanh khẩu ĐƠN dễ biến dạng khi nhai hơn thanh khẩu KÉP?",o:["Vì thanh đơn dày hơn","Vì thanh đơn chỉ có 1 dải bắc ngang, tiết diện chịu lực nhỏ; thanh kép có 2 dải phân lực nên cứng hơn","Vì thanh kép ngắn hơn","Vì thanh đơn bằng nhựa"],a:1,e:"Thanh khẩu đơn chỉ 1 dải bắc ngang giữa/sau vòm khẩu → tiết diện chịu lực nhỏ, dễ uốn; thanh kép có 2 dải phân lực nên ít biến dạng hơn."},
+{b:18,d:2,q:"Bản rộng mé sau (mất răng loại I Kennedy) có giới hạn TRƯỚC là gì?",o:["Cingulum răng cửa","Đường nối 2 tựa mặt nhai của răng trụ kế KMR","Gai khẩu cái","Ranh giới cứng-mềm"],a:1,e:"Bản rộng: giới hạn trước = đường nối 2 tựa mặt nhai của răng trụ kế KMR; giới hạn sau tiến gần ranh giới KC cứng-mềm + phủ lồi cùng."},
+{b:18,d:1,q:"Thanh nối phụ cần tiếp xúc với mặt răng như thế nào?",o:["Ngắt quãng","Liên tục để lưỡi không có cảm giác vật lạ","Chỉ 1 điểm","Không tiếp xúc"],a:1,e:"Thanh nối phụ tiếp xúc liên tục với mặt răng để lưỡi không có cảm giác vật lạ."},
+{b:18,d:3,q:"Tổng hợp: một hàm khung mất răng loại III có KMR dài và có lồi rắn khẩu cái. Thanh nối chính hàm trên nào tối ưu?",o:["Thanh khẩu đơn","Thanh khẩu kép","Bản toàn diện","Thanh môi"],a:1,e:"Mất răng loại III + KMR dài + lồi rắn khẩu cái → thanh khẩu kép: ít biến dạng, né được lồi rắn ở giữa (2 dải trước-sau)."},
+
+// ===== BỔ SUNG BÀI 19 =====
+{b:19,d:1,q:"Lực lưu giữ của móc phải như thế nào để tránh lực ngang thái quá lên răng trụ?",o:["Càng lớn càng tốt","Vừa đủ, không quá lớn","Bằng 0","Không quan trọng"],a:1,e:"Lực lưu giữ phải vừa đủ, không quá lớn để tránh lực ngang thái quá tác động lên răng trụ khi tháo/lắp."},
+{b:19,d:2,q:"Khi thiết kế, tay móc lưu giữ nên đặt ở vùng lẹm độ mấy?",o:["Độ 0","Vùng lẹm độ 1, 2, 3","Độ 5","Trên ĐVLN"],a:1,e:"Khi thiết kế, đặt tay móc lưu giữ ở vùng lẹm độ 1, 2, 3; đặt quá sâu tạo lực đối kháng lớn hại răng trụ."},
+{b:19,d:3,q:"Bệnh nhân mất răng xen kẽ nhiều khoảng (nhiều KMR rải rác). Kiểu nâng đỡ Steffel phù hợp và thách thức của nó là gì?",o:["Tứ giác; dễ lắp","Đa giác; mp nâng đỡ rộng nên vững ổn nhưng khó tìm hướng lắp và dễ lưu giữ thức ăn","Đường thẳng; đơn giản","Tam giác; rất vững"],a:1,e:"Nhiều KMR rải rác → nâng đỡ đa giác: mp nâng đỡ rộng nên vững ổn, nhưng nhiều răng thế → nhiều hướng lắp phức tạp, khó tìm hướng lắp và dễ lưu giữ thức ăn."},
+{b:19,d:2,q:"Để phục hình lưu giữ tốt nhất, đường giữ nên có hướng như thế nào trên cung hàm?",o:["Nằm dọc 1 bên","Cắt chéo bề mặt cung hàm","Trùng ngoại vi","Song song trục giữa"],a:1,e:"Đường giữ cắt chéo bề mặt cung hàm → phục hình lưu giữ tốt (phân bố lực giữ đều nhiều hướng)."},
+{b:19,d:3,q:"Tổng hợp: vì sao nâng đỡ hình tứ giác được so sánh gần với phục hình cố định về vững ổn và hiệu quả nhai?",o:["Vì nó có nhiều móc nhất","Vì khi đường nâng đỡ nằm giữa sống hàm và răng thay thế lên đúng đường này, lực phân bố đều trên 4 điểm nâng đỡ như trụ cầu","Vì nó dùng kim loại quý","Vì nó không có yên"],a:1,e:"Nâng đỡ tứ giác (4 điểm) khi đường nâng đỡ nằm giữa sống hàm và răng thay thế lên đúng đường này → lực truyền theo trục các trụ, phân bố đều như phục hình cố định → vững ổn và hiệu quả nhai cao."},
+{b:19,d:2,q:"Ổ tựa mài SAI (không theo trục răng) gây hậu quả gì?",o:["Tăng lưu giữ","Không phân bố lực theo trục răng, làm nghiêng răng trụ","Chống lún tốt hơn","Không ảnh hưởng"],a:1,e:"Ổ tựa mài sai → lực nhai không phân bố theo trục răng → làm nghiêng răng trụ."},
+{b:19,d:3,q:"Trong nâng đỡ tam giác mất răng sau 1 bên, để giảm đòn bẩy lên răng trụ bên mất răng và lực kéo lên răng trụ bên còn răng, người ta thường làm gì?",o:["Bỏ tựa","Dùng móc Bonwill trên 2 răng trụ kế KMR, hoặc liên kết 2 răng bằng phục hình cố định","Dùng thanh môi","Tăng chiều dài yên"],a:1,e:"Để giảm đòn bẩy và lực kéo, thường dùng móc Bonwill trên 2 răng trụ kế KMR; hoặc vì thẩm mỹ có thể liên kết 2 răng này bằng phục hình cố định."},
+
+// ===== BỔ SUNG BÀI 20 =====
+{b:20,d:2,q:"Trong kỹ thuật altered cast, sau khi lấy dấu chức năng vùng yên, thao tác labo tiếp theo là:",o:["Ép nhựa ngay","Cắt bỏ phần sống hàm mất răng trên mẫu cũ rồi đổ lại (altered) phần đó","Bỏ mẫu","Mài răng trụ"],a:1,e:"Sau lấy dấu chức năng vùng yên, phần sống hàm mất răng trên mẫu được cắt bỏ và đổ lại (altered cast) theo dấu chịu lực; phần còn răng giữ nguyên."},
+{b:20,d:1,q:"Occlude spray / fit checker dùng trong bước nào?",o:["Lấy dấu sơ khởi","Thử khung sườn & phát hiện điểm cộm","Ghi tương quan","Chọn màu răng"],a:1,e:"Occlude spray/fit checker (chất chỉ thị) dùng khi thử khung sườn để phát hiện điểm cộm."},
+{b:20,d:2,q:"Khi thử khung, nếu móc không ôm sát răng hoặc cánh tay đối kháng thiết kế sai, cần:",o:["Bỏ qua","Nhận diện và điều chỉnh/uốn hoặc ghi nhận để sửa thiết kế","Lắp hàm ngay","Nhổ răng trụ"],a:1,e:"Thử khung giúp kiểm tra móc/răng và phát hiện thiết kế sai (như wrong reciprocal arm) → điều chỉnh cho phù hợp trước khi hoàn thiện."},
+{b:20,d:3,q:"Vì sao trong altered cast, độ nén của vùng yên được ghi ở trạng thái chịu lực lại quan trọng với hàm Kennedy I hơn Kennedy III?",o:["Vì Kennedy I răng đẹp hơn","Vì Kennedy I có yên tự do, chênh lệch lún răng-niêm mạc lớn; ghi vùng yên dưới lực giúp nền hàm chịu lực đều, giảm xoay/đòn bẩy","Vì Kennedy III không có niêm mạc","Vì Kennedy I ít răng hơn"],a:1,e:"Kennedy I có yên tự do → chênh lệch lún răng (ít) và niêm mạc (nhiều) tạo xoay; ghi vùng yên dưới lực (altered cast) giúp nền hàm tiếp xúc đều khi nhai, giảm xoay và đòn bẩy hại răng trụ. Kennedy III tựa hoàn toàn trên răng nên ít cần."},
+{b:20,d:2,q:"Bờ vật liệu lấy dấu chức năng vùng yên nên dày khoảng bao nhiêu và cắt cách đáy ngách bao nhiêu?",o:["Dày 1-2 mm, cách đáy ngách 1-2 mm","Dày 5 mm, sát đáy ngách","Dày 0,3 mm, cách 6 mm","Dày 10 mm"],a:0,e:"Bờ làm nhẵn tròn dày ~1-2 mm, cắt viền cách đáy ngách 1-2 mm để phù hợp ngách hành lang, không kích thích mô mềm."},
+{b:20,d:1,q:"Ba nhóm điểm cần kiểm tra khi thử khung là tựa/ổ tựa, móc/răng và:",o:["Màu răng","Điểm chặn sống hàm / sống hàm mất răng","Khớp cắn trung tâm","Đường giữa"],a:1,e:"Kiểm tra: tựa/ổ tựa, móc/răng, và điểm chặn sống hàm / sống hàm mất răng (tissue stop/edentulous ridge)."},
+{b:20,d:3,q:"Tổng hợp: thứ tự hợp lý các bước từ sau sửa soạn răng trụ đến lắp hàm cho một ca yên tự do là:",o:["Sửa soạn răng trụ → lắp hàm → thử khung","Sửa soạn răng trụ → lấy dấu (có altered cast) → thử khung → ghi tương quan → thử răng → lắp hàm","Thử khung → sửa soạn răng trụ → lắp hàm","Lấy dấu → lắp hàm → thử khung"],a:1,e:"Trình tự: sửa soạn răng trụ (5) → lấy dấu sơ khởi/sau cùng, có altered cast cho yên tự do (6) → thử khung (7) → ghi tương quan hàm (8) → thử răng (9) → lắp hàm (10)."},
+{b:20,d:2,q:"Điểm chặn phía sau yên (hình vuông ~2 mm) đặc biệt quan trọng ở công đoạn nào?",o:["Khi nhai","Khi ép nhựa chỗ nền hàm giả (chống khung xoay)","Khi lấy dấu sơ khởi","Khi chọn màu răng"],a:1,e:"Điểm chặn phía sau yên hình vuông ~2 mm giữ khung không xoay khi ép nhựa chỗ nền hàm giả (đảm bảo vị trí khung chính xác)."},
+{b:20,d:3,q:"Nếu thử khung mà tựa kênh, dùng chất chỉ thị thấy điểm cộm ở đáy ổ tựa. Xử trí đúng là:",o:["Mài sâu thêm ổ tựa trên răng bệnh nhân tùy ý","Mài bớt điểm cộm trên khung (phần tựa) cho đến khi tựa ngồi khít, kiểm tra lại","Bỏ tựa đó","Ép nhựa luôn"],a:1,e:"Điểm cộm ở phần tựa của khung → mài bớt kim loại điểm cộm trên khung (không phá ổ tựa răng) đến khi tựa ngồi khít ổ tựa và khung ổn định."}
+];
+
+/* ================= ỨNG DỤNG ================= */
+const LESSONS = {
+  15:{t:"Bài 15 · Móc"}, 16:{t:"Bài 16 · Sửa soạn răng trụ"},
+  17:{t:"Bài 17 · Vật giữ gián tiếp"}, 18:{t:"Bài 18 · Các thanh nối"},
+  19:{t:"Bài 19 · Phác họa giữ & nâng đỡ"}, 20:{t:"Bài 20 · Thử khung & lắp hàm"}
+};
+const DLABEL = {1:"Dễ",2:"Trung bình",3:"Khó"};
+let state = null; // {list, idx, answers[], mode:'study'|'exam', instant:bool}
+
+// gán id cho từng câu để review
+BANK.forEach((q,i)=>q.id=i);
+
+const $ = s=>document.querySelector(s);
+document.getElementById('totalBadge').textContent = BANK.length + " câu";
+
+// ---- Home build ----
+function buildHome(){
+  const grid = $('#lessonGrid'); grid.innerHTML='';
+  Object.keys(LESSONS).forEach(b=>{
+    const n = BANK.filter(q=>q.b==b).length;
+    const btn = document.createElement('button');
+    btn.className='btn-lesson';
+    btn.innerHTML = `<b>${LESSONS[b].t}</b><span>${n} câu · học kèm giải thích</span>`;
+    btn.onclick = ()=>startStudy(+b);
+    grid.appendChild(btn);
+  });
+  const sc = $('#examScope');
+  sc.innerHTML = `<option value="all">Tất cả 6 bài</option>` +
+    Object.keys(LESSONS).map(b=>`<option value="${b}">${LESSONS[b].t}</option>`).join('');
+}
+// chip toggles
+document.querySelectorAll('#diffSeg .chip').forEach(c=>c.onclick=()=>{
+  document.querySelectorAll('#diffSeg .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');});
+document.querySelectorAll('#numSeg .chip').forEach(c=>c.onclick=()=>{
+  document.querySelectorAll('#numSeg .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');});
+
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+// ---- Study mode ----
+function startStudy(b){
+  const list = BANK.filter(q=>q.b==b).slice();
+  state = {list, idx:0, answers:new Array(list.length).fill(null), mode:'study', instant:true};
+  enterQuiz();
+}
+// ---- Exam mode ----
+function startExam(){
+  const scope = $('#examScope').value;
+  const d = document.querySelector('#diffSeg .chip.on').dataset.d;
+  const n = +document.querySelector('#numSeg .chip.on').dataset.n;
+  const instant = $('#instantChk').checked;
+  let pool = BANK.slice();
+  if(scope!=='all') pool = pool.filter(q=>q.b==scope);
+  if(d!=='all') pool = pool.filter(q=>q.d==+d);
+  pool = shuffle(pool);
+  // trộn cả thứ tự đáp án cho mỗi câu
+  let list = (n===0? pool : pool.slice(0,n)).map(q=>{
+    const order = shuffle([0,1,2,3]);
+    return {...q, _order:order};
+  });
+  if(list.length===0){alert('Không có câu hỏi phù hợp bộ lọc.');return;}
+  state = {list, idx:0, answers:new Array(list.length).fill(null), mode:'exam', instant};
+  enterQuiz();
+}
+
+function enterQuiz(){
+  $('#home').classList.add('hide'); $('#result').classList.add('hide');
+  $('#quiz').classList.remove('hide');
+  window.scrollTo(0,0); renderQ();
+}
+function quitQuiz(){ if(confirm('Thoát và về trang chủ? Tiến trình sẽ mất.')) location.reload(); }
+
+function renderQ(){
+  const q = state.list[state.idx];
+  const order = q._order || [0,1,2,3];
+  $('#qBai').textContent = LESSONS[q.b].t.split('·')[0].trim();
+  const dl = $('#qDiff'); dl.textContent = DLABEL[q.d]; dl.className = 'tagD d'+q.d;
+  $('#qText').textContent = (state.idx+1)+'. '+q.q;
+  $('#qCount').textContent = (state.idx+1)+'/'+state.list.length;
+  $('#progBar').style.width = ((state.idx)/state.list.length*100)+'%';
+  // live score in exam+instant or study
+  const answered = state.answers.filter(a=>a!==null).length;
+  const correct = state.answers.filter((a,i)=> a!==null && a===state.list[i].a).length;
+  $('#scoreLive').textContent = (state.instant? '✓ '+correct+'/'+answered : '');
+  // options
+  const wrap = $('#qOpts'); wrap.innerHTML='';
+  const letters=['A','B','C','D'];
+  order.forEach((optIdx,pos)=>{
+    const div = document.createElement('div');
+    div.className='opt'; div.dataset.opt=optIdx;
+    div.innerHTML = `<span class="k">${letters[pos]}</span><span>${q.o[optIdx]}</span>`;
+    div.onclick = ()=>chooseAnswer(optIdx, div);
+    wrap.appendChild(div);
+  });
+  const ex = $('#qExplain'); ex.classList.remove('show'); ex.innerHTML='';
+  $('#nextBtn').style.display='none'; $('#skipBtn').style.display='';
+  // đã trả lời rồi (quay lại): hiển thị
+  if(state.answers[state.idx]!==null) revealAnswer(state.answers[state.idx], false);
+}
+
+function chooseAnswer(optIdx, div){
+  if(state.answers[state.idx]!==null) return; // đã trả lời
+  state.answers[state.idx]=optIdx;
+  const q = state.list[state.idx];
+  if(state.instant){
+    revealAnswer(optIdx, true);
+  } else {
+    // exam không hiện đáp án: chỉ đánh dấu chọn, cho next
+    document.querySelectorAll('#qOpts .opt').forEach(o=>o.classList.add('dim'));
+    div.classList.remove('dim'); div.style.borderColor='var(--brand)';
+    $('#skipBtn').style.display='none'; $('#nextBtn').style.display='';
+    $('#nextBtn').textContent = (state.idx===state.list.length-1)?'Xem kết quả →':'Câu tiếp →';
+  }
+}
+
+function revealAnswer(chosen, animate){
+  const q = state.list[state.idx];
+  document.querySelectorAll('#qOpts .opt').forEach(o=>{
+    const oi = +o.dataset.opt;
+    o.onclick=null;
+    if(oi===q.a) o.classList.add('correct');
+    else if(oi===chosen) o.classList.add('wrong');
+    else o.classList.add('dim');
+  });
+  const ex = $('#qExplain');
+  const ok = chosen===q.a;
+  ex.innerHTML = `<b>${ok?'✔ Chính xác':'✘ Đáp án đúng: '+['A','B','C','D'][(q._order||[0,1,2,3]).indexOf(q.a)]}</b> — ${q.e}`;
+  ex.classList.add('show');
+  $('#skipBtn').style.display='none'; $('#nextBtn').style.display='';
+  $('#nextBtn').textContent = (state.idx===state.list.length-1)?'Xem kết quả →':'Câu tiếp →';
+}
+
+function nextQ(){
+  if(state.idx < state.list.length-1){ state.idx++; window.scrollTo(0,0); renderQ(); }
+  else finish();
+}
+
+function finish(){
+  $('#quiz').classList.add('hide'); $('#result').classList.remove('hide'); window.scrollTo(0,0);
+  const total = state.list.length;
+  const correct = state.answers.filter((a,i)=> a===state.list[i].a).length;
+  const pct = Math.round(correct/total*100);
+  $('#rScore').textContent = correct+'/'+total;
+  let msg = pct>=90?'Xuất sắc! 🏆':pct>=75?'Tốt lắm! 👍':pct>=50?'Khá, ôn thêm câu sai nhé.':'Cần ôn lại kỹ hơn 💪';
+  $('#rSub').textContent = pct+'% đúng · '+msg;
+  // review
+  const rl = $('#reviewList'); rl.innerHTML='';
+  state.list.forEach((q,i)=>{
+    const chosen=state.answers[i];
+    const ok = chosen===q.a;
+    const div=document.createElement('div'); div.className='reviewitem';
+    div.innerHTML = `<div class="q">${LESSONS[q.b].t.split('·')[0].trim()} · ${DLABEL[q.d]} — ${i+1}. ${q.q}</div>`+
+      `<div class="a ${ok?'ok':'no'}">${ok?'✔ Bạn đúng':'✗ Bạn chọn: '+(chosen===null?'(bỏ qua)':q.o[chosen])}</div>`+
+      (ok?'':`<div class="a ok">✔ Đúng: ${q.o[q.a]}</div>`)+
+      `<div class="a" style="color:var(--mut);margin-top:4px">💡 ${q.e}</div>`;
+    rl.appendChild(div);
+  });
+  const wrong = state.list.filter((q,i)=>state.answers[i]!==q.a);
+  $('#retryBtn').style.display = wrong.length? '' : 'none';
+  state._wrong = wrong;
+}
+
+function retryWrong(){
+  const wrong = state._wrong.map(q=>({...q, _order:shuffle([0,1,2,3])}));
+  state = {list:wrong, idx:0, answers:new Array(wrong.length).fill(null), mode:state.mode, instant:state.instant};
+  enterQuiz();
+}
+
+// keyboard
+document.addEventListener('keydown',e=>{
+  if($('#quiz').classList.contains('hide')) return;
+  if(['1','2','3','4'].includes(e.key)){
+    const opts=document.querySelectorAll('#qOpts .opt');
+    const i=+e.key-1; if(opts[i]) opts[i].click();
+  } else if(e.key==='Enter'){
+    if($('#nextBtn').style.display!=='none') nextQ();
+  }
+});
+
+buildHome();
+</script>
+</body>
+</html>

@@ -1,0 +1,1433 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Subscription Service – Tài liệu</title>
+<style>
+  :root {
+    --bg: #0f1117; --surface: #1a1d27; --surface2: #222636;
+    --border: #2d3148; --text: #e2e8f0; --muted: #8892b0;
+    --accent: #64ffda; --accent2: #7c3aed; --blue: #38bdf8;
+    --green: #4ade80; --yellow: #fbbf24; --red: #f87171; --orange: #fb923c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; display: flex; }
+  #sidebar {
+    width: 280px; min-width: 280px; height: 100vh; position: sticky; top: 0;
+    overflow-y: auto; background: var(--surface); border-right: 1px solid var(--border);
+    padding: 1rem 0;
+  }
+  #sidebar h2 { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); padding: 0.5rem 1.2rem; margin-bottom: 0.3rem; }
+  #sidebar a { display: block; padding: 0.3rem 1.2rem; color: var(--muted); text-decoration: none; font-size: 0.85rem; border-left: 2px solid transparent; transition: all 0.15s; }
+  #sidebar a:hover, #sidebar a.active { color: var(--accent); border-left-color: var(--accent); background: rgba(100,255,218,0.05); }
+  #sidebar .section-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent2); padding: 0.8rem 1.2rem 0.2rem; }
+  #content { flex: 1; min-width: 0; padding: 2rem 3rem; max-width: 1100px; }
+  h1 { font-size: 2rem; color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; margin: 2rem 0 1rem; }
+  h2 { font-size: 1.4rem; color: var(--blue); margin: 2rem 0 0.8rem; padding-top: 0.5rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+  h3 { font-size: 1.1rem; color: var(--orange); margin: 1.5rem 0 0.6rem; }
+  h4 { font-size: 0.95rem; color: var(--yellow); margin: 1rem 0 0.4rem; }
+  p { margin: 0.6rem 0; color: var(--text); }
+  ul, ol { padding-left: 1.5rem; margin: 0.5rem 0; }
+  li { margin: 0.2rem 0; }
+  strong { color: var(--accent); }
+  em { color: var(--yellow); font-style: normal; }
+  code { background: var(--surface2); color: var(--accent); padding: 0.1em 0.4em; border-radius: 3px; font-family: 'Consolas', 'Fira Code', monospace; font-size: 0.88em; }
+  pre { background: var(--surface2); border: 1px solid var(--border); border-radius: 6px; padding: 1rem 1.2rem; overflow-x: auto; margin: 0.8rem 0; }
+  pre code { background: none; padding: 0; color: #a8daff; font-size: 0.87em; }
+  table { width: 100%; border-collapse: collapse; margin: 0.8rem 0; font-size: 0.88rem; }
+  th { background: var(--surface2); color: var(--blue); text-align: left; padding: 0.5rem 0.8rem; border: 1px solid var(--border); }
+  td { padding: 0.45rem 0.8rem; border: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+  tr:hover td { background: rgba(100,255,218,0.04); }
+  .badge { display: inline-block; padding: 0.1em 0.5em; border-radius: 3px; font-size: 0.8em; font-weight: 600; }
+  .badge-green { background: rgba(74,222,128,0.15); color: var(--green); }
+  .badge-red { background: rgba(248,113,113,0.15); color: var(--red); }
+  .badge-blue { background: rgba(56,189,248,0.15); color: var(--blue); }
+  .badge-yellow { background: rgba(251,191,36,0.15); color: var(--yellow); }
+  .badge-orange { background: rgba(251,146,60,0.15); color: var(--orange); }
+  .callout { border-left: 3px solid var(--accent); background: rgba(100,255,218,0.05); padding: 0.7rem 1rem; margin: 1rem 0; border-radius: 0 6px 6px 0; }
+  .callout.warn { border-left-color: var(--yellow); background: rgba(251,191,36,0.05); }
+  .callout.danger { border-left-color: var(--red); background: rgba(248,113,113,0.05); }
+  hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+  section { margin-bottom: 3rem; }
+</style>
+</head>
+<body>
+
+<nav id="sidebar">
+  <h2>Subscription Service</h2>
+  <div class="section-title">Knowledge Base</div>
+  <a href="#business">01. Business</a>
+  <a href="#architecture">02. Architecture</a>
+  <a href="#domain">03. Domain Model</a>
+  <a href="#rules">04. Rules &amp; Gotchas</a>
+  <a href="#integrations">06. Integrations</a>
+  <a href="#operations">07. Operations</a>
+  <a href="#glossary">08. Glossary</a>
+  <div class="section-title">Flows</div>
+  <a href="#flow01">01. Customer Purchase</a>
+  <a href="#flow02">02. Free Trial</a>
+  <a href="#flow03">03. Auto-Renew</a>
+  <a href="#flow04">04. Family &amp; Business</a>
+  <a href="#flow05">05. Driver Charging</a>
+  <a href="#flow06">06. Kafka Consumers</a>
+  <a href="#flow07">07. Worker &amp; Cron</a>
+  <a href="#flow08">08. Flash Sale</a>
+  <a href="#flow09">09. Admin Operations</a>
+  <a href="#flow10">10. Partner Integration</a>
+  <div class="section-title">Reference</div>
+  <a href="#dbschema">DB Schema</a>
+  <a href="#apicatalog">API Catalog</a>
+</nav>
+
+<main id="content">
+
+<!-- ===== BUSINESS ===== -->
+<section id="business">
+<h1>01 – Business</h1>
+
+<h2>1. Mission</h2>
+<p><code>be-subscription-service</code> phát hành và quản lý <strong>gói thành viên (Subscription)</strong> cho:</p>
+<ul>
+  <li><strong>Customer</strong> (Xanh SM mobile) – gói voucher/ưu đãi/đặc quyền theo thời hạn.</li>
+  <li><strong>Driver</strong> (V-Green) – gói sạc pin.</li>
+</ul>
+<p>Mục tiêu thương mại: tăng <strong>conversion</strong>, <strong>retention</strong>, <strong>ARPU</strong>, mở rộng đa thị trường (VN → ID → PH).</p>
+
+<h2>2. Package Taxonomy</h2>
+<table>
+  <tr><th>Trường</th><th>Giá trị</th><th>Ý nghĩa</th></tr>
+  <tr><td><code>group</code></td><td>SHORT-TERM / LONG-TERM</td><td>1 tháng vs 1/3/6/12 tháng</td></tr>
+  <tr><td><code>type</code></td><td>PERSONAL / GIFT</td><td>PERSONAL = mua cho bản thân; GIFT = mua tặng người khác</td></tr>
+  <tr><td><code>package_type</code></td><td>0 individual / 1 family / 2 business</td><td>Ảnh hưởng member management, thẻ VIP, priority dispatch. API filter: NORMAL_PACKAGE / XANH_FAMILY / BUSINESS / ALL</td></tr>
+  <tr><td><code>currency_code</code></td><td>VND / LAK / IDR / PHP / INR / USD</td><td>Đa tiền tệ theo thị trường</td></tr>
+  <tr><td><code>allow_free_trial</code></td><td>bool</td><td>Chỉ true khi PTTT hỗ trợ auto-renew</td></tr>
+  <tr><td><code>allow_auto_renew</code></td><td>bool (qua selling_price)</td><td>Chỉ true với PTTT trong dynamic_config.map_auto_renew_payment_method</td></tr>
+  <tr><td><code>allow_vpoint_payment</code></td><td>bool</td><td>Gói có cho phép thanh toán bằng VPoint</td></tr>
+  <tr><td><code>partner_setting</code></td><td>JSONB</td><td>Gắn với reward 3rd-party (Triplayz, Momo…)</td></tr>
+  <tr><td><code>flash_sale</code></td><td>campaign riêng</td><td>Giảm giá theo khung giờ, quota giới hạn. FIXED (giảm cố định) / PERCENT (giảm %)</td></tr>
+  <tr><td><code>invoice_enabled</code></td><td>bool (per dynamic_config)</td><td>VN bật xuất VAT; market khác tắt</td></tr>
+  <tr><td><code>vpoint_enabled</code></td><td>bool (per dynamic_config)</td><td>VN dùng VPoint, ID tắt, PH ready-but-off</td></tr>
+</table>
+
+<h2>3. Roadmap</h2>
+<table>
+  <tr><th>Giai đoạn</th><th>Mốc</th><th>Feature nổi bật</th></tr>
+  <tr><td>Phase 1</td><td>2024-03</td><td>Gói ngắn hạn, mua 1 lần</td></tr>
+  <tr><td>Phase 2</td><td>2024-06→11</td><td>Long-term, Auto-renew, Segmentation, Free Trial, Partner</td></tr>
+  <tr><td>Expansion 2025</td><td>05→07</td><td>Xanh Family (gói gia đình, priority dispatch)</td></tr>
+  <tr><td>Expansion 2025</td><td>06→07</td><td>VIP GF / Business (thẻ VIP, credit limit, trip/km limit, Biz Portal)</td></tr>
+  <tr><td>Enhancement 2025</td><td>09</td><td>Status cleanup + reconciliation với Invoice/CSKH</td></tr>
+  <tr><td>Enhancement 2025</td><td>10</td><td>Invoice VAT + VPoint (Vinclub)</td></tr>
+  <tr><td>Enhancement 2025</td><td>10</td><td>Recommendation (Look-alike, Propensity, Segmentation)</td></tr>
+  <tr><td>Enhancement 2025</td><td>11→12</td><td>Flash Sale (campaign, countdown, Home zone)</td></tr>
+  <tr><td>2026+</td><td>WIP</td><td>Subscription Proposal 2026</td></tr>
+</table>
+
+<h2>4. User Journey – Customer</h2>
+<ol>
+  <li><strong>Listing</strong> (<code>/v1/public/subscription/list</code>) → chỉ show gói <code>state=RUNNING</code>, <code>display_status=ONGOING</code>, user thuộc country/city, whitelist segment, không blacklist.</li>
+  <li><strong>Detail</strong> → hiển thị voucher, saving_info, CTA mua/trial.</li>
+  <li><strong>Purchase</strong> → BE tạo order PENDING + transaction PROCESSING + gọi Payment.</li>
+  <li><strong>Payment callback</strong> (Kafka) → IssueVoucher (Loyalty) → order ACTIVE.</li>
+  <li><strong>My Package / History</strong> → user xem gói đang chạy, voucher, next billing, auto-renew toggle.</li>
+  <li><strong>Auto-renew</strong> → worker <code>renew_subscription</code> quét queue mỗi 10 phút.</li>
+  <li><strong>Free trial</strong> → tạo <code>subscription_free_trial_order</code> + issue voucher trial; cron <code>purchase_after_trial</code> convert sang order chính.</li>
+  <li><strong>Cancel</strong> → điều kiện: chưa dùng voucher, chưa quá window; Family/Business thêm rule Biz Portal.</li>
+</ol>
+
+<h2>5. User Journey – Driver (V-Green)</h2>
+<ol>
+  <li>Driver chọn charging_package trên app GSM. Chỉ khả dụng tại HN (city_id=1), HCM (city_id=50), ĐN (city_id=32).</li>
+  <li>BE tạo <code>driver_subscription</code> + <code>driver_subscription_transaction</code>, gọi Payment (ví driver). Distributed lock qua redsync.</li>
+  <li>Kết quả về → kích hoạt gói sạc.</li>
+  <li>V-Green station gọi <code>/v1/public/v-green/subscription/verify</code> để check quota realtime.</li>
+  <li>Driver phải là loại xe <code>car</code>, hợp đồng SAP type <code>car</code>, tài khoản <code>ACTIVATED</code>.</li>
+</ol>
+</section>
+
+<!-- ===== ARCHITECTURE ===== -->
+<section id="architecture">
+<h1>02 – Architecture</h1>
+
+<h2>1. Stack</h2>
+<ul>
+  <li>Go 1.25.6, Gin (HTTP), GORM (PostgreSQL), <code>go-redis/redis</code> + <code>go-redsync/redsync</code></li>
+  <li>Kafka qua <code>segmentio/kafka-go</code></li>
+  <li>Background jobs: <code>hibiken/asynq</code> + <code>RichardKnop/machinery</code> + <code>github.com/mileusna/crontab</code></li>
+  <li>FSM: <code>looplab/fsm</code>; Validation: <code>go-playground/validator/v10</code></li>
+  <li>Logging: zerolog; Metrics: Prometheus; JWT; Tracing: <code>pkg/tracing</code> (request_id)</li>
+</ul>
+
+<h2>2. Entry Points (<code>cmd/</code>)</h2>
+<table>
+  <tr><th>Binary</th><th>Vai trò</th></tr>
+  <tr><td><code>cmd/app/user/main.go</code></td><td>REST cho Customer + Admin portal + Internal API</td></tr>
+  <tr><td><code>cmd/app/driver/main.go</code></td><td>REST cho Driver + V-Green + Admin driver</td></tr>
+  <tr><td><code>cmd/worker/main.go</code></td><td>Cronjob runner</td></tr>
+  <tr><td><code>cmd/payment-consumer/main.go</code></td><td>Kafka consumer payment result</td></tr>
+  <tr><td><code>cmd/biz-portal-consumer/main.go</code></td><td>Kafka consumer biz sync</td></tr>
+  <tr><td><code>cmd/driver-vehicle-consumer/main.go</code></td><td>Kafka consumer vehicle change</td></tr>
+</table>
+
+<h2>3. Module Layout (Clean Architecture)</h2>
+<pre><code>module/&lt;domain&gt;/
+  transport/   # Gin handler, DTO
+  business/    # Service logic, FSM, gọi external
+  storage/     # GORM repo
+routes/        # Đăng ký handler theo audience
+cmd/           # Binary entry
+pkg/           # Helper dùng chung
+migrations/    # Goose SQL</code></pre>
+<p>Domain chính: <code>subscription</code> (customer + admin), <code>driver_subscription</code>, <code>driver_transaction</code>, <code>worker</code>.</p>
+
+<h2>4. Route Prefix</h2>
+<table>
+  <tr><th>Prefix</th><th>Audience</th><th>Header bắt buộc</th></tr>
+  <tr><td><code>/v1/public/subscription/*</code></td><td>Customer mobile</td><td>x-user-id, x-user-phone, x-user-platform, x-user-audience=user_app, Accept-Language, app-build-number</td></tr>
+  <tr><td><code>/v1/public/admin/subscription/*</code></td><td>Admin portal</td><td>x-user-id, x-user-role, x-user-audience=admin_portal</td></tr>
+  <tr><td><code>/v1/internal/*</code></td><td>Inter-service</td><td>Trust internal network, không JWT</td></tr>
+  <tr><td><code>/v1/public/integration/partner/triplayz/*</code></td><td>Partner</td><td>x-partner-id, HMAC signature</td></tr>
+  <tr><td><code>/v1/public/driver/*</code></td><td>Driver app</td><td>x-user-audience=driver_app</td></tr>
+  <tr><td><code>/v1/public/v-green/subscription/*</code></td><td>V-Green station</td><td>Token riêng cho station</td></tr>
+</table>
+
+<h2>5. Workers (Cron)</h2>
+<table>
+  <tr><th>Key</th><th>Tần suất</th><th>Việc</th></tr>
+  <tr><td><code>subscription_running</code></td><td>1 phút</td><td>PUBLISHED → RUNNING</td></tr>
+  <tr><td><code>subscription_close</code></td><td>1 phút</td><td>RUNNING → CLOSED</td></tr>
+  <tr><td><code>order_expired</code></td><td>5 phút</td><td>Order EXPIRED khi qua end_date</td></tr>
+  <tr><td><code>renew_subscription</code></td><td>10 phút</td><td>Queue auto-renew → Payment</td></tr>
+  <tr><td><code>purchase_after_trial</code></td><td>5 phút</td><td>Convert trial → order thật</td></tr>
+  <tr><td><code>close_trial_expired</code></td><td>5 phút</td><td>Đóng free_trial_order hết hạn</td></tr>
+  <tr><td><code>noti_before_expired</code></td><td>Hàng ngày</td><td>Noti nhắc hết hạn</td></tr>
+  <tr><td><code>update_invoice_status</code></td><td>15 phút</td><td>Sync Invoice Service</td></tr>
+  <tr><td><code>crawl_recommend_sub_date</code></td><td>Hàng ngày</td><td>Batch BigQuery → subscription_recommendation</td></tr>
+</table>
+
+<h2>6. Kafka Topics</h2>
+<table>
+  <tr><th>Topic</th><th>Ai gửi</th><th>BE xử lý</th><th>Idempotency key</th></tr>
+  <tr><td><code>payment.payment-result.subscription_service</code></td><td>Payment</td><td>IssueVoucher → CommitOrderInvoice</td><td>subscription_tx_id</td></tr>
+  <tr><td><code>biz.subscription-sync</code></td><td>Biz Portal</td><td>Sync business_subscription_status</td><td>invitation_id + version</td></tr>
+  <tr><td><code>account-service.supplier.setting.capacity.changed</code></td><td>Account</td><td>Điều chỉnh gói sạc driver</td><td>driver_id + timestamp</td></tr>
+</table>
+</section>
+
+<!-- ===== DOMAIN ===== -->
+<section id="domain">
+<h1>03 – Domain Model</h1>
+
+<h2>1. Bảng Chính – Customer Side</h2>
+<table>
+  <tr><th>Bảng</th><th>Mục đích</th><th>Cột then chốt</th></tr>
+  <tr><td><code>subscription</code></td><td>Master package</td><td>state, group, type, country_id, city_ids, package_type, allow_free_trial, selling_price (JSONB), detail (JSONB)</td></tr>
+  <tr><td><code>subscription_order</code></td><td>Đơn mua 1 user</td><td>customer_id, subscription_id, status, expired_at, auto_renew, metadata (JSONB), member_ids TEXT[]</td></tr>
+  <tr><td><code>subscription_transaction</code></td><td>Giao dịch tiền</td><td>transaction_id, payment_status, issue_voucher_status, amount, payment_method, vpoint_amount</td></tr>
+  <tr><td><code>subscription_execute_status</code></td><td>FSM lock + log transition</td><td>subscription_id, customer_id, from_status, to_status, reason</td></tr>
+  <tr><td><code>subscription_free_trial_order</code></td><td>Trial order</td><td>parent_transaction_id, trial_start, trial_end</td></tr>
+  <tr><td><code>subscription_auto_renew_queue</code></td><td>Hàng đợi gia hạn</td><td>subscription_order_id, renew_at, status (NO_RENEW/IN_QUEUE/SKIP/PROCESSING/SUCCESS/FAILED)</td></tr>
+  <tr><td><code>business_subscription_status</code></td><td>Gói Business/VIP</td><td>owner_id, company_tax_code, credit_limit, trip_limit, km_limit, vip_card_status</td></tr>
+  <tr><td><code>flash_sale_campaigns/windows/subscriptions</code></td><td>Flash sale</td><td>discount_type, discount_value, quantity_limit, start_at/end_at</td></tr>
+  <tr><td><code>subscription_recommendation</code></td><td>Batch từ BigQuery</td><td>user_id, subscription_id, score, model</td></tr>
+  <tr><td><code>audit_log</code></td><td>Trail đầy đủ</td><td>table_name, record_id, action, before_data, after_data, executed_by</td></tr>
+  <tr><td><code>dynamic_config</code></td><td>Key/value runtime</td><td>key, value_json</td></tr>
+</table>
+
+<h2>2. Bảng Chính – Driver Side</h2>
+<table>
+  <tr><th>Bảng</th><th>Mục đích</th><th>Cột then chốt</th></tr>
+  <tr><td><code>charging_package</code></td><td>Master gói sạc V-Green</td><td>city_ids integer[], vehicle_models text[], charging_time_frames JSONB, is_periodic</td></tr>
+  <tr><td><code>driver_subscription</code></td><td>Driver đã kích hoạt gói</td><td>driver_id, vehicle_id, package_id, expires_time, is_renewal</td></tr>
+  <tr><td><code>driver_subscription_transaction</code></td><td>Giao dịch thanh toán gói sạc</td><td>transaction_id (wallet), amount, transaction_type (PAY/REFUND/NONE)</td></tr>
+</table>
+
+<h2>3. State Machines</h2>
+
+<h3>Subscription (master package)</h3>
+<pre><code>DRAFT → PUBLISHED → RUNNING → CLOSED</code></pre>
+<ul>
+  <li><strong>DRAFT</strong>: sửa mọi thứ.</li>
+  <li><strong>PUBLISHED</strong>: cấm sửa country, campaign_id, trial_duration.</li>
+  <li><strong>RUNNING</strong>: chỉ sửa content/segment/end_date/notification/partner.</li>
+  <li><strong>CLOSED</strong>: chỉ view; order đang chạy vẫn tồn tại đến hết hạn.</li>
+</ul>
+
+<h3>Order</h3>
+<pre><code>PENDING → ACTIVE → EXPIRED
+PENDING → CANCELLED
+ACTIVE  → CANCELLED (admin/refund hoặc user cancel)</code></pre>
+
+<h3>Auto-Renew Queue</h3>
+<pre><code>IN_QUEUE → PROCESSING → SUCCESS | FAILED | SKIP
+NO_RENEW ↔ IN_QUEUE (user toggle)</code></pre>
+
+<h3>Free Trial</h3>
+<pre><code>FREE_TRIAL (trial_start) → ACTIVE (purchase_after_trial success)
+                         → CANCELLED (hết trial không charge được)</code></pre>
+
+<h2>4. Status Mapping</h2>
+<table>
+  <tr><th>Payment</th><th>Issue Voucher</th><th>Transaction</th><th>Order</th><th>Ghi chú</th></tr>
+  <tr><td>PROCESSING</td><td>PROCESSING</td><td>PROCESSING</td><td>PENDING</td><td>Đang thanh toán</td></tr>
+  <tr><td>FAILED</td><td>–</td><td>FAILED</td><td>CANCELLED</td><td>Lỗi thanh toán</td></tr>
+  <tr><td>SUCCESS</td><td>PROCESSING</td><td>PROCESSING</td><td>PENDING</td><td>Voucher retry</td></tr>
+  <tr><td>SUCCESS</td><td>SUCCESS</td><td>SUCCESS</td><td>ACTIVE</td><td>Happy path</td></tr>
+  <tr><td>SUCCESS</td><td>–</td><td>REFUNDED</td><td>CANCELLED</td><td>Admin hoàn tiền</td></tr>
+  <tr><td>SUCCESS</td><td>SUCCESS</td><td>SUCCESS</td><td>EXPIRED</td><td>Hết hạn tự nhiên</td></tr>
+</table>
+<div class="callout warn">Không bao giờ có Payment=SUCCESS &amp;&amp; Issue=FAILED &amp;&amp; Transaction=FAILED (retry tự động đến khi thành công).</div>
+
+<h2>5. PostgreSQL Triggers</h2>
+<table>
+  <tr><th>Trigger</th><th>Bảng</th><th>Tác dụng</th></tr>
+  <tr><td><code>trg_audit_subscription</code></td><td>subscription</td><td>Ghi audit trail vào audit_log</td></tr>
+  <tr><td><code>trg_update_ord_member_ids</code></td><td>subscription_order</td><td>Sync member_ids TEXT[] từ metadata->'members'</td></tr>
+  <tr><td><code>trg_update_trial_ord_member_ids</code></td><td>subscription_free_trial_order</td><td>Sync member_ids TEXT[] từ metadata->'members'</td></tr>
+</table>
+
+<h2>6. Invariants</h2>
+<ul>
+  <li><code>subscription_order.user_id × subscription_id × ACTIVE</code> ≤ <code>limit_purchase_times</code></li>
+  <li>1 user × subscription chỉ FREE_TRIAL 1 lần (dù cancel)</li>
+  <li>Family: snapshot <code>family_member_ids</code> vào <code>subscription_order.metadata</code> lúc purchase/auto-renew</li>
+  <li>Flash sale quota: Redis keys <code>flsale_usage_sub_id:{id}</code> + <code>user:{uid}:purchased_flash_sale_camp_sub_id:{id}</code></li>
+  <li>Auto-renew charge: chỉ tạo transaction mới sau khi <code>next_billing_time ≤ now</code> và queue status = IN_QUEUE</li>
+</ul>
+</section>
+
+<!-- ===== RULES ===== -->
+<section id="rules">
+<h1>04 – Rules &amp; Gotchas</h1>
+<div class="callout danger">Đây là file quan trọng nhất. Đa số bug lịch sử đều vi phạm 1 trong các rule dưới đây.</div>
+
+<h2>1. Segmentation</h2>
+<ul>
+  <li><strong>Blacklist thắng whitelist.</strong> User nằm cả 2 danh sách ⇒ bị cấm mua.</li>
+  <li>Segment source từ Clevertap → Loyalty. BE gọi <code>Loyalty /users/{id}/segments</code> rồi giao với <code>segment_ids</code>. Cache ngắn (TTL phút).</li>
+  <li>Admin có thể chỉnh segment ở cả DRAFT/PUBLISHED/RUNNING.</li>
+  <li>Trim whitespace khi nhập segment id; validate tồn tại qua Loyalty.</li>
+</ul>
+
+<h2>2. Free Trial</h2>
+<ul>
+  <li><strong>1 user × gói: chỉ dùng thử 1 lần</strong> (dù đã cancel/đã convert).</li>
+  <li>Chỉ bật <code>allow_free_trial=true</code> khi gói hỗ trợ PTTT auto-renew.</li>
+  <li><strong>Không</strong> cho bật auto-renew thủ công trong thời gian trial.</li>
+  <li>Khi cancel trong trial: voucher vẫn dùng được tới hết trial period.</li>
+  <li>Hết trial + charge fail → order CANCELLED + gửi noti; user KHÔNG được trial lại gói này.</li>
+  <li>Admin cho user trial lại: <code>PATCH /v1/public/admin/subscription/free-trial/{user_id}/repurchase</code></li>
+</ul>
+
+<h2>3. Auto-Renew</h2>
+<ul>
+  <li>Chỉ PTTT trong <code>dynamic_config.map_auto_renew_payment_method</code> được bật.</li>
+  <li>Default toggle ON khi PTTT hợp lệ, OFF khi không.</li>
+  <li>Khi PTTT thay đổi → queue nhận status SKIP, BE gửi noti đổi PTTT.</li>
+  <li>Payment success nhưng voucher fail ⇒ <strong>không refund</strong>, retry voucher đến khi thành công.</li>
+  <li>Payment fail ⇒ queue FAILED, gói cũ chạy hết hạn rồi EXPIRED.</li>
+  <li>Gói trong trial bật auto-renew: kỳ 2 trở đi bắt buộc cashless 100%, không dùng VPoint.</li>
+</ul>
+
+<h2>4. Family</h2>
+<ul>
+  <li>Chỉ <strong>Family owner</strong> được mua.</li>
+  <li>Member thêm sau: KHÔNG được cấp voucher kỳ hiện tại (post-MVP).</li>
+  <li>Member rời family: voucher đã cấp vẫn dùng được hết kỳ.</li>
+  <li>Auto-renew: <strong>re-evaluate</strong> family member mỗi kỳ; snapshot vào order.metadata.</li>
+</ul>
+
+<h2>5. Business/VIP</h2>
+<ul>
+  <li>Cancel gói Business/VIP: cần kiểm tra chưa dùng voucher + trong window Biz Portal.</li>
+  <li>Mọi thao tác member phải log <code>partner_requests</code> (type=biz-portal) để reconcile.</li>
+  <li>Retry Biz Portal 3 lần; fail cuối → gửi noti ops, không fail silent.</li>
+  <li>Cancel Business/VIP: call Biz Portal refund → Payment refund → update status → reset limit_purchase_times → noti toàn bộ member.</li>
+</ul>
+
+<h2>6. Invoice VAT</h2>
+<ul>
+  <li>Cấu hình per-package <code>invoice_enabled</code>. Chỉ VN bật mặc định.</li>
+  <li>1 invoice / <code>transaction_id</code>. Hiển thị ở "Invoice history".</li>
+  <li>Auto-renew: nếu user đã bật invoice thì kỳ sau tự đẩy request.</li>
+  <li>Retroactive: cho phép trong 30 ngày; tránh double-issue.</li>
+</ul>
+
+<h2>7. VPoint / Vinclub</h2>
+<ul>
+  <li>Phase 1 hỗ trợ: <strong>Cashless-only</strong> (mặc định) hoặc <strong>Points-only 100%</strong> (chỉ one-time, không auto-renew).</li>
+  <li><strong>Partial (points + cash) = Phase 2, chưa code.</strong></li>
+  <li>Khi Loyalty down → disable VPoint toggle + banner "Điểm tạm thời không khả dụng".</li>
+  <li>Auto-renew bật: kỳ đầu 100% VPoint OK nhưng <strong>phải add PTTT cashless</strong> cho kỳ sau.</li>
+  <li>Market config: VN ON, ID OFF, PH ready nhưng OFF.</li>
+</ul>
+
+<h2>8. Flash Sale</h2>
+<ul>
+  <li>Chỉ hiển thị khi: campaign ACTIVE, trong window, user ở country/city, quota còn, user không có gói ACTIVE conflict.</li>
+  <li><strong>Home zone</strong>: banner có countdown.</li>
+  <li>Quota giữ bằng Redis counter, reconcile DB khi commit order.</li>
+  <li>Auto-renew <strong>không</strong> apply flash sale price.</li>
+</ul>
+
+<h2>9. Kafka &amp; Concurrency</h2>
+<ul>
+  <li><strong>Mọi consumer phải idempotent</strong> theo key (transaction_id, invitation_id, driver_id+ts).</li>
+  <li>Update status order/subscription phải đi qua <code>subscription_execute_status</code> (lock).</li>
+  <li>Redis <code>redsync</code> lock cho các flow critical (purchase, renew).</li>
+</ul>
+
+<h2>10. Config / Timezone / Country</h2>
+<ul>
+  <li>Mỗi <code>country_id</code> phải có entry trong <code>dynamic_config</code>: <code>map_country_id_country_code</code> và <code>map_country_id_time_zone</code>.</li>
+  <li>Thiếu timezone → API trả lỗi <code>not_set_up_time_zone</code>; cron noti sẽ gửi sai giờ.</li>
+  <li>Default: <code>country_id=1</code> (VN), <code>timezone=Asia/Ho_Chi_Minh</code>.</li>
+</ul>
+
+<h2>11. Admin Operations</h2>
+<ul>
+  <li>Mọi admin action phải ghi <code>api_logs</code> kèm <code>x-user-id</code> admin + payload.</li>
+  <li>Issue voucher thủ công: <code>POST /v1/public/admin/subscription/{order_id}/issue-voucher</code></li>
+  <li>Update payment status: <code>PATCH /v1/public/admin/subscription/transaction/{id}/payment-status</code></li>
+</ul>
+
+<h2>12. Driver (V-Green)</h2>
+<ul>
+  <li>Mỗi <code>charging_package</code> gắn <code>vehicle_capacity</code>. Khi consumer nhận event capacity change → downgrade/upgrade gói hiện tại.</li>
+  <li>V-Green station validate realtime; khóa Redis theo <code>driver_id+package_id</code>.</li>
+</ul>
+</section>
+
+<!-- ===== INTEGRATIONS ===== -->
+<section id="integrations">
+<h1>06 – External Integrations</h1>
+
+<h2>1. Inbound (được gọi vào)</h2>
+<table>
+  <tr><th>Source</th><th>Kênh</th><th>Nội dung</th></tr>
+  <tr><td>Customer app</td><td>REST /v1/public/subscription/*</td><td>list, detail, purchase, history, auto-renew, family member, VPoint</td></tr>
+  <tr><td>Admin portal</td><td>REST /v1/public/admin/subscription/*</td><td>CRUD package, flash sale, issue voucher, cancel/refund</td></tr>
+  <tr><td>Driver app</td><td>REST /v1/public/driver/*</td><td>Mua gói sạc, history</td></tr>
+  <tr><td>V-Green station</td><td>REST /v1/public/v-green/subscription/*</td><td>Validate quota realtime</td></tr>
+  <tr><td>Internal service</td><td>REST /v1/internal/*</td><td>Lấy group config, update business package status</td></tr>
+  <tr><td>Partner (Triplayz)</td><td>REST /v1/public/integration/partner/triplayz/reward</td><td>Hook reward phát voucher</td></tr>
+  <tr><td>Payment</td><td>Kafka</td><td>Kết quả thanh toán</td></tr>
+  <tr><td>Biz Portal</td><td>Kafka</td><td>Đồng bộ trạng thái hợp đồng / thẻ VIP</td></tr>
+  <tr><td>Account</td><td>Kafka</td><td>Thay đổi năng lực xe driver</td></tr>
+</table>
+
+<h2>2. Outbound (gọi ra)</h2>
+<table>
+  <tr><th>Target</th><th>Khi dùng</th><th>Lưu ý</th></tr>
+  <tr><td><strong>Payment Service</strong></td><td>Tạo charge, refund, tokenize PTTT</td><td>Idempotent theo transaction_id. Kết quả qua Kafka.</td></tr>
+  <tr><td><strong>Loyalty Service</strong></td><td>IssueVoucher, GetUserSegments, VPoint</td><td>campaign_id, number_of_use, expiration_date phải truyền đúng. Retry nếu fail.</td></tr>
+  <tr><td><strong>Account Service</strong></td><td>GetUser, GetFamily, GetPreferences</td><td>Dùng ngay lúc purchase + auto-renew để snapshot family.</td></tr>
+  <tr><td><strong>Geofence Service</strong></td><td>Xác định city của user</td><td>Cache ngắn.</td></tr>
+  <tr><td><strong>Invoice Service</strong></td><td>Xuất VAT khi invoice_enabled=true</td><td>Cron update_invoice_status sync state.</td></tr>
+  <tr><td><strong>Feeds Service</strong></td><td>Inbox cho user</td><td>Template đa ngôn ngữ.</td></tr>
+  <tr><td><strong>Notification Service</strong></td><td>Push noti (sắp hết hạn, auto-renew failed…)</td><td>Timezone từ dynamic_config.</td></tr>
+  <tr><td><strong>Biz Portal</strong></td><td>Cấp/huỷ thẻ VIP, update credit limit</td><td>Retry 3 lần; log partner_requests.</td></tr>
+  <tr><td><strong>BigQuery</strong></td><td>Batch recommendation qua cron</td><td>Service account sub-service-bigquery.</td></tr>
+</table>
+
+<h2>3. HTTP Headers Chuẩn</h2>
+<table>
+  <tr><th>Header</th><th>Ý nghĩa</th></tr>
+  <tr><td><code>x-user-id</code></td><td>ID người dùng (customer / driver / admin)</td></tr>
+  <tr><td><code>x-user-phone</code></td><td>Số điện thoại</td></tr>
+  <tr><td><code>x-user-email</code></td><td>Email</td></tr>
+  <tr><td><code>x-user-role</code></td><td>Vai trò (admin)</td></tr>
+  <tr><td><code>x-user-platform</code></td><td>android / ios / website</td></tr>
+  <tr><td><code>x-user-audience</code></td><td>user_app / driver_app / admin_portal / partner</td></tr>
+  <tr><td><code>x-partner-id</code></td><td>ID đối tác</td></tr>
+  <tr><td><code>x-request-id</code></td><td>Trace ID, propagate qua mọi outbound call</td></tr>
+  <tr><td><code>Accept-Language</code></td><td>Ngôn ngữ i18n</td></tr>
+  <tr><td><code>app-build-number</code></td><td>Build number app, dùng cho feature gate check</td></tr>
+</table>
+
+<h2>4. Redis Keys</h2>
+<table>
+  <tr><th>Key pattern</th><th>Mục đích</th><th>TTL</th></tr>
+  <tr><td><code>subscription_recommend:user:{user_id}</code></td><td>Cache recommendation</td><td>1 năm</td></tr>
+  <tr><td><code>flsale_usage_sub_id:{flash_sale_sub_id}</code></td><td>Đếm quota flash sale theo gói</td><td>–</td></tr>
+  <tr><td><code>user:{user_id}:purchased_flash_sale_camp_sub_id:{camp_sub_id}</code></td><td>Track user đã mua flash sale</td><td>1 năm</td></tr>
+  <tr><td><code>DRIVER_SUBSCRIPTION_LOCK_PURCHASE:{driverID}</code></td><td>Distributed lock driver purchase</td><td>short TTL</td></tr>
+</table>
+
+<h2>5. Dynamic Config Keys Quan Trọng</h2>
+<table>
+  <tr><th>Key</th><th>Loại</th><th>Mô tả</th></tr>
+  <tr><td><code>feature_config.vpoint</code></td><td>map[country_code]bool</td><td>Bật/tắt VPoint theo thị trường</td></tr>
+  <tr><td><code>feature_config.invoice</code></td><td>map[country_code]bool</td><td>Bật/tắt Invoice</td></tr>
+  <tr><td><code>map_country_loyalty_config</code></td><td>map</td><td>mapping country_id → loyalty config</td></tr>
+  <tr><td><code>map_country_id_country_code</code></td><td>map</td><td>country_id → ISO code</td></tr>
+  <tr><td><code>map_country_id_time_zone</code></td><td>map</td><td>country_id → IANA timezone</td></tr>
+  <tr><td><code>recommend_sub_city</code></td><td>map[city_id]bool</td><td>Thành phố bật recommendation</td></tr>
+  <tr><td><code>flash_sale_app_version</code></td><td>int</td><td>Min app version cho Flash Sale</td></tr>
+  <tr><td><code>redis_cache_time</code></td><td>map</td><td>TTL (phút) cho từng loại cache</td></tr>
+</table>
+</section>
+
+<!-- ===== OPERATIONS ===== -->
+<section id="operations">
+<h1>07 – Operations</h1>
+
+<h2>1. Admin Playbook</h2>
+
+<h3>Issue voucher thủ công</h3>
+<p>Khi Loyalty chưa cấp dù Payment SUCCESS (vd vượt số lần retry).</p>
+<p>API: <code>POST /v1/public/admin/subscription/{order_id}/issue-voucher</code></p>
+
+<h3>Update payment status</h3>
+<p>API: <code>PATCH /v1/public/admin/subscription/transaction/{id}/payment-status</code></p>
+<p>Valid values: SUCCESS, FAILED, REFUNDED. Sau khi SUCCESS → hệ thống tự gọi IssueVoucher.</p>
+
+<h3>Cancel order</h3>
+<p>API: <code>POST /v1/public/admin/subscription/order/{id}/cancel</code> với reason_id, notify_user.</p>
+
+<h3>Free trial repurchase</h3>
+<p>API: <code>PATCH /v1/public/admin/subscription/free-trial/{user_id}/repurchase?subscription_id=xxx</code></p>
+
+<h2>2. Monitoring Metrics</h2>
+<table>
+  <tr><th>Metric</th><th>Alert threshold đề xuất</th></tr>
+  <tr><td>sub_purchase_fail_rate</td><td>&gt;2% trong 15 phút</td></tr>
+  <tr><td>sub_voucher_issue_fail</td><td>&gt;5 lần/giờ</td></tr>
+  <tr><td>sub_autorenew_fail_rate</td><td>&gt;10% trong 1 giờ</td></tr>
+  <tr><td>sub_kafka_lag_payment_consumer</td><td>&gt;1 phút</td></tr>
+  <tr><td>sub_flash_sale_quota_race</td><td>bất kỳ reconcile lệch &gt;1</td></tr>
+  <tr><td>sub_bigquery_crawl_fail</td><td>2 ngày liên tiếp</td></tr>
+</table>
+
+<h2>3. SQL Monitor Đề Xuất</h2>
+<pre><code>-- Order kẹt PENDING quá lâu
+SELECT * FROM subscription_order
+WHERE status='PENDING' AND created_at < NOW() - INTERVAL '30 minutes';
+
+-- Auto-renew queue kẹt PROCESSING
+SELECT * FROM subscription_auto_renew_queue
+WHERE status='PROCESSING' AND updated_at < NOW() - INTERVAL '15 minutes';
+
+-- Voucher issue fail
+SELECT * FROM subscription_transaction
+WHERE payment_status='SUCCESS' AND issue_voucher_status='FAILED';
+
+-- Flash sale quota
+SELECT campaign_id, sold, quantity_limit
+FROM flash_sale_campaigns WHERE status='ACTIVE';</code></pre>
+
+<h2>4. Troubleshoot</h2>
+<table>
+  <tr><th>Triệu chứng</th><th>Điều tra trước</th><th>Fix nhanh</th></tr>
+  <tr><td>User đã trừ tiền nhưng gói PENDING</td><td>Check Kafka lag + transaction Payment</td><td>Manual update payment status / issue voucher</td></tr>
+  <tr><td>Auto-renew không chạy</td><td>Cron log + queue status</td><td>Check PTTT whitelist trong dynamic_config</td></tr>
+  <tr><td>Flash sale user không thấy</td><td>Country/city, time window, segment</td><td>Check Redis quota, dynamic_config</td></tr>
+  <tr><td>Noti gửi sai giờ</td><td>Timezone config</td><td>Update map_country_id_time_zone</td></tr>
+  <tr><td>Family member không nhận voucher</td><td>order.metadata.family_members</td><td>Verify Account API, re-issue voucher qua admin</td></tr>
+  <tr><td>VIP cancel fail</td><td>Biz Portal response code</td><td>Retry API, hoặc ghi partner_requests manual reconcile</td></tr>
+  <tr><td>VPoint redeem lệch</td><td>Loyalty balance vs order amount</td><td>Check race condition pre-check, dùng request_id reconcile</td></tr>
+</table>
+
+<h2>5. Error Codes (1001–1030)</h2>
+<table>
+  <tr><th>Code</th><th>HTTP</th><th>Tình huống</th></tr>
+  <tr><td>1001</td><td>400</td><td>Invalid phone number (add member)</td></tr>
+  <tr><td>1002</td><td>400</td><td>User đã là member của gói này</td></tr>
+  <tr><td>1003</td><td>400</td><td>User đã tham gia gói Business khác</td></tr>
+  <tr><td>1004</td><td>400</td><td>Đã đạt giới hạn số member</td></tr>
+  <tr><td>1005</td><td>400</td><td>Gói đã hết hạn</td></tr>
+  <tr><td>1006</td><td>400</td><td>Trạng thái gói không hợp lệ để add member</td></tr>
+  <tr><td>1007</td><td>400</td><td>Không thể add chính mình làm member</td></tr>
+  <tr><td>1009</td><td>400</td><td>Không có quyền add member</td></tr>
+  <tr><td>1020</td><td>400</td><td>Không thể xoá owner khỏi group</td></tr>
+  <tr><td>1021</td><td>400</td><td>Không có quyền xoá member</td></tr>
+  <tr><td>1022</td><td>400</td><td>Member đang có cuốc xe chưa hoàn thành</td></tr>
+  <tr><td>1023</td><td>400</td><td>Chính mình đang có cuốc xe chưa hoàn thành</td></tr>
+  <tr><td>1024</td><td>400</td><td>Member không tồn tại trong group</td></tr>
+  <tr><td>1025</td><td>400</td><td>Không thể cancel gói Business vì còn orders liên quan</td></tr>
+  <tr><td>1026</td><td>500</td><td>Tính năng VPoint chưa được bật</td></tr>
+  <tr><td>1027</td><td>400</td><td>Không đủ VPoint</td></tr>
+  <tr><td>1028</td><td>400</td><td>Tỷ giá quy đổi đã thay đổi</td></tr>
+  <tr><td>1029</td><td>400</td><td>Không thể hoàn VPoint</td></tr>
+  <tr><td>1030</td><td>500</td><td>Internal server error chung</td></tr>
+</table>
+</section>
+
+<!-- ===== GLOSSARY ===== -->
+<section id="glossary">
+<h1>08 – Glossary</h1>
+<table>
+  <tr><th>Thuật ngữ</th><th>Ý nghĩa</th></tr>
+  <tr><td><strong>Subscription / Gói hội viên</strong></td><td>Master package chứa voucher + đặc quyền</td></tr>
+  <tr><td><strong>Order</strong></td><td>1 lần user mua gói (subscription_order)</td></tr>
+  <tr><td><strong>Transaction</strong></td><td>Giao dịch thanh toán với Payment service</td></tr>
+  <tr><td><strong>Issue Voucher</strong></td><td>Hành động gọi Loyalty phát voucher sau khi payment SUCCESS</td></tr>
+  <tr><td><strong>Auto-renew</strong></td><td>Tự động gia hạn kỳ sau khi gói gần hết hạn</td></tr>
+  <tr><td><strong>Free Trial</strong></td><td>Giai đoạn dùng thử với voucher; hết hạn auto charge sang gói chính</td></tr>
+  <tr><td><strong>Flash Sale</strong></td><td>Campaign giảm giá có giới hạn thời gian + quota</td></tr>
+  <tr><td><strong>Family / Xanh Family</strong></td><td>Gói dành cho family account; benefits cho tất cả thành viên tại thời điểm mua</td></tr>
+  <tr><td><strong>Business / VIP GF</strong></td><td>Gói cao cấp (thẻ VIP, credit/trip/km limit, priority dispatch)</td></tr>
+  <tr><td><strong>Segmentation</strong></td><td>Phân khúc user dựa trên Clevertap → Loyalty segment_id</td></tr>
+  <tr><td><strong>Whitelist / Blacklist segment</strong></td><td>Cho phép / cấm user mua gói. Blacklist &gt; Whitelist</td></tr>
+  <tr><td><strong>Partner</strong></td><td>Đối tác phát voucher qua BE Subscription (Triplayz, Momo…)</td></tr>
+  <tr><td><strong>V-Green</strong></td><td>Hệ thống trạm sạc pin xe điện Vingroup</td></tr>
+  <tr><td><strong>Biz Portal</strong></td><td>Portal quản lý doanh nghiệp, cấp/huỷ thẻ VIP, hạn mức</td></tr>
+  <tr><td><strong>Loyalty</strong></td><td>Service quản lý điểm thưởng (VPoint/Green Point) + issue voucher + segment</td></tr>
+  <tr><td><strong>VPoint / Green Point</strong></td><td>Loyalty points (VN / PH). Dùng để redeem Subscription Phase 1</td></tr>
+  <tr><td><strong>Invoice / XHD</strong></td><td>Hoá đơn VAT</td></tr>
+  <tr><td><strong>CSKH</strong></td><td>Chăm sóc khách hàng</td></tr>
+  <tr><td><strong>FSM</strong></td><td>Finite State Machine (looplab/fsm)</td></tr>
+  <tr><td><strong>Redsync</strong></td><td>Distributed lock bằng Redis</td></tr>
+  <tr><td><strong>PTTT</strong></td><td>Phương thức thanh toán. Cash/Tiền mặt không hợp lệ cho auto-renew</td></tr>
+  <tr><td><strong>donate</strong></td><td>Gói tặng (flag donate=true); không tạo auto-renew queue</td></tr>
+  <tr><td><strong>SKIP (auto-renew)</strong></td><td>Trạng thái queue khi PTTT không còn hợp lệ, gói đã đóng, hoặc gói donate</td></tr>
+  <tr><td><strong>Execute status</strong></td><td>Bảng log FSM transition + lock</td></tr>
+  <tr><td><strong>dynamic_config</strong></td><td>Bảng key/value runtime (feature flag, map config)</td></tr>
+  <tr><td><strong>BigQuery</strong></td><td>Google Data Warehouse – nguồn data cho recommendation</td></tr>
+</table>
+
+<h2>Flags / Rules Thường Gặp</h2>
+<table>
+  <tr><th>Flag</th><th>Ý nghĩa</th></tr>
+  <tr><td><code>allow_free_trial</code></td><td>Cho phép trial gói này</td></tr>
+  <tr><td><code>allow_auto_renew</code></td><td>Gói có auto-renew (cấu hình ở selling_price)</td></tr>
+  <tr><td><code>allow_vpoint_payment</code></td><td>Gói cho phép thanh toán bằng VPoint</td></tr>
+  <tr><td><code>limit_purchase_times</code></td><td>Số đơn ACTIVE tối đa cùng lúc (0 = không giới hạn)</td></tr>
+  <tr><td><code>donate</code></td><td>Gói tặng, không tính auto-renew</td></tr>
+  <tr><td><code>invoice_enabled</code></td><td>Gói có xuất VAT</td></tr>
+  <tr><td><code>priority_matching</code></td><td>Có áp dụng priority dispatch</td></tr>
+</table>
+</section>
+
+<!-- ===== FLOW 01 ===== -->
+<section id="flow01">
+<h1>Flow 01 – Customer Purchase Subscription</h1>
+
+<h2>Overview</h2>
+<p>User mua một gói subscription trả phí. Flow: validate → tạo order + transaction → gọi Payment → xử lý kết quả (issue voucher, tạo invoice, auto-renew queue).</p>
+<p><strong>Route:</strong> <code>POST /v1/public/subscription/purchase</code></p>
+
+<h2>Entry Points</h2>
+<table>
+  <tr><th>Layer</th><th>File</th><th>Function</th></tr>
+  <tr><td>Transport</td><td>module/subscription/transport/subscription_customer.go</td><td>HandlePurchaseSubscriptionForCustomer</td></tr>
+  <tr><td>Business</td><td>module/subscription/business/subscription.go</td><td>PurchaseSubscription</td></tr>
+  <tr><td>Storage</td><td>module/subscription/storage/subscription_storage.go</td><td>CreateSubscriptionOrderWithTx, CustomerPayTransactionFirstTime</td></tr>
+</table>
+
+<h2>Request DTO</h2>
+<pre><code>type PurchaseSubscriptionReq struct {
+    SubID                     uint
+    SellingPrice              model.SellingPrice  // Price, Duration, DurationUnit
+    PaymentMethodID           string              // bắt buộc
+    PaymentMethodName         string
+    PaymentMethodCode         string
+    PaymentMethodIcon         string
+    VPoint                    int                 // 0 = không dùng VPoint
+    AutoRenew                 bool
+    JoinFreeTrial             bool
+    RequestInvoice            bool
+    RequestInvoiceNextRenewal bool
+    Lat, Lng                  float64
+    Platform                  string
+    AppBuildVer               int
+}</code></pre>
+
+<h2>Luồng Chi Tiết</h2>
+
+<h3>Bước 1 – Transport: Validate input &amp; headers</h3>
+<ol>
+  <li>Extract customerID từ x-user-id, customerPhone từ x-user-phone, appBuildNumber từ app-build-number.</li>
+  <li>Parse JSON body → PurchaseSubscriptionReq.</li>
+  <li>Validate PaymentMethodID không rỗng và không nằm trong <code>InvalidPaymentMethodNames</code> (Cash, Tiền mặt).</li>
+  <li>Fetch subscription bằng SubID: phải <code>State == RUNNING</code>, phải <code>Type == PERSONAL</code>.</li>
+  <li><strong>Wallet validation</strong> (nếu PaymentMethodCode == "closed_wallet"): gọi PaymentService.GetPaymentMethodDetails.</li>
+  <li><strong>VPoint validation</strong> (nếu VPoint &gt; 0): check feature_config.vpoint, gọi LoyaltyService.GetUserVpoint, kiểm tra tỷ giá.</li>
+</ol>
+
+<h3>Bước 2 – Business: PurchaseSubscription</h3>
+<ol>
+  <li>Check subscription state == RUNNING.</li>
+  <li>Check user segment: Blacklist &gt; whitelist.</li>
+  <li>Check purchase limit: nếu LimitPurchaseTimes &gt; 0, đếm order ACTIVE.</li>
+  <li>Location validation: GeofenceService xác định cityID từ (Lat, Lng).</li>
+  <li>Flash sale check: nếu SellingPrice không khớp giá DB → HandleFlashSale + HandleSellingPrice.</li>
+  <li>Tạo SubscriptionOrder (Status: PENDING).</li>
+  <li>Family package: snapshot Members vào order.Metadata.Members với role "owner".</li>
+  <li>Free trial order (nếu AllowFreeTrial==true): tạo SubscriptionFreeTrialOrder.</li>
+  <li>DB Transaction: check flash sale quota (lock row), INSERT subscription_order, INSERT subscription_transaction.</li>
+  <li>Issue free trial voucher ngay lập tức (nếu JoinFreeTrial==true).</li>
+</ol>
+
+<h3>Bước 3 – Payment Processing</h3>
+<ul>
+  <li>Nếu <code>JoinFreeTrial == true</code>: return sớm, không gọi Payment.</li>
+  <li>Nếu VPoint == 0: gọi CustomerPayTransactionFirstTime(subscriptionOrderID).</li>
+  <li>Nếu VPoint &gt; 0: gọi CustomerPayByVpoint(subscriptionOrderID, vpointAmount) → Loyalty API.</li>
+</ul>
+
+<h3>Bước 4 – Xử lý kết quả Payment</h3>
+<table>
+  <tr><th>Payment response</th><th>PaymentStatus</th><th>IssueVoucherStatus</th><th>OrderStatus</th></tr>
+  <tr><td>Timeout/DeadlineExceeded</td><td>PROCESSING</td><td>NONE</td><td>PENDING</td></tr>
+  <tr><td>Error (other)</td><td>FAILED</td><td>NONE</td><td>CANCELLED</td></tr>
+  <tr><td>Status=FAILED</td><td>FAILED</td><td>NONE</td><td>CANCELLED</td></tr>
+  <tr><td>Status=SUCCESS</td><td>SUCCESS</td><td>PENDING</td><td>PROCESSING</td></tr>
+  <tr><td>Status=PROCESSING</td><td>PROCESSING</td><td>NONE</td><td>PENDING</td></tr>
+</table>
+<p>Nếu Payment SUCCESS + AutoRenew=true: INSERT subscription_auto_renew_queue (Status=IN_QUEUE, RenewAt=order.ExpiredAt).</p>
+
+<h3>State Diagram</h3>
+<pre><code>[User request]
+      ↓
+subscription_order: PENDING
+subscription_transaction: payment_status=PENDING
+      ↓
+ [Payment call]
+      ↓
+┌─────────────────────────────────────────────┐
+│ SUCCESS      → order=PROCESSING, tx=SUCCESS  │
+│              → IssueVoucher                  │
+│              → order=ACTIVE (sau voucher)     │
+│                                              │
+│ PROCESSING   → order=PENDING, tx=PROCESSING  │
+│              (Kafka sẽ xử lý sau)            │
+│                                              │
+│ FAILED       → order=CANCELLED, tx=FAILED    │
+│                                              │
+│ TIMEOUT      → order=PENDING, tx=PROCESSING  │
+└─────────────────────────────────────────────┘</code></pre>
+</section>
+
+<!-- ===== FLOW 02 ===== -->
+<section id="flow02">
+<h1>Flow 02 – Free Trial</h1>
+
+<h2>Overview</h2>
+<p>User đăng ký dùng thử miễn phí. Flow: tạo free trial order → issue voucher trial → cron hết hạn → auto charge sang gói chính.</p>
+
+<h2>Điều Kiện để có Free Trial</h2>
+<ul>
+  <li>Subscription phải có <code>allow_free_trial = true</code></li>
+  <li>User purchase với <code>JoinFreeTrial = true</code></li>
+  <li>User chưa từng trial gói này (unique index trên <code>(subscription_id, customer_id)</code>)</li>
+</ul>
+
+<h2>Phase 1: Đăng ký trial (lúc purchase)</h2>
+<ol>
+  <li>Tạo SubscriptionFreeTrialOrder (Status: PENDING, ExpiredAt: NOW() + FreeTrialPeriod).</li>
+  <li>Tạo SubscriptionOrder (Status: PENDING, Price: giá thật, ExpiredAt: NOW() + FreeTrialPeriod + Duration). Order này chưa bị tính tiền.</li>
+  <li>Issue trial voucher ngay: gọi IssueVoucherFreeTrial → Loyalty API.</li>
+  <li>Return sớm – không gọi Payment lúc này.</li>
+</ol>
+
+<h2>Phase 2: Trong thời gian trial</h2>
+<ul>
+  <li>User có thể <strong>cancel</strong> trial: vẫn giữ được quyền lợi voucher đã cấp đến hết hạn.</li>
+  <li>User có thể <strong>đổi plan</strong> (nếu <code>allow_change_in_trial_duration=true</code>).</li>
+</ul>
+
+<h2>Phase 3: Hết hạn trial – Cron AutoPurchaseAfterTrialSubscription</h2>
+<ol>
+  <li>Query subscription_free_trial_order với <code>status=ACTIVE AND expired_at &lt; NOW()</code>. Limit 100, max 10 vòng.</li>
+  <li>Expire trial order (atomic UPDATE). Nếu rowsAffected==0: đã xử lý bởi instance khác → skip.</li>
+  <li>Check subscription vẫn RUNNING (nếu không: không charge).</li>
+  <li>Family package: update order.Metadata.Members.</li>
+  <li>Gọi CustomerPayTransactionFirstTime(subOrderID).</li>
+</ol>
+
+<h2>Trạng thái Free Trial Order</h2>
+<pre><code>PENDING → ACTIVE → EXPIRED (cron chạy charge)
+PENDING/ACTIVE → CANCELLED (user hoặc admin cancel)
+SKIP (user không chọn join trial)</code></pre>
+
+<h2>Rules quan trọng</h2>
+<ul>
+  <li>User chỉ được trial <strong>1 lần</strong> mỗi gói.</li>
+  <li>Nếu trial bị cancel, user <strong>vẫn không thể trial lại</strong>.</li>
+  <li>Không auto-renew trong thời gian trial.</li>
+  <li>Nếu subscription chuyển CLOSED trước khi trial hết hạn → không charge.</li>
+</ul>
+</section>
+
+<!-- ===== FLOW 03 ===== -->
+<section id="flow03">
+<h1>Flow 03 – Auto-Renew</h1>
+
+<h2>Overview</h2>
+<p>Tự động gia hạn subscription khi gói sắp hết hạn. Flow dựa vào <code>subscription_auto_renew_queue</code> + cron job.</p>
+
+<h2>subscription_auto_renew_queue Structure</h2>
+<pre><code>subscription_order_id:       uint
+subscription_renew_order_id: *uint     (set khi tạo order mới)
+renew_at:                    timestamp (= expired_at của order gốc)
+status:                      NO_RENEW | IN_QUEUE | SKIP | PROCESSING | SUCCESS | FAILED
+payment_method_id/code/name/icon: string (snapshot PTTT)
+execute_log:                 string    (lý do SKIP/FAILED)</code></pre>
+
+<h2>Phase 1: Enable/Disable Auto-Renew</h2>
+<p><strong>Endpoint:</strong> <code>PUT /subscription/order/:id/auto_renew</code></p>
+<ul>
+  <li>Validate subscription không phải <code>donate=true</code>.</li>
+  <li>Nếu không tìm thấy queue entry + Enable=true: INSERT với status=IN_QUEUE.</li>
+  <li>Nếu tìm thấy queue entry: toggle IN_QUEUE ↔ NO_RENEW.</li>
+  <li>PTTT phải không phải Cash/Tiền mặt.</li>
+</ul>
+
+<h2>Phase 2: Cron AutoRenewSubscription</h2>
+<ul>
+  <li>Query queue với <code>status=IN_QUEUE AND renew_at &lt; NOW()</code>, limit 100, tối đa 10 vòng.</li>
+  <li>FOR UPDATE lock trên queue row → chỉ 1 node xử lý mỗi entry.</li>
+</ul>
+
+<h2>Phase 3: Gia hạn 1 order</h2>
+
+<h3>Pre-checks (SKIP conditions)</h3>
+<table>
+  <tr><th>Điều kiện</th><th>Skip reason</th></tr>
+  <tr><td>order.auto_renew == false</td><td>auto_renew_not_enabled</td></tr>
+  <tr><td>subscription.State != RUNNING</td><td>subscription_not_running</td></tr>
+  <tr><td>subscription.Donate == true</td><td>donate_subscription</td></tr>
+  <tr><td>LimitPurchaseTimes &gt; 0 và đã đủ</td><td>purchase_limit_reached</td></tr>
+  <tr><td>Business: đang có order ACTIVE chưa hết hạn</td><td>business_order_exists</td></tr>
+  <tr><td>PaymentService.GetPaymentMethodDetails trả 400</td><td>invalid_payment_method_id</td></tr>
+</table>
+
+<h3>Vòng lặp gia hạn liên tục</h3>
+<pre><code>payment SUCCESS (trong CustomerPayTransactionFirstTime)
+  → INSERT subscription_auto_renew_queue {
+      subscription_order_id: newOrderID,
+      renew_at: newOrder.ExpiredAt,
+      status: IN_QUEUE
+    }</code></pre>
+
+<h2>Notifications</h2>
+<table>
+  <tr><th>Event</th><th>Khi nào</th></tr>
+  <tr><td>SendNotiAutoRenewSuccess</td><td>Sau khi issue voucher thành công</td></tr>
+  <tr><td>SendNotiAutoRenewFailed</td><td>Khi payment FAILED</td></tr>
+</table>
+</section>
+
+<!-- ===== FLOW 04 ===== -->
+<section id="flow04">
+<h1>Flow 04 – Family &amp; Business/VIP Subscription</h1>
+
+<h2>Family Subscription</h2>
+
+<h3>Mua gói Family</h3>
+<ul>
+  <li>Chỉ owner của family group mới mua được.</li>
+  <li>Lúc purchase: snapshot owner vào order.Metadata.Members với Role=owner.</li>
+  <li>Không tự động thêm members – owner phải add thủ công sau.</li>
+</ul>
+
+<h3>Add Family Members – <code>PUT /subscription/order/:id/add/members</code></h3>
+<ol>
+  <li>Validate order.ExpiredAt &gt; NOW().</li>
+  <li>Gọi AccountService.GetFamilyGroupByUserID(ownerID): xác nhận caller là owner.</li>
+  <li>Kiểm tra phone tồn tại trong family group.</li>
+  <li>Nếu đang trial: validateFamilyMemberCheatFreeTrial.</li>
+  <li>Issue voucher cho từng member: IssueVoucherFreeTrial (trial) hoặc IssueVoucher (active).</li>
+  <li>Append members vào order.Metadata.Members với Role=member.</li>
+  <li>Gửi notification async.</li>
+</ol>
+
+<h3>Remove Family Members</h3>
+<ul>
+  <li>Không thể xóa owner (error 1020).</li>
+  <li>Chỉ owner hoặc chính member đó mới được xóa (error 1021).</li>
+  <li>Member không được đang có cuốc xe chưa hoàn thành (error 1022/1023).</li>
+</ul>
+
+<h2>Business/VIP Subscription</h2>
+
+<h3>Cấu trúc dữ liệu</h3>
+<ul>
+  <li><code>Subscription.PackageType = 2</code></li>
+  <li><code>SellingPrice.BusinessPackageInfo</code>: {DistanceLimit, TripLimit, BalanceLimit}</li>
+  <li><code>BusinessSubscriptionStatus</code>: tracking usage theo BusinessOrderTxID</li>
+</ul>
+
+<h3>Add Business Members – <code>PUT /subscription/order/:id/add/members</code></h3>
+<ol>
+  <li>Check len(existingMembers) + len(newPhones) &lt;= MemberLimit.</li>
+  <li>Gọi AccountService.GetUserProfileByPhones để lấy userIDs.</li>
+  <li>Gọi BizPortalService.AddMember2ExistBusinessPackageOrder().</li>
+  <li>Append members vào order.Metadata.Members.</li>
+  <li>Invalidate Redis cache recommendation.</li>
+</ol>
+
+<h2>Kafka: Biz Portal Consumer</h2>
+<p>Topic: <code>biz.subscription-sync</code>. Cập nhật balance/trip/distance trong <code>business_subscription_status</code>.</p>
+
+<h2>Auto-Renew cho Family/Business</h2>
+<ul>
+  <li><strong>Family</strong>: re-snapshot owner mỗi kỳ. Members phải được re-add thủ công sau khi gia hạn.</li>
+  <li><strong>Business</strong>: copy Metadata.Members, BuyingPrice, BusinessOrderTxID vào order mới. Không tạo order mới nếu đang có order ACTIVE.</li>
+</ul>
+</section>
+
+<!-- ===== FLOW 05 ===== -->
+<section id="flow05">
+<h1>Flow 05 – Driver Charging Package &amp; V-Green</h1>
+
+<h2>Charging Package Master Data</h2>
+<table>
+  <tr><th>Loại theo OpeningTime</th><th>IsPeriodic</th><th>Thời gian hiệu lực</th></tr>
+  <tr><td>Null</td><td>false</td><td>NOW() đến NOW() + NumberOfDaysOfValidity</td></tr>
+  <tr><td>Có giá trị</td><td>true</td><td>Ngày X tháng này đến ngày X-1 tháng sau</td></tr>
+  <tr><td>Có giá trị</td><td>false</td><td>Ngày OpeningTime đến ClosingTime trong tháng</td></tr>
+</table>
+<p>Driver chỉ được mua nếu <code>driver.cityID</code> trong <code>package.CityIDs</code>. Hiện chỉ tại: <strong>HN (1), HCM (50), ĐN (32)</strong>.</p>
+
+<h2>Flow: Driver mua gói sạc</h2>
+<p><strong>Endpoint:</strong> <code>POST /v1/public/driver/purchase</code></p>
+<ol>
+  <li>Acquire Redis lock <code>DRIVER_SUBSCRIPTION_LOCK_PURCHASE:{driverID}</code>.</li>
+  <li>Validate driver: ContractType, email, Status==ACTIVATED, vehicleID.</li>
+  <li>Validate package: CityIDs, VehicleModels, time window.</li>
+  <li>Conflict check: nếu package không có OpeningTime AND driver đã có subscription active → reject.</li>
+  <li>Tính phí: nếu driver mới (&lt;60 ngày) → 50% discount.</li>
+  <li>Gọi WalletService.Pay().</li>
+  <li>DB Transaction: INSERT driver_subscription + driver_subscription_transaction.</li>
+  <li>Release lock.</li>
+</ol>
+
+<h2>V-Green Validation – Single</h2>
+<p><strong>Endpoint:</strong> <code>POST /v1/public/v-green/subscription/verify</code></p>
+<ol>
+  <li>Gọi AccountService.GetDriverProfileByEmail(email).</li>
+  <li>Check VIN nếu có.</li>
+  <li>validateTimeCharging: check ChargingTimeFrames của ngày trong tuần tương ứng.</li>
+</ol>
+
+<h2>V-Green Validation – Batch</h2>
+<p><strong>Endpoint:</strong> <code>POST /v1/public/v-green/subscription/verify/batch</code> — tối đa 200 records.</p>
+
+<h2>Kafka: Driver Vehicle Consumer</h2>
+<p>Topic: vehicle change events. Khi ASSIGNED/UNASSIGNED: update <code>driver_subscription.vehicle_id</code>.</p>
+
+<h2>ChargingTimeFrames Structure</h2>
+<pre><code>type ChargingTimeFrames map[time.Weekday][]*TimeFrame
+// time.Weekday: 0=Sunday, 1=Monday, ..., 6=Saturday
+
+// Ví dụ JSON:
+{
+  "1": [{"Start": "08:00", "End": "11:00"}, {"Start": "14:00", "End": "18:00"}],
+  "2": [{"Start": "08:00", "End": "11:00"}]
+}</code></pre>
+</section>
+
+<!-- ===== FLOW 06 ===== -->
+<section id="flow06">
+<h1>Flow 06 – Kafka Consumers</h1>
+
+<h2>3 Consumers</h2>
+<table>
+  <tr><th>Binary</th><th>Topic</th><th>Xử lý</th></tr>
+  <tr><td>cmd/payment-consumer</td><td>payment.payment-result.subscription_service</td><td>Kết quả thanh toán async</td></tr>
+  <tr><td>cmd/biz-portal-consumer</td><td>biz.subscription-sync</td><td>Đồng bộ usage Business/VIP</td></tr>
+  <tr><td>cmd/driver-vehicle-consumer</td><td>account-service.supplier.setting.capacity.changed</td><td>Thay đổi xe của driver</td></tr>
+</table>
+
+<h2>1. Payment Consumer</h2>
+<h3>Message Format</h3>
+<pre><code>{
+  "tx_id":                "payment-tx-uuid",
+  "status":               "SUCCESS | FAILED | PROCESSING",
+  "amount":               50000,
+  "order_id":             "subscription-tx-uuid",
+  "payment_method_code":  "MOMO",
+  "is_cancel":            false
+}</code></pre>
+
+<h3>Processing Flow</h3>
+<ol>
+  <li>Parse message + generate trace ID.</li>
+  <li>ConsumerUpdatePaymentStatus: UPDATE subscription_transaction.</li>
+  <li>Auto-renew failure noti (nếu là AUTO-RENEW + status=FAILED).</li>
+  <li>Invoice (nếu status=SUCCESS + invoice enabled): async CommitOrderInvoice.</li>
+  <li>Issue Voucher (nếu status=SUCCESS + issue_voucher_status=PENDING).</li>
+  <li>Flash sale tracking (nếu có FlashSaleSubscriptionsID): SUCCESS → increment Redis; FAILED → decrement.</li>
+</ol>
+
+<h3>Idempotency</h3>
+<ul>
+  <li>payment_tx_id đã tồn tại → skip (duplicate message safe).</li>
+  <li>Issue voucher check issue_voucher_status trước khi gọi Loyalty.</li>
+  <li>Flash sale Redis SET NX để tránh double-count.</li>
+</ul>
+
+<h2>2. Biz Portal Consumer</h2>
+<pre><code>{
+  "data": {
+    "order_tx_id":        "uuid",
+    "remaining_trips":    10,
+    "remaining_distance": 50.5,
+    "remaining_budget":   1000000.0
+  }
+}</code></pre>
+<p>UPDATE business_subscription_status SET balance=?, trip=?, distance=? WHERE business_order_tx_id=?</p>
+
+<h2>Worker Pool Architecture</h2>
+<pre><code>[Kafka Reader goroutine]
+        ↓
+[buffered channel: size=WorkerCount]
+        ↓ (fan-out)
+[Worker 1] [Worker 2] ... [Worker N]
+        ↓
+[processMessage()]</code></pre>
+
+<div class="callout warn">Nếu IssueVoucher fail trong payment consumer → admin xử lý thủ công qua endpoint issue voucher. Không có DLQ.</div>
+</section>
+
+<!-- ===== FLOW 07 ===== -->
+<section id="flow07">
+<h1>Flow 07 – Worker &amp; Cron Jobs</h1>
+
+<h2>Danh sách Cron Jobs</h2>
+<table>
+  <tr><th>Config key</th><th>Function</th><th>Nhiệm vụ</th></tr>
+  <tr><td>subscription_running</td><td>AutoUpdateSubscriptionStatus2Running</td><td>PUBLISHED → RUNNING khi qua start_date</td></tr>
+  <tr><td>subscription_close</td><td>AutoUpdateSubscriptionStatus2Close</td><td>RUNNING → CLOSED khi qua end_date</td></tr>
+  <tr><td>order_expired</td><td>AutoUpdateOrdeStatus2Expired</td><td>Order ACTIVE/PROCESSING → EXPIRED</td></tr>
+  <tr><td>renew_subscription</td><td>AutoRenewSubscription</td><td>Auto-renew queue</td></tr>
+  <tr><td>purchase_after_trial</td><td>AutoPurchaseAfterTrialSubscription</td><td>Charge trial orders đã hết hạn</td></tr>
+  <tr><td>noti_before_expired</td><td>AutoNotiBeforeExpiredSubscription</td><td>Push noti nhắc sắp hết hạn</td></tr>
+  <tr><td>crawl_recommend_sub_date</td><td>BatchRecommendationSubscriptionData</td><td>Batch từ BigQuery</td></tr>
+  <tr><td>update_invoice_status</td><td>AutoUpdateInvoiceStatus</td><td>Sync invoice status</td></tr>
+</table>
+
+<h2>Chi tiết AutoNotiBeforeExpiredSubscription</h2>
+<ol>
+  <li>Query subscriptions có state=RUNNING và notification_before_expired không rỗng.</li>
+  <li>Với mỗi daysBeforeExpiry: query orders ACTIVE với expired_at ∈ [NOW()+daysBeforeExpiry-1h, NOW()+daysBeforeExpiry+1h].</li>
+  <li>Check timezone của customer từ MapCountryIDTimeZone.</li>
+  <li>Gọi NotificationService.SendPushNotification.</li>
+</ol>
+<p>MaxNotificationBeforeExpired = 10 ngày. Template: <code>noti_short_term_before_expired_days_title</code> / <code>noti_long_term_before_expired_days_title</code></p>
+
+<h2>BatchRecommendationSubscriptionData</h2>
+<ol>
+  <li>Đọc dynamic_config.batch_control.recommend_subscription.</li>
+  <li>Nếu status != "RUNNING": skip.</li>
+  <li>Query BigQuery: lấy recommendation data.</li>
+  <li>UPSERT subscription_recommendation.</li>
+</ol>
+<p>Latency requirement: &lt;300ms per customer query.</p>
+
+<h2>Common Patterns</h2>
+<ul>
+  <li><strong>Random delay</strong>: <code>time.Sleep(rand.Intn(10) * time.Second)</code> – tránh thundering herd.</li>
+  <li><strong>Distributed lock</strong>: Redis lock <code>cron:{job_name}</code> để tránh chạy trùng khi deploy nhiều pod.</li>
+  <li><strong>Batch size</strong>: limit 100, max 10 vòng (1000 records/lần chạy).</li>
+</ul>
+</section>
+
+<!-- ===== FLOW 08 ===== -->
+<section id="flow08">
+<h1>Flow 08 – Flash Sale</h1>
+
+<h2>Data Model</h2>
+<h3>FlashSaleCampaign</h3>
+<pre><code>ID, Name, StartTime, EndTime, CountryID, CityIDs, Status (ACTIVE|INACTIVE), SaleAllDay bool</code></pre>
+
+<h3>FlashSaleSubscription (offer per gói)</h3>
+<pre><code>ID, CampaignID, SubscriptionID, PromotionType (FIXED|PERCENT), PromotionValue, CapValue, QuantityLimit, NumberOfUsed, Priority</code></pre>
+
+<h2>Admin: Quản lý Campaign</h2>
+<p><strong>Tạo:</strong> <code>POST /v1/public/admin/subscription/flash_sale</code></p>
+<p><strong>Cập nhật:</strong> <code>PUT /v1/public/admin/subscription/flash_sale/:id</code></p>
+<p>Validation sau khi campaign đã start: không giảm quantity_limit xuống dưới number_of_used; không đổi promotion_type/value cho sub đã có sales.</p>
+
+<h2>Customer: Xem Flash Sale Prices</h2>
+<ol>
+  <li>Check App Version: <code>SkipFlashSale(appBuildNumber)</code>.</li>
+  <li>matchFlashSale: query flash_sale_subscriptions với campaign ACTIVE, trong time window, country match, city intersection.</li>
+  <li>Check user chưa mua flash sale này (ExistSubscriptionOrderFlashSale).</li>
+  <li>Với nhiều flash sale cho cùng 1 sub: chọn discount <strong>lớn nhất</strong>.</li>
+</ol>
+
+<h2>Tính Giá Flash Sale</h2>
+<ul>
+  <li>PERCENT: <code>discountPrice = price * promotionValue / 100</code></li>
+  <li>FIXED: <code>discountPrice = promotionValue</code></li>
+  <li>Apply CapValue: <code>discountPrice = min(discountPrice, capValue)</code></li>
+  <li>finalPrice = originalPrice - discountPrice</li>
+</ul>
+
+<h2>Purchase với Flash Sale</h2>
+<pre><code>-- Lock + increment khi purchase:
+SELECT * FROM flash_sale_subscriptions WHERE id=? FOR UPDATE
+-- Check NumberOfUsed < QuantityLimit
+-- UPDATE SET number_of_used = number_of_used + 1</code></pre>
+
+<table>
+  <tr><th>Kết quả</th><th>Redis</th><th>DB</th></tr>
+  <tr><td>Payment SUCCESS</td><td>SET user:{uid}:purchased_flash_sale_camp_sub_id:{id} (TTL 1 year)</td><td>number_of_used đã increment lúc purchase</td></tr>
+  <tr><td>Payment FAILED</td><td>DELETE Redis key</td><td>Decrement number_of_used</td></tr>
+</table>
+
+<h2>One-per-Customer Rule</h2>
+<p>Mỗi user chỉ mua được <strong>1 lần</strong> mỗi flash_sale_subscription_id. Auto-renew <strong>không</strong> apply flash sale price.</p>
+</section>
+
+<!-- ===== FLOW 09 ===== -->
+<section id="flow09">
+<h1>Flow 09 – Admin Operations</h1>
+
+<h2>1. Quản lý Subscription Master Package</h2>
+<table>
+  <tr><th>Method</th><th>Endpoint</th><th>Mô tả</th></tr>
+  <tr><td>POST</td><td>/admin/subscription</td><td>Tạo subscription (state=DRAFT)</td></tr>
+  <tr><td>PUT</td><td>/admin/subscription/:id</td><td>Cập nhật (theo rule state)</td></tr>
+  <tr><td>PUT</td><td>/admin/subscription/state</td><td>Đổi state (PUBLISHED/CLOSED)</td></tr>
+</table>
+<p><strong>Rule theo state:</strong> DRAFT=sửa mọi thứ; PUBLISHED=không sửa country_id/campaign_id/free_trial_period; RUNNING=chỉ sửa content/segment/end_date; CLOSED=không sửa.</p>
+
+<h2>2. Issue Voucher thủ công</h2>
+<p><code>PUT /admin/subscription/transaction/issue_voucher</code> – validate payment_status==SUCCESS, gọi Loyalty IssueVoucher.</p>
+<p><code>PUT /admin/subscription/transaction/issue_voucher_bypass_status</code> – không update subscription_order.status.</p>
+<p><code>PUT /admin/subscription/transaction/issue_free_trial_voucher</code> – dùng IssueFreeTrialVoucher.</p>
+
+<h2>3. Update Payment Status</h2>
+<p><code>PUT /admin/subscription/transaction/update_payment_status</code></p>
+<p>Nếu status=SUCCESS và issue_voucher_status=PENDING → tự động gọi IssueVoucher.</p>
+
+<h2>4. Cancel Order</h2>
+<p><code>PUT /admin/subscription/order/:id/cancel</code> – Điều kiện: order status==ACTIVE hoặc PENDING. Nếu Price &gt; 0: gọi PaymentService.Refund.</p>
+<p><code>PUT /admin/subscription/order/:id/to_cancel_status</code> – Force cancel bất kể trạng thái. Dùng khi order kẹt.</p>
+<p><code>PUT /admin/subscription/order/:id/free_trial/cancel</code> – Cancel free trial.</p>
+
+<h2>5. Feature Toggle</h2>
+<p><code>POST /admin/subscription/feat/state</code> – Toggle VPoint, Invoice, Redis per country.</p>
+<p><code>PUT /admin/subscription/dynamic_config</code> – Update key/value trong dynamic_config. Reload tự động sau tối đa 1 phút.</p>
+
+<h2>Tóm tắt API Admin (đầy đủ)</h2>
+<table>
+  <tr><th>Method</th><th>Endpoint</th><th>Mô tả</th></tr>
+  <tr><td>POST</td><td>/admin/subscription</td><td>Tạo subscription</td></tr>
+  <tr><td>PUT</td><td>/admin/subscription/:id</td><td>Cập nhật</td></tr>
+  <tr><td>PUT</td><td>/admin/subscription/state</td><td>Đổi state</td></tr>
+  <tr><td>GET</td><td>/admin/subscription/search</td><td>Tìm kiếm</td></tr>
+  <tr><td>PUT</td><td>/admin/subscription/dynamic_config</td><td>Update dynamic config</td></tr>
+  <tr><td>PUT</td><td>/admin/subscription/transaction/issue_voucher</td><td>Issue voucher</td></tr>
+  <tr><td>PUT</td><td>/admin/subscription/transaction/update_payment_status</td><td>Update payment status</td></tr>
+  <tr><td>PUT</td><td>/admin/subscription/order/:id/cancel</td><td>Cancel order</td></tr>
+  <tr><td>PUT</td><td>/admin/subscription/order/:id/to_cancel_status</td><td>Force cancel</td></tr>
+  <tr><td>PUT</td><td>/admin/subscription/order/:id/auto_renew</td><td>Toggle auto-renew</td></tr>
+  <tr><td>PUT</td><td>/admin/subscription/order/:id/free_trial/cancel</td><td>Cancel trial</td></tr>
+  <tr><td>PUT</td><td>/admin/subscription/order/:id/free_trial/repurchase</td><td>Repurchase trial</td></tr>
+  <tr><td>POST</td><td>/admin/subscription/feat/state</td><td>Toggle feature</td></tr>
+  <tr><td>POST</td><td>/admin/subscription/flash_sale</td><td>Tạo flash sale</td></tr>
+  <tr><td>PUT</td><td>/admin/subscription/flash_sale/:id/status</td><td>Toggle flash sale status</td></tr>
+  <tr><td>POST</td><td>/admin/subscription/send_noti</td><td>Gửi noti thủ công</td></tr>
+  <tr><td>POST</td><td>/admin/subscription/partner/reward</td><td>Partner reward</td></tr>
+</table>
+</section>
+
+<!-- ===== FLOW 10 ===== -->
+<section id="flow10">
+<h1>Flow 10 – Partner Integration (Triplayz)</h1>
+
+<h2>Overview</h2>
+<p>Đối tác bên ngoài phát voucher subscription cho user. Mỗi reward tạo một subscription order với price=0.</p>
+<p><strong>Endpoint:</strong> <code>POST /v1/public/integration/partner/triplayz/reward</code></p>
+<p><strong>Auth:</strong> HMAC signature + <code>x-partner-id</code> header.</p>
+
+<h2>Request Format</h2>
+<pre><code>type PartnerRewardReq struct {
+    RequestID   string  // Unique request ID từ partner
+    SubID       uint    // Subscription ID muốn phát
+    UserID      string  // Customer ID nhận reward
+    CountryCode string
+}</code></pre>
+
+<h2>Flow chi tiết</h2>
+<ol>
+  <li><strong>Idempotency Check</strong>: GetPartnerRequest(requestID, partnerID). Nếu đã tồn tại → trả order_id cũ.</li>
+  <li><strong>Validate</strong>: subscription State==RUNNING, check segment, fetch user profile.</li>
+  <li><strong>Tạo Order</strong>: Price=0, AutoRenew=false, Status=PENDING, PaymentStatus=SUCCESS (bỏ qua payment).</li>
+  <li><strong>Issue Voucher</strong>: IssueVoucher → Loyalty API.</li>
+  <li><strong>Log Partner Request</strong>: INSERT partner_requests với UNIQUE constraint (request_id, partner_id).</li>
+</ol>
+
+<h2>partner_setting JSONB</h2>
+<pre><code>{
+  "triplayz": {
+    "deeplink": "https://triplayz.app/...",
+    "reward_type": "subscription"
+  }
+}</code></pre>
+
+<div class="callout">Partner không cần gọi Payment Service – BE tự set payment_status=SUCCESS. Idempotency đảm bảo qua unique (request_id, partner_id) – partner có thể retry an toàn.</div>
+</section>
+
+<!-- ===== DB SCHEMA ===== -->
+<section id="dbschema">
+<h1>DB Schema</h1>
+
+<h2>Customer Side</h2>
+
+<h3>subscription</h3>
+<pre><code>CREATE TABLE subscription (
+    id                              BIGSERIAL PRIMARY KEY,
+    name, code, icon_img, background_img TEXT,
+    "group"                         TEXT,          -- SHORT-TERM | LONG-TERM
+    campaign_id, term_of_use, usage_instruction, saving_info TEXT,
+    country_id                      INT,
+    country_name                    TEXT,
+    city_ids                        INT4[],
+    city_names                      TEXT[],
+    start_date, end_date            BIGINT,        -- Unix timestamp
+    state                           TEXT,          -- DRAFT | PUBLISHED | RUNNING | CLOSED
+    detail                          JSONB,
+    selling_price                   JSONB,
+    currency_code                   TEXT,
+    user_segment                    TEXT,          -- ALL | SEGMENT | NONE
+    black_list_user_segment         TEXT,
+    period_unit                     TEXT,
+    free_trial_period               INT,
+    allow_free_trial                BOOL DEFAULT FALSE,
+    allow_change_in_trial_duration  BOOL DEFAULT FALSE,
+    allow_change_after_trial_duration BOOL DEFAULT FALSE,
+    allow_change_to_another_subscription BOOL DEFAULT FALSE,
+    partner_setting                 JSONB,
+    segment_ids, black_list_segment_ids INT4[],
+    donate                          BOOL DEFAULT FALSE,
+    free_trial_detail               JSONB,
+    display_type                    SMALLINT DEFAULT 0,  -- 0=default, 1=banner
+    package_type                    SMALLINT DEFAULT 0,  -- 0=individual, 1=family, 2=business
+    metadata                        JSONB,
+    limit_purchase_times            INT DEFAULT 0,
+    notification_before_expired     INT[],
+    allow_vpoint_payment            BOOL DEFAULT FALSE,
+    type                            TEXT DEFAULT 'PERSONAL',
+    created_at, updated_at          TIMESTAMPTZ DEFAULT NOW()
+);</code></pre>
+
+<h3>subscription_order</h3>
+<pre><code>CREATE TABLE subscription_order (
+    id                           BIGSERIAL PRIMARY KEY,
+    customer_id, customer_phone_number TEXT,
+    subscription_id              BIGINT,
+    duration INT, duration_unit TEXT,
+    expired_at                   TIMESTAMPTZ,
+    price                        DECIMAL(12,2),
+    currency_code                TEXT,
+    auto_renew                   BOOL DEFAULT FALSE,
+    status                       TEXT,  -- PENDING | PROCESSING | ACTIVE | EXPIRED | CANCELLED
+    metadata                     JSONB,  -- {members, family_id, buying_price, ...}
+    member_ids                   TEXT[],  -- auto-maintained by trigger
+    request_invoice              BOOL DEFAULT FALSE,
+    flash_sale_subscriptions_id  BIGINT,
+    created_at, updated_at       TIMESTAMPTZ DEFAULT NOW()
+);</code></pre>
+
+<h3>subscription_transaction</h3>
+<pre><code>CREATE TABLE subscription_transaction (
+    id                               BIGSERIAL PRIMARY KEY,
+    subscription_tx_id               TEXT UNIQUE,
+    subscription_order_id, customer_id BIGINT / TEXT,
+    transaction_amount               DECIMAL(12,2),
+    payment_status                   TEXT,  -- PENDING | PROCESSING | SUCCESS | FAILED | NONE
+    issue_voucher_status             TEXT,  -- NONE | PENDING | SUCCESS | FAILED
+    payment_tx_id                    TEXT,
+    vpoint_amount                    INT DEFAULT 0,
+    invoice_status                   TEXT,  -- NONE | REQUESTED | PUBLISHED | NO_INVOICE_REQUEST
+    paid_at                          TIMESTAMPTZ,
+    created_at, updated_at           TIMESTAMPTZ DEFAULT NOW()
+);</code></pre>
+
+<h3>subscription_auto_renew_queue</h3>
+<pre><code>CREATE TABLE subscription_auto_renew_queue (
+    id                          BIGSERIAL PRIMARY KEY,
+    subscription_order_id, subscription_renew_order_id BIGINT,
+    renew_at                    TIMESTAMPTZ,
+    status                      TEXT,  -- NO_RENEW | IN_QUEUE | SKIP | PROCESSING | SUCCESS | FAILED
+    payment_method_id/code/name/icon TEXT,
+    execute_log                 TEXT,
+    created_at, updated_at      TIMESTAMPTZ DEFAULT NOW()
+);</code></pre>
+
+<h3>subscription_free_trial_order</h3>
+<pre><code>CREATE TABLE subscription_free_trial_order (
+    id                        BIGSERIAL PRIMARY KEY,
+    customer_id, subscription_id, subscription_order_id BIGINT,
+    status                    TEXT,  -- PENDING | ACTIVE | EXPIRED | CANCELLED | SKIP
+    expired_at                TIMESTAMPTZ,
+    issue_voucher_status      TEXT,
+    free_trial_detail         JSONB,
+    cancel_reason_id          BIGINT,
+    member_ids                TEXT[],   -- auto by trigger
+    metadata                  JSONB,
+    -- UNIQUE INDEX: (subscription_id, customer_id)
+);</code></pre>
+
+<h3>flash_sale_campaigns</h3>
+<pre><code>CREATE TABLE flash_sale_campaigns (
+    id           BIGSERIAL PRIMARY KEY,
+    name, country_name TEXT,
+    start_time, end_time TIMESTAMPTZ,
+    country_id INT, city_ids INT4[],
+    status       TEXT,  -- ACTIVE | INACTIVE
+    sale_all_day BOOL DEFAULT FALSE
+    -- GiST index cho range query
+);</code></pre>
+
+<h2>Driver Side</h2>
+
+<h3>charging_package</h3>
+<pre><code>CREATE TABLE charging_package (
+    id                         BIGSERIAL PRIMARY KEY,
+    name                       TEXT NOT NULL,
+    fee                        NUMERIC DEFAULT 0,
+    number_of_days_of_validity INTEGER NOT NULL,
+    city_ids                   integer[] DEFAULT '{}',  -- native array (NOT JSONB)
+    vehicle_models             text[]    DEFAULT '{}',  -- native array (NOT JSONB)
+    start_time, end_time       TIME,
+    charging_time_frames       JSONB,   -- map[weekday][]TimeFrame
+    opening_time, closing_time TIMESTAMP,
+    is_periodic                BOOL DEFAULT TRUE,
+    valid_from, valid_to       TIMESTAMP
+);</code></pre>
+
+<h3>driver_subscription</h3>
+<pre><code>CREATE TABLE driver_subscription (
+    id              BIGSERIAL PRIMARY KEY,
+    subscription_id TEXT,   -- UUID
+    driver_id, vehicle_id TEXT,
+    package_id      BIGINT REFERENCES charging_package(id),
+    expires_time, start_time TIMESTAMPTZ,
+    is_renewal      BOOL DEFAULT FALSE
+);</code></pre>
+
+<h2>Audit</h2>
+<pre><code>CREATE TABLE audit_log (
+    id          BIGSERIAL PRIMARY KEY,
+    table_name  TEXT NOT NULL,
+    record_id   TEXT,
+    action      TEXT NOT NULL,  -- INSERT | UPDATE | DELETE
+    before_data JSONB,          -- NULL khi INSERT
+    after_data  JSONB,          -- NULL khi DELETE
+    executed_by TEXT,
+    executed_at TIMESTAMP DEFAULT NOW()
+);</code></pre>
+
+<h2>Foreign Key Relationships</h2>
+<table>
+  <tr><th>Table</th><th>Column</th><th>References</th></tr>
+  <tr><td>subscription_order</td><td>subscription_id</td><td>subscription(id)</td></tr>
+  <tr><td>subscription_transaction</td><td>subscription_order_id</td><td>subscription_order(id)</td></tr>
+  <tr><td>subscription_execute_status</td><td>subscription_transaction_id</td><td>subscription_transaction(id)</td></tr>
+  <tr><td>subscription_free_trial_order</td><td>subscription_order_id</td><td>subscription_order(id)</td></tr>
+  <tr><td>subscription_auto_renew_queue</td><td>subscription_order_id</td><td>subscription_order(id)</td></tr>
+  <tr><td>business_subscription_invitation</td><td>subscription_order_id</td><td>subscription_order(id) ON DELETE CASCADE</td></tr>
+  <tr><td>flash_sale_subscriptions</td><td>campaign_id</td><td>flash_sale_campaigns(id) ON DELETE CASCADE</td></tr>
+  <tr><td>driver_subscription</td><td>package_id</td><td>charging_package(id)</td></tr>
+</table>
+
+<h2>CDC / GCP Publication</h2>
+<pre><code>CREATE PUBLICATION gcp_subscription_pub
+    WITH (publish = 'insert, update, delete, truncate');
+ALTER PUBLICATION gcp_subscription_pub ADD TABLE ONLY subscription_order;
+ALTER PUBLICATION gcp_subscription_pub ADD TABLE ONLY subscription_transaction;</code></pre>
+<p>Consumer: <code>nifi-cdc</code> user → BigQuery qua Nifi pipeline. <strong>Khi thêm cột vào 2 bảng này phải báo data team.</strong></p>
+</section>
+
+<!-- ===== API CATALOG ===== -->
+<section id="apicatalog">
+<h1>API Catalog</h1>
+
+<h2>Customer Subscription (<code>/v1/public/subscription</code>)</h2>
+<table>
+  <tr><th>Method</th><th>Path</th><th>Mô tả</th></tr>
+  <tr><td>GET</td><td>/subscription</td><td>Danh sách gói đang RUNNING</td></tr>
+  <tr><td>GET</td><td>/subscription_enhance</td><td>Enhanced list với flash sale info</td></tr>
+  <tr><td>GET</td><td>/subscription/:id</td><td>Chi tiết gói theo ID</td></tr>
+  <tr><td>POST</td><td>/subscription/purchase</td><td>Mua gói</td></tr>
+  <tr><td>GET</td><td>/subscription/transaction</td><td>Lịch sử giao dịch của customer</td></tr>
+  <tr><td>GET</td><td>/subscription/transaction/:id</td><td>Chi tiết giao dịch</td></tr>
+  <tr><td>GET</td><td>/subscription/order</td><td>Danh sách order của customer</td></tr>
+  <tr><td>GET</td><td>/subscription/order/:id</td><td>Chi tiết order</td></tr>
+  <tr><td>PUT</td><td>/subscription/order/:id/auto_renew</td><td>Bật/tắt auto-renew</td></tr>
+  <tr><td>PUT</td><td>/subscription/order/:id/change_plan</td><td>Đổi plan (trong thời gian trial)</td></tr>
+  <tr><td>PUT</td><td>/subscription/order/:id/cancel</td><td>Cancel order</td></tr>
+  <tr><td>PUT</td><td>/subscription/order/:id/add/members</td><td>Thêm member (Family/Business)</td></tr>
+  <tr><td>PUT</td><td>/subscription/order/:id/remove/members</td><td>Xóa member</td></tr>
+  <tr><td>PUT</td><td>/subscription/invitation/:id/consent</td><td>Accept/reject invitation Business</td></tr>
+  <tr><td>GET</td><td>/subscription/auto_renew_payment_methods</td><td>Danh sách PTTT hỗ trợ auto-renew</td></tr>
+  <tr><td>GET</td><td>/subscription/recommendation</td><td>Gợi ý gói cho user</td></tr>
+  <tr><td>PUT</td><td>/subscription/order/:id/invoice/request</td><td>Yêu cầu xuất hóa đơn VAT</td></tr>
+</table>
+
+<h2>Driver App (<code>/v1/public/driver</code>)</h2>
+<table>
+  <tr><th>Method</th><th>Path</th><th>Mô tả</th></tr>
+  <tr><td>GET</td><td>/driver/verification/:package_id</td><td>Verify package status cho driver</td></tr>
+  <tr><td>POST</td><td>/driver/purchase</td><td>Mua gói sạc</td></tr>
+  <tr><td>GET</td><td>/driver/package/search</td><td>Tìm gói sạc khả dụng</td></tr>
+</table>
+
+<h2>V-Green (<code>/v1/public/v-green</code>)</h2>
+<table>
+  <tr><th>Method</th><th>Path</th><th>Mô tả</th></tr>
+  <tr><td>POST</td><td>/subscription/verify</td><td>Verify subscription cho 1 session sạc</td></tr>
+  <tr><td>POST</td><td>/subscription/verify/batch</td><td>Batch verify (tối đa 200 records)</td></tr>
+  <tr><td>GET</td><td>/subscription/search</td><td>Tìm subscription theo driver</td></tr>
+</table>
+
+<h2>Internal APIs (<code>/v1/internal</code>)</h2>
+<table>
+  <tr><th>Method</th><th>Path</th><th>Mô tả</th></tr>
+  <tr><td>PUT</td><td>/subscription/execute_status/update_status</td><td>Update execute status</td></tr>
+  <tr><td>GET</td><td>/subscription/group</td><td>Lấy subscription groups config</td></tr>
+  <tr><td>PUT</td><td>/subscription/business_order/:id/update</td><td>Update business order status</td></tr>
+  <tr><td>GET</td><td>/subscription/user/:id/active_orders</td><td>Active orders của user</td></tr>
+  <tr><td>POST</td><td>/subscription/user/:id/recommendation</td><td>Get recommendations (internal)</td></tr>
+</table>
+
+<h2>Partner Integration (<code>/v1/public/integration</code>)</h2>
+<table>
+  <tr><th>Method</th><th>Path</th><th>Auth</th><th>Mô tả</th></tr>
+  <tr><td>POST</td><td>/integration/partner/triplayz/reward</td><td>HMAC signature + x-partner-id</td><td>Issue reward từ Triplayz</td></tr>
+</table>
+
+<h2>Response Format</h2>
+<pre><code>// Success:
+{ "data": { ... } }
+
+// Error:
+{
+  "code": 1001,
+  "message": "Invalid phone number.",
+  "details": {
+    "title": "sub_add_member_invalid_phone_title",
+    "message": "sub_add_member_invalid_phone",
+    "param_title": [],
+    "param_message": []
+  }
+}</code></pre>
+</section>
+
+</main>
+
+<script>
+  const links = document.querySelectorAll('#sidebar a');
+  const sections = document.querySelectorAll('section[id]');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        links.forEach(l => l.classList.remove('active'));
+        const active = document.querySelector(`#sidebar a[href="#${e.target.id}"]`);
+        if (active) active.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-20% 0px -70% 0px' });
+  sections.forEach(s => observer.observe(s));
+</script>
+</body>
+</html>

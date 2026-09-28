@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Đề thi Da liễu 2023-2024 — Mã đề A (phục hồi)</title>
+<style>
+  :root{--accent:#f59e0b;--bg:#0f172a;--bg2:#111827;--card:#1e293b;--bd:#334155;--txt:#e2e8f0;--muted:#94a3b8;--ok:#22c55e;--bad:#ef4444;--warn:#f59e0b;}
+  @media (prefers-color-scheme: light){:root{--bg:#f1f5f9;--bg2:#e2e8f0;--card:#ffffff;--bd:#cbd5e1;--txt:#0f172a;--muted:#64748b;}}
+  :root[data-theme="dark"]{--bg:#0f172a;--bg2:#111827;--card:#1e293b;--bd:#334155;--txt:#e2e8f0;--muted:#94a3b8;}
+  :root[data-theme="light"]{--bg:#f1f5f9;--bg2:#e2e8f0;--card:#ffffff;--bd:#cbd5e1;--txt:#0f172a;--muted:#64748b;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(160deg,var(--bg),var(--bg2));color:var(--txt);line-height:1.55;padding:16px;}
+  .wrap{max-width:840px;margin:0 auto;}
+  header{text-align:center;padding:12px 0 6px;}
+  h1{margin:0 0 4px;font-size:23px;}
+  .sub{color:var(--muted);font-size:14px;}
+  .nav{text-align:center;margin:4px 0 10px;}
+  .nav a{color:var(--accent);text-decoration:none;font-size:14px;}
+  .bar{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:10px 14px;margin-bottom:14px;backdrop-filter:blur(6px);}
+  .score{font-size:14px;}
+  .score b{color:var(--accent);font-size:16px;}
+  .bar button{border:1px solid var(--bd);background:transparent;color:var(--txt);padding:7px 12px;border-radius:8px;font-size:13px;cursor:pointer;}
+  .bar button:hover{border-color:var(--accent);color:var(--accent);}
+  .sec{font-weight:700;font-size:15px;color:var(--accent);margin:18px 0 10px;padding-left:10px;border-left:4px solid var(--accent);}
+  .q{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px 16px;margin-bottom:12px;}
+  .q .num{color:var(--accent);font-weight:700;margin-right:6px;}
+  .q .txt{font-weight:600;margin-bottom:10px;white-space:pre-wrap;}
+  .opt{display:block;width:100%;text-align:left;border:1px solid var(--bd);background:transparent;color:var(--txt);padding:9px 12px;border-radius:9px;margin:6px 0;font-size:15px;cursor:pointer;transition:.12s;}
+  .opt:hover:not(:disabled){border-color:var(--accent);}
+  .opt .k{font-weight:700;margin-right:7px;}
+  .opt.correct{border-color:var(--ok);background:rgba(34,197,94,.14);}
+  .opt.wrong{border-color:var(--bad);background:rgba(239,68,68,.14);}
+  .opt:disabled{cursor:default;opacity:.95;}
+  .exp{margin-top:9px;padding:10px 12px;border-radius:9px;background:rgba(148,163,184,.12);font-size:14px;display:none;}
+  .exp.show{display:block;}
+  .exp .lab{font-weight:700;}
+  .exp .kh{color:var(--muted);font-size:13px;margin-top:4px;}
+  .note{margin-top:7px;padding:8px 11px;border-radius:8px;background:rgba(245,158,11,.15);border:1px solid rgba(245,158,11,.4);font-size:13px;}
+  .ess{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px 16px;margin-bottom:12px;}
+  .ess .txt{font-weight:600;margin-bottom:8px;white-space:pre-wrap;}
+  .ess button{border:1px solid var(--bd);background:transparent;color:var(--accent);padding:6px 12px;border-radius:8px;font-size:13px;cursor:pointer;}
+  .ans{margin-top:9px;padding:10px 12px;border-radius:9px;background:rgba(45,212,191,.12);font-size:14px;display:none;white-space:pre-wrap;}
+  .ans.show{display:block;}
+  footer{text-align:center;color:var(--muted);font-size:12px;margin:24px 0 10px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><h1>Đề thi Da liễu 2023-2024 — Mã đề A (phục hồi)</h1><div class="sub">Bản chụp viết tay (thiếu trang 2/8 & 8/8) · phục hồi tối đa, đáp án đối chiếu lý thuyết De10-19</div></header>
+  <div class="nav"><a href="index.html">← Danh sách đề</a></div>
+  <div class="bar">
+    <div class="score">Đúng: <b id="right">0</b> / <span id="done">0</span> · Trắc nghiệm 26 câu</div>
+    <div><button onclick="revealAll()">Hiện hết đáp án</button> <button onclick="resetAll()">Làm lại</button></div>
+  </div>
+  <div class="sec">Phần trắc nghiệm</div>
+  <div id="quiz"></div>
+  <div id="essaywrap" style="display:none">
+    <div class="sec">Phần điền khuyết / tự luận — bấm để xem đáp án</div>
+    <div id="essay"></div>
+  </div>
+  <footer>Ôn tập bám sát tài liệu Da liễu · đáp án đối chiếu bài giảng · ⚠️ = cần kiểm tra thêm</footer>
+</div>
+<script>
+const DATA=[{"n": 1, "q": "Một bệnh nhân sinh viên đến khám vì đám giảm sắc tố kích thước 1,2 x 4cm ở cánh tay. Để có thể chẩn đoán XÁC ĐỊNH và CHỌN PHÁC ĐỒ điều trị (phân loại PB/MB) bệnh phong, cần làm:", "o": {"A": "Chỉ số vi khuẩn (BI)", "B": "Phản ứng Mitsuda", "C": "Mô bệnh học", "D": "Nghiệm pháp cảm giác"}, "c": "A", "kh": "A", "e": "Để CHỌN PHÁC ĐỒ (phân biệt thể ít khuẩn PB / nhiều khuẩn MB) cần chỉ số vi khuẩn (BI). Nghiệm pháp cảm giác chỉ giúp chẩn đoán nhanh, không phân loại được PB/MB.", "note": "Bệnh Phong ngoài bài giảng De10-19; lưu ý phân biệt với câu 'chẩn đoán NHANH' (đáp án là nghiệm pháp cảm giác)."}, {"n": 2, "q": "Mụn mủ thường là biểu hiện của nhiễm trùng, xuất hiện thứ phát sau tổn thương có sẵn; tuy nhiên cũng có mụn mủ VÔ TRÙNG không cần kháng sinh. Tổn thương mụn mủ trong bệnh da nào sau đây là mụn mủ vô trùng:", "o": {"A": "Viêm nang lông", "B": "Viêm da cơ địa (bội nhiễm)", "C": "Vảy nến mủ", "D": "Chốc"}, "c": "C", "kh": "C", "e": "Vảy nến mủ có mụn mủ VÔ KHUẨN (cấy mủ âm tính). Viêm nang lông, chốc là mụn mủ nhiễm khuẩn."}, {"n": 3, "q": "Bệnh nhi 4 tháng tuổi đến khám vì đỏ da bong vảy kèm khô da, được chẩn đoán chàm sữa (viêm da cơ địa nhũ nhi). Lời khuyên nào sau đây là phù hợp NHẤT:", "o": {"A": "Hạn chế bú sữa mẹ", "B": "Kiêng sữa bột", "C": "Dưỡng ẩm da thường xuyên", "D": "Vệ sinh da mặt thường xuyên"}, "c": "C", "kh": "C", "e": "Chàm sữa (VDCĐ nhũ nhi): dưỡng ẩm là biện pháp quan trọng nhất (phục hồi hàng rào bảo vệ da, giảm khô-ngứa). Không nên kiêng sữa mẹ."}, {"n": 4, "q": "Xét nghiệm SÀNG LỌC để phát hiện giang mai ở tuyến tỉnh theo Bộ Y Tế là:", "o": {"A": "RPR", "B": "PCR", "C": "TPHA", "D": "TPI"}, "c": "A", "kh": "A", "e": "RPR (hoặc VDRL) là xét nghiệm không đặc hiệu, rẻ, dùng để SÀNG LỌC. TPHA/TPI là xét nghiệm đặc hiệu dùng để KHẲNG ĐỊNH."}, {"n": 5, "q": "Trong bệnh phong, chỉ số vi khuẩn (BI) có mối tương quan với miễn dịch của cơ thể là:", "o": {"A": "BI 3+ khi cơ thể có miễn dịch dịch thể tốt", "B": "BI 5+ khi cơ thể có miễn dịch tế bào yếu", "C": "BI (-) khi cơ thể có miễn dịch trung bình", "D": "BI 1+ khi cơ thể có miễn dịch dịch thể yếu"}, "c": "B", "kh": "B", "e": "BI cao (nhiều vi khuẩn) ↔ miễn dịch TẾ BÀO yếu (thể u/LL). BI âm tính ↔ miễn dịch tế bào mạnh (thể củ/TT).", "note": "Phương án gõ lại theo bản đề song song (Mã đề A) do bản chụp mờ; đáp án bám nguyên lý BI cao = MD tế bào yếu."}, {"n": 6, "q": "Tổn thương cơ bản nào dưới đây giúp nhận diện tổn thương đang ở GIAI ĐOẠN CẤP (ví dụ viêm da cơ địa):", "o": {"A": "Vảy da nhẹ trên nền đỏ da, không rỉ dịch", "B": "Mảng đỏ da tăng sắc tố kèm dày sừng", "C": "Mụn nước trên nền viêm đỏ và xuất tiết dịch", "D": "Vảy tiết dày trên nền vết trợt nông"}, "c": "C", "kh": "C", "e": "Giai đoạn cấp: mảng đỏ, mụn nước, xuất tiết nhiều. Giai đoạn mạn: dày da, lichen hóa, tăng sắc tố (đáp án B)."}, {"n": 7, "q": "Giang mai 2 có đặc điểm nào sau đây:", "o": {"A": "Chẩn đoán dựa vào lâm sàng đơn thuần", "B": "Chẩn đoán dựa vào phản ứng tìm kháng nguyên", "C": "Có các thương tổn: đào ban, sẩn", "D": "Tiến triển thành giang mai 3, không có giang mai kín"}, "c": "C", "kh": "C", "e": "Giang mai 2: tổn thương da-niêm đa dạng (đào ban, sẩn giang mai, sẩn ướt, mảng niêm mạc). Sau GM2 vẫn có thể chuyển sang giang mai kín."}, {"n": 8, "q": "Thuốc kháng nấm UỐNG nào sau đây chỉ hiệu quả trên nấm sợi (dermatophyte), không hiệu quả trên nấm men:", "o": {"A": "Itraconazole", "B": "Fluconazole", "C": "Ketoconazole", "D": "Griseofulvin"}, "c": "D", "kh": "D", "e": "Griseofulvin chỉ tác dụng trên nấm sợi (dermatophyte), không tác dụng trên Candida/nấm men. Các azole có phổ rộng hơn."}, {"n": 9, "q": "Tác nhân gây viêm niệu đạo do KÝ SINH TRÙNG là:", "o": {"A": "Neisseria elongata", "B": "Trichomonas vaginalis", "C": "Chlamydia pneumoniae", "D": "Chlamydia trachomatis"}, "c": "B", "kh": "B", "e": "Trichomonas vaginalis (trùng roi) là ký sinh trùng gây viêm niệu đạo/sinh dục. Lậu cầu và Chlamydia là vi khuẩn."}, {"n": 24, "q": "Bệnh nhân nữ 35 tuổi đi khám vì phát hiện các sùi ở môi bé và bên trong âm đạo, nghĩ đến sùi mào gà. Cần làm xét nghiệm gì để khẳng định chẩn đoán:", "o": {"A": "PCR (HPV, định type)", "B": "Soi tươi", "C": "Nuôi cấy", "D": "Nhuộm Gram"}, "c": "A", "kh": "A", "e": "PCR HPV giúp khẳng định chẩn đoán và định type HPV.", "note": "Bản chụp mờ, gõ lại từ câu tương ứng ở bản đề song song (Mã đề A)."}, {"n": 25, "q": "Bệnh nhân đến khám, xét nghiệm VDRL 1/64 và TPHA (+). Hướng điều trị phù hợp:", "o": {"A": "Ngoại viện, tiêm Benzathin Penicilin 7,2 triệu đơn vị", "B": "Tiêm Benzathin Penicilin 2,4 triệu đơn vị", "C": "Azithromycin 2g liều duy nhất", "D": "Doxycyclin 100mg x 2 lần/ngày x 14 ngày"}, "c": "B", "kh": "B", "e": "VDRL 1/64 + TPHA (+) = giang mai đang hoạt động. Điều trị: Benzathin penicilin 2,4 triệu đơn vị tiêm bắp (giang mai sớm: liều duy nhất). Azithromycin/Doxycyclin chỉ thay thế khi dị ứng penicilin.", "note": "Bản chụp mờ ở phần 'ngoại viện/nhập viện'; điểm mấu chốt là liều Benzathin 2,4 triệu đơn vị."}, {"n": 28, "q": "Dấu hiệu nào sau đây giúp gợi ý phân biệt phát ban dát sẩn DO THUỐC với phát ban dát sẩn DO VIRUS:", "o": {"A": "Người lớn thường gặp phát ban do virus", "B": "Tiền sử dùng thuốc trước đó giúp hướng tới phát ban virus", "C": "Trẻ em thường gặp các đợt phát ban do virus", "D": "Thời gian nổi tổn thương không có ý nghĩa"}, "c": "C", "kh": "C", "e": "Trẻ em hay gặp phát ban do virus; người lớn có tiền sử dùng thuốc → hướng tới phát ban do thuốc. Đáp án B sai (tiền sử dùng thuốc hướng tới ban do THUỐC, không phải virus).", "note": "Câu phân biệt, đối chiếu thêm giáo trình nhiễm độc da (De11)."}, {"n": 29, "q": "Hoại tử thượng bì nhiễm độc (TEN/hội chứng Lyell) có đặc điểm nào sau đây:", "o": {"A": "Có nguyên nhân do vi khuẩn tụ cầu", "B": "Bọng nước và vết trợt rải rác toàn thân", "C": "Dấu Nikolsky âm tính", "D": "Dấu Koebner dương tính"}, "c": "B", "kh": "B", "e": "TEN: bọng nước và trợt da (bong da) lan rộng toàn thân, dấu Nikolsky DƯƠNG tính, do THUỐC. Nguyên nhân tụ cầu là của SSSS (hội chứng 4S); Koebner là của vảy nến."}, {"n": 30, "q": "Thời gian điều trị nấm móng TAY do nấm sợi bằng Terbinafine thường là:", "o": {"A": "1 tuần", "B": "2 tuần", "C": "6 tuần", "D": "12 tuần"}, "c": "C", "kh": "C", "e": "Nấm móng tay điều trị Terbinafine khoảng 6 tuần; nấm móng chân lâu hơn (khoảng 12 tuần) do móng chân mọc chậm."}, {"n": 32, "q": "Đặc điểm nào sau đây là ĐÚNG khi nói về chốc KHÔNG bọng nước:", "o": {"A": "Thường gặp ở người lớn", "B": "Tổn thương lành để lại sẹo", "C": "Ít lây", "D": "Toàn trạng không thay đổi"}, "c": "D", "kh": "D", "e": "Chốc không bọng nước: hay gặp ở TRẺ EM, RẤT lây, KHÔNG để lại sẹo (để lại sẹo là chốc loét/ecthyma), toàn trạng không thay đổi (đúng)."}, {"n": 48, "q": "Sắp xếp độ sâu của tổn thương trong các bệnh da nhiễm khuẩn theo thứ tự TĂNG DẦN:", "o": {"A": "Viêm mô tế bào → viêm quầng → chốc bọng nước", "B": "Chốc bọng nước → viêm quầng → viêm mô tế bào", "C": "Chốc bọng nước → viêm mô tế bào → viêm quầng", "D": "Viêm quầng → chốc bọng nước → viêm mô tế bào"}, "c": "B", "kh": "B", "e": "Độ sâu tăng dần: chốc (thượng bì, nông) → viêm quầng (trung bì) → viêm mô tế bào (mô dưới da, sâu nhất)."}, {"n": 51, "q": "Thuốc nào sau đây phù hợp nhất để KIỂM SOÁT NGỨA trong viêm da cơ địa (bệnh có cơ chế phản ứng quá mẫn type IV):", "o": {"A": "Kháng histamin", "B": "Corticoid uống", "C": "Thuốc an thần", "D": "Corticoid bôi"}, "c": "A", "kh": "A", "e": "Kháng histamin (ưu tiên thế hệ 1) được dùng hỗ trợ giảm ngứa trong VDCĐ.", "note": "⚠️ Điểm cần cân nhắc: vì ngứa trong VDCĐ qua cơ chế viêm type IV (không do histamine), nhiều tài liệu cho rằng CORTICOID BÔI (kháng viêm) mới kiểm soát ngứa hiệu quả nhất — đối chiếu giáo trình De17."}, {"n": 52, "q": "Những bệnh nào dưới đây thuộc nhóm nhiễm độc da do thuốc thể NẶNG:", "o": {"A": "Hội chứng DRESS", "B": "Hội chứng Lyell (TEN)", "C": "Hội chứng Stevens - Johnson", "D": "Tất cả đều đúng"}, "c": "D", "kh": "D", "e": "DRESS, Lyell (TEN) và Stevens-Johnson đều là các thể nhiễm độc da do thuốc NẶNG, nguy hiểm — tất cả đều đúng."}, {"n": 53, "q": "Bệnh nhân nam 50 tuổi, vảy nến 10 năm, điều trị LIÊN TỤC bằng corticoid bôi. Hiện da mỏng như giấy, nhiều mảng bầm máu (teo da do corticoid). Hướng điều trị TẠI CHỖ tiếp theo phù hợp nhất:", "o": {"A": "Daivobet (calcipotriol + betamethasone)", "B": "Tiếp tục thoa corticoid", "C": "Mỡ salicylic", "D": "Tacrolimus"}, "c": "D", "kh": "A", "e": "Da đã teo do corticoid kéo dài → cần NGƯNG corticoid, chuyển thuốc KHÔNG gây teo da. Tacrolimus (ức chế calcineurin) không gây teo da, an toàn dùng lâu dài. Daivobet vẫn chứa corticoid (betamethasone) nên không tối ưu; tiếp tục corticoid càng làm teo da nặng hơn.", "note": "⚠️ Review theo lý thuyết: đề khoanh Daivobet (A) nhưng với da đã teo, thuốc không steroid (Tacrolimus) mới hợp lý nhất — đối chiếu giáo trình De19/De17."}, {"n": 54, "q": "Bệnh nhân nam có vài thương tổn sẩn nhỏ ở dương vật, chẩn đoán sùi mào gà. Phương pháp điều trị nào NHANH NHẤT để phá huỷ tổn thương:", "o": {"A": "Imiquimod", "B": "Nitơ lỏng", "C": "Đốt laser", "D": "TCA"}, "c": "C", "kh": "A", "e": "Để PHÁ HỦY tổn thương NHANH NHẤT cần phương pháp vật lý/hủy hoại: đốt laser (phá hủy tức thì trong một lần), nitơ lỏng, TCA. Imiquimod là liệu pháp MIỄN DỊCH tác dụng chậm (bôi tối đa 16 tuần) → không phải 'nhanh nhất'.", "note": "⚠️ Review theo lý thuyết De16: đề khoanh Imiquimod (A) là chưa hợp lý cho yêu cầu 'nhanh nhất phá hủy'; các phương pháp vật lý (laser/nitơ lỏng/TCA) mới nhanh, trong đó đốt laser nhanh nhất."}, {"n": 55, "q": "Đặc điểm nào sau đây là SAI khi nói về chốc bọng nước:", "o": {"A": "Thương tổn bọng nước nằm sâu (dưới thượng bì)", "B": "Do độc tố gây bong da của tụ cầu vàng", "C": "Hay gặp ở trẻ sơ sinh", "D": "Vị trí hay gặp ở mặt"}, "c": "A", "kh": "A", "e": "SAI: bọng nước của chốc bọng nước rất NÔNG (ngay dưới lớp sừng/trong thượng bì) do độc tố bong da của tụ cầu vàng, nên bọng nước mềm, dễ vỡ."}, {"n": 56, "q": "Đặc điểm tổn thương vảy nến vùng nếp gấp (vảy nến đảo ngược) KHÁC BIỆT với vảy nến mảng điển hình là:", "o": {"A": "Giới hạn rõ", "B": "Ít hoặc không có vảy da", "C": "Đỏ nhiều hơn", "D": "Có mụn nước"}, "c": "B", "kh": "B", "e": "Vảy nến đảo ngược (vùng nếp gấp ẩm): ít hoặc KHÔNG có vảy (khác vảy nến mảng có vảy trắng bạc dày), viền đỏ giới hạn rõ và sáng."}, {"n": 57, "q": "Bệnh nhân nam đến khám vì mảng đỏ da ở kẽ bẹn và mông, bờ tổn thương rõ, có khuynh hướng lành ở trung tâm, tiến triển ly tâm. Xét nghiệm nào nên chỉ định:", "o": {"A": "Vi khuẩn nhuộm soi", "B": "Sinh thiết da", "C": "Vi nấm soi tươi với KOH 10%", "D": "Nuôi cấy nấm trên môi trường Sabouraud"}, "c": "C", "kh": "C", "e": "Bệnh cảnh nấm bẹn (mảng đỏ kẽ bẹn, bờ rõ, tiến triển ly tâm, trung tâm lành): xét nghiệm nhanh phù hợp là soi tươi tìm sợi nấm với KOH 10%. (Nuôi cấy Sabouraud lâu, dùng khi cần định danh.)"}, {"n": 58, "q": "Kháng sinh TOÀN THÂN thường dùng điều trị chốc (thể nặng/lan rộng) thuộc nhóm:", "o": {"A": "Cefalexin (cephalosporin thế hệ 1)", "B": "Metronidazol", "C": "Acyclovir", "D": "Griseofulvin"}, "c": "A", "kh": "A", "e": "Chốc do tụ cầu/liên cầu; khi cần điều trị toàn thân dùng kháng sinh kháng tụ cầu như cephalosporin thế hệ 1 (Cefalexin).", "note": "Câu gõ lại từ ghi chú trên bản chụp ('Cefalexin → cephalosporin 1'); đối chiếu De10."}, {"n": 76, "q": "Đường lây truyền chủ yếu được xác định trong bệnh phong là:", "o": {"A": "Nhiễm từ giọt bắn mang vi khuẩn từ bệnh nhân phong", "B": "Vết thương trên da", "C": "Tiếp xúc thường xuyên với bệnh nhân thể ít vi khuẩn", "D": "Tiếp xúc thường xuyên với bệnh nhân đa kháng thuốc"}, "c": "A", "kh": "A", "e": "Phong lây chủ yếu qua giọt bắn (dịch tiết mũi họng) từ bệnh nhân thể nhiều khuẩn (MB) chưa điều trị.", "note": "Bệnh Phong ngoài bài giảng De10-19."}, {"n": 77, "q": "Điều trị bệnh phong tùy thuộc vào chỉ số vi khuẩn (BI) và tổn thương da, lựa chọn ĐÚNG là:", "o": {"A": "BI (-) dùng phác đồ điều trị nhiều vi khuẩn", "B": "BI (+) dùng phác đồ điều trị nhiều vi khuẩn", "C": "BI (-), số thương tổn da = 4, không tổn thương thần kinh → phác đồ nhiều vi khuẩn", "D": "BI (-), số thương tổn da > 5, không tổn thương thần kinh → phác đồ ít vi khuẩn"}, "c": "B", "kh": "B", "e": "BI (+) → phân loại thể nhiều khuẩn (MB) → dùng phác đồ đa hóa trị liệu nhiều vi khuẩn (Rifampicin + Clofazimin + Dapson).", "note": "Bệnh Phong ngoài bài giảng De10-19."}];
+const ESSAY=[];
+let right=0, done=new Set();
+
+function esc(s){return String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+
+function renderQuiz(data, elid){
+  const box=document.getElementById(elid);
+  data.forEach((it,idx)=>{
+    const card=document.createElement('div'); card.className='q';
+    let opts='';
+    for(const k of ['A','B','C','D','E']){
+      if(it.o[k]===undefined) continue;
+      opts+=`<button class="opt" data-k="${k}"><span class="k">${k}.</span>${esc(it.o[k])}</button>`;
+    }
+    let khline = (it.kh && it.kh!==it.c) ? `<div class="kh">📝 Đáp án khoanh trên đề: <b>${esc(it.kh)}</b> (khác đáp án chuẩn)</div>` : (it.kh? `<div class="kh">📝 Đáp án khoanh trên đề: ${esc(it.kh)}</div>`:'');
+    card.innerHTML=`<div class="txt"><span class="num">Câu ${it.n||idx+1}.</span>${esc(it.q)}</div>`+opts+
+      `<div class="exp"><span class="lab">Đáp án đúng: ${it.c}.</span> ${esc(it.e)}${khline}</div>`+
+      (it.note?`<div class="note">⚠️ ${esc(it.note)}</div>`:'');
+    box.appendChild(card);
+    card.querySelectorAll('.opt').forEach(b=>b.addEventListener('click',()=>choose(card,it,b.dataset.k)));
+  });
+}
+function choose(card, it, k){
+  if(card.dataset.answered) return;
+  card.dataset.answered='1';
+  const btns=card.querySelectorAll('.opt');
+  btns.forEach(b=>{b.disabled=true;
+    if(b.dataset.k===it.c) b.classList.add('correct');
+    if(b.dataset.k===k && k!==it.c) b.classList.add('wrong');});
+  card.querySelector('.exp').classList.add('show');
+  done.add(it); if(k===it.c) right++;
+  updateScore();
+}
+function updateScore(){
+  document.getElementById('right').textContent=right;
+  document.getElementById('done').textContent=done.size;
+}
+function renderEssay(data, elid){
+  if(!data.length) return;
+  document.getElementById('essaywrap').style.display='block';
+  const box=document.getElementById(elid);
+  data.forEach((it,idx)=>{
+    const card=document.createElement('div'); card.className='ess';
+    card.innerHTML=`<div class="txt"><span class="num" style="color:var(--accent);font-weight:700">Câu ${it.n||idx+1}.</span> ${esc(it.q)}</div>`+
+      `<button>Xem đáp án</button>`+
+      `<div class="ans"><b>Đáp án:</b> ${esc(it.a)}${it.e?'\n\n'+esc(it.e):''}</div>`;
+    box.appendChild(card);
+    card.querySelector('button').addEventListener('click',()=>card.querySelector('.ans').classList.toggle('show'));
+  });
+}
+function revealAll(){
+  [...document.querySelectorAll('#quiz .q')].forEach((card,i)=>{
+    const it=DATA[i];
+    card.dataset.answered='1';
+    card.querySelectorAll('.opt').forEach(b=>{
+      b.disabled=true;
+      if(b.dataset.k===it.c) b.classList.add('correct');
+    });
+    card.querySelector('.exp').classList.add('show');
+  });
+  document.querySelectorAll('#essay .ans').forEach(a=>a.classList.add('show'));
+}
+function resetAll(){ location.reload(); }
+renderQuiz(DATA,'quiz');
+renderEssay(ESSAY,'essay');
+</script>
+</body>
+</html>

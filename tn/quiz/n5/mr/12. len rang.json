@@ -1,0 +1,1070 @@
+[
+    {
+      "question": "Mục đích chính của việc chọn răng giả trong phục hình là gì?",
+      "options": [
+        {"text": "Trả lại thẩm mỹ và khôi phục phát âm", "isCorrect": false},
+        {"text": "Trả lại chức năng ăn nhai và sự tự tin cho bệnh nhân", "isCorrect": false},
+        {"text": "Diễn cảm trong giao tiếp", "isCorrect": false},
+        {"text": "Tất cả các mục đích trên", "isCorrect": true}
+      ],
+      "explanation": "Chọn răng không chỉ để nhai mà còn để khôi phục diện mạo, tiếng nói và tâm lý cho người bệnh."
+    },
+    {
+      "question": "Việc chọn răng giả bao gồm xác định những yếu tố nào?",
+      "options": [
+        {"text": "Hình dáng, kích thước và màu sắc răng phù hợp", "isCorrect": true},
+        {"text": "Độ cứng và trọng lượng của răng", "isCorrect": false},
+        {"text": "Tên hãng sản xuất và giá tiền", "isCorrect": false},
+        {"text": "Số lượng chân răng giả", "isCorrect": false}
+      ],
+      "explanation": "Ba yếu tố cốt lõi của chọn răng thẩm mỹ và chức năng là hình dáng, kích thước và màu sắc."
+    },
+    {
+      "question": "Răng giả được cấu tạo gồm bao nhiêu phần chính?",
+      "options": [
+        {"text": "1 phần thân răng duy nhất", "isCorrect": false},
+        {"text": "2 phần: thân răng và phần lưu giữ trong nền nhựa", "isCorrect": true},
+        {"text": "3 phần: thân, cổ và chân răng", "isCorrect": false},
+        {"text": "Không chia phần", "isCorrect": false}
+      ],
+      "explanation": "Răng giả gồm phần thân lộ ra ngoài và phần đế được thiết kế để bám chắc vào nhựa nền hàm."
+    },
+    {
+      "question": "Dựa vào vật liệu chế tạo, răng giả được phân thành những loại nào?",
+      "options": [
+        {"text": "Răng nhựa, răng composite, răng sứ", "isCorrect": true},
+        {"text": "Răng vàng, răng bạc, răng đồng", "isCorrect": false},
+        {"text": "Răng gỗ và răng đá", "isCorrect": false},
+        {"text": "Răng tự nhiên và răng nhân tạo", "isCorrect": false}
+      ],
+      "explanation": "Ba loại vật liệu phổ biến nhất trong nha khoa hiện đại là nhựa acrylic, composite và sứ (porcelain)."
+    },
+    {
+      "question": "Nguyên tắc chọn răng dựa trên cung răng của bệnh nhân là gì?",
+      "options": [
+        {"text": "Luôn chọn răng thật thẳng", "isCorrect": false},
+        {"text": "Nếu răng thật sắp xếp lộn xộn thì xếp răng giả lộn xộn theo", "isCorrect": true},
+        {"text": "Luôn chọn răng to hơn răng thật", "isCorrect": false},
+        {"text": "Chọn răng màu trắng nhất có thể", "isCorrect": false}
+      ],
+      "explanation": "Sự hài hòa yêu cầu răng giả phải mô phỏng lại đặc điểm tự nhiên của bộ răng cũ bệnh nhân."
+    },
+    {
+      "question": "Trong trường hợp mất răng đối xứng 2 bên, việc lên răng dựa trên yếu tố nào?",
+      "options": [
+        {"text": "Dựa trên đường giữa của răng", "isCorrect": true},
+        {"text": "Dựa trên màu da", "isCorrect": false},
+        {"text": "Dựa trên răng khôn", "isCorrect": false},
+        {"text": "Dựa trên lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Đường giữa là mốc quan trọng nhất để đảm bảo sự cân xứng khi mất răng diện rộng 2 bên."
+    },
+    {
+      "question": "Thứ tự chọn nhóm răng giả đúng quy trình là gì?",
+      "options": [
+        {"text": "Chọn răng sau trước, răng trước sau", "isCorrect": false},
+        {"text": "Chọn răng trước trước, sau đó mới chọn răng sau", "isCorrect": true},
+        {"text": "Chọn răng hàm lớn trước", "isCorrect": false},
+        {"text": "Chọn ngẫu nhiên", "isCorrect": false}
+      ],
+      "explanation": "Răng trước quyết định thẩm mỹ và đường cười nên được chọn làm chuẩn trước."
+    },
+    {
+      "question": "Trình tự lên nhóm răng trước trên theo tài liệu là gì?",
+      "options": [
+        {"text": "Răng nanh -> Răng cửa bên -> Răng cửa giữa", "isCorrect": false},
+        {"text": "Răng cửa giữa -> Răng cửa bên -> Răng nanh", "isCorrect": true},
+        {"text": "Lên cả 6 răng cùng lúc", "isCorrect": false},
+        {"text": "Răng cửa bên lên đầu tiên", "isCorrect": false}
+      ],
+      "explanation": "Lên răng từ đường giữa lan dần ra hai bên để kiểm soát sự cân đối."
+    },
+    {
+      "question": "Trình tự lên nhóm răng sau theo tài liệu là gì?",
+      "options": [
+        {"text": "Răng 4 -> Răng 5 -> Răng 6 -> Răng 7", "isCorrect": false},
+        {"text": "Răng 6 -> Răng 4 -> Răng 5", "isCorrect": true},
+        {"text": "Răng 7 lên trước", "isCorrect": false},
+        {"text": "Lên răng hàm nhỏ trước răng hàm lớn", "isCorrect": false}
+      ],
+      "explanation": "Răng số 6 (răng hàm lớn thứ nhất) thường được lên trước để thiết lập khớp cắn cơ bản."
+    },
+    {
+      "question": "Răng nhựa có ưu điểm gì so với răng sứ?",
+      "options": [
+        {"text": "Cứng hơn răng sứ", "isCorrect": false},
+        {"text": "Liên kết hóa học tốt với nền nhựa và dễ mài chỉnh", "isCorrect": true},
+        {"text": "Không bao giờ bị mòn", "isCorrect": false},
+        {"text": "Đắt tiền hơn", "isCorrect": false}
+      ],
+      "explanation": "Răng nhựa đồng nhất vật liệu với nền hàm nên bám dính cực tốt và bác sĩ dễ dàng điều chỉnh khớp cắn."
+    },
+    {
+      "question": "Nhược điểm của răng sứ trong phục hình tháo lắp là gì?",
+      "options": [
+        {"text": "Dễ vỡ mẻ và khó liên kết với nền nhựa (cần lưu giữ cơ học)", "isCorrect": true},
+        {"text": "Màu sắc xấu", "isCorrect": false},
+        {"text": "Bị mòn quá nhanh", "isCorrect": false},
+        {"text": "Mềm hơn răng thật", "isCorrect": false}
+      ],
+      "explanation": "Răng sứ giòn, dễ vỡ khi va chạm mạnh và không dính nhựa, phải dùng lỗ lưu hoặc chốt."
+    },
+    {
+      "question": "Răng cửa giữa hàm trên khi lên răng cần đạt yêu cầu gì về đường giữa?",
+      "options": [
+        {"text": "Nằm lệch sang trái 2mm", "isCorrect": false},
+        {"text": "Tiếp xúc gần của 2 răng phải trùng với đường dọc giữa mặt", "isCorrect": true},
+        {"text": "Nằm ngang với khóe miệng", "isCorrect": false},
+        {"text": "Xoay mặt ngoài ra phía sau", "isCorrect": false}
+      ],
+      "explanation": "Đây là yêu cầu thẩm mỹ tối quan trọng để khuôn mặt không bị lệch."
+    },
+    {
+      "question": "Độ nghiêng ngoài-trong của răng cửa giữa hàm trên nên như thế nào?",
+      "options": [
+        {"text": "Nghiêng vào trong tối đa", "isCorrect": false},
+        {"text": "Phần cổ răng hơi lõm, rìa cắn hơi đưa ra trước để nâng đỡ môi", "isCorrect": true},
+        {"text": "Thẳng đứng hoàn toàn", "isCorrect": false},
+        {"text": "Nghiêng sang bên 45 độ", "isCorrect": false}
+      ],
+      "explanation": "Vị trí này giúp phục hồi độ vồng tự nhiên của môi trên."
+    },
+    {
+      "question": "Răng cửa bên hàm trên thường được đặt như thế nào so với răng cửa giữa?",
+      "options": [
+        {"text": "Dài hơn răng cửa giữa", "isCorrect": false},
+        {"text": "Thường ngắn hơn (rìa cắn cách mặt phẳng nhai khoảng 0.5-1mm)", "isCorrect": true},
+        {"text": "Ngang bằng răng cửa giữa", "isCorrect": false},
+        {"text": "Nằm khuất hoàn toàn phía sau", "isCorrect": false}
+      ],
+      "explanation": "Việc đặt răng cửa bên ngắn hơn một chút tạo ra đường cười cong thẩm mỹ trẻ trung."
+    },
+    {
+      "question": "Đặc điểm của răng nanh hàm trên khi lên răng là gì?",
+      "options": [
+        {"text": "Đỉnh răng nanh phải chạm mặt phẳng cắn", "isCorrect": true},
+        {"text": "Đỉnh răng nanh phải cao hơn răng cửa", "isCorrect": false},
+        {"text": "Mặt ngoài răng nanh nghiêng vào trong hoàn toàn", "isCorrect": false},
+        {"text": "Không được lộ ra khi cười", "isCorrect": false}
+      ],
+      "explanation": "Răng nanh là răng chuyển tiếp từ nhóm răng trước sang răng sau, đỉnh răng phải nằm trên mp cắn."
+    },
+    {
+      "question": "Góc nhìn từ phía trước, răng nanh hàm trên có đặc điểm gì về mặt ngoài?",
+      "options": [
+        {"text": "Chỉ nhìn thấy nửa gần của mặt ngoài", "isCorrect": true},
+        {"text": "Nhìn thấy toàn bộ mặt ngoài phẳng lỳ", "isCorrect": false},
+        {"text": "Chỉ nhìn thấy mặt trong", "isCorrect": false},
+        {"text": "Nhìn thấy cả chân răng", "isCorrect": false}
+      ],
+      "explanation": "Do vị trí ở góc cung hàm, răng nanh chỉ lộ diện tích mặt trước (phía gần) khi nhìn trực diện."
+    },
+    {
+      "question": "Khi lên răng nhóm răng trước dưới, yêu cầu về độ cắn trùm (overbite) là bao nhiêu?",
+      "options": [
+        {"text": "0 mm", "isCorrect": false},
+        {"text": "Khoảng 1 - 2 mm", "isCorrect": true},
+        {"text": "5 mm", "isCorrect": false},
+        {"text": "10 mm", "isCorrect": false}
+      ],
+      "explanation": "Độ cắn trùm nhẹ giúp chức năng cắt thức ăn và thẩm mỹ tự nhiên."
+    },
+    {
+      "question": "Độ cắn chìa (overjet) giữa răng trước trên và dưới trung bình là?",
+      "options": [
+        {"text": "Răng dưới chạm sát mặt trong răng trên", "isCorrect": false},
+        {"text": "Khoảng 1 - 2 mm", "isCorrect": true},
+        {"text": "5 mm", "isCorrect": false},
+        {"text": "Răng dưới nằm trước răng trên", "isCorrect": false}
+      ],
+      "explanation": "Khoảng cách trước sau này cần thiết để tránh sang chấn khi vận động hàm."
+    },
+    {
+      "question": "Trong trường hợp mất răng Kennedy loại I hàm dưới, việc lên răng bắt đầu từ răng nào?",
+      "options": [
+        {"text": "Răng hàm lớn thứ nhất (răng 6)", "isCorrect": true},
+        {"text": "Răng hàm nhỏ thứ nhất (răng 4)", "isCorrect": false},
+        {"text": "Răng cửa", "isCorrect": false},
+        {"text": "Răng khôn", "isCorrect": false}
+      ],
+      "explanation": "Lên răng 6 trước giúp xác định tương quan khớp cắn ổn định nhất cho yên tự do."
+    },
+    {
+      "question": "Răng sau được phân thành 2 loại hình thái chính là:",
+      "options": [
+        {"text": "Răng giải phẫu và răng phi giải phẫu", "isCorrect": true},
+        {"text": "Răng nhọn và răng tròn", "isCorrect": false},
+        {"text": "Răng to và răng nhỏ", "isCorrect": false},
+        {"text": "Răng trắng và răng vàng", "isCorrect": false}
+      ],
+      "explanation": "Răng giải phẫu có múi rãnh rõ (thường nghiêng 33 độ), răng phi giải phẫu có mặt nhai phẳng."
+    },
+    {
+      "question": "Răng giải phẫu (Anatomic teeth) có độ nghiêng múi điển hình là bao nhiêu?",
+      "options": [
+        {"text": "0 độ", "isCorrect": false},
+        {"text": "10 độ", "isCorrect": false},
+        {"text": "33 độ", "isCorrect": true},
+        {"text": "90 độ", "isCorrect": false}
+      ],
+      "explanation": "Góc nghiêng múi 33 độ mô phỏng sát nhất hình thái răng thật của người trẻ."
+    },
+    {
+      "question": "Khi nào nên chọn răng phi giải phẫu (mặt nhai phẳng)?",
+      "options": [
+        {"text": "Bệnh nhân có sống hàm tiêu nhiều, khớp cắn không ổn định", "isCorrect": true},
+        {"text": "Bệnh nhân trẻ tuổi", "isCorrect": false},
+        {"text": "Bệnh nhân muốn nhai thịt gà tốt nhất", "isCorrect": false},
+        {"text": "Khi làm phục hình cố định", "isCorrect": false}
+      ],
+      "explanation": "Răng phẳng giảm lực xé ngang, bảo vệ sống hàm yếu và dễ thích nghi với các sai lệch khớp cắn."
+    },
+    {
+      "question": "Trình tự lên răng của hàm mất răng bán phần đối xứng 2 bên vùng răng sau là:",
+      "options": [
+        {"text": "Răng 6 -> Răng 4 -> Răng 5", "isCorrect": true},
+        {"text": "Răng 4 -> Răng 5 -> Răng 6", "isCorrect": false},
+        {"text": "Răng 7 -> Răng 6 -> Răng 5", "isCorrect": false},
+        {"text": "Lên ngẫu nhiên răng nào cũng được", "isCorrect": false}
+      ],
+      "explanation": "Lên răng 6 để xác định khớp cắn, sau đó răng 4 để đảm bảo thẩm mỹ tiếp giáp răng nanh, cuối cùng là răng 5."
+    },
+    {
+      "question": "Khớp cắn loại 'Múi vào trũng' (Cusp to Fossa) có đặc điểm gì?",
+      "options": [
+        {"text": "Tương quan răng - một răng", "isCorrect": true},
+        {"text": "Tương quan răng - hai răng", "isCorrect": false},
+        {"text": "Răng không chạm nhau", "isCorrect": false},
+        {"text": "Chỉ có ở răng cửa", "isCorrect": false}
+      ],
+      "explanation": "Đây là kiểu khớp cắn lý tưởng, một múi của răng này lọt đúng vào một trũng của răng đối diện."
+    },
+    {
+      "question": "Khớp cắn loại 'Múi vào khoảng tiếp cận hoặc gờ bên' là tương quan gì?",
+      "options": [
+        {"text": "Răng - một răng", "isCorrect": false},
+        {"text": "Răng - hai răng", "isCorrect": true},
+        {"text": "Răng - ba răng", "isCorrect": false},
+        {"text": "Răng - không răng", "isCorrect": false}
+      ],
+      "explanation": "Kiểu này phổ biến trong tự nhiên, múi răng tiếp khớp vào khoảng kẽ của hai răng đối diện."
+    },
+    {
+      "question": "Tại sao cần mài chỉnh răng bán giải phẫu để hạ thấp múi răng ở người già?",
+      "options": [
+        {"text": "Để răng trông ngắn lại cho đẹp", "isCorrect": false},
+        {"text": "Giảm lực sang chấn ngang và phù hợp với sự mòn răng sinh lý", "isCorrect": true},
+        {"text": "Để răng trắng hơn", "isCorrect": false},
+        {"text": "Vì răng nhựa quá cứng", "isCorrect": false}
+      ],
+      "explanation": "Người già có sống hàm tiêu và vận động hàm uốn lượn, múi cao dễ gây bập bênh hàm."
+    },
+    {
+      "question": "Nguyên tắc lên răng hàm giả tháo lắp từng phần (PHTLTP) quan trọng nhất là gì?",
+      "options": [
+        {"text": "Răng giả phải nằm trên đỉnh sống hàm", "isCorrect": true},
+        {"text": "Răng giả phải nằm lệch ra phía má", "isCorrect": false},
+        {"text": "Răng giả phải cao hơn răng thật", "isCorrect": false},
+        {"text": "Răng giả phải làm bằng kim loại", "isCorrect": false}
+      ],
+      "explanation": "Đặt răng trên đỉnh sống hàm giúp lực nhai truyền thẳng xuống xương, tăng độ ổn định cho hàm."
+    },
+    {
+      "question": "Trong khớp cắn hạng I theo Angle, múi ngoài gần răng 6 trên nằm ở đâu?",
+      "options": [
+        {"text": "Rãnh ngoài răng 6 dưới", "isCorrect": true},
+        {"text": "Giữa răng 5 và 6 dưới", "isCorrect": false},
+        {"text": "Rãnh ngoài răng 7 dưới", "isCorrect": false},
+        {"text": "Mặt nhai răng 4 dưới", "isCorrect": false}
+      ],
+      "explanation": "Đây là mốc chuẩn để xác định khớp cắn bình thường trong nha khoa."
+    },
+    {
+      "question": "Múi chịu (múi làm việc) của răng hàm trên là múi nào?",
+      "options": [
+        {"text": "Múi ngoài", "isCorrect": false},
+        {"text": "Múi trong (múi khẩu cái)", "isCorrect": true},
+        {"text": "Tất cả các múi", "isCorrect": false},
+        {"text": "Rìa cắn", "isCorrect": false}
+      ],
+      "explanation": "Múi trong hàm trên lọt vào trũng răng dưới để thực hiện chức năng nghiền."
+    },
+    {
+      "question": "Múi chịu (múi làm việc) của răng hàm dưới là múi nào?",
+      "options": [
+        {"text": "Múi ngoài", "isCorrect": true},
+        {"text": "Múi trong", "isCorrect": false},
+        {"text": "Gờ bên", "isCorrect": false},
+        {"text": "Gót răng", "isCorrect": false}
+      ],
+      "explanation": "Múi ngoài răng dưới tiếp khớp với trũng/kẽ răng trên để nghiền thức ăn."
+    },
+    {
+      "question": "Khi lên răng cho mất răng Kennedy loại IV (mất răng cửa), mốc nào là quan trọng nhất?",
+      "options": [
+        {"text": "Đường giữa mặt và đường cười", "isCorrect": true},
+        {"text": "Răng khôn", "isCorrect": false},
+        {"text": "Tuyến nước bọt", "isCorrect": false},
+        {"text": "Vị trí tai", "isCorrect": false}
+      ],
+      "explanation": "Thẩm mỹ là ưu tiên số một đối với phục hình vùng răng cửa."
+    },
+    {
+      "question": "Việc thử răng trên miệng bệnh nhân nhằm đánh giá những yếu tố nào?",
+      "options": [
+        {"text": "Thẩm mỹ (màu sắc, hình dáng)", "isCorrect": false},
+        {"text": "Chức năng (khớp cắn, phát âm)", "isCorrect": false},
+        {"text": "Sự hài lòng của bệnh nhân", "isCorrect": false},
+        {"text": "Tất cả các yếu tố trên", "isCorrect": true}
+      ],
+      "explanation": "Đây là bước cuối cùng trước khi chuyển mẫu sáp sang nhựa vĩnh viễn, cần kiểm tra tổng thể."
+    },
+    {
+      "question": "Nếu bệnh nhân phát âm âm 'S' mà hai hàm răng giả chạm nhau, điều đó có nghĩa là gì?",
+      "options": [
+        {"text": "Khớp cắn hoàn hảo", "isCorrect": false},
+        {"text": "Kích thước dọc quá cao", "isCorrect": true},
+        {"text": "Kích thước dọc quá thấp", "isCorrect": false},
+        {"text": "Răng giả quá nhỏ", "isCorrect": false}
+      ],
+      "explanation": "Khoảng nói tối thiểu Silverman bị mất chứng tỏ răng giả đặt quá dài (KTD cao)."
+    },
+    {
+      "question": "Phát âm các âm 'F', 'V' giúp kiểm tra điều gì ở răng trước trên?",
+      "options": [
+        {"text": "Màu sắc răng", "isCorrect": false},
+        {"text": "Chiều dài răng (rìa cắn phải chạm nhẹ môi dưới)", "isCorrect": true},
+        {"text": "Độ rộng cung hàm", "isCorrect": false},
+        {"text": "Độ cứng của nhựa", "isCorrect": false}
+      ],
+      "explanation": "Vị trí răng trước trên đúng sẽ giúp môi dưới tựa nhẹ vào rìa cắn khi phát âm môi-răng."
+    },
+    {
+      "question": "Kích thước dọc nghỉ (RVD) so với kích thước dọc cắn khớp (OVD) luôn như thế nào?",
+      "options": [
+        {"text": "Bằng nhau", "isCorrect": false},
+        {"text": "RVD lớn hơn OVD từ 2-4 mm", "isCorrect": true},
+        {"text": "RVD nhỏ hơn OVD", "isCorrect": false},
+        {"text": "Không có mối liên hệ", "isCorrect": false}
+      ],
+      "explanation": "Độ chênh lệch này là khoảng hở tự do giúp cơ nhai được nghỉ ngơi."
+    },
+    {
+      "question": "Trong hình vẽ trang 58, sơ đồ B mô tả tương quan gì?",
+      "options": [
+        {"text": "Múi vào khoảng tiếp cận", "isCorrect": false},
+        {"text": "Múi khớp với trũng mặt nhai (răng - một răng)", "isCorrect": true},
+        {"text": "Cắn hở", "isCorrect": false},
+        {"text": "Mất răng toàn bộ", "isCorrect": false}
+      ],
+      "explanation": "Hình 6.B minh họa quan hệ múi - trũng ổn định cho từng cặp răng đơn lẻ."
+    },
+    {
+      "question": "Khi chọn màu răng cho người già, nên lưu ý điều gì?",
+      "options": [
+        {"text": "Chọn màu trắng nhất để trông trẻ hơn", "isCorrect": false},
+        {"text": "Chọn màu hơi sậm, có độ mòn và vết nứt sinh lý", "isCorrect": true},
+        {"text": "Luôn chọn răng màu hồng", "isCorrect": false},
+        {"text": "Không cần quan tâm màu sắc", "isCorrect": false}
+      ],
+      "explanation": "Răng quá trắng ở người già trông rất giả và thiếu hài hòa với khuôn mặt lão hóa."
+    },
+    {
+      "question": "Đặc điểm của răng Composite là gì?",
+      "options": [
+        {"text": "Kháng mòn tốt hơn răng nhựa nhưng vẫn liên kết được với nền hàm", "isCorrect": true},
+        {"text": "Giòn như thủy tinh", "isCorrect": false},
+        {"text": "Dẫn nhiệt rất nhanh", "isCorrect": false},
+        {"text": "Chỉ dùng để trám răng", "isCorrect": false}
+      ],
+      "explanation": "Răng composite là sự dung hòa ưu điểm giữa răng nhựa và răng sứ."
+    },
+    {
+      "question": "Khoảng cách từ mặt phẳng nhai đến đường cười khi cười tối đa giúp xác định:",
+      "options": [
+        {"text": "Số lượng răng mất", "isCorrect": false},
+        {"text": "Chiều cao thân răng cửa trên", "isCorrect": true},
+        {"text": "Vị trí răng khôn", "isCorrect": false},
+        {"text": "Độ rộng của vòm miệng", "isCorrect": false}
+      ],
+      "explanation": "Bác sĩ dựa vào đường cười để chọn bộ răng có chiều dài che phủ hết nướu khi bệnh nhân cười."
+    },
+    {
+      "question": "Phụ âm 'S' được gọi là phụ âm gì trong kiểm tra phát âm?",
+      "options": [
+        {"text": "Âm môi", "isCorrect": false},
+        {"text": "Âm gió (răng - răng)", "isCorrect": true},
+        {"text": "Âm họng", "isCorrect": false},
+        {"text": "Âm mũi", "isCorrect": false}
+      ],
+      "explanation": "Âm 'S' đòi hỏi các răng trước gần chạm nhau để tạo luồng khí rít."
+    },
+    {
+      "question": "Hệ thống 'Gối sáp' trong lên răng đại diện cho cái gì?",
+      "options": [
+        {"text": "Cơ nhai", "isCorrect": false},
+        {"text": "Vị trí và thể tích của nhóm răng giả tương lai", "isCorrect": true},
+        {"text": "Lưỡi", "isCorrect": false},
+        {"text": "Khay lấy dấu", "isCorrect": false}
+      ],
+      "explanation": "Gối sáp là 'bản vẽ 3D' để kỹ thuật viên đặt các răng giả vào đúng vị trí bác sĩ yêu cầu."
+    },
+    {
+      "question": "Khi lên răng sau hàm dưới, răng phải nằm như thế nào so với tam giác sau hàm?",
+      "options": [
+        {"text": "Nằm cao hơn đỉnh tam giác", "isCorrect": false},
+        {"text": "Ngang bằng 1/2 đến 2/3 chiều cao tam giác sau hàm", "isCorrect": true},
+        {"text": "Nằm sát xương hàm", "isCorrect": false},
+        {"text": "Nằm lệch ra ngoài hoàn toàn", "isCorrect": false}
+      ],
+      "explanation": "Mốc tam giác sau hàm giúp xác định chiều cao mặt phẳng nhai phía sau chính xác."
+    },
+    {
+      "question": "Thóp trước vôi hóa lúc 2 tuổi có ý nghĩa gì trong bài (nhắc lại từ tệp 12)?",
+      "options": [
+        {"text": "Liên quan đến sự phát triển sọ mặt ảnh hưởng đến kích thước cung hàm", "isCorrect": true},
+        {"text": "Dùng để chọn màu răng", "isCorrect": false},
+        {"text": "Dùng để mài sáp", "isCorrect": false},
+        {"text": "Không liên quan", "isCorrect": false}
+      ],
+      "explanation": "Sự phát triển sọ mặt là nền tảng cho việc chẩn đoán hình thái trong phục hình."
+    },
+    {
+      "question": "Việc lên răng lộn xộn (Irregularities) được chỉ định khi nào?",
+      "options": [
+        {"text": "Bác sĩ muốn làm nhanh", "isCorrect": false},
+        {"text": "Để tăng tính tự nhiên nếu bệnh nhân có bộ răng thật cũ lộn xộn", "isCorrect": true},
+        {"text": "Khi răng giả bị thiếu", "isCorrect": false},
+        {"text": "Khi nền hàm bị chéo", "isCorrect": false}
+      ],
+      "explanation": "Răng quá thẳng đều tăm tắp đôi khi làm hàm giả trông rất 'lộ'."
+    },
+    {
+      "question": "Mặt phẳng Camper đi qua các điểm mốc nào trên khuôn mặt?",
+      "options": [
+        {"text": "Cánh mũi và nắp tai", "isCorrect": true},
+        {"text": "Hai đồng tử mắt", "isCorrect": false},
+        {"text": "Cằm và trán", "isCorrect": false},
+        {"text": "Góc miệng và dái tai", "isCorrect": false}
+      ],
+      "explanation": "Đây là mặt phẳng chuẩn để thiết lập độ nghiêng trước-sau của mặt phẳng cắn."
+    },
+    {
+      "question": "Tại sao phải đặt răng 4 sau răng nanh một cách cẩn thận?",
+      "options": [
+        {"text": "Vì nó là răng thẩm mỹ vùng góc miệng", "isCorrect": true},
+        {"text": "Vì nó là răng nhai chính", "isCorrect": false},
+        {"text": "Vì nó dễ bị rụng", "isCorrect": false},
+        {"text": "Vì nó làm bằng vàng", "isCorrect": false}
+      ],
+      "explanation": "Răng 4 nối tiếp răng nanh tạo nên sự hài hòa của nụ cười nhìn nghiêng."
+    },
+    {
+      "question": "Trong hình vẽ trang 57, 'Múi vào gờ bên' là tương quan:",
+      "options": [
+        {"text": "1 răng với 1 răng", "isCorrect": false},
+        {"text": "1 răng với 2 răng", "isCorrect": true},
+        {"text": "Không chạm răng", "isCorrect": false},
+        {"text": "Răng với nướu", "isCorrect": false}
+      ],
+      "explanation": "Múi răng tiếp xúc vào vùng tiếp cận giữa hai răng đối diện."
+    },
+    {
+      "question": "Ưu điểm của răng sứ là gì?",
+      "options": [
+        {"text": "Màu sắc rất đẹp, bền màu và không bị mòn", "isCorrect": true},
+        {"text": "Dẻo dai không bao giờ vỡ", "isCorrect": false},
+        {"text": "Dính nhựa rất tốt", "isCorrect": false},
+        {"text": "Nhẹ hơn răng nhựa", "isCorrect": false}
+      ],
+      "explanation": "Răng sứ duy trì được thẩm mỹ và chiều cao khớp cắn lâu dài do không bị mòn cơ học."
+    },
+    {
+      "question": "Răng phi giải phẫu (0 độ) giúp bệnh nhân làm gì dễ hơn?",
+      "options": [
+        {"text": "Nghiền nát thức ăn dai", "isCorrect": false},
+        {"text": "Thực hiện các vận động đưa hàm sang bên mà không bị vướng múi", "isCorrect": true},
+        {"text": "Làm hàm giả bám chắc hơn", "isCorrect": false},
+        {"text": "Tăng tiết nước bọt", "isCorrect": false}
+      ],
+      "explanation": "Loại bỏ múi giúp hàm trượt tự do, giảm áp lực ngang lên sống hàm tiêu xương."
+    },
+    {
+      "question": "Lên răng cho mất răng Kennedy loại III tập trung vào yếu tố nào?",
+      "options": [
+        {"text": "Phục hồi chức năng ăn nhai là chính", "isCorrect": true},
+        {"text": "Chỉ phục hồi thẩm mỹ", "isCorrect": false},
+        {"text": "Đặt răng thật to", "isCorrect": false},
+        {"text": "Không cần lên răng", "isCorrect": false}
+      ],
+      "explanation": "Class III là khoảng mất răng có giới hạn nên chức năng nhai thường được ưu tiên phục hồi tối đa."
+    },
+    {
+      "question": "Việc lựa chọn kích thước răng dựa trên yếu tố nào của bệnh nhân?",
+      "options": [
+        {"text": "Kích thước cung hàm và kích thước khuôn mặt", "isCorrect": true},
+        {"text": "Cân nặng", "isCorrect": false},
+        {"text": "Chiều cao cơ thể", "isCorrect": false},
+        {"text": "Nhóm máu", "isCorrect": false}
+      ],
+      "explanation": "Răng quá to hoặc quá nhỏ so với khuôn mặt sẽ làm mất đi vẻ hài hòa tự nhiên."
+    },
+    {
+      "question": "Trong quy trình 6 bước (tệp 7), 'Lên răng' nằm ở bước thứ mấy?",
+      "options": [
+        {"text": "Bước 1", "isCorrect": false},
+        {"text": "Bước 3", "isCorrect": false},
+        {"text": "Bước 5", "isCorrect": true},
+        {"text": "Bước 6", "isCorrect": false}
+      ],
+      "explanation": "Lên răng là bước kỹ thuật áp chót trước khi vô khuôn và hoàn tất."
+    },
+    {
+      "question": "Răng giả được sản xuất sẵn theo bộ thường có bao nhiêu răng trước?",
+      "options": [
+        {"text": "4 răng", "isCorrect": false},
+        {"text": "6 răng", "isCorrect": true},
+        {"text": "12 răng", "isCorrect": false},
+        {"text": "2 răng", "isCorrect": false}
+      ],
+      "explanation": "Một bộ răng trước tiêu chuẩn gồm 2 răng cửa giữa, 2 cửa bên và 2 răng nanh."
+    },
+    {
+      "question": "Răng sau sản xuất sẵn thường được đóng gói theo bộ gồm bao nhiêu răng?",
+      "options": [
+        {"text": "4 răng", "isCorrect": false},
+        {"text": "8 răng (mỗi hàm 4 răng mỗi bên)", "isCorrect": true},
+        {"text": "16 răng", "isCorrect": false},
+        {"text": "2 răng", "isCorrect": false}
+      ],
+      "explanation": "Một vỉ răng sau thường chứa 8 răng cho một hàm (4 răng trái, 4 răng phải)."
+    },
+    {
+      "question": "Màu sắc răng được chọn dựa trên?",
+      "options": [
+        {"text": "Màu răng thật còn lại, màu da và tuổi tác", "isCorrect": true},
+        {"text": "Sở thích của bác sĩ", "isCorrect": false},
+        {"text": "Màu của gối sáp", "isCorrect": false},
+        {"text": "Màu của nướu nhựa", "isCorrect": false}
+      ],
+      "explanation": "Sự đồng nhất màu sắc giữa răng giả và răng thật là yếu tố then chốt cho thẩm mỹ."
+    },
+    {
+      "question": "Giai đoạn 'Vô khuôn' (Processing) diễn ra sau bước nào?",
+      "options": [
+        {"text": "Sau khi thử răng trên miệng đạt yêu cầu", "isCorrect": true},
+        {"text": "Sau lấy dấu sơ khởi", "isCorrect": false},
+        {"text": "Trước khi lên răng", "isCorrect": false},
+        {"text": "Ngay sau khi mài ổ tựa", "isCorrect": false}
+      ],
+      "explanation": "Sau khi BN hài lòng với mẫu răng sáp, phục hình mới được chuyển sang nhựa vĩnh viễn."
+    },
+    {
+      "question": "Đặc điểm 'răng lộn xộn' (Trang 3) giúp ích gì?",
+      "options": [
+        {"text": "Làm bệnh nhân khó vệ sinh", "isCorrect": false},
+        {"text": "Tăng tính chân thực, cá nhân hóa cho bộ răng giả", "isCorrect": true},
+        {"text": "Làm răng giả rẻ hơn", "isCorrect": false},
+        {"text": "Giúp nhai nhanh hơn", "isCorrect": false}
+      ],
+      "explanation": "Mô phỏng lại khuyết điểm tự nhiên giúp bộ răng giả trông thật hơn."
+    },
+    {
+      "question": "Sơ đồ trang 57 đề cập đến 'hạ thấp múi khi BN có sống hàm trung bình (TB)', tại sao?",
+      "options": [
+        {"text": "Để răng không bị gãy", "isCorrect": false},
+        {"text": "Để giảm áp lực ngang lên sống hàm không còn khỏe", "isCorrect": true},
+        {"text": "Để tiết kiệm nhựa", "isCorrect": false},
+        {"text": "Để răng trắng hơn", "isCorrect": false}
+      ],
+      "explanation": "Sống hàm không còn tốt cần khớp cắn ít cản trở múi để duy trì ổn định hàm."
+    },
+    {
+      "question": "Khi lên răng nanh, mặt nào của răng cần nằm trên mặt phẳng nhai?",
+      "options": [
+        {"text": "Mặt ngoài", "isCorrect": false},
+        {"text": "Đỉnh răng nanh", "isCorrect": true},
+        {"text": "Mặt trong", "isCorrect": false},
+        {"text": "Gót răng", "isCorrect": false}
+      ],
+      "explanation": "Đỉnh răng nanh là mốc chuẩn để thiết lập đường cong mặt phẳng nhai."
+    },
+    {
+      "question": "Hệ quả của việc chọn răng giả 'quá to' so với răng thật là?",
+      "options": [
+        {"text": "Nhai khỏe hơn", "isCorrect": false},
+        {"text": "Gây mất thẩm mỹ và lấn chiếm khoảng trống của các cấu trúc khác", "isCorrect": true},
+        {"text": "Làm hàm bám chắc hơn", "isCorrect": false},
+        {"text": "Giúp phát âm rõ hơn", "isCorrect": false}
+      ],
+      "explanation": "Kích thước sai lệch làm xáo trộn sự hài hòa của toàn bộ cung hàm."
+    },
+    {
+      "question": "Răng sứ 'cần lưu giữ cơ học' vì lý do gì?",
+      "options": [
+        {"text": "Vì sứ quá nặng", "isCorrect": false},
+        {"text": "Vì sứ không có khả năng liên kết hóa học với nhựa acrylic", "isCorrect": true},
+        {"text": "Vì sứ dễ bị tan", "isCorrect": false},
+        {"text": "Vì sứ có điện tích dương", "isCorrect": false}
+      ],
+      "explanation": "Khác với răng nhựa, sứ và nhựa là hai vật liệu không tự dính vào nhau."
+    },
+    {
+      "question": "Khi lên răng cửa hàm trên, rìa cắn răng giả nên nằm ở đâu?",
+      "options": [
+        {"text": "Nằm ngang với đường cười", "isCorrect": true},
+        {"text": "Nằm dưới môi trên 10mm", "isCorrect": false},
+        {"text": "Nằm khuất sau môi trên", "isCorrect": false},
+        {"text": "Nằm trên vòm miệng", "isCorrect": false}
+      ],
+      "explanation": "Vị trí này đảm bảo nụ cười tươi tắn và thẩm mỹ."
+    },
+    {
+      "question": "Tại sao phải 'cho BN nhìn gương cười' khi thử răng?",
+      "options": [
+        {"text": "Để BN tự trang điểm", "isCorrect": false},
+        {"text": "Để BN tham gia đánh giá và xác nhận sự hài lòng về thẩm mỹ", "isCorrect": true},
+        {"text": "Để bác sĩ nghỉ ngơi", "isCorrect": false},
+        {"text": "Để kiểm tra thị lực", "isCorrect": false}
+      ],
+      "explanation": "Sự đồng thuận của bệnh nhân ở bước này là cực kỳ quan trọng."
+    },
+    {
+      "question": "Âm 'V' bị ngọng nếu răng giả đặt như thế nào?",
+      "options": [
+        {"text": "Quá ngắn so với môi dưới", "isCorrect": true},
+        {"text": "Quá dài", "isCorrect": false},
+        {"text": "Màu quá trắng", "isCorrect": false},
+        {"text": "Quá to", "isCorrect": false}
+      ],
+      "explanation": "Âm môi-răng đòi hỏi rìa cắn răng trên chạm vào môi dưới chính xác."
+    },
+    {
+      "question": "Lên răng sau theo 'quan hệ múi - trũng' giúp đạt được điều gì?",
+      "options": [
+        {"text": "Độ vững ổn cơ học tối ưu khi ăn nhai", "isCorrect": true},
+        {"text": "Răng trắng hơn", "isCorrect": false},
+        {"text": "Nhựa không bị vỡ", "isCorrect": false},
+        {"text": "Bệnh nhân cao thêm", "isCorrect": false}
+      ],
+      "explanation": "Sự cài răng lược chặt chẽ giúp lực nhai tập trung và không làm hàm bị xê dịch."
+    },
+    {
+      "question": "Trình tự 'hàm ít răng đo trước, hàm nhiều răng đo sau' áp dụng cho công đoạn nào?",
+      "options": [
+        {"text": "Lấy dấu", "isCorrect": false},
+        {"text": "Xác định tương quan khớp cắn", "isCorrect": true},
+        {"text": "Mài răng", "isCorrect": false},
+        {"text": "Đổ mẫu", "isCorrect": false}
+      ],
+      "explanation": "Quy tắc này giúp kiểm soát chiều cao gối sáp một cách khoa học."
+    },
+    {
+      "question": "Lồi củ hàm trên (Maxillary tuberosity) giúp ích gì cho lên răng sau?",
+      "options": [
+        {"text": "Xác định giới hạn cuối cùng của cung răng", "isCorrect": true},
+        {"text": "Dùng để mài sáp", "isCorrect": false},
+        {"text": "Để bôi keo", "isCorrect": false},
+        {"text": "Không có tác dụng gì", "isCorrect": false}
+      ],
+      "explanation": "Răng hàm không được đặt quá lồi củ vì sẽ làm hàm bị bẩy."
+    },
+    {
+      "question": "Răng trước hàm dưới khi lên răng cần có xu hướng nghiêng như thế nào?",
+      "options": [
+        {"text": "Nghiêng ngoài nhẹ", "isCorrect": true},
+        {"text": "Nghiêng trong tối đa", "isCorrect": false},
+        {"text": "Nghiêng sang bên 90 độ", "isCorrect": false},
+        {"text": "Thẳng đứng như cột đình", "isCorrect": false}
+      ],
+      "explanation": "Độ nghiêng nhẹ giúp răng hài hòa với sự vồng của xương cằm."
+    },
+    {
+      "question": "Theo tài liệu, ai là giảng viên trình bày bài 'Lên răng'?",
+      "options": [
+        {"text": "TS. BS Đặng Minh Huy", "isCorrect": true},
+        {"text": "BS. Huyền Phương", "isCorrect": false},
+        {"text": "TS. BS Kennedy", "isCorrect": false},
+        {"text": "TS. BS Gysi", "isCorrect": false}
+      ],
+      "explanation": "Thông tin giảng viên nằm ở trang đầu của tệp PDF."
+    },
+    {
+      "question": "Răng giải phẫu nghiêng 33 độ thường dùng cho đối tượng nào?",
+      "options": [
+        {"text": "Người già sống hàm phẳng", "isCorrect": false},
+        {"text": "Người trẻ, sống hàm còn cao và khỏe", "isCorrect": true},
+        {"text": "Trẻ em đang thay răng", "isCorrect": false},
+        {"text": "Bệnh nhân bị Parkinson", "isCorrect": false}
+      ],
+      "explanation": "Người trẻ có khả năng kiểm soát cơ nhai tốt và sống hàm nâng đỡ vững chắc."
+    },
+    {
+      "question": "Mục tiêu 3 của bài học này là gì?",
+      "options": [
+        {"text": "Cách lấy dấu", "isCorrect": false},
+        {"text": "Trình bày được các bước đánh giá trong quá trình thử răng", "isCorrect": true},
+        {"text": "Cách đúc khung", "isCorrect": false},
+        {"text": "Cách nhổ răng", "isCorrect": false}
+      ],
+      "explanation": "Mục tiêu 3 tập trung vào kỹ năng lâm sàng kiểm tra mẫu răng sáp."
+    },
+    {
+      "question": "Khoảng trống tự do trung bình 2-4mm là mốc của thông số nào?",
+      "options": [
+        {"text": "Kích thước ngang", "isCorrect": false},
+        {"text": "Khoảng cách liên mặt nhai ở tư thế nghỉ", "isCorrect": true},
+        {"text": "Độ rộng môi", "isCorrect": false},
+        {"text": "Độ dài răng nanh", "isCorrect": false}
+      ],
+      "explanation": "Đây là thông số nền tảng để thiết lập chiều cao răng giả."
+    },
+    {
+      "question": "Răng Composite khác răng nhựa ở điểm nào?",
+      "options": [
+        {"text": "Cấu tạo từ nhựa tăng cường hạt độn, kháng mòn cao hơn", "isCorrect": true},
+        {"text": "Mềm như cao su", "isCorrect": false},
+        {"text": "Tan trong nước", "isCorrect": false},
+        {"text": "Chỉ có một kích cỡ", "isCorrect": false}
+      ],
+      "explanation": "Hạt độn giúp răng bền hơn dưới tác động của lực nhai liên tục."
+    },
+    {
+      "question": "Hình ảnh trang 58 minh họa sự sắp xếp múi - trũng giúp đạt được tương quan:",
+      "options": [
+        {"text": "Răng - hai răng", "isCorrect": false},
+        {"text": "Răng - một răng", "isCorrect": true},
+        {"text": "Không chạm răng", "isCorrect": false},
+        {"text": "Răng - nướu", "isCorrect": false}
+      ],
+      "explanation": "Múi răng trên lọt vào trũng răng dưới đối diện là tương quan 1-1."
+    },
+    {
+      "question": "Việc hơ nóng dao sáp để gọt tỉa mẫu răng sáp là công việc của ai?",
+      "options": [
+        {"text": "Kỹ thuật viên Labo", "isCorrect": true},
+        {"text": "Bệnh nhân", "isCorrect": false},
+        {"text": "Bảo vệ", "isCorrect": false},
+        {"text": "Lễ tân", "isCorrect": false}
+      ],
+      "explanation": "Đây là bước chuẩn bị kỹ thuật tại xưởng phục hình."
+    },
+    {
+      "question": "Răng nanh thường có màu sắc như thế nào so với răng cửa giữa?",
+      "options": [
+        {"text": "Sáng hơn", "isCorrect": false},
+        {"text": "Hơi sậm màu hơn một chút (vàng hơn)", "isCorrect": true},
+        {"text": "Màu trắng tinh", "isCorrect": false},
+        {"text": "Màu đen", "isCorrect": false}
+      ],
+      "explanation": "Trong tự nhiên, răng nanh thường có tông màu đậm nhất trong nhóm răng trước."
+    },
+    {
+      "question": "Tại sao phải mài nhám mặt đế răng sứ trước khi ép nhựa?",
+      "options": [
+        {"text": "Để răng ngắn lại", "isCorrect": false},
+        {"text": "Để tăng diện tích bám dính cơ học với nhựa nền hàm", "isCorrect": true},
+        {"text": "Để thay đổi màu răng", "isCorrect": false},
+        {"text": "Để răng không bị sâu", "isCorrect": false}
+      ],
+      "explanation": "Sứ trơn láng cần được tạo độ nhám để nhựa khóa chặt vào."
+    },
+    {
+      "question": "Kết quả cuối cùng của việc lên răng đúng là gì?",
+      "options": [
+        {"text": "Hàm giả đẹp nhất", "isCorrect": false},
+        {"text": "Khôi phục hài hòa chức năng ăn nhai và thẩm mỹ cho bệnh nhân", "isCorrect": true},
+        {"text": "Hàm giả nặng nhất", "isCorrect": false},
+        {"text": "Bệnh nhân không tháo được hàm", "isCorrect": false}
+      ],
+      "explanation": "Phục hình thành công phải cân bằng giữa vẻ đẹp và hiệu quả sử dụng."
+    },
+    {
+      "question": "Theo tài liệu, 'Đường giữa' của răng cửa giữa trên phải trùng với:",
+      "options": [
+        {"text": "Mắt trái", "isCorrect": false},
+        {"text": "Đường dọc giữa khuôn mặt (nhân trung)", "isCorrect": true},
+        {"text": "Dái tai", "isCorrect": false},
+        {"text": "Góc hàm", "isCorrect": false}
+      ],
+      "explanation": "Sự trùng khớp này đảm bảo tính thẩm mỹ cân đối cho toàn bộ khuôn mặt."
+    },
+    {
+      "question": "Răng cửa bên hàm trên có xu hướng xoay như thế nào để trông tự nhiên?",
+      "options": [
+        {"text": "Mặt gần hơi xoay ra ngoài, mặt xa hơi xoay vào trong", "isCorrect": true},
+        {"text": "Phẳng hoàn toàn", "isCorrect": false},
+        {"text": "Xoay ngược 180 độ", "isCorrect": false},
+        {"text": "Nghiêng tối đa ra má", "isCorrect": false}
+      ],
+      "explanation": "Cách sắp xếp này mô phỏng sự vồng tự nhiên của cung hàm."
+    },
+    {
+      "question": "Đặc điểm của khớp cắn thăng bằng trong lên răng tháo lắp toàn bộ là?",
+      "options": [
+        {"text": "Các răng chạm nhau đồng thời ở mọi vị trí vận động", "isCorrect": true},
+        {"text": "Chỉ chạm 1 răng duy nhất", "isCorrect": false},
+        {"text": "Chỉ chạm ở bên làm việc", "isCorrect": false},
+        {"text": "Không bao giờ chạm nhau", "isCorrect": false}
+      ],
+      "explanation": "Sự tiếp xúc đa điểm giúp nền hàm không bị lật khi bệnh nhân nghiền thức ăn."
+    },
+    {
+      "question": "Việc lên răng 4 hàm trên cần chú ý mốc giải phẫu nào?",
+      "options": [
+        {"text": "Đỉnh múi ngoài chạm mặt phẳng nhai, múi trong hở nhẹ", "isCorrect": true},
+        {"text": "Cả hai múi đều hở", "isCorrect": false},
+        {"text": "Múi trong chạm, múi ngoài hở", "isCorrect": false},
+        {"text": "Mài cụt hết múi", "isCorrect": false}
+      ],
+      "explanation": "Đây là tiêu chuẩn kỹ thuật để thiết lập khớp cắn răng hàm nhỏ thứ nhất."
+    },
+    {
+      "question": "Múi ngoài và múi trong của răng 5 hàm trên khi lên răng như thế nào?",
+      "options": [
+        {"text": "Cả hai múi đều phải chạm mặt phẳng nhai", "isCorrect": true},
+        {"text": "Chỉ múi ngoài chạm", "isCorrect": false},
+        {"text": "Cả hai múi đều hở", "isCorrect": false},
+        {"text": "Múi trong chạm, múi ngoài hở", "isCorrect": false}
+      ],
+      "explanation": "Răng 5 là răng chuyển tiếp quan trọng, cần sự tiếp xúc tối đa để ổn định khớp cắn."
+    },
+    {
+      "question": "Kích thước răng sau thường nhỏ hơn răng thật một chút để làm gì?",
+      "options": [
+        {"text": "Để tốn ít nhựa", "isCorrect": false},
+        {"text": "Giảm áp lực lên sống hàm mất răng", "isCorrect": true},
+        {"text": "Để lưỡi có chỗ chơi", "isCorrect": false},
+        {"text": "Để BN không nhai được đồ cứng", "isCorrect": false}
+      ],
+      "explanation": "Diện tích mặt nhai nhỏ hơn giúp lực nén tập trung và giảm tải cho tổ chức nâng đỡ bên dưới."
+    },
+    {
+      "question": "Tại sao không nên đặt răng giả quá lệch ra phía hành lang (phía má)?",
+      "options": [
+        {"text": "Vì răng sẽ bị đen", "isCorrect": false},
+        {"text": "Làm hàm dễ bị lật khi nhai (tác dụng đòn bẩy)", "isCorrect": true},
+        {"text": "Bệnh nhân sẽ cười quá to", "isCorrect": false},
+        {"text": "Để tiết kiệm sáp", "isCorrect": false}
+      ],
+      "explanation": "Lực nhai nằm ngoài đỉnh sống hàm sẽ gây mất ổn định cơ học cho phục hình."
+    },
+    {
+      "question": "Phát biểu nào đúng về lên răng trước dưới?",
+      "options": [
+        {"text": "Rìa cắn răng cửa dưới nằm trên mp nhai", "isCorrect": true},
+        {"text": "Răng cửa dưới phải to hơn răng trên", "isCorrect": false},
+        {"text": "Không cần răng nanh dưới", "isCorrect": false},
+        {"text": "Răng dưới phải nằm hoàn toàn trong lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Rìa cắn răng trước dưới là mốc chuẩn cho khớp cắn phía trước."
+    },
+    {
+      "question": "Lồi cầu - đĩa khớp đóng vai trò gì trong tương quan tâm?",
+      "options": [
+        {"text": "Bộ phận bôi trơn", "isCorrect": false},
+        {"text": "Mốc xác định tương quan xương hàm", "isCorrect": true},
+        {"text": "Thành phần của răng", "isCorrect": false},
+        {"text": "Dây chằng giữ hàm", "isCorrect": false}
+      ],
+      "explanation": "Vị trí của tổ hợp này quyết định tính chính xác của tương quan tâm."
+    },
+    {
+      "question": "Sự 'thư giãn cơ chân bướm ngoài' là điều kiện để đạt được?",
+      "options": [
+        {"text": "Lồng múi tối đa", "isCorrect": false},
+        {"text": "Tương quan tâm", "isCorrect": true},
+        {"text": "Há miệng", "isCorrect": false},
+        {"text": "Cắn chìa", "isCorrect": false}
+      ],
+      "explanation": "Khi cơ này giãn, lồi cầu mới có thể lùi về vị trí sau nhất trong hố khớp."
+    },
+    {
+      "question": "Mục tiêu 1 của bài học đề cập đến yêu cầu gì?",
+      "options": [
+        {"text": "Mô tả cách chọn răng đáp ứng yêu cầu thẩm mỹ và chức năng", "isCorrect": true},
+        {"text": "Cách lấy dấu", "isCorrect": false},
+        {"text": "Cách đệm hàm", "isCorrect": false},
+        {"text": "Cách mài kim loại", "isCorrect": false}
+      ],
+      "explanation": "Đây là nội dung nền tảng bắt đầu quy trình lên răng."
+    },
+    {
+      "question": "Việc lên răng cho bệnh nhân mất răng toàn bộ một hàm bắt buộc phải dùng mốc?",
+      "options": [
+        {"text": "Răng thật của hàm đối diện và tương quan tâm", "isCorrect": true},
+        {"text": "Màu da", "isCorrect": false},
+        {"text": "Vị trí tai", "isCorrect": false},
+        {"text": "Không cần mốc", "isCorrect": false}
+      ],
+      "explanation": "Cần phối hợp giữa bộ răng còn lại và tương quan xương hàm."
+    },
+    {
+      "question": "Khi gối sáp quá cao, bệnh nhân sẽ thấy mỏi cơ nhai, đúng hay sai?",
+      "options": [
+        {"text": "Đúng", "isCorrect": true},
+        {"text": "Sai", "isCorrect": false}
+      ],
+      "explanation": "KTD cao làm cơ nâng hàm bị kéo dãn quá mức, dẫn đến mỏi cơ."
+    },
+    {
+      "question": "Răng nhựa Acrylic có độ bền như thế nào?",
+      "options": [
+        {"text": "Dễ bị mòn theo thời gian hơn răng sứ", "isCorrect": true},
+        {"text": "Bền vĩnh viễn không bao giờ hỏng", "isCorrect": false},
+        {"text": "Cứng hơn kim loại", "isCorrect": false},
+        {"text": "Không thể bị sâu", "isCorrect": false}
+      ],
+      "explanation": "Tính chất nhựa mềm hơn sứ nên độ kháng mòn cơ học thấp hơn."
+    },
+    {
+      "question": "Giai đoạn 'Lên răng trên sáp' giúp bác sĩ điều gì trên lâm sàng?",
+      "options": [
+        {"text": "Cho bệnh nhân thấy trước nụ cười tương lai để góp ý", "isCorrect": true},
+        {"text": "Để thu tiền bệnh nhân", "isCorrect": false},
+        {"text": "Để mài răng thật BN", "isCorrect": false},
+        {"text": "Để nhổ răng khôn", "isCorrect": false}
+      ],
+      "explanation": "Đây là cơ hội để bác sĩ và bệnh nhân tinh chỉnh thẩm mỹ lần cuối."
+    },
+    {
+      "question": "Răng giả bị 'sút' ra khỏi nền nhựa thường xảy ra ở loại răng nào?",
+      "options": [
+        {"text": "Răng nhựa", "isCorrect": false},
+        {"text": "Răng sứ (nếu lưu giữ cơ học kém)", "isCorrect": true},
+        {"text": "Răng composite", "isCorrect": false},
+        {"text": "Răng nanh", "isCorrect": false}
+      ],
+      "explanation": "Do thiếu liên kết hóa học, răng sứ dễ bị bong nếu không có chốt lưu vững chắc."
+    },
+    {
+      "question": "Khoảng nói tối thiểu Silverman được kiểm tra bằng âm nào?",
+      "options": [
+        {"text": "Âm 'S'", "isCorrect": true},
+        {"text": "Âm 'M'", "isCorrect": false},
+        {"text": "Âm 'A'", "isCorrect": false},
+        {"text": "Âm 'U'", "isCorrect": false}
+      ],
+      "explanation": "Âm 'S' đòi hỏi hai hàm răng giả đến gần nhau nhất mà không chạm."
+    },
+    {
+      "question": "Múi ngoài răng 6 trên nằm ở rãnh giữa răng 6 dưới là khớp cắn hạng mấy?",
+      "options": [
+        {"text": "Hạng I Angle", "isCorrect": true},
+        {"text": "Hạng II", "isCorrect": false},
+        {"text": "Hạng III", "isCorrect": false},
+        {"text": "Hạng IV", "isCorrect": false}
+      ],
+      "explanation": "Đây là tương quan chìa khóa của khớp cắn bình thường."
+    },
+    {
+      "question": "Khi răng dưới nằm trước răng trên hoàn toàn, đó là khớp cắn?",
+      "options": [
+        {"text": "Hạng I", "isCorrect": false},
+        {"text": "Hạng III (Móm)", "isCorrect": true},
+        {"text": "Hạng II", "isCorrect": false},
+        {"text": "Bình thường", "isCorrect": false}
+      ],
+      "explanation": "Khớp cắn ngược hay móm tương ứng với hạng III xương/răng."
+    },
+    {
+      "question": "Đặc điểm của răng phi giải phẫu là gì?",
+      "options": [
+        {"text": "Có múi rất cao", "isCorrect": false},
+        {"text": "Mặt nhai phẳng, không có múi", "isCorrect": true},
+        {"text": "Làm bằng sắt", "isCorrect": false},
+        {"text": "Màu đen", "isCorrect": false}
+      ],
+      "explanation": "Răng phẳng (zero degree) dùng để giảm sang chấn ngang cho sống hàm."
+    },
+    {
+      "question": "Nguyên tắc 'kiềng 3 chân' dùng để ổn định phục hình khi nào?",
+      "options": [
+        {"text": "Vận động cắn tới (Protrusive)", "isCorrect": true},
+        {"text": "Khi há miệng", "isCorrect": false},
+        {"text": "Khi BN cười", "isCorrect": false},
+        {"text": "Khi tháo hàm", "isCorrect": false}
+      ],
+      "explanation": "Tiếp xúc 3 điểm (1 trước, 2 sau) ngăn hàm giả bị lật ra trước."
+    },
+    {
+      "question": "Việc lên răng bắt đầu từ hàm nào là thuận tiện nhất?",
+      "options": [
+        {"text": "Hàm trên", "isCorrect": true},
+        {"text": "Hàm dưới", "isCorrect": false},
+        {"text": "Hàm nào cũng được", "isCorrect": false},
+        {"text": "Lên xen kẽ", "isCorrect": false}
+      ],
+      "explanation": "Thiết lập cung răng trên trước để làm mốc thẩm mỹ và đường cười."
+    },
+    {
+      "question": "Tại sao phải 'thử răng' trước khi ép nhựa?",
+      "options": [
+        {"text": "Vì sáp rẻ tiền dễ sửa đổi", "isCorrect": true},
+        {"text": "Vì nhựa không thể sửa", "isCorrect": false},
+        {"text": "Để BN làm quen với nhựa", "isCorrect": false},
+        {"text": "Vì quy định bắt buộc", "isCorrect": false}
+      ],
+      "explanation": "Mọi sai sót về vị trí, màu sắc răng cần được phát hiện và chỉnh sửa khi hàm còn ở dạng sáp."
+    },
+    {
+      "question": "Sự phối hợp giữa 'múi và trũng' (Cusp to Fossa) có tác dụng gì?",
+      "options": [
+        {"text": "Làm hàm giả bập bênh", "isCorrect": false},
+        {"text": "Tăng hiệu quả nghiền thức ăn và độ vững ổn khớp cắn", "isCorrect": true},
+        {"text": "Làm răng giả mòn nhanh hơn", "isCorrect": false},
+        {"text": "Làm BN đau", "isCorrect": false}
+      ],
+      "explanation": "Đây là cơ chế nhai hiệu quả nhất của hệ thống răng miệng."
+    },
+    {
+      "question": "Răng nanh hàm trên có chức năng gì trong hướng dẫn khớp cắn?",
+      "options": [
+        {"text": "Làm nhả khớp răng sau khi đưa hàm sang bên", "isCorrect": true},
+        {"text": "Cắt đứt thức ăn", "isCorrect": false},
+        {"text": "Không có chức năng", "isCorrect": false},
+        {"text": "Dẫn truyền vị giác", "isCorrect": false}
+      ],
+      "explanation": "Hướng dẫn răng nanh giúp bảo vệ các răng sau khỏi lực ngang gây hại."
+    },
+    {
+      "question": "Khi răng giả cửa trên bị đặt quá lùi sau, hậu quả thẩm mỹ là?",
+      "options": [
+        {"text": "Môi trên bị móm, không được nâng đỡ", "isCorrect": true},
+        {"text": "Môi trên bị vổ", "isCorrect": false},
+        {"text": "BN cười to hơn", "isCorrect": false},
+        {"text": "Răng sẽ bị trắng quá", "isCorrect": false}
+      ],
+      "explanation": "Răng cửa trên đóng vai trò chính trong việc tạo hình độ vồng cho môi trên."
+    },
+    {
+      "question": "Kết luận cuối cùng của quy trình lên răng là:",
+      "options": [
+        {"text": "Bác sĩ tự ý thực hiện hoàn toàn", "isCorrect": false},
+        {"text": "Sự hài hòa giữa thẩm mỹ của bác sĩ và mong muốn của bệnh nhân", "isCorrect": true},
+        {"text": "Hàm giả phải rẻ nhất", "isCorrect": false},
+        {"text": "Dùng răng sứ cho mọi ca", "isCorrect": false}
+      ],
+      "explanation": "Phục hình thành công cần sự thống nhất và hài lòng từ cả hai phía."
+    },
+    {
+      "question": "Tiêu chuẩn mài mẫu hàm 'Đế song song mặt phẳng cắn' (nhắc lại từ tệp 5) giúp gì cho lên răng?",
+      "options": [
+        {"text": "Để labo đặt răng đúng độ nghiêng tự nhiên", "isCorrect": true},
+        {"text": "Để tiết kiệm sáp", "isCorrect": false},
+        {"text": "Để thạch cao nhanh đông", "isCorrect": false},
+        {"text": "Để BN dễ tháo lắp", "isCorrect": false}
+      ],
+      "explanation": "Mẫu hàm chuẩn giúp các thông số kỹ thuật được tái lập chính xác trên giá khớp."
+    },
+    {
+      "question": "Nếu mất răng Kennedy loại I hàm trên, răng giả được lên dựa trên?",
+      "options": [
+        {"text": "Cung răng thật của hàm dưới và tương quan tâm", "isCorrect": true},
+        {"text": "Màu của nướu", "isCorrect": false},
+        {"text": "Kích thước của lưỡi", "isCorrect": false},
+        {"text": "Sở thích của labo", "isCorrect": false}
+      ],
+      "explanation": "Phải kết hợp giữa bộ răng còn lại và tương quan hai xương hàm để phục hồi khớp cắn."
+    }
+  ]

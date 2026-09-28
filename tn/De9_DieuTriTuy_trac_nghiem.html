@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Điều trị tủy răng sữa &amp; răng vĩnh viễn chưa đóng chóp</title>
+<style>
+  :root{--card:#1e293b;--accent:#38bdf8;--ok:#22c55e;--bad:#ef4444;--txt:#e2e8f0;--muted:#94a3b8;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(160deg,#0f172a,#0a1a24);color:var(--txt);line-height:1.5;padding:16px;}
+  .wrap{max-width:820px;margin:0 auto;}
+  header{text-align:center;padding:14px 0 8px;}
+  header h1{font-size:1.35rem;margin:0 0 4px;color:#fff;}
+  header p{margin:2px 0;color:var(--muted);font-size:.9rem;}
+  .topnav{text-align:center;margin-top:8px;}
+  .topnav a{color:var(--accent);font-size:.82rem;text-decoration:none;}
+  .panel{background:var(--card);border:1px solid #334155;border-radius:14px;padding:20px;margin-top:16px;box-shadow:0 8px 30px rgba(0,0,0,.35);}
+  .bar{height:8px;background:#0b1220;border-radius:99px;overflow:hidden;margin:10px 0 4px;}
+  .bar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),#22c55e);transition:width .3s;}
+  .meta{display:flex;justify-content:space-between;font-size:.82rem;color:var(--muted);margin-bottom:6px;flex-wrap:wrap;gap:6px;}
+  .q{font-size:1.08rem;font-weight:600;margin:6px 0 14px;color:#fff;}
+  .opt{display:block;width:100%;text-align:left;background:#0b1220;border:1.5px solid #334155;color:var(--txt);border-radius:10px;padding:12px 14px;margin:8px 0;cursor:pointer;font-size:.98rem;transition:all .15s;}
+  .opt:hover:not(:disabled){border-color:var(--accent);}
+  .opt .k{display:inline-block;width:22px;font-weight:700;color:var(--accent);}
+  .opt.correct{border-color:var(--ok);background:rgba(34,197,94,.12);}
+  .opt.wrong{border-color:var(--bad);background:rgba(239,68,68,.12);}
+  .opt:disabled{cursor:default;opacity:.95;}
+  .explain{margin-top:10px;padding:11px 13px;border-radius:10px;background:#0b1220;border-left:4px solid var(--accent);font-size:.9rem;color:#cbd5e1;display:none;}
+  .explain.show{display:block;}
+  .row{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;}
+  button.btn{background:var(--accent);color:#04263a;border:none;border-radius:10px;padding:11px 18px;font-weight:700;cursor:pointer;font-size:.95rem;}
+  button.btn.sec{background:#334155;color:#e2e8f0;}
+  button.btn:disabled{opacity:.4;cursor:not-allowed;}
+  .center{text-align:center;}
+  .big{font-size:2.4rem;font-weight:800;color:#fff;margin:6px 0;}
+  .tag{display:inline-block;font-size:.72rem;background:#0b1220;border:1px solid #334155;color:var(--muted);padding:3px 9px;border-radius:99px;margin-bottom:8px;}
+  .grid{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+  .chip{font-size:.8rem;padding:6px 10px;border-radius:8px;border:1px solid #334155;background:#0b1220;cursor:pointer;}
+  .chip.on{border-color:var(--accent);color:var(--accent);}
+  .review-item{border-top:1px solid #334155;padding:12px 0;font-size:.9rem;}
+  .review-item .ri-q{font-weight:600;color:#fff;}
+  .review-item .ri-a{color:#cbd5e1;margin-top:4px;}
+  .ok{color:var(--ok)} .bad{color:var(--bad)}
+  a.src{color:var(--muted);font-size:.78rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">ĐỀ 9 · Trắc nghiệm A/B/C/D</span>
+    <h1>Điều trị tủy răng sữa &amp; răng vĩnh viễn chưa đóng chóp</h1>
+    <p>Bệnh lý tủy · Che tủy · Lấy tủy buồng · Lấy tủy toàn phần · Vật liệu (Ca(OH)2, MTA, FC) · Tạo/đóng chóp</p>
+    <div class="topnav"><a href="index.html">&#8592; Danh sách đề</a></div>
+  </header>
+
+  <div class="panel" id="start">
+    <p>Bộ câu hỏi bám sát tài liệu. Mỗi câu có 4 phương án gần giống nhau để tăng độ khó. Chọn số câu muốn luyện:</p>
+    <div class="grid" id="countChips"></div>
+    <div class="row">
+      <label style="display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)">
+        <input type="checkbox" id="shuffle" checked> Xáo trộn câu hỏi &amp; đáp án
+      </label>
+    </div>
+    <div class="row">
+      <button class="btn" onclick="startQuiz()">Bắt đầu luyện tập &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel" id="quiz" style="display:none">
+    <div class="meta"><span id="progressTxt"></span><span id="scoreTxt"></span></div>
+    <div class="bar"><i id="progressBar"></i></div>
+    <div class="q" id="qText"></div>
+    <div id="opts"></div>
+    <div class="explain" id="explain"></div>
+    <div class="row">
+      <button class="btn sec" id="skipBtn" onclick="nextQ()">Bỏ qua</button>
+      <button class="btn" id="nextBtn" onclick="nextQ()" disabled>Câu tiếp &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel center" id="result" style="display:none">
+    <p class="tag">KẾT QUẢ</p>
+    <div class="big" id="finalScore"></div>
+    <p id="finalMsg" style="color:var(--muted)"></p>
+    <div class="row" style="justify-content:center">
+      <button class="btn" onclick="location.reload()">Làm lại &#8635;</button>
+      <button class="btn sec" onclick="toggleReview()">Xem lại bài &#9662;</button>
+    </div>
+    <div id="review" style="text-align:left;display:none;margin-top:14px"></div>
+  </div>
+
+  <p class="center" style="margin-top:18px"><a class="src" href="12. Điều trị tủy cô Nhung.pdf">Nguồn: 12. Điều trị tủy cô Nhung.pdf</a></p>
+</div>
+
+<script>
+const BANK = [{"q": "Mục đích nào KHÔNG phải của điều trị tủy răng sữa?", "a": ["Rút ngắn thời gian thay răng", "Giữ khoảng cho răng vĩnh viễn", "Thực hiện chức năng ăn nhai, phát âm", "Chống nhiễm khuẩn và duy trì thẩm mỹ"], "c": 0, "e": "Mục đích ĐTT răng sữa: giữ khoảng, ngăn thói quen xấu, chức năng ăn nhai/phát âm, chống nhiễm khuẩn, thẩm mỹ — không phải rút ngắn thời gian thay răng."}, {"q": "Về hình thái học, khó khăn khi điều trị tủy răng sữa gồm:", "a": ["Buồng tủy rộng, sừng tủy cao, chân răng xòe và cong", "Buồng tủy hẹp, sừng tủy thấp", "Chân răng ngắn và thẳng", "Cổ răng phình to"], "c": 0, "e": "Khó khăn hình thái học: kích thước nhỏ, chân dài & hẹp hơn thân, cổ eo thắt, buồng tủy rộng, sừng tủy cao, chân răng xòe và cong."}, {"q": "Theo Fortier, viêm tủy răng sữa thường có đặc điểm nào?", "a": ["Thường không có triệu chứng", "Luôn đau dữ dội", "Luôn kèm sốt cao", "Luôn có u hạt quanh chóp"], "c": 0, "e": "Viêm tủy răng sữa thường không có triệu chứng; ít khi gặp u hạt ở vùng chóp răng sữa."}, {"q": "Vì răng sữa có nhiều ống tủy phụ ở vùng chẽ chân răng nên hậu quả là:", "a": ["Ổ áp xe dưới đường viền nướu", "Không bao giờ nhiễm trùng", "Tủy luôn khỏe mạnh", "Chóp răng luôn đóng sớm"], "c": 0, "e": "Răng sữa có nhiều ống tủy phụ ở vùng chẽ chân răng nên dễ hình thành ổ áp xe dưới đường viền nướu."}, {"q": "Đau do KÍCH THÍCH (nóng, lạnh, chua, ngọt) thường gợi ý:", "a": ["Nhạy cảm ngà ở sang thương sâu hoặc hở miếng trám", "Tổn thương tủy không hồi phục", "Hoại tử tủy hoàn toàn", "Viêm quanh chóp mạn"], "c": 0, "e": "Đau do kích thích (nóng, lạnh, chua, ngọt, thổi hơi, nhai) là nhạy cảm ngà ở sang thương sâu hoặc hở miếng trám."}, {"q": "Đau TỰ PHÁT thường gợi ý:", "a": ["Tổn thương tủy tiến triển (không hồi phục)", "Nhạy cảm ngà đơn thuần", "Răng khỏe mạnh", "Chỉ do thức ăn giắt"], "c": 0, "e": "Đau tự phát gợi ý tổn thương tủy tiến triển (không thể hồi phục)."}, {"q": "Thử tủy bằng nhiệt/điện có giá trị thế nào ở răng sữa?", "a": ["KHÔNG có giá trị ở răng sữa", "Là xét nghiệm chính xác nhất", "Bắt buộc thực hiện mọi trường hợp", "Chỉ dùng cho răng cửa sữa"], "c": 0, "e": "Thử tủy (thử nhiệt, điện) KHÔNG có giá trị ở răng sữa."}, {"q": "Khi khám lung lay răng nghi ngờ bệnh lý tủy, nguyên nhân lung lay bất thường có thể do:", "a": ["Tiêu xương, tiêu chân răng, viêm kéo dài (dẫn đến chết tủy)", "Răng mới trám", "Đánh răng mạnh", "Ăn thức ăn cứng"], "c": 0, "e": "Lung lay bất thường (so với răng cung hàm đối diện) do tiêu xương, tiêu chân răng, viêm kéo dài → chết tủy."}, {"q": "Khi thăm khám lỗ sâu tiến triển nhiều ngà mủn nghi viêm tủy, lưu ý gì?", "a": ["Không nên dùng thám trâm thăm khám", "Dùng thám trâm ấn mạnh vào tủy", "Luôn thử tủy bằng điện", "Dùng khoan mở rộng ngay"], "c": 0, "e": "Với lỗ sâu tiến triển nhiều ngà mủn, chú ý không nên dùng thám trâm thăm khám (tránh làm lộ tủy/đau)."}, {"q": "Hoại tử tủy có biến chứng quanh chóp dạng CẤP có biểu hiện lâm sàng nào?", "a": ["Đau dữ dội liên tục theo mạch đập, viêm mô tế bào, sốt, răng lung lay đau khi gõ", "Không triệu chứng", "Chỉ nhạy cảm nóng lạnh", "Chảy máu nướu tự nhiên"], "c": 0, "e": "Hoại tử tủy biến chứng quanh chóp cấp: đau dữ dội liên tục theo mạch đập, viêm mô tế bào, phản ứng hạch, sốt/biếng ăn/mệt mỏi, răng lung lay và đau khi gõ; điều trị ĐTNN bảo tồn răng."}, {"q": "Trong hội chứng chẽ răng ở răng sữa, dấu hiệu X quang SỚM là:", "a": ["DCNC vùng chẽ chân răng giãn rộng / mất xương giới hạn 1 bên vách liên chẽ", "Tiêu hoàn toàn xương vùng chẽ", "Không có bất thường", "Đóng chóp hoàn toàn"], "c": 0, "e": "Hội chứng chẽ răng: dấu hiệu sớm là DCNC vùng chẽ giãn rộng/mất xương giới hạn 1 bên; dấu hiệu muộn là tiêu hoàn toàn xương vùng chẽ."}, {"q": "Hội chứng chẽ răng ở giai đoạn 3 được xử trí thế nào?", "a": ["Nhổ răng do cản trở răng vĩnh viễn", "Điều trị bảo tồn", "Che tủy trực tiếp", "Chỉ theo dõi"], "c": 0, "e": "Hội chứng chẽ răng: giai đoạn 1 và 2 có thể điều trị bảo tồn; giai đoạn 3 nhổ răng do cản trở răng vĩnh viễn."}, {"q": "Các phương pháp điều trị GIỮ tủy sống gồm:", "a": ["Che tủy trực tiếp, che tủy gián tiếp, lấy tủy buồng", "Chỉ lấy tủy toàn phần", "Chỉ nhổ răng", "Trám bít ống tủy toàn bộ"], "c": 0, "e": "Điều trị giữ tủy sống gồm: che tủy trực tiếp, che tủy gián tiếp và lấy tủy buồng."}, {"q": "Tính chất nào KHÔNG phải của vật liệu điều trị tủy lý tưởng?", "a": ["Gây độc để diệt toàn bộ tế bào tủy", "Diệt khuẩn", "Kích thích tủy chân lành thương, duy trì sự sống tủy", "Giải phóng Fluor, cản quang"], "c": 0, "e": "Vật liệu lý tưởng: diệt khuẩn, không hại tủy, kích thích tủy chân lành thương, duy trì sự sống tủy, giải phóng Fluor, cản quang — KHÔNG gây độc cho tủy."}, {"q": "Ca(OH)2 có pH trong khoảng nào và tác dụng gì?", "a": ["pH 9,2–11,7; kích thích alkaline phosphatase và khoáng hóa mô cứng", "pH 3–5; làm mòn ngà", "pH 7 trung tính; không tác dụng", "pH 13; gây độc tủy"], "c": 0, "e": "Ca(OH)2 có pH 9,2–11,7, bất hoạt VK, trung hòa acid, kích thích hoạt động alkaline phosphatase và khoáng hóa mô cứng."}, {"q": "Nhược điểm của Ca(OH)2 gồm:", "a": ["Bám kém với ngà, hòa tan sau 1 năm, tiêu nhiều, lực cơ học thấp", "Cản quang quá mức", "Đông cứng quá nhanh", "Không kháng khuẩn hoàn toàn"], "c": 0, "e": "Nhược điểm Ca(OH)2: bám kém với ngà và hệ thống dán, hòa tan sau 1 năm, thoái hóa trong quá trình xói mòn acid, tiêu nhiều, lực cơ học thấp."}, {"q": "MTA có tỉ lệ thành công (che tủy) khoảng bao nhiêu và pH bao nhiêu?", "a": ["Thành công ~97%, pH = 13", "Thành công ~50%, pH = 7", "Thành công ~83%, pH = 9", "Thành công ~60%, pH = 5"], "c": 0, "e": "MTA (hỗn hợp tricalcium silicate, bismuth oxide...) có pH = 13, kích thích tạo cầu ngà, tỉ lệ thành công 97%."}, {"q": "Ưu điểm của MTA so với Ca(OH)2 là:", "a": ["Hình thành cầu ngà nhanh hơn & dày hơn, khít sát bờ viền, ít tan, ít viêm", "Rẻ tiền hơn", "Đông cứng nhanh hơn", "Dễ thao tác hơn"], "c": 0, "e": "MTA ưu hơn Ca(OH)2: lực cơ học, khít sát bờ viền, ít tan, ít phản ứng viêm, hình thành apatite, cầu ngà nhanh & dày hơn; nhưng đắt và thời gian đông cứng lâu hơn."}, {"q": "Nhược điểm của MTA gồm:", "a": ["Nhiễm màu xám thứ phát, khó thao tác, thời gian đông cứng lâu (3–4 giờ), đắt", "Không tương hợp sinh học", "Gây viêm mạnh", "Không cản quang"], "c": 0, "e": "Nhược điểm MTA: nhiễm màu xám thứ phát, khó thao tác, thời gian đông cứng lâu (3–4 giờ), đắt; cần đặt ngay sau trộn, không bơm rửa sau khi đặt."}, {"q": "Biodentine có thành phần và đặc điểm nào?", "a": ["Bột tricalcium silicate + nước CaCl2, đông đặc 10–12 phút, khoáng hóa sinh học > MTA", "Bột amalgam + thủy ngân", "Composite quang trùng hợp", "Formaldehyde + cresol"], "c": 0, "e": "Biodentine: bột tricalcium silicate, nước là CaCl2; đông đặc 10–12 phút, liên kết vi cơ học tự nhiên, khả năng khoáng hóa sinh học > MTA, tính chất cơ học tương đồng ngà răng."}, {"q": "Che tủy GIÁN TIẾP có tỉ lệ thành công ở răng sữa khoảng:", "a": [">90%", "<60%", "~50%", "~30%"], "c": 0, "e": "Che tủy gián tiếp giữ 1 lớp ngà sâu để tránh bộc lộ tủy; tỉ lệ thành công ở răng sữa >90%."}, {"q": "Cơ chế của che tủy gián tiếp KHÔNG bao gồm:", "a": ["Làm lộ tủy để cầm máu", "Ngăn chặn tiến trình sâu răng", "Kích thích xơ hóa ngà (giảm tính thấm) và ngà phản ứng", "Tái khoáng hóa ngà sâu"], "c": 0, "e": "Cơ chế che tủy gián tiếp: ngăn chặn tiến trình sâu, kích thích xơ hóa ngà (giảm tính thấm), kích thích thành lập ngà phản ứng, tái khoáng hóa ngà sâu — KHÔNG làm lộ tủy."}, {"q": "Chỉ định của che tủy gián tiếp gồm:", "a": ["Sâu lớn sát tủy (ngà-tủy >1,5mm) không lộ tủy, không đau tự phát, răng không lung lay", "Tủy đã hoại tử", "Đau tự phát tăng về đêm", "Có tiêu chân răng bệnh lý"], "c": 0, "e": "Chỉ định che tủy gián tiếp: không đau tự phát, tổn thương sâu lớn sát tủy (ngà-tủy >1,5mm) không lộ tủy, răng không lung lay, không nhạy cảm khi thăm khám, X quang không tiêu chân/bệnh lý."}, {"q": "Trong kỹ thuật che tủy gián tiếp 2 giai đoạn, sau bao lâu thì tháo trám tạm và lấy hết ngà sâu còn lại?", "a": ["Sau 6–8 tuần", "Sau 1 ngày", "Sau 1 năm", "Ngay lập tức"], "c": 0, "e": "Che tủy gián tiếp 2 giai đoạn: đặt Ca(OH)2 và trám tạm ZOE; sau 6–8 tuần tháo trám tạm, lấy hết phần ngà sâu còn lại, tái tạo."}, {"q": "Che tủy TRỰC TIẾP có tỉ lệ thành công thế nào ở răng sữa?", "a": ["Rất thấp", "Rất cao (>95%)", "Khoảng 97%", "Khoảng 90%"], "c": 0, "e": "Che tủy trực tiếp (đặt VL tương hợp sinh học lên tủy lộ do cơ học) có tỉ lệ thành công rất thấp ở răng sữa."}, {"q": "Chỉ định che tủy trực tiếp ở răng sữa gồm:", "a": ["Lộ tủy nhỏ (<0,5mm, không lây nhiễm) do chấn thương/cơ học, thời gian ngắn (<24h), không chảy máu", "Lộ tủy rộng do sâu răng", "Có triệu chứng bệnh lý tủy", "Chảy máu không kiểm soát"], "c": 0, "e": "Che tủy trực tiếp răng sữa: lộ tủy nhỏ <0,5mm (không lây nhiễm), lộ do chấn thương/cơ học lúc tạo xoang, thời gian ngắn <24h, không đau, không chảy máu/mủ."}, {"q": "Ở răng vĩnh viễn, che tủy trực tiếp chỉ định khi lộ tủy nhỏ do sâu có kích thước:", "a": ["<2mm, chảy máu ít", "<5mm, chảy máu nhiều", "Bất kỳ kích thước", "Chỉ khi >3mm"], "c": 0, "e": "Che tủy trực tiếp răng vĩnh viễn: lộ tủy nhỏ do sâu <2mm chảy máu ít đã đặt đê, hoặc lộ do chấn thương <24 giờ, X quang không biểu hiện bệnh lý ở chóp."}, {"q": "Nguyên lý của lấy tủy buồng là:", "a": ["Lấy phần tủy phía trên bị nhiễm khuẩn, bảo tồn và kích thích hồi phục phần tủy còn lại", "Lấy toàn bộ tủy chân", "Không lấy tủy, chỉ trám", "Nhổ răng bảo tồn xương"], "c": 0, "e": "Lấy tủy buồng: lấy phần tủy phía trên bị nhiễm khuẩn, bảo tồn & kích thích sự hồi phục của phần tủy còn lại, duy trì tính sống của tủy."}, {"q": "Chỉ định lấy tủy buồng gồm:", "a": ["Không đau tự phát, tủy chảy máu đỏ tươi cầm trong ~5 phút, viêm giới hạn ở buồng tủy", "Đau tự phát", "Tủy chảy máu nhiều/có mùi hôi", "Nội tiêu, thấu quang quanh chóp"], "c": 0, "e": "Chỉ định lấy tủy buồng: không đau tự phát, lộ tủy do sâu/cơ học, viêm giới hạn buồng tủy, tủy chảy máu đỏ tươi cầm trong 5 phút, X quang không dấu hiệu bệnh lý."}, {"q": "Chống chỉ định lấy tủy buồng gồm:", "a": ["Đau tự phát, tủy chảy máu nhiều/có mùi hôi, nội tiêu, thấu quang quanh chóp, răng sắp thay (tiêu >2/3 chân)", "Tủy chảy máu đỏ tươi cầm nhanh", "Viêm giới hạn buồng tủy", "Không có bệnh lý trên X quang"], "c": 0, "e": "Chống chỉ định lấy tủy buồng: đau tự phát, lỗ dò/sưng, nhạy cảm khi gõ, lung lay bất thường, tủy chảy máu nhiều/có mùi hôi, nội tiêu/tiêu chân bệnh lý, thấu quang quanh chóp, răng sắp đến tuổi thay."}, {"q": "Công thức Buckley của Formocresol gồm:", "a": ["19% formaldehyde, 35% cresol, 15% glycerin, phần còn lại là nước", "50% formaldehyde, 50% cresol", "10% formaldehyde, 90% nước", "35% formaldehyde, 19% cresol"], "c": 0, "e": "Công thức Buckley của Formocresol: 19% formaldehyde, 35% cresol, 15% glycerin, phần còn lại là nước."}, {"q": "Tỉ lệ thành công của lấy tủy buồng với Formocresol là:", "a": ["83%", "97%", "50%", "100%"], "c": 0, "e": "Formocresol có tỉ lệ thành công 83%; kích thích hồi phục tủy còn lại, tạo vùng cố định & vùng tái sinh."}, {"q": "Nguyên nhân thất bại/lo ngại khi dùng Formocresol gồm:", "a": ["FC lan ra DCNC & XOR gây phản ứng toàn thân (miễn dịch, đột biến, ung thư), nội tiêu, canxi hóa ống tủy", "Không có tác dụng cầm máu", "Không kháng khuẩn", "Đông cứng quá nhanh"], "c": 0, "e": "Thất bại/lo ngại FC: vùng viêm mạn/hoại tử/nội tiêu, FC lan ra DCNC & XOR → toàn thân (phản ứng miễn dịch, đột biến, ung thư), canxi hóa ống tủy chân răng trên X quang."}, {"q": "Trong kỹ thuật lấy tủy buồng với Formocresol, viên gòn tẩm FC được đặt lên đầu ống tủy trong bao lâu?", "a": ["5 phút", "30 giây", "30 phút", "24 giờ"], "c": 0, "e": "Đặt viên gòn tẩm FC (pha loãng 1:5) lên đầu ống tủy trong 5 phút, sau đó trám eugenate; cầm máu bằng viên gòn ép 3 phút (không dùng thuốc cầm máu)."}, {"q": "Khi lấy tủy buồng với MTA, MTA được đặt lên mô tủy chân với độ dày bao nhiêu?", "a": ["3–4mm", "0,1mm", "10mm", "1mm"], "c": 0, "e": "Lấy tủy buồng với MTA: sau khi cắt tủy buồng và cầm máu, MTA được đặt lên mô tủy chân với độ dày 3–4mm, đặt vĩnh viễn, rồi phủ lớp ZOE."}, {"q": "Điều trị tủy chân (lấy tủy toàn phần) ở răng sữa khó khăn vì:", "a": ["Hình thể ống tủy rất thay đổi và tiêu chân răng sinh lý làm giới hạn khó xác định", "Chân răng quá to", "Ống tủy quá thẳng", "Không có ống tủy"], "c": 0, "e": "ĐTT chân răng sữa khó vì hình thể ống tủy rất thay đổi và tiêu chân răng sinh lý làm cấu trúc chân thay đổi, giới hạn khó xác định."}, {"q": "Thuốc diệt tủy dùng trong điều trị tủy chân răng sữa nên là loại nào?", "a": ["Không có asen (Paraformaldehyde)", "Có chứa asen", "Formaldehyde nguyên chất", "Thủy ngân"], "c": 0, "e": "Thuốc diệt tủy nên dùng loại không có asen (Paraformaldehyde)."}, {"q": "Vật liệu trám ống tủy răng sữa cần có đặc tính nào?", "a": ["Tiêu với tốc độ tiêu chân răng sữa, không hại mầm răng vĩnh viễn, dễ tiêu nếu quá chóp", "Không bao giờ tiêu", "Cứng vĩnh viễn như gutta-percha", "Gây độc mầm răng"], "c": 0, "e": "VL trám ống tủy răng sữa cần tiêu với tốc độ tiêu chân răng sữa, không hại mô quanh chóp & mầm Rvv, dễ tiêu nếu bị trám quá chóp, kháng khuẩn."}, {"q": "Vì lỗ chóp răng sữa ngắn hơn so với trên X quang, nên khi trám bít ống tủy cần:", "a": ["Trám bít ống tủy cách chóp trên phim (TOT < chóp trên phim)", "Trám quá chóp", "Trám đúng chóp trên phim", "Không cần quan tâm chiều dài"], "c": 0, "e": "Lưu ý: lỗ chóp răng sữa ngắn hơn so với X quang, nên trám bít ống tủy nên cách chóp (TOT < chóp trên phim); sửa soạn ống tủy cách chóp 2mm."}, {"q": "Tỉ lệ thành công của điều trị tủy toàn phần (theo dõi 16 tháng–5 năm) khoảng:", "a": ["85%", "50%", "100%", "30%"], "c": 0, "e": "Tiêu chí đánh giá dựa LS & XQ; tỉ lệ thành công theo dõi từ 16 tháng đến 5 năm là khoảng 85%."}, {"q": "Kỹ thuật gây TẠO chóp (apexogenesis) áp dụng cho răng vĩnh viễn:", "a": ["Chưa đóng chóp còn tủy sống, nhằm duy trì tủy chân để chân phát triển & đóng chóp", "Đã chết tủy, chưa đóng chóp", "Đã đóng chóp hoàn toàn", "Răng sữa sắp thay"], "c": 0, "e": "Gây tạo chóp (lấy tủy buồng): duy trì sự sống tủy chân để chân răng phát triển & đóng chóp; chỉ định lộ tủy rộng >2mm, thời gian lộ >24 giờ, tủy sạch; CCĐ tủy hoại tử."}, {"q": "Trong kỹ thuật gây tạo chóp, khi X quang cho thấy chân răng đã đóng chóp hoàn toàn thì:", "a": ["Lấy tủy toàn bộ và trám bít ống tủy bằng gutta-percha", "Tiếp tục theo dõi vô hạn", "Nhổ răng", "Che tủy trực tiếp"], "c": 0, "e": "Gây tạo chóp: đặt Ca(OH)2 lên đầu ống tủy, theo dõi 3 tháng/lần; khi chân đóng chóp hoàn toàn thì lấy tủy toàn bộ và trám bít ống tủy bằng gutta-percha."}, {"q": "Kỹ thuật gây ĐÓNG chóp (apexification) được thực hiện ở răng nào?", "a": ["Răng vĩnh viễn chưa đóng chóp ĐÃ CHẾT tủy, tạo cầu canxi hóa tại đầu tận cùng chân răng", "Răng vĩnh viễn còn tủy sống", "Răng sữa sắp thay", "Răng đã đóng chóp"], "c": 0, "e": "Gây đóng chóp là kỹ thuật thực hiện ở răng vĩnh viễn chưa đóng chóp đã chết tủy (tủy hoại tử), tạo cầu canxi hóa tại đầu tận cùng chân răng."}, {"q": "Trong kỹ thuật gây đóng chóp CỔ ĐIỂN với Ca(OH)2, quá trình thường kéo dài bao lâu?", "a": ["9–24 tháng", "1–2 tuần", "1–2 tháng", "5 năm"], "c": 0, "e": "Gây đóng chóp cổ điển với Ca(OH)2: băng thuốc, theo dõi & thay thuốc 3 tháng/lần, thường kéo dài 9–24 tháng, đến khi đóng chóp thì trám bít bằng gutta-percha lèn dọc."}, {"q": "Kỹ thuật đóng chóp bằng cách TẠO RÀO CẢN NHÂN TẠO dùng vật liệu nào và ưu điểm gì?", "a": ["MTA nhồi 4–5mm ở phía chóp, điều trị 1 lần hẹn, thời gian ngắn, phục hồi sớm", "Ca(OH)2 thay thuốc nhiều lần trong 2 năm", "Gutta-percha đơn thuần", "Amalgam"], "c": 0, "e": "Tạo rào cản nhân tạo: MTA được nhồi 4–5mm ở phía chóp làm điểm tựa cho GP; điều trị 1 lần hẹn, thời gian ngắn, phục hồi răng ở giai đoạn sớm."}, {"q": "Vì sao răng vĩnh viễn chưa đóng chóp sau điều trị đóng chóp cần lưu ý khi phục hồi?", "a": ["Răng dễ nứt gãy; nên dùng MTA + composite/chốt kim loại/chốt sợi để giảm gãy chân răng", "Răng rất bền không cần lưu ý", "Không thể phục hồi được", "Phải nhổ răng"], "c": 0, "e": "Răng vĩnh viễn chưa đóng chóp sau điều trị đóng chóp dễ nứt gãy; kỹ thuật tạo rào cản MTA + TOT, phục hồi bằng composite/chốt kim loại/chốt sợi giúp giảm tỉ lệ gãy chân răng."}, {"q": "Yếu tố nào KHÔNG ảnh hưởng đến điều trị giữ tủy sống?", "a": ["Màu sắc thân răng", "Nguồn máu nuôi dưỡng và tình trạng bệnh lý của tủy", "Khả năng cầm máu, độ dày ngà còn lại", "Khả năng kháng khuẩn của vật liệu, trám kín thân răng"], "c": 0, "e": "Yếu tố ảnh hưởng ĐT giữ tủy sống: nguồn máu nuôi dưỡng, tình trạng bệnh lý tủy, cầm máu, làm sạch vị trí bộc lộ mô, khả năng kháng khuẩn của VL, trám kín thân răng, độ dày ngà còn lại — không phải màu sắc."}, {"q": "Trên phim X quang, dấu hiệu nào gợi ý đáp ứng SINH LÝ hơn là bệnh lý?", "a": ["Sự tiêu chân răng phù hợp với đáp ứng sinh lý", "Lamina dura bị ngắt quãng", "Thấu quang vùng chẽ giữa chân răng", "Màng nha chu mở rộng"], "c": 0, "e": "Trên phim X quang, sự tiêu chân phù hợp với đáp ứng sinh lý hơn là đáp ứng bệnh lý; các dấu hiệu bệnh lý gồm lamina dura ngắt quãng, thấu quang vùng chẽ, màng nha chu mở rộng."}, {"q": "Chống chỉ định của điều trị tủy toàn phần (lấy tủy chân) răng sữa gồm:", "a": ["Mất nhiều cấu trúc thân răng, nội/ngoại tiêu ảnh hưởng mầm răng thay thế, răng sắp thay, BN không hợp tác", "Viêm tủy không hồi phục", "Sàn tủy bị thủng do sâu", "Hoại tử tủy có thể phục hồi cấu trúc"], "c": 0, "e": "Chống chỉ định lấy tủy toàn phần: mất nhiều cấu trúc thân răng, nội/ngoại tiêu/nhiễm trùng quanh chóp ảnh hưởng mầm răng thay thế, mất xương nâng đỡ, nang do răng, tổn thương vùng chẽ liên quan Rvv sắp mọc, BN không hợp tác, răng sắp thay."}, {"q": "Khi cầm máu trong kỹ thuật lấy tủy buồng với Formocresol, thao tác đúng là:", "a": ["Đặt viên gòn khô lên viên gòn ẩm và ép chặt trong 3 phút, không dùng thuốc cầm máu", "Dùng thuốc cầm máu mạnh", "Ép trong 30 giây", "Không cần cầm máu"], "c": 0, "e": "Cầm máu: viên gòn khô đặt lên viên gòn ẩm & ép chặt trong 3 phút, không sử dụng thuốc cầm máu; sau đó kiểm tra tính chất máu chảy trước khi đặt FC."}, {"q": "Vật liệu trám ống tủy răng sữa thường dùng nhất là:", "a": ["ZOE (eugenate)", "Gutta-percha", "Amalgam", "Composite"], "c": 0, "e": "Vật liệu trám bít ống tủy (TBOT) răng sữa thường dùng là ZOE/eugenate; trám buồng tủy bằng eugenate đánh đặc, tái tạo bằng mão làm sẵn."}, {"q": "Trong kỹ thuật điều trị tủy chân răng sữa, ống tủy được sửa soạn cách chóp bao nhiêu?", "a": ["Cách chóp 2mm, đến số 25–30", "Đúng chóp", "Quá chóp 1mm", "Cách chóp 5mm"], "c": 0, "e": "Kỹ thuật ĐTT chân răng sữa: lấy sạch mảnh vụn tủy trong ống tủy cách chóp 2mm, sửa soạn ống tủy cách chóp 2mm (kiểm tra phim X) đến số 25–30, bơm rửa NaOCl xen kẽ NaCl."}, {"q": "Bơm rửa ống tủy trong điều trị tủy chân răng sữa dùng dung dịch nào?", "a": ["NaOCl xen kẽ NaCl", "Chỉ nước máy", "Cồn 90 độ", "Chỉ oxy già"], "c": 0, "e": "Bơm rửa ống tủy bằng NaOCl xen kẽ NaCl (nước muối sinh lý)."}, {"q": "Chẩn đoán tủy hoại tử ở răng vĩnh viễn chưa đóng chóp dựa vào yếu tố nào?", "a": ["Đau cấp/mãn, nhạy cảm gõ, di động, đổi màu thân răng, lỗ dò chảy mủ (test nhiệt/điện không hằng định ở trẻ nhỏ)", "Chỉ dựa test điện", "Chỉ dựa màu răng", "Không cần chẩn đoán"], "c": 0, "e": "CĐ tủy hoại tử ở Rvv chưa đóng chóp: test điện/nhiệt không hằng định ở trẻ nhỏ và răng chấn thương; dựa đau cấp/mãn, nhạy cảm gõ, di động, đổi màu thân răng, lỗ dò chảy mủ, và X quang."}, {"q": "Chẩn đoán tình trạng tủy răng vĩnh viễn đang phát triển dựa vào những phương pháp nào?", "a": ["Bệnh sử, khám LS, thử nhiệt/điện, thử lung lay/gõ, phim X quang", "Chỉ hỏi bệnh sử", "Chỉ chụp X quang", "Chỉ thử điện"], "c": 0, "e": "Đánh giá tình trạng tủy Rvv: bệnh sử (đau kích thích/tự phát, nhạy cảm áp lực), LS (tổn thương sâu), phương pháp CĐ LS (thử nhiệt, điện, lung lay, gõ) và phim X quang."}, {"q": "Mục đích chính của chẩn đoán bệnh lý tủy răng sữa là:", "a": ["Quyết định có nên giữ răng lại hay không", "Xác định nhóm máu", "Đo tuổi xương", "Kê đơn kháng sinh"], "c": 0, "e": "Chẩn đoán chính xác quyết định có nên giữ răng lại hay không; cần đánh giá bệnh sử, khám LS, phim X, sức khỏe toàn thân/răng miệng, khả năng chăm sóc của gia đình, khả năng tái tạo của răng."}];
+let idx=0, score=0, answers=[], quizSet=[];
+const COUNTS=[20,40,60,100];
+function initChips(){const el=document.getElementById('countChips');COUNTS.forEach((n,i)=>{const c=document.createElement('div');c.className='chip'+(i===COUNTS.length-1?' on':'');c.textContent=n>=BANK.length?'Tất cả ('+BANK.length+')':n+' câu';c.dataset.n=Math.min(n,BANK.length);c.onclick=()=>{document.querySelectorAll('#countChips .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');};el.appendChild(c);});}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function startQuiz(){
+  const sel=document.querySelector('#countChips .chip.on');
+  const n=Math.min(parseInt(sel.dataset.n),BANK.length);
+  const doShuffle=document.getElementById('shuffle').checked;
+  let pool=BANK.map((q,i)=>({...q,_i:i}));
+  if(doShuffle)shuffle(pool);
+  quizSet=pool.slice(0,n).map(q=>{
+    let opts=q.a.map((t,i)=>({t,correct:i===q.c}));
+    if(doShuffle)shuffle(opts);
+    return {q:q.q,opts,e:q.e};
+  });
+  idx=0;score=0;answers=[];
+  document.getElementById('start').style.display='none';
+  document.getElementById('result').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  renderQ();
+}
+function renderQ(){
+  const item=quizSet[idx];
+  document.getElementById('progressTxt').textContent='Câu '+(idx+1)+' / '+quizSet.length;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('progressBar').style.width=((idx)/quizSet.length*100)+'%';
+  document.getElementById('qText').textContent=item.q;
+  const box=document.getElementById('opts');box.innerHTML='';
+  const letters=['A','B','C','D'];
+  item.opts.forEach((o,i)=>{
+    const b=document.createElement('button');
+    b.className='opt';
+    b.innerHTML='<span class="k">'+letters[i]+'.</span> '+o.t;
+    b.onclick=()=>choose(i);
+    box.appendChild(b);
+  });
+  const ex=document.getElementById('explain');ex.className='explain';ex.textContent='';
+  document.getElementById('nextBtn').disabled=true;
+  document.getElementById('skipBtn').style.display='inline-block';
+  document.getElementById('nextBtn').textContent=(idx===quizSet.length-1)?'Xem kết quả ✔':'Câu tiếp ▶';
+}
+function choose(i){
+  const item=quizSet[idx];
+  const btns=document.querySelectorAll('#opts .opt');
+  const correctIdx=item.opts.findIndex(o=>o.correct);
+  btns.forEach((b,j)=>{b.disabled=true;if(j===correctIdx)b.classList.add('correct');if(j===i&&i!==correctIdx)b.classList.add('wrong');});
+  const isRight=i===correctIdx;
+  if(isRight)score++;
+  answers.push({q:item.q,chosen:item.opts[i].t,correct:item.opts[correctIdx].t,right:isRight});
+  const ex=document.getElementById('explain');
+  ex.className='explain show';
+  ex.innerHTML=(isRight?'<b class="ok">✔ Chính xác. </b>':'<b class="bad">✘ Chưa đúng. </b>')+item.e;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('nextBtn').disabled=false;
+  document.getElementById('skipBtn').style.display='none';
+}
+function nextQ(){ if(idx<quizSet.length-1){idx++;renderQ();} else finish(); }
+function finish(){
+  document.getElementById('quiz').style.display='none';
+  const r=document.getElementById('result');r.style.display='block';
+  const pct=Math.round(score/quizSet.length*100);
+  document.getElementById('finalScore').textContent=score+' / '+quizSet.length+' ('+pct+'%)';
+  let msg='';
+  if(pct>=90)msg='Xuất sắc! Bạn nắm rất chắc bài.';
+  else if(pct>=70)msg='Tốt! Ôn lại vài câu sai là ổn.';
+  else if(pct>=50)msg='Khá – cần ôn thêm phần sai.';
+  else msg='Hãy đọc lại tài liệu và luyện lại nhé.';
+  document.getElementById('finalMsg').textContent=msg;
+  const rev=document.getElementById('review');rev.innerHTML='';rev.style.display='none';
+  answers.forEach((a,i)=>{
+    const d=document.createElement('div');d.className='review-item';
+    d.innerHTML='<div class="ri-q">'+(i+1)+'. '+a.q+'</div>'+
+      '<div class="ri-a">Bạn chọn: <span class="'+(a.right?'ok':'bad')+'">'+a.chosen+'</span></div>'+
+      (a.right?'':'<div class="ri-a">Đáp án đúng: <span class="ok">'+a.correct+'</span></div>');
+    rev.appendChild(d);
+  });
+}
+function toggleReview(){const r=document.getElementById('review');r.style.display=r.style.display==='none'?'block':'none';}
+initChips();
+</script>
+</body>
+</html>

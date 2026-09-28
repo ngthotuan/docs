@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Practice: Tính số ngày / số tuýp thuốc bôi</title>
+  <style>
+    :root { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; }
+    body { margin: 0; background: #0b1220; color: #e8eefc; }
+    .wrap { max-width: 920px; margin: 0 auto; padding: 24px; }
+    .card { background: #121a2b; border: 1px solid #26324f; border-radius: 14px; padding: 18px; box-shadow: 0 10px 30px rgba(0,0,0,.25); }
+    h1 { margin: 0 0 10px; font-size: 20px; letter-spacing: .2px; }
+    .meta { font-size: 13px; opacity: .85; line-height: 1.5; }
+    .qbox { margin-top: 14px; padding: 14px; border-radius: 12px; background: #0e1627; border: 1px dashed #2c3a5e; }
+    .qtitle { font-weight: 800; margin-bottom: 8px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .qtext { line-height: 1.55; }
+    .actions { display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
+    button {
+      appearance: none; border: 1px solid #2f3f66; background: #1a2540; color: #e8eefc;
+      padding: 10px 12px; border-radius: 12px; font-weight: 650; cursor: pointer;
+      transition: transform .05s ease, background .15s ease, border-color .15s ease;
+    }
+    button:hover { background: #223055; border-color: #3b4f85; }
+    button:active { transform: translateY(1px); }
+    .answer { margin-top: 12px; padding: 14px; border-radius: 12px; background: #0d1f16; border: 1px solid #225a3a; display: none; }
+    .answer.show { display: block; }
+    .answer .atitle { font-weight: 800; margin-bottom: 8px; }
+    .answer .timeSpent { margin: 8px 0 10px; padding: 10px 12px; border-radius: 12px; background: #0b1a12; border: 1px solid #1f4c31; font-weight: 750; }
+    .kbd { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 12px; padding: 2px 6px; border-radius: 8px; border: 1px solid #2f3f66; background: #0e1627; }
+    .footer { margin-top: 12px; font-size: 12px; opacity: .8; }
+    .tag { display: inline-block; padding: 3px 8px; border-radius: 999px; border: 1px solid #2f3f66; background: #0e1627; font-size: 12px; }
+    .timer {
+      margin-left: auto;
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 4px 10px; border-radius: 999px;
+      border: 1px solid #2f3f66; background: #0e1627;
+      font-size: 12px; font-weight: 800;
+      user-select: none;
+    }
+    .timer.warn { border-color: #8a6a00; background: #1a1607; }
+    .timer.danger { border-color: #a22; background: #200b0b; }
+    .timer.paused { border-color: #446; background: #0e1627; opacity: .85; }
+    .timer.hidden { display: none; }
+    .toast {
+      position: fixed; left: 50%; bottom: 22px; transform: translateX(-50%);
+      background: rgba(20, 28, 48, .98);
+      border: 1px solid #2f3f66;
+      padding: 10px 12px; border-radius: 12px;
+      box-shadow: 0 10px 28px rgba(0,0,0,.35);
+      color: #e8eefc; font-weight: 700; font-size: 13px;
+      display: none; max-width: min(680px, calc(100% - 24px));
+    }
+    .toast.show { display: block; }
+    ul { margin: 8px 0 0 18px; }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Practice tính thuốc bôi</h1>
+      <div class="meta">
+        Quy ước: <span class="kbd">0.5g ↔ 2%</span> ⇒ <span class="kbd">1% ↔ 0.25g</span><br />
+        <!-- Tuýp: <span class="kbd">5g</span>, <span class="kbd">10g</span>, <span class="kbd">30g</span>, <span class="kbd">50g</span><br /> -->
+        <!-- Timer: dùng query <span class="kbd">?t=20</span>, <span class="kbd">?t=30</span>... (thiếu/invalid → mặc định 20s) -->
+      </div>
+
+      <div class="qbox">
+        <div class="qtitle">
+          Câu hỏi <span id="qType" class="tag"></span>
+          <span id="timer" class="timer" title="Đếm ngược cho câu hiện tại">⏱️ <span id="timeLeft">20</span>s</span>
+        </div>
+        <div id="question" class="qtext"></div>
+      </div>
+
+      <div class="actions">
+        <button id="btnAnswer">Đáp án</button>
+        <button id="btnNext">Câu tiếp theo</button>
+      </div>
+
+      <div id="answer" class="answer">
+        <div class="atitle">✅ Đáp án</div>
+        <div id="timeSpent" class="timeSpent"></div>
+        <div id="answerText"></div>
+      </div>
+
+      <div class="footer">
+        Tip: <span class="kbd">Câu tiếp theo</span> sẽ gen câu mới và reset timer. Bấm <span class="kbd">Đáp án</span> sẽ <b>dừng & ẩn</b> countdown + hiện thời gian bạn đã làm.
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+  <script>
+    // ===== Read timer seconds from query: ?t=20 (default 20) =====
+    function getTimerSecondsFromQuery(defaultSeconds = 20) {
+      try {
+        const params = new URLSearchParams(window.location.search);
+        const raw = params.get("t");
+        if (!raw) return defaultSeconds;
+
+        const n = Number(raw);
+        if (!Number.isFinite(n)) return defaultSeconds;
+
+        const s = Math.floor(n);
+        // Guardrails: 1..600 seconds
+        if (s < 1 || s > 600) return defaultSeconds;
+
+        return s;
+      } catch {
+        return defaultSeconds;
+      }
+    }
+
+    // ===== Helpers =====
+    const TUBES = [5, 10, 30, 50];         // grams
+    const FREQS = [1, 2];                  // times/day
+    const REGIONS = ["Tay", "Chân", "Lưng", "Bụng", "Ngực", "Cổ", "Vai", "Mông", "Cẳng tay", "Cẳng chân"];
+    const LOW_ODD_PERCENTS = [1,3,5,7,9,11,13,15,17,19];
+
+    function randInt(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; }
+    function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+    function pickManyUnique(arr, n) {
+      const pool = [...arr];
+      const out = [];
+      for (let i = 0; i < n && pool.length; i++) {
+        const idx = Math.floor(Math.random() * pool.length);
+        out.push(pool.splice(idx, 1)[0]);
+      }
+      return out;
+    }
+
+    function gramsPerApply(percent) { return percent * 0.25; }
+
+    function fmt(n) {
+      const s = (Math.round((n + Number.EPSILON) * 1000) / 1000).toString();
+      return s.replace(/\.0+$/, '').replace(/(\.\d*?)0+$/, '$1');
+    }
+
+    function solveDays(tubeG, percent, freqPerDay) {
+      const gApply = gramsPerApply(percent);
+      const applies = Math.floor(tubeG / gApply);
+      const days = applies / freqPerDay;
+      return { gApply, applies, days };
+    }
+
+    function solveTubes(tubeG, percent, freqPerDay, days) {
+      const gApply = gramsPerApply(percent);
+      const totalG = gApply * freqPerDay * days;
+      const tubes = Math.ceil(totalG / tubeG);
+      return { gApply, totalG, tubes };
+    }
+
+    // ===== Question generators =====
+    function genType1() {
+      const tube = pick(TUBES);
+      const freq = pick(FREQS);
+      const percent = pick(LOW_ODD_PERCENTS);
+
+      const regionCount = randInt(1, 2);
+      const regions = pickManyUnique(REGIONS, regionCount);
+
+      let parts = [];
+      if (regionCount === 1) parts = [percent];
+      else {
+        const a = randInt(1, percent - 1);
+        parts = [a, percent - a];
+      }
+
+      const { gApply, applies, days } = solveDays(tube, percent, freq);
+
+      const q = `
+        Người bệnh có tổn thương:
+        <ul>${regions.map((r, i) => `<li><b>${r}</b>: ${parts[i]}%</li>`).join("")}</ul>
+        Dùng tuýp <b>${tube}g</b>, bôi <b>${freq} lần/ngày</b>.<br><br>
+        👉 <b>Hỏi:</b> dùng được <b>mấy ngày</b>?
+      `;
+
+      const a = `
+        Tổng % = ${parts.join(" + ")} = <b>${percent}%</b><br>
+        Thuốc mỗi lần bôi = ${percent} × 0.25 = <b>${fmt(gApply)} g/lần</b><br>
+        Số lần bôi dùng được = floor(${tube} / ${fmt(gApply)}) = <b>${applies} lần</b><br>
+        Số ngày = ${applies} / ${freq} = <b>${fmt(days)} ngày</b>
+      `;
+
+      return { typeLabel: "Dạng 1 (mấy ngày?)", questionHtml: q, answerHtml: a };
+    }
+
+    function genType2() {
+      const tube = pick(TUBES);
+      const freq = pick(FREQS);
+      const days = randInt(2, 7);
+      const percent = pick(LOW_ODD_PERCENTS);
+
+      const regionCount = randInt(1, 2);
+      const regions = pickManyUnique(REGIONS, regionCount);
+
+      let parts = [];
+      if (regionCount === 1) parts = [percent];
+      else {
+        const a = randInt(1, percent - 1);
+        parts = [a, percent - a];
+      }
+
+      const { gApply, totalG, tubes } = solveTubes(tube, percent, freq, days);
+
+      const q = `
+        Người bệnh có tổn thương:
+        <ul>${regions.map((r, i) => `<li><b>${r}</b>: ${parts[i]}%</li>`).join("")}</ul>
+        Bôi <b>${days} ngày</b>, <b>${freq} lần/ngày</b>, dùng tuýp <b>${tube}g</b>.<br><br>
+        👉 <b>Hỏi:</b> cần <b>mấy tuýp</b>?
+      `;
+
+      const a = `
+        Tổng % = ${parts.join(" + ")} = <b>${percent}%</b><br>
+        Thuốc mỗi lần bôi = ${percent} × 0.25 = <b>${fmt(gApply)} g/lần</b><br>
+        Tổng thuốc = ${fmt(gApply)} × ${freq} × ${days} = <b>${fmt(totalG)} g</b><br>
+        Số tuýp = ceil(${fmt(totalG)} / ${tube}) = <b>${tubes} tuýp</b>
+      `;
+
+      return { typeLabel: "Dạng 2 (mấy tuýp?)", questionHtml: q, answerHtml: a };
+    }
+
+    function genType3() {
+      const tube = pick(TUBES);
+      const freq = pick(FREQS);
+      const regionCount = randInt(2, 4);
+      const regions = pickManyUnique(REGIONS, regionCount);
+
+      const PART_POOL = [1,2,3,4,5,6,7,8,9,11,13];
+      const parts = regions.map(() => pick(PART_POOL));
+      const percent = parts.reduce((s, x) => s + x, 0);
+
+      const askDays = Math.random() < 0.5;
+
+      if (askDays) {
+        const { gApply, applies, days } = solveDays(tube, percent, freq);
+        const q = `
+          Người bệnh có tổn thương:
+          <ul>${regions.map((r, i) => `<li><b>${r}</b>: ${parts[i]}%</li>`).join("")}</ul>
+          Dùng tuýp <b>${tube}g</b>, bôi <b>${freq} lần/ngày</b>.<br><br>
+          👉 <b>Hỏi:</b> dùng được <b>mấy ngày</b>?
+        `;
+        const a = `
+          Tổng % = ${parts.join(" + ")} = <b>${percent}%</b><br>
+          Thuốc mỗi lần bôi = ${percent} × 0.25 = <b>${fmt(gApply)} g/lần</b><br>
+          Số lần bôi dùng được = floor(${tube} / ${fmt(gApply)}) = <b>${applies} lần</b><br>
+          Số ngày = ${applies} / ${freq} = <b>${fmt(days)} ngày</b>
+        `;
+        return { typeLabel: "Dạng 3 (nhiều vùng → mấy ngày?)", questionHtml: q, answerHtml: a };
+      } else {
+        const days = randInt(2, 7);
+        const { gApply, totalG, tubes } = solveTubes(tube, percent, freq, days);
+        const q = `
+          Người bệnh có tổn thương:
+          <ul>${regions.map((r, i) => `<li><b>${r}</b>: ${parts[i]}%</li>`).join("")}</ul>
+          Bôi <b>${days} ngày</b>, <b>${freq} lần/ngày</b>, dùng tuýp <b>${tube}g</b>.<br><br>
+          👉 <b>Hỏi:</b> cần <b>mấy tuýp</b>?
+        `;
+        const a = `
+          Tổng % = ${parts.join(" + ")} = <b>${percent}%</b><br>
+          Thuốc mỗi lần bôi = ${percent} × 0.25 = <b>${fmt(gApply)} g/lần</b><br>
+          Tổng thuốc = ${fmt(gApply)} × ${freq} × ${days} = <b>${fmt(totalG)} g</b><br>
+          Số tuýp = ceil(${fmt(totalG)} / ${tube}) = <b>${tubes} tuýp</b>
+        `;
+        return { typeLabel: "Dạng 3 (nhiều vùng → mấy tuýp?)", questionHtml: q, answerHtml: a };
+      }
+    }
+
+    function generateQuestion() {
+      const r = Math.random();
+      if (r < 0.34) return genType1();
+      if (r < 0.68) return genType2();
+      return genType3();
+    }
+
+    // ===== UI Wiring =====
+    const elQ = document.getElementById("question");
+    const elA = document.getElementById("answer");
+    const elAText = document.getElementById("answerText");
+    const elType = document.getElementById("qType");
+    const btnAnswer = document.getElementById("btnAnswer");
+    const btnNext = document.getElementById("btnNext");
+
+    const elTimerPill = document.getElementById("timer");
+    const elTimeLeft = document.getElementById("timeLeft");
+    const elToast = document.getElementById("toast");
+    const elTimeSpent = document.getElementById("timeSpent");
+
+    // ===== Countdown & time tracking =====
+    const START_SECONDS = getTimerSecondsFromQuery(20);
+    let remaining = START_SECONDS;
+    let timerId = null;
+    let toastId = null;
+    let countdownActive = false;
+
+    // Time tracking: when question displayed
+    let questionStartMs = Date.now();
+
+    // Update initial label immediately
+    elTimeLeft.textContent = String(START_SECONDS);
+
+    function showToast(msg) {
+      elToast.textContent = msg;
+      elToast.classList.add("show");
+      if (toastId) clearTimeout(toastId);
+      toastId = setTimeout(() => elToast.classList.remove("show"), 2200);
+    }
+
+    function stopTimer({ hide = false, markPaused = false } = {}) {
+      if (timerId) clearInterval(timerId);
+      timerId = null;
+      countdownActive = false;
+
+      elTimerPill.classList.remove("warn", "danger");
+      if (markPaused) elTimerPill.classList.add("paused");
+      else elTimerPill.classList.remove("paused");
+
+      if (hide) elTimerPill.classList.add("hidden");
+      else elTimerPill.classList.remove("hidden");
+    }
+
+    function renderTimer() {
+      elTimeLeft.textContent = String(remaining);
+
+      elTimerPill.classList.remove("warn", "danger", "paused");
+      if (!countdownActive) {
+        elTimerPill.classList.add("paused");
+        return;
+      }
+      if (remaining <= 5) elTimerPill.classList.add("danger");
+      else if (remaining <= 10) elTimerPill.classList.add("warn");
+    }
+
+    function startTimer() {
+      stopTimer({ hide: false, markPaused: false });
+      remaining = START_SECONDS;
+      countdownActive = true;
+      renderTimer();
+
+      timerId = setInterval(() => {
+        remaining -= 1;
+        if (remaining <= 0) {
+          remaining = 0;
+          renderTimer();
+          stopTimer({ hide: false, markPaused: true });
+          alert("Hết giờ!");
+          showToast("⏱️ Hết giờ! (Câu hỏi vẫn giữ nguyên)");
+          return;
+        }
+        renderTimer();
+      }, 1000);
+    }
+
+    function formatElapsed(ms) {
+      const totalSec = Math.max(0, Math.floor(ms / 1000));
+      const m = Math.floor(totalSec / 60);
+      const s = totalSec % 60;
+      if (m <= 0) return `${s}s`;
+      return `${m}m ${s}s`;
+    }
+
+    // ===== Render question =====
+    function renderNew() {
+      const current = generateQuestion();
+      elType.textContent = current.typeLabel;
+      elQ.innerHTML = current.questionHtml;
+      elAText.innerHTML = current.answerHtml;
+
+      elA.classList.remove("show");
+      btnAnswer.textContent = "Đáp án";
+
+      // Reset time tracking for this question
+      questionStartMs = Date.now();
+      elTimeSpent.textContent = ""; // will be set when showing answer
+
+      startTimer();
+    }
+
+    btnAnswer.addEventListener("click", () => {
+      const willShow = !elA.classList.contains("show");
+
+      if (willShow) {
+        // Stop + hide countdown
+        stopTimer({ hide: true, markPaused: false });
+
+        // Show time spent since question appeared
+        const elapsed = Date.now() - questionStartMs;
+        elTimeSpent.innerHTML = `⏳ Bạn đã tính trong: <b>${formatElapsed(elapsed)}</b> kể từ lúc câu hỏi hiện ra.`;
+      }
+
+      elA.classList.toggle("show");
+      btnAnswer.textContent = elA.classList.contains("show") ? "Ẩn đáp án" : "Đáp án";
+    });
+
+    btnNext.addEventListener("click", () => renderNew());
+
+    // initial
+    renderNew();
+  </script>
+</body>
+</html>

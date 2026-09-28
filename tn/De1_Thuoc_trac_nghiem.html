@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Đề 1 – Trắc nghiệm: Thuốc dùng cho trẻ em (Nha khoa)</title>
+<style>
+  :root{--bg:#0f172a;--card:#1e293b;--accent:#38bdf8;--ok:#22c55e;--bad:#ef4444;--txt:#e2e8f0;--muted:#94a3b8;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(160deg,#0f172a,#111827);color:var(--txt);line-height:1.5;padding:16px;}
+  .wrap{max-width:820px;margin:0 auto;}
+  header{text-align:center;padding:14px 0 8px;}
+  header h1{font-size:1.35rem;margin:0 0 4px;color:#fff;}
+  header p{margin:2px 0;color:var(--muted);font-size:.9rem;}
+  .panel{background:var(--card);border:1px solid #334155;border-radius:14px;padding:20px;margin-top:16px;box-shadow:0 8px 30px rgba(0,0,0,.35);}
+  .bar{height:8px;background:#0b1220;border-radius:99px;overflow:hidden;margin:10px 0 4px;}
+  .bar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,#38bdf8,#22c55e);transition:width .3s;}
+  .meta{display:flex;justify-content:space-between;font-size:.82rem;color:var(--muted);margin-bottom:6px;flex-wrap:wrap;gap:6px;}
+  .q{font-size:1.08rem;font-weight:600;margin:6px 0 14px;color:#fff;}
+  .opt{display:block;width:100%;text-align:left;background:#0b1220;border:1.5px solid #334155;color:var(--txt);border-radius:10px;padding:12px 14px;margin:8px 0;cursor:pointer;font-size:.98rem;transition:all .15s;}
+  .opt:hover:not(:disabled){border-color:var(--accent);}
+  .opt .k{display:inline-block;width:22px;font-weight:700;color:var(--accent);}
+  .opt.correct{border-color:var(--ok);background:rgba(34,197,94,.12);}
+  .opt.wrong{border-color:var(--bad);background:rgba(239,68,68,.12);}
+  .opt:disabled{cursor:default;opacity:.95;}
+  .explain{margin-top:10px;padding:11px 13px;border-radius:10px;background:#0b1220;border-left:4px solid var(--accent);font-size:.9rem;color:#cbd5e1;display:none;}
+  .explain.show{display:block;}
+  .row{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;}
+  button.btn{background:var(--accent);color:#04263a;border:none;border-radius:10px;padding:11px 18px;font-weight:700;cursor:pointer;font-size:.95rem;}
+  button.btn.sec{background:#334155;color:#e2e8f0;}
+  button.btn:disabled{opacity:.4;cursor:not-allowed;}
+  .center{text-align:center;}
+  .big{font-size:2.4rem;font-weight:800;color:#fff;margin:6px 0;}
+  .tag{display:inline-block;font-size:.72rem;background:#0b1220;border:1px solid #334155;color:var(--muted);padding:3px 9px;border-radius:99px;margin-bottom:8px;}
+  .grid{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+  .chip{font-size:.8rem;padding:6px 10px;border-radius:8px;border:1px solid #334155;background:#0b1220;cursor:pointer;}
+  .chip.on{border-color:var(--accent);color:var(--accent);}
+  .review-item{border-top:1px solid #334155;padding:12px 0;font-size:.9rem;}
+  .review-item .ri-q{font-weight:600;color:#fff;}
+  .review-item .ri-a{color:#cbd5e1;margin-top:4px;}
+  .ok{color:var(--ok)} .bad{color:var(--bad)}
+  a.src{color:var(--muted);font-size:.78rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">ĐỀ 1 · 100 câu A/B/C/D</span>
+    <h1>Thuốc dùng cho trẻ em trong Nha khoa</h1>
+    <p>Dược động học · Thuốc tê · Thuốc giảm đau · Kháng sinh · Kháng nấm/virus · Tính liều</p>
+  </header>
+
+  <!-- START SCREEN -->
+  <div class="panel" id="start">
+    <p>Bộ câu hỏi bám sát tài liệu <b>“14. Thuốc.pdf”</b>. Mỗi câu có 4 phương án gần giống nhau để tăng độ khó. Chọn số câu muốn luyện:</p>
+    <div class="grid" id="countChips"></div>
+    <div class="row">
+      <label style="display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)">
+        <input type="checkbox" id="shuffle" checked> Xáo trộn câu hỏi &amp; đáp án
+      </label>
+    </div>
+    <div class="row">
+      <button class="btn" onclick="startQuiz()">Bắt đầu luyện tập ▶</button>
+    </div>
+  </div>
+
+  <!-- QUIZ SCREEN -->
+  <div class="panel" id="quiz" style="display:none">
+    <div class="meta">
+      <span id="progressTxt"></span>
+      <span id="scoreTxt"></span>
+    </div>
+    <div class="bar"><i id="progressBar"></i></div>
+    <div class="q" id="qText"></div>
+    <div id="opts"></div>
+    <div class="explain" id="explain"></div>
+    <div class="row">
+      <button class="btn sec" id="skipBtn" onclick="nextQ()">Bỏ qua</button>
+      <button class="btn" id="nextBtn" onclick="nextQ()" disabled>Câu tiếp ▶</button>
+    </div>
+  </div>
+
+  <!-- RESULT SCREEN -->
+  <div class="panel center" id="result" style="display:none">
+    <p class="tag">KẾT QUẢ</p>
+    <div class="big" id="finalScore"></div>
+    <p id="finalMsg" style="color:var(--muted)"></p>
+    <div class="row" style="justify-content:center">
+      <button class="btn" onclick="location.reload()">Làm lại ⟳</button>
+      <button class="btn sec" onclick="toggleReview()">Xem lại bài ▾</button>
+    </div>
+    <div id="review" style="text-align:left;display:none;margin-top:14px"></div>
+  </div>
+
+  <p class="center" style="margin-top:18px"><a class="src" href="14. Thuốc.pdf">Nguồn: 14. Thuốc.pdf</a></p>
+</div>
+
+<script>
+/* ================= NGÂN HÀNG CÂU HỎI – ĐỀ 1 =================
+   Mỗi câu: {q: đề, a: [4 phương án], c: chỉ số đáp án đúng (0-3), e: giải thích}
+   Nội dung bám sát tài liệu, phương án nhiễu gần giống nhau. */
+const BANK = [
+{q:"Thời gian làm trống dạ dày ở trẻ nhỏ thay đổi như thế nào so với người lớn?",a:["Kéo dài hơn (6–8 giờ so với ~2 giờ)","Ngắn hơn (dưới 1 giờ)","Bằng đúng người lớn","Không liên quan đến hấp thu thuốc"],c:0,e:"Ở trẻ, thời gian làm trống dạ dày kéo dài (6–8h so với ~2h ở người lớn), ảnh hưởng tốc độ và hiệu quả hấp thu thuốc."},
+{q:"Khi độ pH dạ dày thấp (nhiều acid), sự hấp thu thuốc thay đổi ra sao?",a:["Tăng hấp thu thuốc acid yếu, giảm hấp thu thuốc kiềm yếu","Tăng hấp thu thuốc kiềm yếu, giảm hấp thu thuốc acid yếu","Tăng hấp thu cả acid yếu lẫn kiềm yếu","Giảm hấp thu mọi loại thuốc"],c:0,e:"pH dạ dày thấp làm tăng hấp thu thuốc có tính acid yếu và giảm hấp thu thuốc có tính kiềm yếu."},
+{q:"So với người lớn, cung lượng tim, thông khí phế nang và tỉ lệ tưới máu cơ quan ở trẻ em:",a:["Cao hơn, nên thuốc hít/xông thấm nhanh hơn","Thấp hơn, nên thuốc hít/xông thấm chậm hơn","Bằng nhau, không ảnh hưởng thuốc hít","Cao hơn nhưng làm thuốc hít thấm chậm hơn"],c:0,e:"Các chỉ số này ở trẻ cao hơn người lớn nên các thuốc hít, xông thấm nhập nhanh hơn."},
+{q:"Thuốc phun khí dung được dùng nhiều nhất ở trẻ em là gì?",a:["Salbutamol","Adrenaline","Atropine","Dexamethasone"],c:0,e:"Salbutamol là thuốc khí dung dùng nhiều nhất ở trẻ trong điều trị hen phế quản và viêm tiểu phế quản."},
+{q:"Chỉ những phân tử thuốc có kích thước cỡ nào mới đến và lắng đọng được trong phế nang?",a:["Cỡ micron","Cỡ milimet","Cỡ centimet","Bất kỳ kích thước nào"],c:0,e:"Chỉ các phân tử thuốc kích thước cỡ micron mới đến và lắng đọng ở phế nang."},
+{q:"Vì sao thuốc bôi ngoài da ở trẻ nhỏ có thể hấp thu nhanh và gần như hoàn toàn?",a:["Do lớp sừng của da mỏng","Do da trẻ dày và nhiều mỡ","Do da trẻ ít mạch máu","Do pH da trẻ rất thấp"],c:0,e:"Lớp sừng mỏng khiến thuốc dùng tại chỗ có thể hấp thu nhanh và gần như hoàn toàn."},
+{q:"Ở trẻ sơ sinh, tỉ lệ giữa diện tích da và cân nặng so với người lớn là:",a:["Gấp khoảng ba lần","Bằng nhau","Bằng một nửa","Gấp mười lần"],c:0,e:"Trẻ sơ sinh có tỉ lệ diện tích da/cân nặng gấp khoảng ba lần người lớn nên dễ hấp thu quá mức thuốc bôi."},
+{q:"Nhược điểm khi bôi Betadine trên một diện tích da rộng ở trẻ là gì?",a:["Có thể gây cháy (bỏng) da","Gây tê da kéo dài","Làm hạ thân nhiệt","Gây co giật tại chỗ"],c:0,e:"Bôi Betadine trên diện rộng có thể gây cháy/bỏng da ở trẻ."},
+{q:"Để nhỏ mũi cho trẻ nhỏ, nên ưu tiên dùng loại nào?",a:["Nước muối sinh lý","Dung dịch dầu","Thuốc co mạch tại chỗ (rhinex)","Dung dịch có corticoid"],c:0,e:"Nên dùng nước muối sinh lý; tránh dung dịch dầu (sặc vào phổi) và thuốc co mạch tại chỗ ở trẻ nhỏ."},
+{q:"Vì sao không nên nhỏ mũi cho trẻ nhỏ bằng dung dịch dầu?",a:["Nguy cơ sặc vào phổi","Gây kích ứng niêm mạc mũi","Làm khô niêm mạc mũi","Gây nghiện thuốc"],c:0,e:"Dung dịch dầu có nguy cơ sặc vào phổi nên không dùng để nhỏ mũi cho trẻ nhỏ."},
+{q:"Đường trực tràng thích hợp cho nhóm bệnh nhi nào?",a:["Hôn mê, co giật, ói nhiều","Trẻ đang bú tốt, không bệnh","Trẻ dị ứng thuốc uống","Trẻ cần tác dụng kéo dài chậm"],c:0,e:"Đường trực tràng hữu ích cho bệnh nhi hôn mê, co giật, ói nhiều vì niêm mạc hấp thu tốt, tác dụng nhanh."},
+{q:"Nhược điểm của đường dùng thuốc qua trực tràng là gì?",a:["Hấp thu không hằng định, có thể bị men tiêu hóa phá hủy","Hấp thu quá nhanh gây ngộ độc chắc chắn","Không bao giờ hấp thu được","Chỉ dùng được cho người lớn"],c:0,e:"Hấp thu qua trực tràng không hằng định, có thể gây kích thích tại chỗ và bị men tiêu hóa phá hủy."},
+{q:"Vì sao tiêm bắp ở trẻ nhỏ thường kém hiệu quả hấp thu?",a:["Khối cơ ít và tuần hoàn ngoại biên kém phát triển","Cơ quá nhiều mỡ","Da trẻ quá dày","Máu chảy quá nhanh qua cơ"],c:0,e:"Trẻ có khối cơ ít và tuần hoàn ngoại biên kém phát triển nên tiêm bắp hấp thu kém."},
+{q:"Về gắn kết protein huyết tương ở trẻ nhỏ, điều nào đúng?",a:["Tỉ lệ protein (albumin) giảm nên phần thuốc tự do cao hơn","Tỉ lệ protein tăng nên thuốc gắn kết nhiều hơn","Không có protein gắn kết thuốc","Chỉ globulin gắn kết thuốc"],c:0,e:"Trẻ nhỏ có tỉ lệ protein huyết tương (albumin) giảm nên thuốc gắn kết cao sẽ có phần tự do cao → tác dụng tăng."},
+{q:"Thuốc gắn kết protein mạnh có thể chiếm chỗ bilirubin đã gắn kết, hậu quả là:",a:["Tăng bilirubin tự do → vàng da (trẻ sơ sinh)","Giảm bilirubin toàn phần","Tăng hồng cầu","Hạ đường huyết"],c:0,e:"Thuốc chiếm chỗ bilirubin làm tăng bilirubin tự do, gây vàng da ở trẻ sơ sinh."},
+{q:"Hàng rào máu não ở trẻ nhỏ có đặc điểm gì?",a:["Tính thấm cao nên thuốc dễ thâm nhập","Rất kín, thuốc không qua được","Chỉ cho qua thuốc tan trong nước","Không tồn tại ở trẻ"],c:0,e:"Hàng rào máu não trẻ có tính thấm cao; có lợi với kháng sinh nhưng bất lợi với thuốc ức chế TKTW."},
+{q:"Metoclopramide (Primperan) cần thận trọng ở trẻ dưới 16 tuổi vì:",a:["Dễ thấm qua hàng rào máu não gây phản ứng phụ trên TKTW","Gây tổn thương gan cấp","Làm tăng đường huyết","Gây co mạch ngoại biên"],c:0,e:"Ở trẻ <16 tuổi thuốc dễ thấm qua hàng rào máu não, cần thận trọng vì phản ứng phụ trên thần kinh trung ương."},
+{q:"Vì sao trẻ dễ ngộ độc với nhiều loại thuốc hơn?",a:["Các thụ thể thường nhạy cảm hơn","Các thụ thể kém nhạy cảm","Trẻ không có thụ thể thuốc","Gan trẻ chuyển hóa quá nhanh"],c:0,e:"Ở trẻ, các thụ thể thường nhạy cảm hơn nên dễ ngộ độc."},
+{q:"Với thuốc mê hít Halothan, thụ thể ở trẻ kém nhạy cảm, dẫn tới:",a:["Cần tăng nồng độ, nhưng sau đó giảm dần theo tuổi","Cần giảm nồng độ tối đa","Không dùng được cho trẻ","Gây độc gan chắc chắn"],c:0,e:"Thụ thể kém nhạy với thuốc mê hít (Halothan) nên cần nồng độ cao hơn, sau đó giảm dần theo tuổi."},
+{q:"Ở trẻ, enzym Glucuronyl transferase giảm dễ gây ngộ độc nhóm thuốc nào?",a:["Chloramphenicol, Sulfisoxazole, Morphine, Steroid","Penicillin, Amoxicillin","Paracetamol liều thấp","Nước muối sinh lý"],c:0,e:"Glucuronyl transferase giảm gây ngộ độc Chloramphenicol, Sulfisoxazole, Morphine và Steroid."},
+{q:"Tỉ lệ nước toàn bộ cơ thể ở nhũ nhi so với người lớn:",a:["Lớn hơn (≈80% so với ≈50%)","Nhỏ hơn (≈30%)","Bằng nhau","Không đo được"],c:0,e:"Tỉ lệ nước toàn bộ ở nhũ nhi ≈80% so với ≈50% ở người lớn, đặc biệt là dịch ngoại bào."},
+{q:"Do tỉ lệ nước cơ thể lớn, với thuốc tan trong nước ở trẻ cần:",a:["Tăng liều","Giảm liều","Giữ nguyên liều người lớn","Không dùng được"],c:0,e:"Tỉ lệ nước lớn (nhất là dịch ngoại bào) nên thuốc tan trong nước cần tăng liều."},
+{q:"Với thuốc tan trong mỡ (Barbiturate, Diazepam), tác dụng ở trẻ có xu hướng:",a:["Giảm do giảm ngưỡng hiệu quả liên quan tỉ lệ mỡ","Tăng rất mạnh","Không thay đổi","Chuyển thành độc gan"],c:0,e:"Tỉ lệ mỡ ở trẻ thay đổi theo tuổi làm giảm tác dụng của thuốc tan trong mỡ như Barbiturate, Diazepam."},
+{q:"Huyết áp của trẻ tăng dần và đạt mức người lớn vào khoảng:",a:["13–15 tuổi","3–5 tuổi","6–8 tuổi","18–20 tuổi"],c:0,e:"Huyết áp tăng dần và đạt mức người lớn khi 13–15 tuổi."},
+{q:"Khi tiêm tĩnh mạch, thuốc lên não ở trẻ nhanh vì:",a:["≈40% cung lượng tim vào dòng máu não (so với ≈20% người lớn)","Não trẻ không có hàng rào máu não","Tim trẻ đập chậm hơn","Máu trẻ đặc hơn"],c:0,e:"Ở trẻ ≈40% cung lượng tim góp vào dòng máu não (so với ≈20% ở người lớn) nên tiêm TM lên não nhanh."},
+{q:"Độ lọc cầu thận đạt mức bình thường vào khoảng thời điểm nào?",a:["3–6 tháng tuổi","Ngay khi sinh","2–3 tuổi","10 tuổi"],c:0,e:"Độ lọc cầu thận đạt mức bình thường vào khoảng 3–6 tháng tuổi."},
+{q:"Amidan sưng to ở trẻ có ý nghĩa gì khi gây mê?",a:["Tăng nguy cơ biến chứng đường thở","Giảm nguy cơ biến chứng đường thở","Không liên quan đường thở","Giúp gây mê nhanh hơn"],c:0,e:"Amidan sưng to làm tăng nguy cơ biến chứng đường thở khi gây mê."},
+{q:"Vì sao thuốc tê thường kém hiệu quả ở vùng đang viêm?",a:["Thuốc tê là chất kiềm yếu, kém tác dụng ở môi trường pH acid của vùng viêm","Vùng viêm không có dây thần kinh","Thuốc tê bị phá hủy bởi vi khuẩn","Vùng viêm hấp thu quá nhanh"],c:0,e:"Thuốc tê là chất kiềm yếu nên không hiệu quả ở vùng viêm có pH acid."},
+{q:"Nhóm thuốc tê nào hay gây dị ứng hơn?",a:["Nhóm Esters (Procaine, Tetracaine, Cocaine)","Nhóm Amides (Lidocaine, Bupivacaine)","Cả hai nhóm dị ứng như nhau","Không nhóm nào gây dị ứng"],c:0,e:"Nhóm Esters (Cocaine, Procaine, Tetracaine, Chloroprocaine) hay gây dị ứng, trong khi Amides ít gây dị ứng."},
+{q:"Thuốc nào sau đây thuộc nhóm thuốc tê Amides (ít gây dị ứng)?",a:["Lidocaine","Procaine","Tetracaine","Cocaine"],c:0,e:"Lidocaine thuộc nhóm Amides (Lidocaine, Mepivacaine, Prilocaine, Bupivacaine, Etidocaine) – ít gây dị ứng."},
+{q:"Việc thêm thuốc co mạch (adrenaline) vào thuốc tê nhằm mục đích gì?",a:["Giảm truyền máu tới mô, kéo dài tác dụng, giảm nồng độ thuốc tê vào máu","Tăng máu tới mô để thuốc tan nhanh","Rút ngắn thời gian tác dụng","Làm thuốc tê mất tác dụng"],c:0,e:"Thuốc co mạch giảm tưới máu mô, kéo dài thời gian tác dụng và giảm nồng độ thuốc tê vào máu (giảm ngộ độc)."},
+{q:"Độc tính của thuốc co mạch (adrenaline) khi dùng quá nhiều gồm:",a:["Nhịp tim nhanh, cao huyết áp, loạn nhịp","Nhịp tim chậm, hạ huyết áp","Hạ đường huyết đơn thuần","Tăng tiết nước bọt"],c:0,e:"Độc tính gồm nhịp tim nhanh, cao huyết áp và loạn nhịp."},
+{q:"Phản ứng của thần kinh trung ương khi quá liều thuốc tê diễn ra theo trình tự nào?",a:["Ức chế (buồn ngủ) rồi kích thích (co giật)","Chỉ ức chế đơn thuần","Chỉ kích thích rồi hồi phục","Không ảnh hưởng TKTW"],c:0,e:"Phản ứng TKTW có 2 giai đoạn: ức chế (buồn ngủ, mất ý thức tạm thời) rồi kích thích (co giật)."},
+{q:"Về tác dụng ức chế cơ tim của thuốc tê theo tiềm lực, thứ tự đúng là:",a:["Procaine < Lidocaine và Bupivacaine, Etidocaine","Bupivacaine < Procaine","Lidocaine < Procaine","Tất cả bằng nhau"],c:0,e:"Tác dụng ức chế cơ tim tỉ lệ với tiềm lực: procaine < lidocaine và bupivacaine, etidocaine."},
+{q:"Liều tối đa của thuốc tê được tính theo đơn vị nào?",a:["mg/kg trọng lượng cơ thể","mg/tuổi","ml/ngày","Số ống cố định cho mọi trẻ"],c:0,e:"Liều tối đa thuốc tê tính theo mg/kg trọng lượng cơ thể."},
+{q:"Theo thang giảm đau 3 bậc, bậc 1 gồm những thuốc nào?",a:["Aspirin, Paracetamol và các NSAID","Codeine, Dextropropoxyphene","Morphine","Chỉ Morphine + phụ trợ"],c:0,e:"Bậc 1: Aspirin, Paracetamol và các NSAID khác."},
+{q:"Theo thang giảm đau 3 bậc, thuốc đại diện của bậc 2 là:",a:["Codeine (± Dextropropoxyphene)","Morphine","Aspirin","Paracetamol"],c:0,e:"Bậc 2 là thuốc giảm đau trung ương yếu như Codeine, Dextropropoxyphene kèm thuốc phụ trợ."},
+{q:"Thuốc đại diện của bậc 3 (giảm đau trung ương mạnh) là:",a:["Morphine","Codeine","Ibuprofen","Aspirin"],c:0,e:"Bậc 3 là thuốc giảm đau trung ương mạnh, đại diện là Morphine."},
+{q:"Đặc điểm tác dụng nào KHÔNG thuộc về Aspirin?",a:["Không có tác dụng chống viêm","Giảm đau","Hạ nhiệt","Chống viêm"],c:0,e:"Aspirin có cả giảm đau, hạ nhiệt và chống viêm; câu 'không chống viêm' là sai với Aspirin (đó là đặc điểm của Paracetamol)."},
+{q:"Aspirin chống chỉ định trong trường hợp nào sau đây?",a:["Bệnh nhân rối loạn đông máu, đang dùng Warfarin, trước phẫu thuật","Trẻ sốt nhẹ không bệnh nền","Người khỏe mạnh cần giảm đau","Bệnh nhân thiếu vitamin C"],c:0,e:"Aspirin ảnh hưởng đông máu, kích ứng dạ dày nên CCĐ ở người rối loạn đông máu, dạ dày, đang dùng Warfarin, trước phẫu thuật."},
+{q:"Acetaminophen (Paracetamol) khác Aspirin ở điểm nào?",a:["Giảm đau, hạ sốt nhưng KHÔNG chống viêm","Chống viêm mạnh hơn Aspirin","Gây rối loạn đông máu","Kích ứng dạ dày nhiều hơn"],c:0,e:"Acetaminophen giảm đau, hạ sốt nhưng không có tác dụng chống viêm."},
+{q:"Nguy cơ nghiêm trọng khi dùng quá liều Acetaminophen là gì?",a:["Suy gan, hoại tử gan trầm trọng","Suy thận cấp không hồi phục","Xuất huyết dạ dày ồ ạt","Loạn nhịp tim"],c:0,e:"Quá liều Acetaminophen có thể gây suy gan và hoại tử gan trầm trọng."},
+{q:"Liều Acetaminophen cho trẻ em thường dùng là:",a:["10–15 mg/kg mỗi 3–4 lần/ngày, tối đa 1000mg trong 6 giờ","50 mg/kg mỗi lần","1 g/lần cho mọi trẻ","0,5 mg/kg/ngày"],c:0,e:"Trẻ em dùng 10–15 mg/kg × 3–4 lần/ngày; tối đa 1000mg trong 6 giờ."},
+{q:"So với Aspirin, tác dụng giảm đau – kháng viêm của NSAID (như Ibuprofen):",a:["Mạnh hơn Aspirin","Yếu hơn Aspirin rõ rệt","Bằng Paracetamol","Không có tác dụng kháng viêm"],c:0,e:"NSAID có tác dụng giảm đau, kháng viêm mạnh hơn Aspirin."},
+{q:"Codeine được chỉ định trong trường hợp nào?",a:["Đau trầm trọng không đáp ứng với các thuốc giảm đau nhẹ hơn","Đau nhẹ thông thường ưu tiên đầu tay","Chỉ dùng hạ sốt","Chỉ dùng kháng viêm khớp"],c:0,e:"Codeine dùng cho đau trầm trọng không đáp ứng các thuốc nhẹ hơn; giảm đau < Morphine, ít gây nghiện hơn."},
+{q:"Tác dụng phụ điển hình của Codeine gồm:",a:["Buồn nôn, táo bón, ức chế hô hấp, gây nghiện (liều cao)","Tiêu chảy, hạ huyết áp mạnh","Tăng đông máu","Tăng tiết mồ hôi lạnh"],c:0,e:"Codeine gây buồn nôn, choáng váng, táo bón, ức chế hô hấp và gây nghiện khi liều cao."},
+{q:"Kháng sinh phổ hẹp có đặc điểm gì?",a:["Chỉ tác dụng lên vi khuẩn gram (-) hoặc gram (+)","Tác dụng lên rất nhiều loại vi khuẩn","Chỉ dùng cho nhiễm virus","Không cần kháng sinh đồ"],c:0,e:"Kháng sinh phổ hẹp chỉ tác dụng lên VK gram (-) hoặc gram (+); phổ rộng tác dụng nhiều loại hơn."},
+{q:"Nhóm Aminoglycoside và Tetracycline tác dụng bằng cơ chế nào?",a:["Gắn vào ribosome 30S","Gắn vào ribosome 50S","Kháng chuyển hóa acid folic","Thay đổi tính thấm màng"],c:0,e:"Aminoglycoside và Tetracycline gắn vào ribosome tiểu đơn vị 30S."},
+{q:"Erythromycin, Chloramphenicol, Clindamycin tác dụng bằng cơ chế nào?",a:["Gắn vào ribosome 50S","Gắn vào ribosome 30S","Ức chế tổng hợp acid nucleic","Kháng chuyển hóa"],c:0,e:"Nhóm này gắn vào ribosome tiểu đơn vị 50S."},
+{q:"Sulfonamide thuộc nhóm kháng sinh tác dụng theo cơ chế:",a:["Kháng chuyển hóa","Gắn ribosome 30S","Thay đổi tính thấm màng tế bào","Ức chế tổng hợp vách"],c:0,e:"Sulfonamide là kháng sinh kháng chuyển hóa."},
+{q:"Nhóm Polymycin B, Nystatin, Amphotericin B tác dụng bằng cách:",a:["Thay đổi tính thấm màng tế bào","Gắn ribosome 50S","Ức chế tổng hợp acid nucleic","Kháng chuyển hóa"],c:0,e:"Các thuốc này thay đổi tính thấm màng tế bào."},
+{q:"Rifampin và Griseofulvin tác dụng theo cơ chế nào?",a:["Ức chế tổng hợp acid nucleic","Gắn ribosome 30S","Thay đổi tính thấm màng","Kháng chuyển hóa"],c:0,e:"Rifampin, acid nalidixic, Griseofulvin ức chế tổng hợp acid nucleic."},
+{q:"Nhóm nào sau đây là kháng sinh KIỀM khuẩn (kìm khuẩn)?",a:["Erythromycin, Tetracycline, Sulfonamide, Chloramphenicol","Aminoglycoside, Cephalosporin","Vancomycin, Bacitracin","Penicillin, Cephalosporin"],c:0,e:"Nhóm kìm khuẩn gồm Erythromycin, Tetracycline, Sulfonamide, Chloramphenicol, Trimethoprim."},
+{q:"Nhóm nào sau đây là kháng sinh DIỆT khuẩn?",a:["Aminoglycoside, Cephalosporin, Vancomycin, Bacitracin","Erythromycin, Tetracycline","Sulfonamide, Chloramphenicol","Trimethoprim, Erythromycin"],c:0,e:"Nhóm diệt khuẩn gồm Aminoglycoside, Cephalosporin, Bacitracin, Vancomycin (và Penicillin)."},
+{q:"Nguyên nhân nào KHÔNG dẫn tới đề kháng kháng sinh theo tài liệu?",a:["Uống nhiều nước khi dùng thuốc","Đột biến","Dùng kháng sinh không thích hợp (nhiễm virus)","Liều lượng và thời gian dùng không hợp lý"],c:0,e:"Đề kháng do đột biến, dùng kháng sinh không thích hợp, kết hợp không hợp lý, liều/thời gian dùng; uống nhiều nước không phải nguyên nhân."},
+{q:"Penicillin G chủ yếu tác dụng trên nhóm vi khuẩn nào?",a:["Chủ yếu vi khuẩn gram (+)","Chủ yếu vi khuẩn gram (-)","Chỉ virus","Chỉ nấm"],c:0,e:"PNC G chủ yếu tác dụng trên vi khuẩn gram (+)."},
+{q:"Vì sao Penicillin G hấp thu kém qua đường uống?",a:["Bị phá hủy bởi acid dạ dày và penicillinase của vi khuẩn","Phân tử quá lớn không tan","Bị gan chuyển hóa hết ngay","Gắn kết hồng cầu"],c:0,e:"PNC G hấp thu kém qua đường uống và bị phá hủy bởi penicillinase do vi khuẩn tiết ra."},
+{q:"So với Ampicillin, Amoxicillin có ưu điểm gì?",a:["Hấp thu tốt hơn và ít gây tiêu chảy hơn","Phổ hẹp hơn nhiều","Không bị penicillinase","Chỉ dùng đường tiêm"],c:0,e:"Amoxicillin hấp thu tốt hơn ampicillin và ít gây tiêu chảy hơn."},
+{q:"Amoxicillin thường được chỉ định trong nhiễm khuẩn nào?",a:["Nhiễm khuẩn đường hô hấp, viêm tai giữa, viêm xoang","Nhiễm nấm miệng","Nhiễm virus HSV","Chỉ nhiễm khuẩn tiết niệu"],c:0,e:"Amoxicillin dùng cho nhiễm khuẩn đường hô hấp, viêm tai giữa, viêm xoang."},
+{q:"Cloxacillin được chọn dùng chủ yếu cho vi khuẩn nào?",a:["Staphylococci sinh penicillinase","Nấm Candida","Virus cúm","Vi khuẩn kỵ khí đường ruột"],c:0,e:"Cloxacillin dùng cho Staphylococci sinh (kháng) penicillinase."},
+{q:"Erythromycin chống chỉ định trong trường hợp nào?",a:["Suy giảm chức năng gan / dị ứng Erythromycin","Nhiễm phế cầu","Viêm tai giữa","Ho gà"],c:0,e:"Erythromycin CCĐ khi suy giảm chức năng gan hoặc dị ứng; có thể gây nhiễm độc gan, phản vệ."},
+{q:"Tác dụng phụ đáng chú ý của nhóm Clindamycin/Lincomycin là:",a:["Tiêu chảy, viêm ruột giả mạc","Vàng da sơ sinh","Nhiễm màu răng","Suy thận cấp"],c:0,e:"Nhóm này gây tiêu chảy, viêm ruột giả mạc, có thể gặp hội chứng Stevens–Johnson."},
+{q:"Cephalosporin thế hệ III có đặc điểm phổ nào?",a:["Tác dụng lên nhiều trực khuẩn gram (-)","Chỉ tác dụng vi khuẩn gram (+)","Không tác dụng vi khuẩn gram (-)","Chỉ tác dụng nấm"],c:0,e:"Cephalosporin III tác dụng lên nhiều trực khuẩn gram (-); thế hệ I kém với gram (-) đường ruột."},
+{q:"Nhược điểm chung của nhóm Cephalosporin so với Penicillin là:",a:["Đắt tiền hơn","Nhiều tác dụng phụ hơn nhiều","Phổ hẹp hơn hẳn","Không dùng được đường tiêm"],c:0,e:"Cephalosporin ít tác dụng phụ nhưng đắt tiền; lưu ý có thể kháng chéo với PNC."},
+{q:"Tetracycline có tác dụng phụ đặc trưng nào ở trẻ em?",a:["Tổn thương, nhiễm màu răng","Vàng da tan máu","Điếc không hồi phục","Suy tủy xương"],c:0,e:"Tetracycline gây tổn thương và nhiễm màu răng, thận; do đó thường dùng cho trẻ > 8 tuổi."},
+{q:"Tetracycline theo tài liệu thường chỉ dùng cho trẻ ở độ tuổi nào?",a:["Trẻ > 8 tuổi","Mọi lứa tuổi","Trẻ sơ sinh","Trẻ < 2 tuổi"],c:0,e:"Do gây nhiễm màu răng, Tetracycline thường chỉ dùng cho trẻ > 8 tuổi."},
+{q:"Chlorhexidine dùng súc miệng có nồng độ đặc trưng nào?",a:["0,12% (Peridex)","2%","10%","0,9%"],c:0,e:"Chlorhexidine súc miệng nồng độ 0,12% (Peridex); ngậm không pha loãng, không nuốt."},
+{q:"Tác dụng phụ đáng lưu ý của Chlorhexidine khi súc miệng là:",a:["Nhiễm màu răng và thay đổi vị giác","Gây mất thính lực","Gây hạ đường huyết","Làm chảy máu dạ dày"],c:0,e:"Chlorhexidine gây nhiễm màu răng, miếng trám và thay đổi vị giác."},
+{q:"Povidone iodine dùng súc miệng (Betadine oral rinse) có nồng độ:",a:["0,5%","5%","10%","1/1000"],c:0,e:"Betadine oral rinse (povidone iodine) nồng độ 0,5%, ngậm 30 giây rồi nhổ, không nuốt."},
+{q:"Nystatin (Mycostatin) được dùng để điều trị:",a:["Nhiễm nấm (Candida) ở miệng","Nhiễm virus HSV","Nhiễm khuẩn gram (+)","Đau răng cấp"],c:0,e:"Nystatin là thuốc kháng nấm, dùng dạng huyền dịch uống ngậm rồi nuốt để trị nấm miệng."},
+{q:"Acyclovir (Zovirax) được chỉ định trong nhiễm tác nhân nào?",a:["Nhiễm virus HSV (Herpes simplex)","Nhiễm nấm Candida","Nhiễm khuẩn tụ cầu","Nhiễm ký sinh trùng"],c:0,e:"Acyclovir (Zovirax) là thuốc kháng virus, dùng cho nhiễm HSV."},
+{q:"Triamcinolone 0,1% (Kenalog, Orabase) thuộc nhóm thuốc nào dùng tại chỗ trong miệng?",a:["Corticoid","Kháng sinh","Kháng nấm","Thuốc tê"],c:0,e:"Triamcinolone 0,1% (Kenalog in Orabase) là corticoid dùng tại chỗ, bôi sau bữa ăn."},
+{q:"Công thức Young dùng để tính liều cho đối tượng nào?",a:["Trẻ < 12 tuổi, dựa trên tuổi","Người già dựa trên cân nặng","Trẻ sơ sinh dựa trên diện tích da","Người lớn béo phì"],c:0,e:"Công thức Young dùng cho trẻ < 12 tuổi: liều = Tuổi/(Tuổi+12) × liều người lớn."},
+{q:"Công thức Clark tính liều trẻ em dựa trên yếu tố nào?",a:["Cân nặng của trẻ","Tuổi của trẻ","Chiều cao của trẻ","Diện tích da"],c:0,e:"Công thức Clark tính liều dựa trên cân nặng của trẻ."},
+{q:"Công thức Pincus–Catzell tính liều trẻ em dựa trên yếu tố nào?",a:["Diện tích da","Cân nặng đơn thuần","Tuổi đơn thuần","Nhịp tim"],c:0,e:"Công thức Pincus–Catzell tính theo diện tích da của trẻ so với người lớn."},
+{q:"Theo bảng Gaubius, trẻ dưới 1 tuổi dùng bao nhiêu so với liều người lớn?",a:["1/12 liều người lớn","1/2 liều người lớn","Bằng liều người lớn","1/24 liều người lớn"],c:0,e:"Bảng Gaubius: trẻ <1 tuổi dùng 1/12 liều người lớn."},
+{q:"Theo bảng Gaubius, trẻ dưới 2 tuổi dùng bao nhiêu so với người lớn?",a:["1/8 liều người lớn","1/12 liều người lớn","1/4 liều người lớn","1/2 liều người lớn"],c:0,e:"Bảng Gaubius: trẻ <2 tuổi dùng 1/8 liều người lớn."},
+{q:"Theo bảng Gaubius, trẻ dưới 4 tuổi dùng bao nhiêu so với người lớn?",a:["1/4 liều người lớn","1/8 liều người lớn","1/12 liều người lớn","3/4 liều người lớn"],c:0,e:"Bảng Gaubius: trẻ <4 tuổi dùng 1/4 liều người lớn."},
+{q:"Đặc điểm giải phẫu – sinh lý nào ở trẻ liên quan đến hô hấp và tạo CO2?",a:["Cơ hoành là cơ chủ yếu hô hấp; tốc độ tiêu thụ O2 và tạo CO2 cao","Chủ yếu thở bằng cơ liên sườn","Không tạo CO2 khi ngủ","Khả năng dự trữ hô hấp lớn hơn người lớn"],c:0,e:"Ở trẻ cơ hoành là cơ hô hấp chủ yếu, tốc độ tiêu thụ O2 và tạo CO2 nhiều, khả năng dự trữ hô hấp kém hơn người lớn."},
+{q:"Béo phì ở trẻ ảnh hưởng đến sử dụng thuốc như thế nào?",a:["Ảnh hưởng phân phối, hấp thu thuốc và có thể gây tắc nghẽn đường thở","Không ảnh hưởng gì","Chỉ ảnh hưởng bài tiết qua thận","Làm thuốc luôn kém tác dụng"],c:0,e:"Béo phì ảnh hưởng phân phối, hấp thu thuốc và có thể gây tắc nghẽn đường thở."},
+{q:"Nhóm thuốc tê nào sau đây gồm toàn các Ester?",a:["Cocaine, Procaine, Tetracaine, Chloroprocaine","Lidocaine, Mepivacaine, Prilocaine","Bupivacaine, Etidocaine","Lidocaine, Procaine"],c:0,e:"Nhóm Ester gồm Cocaine, Procaine, Tetracaine, Chloroprocaine."},
+{q:"Phản ứng hệ tim mạch khi quá liều thuốc tê diễn ra theo trình tự nào?",a:["Kích thích (tim nhanh, HA tăng) rồi ức chế (HA, nhịp tim giảm, truy tim mạch)","Chỉ ức chế cơ tim từ đầu","Chỉ kích thích liên tục","Không ảnh hưởng tim mạch"],c:0,e:"Phản ứng tim mạch có 2 giai đoạn: kích thích (nhịp tim & HA tăng) rồi ức chế cơ tim (HA, nhịp tim giảm, truy tim mạch, ngừng tim)."},
+{q:"Ở trẻ nhỏ, khi lạnh hoặc lo lắng gây co mạch sẽ ảnh hưởng gì đến hấp thu thuốc tiêm?",a:["Giảm hấp thu thuốc","Tăng hấp thu thuốc","Không ảnh hưởng","Làm thuốc phân hủy"],c:0,e:"Co mạch do lạnh hoặc lo lắng làm giảm hấp thu thuốc."},
+{q:"Vì sao khi nhỏ mắt cho trẻ cần đặc biệt thận trọng?",a:["Nhất là với dung dịch có kháng sinh hoặc corticoid","Vì mắt trẻ không hấp thu thuốc","Vì thuốc luôn gây mù","Vì phải dùng liều gấp đôi"],c:0,e:"Cần thận trọng khi nhỏ mắt, đặc biệt các dung dịch chứa kháng sinh hay corticoid."},
+{q:"Đối với thuốc gắn kết protein cao, khi tỉ lệ albumin giảm ở trẻ sẽ dẫn tới:",a:["Tăng phần thuốc tự do và tăng tác dụng","Giảm tác dụng thuốc","Thuốc bị đào thải hết","Không thay đổi tác dụng"],c:0,e:"Albumin giảm → phần thuốc tự do tăng → tác dụng thuốc tăng, đồng thời chiếm chỗ các chất đã gắn kết."},
+{q:"Hệ thống enzym chuyển hóa thuốc ở trẻ có đặc điểm gì?",a:["Trưởng thành ở các mức độ khác nhau","Trưởng thành hoàn toàn từ khi sinh","Không hoạt động cho tới 5 tuổi","Hoạt động mạnh hơn người lớn"],c:0,e:"Hệ enzym chuyển hóa trưởng thành ở các mức độ khác nhau; ví dụ tỉ lệ oxy hóa thấp với Amphetamine, Phenacetine."},
+{q:"Kháng sinh nào sau đây được xếp vào nhóm DIỆT khuẩn cùng với Penicillin?",a:["Cephalosporin","Erythromycin","Tetracycline","Sulfonamide"],c:0,e:"Cephalosporin (cùng Aminoglycoside, Vancomycin, Bacitracin) là nhóm diệt khuẩn như Penicillin."},
+{q:"Penicillin V có đặc điểm nào so với Penicillin G?",a:["Ổn định hơn ở pH dạ dày nên dùng đường uống","Không bị penicillinase phá hủy","Chỉ dùng đường tiêm","Phổ rộng hơn nhiều"],c:0,e:"PNC V ổn định ở pH dạ dày (dùng uống được) nhưng vẫn bị khử bởi penicillinase."},
+{q:"Amoxicillin phối hợp Clavulanate (Augmentin) nhằm mục đích gì?",a:["Chống lại vi khuẩn tiết penicillinase (β-lactamase)","Giảm giá thành thuốc","Tăng hấp thu qua da","Kéo dài thời gian tê"],c:0,e:"Clavulanate là chất ức chế β-lactamase, phối hợp giúp chống vi khuẩn tiết penicillinase."},
+{q:"Về giá thành và tác dụng phụ, nhóm Cephalosporin được mô tả là:",a:["Ít tác dụng phụ, ít đắng nhưng đắt tiền","Nhiều tác dụng phụ, rẻ tiền","Rất đắng và độc gan","Chỉ dùng cho người lớn"],c:0,e:"Cephalosporin ít tác dụng phụ, ít đắng nhưng đắt tiền."},
+{q:"Fluconazole (Diflucan) thuộc nhóm thuốc nào?",a:["Kháng nấm","Kháng virus","Kháng sinh diệt khuẩn","Corticoid"],c:0,e:"Fluconazole (Diflucan) là thuốc kháng nấm."},
+{q:"Với thuốc bôi tại chỗ diện rộng cần lưu ý gì ở trẻ có nhiễm màu (ví dụ thuốc màu)?",a:["Bôi rồi lau bớt để tránh hấp thu quá mức","Bôi càng dày càng tốt","Bôi và băng kín cả ngày","Không cần lưu ý gì"],c:0,e:"Với thuốc nhuộm màu nên bôi rồi lau đi, đặc biệt ở trẻ sơ sinh do tỉ lệ diện tích da/cân nặng lớn."},
+{q:"Ưu điểm của tiêm tĩnh mạch so với các đường khác là gì?",a:["Đạt nồng độ thuốc nhanh và cao trong máu","Hấp thu chậm và kéo dài","Không cần tính liều","Ít tác dụng lên não"],c:0,e:"Tiêm tĩnh mạch đạt nồng độ thuốc nhanh và cao trong máu."},
+{q:"Với kháng sinh nhóm Aminoglycoside, độ lọc cầu thận chưa hoàn chỉnh ở trẻ nhỏ có ý nghĩa gì?",a:["Thải trừ chậm hơn, cần thận trọng liều","Thải trừ nhanh hơn người lớn","Không ảnh hưởng vì gan chuyển hóa hết","Làm thuốc mất tác dụng"],c:0,e:"Aminoglycoside thải qua thận; ở trẻ nhỏ độ lọc cầu thận chưa hoàn chỉnh nên cần thận trọng."},
+{q:"Tác dụng chủ yếu của thuốc giảm đau ngoại biên là ở đâu?",a:["Tận cùng thần kinh (ngoại biên)","Vỏ não","Tủy sống trung ương","Hạch giao cảm"],c:0,e:"Thuốc giảm đau ngoại biên tác dụng chủ yếu ở tận cùng thần kinh, giải quyết phần lớn cơn đau, ít độc tính."},
+{q:"Ưu điểm nổi bật của nhóm thuốc giảm đau ngoại biên (bậc 1) là:",a:["Ít độc tính, ít tác dụng phụ, giải quyết phần lớn đau thông thường","Gây nghiện mạnh","Ức chế hô hấp","Chỉ dùng khi có bậc 3 thất bại"],c:0,e:"Thuốc giảm đau ngoại biên giải quyết ~90% đau thông thường, ít độc tính và ít tác dụng phụ."},
+{q:"Vì sao thuốc tan trong dầu mỡ dễ gây phản ứng phụ trên TKTW ở trẻ nhỏ?",a:["Vì dễ thấm qua hàng rào máu não","Vì bị thận thải chậm","Vì gắn kết hồng cầu","Vì tan trong nước tốt"],c:0,e:"Thuốc tan trong dầu, mỡ thấm qua hàng rào máu não của trẻ dễ hơn, nên cần thận trọng phản ứng phụ trên TKTW."},
+{q:"Chỉ định của corticoid tại chỗ (Triamcinolone/Dexamethasone) trong miệng thường dùng cho:",a:["Tổn thương viêm/loét niêm mạc miệng","Sâu răng","Nhiễm nấm nặng toàn thân","Gãy xương hàm"],c:0,e:"Corticoid tại chỗ (Kenalog Orabase, Dexamethasone cồn ngọt) dùng cho tổn thương viêm loét niêm mạc miệng."},
+{q:"Khi dùng Dexamethasone (Decadron) cồn ngọt tại chỗ đúng cách là:",a:["Ngậm rồi nhổ, không nuốt (khi dùng tại chỗ)","Nuốt ngay lập tức toàn bộ","Pha loãng với nước rồi tiêm","Bôi ngoài da diện rộng"],c:0,e:"Dexamethasone cồn ngọt dùng tại chỗ thì ngậm rồi nhổ, không nuốt."},
+{q:"Về mức độ gây dị ứng, phát biểu nào đúng?",a:["Amides ít gây dị ứng hơn Esters","Esters ít gây dị ứng hơn Amides","Cả hai đều không gây dị ứng","Amides gây dị ứng nhiều hơn Esters"],c:0,e:"Nhóm Amides (Lidocaine...) ít gây dị ứng hơn nhóm Esters."},
+{q:"Vì sao ở trẻ sơ sinh thuốc chuyển hóa qua gan có nguy cơ ngộ độc cao hơn?",a:["Một số enzym gan (như Glucuronyl transferase) chưa trưởng thành","Gan trẻ to gấp đôi","Gan chuyển hóa quá nhanh","Trẻ không có gan chức năng"],c:0,e:"Enzym gan chưa trưởng thành đầy đủ (Glucuronyl transferase giảm) nên dễ ngộ độc một số thuốc."},
+{q:"Salbutamol khí dung chủ yếu điều trị bệnh lý nào ở trẻ?",a:["Hen phế quản và viêm tiểu phế quản","Viêm phổi do vi khuẩn","Nhiễm nấm miệng","Sâu răng"],c:0,e:"Salbutamol khí dung điều trị hen phế quản và viêm tiểu phế quản."},
+{q:"Nhược điểm khi dùng thuốc co mạch tại chỗ ở mũi (rhinex) cho trẻ nhỏ là gì?",a:["Không nên dùng ở trẻ nhỏ vì nguy cơ tác dụng bất lợi","An toàn tuyệt đối","Chỉ có tác dụng nếu nuốt","Gây nghiện tức thì"],c:0,e:"Không nên dùng thuốc co mạch tại chỗ (rhinex) ở trẻ nhỏ; nên dùng nước muối sinh lý."},
+{q:"So với người lớn, khả năng dự trữ hô hấp của trẻ nhỏ:",a:["Kém hơn nhiều","Lớn hơn nhiều","Bằng nhau","Không tồn tại"],c:0,e:"Khả năng dự trữ hô hấp của trẻ nhỏ kém hơn nhiều so với người lớn."},
+{q:"Điểm chung của các công thức Clark, Young, Gaubius, Pincus–Catzell là gì?",a:["Đều dùng để tính liều thuốc cho trẻ em","Đều là công thức pha thuốc tê","Đều tính liều cho người già","Đều xác định phổ kháng khuẩn"],c:0,e:"Đây đều là các công thức/bảng dùng tính liều thuốc cho trẻ em từ liều người lớn."},
+{q:"Vì sao thuốc hít, xông ở trẻ có tác dụng nhanh?",a:["Do thông khí phế nang và tưới máu cao hơn người lớn","Do phổi trẻ nhỏ hơn","Do trẻ thở chậm hơn","Do thuốc không cần hấp thu"],c:0,e:"Thông khí phế nang và tưới máu ở trẻ cao hơn nên thuốc hít/xông thấm nhập nhanh hơn."},
+{q:"Với Acetaminophen, giới hạn tối đa trong 6 giờ cho trẻ là bao nhiêu?",a:["1000 mg","3000 mg","5000 mg","300 mg"],c:0,e:"Acetaminophen tối đa 1000mg trong 6 giờ ở trẻ em."},
+{q:"Nhóm thuốc nào KHÔNG có tác dụng chống viêm?",a:["Acetaminophen (Paracetamol)","Aspirin","Ibuprofen","Naproxen"],c:0,e:"Acetaminophen chỉ giảm đau, hạ sốt, không có tác dụng chống viêm; các NSAID và Aspirin đều chống viêm."},
+{q:"Đặc điểm nào đúng về Codeine so với Morphine?",a:["Giảm đau yếu hơn và ít gây nghiện hơn Morphine","Giảm đau mạnh hơn Morphine","Không gây nghiện dù liều cao","Không ức chế hô hấp"],c:0,e:"Codeine giảm đau < Morphine, ít gây nghiện hơn, nhưng vẫn có thể gây nghiện ở liều cao."}
+];
+
+/* ================= QUIZ ENGINE (dùng chung) ================= */
+let order=[], idx=0, score=0, answers=[], quizSet=[];
+const COUNTS=[20,40,60,100];
+function initChips(){const el=document.getElementById('countChips');COUNTS.forEach((n,i)=>{const c=document.createElement('div');c.className='chip'+(i===COUNTS.length-1?' on':'');c.textContent=n===100?'Tất cả ('+BANK.length+')':n+' câu';c.dataset.n=Math.min(n,BANK.length);c.onclick=()=>{document.querySelectorAll('#countChips .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');};el.appendChild(c);});}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function startQuiz(){
+  const sel=document.querySelector('#countChips .chip.on');
+  const n=Math.min(parseInt(sel.dataset.n),BANK.length);
+  const doShuffle=document.getElementById('shuffle').checked;
+  let pool=BANK.map((q,i)=>({...q,_i:i}));
+  if(doShuffle)shuffle(pool);
+  quizSet=pool.slice(0,n).map(q=>{
+    let opts=q.a.map((t,i)=>({t,correct:i===q.c}));
+    if(doShuffle)shuffle(opts);
+    return {q:q.q,opts,e:q.e};
+  });
+  idx=0;score=0;answers=[];
+  document.getElementById('start').style.display='none';
+  document.getElementById('result').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  renderQ();
+}
+function renderQ(){
+  const item=quizSet[idx];
+  document.getElementById('progressTxt').textContent='Câu '+(idx+1)+' / '+quizSet.length;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('progressBar').style.width=((idx)/quizSet.length*100)+'%';
+  document.getElementById('qText').textContent=item.q;
+  const box=document.getElementById('opts');box.innerHTML='';
+  const letters=['A','B','C','D'];
+  item.opts.forEach((o,i)=>{
+    const b=document.createElement('button');
+    b.className='opt';
+    b.innerHTML='<span class="k">'+letters[i]+'.</span> '+o.t;
+    b.onclick=()=>choose(i);
+    box.appendChild(b);
+  });
+  const ex=document.getElementById('explain');ex.className='explain';ex.textContent='';
+  document.getElementById('nextBtn').disabled=true;
+  document.getElementById('skipBtn').style.display='inline-block';
+  document.getElementById('nextBtn').textContent=(idx===quizSet.length-1)?'Xem kết quả ✔':'Câu tiếp ▶';
+}
+function choose(i){
+  const item=quizSet[idx];
+  const btns=document.querySelectorAll('#opts .opt');
+  const correctIdx=item.opts.findIndex(o=>o.correct);
+  btns.forEach((b,j)=>{b.disabled=true;if(j===correctIdx)b.classList.add('correct');if(j===i&&i!==correctIdx)b.classList.add('wrong');});
+  const isRight=i===correctIdx;
+  if(isRight)score++;
+  answers.push({q:item.q,chosen:item.opts[i].t,correct:item.opts[correctIdx].t,right:isRight});
+  const ex=document.getElementById('explain');
+  ex.className='explain show';
+  ex.innerHTML=(isRight?'<b class="ok">✔ Chính xác. </b>':'<b class="bad">✘ Chưa đúng. </b>')+item.e;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('nextBtn').disabled=false;
+  document.getElementById('skipBtn').style.display='none';
+}
+function nextQ(){
+  if(idx<quizSet.length-1){idx++;renderQ();}
+  else finish();
+}
+function finish(){
+  document.getElementById('quiz').style.display='none';
+  const r=document.getElementById('result');r.style.display='block';
+  const pct=Math.round(score/quizSet.length*100);
+  document.getElementById('finalScore').textContent=score+' / '+quizSet.length+' ('+pct+'%)';
+  let msg='';
+  if(pct>=90)msg='Xuất sắc! Bạn nắm rất chắc bài.';
+  else if(pct>=70)msg='Tốt! Ôn lại vài câu sai là ổn.';
+  else if(pct>=50)msg='Khá – cần ôn thêm phần sai.';
+  else msg='Hãy đọc lại tài liệu và luyện lại nhé.';
+  document.getElementById('finalMsg').textContent=msg;
+  const rev=document.getElementById('review');rev.innerHTML='';rev.style.display='none';
+  answers.forEach((a,i)=>{
+    const d=document.createElement('div');d.className='review-item';
+    d.innerHTML='<div class="ri-q">'+(i+1)+'. '+a.q+'</div>'+
+      '<div class="ri-a">Bạn chọn: <span class="'+(a.right?'ok':'bad')+'">'+a.chosen+'</span></div>'+
+      (a.right?'':'<div class="ri-a">Đáp án đúng: <span class="ok">'+a.correct+'</span></div>');
+    rev.appendChild(d);
+  });
+}
+function toggleReview(){const r=document.getElementById('review');r.style.display=r.style.display==='none'?'block':'none';}
+initChips();
+</script>
+</body>
+</html>

@@ -1,0 +1,1100 @@
+[
+    {
+      "question": "Mục đích của việc lấy dấu trong phục hình là gì?",
+      "options": [
+        {"text": "Làm mẫu làm việc hoặc mẫu nghiên cứu để chẩn đoán", "isCorrect": false},
+        {"text": "Thể hiện tương quan hai hàm, khớp cắn, vị trí và tư thế của răng", "isCorrect": false},
+        {"text": "Mô phỏng hình dáng kích thước của bờ xương ổ và các chi tiết giải phẫu", "isCorrect": false},
+        {"text": "Tất cả các mục đích trên", "isCorrect": true}
+      ],
+      "explanation": "Lấy dấu giúp tạo ra mẫu hàm phản ánh trung thực tình trạng răng, xương ổ và các chi tiết giải phẫu phục vụ chẩn đoán và điều trị."
+    },
+    {
+      "question": "Cấu tạo của một thìa khuôn (khay lấy dấu) gồm bao nhiêu phần chính?",
+      "options": [
+        {"text": "2 phần: Cán khay và thân khay", "isCorrect": true},
+        {"text": "3 phần: Cán khay, thành khay và đáy khay", "isCorrect": false},
+        {"text": "4 phần: Đáy, thành, cán và lỗ đục", "isCorrect": false},
+        {"text": "1 phần duy nhất đúc nguyên khối", "isCorrect": false}
+      ],
+      "explanation": "Cấu tạo khay gồm 2 phần chính: cán khay dùng để cầm/định hướng và thân khay chứa vật liệu lấy dấu."
+    },
+    {
+      "question": "Phần thân khay lấy dấu bao gồm các thành phần nào?",
+      "options": [
+        {"text": "Cán và đáy", "isCorrect": false},
+        {"text": "Thành và đáy khay", "isCorrect": true},
+        {"text": "Lỗ đục và rãnh lưu", "isCorrect": false},
+        {"text": "Vòm miệng và lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Thân khay là nơi chứa vật liệu lấy khuôn, bao gồm thành khay và đáy khay."
+    },
+    {
+      "question": "Đặc điểm nhận dạng khay lấy dấu hàm trên là gì?",
+      "options": [
+        {"text": "Có phần khuyết ở giữa", "isCorrect": false},
+        {"text": "Có phần lồi tương ứng với vòm miệng", "isCorrect": true},
+        {"text": "Cán khay nằm ở phía sau", "isCorrect": false},
+        {"text": "Không có thành khay", "isCorrect": false}
+      ],
+      "explanation": "Khay hàm trên được thiết kế có phần lồi để lấy được hình dạng vòm miệng của bệnh nhân."
+    },
+    {
+      "question": "Khay lấy dấu hàm dưới có đặc điểm gì để phù hợp với giải phẫu?",
+      "options": [
+        {"text": "Có phần lồi vòm miệng cao", "isCorrect": false},
+        {"text": "Có phần khuyết để lưỡi hoạt động dễ dàng", "isCorrect": true},
+        {"text": "Thành khay cao gấp đôi hàm trên", "isCorrect": false},
+        {"text": "Đáy khay phẳng hoàn toàn", "isCorrect": false}
+      ],
+      "explanation": "Khay hàm dưới có khoảng trống (khuyết) ở giữa để không cản trở hoạt động của lưỡi khi lấy dấu."
+    },
+    {
+      "question": "Khay lấy dấu cho hàm mất răng từng phần có cấu tạo góc giữa thành và đáy như thế nào?",
+      "options": [
+        {"text": "Góc tròn", "isCorrect": false},
+        {"text": "Góc tù hoặc vuông", "isCorrect": true},
+        {"text": "Góc nhọn", "isCorrect": false},
+        {"text": "Không có góc", "isCorrect": false}
+      ],
+      "explanation": "Đối với người mất răng từng phần, thành và đáy khay tạo với nhau một góc tù hoặc vuông để bao phủ các răng còn lại."
+    },
+    {
+      "question": "Khay lấy dấu cho người mất răng toàn phần có đặc điểm gì về góc giữa thành và đáy?",
+      "options": [
+        {"text": "Góc tròn", "isCorrect": true},
+        {"text": "Góc vuông", "isCorrect": false},
+        {"text": "Góc nhọn", "isCorrect": false},
+        {"text": "Cán khay dài hơn", "isCorrect": false}
+      ],
+      "explanation": "Khay lấy dấu mất răng toàn phần thiết kế góc tròn để phù hợp với hình dạng sống hàm tiêu xương."
+    },
+    {
+      "question": "Khay lấy dấu thạch cao có đặc điểm bề mặt như thế nào?",
+      "options": [
+        {"text": "Có nhiều lỗ đục", "isCorrect": false},
+        {"text": "Có đáy và thành trơn nhẵn", "isCorrect": true},
+        {"text": "Có rãnh lưu sâu", "isCorrect": false},
+        {"text": "Làm bằng nhựa dẻo", "isCorrect": false}
+      ],
+      "explanation": "Khay dùng cho thạch cao cần trơn nhẵn để dễ dàng gỡ bỏ vật liệu sau khi đông cứng."
+    },
+    {
+      "question": "Một trong những yêu cầu quan trọng của khay lấy dấu là gì?",
+      "options": [
+        {"text": "Phải mềm để dễ uốn", "isCorrect": false},
+        {"text": "Đủ cứng để không bị biến dạng", "isCorrect": true},
+        {"text": "Phải có màu sắc bắt mắt", "isCorrect": false},
+        {"text": "Làm bằng chất liệu thấm nước", "isCorrect": false}
+      ],
+      "explanation": "Khay phải đủ độ cứng để giữ nguyên hình dạng vật liệu lấy dấu trong quá trình thực hiện."
+    },
+    {
+      "question": "Kích thước khay lấy dấu cần đảm bảo yếu tố nào?",
+      "options": [
+        {"text": "Càng to càng tốt", "isCorrect": false},
+        {"text": "Phải nhỏ hơn cung răng", "isCorrect": false},
+        {"text": "Phù hợp với kích thước cung răng của từng bệnh nhân", "isCorrect": true},
+        {"text": "Cố định một kích cỡ duy nhất", "isCorrect": false}
+      ],
+      "explanation": "Việc lựa chọn khay có kích thước phù hợp là điều kiện tiên quyết để lấy dấu chính xác."
+    },
+    {
+      "question": "Khay lấy dấu được phân loại dựa trên những tiêu chí nào?",
+      "options": [
+        {"text": "Dựa vào giá tiền và hãng sản xuất", "isCorrect": false},
+        {"text": "Dựa vào màu sắc và kích thước", "isCorrect": false},
+        {"text": "Dựa vào mục đích sử dụng và vật liệu", "isCorrect": true},
+        {"text": "Dựa vào tuổi của bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Phân loại khay chủ yếu dựa vào vật liệu (nhựa, kim loại...) và mục đích sử dụng (làm sẵn, cá nhân...)."
+    },
+    {
+      "question": "Dựa vào mục đích sử dụng, khay được chia thành các loại nào?",
+      "options": [
+        {"text": "Khay làm sẵn, khay cá nhân, khay từng phần, khay Triple", "isCorrect": true},
+        {"text": "Khay nhựa và khay thép", "isCorrect": false},
+        {"text": "Khay đục lỗ và khay không đục lỗ", "isCorrect": false},
+        {"text": "Khay nóng và khay lạnh", "isCorrect": false}
+      ],
+      "explanation": "Đây là các loại khay phân chia theo nhu cầu lâm sàng cụ thể."
+    },
+    {
+      "question": "Thuật ngữ 'Custom trays' dùng để chỉ loại khay nào?",
+      "options": [
+        {"text": "Khay làm sẵn", "isCorrect": false},
+        {"text": "Khay cá nhân", "isCorrect": true},
+        {"text": "Khay từng phần", "isCorrect": false},
+        {"text": "Khay toàn bộ", "isCorrect": false}
+      ],
+      "explanation": "Custom trays là khay cá nhân được chế tạo riêng cho từng bệnh nhân."
+    },
+    {
+      "question": "Khay lấy dấu cá nhân thường được làm bằng vật liệu gì?",
+      "options": [
+        {"text": "Thép không gỉ", "isCorrect": false},
+        {"text": "Nhựa tự cứng", "isCorrect": true},
+        {"text": "Thạch cao", "isCorrect": false},
+        {"text": "Sáp ong", "isCorrect": false}
+      ],
+      "explanation": "Nhựa tự cứng là vật liệu phổ biến để tạo khay cá nhân trên mẫu hàm nghiên cứu."
+    },
+    {
+      "question": "Ưu điểm của khay lấy dấu cá nhân là gì?",
+      "options": [
+        {"text": "Giá thành rẻ nhất", "isCorrect": false},
+        {"text": "Độ chính xác cao, hạn chế lây nhiễm chéo, có thể chỉnh sửa", "isCorrect": true},
+        {"text": "Không cần đổ mẫu", "isCorrect": false},
+        {"text": "Sử dụng được cho nhiều bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Khay cá nhân mang lại độ khít sát tối ưu và đảm bảo vệ sinh cho từng ca điều trị."
+    },
+    {
+      "question": "Khay lấy dấu cá nhân thường được chỉ định cho trường hợp nào?",
+      "options": [
+        {"text": "Mọi trường hợp lấy dấu sơ khởi", "isCorrect": false},
+        {"text": "Bệnh nhân có cấu tạo hàm đặc biệt không phù hợp khay làm sẵn", "isCorrect": true},
+        {"text": "Lấy dấu khớp cắn đơn giản", "isCorrect": false},
+        {"text": "Dùng cho sinh viên thực tập", "isCorrect": false}
+      ],
+      "explanation": "Khi khay stock không vừa hoặc cấu trúc hàm phức tạp, khay cá nhân là lựa chọn bắt buộc."
+    },
+    {
+      "question": "Dựa vào vật liệu, khay lấy dấu có thể làm từ những chất liệu nào?",
+      "options": [
+        {"text": "Chất dẻo, nhựa, Shellac base plate, kim loại", "isCorrect": true},
+        {"text": "Gỗ và sứ", "isCorrect": false},
+        {"text": "Cao su nhân tạo", "isCorrect": false},
+        {"text": "Thủy tinh chịu lực", "isCorrect": false}
+      ],
+      "explanation": "Tài liệu liệt kê 4 nhóm vật liệu chính dùng để sản xuất khay lấy dấu."
+    },
+    {
+      "question": "Khay nhựa (Tray Material) bao gồm những loại nhựa nào?",
+      "options": [
+        {"text": "Nhựa PVC", "isCorrect": false},
+        {"text": "Nhựa nấu (Heat cure resin) và nhựa tự cứng (Self cure resin)", "isCorrect": true},
+        {"text": "Nhựa mềm", "isCorrect": false},
+        {"text": "Nhựa composite", "isCorrect": false}
+      ],
+      "explanation": "Nhựa làm khay chia thành loại trùng hợp nhiệt và tự trùng hợp."
+    },
+    {
+      "question": "Khi chọn khay lấy dấu làm sẵn, thành ngoài khay nên cách mặt ngoài răng thật bao nhiêu mm?",
+      "options": [
+        {"text": "0 mm (sát khít)", "isCorrect": false},
+        {"text": "1 - 2 mm", "isCorrect": false},
+        {"text": "3 - 5 mm", "isCorrect": true},
+        {"text": "10 mm", "isCorrect": false}
+      ],
+      "explanation": "Khoảng cách 3-5mm là cần thiết để chứa đủ độ dày vật liệu lấy dấu, đảm bảo tính đàn hồi và chính xác."
+    },
+    {
+      "question": "Phía sau khay lấy dấu cần đảm bảo độ dài bao phủ cấu trúc nào ở hàm dưới?",
+      "options": [
+        {"text": "Lồi củ xương hàm dưới", "isCorrect": false},
+        {"text": "Tam giác hậu hàm (tam giác sau hàm)", "isCorrect": true},
+        {"text": "Gai mũi sau", "isCorrect": false},
+        {"text": "Góc hàm", "isCorrect": false}
+      ],
+      "explanation": "Khay hàm dưới phải trùm kín vùng tam giác sau hàm để lấy đủ chi tiết giải phẫu."
+    },
+    {
+      "question": "Thân khay lấy dấu hàm trên phải phủ lên cấu trúc nào ở phía sau?",
+      "options": [
+        {"text": "Khớp thái dương hàm", "isCorrect": false},
+        {"text": "Lồi cùng (lồi củ) hàm trên 2-3mm", "isCorrect": true},
+        {"text": "Toàn bộ vòm miệng mềm", "isCorrect": false},
+        {"text": "Xương gò má", "isCorrect": false}
+      ],
+      "explanation": "Khay hàm trên cần phủ hết lồi củ để đảm bảo độ bám của phục hình sau này."
+    },
+    {
+      "question": "Tại sao cần sử dụng vật liệu nhiệt dẻo (sáp hoặc hợp chất nhiệt dẻo) để điều chỉnh khay?",
+      "options": [
+        {"text": "Để làm khay đẹp hơn", "isCorrect": false},
+        {"text": "Để nối thêm khay hoặc điều chỉnh khay làm sẵn cho phù hợp với bệnh nhân", "isCorrect": true},
+        {"text": "Để thay thế hoàn toàn vật liệu lấy dấu", "isCorrect": false},
+        {"text": "Để làm khay mềm đi", "isCorrect": false}
+      ],
+      "explanation": "Vật liệu nhiệt dẻo giúp bác sĩ tùy chỉnh khay stock để lấy được các vùng giải phẫu khó."
+    },
+    {
+      "question": "Vật liệu nhiệt dẻo nào được khuyên dùng để điều chỉnh khay vì không bị biến dạng trong miệng?",
+      "options": [
+        {"text": "Sáp nến", "isCorrect": false},
+        {"text": "Baton de kerr", "isCorrect": true},
+        {"text": "Sáp gối", "isCorrect": false},
+        {"text": "Nhựa dẻo", "isCorrect": false}
+      ],
+      "explanation": "Baton de kerr là hợp chất nhiệt dẻo chuyên dụng có tính ổn định cao."
+    },
+    {
+      "question": "Yêu cầu chung của vật liệu lấy khuôn là gì?",
+      "options": [
+        {"text": "Không độc, không kích thích niêm mạc", "isCorrect": false},
+        {"text": "Mùi dễ chịu, in rõ chi tiết nhỏ, đàn hồi tốt", "isCorrect": false},
+        {"text": "Giá rẻ, dễ sử dụng, dễ bảo quản", "isCorrect": false},
+        {"text": "Tất cả các yêu cầu trên", "isCorrect": true}
+      ],
+      "explanation": "Vật liệu lý tưởng cần đáp ứng đủ các tiêu chuẩn về an toàn sinh học, kỹ thuật và kinh tế."
+    },
+    {
+      "question": "Đặc điểm đặc trưng của vật liệu lấy dấu phục hình tháo lắp là gì?",
+      "options": [
+        {"text": "Độ cứng cực cao", "isCorrect": false},
+        {"text": "Độ chảy lỏng cao và tính ưa nước", "isCorrect": true},
+        {"text": "Không thấm nước", "isCorrect": false},
+        {"text": "Thời gian đông kéo dài 30 phút", "isCorrect": false}
+      ],
+      "explanation": "Độ chảy lỏng cao giúp ghi lại chi tiết mô mềm, tính ưa nước giúp vật liệu hoạt động tốt trong môi trường nước bọt."
+    },
+    {
+      "question": "Hai loại vật liệu chính thường dùng lấy dấu cho phục hình tháo lắp bán phần là:",
+      "options": [
+        {"text": "Thạch cao và sáp", "isCorrect": false},
+        {"text": "Cao su và Alginate", "isCorrect": true},
+        {"text": "Nhựa tự cứng và Composite", "isCorrect": false},
+        {"text": "Xi măng và Gutta percha", "isCorrect": false}
+      ],
+      "explanation": "Cao su và Alginate là hai lựa chọn phổ biến nhất hiện nay."
+    },
+    {
+      "question": "Vật liệu lấy dấu thông thường nhất trong phục hình tháo lắp là gì?",
+      "options": [
+        {"text": "Cao su đặc", "isCorrect": false},
+        {"text": "Alginate", "isCorrect": true},
+        {"text": "Thạch cao lấy dấu", "isCorrect": false},
+        {"text": "Polyether", "isCorrect": false}
+      ],
+      "explanation": "Alginate được dùng rộng rãi nhất do tính tiện dụng và giá thành hợp lý."
+    },
+    {
+      "question": "Alginate thích hợp nhất để lấy dấu trong trường hợp nào?",
+      "options": [
+        {"text": "Cần lấy dấu răng đơn lẻ làm mão", "isCorrect": false},
+        {"text": "Cần nén nhẹ hoặc đẩy lùi các cơ quan (sàn miệng, hành lang hẹp...)", "isCorrect": true},
+        {"text": "Lấy dấu khi bệnh nhân bị khô miệng hoàn toàn", "isCorrect": false},
+        {"text": "Lấy dấu implant", "isCorrect": false}
+      ],
+      "explanation": "Alginate có độ nhớt và độ nén phù hợp để lấy dấu các vùng mô mềm di động."
+    },
+    {
+      "question": "Alginate loại A có tính chất đặc trưng là gì?",
+      "options": [
+        {"text": "Đông rất chậm", "isCorrect": false},
+        {"text": "Rất chính xác và rắn chắc", "isCorrect": true},
+        {"text": "Dễ bị cháy khi gặp nước", "isCorrect": false},
+        {"text": "Màu sắc rất đậm", "isCorrect": false}
+      ],
+      "explanation": "Loại A được ghi nhận là loại có độ chính xác cao nhất trong nhóm Alginate."
+    },
+    {
+      "question": "Phân loại Alginate theo thời gian đông: Type 1 là loại gì?",
+      "options": [
+        {"text": "Đông bình thường", "isCorrect": false},
+        {"text": "Đông nhanh (thời gian đông 3 phút)", "isCorrect": true},
+        {"text": "Đông chậm (10 phút)", "isCorrect": false},
+        {"text": "Không đông", "isCorrect": false}
+      ],
+      "explanation": "Type 1 (Fast set) có thời gian làm việc và đông cứng nhanh."
+    },
+    {
+      "question": "Alginate Type 2 có thời gian đông cứng là bao lâu?",
+      "options": [
+        {"text": "1 phút", "isCorrect": false},
+        {"text": "3 phút", "isCorrect": false},
+        {"text": "3 - 5 phút", "isCorrect": true},
+        {"text": "10 phút", "isCorrect": false}
+      ],
+      "explanation": "Type 2 là loại đông bình thường (Normal set) với thời gian 3-5 phút."
+    },
+    {
+      "question": "Ưu điểm của vật liệu Alginate bao gồm:",
+      "options": [
+        {"text": "Ái nước, kỹ thuật dễ làm, giá rẻ", "isCorrect": false},
+        {"text": "Sao lại bề mặt tốt, điều chỉnh được độ nhớt", "isCorrect": false},
+        {"text": "Thời gian đông thay đổi theo nhiệt độ nước", "isCorrect": false},
+        {"text": "Tất cả các ưu điểm trên", "isCorrect": true}
+      ],
+      "explanation": "Alginate hội tụ nhiều ưu điểm giúp nó trở thành vật liệu phổ thông trong nha khoa."
+    },
+    {
+      "question": "Làm thế nào để tạo độ nhớt phù hợp cho Alginate?",
+      "options": [
+        {"text": "Thay đổi tỉ lệ bột/nước", "isCorrect": true},
+        {"text": "Cho thêm cát vào", "isCorrect": false},
+        {"text": "Đun nóng bát cao su", "isCorrect": false},
+        {"text": "Đánh vật liệu trong 5 phút", "isCorrect": false}
+      ],
+      "explanation": "Tỉ lệ bột và nước quyết định độ đặc sệt của vữa Alginate."
+    },
+    {
+      "question": "Yếu tố nào ảnh hưởng trực tiếp đến thời gian đông của Alginate?",
+      "options": [
+        {"text": "Màu sắc của bát cao su", "isCorrect": false},
+        {"text": "Nhiệt độ của nước", "isCorrect": true},
+        {"text": "Độ cao của phòng khám", "isCorrect": false},
+        {"text": "Loại gương khám", "isCorrect": false}
+      ],
+      "explanation": "Nước ấm làm Alginate đông nhanh hơn, nước lạnh làm chậm lại."
+    },
+    {
+      "question": "Khuyết điểm lớn nhất của Alginate là gì?",
+      "options": [
+        {"text": "Mùi quá hôi", "isCorrect": false},
+        {"text": "Kỹ thuật trộn quá phức tạp", "isCorrect": false},
+        {"text": "Không ổn định kích thước theo thời gian (biến dạng do mất nước)", "isCorrect": true},
+        {"text": "Làm răng bị lung lay", "isCorrect": false}
+      ],
+      "explanation": "Dấu Alginate bị co lại khi để ngoài không khí quá lâu."
+    },
+    {
+      "question": "Sau khi lấy dấu bằng Alginate, bác sĩ cần xử lý như thế nào?",
+      "options": [
+        {"text": "Để sang ngày hôm sau mới đổ mẫu", "isCorrect": false},
+        {"text": "Phải đổ mẫu thạch cao ngay lập tức", "isCorrect": true},
+        {"text": "Ngâm trong nước 24 giờ", "isCorrect": false},
+        {"text": "Phơi dưới ánh nắng mặt trời", "isCorrect": false}
+      ],
+      "explanation": "Do tính không ổn định kích thước, cần đổ mẫu sớm nhất có thể."
+    },
+    {
+      "question": "Tư thế chuẩn của thầy thuốc khi lấy dấu là gì?",
+      "options": [
+        {"text": "Đứng phía trước bên phải bệnh nhân (vị trí 9 giờ 30)", "isCorrect": true},
+        {"text": "Ngồi đối diện bệnh nhân", "isCorrect": false},
+        {"text": "Đứng phía sau bệnh nhân ở vị trí 6 giờ", "isCorrect": false},
+        {"text": "Đứng bên trái bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Đây là tư thế thuận lợi nhất để quan sát và thao tác trong miệng bệnh nhân."
+    },
+    {
+      "question": "Khi thực hiện các động tác môi má ở hàm trên, thầy thuốc có thể đứng ở vị trí nào?",
+      "options": [
+        {"text": "3 giờ", "isCorrect": false},
+        {"text": "11 giờ 30 (đứng sau bệnh nhân)", "isCorrect": true},
+        {"text": "Đối diện hoàn toàn", "isCorrect": false},
+        {"text": "Nằm ngang bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Vị trí đứng sau giúp bác sĩ dễ dàng thao tác kéo môi và má khi lấy dấu hàm trên."
+    },
+    {
+      "question": "Tư thế ngồi chuẩn của bệnh nhân khi lấy dấu là:",
+      "options": [
+        {"text": "Nằm ngửa hoàn toàn", "isCorrect": false},
+        {"text": "Ngồi thoải mái, lưng ghế gần như vuông góc với sàn nhà", "isCorrect": true},
+        {"text": "Đứng thẳng", "isCorrect": false},
+        {"text": "Cúi đầu về phía trước", "isCorrect": false}
+      ],
+      "explanation": "Tư thế này giúp bệnh nhân thoải mái và bác sĩ dễ dàng thao tác khay."
+    },
+    {
+      "question": "Khi lấy khuôn hàm trên, miệng bệnh nhân nên ở vị trí nào so với thầy thuốc?",
+      "options": [
+        {"text": "Ngang khuỷu tay", "isCorrect": false},
+        {"text": "Ngang ngực", "isCorrect": true},
+        {"text": "Ngang tầm mắt", "isCorrect": false},
+        {"text": "Thấp hơn đầu gối", "isCorrect": false}
+      ],
+      "explanation": "Miệng ngang ngực giúp bác sĩ có lực ấn khay tốt nhất cho hàm trên."
+    },
+    {
+      "question": "Khi lấy khuôn hàm dưới, miệng bệnh nhân nên ở vị trí nào?",
+      "options": [
+        {"text": "Ngang khuỷu tay của thầy thuốc", "isCorrect": true},
+        {"text": "Ngang ngực", "isCorrect": false},
+        {"text": "Ngang vai", "isCorrect": false},
+        {"text": "Càng cao càng tốt", "isCorrect": false}
+      ],
+      "explanation": "Vị trí ngang khuỷu tay thuận lợi cho thao tác lấy dấu hàm dưới."
+    },
+    {
+      "question": "Bộ dụng cụ chuẩn bị để lấy dấu bao gồm:",
+      "options": [
+        {"text": "Gương, thám trâm, kẹp gắp, bát cao su, bay đánh alginate", "isCorrect": true},
+        {"text": "Kìm nhổ răng và khoan", "isCorrect": false},
+        {"text": "Máy chụp X-quang", "isCorrect": false},
+        {"text": "Bàn chải và kem đánh răng", "isCorrect": false}
+      ],
+      "explanation": "Đây là các dụng cụ cơ bản để khám và trộn vật liệu lấy dấu."
+    },
+    {
+      "question": "Tại sao cần cho bệnh nhân súc miệng bằng nước ấm trước khi lấy dấu?",
+      "options": [
+        {"text": "Để làm nóng răng", "isCorrect": false},
+        {"text": "Để loại bỏ chất nhờn nước bọt và thức ăn dính trên răng", "isCorrect": true},
+        {"text": "Để bệnh nhân không bị khát", "isCorrect": false},
+        {"text": "Để thạch cao nhanh đông hơn", "isCorrect": false}
+      ],
+      "explanation": "Làm sạch răng giúp vật liệu lấy dấu ghi lại chi tiết mặt răng chính xác hơn."
+    },
+    {
+      "question": "Trường hợp bệnh nhân quá nhạy cảm (có phản xạ nôn mạnh), bác sĩ cần làm gì?",
+      "options": [
+        {"text": "Yêu cầu bệnh nhân nhịn thở", "isCorrect": false},
+        {"text": "Xịt thuốc tê vào họng bệnh nhân trước 2-3 phút", "isCorrect": true},
+        {"text": "Cho bệnh nhân uống nước đá", "isCorrect": false},
+        {"text": "Lấy dấu thật nhanh trong 10 giây", "isCorrect": false}
+      ],
+      "explanation": "Thuốc tê xịt họng giúp giảm phản xạ nôn, giúp việc lấy dấu diễn ra thuận lợi."
+    },
+    {
+      "question": "Kỹ thuật đánh chất lấy dấu Alginate bằng tay đúng là:",
+      "options": [
+        {"text": "Khuấy nhẹ nhàng trong 5 phút", "isCorrect": false},
+        {"text": "Miết mạnh bay vào thành bát cao su theo chiều kim đồng hồ", "isCorrect": true},
+        {"text": "Lắc mạnh bát cao su", "isCorrect": false},
+        {"text": "Trộn bằng ngón tay", "isCorrect": false}
+      ],
+      "explanation": "Miết mạnh giúp bột và nước hòa quyện, loại bỏ bọt khí và tạo hỗn hợp mịn."
+    },
+    {
+      "question": "Thời gian đánh Alginate bằng tay trung bình là bao lâu?",
+      "options": [
+        {"text": "10 giây", "isCorrect": false},
+        {"text": "30 giây", "isCorrect": true},
+        {"text": "2 phút", "isCorrect": false},
+        {"text": "5 phút", "isCorrect": false}
+      ],
+      "explanation": "30 giây là thời gian đủ để tạo ra hỗn hợp sệt, mịn và đồng nhất."
+    },
+    {
+      "question": "Khi gạt vữa Alginate vào khay lấy dấu, cần lưu ý điều gì?",
+      "options": [
+        {"text": "Gạt càng dày càng tốt", "isCorrect": false},
+        {"text": "Tránh bọng khí", "isCorrect": true},
+        {"text": "Để vật liệu tràn ra ngoài cán khay", "isCorrect": false},
+        {"text": "Chờ vật liệu khô rồi mới gạt", "isCorrect": false}
+      ],
+      "explanation": "Bọng khí trong khay sẽ làm hỏng chi tiết trên dấu sau này."
+    },
+    {
+      "question": "Khi đưa khay hàm trên vào miệng, cán khay nên nằm ở phía nào?",
+      "options": [
+        {"text": "Chính giữa mặt", "isCorrect": false},
+        {"text": "Nằm bên phải", "isCorrect": true},
+        {"text": "Nằm bên trái", "isCorrect": false},
+        {"text": "Chổng ngược lên trên", "isCorrect": false}
+      ],
+      "explanation": "Tư thế đưa khay vào miệng bắt đầu từ việc đặt cán khay lệch sang phải."
+    },
+    {
+      "question": "Khi đưa khay hàm dưới vào miệng, cán khay nên nằm ở phía nào?",
+      "options": [
+        {"text": "Bên phải", "isCorrect": false},
+        {"text": "Bên trái", "isCorrect": true},
+        {"text": "Dưới cằm", "isCorrect": false},
+        {"text": "Trong miệng", "isCorrect": false}
+      ],
+      "explanation": "Quy trình chuẩn cho hàm dưới là cán khay nằm bên trái bệnh nhân."
+    },
+    {
+      "question": "Cán khay nên tạo một góc bao nhiêu độ so với đường trung trực của mặt khi bắt đầu đưa vào?",
+      "options": [
+        {"text": "0 độ", "isCorrect": false},
+        {"text": "45 độ", "isCorrect": true},
+        {"text": "90 độ", "isCorrect": false},
+        {"text": "180 độ", "isCorrect": false}
+      ],
+      "explanation": "Góc 45 độ giúp đưa một bên cánh khay vào miệng trước mà không làm bệnh nhân đau."
+    },
+    {
+      "question": "Trình tự đưa khay vào miệng bệnh nhân đúng là:",
+      "options": [
+        {"text": "Đưa cả hai bên cùng lúc", "isCorrect": false},
+        {"text": "Đưa cánh bên phải vào trước, bên trái sau", "isCorrect": true},
+        {"text": "Đưa phần sau vào trước", "isCorrect": false},
+        {"text": "Đưa cán khay vào trước", "isCorrect": false}
+      ],
+      "explanation": "Đưa một bên vào trước giúp mở rộng góc miệng bệnh nhân dễ dàng hơn."
+    },
+    {
+      "question": "Khi nào thì xoay cán khay cho trùng với đường trung trực của mặt?",
+      "options": [
+        {"text": "Ngay khi khay chạm môi", "isCorrect": false},
+        {"text": "Khi cả hai cánh khay đã lọt vào trong miệng", "isCorrect": true},
+        {"text": "Sau khi vật liệu đã đông", "isCorrect": false},
+        {"text": "Khi tháo khay ra", "isCorrect": false}
+      ],
+      "explanation": "Xoay cán khay vào giữa để định vị đúng cung hàm trước khi ấn khay xuống/lên."
+    },
+    {
+      "question": "Khi điều chỉnh khay, bác sĩ nên sử dụng những ngón tay nào để đỡ khay?",
+      "options": [
+        {"text": "Ngón cái và ngón út", "isCorrect": false},
+        {"text": "Ngón trỏ và ngón giữa", "isCorrect": true},
+        {"text": "Chỉ dùng ngón cái", "isCorrect": false},
+        {"text": "Dùng cả bàn tay bóp khay", "isCorrect": false}
+      ],
+      "explanation": "Ngón trỏ và giữa giúp kiểm soát lực ấn đều và cân bằng."
+    },
+    {
+      "question": "Khay nên được ấn cho tới khi đáy khay cách mặt nhai bao nhiêu mm?",
+      "options": [
+        {"text": "0 mm", "isCorrect": false},
+        {"text": "1 - 2 mm", "isCorrect": false},
+        {"text": "3 - 5 mm", "isCorrect": true},
+        {"text": "10 mm", "isCorrect": false}
+      ],
+      "explanation": "Khoảng cách 3-5mm đảm bảo có đủ vật liệu bao phủ mặt nhai răng."
+    },
+    {
+      "question": "Yêu cầu đối với bệnh nhân trong lúc bác sĩ ấn khay lấy dấu là:",
+      "options": [
+        {"text": "Gồng cứng môi má", "isCorrect": false},
+        {"text": "Mềm môi má để vật liệu dư trào ra lấp kín ngách tiền đình", "isCorrect": true},
+        {"text": "Nói chuyện liên tục", "isCorrect": false},
+        {"text": "Nuốt nước bọt liên tục", "isCorrect": false}
+      ],
+      "explanation": "Sự thả lỏng của bệnh nhân giúp lấy được dấu mô mềm ở trạng thái nghỉ."
+    },
+    {
+      "question": "Để có dấu phanh môi và phanh má, bác sĩ yêu cầu bệnh nhân làm gì?",
+      "options": [
+        {"text": "Mím môi và há miệng", "isCorrect": true},
+        {"text": "Ho mạnh", "isCorrect": false},
+        {"text": "Thổi sáo", "isCorrect": false},
+        {"text": "Cắn chặt khay", "isCorrect": false}
+      ],
+      "explanation": "Các động tác này giúp cơ vùng phanh hoạt động, tạo ra vết lõm tương ứng trên vật liệu lấy dấu."
+    },
+    {
+      "question": "Khi lấy dấu hàm dưới, động tác nào giúp lấy được dấu phanh lưỡi và sàn miệng?",
+      "options": [
+        {"text": "Nuốt nước bọt", "isCorrect": false},
+        {"text": "Đưa lưỡi ra trước và đưa lưỡi sang hai bên", "isCorrect": true},
+        {"text": "Rụt lưỡi ra sau", "isCorrect": false},
+        {"text": "Uốn lưỡi chạm vòm miệng", "isCorrect": false}
+      ],
+      "explanation": "Cử động lưỡi làm căng phanh lưỡi và nâng sàn miệng, giúp ghi lại giới hạn phục hình hàm dưới."
+    },
+    {
+      "question": "Thời gian chờ vật liệu Alginate đông cứng hoàn toàn trong miệng là bao lâu?",
+      "options": [
+        {"text": "1 phút", "isCorrect": false},
+        {"text": "2 phút", "isCorrect": false},
+        {"text": "3 - 5 phút", "isCorrect": true},
+        {"text": "10 phút", "isCorrect": false}
+      ],
+      "explanation": "Cần chờ đủ thời gian để vật liệu chuyển sang trạng thái đàn hồi hoàn toàn."
+    },
+    {
+      "question": "Dấu lấy xong cần được gỡ ra theo hướng nào?",
+      "options": [
+        {"text": "Gỡ lệch sang bên phải", "isCorrect": false},
+        {"text": "Gỡ nhẹ nhàng theo trục răng", "isCorrect": true},
+        {"text": "Xoay tròn rồi kéo ra", "isCorrect": false},
+        {"text": "Giật mạnh ra phía trước", "isCorrect": false}
+      ],
+      "explanation": "Gỡ theo trục răng giúp hạn chế biến dạng vật liệu và không làm đau bệnh nhân."
+    },
+    {
+      "question": "Sau khi gỡ dấu, bước tiếp theo cần thực hiện là:",
+      "options": [
+        {"text": "Đổ mẫu thạch cao ngay", "isCorrect": false},
+        {"text": "Rửa dưới vòi nước để loại bỏ nước bọt và máu", "isCorrect": true},
+        {"text": "Sấy khô bằng máy sấy tóc", "isCorrect": false},
+        {"text": "Cho vào lò nướng", "isCorrect": false}
+      ],
+      "explanation": "Rửa dấu giúp loại bỏ các tạp chất ngăn cản sự khít sát và làm sạch mẫu hàm."
+    },
+    {
+      "question": "Dung dịch nào thường dùng để sát khuẩn dấu trước khi đổ mẫu?",
+      "options": [
+        {"text": "Nước muối sinh lý", "isCorrect": false},
+        {"text": "Dung dịch Chloramin B", "isCorrect": true},
+        {"text": "Cồn 90 độ", "isCorrect": false},
+        {"text": "Nước oxy già", "isCorrect": false}
+      ],
+      "explanation": "Chloramin B là chất sát khuẩn thông dụng trong nha khoa để xử lý dấu lấy từ miệng."
+    },
+    {
+      "question": "Thời gian ngâm dấu trong dung dịch sát khuẩn là bao lâu?",
+      "options": [
+        {"text": "1 phút", "isCorrect": false},
+        {"text": "2 phút", "isCorrect": false},
+        {"text": "5 - 10 phút", "isCorrect": true},
+        {"text": "1 giờ", "isCorrect": false}
+      ],
+      "explanation": "Thời gian này đủ để diệt khuẩn mà không làm biến dạng quá mức dấu Alginate."
+    },
+    {
+      "question": "Tiêu chuẩn của một dấu lấy đạt yêu cầu là gì?",
+      "options": [
+        {"text": "Trung thực, không bị co giãn, biến dạng", "isCorrect": false},
+        {"text": "Phản ánh đủ chi tiết răng, sống hàm, phanh, vòm miệng", "isCorrect": false},
+        {"text": "Không bọng, rách và bìa dấu đủ dày >3mm", "isCorrect": false},
+        {"text": "Tất cả các tiêu chuẩn trên", "isCorrect": true}
+      ],
+      "explanation": "Một dấu hàm đạt chuẩn phải ghi lại chính xác và đầy đủ các thông tin lâm sàng."
+    },
+    {
+      "question": "Tỉ lệ trung bình (nước : bột) khi trộn thạch cao đổ mẫu là:",
+      "options": [
+        {"text": "1 : 1", "isCorrect": false},
+        {"text": "1 : 2", "isCorrect": false},
+        {"text": "1 : 3 - 1 : 4 (1ml nước ứng với 3-4g bột)", "isCorrect": true},
+        {"text": "1 : 10", "isCorrect": false}
+      ],
+      "explanation": "Tỉ lệ này đảm bảo thạch cao có độ cứng và thời gian đông phù hợp."
+    },
+    {
+      "question": "Thời gian trộn thạch cao bằng tay trung bình là bao lâu?",
+      "options": [
+        {"text": "30 giây", "isCorrect": false},
+        {"text": "1 - 2 phút", "isCorrect": true},
+        {"text": "5 phút", "isCorrect": false},
+        {"text": "10 phút", "isCorrect": false}
+      ],
+      "explanation": "Trộn 1-2 phút giúp thạch cao hòa tan đều và đạt độ sệt đồng nhất."
+    },
+    {
+      "question": "Dụng cụ nào giúp loại bỏ bọt khí khi đổ thạch cao vào dấu?",
+      "options": [
+        {"text": "Máy khoan", "isCorrect": false},
+        {"text": "Máy rung", "isCorrect": true},
+        {"text": "Máy thổi hơi", "isCorrect": false},
+        {"text": "Búa nhỏ", "isCorrect": false}
+      ],
+      "explanation": "Máy rung làm thạch cao chảy đều vào các kẽ nhỏ và đẩy bọt khí lên trên."
+    },
+    {
+      "question": "Độ dày tiêu chuẩn của đế mẫu hàm tính từ ngách tiền đình là bao nhiêu?",
+      "options": [
+        {"text": "2 mm", "isCorrect": false},
+        {"text": "5 mm", "isCorrect": false},
+        {"text": "10 - 12 mm", "isCorrect": true},
+        {"text": "30 mm", "isCorrect": false}
+      ],
+      "explanation": "Đế mẫu hàm cần đủ dày để không bị gãy khi tháo lắp hoặc mài chỉnh."
+    },
+    {
+      "question": "Khi đổ đế mẫu hàm, đáy khay cần đạt tương quan như thế nào với mặt phẳng ngang?",
+      "options": [
+        {"text": "Nghiêng 45 độ", "isCorrect": false},
+        {"text": "Song song", "isCorrect": true},
+        {"text": "Vuông góc", "isCorrect": false},
+        {"text": "Không cần quy luật", "isCorrect": false}
+      ],
+      "explanation": "Đáy khay song song mặt phẳng ngang giúp mẫu hàm cân bằng và dễ quan sát."
+    },
+    {
+      "question": "Sau bao lâu thì có thể gỡ mẫu hàm ra khỏi dấu thạch cao?",
+      "options": [
+        {"text": "5 phút", "isCorrect": false},
+        {"text": "15 phút", "isCorrect": false},
+        {"text": "45 phút đến 1 giờ (sau khi tỏa nhiệt)", "isCorrect": true},
+        {"text": "1 ngày", "isCorrect": false}
+      ],
+      "explanation": "Cần chờ thạch cao hoàn tất quá trình phản ứng hóa học và đạt độ cứng tối đa."
+    },
+    {
+      "question": "Lưu ý khi gỡ mẫu hàm có răng thật đứng đơn lẻ hoặc quá dài là gì?",
+      "options": [
+        {"text": "Kéo mạnh tay", "isCorrect": false},
+        {"text": "Phải cắt bỏ dần vật liệu lấy dấu để tránh gãy mẫu", "isCorrect": true},
+        {"text": "Ngâm vào nước sôi", "isCorrect": false},
+        {"text": "Bôi dầu luyn", "isCorrect": false}
+      ],
+      "explanation": "Cắt tỉa Alginate xung quanh răng lẻ giúp giảm lực cản, bảo vệ thân răng thạch cao không bị gãy."
+    },
+    {
+      "question": "Yêu cầu của một mẫu hàm đạt chuẩn bao gồm:",
+      "options": [
+        {"text": "Đầy đủ chính xác chi tiết răng trụ và nền hàm", "isCorrect": false},
+        {"text": "Vị trí các răng còn lại chính xác, không bị gãy", "isCorrect": false},
+        {"text": "Mẫu hàm không bị bọng, hình dạng sống hàm chính xác", "isCorrect": false},
+        {"text": "Tất cả các yêu cầu trên", "isCorrect": true}
+      ],
+      "explanation": "Mẫu hàm là bản sao của miệng bệnh nhân, nên mọi chi tiết phải hoàn hảo để thiết kế phục hình."
+    },
+    {
+      "question": "Khi mài mẫu hàm, đáy mẫu cần đạt yêu cầu gì?",
+      "options": [
+        {"text": "Mài đáy mẫu song song với mặt phẳng nhai hoặc sống hàm", "isCorrect": true},
+        {"text": "Mài đáy mẫu hình tròn", "isCorrect": false},
+        {"text": "Mài đáy mẫu nghiêng về phía sau", "isCorrect": false},
+        {"text": "Không được mài đáy", "isCorrect": false}
+      ],
+      "explanation": "Sự song song giúp mẫu hàm có tính thẩm mỹ và dễ phân tích kỹ thuật."
+    },
+    {
+      "question": "Mặt phẳng phía sau của mẫu hàm cần được mài như thế nào?",
+      "options": [
+        {"text": "Nghiêng 30 độ so với trục giữa", "isCorrect": false},
+        {"text": "Vuông góc với trục giữa của mẫu", "isCorrect": true},
+        {"text": "Mài sát vào răng khôn", "isCorrect": false},
+        {"text": "Mài hình răng cưa", "isCorrect": false}
+      ],
+      "explanation": "Mặt sau vuông góc trục giữa tạo sự ổn định khi đặt mẫu hàm đứng."
+    },
+    {
+      "question": "Khoảng cách tối thiểu từ mặt phẳng phía sau đến răng khôn hoặc lồi củ là bao nhiêu?",
+      "options": [
+        {"text": "1 mm", "isCorrect": false},
+        {"text": "2 mm", "isCorrect": false},
+        {"text": "5 mm", "isCorrect": true},
+        {"text": "15 mm", "isCorrect": false}
+      ],
+      "explanation": "Khoảng cách 5mm đảm bảo không làm tổn hại đến các chi tiết giải phẫu cuối cùng trên mẫu."
+    },
+    {
+      "question": "Đặc điểm mài mẫu hàm dưới khác hàm trên ở điểm nào?",
+      "options": [
+        {"text": "Không mài phía trước", "isCorrect": false},
+        {"text": "Mài đường ngang phía trước song song và cách nhóm răng cửa 5mm", "isCorrect": true},
+        {"text": "Mài thành hình vuông", "isCorrect": false},
+        {"text": "Phải mài cả phần vòm miệng", "isCorrect": false}
+      ],
+      "explanation": "Hàm dưới có cách mài cạnh trước và bên đặc thù để định hình đế mẫu."
+    },
+    {
+      "question": "Thao tác gạt bỏ thạch cao thừa nên thực hiện vào lúc nào?",
+      "options": [
+        {"text": "Ngay khi thạch cao mới trộn xong", "isCorrect": false},
+        {"text": "Đợi thạch cao se lại", "isCorrect": true},
+        {"text": "Sau khi thạch cao đã cứng như đá", "isCorrect": false},
+        {"text": "Sau 24 giờ", "isCorrect": false}
+      ],
+      "explanation": "Gạt khi thạch cao se lại giúp mẫu hàm sạch sẽ mà không làm biến dạng phần chính."
+    },
+    {
+      "question": "Khi mài mẫu hàm dưới, cần vạt bớt bộ phận nào để mẫu đẹp hơn?",
+      "options": [
+        {"text": "Vạt bớt răng", "isCorrect": false},
+        {"text": "Vạt bớt góc nhọn phía sau tạo bởi đường ngang phía sau và hai bên", "isCorrect": true},
+        {"text": "Vạt bớt phần đáy", "isCorrect": false},
+        {"text": "Vạt bớt lưỡi thạch cao", "isCorrect": false}
+      ],
+      "explanation": "Vạt bớt các góc nhọn giúp mẫu hàm dễ cầm nắm và hạn chế nứt vỡ góc."
+    },
+    {
+      "question": "Alginate 'loại B' trong tài liệu có tính chất gì?",
+      "options": [
+        {"text": "Đông cứng như đá", "isCorrect": false},
+        {"text": "Tính chất 'cháy' (có thể là lỗi OCR, ý chỉ loại phản ứng đặc biệt)", "isCorrect": true},
+        {"text": "Làm bằng cao su", "isCorrect": false},
+        {"text": "Không dính khay", "isCorrect": false}
+      ],
+      "explanation": "Tài liệu bảng 1 trang 23 ghi nhận loại B có tính chất này (theo nguyên bản)."
+    },
+    {
+      "question": "Vữa thạch cao đạt yêu cầu khi nào?",
+      "options": [
+        {"text": "Còn nhiều cục bột chưa tan", "isCorrect": false},
+        {"text": "Mịn, sệt và đồng nhất", "isCorrect": true},
+        {"text": "Loãng như nước", "isCorrect": false},
+        {"text": "Rắn chắc ngay lập tức", "isCorrect": false}
+      ],
+      "explanation": "Độ mịn và đồng nhất quyết định chất lượng bề mặt của mẫu hàm sau khi đổ."
+    },
+    {
+      "question": "Tại sao phải thổi khô dấu trước khi đổ mẫu?",
+      "options": [
+        {"text": "Để thạch cao bám dính tốt hơn và không bị loãng do dư nước", "isCorrect": true},
+        {"text": "Để dấu nhanh hỏng hơn", "isCorrect": false},
+        {"text": "Để thay đổi màu sắc của thạch cao", "isCorrect": false},
+        {"text": "Để làm nóng dấu", "isCorrect": false}
+      ],
+      "explanation": "Loại bỏ nước đọng trong các hõm răng giúp thạch cao không bị rỗ bề mặt."
+    },
+    {
+      "question": "Lấy dấu phục hình tháo lắp thường sử dụng lượng đất lấy dấu như thế nào?",
+      "options": [
+        {"text": "Càng ít càng tốt", "isCorrect": false},
+        {"text": "Lượng nhiều để lấy hết các chi tiết", "isCorrect": true},
+        {"text": "Chỉ lấy ở mặt nhai", "isCorrect": false},
+        {"text": "Dùng đất sét thay thế", "isCorrect": false}
+      ],
+      "explanation": "Lượng vật liệu đủ nhiều giúp ghi nhận chính xác ngách tiền đình và các phanh cơ."
+    },
+    {
+      "question": "Khi ấn khay hàm trên, hướng ấn nên là:",
+      "options": [
+        {"text": "Ấn từ trước ra sau", "isCorrect": false},
+        {"text": "Ấn từ sau ra trước và từ dưới lên trên", "isCorrect": true},
+        {"text": "Ấn thẳng đứng từ trên xuống", "isCorrect": false},
+        {"text": "Ấn lệch sang một bên", "isCorrect": false}
+      ],
+      "explanation": "Hướng ấn từ sau ra trước giúp vật liệu dư trào ra phía trước thay vì chảy xuống họng gây sặc."
+    },
+    {
+      "question": "Việc mài đáy mẫu song song với mặt phẳng nhai giúp ích gì?",
+      "options": [
+        {"text": "Giúp việc đặt mẫu lên song song kế chính xác hơn", "isCorrect": true},
+        {"text": "Để bệnh nhân dễ cầm", "isCorrect": false},
+        {"text": "Làm mẫu nhẹ hơn", "isCorrect": false},
+        {"text": "Để tiết kiệm thạch cao", "isCorrect": false}
+      ],
+      "explanation": "Mẫu hàm phẳng giúp quá trình phân tích hướng lắp trên song song kế diễn ra chuẩn xác."
+    },
+    {
+      "question": "Dấu chân trên hiện trường hoặc đất cát trôi có thể tồn tại bao lâu theo tài liệu ghi chú thêm?",
+      "options": [
+        {"text": "2 ngày", "isCorrect": false},
+        {"text": "8 ngày", "isCorrect": false},
+        {"text": "14 ngày", "isCorrect": true},
+        {"text": "1 tháng", "isCorrect": false}
+      ],
+      "explanation": "Đây là thông tin ghi chú bổ sung về dấu vết hiện trường được nhắc đến trong file."
+    },
+    {
+      "question": "Nguyên tắc ấn khay lấy dấu đúng là:",
+      "options": [
+        {"text": "Ấn mạnh một bên trước", "isCorrect": false},
+        {"text": "Ấn khay đều tay cả hai bên", "isCorrect": true},
+        {"text": "Ấn mạnh phần cán", "isCorrect": false},
+        {"text": "Yêu cầu bệnh nhân tự ấn", "isCorrect": false}
+      ],
+      "explanation": "Lực ấn đều giúp vật liệu phủ kín cung hàm và không bị lệch độ dày."
+    },
+    {
+      "question": "Trước khi lấy dấu, việc gõ khay vào răng bệnh nhân có tác dụng gì (ghi chú thêm)?",
+      "options": [
+        {"text": "Để kiểm tra xem răng có chắc không", "isCorrect": false},
+        {"text": "Giảm áp lực tâm lý cho bệnh nhân trước khi lấy dấu", "isCorrect": true},
+        {"text": "Để làm sạch răng", "isCorrect": false},
+        {"text": "Để bôi mỡ lên răng", "isCorrect": false}
+      ],
+      "explanation": "Thao tác giả giúp bệnh nhân làm quen với cảm giác khay chạm vào răng."
+    },
+    {
+      "question": "Tiêu chuẩn 'Thành và đáy khay không bị lộ' trên dấu lấy xong có ý nghĩa gì?",
+      "options": [
+        {"text": "Làm dấu trông đẹp hơn", "isCorrect": false},
+        {"text": "Đảm bảo có đủ lớp vật liệu bao phủ, không gây biến dạng do khay chạm nướu", "isCorrect": true},
+        {"text": "Để tiết kiệm khay", "isCorrect": false},
+        {"text": "Để dễ tháo khay", "isCorrect": false}
+      ],
+      "explanation": "Nếu khay bị lộ, nghĩa là vật liệu tại đó quá mỏng, dễ dẫn đến sai lệch kích thước."
+    },
+    {
+      "question": "Hình ảnh trang 13 minh họa quá trình làm gì?",
+      "options": [
+        {"text": "Chế tạo khay cá nhân", "isCorrect": true},
+        {"text": "Lấy vôi răng", "isCorrect": false},
+        {"text": "Hàn răng", "isCorrect": false},
+        {"text": "Nhổ răng", "isCorrect": false}
+      ],
+      "explanation": "Trang 13 mô tả các bước đắp nhựa tự cứng để tạo khay cá nhân."
+    },
+    {
+      "question": "Việc dùng xịt bóng (spray) giữa chất lấy dấu và mô mềm bệnh nhân (ghi chú thêm) giúp ích gì?",
+      "options": [
+        {"text": "Làm bệnh nhân thơm hơn", "isCorrect": false},
+        {"text": "Giảm độ dính, giúp gỡ dấu dễ dàng và bề mặt mịn hơn", "isCorrect": true},
+        {"text": "Làm vật liệu nhanh đông", "isCorrect": false},
+        {"text": "Làm sạch răng", "isCorrect": false}
+      ],
+      "explanation": "Chất xịt hỗ trợ quá trình gỡ dấu không làm rách vật liệu Alginate."
+    },
+    {
+      "question": "Tại sao không nên ấn khay quá mạnh?",
+      "options": [
+        {"text": "Vì sẽ làm khay bị gãy", "isCorrect": false},
+        {"text": "Tránh việc răng chạm vào đáy khay làm hỏng dấu (lộ khay)", "isCorrect": true},
+        {"text": "Làm bệnh nhân cười", "isCorrect": false},
+        {"text": "Làm vật liệu bị biến thành nước", "isCorrect": false}
+      ],
+      "explanation": "Cần duy trì một độ dày vật liệu ổn định giữa khay và răng."
+    },
+    {
+      "question": "Trạng thái thạch cao tỏa nhiệt mạnh nhất khi nào?",
+      "options": [
+        {"text": "Ngay khi mới trộn", "isCorrect": false},
+        {"text": "Trong quá trình đông cứng", "isCorrect": true},
+        {"text": "Sau 24 giờ", "isCorrect": false},
+        {"text": "Khi ngâm vào nước lạnh", "isCorrect": false}
+      ],
+      "explanation": "Phản ứng thạch cao là phản ứng tỏa nhiệt, mẫu ấm lên rõ rệt khi đang đông."
+    },
+    {
+      "question": "Lớp biểu mô nướu (marginal gingiva) trong hình trang 30 có nghĩa là gì?",
+      "options": [
+        {"text": "Nướu dính", "isCorrect": false},
+        {"text": "Nướu rời (nướu viền)", "isCorrect": true},
+        {"text": "Xương ổ răng", "isCorrect": false},
+        {"text": "Tủy răng", "isCorrect": false}
+      ],
+      "explanation": "Marginal gingiva là phần nướu không dính trực tiếp vào xương, ôm sát cổ răng."
+    },
+    {
+      "question": "Đường mài ngang hai bên mẫu hàm dưới nên cách nhóm răng hàm bao nhiêu?",
+      "options": [
+        {"text": "2 mm", "isCorrect": false},
+        {"text": "5 mm", "isCorrect": true},
+        {"text": "10 mm", "isCorrect": false},
+        {"text": "Sát vào cổ răng", "isCorrect": false}
+      ],
+      "explanation": "Khoảng cách 5mm giúp đế mẫu hàm đủ rộng để bảo vệ cấu trúc răng thạch cao."
+    },
+    {
+      "question": "Sự xuất hiện của bọt khí trong mẫu hàm thạch cao là do:",
+      "options": [
+        {"text": "Không dùng máy rung hoặc trộn thạch cao không kỹ", "isCorrect": true},
+        {"text": "Dùng quá nhiều nước", "isCorrect": false},
+        {"text": "Thạch cao quá cũ", "isCorrect": false},
+        {"text": "Bệnh nhân thở mạnh", "isCorrect": false}
+      ],
+      "explanation": "Bọt khí bị kẹt lại làm mẫu hàm bị bọng, không đạt độ đặc chắc."
+    },
+    {
+      "question": "Việc mài đế mẫu hàm có thể thực hiện bằng công cụ gì (hình ảnh trang 38)?",
+      "options": [
+        {"text": "Kéo", "isCorrect": false},
+        {"text": "Máy mài mẫu chuyên dụng (Model Trimmer)", "isCorrect": true},
+        {"text": "Dao thái thịt", "isCorrect": false},
+        {"text": "Giấy nhám thủ công", "isCorrect": false}
+      ],
+      "explanation": "Máy mài mẫu giúp việc tỉa đế nhanh chóng, phẳng và vuông góc."
+    },
+    {
+      "question": "Shellac base plate (vật liệu làm khay) thường được xử lý bằng nhiệt, đúng hay sai?",
+      "options": [
+        {"text": "Đúng", "isCorrect": true},
+        {"text": "Sai", "isCorrect": false}
+      ],
+      "explanation": "Shellac là vật liệu nhựa cánh kiến, cần đun nóng để ép lên mẫu hàm."
+    },
+    {
+      "question": "Nguyên tắc mài cạnh mẫu hàm là gì?",
+      "options": [
+        {"text": "Mài hình răng cưa", "isCorrect": false},
+        {"text": "Mài bờ cạnh tỉa vuông góc", "isCorrect": true},
+        {"text": "Mài càng mỏng càng tốt", "isCorrect": false},
+        {"text": "Mài hình tam giác", "isCorrect": false}
+      ],
+      "explanation": "Cạnh vuông góc giúp mẫu hàm trông chuyên nghiệp và dễ gắn lên giá khớp."
+    },
+    {
+      "question": "Cần hướng ghế bệnh nhân bao nhiêu độ khi lấy dấu (ghi chú thêm)?",
+      "options": [
+        {"text": "0 độ (nằm ngang)", "isCorrect": false},
+        {"text": "20 độ", "isCorrect": true},
+        {"text": "45 độ", "isCorrect": false},
+        {"text": "90 độ", "isCorrect": false}
+      ],
+      "explanation": "Góc nghiêng 20 độ giúp đầu bệnh nhân ổn định và bác sĩ dễ đưa khay vào miệng."
+    },
+    {
+      "question": "Alginate thuộc nhóm vật liệu lấy dấu gì?",
+      "options": [
+        {"text": "Vật liệu đàn hồi", "isCorrect": true},
+        {"text": "Vật liệu cứng", "isCorrect": false},
+        {"text": "Vật liệu vĩnh viễn", "isCorrect": false},
+        {"text": "Vật liệu dẻo nhiệt", "isCorrect": false}
+      ],
+      "explanation": "Alginate có tính chất đàn hồi giúp nó chui ra khỏi các vùng lẹm răng mà không bị gãy."
+    },
+    {
+      "question": "Chất lấy dấu Alginate bị khô đi trong môi trường không khí gọi là hiện tượng gì?",
+      "options": [
+        {"text": "Hiện tượng ngấm nước", "isCorrect": false},
+        {"text": "Hiện tượng mất nước và co lại", "isCorrect": true},
+        {"text": "Hiện tượng nở ra", "isCorrect": false},
+        {"text": "Hiện tượng đổi màu", "isCorrect": false}
+      ],
+      "explanation": "Đây là lý do chính khiến dấu Alginate phải được đổ mẫu ngay."
+    },
+    {
+      "question": "Khi gạt Alginate vào khay, nên bắt đầu từ vị trí nào?",
+      "options": [
+        {"text": "Phần trước khay", "isCorrect": false},
+        {"text": "Phần sau khay tiến dần ra trước để đẩy không khí ra ngoài", "isCorrect": true},
+        {"text": "Gạt đồng thời toàn bộ", "isCorrect": false},
+        {"text": "Đổ trực tiếp từ bát vào", "isCorrect": false}
+      ],
+      "explanation": "Cách gạt này giúp hạn chế tối đa việc tạo bọt khí trong khay."
+    },
+    {
+      "question": "Để đảm bảo dấu không bị bong ra khỏi khay làm sẵn, khay đó cần có gì?",
+      "options": [
+        {"text": "Đục lỗ hoặc bôi chất dán", "isCorrect": true},
+        {"text": "Bôi dầu ăn", "isCorrect": false},
+        {"text": "Cán khay dài", "isCorrect": false},
+        {"text": "Làm bằng sứ", "isCorrect": false}
+      ],
+      "explanation": "Các lỗ đục hoặc keo dán giúp vật liệu lấy dấu gắn chặt vào khay khi tháo ra khỏi miệng."
+    },
+    {
+      "question": "Tại sao phải tôn trọng cách sử dụng của nhà sản xuất khi trộn Alginate?",
+      "options": [
+        {"text": "Để không bị tốn bột", "isCorrect": false},
+        {"text": "Đảm bảo tính chất vật lý và thời gian làm việc chuẩn xác", "isCorrect": true},
+        {"text": "Để hãng không kiện", "isCorrect": false},
+        {"text": "Để bát cao su không hỏng", "isCorrect": false}
+      ],
+      "explanation": "Tỉ lệ và quy trình trộn quyết định sự thành bại của dấu hàm."
+    },
+    {
+      "question": "Nếu mẫu hàm thạch cao bị gãy thân răng khi tháo dấu, nguyên nhân có thể là:",
+      "options": [
+        {"text": "Thạch cao trộn quá loãng", "isCorrect": false},
+        {"text": "Gỡ dấu quá sớm khi thạch cao chưa đủ cứng", "isCorrect": false},
+        {"text": "Gỡ dấu không theo trục răng hoặc răng quá dài", "isCorrect": false},
+        {"text": "Tất cả các nguyên nhân trên", "isCorrect": true}
+      ],
+      "explanation": "Nhiều yếu tố kỹ thuật có thể gây hỏng mẫu hàm thạch cao trong bước cuối cùng."
+    },
+    {
+      "question": "Nghiệm pháp 'Nói bệnh nhân mím môi' (Trang 32) nhằm lấy dấu của cấu trúc nào?",
+      "options": [
+        {"text": "Phanh môi", "isCorrect": true},
+        {"text": "Răng khôn", "isCorrect": false},
+        {"text": "Lưỡi", "isCorrect": false},
+        {"text": "Amidan", "isCorrect": false}
+      ],
+      "explanation": "Động tác mím môi làm căng phanh môi, giúp ghi lại hình ảnh chức năng của nó trên dấu."
+    },
+    {
+      "question": "Phát biểu nào sau đây đúng về đổ đế mẫu hàm?",
+      "options": [
+        {"text": "Đổ đế mỏng 2mm để tiết kiệm", "isCorrect": false},
+        {"text": "Úp khay lên khối thạch cao đổ sẵn trên bàn kính", "isCorrect": true},
+        {"text": "Không cần đổ đế", "isCorrect": false},
+        {"text": "Đổ đế bằng nhựa dẻo", "isCorrect": false}
+      ],
+      "explanation": "Cách úp khay lên thạch cao trên bàn kính giúp tạo mặt đáy phẳng và song song."
+    },
+    {
+      "question": "Việc lấy dấu trong phục hình tháo lắp từng phần quan trọng nhất là ghi lại:",
+      "options": [
+        {"text": "Màu sắc nướu", "isCorrect": false},
+        {"text": "Chi tiết giải phẫu vùng mất răng và các răng trụ", "isCorrect": true},
+        {"text": "Hơi thở của bệnh nhân", "isCorrect": false},
+        {"text": "Kích thước của gương khám", "isCorrect": false}
+      ],
+      "explanation": "Răng trụ và sống hàm là các thành phần trực tiếp nâng đỡ phục hình."
+    },
+    {
+      "question": "Tài liệu này dùng cho bài giảng module mấy?",
+      "options": [
+        {"text": "Module 1", "isCorrect": false},
+        {"text": "Module 24", "isCorrect": true},
+        {"text": "Module 5", "isCorrect": false},
+        {"text": "Module 50", "isCorrect": false}
+      ],
+      "explanation": "File tài liệu nằm trong chương trình giảng dạy của Module 24 ngành RHM."
+    },
+    {
+      "question": "Bìa dấu (phần rìa) đạt yêu cầu khi có độ dày tối thiểu là:",
+      "options": [
+        {"text": "1 mm", "isCorrect": false},
+        {"text": "3 mm", "isCorrect": true},
+        {"text": "10 mm", "isCorrect": false},
+        {"text": "50 mm", "isCorrect": false}
+      ],
+      "explanation": "Độ dày >3mm đảm bảo rìa dấu không bị biến dạng hoặc rách khi tháo khay."
+    },
+    {
+      "question": "Kết quả cuối cùng của quy trình này là gì?",
+      "options": [
+        {"text": "Một cái khay nhựa", "isCorrect": false},
+        {"text": "Mẫu hàm thạch cao hoàn thiện dùng để thiết kế phục hình", "isCorrect": true},
+        {"text": "Hàm răng giả gắn trong miệng", "isCorrect": false},
+        {"text": "Bệnh án của bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Toàn bộ các bước dẫn đến việc tạo ra mẫu hàm chuẩn để làm việc tại labo."
+    }
+  ]

@@ -1,0 +1,8 @@
+# robots.txt for https://nttuan.dev/
+
+User-agent: *
+Disallow: /private/
+Allow: /
+
+Sitemap: https://nttuan.dev/sitemap.xml
+

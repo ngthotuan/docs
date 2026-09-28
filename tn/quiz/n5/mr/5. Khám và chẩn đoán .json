@@ -1,0 +1,1128 @@
+[
+    {
+      "question": "Nội dung chính của bài 'Khám và chẩn đoán phục hình tháo lắp bán phần' gồm bao nhiêu phần?",
+      "options": [
+        {"text": "2 phần: Khám và Chẩn đoán", "isCorrect": false},
+        {"text": "3 phần: Hỏi bệnh, Khám lâm sàng, Chẩn đoán và Tiên lượng", "isCorrect": true},
+        {"text": "4 phần: Hỏi bệnh, Lấy dấu, Đổ mẫu, Gắn hàm", "isCorrect": false},
+        {"text": "5 phần: Tổng quát, Ngoài mặt, Trong miệng, X-quang, Mẫu hàm", "isCorrect": false}
+      ],
+      "explanation": "Nội dung chính của bài giảng được chia thành 3 giai đoạn: Hỏi bệnh, Khám lâm sàng và Chẩn đoán - Tiên lượng."
+    },
+    {
+      "question": "Trong phần hỏi bệnh, các yếu tố nào cần khai thác khi bệnh nhân phàn nàn về 'sự khó chịu'?",
+      "options": [
+        {"text": "Vị trí, tần suất, mức độ nghiêm trọng", "isCorrect": false},
+        {"text": "Khởi phát, khu trú hay lan tỏa", "isCorrect": false},
+        {"text": "Sưng nề, kích thước, mật độ, màu sắc", "isCorrect": false},
+        {"text": "Tất cả các yếu tố trên", "isCorrect": true}
+      ],
+      "explanation": "Khi hỏi về sự khó chịu (đau, sưng), bác sĩ cần khai thác chi tiết về vị trí, tính chất đau, mức độ, tần suất và các biến đổi lâm sàng như sưng nề."
+    },
+    {
+      "question": "Lý do đến khám liên quan đến 'chức năng' thường bao gồm vấn đề gì?",
+      "options": [
+        {"text": "Khó khăn khi ăn nhai do vỡ múi, mất răng, sai khớp cắn", "isCorrect": true},
+        {"text": "Hôi miệng", "isCorrect": false},
+        {"text": "Răng đổi màu", "isCorrect": false},
+        {"text": "Dáng đi bất thường", "isCorrect": false}
+      ],
+      "explanation": "Khó khăn khi ăn nhai do các khiếm khuyết về răng và khớp cắn thuộc nhóm lý do về chức năng."
+    },
+    {
+      "question": "Lý do đến khám về mặt 'xã hội' thường là gì?",
+      "options": [
+        {"text": "Mất răng cửa", "isCorrect": false},
+        {"text": "Hôi miệng", "isCorrect": true},
+        {"text": "Gãy phục hình", "isCorrect": false},
+        {"text": "Đau khớp thái dương hàm", "isCorrect": false}
+      ],
+      "explanation": "Hôi miệng là một rào cản xã hội khiến bệnh nhân tự ti và đi khám."
+    },
+    {
+      "question": "Yếu tố thẩm mỹ nào sau đây khiến bệnh nhân đi khám phục hình?",
+      "options": [
+        {"text": "Mất răng, răng chen chúc", "isCorrect": false},
+        {"text": "Phục hình gãy vỡ, hình dáng răng không đẹp", "isCorrect": false},
+        {"text": "Răng sai vị trí, đổi màu", "isCorrect": false},
+        {"text": "Tất cả các ý trên", "isCorrect": true}
+      ],
+      "explanation": "Mọi khiếm khuyết về số lượng, vị trí và màu sắc răng gây ảnh hưởng thẩm mỹ đều là lý do bệnh nhân tìm đến bác sĩ phục hình."
+    },
+    {
+      "question": "Tiền sử y khoa cần lưu ý việc dùng thuốc Steroid hoặc thuốc chống đông vì lý do gì?",
+      "options": [
+        {"text": "Vì chúng làm răng trắng hơn", "isCorrect": false},
+        {"text": "Vì ảnh hưởng trực tiếp đến phương thức điều trị và nguy cơ chảy máu", "isCorrect": true},
+        {"text": "Vì chúng gây hôi miệng", "isCorrect": false},
+        {"text": "Vì chúng làm tăng hiệu quả của phục hình", "isCorrect": false}
+      ],
+      "explanation": "Các loại thuốc toàn thân như thuốc chống đông ảnh hưởng nghiêm trọng đến các can thiệp có chảy máu trong nha khoa."
+    },
+    {
+      "question": "Tiền sử xạ trị vùng hàm mặt có thể ảnh hưởng đến phục hình tháo lắp như thế nào?",
+      "options": [
+        {"text": "Làm tăng độ bám dính của hàm", "isCorrect": false},
+        {"text": "Ảnh hưởng trực tiếp đến kế hoạch điều trị do thay đổi cấu trúc xương và niêm mạc", "isCorrect": true},
+        {"text": "Giúp nướu khỏe hơn", "isCorrect": false},
+        {"text": "Không có ảnh hưởng gì", "isCorrect": false}
+      ],
+      "explanation": "Bệnh nhân từng xạ trị cần có kế hoạch điều trị đặc biệt vì niêm mạc thường mỏng và xương dễ bị hoại tử."
+    },
+    {
+      "question": "Tình trạng bệnh toàn thân nào có liên quan mật thiết đến bệnh nha chu của răng trụ?",
+      "options": [
+        {"text": "Tiểu đường", "isCorrect": true},
+        {"text": "Mất ngủ", "isCorrect": false},
+        {"text": "Cận thị", "isCorrect": false},
+        {"text": "Gãy xương chân", "isCorrect": false}
+      ],
+      "explanation": "Tiểu đường là một yếu tố nguy cơ lớn làm trầm trọng thêm tình trạng nha chu của các răng còn lại."
+    },
+    {
+      "question": "Hiện tượng mòn răng diện rộng có thể gợi ý bệnh lý toàn thân nào?",
+      "explanation": "Trào ngược acid dạ dày liên quan đến các chứng chán ăn/thèm ăn có thể gây mòn răng hóa học nghiêm trọng.",
+      "options": [
+        {"text": "Viêm gan B", "isCorrect": false},
+        {"text": "Trào ngược acid dạ dày", "isCorrect": true},
+        {"text": "HIV", "isCorrect": false},
+        {"text": "Giang mai", "isCorrect": false}
+      ]
+    },
+    {
+      "question": "Bệnh lý nào sau đây cần bác sĩ và phụ tá đặc biệt lưu ý để phòng ngừa lây nhiễm?",
+      "options": [
+        {"text": "Viêm gan B, HIV, Giang mai", "isCorrect": true},
+        {"text": "Đau dạ dày", "isCorrect": false},
+        {"text": "Loãng xương", "isCorrect": false},
+        {"text": "Sâu răng", "isCorrect": false}
+      ],
+      "explanation": "Các bệnh truyền nhiễm qua đường máu và dịch tiết đòi hỏi quy trình kiểm soát nhiễm khuẩn nghiêm ngặt."
+    },
+    {
+      "question": "Khai thác tiền sử nha chu bao gồm những thông tin nào?",
+      "options": [
+        {"text": "Tình trạng vệ sinh răng miệng (VSRM), tần suất lấy vôi răng", "isCorrect": false},
+        {"text": "Phương pháp kiểm soát mảng bám, tiền sử phẫu thuật nha chu", "isCorrect": false},
+        {"text": "Việc bệnh nhân từng được hướng dẫn VSRM hay chưa", "isCorrect": false},
+        {"text": "Tất cả các thông tin trên", "isCorrect": true}
+      ],
+      "explanation": "Đánh giá toàn diện thói quen và lịch sử điều trị nha chu giúp tiên lượng độ bền của phục hình."
+    },
+    {
+      "question": "Phân tích khớp cắn trong tiền sử nha khoa nhằm mục đích gì?",
+      "options": [
+        {"text": "Để chọn màu răng", "isCorrect": false},
+        {"text": "Đánh giá các vận động hàm và sự hài hòa chức năng", "isCorrect": true},
+        {"text": "Để tính trọng lượng mẫu hàm", "isCorrect": false},
+        {"text": "Để kiểm tra sâu răng", "isCorrect": false}
+      ],
+      "explanation": "Phân tích khớp cắn là bước bắt buộc để thiết kế phục hình không gây cản trở vận động hàm."
+    },
+    {
+      "question": "Bệnh nhân đã từng sử dụng phục hình tháo lắp trước đó cần cung cấp thông tin gì?",
+      "options": [
+        {"text": "Thời gian sử dụng phục hình cũ", "isCorrect": false},
+        {"text": "Những điểm hài lòng hoặc không hài lòng với hàm cũ", "isCorrect": false},
+        {"text": "Lý do gãy hoặc hỏng phục hình cũ", "isCorrect": false},
+        {"text": "Tất cả các ý trên", "isCorrect": true}
+      ],
+      "explanation": "Tiền sử phục hình tháo lắp giúp bác sĩ rút kinh nghiệm cho thiết kế hàm mới."
+    },
+    {
+      "question": "Khám lâm sàng tổng quát bao gồm việc quan sát yếu tố nào?",
+      "options": [
+        {"text": "Dáng đi, trọng lượng, màu sắc da", "isCorrect": true},
+        {"text": "Số lượng răng mất", "isCorrect": false},
+        {"text": "Độ sâu của túi nha chu", "isCorrect": false},
+        {"text": "Hình dạng cung hàm", "isCorrect": false}
+      ],
+      "explanation": "Khám tổng quát tập trung vào biểu hiện chung của cơ thể để đánh giá tình trạng sức khỏe nền."
+    },
+    {
+      "question": "Khám ngoài mặt cần đánh giá tính chất nào của khuôn mặt?",
+      "options": [
+        {"text": "Sự cân xứng của mặt", "isCorrect": true},
+        {"text": "Màu sắc của men răng", "isCorrect": false},
+        {"text": "Các điểm chạm khớp", "isCorrect": false},
+        {"text": "Đường vòng lớn nhất của răng", "isCorrect": false}
+      ],
+      "explanation": "Sự cân xứng mặt giúp phát hiện các rối loạn tăng trưởng hoặc bệnh lý vùng hàm mặt."
+    },
+    {
+      "question": "Kỹ thuật khám khớp thái dương hàm (TDH) cơ bản là gì?",
+      "options": [
+        {"text": "Chiếu tia X-quang", "isCorrect": false},
+        {"text": "Sờ hai bên vùng trước tai khi bệnh nhân mở/đóng hàm", "isCorrect": true},
+        {"text": "Gõ vào răng cửa", "isCorrect": false},
+        {"text": "Thử tủy", "isCorrect": false}
+      ],
+      "explanation": "Sờ nắn vùng trước tai giúp phát hiện tiếng kêu click, lạo xạo hoặc triệu chứng đau khi vận động hàm."
+    },
+    {
+      "question": "Triệu chứng nào cần tìm kiếm khi khám khớp TDH?",
+      "options": [
+        {"text": "Tiếng kêu click", "isCorrect": false},
+        {"text": "Cảm giác đau khi vận động", "isCorrect": false},
+        {"text": "Độ mở hàm tối đa và vận động bên tối đa", "isCorrect": false},
+        {"text": "Tất cả các triệu chứng trên", "isCorrect": true}
+      ],
+      "explanation": "Đánh giá đầy đủ tiếng kêu, cảm giác đau và biên độ vận động là nội dung khám khớp TDH."
+    },
+    {
+      "question": "Khi khám cơ nhai, bác sĩ cần thực hiện thao tác nào?",
+      "options": [
+        {"text": "Chỉ quan sát", "isCorrect": false},
+        {"text": "Khám đồng thời cả hai bên để so sánh trương lực và cảm giác đau", "isCorrect": true},
+        {"text": "Yêu cầu bệnh nhân nhổ răng", "isCorrect": false},
+        {"text": "Đo độ dài của môi", "isCorrect": false}
+      ],
+      "explanation": "Khám đối xứng giúp nhận diện các bất thường về trương lực cơ hoặc co thắt cơ."
+    },
+    {
+      "question": "Quan sát môi lúc bệnh nhân cười lớn nhằm mục đích gì?",
+      "options": [
+        {"text": "Để xem bệnh nhân có vui không", "isCorrect": false},
+        {"text": "Đánh giá sự lộ răng và đường cười trong thẩm mỹ phục hình", "isCorrect": true},
+        {"text": "Để đo huyết áp", "isCorrect": false},
+        {"text": "Để kiểm tra lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Đường cười xác định giới hạn thẩm mỹ cho việc sắp xếp răng giả."
+    },
+    {
+      "question": "Khám mô mềm trong miệng bao gồm kiểm tra các vị trí nào?",
+      "options": [
+        {"text": "Lưỡi, sàn miệng, hành lang miệng", "isCorrect": false},
+        {"text": "Niêm mạc má, vòm miệng", "isCorrect": false},
+        {"text": "Các sang thương loét, nấm, tiền ung thư", "isCorrect": false},
+        {"text": "Tất cả các vị trí và tình trạng trên", "isCorrect": true}
+      ],
+      "explanation": "Mô mềm trong miệng phải khỏe mạnh, không có sang thương bệnh lý mới đảm bảo cho việc mang hàm giả."
+    },
+    {
+      "question": "Mô tả nào sau đây về 'Residual Alveolar Ridge' là đúng?",
+      "options": [
+        {"text": "Là xương ổ răng còn lại sau khi mất răng (sống hàm)", "isCorrect": true},
+        {"text": "Là phần nướu dính bao quanh răng thật", "isCorrect": false},
+        {"text": "Là phần xương gò má", "isCorrect": false},
+        {"text": "Là tên gọi khác của lồi củ hàm trên", "isCorrect": false}
+      ],
+      "explanation": "Residual Alveolar Ridge là sống hàm vô răng, nơi sẽ nâng đỡ yên phục hình."
+    },
+    {
+      "question": "Hình dạng sống hàm nào sau đây được liệt kê trong tài liệu?",
+      "options": [
+        {"text": "U shaped, V shaped", "isCorrect": false},
+        {"text": "Knife edged, Flat", "isCorrect": false},
+        {"text": "Inverted, Undercut", "isCorrect": false},
+        {"text": "Tất cả các hình dạng trên", "isCorrect": true}
+      ],
+      "explanation": "Tài liệu liệt kê các dạng sống hàm từ thuận lợi (U shaped) đến không thuận lợi cho phục hình."
+    },
+    {
+      "question": "Yếu tố nào của sống hàm mất răng cần được đánh giá kỹ?",
+      "options": [
+        {"text": "Kích thước và hình dạng", "isCorrect": false},
+        {"text": "Độ săn chắc của niêm mạc phủ", "isCorrect": false},
+        {"text": "Sự nhạy cảm của niêm mạc", "isCorrect": false},
+        {"text": "Tất cả các yếu tố trên", "isCorrect": true}
+      ],
+      "explanation": "Đặc điểm của sống hàm quyết định khả năng nâng đỡ và sự thoải mái của phục hình."
+    },
+    {
+      "question": "Lồi xương (Torus) ở hàm trên hoặc hàm dưới cần được xử lý như thế nào?",
+      "options": [
+        {"text": "Luôn luôn phải nhổ bỏ", "isCorrect": false},
+        {"text": "Đánh giá xem có cản trở phục hình để quyết định có phẫu thuật hay không", "isCorrect": true},
+        {"text": "Mài răng trụ để che lấp lồi xương", "isCorrect": false},
+        {"text": "Không cần quan tâm", "isCorrect": false}
+      ],
+      "explanation": "Torus nếu quá lớn gây cản trở đường lắp phục hình hoặc gây đau thì cần can thiệp phẫu thuật."
+    },
+    {
+      "question": "Khi khám mô nha chu, bác sĩ cần lưu ý điều gì về nướu dính?",
+      "options": [
+        {"text": "Màu nướu phải thật đỏ", "isCorrect": false},
+        {"text": "Chiều rộng của nướu dính xung quanh các răng trụ", "isCorrect": true},
+        {"text": "Độ dày của men răng", "isCorrect": false},
+        {"text": "Vị trí của lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Nướu dính đủ rộng giúp răng trụ chịu lực tốt hơn và chống lại sự xâm nhập của mảng bám."
+    },
+    {
+      "question": "Các tình trạng nha chu bất thường cần ghi nhận là gì?",
+      "options": [
+        {"text": "Túi nha chu, tụt nướu", "isCorrect": false},
+        {"text": "Thắng môi/má bám bất thường", "isCorrect": false},
+        {"text": "Nướu viêm, chảy máu", "isCorrect": false},
+        {"text": "Tất cả các ý trên", "isCorrect": true}
+      ],
+      "explanation": "Mọi tình trạng viêm nhiễm hoặc bất thường giải phẫu nha chu đều ảnh hưởng đến tiên lượng phục hình."
+    },
+    {
+      "question": "Kiểm tra răng bao gồm những nội dung nào?",
+      "options": [
+        {"text": "Hở điểm tiếp xúc, mòn răng", "isCorrect": false},
+        {"text": "Nứt răng, sâu răng", "isCorrect": false},
+        {"text": "Tình trạng các lỗ trám và phục hồi cũ", "isCorrect": false},
+        {"text": "Tất cả các nội dung trên", "isCorrect": true}
+      ],
+      "explanation": "Đánh giá sức khỏe từng răng còn lại để chọn răng trụ phù hợp."
+    },
+    {
+      "question": "Khám khớp cắn trong miệng cần lưu ý yếu tố nào?",
+      "options": [
+        {"text": "Sự sắp xếp các răng trên cung hàm", "isCorrect": false},
+        {"text": "Tiếp xúc răng ban đầu và tiếp xúc sang bên/ra trước", "isCorrect": false},
+        {"text": "Khả năng vận động của hàm dưới", "isCorrect": false},
+        {"text": "Tất cả các yếu tố trên", "isCorrect": true}
+      ],
+      "explanation": "Khớp cắn ổn định là nền tảng để thiết kế phục hình tháo lắp bán phần."
+    },
+    {
+      "question": "Sự thay đổi mặt phẳng nhai do răng đối trồi gây ra khó khăn gì?",
+      "options": [
+        {"text": "Làm hàm giả nhẹ hơn", "isCorrect": false},
+        {"text": "Thiếu khoảng cách liên cung hàm để đặt răng giả và nền hàm", "isCorrect": true},
+        {"text": "Giúp răng thật chắc hơn", "isCorrect": false},
+        {"text": "Không ảnh hưởng gì", "isCorrect": false}
+      ],
+      "explanation": "Răng đối trồi chiếm không gian của vùng mất răng, cần phải mài chỉnh hoặc cắt ngắn trước khi làm phục hình."
+    },
+    {
+      "question": "Tình trạng khớp cắn sâu hoặc cắn chìa lớn ảnh hưởng đến phục hình như thế nào?",
+      "options": [
+        {"text": "Làm phục hình đẹp hơn", "isCorrect": false},
+        {"text": "Gây khó khăn cho việc thiết kế và sắp xếp răng giả", "isCorrect": true},
+        {"text": "Làm tăng độ bền của móc", "isCorrect": false},
+        {"text": "Bệnh nhân dễ vệ sinh hơn", "isCorrect": false}
+      ],
+      "explanation": "Sai lạc khớp cắn theo chiều đứng và chiều trước sau đòi hỏi thiết kế phục hình phức tạp hơn."
+    },
+    {
+      "question": "Dấu hiệu của chấn thương khớp cắn bao gồm:",
+      "options": [
+        {"text": "Răng lung lay, mòn mặt nhai bất thường", "isCorrect": false},
+        {"text": "Thói quen cận chức năng (như nghiến răng)", "isCorrect": false},
+        {"text": "Tiêu xương ổ răng khu trú", "isCorrect": false},
+        {"text": "Tất cả các dấu hiệu trên", "isCorrect": true}
+      ],
+      "explanation": "Chấn thương khớp cắn cần được loại bỏ trước khi tiến hành làm phục hình."
+    },
+    {
+      "question": "X-quang giúp bác sĩ phát hiện điều gì trong chẩn đoán phục hình?",
+      "options": [
+        {"text": "Sang thương sâu răng, tiêu xương ổ", "isCorrect": false},
+        {"text": "Mật độ xương, hình thể chân răng", "isCorrect": false},
+        {"text": "Dây chằng nha chu (DCNC) và lamina dura", "isCorrect": false},
+        {"text": "Tất cả các thông tin trên", "isCorrect": true}
+      ],
+      "explanation": "Phim X-quang cung cấp các dữ liệu về cấu trúc bên trong xương và răng mà mắt thường không thấy."
+    },
+    {
+      "question": "Sang thương thấu quang hoặc cản quang trên X-quang có ý nghĩa gì?",
+      "options": [
+        {"text": "Gợi ý các bệnh lý nhiễm trùng hoặc u xương cần xử lý trước phục hình", "isCorrect": true},
+        {"text": "Là dấu hiệu răng bị nhiễm màu", "isCorrect": false},
+        {"text": "Cho biết bệnh nhân có hút thuốc lá", "isCorrect": false},
+        {"text": "Không có giá trị chẩn đoán", "isCorrect": false}
+      ],
+      "explanation": "Cần loại trừ các sang thương vùng chóp hoặc xương hàm trước khi đặt phục hình lên đó."
+    },
+    {
+      "question": "Thử tủy (kiểm tra tủy) được thực hiện khi nào?",
+      "options": [
+        {"text": "Khi răng có lỗ sâu lớn hoặc đổi màu", "isCorrect": false},
+        {"text": "Khi dự định dùng răng đó làm răng trụ chính", "isCorrect": false},
+        {"text": "Khi nghi ngờ có bệnh lý tủy trên lâm sàng hoặc X-quang", "isCorrect": false},
+        {"text": "Tất cả các trường hợp trên", "isCorrect": true}
+      ],
+      "explanation": "Xác định sự sống của tủy giúp quyết định có cần điều trị nội nha trước phục hình hay không."
+    },
+    {
+      "question": "Khám phục hình cũ cần đánh giá yếu tố nào?",
+      "options": [
+        {"text": "Tính thích ứng của thiết kế và ảnh hưởng có hại lên mô mềm", "isCorrect": false},
+        {"text": "Tình trạng mòn, màu sắc và kích thước răng giả", "isCorrect": false},
+        {"text": "Phần mở rộng của nền hàm và sơ đồ khớp cắn", "isCorrect": false},
+        {"text": "Tất cả các yếu tố trên", "isCorrect": true}
+      ],
+      "explanation": "Đánh giá hàm cũ giúp bác sĩ hiểu được khả năng thích nghi và các vấn đề cơ học của bệnh nhân."
+    },
+    {
+      "question": "Hàm giả cũ không khít sát có thể gây ra hậu quả gì?",
+      "options": [
+        {"text": "Làm răng thật chắc hơn", "isCorrect": false},
+        {"text": "Gây loét niêm mạc, tiêu xương nhanh và kém nâng đỡ mô mềm", "isCorrect": true},
+        {"text": "Làm bệnh nhân ăn ngon hơn", "isCorrect": false},
+        {"text": "Tăng tiết nước bọt", "isCorrect": false}
+      ],
+      "explanation": "Hàm lỏng lẻo gây sang chấn liên tục lên các tổ chức nâng đỡ."
+    },
+    {
+      "question": "Mẫu hàm chẩn đoán cần đạt tiêu chuẩn gì về chi tiết giải phẫu?",
+      "options": [
+        {"text": "Chỉ cần rõ các răng", "isCorrect": false},
+        {"text": "Phải thể hiện đầy đủ và chính xác các chi tiết răng, nướu và các mốc giải phẫu", "isCorrect": true},
+        {"text": "Càng to càng tốt", "isCorrect": false},
+        {"text": "Làm bằng nhựa thay vì thạch cao", "isCorrect": false}
+      ],
+      "explanation": "Mẫu hàm chính xác là cơ sở để phân tích thiết kế trên song song kế."
+    },
+    {
+      "question": "Độ dày lý tưởng của đế mẫu hàm chẩn đoán là bao nhiêu?",
+      "options": [
+        {"text": "5 mm", "isCorrect": false},
+        {"text": "10 - 15 mm", "isCorrect": true},
+        {"text": "20 - 30 mm", "isCorrect": false},
+        {"text": "Không quan trọng", "isCorrect": false}
+      ],
+      "explanation": "Đế mẫu hàm đủ dày để đảm bảo độ bền và thuận tiện khi mài chỉnh hoặc lên giá khớp."
+    },
+    {
+      "question": "Đế mẫu hàm cần có tương quan như thế nào với mặt phẳng cắn?",
+      "options": [
+        {"text": "Cắt chéo", "isCorrect": false},
+        {"text": "Song song với mặt phẳng cắn", "isCorrect": true},
+        {"text": "Vuông góc với mặt phẳng cắn", "isCorrect": false},
+        {"text": "Không cần quy luật", "isCorrect": false}
+      ],
+      "explanation": "Đế song song mặt phẳng cắn giúp bác sĩ quan sát các mặt răng và sống hàm một cách trực quan nhất."
+    },
+    {
+      "question": "Phân tích mẫu hàm trên giá khớp giúp đánh giá yếu tố nào?",
+      "options": [
+        {"text": "Tương quan khớp cắn và mặt phẳng khớp cắn", "isCorrect": false},
+        {"text": "Đường vòng lớn nhất của các răng trụ và vị trí ổ tựa", "isCorrect": false},
+        {"text": "Khoảng liên hàm và quan hệ sống hàm", "isCorrect": false},
+        {"text": "Tất cả các yếu tố trên", "isCorrect": true}
+      ],
+      "explanation": "Lên giá khớp cho phép mô phỏng các vận động hàm của bệnh nhân ngoài miệng."
+    },
+    {
+      "question": "Đường vòng lớn nhất của răng trụ có ý nghĩa gì trong thiết kế?",
+      "options": [
+        {"text": "Xác định vị trí đặt phần lưu giữ và phần đối kháng của móc", "isCorrect": true},
+        {"text": "Để mài răng trụ nhỏ lại", "isCorrect": false},
+        {"text": "Để chọn loại sứ", "isCorrect": false},
+        {"text": "Để đo chiều cao răng", "isCorrect": false}
+      ],
+      "explanation": "Móc phải được đặt tương quan với đường vòng lớn nhất để đảm bảo lực giữ hàm."
+    },
+    {
+      "question": "Khoảng liên hàm (Inter-arch distance) hẹp sẽ gây khó khăn gì?",
+      "options": [
+        {"text": "Dễ làm răng sứ", "isCorrect": false},
+        {"text": "Không đủ chỗ để đặt khung kim loại, nền nhựa và răng giả", "isCorrect": true},
+        {"text": "Giúp hàm bám chặt hơn", "isCorrect": false},
+        {"text": "Làm bệnh nhân nói rõ hơn", "isCorrect": false}
+      ],
+      "explanation": "Khoảng cách giữa hai hàm phải đủ để chứa các thành phần cấu tạo của phục hình."
+    },
+    {
+      "question": "Việc phân loại bệnh nhân theo tâm lý có mục đích gì?",
+      "options": [
+        {"text": "Để biết có nên điều trị hay không", "isCorrect": false},
+        {"text": "Giúp bác sĩ có cách tiếp xúc và giải thích phù hợp, đảm bảo sự thành công của phục hình", "isCorrect": true},
+        {"text": "Để tính tiền phí cao hơn", "isCorrect": false},
+        {"text": "Để viết báo cáo khoa học", "isCorrect": false}
+      ],
+      "explanation": "Sự hợp tác của bệnh nhân là chìa khóa để họ chấp nhận và sử dụng phục hình tháo lắp."
+    },
+    {
+      "question": "Bệnh nhân loại 'Khôn ngoan' có đặc điểm gì?",
+      "options": [
+        {"text": "Luôn nghi ngờ bác sĩ", "isCorrect": false},
+        {"text": "Hợp tác, lắng nghe và hiểu rõ các giới hạn của điều trị", "isCorrect": true},
+        {"text": "Không quan tâm đến kết quả", "isCorrect": false},
+        {"text": "Chỉ muốn làm răng thật trắng", "isCorrect": false}
+      ],
+      "explanation": "Đây là nhóm bệnh nhân lý tưởng nhất cho mọi loại phục hình."
+    },
+    {
+      "question": "Bệnh nhân loại 'Dễ xúc động' cần được bác sĩ đối xử như thế nào?",
+      "options": [
+        {"text": "Quát mắng để họ im lặng", "isCorrect": false},
+        {"text": "Nhẫn nại, giải thích kỹ và tạo niềm tin", "isCorrect": true},
+        {"text": "Từ chối điều trị ngay lập tức", "isCorrect": false},
+        {"text": "Giao cho sinh viên thực tập", "isCorrect": false}
+      ],
+      "explanation": "Nhóm này thường lo lắng thái quá, cần sự hỗ trợ tâm lý từ bác sĩ."
+    },
+    {
+      "question": "Bệnh nhân loại 'Hay đòi hỏi' thường gây khó khăn gì?",
+      "options": [
+        {"text": "Muốn kết quả hoàn hảo vượt quá khả năng của phục hình", "isCorrect": true},
+        {"text": "Đồng ý với mọi thiết kế", "isCorrect": false},
+        {"text": "Không bao giờ đi tái khám", "isCorrect": false},
+        {"text": "Trả tiền rất nhanh", "isCorrect": false}
+      ],
+      "explanation": "Cần giải thích rõ các giới hạn vật lý và sinh học của hàm giả cho nhóm này trước khi bắt đầu."
+    },
+    {
+      "question": "Bệnh nhân loại 'Thờ ơ' có nguy cơ gì?",
+      "options": [
+        {"text": "Sẽ làm hỏng hàm ngay lập tức", "isCorrect": false},
+        {"text": "Kém vệ sinh răng miệng và không tuân thủ dặn dò của bác sĩ", "isCorrect": true},
+        {"text": "Hỏi quá nhiều câu hỏi", "isCorrect": false},
+        {"text": "Muốn làm hàm bằng vàng", "isCorrect": false}
+      ],
+      "explanation": "Nhóm thờ ơ thường có tiên lượng kém do không quan tâm bảo trì phục hình."
+    },
+    {
+      "question": "Tại sao cần đánh giá về ưu tiên kinh tế của bệnh nhân?",
+      "options": [
+        {"text": "Để bác sĩ chọn loại phục hình đắt nhất", "isCorrect": false},
+        {"text": "Để đưa ra kế hoạch điều trị khả thi và phù hợp với khả năng chi trả", "isCorrect": true},
+        {"text": "Để biết bệnh nhân có làm nghề gì", "isCorrect": false},
+        {"text": "Không thực sự cần thiết", "isCorrect": false}
+      ],
+      "explanation": "Phục hình tháo lắp có nhiều mức giá khác nhau tùy vật liệu (nhựa, khung đúc, hợp kim quý)."
+    },
+    {
+      "question": "Bước chẩn đoán bao gồm những nội dung nào?",
+      "options": [
+        {"text": "Xác định loại mất răng", "isCorrect": false},
+        {"text": "Đánh giá tình trạng và sự phân bố các răng còn lại", "isCorrect": false},
+        {"text": "Xem xét nguyện vọng và kinh tế của bệnh nhân", "isCorrect": false},
+        {"text": "Tất cả các nội dung trên", "isCorrect": true}
+      ],
+      "explanation": "Chẩn đoán là sự tổng hợp của mọi thông tin thu thập được từ lâm sàng và cận lâm sàng."
+    },
+    {
+      "question": "Tiên lượng trong phục hình tháo lắp có ý nghĩa gì?",
+      "options": [
+        {"text": "Dự đoán sự thành công và độ bền của phục hình dựa trên các yếu tố đã khám", "isCorrect": true},
+        {"text": "Biết trước ngày bệnh nhân sẽ qua đời", "isCorrect": false},
+        {"text": "Dự đoán giá vàng trên thị trường", "isCorrect": false},
+        {"text": "Xác định xem bệnh nhân có bị sâu răng không", "isCorrect": false}
+      ],
+      "explanation": "Tiên lượng giúp bác sĩ và bệnh nhân có kỳ vọng thực tế về kết quả điều trị."
+    },
+    {
+      "question": "Phục hình tháo lắp từng phần được chỉ định khi nào?",
+      "options": [
+        {"text": "Khi mất toàn bộ răng", "isCorrect": false},
+        {"text": "Khi mất răng nhưng còn răng thật để nâng đỡ và bám giữ", "isCorrect": true},
+        {"text": "Khi bệnh nhân muốn làm răng sứ cố định", "isCorrect": false},
+        {"text": "Khi chỉ mất 1 răng duy nhất", "isCorrect": false}
+      ],
+      "explanation": "Đây là loại phục hình dành cho bệnh nhân mất răng bán phần (Partial endentulism)."
+    },
+    {
+      "question": "Ký hiệu 'ENA' và 'ENP' trên mẫu hàm chẩn đoán là gì?",
+      "options": [
+        {"text": "Gai mũi trước và Gai mũi sau", "isCorrect": true},
+        {"text": "Lỗ cằm và Lỗ hàm dưới", "isCorrect": false},
+        {"text": "Góc hàm và Lồi cầu", "isCorrect": false},
+        {"text": "Mỏm vẹt và Hố khớp", "isCorrect": false}
+      ],
+      "explanation": "Đây là các mốc giải phẫu quan trọng để xác định mặt phẳng khẩu cái."
+    },
+    {
+      "question": "Sờ hạch cổ vùng hàm mặt trong khám lâm sàng nhằm phát hiện điều gì?",
+      "options": [
+        {"text": "Tình trạng sâu răng", "isCorrect": false},
+        {"text": "Các dấu hiệu viêm nhiễm cấp tính hoặc ác tính", "isCorrect": true},
+        {"text": "Độ cứng của xương", "isCorrect": false},
+        {"text": "Mức độ vôi răng", "isCorrect": false}
+      ],
+      "explanation": "Hạch sưng đau có thể báo hiệu tình trạng nhiễm trùng vùng miệng cần được xử lý trước."
+    },
+    {
+      "question": "Tại sao cần kiểm tra tình trạng tụt nướu của các răng?",
+      "options": [
+        {"text": "Để mài răng nhanh hơn", "isCorrect": false},
+        {"text": "Đánh giá mức độ nâng đỡ xương và nguy cơ nhạy cảm của răng trụ", "isCorrect": true},
+        {"text": "Để chọn màu nướu nhựa", "isCorrect": false},
+        {"text": "Để biết tuổi của bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Răng bị tụt nướu nhiều có thể không đủ vững chắc để làm răng trụ mang móc."
+    },
+    {
+      "question": "Chụp X-quang toàn cảnh (Panorama) thường được dùng để làm gì?",
+      "options": [
+        {"text": "Chỉ xem 1 răng cửa", "isCorrect": false},
+        {"text": "Đánh giá tổng quát toàn bộ hệ thống răng, xương hàm và các xoang", "isCorrect": true},
+        {"text": "Để đo huyết áp", "isCorrect": false},
+        {"text": "Để chụp ảnh chân dung", "isCorrect": false}
+      ],
+      "explanation": "Phim Panorama là công cụ chẩn đoán hình ảnh cơ bản nhất trong phục hình tháo lắp bán phần."
+    },
+    {
+      "question": "Mẫu hàm chẩn đoán bị 'bọng' (không đặc chắc) sẽ dẫn đến hậu quả gì?",
+      "options": [
+        {"text": "Làm mẫu hàm đẹp hơn", "isCorrect": false},
+        {"text": "Sai lệch trong việc phân tích vùng lẹm và thiết kế khung sườn", "isCorrect": true},
+        {"text": "Giúp thạch cao nhanh khô", "isCorrect": false},
+        {"text": "Không ảnh hưởng gì", "isCorrect": false}
+      ],
+      "explanation": "Mẫu hàm phải đặc và mịn để các phép đo trên song song kế được chính xác."
+    },
+    {
+      "question": "Đường vòng mô (Tissue undercut) có ý nghĩa gì trong phục hình?",
+      "options": [
+        {"text": "Là nơi thức ăn bám vào", "isCorrect": false},
+        {"text": "Ảnh hưởng đến đường lắp và phần mở rộng của nền hàm", "isCorrect": true},
+        {"text": "Là một loại sâu răng", "isCorrect": false},
+        {"text": "Để xác định đường cười", "isCorrect": false}
+      ],
+      "explanation": "Bác sĩ cần phân tích vùng lẹm mô mềm để tránh gây đau khi bệnh nhân tháo lắp hàm."
+    },
+    {
+      "question": "Theo tài liệu, ngày được nhắc đến ở trang đầu tiên là ngày nào?",
+      "options": [
+        {"text": "1/1", "isCorrect": false},
+        {"text": "18/12", "isCorrect": true},
+        {"text": "25/12", "isCorrect": false},
+        {"text": "10/10", "isCorrect": false}
+      ],
+      "explanation": "Trang đầu tiên của tài liệu ghi rõ ngày (18/12)."
+    },
+    {
+      "question": "Trong 'Hỏi bệnh', mục 'Lý do đến khám' nằm ở trang số mấy?",
+      "options": [
+        {"text": "Trang 1", "isCorrect": false},
+        {"text": "Trang 4", "isCorrect": true},
+        {"text": "Trang 10", "isCorrect": false},
+        {"text": "Trang 20", "isCorrect": false}
+      ],
+      "explanation": "Mục lý do đến khám bắt đầu từ trang 4 của tài liệu."
+    },
+    {
+      "question": "Hình ảnh minh họa trang 11 liên quan đến tình trạng gì?",
+      "options": [
+        {"text": "Bệnh lý nha chu trầm trọng", "isCorrect": true},
+        {"text": "Răng bình thường", "isCorrect": false},
+        {"text": "Lấy dấu", "isCorrect": false},
+        {"text": "Mài răng", "isCorrect": false}
+      ],
+      "explanation": "Hình ảnh trang 11 minh họa tình trạng nướu và nha chu bị tổn thương nặng nề."
+    },
+    {
+      "question": "Nội dung 'Khám phục hình cũ' bắt đầu từ trang bao nhiêu?",
+      "options": [
+        {"text": "Trang 20", "isCorrect": false},
+        {"text": "Trang 37", "isCorrect": true},
+        {"text": "Trang 5", "isCorrect": false},
+        {"text": "Trang 44", "isCorrect": false}
+      ],
+      "explanation": "Mục 4. Khám phục hình cũ bắt đầu từ trang 37."
+    },
+    {
+      "question": "Tiêu chuẩn mài cạnh đế mẫu hàm vuông góc nằm ở trang nào?",
+      "options": [
+        {"text": "Trang 38", "isCorrect": true},
+        {"text": "Trang 2", "isCorrect": false},
+        {"text": "Trang 15", "isCorrect": false},
+        {"text": "Trang 30", "isCorrect": false}
+      ],
+      "explanation": "Trang 38 nêu các tiêu chuẩn về đế mẫu hàm chẩn đoán."
+    },
+    {
+      "question": "Hình ảnh trang 24 minh họa việc đo đạc gì?",
+      "options": [
+        {"text": "Đo độ mở hàm tối đa", "isCorrect": true},
+        {"text": "Đo màu răng", "isCorrect": false},
+        {"text": "Đo huyết áp", "isCorrect": false},
+        {"text": "Đo nhịp tim", "isCorrect": false}
+      ],
+      "explanation": "Hình ảnh cho thấy bác sĩ dùng thước đo biên độ há miệng tối đa của bệnh nhân."
+    },
+    {
+      "question": "Khám 'Sống hàm vô răng' bắt đầu xuất hiện hình ảnh minh họa ở trang mấy?",
+      "options": [
+        {"text": "Trang 28", "isCorrect": true},
+        {"text": "Trang 1", "isCorrect": false},
+        {"text": "Trang 10", "isCorrect": false},
+        {"text": "Trang 40", "isCorrect": false}
+      ],
+      "explanation": "Trang 28 liệt kê các dạng sống hàm mất răng qua hình vẽ mặt cắt ngang."
+    },
+    {
+      "question": "Thành phần 'Attached gingiva' trong hình trang 30 có nghĩa là gì?",
+      "options": [
+        {"text": "Nướu rời", "isCorrect": false},
+        {"text": "Nướu dính", "isCorrect": true},
+        {"text": "Niêm mạc má", "isCorrect": false},
+        {"text": "Lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Attached gingiva là phần nướu dính chặt vào xương ổ răng bên dưới."
+    },
+    {
+      "question": "Lý do 'Răng gãy vỡ' thuộc nhóm nào trong hỏi bệnh (Trang 8)?",
+      "options": [
+        {"text": "Chức năng", "isCorrect": false},
+        {"text": "Thẩm mỹ", "isCorrect": true},
+        {"text": "Xã hội", "isCorrect": false},
+        {"text": "Tiền sử", "isCorrect": false}
+      ],
+      "explanation": "Tài liệu xếp răng gãy vỡ vào nhóm lý do thẩm mỹ khiến bệnh nhân tìm đến bác sĩ."
+    },
+    {
+      "question": "Hình ảnh trang 16 của tài liệu minh họa công cụ cận lâm sàng nào?",
+      "options": [
+        {"text": "Máy đo nhịp tim", "isCorrect": false},
+        {"text": "Phim X-quang quanh chóp", "isCorrect": true},
+        {"text": "Mẫu thạch cao", "isCorrect": false},
+        {"text": "Gối sáp", "isCorrect": false}
+      ],
+      "explanation": "Hình trang 16 cho thấy hình ảnh phim tia X chụp vùng chân răng và xương ổ."
+    },
+    {
+      "question": "Việc khám 'Lưỡi, sàn miệng' bắt đầu từ mục khám nào?",
+      "options": [
+        {"text": "Khám ngoài mặt", "isCorrect": false},
+        {"text": "Khám trong miệng (Khám mô mềm)", "isCorrect": true},
+        {"text": "Khám phục hình cũ", "isCorrect": false},
+        {"text": "Hỏi bệnh", "isCorrect": false}
+      ],
+      "explanation": "Khám lưỡi và sàn miệng nằm trong phần khám mô mềm thuộc khám trong miệng."
+    },
+    {
+      "question": "Tại sao phải ghi nhận tiền sử 'Thai nghén' (Trang 11)?",
+      "options": [
+        {"text": "Vì nướu dễ bị viêm và sưng nề do thay đổi nội tiết tố", "isCorrect": true},
+        {"text": "Vì bệnh nhân sẽ không trả tiền", "isCorrect": false},
+        {"text": "Thai nhi sẽ làm gãy phục hình", "isCorrect": false},
+        {"text": "Vì bệnh nhân không thể há miệng", "isCorrect": false}
+      ],
+      "explanation": "Phụ nữ mang thai thường có tình trạng nướu nhạy cảm, ảnh hưởng đến việc lấy dấu và điều trị nha chu."
+    },
+    {
+      "question": "Hình dạng sống hàm 'Knife edged' (Trang 28) có đặc điểm gì?",
+      "options": [
+        {"text": "Rộng và bằng phẳng", "isCorrect": false},
+        {"text": "Mỏng và sắc như lưỡi dao, khó nâng đỡ phục hình", "isCorrect": true},
+        {"text": "Hình chữ U lý tưởng", "isCorrect": false},
+        {"text": "Có vùng lẹm lớn", "isCorrect": false}
+      ],
+      "explanation": "Sống hàm dạng lưỡi dao thường gây đau và không ổn định khi mang hàm tháo lắp."
+    },
+    {
+      "question": "Khám 'Phục hình cũ' giúp xác định điều gì về 'Sơ đồ khớp cắn' (Trang 37)?",
+      "options": [
+        {"text": "Màu sắc răng giả", "isCorrect": false},
+        {"text": "Cách các răng giả chạm nhau khi nhai", "isCorrect": true},
+        {"text": "Độ dày của nhựa", "isCorrect": false},
+        {"text": "Tên hãng sản xuất răng", "isCorrect": false}
+      ],
+      "explanation": "Đánh giá khớp cắn hàm cũ giúp phát hiện các điểm cản trở gây hỏng hàm hoặc đau khớp."
+    },
+    {
+      "question": "Tiêu chuẩn đế mẫu hàm song song với MP cắn nằm ở trang nào?",
+      "options": [
+        {"text": "Trang 38", "isCorrect": true},
+        {"text": "Trang 1", "isCorrect": false},
+        {"text": "Trang 10", "isCorrect": false},
+        {"text": "Trang 20", "isCorrect": false}
+      ],
+      "explanation": "Nội dung này nằm trong phần tiêu chuẩn chấp nhận mẫu hàm chẩn đoán trang 38."
+    },
+    {
+      "question": "Mục 'Chẩn đoán và Tiên lượng' bắt đầu từ trang bao nhiêu?",
+      "options": [
+        {"text": "Trang 2", "isCorrect": false},
+        {"text": "Trang 42", "isCorrect": true},
+        {"text": "Trang 15", "isCorrect": false},
+        {"text": "Trang 30", "isCorrect": false}
+      ],
+      "explanation": "Phần kết luận Chẩn đoán và Tiên lượng nằm ở cuối tài liệu, bắt đầu từ trang 42."
+    },
+    {
+      "question": "Việc đánh giá 'Sự lộ răng' (Trang 26) bao gồm trạng thái nào?",
+      "options": [
+        {"text": "Lúc bình thường", "isCorrect": false},
+        {"text": "Lúc cười lớn", "isCorrect": false},
+        {"text": "Cả lúc bình thường và cười lớn", "isCorrect": true},
+        {"text": "Lúc ngủ", "isCorrect": false}
+      ],
+      "explanation": "Đánh giá ở cả hai trạng thái để đảm bảo thẩm mỹ tối ưu cho hàm giả."
+    },
+    {
+      "question": "Tình trạng 'Viêm nấm' niêm mạc thường gặp ở vị trí nào (Trang 27)?",
+      "options": [
+        {"text": "Dưới nền hàm giả cũ kém vệ sinh", "isCorrect": true},
+        {"text": "Trên mặt nhai của răng", "isCorrect": false},
+        {"text": "Ở dái tai", "isCorrect": false},
+        {"text": "Ở khớp thái dương hàm", "isCorrect": false}
+      ],
+      "explanation": "Nấm miệng thường phát triển ở vùng niêm mạc bị che phủ bởi hàm giả không được làm sạch thường xuyên."
+    },
+    {
+      "question": "Mục tiêu khám 'Khả năng vận động của hàm' nằm ở trang mấy?",
+      "options": [
+        {"text": "Trang 33", "isCorrect": true},
+        {"text": "Trang 2", "isCorrect": false},
+        {"text": "Trang 40", "isCorrect": false},
+        {"text": "Trang 5", "isCorrect": false}
+      ],
+      "explanation": "Trang 33 đề cập đến vận động hàm trong phần khám khớp cắn trong miệng."
+    },
+    {
+      "question": "Hình ảnh trang 35 minh họa loại phim X-quang nào?",
+      "options": [
+        {"text": "Phim Panorama (toàn cảnh)", "isCorrect": true},
+        {"text": "Phim sọ nghiêng", "isCorrect": false},
+        {"text": "Phim cắn cánh", "isCorrect": false},
+        {"text": "Phim tay", "isCorrect": false}
+      ],
+      "explanation": "Trang 35 cho thấy hình ảnh phim Panorama bao quát cả hai cung hàm."
+    },
+    {
+      "question": "Tiền sử 'Phẫu thuật miệng' (Trang 19) bao gồm những gì?",
+      "options": [
+        {"text": "Nhổ răng, phẫu thuật xương hàm, cắt chóp", "isCorrect": true},
+        {"text": "Sơn móng tay", "isCorrect": false},
+        {"text": "Nhuộm tóc", "isCorrect": false},
+        {"text": "Đeo kính cận", "isCorrect": false}
+      ],
+      "explanation": "Các phẫu thuật cũ có thể để lại sẹo hoặc làm thay đổi cấu trúc xương nâng đỡ phục hình."
+    },
+    {
+      "question": "Mục tiêu 'Phân loại bệnh nhân' (Trang 40) dựa trên nghiên cứu của ai (kiến thức nền y khoa)?",
+      "options": [
+        {"text": "House", "isCorrect": true},
+        {"text": "Kennedy", "isCorrect": false},
+        {"text": "Eichner", "isCorrect": false},
+        {"text": "Lee", "isCorrect": false}
+      ],
+      "explanation": "Phân loại tâm lý bệnh nhân tháo lắp là phân loại kinh điển của tác giả House được nhắc đến trong bài giảng."
+    },
+    {
+      "question": "Theo trang 43, yếu tố nào quyết định việc 'Chỉ định loại phục hình thích hợp'?",
+      "options": [
+        {"text": "Loại mất răng", "isCorrect": false},
+        {"text": "Tình trạng răng còn lại", "isCorrect": false},
+        {"text": "Nguyện vọng và kinh tế của bệnh nhân", "isCorrect": false},
+        {"text": "Sự kết hợp của tất cả các yếu tố trên", "isCorrect": true}
+      ],
+      "explanation": "Quyết định điều trị cuối cùng phải cân bằng giữa tình trạng lâm sàng và điều kiện cá nhân của bệnh nhân."
+    },
+    {
+      "question": "Tình trạng 'Lồi xương' (Torus) hàm dưới thường nằm ở vị trí nào (Trang 29)?",
+      "options": [
+        {"text": "Mặt trong xương hàm dưới vùng răng cối nhỏ", "isCorrect": true},
+        {"text": "Ở cằm", "isCorrect": false},
+        {"text": "Ở cành lên", "isCorrect": false},
+        {"text": "Ở mỏm vẹt", "isCorrect": false}
+      ],
+      "explanation": "Torus hàm dưới thường xuất hiện đối xứng ở mặt trong vùng răng tiền hàm."
+    },
+    {
+      "question": "Việc khám 'Sờ hạch' nằm ở mục nào (Trang 23)?",
+      "options": [
+        {"text": "Khám ngoài mặt", "isCorrect": true},
+        {"text": "Hỏi bệnh", "isCorrect": false},
+        {"text": "Khám răng", "isCorrect": false},
+        {"text": "X-quang", "isCorrect": false}
+      ],
+      "explanation": "Khám hạch cổ và hạch dưới hàm thuộc quy trình khám ngoài mặt."
+    },
+    {
+      "question": "Hình minh họa trang 32 cho thấy tổn thương răng nào?",
+      "options": [
+        {"text": "Nứt/Gãy răng theo chiều dọc", "isCorrect": true},
+        {"text": "Răng bị thưa", "isCorrect": false},
+        {"text": "Sâu răng nhẹ", "isCorrect": false},
+        {"text": "Răng bị nhiễm màu", "isCorrect": false}
+      ],
+      "explanation": "Hình ảnh ghi chú 'Vertical Fracture' chỉ tình trạng răng bị nứt dọc, thường có tiên lượng xấu."
+    },
+    {
+      "question": "Mục tiêu 'Phân tích mẫu hàm chẩn đoán' nằm ở phần mấy (Trang 38)?",
+      "options": [
+        {"text": "Phần I", "isCorrect": false},
+        {"text": "Phần II, mục 5", "isCorrect": true},
+        {"text": "Phần III", "isCorrect": false},
+        {"text": "Nội dung chính", "isCorrect": false}
+      ],
+      "explanation": "Phân tích mẫu hàm là bước thứ 5 trong quy trình khám lâm sàng (Phần II)."
+    },
+    {
+      "question": "Để chẩn đoán chính xác, bác sĩ cần thu thập dữ liệu từ bao nhiêu nguồn chính?",
+      "options": [
+        {"text": "1 (Lâm sàng)", "isCorrect": false},
+        {"text": "3 (Lâm sàng, X-quang, Mẫu hàm)", "isCorrect": true},
+        {"text": "5", "isCorrect": false},
+        {"text": "10", "isCorrect": false}
+      ],
+      "explanation": "Tam giác chẩn đoán trong phục hình tháo lắp gồm khám trực tiếp, phim tia X và phân tích mẫu hàm."
+    },
+    {
+      "question": "Triệu chứng 'Tiếng kêu khớp' thường liên quan đến đĩa khớp, đúng hay sai (Trang 24)?",
+      "options": [
+        {"text": "Đúng", "isCorrect": true},
+        {"text": "Sai", "isCorrect": false}
+      ],
+      "explanation": "Tiếng kêu click thường do đĩa khớp bị trật ra trước và tái lập lại khi há miệng."
+    },
+    {
+      "question": "Bệnh nhân 'Dễ xúc động' thường là người như thế nào?",
+      "options": [
+        {"text": "Bình tĩnh", "isCorrect": false},
+        {"text": "Lo lắng quá mức về sức khỏe và thẩm mỹ", "isCorrect": true},
+        {"text": "Quên hết dặn dò của bác sĩ", "isCorrect": false},
+        {"text": "Rất giỏi toán", "isCorrect": false}
+      ],
+      "explanation": "Họ cần được trấn an và giải thích từng bước nhỏ của quá trình điều trị."
+    },
+    {
+      "question": "Yếu tố 'Dáng đi' (Trang 22) giúp bác sĩ nhận biết điều gì?",
+      "options": [
+        {"text": "Sở thích của bệnh nhân", "isCorrect": false},
+        {"text": "Tình trạng sức khỏe chung và các rối loạn thần kinh cơ", "isCorrect": true},
+        {"text": "Bệnh nhân có giàu không", "isCorrect": false},
+        {"text": "Loại giày bệnh nhân đi", "isCorrect": false}
+      ],
+      "explanation": "Dáng đi không vững hoặc run có thể báo hiệu các bệnh như Parkinson ảnh hưởng đến việc tháo lắp hàm."
+    },
+    {
+      "question": "Màu sắc 'Vàng da' (Trang 22) có thể là dấu hiệu của bệnh gì?",
+      "options": [
+        {"text": "Sâu răng", "isCorrect": false},
+        {"text": "Bệnh lý về gan", "isCorrect": true},
+        {"text": "Cận thị", "isCorrect": false},
+        {"text": "Viêm nướu", "isCorrect": false}
+      ],
+      "explanation": "Quan sát màu da giúp phát hiện các bệnh nội khoa tiềm ẩn có thể chống chỉ định phẫu thuật."
+    },
+    {
+      "question": "Việc ghi nhận 'Tuổi già' (Trang 10) ảnh hưởng đến điều gì?",
+      "options": [
+        {"text": "Khả năng thích nghi với phục hình mới", "isCorrect": true},
+        {"text": "Làm răng giả rẻ hơn", "isCorrect": false},
+        {"text": "Làm bệnh nhân nói nhanh hơn", "isCorrect": false},
+        {"text": "Không ảnh hưởng", "isCorrect": false}
+      ],
+      "explanation": "Người cao tuổi thường khó làm quen với hàm giả hơn và niêm mạc dễ bị tổn thương hơn."
+    },
+    {
+      "question": "Khám 'Hành lang miệng' (Trang 27) nhằm mục đích gì?",
+      "options": [
+        {"text": "Đo độ sâu để xác định giới hạn nền hàm", "isCorrect": true},
+        {"text": "Để mài răng", "isCorrect": false},
+        {"text": "Để bắt mạch", "isCorrect": false},
+        {"text": "Để kiểm tra vị giác", "isCorrect": false}
+      ],
+      "explanation": "Độ sâu và rộng của hành lang quyết định diện tích tiếp xúc và độ bám của hàm giả."
+    },
+    {
+      "question": "Sống hàm dạng 'Inverted' (Trang 28) có nghĩa là gì?",
+      "options": [
+        {"text": "Sống hàm bị lõm vào trong thay vì lồi lên", "isCorrect": true},
+        {"text": "Sống hàm rất cao", "isCorrect": false},
+        {"text": "Sống hàm hình tam giác", "isCorrect": false},
+        {"text": "Sống hàm biến thành xương", "isCorrect": false}
+      ],
+      "explanation": "Đây là dạng sống hàm cực kỳ khó cho việc nâng đỡ và bám dính phục hình tháo lắp."
+    },
+    {
+      "question": "Khi khám 'Mô nha chu', bác sĩ cần quan sát 'Màu sắc nướu', đúng hay sai?",
+      "options": [
+        {"text": "Đúng", "isCorrect": true},
+        {"text": "Sai", "isCorrect": false}
+      ],
+      "explanation": "Nướu hồng nhạt, săn chắc là biểu hiện của mô nha chu khỏe mạnh."
+    },
+    {
+      "question": "Mục tiêu 'Phân tích mẫu hàm' trang 39 liệt kê 'Vị trí ổ tựa', đây là gì?",
+      "options": [
+        {"text": "Là nơi đặt các tựa mặt nhai của hàm khung lên răng trụ", "isCorrect": true},
+        {"text": "Là một lỗ sâu răng", "isCorrect": false},
+        {"text": "Là tên một loại thuốc", "isCorrect": false},
+        {"text": "Là nơi gắn răng sứ", "isCorrect": false}
+      ],
+      "explanation": "Ổ tựa giúp truyền lực nhai theo trục dọc của răng trụ, bảo vệ nha chu."
+    },
+    {
+      "question": "Tại sao phải kiểm tra 'Laminadura' trên phim X-quang (Trang 35)?",
+      "options": [
+        {"text": "Vì nó làm phim đẹp hơn", "isCorrect": false},
+        {"text": "Nó là lớp xương đặc bao quanh ổ răng, sự liên tục của nó chứng tỏ răng trụ khỏe mạnh", "isCorrect": true},
+        {"text": "Để xem răng có bị nhiễm màu không", "isCorrect": false},
+        {"text": "Nó là một loại sâu răng", "isCorrect": false}
+      ],
+      "explanation": "Mất lamina dura thường báo hiệu tình trạng viêm nhiễm hoặc tiêu xương sớm quanh răng."
+    },
+    {
+      "question": "Tình trạng 'Nướu dính hẹp' có thể yêu cầu phẫu thuật gì trước phục hình?",
+      "options": [
+        {"text": "Phẫu thuật tạo hình vạt để làm rộng nướu dính", "isCorrect": true},
+        {"text": "Nhổ toàn bộ răng", "isCorrect": false},
+        {"text": "Mài răng", "isCorrect": false},
+        {"text": "Lấy tủy", "isCorrect": false}
+      ],
+      "explanation": "Cần có nướu dính đủ rộng để phục hình ổn định và BN không bị đau khi tháo lắp."
+    },
+    {
+      "question": "Hình minh họa trang 36 cho thấy thao tác gì?",
+      "options": [
+        {"text": "Kiểm tra tủy răng (thử tủy điện)", "isCorrect": true},
+        {"text": "Đánh bóng răng", "isCorrect": false},
+        {"text": "Hàn lỗ sâu", "isCorrect": false},
+        {"text": "Bắt mạch", "isCorrect": false}
+      ],
+      "explanation": "Hình ảnh cho thấy máy thử tủy đang áp vào bề mặt răng để kiểm tra phản ứng của thần kinh răng."
+    },
+    {
+      "question": "Việc đánh giá 'Sự phân bố các răng còn lại' giúp bác sĩ làm gì?",
+      "options": [
+        {"text": "Tính tiền", "isCorrect": false},
+        {"text": "Thiết kế sơ đồ bám giữ và nâng đỡ cân bằng nhất cho hàm giả", "isCorrect": true},
+        {"text": "Làm sạch răng", "isCorrect": false},
+        {"text": "Để chụp phim", "isCorrect": false}
+      ],
+      "explanation": "Sự phân bố răng (ví dụ mất răng 1 bên hay 2 bên) quyết định loại phân loại Kennedy."
+    },
+    {
+      "question": "Hàm giả cũ dùng quá lâu có thể dẫn đến 'Mất kích thước dọc', đây là gì?",
+      "options": [
+        {"text": "Răng bị dài ra", "isCorrect": false},
+        {"text": "Khoảng cách từ mũi đến cằm bị ngắn lại do răng giả bị mòn và tiêu xương", "isCorrect": true},
+        {"text": "Mặt bị to ra", "isCorrect": false},
+        {"text": "Trán bị hẹp lại", "isCorrect": false}
+      ],
+      "explanation": "Mất kích thước dọc làm khuôn mặt bệnh nhân trông già đi và gây đau khớp TDH."
+    },
+    {
+      "question": "Mục đích của việc đo 'Vận động bên tối đa' là gì?",
+      "options": [
+        {"text": "Kiểm tra sự linh hoạt của lưỡi", "isCorrect": false},
+        {"text": "Đánh giá chức năng của cơ chân bướm ngoài và đĩa khớp", "isCorrect": true},
+        {"text": "Đếm số răng", "isCorrect": false},
+        {"text": "Để chọn màu răng", "isCorrect": false}
+      ],
+      "explanation": "Vận động bên hạn chế có thể là dấu hiệu của tình trạng kẹt đĩa khớp hoặc co thắt cơ."
+    },
+    {
+      "question": "Khi khám 'Vòm miệng' (Trang 27), bác sĩ cần lưu ý điều gì ở đường giữa?",
+      "options": [
+        {"text": "Lồi xương khẩu cái (Torus palatinus)", "isCorrect": true},
+        {"text": "Răng khôn mọc ngầm", "isCorrect": false},
+        {"text": "Lưỡi", "isCorrect": false},
+        {"text": "Thắng môi", "isCorrect": false}
+      ],
+      "explanation": "Torus khẩu cái quá lớn có thể làm hàm giả bị bập bênh nếu không được xử lý hoặc thiết kế khung sườn né tránh."
+    },
+    {
+      "question": "Nội dung trang 40 nhắc đến bệnh nhân loại 'Hay đòi hỏi', họ thường làm gì?",
+      "options": [
+        {"text": "Thanh toán viện phí đầy đủ", "isCorrect": false},
+        {"text": "Đặt ra các yêu cầu không thực tế và thường không hài lòng dù kết quả đạt chuẩn", "isCorrect": true},
+        {"text": "Luôn đi đúng giờ", "isCorrect": false},
+        {"text": "Tự sửa hàm tại nhà", "isCorrect": false}
+      ],
+      "explanation": "Đây là nhóm bệnh nhân khó khăn nhất, đòi hỏi sự kiên nhẫn và các cam kết bằng văn bản từ bác sĩ."
+    },
+    {
+      "question": "Khám 'Mô nha chu' bắt đầu từ trang bao nhiêu?",
+      "options": [
+        {"text": "Trang 1", "isCorrect": false},
+        {"text": "Trang 30", "isCorrect": true},
+        {"text": "Trang 40", "isCorrect": false},
+        {"text": "Trang 20", "isCorrect": false}
+      ],
+      "explanation": "Nội dung khám nha chu chi tiết bắt đầu từ trang 30 của tài liệu."
+    },
+    {
+      "question": "Sự hiện diện của 'Vùng lẹm xương' (Trang 28) gây khó khăn gì?",
+      "options": [
+        {"text": "Làm hàm bám chắc hơn", "isCorrect": false},
+        {"text": "Gây đau khi tháo lắp vì nền hàm kim loại hoặc nhựa cứng không co giãn", "isCorrect": true},
+        {"text": "Làm răng thật yếu đi", "isCorrect": false},
+        {"text": "Không gây khó khăn gì", "isCorrect": false}
+      ],
+      "explanation": "Vùng lẹm quá lớn ở sống hàm buộc bác sĩ phải mài bớt xương hoặc thiết kế hàm né tránh vùng này."
+    },
+    {
+      "question": "Ghi nhận về 'Trọng lượng' (Trang 22) có thể liên quan đến bệnh gì?",
+      "options": [
+        {"text": "Giảm cân đột ngột có thể báo hiệu bệnh tiểu đường hoặc ung thư", "isCorrect": true},
+        {"text": "Sâu răng", "isCorrect": false},
+        {"text": "Viêm nướu", "isCorrect": false},
+        {"text": "Cận thị", "isCorrect": false}
+      ],
+      "explanation": "Sức khỏe toàn thân ổn định là điều kiện tiên quyết cho sự thành công lâu dài của phục hình."
+    },
+    {
+      "question": "Mục 'Phân tích mẫu hàm chẩn đoán' kết thúc ở trang mấy?",
+      "options": [
+        {"text": "Trang 39", "isCorrect": true},
+        {"text": "Trang 10", "isCorrect": false},
+        {"text": "Trang 45", "isCorrect": false},
+        {"text": "Trang 5", "isCorrect": false}
+      ],
+      "explanation": "Nội dung phân tích mẫu hàm được trình bày đến hết trang 39."
+    },
+    {
+      "question": "Dấu hiệu 'Click' khi há miệng lớn (Trang 24) là tiếng động của cấu trúc nào?",
+      "options": [
+        {"text": "Răng chạm nhau", "isCorrect": false},
+        {"text": "Lồi cầu trượt qua đĩa khớp bị trật", "isCorrect": true},
+        {"text": "Lưỡi chạm vòm miệng", "isCorrect": false},
+        {"text": "Xương hàm bị gãy", "isCorrect": false}
+      ],
+      "explanation": "Tiếng kêu click là dấu hiệu điển hình của rối loạn nội khớp thái dương hàm."
+    },
+    {
+      "question": "Tại sao phải khám 'Sàn miệng' (Trang 27)?",
+      "options": [
+        {"text": "Để xem bệnh nhân có nuốt được không", "isCorrect": false},
+        {"text": "Kiểm tra độ sâu và sự hiện diện của các u cục dưới lưỡi", "isCorrect": true},
+        {"text": "Để bắt mạch", "isCorrect": false},
+        {"text": "Để đếm răng", "isCorrect": false}
+      ],
+      "explanation": "Sàn miệng nông hoặc có lồi xương dưới lưỡi sẽ hạn chế vị trí đặt thanh nối chính hàm dưới."
+    },
+    {
+      "question": "Trong phần hỏi bệnh (Trang 6), lý do 'Sai khớp cắn' ảnh hưởng đến điều gì?",
+      "options": [
+        {"text": "Hiệu quả ăn nhai và thẩm mỹ", "isCorrect": true},
+        {"text": "Khả năng nghe", "isCorrect": false},
+        {"text": "Màu da", "isCorrect": false},
+        {"text": "Dáng đi", "isCorrect": false}
+      ],
+      "explanation": "Sai khớp cắn khiến lực nhai không đều, dẫn đến đau cơ và hỏng răng trụ."
+    },
+    {
+      "question": "Kết quả chẩn đoán 'Loại mất răng' (Trang 43) thường theo hệ thống nào?",
+      "options": [
+        {"text": "Phân loại Kennedy", "isCorrect": true},
+        {"text": "Phân loại Angle", "isCorrect": false},
+        {"text": "Phân loại sâu răng Black", "isCorrect": false},
+        {"text": "Phân loại nhóm máu", "isCorrect": false}
+      ],
+      "explanation": "Kennedy là hệ thống phân loại mất răng phổ biến nhất để thiết kế phục hình tháo lắp bán phần."
+    },
+    {
+      "question": "Nguyện vọng thẩm mỹ của bệnh nhân (Trang 43) ảnh hưởng đến việc chọn loại răng nào?",
+      "options": [
+        {"text": "Răng sứ hay răng nhựa", "isCorrect": true},
+        {"text": "Răng bằng sắt", "isCorrect": false},
+        {"text": "Không chọn răng", "isCorrect": false},
+        {"text": "Răng đen", "isCorrect": false}
+      ],
+      "explanation": "Bác sĩ cần tư vấn vật liệu phù hợp với nhu cầu thẩm mỹ và kinh tế của từng người."
+    },
+    {
+      "question": "Tiên lượng 'Tốt' cho phục hình tháo lắp khi nào?",
+      "options": [
+        {"text": "Răng trụ khỏe, sống hàm cao, bệnh nhân hợp tác", "isCorrect": true},
+        {"text": "Răng trụ lung lay, sống hàm phẳng", "isCorrect": false},
+        {"text": "Bệnh nhân không muốn đeo hàm", "isCorrect": false},
+        {"text": "Bác sĩ không có kinh nghiệm", "isCorrect": false}
+      ],
+      "explanation": "Tiên lượng phụ thuộc vào sức khỏe tổ chức nâng đỡ và thái độ của bệnh nhân."
+    },
+    {
+      "question": "Tài liệu này dùng cho đối tượng học sinh nào?",
+      "options": [
+        {"text": "Bác sĩ y khoa", "isCorrect": false},
+        {"text": "Sinh viên Răng Hàm Mặt (RHM)", "isCorrect": true},
+        {"text": "Dược sĩ", "isCorrect": false},
+        {"text": "Y tá điều dưỡng", "isCorrect": false}
+      ],
+      "explanation": "Nội dung khám và chẩn đoán phục hình chuyên sâu dành cho ngành RHM."
+    }
+  ]

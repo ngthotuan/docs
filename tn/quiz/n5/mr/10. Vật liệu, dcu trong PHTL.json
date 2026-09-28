@@ -1,0 +1,1022 @@
+[
+    {
+      "question": "Công thức hóa học của thạch cao thiên nhiên là gì?",
+      "options": [
+        {"text": "CaSO4.1/2H2O", "isCorrect": false},
+        {"text": "CaSO4.2H2O", "isCorrect": true},
+        {"text": "CaSO4", "isCorrect": false},
+        {"text": "CaCO3", "isCorrect": false}
+      ],
+      "explanation": "Thạch cao thiên nhiên là canxisunfat ngậm 2 phân tử nước."
+    },
+    {
+      "question": "Thạch cao nha khoa thành phẩm (hemihydrate) có công thức là gì?",
+      "options": [
+        {"text": "CaSO4.1/2H2O", "isCorrect": true},
+        {"text": "CaSO4.2H2O", "isCorrect": false},
+        {"text": "CaSO4.H2O", "isCorrect": false},
+        {"text": "CaCl2", "isCorrect": false}
+      ],
+      "explanation": "Thạch cao nha khoa đã qua xử lý chỉ còn ngậm 1/2 phân tử nước."
+    },
+    {
+      "question": "Thạch cao nha khoa thường được chế tạo bằng quá trình nào?",
+      "options": [
+        {"text": "Quá trình oxy hóa", "isCorrect": false},
+        {"text": "Quá trình canxi hóa", "isCorrect": true},
+        {"text": "Quá trình khử", "isCorrect": false},
+        {"text": "Quá trình điện phân", "isCorrect": false}
+      ],
+      "explanation": "Tài liệu nêu rõ thạch cao thường được chế tạo bằng quá trình canxi hóa."
+    },
+    {
+      "question": "Tại sao thạch cao nha khoa thường ít cứng hơn các loại thạch cao đá?",
+      "options": [
+        {"text": "Do tinh thể xốp và phân tử không đều", "isCorrect": true},
+        {"text": "Do có màu trắng", "isCorrect": false},
+        {"text": "Do trộn với quá ít nước", "isCorrect": false},
+        {"text": "Do không có canxi", "isCorrect": false}
+      ],
+      "explanation": "Các tinh thể xốp và phân tử không đều khiến chúng không gắn chặt được vào nhau, dẫn đến độ cứng thấp."
+    },
+    {
+      "question": "Tỉ lệ nước/bột tiêu chuẩn cho thạch cao nha khoa thường là bao nhiêu?",
+      "options": [
+        {"text": "20ml nước / 100g bột", "isCorrect": false},
+        {"text": "50ml nước / 100g bột", "isCorrect": true},
+        {"text": "80ml nước / 100g bột", "isCorrect": false},
+        {"text": "100ml nước / 100g bột", "isCorrect": false}
+      ],
+      "explanation": "Vì tinh thể xốp nên loại thạch cao này cần một lượng nước lớn (50ml/100g bột) để hòa tan."
+    },
+    {
+      "question": "Thạch cao đá type 2 được chế tạo bằng phương pháp nào?",
+      "options": [
+        {"text": "Nghiền thủ công", "isCorrect": false},
+        {"text": "Canxi hóa với phương pháp đun bay hơi", "isCorrect": true},
+        {"text": "Trộn với nhựa", "isCorrect": false},
+        {"text": "Lọc ép cao áp", "isCorrect": false}
+      ],
+      "explanation": "Phương pháp đun bay hơi giúp tạo ra thạch cao đá có độ cứng cao hơn."
+    },
+    {
+      "question": "Thạch cao đá type 2 cứng hơn thạch cao đá loại I bao nhiêu phần trăm?",
+      "options": [
+        {"text": "5%", "isCorrect": false},
+        {"text": "15%", "isCorrect": true},
+        {"text": "30%", "isCorrect": false},
+        {"text": "50%", "isCorrect": false}
+      ],
+      "explanation": "Độ cứng của type 2 vượt trội hơn loại I khoảng 15%."
+    },
+    {
+      "question": "Ứng dụng chính của thạch cao đá type 2 là gì?",
+      "options": [
+        {"text": "Lấy dấu trong miệng", "isCorrect": false},
+        {"text": "Đổ mẫu làm cầu răng và mão răng", "isCorrect": true},
+        {"text": "Làm nền hàm nhựa", "isCorrect": false},
+        {"text": "Mài răng thật", "isCorrect": false}
+      ],
+      "explanation": "Do độ cứng và độ chính xác cao nên nó dùng cho các mẫu hàm phục hình cố định."
+    },
+    {
+      "question": "Lượng nước cần thiết để trộn 100g bột thạch cao đá type 2 là?",
+      "options": [
+        {"text": "10ml", "isCorrect": false},
+        {"text": "18 - 24ml", "isCorrect": true},
+        {"text": "50ml", "isCorrect": false},
+        {"text": "70ml", "isCorrect": false}
+      ],
+      "explanation": "Loại này cần ít nước hơn thạch cao thường vì cấu trúc tinh thể đặc chắc."
+    },
+    {
+      "question": "Thạch cao thường có độ dãn nở vĩnh viễn sau khi trộn là bao nhiêu?",
+      "options": [
+        {"text": "0,05%", "isCorrect": false},
+        {"text": "0,1%", "isCorrect": false},
+        {"text": "0,5%", "isCorrect": true},
+        {"text": "1,0%", "isCorrect": false}
+      ],
+      "explanation": "Thạch cao thường có độ dãn nở lớn nhất trong các loại (0,5%)."
+    },
+    {
+      "question": "Loại thạch cao nào có độ dãn nở thấp nhất và độ chính xác cao nhất?",
+      "options": [
+        {"text": "Thạch cao thường", "isCorrect": false},
+        {"text": "Thạch cao đá type I", "isCorrect": false},
+        {"text": "Thạch cao đá type II", "isCorrect": true},
+        {"text": "Thạch cao xây dựng", "isCorrect": false}
+      ],
+      "explanation": "Thạch cao đá type II có độ dãn nở chỉ 0,05%, cho độ chính xác cao nhất."
+    },
+    {
+      "question": "Chỉ số độ xốp của thạch cao đá type II là bao nhiêu?",
+      "options": [
+        {"text": "45", "isCorrect": false},
+        {"text": "15", "isCorrect": false},
+        {"text": "10", "isCorrect": true},
+        {"text": "5", "isCorrect": false}
+      ],
+      "explanation": "Chỉ số độ xốp của type II thấp nhất (10), tương ứng với độ cứng cao nhất."
+    },
+    {
+      "question": "Mối quan hệ giữa độ xốp và độ cứng của thạch cao là gì?",
+      "options": [
+        {"text": "Độ xốp càng cao thạch cao càng cứng", "isCorrect": false},
+        {"text": "Độ xốp càng thấp thạch cao càng cứng và tốt", "isCorrect": true},
+        {"text": "Không có mối liên hệ", "isCorrect": false},
+        {"text": "Độ xốp tỉ lệ thuận với màu sắc", "isCorrect": false}
+      ],
+      "explanation": "Độ xốp thấp nghĩa là cấu trúc tinh thể khít sát, làm tăng độ bền cơ học."
+    },
+    {
+      "question": "Yếu tố nào làm tăng độ xốp của thạch cao khi trộn?",
+      "options": [
+        {"text": "Dùng nước lạnh", "isCorrect": false},
+        {"text": "Trộn quá nhanh", "isCorrect": false},
+        {"text": "Pha càng nhiều nước", "isCorrect": true},
+        {"text": "Dùng bát nhựa", "isCorrect": false}
+      ],
+      "explanation": "Nước dư thừa tạo ra các khoảng trống giữa các tinh thể sau khi bay hơi, làm tăng độ xốp."
+    },
+    {
+      "question": "Quá trình phản ứng khi trộn thạch cao với nước diễn ra đến khi đạt trạng thái gì thì đông đặc?",
+      "options": [
+        {"text": "Trạng thái bốc hơi", "isCorrect": false},
+        {"text": "Trạng thái bảo hòa", "isCorrect": true},
+        {"text": "Trạng thái phân hủy", "isCorrect": false},
+        {"text": "Trạng thái lỏng", "isCorrect": false}
+      ],
+      "explanation": "Sau dung dịch treo, phản ứng tiếp tục đến trạng thái bảo hòa thì thạch cao bắt đầu đông đặc."
+    },
+    {
+      "question": "Sự đông đặc của thạch cao phụ thuộc chủ yếu vào các yếu tố nào?",
+      "options": [
+        {"text": "Màu sắc bát trộn", "isCorrect": false},
+        {"text": "Tỉ lệ nước/bột và thời gian trộn", "isCorrect": true},
+        {"text": "Độ sáng của phòng lab", "isCorrect": false},
+        {"text": "Loại khay lấy dấu", "isCorrect": false}
+      ],
+      "explanation": "Tỉ lệ pha trộn và thao tác trộn ảnh hưởng trực tiếp đến tốc độ và chất lượng đông đặc."
+    },
+    {
+      "question": "Trước khi đổ thạch cao vào khuôn lấy dấu, cần phải làm gì?",
+      "options": [
+        {"text": "Ngâm khuôn vào nước sôi", "isCorrect": false},
+        {"text": "Làm sạch nước bọt, chất nhầy và các vụn bẩn", "isCorrect": true},
+        {"text": "Bôi dầu luyn vào khuôn", "isCorrect": false},
+        {"text": "Sấy khô khuôn ở 100 độ C", "isCorrect": false}
+      ],
+      "explanation": "Phải làm sạch các chất dịch trên khuôn để bề mặt mẫu thạch cao sau khi đổ được mịn và chính xác."
+    },
+    {
+      "question": "Tại sao không nên ước lượng lượng bột thạch cao và nước bằng mắt?",
+      "options": [
+        {"text": "Vì tốn bột", "isCorrect": false},
+        {"text": "Để đảm bảo tỉ lệ chính xác, giúp mẫu đạt chất lượng tốt nhất", "isCorrect": true},
+        {"text": "Để tránh làm bẩn bàn", "isCorrect": false},
+        {"text": "Vì thạch cao sẽ đổi màu", "isCorrect": false}
+      ],
+      "explanation": "Đong bằng dụng cụ đo giúp kiểm soát tính chất vật lý của thạch cao sau khi đông."
+    },
+    {
+      "question": "Cách cho bột thạch cao vào nước đúng kỹ thuật là gì?",
+      "options": [
+        {"text": "Đổ ào một lúc toàn bộ bột vào nước", "isCorrect": false},
+        {"text": "Đổ nước vào bột", "isCorrect": false},
+        {"text": "Đổ từ từ bột vào nước", "isCorrect": true},
+        {"text": "Khuấy nước trước khi cho bột", "isCorrect": false}
+      ],
+      "explanation": "Rắc bột từ từ vào nước giúp bột thấm đều và tránh tạo bọng khí."
+    },
+    {
+      "question": "Mẫu thạch cao đổ trên khuôn Alginate cần lưu lại trong môi trường ẩm ít nhất bao lâu?",
+      "options": [
+        {"text": "15 phút", "isCorrect": false},
+        {"text": "45 phút", "isCorrect": true},
+        {"text": "2 giờ", "isCorrect": false},
+        {"text": "24 giờ", "isCorrect": false}
+      ],
+      "explanation": "Cần ít nhất 45 phút để thạch cao đạt được độ rắn tối đa."
+    },
+    {
+      "question": "Tại sao không được để mẫu thạch cao trong khuôn Alginate quá 2 giờ?",
+      "options": [
+        {"text": "Vì mẫu sẽ bị vỡ", "isCorrect": false},
+        {"text": "Vì bề mặt mẫu sẽ bị rỗ", "isCorrect": true},
+        {"text": "Vì khuôn sẽ bị chảy", "isCorrect": false},
+        {"text": "Vì thạch cao bị co lại", "isCorrect": false}
+      ],
+      "explanation": "Sự hút ẩm ngược hoặc phản ứng bề mặt giữa Alginate và thạch cao lâu ngày làm hỏng bề mặt mẫu."
+    },
+    {
+      "question": "Điều kiện bảo quản bột thạch cao tốt nhất là gì?",
+      "options": [
+        {"text": "Để trong túi nilon hở", "isCorrect": false},
+        {"text": "Trong hộp đậy kỹ, nơi khô ráo, nhiệt độ trung bình", "isCorrect": true},
+        {"text": "Trong ngăn đá tủ lạnh", "isCorrect": false},
+        {"text": "Ngoài trời nắng", "isCorrect": false}
+      ],
+      "explanation": "Bảo quản tránh ẩm giúp thạch cao giữ được hoạt tính và không bị vón cục."
+    },
+    {
+      "question": "Chất lấy khuôn lý tưởng cần giữ được độ bền ít nhất bao lâu ở nhiệt độ 20-25 độ C?",
+      "options": [
+        {"text": "1 năm", "isCorrect": false},
+        {"text": "2 năm", "isCorrect": false},
+        {"text": "3 năm", "isCorrect": true},
+        {"text": "5 năm", "isCorrect": false}
+      ],
+      "explanation": "Yêu cầu về độ bền bảo quản của chất lấy dấu tối thiểu là 3 năm."
+    },
+    {
+      "question": "Khi đông, chất lấy khuôn đạt yêu cầu KHÔNG được có tính chất nào?",
+      "options": [
+        {"text": "Màu dễ quan sát", "isCorrect": false},
+        {"text": "Tỏa nhiệt làm nóng bỏng niêm mạc", "isCorrect": true},
+        {"text": "Mùi dễ chịu", "isCorrect": false},
+        {"text": "Tính đàn hồi tốt", "isCorrect": false}
+      ],
+      "explanation": "Vật liệu an toàn không được gây tổn thương nhiệt cho mô mềm của bệnh nhân."
+    },
+    {
+      "question": "Thời gian làm việc (set time) đủ để bác sĩ lấy khuôn thường là bao lâu?",
+      "options": [
+        {"text": "30 giây", "isCorrect": false},
+        {"text": "1 - 3 phút", "isCorrect": true},
+        {"text": "5 - 10 phút", "isCorrect": false},
+        {"text": "15 phút", "isCorrect": false}
+      ],
+      "explanation": "Khoảng thời gian 1-3 phút là đủ để thao tác đưa khay vào miệng và chờ đông."
+    },
+    {
+      "question": "Chất lấy khuôn tốt đòi hỏi đặc điểm đàn hồi như thế nào?",
+      "options": [
+        {"text": "Biến dạng đàn hồi lớn, biến dạng vĩnh viễn nhỏ", "isCorrect": true},
+        {"text": "Không biến dạng", "isCorrect": false},
+        {"text": "Biến dạng vĩnh viễn lớn", "isCorrect": false},
+        {"text": "Độ kéo dãn đứt thấp", "isCorrect": false}
+      ],
+      "explanation": "Vật liệu phải co giãn tốt để thoát khỏi vùng lẹm mà không bị méo mó vĩnh viễn."
+    },
+    {
+      "question": "Chất lấy khuôn cần ổn định kích thước tối thiểu trong bao lâu sau khi lấy?",
+      "options": [
+        {"text": "1 giờ", "isCorrect": false},
+        {"text": "12 giờ", "isCorrect": false},
+        {"text": "24 giờ", "isCorrect": true},
+        {"text": "1 tuần", "isCorrect": false}
+      ],
+      "explanation": "Độ ổn định trong 24h là tiêu chuẩn tối thiểu để đảm bảo việc đổ mẫu chính xác."
+    },
+    {
+      "question": "Nguyên nhân gây biến dạng chất lấy khuôn trong quá trình đông là gì?",
+      "options": [
+        {"text": "Sự tạo các thể lưới và cầu nối làm co khoảng cách phân tử", "isCorrect": true},
+        {"text": "Do thạch cao quá nóng", "isCorrect": false},
+        {"text": "Do nước bọt làm tan nhựa", "isCorrect": false},
+        {"text": "Do ánh sáng đèn", "isCorrect": false}
+      ],
+      "explanation": "Sự trùng hợp hóa học luôn đi kèm với sự co thể tích do các liên kết phân tử khít lại."
+    },
+    {
+      "question": "Yếu tố nào tại hiện trường làm biến dạng khuôn khi kéo ra khỏi miệng?",
+      "options": [
+        {"text": "Răng bị sâu", "isCorrect": false},
+        {"text": "Những vùng lẹm giữ khuôn lại", "isCorrect": true},
+        {"text": "Bệnh nhân nói chuyện", "isCorrect": false},
+        {"text": "Nước súc miệng", "isCorrect": false}
+      ],
+      "explanation": "Vùng lẹm tạo lực cản cơ học, nếu kéo không đúng trục sẽ làm rách hoặc giãn khuôn."
+    },
+    {
+      "question": "Thạch cao lấy dấu thuộc loại chất lấy khuôn nào?",
+      "options": [
+        {"text": "Loại cứng", "isCorrect": true},
+        {"text": "Loại đàn hồi", "isCorrect": false},
+        {"text": "Loại dẻo nhiệt", "isCorrect": false},
+        {"text": "Loại lỏng", "isCorrect": false}
+      ],
+      "explanation": "Thạch cao, Eugenol oxyde kẽm và Hợp chất nhiệt dẻo được xếp vào nhóm chất lấy khuôn cứng."
+    },
+    {
+      "question": "Chất lấy khuôn 'Eugenol oxyde kẽm' thường dùng để làm gì?",
+      "options": [
+        {"text": "Lấy khuôn hàm từng phần có vùng lẹm", "isCorrect": false},
+        {"text": "Lấy khuôn hàm toàn bộ không có vùng lẹm", "isCorrect": true},
+        {"text": "Chỉnh hình răng mặt", "isCorrect": false},
+        {"text": "Làm cầu răng dài", "isCorrect": false}
+      ],
+      "explanation": "Do không đàn hồi, nó chỉ dùng được cho hàm không có vùng lẹm."
+    },
+    {
+      "question": "Alginate và Agar thuộc nhóm chất lấy khuôn nào?",
+      "options": [
+        {"text": "Loại cứng", "isCorrect": false},
+        {"text": "Loại đàn hồi", "isCorrect": true},
+        {"text": "Loại dẻo nhiệt", "isCorrect": false},
+        {"text": "Loại vĩnh viễn", "isCorrect": false}
+      ],
+      "explanation": "Đây là nhóm Hydrocolloid có tính đàn hồi cao."
+    },
+    {
+      "question": "Alginate có công dụng phổ biến nhất là gì?",
+      "options": [
+        {"text": "Lấy khuôn răng giả cố định", "isCorrect": false},
+        {"text": "Lấy khuôn hàm từng phần và chỉnh hình răng mặt", "isCorrect": true},
+        {"text": "Đúc vàng", "isCorrect": false},
+        {"text": "Hàn răng", "isCorrect": false}
+      ],
+      "explanation": "Alginate cực kỳ phổ biến trong phục hình tháo lắp và nha khoa trẻ em."
+    },
+    {
+      "question": "Vật liệu 'Agar' thường dùng để làm gì trong nha khoa?",
+      "options": [
+        {"text": "Lấy khuôn mẫu thạch cao hoặc hàm từng phần", "isCorrect": true},
+        {"text": "Làm nền hàm nhựa", "isCorrect": false},
+        {"text": "Lấy dấu vành khít", "isCorrect": false},
+        {"text": "Trám răng thẩm mỹ", "isCorrect": false}
+      ],
+      "explanation": "Agar dùng cho hàm từng phần, răng cố định và nhân bản mẫu hàm."
+    },
+    {
+      "question": "Chất lấy khuôn nào được dùng để lấy khuôn 1 đoạn ngắn 2-3 răng làm răng cố định?",
+      "options": [
+        {"text": "Cao su Polysulfure", "isCorrect": false},
+        {"text": "Cao su Polyether", "isCorrect": true},
+        {"text": "Alginate", "isCorrect": false},
+        {"text": "Thạch cao", "isCorrect": false}
+      ],
+      "explanation": "Polyether có độ chính xác rất cao phù hợp cho các khoảng mất răng ngắn."
+    },
+    {
+      "question": "Tốc độ gel hóa của Alginate bị ảnh hưởng mạnh bởi yếu tố nào?",
+      "options": [
+        {"text": "Ánh sáng mặt trời", "isCorrect": false},
+        {"text": "Nhiệt độ nước", "isCorrect": true},
+        {"text": "Độ cao so với mặt biển", "isCorrect": false},
+        {"text": "Loại khay nhựa", "isCorrect": false}
+      ],
+      "explanation": "Nước nóng làm đông nhanh, nước lạnh làm chậm quá trình gel hóa."
+    },
+    {
+      "question": "Đặc tính nổi bật khiến Alginate được coi là chất lấy khuôn phổ cập nhất?",
+      "options": [
+        {"text": "Dễ sử dụng và rẻ tiền", "isCorrect": true},
+        {"text": "Cứng như kim loại", "isCorrect": false},
+        {"text": "Đẹp", "isCorrect": false},
+        {"text": "Không cần nước", "isCorrect": false}
+      ],
+      "explanation": "Alginate rẻ và thao tác đơn giản nên rất thông dụng."
+    },
+    {
+      "question": "Vật liệu 'Nhựa' (Resin) trong phục hình tháo lắp dùng để làm gì?",
+      "options": [
+        {"text": "Làm khuôn lấy dấu", "isCorrect": false},
+        {"text": "Kết nối khung kim loại với răng giả và làm nền hàm", "isCorrect": true},
+        {"text": "Lấy vôi răng", "isCorrect": false},
+        {"text": "Làm trắng răng", "isCorrect": false}
+      ],
+      "explanation": "Nhựa là thành phần tạo nên nền hàm mang răng giả."
+    },
+    {
+      "question": "Yêu cầu chất lượng của nhựa làm nền hàm bao gồm:",
+      "options": [
+        {"text": "Khối lượng ổn định và độ cứng vừa đủ", "isCorrect": false},
+        {"text": "Độ kháng tốt chống gãy hàm", "isCorrect": false},
+        {"text": "Màu sắc ổn định giống màu lợi", "isCorrect": false},
+        {"text": "Tất cả các ý trên", "isCorrect": true}
+      ],
+      "explanation": "Nhựa phải đảm bảo cả độ bền, tính thẩm mỹ và tính sinh học."
+    },
+    {
+      "question": "Tình trạng 'thích nghi sinh lý' của nhựa nghĩa là gì?",
+      "options": [
+        {"text": "Nhựa phải tan trong miệng", "isCorrect": false},
+        {"text": "Không độc, không phản ứng với nước bọt", "isCorrect": true},
+        {"text": "Nhựa phải dai như kẹo", "isCorrect": false},
+        {"text": "Nhựa có vị ngọt", "isCorrect": false}
+      ],
+      "explanation": "Vật liệu phục hình không được gây kích ứng hoặc phản ứng hóa học bất lợi trong môi trường miệng."
+    },
+    {
+      "question": "Khi trộn nhựa, cần lưu ý điều gì về tỉ lệ?",
+      "options": [
+        {"text": "Ước lượng theo cảm giác", "isCorrect": false},
+        {"text": "Đong đúng phần bột và phần nước theo chỉ định", "isCorrect": true},
+        {"text": "Cho càng nhiều nước nhựa càng tốt", "isCorrect": false},
+        {"text": "Trộn nhựa trong môi trường nắng nóng", "isCorrect": false}
+      ],
+      "explanation": "Tỉ lệ bột/nước chuẩn giúp quá trình trùng hợp diễn ra hoàn toàn."
+    },
+    {
+      "question": "Tại sao khi trộn nhựa phải đảm bảo sạch sẽ tuyệt đối?",
+      "options": [
+        {"text": "Để nhựa không bị đen", "isCorrect": false},
+        {"text": "Tránh bụi bẩn lẫn vào làm hỏng cấu trúc và thẩm mỹ của nhựa", "isCorrect": true},
+        {"text": "Để tiết kiệm nhựa", "isCorrect": false},
+        {"text": "Vì quy định phòng khám", "isCorrect": false}
+      ],
+      "explanation": "Tạp chất làm nhựa bị rỗ và kém bền."
+    },
+    {
+      "question": "Thời gian lưu múp trên bàn ép trước khi luộc nhựa là bao lâu?",
+      "options": [
+        {"text": "5 phút", "isCorrect": false},
+        {"text": "20 - 40 phút", "isCorrect": true},
+        {"text": "2 giờ", "isCorrect": false},
+        {"text": "Ngay lập tức", "isCorrect": false}
+      ],
+      "explanation": "Thời gian này giúp ổn định trùng hợp và tránh bốc hơi monomer quá sớm."
+    },
+    {
+      "question": "Giai đoạn đầu của chu trình luộc nhựa diễn ra như thế nào?",
+      "options": [
+        {"text": "Đun sôi ngay lập tức", "isCorrect": false},
+        {"text": "Đun từ 20 độ C lên 100 độ C trong vòng 2 giờ", "isCorrect": true},
+        {"text": "Đun ở 50 độ C trong 10 phút", "isCorrect": false},
+        {"text": "Ngâm nước lạnh 1 giờ", "isCorrect": false}
+      ],
+      "explanation": "Cần gia nhiệt từ từ để nhựa trùng hợp đều và sâu."
+    },
+    {
+      "question": "Sau khi đạt 100 độ C, cần giữ nguyên nhiệt độ đó trong bao lâu?",
+      "options": [
+        {"text": "5 phút", "isCorrect": false},
+        {"text": "30 phút", "isCorrect": true},
+        {"text": "5 giờ", "isCorrect": false},
+        {"text": "Không cần giữ", "isCorrect": false}
+      ],
+      "explanation": "Giữ nhiệt giúp nhựa 'chín' hoàn toàn."
+    },
+    {
+      "question": "Thời gian cho nguội múp nhựa sau khi luộc là bao nhiêu?",
+      "options": [
+        {"text": "10 phút", "isCorrect": false},
+        {"text": "1 giờ", "isCorrect": false},
+        {"text": "Từ từ trong 15 giờ", "isCorrect": true},
+        {"text": "Ngâm đá ngay", "isCorrect": false}
+      ],
+      "explanation": "Nguội chậm giúp tránh nội ứng suất gây nứt gãy nhựa."
+    },
+    {
+      "question": "Có được làm nóng lại hàm sau khi nhựa đã trùng hợp không?",
+      "options": [
+        {"text": "Được, để làm sạch", "isCorrect": false},
+        {"text": "Không, để tránh lão hóa nhựa và gây giòn", "isCorrect": true},
+        {"text": "Được, khi mài và đánh bóng", "isCorrect": false},
+        {"text": "Tùy loại nhựa", "isCorrect": false}
+      ],
+      "explanation": "Nhiệt độ cao sau khi thành phẩm làm nhựa bị biến tính."
+    },
+    {
+      "question": "Nếu phải luộc lại hàm lần hai, giới hạn nhiệt độ tối đa là bao nhiêu?",
+      "options": [
+        {"text": "50 độ C", "isCorrect": false},
+        {"text": "75 độ C", "isCorrect": true},
+        {"text": "100 độ C", "isCorrect": false},
+        {"text": "150 độ C", "isCorrect": false}
+      ],
+      "explanation": "Không được quá 75 độ để phòng biến dạng nền hàm."
+    },
+    {
+      "question": "Tại sao phải ngâm hàm nhựa vào nước cất khi không sử dụng?",
+      "options": [
+        {"text": "Để làm sạch hàm", "isCorrect": false},
+        {"text": "Tránh hiện tượng hút/mất nước làm thay đổi hình dạng hàm", "isCorrect": true},
+        {"text": "Để hàm không bị hôi", "isCorrect": false},
+        {"text": "Để nhựa không bị chảy", "isCorrect": false}
+      ],
+      "explanation": "Nhựa acrylic vẫn có tính thẩm thấu nước nhẹ ảnh hưởng đến kích thước."
+    },
+    {
+      "question": "Cần ngâm hàm trong nước bao lâu sau khi mài/đánh bóng để thoát monomer thừa?",
+      "options": [
+        {"text": "1 giờ", "isCorrect": false},
+        {"text": "10 giờ", "isCorrect": false},
+        {"text": "17 giờ", "isCorrect": true},
+        {"text": "1 tuần", "isCorrect": false}
+      ],
+      "explanation": "Monomer dư cần thời gian để thoát hết ra ngoài để không gây hại cho niêm mạc."
+    },
+    {
+      "question": "Biến cố 'Lão hóa' nhựa biểu hiện như thế nào?",
+      "options": [
+        {"text": "Nhựa đổi màu, bề mặt rỗ, giòn và dễ gãy", "isCorrect": true},
+        {"text": "Nhựa trở nên mềm dẻo hơn", "isCorrect": false},
+        {"text": "Nhựa biến thành màu trắng", "isCorrect": false},
+        {"text": "Nhựa tan biến trong miệng", "isCorrect": false}
+      ],
+      "explanation": "Đây là quá trình thoái hóa vật liệu sau thời gian dài sử dụng hoặc xử lý nhiệt sai."
+    },
+    {
+      "question": "Hệ quả của việc bong nơi dính giữa nhựa và khung kim loại là gì?",
+      "options": [
+        {"text": "Làm hàm bám chắc hơn", "isCorrect": false},
+        {"text": "Thức ăn chui vào phân hủy gây mùi hôi", "isCorrect": true},
+        {"text": "Kim loại mọc dày thêm", "isCorrect": false},
+        {"text": "Không có vấn đề gì", "isCorrect": false}
+      ],
+      "explanation": "Khe hở giữa kim loại và nhựa là nơi lý tưởng cho vi khuẩn tích tụ."
+    },
+    {
+      "question": "Bát cao su dùng để trộn vật liệu có tính chất gì?",
+      "options": [
+        {"text": "Cứng và giòn", "isCorrect": false},
+        {"text": "Có độ đàn hồi, bền dẻo", "isCorrect": true},
+        {"text": "Làm bằng sứ", "isCorrect": false},
+        {"text": "Chỉ dùng một lần", "isCorrect": false}
+      ],
+      "explanation": "Tính đàn hồi giúp bác sĩ vét sạch vật liệu lấy dấu hoặc thạch cao."
+    },
+    {
+      "question": "Bay trộn có thể có hình dạng đầu như thế nào?",
+      "options": [
+        {"text": "Chỉ có đầu thẳng", "isCorrect": false},
+        {"text": "Đầu cong hoặc thẳng", "isCorrect": true},
+        {"text": "Đầu hình ngôi sao", "isCorrect": false},
+        {"text": "Đầu bằng gỗ", "isCorrect": false}
+      ],
+      "explanation": "Tùy loại vật liệu (alginate hay thạch cao) mà chọn đầu bay phù hợp."
+    },
+    {
+      "question": "Dao sáp cấu tạo có một đầu muỗng dùng để làm gì?",
+      "options": [
+        {"text": "Để múc nước", "isCorrect": false},
+        {"text": "Để mang sáp nóng chảy và tạo bề mặt sáp cong", "isCorrect": true},
+        {"text": "Để nhổ răng", "isCorrect": false},
+        {"text": "Để mài nhựa", "isCorrect": false}
+      ],
+      "explanation": "Đầu muỗng giúp đắp sáp điều chỉnh mẫu sáp nướu."
+    },
+    {
+      "question": "Bay sáp dùng để làm gì trong công đoạn làm gối sáp?",
+      "options": [
+        {"text": "Làm tăng chiều cao gối sáp", "isCorrect": false},
+        {"text": "Làm giảm chiều cao gối sáp", "isCorrect": true},
+        {"text": "Làm sạch răng", "isCorrect": false},
+        {"text": "Đánh bóng nhựa", "isCorrect": false}
+      ],
+      "explanation": "Bản kim loại rộng của bay sáp khi hơ nóng giúp hạ độ cao gối sáp đều phẳng."
+    },
+    {
+      "question": "Múp (Flask) là dụng cụ phục vụ mục đích gì?",
+      "options": [
+        {"text": "Dùng để lấy dấu", "isCorrect": false},
+        {"text": "Dùng để chuyển đổi nền hàm từ sáp sang nhựa", "isCorrect": true},
+        {"text": "Dùng để đo khớp cắn", "isCorrect": false},
+        {"text": "Dùng để nhổ răng", "isCorrect": false}
+      ],
+      "explanation": "Múp là bộ khuôn đúc dùng trong labo để ép nhựa."
+    },
+    {
+      "question": "Múp gồm mấy thành phần chính?",
+      "options": [
+        {"text": "2 phần", "isCorrect": false},
+        {"text": "3 phần: nắp, thân, nền", "isCorrect": true},
+        {"text": "5 phần", "isCorrect": false},
+        {"text": "Chỉ có nắp", "isCorrect": false}
+      ],
+      "explanation": "Cấu tạo múp gồm nắp che, thân chứa mẫu và nền đỡ."
+    },
+    {
+      "question": "Mũi mài Tungsten được sử dụng khi nào trong quy trình?",
+      "options": [
+        {"text": "Mài răng thật", "isCorrect": false},
+        {"text": "Mài thô nền hàm sau khi ép nhựa xong", "isCorrect": true},
+        {"text": "Lấy dấu sơ khởi", "isCorrect": false},
+        {"text": "Hàn răng", "isCorrect": false}
+      ],
+      "explanation": "Mũi Tungsten cứng và sắc dùng để loại bỏ nhựa thừa."
+    },
+    {
+      "question": "Mũi đá mài mịn nhựa có tác dụng gì?",
+      "options": [
+        {"text": "Làm mòn kim loại", "isCorrect": false},
+        {"text": "Làm mịn bề mặt nền hàm nhựa", "isCorrect": true},
+        {"text": "Nhổ răng", "isCorrect": false},
+        {"text": "Để khoan thạch cao", "isCorrect": false}
+      ],
+      "explanation": "Dùng sau bước mài thô để chuẩn bị cho bước đánh bóng."
+    },
+    {
+      "question": "Mũi bánh xe vải thường được làm từ vật liệu gì?",
+      "options": [
+        {"text": "Kim loại", "isCorrect": false},
+        {"text": "Vải mịn", "isCorrect": true},
+        {"text": "Cao su", "isCorrect": false},
+        {"text": "Giấy nhám", "isCorrect": false}
+      ],
+      "explanation": "Bánh xe vải kết hợp với bột đánh bóng tạo độ bóng gương cho hàm."
+    },
+    {
+      "question": "Thước Fox dùng để thiết lập yếu tố nào?",
+      "options": [
+        {"text": "Chiều dài môi", "isCorrect": false},
+        {"text": "Mặt phẳng cắn", "isCorrect": true},
+        {"text": "Độ sâu sâu răng", "isCorrect": false},
+        {"text": "Số lượng răng mất", "isCorrect": false}
+      ],
+      "explanation": "Thước Fox giúp cân chỉnh mặt phẳng nhai song song với các mốc chuẩn trên mặt."
+    },
+    {
+      "question": "Khi dùng thước Fox, phần phía sau phải song song với mặt phẳng nào?",
+      "options": [
+        {"text": "Mặt phẳng đứng dọc", "isCorrect": false},
+        {"text": "Mặt phẳng Camper", "isCorrect": true},
+        {"text": "Mặt phẳng nhai", "isCorrect": false},
+        {"text": "Mặt phẳng trán", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng Camper (đi qua cánh mũi và nắp tai) là mốc chuẩn cho vùng răng sau."
+    },
+    {
+      "question": "Khi dùng thước Fox, phần phía trước phải song song với đường nào?",
+      "options": [
+        {"text": "Đường nối hai đồng tử", "isCorrect": true},
+        {"text": "Đường nhân trung", "isCorrect": false},
+        {"text": "Đường chân tóc", "isCorrect": false},
+        {"text": "Đường cằm", "isCorrect": false}
+      ],
+      "explanation": "Đường nối hai đồng tử giúp đảm bảo mặt phẳng răng cửa nằm ngang cân xứng."
+    },
+    {
+      "question": "Thạch cao thạch đá type I có độ dãn nở là bao nhiêu?",
+      "options": [
+        {"text": "0,5%", "isCorrect": false},
+        {"text": "0,1%", "isCorrect": true},
+        {"text": "0,05%", "isCorrect": false},
+        {"text": "1,0%", "isCorrect": false}
+      ],
+      "explanation": "Thông số kỹ thuật ghi nhận type I dãn nở 0,1%."
+    },
+    {
+      "question": "Chỉ số độ xốp của thạch cao đá type I là?",
+      "options": [
+        {"text": "45", "isCorrect": false},
+        {"text": "15", "isCorrect": true},
+        {"text": "10", "isCorrect": false},
+        {"text": "0", "isCorrect": false}
+      ],
+      "explanation": "Độ xốp 15 khiến nó cứng hơn thạch cao thường nhưng kém hơn type II."
+    },
+    {
+      "question": "Việc dùng 'it trang bị nhất' là yêu cầu của nhóm vật liệu nào?",
+      "options": [
+        {"text": "Móc kim loại", "isCorrect": false},
+        {"text": "Chất lấy khuôn", "isCorrect": true},
+        {"text": "Nhựa acrylic", "isCorrect": false},
+        {"text": "Thạch cao đá", "isCorrect": false}
+      ],
+      "explanation": "Vật liệu lấy dấu tốt nên đơn giản và không đòi hỏi máy móc phức tạp."
+    },
+    {
+      "question": "Khi trùng hợp chất lấy khuôn, hiện tượng nào xảy ra kèm theo?",
+      "options": [
+        {"text": "Phần tử bốc hơi", "isCorrect": true},
+        {"text": "Bột nở ra", "isCorrect": false},
+        {"text": "Biến thành kim loại", "isCorrect": false},
+        {"text": "Không có gì", "isCorrect": false}
+      ],
+      "explanation": "Sự bay hơi của các dung môi hoặc sản phẩm phụ làm giảm kích thước khuôn."
+    },
+    {
+      "question": "Trạng thái bề mặt răng nào ảnh hưởng đến việc kéo khuôn ra khỏi miệng?",
+      "options": [
+        {"text": "Khô hoặc ướt", "isCorrect": false},
+        {"text": "Trơn láng hay nhám ráp", "isCorrect": false},
+        {"text": "Cả hai ý trên", "isCorrect": true},
+        {"text": "Không ảnh hưởng", "isCorrect": false}
+      ],
+      "explanation": "Độ bám dính giữa răng và vật liệu lấy dấu phụ thuộc vào tính chất bề mặt."
+    },
+    {
+      "question": "Cao su Polysiloxane dùng để làm gì theo phân loại bảng 2?",
+      "options": [
+        {"text": "Lấy khuôn toàn hàm", "isCorrect": false},
+        {"text": "Làm hàm giả cố định", "isCorrect": true},
+        {"text": "Làm khay lấy dấu", "isCorrect": false},
+        {"text": "Sơn răng", "isCorrect": false}
+      ],
+      "explanation": "Đây là loại cao su lấy dấu có độ chính xác cao cho phục hình cố định."
+    },
+    {
+      "question": "Lão hóa nhựa làm hàm giả bị rỗ, điều này gây hại gì?",
+      "options": [
+        {"text": "Dễ đọng bẩn và vi khuẩn gây hôi", "isCorrect": true},
+        {"text": "Làm hàm sáng hơn", "isCorrect": false},
+        {"text": "Làm hàm nhẹ đi", "isCorrect": false},
+        {"text": "Giúp nướu khỏe", "isCorrect": false}
+      ],
+      "explanation": "Bề mặt rỗ là nơi trú ngụ của mảng bám không thể làm sạch bằng cách đánh rửa thông thường."
+    },
+    {
+      "question": "Khi mài và đánh bóng hàm, tại sao không được làm nóng quá mức?",
+      "options": [
+        {"text": "Sợ bác sĩ bị bỏng", "isCorrect": false},
+        {"text": "Tránh làm biến dạng nền nhựa (nhiệt độ chuyển pha thấp)", "isCorrect": true},
+        {"text": "Để tiết kiệm điện", "isCorrect": false},
+        {"text": "Để giữ màu nướu", "isCorrect": false}
+      ],
+      "explanation": "Ma sát cao tạo nhiệt làm nhựa mềm đi và méo mó."
+    },
+    {
+      "question": "Tại sao bột thạch cao đá type 2 chỉ cần 18-24ml nước cho 100g bột?",
+      "options": [
+        {"text": "Vì bột này đắt hơn", "isCorrect": false},
+        {"text": "Vì phân tử tinh thể nhỏ, đặc, đồng đều hơn thạch cao thường", "isCorrect": true},
+        {"text": "Vì nước bay hơi nhanh", "isCorrect": false},
+        {"text": "Do dùng hóa chất tẩy trắng", "isCorrect": false}
+      ],
+      "explanation": "Cấu trúc tinh thể đặc giúp nó có diện tích bề mặt thấp, cần ít nước hơn để làm ướt toàn bộ."
+    },
+    {
+      "question": "Thạch cao thiên nhiên ngậm mấy phân tử nước?",
+      "options": [
+        {"text": "1", "isCorrect": false},
+        {"text": "2", "isCorrect": true},
+        {"text": "1/2", "isCorrect": false},
+        {"text": "0", "isCorrect": false}
+      ],
+      "explanation": "Công thức CaSO4.2H2O chứa 2 phân tử nước."
+    },
+    {
+      "question": "Dụng cụ 'Mũi mài Tungsten' có đặc điểm hình dạng gì?",
+      "options": [
+        {"text": "Chỉ có hình tròn", "isCorrect": false},
+        {"text": "Có nhiều hình dạng và kích thước khác nhau", "isCorrect": true},
+        {"text": "Hình lưỡi cưa", "isCorrect": false},
+        {"text": "Hình cái kim", "isCorrect": false}
+      ],
+      "explanation": "Đa dạng hình dạng giúp mài ở các ngóc ngách khác nhau của nền hàm."
+    },
+    {
+      "question": "Mũi đá mài mịn nhựa khác mũi Tungsten ở điểm nào?",
+      "options": [
+        {"text": "Làm bằng vải", "isCorrect": false},
+        {"text": "Độ nhám mịn hơn để làm phẳng bề mặt nhựa", "isCorrect": true},
+        {"text": "Chỉ dùng cho kim loại", "isCorrect": false},
+        {"text": "Có gắn kim cương", "isCorrect": false}
+      ],
+      "explanation": "Mũi đá dùng để làm phẳng các vết xước do mũi mài thô để lại."
+    },
+    {
+      "question": "Khối lượng của nhựa phục hình cần đạt yêu cầu gì?",
+      "options": [
+        {"text": "Càng nặng càng tốt", "isCorrect": false},
+        {"text": "Khối lượng ổn định", "isCorrect": true},
+        {"text": "Phải nhẹ như nước", "isCorrect": false},
+        {"text": "Thay đổi theo thời gian", "isCorrect": false}
+      ],
+      "explanation": "Sự ổn định về khối lượng và kích thước giúp hàm luôn khít sát."
+    },
+    {
+      "question": "Màu sắc của nhựa nên giống với bộ phận nào nhất?",
+      "options": [
+        {"text": "Giống màu răng", "isCorrect": false},
+        {"text": "Giống màu lợi (nướu) bệnh nhân", "isCorrect": true},
+        {"text": "Màu trắng tinh", "isCorrect": false},
+        {"text": "Màu đỏ đậm", "isCorrect": false}
+      ],
+      "explanation": "Tính thẩm mỹ yêu cầu nền hàm phải hòa hợp với mô mềm xung quanh."
+    },
+    {
+      "question": "Hiện tượng 'bong nơi dính' giữa nhựa và kim loại thường do:",
+      "options": [
+        {"text": "Bệnh nhân ăn đồ lạnh", "isCorrect": false},
+        {"text": "Lực nhai và sự chênh lệch độ giãn nở nhiệt giữa hai vật liệu", "isCorrect": true},
+        {"text": "Nhựa bị cháy", "isCorrect": false},
+        {"text": "Do dùng nước rửa bát", "isCorrect": false}
+      ],
+      "explanation": "Đây là nhược điểm cơ học khi kết hợp hai vật liệu khác tính chất."
+    },
+    {
+      "question": "Tài liệu nhắc đến 'nửa múp trên và nửa múp dưới' để làm gì?",
+      "options": [
+        {"text": "Để làm hai cái hàm", "isCorrect": false},
+        {"text": "Để có thể mở ra lấy sáp và nhồi nhựa vào", "isCorrect": true},
+        {"text": "Để tiết kiệm thạch cao", "isCorrect": false},
+        {"text": "Vì múp quá nặng", "isCorrect": false}
+      ],
+      "explanation": "Cấu tạo hai nửa cho phép bác sĩ tạo khuôn đúc hai mặt."
+    },
+    {
+      "question": "Sau khi đánh bóng hàm bằng mũi bánh xe vải, bước cuối cùng là gì?",
+      "options": [
+        {"text": "Ngâm nước sạch và giao cho bệnh nhân", "isCorrect": true},
+        {"text": "Sơn màu", "isCorrect": false},
+        {"text": "Luộc lại lần 3", "isCorrect": false},
+        {"text": "Phơi khô 24h", "isCorrect": false}
+      ],
+      "explanation": "Làm sạch và khử trùng hàm trước khi đưa vào miệng bệnh nhân."
+    },
+    {
+      "question": "Nếu trộn thạch cao bằng máy, bọt khí sẽ?",
+      "options": [
+        {"text": "Nhiều hơn", "isCorrect": false},
+        {"text": "Ít hơn và mẫu mịn hơn", "isCorrect": true},
+        {"text": "Không đổi", "isCorrect": false},
+        {"text": "Thạch cao sẽ biến thành nhựa", "isCorrect": false}
+      ],
+      "explanation": "Máy trộn ly tâm hút chân không là phương pháp tốt nhất để loại bọt khí."
+    },
+    {
+      "question": "Bột Alginate có tính chất 'Color-changing' giúp bác sĩ biết điều gì?",
+      "options": [
+        {"text": "Bệnh nhân có đau không", "isCorrect": false},
+        {"text": "Thời điểm kết thúc trộn và bắt đầu đưa khay vào miệng", "isCorrect": true},
+        {"text": "Nhóm máu của bệnh nhân", "isCorrect": false},
+        {"text": "Giá của sản phẩm", "isCorrect": false}
+      ],
+      "explanation": "Màu sắc chỉ thị giúp bác sĩ kiểm soát thời gian làm việc chuẩn xác."
+    },
+    {
+      "question": "Hợp chất nhiệt dẻo dùng để làm gì theo bảng 2?",
+      "options": [
+        {"text": "Lấy khuôn toàn hàm hoặc hàm từng phần không có vùng lẹm", "isCorrect": true},
+        {"text": "Làm răng giả", "isCorrect": false},
+        {"text": "Mài răng", "isCorrect": false},
+        {"text": "Trám lỗ sâu lớn", "isCorrect": false}
+      ],
+      "explanation": "Hợp chất nhiệt dẻo (Compound) hóa dẻo khi nóng, cứng khi nguội, dùng cho các trường hợp đơn giản."
+    },
+    {
+      "question": "Bay trộn dùng cho thạch cao thường làm bằng gì?",
+      "options": [
+        {"text": "Chỉ làm bằng giấy", "isCorrect": false},
+        {"text": "Kim loại cứng", "isCorrect": true},
+        {"text": "Nhựa dẻo như bún", "isCorrect": false},
+        {"text": "Vải", "isCorrect": false}
+      ],
+      "explanation": "Cần độ cứng để đánh vữa thạch cao đặc."
+    },
+    {
+      "question": "Ưu điểm của vật liệu đàn hồiAgar là gì?",
+      "options": [
+        {"text": "Có thể sử dụng lại nhiều lần bằng cách đun nóng", "isCorrect": true},
+        {"text": "Rẻ hơn Alginate", "isCorrect": false},
+        {"text": "Cứng nhất", "isCorrect": false},
+        {"text": "Không tan trong nước", "isCorrect": false}
+      ],
+      "explanation": "Agar là hydrocolloid thuận nghịch, có thể tái sử dụng trong labo."
+    },
+    {
+      "question": "Tên giảng viên viết tài liệu này là ai (theo slide đầu)?",
+      "options": [
+        {"text": "Bs. Phương", "isCorrect": true},
+        {"text": "Bs. Huy", "isCorrect": false},
+        {"text": "Bs. Hùng", "isCorrect": false},
+        {"text": "Bs. Minh", "isCorrect": false}
+      ],
+      "explanation": "Tài liệu ghi Bs. Phương - RHM5."
+    },
+    {
+      "question": "Chất lấy khuôn Polyvinyle dùng trong trường hợp nào?",
+      "options": [
+        {"text": "Hàm từng phần", "isCorrect": false},
+        {"text": "Hàm giả cố định", "isCorrect": true},
+        {"text": "Chỉnh nha", "isCorrect": false},
+        {"text": "Toàn hàm", "isCorrect": false}
+      ],
+      "explanation": "Đây là loại cao su lấy dấu chính xác cao cho cầu răng, mão răng."
+    },
+    {
+      "question": "Giai đoạn giữ múp ở 100 độ C trong 30 phút nhằm?",
+      "options": [
+        {"text": "Khử trùng hàm", "isCorrect": false},
+        {"text": "Đảm bảo quá trình trùng hợp nhựa hoàn tất ở mọi vị trí", "isCorrect": true},
+        {"text": "Để sáp chảy hết", "isCorrect": false},
+        {"text": "Để thạch cao cứng hơn", "isCorrect": false}
+      ],
+      "explanation": "Nhiệt độ này đảm bảo không còn monomer tự do tồn tại."
+    },
+    {
+      "question": "Sự dãn nở của thạch cao đá type I là?",
+      "options": [
+        {"text": "0,5%", "isCorrect": false},
+        {"text": "0,1%", "isCorrect": true},
+        {"text": "0,05%", "isCorrect": false},
+        {"text": "0%", "isCorrect": false}
+      ],
+      "explanation": "Type I dãn nở 0,1%."
+    },
+    {
+      "question": "Bột thạch cao đá type 2 có màu gì thông dụng (kiến thức labo)?",
+      "options": [
+        {"text": "Màu trắng", "isCorrect": false},
+        {"text": "Màu vàng", "isCorrect": true},
+        {"text": "Màu đen", "isCorrect": false},
+        {"text": "Màu đỏ", "isCorrect": false}
+      ],
+      "explanation": "Thạch cao đá thường được nhuộm màu vàng để phân biệt với thạch cao thường màu trắng."
+    },
+    {
+      "question": "Nếu thời gian trộn thạch cao quá lâu sẽ gây ra hậu quả gì?",
+      "options": [
+        {"text": "Làm thạch cao đông quá nhanh ngay trong bát", "isCorrect": true},
+        {"text": "Làm thạch cao lâu đông hơn", "isCorrect": false},
+        {"text": "Thạch cao sẽ biến thành màu xanh", "isCorrect": false},
+        {"text": "Không có hậu quả gì", "isCorrect": false}
+      ],
+      "explanation": "Khuấy trộn liên tục đẩy nhanh phản ứng kết tinh."
+    },
+    {
+      "question": "Chất lấy khuôn 'Polysulfure' thuộc nhóm cao su lấy dấu loại nào?",
+      "options": [
+        {"text": "Cứng", "isCorrect": false},
+        {"text": "Đàn hồi", "isCorrect": true},
+        {"text": "Dẻo nhiệt", "isCorrect": false},
+        {"text": "Tan trong nước", "isCorrect": false}
+      ],
+      "explanation": "Các loại cao su đều thuộc nhóm đàn hồi cơ học cao."
+    },
+    {
+      "question": "Tỉ lệ monomer và polymer lý tưởng cho nhựa acrylic thường là?",
+      "options": [
+        {"text": "1 nước : 1 bột", "isCorrect": false},
+        {"text": "1 nước : 3 bột (theo thể tích)", "isCorrect": true},
+        {"text": "3 nước : 1 bột", "isCorrect": false},
+        {"text": "Tất cả đều bột", "isCorrect": false}
+      ],
+      "explanation": "Tỉ lệ 1:3 đảm bảo bột nhựa được thấm ướt đều mà không bị dư Monomer."
+    },
+    {
+      "question": "Tại sao phải làm nguội múp nhựa trong 15 giờ?",
+      "options": [
+        {"text": "Để không làm bác sĩ bị bỏng", "isCorrect": false},
+        {"text": "Giúp giải tỏa các ứng suất nội tại, hạn chế biến dạng và nứt gãy nền hàm", "isCorrect": true},
+        {"text": "Vì múp bằng kim loại rất dày", "isCorrect": false},
+        {"text": "Để màu nhựa đẹp hơn", "isCorrect": false}
+      ],
+      "explanation": "Thay đổi nhiệt độ quá đột ngột làm co rút vật liệu không đều."
+    },
+    {
+      "question": "Khi gỡ hàm ra khỏi múp thạch cao, hành động nào đúng?",
+      "options": [
+        {"text": "Dùng búa đập mạnh", "isCorrect": false},
+        {"text": "Dùng dao bửa thạch cao từng miếng nhỏ để tránh gãy hàm", "isCorrect": true},
+        {"text": "Dùng kìm kéo", "isCorrect": false},
+        {"text": "Cho vào acid để tan thạch cao", "isCorrect": false}
+      ],
+      "explanation": "Phải cẩn thận vì nền nhựa và răng giả thạch cao rất dễ bị mẻ gãy."
+    },
+    {
+      "question": "Độ chính xác của dấu Alginate phụ thuộc vào điều gì nhất khi lấy dấu?",
+      "options": [
+        {"text": "Bệnh nhân có cười không", "isCorrect": false},
+        {"text": "Khay lấy dấu phải khít sát và vật liệu không được bong khỏi khay", "isCorrect": true},
+        {"text": "Số lượng răng bệnh nhân", "isCorrect": false},
+        {"text": "Độ dài cán khay", "isCorrect": false}
+      ],
+      "explanation": "Mọi sự xê dịch của vật liệu so với khay đều làm dấu bị sai lệch."
+    },
+    {
+      "question": "Thạch cao nào dùng để 'lên giá khớp' (kiến thức labo bổ sung từ hình ảnh)?",
+      "options": [
+        {"text": "Thạch cao thường màu trắng", "isCorrect": true},
+        {"text": "Thạch cao đá type 2", "isCorrect": false},
+        {"text": "Nhựa tự cứng", "isCorrect": false},
+        {"text": "Sáp dính", "isCorrect": false}
+      ],
+      "explanation": "Thạch cao thường rẻ và dễ đục bỏ khi hoàn thiện nên dùng để gắn mẫu lên giá khớp."
+    },
+    {
+      "question": "Mục tiêu 1 của bài học này là gì?",
+      "options": [
+        {"text": "Biết cách nhổ răng", "isCorrect": false},
+        {"text": "Nêu được các loại vật liệu thường sử dụng trong phục hình tháo lắp", "isCorrect": true},
+        {"text": "Tập mài răng", "isCorrect": false},
+        {"text": "Học cách lấy dấu silicon", "isCorrect": false}
+      ],
+      "explanation": "Trang 2 ghi rõ mục tiêu 1 là nêu tên các vật liệu."
+    },
+    {
+      "question": "Hành động 'tôn trọng tỉ lệ' là bắt buộc đối với loại Alginate nào?",
+      "options": [
+        {"text": "Chỉ Alginate của Đức", "isCorrect": false},
+        {"text": "Mọi loại Alginate", "isCorrect": true},
+        {"text": "Chỉ Alginate rẻ tiền", "isCorrect": false},
+        {"text": "Alginate cho trẻ em", "isCorrect": false}
+      ],
+      "explanation": "Sai lệch tỉ lệ làm hỏng đặc tính của vữa gel Alginate."
+    },
+    {
+      "question": "Dấu Alginate sau khi lấy xong cần làm sạch bằng cách?",
+      "options": [
+        {"text": "Rửa dưới vòi nước chảy nhẹ", "isCorrect": true},
+        {"text": "Dùng bàn chải sắt đánh", "isCorrect": false},
+        {"text": "Rửa bằng xà phòng", "isCorrect": false},
+        {"text": "Ngâm trong acid", "isCorrect": false}
+      ],
+      "explanation": "Loại bỏ nước bọt và máu mà không làm rách bề mặt dấu."
+    },
+    {
+      "question": "Kết quả cuối cùng của bài học 'Vật liệu, dụng cụ' là?",
+      "options": [
+        {"text": "Một chiếc răng giả", "isCorrect": false},
+        {"text": "Giúp sinh viên nắm vững đặc điểm và cách sử dụng vật liệu/dụng cụ để phục vụ lâm sàng", "isCorrect": true},
+        {"text": "Biết cách mài dao sáp", "isCorrect": false},
+        {"text": "Làm sạch được bát cao su", "isCorrect": false}
+      ],
+      "explanation": "Đây là kiến thức nền tảng để thực hiện các bước kỹ thuật tiếp theo."
+    }
+  ]

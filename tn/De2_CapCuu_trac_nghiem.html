@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Đề 2 – Trắc nghiệm: Cấp cứu nội khoa trong Răng Trẻ Em</title>
+<style>
+  :root{--bg:#0f172a;--card:#1e293b;--accent:#f472b6;--ok:#22c55e;--bad:#ef4444;--txt:#e2e8f0;--muted:#94a3b8;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(160deg,#0f172a,#1a1024);color:var(--txt);line-height:1.5;padding:16px;}
+  .wrap{max-width:820px;margin:0 auto;}
+  header{text-align:center;padding:14px 0 8px;}
+  header h1{font-size:1.35rem;margin:0 0 4px;color:#fff;}
+  header p{margin:2px 0;color:var(--muted);font-size:.9rem;}
+  .panel{background:var(--card);border:1px solid #3b2a44;border-radius:14px;padding:20px;margin-top:16px;box-shadow:0 8px 30px rgba(0,0,0,.35);}
+  .bar{height:8px;background:#0b1220;border-radius:99px;overflow:hidden;margin:10px 0 4px;}
+  .bar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,#f472b6,#22c55e);transition:width .3s;}
+  .meta{display:flex;justify-content:space-between;font-size:.82rem;color:var(--muted);margin-bottom:6px;flex-wrap:wrap;gap:6px;}
+  .q{font-size:1.08rem;font-weight:600;margin:6px 0 14px;color:#fff;}
+  .opt{display:block;width:100%;text-align:left;background:#0b1220;border:1.5px solid #3b2a44;color:var(--txt);border-radius:10px;padding:12px 14px;margin:8px 0;cursor:pointer;font-size:.98rem;transition:all .15s;}
+  .opt:hover:not(:disabled){border-color:var(--accent);}
+  .opt .k{display:inline-block;width:22px;font-weight:700;color:var(--accent);}
+  .opt.correct{border-color:var(--ok);background:rgba(34,197,94,.12);}
+  .opt.wrong{border-color:var(--bad);background:rgba(239,68,68,.12);}
+  .opt:disabled{cursor:default;opacity:.95;}
+  .explain{margin-top:10px;padding:11px 13px;border-radius:10px;background:#0b1220;border-left:4px solid var(--accent);font-size:.9rem;color:#cbd5e1;display:none;}
+  .explain.show{display:block;}
+  .row{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;}
+  button.btn{background:var(--accent);color:#3a0d24;border:none;border-radius:10px;padding:11px 18px;font-weight:700;cursor:pointer;font-size:.95rem;}
+  button.btn.sec{background:#3b2a44;color:#e2e8f0;}
+  button.btn:disabled{opacity:.4;cursor:not-allowed;}
+  .center{text-align:center;}
+  .big{font-size:2.4rem;font-weight:800;color:#fff;margin:6px 0;}
+  .tag{display:inline-block;font-size:.72rem;background:#0b1220;border:1px solid #3b2a44;color:var(--muted);padding:3px 9px;border-radius:99px;margin-bottom:8px;}
+  .grid{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+  .chip{font-size:.8rem;padding:6px 10px;border-radius:8px;border:1px solid #3b2a44;background:#0b1220;cursor:pointer;}
+  .chip.on{border-color:var(--accent);color:var(--accent);}
+  .review-item{border-top:1px solid #3b2a44;padding:12px 0;font-size:.9rem;}
+  .review-item .ri-q{font-weight:600;color:#fff;}
+  .review-item .ri-a{color:#cbd5e1;margin-top:4px;}
+  .ok{color:var(--ok)} .bad{color:var(--bad)}
+  a.src{color:var(--muted);font-size:.78rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">ĐỀ 2 · 100 câu A/B/C/D</span>
+    <h1>Cấp cứu nội khoa trong Răng Trẻ Em</h1>
+    <p>Phòng ngừa · Thuốc cấp cứu · ASA · P-A-B-C-D · Ngất · Dị ứng · Dị vật đường thở · Quá liều thuốc tê · Động kinh · Suyễn · Hạ đường huyết</p>
+  </header>
+
+  <div class="panel" id="start">
+    <p>Bộ câu hỏi bám sát tài liệu <b>“17. Cấp cứu nội khoa trong RTE.pdf”</b>. Mỗi câu có 4 phương án gần giống nhau để tăng độ khó. Chọn số câu muốn luyện:</p>
+    <div class="grid" id="countChips"></div>
+    <div class="row">
+      <label style="display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)">
+        <input type="checkbox" id="shuffle" checked> Xáo trộn câu hỏi &amp; đáp án
+      </label>
+    </div>
+    <div class="row">
+      <button class="btn" onclick="startQuiz()">Bắt đầu luyện tập ▶</button>
+    </div>
+  </div>
+
+  <div class="panel" id="quiz" style="display:none">
+    <div class="meta">
+      <span id="progressTxt"></span>
+      <span id="scoreTxt"></span>
+    </div>
+    <div class="bar"><i id="progressBar"></i></div>
+    <div class="q" id="qText"></div>
+    <div id="opts"></div>
+    <div class="explain" id="explain"></div>
+    <div class="row">
+      <button class="btn sec" id="skipBtn" onclick="nextQ()">Bỏ qua</button>
+      <button class="btn" id="nextBtn" onclick="nextQ()" disabled>Câu tiếp ▶</button>
+    </div>
+  </div>
+
+  <div class="panel center" id="result" style="display:none">
+    <p class="tag">KẾT QUẢ</p>
+    <div class="big" id="finalScore"></div>
+    <p id="finalMsg" style="color:var(--muted)"></p>
+    <div class="row" style="justify-content:center">
+      <button class="btn" onclick="location.reload()">Làm lại ⟳</button>
+      <button class="btn sec" onclick="toggleReview()">Xem lại bài ▾</button>
+    </div>
+    <div id="review" style="text-align:left;display:none;margin-top:14px"></div>
+  </div>
+
+  <p class="center" style="margin-top:18px"><a class="src" href="17. Cấp cứu nội khoa trong RTE meU .pdf">Nguồn: 17. Cấp cứu nội khoa trong RTE.pdf</a></p>
+</div>
+
+<script>
+/* ================= NGÂN HÀNG CÂU HỎI – ĐỀ 2 ================= */
+const BANK = [
+{q:"Các dấu hiệu sinh tồn cần khám trong phòng ngừa cấp cứu nội khoa gồm:",a:["Nhịp tim, nhịp thở và huyết áp","Chiều cao, cân nặng và tuổi","Màu tóc, màu mắt","Số răng và tình trạng nướu"],c:0,e:"Dấu hiệu sinh tồn gồm nhịp tim, nhịp thở và huyết áp."},
+{q:"Khai thác bệnh sử nội khoa trước điều trị cần chú ý những yếu tố nào?",a:["Bệnh nội khoa hiện tại/trước đây, dị ứng, nhập viện, thuốc đang dùng","Chỉ hỏi về đau răng hiện tại","Chỉ hỏi tuổi khai sinh","Chỉ hỏi thói quen chải răng"],c:0,e:"Bệnh sử nội khoa gồm bệnh hiện tại/trước đây, dị ứng, tiền sử nhập viện và thuốc đang dùng."},
+{q:"Bình oxy trong dụng cụ cấp cứu cần đủ cung cấp trong thời gian tối thiểu bao lâu?",a:["Ít nhất 1 giờ","Ít nhất 10 phút","Ít nhất 6 giờ","Ít nhất 24 giờ"],c:0,e:"Bình oxy cần đủ cung cấp ít nhất 1 giờ, kèm mặt nạ có túi van và các ống thở."},
+{q:"Quan điểm đúng về dùng thuốc trong cấp cứu nội khoa tại phòng nha là:",a:["Hầu hết không cần dùng thuốc; chỉ dùng khi có chỉ định rõ","Luôn phải dùng thuốc đầu tiên","Không bao giờ được dùng thuốc","Dùng càng nhiều thuốc càng an toàn"],c:0,e:"Hầu hết cấp cứu nội khoa trong phòng nha không cần thuốc; áp dụng biện pháp cơ bản và chỉ dùng thuốc khi có chỉ định rõ."},
+{q:"Epinephrine trong xử trí dị ứng có dạng cung cấp nào?",a:["Ống 1/1000 (1mg/ml) hoặc 1/10.000 (0,1mg/ml)","Chỉ dạng viên uống","Ống 50mg/ml duy nhất","Dạng bột hít"],c:0,e:"Epinephrine có ống 1/1000 (1mg/ml) hoặc 1/10.000 (0,1mg/ml) chứa sẵn trong bơm tiêm."},
+{q:"Tác dụng của Epinephrine trong phản ứng dị ứng gồm:",a:["Làm dãn cơ trơn khí quản, tăng nhịp tim và huyết áp","Làm co thắt khí quản","Làm hạ huyết áp","Gây ngủ sâu"],c:0,e:"Epinephrine làm dãn cơ trơn khí quản, tăng nhịp tim, huyết áp."},
+{q:"Diphenhydramine dùng trong dị ứng thuộc nhóm nào?",a:["Kháng histamine","Corticoid","Kháng sinh","Thuốc đối kháng gây nghiện"],c:0,e:"Diphenhydramine là thuốc kháng histamine; liều 1–2 mg/kg tĩnh mạch hay tiêm bắp."},
+{q:"Tác dụng phụ đặc trưng của Diphenhydramine là:",a:["Êm dịu và kháng acetylcholine (anticholinergic)","Tăng tiết nước bọt","Tiêu chảy nặng","Gây nghiện mạnh"],c:0,e:"Diphenhydramine gây êm dịu và tác dụng kháng acetylcholine (anticholinergic)."},
+{q:"Diazepam (Valium) được xếp vào nhóm thuốc nào?",a:["Hướng thần nhóm 1,4-benzodiazepine, chống co giật","Kháng histamine","Corticoid","Thuốc co mạch"],c:0,e:"Diazepam là thuốc hướng thần nhóm 1,4-benzodiazepine, có tác dụng an thần, gây ngủ và chống co giật."},
+{q:"Diazepam được chỉ định trong cấp cứu nào?",a:["Cơn động kinh (co giật)","Hạ đường huyết","Phản vệ","Nhịp tim chậm"],c:0,e:"Diazepam dùng trong trường hợp động kinh/co giật; tác dụng chống co giật."},
+{q:"Tác dụng phụ đáng lưu ý của Diazepam là:",a:["Dịu êm, ức chế hô hấp","Tăng huyết áp mạnh","Loạn nhịp tim","Tăng đường huyết"],c:0,e:"Diazepam có thể gây dịu êm và ức chế hô hấp."},
+{q:"Tổng liều Diazepam tối đa cho trẻ dưới 5 tuổi là:",a:["5 mg","10 mg","20 mg","1 mg"],c:0,e:"Trẻ <5 tuổi: tổng liều tối đa Diazepam là 5mg (tiêm tĩnh mạch chậm hoặc tiêm bắp sâu)."},
+{q:"Tổng liều Diazepam tối đa cho trẻ trên 5 tuổi là:",a:["10 mg","5 mg","2 mg","20 mg"],c:0,e:"Trẻ >5 tuổi: tổng liều tối đa Diazepam là 10mg."},
+{q:"Naloxone (Narcan) được dùng để làm gì?",a:["Chống lại tác dụng ức chế hô hấp của thuốc giảm đau gây nghiện","Chống co giật","Tăng đường huyết","Điều trị nhịp tim chậm"],c:0,e:"Naloxone đối kháng với thuốc gây nghiện, chống lại tác dụng ức chế hô hấp hoặc tác dụng phụ của thuốc giảm đau gây nghiện."},
+{q:"Dạng cung cấp của Naloxone là:",a:["Ống 0,4 mg/ml","Ống 1mg/ml","Viên 50mg","Ống 10mg/ml"],c:0,e:"Naloxone dạng ống 0,4 mg/ml; liều 0,01 mg/kg TM/TB, lặp lại 0,1 mg/kg."},
+{q:"Tác dụng phụ hiếm gặp nhưng nguy hiểm của Naloxone là:",a:["Tim ngừng đập","Suy gan cấp","Vàng da","Co giật kéo dài"],c:0,e:"Tác dụng phụ hiếm gặp của Naloxone là tim ngừng đập."},
+{q:"Hydrocortisone Sodium Succinate (Solu-Cortef) được chỉ định trong trường hợp nào?",a:["Suy thượng thận cấp, phản vệ nặng hoặc cơn suyễn","Nhịp tim chậm đơn thuần","Hạ đường huyết nhẹ","Ngất do xúc cảm nhẹ"],c:0,e:"Solu-Cortef điều trị suy thượng thận cấp ở bệnh nhân lệ thuộc steroid, hoặc bổ sung trong phản vệ nặng, cơn suyễn."},
+{q:"Tác dụng của Hydrocortisone trong cấp cứu là:",a:["Kháng viêm và làm ổn định màng tế bào","Co mạch trực tiếp","Kích thích thần kinh trung ương","Ức chế hô hấp"],c:0,e:"Hydrocortisone có tác dụng kháng viêm và ổn định màng tế bào; trong hồi sức làm giảm co thắt phế quản."},
+{q:"Dextrose 50% được chỉ định khi nào?",a:["Mất/giảm ý thức do giảm đường huyết","Cơn co giật do động kinh","Phản ứng dị ứng ngoài da","Nhịp tim nhanh"],c:0,e:"Dextrose 50% dùng khi mất/giảm ý thức do giảm đường huyết, làm tăng trực tiếp glucose huyết thanh ngay lập tức."},
+{q:"Glucagon được ưu tiên dùng trong tình huống nào?",a:["Khi không tìm được đường tĩnh mạch để truyền dextrose","Khi bệnh nhân co giật","Khi bệnh nhân cao huyết áp","Khi bệnh nhân dị ứng"],c:0,e:"Glucagon dùng khi không lập được đường tĩnh mạch để truyền dextrose; làm tăng glucose huyết thanh; liều tối đa 1mg."},
+{q:"Liều Glucagon tiêm bắp tối đa là bao nhiêu?",a:["1 mg (liều duy nhất)","5 mg","10 mg","0,1 mg"],c:0,e:"Glucagon 0,5–1mg tiêm bắp, liều duy nhất tối đa là 1mg."},
+{q:"Epinephrine trong nhóm thuốc co mạch có tác dụng gì?",a:["Tăng huyết áp và nhịp tim (kích thích α và β)","Giảm huyết áp và nhịp tim","Chỉ tác dụng trên hô hấp","Gây co giật"],c:0,e:"Epinephrine (co mạch) làm tăng huyết áp và nhịp tim, kích thích cả thụ thể α và β."},
+{q:"Methoxamine khác Epinephrine ở đặc điểm nào?",a:["Có thể làm tim đập chậm do phản xạ","Làm tim đập nhanh hơn Epinephrine","Không làm tăng huyết áp","Gây hạ huyết áp"],c:0,e:"Methoxamine tăng huyết áp bằng tác dụng trực tiếp, có thể làm tim đập chậm do phản xạ."},
+{q:"Meperidine (Demerol) được dùng trong giai đoạn nào?",a:["Tiền phẫu (giãn cơ, an thần) và giảm đau hậu phẫu","Chỉ dùng khi ngừng tim","Chỉ dùng cho hạ đường huyết","Chỉ dùng chống co giật"],c:0,e:"Meperidine dùng tiền phẫu để giãn cơ và an thần, giảm đau hậu phẫu, cho sản phụ hoặc bệnh nhân ung thư giai đoạn cuối."},
+{q:"Tác dụng phụ thường gặp của Meperidine cần lưu ý là:",a:["Buồn nôn và nôn (thường phối hợp thuốc chống nôn), dùng kéo dài gây táo bón","Tăng huyết áp kịch phát","Hạ đường huyết","Co giật"],c:0,e:"Meperidine gây buồn nôn, nôn nên thường dùng kèm thuốc chống nôn; dùng kéo dài có thể gây táo bón."},
+{q:"Atropin trong nhóm thuốc hồi sức tim được dùng để điều trị:",a:["Nhịp tim chậm","Loạn nhịp tâm thất","Nhiễm toan","Suy tâm thu"],c:0,e:"Atropin điều trị nhịp tim chậm, làm tăng nhịp tim; liều 0,01mg/kg TM/TB."},
+{q:"Tác dụng phụ của Atropin gồm:",a:["Tim nhanh, loạn nhịp, khô miệng","Nhịp tim chậm","Tăng tiết nước bọt","Hạ huyết áp"],c:0,e:"Atropin có thể gây tim nhanh, loạn nhịp và khô miệng."},
+{q:"NaHCO3 (Natri bicarbonat) được dùng trong hồi sức tim để điều trị:",a:["Nhiễm toan, ngừng tim","Nhịp tim chậm","Loạn nhịp tâm thất","Hạ đường huyết"],c:0,e:"NaHCO3 điều trị nhiễm toan, ngừng tim; làm tăng pH máu; liều 1mEq/kg tiêm TM chậm."},
+{q:"Tác dụng phụ của NaHCO3 là:",a:["Nhiễm kiềm, tăng natri máu","Nhiễm toan nặng thêm","Khô miệng","Tim đập chậm"],c:0,e:"NaHCO3 có thể gây nhiễm kiềm và tăng natri máu."},
+{q:"Lidocain trong hồi sức tim được dùng để điều trị:",a:["Loạn nhịp tâm thất","Nhịp tim chậm","Nhiễm toan","Hạ huyết áp do suy tâm thu"],c:0,e:"Lidocain điều trị loạn nhịp tâm thất, ức chế tính tự động và các ổ tạp nhịp bất thường ở tâm thất; liều 1mg/kg TM."},
+{q:"Nhóm thuốc hồi sức tim nào dùng cho suy tâm thu, hạ huyết áp, phân ly điện–cơ?",a:["Muối canxi (Ca)","Atropin","Lidocain","NaHCO3"],c:0,e:"Muối canxi được dùng cho suy tâm thu, hạ huyết áp, phân ly điện–cơ; làm tăng co bóp cơ tim; liều 20mg/kg."},
+{q:"Trong 'các thuốc khác' (không phải thuốc chích), thuốc hít ammonia dùng để:",a:["Kích thích hô hấp","Điều trị co giật","Hạ đường huyết","Chống dị ứng"],c:0,e:"Thuốc hít ammonia là thuốc kích thích hô hấp."},
+{q:"Nitroglycerin nằm trong nhóm 'thuốc khác' với vai trò:",a:["Thuốc dãn mạch","Thuốc co mạch","Kháng histamine","Chống co giật"],c:0,e:"Nitroglycerin là thuốc dãn mạch trong nhóm các thuốc khác."},
+{q:"Phân loại ASA I mô tả bệnh nhân như thế nào?",a:["Sức khỏe bình thường, không có bệnh toàn thân","Bệnh toàn thân nhẹ","Bệnh toàn thân nặng","Hấp hối"],c:0,e:"ASA I: bệnh nhân sức khỏe bình thường và không có bệnh toàn thân."},
+{q:"Phân loại ASA II mô tả bệnh nhân như thế nào?",a:["Có bệnh toàn thân nhẹ","Không có bệnh toàn thân","Bệnh toàn thân nặng giới hạn hoạt động","Đe dọa tính mạng"],c:0,e:"ASA II: bệnh nhân có bệnh toàn thân nhẹ."},
+{q:"Phân loại ASA III mô tả bệnh nhân như thế nào?",a:["Bệnh toàn thân nặng, giới hạn hoạt động nhưng chưa mất hết khả năng","Sức khỏe bình thường","Bệnh toàn thân nhẹ","Hấp hối, khó sống sót 24 giờ"],c:0,e:"ASA III: bệnh nhân mắc bệnh toàn thân nặng có giới hạn hoạt động nhưng chưa làm mất hết khả năng."},
+{q:"Phân loại ASA V mô tả bệnh nhân như thế nào?",a:["Hấp hối, khó có khả năng sống sót trong 24 giờ","Sức khỏe bình thường","Bệnh toàn thân nhẹ","Bệnh toàn thân nặng còn khả năng"],c:0,e:"ASA V: bệnh nhân hấp hối, khó có khả năng sống sót trong 24 giờ."},
+{q:"Ký hiệu 'E' trong phân loại ASA (ví dụ ASA III-E) có nghĩa là:",a:["Cấp cứu khẩn cấp","Bệnh nhân trẻ em","Bệnh nhân đã tử vong","Không có bệnh"],c:0,e:"Chữ E chỉ tình trạng cấp cứu khẩn cấp, đứng sau số chỉ tình trạng thể chất của bệnh nhân."},
+{q:"Trình tự ưu tiên trong xử trí cấp cứu được thể hiện qua các chữ cái nào?",a:["A-B-C-D (Airway, Breathing, Circulation, Definitive/Drug)","X-Y-Z","1-2-3-4","M-N-O-P"],c:0,e:"Trình tự ưu tiên là ABCD: Airway (thông khí), Breathing (hô hấp), Circulation (tuần hoàn), Definitive Treatment (điều trị bằng thuốc)."},
+{q:"Trong xử trí cấp cứu, chữ 'A' (Airway) nghĩa là gì?",a:["Đường thở / thông khí","Hô hấp","Tuần hoàn","Điều trị bằng thuốc"],c:0,e:"A – Airway: đảm bảo đường thở thông thoáng, là ưu tiên hàng đầu."},
+{q:"Chữ 'B' trong quy trình ABCD nghĩa là gì?",a:["Breathing – hô hấp","Blood – máu","Brain – não","Blocking – chặn"],c:0,e:"B – Breathing: đảm bảo sự hô hấp thích hợp, là ưu tiên thứ 2."},
+{q:"Chữ 'C' trong quy trình ABCD nghĩa là gì?",a:["Circulation – tuần hoàn","Consciousness – ý thức","Control – kiểm soát","Chest – ngực"],c:0,e:"C – Circulation: hỗ trợ tuần hoàn của bệnh nhân sau khi đường thở và hô hấp được phục hồi."},
+{q:"Chữ 'D' (Definitive Therapy) trong quy trình cấp cứu nghĩa là gì?",a:["Điều trị bằng thuốc, chỉ sau khi hoàn thành A-B-C","Ngừng mọi can thiệp","Chuyển viện ngay lập tức","Đặt nội khí quản"],c:0,e:"D – Definitive Therapy (Drug): điều trị bằng thuốc, chỉ thực hiện sau khi thành công các bước A-B-C."},
+{q:"Tư thế bệnh nhân trong đa số cấp cứu nội khoa là:",a:["Nằm ngửa, hai chân hơi cao hơn vị trí của tim","Ngồi thẳng hoàn toàn","Nằm sấp","Đứng dựa tường"],c:0,e:"Đặt bệnh nhân nằm ngửa, hai chân hơi cao hơn vị trí của tim."},
+{q:"Với cấp cứu liên quan ức chế hô hấp (cơn suyễn, đau thắt ngực) ở bệnh nhân còn ý thức, nên đặt tư thế:",a:["Nửa nằm nửa ngồi","Nằm sấp đầu thấp","Nằm ngửa chân cao","Nằm nghiêng trái"],c:0,e:"Với cấp cứu liên quan ức chế hô hấp ở bệnh nhân còn ý thức, cho bệnh nhân ở tư thế nửa nằm nửa ngồi."},
+{q:"Nguyên nhân gây tắc nghẽn đường thở thường gặp nhất là gì?",a:["Tụt lưỡi","Dị vật kim loại","Co thắt phế quản","Phù mạch"],c:0,e:"Tụt lưỡi là nguyên nhân thường gặp nhất gây tắc đường thở."},
+{q:"Cách xử trí đường thở khi bị tụt lưỡi là:",a:["Ngửa đầu ra sau và ấn hàm dưới ra trước, mở miệng bệnh nhân","Ấn đầu cúi xuống ngực","Kéo lưỡi ra rồi băng lại","Cho nằm sấp"],c:0,e:"Xử trí: ngửa đầu ra phía sau và ấn mạnh hàm dưới ra phía trước cùng lúc mở miệng bệnh nhân."},
+{q:"Ở bệnh nhân TỈNH có dị vật đường thở, bước đầu tiên là gì?",a:["Đập mạnh 4 cái vào lưng giữa hai xương bả vai","Ép tim ngoài lồng ngực","Tiêm Epinephrine","Truyền dextrose"],c:0,e:"Bước 1: dùng bàn tay đập mạnh 4 cái vào lưng giữa 2 xương bả vai, thật nhanh và liên tiếp."},
+{q:"Nghiệm pháp Heimlich (ấn bụng) áp dụng khi nào?",a:["Khi đập lưng không kết quả, ở bệnh nhân không phải trẻ nhỏ","Cho mọi trẻ sơ sinh","Khi bệnh nhân hạ đường huyết","Khi bệnh nhân co giật"],c:0,e:"Nếu đập lưng không kết quả thì ấn bụng (Heimlich). Ấn bụng KHÔNG áp dụng với trẻ nhỏ."},
+{q:"Với TRẺ NHỎ bị dị vật đường thở, thay cho ấn bụng nên dùng:",a:["Ấn ngực (lòng bàn tay ở giữa xương ức)","Ấn bụng mạnh hơn","Kéo hai chân dốc ngược","Ép cổ"],c:0,e:"Ấn bụng không dùng cho trẻ nhỏ; thay bằng ấn ngực với lòng bàn tay ở giữa xương ức."},
+{q:"Trong hô hấp (B), sau khi thổi 4 hơi nhanh, nhịp thở hỗ trợ cho TRẺ EM là:",a:["1 lần thở mỗi 3 giây","1 lần thở mỗi 5 giây","1 lần thở mỗi 10 giây","1 lần thở mỗi 1 giây"],c:0,e:"Đầu tiên thở nhanh 4 cái cho dãn phổi, sau đó 1 lần thở mỗi 3 giây ở trẻ em (5 giây ở người lớn)."},
+{q:"Hệ thống bóng có van mặt nạ (áp suất dương) cung cấp nồng độ oxy gần bao nhiêu?",a:["Gần 100%","Khoảng 21%","Khoảng 50%","Khoảng 30%"],c:0,e:"Cấp cứu hô hấp bằng bóng cao su có van mặt nạ cung cấp gần 100% oxy."},
+{q:"Phương pháp nhanh và chính xác nhất để đánh giá tuần hoàn (C) là:",a:["Sờ mạch cổ","Đo huyết áp","Nghe tim bằng ống nghe","Bắt mạch cổ tay"],c:0,e:"Phương pháp nhanh và chính xác nhất để đánh giá tuần hoàn là sờ mạch cổ (ghi nhận tính chất, tần số và nhịp mạch)."},
+{q:"Tần số ép tim khi cấp cứu ngừng tim là bao nhiêu?",a:["100 lần/phút","60 lần/phút","150 lần/phút","30 lần/phút"],c:0,e:"Ép tim tiến hành 100 lần/phút; nên có 2 người luân phiên mỗi 2 phút để tránh mỏi mệt."},
+{q:"Với trẻ nhỏ, việc ép tim có thể thực hiện bằng cách:",a:["Ấn bằng hai ngón tay","Ấn bằng cả hai bàn tay chồng lên nhau","Ép bằng đầu gối","Không ép tim cho trẻ nhỏ"],c:0,e:"Với trẻ nhỏ, ép tim có thể thực hiện bằng cách ấn hai ngón tay."},
+{q:"Cấp cứu nội khoa hay gặp nhất của nha sĩ là:",a:["Ngất (fainting)","Ngừng tim","Sốc phản vệ","Động kinh"],c:0,e:"Ngất là cấp cứu hay gặp nhất của nha sĩ, do rối loạn xúc cảm hay đau trong khi làm thủ thuật."},
+{q:"Cơ chế của ngất (fainting) là gì?",a:["Giãn mạch ngoại biên → thiếu máu não → mất tri giác","Tăng huyết áp đột ngột gây vỡ mạch","Co mạch não làm tăng máu não","Hạ đường huyết cấp"],c:0,e:"Ngất do giãn mạch máu ngoại biên (đặc biệt ở cơ) gây thiếu máu não dẫn đến mất tri giác."},
+{q:"So sánh tỉ lệ ngất giữa trẻ em và người lớn:",a:["Trẻ em ít gặp hơn người lớn","Trẻ em gặp nhiều hơn người lớn","Bằng nhau","Chỉ gặp ở trẻ em"],c:0,e:"Trẻ em ít gặp ngất hơn người lớn."},
+{q:"Triệu chứng tiền ngất KHÔNG bao gồm dấu hiệu nào sau đây?",a:["Cao huyết áp và tim đập chậm dần","Buồn nôn","Hoa mắt, chóng mặt","Vã mồ hôi lạnh, mặt tái nhợt"],c:0,e:"Tiền ngất gồm buồn nôn, hoa mắt chóng mặt, vã mồ hôi lạnh, thở nhanh, mặt tái nhợt – không phải 'cao huyết áp và tim chậm dần'."},
+{q:"Xử trí ban đầu khi bệnh nhân ngất là:",a:["Ngừng can thiệp, đặt nằm đầu thấp, nới rộng áo quần, hít thở sâu","Cho ngồi thẳng dậy ngay","Tiêm Diazepam","Truyền dextrose ngay lập tức"],c:0,e:"Xử trí ngất: ngừng mọi can thiệp nha khoa, đặt nằm đầu thấp, nới rộng áo quần, yêu cầu hít thở sâu, có thể cho ngửi amoniac."},
+{q:"Khi nào cân nhắc dùng thuốc (Atropin, thuốc co mạch) trong xử trí ngất?",a:["Nếu sau xử trí, nhịp tim và huyết áp vẫn bị ức chế, có xu hướng trầm trọng hơn","Ngay từ đầu cho mọi bệnh nhân ngất","Khi bệnh nhân đã tỉnh hoàn toàn","Không bao giờ dùng thuốc"],c:0,e:"Chỉ dùng thuốc (Atropin tăng nhịp tim, thuốc co mạch tăng HA) khi nhịp tim và huyết áp còn bị ức chế, có xu hướng trầm trọng hơn sau khi đã xử trí cấp cứu."},
+{q:"Các thuốc thường gây dị ứng trong răng trẻ em (RTE) gồm:",a:["Penicillin, thuốc êm dịu chích TM, thuốc tê loại ester","Nước muối sinh lý","Paracetamol, dextrose","Oxy, ammonia"],c:0,e:"Các thuốc dùng trong RTE có thể gây dị ứng gồm penicillin, thuốc êm dịu chích tĩnh mạch hoặc thuốc tê loại ester."},
+{q:"Phản ứng dị ứng ở da thường tiến triển theo trình tự nào?",a:["Nổi mẩn đỏ nhẹ → mề đay → phù mạch","Phù mạch → mề đay → mẩn đỏ","Chỉ có phù mạch","Không có biểu hiện ở da"],c:0,e:"Phản ứng ở da đi từ nổi mẩn đỏ nhẹ đến mề đay hay phù mạch."},
+{q:"Khi phản ứng dị ứng ảnh hưởng hệ hô hấp, biểu hiện chính là:",a:["Co thắt cơ trơn khí quản gây khó thở, thiếu oxy","Ho khan nhẹ tự khỏi","Tăng thông khí sinh lý","Không ảnh hưởng hô hấp"],c:0,e:"Hệ hô hấp bị ảnh hưởng: cơ trơn khí quản co thắt gây khó thở, thiếu oxy."},
+{q:"Khi phản ứng dị ứng tiến triển đến hệ tim mạch, diễn biến là:",a:["Huyết áp hạ, nhịp tim nhanh rồi loạn nhịp và ngừng tim","Huyết áp tăng dần ổn định","Nhịp tim chậm đều rồi tự hồi phục","Không ảnh hưởng tim mạch"],c:0,e:"Nếu tiến triển, hệ tim mạch bị ảnh hưởng: HA hạ, nhịp tim nhanh sau đó loạn nhịp rồi ngừng tim."},
+{q:"Với phản ứng dị ứng xảy ra tức thì hoặc nặng, thuốc xử trí là:",a:["Epinephrine 0,01mg/kg TM dung dịch 1/10.000 hoặc TB 1/1000","Diphenhydramine uống","Paracetamol","Atropin"],c:0,e:"Nếu triệu chứng tức thì hoặc nặng, dùng Epinephrine 0,01mg/kg chích TM dung dịch 1/10.000 hoặc tiêm bắp dung dịch 1/1000."},
+{q:"Với phản ứng dị ứng chậm và nhẹ hơn, có thể dùng:",a:["Diphenhydramine (Benadryl) uống 6 giờ/lần trong 24–48 giờ","Epinephrine tiêm bắp ngay","Diazepam tĩnh mạch","Dextrose 50%"],c:0,e:"Phản ứng chậm và nhẹ hơn: dùng Diphenhydramine (Benadryl) uống 6h/lần trong 24–48 giờ."},
+{q:"Đối với mẩn da xuất hiện CHẬM (sau ~60 phút), liều thuốc dùng cho trẻ nhỏ là:",a:["Diphenhydramine 25mg tiêm bắp hoặc Chlorpheniramine 5mg tiêm bắp","Epinephrine 1mg TM","Diazepam 10mg TM","Hydrocortisone 500mg TB"],c:0,e:"Với mẩn da chậm, Diphenhydramine 25mg tiêm bắp hoặc Chlorpheniramine 5mg tiêm bắp là liều dùng cho trẻ nhỏ."},
+{q:"Mẩn da xuất hiện NHANH thường xảy ra trong khoảng thời gian nào sau tiếp xúc dị nguyên?",a:["Dưới 60 phút","Sau 24 giờ","Sau 60 phút hoặc lâu hơn","Sau 1 tuần"],c:0,e:"Kích ứng da xuất hiện nhanh thường dưới 60 phút sau khi tiếp xúc dị nguyên; cần theo dõi trong 1 giờ."},
+{q:"Trong dị ứng, corticosteroid nên được dùng khi nào?",a:["Sớm khi có phản ứng","Chỉ khi bệnh nhân đã ngừng tim","Không bao giờ dùng","Sau 48 giờ theo dõi"],c:0,e:"Nên dùng corticosteroid sớm khi có phản ứng dị ứng."},
+{q:"Dấu hiệu của tắc nghẽn đường thở MỘT PHẦN do dị vật là:",a:["Ho sặc sụa, thở khò khè, vẫn tự thở được, không xanh tím","Không nói, không ho được, xanh tím","Ngừng tim ngay","Mất ý thức hoàn toàn ngay lập tức"],c:0,e:"Tắc nghẽn một phần: trẻ có phản xạ ho sặc sụa, thở khò khè giữa hai lần ho, vẫn tự thở dù khó khăn, không xanh tím."},
+{q:"Dấu hiệu của bít tắc HOÀN TOÀN đường thở là:",a:["Ôm lấy cổ họng, không nói được, không ho được, xanh tím","Ho mạnh và nói được","Thở khò khè nhưng vẫn hồng hào","Chỉ hơi khó thở nhẹ"],c:0,e:"Bít tắc hoàn toàn: bệnh nhân ôm lấy cổ họng, không nói/ho được, không trao đổi khí được, xanh tím, mất nhận thức rồi ngừng tim."},
+{q:"Khi co thắt thanh quản không thuyên giảm trong cấp cứu đường thở, biện pháp xâm lấn được nhắc tới là:",a:["Mở sụn nhẫn giáp","Đặt ống thông dạ dày","Chọc dò tủy sống","Ép tim ngoài lồng ngực"],c:0,e:"Nếu co thắt thanh quản không giảm, tình huống nặng có thể cần mở sụn nhẫn giáp."},
+{q:"Để phòng ngừa quá liều thuốc tê vùng, ví dụ liều hợp lý cho Lidocaine 2% (có 1:100.000 Adrenalin) là:",a:["4,4 mg/kg cân nặng","10 mg/kg cân nặng","0,5 mg/kg cân nặng","20 mg/kg cân nặng"],c:0,e:"Tính liều hợp lý cho mỗi cá thể, ví dụ 4,4 mg/kg cho Lidocaine 2% có 1:100.000 đơn vị Adrenalin."},
+{q:"Biểu hiện giai đoạn KÍCH THÍCH khi quá liều thuốc tê vùng gồm:",a:["Lạc giọng, lẫn lộn, co giật","Thở nông, mất ý thức","Hạ thân nhiệt","Nhịp tim chậm đều"],c:0,e:"Giai đoạn kích thích của quá liều thuốc tê biểu hiện lạc giọng, lẫn lộn, co giật; sau đó là giai đoạn suy sụp (thở nông, mất ý thức)."},
+{q:"Biểu hiện nặng của quá liều thuốc tê có thể xuất hiện muộn sau tiêm khoảng bao lâu?",a:["Khoảng 10 phút","Ngay lập tức","Sau 24 giờ","Sau 1 giờ"],c:0,e:"Biểu hiện nặng của phản ứng quá liều thuốc tê có thể xuất hiện muộn sau tiêm khoảng 10 phút, cần chuyển bệnh viện ngay."},
+{q:"Loại động kinh nào thường cần đến điều trị nhất?",a:["Cơn toàn thể (gồng cứng – co giật)","Cơn vắng ý thức ngắn","Cơn cục bộ đơn giản","Không loại nào cần điều trị"],c:0,e:"Loại gồng cứng – co giật (cơn toàn thể) là loại thường cần đến điều trị."},
+{q:"Cơn động kinh toàn thể biểu hiện qua mấy giai đoạn?",a:["4 giai đoạn (bắt đầu, tiền triệu, co giật trong cơn, chấm dứt)","2 giai đoạn","3 giai đoạn","1 giai đoạn duy nhất"],c:0,e:"Động kinh cơn toàn thể có 4 giai đoạn: bắt đầu, tiền triệu, co giật (trong cơn) và chấm dứt."},
+{q:"Nếu cơn co giật kéo dài dưới 5 phút thì xử trí thế nào?",a:["Đảm bảo thông khí, không cần dùng thuốc (thường tự chấm dứt)","Tiêm Diazepam ngay","Ép tim ngoài lồng ngực","Chuyển viện gấp trước khi làm gì"],c:0,e:"Nếu giai đoạn trong cơn <5 phút: không cần điều trị bằng thuốc, cơn thường tự chấm dứt; chỉ cần đảm bảo thông khí và chăm sóc nâng đỡ."},
+{q:"'Trạng thái động kinh' (cần điều trị tích cực) được xác định khi nào?",a:["Cơn >5 phút hoặc các cơn liên tiếp cách nhau khoảng ngắn","Cơn dưới 1 phút","Chỉ 1 cơn ngắn duy nhất","Sau khi bệnh nhân đã tỉnh"],c:0,e:"Cơn trong >5 phút HOẶC các cơn liên tiếp cách nhau khoảng ngắn = trạng thái động kinh; điều trị tốt nhất với diazepam TM và chuyển viện."},
+{q:"Thuốc điều trị tốt nhất cho trạng thái động kinh là:",a:["Diazepam tiêm tĩnh mạch","Epinephrine tiêm bắp","Atropin","Naloxone"],c:0,e:"Trạng thái động kinh điều trị tốt nhất với diazepam tiêm tĩnh mạch và chuyển bệnh nhân đến bệnh viện."},
+{q:"Hội chứng thở sâu (tăng thông khí) thường gặp ở đối tượng nào?",a:["Phụ nữ trẻ hay lo sợ; hiếm gặp ở trẻ nhỏ","Trẻ sơ sinh","Người già","Vận động viên"],c:0,e:"Hội chứng thở sâu là phản ứng lo âu, xảy ra chủ yếu ở phụ nữ trẻ hay lo sợ, ít gặp ở đàn ông và hiếm gặp ở trẻ nhỏ."},
+{q:"Triệu chứng của hội chứng thở sâu KHÔNG bao gồm:",a:["Nhịp thở chậm dưới 10 lần/phút","Nhịp thở tăng 25–30 lần/phút","Tê và kiến bò quanh miệng, ở các chi","Chuột rút, co giật"],c:0,e:"Thở sâu làm nhịp thở tăng 25–30 lần/phút, tê kiến bò quanh miệng và chi, chuột rút, co giật – không phải nhịp thở chậm."},
+{q:"Vì sao trong hội chứng thở sâu KHÔNG nên cho thở oxy?",a:["Vì cần tăng CO2 trong động mạch","Vì oxy gây co giật","Vì oxy làm hạ đường huyết","Vì bệnh nhân đã đủ oxy nên vô hại"],c:0,e:"Không nên cho thở oxy trong thở sâu vì cần tăng CO2 trong động mạch (bệnh nhân đang thải quá nhiều CO2)."},
+{q:"Xử trí chính của hội chứng thở sâu là:",a:["Trấn an, bảo bệnh nhân thở chậm lại; nếu cần tiêm Diazepam TM","Cho thở oxy lưu lượng cao","Ép tim","Truyền dextrose"],c:0,e:"Xử trí thở sâu: nhận biết sớm sự lo âu, trấn an, bảo bệnh nhân thở chậm lại; không cho thở oxy; có thể tiêm Diazepam tĩnh mạch."},
+{q:"Trong cơn suyễn, nếu bệnh nhân bắt đầu thở rít và khó thở nên:",a:["Cho thở oxy và có thể cho ngồi dậy","Cho nằm ngửa đầu thấp","Ép tim ngay","Tiêm Diazepam"],c:0,e:"Cơn suyễn: cho thở oxy và có thể cho ngồi dậy nếu bệnh nhân thấy dễ chịu ở tư thế ngồi."},
+{q:"Khi cơn suyễn không đỡ dù đã dùng ống bơm khí dung, thuốc tiếp theo là:",a:["Epinephrine 1/1000 liều 0,01mg/kg tiêm dưới da (tối đa 0,5mg)","Diazepam tĩnh mạch","Naloxone tiêm bắp","Atropin tĩnh mạch"],c:0,e:"Nếu không đỡ, tiêm dưới da Epinephrine 1/1000 liều 0,01mg/kg (tối đa 0,5mg); sau 2 liều không đỡ phải chuyển viện ngay."},
+{q:"Sau bao nhiêu liều Epinephrine mà cơn suyễn không đỡ thì phải chuyển bệnh viện ngay?",a:["Sau 2 liều","Sau 5 liều","Sau 1 liều","Sau 10 liều"],c:0,e:"Nếu sau 2 liều Epinephrine không đỡ phải chuyển ngay bệnh nhân đến bệnh viện."},
+{q:"Bệnh nhân tiểu đường đang khỏe mà bị bệnh đột ngột trong phòng nha thường do:",a:["Hạ đường huyết cấp hoặc choáng do Insulin","Tăng đường huyết mạn","Nhiễm toan ceton kéo dài","Dị ứng thuốc tê"],c:0,e:"Bệnh nhân tiểu đường bị bệnh đột ngột trong phòng nha thường do hạ đường huyết cấp hoặc choáng do Insulin."},
+{q:"Triệu chứng của hạ đường huyết ở bệnh nhân tiểu đường gồm:",a:["Tim đập nhanh, cao huyết áp, lo âu, vã mồ hôi, nói lè nhè","Da khô nóng, khát nước nhiều","Nhịp tim chậm, hạ huyết áp","Không có triệu chứng gì"],c:0,e:"Triệu chứng gồm ngủ lịm, thay đổi khí sắc, tim nhanh, cao huyết áp, lo âu, vã mồ hôi, nói lè nhè, có thể co giật, mất ý thức."},
+{q:"Xử trí bệnh nhân hạ đường huyết KHÔNG còn nhận thức là:",a:["Tiến hành PABC, truyền Dextrose 50% cho đến khi phục hồi ý thức","Cho uống nước đường","Tiêm Insulin","Cho thở oxy rồi chờ tự hồi phục"],c:0,e:"Bệnh nhân mất ý thức: tiến hành PABC, quay số cấp cứu, truyền Dextrose 50% cho đến khi phục hồi ý thức."},
+{q:"Khi không đặt được đường truyền tĩnh mạch cho bệnh nhân hạ đường huyết mất ý thức, dùng:",a:["Glucagon","Insulin","Cho uống nước đường","Epinephrine"],c:0,e:"Nếu không đặt được ống thông tĩnh mạch, dùng Glucagon (tiêm bắp) để làm tăng glucose huyết thanh."},
+{q:"Với bệnh nhân ngất đói bụng, sau khi tỉnh có thể cho:",a:["Uống nước đường, sữa","Tiêm Insulin","Nhịn hoàn toàn","Uống thuốc lợi tiểu"],c:0,e:"Với bệnh nhân đói, sau khi tỉnh có thể cho uống nước đường, sữa; theo dõi mạch, huyết áp, tri giác đến khi ổn định."},
+{q:"Mục đích của việc ghi lại cân nặng của trẻ trong cảnh báo nguy cơ cấp cứu là:",a:["Để tính liều dùng thuốc khi cần cấp cứu","Để xếp loại ASA","Để chẩn đoán bệnh","Để đo huyết áp chính xác hơn"],c:0,e:"Nên ghi lại cân nặng của trẻ để có thể tính liều dùng thuốc khi cần cấp cứu."},
+{q:"Thuốc tê nên được tiêm với tốc độ như thế nào để thận trọng?",a:["Tiêm chậm","Tiêm thật nhanh","Tiêm ngắt quãng mạnh","Không quan trọng tốc độ"],c:0,e:"Thuốc tê nên tiêm chậm; các thuốc (đặc biệt thuốc tê vùng và giảm đau) nên dùng đúng liều theo cân nặng."},
+{q:"Ưu tiên hàng đầu trong xử trí cấp cứu là gì?",a:["Đường thở thông thoáng (Airway)","Điều trị bằng thuốc","Đo huyết áp","Ghi hồ sơ ASA"],c:0,e:"Đường thở thông thoáng (A – Airway) là ưu tiên hàng đầu trong xử trí cấp cứu."},
+{q:"Khi đánh giá hô hấp (B), người cấp cứu cần làm gì?",a:["Xem ngực có nở, cảm nhận và nghe hơi thở qua mũi","Chỉ bắt mạch cổ","Chỉ đo huyết áp","Chỉ soi đồng tử"],c:0,e:"Đánh giá hô hấp bằng cách xem ngực có nở ra không và cảm nhận/nghe hơi có qua mũi không."},
+{q:"Nếu bệnh nhân không thở khi đánh giá B, cần làm gì?",a:["Cấp cứu hô hấp ngay","Chờ theo dõi thêm 5 phút","Cho uống nước","Chuyển viện trước khi làm gì"],c:0,e:"Nếu bệnh nhân không thở thì phải cấp cứu hô hấp ngay."},
+{q:"Khi sờ mạch cổ (C) mà MẤT mạch, cần:",a:["Cấp cứu tim ngay","Theo dõi huyết áp và nhịp tim","Cho ngồi dậy","Cho thở oxy rồi chờ"],c:0,e:"Mất mạch thì cấp cứu tim ngay; có mạch thì theo dõi HA và nhịp tim."},
+{q:"Việc ép tim giúp ích gì cho nạn nhân?",a:["Cung cấp máu tốt hơn cho não và tim","Làm ấm cơ thể","Giảm đau","Tăng đường huyết"],c:0,e:"Ép tim giúp nạn nhân được cung cấp máu tốt hơn cho não và tim."},
+{q:"Trong xử trí đường thở ở bệnh nhân MẤT ý thức, thao tác cơ bản là:",a:["Đẩy đầu ra sau, nâng cằm lên rồi hô hấp nhân tạo/bóng giúp thở","Cho ngồi thẳng và vỗ lưng","Ép bụng liên tục","Không can thiệp"],c:0,e:"Bệnh nhân mất ý thức: đặt nằm ngửa, đẩy đầu ra sau và nâng cằm lên, thực hiện hô hấp nhân tạo hoặc bóng giúp thở có mặt nạ và van."},
+{q:"Trong sốc phản vệ đường thở tiến triển, có thể tiêm Epinephrine ở vị trí nào để rút ngắn tác dụng?",a:["Vùng niêm mạc miệng gần môi","Chỉ tiêm vào tĩnh mạch cảnh","Tiêm vào cơ delta bắt buộc","Chỉ tiêm dưới da lưng"],c:0,e:"Có thể tiêm Epinephrine ở vùng niêm mạc miệng gần môi để rút ngắn thời gian tác dụng; tiêm nhắc lại mỗi 5 phút nếu còn triệu chứng."},
+{q:"Với triệu chứng hô hấp trong dị ứng, tốc độ cho thở oxy được khuyến cáo là:",a:["6 lít/phút","1 lít/phút","20 lít/phút","0,5 lít/phút"],c:0,e:"Trong xử trí triệu chứng hô hấp của dị ứng, đảm bảo thông khí và cho thở oxy tốc độ 6 lít/phút."},
+{q:"Khi huấn luyện nhân viên nha khoa để chuẩn bị cấp cứu, nội dung tối thiểu cần nắm là:",a:["Phát hiện và điều trị các cấp cứu nội khoa thông thường (cấp cứu tim cơ bản)","Phẫu thuật tim mạch","Gây mê toàn thân","Đọc điện tâm đồ chuyên sâu"],c:0,e:"Cần huấn luyện toàn bộ nhân viên nha khoa để phát hiện và điều trị các cấp cứu nội khoa thông thường (cấp cứu tim cơ bản), phân công trước công việc."},
+{q:"Trong tắc nghẽn đường thở một phần ở trẻ, tư thế đặt trẻ là:",a:["Nằm nghiêng trái với đầu thấp","Nằm ngửa đầu cao","Ngồi thẳng","Nằm sấp"],c:0,e:"Với tắc nghẽn đường thở một phần, đặt trẻ nằm nghiêng trái với đầu thấp; trẻ ho để tống dị vật ra ngoài."},
+{q:"Theo tài liệu, chữ 'P' trong 'PABCD' đề cập tới yếu tố nào?",a:["Position (tư thế)","Pressure (áp lực)","Pulse (mạch)","Pain (đau)"],c:0,e:"P – Position: đặt bệnh nhân đúng tư thế; sau đó mới đến A-B-C-D."},
+{q:"Máy hút dùng trong dụng cụ cấp cứu cần có đặc điểm gì?",a:["Dung tích lớn","Cầm tay siêu nhỏ","Chạy pin AA","Không cần thiết"],c:0,e:"Cần máy hút có dung tích lớn trong bộ dụng cụ cấp cứu."},
+{q:"Với trẻ mắc đái tháo đường, thường được xếp vào nhóm ASA nào?",a:["ASA II, III, IV","Chỉ ASA I","ASA V bắt buộc","Không xếp loại ASA"],c:0,e:"Bệnh nhân có bệnh sử đái tháo đường thường xếp loại ASA II, III, IV tùy mức độ."},
+{q:"Đối với mẩn da xuất hiện nhanh, khi có biểu hiện bất thường ở hệ tim mạch/hô hấp thì chỉ định:",a:["Dùng Adrenalin để phòng tránh triệu chứng nguy hiểm","Chỉ theo dõi, không dùng thuốc","Dùng kháng sinh","Truyền dextrose"],c:0,e:"Với kích ứng da nhanh, nếu có biểu hiện bất thường ở hệ tim mạch và hô hấp thì chỉ định dùng Adrenalin để phòng tránh triệu chứng nguy hiểm."},
+{q:"Liều duy nhất tối đa của Epinephrine ở trẻ em (trong xử trí dị ứng) không nên vượt quá:",a:["0,5 mg","5 mg","2 mg","0,05 mg"],c:0,e:"Liều Epinephrine duy nhất ở trẻ em không nên vượt quá 0,5mg; có thể lặp lại sau 5–10 phút nếu cần."}
+];
+
+/* ================= QUIZ ENGINE ================= */
+let order=[], idx=0, score=0, answers=[], quizSet=[];
+const COUNTS=[20,40,60,100];
+function initChips(){const el=document.getElementById('countChips');COUNTS.forEach((n,i)=>{const c=document.createElement('div');c.className='chip'+(i===COUNTS.length-1?' on':'');c.textContent=n>=BANK.length?'Tất cả ('+BANK.length+')':n+' câu';c.dataset.n=Math.min(n,BANK.length);c.onclick=()=>{document.querySelectorAll('#countChips .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');};el.appendChild(c);});}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function startQuiz(){
+  const sel=document.querySelector('#countChips .chip.on');
+  const n=Math.min(parseInt(sel.dataset.n),BANK.length);
+  const doShuffle=document.getElementById('shuffle').checked;
+  let pool=BANK.map((q,i)=>({...q,_i:i}));
+  if(doShuffle)shuffle(pool);
+  quizSet=pool.slice(0,n).map(q=>{
+    let opts=q.a.map((t,i)=>({t,correct:i===q.c}));
+    if(doShuffle)shuffle(opts);
+    return {q:q.q,opts,e:q.e};
+  });
+  idx=0;score=0;answers=[];
+  document.getElementById('start').style.display='none';
+  document.getElementById('result').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  renderQ();
+}
+function renderQ(){
+  const item=quizSet[idx];
+  document.getElementById('progressTxt').textContent='Câu '+(idx+1)+' / '+quizSet.length;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('progressBar').style.width=((idx)/quizSet.length*100)+'%';
+  document.getElementById('qText').textContent=item.q;
+  const box=document.getElementById('opts');box.innerHTML='';
+  const letters=['A','B','C','D'];
+  item.opts.forEach((o,i)=>{
+    const b=document.createElement('button');
+    b.className='opt';
+    b.innerHTML='<span class="k">'+letters[i]+'.</span> '+o.t;
+    b.onclick=()=>choose(i);
+    box.appendChild(b);
+  });
+  const ex=document.getElementById('explain');ex.className='explain';ex.textContent='';
+  document.getElementById('nextBtn').disabled=true;
+  document.getElementById('skipBtn').style.display='inline-block';
+  document.getElementById('nextBtn').textContent=(idx===quizSet.length-1)?'Xem kết quả ✔':'Câu tiếp ▶';
+}
+function choose(i){
+  const item=quizSet[idx];
+  const btns=document.querySelectorAll('#opts .opt');
+  const correctIdx=item.opts.findIndex(o=>o.correct);
+  btns.forEach((b,j)=>{b.disabled=true;if(j===correctIdx)b.classList.add('correct');if(j===i&&i!==correctIdx)b.classList.add('wrong');});
+  const isRight=i===correctIdx;
+  if(isRight)score++;
+  answers.push({q:item.q,chosen:item.opts[i].t,correct:item.opts[correctIdx].t,right:isRight});
+  const ex=document.getElementById('explain');
+  ex.className='explain show';
+  ex.innerHTML=(isRight?'<b class="ok">✔ Chính xác. </b>':'<b class="bad">✘ Chưa đúng. </b>')+item.e;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('nextBtn').disabled=false;
+  document.getElementById('skipBtn').style.display='none';
+}
+function nextQ(){
+  if(idx<quizSet.length-1){idx++;renderQ();}
+  else finish();
+}
+function finish(){
+  document.getElementById('quiz').style.display='none';
+  const r=document.getElementById('result');r.style.display='block';
+  const pct=Math.round(score/quizSet.length*100);
+  document.getElementById('finalScore').textContent=score+' / '+quizSet.length+' ('+pct+'%)';
+  let msg='';
+  if(pct>=90)msg='Xuất sắc! Bạn nắm rất chắc bài.';
+  else if(pct>=70)msg='Tốt! Ôn lại vài câu sai là ổn.';
+  else if(pct>=50)msg='Khá – cần ôn thêm phần sai.';
+  else msg='Hãy đọc lại tài liệu và luyện lại nhé.';
+  document.getElementById('finalMsg').textContent=msg;
+  const rev=document.getElementById('review');rev.innerHTML='';rev.style.display='none';
+  answers.forEach((a,i)=>{
+    const d=document.createElement('div');d.className='review-item';
+    d.innerHTML='<div class="ri-q">'+(i+1)+'. '+a.q+'</div>'+
+      '<div class="ri-a">Bạn chọn: <span class="'+(a.right?'ok':'bad')+'">'+a.chosen+'</span></div>'+
+      (a.right?'':'<div class="ri-a">Đáp án đúng: <span class="ok">'+a.correct+'</span></div>');
+    rev.appendChild(d);
+  });
+}
+function toggleReview(){const r=document.getElementById('review');r.style.display=r.style.display==='none'?'block':'none';}
+initChips();
+</script>
+</body>
+</html>

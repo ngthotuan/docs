@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Giang mai (Syphilis) — Trắc nghiệm</title>
+<style>
+  :root{--card:#1e293b;--accent:#f472b6;--ok:#22c55e;--bad:#ef4444;--txt:#e2e8f0;--muted:#94a3b8;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(160deg,#0f172a,#2a0b1c);color:var(--txt);line-height:1.5;padding:16px;}
+  .wrap{max-width:820px;margin:0 auto;}
+  header{text-align:center;padding:14px 0 8px;}
+  header h1{font-size:1.35rem;margin:0 0 4px;color:#fff;}
+  header p{margin:2px 0;color:var(--muted);font-size:.9rem;}
+  .topnav{text-align:center;margin-top:8px;}
+  .topnav a{color:var(--accent);font-size:.82rem;text-decoration:none;}
+  .panel{background:var(--card);border:1px solid #334155;border-radius:14px;padding:20px;margin-top:16px;box-shadow:0 8px 30px rgba(0,0,0,.35);}
+  .bar{height:8px;background:#0b1220;border-radius:99px;overflow:hidden;margin:10px 0 4px;}
+  .bar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),#22c55e);transition:width .3s;}
+  .meta{display:flex;justify-content:space-between;font-size:.82rem;color:var(--muted);margin-bottom:6px;flex-wrap:wrap;gap:6px;}
+  .q{font-size:1.08rem;font-weight:600;margin:6px 0 14px;color:#fff;}
+  .opt{display:block;width:100%;text-align:left;background:#0b1220;border:1.5px solid #334155;color:var(--txt);border-radius:10px;padding:12px 14px;margin:8px 0;cursor:pointer;font-size:.98rem;transition:all .15s;}
+  .opt:hover:not(:disabled){border-color:var(--accent);}
+  .opt .k{display:inline-block;width:22px;font-weight:700;color:var(--accent);}
+  .opt.correct{border-color:var(--ok);background:rgba(34,197,94,.12);}
+  .opt.wrong{border-color:var(--bad);background:rgba(239,68,68,.12);}
+  .opt:disabled{cursor:default;opacity:.95;}
+  .explain{margin-top:10px;padding:11px 13px;border-radius:10px;background:#0b1220;border-left:4px solid var(--accent);font-size:.9rem;color:#cbd5e1;display:none;}
+  .explain.show{display:block;}
+  .row{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;}
+  button.btn{background:var(--accent);color:#3a0a24;border:none;border-radius:10px;padding:11px 18px;font-weight:700;cursor:pointer;font-size:.95rem;}
+  button.btn.sec{background:#334155;color:#e2e8f0;}
+  button.btn:disabled{opacity:.4;cursor:not-allowed;}
+  .center{text-align:center;}
+  .big{font-size:2.4rem;font-weight:800;color:#fff;margin:6px 0;}
+  .tag{display:inline-block;font-size:.72rem;background:#0b1220;border:1px solid #334155;color:var(--muted);padding:3px 9px;border-radius:99px;margin-bottom:8px;}
+  .grid{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+  .chip{font-size:.8rem;padding:6px 10px;border-radius:8px;border:1px solid #334155;background:#0b1220;cursor:pointer;}
+  .chip.on{border-color:var(--accent);color:var(--accent);}
+  .review-item{border-top:1px solid #334155;padding:12px 0;font-size:.9rem;}
+  .review-item .ri-q{font-weight:600;color:#fff;}
+  .review-item .ri-a{color:#cbd5e1;margin-top:4px;}
+  .ok{color:var(--ok)} .bad{color:var(--bad)}
+  a.src{color:var(--muted);font-size:.78rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">DA LIỄU · GIANG MAI</span>
+    <h1>Giang mai (Syphilis) — Trắc nghiệm</h1>
+    <p>Ôn tập trắc nghiệm bám sát bài giảng Da liễu</p>
+    <div class="topnav"><a href="index.html">&#8592; Danh sách đề</a></div>
+  </header>
+
+  <div class="panel" id="start">
+    <p>Bộ câu hỏi bám sát tài liệu. Mỗi câu có 4 phương án gần giống nhau để tăng độ khó. Chọn số câu muốn luyện:</p>
+    <div class="grid" id="countChips"></div>
+    <div class="row">
+      <label style="display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)">
+        <input type="checkbox" id="shuffle" checked> Xáo trộn câu hỏi &amp; đáp án
+      </label>
+    </div>
+    <div class="row">
+      <button class="btn" onclick="startQuiz()">Bắt đầu luyện tập &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel" id="quiz" style="display:none">
+    <div class="meta"><span id="progressTxt"></span><span id="scoreTxt"></span></div>
+    <div class="bar"><i id="progressBar"></i></div>
+    <div class="q" id="qText"></div>
+    <div id="opts"></div>
+    <div class="explain" id="explain"></div>
+    <div class="row">
+      <button class="btn sec" id="skipBtn" onclick="nextQ()">Bỏ qua</button>
+      <button class="btn" id="nextBtn" onclick="nextQ()" disabled>Câu tiếp &#9654;</button>
+    </div>
+  </div>
+
+  <div class="panel center" id="result" style="display:none">
+    <p class="tag">KẾT QUẢ</p>
+    <div class="big" id="finalScore"></div>
+    <p id="finalMsg" style="color:var(--muted)"></p>
+    <div class="row" style="justify-content:center">
+      <button class="btn" onclick="location.reload()">Làm lại &#8635;</button>
+      <button class="btn sec" onclick="toggleReview()">Xem lại bài &#9662;</button>
+    </div>
+    <div id="review" style="text-align:left;display:none;margin-top:14px"></div>
+  </div>
+
+  <p class="center" style="margin-top:18px"><a class="src" href="Giang mai (Syphilis) — ThS.BS. Mai Thị Cẩm Cát, Bộ môn Da liễu, ĐH Y Dược Huế">Nguồn: Giang mai (Syphilis) — ThS.BS. Mai Thị Cẩm Cát, Bộ môn Da liễu, ĐH Y Dược Huế</a></p>
+</div>
+
+<script>
+const BANK = [{"q": "Tác nhân gây bệnh giang mai là:", "a": ["Haemophilus ducreyi", "Treponema pallidum", "Chlamydia trachomatis", "Neisseria gonorrhoeae"], "c": 1, "e": "Giang mai là nhiễm trùng lây qua đường tình dục do xoắn khuẩn Treponema pallidum gây ra."}, {"q": "Treponema pallidum là loại vi sinh vật nào?", "a": ["Trực khuẩn Gram dương", "Virus có vỏ bọc", "Cầu khuẩn Gram âm", "Xoắn khuẩn, có 8-20 vòng xoắn"], "c": 3, "e": "T. pallidum là xoắn khuẩn có 8-20 vòng xoắn."}, {"q": "Đặc điểm nào sau đây ĐÚNG về Treponema pallidum?", "a": ["Không nuôi cấy được trong phòng thí nghiệm, sống được vài giờ ngoài cơ thể", "Sống nhiều ngày ngoài cơ thể", "Là vi khuẩn hiếu khí điển hình", "Dễ nuôi cấy trên môi trường thạch máu"], "c": 0, "e": "T. pallidum không thể nuôi cấy trong PTN, chỉ sống được vài giờ ngoài cơ thể."}, {"q": "Đường lây truyền chủ yếu của bệnh giang mai là:", "a": ["Côn trùng đốt", "Quan hệ tình dục", "Đường hô hấp", "Đường tiêu hóa"], "c": 1, "e": "Giang mai lây truyền chủ yếu qua QHTD; ngoài ra mẹ sang con, đường máu, tai nạn nghề nghiệp."}, {"q": "Giang mai có liên quan đặc biệt đến sự lây truyền STI nào khác?", "a": ["Viêm gan A", "Lao phổi", "HIV", "Sốt xuất huyết"], "c": 2, "e": "Giang mai liên quan đến sự lây truyền và mắc các STI khác, đặc biệt là HIV."}, {"q": "Độ tuổi hay gặp bệnh giang mai là:", "a": ["5-15 tuổi", "Trên 70 tuổi", "20-39 tuổi", "50-70 tuổi"], "c": 2, "e": "Tuổi hay gặp giang mai: 20-39."}, {"q": "Theo phân loại cổ điển, giang mai được chia thành:", "a": ["Giang mai 1, giang mai 2, giang mai 3 và giang mai kín", "Giang mai cấp và giang mai mạn", "Giang mai nhẹ, vừa, nặng", "Giang mai da và giang mai nội tạng"], "c": 0, "e": "Phân loại cổ điển: GM1 (tại chỗ), GM2 (lan tỏa nhiều cơ quan), GM3 (lan tỏa có tính phá hủy tổ chức) và GM kín."}, {"q": "Giang mai 1 (thời kỳ 1) có đặc điểm:", "a": ["Tổn thương tại chỗ (săng + hạch)", "Không có triệu chứng lâm sàng", "Lan tỏa nhiều cơ quan", "Lan tỏa có tính phá hủy tổ chức"], "c": 0, "e": "Giang mai 1: tổn thương tại chỗ, gồm săng và hạch."}, {"q": "Giang mai 2 (thời kỳ 2) có đặc điểm:", "a": ["Phá hủy tổ chức (gôm, tim mạch, thần kinh)", "Chỉ có huyết thanh dương tính, không triệu chứng", "Chỉ tổn thương tại chỗ", "Lan tỏa nhiều cơ quan, nổi bật ở da-niêm"], "c": 3, "e": "Giang mai 2: lan tỏa nhiều cơ quan, biểu hiện da-niêm nổi bật."}, {"q": "Giang mai 3 (thời kỳ 3) có đặc điểm:", "a": ["Lan tỏa, có tính phá hủy tổ chức", "Chỉ gặp trong 6 tháng đầu", "Chỉ nổi ban ngoài da không triệu chứng", "Tổn thương tại chỗ săng + hạch"], "c": 0, "e": "Giang mai 3: lan tỏa, có tính phá hủy tổ chức (gôm, tim mạch, thần kinh)."}, {"q": "Giang mai kín (latent) được định nghĩa là:", "a": ["Đã điều trị khỏi hoàn toàn", "Có cả triệu chứng và huyết thanh dương", "Không có triệu chứng lâm sàng nhưng huyết thanh giang mai dương tính", "Có triệu chứng lâm sàng nhưng huyết thanh âm tính"], "c": 2, "e": "Giang mai kín: không có triệu chứng lâm sàng, huyết thanh giang mai (+)."}, {"q": "Ranh giới thời gian giữa giang mai kín sớm và giang mai kín muộn là:", "a": ["1 năm", "6 tháng", "5 năm", "2 năm"], "c": 3, "e": "GM kín sớm: <2 năm; GM kín muộn: >2 năm hoặc không rõ thời gian nhiễm."}, {"q": "Theo phân loại mới, giang mai SỚM bao gồm:", "a": ["Giang mai 3 và giang mai kín muộn", "Giang mai 1, giang mai 2 và giang mai kín sớm", "Chỉ giang mai 1", "Giang mai kín muộn và giang mai bẩm sinh"], "c": 1, "e": "Phân loại mới: GM sớm = GM1 + GM2 + GM kín sớm; GM muộn = GM3 + GM kín muộn."}, {"q": "Theo phân loại mới, giang mai MUỘN bao gồm:", "a": ["Giang mai 1 và giang mai 2", "Giang mai 1 và giang mai kín sớm", "Giang mai kín sớm", "Giang mai 3 và giang mai kín muộn"], "c": 3, "e": "GM muộn = GM3 + GM kín muộn."}, {"q": "Thời gian ủ bệnh của giang mai 1 (từ khi nhiễm đến khi xuất hiện săng) là:", "a": ["6-12 tháng", "10-90 ngày (trung bình khoảng 3 tuần)", "2-3 năm", "1-3 ngày"], "c": 1, "e": "Ủ bệnh giang mai 1: 10-90 ngày (trung bình ~3 tuần)."}, {"q": "Săng giang mai xuất hiện ở vị trí nào?", "a": ["Luôn ở lòng bàn tay", "Chỉ ở niêm mạc miệng", "Vị trí xa nơi xâm nhập", "Vị trí đầu tiên xoắn khuẩn xâm nhập"], "c": 3, "e": "Săng xuất hiện tại vị trí đầu tiên xoắn khuẩn xâm nhập."}, {"q": "Đặc điểm điển hình của săng giang mai là:", "a": ["Mụn nước thành chùm, ngứa nhiều", "Vết loét nhiều ổ, bờ nham nhở, đáy bẩn, mềm, rất đau", "Mảng sẩn vảy lan tỏa", "Vết loét tròn/bầu dục, đơn độc, bờ đều, đáy sạch, nền cứng, KHÔNG đau"], "c": 3, "e": "Săng: vết loét tròn/bầu dục, đơn độc, bờ đều, đáy sạch, cứng, không đau, có viền đỏ nhỏ bao quanh, rất lây."}, {"q": "Săng giang mai có đặc điểm nào về mức độ lây và cảm giác?", "a": ["Ít lây và rất đau", "Không lây và ngứa nhiều", "Rất lây và rất đau", "Rất lây và không đau"], "c": 3, "e": "Săng rất lây nhưng không đau (không đau là đặc điểm gợi ý phân biệt với loét khác)."}, {"q": "Hạch trong giang mai 1 xuất hiện sau săng khoảng:", "a": ["1 năm", "7-10 ngày", "1-2 ngày", "2-3 tháng"], "c": 1, "e": "Hạch vùng xuất hiện sau săng khoảng 7-10 ngày."}, {"q": "Đặc điểm hạch trong giang mai 1 là:", "a": ["Không sờ thấy hạch", "Di động, không đau, khởi đầu 1 bên, thường có một hạch lớn", "Dính chùm, hóa mủ", "Cố định, đau nhiều, hai bên đối xứng"], "c": 1, "e": "Hạch GM1: hạch vùng, di động, không đau, khởi đầu 1 bên, thường có một hạch lớn hơn các hạch khác."}, {"q": "Săng và hạch trong giang mai 1 tự thoái lui trong khoảng:", "a": ["1-2 ngày", "2-3 năm", "6-12 tháng", "3-8 tuần (sau điều trị khoảng 10 ngày)"], "c": 3, "e": "Săng và hạch tự thoái lui trong 3-8 tuần; sau điều trị khoảng 10 ngày."}, {"q": "Giang mai 2 thường xuất hiện vào thời điểm nào?", "a": ["Sau 5-10 năm", "2-6 tháng sau phơi nhiễm, 3-10 tuần sau săng", "Trong vòng 3 ngày sau săng", "Ngay khi nhiễm bệnh"], "c": 1, "e": "Giang mai 2 xuất hiện 2-6 tháng sau phơi nhiễm, tức 3-10 tuần sau khi có săng."}, {"q": "Biểu hiện lâm sàng của giang mai 2 diễn tiến như thế nào?", "a": ["Chỉ khu trú tại nơi xâm nhập", "Cấp tính, chỉ một đợt duy nhất rồi khỏi", "Tổn thương cố định, không thay đổi nhiều năm", "Đa dạng, thành từng đợt, dai dẳng trong 1-2 năm"], "c": 3, "e": "Giang mai 2: lâm sàng đa dạng, tái diễn thành từng đợt, dai dẳng trong 1-2 năm."}, {"q": "Tiền triệu của giang mai 2 thường là:", "a": ["Co giật", "Vàng da tắc mật", "Cơn đau quặn bụng", "Hội chứng giả cúm"], "c": 3, "e": "Tiền triệu GM2: hội chứng giả cúm; kèm sưng hạch lan tỏa, gan lách lớn."}, {"q": "Sưng hạch trong giang mai 2 có đặc điểm:", "a": ["Lan tỏa, không đau, gặp ở 50-85% trường hợp", "Luôn hóa mủ và vỡ", "Khu trú một vùng, đau nhiều", "Hiếm gặp (<5%)"], "c": 0, "e": "GM2: sưng hạch lan tỏa, không đau, gặp 50-85%, kèm gan lách lớn."}, {"q": "Tổn thương da thường gặp NHẤT trong giang mai 2 là:", "a": ["Mảng niêm mạc (~30%)", "Ban dạng sẩn vảy (~70%)", "Đào ban (~10%)", "Rụng tóc (~7%)"], "c": 1, "e": "Da trong GM2: đào ban (~10%), ban dạng sẩn vảy (~70% - hay gặp nhất)."}, {"q": "Tỉ lệ tổn thương niêm mạc trong giang mai 2 khoảng:", "a": ["7%", "70%", "10%", "30%"], "c": 3, "e": "Niêm mạc trong GM2: khoảng 30% (mảng niêm mạc, sẩn ướt)."}, {"q": "Tỉ lệ rụng tóc trong giang mai 2 khoảng:", "a": ["70%", "30%", "7%", "50%"], "c": 2, "e": "Rụng tóc trong GM2 khoảng 7%."}, {"q": "Đào ban giang mai xuất hiện vào thời điểm nào (sau săng)?", "a": ["Ngay cùng lúc với săng", "Muộn, sau 5 năm", "Sớm, tuần thứ 6 đến 3 tháng sau săng", "Sau 10 năm"], "c": 2, "e": "Đào ban xuất hiện sớm, khoảng tuần thứ 6 đến 3 tháng sau săng."}, {"q": "Tổn thương cơ bản của đào ban giang mai là:", "a": ["Bọng nước lớn nền đỏ", "Dát tròn/bầu dục, màu cánh hoa đào/đỏ đồng, không tróc vảy, không ngứa", "Mảng loét sâu bờ cứng", "Sẩn vảy dày sừng, ngứa nhiều"], "c": 1, "e": "Đào ban: dát tròn/bầu dục màu cánh hoa đào/đỏ đồng, không tróc vảy, không ngứa; phân bố đối xứng ở thân, mặt gấp chi trên, LBTC, hiếm ở mặt."}, {"q": "Đào ban giang mai phân bố như thế nào?", "a": ["Không đối xứng, khu trú một bên", "Chỉ ở mặt", "Chỉ ở lòng bàn chân", "Lan tỏa/khu trú, đối xứng ở thân, mặt gấp chi trên; hiếm ở mặt"], "c": 3, "e": "Đào ban phân bố lan tỏa hoặc khu trú, đối xứng ở thân, mặt gấp chi trên, lòng bàn tay-chân (LBTC), hiếm ở mặt."}, {"q": "Đào ban giang mai tự thoái lui trong khoảng:", "a": ["Không bao giờ thoái lui", "Trong vòng 1 tháng (có thể để lại dát giảm sắc tố)", "Trong 1-2 ngày", "Sau 5 năm"], "c": 1, "e": "Đào ban tự thoái lui trong vòng 1 tháng, có thể để lại dát giảm sắc tố (ở lưng, đáy cổ)."}, {"q": "Sẩn giang mai xuất hiện vào thời điểm nào sau săng?", "a": ["4-12 tháng sau săng", "Trên 5 năm sau săng", "1-2 tuần sau săng", "Cùng lúc với săng"], "c": 0, "e": "Sẩn giang mai xuất hiện 4-12 tháng sau săng."}, {"q": "Viền vảy đặc trưng ở ngoại vi của sẩn giang mai được gọi là:", "a": ["Viền vảy Wickham", "Dấu Auspitz", "Dấu Nikolsky", "Viền vảy Biett"], "c": 3, "e": "Sẩn giang mai: sẩn màu hồng/đỏ đồng, có viền vảy ở ngoại vi gọi là viền vảy Biett, không ngứa."}, {"q": "Vị trí sẩn giang mai rất gợi ý chẩn đoán là:", "a": ["Lòng bàn tay-chân, mặt, sinh dục", "Chỉ ở kẽ ngón chân", "Chỉ ở lưng", "Da đầu đơn thuần"], "c": 0, "e": "Sẩn giang mai phân bố đối xứng, hay gặp ở LBTC, mặt, sinh dục — rất gợi ý chẩn đoán."}, {"q": "Mảng niêm mạc trong giang mai 2 có đặc điểm:", "a": ["Vết trợt trắng-vàng, tròn/bầu dục, giới hạn rõ, thường ở niêm mạc miệng, rất lây", "Bọng nước lớn ở niêm mạc", "Mảng sừng hóa trắng đục cố định", "Loét sâu bờ cứng, không lây"], "c": 0, "e": "Mảng niêm mạc: vết trợt trắng-vàng, tròn/bầu dục, giới hạn rõ, thường ở niêm mạc miệng (ở lưỡi → mất gai lưỡi), rất lây."}, {"q": "Sẩn ướt/sẩn sùi (condyloma lata) trong giang mai thường xuất hiện ở:", "a": ["Sinh dục, quanh hậu môn, nếp gian mông; và các nếp kẽ khác", "Lòng bàn tay", "Da đầu", "Niêm mạc mắt"], "c": 0, "e": "Sẩn ướt/sùi: sẩn/mảng phẳng, ẩm ướt, giới hạn rõ, thường ở sinh dục, quanh hậu môn (nếp gian mông, môi lớn/bé), có thể ở nếp kẽ khác (dưới vú, nách, ngón chân); rất lây."}, {"q": "Kiểu rụng tóc đặc trưng trong giang mai 2 được mô tả là:", "a": ["Rụng tóc toàn bộ đột ngột", "Rụng tóc có sẹo vĩnh viễn", "Nhiều mảng nhỏ không đều, kiểu 'mọt gặm', hay ở rìa tóc trán-thái dương-sau tai", "Chỉ rụng lông mày"], "c": 2, "e": "Rụng tóc GM2: rụng từng mảng nhỏ, không đều, rải rác, kiểu 'mọt gặm/rừng thưa', hay gặp ở rìa tóc trán, thái dương, sau tai."}, {"q": "Giang mai 3 thường xuất hiện từ thời điểm nào?", "a": ["Chỉ ở trẻ sơ sinh", "Hiếm gặp, thường từ năm thứ 3 của bệnh", "Trong 3 tháng đầu", "Trong tuần đầu tiên"], "c": 1, "e": "Giang mai 3 hiếm gặp, thường xuất hiện từ năm thứ 3 của bệnh."}, {"q": "Giang mai 3 muộn 'lành tính' biểu hiện tổn thương gì?", "a": ["Gôm ở da, niêm mạc, xương, gan...", "Phình động mạch chủ", "Chỉ nổi đào ban", "Tổn thương màng não"], "c": 0, "e": "GM3 muộn lành tính: gôm ở da, niêm mạc, xương, gan; loại tim mạch (phình ĐM chủ) và thần kinh là biến chứng nặng."}, {"q": "Biến chứng tim mạch điển hình của giang mai 3 là:", "a": ["Phình động mạch chủ, tổn thương mạch vành", "Nhồi máu cơ tim do xơ vữa", "Viêm màng ngoài tim virus", "Hẹp van hai lá do thấp"], "c": 0, "e": "GM3 tim mạch: phình động mạch chủ, tổn thương mạch vành."}, {"q": "Giang mai bẩm sinh lây từ mẹ sang con thường từ thời điểm nào của thai kỳ?", "a": ["Sau khi sinh qua sữa mẹ", "Ngay tuần đầu thai kỳ", "Từ tháng thứ 4 của thai kỳ", "Chỉ lúc chuyển dạ"], "c": 2, "e": "Giang mai bẩm sinh: mẹ → con, thường từ tháng thứ 4 thai kỳ."}, {"q": "Điều trị giang mai cho mẹ trước tuần thứ mấy của thai kỳ giúp ngăn ngừa nhiễm trùng cho thai nhi?", "a": ["Ngay khi chuyển dạ", "Sau tuần 30", "Trước tuần 16", "Trước tuần 36"], "c": 2, "e": "Điều trị trước tuần 16 thai kỳ giúp ngăn ngừa nhiễm trùng cho thai nhi. Nguy cơ cao nhất khi mẹ mắc <2 năm."}, {"q": "Giang mai bẩm sinh sớm được định nghĩa là xuất hiện triệu chứng:", "a": ["Chỉ ở tuổi dậy thì", "Ngay khi mẹ mang thai", "≤ 2 năm sau sinh (thường từ tuần 3-8)", "> 5 năm sau sinh"], "c": 2, "e": "GM bẩm sinh sớm: ≤2 năm sau sinh; triệu chứng xuất hiện từ tuần 3-8 (da, gan, lách, xương)."}, {"q": "Tam chứng Hutchinson trong giang mai bẩm sinh muộn gồm:", "a": ["Sốt, phát ban, đau khớp", "Gan lớn, lách lớn, vàng da", "Mù, câm, liệt", "Răng Hutchinson, viêm giác mạc kẽ, điếc dây thần kinh VIII"], "c": 3, "e": "Tam chứng Hutchinson (GM bẩm sinh muộn >2 năm): răng Hutchinson, viêm giác mạc kẽ, điếc dây thần kinh VIII."}, {"q": "Phương pháp cận lâm sàng trực tiếp trong giang mai bao gồm:", "a": ["Chỉ có RPR và VDRL", "Chỉ có TPHA", "Soi kính hiển vi nền đen, kháng thể huỳnh quang trực tiếp, PCR", "Công thức máu và CRP"], "c": 2, "e": "Phương pháp trực tiếp: soi tìm xoắn khuẩn trên kính hiển vi nền đen, tìm kháng thể huỳnh quang trực tiếp, xét nghiệm khuếch đại acid nucleic (PCR)."}, {"q": "Hạn chế của soi kính hiển vi nền đen tìm xoắn khuẩn là:", "a": ["Không phân biệt được T. pallidum với xoắn khuẩn không gây bệnh ở niêm mạc miệng", "Chỉ dương tính ở giai đoạn muộn", "Chi phí rất cao", "Không thực hiện được trên dịch tiết"], "c": 0, "e": "Soi nền đen không phân biệt được T. pallidum và xoắn khuẩn không gây bệnh (thường trú) ở niêm mạc miệng."}, {"q": "Bệnh phẩm dùng cho phương pháp trực tiếp (soi nền đen) là:", "a": ["Dịch não tủy thường quy", "Dịch tiết thương tổn (săng, sẩn ướt, mảng niêm mạc, hạch)", "Nước tiểu", "Máu tĩnh mạch"], "c": 1, "e": "Bệnh phẩm: dịch tiết thương tổn — săng, sẩn ướt, mảng niêm mạc, hạch."}, {"q": "Nhược điểm của xét nghiệm PCR (khuếch đại acid nucleic) trong giang mai là:", "a": ["Chi phí cao", "Độ đặc hiệu thấp", "Không phát hiện được T. pallidum", "Chỉ làm được sau 5 năm"], "c": 0, "e": "PCR có chi phí cao."}, {"q": "Phản ứng huyết thanh KHÔNG đặc hiệu trong giang mai phát hiện:", "a": ["Kháng thể kháng cardiolipin (RPR, VDRL)", "Kháng thể kháng kháng nguyên đặc hiệu của T. pallidum", "Xoắn khuẩn sống", "DNA của xoắn khuẩn"], "c": 0, "e": "Phản ứng không đặc hiệu (RPR, VDRL): phát hiện KT kháng cardiolipin; cũng gặp trong một số bệnh tự miễn (hiệu giá <1/4)."}, {"q": "Xét nghiệm RPR/VDRL dương tính vào thời điểm nào sau săng?", "a": ["Sau 5 năm", "Ngay khi có săng", "10-15 ngày sau săng", "Chỉ dương ở giang mai 3"], "c": 2, "e": "RPR/VDRL dương tính 10-15 ngày sau săng, thay đổi theo đáp ứng điều trị nên dùng để theo dõi điều trị."}, {"q": "Ý nghĩa quan trọng của xét nghiệm RPR/VDRL là:", "a": ["Thay đổi theo đáp ứng điều trị → dùng để theo dõi điều trị", "Chỉ để chẩn đoán, không theo dõi", "Dương tính suốt đời → không theo dõi được", "Chỉ dương ở giang mai bẩm sinh"], "c": 0, "e": "RPR/VDRL thay đổi hiệu giá theo đáp ứng điều trị nên được dùng theo dõi điều trị."}, {"q": "Phản ứng huyết thanh ĐẶC HIỆU (như TPHA) có đặc điểm:", "a": ["Không đặc hiệu, gặp trong bệnh tự miễn", "Phát hiện KT kháng kháng nguyên giang mai, đặc hiệu cao, (+) suốt đời (sẹo huyết thanh)", "Dùng để theo dõi đáp ứng điều trị", "Âm tính sau điều trị khỏi"], "c": 1, "e": "Phản ứng đặc hiệu (TPHA): phát hiện KT kháng KN giang mai, đặc hiệu cao, dương tính suốt đời (sẹo huyết thanh) → KHÔNG dùng theo dõi điều trị."}, {"q": "Để chẩn đoán giang mai, thường phối hợp các xét nghiệm nào?", "a": ["Chỉ TPHA", "VDRL/RPR + TPHA", "Chỉ VDRL", "Công thức máu + CRP"], "c": 1, "e": "Thường phối hợp VDRL/RPR (không đặc hiệu) + TPHA (đặc hiệu) để chẩn đoán giang mai."}, {"q": "Chẩn đoán phân biệt của SĂNG giang mai bao gồm:", "a": ["Vảy nến, lichen phẳng", "Vảy phấn hồng", "Nhiễm HSV, loét áp (aphthe), chấn thương", "Sùi mào gà"], "c": 2, "e": "CĐPB săng GM: nhiễm HSV, loét áp, chấn thương."}, {"q": "Chẩn đoán phân biệt của ĐÀO BAN giang mai bao gồm:", "a": ["Phình động mạch chủ", "Phát ban dạng dát sẩn do thuốc/virus, vảy phấn hồng, viêm da cơ địa", "Sùi mào gà", "Loét áp"], "c": 1, "e": "CĐPB đào ban GM: phát ban dạng dát sẩn do thuốc/virus, vảy phấn hồng, viêm da cơ địa."}, {"q": "Chẩn đoán phân biệt của SẨN giang mai bao gồm:", "a": ["Vảy nến, lichen phẳng, vảy phấn đỏ nang lông", "Sùi mào gà", "Nhiễm HSV, loét áp", "Viêm da cơ địa"], "c": 0, "e": "CĐPB sẩn GM: vảy nến, lichen phẳng, vảy phấn đỏ nang lông."}, {"q": "Chẩn đoán phân biệt của SẨN ƯỚT giang mai (condyloma lata) là:", "a": ["Sùi mào gà (condyloma acuminata)", "Loét áp", "Vảy nến", "Đào ban do virus"], "c": 0, "e": "CĐPB sẩn ướt giang mai: sùi mào gà."}, {"q": "Phác đồ ưu tiên điều trị giang mai SỚM (<2 năm) theo BYT 2023 là:", "a": ["Azithromycin 1g uống mỗi tuần x 4 tuần", "Doxycyclin 100mg x 2 lần/ngày x 30 ngày", "Benzathin penicillin 2,4 triệu đơn vị/tuần x 3 tuần", "Benzathin penicillin 2,4 triệu đơn vị, tiêm bắp sâu, liều duy nhất"], "c": 3, "e": "GM sớm (<2 năm): Benzathin penicillin 2,4 triệu đơn vị, tiêm bắp sâu, liều duy nhất (phác đồ ưu tiên)."}, {"q": "Phác đồ thay thế (không dùng benzathin) cho giang mai sớm là Procain penicillin với liều:", "a": ["1,2 triệu đơn vị, tiêm bắp sâu, 1 lần/ngày trong 10-14 ngày", "600.000 đơn vị mỗi tuần", "3 triệu đơn vị x 2 lần/ngày", "2,4 triệu đơn vị liều duy nhất"], "c": 0, "e": "Phác đồ thay thế GM sớm: Procain penicillin 1,2 triệu đơn vị, tiêm bắp sâu, 1 lần/ngày, trong 10-14 ngày."}, {"q": "Khi dị ứng Penicillin, phác đồ điều trị giang mai sớm có thể chọn:", "a": ["Vancomycin truyền tĩnh mạch", "Metronidazol 2g liều duy nhất", "Amoxicillin 500mg x 3 lần/ngày", "Doxycyclin 100mg uống 2 lần/ngày x 14 ngày, hoặc Ceftriaxon 1g TB x 10-14 ngày, hoặc Azithromycin 2g liều duy nhất"], "c": 3, "e": "Dị ứng Penicillin (GM sớm): Doxycyclin 100mg x2/ngày x14 ngày, hoặc Ceftriaxon 1g TB sâu 1 lần/ngày x10-14 ngày, hoặc Azithromycin 2g uống liều duy nhất."}, {"q": "Liều Azithromycin thay thế trong điều trị giang mai sớm là:", "a": ["2g uống liều duy nhất", "1g mỗi tuần x 3 tuần", "250mg/ngày x 14 ngày", "500mg x 2 lần/ngày x 7 ngày"], "c": 0, "e": "Azithromycin 2g uống liều duy nhất (một trong các lựa chọn khi dị ứng penicillin)."}, {"q": "Phác đồ ưu tiên điều trị giang mai MUỘN (>2 năm hoặc không rõ thời gian) là:", "a": ["Benzathin penicillin 2,4 triệu đơn vị liều duy nhất", "Ceftriaxon 1g liều duy nhất", "Azithromycin 2g liều duy nhất", "Benzathin penicillin 2,4 triệu đơn vị, TB sâu, 1 lần/tuần x 3 tuần liên tiếp"], "c": 3, "e": "GM muộn: Benzathin penicillin 2,4 triệu đơn vị, tiêm bắp sâu, 1 lần/tuần trong 3 tuần liên tiếp; khoảng cách giữa 2 lần tiêm không quá 14 ngày."}, {"q": "Trong phác đồ giang mai muộn, khoảng cách giữa 2 lần tiêm Benzathin penicillin KHÔNG được quá:", "a": ["1 tháng", "3 ngày", "14 ngày", "7 ngày"], "c": 2, "e": "Thời gian giữa 2 lần tiêm không quá 14 ngày."}, {"q": "Phác đồ thay thế Procain penicillin cho giang mai muộn dùng trong:", "a": ["20 ngày", "40 ngày", "3 ngày", "10 ngày"], "c": 0, "e": "GM muộn thay thế: Procain penicillin 1,2 triệu đơn vị, TB sâu, 1 lần/ngày trong 20 ngày."}, {"q": "Theo dõi hiệu giá kháng thể (HGKT) sau điều trị giang mai: sau 3 tháng thường giảm khoảng:", "a": ["16 lần", "Không đổi", "4 lần", "2 lần"], "c": 2, "e": "Theo dõi HGKT: sau 3 tháng thường giảm 4 lần, sau 6 tháng giảm 16 lần, kiểm tra tiếp ở 12 tháng."}, {"q": "Sau điều trị giang mai, hiệu giá kháng thể sau 6 tháng thường giảm khoảng:", "a": ["8 lần", "2 lần", "4 lần", "16 lần"], "c": 3, "e": "Sau 6 tháng HGKT thường giảm 16 lần (theo dõi bằng RPR/VDRL)."}, {"q": "Xét nghiệm nào KHÔNG dùng để theo dõi đáp ứng điều trị giang mai?", "a": ["Hiệu giá kháng thể không đặc hiệu", "TPHA (phản ứng đặc hiệu)", "RPR", "VDRL"], "c": 1, "e": "TPHA dương tính suốt đời (sẹo huyết thanh) nên không dùng theo dõi điều trị; dùng RPR/VDRL để theo dõi."}, {"q": "Đối tượng mắc mới giang mai được đề cập nhiều trong dịch tễ hiện nay là:", "a": ["Trẻ sơ sinh", "Phụ nữ mãn kinh", "Người cao tuổi", "Nam quan hệ tình dục đồng giới (liên quan HIV/PrEP)"], "c": 3, "e": "Dữ liệu dịch tễ nhấn mạnh nhóm nam quan hệ đồng giới (GBM), liên quan HIV và triển khai PrEP."}, {"q": "Nguy cơ lây truyền giang mai từ mẹ sang con cao nhất khi:", "a": ["Không liên quan thời gian mắc", "Mẹ đã điều trị khỏi", "Mẹ mới mắc bệnh (<2 năm)", "Mẹ mắc bệnh đã lâu (>5 năm)"], "c": 2, "e": "Nguy cơ lây cho thai cao nhất khi mẹ mắc giang mai <2 năm (giai đoạn sớm, nhiều xoắn khuẩn)."}, {"q": "Trong giang mai 2, tổn thương nào 'rất lây'?", "a": ["Mảng niêm mạc và sẩn ướt (condyloma lata)", "Rụng tóc", "Đào ban khô", "Dát giảm sắc tố sau đào ban"], "c": 0, "e": "Mảng niêm mạc và sẩn ướt/sùi chứa nhiều xoắn khuẩn, rất lây; đào ban thường ít lây hơn."}];
+let idx=0, score=0, answers=[], quizSet=[];
+const COUNTS=[20,40,60,100];
+function initChips(){const el=document.getElementById('countChips');COUNTS.forEach((n,i)=>{const c=document.createElement('div');c.className='chip'+(i===COUNTS.length-1?' on':'');c.textContent=n>=BANK.length?'Tất cả ('+BANK.length+')':n+' câu';c.dataset.n=Math.min(n,BANK.length);c.onclick=()=>{document.querySelectorAll('#countChips .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');};el.appendChild(c);});}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function startQuiz(){
+  const sel=document.querySelector('#countChips .chip.on');
+  const n=Math.min(parseInt(sel.dataset.n),BANK.length);
+  const doShuffle=document.getElementById('shuffle').checked;
+  let pool=BANK.map((q,i)=>({...q,_i:i}));
+  if(doShuffle)shuffle(pool);
+  quizSet=pool.slice(0,n).map(q=>{
+    let opts=q.a.map((t,i)=>({t,correct:i===q.c}));
+    if(doShuffle)shuffle(opts);
+    return {q:q.q,opts,e:q.e};
+  });
+  idx=0;score=0;answers=[];
+  document.getElementById('start').style.display='none';
+  document.getElementById('result').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  renderQ();
+}
+function renderQ(){
+  const item=quizSet[idx];
+  document.getElementById('progressTxt').textContent='Câu '+(idx+1)+' / '+quizSet.length;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('progressBar').style.width=((idx)/quizSet.length*100)+'%';
+  document.getElementById('qText').textContent=item.q;
+  const box=document.getElementById('opts');box.innerHTML='';
+  const letters=['A','B','C','D'];
+  item.opts.forEach((o,i)=>{
+    const b=document.createElement('button');
+    b.className='opt';
+    b.innerHTML='<span class="k">'+letters[i]+'.</span> '+o.t;
+    b.onclick=()=>choose(i);
+    box.appendChild(b);
+  });
+  const ex=document.getElementById('explain');ex.className='explain';ex.textContent='';
+  document.getElementById('nextBtn').disabled=true;
+  document.getElementById('skipBtn').style.display='inline-block';
+  document.getElementById('nextBtn').textContent=(idx===quizSet.length-1)?'Xem kết quả ✔':'Câu tiếp ▶';
+}
+function choose(i){
+  const item=quizSet[idx];
+  const btns=document.querySelectorAll('#opts .opt');
+  const correctIdx=item.opts.findIndex(o=>o.correct);
+  btns.forEach((b,j)=>{b.disabled=true;if(j===correctIdx)b.classList.add('correct');if(j===i&&i!==correctIdx)b.classList.add('wrong');});
+  const isRight=i===correctIdx;
+  if(isRight)score++;
+  answers.push({q:item.q,chosen:item.opts[i].t,correct:item.opts[correctIdx].t,right:isRight});
+  const ex=document.getElementById('explain');
+  ex.className='explain show';
+  ex.innerHTML=(isRight?'<b class="ok">✔ Chính xác. </b>':'<b class="bad">✘ Chưa đúng. </b>')+item.e;
+  document.getElementById('scoreTxt').textContent='Điểm: '+score;
+  document.getElementById('nextBtn').disabled=false;
+  document.getElementById('skipBtn').style.display='none';
+}
+function nextQ(){ if(idx<quizSet.length-1){idx++;renderQ();} else finish(); }
+function finish(){
+  document.getElementById('quiz').style.display='none';
+  const r=document.getElementById('result');r.style.display='block';
+  const pct=Math.round(score/quizSet.length*100);
+  document.getElementById('finalScore').textContent=score+' / '+quizSet.length+' ('+pct+'%)';
+  let msg='';
+  if(pct>=90)msg='Xuất sắc! Bạn nắm rất chắc bài.';
+  else if(pct>=70)msg='Tốt! Ôn lại vài câu sai là ổn.';
+  else if(pct>=50)msg='Khá – cần ôn thêm phần sai.';
+  else msg='Hãy đọc lại tài liệu và luyện lại nhé.';
+  document.getElementById('finalMsg').textContent=msg;
+  const rev=document.getElementById('review');rev.innerHTML='';rev.style.display='none';
+  answers.forEach((a,i)=>{
+    const d=document.createElement('div');d.className='review-item';
+    d.innerHTML='<div class="ri-q">'+(i+1)+'. '+a.q+'</div>'+
+      '<div class="ri-a">Bạn chọn: <span class="'+(a.right?'ok':'bad')+'">'+a.chosen+'</span></div>'+
+      (a.right?'':'<div class="ri-a">Đáp án đúng: <span class="ok">'+a.correct+'</span></div>');
+    rev.appendChild(d);
+  });
+}
+function toggleReview(){const r=document.getElementById('review');r.style.display=r.style.display==='none'?'block':'none';}
+initChips();
+</script>
+</body>
+</html>

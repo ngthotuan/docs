@@ -1,0 +1,483 @@
+[
+    {
+      "question": "Mô hình đau sinh học-tâm lý-xã hội (Biopsychosocial Model of Pain) được xem là ưu việt hơn mô hình Biomedical Model of Pain trong việc giải thích đau mạn tính vùng hàm mặt. Tại sao?",
+      "options": [
+        { "text": "Vì nó loại bỏ hoàn toàn vai trò của các tổn thương cấu trúc vật lý.", "isCorrect": false },
+        { "text": "Vì nó chỉ tập trung vào các yếu tố tâm lý và xã hội, bỏ qua sinh học.", "isCorrect": false },
+        { "text": "Vì nó nhận diện sự tương tác phức tạp giữa các yếu tố sinh học (nhạy cảm thần kinh, di truyền), tâm lý (cảm xúc, nhận thức), và xã hội (môi trường, hành vi), tất cả đều ảnh hưởng đến cảm nhận và biểu hiện đau.", "isCorrect": true },
+        { "text": "Vì nó chỉ áp dụng cho đau cơ mà không cho đau khớp.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 19 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', mô hình Biopsychosocial nhấn mạnh sự tương tác của các yếu tố sinh học (Bio), tâm lý (Psycho), và xã hội (Social) trong cảm nhận đau, trái ngược với mô hình Biomedical chỉ tập trung vào con đường thẳng từ kích thích đến đau."
+    },
+    {
+      "question": "Một bệnh nhân than phiền về nghiến răng khi ngủ (sleep bruxism) nhưng không có bất kỳ triệu chứng đau vùng hàm mặt nào. Dựa vào nguyên lý Block trong bệnh sinh RLTDH, giải thích nào sau đây hợp lý nhất cho tình trạng này?",
+      "options": [
+        { "text": "Nghiến răng khi ngủ không bao giờ gây đau.", "isCorrect": false },
+        { "text": "Yếu tố khởi phát (nghiến răng) đang hoạt động, nhưng khả năng chịu đựng của cơ thể (resilience) đủ cao để ngăn chặn biểu hiện triệu chứng lâm sàng.", "isCorrect": true },
+        { "text": "Bệnh nhân chắc chắn sẽ phát triển đau mạn tính trong tương lai gần.", "isCorrect": false },
+        { "text": "Đây là một trường hợp ngoại lệ, không tuân theo nguyên lý bệnh sinh thông thường.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 21 và 41 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', nguyên lý Block cho thấy có nhiều yếu tố tác động và khả năng thích nghi của cơ thể (hay khả năng chịu đựng) đóng vai trò quan trọng trong việc chuyển từ yếu tố bệnh sinh thành biểu hiện lâm sàng. Nếu khả năng chịu đựng cao, các yếu tố tác động có thể không gây ra triệu chứng."
+    },
+    {
+      "question": "Tại sao 'sự co cơ bảo vệ' (protective co-contraction) được xem là một cơ chế phản ứng ban đầu tích cực nhưng có thể trở thành yếu tố duy trì đau mạn tính nếu không được giải quyết?",
+      "options": [
+        { "text": "Nó giúp bảo vệ hệ thống nhai nhưng đồng thời gây thiếu máu cục bộ và ứ đọng sản phẩm chuyển hóa nếu kéo dài, dẫn đến kích thích và đau liên tục.", "isCorrect": true },
+        { "text": "Nó tự động chữa lành nguyên nhân gốc rễ của đau.", "isCorrect": false },
+        { "text": "Nó chỉ xảy ra ở khớp thái dương hàm mà không ảnh hưởng đến cơ.", "isCorrect": false },
+        { "text": "Nó làm tăng ngưỡng đau, khiến bệnh nhân cảm thấy thoải mái hơn.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 30 và 43 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', co cơ bảo vệ ban đầu là phản xạ tốt, nhưng 'co thắt cơ kéo dài và cơ nhai bị kéo giãn quá mức  chèn ép các mạch máu nuôi cơ  thiếu máu nuôi dưỡng và ứ đọng các sản phẩm của quá trình chuyển hoá  kích thích gây co thắt và gây đau'. Tình trạng này có thể kéo dài ngay cả sau khi loại bỏ nguyên nhân ban đầu."
+    },
+    {
+      "question": "Trong cơ chế bệnh sinh rối loạn cơ nhai, tại sao vai trò của khớp cắn trong gây đau cơ lại được các bằng chứng mới nhất đánh giá là 'rất thấp' và không nên quá nhấn mạnh?",
+      "options": [
+        { "text": "Vì khớp cắn không có bất kỳ liên hệ nào với hệ thống nhai.", "isCorrect": false },
+        { "text": "Vì những thay đổi khớp cắn thường là hậu quả của đau hoặc rối loạn cơ chứ không phải nguyên nhân chính, và cơ thể có khả năng thích nghi lớn với các sai khớp cắn nhỏ.", "isCorrect": true },
+        { "text": "Vì đau cơ chỉ xuất phát từ các yếu tố di truyền.", "isCorrect": false },
+        { "text": "Vì khớp cắn chỉ ảnh hưởng đến răng mà không ảnh hưởng đến cơ.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 46 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', 'Các bằng chứng mới nhất thực sự cho thấy rằng nguy cơ gây đau do vấn đề khớp cắn là rất thấp và chúng ta không nên quá nhấn mạnh vai trò yếu tố khớp cắn trong nguyên nhân đau cơ.' Điều này ngụ ý rằng khớp cắn thường là hậu quả hoặc cơ thể có khả năng thích nghi."
+    },
+    {
+      "question": "Sự phân biệt giữa đau cơ mạc (Myofascial pain) và đau cơ khu trú (Localized muscle pain) trong chẩn đoán RLTDH có ý nghĩa lâm sàng đặc biệt nào đối với việc xác định cơ chế đau và phương pháp điều trị?",
+      "options": [
+        { "text": "Đau cơ mạc chỉ liên quan đến co thắt cơ, còn đau cơ khu trú thì không.", "isCorrect": false },
+        { "text": "Đau cơ mạc có tính chuyển vị và điểm kích đau, thường liên quan đến cơ chế nhạy cảm trung ương, đòi hỏi phương pháp điều trị toàn diện hơn, trong khi đau cơ khu trú thường đơn giản hơn và ít liên quan đến các cơ chế thần kinh phức tạp.", "isCorrect": true },
+        { "text": "Đau cơ khu trú luôn là tiền thân của đau cơ mạc và cần điều trị cấp tốc.", "isCorrect": false },
+        { "text": "Cả hai dạng đau này đều được điều trị giống hệt nhau mà không cần phân biệt.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 47 và 49 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', đau cơ mạc có tính chuyển vị và điểm kích đau, liên quan đến nhạy cảm ngoại vi/trung ương, cho thấy một cơ chế phức tạp hơn so với đau cơ khu trú (nguyên nhân và bệnh sinh chưa hiểu rõ)."
+    },
+    {
+      "question": "Một bệnh nhân trên 50 tuổi bị đau đầu vùng thái dương, nhạy cảm da đầu, và đau khi nhai, kèm theo sụt cân. Bệnh lý nào sau đây cần được nghĩ đến đầu tiên và tại sao việc chẩn đoán và điều trị kịp thời lại tối quan trọng?",
+      "options": [
+        { "text": "Nghiến răng khi ngủ; điều trị bằng máng nhai.", "isCorrect": false },
+        { "text": "Viêm động mạch tế bào khổng lồ (Giant cell arteritis); vì nguy cơ mất thị lực vĩnh viễn nếu không điều trị steroid kịp thời.", "isCorrect": true },
+        { "text": "Đau cơ do thuốc; cần ngưng thuốc nghi ngờ.", "isCorrect": false },
+        { "text": "Nhồi máu cơ tim; cần nhập viện cấp cứu.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 53 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', 'Viêm động mạch tế bào khổng lồ' phù hợp với các triệu chứng trên và 'Mất thị lực là một dấu hiệu nghiêm trọng nếu các nhánh động mạch mắt hoặc động mạch mi sau bị ảnh hưởng và không điều trị steroid kịp thời.'"
+    },
+    {
+      "question": "Mặc dù loãng xương ở phụ nữ mãn kinh chủ yếu liên quan đến mật độ khoáng xương toàn thân, slide 62 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai' chỉ ra nó có thể ảnh hưởng đến khớp thái dương hàm như thế nào?",
+      "options": [
+        { "text": "Chỉ gây đau nhức xương khớp.", "isCorrect": false },
+        { "text": "Làm tăng mật độ khoáng xương ở vùng xương dưới sụn khớp thái dương hàm, từ đó giảm khả năng hấp thụ lực trong quá trình nhai và tăng nguy cơ tổn thương khớp.", "isCorrect": true },
+        { "text": "Làm mềm sụn khớp, tăng linh hoạt khớp.", "isCorrect": false },
+        { "text": "Không có liên quan trực tiếp đến cơ chế bệnh sinh của rối loạn khớp thái dương hàm.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 62 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', tình trạng loãng xương ở phụ nữ mãn kinh có thể 'tăng mật độ khoáng xương ở vùng xương dưới sụn, giảm khả năng hấp thụ lực trong quá trình nhai'."
+    },
+    {
+      "question": "Theo Quinn J., sự tiêu sụn khớp trải qua 4 giai đoạn. Nếu một bệnh nhân được chẩn đoán ở Giai đoạn III, điều này có ý nghĩa gì về tình trạng khớp của họ và tiên lượng?",
+      "options": [
+        { "text": "Khớp chỉ bị mềm sụn, có thể hồi phục hoàn toàn với điều trị bảo tồn.", "isCorrect": false },
+        { "text": "Có sự mất bám dính rộng của sợi collagen lớp sâu, phá huỷ lớp collagen bề mặt tạo dải sụn xơ và sợi, gây tăng ma sát và loét sụn, cho thấy tổn thương nghiêm trọng và tiên lượng phục hồi khó khăn hơn.", "isCorrect": true },
+        { "text": "Khớp đã lộ đầu xương, cần phẫu thuật ngay lập tức.", "isCorrect": false },
+        { "text": "Chỉ có sự tiêu Proteoglycan mà không có tổn thương sợi collagen.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 68 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', Giai đoạn III bao gồm 'Mất bám dính rộng của sợi collagen lớp sâu, gây phá huỷ lớp collagen bề mặt tạo nên những dải sụn xơ và sợi, từ đó tăng ma sát bề mặt, mất trơn nhẵn của khớp, loét sụn.' Điều này cho thấy tổn thương đã khá nghiêm trọng."
+    },
+    {
+      "question": "Trong bối cảnh chẩn đoán rối loạn thái dương hàm, tại sao cần phân biệt há miệng hạn chế do các nguyên nhân nghiêm trọng như uốn ván hay ung thư xâm lấn cơ với há miệng hạn chế do rối loạn chức năng cơ đơn thuần?",
+      "options": [
+        { "text": "Vì tất cả các nguyên nhân gây há miệng hạn chế đều được điều trị giống nhau.", "isCorrect": false },
+        { "text": "Vì há miệng hạn chế do uốn ván hoặc ung thư thường là cấp tính, đe dọa tính mạng hoặc cần điều trị chuyên khoa khẩn cấp, trong khi há miệng hạn chế do rối loạn chức năng cơ thường cần điều trị bảo tồn và vật lý trị liệu.", "isCorrect": true },
+        { "text": "Vì các nguyên nhân nghiêm trọng luôn gây đau dữ dội hơn.", "isCorrect": false },
+        { "text": "Vì chỉ có há miệng hạn chế do uốn ván là có thể chữa khỏi.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 23 của 'Chẩn đoán Rối loạn hệ thống nhai', cần 'phân biệt há miệng hạn chế do các nguyên nhân nghiêm trọng như uốn ván hay ung thư xâm lấn cơ' vì đây là các bệnh lý cần xử trí khẩn cấp hoặc chuyên biệt, khác với há miệng hạn chế do rối loạn chức năng cơ thông thường."
+    },
+    {
+      "question": "Một bệnh nhân than phiền về đau ở khớp thái dương hàm. Khi đánh giá tính chất của đau, bác sĩ sử dụng mô hình SOCRATES. Việc áp dụng mô hình này mang lại lợi ích gì trong chẩn đoán?",
+      "options": [
+        { "text": "Giúp xác định chính xác nguyên nhân gây đau ngay lập tức.", "isCorrect": false },
+        { "text": "Cung cấp một cấu trúc hệ thống để thu thập thông tin chi tiết về đặc điểm, vị trí, cường độ, thời gian, yếu tố tăng/giảm và triệu chứng đi kèm của cơn đau, hỗ trợ chẩn đoán phân biệt và lập kế hoạch điều trị.", "isCorrect": true },
+        { "text": "Chỉ có ích cho việc đánh giá đau cơ.", "isCorrect": false },
+        { "text": "Loại bỏ hoàn toàn yếu tố chủ quan của bệnh nhân.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 32 của 'Chẩn đoán Rối loạn hệ thống nhai', SOCRATES là mô hình để đánh giá tính chất của đau, giúp thu thập thông tin một cách có hệ thống và chi tiết hơn về cơn đau, từ đó hỗ trợ quá trình chẩn đoán."
+    },
+    {
+      "question": "Trong mô hình tương quan các dạng rối loạn cơ nhai, tại sao 'sự suy giảm chức năng hệ thống ức chế xuống' (descending inhibitory system dysfunction) lại là yếu tố quan trọng trong việc chuyển đổi từ đau cơ cấp tính sang mạn tính?",
+      "options": [
+        { "text": "Vì nó làm tăng ngưỡng đau, giúp bệnh nhân chịu đau tốt hơn.", "isCorrect": false },
+        { "text": "Vì nó làm giảm khả năng kiểm soát và điều biến tín hiệu đau ở tủy sống và não, dẫn đến sự khuếch đại cảm nhận đau và duy trì trạng thái đau mạn tính, ngay cả khi nguồn kích thích ban đầu đã giảm.", "isCorrect": true },
+        { "text": "Vì nó chỉ ảnh hưởng đến đau ở vùng mặt mà không ảnh hưởng đến đau toàn thân.", "isCorrect": false },
+        { "text": "Vì nó chỉ liên quan đến yếu tố di truyền, không thể thay đổi.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 29 của 'Chẩn đoán Rối loạn hệ thống nhai', 'Nếu hệ thống này trở nên kém hiệu quả, các xung gây hại đến vỏ não gia tăng dẫn đến cảm nhận đau lớn hơn.' Điều này chính là cơ chế của sự khuếch đại và duy trì đau mạn tính."
+    },
+    {
+      "question": "Một bệnh nhân được chẩn đoán mắc chứng nghiến răng khi ngủ (sleep bruxism). Trong điều trị ban đầu, phương pháp 'Phản hồi sinh học' (Biofeedback) có thể mang lại lợi ích cụ thể nào cho bệnh nhân này, mặc dù nó ít được sử dụng trong thực tế điều trị?",
+      "options": [
+        { "text": "Chữa khỏi hoàn toàn chứng nghiến răng chỉ bằng thiết bị Biofeedback.", "isCorrect": false },
+        { "text": "Giúp bệnh nhân nhận biết và kiểm soát hoạt động cơ hàm không chủ ý của mình trong khi ngủ thông qua tín hiệu phản hồi từ máy ghi điện cơ, từ đó giảm cường độ hoặc tần suất nghiến răng.", "isCorrect": true },
+        { "text": "Thay thế tất cả các phương pháp điều trị khác như máng nhai.", "isCorrect": false },
+        { "text": "Chỉ dùng để chẩn đoán nghiến răng, không có tác dụng điều trị.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 24 của 'Điều trị ban đầu', Phản hồi sinh học 'là một biện pháp giúp thực hiện sự kiểm soát hoạt động của cơ thông qua luyện tập. Việc luyện tập được trợ giúp bằng một máy ghi điện cơ để ghi nhận hoạt động của cơ. Các thiết bị này có ích trong kiểm soát nghiến răng về đêm'."
+    },
+    {
+      "question": "Một bệnh nhân bị đau và há miệng hạn chế do viêm quanh lợi trùm răng khôn (nguồn đau cấp tính). Sau khi nhổ răng và tình trạng viêm giảm, nhưng bệnh nhân vẫn còn cảm giác mỏi và căng cơ. Hiện tượng nào giải thích tốt nhất tình trạng này?",
+      "options": [
+        { "text": "Đau cơ khu trú do ứ đọng axit lactic.", "isCorrect": false },
+        { "text": "Nẹp cơ bảo vệ (Protective co-contraction) đã giảm nhưng vẫn còn các sản phẩm chuyển hóa ứ đọng.", "isCorrect": false },
+        { "text": "Nẹp cơ bảo vệ đã trở thành mãn tính, và dù nguồn đau ban đầu được loại bỏ, tình trạng co thắt cơ và khó chịu vẫn có thể kéo dài do thiếu máu cục bộ kéo dài và hiệu ứng thần kinh trung ương.", "isCorrect": true },
+        { "text": "Bệnh nhân cần phẫu thuật khớp thái dương hàm.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 50 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', 'Nẹp cơ bảo vệ: Có thể xảy ra khi đau khớp hay viêm quanh lợi trùm răng khôn... Các cơ có thể đau và điều này có thể là kết quả của mỏi cơ và thiếu máu cục bộ. Khi loại bỏ nguồn đau, nẹp cơ sẽ giảm.' Tuy nhiên, nếu tình trạng này kéo dài đủ lâu, nó có thể chuyển sang mạn tính (slide 43, 'Tình trạng có thể kéo dài ngay cả sau khi đã loại bỏ nguyên nhân')."
+    },
+    {
+      "question": "Khi tư vấn cho bệnh nhân về việc thay đổi hành vi/thói quen răng miệng, bác sĩ RHM cần có mối quan hệ tốt với chuyên khoa tâm thần. Mục đích chính của việc này *không phải* là gì?",
+      "options": [
+        { "text": "Chuyển toàn bộ bệnh nhân có rối loạn cơ khớp sang chuyên khoa tâm thần để điều trị.", "isCorrect": true },
+        { "text": "Phân biệt những tình trạng cần được thăm khám chuyên khoa tâm thần trước khi thực hiện điều trị RHM.", "isCorrect": false },
+        { "text": "Hiểu rõ mối liên quan phức tạp giữa tâm thần và rối loạn cơ, khớp thái dương hàm, khớp cắn để điều trị toàn diện.", "isCorrect": false },
+        { "text": "Nhận ra rằng stress có thể là yếu tố bệnh sinh nhưng không phải mọi bệnh nhân đều là đối tượng của tâm thần học.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 20 của 'Điều trị ban đầu', bác sĩ RHM cần 'phân biệt những tình trạng cần được thăm khám chuyên khoa tâm thần trước khi thực hiện điều trị', và 'mặc dù nhiều bệnh nhân rối loạn cơ khớp bị một loại stress nào đó, nhưng điều này không có nghĩa họ là đối tượng của tâm thần học và không phải là bệnh nhân của chuyên khoa tâm thần.' Do đó, không phải mục đích là chuyển toàn bộ bệnh nhân sang tâm thần."
+    },
+    {
+      "question": "Trong bối cảnh chẩn đoán RLTDH, tại sao việc xác định 'sự liên tục của cơn đau' lại được coi là yếu tố quan trọng hơn 'thời gian đau' trong việc xác định tình trạng đau mạn tính?",
+      "options": [
+        { "text": "Vì thời gian đau là một khái niệm không rõ ràng.", "isCorrect": false },
+        { "text": "Vì đau có thể kéo dài theo từng đợt, nhưng chỉ khi cơn đau liên tục và dai dẳng thì nó mới thực sự thay đổi cơ chế thần kinh và chuyển sang giai đoạn mạn tính, đòi hỏi phương pháp điều trị khác biệt.", "isCorrect": true },
+        { "text": "Vì đau liên tục thì dễ điều trị hơn đau không liên tục.", "isCorrect": false },
+        { "text": "Thời gian đau là yếu tố duy nhất để chẩn đoán đau mạn tính.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 27 của 'Chẩn đoán Rối loạn hệ thống nhai', 'Tuy nhiên, thời gian đau chưa phải là yếu tố quan trọng nhất trong việc xác định tình trạng mạn tính. Yếu tố quan trọng cần xem xét là sự liên tục của cơn đau.'"
+    },
+    {
+      "question": "Mô hình tương quan các dạng rối loạn cơ nhai chỉ ra rằng 'Yếu tố tác động' có thể trực tiếp dẫn đến 'Nẹp cơ bảo vệ' hoặc 'Đau cơ khu trú'. Sự khác biệt chính giữa hai phản ứng ban đầu này là gì?",
+      "options": [
+        { "text": "Nẹp cơ bảo vệ là có ý thức, còn đau cơ khu trú là không ý thức.", "isCorrect": false },
+        { "text": "Nẹp cơ bảo vệ là một phản xạ co cơ nhằm bảo vệ hệ thống nhai khỏi tổn thương thêm và thường giảm khi loại bỏ nguồn đau, trong khi đau cơ khu trú là đau thực thể của cơ do tổn thương sợi cơ và viêm.", "isCorrect": true },
+        { "text": "Đau cơ khu trú luôn dẫn đến co thắt cơ.", "isCorrect": false },
+        { "text": "Nẹp cơ bảo vệ chỉ xảy ra ở cơ cắn, còn đau cơ khu trú xảy ra ở mọi cơ.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 50 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', nẹp cơ bảo vệ là 'phản xạ co cơ nhằm bảo vệ hệ thống nhai khỏi bị tổn thương thêm do vận động' và giảm khi loại bỏ nguồn đau. Ngược lại, đau cơ khu trú liên quan đến 'tổn thương các sợi cơ, mô liên kết và viêm' (slide 49)."
+    },
+    {
+      "question": "Một bệnh nhân bị hạn chế há miệng sau một chấn thương gián tiếp (ví dụ: chấn thương dạng whiplash). Dựa trên cơ chế bệnh sinh, khả năng cao nhất là tổn thương này ảnh hưởng đến cấu trúc nào của khớp thái dương hàm và cần được đánh giá kỹ?",
+      "options": [
+        { "text": "Chỉ các cơ nâng hàm.", "isCorrect": false },
+        { "text": "Các cấu trúc trong khớp (dây chằng, đĩa khớp) dẫn đến rối loạn nội khớp hoặc viêm khớp, chứ ít hơn là rối loạn cơ.", "isCorrect": true },
+        { "text": "Chỉ các răng cửa.", "isCorrect": false },
+        { "text": "Tuyến nước bọt dưới hàm.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 24 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', chấn thương (đặc biệt là gián tiếp) có 'tác động lớn đến rối loạn trong khớp hơn là những rối loạn cơ'."
+    },
+    {
+      "question": "Trong điều trị ban đầu, việc sử dụng thuốc tê tại chỗ tiêm vào vùng đau hay điểm cò có vai trò chẩn đoán quan trọng nào, ngoài việc giảm đau tạm thời?",
+      "options": [
+        { "text": "Giúp xác định chính xác nguyên nhân của đau là do thần kinh hay cơ.", "isCorrect": false },
+        { "text": "Giúp phân biệt nguồn gốc đau từ khớp hoặc cơ, nếu tiêm vào điểm cò của cơ mà đau giảm, có thể gợi ý nguyên nhân đau là từ cơ đó.", "isCorrect": true },
+        { "text": "Chỉ để giảm đau khi lấy dấu.", "isCorrect": false },
+        { "text": "Không có vai trò chẩn đoán nào.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 11 của 'Điều trị ban đầu', thuốc tê tại chỗ tiêm vào vùng đau hay điểm cò 'cũng là một hỗ trợ chẩn đoán tốt' vì nó giúp xác định nếu việc phong bế thần kinh hoặc làm tê cơ làm giảm đau, từ đó gợi ý nguồn gốc đau."
+    },
+    {
+      "question": "Các bài tập vật lý trị liệu như há miệng có kháng lực dựa vào hiện tượng 'thư giãn phản xạ'. Hiện tượng này hoạt động như thế nào để giúp thư giãn cơ nâng hàm?",
+      "options": [
+        { "text": "Bằng cách làm tăng hoạt động của cơ nâng hàm để chống lại kháng lực.", "isCorrect": false },
+        { "text": "Khi cơ hạ hàm co để chống lại kháng lực, nó đồng thời gây ra ức chế (thư giãn) phản xạ ở các cơ nâng hàm đối diện.", "isCorrect": true },
+        { "text": "Bằng cách gây mỏi cơ để cơ tự thư giãn.", "isCorrect": false },
+        { "text": "Bằng cách kích thích trực tiếp các dây thần kinh cảm giác.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 15 của 'Điều trị ban đầu', 'Quan niệm phổ biến nhất trong các bài tập thư giãn cơ là sự thư giãn phản xạ dựa vào hiện tượng ức chế và kích thích hỗ tương. Bệnh nhân được yêu cầu há miệng có kháng lực... Sự co cơ hạ hàm dẫn đến ức chế (thư dãn) cơ nâng hàm.'"
+    },
+    {
+      "question": "Nếu một bệnh nhân có tiếng kêu khớp thái dương hàm dạng 'Click' khi há miệng và khi ngậm miệng, điều này thường gợi ý tình trạng nào của đĩa khớp và lồi cầu?",
+      "options": [
+        { "text": "Đĩa khớp bị kẹt hoàn toàn, không di chuyển.", "isCorrect": false },
+        { "text": "Lệch đĩa khớp có hồi phục (Disc Displacement with reduction), khi đĩa khớp bật về vị trí bình thường khi há miệng và lại lệch khi ngậm miệng.", "isCorrect": true },
+        { "text": "Đĩa khớp bị dính vào hõm khớp.", "isCorrect": false },
+        { "text": "Thoái hóa khớp nặng, phá hủy cấu trúc khớp.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 15 của 'Phân loại TMD phổ biến nhất (RDC/TMD)', 'DD with reduction' (lệch đĩa có hồi phục) thường gây tiếng click khi há và ngậm."
+    },
+    {
+      "question": "Mô hình 'Nguyên lý Block' trong bệnh sinh của Rối loạn thái dương hàm (slide 41, 'Cơ chế bệnh sinh Rối loạn hệ thống nhai') nhấn mạnh điều gì về sự phức tạp của bệnh lý này?",
+      "options": [
+        { "text": "Bệnh luôn do một yếu tố duy nhất gây ra.", "isCorrect": false },
+        { "text": "Có nhiều yếu tố tác động (yếu tố 1, 2, 3, 4) cùng tương tác và vượt quá 'khả năng chịu đựng' của cơ thể mới dẫn đến biểu hiện triệu chứng lâm sàng.", "isCorrect": true },
+        { "text": "Khả năng chịu đựng của cơ thể là hằng số và không thay đổi.", "isCorrect": false },
+        { "text": "Chỉ các yếu tố di truyền mới quyết định bệnh.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 41 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', mô hình Block minh họa rằng các yếu tố tác động cần phải vượt qua 'khả năng chịu đựng' của cơ thể để gây ra triệu chứng. Điều này cho thấy tính đa yếu tố và ngưỡng biểu hiện bệnh."
+    },
+    {
+      "question": "Một bệnh nhân than phiền về đau vùng hàm mặt và há miệng hạn chế. Bác sĩ thực hiện khám palpation cơ nhai (muscle palpation) trong 5 giây và nhận thấy đau lan ra ngoài vùng cơ được kích thích. Theo cây quyết định chẩn đoán DC/TMD, điều này có thể gợi ý chẩn đoán nào?",
+      "options": [
+        { "text": "Myalgia (đau cơ cục bộ).", "isCorrect": false },
+        { "text": "Myofascial pain with spreading (đau cơ mạc có lan rộng).", "isCorrect": true },
+        { "text": "Arthralgia (đau khớp).", "isCorrect": false },
+        { "text": "Headache attributed to TMD (đau đầu do TMD).", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 12 của 'Chẩn đoán Rối loạn hệ thống nhai' (cây quyết định DC/TMD), nếu khám MM palpation (5 secs) và đau lan ra ngoài vùng cơ, đó là 'Myofascial pain with spreading'."
+    },
+    {
+      "question": "Trong điều trị ban đầu rối loạn thái dương hàm, tại sao việc điều trị triệu chứng và giảm đau tạm thời lại có 'vai trò to lớn', ngay cả khi nguyên nhân đặc hiệu thường không tìm biết được?",
+      "options": [
+        { "text": "Vì giảm đau tạm thời là mục tiêu duy nhất của điều trị.", "isCorrect": false },
+        { "text": "Vì việc giảm đau nhanh chóng giúp cải thiện chất lượng cuộc sống của bệnh nhân, giảm lo lắng, và tạo điều kiện thuận lợi hơn cho việc hợp tác điều trị lâu dài, ngay cả khi nguyên nhân gốc chưa được giải quyết.", "isCorrect": true },
+        { "text": "Vì nó giúp xác định nguyên nhân gây bệnh.", "isCorrect": false },
+        { "text": "Vì rối loạn cơ khớp luôn biến mất mà không cần điều trị gì.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 6 của 'Điều trị ban đầu', 'Đối với đau-loạn năng hệ thống nhai, điều trị triệu chứng và giảm đau tạm thời có vai trò to lớn.' Điều này giúp bệnh nhân thoải mái hơn và hợp tác tốt hơn."
+    },
+    {
+      "question": "Sự khác biệt cơ bản giữa nghiến răng KHI NGỦ và nghiến răng LÚC TỈNH theo đồng thuận quốc tế năm 2013 là gì, liên quan đến đặc điểm sinh học?",
+      "options": [
+        { "text": "Nghiến răng khi ngủ luôn gây ra tiếng động, còn lúc tỉnh thì không.", "isCorrect": false },
+        { "text": "Nghiến răng khi ngủ thường liên quan đến các yếu tố trung ương và chu kỳ giấc ngủ, còn lúc tỉnh thường liên quan đến căng thẳng, cảm xúc, hoặc thói quen.", "isCorrect": true },
+        { "text": "Nghiến răng khi ngủ luôn gây đau, còn lúc tỉnh thì không.", "isCorrect": false },
+        { "text": "Nghiến răng lúc tỉnh không bao giờ gây mòn răng.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 33 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', nghiến răng được chia thành hai nhóm 'KHI NGỦ' và 'LÚC TỈNH' theo đặc điểm liên quan tới sinh học. Dù slide không đi sâu vào cơ chế từng loại, nhưng ngụ ý rằng chúng có cơ chế sinh học khác nhau, thường liên quan đến trạng thái ý thức và các yếu tố kích hoạt khác nhau (ví dụ: căng thẳng ban ngày vs. chu kỳ giấc ngủ ban đêm)."
+    },
+    {
+      "question": "Tại sao việc loại bỏ các vấn đề đau đơn thuần thường *không* loại bỏ được vấn đề trầm cảm ở bệnh nhân đau mạn tính liên quan đến RLTDH?",
+      "options": [
+        { "text": "Vì trầm cảm là một bệnh tâm thần độc lập không liên quan đến đau.", "isCorrect": false },
+        { "text": "Vì trầm cảm là một vấn đề phổ biến ở bệnh nhân đau mạn tính và có mối quan hệ hai chiều phức tạp với đau, cần được giải quyết một cách toàn diện, không chỉ đơn thuần bằng cách giảm đau vật lý.", "isCorrect": true },
+        { "text": "Vì chỉ có thể điều trị trầm cảm bằng thuốc chống trầm cảm mạnh.", "isCorrect": false },
+        { "text": "Vì bệnh nhân đau mạn tính không bao giờ bị trầm cảm.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 30 của 'Chẩn đoán Rối loạn hệ thống nhai', 'Trầm cảm là một vấn đề phổ biến ở bệnh nhân đau mạn tính... Loại bỏ các vấn đề đau đơn thuần không loại bỏ được vấn đề trầm cảm.' Điều này ngụ ý mối quan hệ phức tạp và cần điều trị toàn diện."
+    },
+    {
+      "question": "Một bệnh nhân bị há miệng zic-zac. Dựa trên kiến thức về rối loạn chức năng khớp, nguyên nhân và cơ chế giải thích nào sau đây hợp lý nhất?",
+      "options": [
+        { "text": "Do co thắt cơ nâng hàm hai bên.", "isCorrect": false },
+        { "text": "Thường do một bên khớp bị cản trở hoặc đau trong vận động há miệng, khiến hàm phải 'lách' sang bên đối diện hoặc bên không đau để tiếp tục há.", "isCorrect": true },
+        { "text": "Do yếu cơ hạ hàm.", "isCorrect": false },
+        { "text": "Luôn là dấu hiệu của trật khớp không hồi phục.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 35 của 'Chẩn đoán Rối loạn hệ thống nhai', 'Há miệng zic-zac: Nguyên nhân? Giải thích cơ chế'. Dù không nêu chi tiết cơ chế trong slide, kiến thức lâm sàng phổ biến cho thấy há miệng zic-zac thường liên quan đến một bên khớp bị cản trở hoặc đau, khiến hàm đi đường vòng."
+    },
+    {
+      "question": "Tại sao việc kiểm tra phản ứng của dạ dày và máu là cần thiết khi sử dụng thuốc kháng viêm không steroid (NSAIDs) trong điều trị ban đầu rối loạn thái dương hàm, đặc biệt khi dùng kéo dài?",
+      "options": [
+        { "text": "Vì NSAIDs có thể gây tăng huyết áp.", "isCorrect": false },
+        { "text": "Vì NSAIDs có thể gây tổn thương niêm mạc dạ dày (loét) và ảnh hưởng đến chức năng đông máu, cần theo dõi để tránh biến chứng nghiêm trọng.", "isCorrect": true },
+        { "text": "Vì NSAIDs có thể gây buồn ngủ.", "isCorrect": false },
+        { "text": "Vì NSAIDs chỉ có hiệu quả khi được sử dụng cùng với thuốc bảo vệ dạ dày.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 10 của 'Điều trị ban đầu', 'Cần kiểm tra phản ứng của dạ dày và máu, tránh dùng kéo dài' đối với NSAIDs. Điều này là do tác dụng phụ của thuốc lên hệ tiêu hóa và đông máu."
+    },
+    {
+      "question": "Khả năng kết hợp điều trị bằng y học cổ truyền (châm, cứu, day bấm huyệt) trong điều trị rối loạn thái dương hàm được xem là một biện pháp hỗ trợ và điều trị triệu chứng. Điều này có ý nghĩa gì về vai trò của nó trong phác đồ điều trị toàn diện?",
+      "options": [
+        { "text": "Y học cổ truyền có thể thay thế hoàn toàn các phương pháp điều trị hiện đại.", "isCorrect": false },
+        { "text": "Y học cổ truyền không có vai trò gì đáng kể trong điều trị RLTDH.", "isCorrect": false },
+        { "text": "Nó có thể giúp làm giảm các chứng đau và rối loạn cơ năng, bổ trợ cho các phương pháp điều trị chính, nhưng không giải quyết được nguyên nhân gốc rễ hay các tổn thương cấu trúc phức tạp.", "isCorrect": true },
+        { "text": "Chỉ dùng cho bệnh nhân không đáp ứng với điều trị hiện đại.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 29 của 'Điều trị ban đầu', 'Làm giảm các chứng đau và rối loạn cơ năng là một trong những thế mạnh của y học cổ truyền. Có thể áp dụng các biện pháp châm, cứu, day bấm huyệt...như những biện pháp hỗ trợ và điều trị triệu chứng.' Điều này cho thấy vai trò bổ trợ chứ không thay thế."
+    },
+    {
+      "question": "Trong các bài tập thư giãn cơ, hiện tượng 'ức chế và kích thích hỗ tương' là nguyên lý để làm thư giãn phản xạ cơ. Điều này có ý nghĩa gì trong việc thiết kế bài tập?",
+      "options": [
+        { "text": "Nghĩa là phải đồng thời kích thích và ức chế cùng một cơ để đạt hiệu quả.", "isCorrect": false },
+        { "text": "Nghĩa là khi một nhóm cơ (ví dụ: cơ hạ hàm) co lại mạnh mẽ, nhóm cơ đối vận (ví dụ: cơ nâng hàm) sẽ tự động thư giãn, giúp cải thiện biên độ vận động và giảm đau.", "isCorrect": true },
+        { "text": "Nghĩa là chỉ cần thư giãn một cơ là toàn bộ hệ thống cơ sẽ thư giãn.", "isCorrect": false },
+        { "text": "Nguyên lý này không có ứng dụng trong thực hành lâm sàng.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 15 của 'Điều trị ban đầu', 'Quan niệm phổ biến nhất trong các bài tập thư giãn cơ là sự thư giãn phản xạ dựa vào hiện tượng ức chế và kích thích hỗ tương. Bệnh nhân được yêu cầu há miệng có kháng lực... Sự co cơ hạ hàm dẫn đến ức chế (thư dãn) cơ nâng hàm.'"
+    },
+    {
+      "question": "Việc giảm nồng độ Vitamin D máu được liệt kê là một yếu tố có thể gây 'giảm ngưỡng đau' trong rối loạn khớp thái dương hàm (slide 62, 'Cơ chế bệnh sinh Rối loạn hệ thống nhai'). Dựa trên thông tin này, phát biểu nào sau đây có thể suy luận về vai trò của Vitamin D trong quản lý đau?",
+      "options": [
+        { "text": "Vitamin D chỉ ảnh hưởng đến sức khỏe xương, không liên quan đến đau.", "isCorrect": false },
+        { "text": "Duy trì nồng độ Vitamin D đủ có thể giúp tăng ngưỡng đau, từ đó làm giảm cảm nhận đau ở bệnh nhân, hỗ trợ việc quản lý triệu chứng.", "isCorrect": true },
+        { "text": "Bổ sung Vitamin D có thể chữa khỏi hoàn toàn rối loạn thái dương hàm.", "isCorrect": false },
+        { "text": "Vitamin D làm tăng các phản ứng viêm trong khớp.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 62 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', 'Giảm nồng độ vitamin D máu: giảm ngưỡng đau'. Suy luận logic là duy trì nồng độ Vitamin D đủ có thể giúp tăng ngưỡng đau, cải thiện khả năng chịu đau của bệnh nhân."
+    },
+    {
+      "question": "Mô hình 'Thời gian: Cấp tính -> Mạn tính' trong các mô hình đau cơ nhai (slide 70, 'Cơ chế bệnh sinh Rối loạn hệ thống nhai') chỉ ra điều gì về sự tiến triển của đau cơ?",
+      "options": [
+        { "text": "Tất cả các cơn đau cấp tính đều sẽ trở thành mạn tính theo thời gian.", "isCorrect": false },
+        { "text": "Có một ngưỡng chuyển đổi từ cấp tính sang mạn tính, liên quan đến 'Hiệu ứng thần kinh trung ương' và 'Co thắt cơ' kéo dài, khiến đau trở nên phức tạp và khó điều trị hơn.", "isCorrect": true },
+        { "text": "Chức năng cơ bình thường sẽ tự động giải quyết đau mạn tính.", "isCorrect": false },
+        { "text": "Đau mạn tính chỉ bao gồm đau cơ cục bộ và đau cơ mạc.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 70 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', mô hình cho thấy đau cấp tính có thể dẫn đến mạn tính thông qua 'Hiệu ứng thần kinh trung ương' và các vòng lặp như 'Co thắt cơ', làm phức tạp hóa tình trạng đau."
+    },
+    {
+      "question": "Khi một bệnh nhân than phiền về 'đau cơ sợi' (Fibromyalgia) ở vùng hàm mặt, bác sĩ RHM cần làm gì và tại sao?",
+      "options": [
+        { "text": "Điều trị ngay bằng vật lý trị liệu chuyên sâu.", "isCorrect": false },
+        { "text": "Điều trị ngay bằng thuốc giảm đau mạnh.", "isCorrect": false },
+        { "text": "Cần phân biệt đây là một bệnh lý toàn thân và chuyển điều trị chuyên khoa phù hợp (ví dụ: thấp khớp học, nội khoa) vì nó có thể biểu hiện ở cơ nhai nhưng không phải là rối loạn nguyên phát của hệ thống nhai.", "isCorrect": true },
+        { "text": "Đây là một dạng đau cơ thông thường và có thể điều trị bằng máng nhai.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 53 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai' và slide 22 của 'Chẩn đoán Rối loạn hệ thống nhai', đau cơ sợi (Fibromyalgia) là một 'đau cơ mạn tính toàn thân' và cần 'chuyển điều trị chuyên khoa'."
+    },
+    {
+      "question": "Trong bối cảnh chẩn đoán rối loạn chức năng cơ, tại sao việc 'há miệng zic-zac' lại được coi là một triệu chứng quan trọng cần phân tích cơ chế?",
+      "options": [
+        { "text": "Vì nó là triệu chứng phổ biến nhất của rối loạn chức năng cơ.", "isCorrect": false },
+        { "text": "Vì nó thường gợi ý sự mất đồng bộ hoặc cản trở trong vận động của lồi cầu hoặc cơ nhai ở một bên, buộc hàm phải di chuyển theo đường vòng để tránh điểm cản trở/đau, phản ánh một rối loạn động học phức tạp hơn há miệng hạn chế đơn thuần.", "isCorrect": true },
+        { "text": "Vì nó luôn đi kèm với tiếng kêu khớp.", "isCorrect": false },
+        { "text": "Vì nó chỉ xảy ra khi bệnh nhân đang ăn.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 35 của 'Chẩn đoán Rối loạn hệ thống nhai', 'Há miệng zic-zac: Nguyên nhân? Giải thích cơ chế'. Dù slide không giải thích chi tiết, nhưng việc đặt câu hỏi này ngụ ý rằng nó phản ánh một sự mất đồng bộ hoặc cản trở trong vận động hàm."
+    },
+    {
+      "question": "Một bệnh nhân bị hạn chế há miệng và có cảm giác căng cứng một phần cơ khi sờ, kèm theo đau dữ dội. Dựa vào các dạng đau cơ cấp tính, khả năng cao nhất bệnh nhân đang ở tình trạng nào và đặc điểm nào xác nhận điều đó?",
+      "options": [
+        { "text": "Đau cơ khu trú; không có tiêu chuẩn chẩn đoán rõ ràng.", "isCorrect": false },
+        { "text": "Nẹp cơ bảo vệ; giảm khi loại bỏ nguồn đau.", "isCorrect": false },
+        { "text": "Co thắt cơ (Muscle spasm); có thể phát hiện được cơ co thắt khi sờ, với cảm giác căng cứng một phần hay toàn bộ cơ, gây đau dữ dội.", "isCorrect": true },
+        { "text": "Viêm cơ; có thể sưng nề.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 52 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', 'Co thắt cơ: Tình trạng co cơ không chủ ý và thường gây đau cơ dữ dội... thường có thể phát hiện được cơ co thắt khi sờ, với cảm giác căng cứng một phần hay toàn bộ cơ. Há miệng hạn chế nghiêm trọng'."
+    },
+    {
+      "question": "Sự khác biệt về bệnh sinh giữa 'chấn thương khớp trực tiếp' và 'vi chấn thương khớp do bất thường hoạt động cơ nhai' trong rối loạn khớp thái dương hàm là gì?",
+      "options": [
+        { "text": "Chấn thương trực tiếp luôn gây gãy xương, còn vi chấn thương thì không.", "isCorrect": false },
+        { "text": "Chấn thương trực tiếp (ví dụ: đấm vào mặt) gây ra những thay đổi cấu trúc đột ngột, rõ ràng. Vi chấn thương là những lực nhỏ, lặp đi lặp lại kéo dài (ví dụ: do nghiến răng, tăng trương lực cơ) dẫn đến tổn thương cấu trúc dần dần, tích lũy.", "isCorrect": true },
+        { "text": "Chấn thương trực tiếp chỉ ảnh hưởng đến trẻ em, còn vi chấn thương chỉ ảnh hưởng đến người lớn.", "isCorrect": false },
+        { "text": "Vi chấn thương khớp không thể gây ra bất kỳ tổn thương nào.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 24 và 64 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', chấn thương trực tiếp gây ra 'những thay đổi cấu trúc' đột ngột, trong khi vi chấn thương là do 'tình trạng tăng trương lực cơ quá mức kéo dài' hay hoạt động cận chức năng, dẫn đến tổn thương dần dần (micro trauma)."
+    },
+    {
+      "question": "Trong bối cảnh điều trị ban đầu, tại sao việc 'phân biệt những bệnh nhân có đau đầu và đau vùng mặt mãn tính nhưng không phải do những rối loạn ở hệ thống nhai' lại là một đòi hỏi quan trọng?",
+      "options": [
+        { "text": "Để có thể kê đơn thuốc giảm đau mạnh hơn.", "isCorrect": false },
+        { "text": "Để tránh việc điều trị sai hướng, lãng phí thời gian và nguồn lực, đồng thời đảm bảo bệnh nhân nhận được chẩn đoán và điều trị phù hợp từ chuyên khoa liên quan (ví dụ: thần kinh, tai mũi họng).", "isCorrect": true },
+        { "text": "Để thuyết phục bệnh nhân rằng đau của họ không phải do răng.", "isCorrect": false },
+        { "text": "Vì các bệnh lý khác không cần điều trị.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 4 của 'Điều trị ban đầu', việc phân biệt này là quan trọng để tránh điều trị sai và đảm bảo bệnh nhân được chuyển đúng chuyên khoa nếu nguyên nhân không nằm trong hệ thống nhai."
+    },
+    {
+      "question": "Mối quan hệ giữa căng thẳng xúc cảm (stress) và rối loạn cơ cấp tính được mô tả như thế nào trong bệnh sinh của RLTDH?",
+      "options": [
+        { "text": "Stress là nguyên nhân duy nhất gây ra rối loạn cơ cấp tính.", "isCorrect": false },
+        { "text": "Stress không có ảnh hưởng đến rối loạn cơ.", "isCorrect": false },
+        { "text": "Stress có thể là yếu tố bệnh sinh trong sự phát triển của rối loạn cơ cấp tính, thông qua kích thích trục DĐ-TY-TT và hệ thần kinh tự động, làm tăng cơ lực và phản xạ co cơ toàn bộ bắp cơ.", "isCorrect": true },
+        { "text": "Stress chỉ là hậu quả của rối loạn cơ.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 39 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', Sang chấn tâm lý (stress) có thể kích thích trục DĐ-TY-TT và hệ thần kinh tự động, dẫn đến 'phản xạ co toàn bộ bắp cơ, làm tăng cơ lực'."
+    },
+    {
+      "question": "Trong quá trình tiêu sụn khớp theo Quinn J., nếu một bệnh nhân trải qua 'tiêu Proteoglycan làm mất khả năng hấp thụ lực nén và ma sát, dẫn đến phá vỡ lớp sợi collagen ở sâu, nơi tiếp giáp với xương', điều này tương ứng với giai đoạn nào?",
+      "options": [
+        { "text": "Giai đoạn I.", "isCorrect": false },
+        { "text": "Giai đoạn II.", "isCorrect": true },
+        { "text": "Giai đoạn III.", "isCorrect": false },
+        { "text": "Giai đoạn IV.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 68 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', Giai đoạn II mô tả 'tiêu Proteoglycan làm mất khả năng hấp thụ lực nén và ma sát, dẫn đến phá vỡ lớp sợi collagen ở sâu, nơi tiếp giáp với xương, làm sụn bong khỏi đầu xương ở nhiều vị trí'."
+    },
+    {
+      "question": "Việc chẩn đoán rối loạn thái dương hàm bằng DC/TMD (Diagnostic Criteria for Temporomandibular Disorders) dựa trên sự kết hợp của những công cụ nào để tăng tính khách quan?",
+      "options": [
+        { "text": "Chỉ dựa vào sự quan sát của bác sĩ.", "isCorrect": false },
+        { "text": "Chỉ dựa vào phim X-quang và xét nghiệm máu.", "isCorrect": false },
+        { "text": "Dựa vào bảng câu hỏi triệu chứng (Symptom Questionnaire) được bệnh nhân tự điền và mẫu khám lâm sàng (DC/TMD Examination Form) do người khám thực hiện.", "isCorrect": true },
+        { "text": "Chỉ dựa vào lời khai của người thân bệnh nhân.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 9 và 10 của 'Chẩn đoán Rối loạn hệ thống nhai', DC/TMD dựa vào 'Symptom Questionnaire' (bệnh nhân) và 'DC/TMD Examination Form' (người khám)."
+    },
+    {
+      "question": "Một bệnh nhân đến khám với đau mặt miệng và tiền sử siết chặt răng lặp đi lặp lại. Mặc dù các bằng chứng mới nhất cho thấy 'nguy cơ gây đau do vấn đề khớp cắn là rất thấp', tại sao việc đánh giá khớp cắn vẫn cần được xem xét trong trường hợp này?",
+      "options": [
+        { "text": "Vì khớp cắn luôn là nguyên nhân chính gây đau.", "isCorrect": false },
+        { "text": "Vì những thay đổi khớp cắn có thể là hậu quả của đau hoặc rối loạn cơ chứ không phải nguyên nhân, và việc điều chỉnh khớp cắn không nên quá nhấn mạnh như một giải pháp đơn độc cho đau.", "isCorrect": true },
+        { "text": "Vì siết chặt răng không bao giờ liên quan đến khớp cắn.", "isCorrect": false },
+        { "text": "Vì chỉ có thể điều trị đau cơ bằng cách điều chỉnh khớp cắn.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 46 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', 'Cần lưu ý là những thay đổi khớp cắn có thể là hậu quả chứ không phải là nguyên nhân gây đau. Các bằng chứng mới nhất thực sự cho thấy rằng nguy cơ gây đau do vấn đề khớp cắn là rất thấp'."
+    },
+    {
+      "question": "Tại sao các biện pháp như thôi miên và thiền được coi là 'những biện pháp hỗ trợ' trong điều trị rối loạn thái dương hàm, thay vì là trị liệu chính?",
+      "options": [
+        { "text": "Vì chúng không có bất kỳ tác dụng nào đối với đau.", "isCorrect": false },
+        { "text": "Vì chúng giúp thư giãn, thay đổi nhận thức về đau và kiểm soát cảm giác đau, nhưng chưa có nghiên cứu lâm sàng công bố về lợi ích đặc hiệu trong xử trí loạn năng hệ thống nhai, và chúng thường không giải quyết được nguyên nhân gốc rễ hoặc tổn thương cấu trúc.", "isCorrect": true },
+        { "text": "Vì chúng chỉ có thể dùng cho bệnh nhân không hợp tác.", "isCorrect": false },
+        { "text": "Vì chúng quá phức tạp để bệnh nhân tự thực hiện.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 24 và 27 của 'Điều trị ban đầu', các biện pháp này 'được coi là những biện pháp hỗ trợ, thường không đứng riêng rẽ trong các trị liệu' và 'chưa có nghiên cứu lâm sàng nào được công bố về lợi ích đặc hiệu'."
+    },
+    {
+      "question": "Một bệnh nhân bị đau cơ nhai sau khi há miệng quá mức trong một điều trị nha khoa kéo dài. Đây là dạng đau cơ cấp tính nào và cơ chế chính gây đau là gì?",
+      "options": [
+        { "text": "Co thắt cơ; do tổn thương thần kinh trung ương.", "isCorrect": false },
+        { "text": "Đau cơ khu trú; do căng dãn dây chằng khớp và/hoặc cơ, gây tổn thương sợi cơ và viêm.", "isCorrect": true },
+        { "text": "Viêm cơ; do nhiễm trùng.", "isCorrect": false },
+        { "text": "Nẹp cơ bảo vệ; do đau khớp.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 25 của 'Chẩn đoán Rối loạn hệ thống nhai', 'Há miệng quá mức có thể gây căng dãn dây chằng khớp và/hoặc cơ trong những điều trị nha khoa kéo dài'. Đây là một dạng yếu tố tại chỗ dẫn đến đau cơ khu trú (slide 48, 49 'Cơ chế bệnh sinh Rối loạn hệ thống nhai')."
+    },
+    {
+      "question": "Khi chẩn đoán đau liên quan đến TMD và đau đầu bằng cây quyết định DC/TMD, phát biểu nào sau đây *không chính xác* về quy trình này?",
+      "options": [
+        { "text": "Quy trình bắt đầu bằng việc đánh giá 'Regional pain' và 'Pain modified by jaw movement, function, or parafunction'.", "isCorrect": false },
+        { "text": "Nó bao gồm cả phần khai thác tiền sử (HISTORY) và khám lâm sàng (EXAMINATION).", "isCorrect": false },
+        { "text": "Nó luôn dẫn đến một chẩn đoán duy nhất và không thể có nhiều chẩn đoán đồng thời.", "isCorrect": true },
+        { "text": "Nó bao gồm các bước để loại trừ các chẩn đoán đau khác (Investigate other Pain diagnoses).", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 12 của 'Chẩn đoán Rối loạn hệ thống nhai' (cây quyết định DC/TMD), quy trình này được thiết kế để chuẩn hóa chẩn đoán, nhưng không loại trừ khả năng có nhiều chẩn đoán hoặc cần điều tra thêm các dạng đau khác (Investigate other Pain diagnoses)."
+    },
+    {
+      "question": "Một bệnh nhân bị đau vùng hàm mặt và tiền sử nghiến răng. Điều trị ban đầu bằng thuốc kháng viêm không steroid (NSAIDs) được chỉ định trong 2 tuần. Tại sao không nên dùng thuốc ngủ hay thuốc chống trầm cảm một cách tùy tiện trong trường hợp này?",
+      "options": [
+        { "text": "Vì thuốc ngủ và thuốc chống trầm cảm là những loại thuốc kê đơn đặc biệt.", "isCorrect": false },
+        { "text": "Vì thuốc ngủ có thể gây ỷ lại và không giải quyết được nguồn gốc đau, còn thuốc chống trầm cảm có thể dẫn đến vấn đề tâm thần khi sử dụng dài ngày, không phù hợp cho điều trị ban đầu một cách tùy tiện.", "isCorrect": true },
+        { "text": "Vì NSAIDs đủ mạnh để kiểm soát mọi loại đau.", "isCorrect": false },
+        { "text": "Vì thuốc ngủ và thuốc chống trầm cảm không có tác dụng với đau cơ.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 10 của 'Điều trị ban đầu', 'Tránh dùng thuốc ngủ, vì đau thường kéo dài, bệnh nhân có thể quen thuốc và vẫn kêu đau ngay cả sau khi đau đã hết. Các thuốc chống trầm cảm (anti-depressants) cũng không nên cho, vì đôi khi dẫn đến những vấn đề tâm thần khi sử dụng trong thời gian dài.'"
+    },
+    {
+      "question": "Trong cấu trúc sụn khớp thái dương hàm, sự cân bằng giữa sợi collagen type I và chất cơ bản (nước và proteoglycan) là rất quan trọng. Điều gì xảy ra nếu sợi collagen type I bị tổn thương hoặc mất cân bằng, và hậu quả là gì đối với chức năng khớp?",
+      "options": [
+        { "text": "Sụn khớp trở nên mềm dẻo hơn, tăng khả năng hấp thụ lực.", "isCorrect": false },
+        { "text": "Sụn khớp sẽ mất khả năng chịu ma sát cao và hấp thụ lực nén ép kém, dẫn đến tăng ma sát bề mặt, mất trơn nhẵn của khớp, và nguy cơ loét sụn.", "isCorrect": true },
+        { "text": "Chỉ gây đau mà không ảnh hưởng đến chức năng khớp.", "isCorrect": false },
+        { "text": "Sợi collagen type I không có vai trò quan trọng trong sụn khớp.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 65 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai', 'Sợi collagen type 1 - chịu ma sát cao; hấp thụ lực nén ép kém.' Khi có sự mất cân bằng hoặc tổn thương, chức năng này sẽ bị ảnh hưởng, dẫn đến các vấn đề đã nêu trong các giai đoạn tiêu sụn khớp (slide 68)."
+    },
+    {
+      "question": "Tại sao 'chế độ ăn uống' và 'giảm chơi các môn thể thao có thể dẫn đến việc cắn chặt răng' được khuyến nghị trong điều trị ban đầu, ngay cả khi chúng không phải là phương pháp điều trị chính cho rối loạn thái dương hàm?",
+      "options": [
+        { "text": "Đây là những lời khuyên chung, không có cơ sở khoa học.", "isCorrect": false },
+        { "text": "Để loại bỏ các yếu tố nguy cơ tại chỗ và hoạt động cận chức năng gây ra vi chấn thương hoặc tăng căng thẳng cho hệ thống nhai, từ đó hỗ trợ giảm triệu chứng và ngăn ngừa tái phát.", "isCorrect": true },
+        { "text": "Chỉ để làm bệnh nhân cảm thấy được quan tâm hơn.", "isCorrect": false },
+        { "text": "Để giảm cân cho bệnh nhân.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 11 của 'Điều trị ban đầu', các lời khuyên này nhằm 'giảm chơi các môn thể thao có thể dẫn đến việc cắn chặt răng' và 'tránh thức ăn cứng hoặc dai', trực tiếp loại bỏ các yếu tố gây căng thẳng/vi chấn thương cho hệ thống nhai."
+    },
+    {
+      "question": "Trong phân loại rối loạn khớp thái dương hàm (TMD) theo AAOP, tại sao 'Subluxation' (Bán trật khớp) và 'Closed dislocation' (Trật khớp kín) được xếp vào cùng một nhóm 'Hypermobility disorders' (Rối loạn tăng vận động), dù chúng có biểu hiện khác nhau?",
+      "options": [
+        { "text": "Vì cả hai đều là dạng trật khớp.", "isCorrect": false },
+        { "text": "Vì cả hai đều liên quan đến sự di động quá mức của lồi cầu ra khỏi hõm khớp, dù ở mức độ khác nhau (bán trật là một phần, trật khớp kín là hoàn toàn nhưng có thể tự giảm hoặc giảm bởi bệnh nhân).", "isCorrect": true },
+        { "text": "Vì chúng chỉ gây ra tiếng kêu khớp mà không gây đau.", "isCorrect": false },
+        { "text": "Chúng thực chất là các bệnh lý riêng biệt và không nên xếp chung nhóm.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 13 của 'Cơ chế bệnh sinh Rối loạn hệ thống nhai' (AAOP Taxonomy for TMD), Subluxation và Closed dislocation (trong 'Hypermobility disorders') đều liên quan đến sự di động bất thường của khớp, thể hiện qua việc lồi cầu vượt qua lồi khớp."
+    },
+    {
+      "question": "Việc đánh giá 'Sức khỏe toàn thân' và 'Tiền sử bệnh về sức khỏe toàn thân và răng hàm mặt' là một phần quan trọng của khám lâm sàng rối loạn hệ thống nhai. Điều này giúp bác sĩ RHM nhận biết điều gì?",
+      "options": [
+        { "text": "Chỉ để kiểm tra xem bệnh nhân có đủ điều kiện phẫu thuật hay không.", "isCorrect": false },
+        { "text": "Để phát hiện các yếu tố toàn thân (như bệnh lý cấp tính, nhiễm virus, khả năng đề kháng miễn dịch, hay bệnh lý tuyến giáp, trầm cảm) có thể ảnh hưởng hoặc là nguyên nhân của rối loạn hệ thống nhai, từ đó đưa ra chẩn đoán và kế hoạch điều trị toàn diện.", "isCorrect": true },
+        { "text": "Chỉ để xem bệnh nhân có sử dụng thuốc hay không.", "isCorrect": false },
+        { "text": "Không liên quan đến chẩn đoán rối loạn hệ thống nhai.", "isCorrect": false }
+      ],
+      "explanation": "Theo slide 3 và 26 của 'Chẩn đoán Rối loạn hệ thống nhai', các yếu tố toàn thân như bệnh lý cấp tính, nhiễm virus, khả năng đề kháng miễn dịch, và yếu tố tâm lý có thể ảnh hưởng đến RLHTN, do đó việc đánh giá tổng quát là cần thiết."
+    }
+  ]
+  

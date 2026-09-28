@@ -1,0 +1,1162 @@
+[
+    {
+      "question": "Móc trong phục hình tháo lắp từng phần (PHTLTP) được định nghĩa là gì?",
+      "options": [
+        {"text": "Là phần nền nhựa bao phủ sống hàm", "isCorrect": false},
+        {"text": "Là thành phần liên kết với răng trụ để giữ vững hàm giả và giảm lực nén lên mô", "isCorrect": true},
+        {"text": "Là phần răng giả thay thế các răng đã mất", "isCorrect": false},
+        {"text": "Là thanh kim loại nối hai bên cung hàm", "isCorrect": false}
+      ],
+      "explanation": "Móc là thành phần liên kết với răng trụ, có nhiệm vụ giữ vững hàm giả theo các chiều và giảm tối đa lực nén lên răng trụ, niêm mạc."
+    },
+    {
+      "question": "Nhiệm vụ chính của móc là giữ vững hàm giả theo những chiều nào?",
+      "options": [
+        {"text": "Chỉ chiều trên - dưới", "isCorrect": false},
+        {"text": "Chỉ chiều ngoài - trong", "isCorrect": false},
+        {"text": "Các chiều ngoài - trong và trên - dưới", "isCorrect": true},
+        {"text": "Chỉ chiều trước - sau", "isCorrect": false}
+      ],
+      "explanation": "Móc có nhiệm vụ giữ vững hàm giả trong các chiều ngoài-trong và trên-dưới."
+    },
+    {
+      "question": "Cấu tạo cơ bản của một cái móc gồm bao nhiêu thành phần chính?",
+      "options": [
+        {"text": "2 phần: Tay và đuôi", "isCorrect": false},
+        {"text": "3 phần: Tay móc, vai móc và đuôi móc", "isCorrect": true},
+        {"text": "4 phần: Tay, vai, đuôi và tựa", "isCorrect": false},
+        {"text": "1 phần đúc nguyên khối", "isCorrect": false}
+      ],
+      "explanation": "Cấu tạo móc gồm 3 phần chính: tay móc, vai móc và đuôi móc."
+    },
+    {
+      "question": "Tay móc (Retentive arm) có chức năng chính là gì?",
+      "options": [
+        {"text": "Dùng để nâng đỡ hàm", "isCorrect": false},
+        {"text": "Là phần giữ (rétention) giúp giữ vững hàm giả", "isCorrect": true},
+        {"text": "Dùng để nối các móc với nhau", "isCorrect": false},
+        {"text": "Dùng để chứa thức ăn", "isCorrect": false}
+      ],
+      "explanation": "Tay móc là bộ phận thực hiện chức năng bám giữ (retention) để hàm không bị sút."
+    },
+    {
+      "question": "Yêu cầu kỹ thuật quan trọng nhất đối với tay móc là gì?",
+      "options": [
+        {"text": "Phải thật cứng chắc không co giãn", "isCorrect": false},
+        {"text": "Cần có độ đàn hồi tốt", "isCorrect": true},
+        {"text": "Phải làm bằng nhựa", "isCorrect": false},
+        {"text": "Phải có màu vàng", "isCorrect": false}
+      ],
+      "explanation": "Tay móc cần đàn hồi tốt để có thể chui qua đường vòng lớn nhất và đi vào vùng lẹm."
+    },
+    {
+      "question": "Đối với răng hàm dưới, tay móc trong thường nằm ở vị trí nào để chống lún?",
+      "options": [
+        {"text": "Dưới đường vòng lớn nhất (ĐVLN)", "isCorrect": false},
+        {"text": "Trên đường vòng lớn nhất (ĐVLN)", "isCorrect": true},
+        {"text": "Nằm ngay trên mặt nhai", "isCorrect": false},
+        {"text": "Nằm ở chóp răng", "isCorrect": false}
+      ],
+      "explanation": "Ở răng dưới, tay móc trong nằm trên ĐVLN để ngăn không cho hàm giả lún xuống niêm mạc."
+    },
+    {
+      "question": "Ở răng hàm dưới, tay móc ngoài nằm ở đâu để ngăn hàm giả bật lên?",
+      "options": [
+        {"text": "Trên đường vòng lớn nhất (ĐVLN)", "isCorrect": false},
+        {"text": "Dưới đường vòng lớn nhất (ĐVLN)", "isCorrect": true},
+        {"text": "Nằm ở gót răng", "isCorrect": false},
+        {"text": "Nằm ở rãnh giữa", "isCorrect": false}
+      ],
+      "explanation": "Ở răng dưới, tay móc ngoài nằm dưới ĐVLN để tạo lực giữ, không cho hàm bị bật ra."
+    },
+    {
+      "question": "Quy tắc đặt tay móc ở răng hàm trên so với răng hàm dưới như thế nào?",
+      "options": [
+        {"text": "Giống hệt nhau", "isCorrect": false},
+        {"text": "Ngược lại hoàn toàn", "isCorrect": true},
+        {"text": "Không có quy tắc cố định", "isCorrect": false},
+        {"text": "Chỉ dùng tay móc ngoài", "isCorrect": false}
+      ],
+      "explanation": "Vị trí tay móc trong/ngoài ở răng trên sẽ ngược lại so với răng dưới để đảm bảo chức năng chống lún và lưu giữ."
+    },
+    {
+      "question": "Vai móc (Encirclement) có nhiệm vụ gì?",
+      "options": [
+        {"text": "Lưu giữ hàm không bị rơi", "isCorrect": false},
+        {"text": "Giúp giữ vững hàm giả theo chiều ngoài-trong (phần ôm)", "isCorrect": true},
+        {"text": "Cố định vào nền nhựa", "isCorrect": false},
+        {"text": "Mài mòn răng trụ", "isCorrect": false}
+      ],
+      "explanation": "Vai móc đóng vai trò là phần ôm lấy răng trụ, giúp ổn định hàm theo chiều ngang."
+    },
+    {
+      "question": "Vai móc thường nằm ở vị trí nào so với đường vòng lớn nhất?",
+      "options": [
+        {"text": "Cách xa ĐVLN về phía nướu", "isCorrect": false},
+        {"text": "Đi sát đường vòng lớn nhất", "isCorrect": true},
+        {"text": "Nằm hoàn toàn dưới vùng lẹm", "isCorrect": false},
+        {"text": "Nằm trên mặt nhai", "isCorrect": false}
+      ],
+      "explanation": "Vai móc thường đi sát đường vòng lớn nhất và là phần kết nối giữa tay móc và đuôi móc."
+    },
+    {
+      "question": "Đuôi móc có nhiệm vụ gì trong cấu tạo phục hình?",
+      "options": [
+        {"text": "Ôm lấy thân răng", "isCorrect": false},
+        {"text": "Tạo lực đàn hồi", "isCorrect": false},
+        {"text": "Là phần nâng đỡ (support), được chôn kín và lưu giữ trong nền hàm", "isCorrect": true},
+        {"text": "Dùng để đánh bóng", "isCorrect": false}
+      ],
+      "explanation": "Đuôi móc là phần được cố định chắc chắn bên trong nền nhựa của hàm giả."
+    },
+    {
+      "question": "Phân loại móc theo hình thể và cách chế tạo gồm những loại nào?",
+      "options": [
+        {"text": "Móc bản, Móc dây tròn, Móc đúc", "isCorrect": true},
+        {"text": "Móc nhựa, Móc sứ, Móc sắt", "isCorrect": false},
+        {"text": "Móc cứng và Móc dẻo", "isCorrect": false},
+        {"text": "Móc đơn và Móc đôi", "isCorrect": false}
+      ],
+      "explanation": "Móc được phân thành 3 loại chính: móc bản, móc dây tròn (dây uốn) và móc đúc."
+    },
+    {
+      "question": "Tại sao móc bản (Plate hook) ngày nay không còn được sử dụng?",
+      "options": [
+        {"text": "Vì quá đắt tiền", "isCorrect": false},
+        {"text": "Khó ôm sát răng, dễ gây tổn thương thân răng và khó vệ sinh gây sâu răng", "isCorrect": true},
+        {"text": "Vì nó làm bằng nhựa dễ gãy", "isCorrect": false},
+        {"text": "Vì nó quá nhỏ bệnh nhân dễ nuốt", "isCorrect": false}
+      ],
+      "explanation": "Móc bản có nhiều nhược điểm về cơ học và vệ sinh nên đã bị thay thế bởi các loại móc hiện đại hơn."
+    },
+    {
+      "question": "Móc dây tròn (móc dây uốn) thường được làm bằng hợp kim gì?",
+      "options": [
+        {"text": "Vàng và bạc", "isCorrect": false},
+        {"text": "Cobalt - Chrome - Nickel", "isCorrect": true},
+        {"text": "Nhôm và đồng", "isCorrect": false},
+        {"text": "Chì và thiếc", "isCorrect": false}
+      ],
+      "explanation": "Hợp kim Co-Cr-Ni cung cấp độ cứng và độ đàn hồi phù hợp cho móc dây uốn."
+    },
+    {
+      "question": "Tiết diện của móc dây tròn thường có hình dạng gì?",
+      "options": [
+        {"text": "Hình vuông", "isCorrect": false},
+        {"text": "Hình tam giác", "isCorrect": false},
+        {"text": "Hình tròn hay nửa tròn", "isCorrect": true},
+        {"text": "Hình dẹt phẳng", "isCorrect": false}
+      ],
+      "explanation": "Móc dây uốn có tiết diện phổ biến là hình tròn hoặc bán nguyệt."
+    },
+    {
+      "question": "Có bao nhiêu kích thước (đường kính) dây móc thường được sử dụng trong PHTLTP nền nhựa?",
+      "options": [
+        {"text": "Chỉ 1 loại 1.0mm", "isCorrect": false},
+        {"text": "Từ 0.5mm đến 1.0mm", "isCorrect": true},
+        {"text": "Từ 2.0mm đến 5.0mm", "isCorrect": false},
+        {"text": "Dưới 0.1mm", "isCorrect": false}
+      ],
+      "explanation": "Tài liệu liệt kê các kích cỡ: 0.5, 0.6, 0.7, 0.8, 0.9, 1.0 mm."
+    },
+    {
+      "question": "Móc đúc thường được sử dụng chủ yếu cho loại phục hình nào?",
+      "options": [
+        {"text": "Hàm nhựa tháo lắp đơn thuần", "isCorrect": false},
+        {"text": "Hàm khung kim loại (Cast RPD)", "isCorrect": true},
+        {"text": "Cầu răng sứ cố định", "isCorrect": false},
+        {"text": "Răng giả tức thì", "isCorrect": false}
+      ],
+      "explanation": "Móc đúc được đúc liền với khung sườn của phục hình hàm khung."
+    },
+    {
+      "question": "Hệ thống móc Ney bao gồm các loại móc đúc nào?",
+      "options": [
+        {"text": "Móc Akers, móc chữ T, móc vòng", "isCorrect": false},
+        {"text": "Móc hỗn hợp 1 và 2, móc tác dụng phía sau", "isCorrect": false},
+        {"text": "Móc tác dụng phía sau ngược", "isCorrect": false},
+        {"text": "Tất cả các ý trên", "isCorrect": true}
+      ],
+      "explanation": "Hệ thống Ney là một bộ các thiết kế móc đúc kinh điển được sử dụng trong hàm khung."
+    },
+    {
+      "question": "Kích thước 0.01 inch của đầu đo độ lẹm tương ứng với phần nào của móc đúc?",
+      "options": [
+        {"text": "Đuôi móc", "isCorrect": false},
+        {"text": "Phần lưu giữ (Retentive arm)", "isCorrect": true},
+        {"text": "Tựa mặt nhai", "isCorrect": false},
+        {"text": "Thanh nối chính", "isCorrect": false}
+      ],
+      "explanation": "Phần lưu giữ của móc đúc thường được thiết kế bám vào vùng lẹm 0.01 inch."
+    },
+    {
+      "question": "Móc Akers (circlet clasp) còn được gọi là gì?",
+      "options": [
+        {"text": "Móc 1", "isCorrect": true},
+        {"text": "Móc 2", "isCorrect": false},
+        {"text": "Móc T", "isCorrect": false},
+        {"text": "Móc R.P.I", "isCorrect": false}
+      ],
+      "explanation": "Trong hệ thống Ney, móc Akers là loại móc cơ bản nhất thường gọi là móc số 1."
+    },
+    {
+      "question": "Móc thanh (gingivally approaching clasps) bao gồm những hình dạng nào?",
+      "options": [
+        {"text": "Chữ I, chữ T, chữ Y", "isCorrect": true},
+        {"text": "Chữ O, chữ X, chữ Z", "isCorrect": false},
+        {"text": "Chữ A, chữ B, chữ C", "isCorrect": false},
+        {"text": "Hình xoắn ốc", "isCorrect": false}
+      ],
+      "explanation": "Móc thanh tiếp cận vùng lẹm từ phía nướu và có các dạng chữ I, T, Y hoặc 1/2 chữ T."
+    },
+    {
+      "question": "Đặc điểm của móc thanh so với các loại móc khác là gì?",
+      "options": [
+        {"text": "Cứng chắc hơn nhiều", "isCorrect": false},
+        {"text": "Thẩm mỹ hơn nhưng yếu hơn", "isCorrect": true},
+        {"text": "Dễ tháo lắp nhất", "isCorrect": false},
+        {"text": "Chỉ làm bằng nhựa", "isCorrect": false}
+      ],
+      "explanation": "Móc thanh được ưa chuộng nhờ tính thẩm mỹ nhưng độ vững ổn thường kém hơn móc vòng."
+    },
+    {
+      "question": "Loại móc nào sau đây thuộc nhóm 'Móc thông dụng khác' được liệt kê?",
+      "options": [
+        {"text": "Nally-Martinet", "isCorrect": false},
+        {"text": "Bonwill", "isCorrect": false},
+        {"text": "R.P.I", "isCorrect": false},
+        {"text": "Tất cả các ý trên", "isCorrect": true}
+      ],
+      "explanation": "Đây là các thiết kế móc chuyên biệt dùng cho các trường hợp lâm sàng khác nhau."
+    },
+    {
+      "question": "Móc đơn dây tròn một tay thường được sử dụng nhất trong trường hợp nào?",
+      "options": [
+        {"text": "Hàm khung kim loại đắt tiền", "isCorrect": false},
+        {"text": "Hàm giả tháo lắp từng phần nền nhựa", "isCorrect": true},
+        {"text": "Cấy ghép Implant", "isCorrect": false},
+        {"text": "Niềng răng", "isCorrect": false}
+      ],
+      "explanation": "Móc dây uốn một tay là loại móc phổ biến và đơn giản nhất cho hàm nhựa."
+    },
+    {
+      "question": "Nhược điểm của móc đơn một tay là gì?",
+      "options": [
+        {"text": "Quá cứng", "isCorrect": false},
+        {"text": "Chỉ có tác dụng một chiều", "isCorrect": true},
+        {"text": "Làm răng bị đen", "isCorrect": false},
+        {"text": "Dễ bị tan trong nước bọt", "isCorrect": false}
+      ],
+      "explanation": "Vì chỉ có một tay móc nên nó tạo lực đẩy theo một hướng, cần có móc đối diện ở răng trụ khác để cân bằng."
+    },
+    {
+      "question": "Cấu tạo móc đơn dây tròn một tay bao gồm những phần nào?",
+      "options": [
+        {"text": "Một tay móc ôm phía ngoài, vai móc ở mặt tiếp giáp, đuôi móc trong nền hàm", "isCorrect": true},
+        {"text": "Hai tay móc hai bên", "isCorrect": false},
+        {"text": "Không có đuôi móc", "isCorrect": false},
+        {"text": "Chỉ có phần tựa mặt nhai", "isCorrect": false}
+      ],
+      "explanation": "Đây là cấu trúc chuẩn của móc 1 tay cho hàm nhựa."
+    },
+    {
+      "question": "Móc đơn dây tròn hai tay thường được đặt trên những răng nào?",
+      "options": [
+        {"text": "Răng cửa giữa", "isCorrect": false},
+        {"text": "Răng nanh", "isCorrect": false},
+        {"text": "Răng hàm lớn trong cùng bị ngả lưỡi", "isCorrect": true},
+        {"text": "Răng sữa", "isCorrect": false}
+      ],
+      "explanation": "Thiết kế 2 tay (trong và ngoài) giúp giữ vững và ổn định tốt cho các răng cối bị nghiêng vào phía lưỡi."
+    },
+    {
+      "question": "Vị trí tay trong và tay ngoài của móc đơn hai tay so với đường vòng lớn nhất là?",
+      "options": [
+        {"text": "Cả hai đều dưới ĐVLN", "isCorrect": false},
+        {"text": "Cả hai đều trên ĐVLN", "isCorrect": false},
+        {"text": "Tay ngoài dưới ĐVLN, tay trong trên ĐVLN", "isCorrect": true},
+        {"text": "Tay ngoài trên ĐVLN, tay trong dưới ĐVLN", "isCorrect": false}
+      ],
+      "explanation": "Tay ngoài đóng vai trò lưu giữ (dưới ĐVLN), tay trong đóng vai trò đối kháng/chống lún (trên ĐVLN)."
+    },
+    {
+      "question": "Móc Steinhausen là loại móc dây uốn có thêm thành phần nào đặc biệt?",
+      "options": [
+        {"text": "Móc bằng vàng", "isCorrect": false},
+        {"text": "Một tựa trên mặt nhai giúp hàm không bị lún", "isCorrect": true},
+        {"text": "Phần lưới kim loại", "isCorrect": false},
+        {"text": "Tay móc bằng nhựa dẻo", "isCorrect": false}
+      ],
+      "explanation": "Móc Steinhausen là cải tiến của móc dây uốn bằng việc thêm phần tựa mặt nhai."
+    },
+    {
+      "question": "Khuyết điểm của móc Steinhausen là gì?",
+      "options": [
+        {"text": "Nó quá nặng", "isCorrect": false},
+        {"text": "Phần tựa uốn từ dây nên dễ gãy và dễ gây tổn thương răng", "isCorrect": true},
+        {"text": "Khó làm hơn móc đúc", "isCorrect": false},
+        {"text": "Bệnh nhân không tháo được", "isCorrect": false}
+      ],
+      "explanation": "Dây thép uốn khi làm tựa mặt nhai thường không đủ độ bền và có thể gây lún ép răng trụ."
+    },
+    {
+      "question": "Móc kép dây tròn còn được gọi là loại móc gì?",
+      "options": [
+        {"text": "Móc yên ngựa", "isCorrect": false},
+        {"text": "Móc khuyết áo", "isCorrect": true},
+        {"text": "Móc mũi giáo", "isCorrect": false},
+        {"text": "Móc R.P.I", "isCorrect": false}
+      ],
+      "explanation": "Đây là tên gọi hình tượng của loại móc có hai sợi dây đi song song."
+    },
+    {
+      "question": "Cấu tạo của móc kép dây tròn có điểm gì khác biệt?",
+      "options": [
+        {"text": "Có 4 tay móc", "isCorrect": false},
+        {"text": "Dùng sợi dây kép thay vì dây đơn (một trên, một dưới ĐVLN)", "isCorrect": true},
+        {"text": "Làm bằng sứ", "isCorrect": false},
+        {"text": "Gắn trực tiếp vào xương", "isCorrect": false}
+      ],
+      "explanation": "Móc kép sử dụng hai đường dây uốn để tăng cường cả tính lưu giữ và tính ổn định."
+    },
+    {
+      "question": "Móc kép thường được chỉ định dùng cho răng nào?",
+      "options": [
+        {"text": "Răng cửa lung lay", "isCorrect": false},
+        {"text": "Răng cối bị nghiêng hoặc bị yếu", "isCorrect": true},
+        {"text": "Răng nanh", "isCorrect": false},
+        {"text": "Răng giả", "isCorrect": false}
+      ],
+      "explanation": "Sử dụng cho răng cối (RC) nghiêng hoặc yếu để phân phối lực tốt hơn."
+    },
+    {
+      "question": "Đặc điểm cấu tạo của 'Móc với' là gì?",
+      "options": [
+        {"text": "Chỉ ôm 1/2 răng", "isCorrect": false},
+        {"text": "Tay móc ôm mặt ngoài của hai răng kế tiếp nhau", "isCorrect": true},
+        {"text": "Có đầu nhọn như mũi giáo", "isCorrect": false},
+        {"text": "Nằm hoàn toàn trong kẽ răng", "isCorrect": false}
+      ],
+      "explanation": "Móc với 'với' sang răng lân cận để mượn lực nâng đỡ."
+    },
+    {
+      "question": "Móc với được sử dụng hiệu quả nhất trong trường hợp nào?",
+      "options": [
+        {"text": "Răng trụ lung lay nhiều (độ 2, độ 3) cần dàn đều lực", "isCorrect": true},
+        {"text": "Bệnh nhân muốn hàm giả nhẹ", "isCorrect": false},
+        {"text": "Mất răng cửa đơn lẻ", "isCorrect": false},
+        {"text": "Răng trụ quá khỏe", "isCorrect": false}
+      ],
+      "explanation": "Khi răng giới hạn bị yếu, móc với sẽ giúp chuyển một phần lực sang răng trụ bên cạnh khỏe hơn."
+    },
+    {
+      "question": "Móc Jacson còn được gọi là loại móc gì?",
+      "options": [
+        {"text": "Móc đầu bi", "isCorrect": false},
+        {"text": "Móc yên ngựa", "isCorrect": true},
+        {"text": "Móc Ney", "isCorrect": false},
+        {"text": "Móc chữ I", "isCorrect": false}
+      ],
+      "explanation": "Móc Jackson có thiết kế băng qua mặt nhai ở cả hai bên răng, giống như cái yên ngựa."
+    },
+    {
+      "question": "Cấu tạo của móc Jacson bao gồm bộ phận nào?",
+      "options": [
+        {"text": "Tay ngoài nối tay trong, băng qua hai mặt bên thân răng trụ", "isCorrect": true},
+        {"text": "Chỉ có một tay ở mặt má", "isCorrect": false},
+        {"text": "Đầu móc tròn như viên bi", "isCorrect": false},
+        {"text": "Uốn khúc hình chữ Z", "isCorrect": false}
+      ],
+      "explanation": "Móc này ôm trọn chu vi răng trụ thông qua việc băng qua cả hai mặt tiếp giáp (gần và xa)."
+    },
+    {
+      "question": "Móc Jacson thường dùng cho trường hợp nào?",
+      "options": [
+        {"text": "Răng trụ đơn độc giới hạn khoảng mất răng gần và xa", "isCorrect": true},
+        {"text": "Chỉ dành cho răng trẻ em", "isCorrect": false},
+        {"text": "Răng bị sâu lớn", "isCorrect": false},
+        {"text": "Khi vòm miệng quá hẹp", "isCorrect": false}
+      ],
+      "explanation": "Răng đơn độc giữa hai khoảng mất răng rất thích hợp để đặt móc Jacson để bám giữ chắc chắn."
+    },
+    {
+      "question": "Móc mũi giáo (Schwarz) được cấu tạo như thế nào?",
+      "options": [
+        {"text": "Ôm 2 răng liền nhau, phần móc giữa khe răng có hình mũi giáo", "isCorrect": true},
+        {"text": "Có 3 tay móc", "isCorrect": false},
+        {"text": "Làm bằng nhựa trong suốt", "isCorrect": false},
+        {"text": "Gắn vào mặt nhai bằng keo", "isCorrect": false}
+      ],
+      "explanation": "Thiết kế mũi giáo chui vào kẽ răng để tạo lực lưu giữ cơ học."
+    },
+    {
+      "question": "Chỉ định của móc Schwarz (mũi giáo) là gì?",
+      "options": [
+        {"text": "Răng trụ quá ngắn", "isCorrect": false},
+        {"text": "Cần thẩm mỹ, không muốn lộ móc, vùng không gian hạn chế", "isCorrect": true},
+        {"text": "Chỉ dùng cho răng hàm lớn dưới", "isCorrect": false},
+        {"text": "Dùng cho răng bị mòn mặt nhai", "isCorrect": false}
+      ],
+      "explanation": "Móc mũi giáo khu trú trong kẽ răng nên ít lộ kim loại, đảm bảo thẩm mỹ."
+    },
+    {
+      "question": "Móc đầu bi (Ball clasps) có cấu tạo phần lưu giữ như thế nào?",
+      "options": [
+        {"text": "Đầu móc uốn khúc", "isCorrect": false},
+        {"text": "Đầu móc được uốn tròn và nằm ở phần lõm giữa hai răng", "isCorrect": true},
+        {"text": "Đầu móc nhọn sắc", "isCorrect": false},
+        {"text": "Có hình chữ T", "isCorrect": false}
+      ],
+      "explanation": "Đầu bi tròn lọt vào hố kẽ răng để giữ hàm."
+    },
+    {
+      "question": "Vai móc của móc đầu bi được đặt ở vị trí nào?",
+      "options": [
+        {"text": "Dưới nướu", "isCorrect": false},
+        {"text": "Vắt qua kẽ răng, phía trên mặt nhai", "isCorrect": true},
+        {"text": "Trong tủy răng", "isCorrect": false},
+        {"text": "Nằm ngang ở cổ răng", "isCorrect": false}
+      ],
+      "explanation": "Dây móc đi từ kẽ răng vắt sang để kết nối với nền hàm."
+    },
+    {
+      "question": "Móc Adam (Adams clasps) có đặc điểm cấu tạo tương tự loại móc nào?",
+      "options": [
+        {"text": "Móc Akers", "isCorrect": false},
+        {"text": "Móc Jackson nhưng đoạn vòng mặt ngoài uốn khúc để giảm lực nén", "isCorrect": true},
+        {"text": "Móc mũi giáo", "isCorrect": false},
+        {"text": "Móc R.P.I", "isCorrect": false}
+      ],
+      "explanation": "Móc Adam là một biến thể của Jackson, rất phổ biến trong khí cụ chỉnh nha và hàm giả tháo lắp từng phần."
+    },
+    {
+      "question": "Vật liệu làm móc dây phải đạt yêu cầu về độc tính như thế nào?",
+      "options": [
+        {"text": "Không được chứa sắt", "isCorrect": false},
+        {"text": "Không ảnh hưởng môi trường miệng, không gây độc mãn tính", "isCorrect": true},
+        {"text": "Phải tan dần theo thời gian", "isCorrect": false},
+        {"text": "Làm răng bị đổi màu đen", "isCorrect": false}
+      ],
+      "explanation": "Tính tương hợp sinh học là bắt buộc đối với mọi vật liệu nha khoa đưa vào miệng."
+    },
+    {
+      "question": "Tại sao diện tiếp xúc giữa móc và răng trụ cần phải nhỏ?",
+      "options": [
+        {"text": "Để móc nhẹ hơn", "isCorrect": false},
+        {"text": "Để dễ vệ sinh và hạn chế đọng thức ăn", "isCorrect": true},
+        {"text": "Để móc dễ gãy", "isCorrect": false},
+        {"text": "Để răng không bị đau", "isCorrect": false}
+      ],
+      "explanation": "Móc tròn láng và diện tiếp xúc nhỏ giúp giảm nguy cơ sâu răng trụ."
+    },
+    {
+      "question": "Trạng thái của móc khi hàm giả ở tư thế nghỉ (không ăn nhai) nên như thế nào?",
+      "options": [
+        {"text": "Phải bóp thật chặt vào răng", "isCorrect": false},
+        {"text": "Không được gây nén lên răng trụ", "isCorrect": true},
+        {"text": "Phải rung liên tục", "isCorrect": false},
+        {"text": "Phải có lực kéo nướu", "isCorrect": false}
+      ],
+      "explanation": "Móc chỉ được tác động lực khi có xu hướng hàm bị sút ra, còn lúc nghỉ phải ở trạng thái thụ động."
+    },
+    {
+      "question": "Hai móc một tay ở hai răng trụ đối diện của hàm giả phải có hướng như thế nào?",
+      "options": [
+        {"text": "Cùng chiều", "isCorrect": false},
+        {"text": "Ngược chiều nhau", "isCorrect": true},
+        {"text": "Cùng hướng về phía trước", "isCorrect": false},
+        {"text": "Song song với nhau", "isCorrect": false}
+      ],
+      "explanation": "Đặt ngược chiều giúp triệt tiêu lực đẩy ngang và cân bằng độ bám giữ của hàm."
+    },
+    {
+      "question": "Hệ thống tay móc và biên giới nền hàm nhựa phải ôm tối thiểu bao nhiêu vòng quanh răng trụ?",
+      "options": [
+        {"text": "Ít nhất 1/4 vòng", "isCorrect": false},
+        {"text": "Hơn 2/3 vòng", "isCorrect": true},
+        {"text": "Phải ôm 100% vòng", "isCorrect": false},
+        {"text": "Chỉ cần chạm 1 điểm", "isCorrect": false}
+      ],
+      "explanation": "Nguyên tắc ôm hơn 2/3 chu vi giúp răng trụ không bị xô lệch khỏi móc (nguyên tắc encirclement)."
+    },
+    {
+      "question": "Hình dạng của tay móc đạt yêu cầu phải là:",
+      "options": [
+        {"text": "Đường zic-zac sắc cạnh", "isCorrect": false},
+        {"text": "Đường cong liên tục, không được gãy khúc", "isCorrect": true},
+        {"text": "Đường thẳng tắp", "isCorrect": false},
+        {"text": "Hình vuông", "isCorrect": false}
+      ],
+      "explanation": "Đường cong liên tục giúp truyền lực đều và tránh các điểm tập trung ứng suất gây gãy móc."
+    },
+    {
+      "question": "Để tránh gây sang chấn cho nướu và môi, đầu tay móc phải có đặc điểm gì?",
+      "options": [
+        {"text": "Mài nhọn", "isCorrect": false},
+        {"text": "Tròn và láng", "isCorrect": true},
+        {"text": "Có răng cưa", "isCorrect": false},
+        {"text": "Bọc nhựa mềm", "isCorrect": false}
+      ],
+      "explanation": "Đầu móc nhọn sẽ đâm vào niêm mạc gây đau loét cho bệnh nhân."
+    },
+    {
+      "question": "Tay móc ngoài cần cách lợi (nướu) bao nhiêu mm để đảm bảo vệ sinh?",
+      "options": [
+        {"text": "Sát khít vào nướu", "isCorrect": false},
+        {"text": "0.5 - 1 mm", "isCorrect": true},
+        {"text": "5 mm", "isCorrect": false},
+        {"text": "10 mm", "isCorrect": false}
+      ],
+      "explanation": "Khoảng cách này giúp tránh kích ứng nướu và cho phép làm sạch dễ dàng."
+    },
+    {
+      "question": "Đuôi móc cần có tương quan như thế nào với sống hàm?",
+      "options": [
+        {"text": "Cắm trực tiếp vào xương", "isCorrect": false},
+        {"text": "Song song và cách sống hàm 0.5 mm", "isCorrect": true},
+        {"text": "Nằm đè sát lên niêm mạc sống hàm", "isCorrect": false},
+        {"text": "Nghiêng góc 45 độ", "isCorrect": false}
+      ],
+      "explanation": "Đuôi móc cách sống hàm 0.5mm để nhựa acrylic có thể bao phủ hoàn toàn xung quanh, đảm bảo độ lưu giữ trong nền hàm."
+    },
+    {
+      "question": "Về mặt thẩm mỹ, tay móc không nên đi quá bao nhiêu phần mặt ngoài của răng nanh và răng hàm nhỏ?",
+      "options": [
+        {"text": "1/3", "isCorrect": false},
+        {"text": "1/2", "isCorrect": false},
+        {"text": "2/3", "isCorrect": true},
+        {"text": "100%", "isCorrect": false}
+      ],
+      "explanation": "Hạn chế độ dài tay móc ở vùng thẩm mỹ giúp giảm lộ kim loại khi bệnh nhân cười nói."
+    },
+    {
+      "question": "Số lượng răng trụ mang móc phụ thuộc vào những yếu tố nào?",
+      "options": [
+        {"text": "Số lượng và lực nén của răng đối lên hàm giả", "isCorrect": false},
+        {"text": "Độ rộng của nền hàm", "isCorrect": false},
+        {"text": "Sức khỏe của mô nha chu răng trụ", "isCorrect": false},
+        {"text": "Tất cả các ý trên", "isCorrect": true}
+      ],
+      "explanation": "Thiết kế số lượng móc phải cân đối giữa lực giữ cần thiết và khả năng chịu tải của răng thật."
+    },
+    {
+      "question": "Khi nền hàm hẹp, bác sĩ cần xử trí như thế nào về số lượng móc?",
+      "options": [
+        {"text": "Giảm số lượng móc", "isCorrect": false},
+        {"text": "Tăng cường thêm móc để tăng độ ổn định", "isCorrect": true},
+        {"text": "Không cần đặt móc", "isCorrect": false},
+        {"text": "Làm răng giả nhỏ lại", "isCorrect": false}
+      ],
+      "explanation": "Nền hàm hẹp có diện tích nâng đỡ ít nên cần nhiều móc hơn để hàm không bị bấp bênh."
+    },
+    {
+      "question": "Vị trí chọn răng trụ lý tưởng để các móc có lực tác động ngược chiều và đối xứng là?",
+      "options": [
+        {"text": "Chọn răng bất kỳ", "isCorrect": false},
+        {"text": "Thường chọn các răng trụ cùng tên ở hai bên cung hàm", "isCorrect": true},
+        {"text": "Chọn tất cả các răng cửa", "isCorrect": false},
+        {"text": "Chỉ chọn răng hàm lớn nhất", "isCorrect": false}
+      ],
+      "explanation": "Sự đối xứng qua đường giữa giúp hàm giả đạt được cân bằng cơ học tốt nhất."
+    },
+    {
+      "question": "Trong trường hợp mất răng phía sau một bên (Kennedy II) không có giới hạn, cần lưu ý điều gì?",
+      "options": [
+        {"text": "Chỉ đặt 1 móc", "isCorrect": false},
+        {"text": "Tăng cường thêm các móc phụ ở bên còn răng", "isCorrect": true},
+        {"text": "Không nên làm hàm tháo lắp", "isCorrect": false},
+        {"text": "Mài hết răng bên kia", "isCorrect": false}
+      ],
+      "explanation": "Cần thêm móc phụ để bù trừ cho sự mất cân bằng do mất răng yên tự do một bên gây ra."
+    },
+    {
+      "question": "Quy tắc xác định vị trí răng trụ mang tên là gì?",
+      "options": [
+        {"text": "Quy tắc Kennedy", "isCorrect": false},
+        {"text": "Quy tắc Cummer", "isCorrect": true},
+        {"text": "Quy tắc Applegate", "isCorrect": false},
+        {"text": "Quy tắc Black", "isCorrect": false}
+      ],
+      "explanation": "Quy tắc Cummer (đưa ra năm 1920) là hướng dẫn kinh điển về cách phân bố móc trên cung hàm."
+    },
+    {
+      "question": "Theo quy tắc Cummer, đường nối các răng trụ mang móc phải nằm ở đâu?",
+      "options": [
+        {"text": "Nằm ngoài miệng", "isCorrect": false},
+        {"text": "Phải nằm bên trong nền hàm giả", "isCorrect": true},
+        {"text": "Nằm sát rìa cắn", "isCorrect": false},
+        {"text": "Nằm trên vòm miệng mềm", "isCorrect": false}
+      ],
+      "explanation": "Điều này đảm bảo hàm giả không bị xoay quanh trục móc khi chịu lực nhai."
+    },
+    {
+      "question": "Phân loại Cummer dựa trên tiêu chí nào?",
+      "options": [
+        {"text": "Số lượng răng sâu", "isCorrect": false},
+        {"text": "Vị trí của các vật giữ trực tiếp (móc)", "isCorrect": true},
+        {"text": "Độ tuổi bệnh nhân", "isCorrect": false},
+        {"text": "Loại nhựa sử dụng", "isCorrect": false}
+      ],
+      "explanation": "Cummer phân loại phục hình dựa trên sơ đồ hình học của các vị trí đặt móc."
+    },
+    {
+      "question": "Trong phân loại Cummer, 'Diagonal' có nghĩa là gì?",
+      "options": [
+        {"text": "Hai móc đặt đối diện nhau qua một đường chéo cung hàm", "isCorrect": true},
+        {"text": "Hai móc nằm cùng một bên", "isCorrect": false},
+        {"text": "Ba móc tạo thành hình tam giác", "isCorrect": false},
+        {"text": "Móc đặt ở răng cửa", "isCorrect": false}
+      ],
+      "explanation": "Diagonal là thiết kế móc chéo (móc số 11 và 26 chẳng hạn)."
+    },
+    {
+      "question": "Thiết kế 'Diametric' trong phân loại Cummer là gì?",
+      "options": [
+        {"text": "Các móc nằm lệch nhau", "isCorrect": false},
+        {"text": "Hai móc đặt đối diện trực tiếp qua đường trung trực (đối đầu nhau)", "isCorrect": true},
+        {"text": "Móc chỉ có 1 tay", "isCorrect": false},
+        {"text": "Móc đặt ở cả 4 góc", "isCorrect": false}
+      ],
+      "explanation": "Diametric là hai vật giữ đối diện nhau qua cung hàm theo đường kính."
+    },
+    {
+      "question": "Thiết kế 'Unilateral' theo Cummer xảy ra khi nào?",
+      "options": [
+        {"text": "Móc đặt ở cả hai bên", "isCorrect": false},
+        {"text": "Hai hoặc nhiều móc chỉ nằm ở cùng một bên cung hàm", "isCorrect": true},
+        {"text": "Không có móc nào", "isCorrect": false},
+        {"text": "Móc nằm ở đường giữa", "isCorrect": false}
+      ],
+      "explanation": "Unilateral là thiết kế một bên (ít vững ổn hơn thiết kế hai bên)."
+    },
+    {
+      "question": "Thiết kế 'Multilateral' trong Cummer thường có bao nhiêu móc?",
+      "options": [
+        {"text": "1 móc", "isCorrect": false},
+        {"text": "2 móc", "isCorrect": false},
+        {"text": "Từ 3 đến 4 móc đặt theo hình tam giác hoặc tứ giác", "isCorrect": true},
+        {"text": "Phải có 10 móc", "isCorrect": false}
+      ],
+      "explanation": "Multilateral là thiết kế đa bên, tạo ra diện tích nâng đỡ và bám giữ rộng lớn."
+    },
+    {
+      "question": "Hệ quả của việc chỉ đặt 1 móc duy nhất trên cung hàm là gì?",
+      "options": [
+        {"text": "Hàm rất chắc", "isCorrect": false},
+        {"text": "Hàm kém ổn định, dễ di chuyển đa chiều và hại răng trụ", "isCorrect": true},
+        {"text": "Tiết kiệm tiền cho bệnh nhân và tốt cho răng", "isCorrect": false},
+        {"text": "Làm bệnh nhân nói rõ hơn", "isCorrect": false}
+      ],
+      "explanation": "Một móc không đủ để ổn định hàm chống lại các lực xoay, gây sang chấn nặng cho răng trụ duy nhất đó."
+    },
+    {
+      "question": "Nguyên tắc đặt 2 móc tốt nhất là gì?",
+      "options": [
+        {"text": "Hai móc nằm cùng 1 phía", "isCorrect": false},
+        {"text": "Hai móc đối đầu nhau qua đường trung trực và đường nối giữa chúng nằm giữa nền hàm", "isCorrect": true},
+        {"text": "Hai móc đặt sát nhau", "isCorrect": false},
+        {"text": "Một móc hàm trên, một móc hàm dưới", "isCorrect": false}
+      ],
+      "explanation": "Vị trí này giúp cân bằng lực bám giữ đồng đều nhất cho hàm giả 2 móc."
+    },
+    {
+      "question": "Khi đặt từ 3 móc trở lên, yêu cầu về sự đối xứng là gì?",
+      "options": [
+        {"text": "Không cần đối xứng", "isCorrect": false},
+        {"text": "Cần có ít nhất 1 cặp móc đối xứng qua đường giữa mặt", "isCorrect": true},
+        {"text": "Tất cả các móc phải nằm trên một đường thẳng", "isCorrect": false},
+        {"text": "Móc phải đặt ở mặt trong", "isCorrect": false}
+      ],
+      "explanation": "Sự đối xứng và diện tích giữa các mốc càng lớn thì hàm càng vững ổn."
+    },
+    {
+      "question": "Tại sao đặt quá nhiều móc lại gây khó khăn cho việc thực hiện?",
+      "options": [
+        {"text": "Tốn quá nhiều sắt", "isCorrect": false},
+        {"text": "Đòi hỏi độ chính xác cực cao, khó điều chỉnh trên miệng bệnh nhân", "isCorrect": true},
+        {"text": "Làm hàm giả bị nặng", "isCorrect": false},
+        {"text": "Bệnh nhân hay bị dị ứng", "isCorrect": false}
+      ],
+      "explanation": "Càng nhiều móc thì hướng tháo lắp càng bị giới hạn, đòi hỏi sự khít sát tuyệt đối của tất cả các móc cùng lúc."
+    },
+    {
+      "question": "Phần 'Undercut' trong hình ảnh minh họa cấu tạo móc nghĩa là gì?",
+      "options": [
+        {"text": "Vùng trên đường vòng lớn nhất", "isCorrect": false},
+        {"text": "Vùng lẹm (nơi tạo lực giữ)", "isCorrect": true},
+        {"text": "Mặt nhai", "isCorrect": false},
+        {"text": "Chóp chân răng", "isCorrect": false}
+      ],
+      "explanation": "Undercut là vùng lẹm giải phẫu, nơi phần đàn hồi của tay móc sẽ ôm vào để giữ hàm."
+    },
+    {
+      "question": "Hình ảnh trang 5 của tài liệu minh họa loại móc cổ điển nào hiện nay không dùng?",
+      "options": [
+        {"text": "Móc dây tròn", "isCorrect": false},
+        {"text": "Móc bản", "isCorrect": true},
+        {"text": "Móc đúc", "isCorrect": false},
+        {"text": "Móc Adam", "isCorrect": false}
+      ],
+      "explanation": "Trang 5 cho thấy hình ảnh móc bản kim loại dày, ôm theo ĐVLN nhưng không khít sát."
+    },
+    {
+      "question": "Móc Ney số 1 (Aker) thường có bao nhiêu thành phần khi nhìn từ mặt nhai?",
+      "options": [
+        {"text": "1", "isCorrect": false},
+        {"text": "2", "isCorrect": false},
+        {"text": "3 (Tay lưu giữ, tay đối kháng và tựa mặt nhai)", "isCorrect": true},
+        {"text": "10", "isCorrect": false}
+      ],
+      "explanation": "Móc Akers chuẩn gồm 1 tay lưu giữ ở mặt ngoài, 1 tay đối kháng mặt trong và 1 tựa ở mặt tiếp giáp."
+    },
+    {
+      "question": "Trong hình 11.5 về quy tắc Cummer, điểm 'B' nằm trên cấu trúc nào?",
+      "options": [
+        {"text": "Răng nanh", "isCorrect": false},
+        {"text": "Đường giữa cung hàm", "isCorrect": true},
+        {"text": "Răng khôn", "isCorrect": false},
+        {"text": "Lồi củ", "isCorrect": false}
+      ],
+      "explanation": "Điểm B thường nằm trên trục đối xứng để đánh giá sự cân bằng của các móc."
+    },
+    {
+      "question": "Sự lưu giữ của móc phụ thuộc vào độ sâu vùng lẹm và yếu tố nào của dây móc?",
+      "options": [
+        {"text": "Màu sắc dây", "isCorrect": false},
+        {"text": "Độ dài và độ đàn hồi của tay móc", "isCorrect": true},
+        {"text": "Giá tiền của dây", "isCorrect": false},
+        {"text": "Độ bóng của dây", "isCorrect": false}
+      ],
+      "explanation": "Tay móc càng dài và đàn hồi thì khả năng vượt qua ĐVLN càng tốt."
+    },
+    {
+      "question": "Móc thanh tiếp cận vùng lẹm từ hướng nào theo mô tả tiếng Anh trong file?",
+      "options": [
+        {"text": "Occlusal direction", "isCorrect": false},
+        {"text": "Gingivally approaching", "isCorrect": true},
+        {"text": "From the tongue", "isCorrect": false},
+        {"text": "From the throat", "isCorrect": false}
+      ],
+      "explanation": "Móc thanh (như móc I, T) tiếp cận vùng lẹm từ phía lợi (nướu) đi lên."
+    },
+    {
+      "question": "Tại sao phải bẻ tay móc theo 'hình dạng cổ răng' (ghi chú trang 16)?",
+      "options": [
+        {"text": "Để cho đẹp", "isCorrect": false},
+        {"text": "Để lực nhai được dàn đều và móc ôm khít hơn", "isCorrect": true},
+        {"text": "Để không phải dùng nhựa", "isCorrect": false},
+        {"text": "Để răng không bị sâu", "isCorrect": false}
+      ],
+      "explanation": "Ôm sát cổ răng giúp tối ưu hóa diện tích tiếp xúc và độ vững ổn."
+    },
+    {
+      "question": "Ký hiệu 'ĐVLN' trong tài liệu là viết tắt của từ gì?",
+      "options": [
+        {"text": "Đường vòng lớn nhất", "isCorrect": true},
+        {"text": "Đường vào lợi nhỏ", "isCorrect": false},
+        {"text": "Độ vồng lợi nướu", "isCorrect": false},
+        {"text": "Điểm vàng lớn nhất", "isCorrect": false}
+      ],
+      "explanation": "Đây là mốc giải phẫu quan trọng nhất để thiết kế vị trí đặt móc."
+    },
+    {
+      "question": "Tay móc đúc thường tham gia vào vùng lẹm bao nhiêu inch?",
+      "options": [
+        {"text": "0.01 inch", "isCorrect": true},
+        {"text": "0.1 inch", "isCorrect": false},
+        {"text": "1 inch", "isCorrect": false},
+        {"text": "0.5 inch", "isCorrect": false}
+      ],
+      "explanation": "Đầu tận cùng tay lưu giữ của móc đúc thường bám vào độ lẹm 0.01 inch (khoảng 0.25mm)."
+    },
+    {
+      "question": "Thành phần nào kết nối móc đúc với thanh nối chính (Major connector)?",
+      "options": [
+        {"text": "Minor connector (thanh nối phụ)", "isCorrect": true},
+        {"text": "Rest (tựa)", "isCorrect": false},
+        {"text": "Tay móc", "isCorrect": false},
+        {"text": "Răng giả", "isCorrect": false}
+      ],
+      "explanation": "Thanh nối phụ là bộ phận trung gian gắn kết các thành phần nhỏ vào khung sườn chính."
+    },
+    {
+      "question": "Khi uốn móc dây tròn, dụng cụ nào thường được dùng (ghi chú trang 21)?",
+      "options": [
+        {"text": "Kìm đầu trơn", "isCorrect": true},
+        {"text": "Búa kim loại", "isCorrect": false},
+        {"text": "Máy khoan", "isCorrect": false},
+        {"text": "Tay không", "isCorrect": false}
+      ],
+      "explanation": "Dùng kìm đầu trơn giúp bẻ dây mà không làm trầy xước bề mặt kim loại, tránh gây đọng mảng bám."
+    },
+    {
+      "question": "Một móc lý tưởng cần đảm bảo bệnh nhân có thể làm gì dễ dàng?",
+      "options": [
+        {"text": "Nhai kẹo cao su", "isCorrect": false},
+        {"text": "Vệ sinh răng miệng", "isCorrect": true},
+        {"text": "Nuốt hàm giả", "isCorrect": false},
+        {"text": "Tự sửa móc bằng kìm tại nhà", "isCorrect": false}
+      ],
+      "explanation": "Dễ vệ sinh là một trong những tiêu chuẩn chất lượng hàng đầu của móc."
+    },
+    {
+      "question": "Nguyên tắc 'đối đầu qua đường trung trực' áp dụng cho trường hợp đặt mấy móc?",
+      "options": [
+        {"text": "1 móc", "isCorrect": false},
+        {"text": "2 móc", "isCorrect": true},
+        {"text": "3 móc", "isCorrect": false},
+        {"text": "Mất răng toàn bộ", "isCorrect": false}
+      ],
+      "explanation": "Áp dụng cho hàm 2 móc để đảm bảo cân bằng lực bám giữ hai bên."
+    },
+    {
+      "question": "Ai là tác giả của tài liệu bài giảng này?",
+      "options": [
+        {"text": "TS. BS Đặng Minh Huy", "isCorrect": true},
+        {"text": "TS. BS Nguyễn Văn A", "isCorrect": false},
+        {"text": "BS. Huyền Phương", "isCorrect": false},
+        {"text": "TS. BS Kennedy", "isCorrect": false}
+      ],
+      "explanation": "Tên giảng viên xuất hiện ngay trang đầu của file PDF."
+    },
+    {
+      "question": "Móc Ring clasp (móc vòng) thường dùng cho răng nào?",
+      "options": [
+        {"text": "Răng cửa", "isCorrect": false},
+        {"text": "Răng hàm lớn đơn độc bị nghiêng", "isCorrect": true},
+        {"text": "Răng nanh", "isCorrect": false},
+        {"text": "Răng sữa", "isCorrect": false}
+      ],
+      "explanation": "Ring clasp ôm gần như toàn bộ chu vi răng, rất tốt cho răng cối đơn độc nghiêng gần hoặc nghiêng xa."
+    },
+    {
+      "question": "Thời gian ghi trong tài liệu (25/12) liên quan đến sự kiện gì?",
+      "options": [
+        {"text": "Ngày nhổ răng", "isCorrect": false},
+        {"text": "Ngày cập nhật bài giảng", "isCorrect": true},
+        {"text": "Ngày gắn hàm", "isCorrect": false},
+        {"text": "Ngày thi", "isCorrect": false}
+      ],
+      "explanation": "Thông tin ngày tháng thường được ghi ở trang bìa slide bài giảng."
+    },
+    {
+      "question": "Yêu cầu 'không gây sang chấn' nghĩa là đầu tay móc phải như thế nào?",
+      "options": [
+        {"text": "Mài sắc nhọn", "isCorrect": false},
+        {"text": "Tròn và láng", "isCorrect": true},
+        {"text": "Bọc nhựa", "isCorrect": false},
+        {"text": "Gắn keo", "isCorrect": false}
+      ],
+      "explanation": "Đầu móc tròn láng giúp bảo vệ mô mềm và men răng khi tháo lắp."
+    },
+    {
+      "question": "Móc đơn dây tròn một tay bám vào răng ở mặt nào?",
+      "options": [
+        {"text": "Mặt lưỡi", "isCorrect": false},
+        {"text": "Mặt ngoài (mặt má/môi)", "isCorrect": true},
+        {"text": "Mặt nhai", "isCorrect": false},
+        {"text": "Trong tủy", "isCorrect": false}
+      ],
+      "explanation": "Thiết kế chuẩn của móc 1 tay cho hàm nhựa là ôm mặt ngoài răng trụ."
+    },
+    {
+      "question": "Sự vững ổn của hàm giả khi đặt 3 móc trở lên được ví với hình gì?",
+      "options": [
+        {"text": "Đường thẳng", "isCorrect": false},
+        {"text": "Diện tích (hình tam giác/tứ giác)", "isCorrect": true},
+        {"text": "Hình tròn", "isCorrect": false},
+        {"text": "Điểm", "isCorrect": false}
+      ],
+      "explanation": "Diện tích bao phủ bởi 3 điểm mốc càng lớn thì hàm càng ổn định chống lại lực xoay."
+    },
+    {
+      "question": "Khoảng cách 0.5 mm của đuôi móc với sống hàm dùng để làm gì?",
+      "options": [
+        {"text": "Để bệnh nhân dễ thở", "isCorrect": false},
+        {"text": "Để nhựa acrylic có thể bao quanh hoàn toàn đuôi móc", "isCorrect": true},
+        {"text": "Để móc không bị gãy", "isCorrect": false},
+        {"text": "Để tiết kiệm nhựa", "isCorrect": false}
+      ],
+      "explanation": "Nhựa phủ kín đuôi móc giúp liên kết giữa móc và nền hàm bền vững nhất."
+    },
+    {
+      "question": "Tại sao cần 'chỉ bệnh nhân lắp móc' (ghi chú trang 27)?",
+      "options": [
+        {"text": "Để bệnh nhân tự sửa hàm", "isCorrect": false},
+        {"text": "Hướng dẫn bệnh nhân cách tháo lắp đúng để không làm biến dạng móc", "isCorrect": true},
+        {"text": "Để bệnh nhân không quay lại phòng khám", "isCorrect": false},
+        {"text": "Để tiết kiệm thời gian cho bác sĩ", "isCorrect": false}
+      ],
+      "explanation": "Tháo lắp sai cách bằng lực quá mạnh sẽ làm giãn hoặc gãy móc nhanh chóng."
+    },
+    {
+      "question": "Móc R.P.I gồm những thành phần nào (viết tắt)?",
+      "options": [
+        {"text": "Rest, Plate, I-clasp", "isCorrect": true},
+        {"text": "Retention, Palatin, I-clasp", "isCorrect": false},
+        {"text": "Rest, Proximal, Inlay", "isCorrect": false},
+        {"text": "Ring, Plate, I-clasp", "isCorrect": false}
+      ],
+      "explanation": "R.P.I là hệ thống móc hiện đại dùng cho răng trụ cuối cùng (Rest - tựa gần, Plate - bản hướng dẫn, I-clasp - móc chữ I)."
+    },
+    {
+      "question": "Theo Cummer, vị trí 'Diametric' là tốt nhất cho loại cung răng nào?",
+      "options": [
+        {"text": "Mất răng toàn bộ", "isCorrect": false},
+        {"text": "Cung răng đối xứng", "isCorrect": true},
+        {"text": "Cung răng chỉ còn 1 bên", "isCorrect": false},
+        {"text": "Cung răng trẻ em", "isCorrect": false}
+      ],
+      "explanation": "Đặt móc đối xứng trực tiếp qua tâm giúp cân bằng lực tốt nhất."
+    },
+    {
+      "question": "Tay móc và nền nhựa phải ôm bao nhiêu chu vi răng trụ để răng không bị đẩy khỏi móc?",
+      "options": [
+        {"text": "1/3", "isCorrect": false},
+        {"text": "1/2", "isCorrect": false},
+        {"text": "Trên 180 độ (hơn 2/3 vòng)", "isCorrect": true},
+        {"text": "Chỉ cần 90 độ", "isCorrect": false}
+      ],
+      "explanation": "Nguyên tắc ôm bao (encirclement) yêu cầu tối thiểu > 180 độ chu vi răng."
+    },
+    {
+      "question": "Tại sao không được để móc gãy khúc khi uốn?",
+      "options": [
+        {"text": "Làm hàm giả xấu", "isCorrect": false},
+        {"text": "Điểm gãy khúc là nơi dễ bị gãy dây do tập trung ứng suất", "isCorrect": true},
+        {"text": "Làm đau bệnh nhân", "isCorrect": false},
+        {"text": "Gây hôi miệng", "isCorrect": false}
+      ],
+      "explanation": "Tay móc phải là đường cong liên tục để đảm bảo độ bền cơ học lâu dài."
+    },
+    {
+      "question": "Vai móc nằm ở 'điểm hay mặt tiếp giáp' răng trụ có tác dụng gì?",
+      "options": [
+        {"text": "Chống lún cho hàm", "isCorrect": true},
+        {"text": "Lưu giữ hàm", "isCorrect": false},
+        {"text": "Làm trắng răng", "isCorrect": false},
+        {"text": "Để gắn răng sứ", "isCorrect": false}
+      ],
+      "explanation": "Vị trí vai móc ở mặt tiếp giáp góp phần nâng đỡ phục hình chống lại lực nén."
+    },
+    {
+      "question": "Việc giảm số lượng móc có thể thực hiện khi nào?",
+      "options": [
+        {"text": "Khi bệnh nhân không có tiền", "isCorrect": false},
+        {"text": "Khi lực nén từ các răng đối diện nhỏ", "isCorrect": true},
+        {"text": "Khi răng trụ quá yếu", "isCorrect": false},
+        {"text": "Luôn luôn nên dùng ít móc", "isCorrect": false}
+      ],
+      "explanation": "Lực nén ít cho phép thiết kế hàm giả đơn giản hơn với ít móc bám hơn."
+    },
+    {
+      "question": "Khi đặt 2 móc, đường nối giữa hai móc nên nằm ở đâu?",
+      "options": [
+        {"text": "Nằm ngoài cung hàm", "isCorrect": false},
+        {"text": "Nằm ở giữa nền hàm giả", "isCorrect": true},
+        {"text": "Nằm sát răng trước", "isCorrect": false},
+        {"text": "Nằm dưới sàn miệng", "isCorrect": false}
+      ],
+      "explanation": "Vị trí này đảm bảo hàm giả cân bằng và không bị bập bênh khi ăn nhai."
+    },
+    {
+      "question": "Cummer's Classification được giới thiệu lần đầu vào năm nào?",
+      "options": [
+        {"text": "1919", "isCorrect": false},
+        {"text": "1920", "isCorrect": true},
+        {"text": "1945", "isCorrect": false},
+        {"text": "2000", "isCorrect": false}
+      ],
+      "explanation": "Hệ thống phân loại này ra đời từ năm 1920."
+    },
+    {
+      "question": "Ký hiệu 'RCC' trong ghi chú trang 13 có nghĩa là gì?",
+      "options": [
+        {"text": "Răng cửa chính", "isCorrect": false},
+        {"text": "Răng cối cùng (Răng hàm lớn trong cùng)", "isCorrect": true},
+        {"text": "Răng cạnh cửa", "isCorrect": false},
+        {"text": "Răng có cao", "isCorrect": false}
+      ],
+      "explanation": "RCC là viết tắt của Răng Cối Cùng (thường là răng 7 hoặc 8)."
+    },
+    {
+      "question": "Móc đơn dây tròn một tay được dùng để 'chống trượt xuống' (ghi chú trang 10) nhờ thành phần nào?",
+      "options": [
+        {"text": "Tay móc ngoài", "isCorrect": false},
+        {"text": "Tay móc nằm trên ĐVLN", "isCorrect": true},
+        {"text": "Đuôi móc", "isCorrect": false},
+        {"text": "Răng giả", "isCorrect": false}
+      ],
+      "explanation": "Phần móc nằm trên đường vòng lớn nhất có chức năng nâng đỡ chống lún."
+    },
+    {
+      "question": "Móc Ney số 2 (móc chữ T) là loại móc tiếp cận từ hướng nào?",
+      "options": [
+        {"text": "Từ phía lợi (Gingivally approaching)", "isCorrect": true},
+        {"text": "Từ phía mặt nhai (Occlusally approaching)", "isCorrect": false},
+        {"text": "Từ họng ra", "isCorrect": false},
+        {"text": "Từ răng cửa sang", "isCorrect": false}
+      ],
+      "explanation": "Móc chữ T trong hệ thống Ney thuộc nhóm móc thanh tiếp cận từ nướu."
+    },
+    {
+      "question": "Hệ quả của việc đặt móc trên răng trụ lung lay độ 2, 3 mà không nẹp răng là gì?",
+      "options": [
+        {"text": "Làm răng chắc lại", "isCorrect": false},
+        {"text": "Làm răng rụng nhanh hơn do quá tải lực", "isCorrect": true},
+        {"text": "Giúp nướu khỏe", "isCorrect": false},
+        {"text": "Hàm giả bám tốt hơn", "isCorrect": false}
+      ],
+      "explanation": "Răng lung lay không được mang móc đơn lẻ vì lực đẩy ngang từ móc sẽ phá hủy nha chu còn lại."
+    },
+    {
+      "question": "Tựa mặt nhai (Rest) của móc đúc nằm ở vị trí nào?",
+      "options": [
+        {"text": "Mặt lưỡi", "isCorrect": false},
+        {"text": "Mặt nhai của răng trụ", "isCorrect": true},
+        {"text": "Sát nướu rời", "isCorrect": false},
+        {"text": "Mặt ngoài", "isCorrect": false}
+      ],
+      "explanation": "Tựa mặt nhai là thành phần nâng đỡ chính của hàm khung."
+    },
+    {
+      "question": "Dụng cụ 'Cây đo độ lẹm' dùng trên song song kế để làm gì khi thiết kế móc?",
+      "options": [
+        {"text": "Đo chiều cao răng", "isCorrect": false},
+        {"text": "Xác định kích thước vùng lẹm để đặt đầu tay móc", "isCorrect": true},
+        {"text": "Đo độ rộng vòm miệng", "isCorrect": false},
+        {"text": "Đánh bóng mẫu", "isCorrect": false}
+      ],
+      "explanation": "Giúp chọn vị trí đặt móc có độ lẹm phù hợp với tính chất vật lý của vật liệu."
+    },
+    {
+      "question": "Đặc điểm của 'Móc hỗn hợp 1 và 2' trong Ney là gì?",
+      "options": [
+        {"text": "Chỉ làm bằng sáp", "isCorrect": false},
+        {"text": "Kết hợp đặc điểm của hai loại móc khác nhau trên cùng một răng trụ", "isCorrect": true},
+        {"text": "Móc dùng cho 10 răng cùng lúc", "isCorrect": false},
+        {"text": "Móc có màu xanh", "isCorrect": false}
+      ],
+      "explanation": "Dùng để giải quyết các trường hợp vùng lẹm phức tạp không đối xứng."
+    },
+    {
+      "question": "Móc 'Nally-Martinet' thường được chỉ định cho răng nào?",
+      "options": [
+        {"text": "Răng cửa", "isCorrect": false},
+        {"text": "Răng nanh hoặc răng hàm nhỏ của hàm dưới trong mất răng yên tự do", "isCorrect": true},
+        {"text": "Răng khôn", "isCorrect": false},
+        {"text": "Răng sữa", "isCorrect": false}
+      ],
+      "explanation": "Đây là thiết kế móc giúp giảm lực bẩy lên răng trụ trong trường hợp mất răng phía sau."
+    },
+    {
+      "question": "Khi đặt 3 móc trở lên, diện tích giữa các đường nối móc nên như thế nào?",
+      "options": [
+        {"text": "Càng nhỏ càng tốt", "isCorrect": false},
+        {"text": "Càng lớn càng tốt để tăng sự vững ổn", "isCorrect": true},
+        {"text": "Phải là đường thẳng", "isCorrect": false},
+        {"text": "Không quan trọng diện tích", "isCorrect": false}
+      ],
+      "explanation": "Diện tích đa giác của các móc càng rộng thì hàm giả càng khó bị lật hoặc nghiêng."
+    },
+    {
+      "question": "Móc dây tròn nửa tròn (half-round) có ưu điểm gì?",
+      "options": [
+        {"text": "Đẹp hơn dây tròn", "isCorrect": false},
+        {"text": "Ôm sát mặt răng hơn và tăng độ cứng vững theo một phương nhất định", "isCorrect": true},
+        {"text": "Rẻ tiền nhất", "isCorrect": false},
+        {"text": "Làm từ nhựa dẻo", "isCorrect": false}
+      ],
+      "explanation": "Tiết diện bán nguyệt cho diện tiếp xúc mặt trong phẳng khít hơn với răng trụ."
+    },
+    {
+      "question": "Yêu cầu 'vệ sinh dễ dàng' ảnh hưởng thế nào đến thiết kế móc?",
+      "options": [
+        {"text": "Móc phải thật dày", "isCorrect": false},
+        {"text": "Móc phải tròn láng, ít ngóc ngách đọng thức ăn", "isCorrect": true},
+        {"text": "Móc phải có nắp đậy", "isCorrect": false},
+        {"text": "Móc phải gắn cố định không tháo được", "isCorrect": false}
+      ],
+      "explanation": "Thiết kế thoáng giúp bệnh nhân dễ dàng chải rửa hàm giả và răng thật."
+    },
+    {
+      "question": "Tính chất 'đàn hồi' của tay móc ngoài giúp ích gì khi bệnh nhân tháo hàm?",
+      "options": [
+        {"text": "Làm hàm giả nặng hơn", "isCorrect": false},
+        {"text": "Vượt qua đường vòng lớn nhất mà không làm đau răng trụ", "isCorrect": true},
+        {"text": "Làm răng mọc dài ra", "isCorrect": false},
+        {"text": "Để trang trí", "isCorrect": false}
+      ],
+      "explanation": "Nhờ tính đàn hồi, móc có thể biến dạng tạm thời để chui ra khỏi vùng lẹm khi tháo hàm."
+    },
+    {
+      "question": "Trong hình 11.5 về quy tắc Cummer, 'C-C' đại diện cho điều gì?",
+      "options": [
+        {"text": "Mặt phẳng cắn", "isCorrect": false},
+        {"text": "Trục quay hoặc đường nối các vật lưu giữ trực tiếp", "isCorrect": true},
+        {"text": "Răng cửa", "isCorrect": false},
+        {"text": "Lồi cầu", "isCorrect": false}
+      ],
+      "explanation": "Đây là các đường phân tích hình học để tối ưu hóa sự vững ổn của phục hình."
+    },
+    {
+      "question": "Mục tiêu số 3 của bài giảng 'Móc' là gì?",
+      "options": [
+        {"text": "Biết cách nhổ răng trụ", "isCorrect": false},
+        {"text": "Xác định được số lượng và vị trí các răng trụ", "isCorrect": true},
+        {"text": "Học cách lấy dấu silicon", "isCorrect": false},
+        {"text": "Đo huyết áp bệnh nhân", "isCorrect": false}
+      ],
+      "explanation": "Trang 2 ghi rõ mục tiêu 3 là xác định số lượng và vị trí răng trụ."
+    },
+    {
+      "question": "Móc Jacson ôm toàn bộ mặt ngoài của răng giúp ích gì?",
+      "options": [
+        {"text": "Dễ bị sâu răng hơn", "isCorrect": false},
+        {"text": "Cung cấp độ lưu giữ và ổn định cực cao cho răng đơn độc", "isCorrect": true},
+        {"text": "Làm răng trụ trắng ra", "isCorrect": false},
+        {"text": "Hàm giả nhẹ đi", "isCorrect": false}
+      ],
+      "explanation": "Sự bao phủ rộng giúp kiểm soát răng trụ tốt nhất trong các pha vận động hàm."
+    },
+    {
+      "question": "Tại sao phải bẻ tay móc 'cách lợi 0.5 - 1 mm'?",
+      "options": [
+        {"text": "Để không làm đau nướu và tránh đọng bẩn gây viêm nướu", "isCorrect": true},
+        {"text": "Để tiết kiệm dây", "isCorrect": false},
+        {"text": "Vì nướu rất cứng", "isCorrect": false},
+        {"text": "Để móc bám chắc hơn", "isCorrect": false}
+      ],
+      "explanation": "Sát nướu quá sẽ gây loét niêm mạc khi hàm giả hơi lún trong lúc nhai."
+    },
+    {
+      "question": "Vật liệu 'Cobalt-Chrome-Nicken' được dùng làm loại móc nào?",
+      "options": [
+        {"text": "Móc bản cổ điển", "isCorrect": false},
+        {"text": "Móc dây tròn (dây uốn)", "isCorrect": true},
+        {"text": "Móc nhựa", "isCorrect": false},
+        {"text": "Chỉ dùng để làm răng giả", "isCorrect": false}
+      ],
+      "explanation": "Đây là loại hợp kim không gỉ tiêu chuẩn để chế tạo dây móc chỉnh nha và phục hình tháo lắp."
+    },
+    {
+      "question": "Kết quả cuối cùng của việc học bài 'Móc' là gì?",
+      "options": [
+        {"text": "Biết cách hàn răng", "isCorrect": false},
+        {"text": "Nắm vững cấu tạo và nguyên tắc thiết kế móc để phục hình tháo lắp đạt hiệu quả cao nhất", "isCorrect": true},
+        {"text": "Biết cách nhổ răng khôn", "isCorrect": false},
+        {"text": "Biết cách trộn thạch cao", "isCorrect": false}
+      ],
+      "explanation": "Móc là chìa khóa cho sự bám giữ của phục hình tháo lắp bán phần."
+    },
+    {
+      "question": "Trong hình ảnh trang 15, móc khuyết áo dùng cho răng nào?",
+      "options": [
+        {"text": "Răng cửa sữa", "isCorrect": false},
+        {"text": "Răng cối bị nghiêng hoặc yếu", "isCorrect": true},
+        {"text": "Răng nanh khỏe mạnh", "isCorrect": false},
+        {"text": "Hàm mất răng hoàn toàn", "isCorrect": false}
+      ],
+      "explanation": "Ghi chú trên hình nêu rõ ứng dụng cho RC (răng cối) bị nghiêng/yếu."
+    }
+  ]

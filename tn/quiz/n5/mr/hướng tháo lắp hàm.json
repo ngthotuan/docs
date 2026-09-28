@@ -1,0 +1,992 @@
+[
+    {
+      "question": "Theo định nghĩa, 'Hướng lắp hàm' là hướng phục hình di chuyển từ vị trí nào?",
+      "options": [
+        {"text": "Từ lúc bệnh nhân cầm hàm trên tay", "isCorrect": false},
+        {"text": "Từ điểm chạm đầu tiên của phần cứng rắn của phục hình với răng trụ tới khi tựa mặt nhai nằm sát đáy tựa", "isCorrect": true},
+        {"text": "Từ lúc răng giả chạm vào nướu", "isCorrect": false},
+        {"text": "Từ khi hàm đã ổn định trong miệng", "isCorrect": false}
+      ],
+      "explanation": "Hướng lắp hàm tính từ điểm tiếp xúc đầu tiên của phần cứng phục hình với răng trụ cho đến khi tựa mặt nhai sát đáy và yên áp sát mô nâng đỡ."
+    },
+    {
+      "question": "Hướng tháo hàm được xác định như thế nào?",
+      "options": [
+        {"text": "Là hướng vuông góc với mặt phẳng cắn", "isCorrect": false},
+        {"text": "Là hướng ngược lại với hướng lắp hàm", "isCorrect": true},
+        {"text": "Là hướng do bệnh nhân tự quyết định", "isCorrect": false},
+        {"text": "Là hướng song song với trục răng nanh", "isCorrect": false}
+      ],
+      "explanation": "Tài liệu nêu rõ hướng tháo hàm là hướng ngược lại hoàn toàn với hướng lắp hàm."
+    },
+    {
+      "question": "Yêu cầu nào sau đây là cần thiết đối với một hướng tháo lắp thích hợp?",
+      "options": [
+        {"text": "Giúp phục hình tháo lắp dễ dàng", "isCorrect": false},
+        {"text": "Không gây sức ép hay bị kẹt trong khoảng mất răng", "isCorrect": false},
+        {"text": "Đảm bảo sự bền vững của phục hình", "isCorrect": false},
+        {"text": "Tất cả các yêu cầu trên", "isCorrect": true}
+      ],
+      "explanation": "Hướng tháo lắp tốt phải đảm bảo việc sử dụng dễ dàng, không gây hại cho mô và bền vững về cơ học."
+    },
+    {
+      "question": "Một hướng tháo lắp thích hợp phải đảm bảo không áp đặt lực nào lên răng trụ khi ở trạng thái nào?",
+      "options": [
+        {"text": "Trạng thái tĩnh", "isCorrect": true},
+        {"text": "Trạng thái đang nhai", "isCorrect": false},
+        {"text": "Trạng thái đang nói", "isCorrect": false},
+        {"text": "Trạng thái tháo hàm", "isCorrect": false}
+      ],
+      "explanation": "Phục hình khi đã lắp vào vị trí (trạng thái tĩnh) không được tạo ra bất kỳ áp lực dư thừa nào lên răng trụ để tránh làm lung lay răng."
+    },
+    {
+      "question": "Khi tất cả các răng trụ thẳng đứng và song song với nhau, chúng sẽ gây ra điều gì trong quá trình tháo lắp?",
+      "options": [
+        {"text": "Gây kẹt hàm nghiêm trọng", "isCorrect": false},
+        {"text": "Tạo ra sự cản trở ít nhất cho phục hình", "isCorrect": true},
+        {"text": "Làm hỏng móc đúc", "isCorrect": false},
+        {"text": "Khiến hàm bị lỏng", "isCorrect": false}
+      ],
+      "explanation": "Sự song song giữa các răng trụ (vertically upright và parallel) giúp giảm thiểu tối đa sự cản trở khi đưa hàm vào và lấy hàm ra."
+    },
+    {
+      "question": "Nếu các răng trụ không song song với nhau (Hình 18.35b), hệ quả là gì?",
+      "options": [
+        {"text": "Dễ tháo lắp hơn", "isCorrect": false},
+        {"text": "Gây cản trở việc lắp và tháo hàm", "isCorrect": true},
+        {"text": "Làm tăng thẩm mỹ", "isCorrect": false},
+        {"text": "Giúp răng thật mọc thẳng lại", "isCorrect": false}
+      ],
+      "explanation": "Răng không song song tạo ra các vùng vướng và lẹm không đồng nhất, gây khó khăn cho việc tháo lắp."
+    },
+    {
+      "question": "Có bao nhiêu yếu tố chính ảnh hưởng đến việc chọn hướng tháo lắp?",
+      "options": [
+        {"text": "2 yếu tố", "isCorrect": false},
+        {"text": "3 yếu tố", "isCorrect": false},
+        {"text": "4 yếu tố", "isCorrect": true},
+        {"text": "5 yếu tố", "isCorrect": false}
+      ],
+      "explanation": "Các yếu tố gồm: 1. Mặt phẳng hướng dẫn, 2. Các vùng lẹm, 3. Các vùng vướng, 4. Thẩm mỹ."
+    },
+    {
+      "question": "Định nghĩa 'Mặt phẳng hướng dẫn' là gì?",
+      "options": [
+        {"text": "Là mặt nhai của răng giả", "isCorrect": false},
+        {"text": "Là các mặt bên của các răng trụ tiếp xúc với hàm khung để hướng dẫn hướng lắp và tháo", "isCorrect": true},
+        {"text": "Là vòm khẩu cái của bệnh nhân", "isCorrect": false},
+        {"text": "Là đường thẳng nối các răng nanh", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng hướng dẫn (guiding planes) nằm ở mặt bên răng trụ, đóng vai trò định hướng cho phục hình."
+    },
+    {
+      "question": "Tương quan giữa hướng tháo lắp và mặt phẳng hướng dẫn là gì?",
+      "options": [
+        {"text": "Luôn luôn vuông góc với nhau", "isCorrect": false},
+        {"text": "Luôn luôn song song với nhau", "isCorrect": true},
+        {"text": "Cắt nhau góc 45 độ", "isCorrect": false},
+        {"text": "Không có liên quan", "isCorrect": false}
+      ],
+      "explanation": "Hướng tháo lắp bắt buộc phải song song với các mặt phẳng hướng dẫn đã được xác định."
+    },
+    {
+      "question": "Việc có mặt phẳng hướng dẫn giúp tránh tình trạng nào sau đây?",
+      "options": [
+        {"text": "Sâu răng", "isCorrect": false},
+        {"text": "Có nhiều hướng tháo lắp không mong muốn", "isCorrect": true},
+        {"text": "Răng bị đổi màu", "isCorrect": false},
+        {"text": "Mòn răng đối diện", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng hướng dẫn giới hạn quỹ đạo di chuyển của hàm giả, chỉ cho phép một hướng lắp duy nhất."
+    },
+    {
+      "question": "Trong trường hợp khoảng mất răng có răng trụ ở cả hai đầu, mặt phẳng hướng dẫn có tác dụng gì?",
+      "options": [
+        {"text": "Làm tăng độ lẹm", "isCorrect": false},
+        {"text": "Làm giảm vùng lẹm ở hai mặt bên răng, giúp ít mắc thức ăn hơn", "isCorrect": true},
+        {"text": "Làm răng giả to hơn", "isCorrect": false},
+        {"text": "Gây đau khi nhai", "isCorrect": false}
+      ],
+      "explanation": "Diện hướng dẫn phẳng giúp loại bỏ khoảng hở tam giác ở vùng cổ răng, giảm thiểu việc đọng thức ăn."
+    },
+    {
+      "question": "Tại sao thân răng hình cong lồi lại gây bất lợi cho việc lắp tháo hàm?",
+      "options": [
+        {"text": "Làm hàm dễ bị rơi", "isCorrect": false},
+        {"text": "Gây sức ép dần dần làm lung lay răng trụ", "isCorrect": true},
+        {"text": "Làm hàm trông không tự nhiên", "isCorrect": false},
+        {"text": "Khiến nhựa bị vỡ", "isCorrect": false}
+      ],
+      "explanation": "Độ lồi quá mức tạo ra lực đẩy ngang vào răng khi tháo lắp, lâu ngày làm tổn thương nha chu."
+    },
+    {
+      "question": "Hình thể lý tưởng của mặt phẳng hướng dẫn là gì (Hình 18.51)?",
+      "options": [
+        {"text": "Mặt cong lồi tối đa", "isCorrect": false},
+        {"text": "Mặt phẳng song song với hướng tháo lắp", "isCorrect": true},
+        {"text": "Mặt lõm vào trong", "isCorrect": false},
+        {"text": "Mặt gồ ghề để tăng ma sát", "isCorrect": false}
+      ],
+      "explanation": "Làm phẳng các mặt lồi của thân răng trụ để đạt sự song song với hướng lắp là yêu cầu kỹ thuật quan trọng."
+    },
+    {
+      "question": "Vùng lẹm ở răng trụ nằm ở vị trí nào so với đường vòng lớn nhất?",
+      "options": [
+        {"text": "Nằm ở phía trên", "isCorrect": false},
+        {"text": "Nằm ở dưới đường vòng lớn nhất", "isCorrect": true},
+        {"text": "Chính giữa mặt nhai", "isCorrect": false},
+        {"text": "Ở chóp chân răng", "isCorrect": false}
+      ],
+      "explanation": "Vùng lẹm là vùng giải phẫu từ đường vòng lớn nhất đổ về phía nướu."
+    },
+    {
+      "question": "Thành phần nào của phục hình được đặt vào vùng lẹm của răng trụ?",
+      "options": [
+        {"text": "Tựa mặt nhai", "isCorrect": false},
+        {"text": "Phần lưu giữ của tay móc", "isCorrect": true},
+        {"text": "Thanh nối chính", "isCorrect": false},
+        {"text": "Răng giả", "isCorrect": false}
+      ],
+      "explanation": "Đầu tận cùng (phần lưu giữ) của tay móc phải nằm trong vùng lẹm để tạo lực giữ hàm."
+    },
+    {
+      "question": "Mối quan hệ giữa vùng lẹm thích hợp và hướng tháo lắp là gì?",
+      "options": [
+        {"text": "Làm kẹt hướng tháo lắp", "isCorrect": false},
+        {"text": "Không ảnh hưởng đến hướng tháo lắp mà đem lại sự lưu giữ cho móc", "isCorrect": true},
+        {"text": "Làm mất hướng tháo lắp", "isCorrect": false},
+        {"text": "Gây đau khi tháo hàm", "isCorrect": false}
+      ],
+      "explanation": "Vùng lẹm chuẩn giúp giữ hàm chắc chắn mà không cản trở quỹ đạo tháo lắp đã chọn."
+    },
+    {
+      "question": "Để giữ hàm giả cân bằng và ổn định, các vùng lẹm trên răng trụ cần đạt tính chất gì?",
+      "options": [
+        {"text": "Càng sâu càng tốt", "isCorrect": false},
+        {"text": "Chỉ tập trung ở 1 bên hàm", "isCorrect": false},
+        {"text": "Cân bằng và đối xứng ở hai bên cung hàm", "isCorrect": true},
+        {"text": "Đặt ở mặt nhai", "isCorrect": false}
+      ],
+      "explanation": "Sự đối xứng của các vùng lẹm giúp phân bổ lực bám giữ đều khắp cung hàm."
+    },
+    {
+      "question": "Cách nào sau đây có thể dùng để tăng hay giảm độ lẹm trên răng trụ?",
+      "options": [
+        {"text": "Thay đổi hướng tháo lắp", "isCorrect": false},
+        {"text": "Mài bớt độ lồi của thân răng", "isCorrect": false},
+        {"text": "Làm mão răng để tạo vùng lẹm mới", "isCorrect": false},
+        {"text": "Tất cả các cách trên", "isCorrect": true}
+      ],
+      "explanation": "Bác sĩ có thể điều chỉnh độ lẹm bằng cách nghiêng mẫu hàm (thay hướng lắp) hoặc can thiệp trực tiếp lên răng."
+    },
+    {
+      "question": "Khi KHÔNG thể thay đổi được hướng tháo lắp, bác sĩ có thể làm gì để phù hợp với độ lẹm?",
+      "options": [
+        {"text": "Nhổ răng trụ", "isCorrect": false},
+        {"text": "Thay đổi khả năng đàn hồi của tay móc", "isCorrect": true},
+        {"text": "Bỏ bớt móc", "isCorrect": false},
+        {"text": "Dùng keo dán răng", "isCorrect": false}
+      ],
+      "explanation": "Thay đổi vật liệu hoặc thiết kế tay móc để điều chỉnh lực bám giữ tương ứng với độ lẹm hiện có."
+    },
+    {
+      "question": "Những vùng vướng (Interference) trên cung hàm có thể được xử lý như thế nào?",
+      "options": [
+        {"text": "Loại bỏ khi điều trị tiền phục hình", "isCorrect": false},
+        {"text": "Đắp lẹm trên mẫu làm việc", "isCorrect": false},
+        {"text": "Cả hai cách trên", "isCorrect": true},
+        {"text": "Không thể xử lý được", "isCorrect": false}
+      ],
+      "explanation": "Vùng vướng có thể được mài bỏ trên răng/xương thật hoặc lấp đầy bằng sáp trên mẫu hàm thạch cao."
+    },
+    {
+      "question": "Nếu các vùng vướng không thể loại bỏ được, chúng sẽ trở thành yếu tố gì trong điều trị?",
+      "options": [
+        {"text": "Yếu tố bị bỏ qua", "isCorrect": false},
+        {"text": "Yếu tố ưu tiên để chọn hướng tháo lắp", "isCorrect": true},
+        {"text": "Yếu tố gây hỏng hàm", "isCorrect": false},
+        {"text": "Yếu tố làm tăng giá thành phục hình", "isCorrect": false}
+      ],
+      "explanation": "Khi không thể can thiệp mô, bác sĩ phải chọn hướng lắp né tránh các vùng vướng đó."
+    },
+    {
+      "question": "Vùng vướng thường gặp ở hàm dưới là gì?",
+      "options": [
+        {"text": "Lồi xương mặt trong", "isCorrect": false},
+        {"text": "Các răng còn lại bị nghiêng trong", "isCorrect": false},
+        {"text": "U xương", "isCorrect": false},
+        {"text": "Tất cả các ý trên", "isCorrect": true}
+      ],
+      "explanation": "Lồi xương mặt trong và răng nghiêng trong là những cản trở đường lắp phổ biến ở hàm dưới."
+    },
+    {
+      "question": "Vùng vướng đặc trưng của hàm trên bao gồm:",
+      "options": [
+        {"text": "Lồi xương khẩu cái và các răng nghiêng ngoài", "isCorrect": true},
+        {"text": "Răng khôn mọc lệch", "isCorrect": false},
+        {"text": "Lưỡi to", "isCorrect": false},
+        {"text": "Thắng môi bám thấp", "isCorrect": false}
+      ],
+      "explanation": "Hàm trên thường vướng ở lồi xương giữa vòm miệng hoặc răng cối bị xô lệch ra phía má."
+    },
+    {
+      "question": "Về thẩm mỹ, hướng tháo lắp lý tưởng nhất nên như thế nào?",
+      "options": [
+        {"text": "Để lộ móc kim loại thật nhiều", "isCorrect": false},
+        {"text": "Hướng sao cho ít để lộ móc nhất", "isCorrect": true},
+        {"text": "Luôn luôn nằm ngang", "isCorrect": false},
+        {"text": "Hướng về phía môi", "isCorrect": false}
+      ],
+      "explanation": "Lựa chọn hướng tháo lắp thông minh có thể giúp che giấu phần kim loại của móc phục hình."
+    },
+    {
+      "question": "Trong trường hợp mất răng trước, hướng tháo lắp thường được chọn là hướng nào để đạt thẩm mỹ cao?",
+      "options": [
+        {"text": "Hướng nghiêng 45 độ", "isCorrect": false},
+        {"text": "Hướng thẳng góc với mặt phẳng nằm ngang", "isCorrect": true},
+        {"text": "Hướng từ trong ra ngoài", "isCorrect": false},
+        {"text": "Hướng song song với môi", "isCorrect": false}
+      ],
+      "explanation": "Hướng lắp đứng giúp sắp xếp răng thay thế đúng vị trí tự nhiên và kích thước hài hòa."
+    },
+    {
+      "question": "Yếu tố nào nên được ưu tiên hàng đầu (quyết định nhất) khi chọn hướng lắp, hơn cả thẩm mỹ?",
+      "options": [
+        {"text": "Sở thích của bệnh nhân", "isCorrect": false},
+        {"text": "Việc che chở cho mô răng và mô nâng đỡ trên miệng", "isCorrect": true},
+        {"text": "Màu sắc của răng giả", "isCorrect": false},
+        {"text": "Sự gọn nhẹ của hàm", "isCorrect": false}
+      ],
+      "explanation": "Bảo vệ sức khỏe tổ chức răng miệng là mục tiêu quan trọng nhất của mọi hướng tháo lắp."
+    },
+    {
+      "question": "Tác dụng của việc chọn hướng tháo lắp đúng là gì?",
+      "options": [
+        {"text": "Bền vững phục hình và bảo vệ tổ chức răng miệng", "isCorrect": false},
+        {"text": "Giúp bệnh nhân tháo lắp dễ dàng", "isCorrect": false},
+        {"text": "Giúp xây dựng kế hoạch điều trị tiền phục hình", "isCorrect": false},
+        {"text": "Tất cả các tác dụng trên", "isCorrect": true}
+      ],
+      "explanation": "Hướng lắp đúng mang lại lợi ích toàn diện cho cả bác sĩ (kế hoạch) và bệnh nhân (sử dụng)."
+    },
+    {
+      "question": "Tại sao có thể có nhiều hướng tháo lắp trong trường hợp mất răng Kennedy loại I?",
+      "options": [
+        {"text": "Vì không có răng giới hạn phía sau", "isCorrect": true},
+        {"text": "Vì răng trụ quá chắc", "isCorrect": false},
+        {"text": "Vì niêm mạc quá dày", "isCorrect": false},
+        {"text": "Vì có răng khôn", "isCorrect": false}
+      ],
+      "explanation": "Khoảng mất răng yên tự do (Class I) thiếu sự giới hạn cơ học nên hàm giả dễ bị di chuyển theo nhiều hướng."
+    },
+    {
+      "question": "Cách để đạt được một hướng tháo lắp đơn nhất cho Kennedy loại I là gì?",
+      "options": [
+        {"text": "Chuẩn bị thêm các mặt phẳng hướng dẫn ở mặt lưỡi của các răng còn lại", "isCorrect": true},
+        {"text": "Mài cụt hết các răng trụ", "isCorrect": false},
+        {"text": "Dùng thật nhiều móc dây uốn", "isCorrect": false},
+        {"text": "Làm nền hàm thật rộng", "isCorrect": false}
+      ],
+      "explanation": "Các diện hướng dẫn phụ giúp cố định quỹ đạo di chuyển của phục hình."
+    },
+    {
+      "question": "Trong Kennedy loại II có khoảng biến thể, bộ phận nào quyết định hướng tháo lắp?",
+      "options": [
+        {"text": "Các răng cửa", "isCorrect": false},
+        {"text": "Mặt phẳng hướng dẫn ở khoảng biến thể", "isCorrect": true},
+        {"text": "Vòm miệng mềm", "isCorrect": false},
+        {"text": "Đường vòng lớn nhất mô mềm", "isCorrect": false}
+      ],
+      "explanation": "Khoảng biến thể (bounded saddle) cung cấp các diện hướng dẫn ổn định để định vị hướng lắp."
+    },
+    {
+      "question": "Yếu tố nào xác định hướng tháo lắp trong trường hợp Kennedy loại III?",
+      "options": [
+        {"text": "Độ sâu của vòm miệng", "isCorrect": false},
+        {"text": "Các mặt phẳng hướng dẫn của các răng trụ chính", "isCorrect": true},
+        {"text": "Số lượng răng giả", "isCorrect": false},
+        {"text": "Chiều dài cung hàm", "isCorrect": false}
+      ],
+      "explanation": "Ở Class III, hướng lắp được quyết định bởi sự song song hóa các mặt bên răng trụ giới hạn khoảng mất răng."
+    },
+    {
+      "question": "Lợi ích của việc làm phẳng mặt cong lồi của răng trụ là gì?",
+      "options": [
+        {"text": "Giúp răng trắng hơn", "isCorrect": false},
+        {"text": "Tạo ra mặt phẳng hướng dẫn song song với hướng tháo lắp", "isCorrect": true},
+        {"text": "Làm răng trụ nhạy cảm hơn", "isCorrect": false},
+        {"text": "Để dễ gắn răng sứ", "isCorrect": false}
+      ],
+      "explanation": "Mặt phẳng giúp hàm giả trượt vào êm ái, không gây áp lực đẩy ngang làm lung lay răng."
+    },
+    {
+      "question": "Thuật ngữ tiếng Anh 'Path of insertion' có nghĩa là gì?",
+      "options": [
+        {"text": "Đường vòng lớn nhất", "isCorrect": false},
+        {"text": "Hướng lắp hàm", "isCorrect": true},
+        {"text": "Khoảng mất răng", "isCorrect": false},
+        {"text": "Mặt phẳng hướng dẫn", "isCorrect": false}
+      ],
+      "explanation": "Path of insertion là thuật ngữ chuyên ngành chỉ hướng lắp hàm giả."
+    },
+    {
+      "question": "Tại sao hướng lắp thẳng đứng lại giúp răng thay thế thẩm mỹ hơn trong mất răng trước?",
+      "options": [
+        {"text": "Vì nó làm răng giả ngắn lại", "isCorrect": false},
+        {"text": "Vì răng giả được đặt vào vị trí tự nhiên và kích thước đúng", "isCorrect": true},
+        {"text": "Vì nó che được nướu bị thâm", "isCorrect": false},
+        {"text": "Vì hướng này dùng răng sứ đắt tiền", "isCorrect": false}
+      ],
+      "explanation": "Hướng đứng cho phép răng giả khít sát với mô mềm tại vị trí giải phẫu cũ."
+    },
+    {
+      "question": "Thành phần 'Proximal plates' của phục hình sẽ trượt trên cấu trúc nào?",
+      "options": [
+        {"text": "Sống hàm", "isCorrect": false},
+        {"text": "Mặt phẳng hướng dẫn (Guiding planes)", "isCorrect": true},
+        {"text": "Mặt nhai răng đối diện", "isCorrect": false},
+        {"text": "Lưỡi", "isCorrect": false}
+      ],
+      "explanation": "Các bản bên của khung sườn kim loại áp sát và trượt trên diện hướng dẫn của răng trụ."
+    },
+    {
+      "question": "Việc chuẩn bị nhiều mặt phẳng hướng dẫn song song nhằm mục đích gì?",
+      "options": [
+        {"text": "Để tăng thời gian điều trị", "isCorrect": false},
+        {"text": "Tránh tình trạng có nhiều hướng tháo lắp", "isCorrect": true},
+        {"text": "Để mài răng cho đẹp", "isCorrect": false},
+        {"text": "Để giảm giá thành", "isCorrect": false}
+      ],
+      "explanation": "Càng nhiều diện song song thì quỹ đạo tháo lắp càng được kiểm soát chặt chẽ và ổn định."
+    },
+    {
+      "question": "Vùng lẹm nào giúp đem lại sự lưu giữ cho móc phục hình?",
+      "options": [
+        {"text": "Vùng lẹm quá sâu", "isCorrect": false},
+        {"text": "Vùng lẹm thích hợp ở răng trụ", "isCorrect": true},
+        {"text": "Vùng lẹm ở vòm miệng", "isCorrect": false},
+        {"text": "Mọi vùng lẹm đều tốt", "isCorrect": false}
+      ],
+      "explanation": "Chỉ những vùng lẹm có độ sâu vừa phải và phù hợp mới có giá trị lưu giữ cơ học."
+    },
+    {
+      "question": "Khi răng trụ nghiêng ngoài quá mức ở hàm trên, điều đó được coi là:",
+      "options": [
+        {"text": "Vùng lẹm có ích", "isCorrect": false},
+        {"text": "Vùng vướng (Interference)", "isCorrect": true},
+        {"text": "Vùng thẩm mỹ", "isCorrect": false},
+        {"text": "Diện hướng dẫn", "isCorrect": false}
+      ],
+      "explanation": "Răng nghiêng ngoài ở hàm trên cản trở việc lắp nền hàm vào đúng vị trí."
+    },
+    {
+      "question": "Trong bài giảng, Hình 18.41b minh họa điều gì?",
+      "options": [
+        {"text": "Răng bị sâu", "isCorrect": false},
+        {"text": "Việc chuẩn bị diện hướng dẫn ở cả hai bên khoảng mất răng để loại bỏ hướng lắp không mong muốn", "isCorrect": true},
+        {"text": "Cách mài ổ tựa", "isCorrect": false},
+        {"text": "Cách lấy dấu", "isCorrect": false}
+      ],
+      "explanation": "Hình này cho thấy khi có diện hướng dẫn hai đầu, hàm giả chỉ có thể đi theo một hướng duy nhất."
+    },
+    {
+      "question": "Điều gì xảy ra nếu hướng lắp ép vào răng trụ khi bệnh nhân tự thực hiện?",
+      "options": [
+        {"text": "Răng sẽ tự đứng thẳng lại", "isCorrect": false},
+        {"text": "Gây đau và tổn thương lâu dài cho răng trụ", "isCorrect": true},
+        {"text": "Hàm giả bám chắc hơn", "isCorrect": false},
+        {"text": "Không có vấn đề gì", "isCorrect": false}
+      ],
+      "explanation": "Lực ép do hướng lắp sai là một trong những nguyên nhân hàng đầu gây hỏng phục hình và mất thêm răng thật."
+    },
+    {
+      "question": "Hướng lắp hàm giả là hướng di chuyển từ điểm chạm đầu tiên cho đến khi nào?",
+      "options": [
+        {"text": "Cho đến khi tựa mặt nhai nằm sát đáy tựa", "isCorrect": true},
+        {"text": "Cho đến khi bệnh nhân nuốt được", "isCorrect": false},
+        {"text": "Cho đến khi móc kim loại không còn di chuyển", "isCorrect": false},
+        {"text": "Cho đến khi đau", "isCorrect": false}
+      ],
+      "explanation": "Vị trí tận cùng của hướng lắp là khi các phần nâng đỡ (tựa) đã yên vị hoàn toàn trên răng trụ."
+    },
+    {
+      "question": "Thành phần nào áp sát mô nâng đỡ khi kết thúc quá trình lắp hàm?",
+      "options": [
+        {"text": "Tay móc", "isCorrect": false},
+        {"text": "Yên phục hình", "isCorrect": true},
+        {"text": "Thanh nối phụ", "isCorrect": false},
+        {"text": "Răng nanh", "isCorrect": false}
+      ],
+      "explanation": "Yên phục hình mang răng giả phải áp sát niêm mạc sống hàm để truyền lực nhai."
+    },
+    {
+      "question": "Hướng tháo lắp được xác định nhằm đảm bảo sự cân bằng của phục hình ở trạng thái nào?",
+      "options": [
+        {"text": "Trạng thái tĩnh", "isCorrect": true},
+        {"text": "Trạng thái động", "isCorrect": false},
+        {"text": "Trạng thái mỏi", "isCorrect": false},
+        {"text": "Trạng thái tiền phục hình", "isCorrect": false}
+      ],
+      "explanation": "Sự cân bằng ở trạng thái tĩnh đảm bảo hàm không bị bập bênh khi không nhai."
+    },
+    {
+      "question": "Hình 18.35a mô tả các răng trụ như thế nào?",
+      "options": [
+        {"text": "Nghiêng vào nhau", "isCorrect": false},
+        {"text": "Thẳng đứng và song song", "isCorrect": true},
+        {"text": "Xoay trục", "isCorrect": false},
+        {"text": "Bị mất hết xương", "isCorrect": false}
+      ],
+      "explanation": "Hình này minh họa trạng thái giải phẫu lý tưởng cho hướng tháo lắp thuận lợi."
+    },
+    {
+      "question": "Các mặt phẳng hướng dẫn nằm ở vị trí nào của răng trụ?",
+      "options": [
+        {"text": "Mặt nhai", "isCorrect": false},
+        {"text": "Mặt bên", "isCorrect": true},
+        {"text": "Rìa cắn", "isCorrect": false},
+        {"text": "Mặt ngoài", "isCorrect": false}
+      ],
+      "explanation": "Diện hướng dẫn thường được sửa soạn ở mặt gần hoặc mặt xa của răng trụ tiếp giáp khoảng mất răng."
+    },
+    {
+      "question": "Hướng tháo lắp song song với mặt phẳng hướng dẫn là yêu cầu:",
+      "options": [
+        {"text": "Tùy ý", "isCorrect": false},
+        {"text": "Bắt buộc", "isCorrect": true},
+        {"text": "Chỉ dành cho hàm dưới", "isCorrect": false},
+        {"text": "Không quan trọng bằng thẩm mỹ", "isCorrect": false}
+      ],
+      "explanation": "Đây là nguyên tắc hình học cơ bản trong thiết kế phục hình tháo lắp."
+    },
+    {
+      "question": "Diện hướng dẫn giúp giảm vùng lẹm ở hai mặt bên răng sẽ dẫn đến:",
+      "options": [
+        {"text": "Răng bị thưa", "isCorrect": false},
+        {"text": "Ít mắc thức ăn hơn", "isCorrect": true},
+        {"text": "Hàm giả lỏng hơn", "isCorrect": false},
+        {"text": "Sâu răng nhanh hơn", "isCorrect": false}
+      ],
+      "explanation": "Xóa bỏ các hốc tam giác cổ răng giúp vệ sinh dễ dàng hơn."
+    },
+    {
+      "question": "Thuật ngữ 'Ideal contour of guide plane' (Hình 18.51) ám chỉ điều gì?",
+      "options": [
+        {"text": "Đường viền nướu đẹp", "isCorrect": false},
+        {"text": "Đường viền lý tưởng của mặt phẳng hướng dẫn sau khi mài chỉnh", "isCorrect": true},
+        {"text": "Hình dáng răng cửa", "isCorrect": false},
+        {"text": "Màu sắc gốm sứ", "isCorrect": false}
+      ],
+      "explanation": "Hình này chỉ cách mài bớt độ lồi để tạo ra một diện phẳng định hướng tốt."
+    },
+    {
+      "question": "Đường vòng lớn nhất chia răng trụ thành mấy phần?",
+      "options": [
+        {"text": "Không chia", "isCorrect": false},
+        {"text": "2 phần (vùng trên và vùng dưới/vùng lẹm)", "isCorrect": true},
+        {"text": "3 phần", "isCorrect": false},
+        {"text": "Chia theo chân răng", "isCorrect": false}
+      ],
+      "explanation": "Đường vòng lớn nhất là ranh giới kỹ thuật quan trọng nhất trên răng trụ."
+    },
+    {
+      "question": "Phần lưu giữ của tay móc đặt ở đâu?",
+      "options": [
+        {"text": "Trên đường vòng lớn nhất", "isCorrect": false},
+        {"text": "Dưới đường vòng lớn nhất (vùng lẹm)", "isCorrect": true},
+        {"text": "Trên mặt nhai", "isCorrect": false},
+        {"text": "Trong tủy răng", "isCorrect": false}
+      ],
+      "explanation": "Tính chất đàn hồi của móc cho phép nó chui qua đường vòng và 'sập' vào vùng lẹm để giữ hàm."
+    },
+    {
+      "question": "Cân bằng và đối xứng vùng lẹm giúp giữ hàm giả như thế nào?",
+      "options": [
+        {"text": "Cân bằng và ổn định", "isCorrect": true},
+        {"text": "Lung lay", "isCorrect": false},
+        {"text": "Chặt cứng không tháo được", "isCorrect": false},
+        {"text": "Làm đau một bên", "isCorrect": false}
+      ],
+      "explanation": "Sự phân bố lực bám giữ đều hai bên ngăn cản các chuyển động nghiêng của hàm."
+    },
+    {
+      "question": "Làm mão răng cho răng trụ nhằm mục đích gì trong chọn hướng lắp?",
+      "options": [
+        {"text": "Để tốn thêm tiền", "isCorrect": false},
+        {"text": "Để tạo ra vùng lẹm thích hợp nếu răng thật không có", "isCorrect": true},
+        {"text": "Để thay đổi nhóm máu", "isCorrect": false},
+        {"text": "Để răng thật trắng hơn", "isCorrect": false}
+      ],
+      "explanation": "Mão răng (chụp răng) cho phép kiến tạo lại hình thể răng theo ý muốn kỹ thuật."
+    },
+    {
+      "question": "Mài bớt độ lồi của thân răng giúp thay đổi yếu tố nào?",
+      "options": [
+        {"text": "Thay đổi vị trí tựa", "isCorrect": false},
+        {"text": "Tăng hoặc giảm độ lẹm", "isCorrect": true},
+        {"text": "Làm răng mọc dài ra", "isCorrect": false},
+        {"text": "Thay đổi màu sắc nướu", "isCorrect": false}
+      ],
+      "explanation": "Mài chỉnh (selective grinding) là cách đơn giản để tối ưu hóa vùng lẹm bám móc."
+    },
+    {
+      "question": "Khả năng đàn hồi của tay móc có thể thay đổi khi nào?",
+      "options": [
+        {"text": "Khi không thể thay đổi hướng tháo lắp", "isCorrect": true},
+        {"text": "Khi bệnh nhân muốn hàm màu vàng", "isCorrect": false},
+        {"text": "Khi răng bị rụng", "isCorrect": false},
+        {"text": "Khi lấy dấu xong", "isCorrect": false}
+      ],
+      "explanation": "Bù trừ độ lẹm bằng cách chọn vật liệu móc có tính đàn hồi cao (như móc dây uốn thay vì móc đúc)."
+    },
+    {
+      "question": "Vùng vướng có thể được loại bỏ bằng cách nào?",
+      "options": [
+        {"text": "Điều trị tiền phục hình", "isCorrect": true},
+        {"text": "Uống thuốc kháng sinh", "isCorrect": false},
+        {"text": "Xúc miệng nước muối", "isCorrect": false},
+        {"text": "Đánh răng mạnh hơn", "isCorrect": false}
+      ],
+      "explanation": "Tiền phục hình bao gồm mài xương, phẫu thuật torus hoặc mài răng trụ gây vướng."
+    },
+    {
+      "question": "Đắp lẹm trên mẫu làm việc được thực hiện bởi ai?",
+      "options": [
+        {"text": "Bác sĩ lâm sàng", "isCorrect": false},
+        {"text": "Kỹ thuật viên Labo", "isCorrect": true},
+        {"text": "Bệnh nhân", "isCorrect": false},
+        {"text": "Trợ thủ", "isCorrect": false}
+      ],
+      "explanation": "Labo dùng sáp hoặc thạch cao lấp các vùng lẹm không có ích để đúc khung sườn."
+    },
+    {
+      "question": "Lồi xương mặt trong là vùng vướng của hàm nào?",
+      "options": [
+        {"text": "Hàm trên", "isCorrect": false},
+        {"text": "Hàm dưới", "isCorrect": true},
+        {"text": "Cả hai hàm", "isCorrect": false},
+        {"text": "Chỉ có ở trẻ em", "isCorrect": false}
+      ],
+      "explanation": "Torus hàm dưới thường nằm ở mặt trong vùng răng tiền hàm."
+    },
+    {
+      "question": "Răng bị nghiêng trong thường gây vướng ở hàm nào?",
+      "options": [
+        {"text": "Hàm dưới", "isCorrect": true},
+        {"text": "Hàm trên", "isCorrect": false},
+        {"text": "Khớp thái dương hàm", "isCorrect": false},
+        {"text": "Hàm ếch", "isCorrect": false}
+      ],
+      "explanation": "Đây là cản trở phổ biến khi lắp phục hình hàm dưới có thanh nối lưỡi."
+    },
+    {
+      "question": "Răng nghiêng ngoài gây vướng cho hàm nào?",
+      "options": [
+        {"text": "Hàm dưới", "isCorrect": false},
+        {"text": "Hàm trên", "isCorrect": true},
+        {"text": "Lưỡi", "isCorrect": false},
+        {"text": "Không gây vướng", "isCorrect": false}
+      ],
+      "explanation": "Răng cối hàm trên nghiêng má sẽ cản trở cánh nền hàm giả."
+    },
+    {
+      "question": "Lồi xương khẩu cái nằm ở hàm nào?",
+      "options": [
+        {"text": "Hàm dưới", "isCorrect": false},
+        {"text": "Hàm trên", "isCorrect": true},
+        {"text": "Góc hàm", "isCorrect": false},
+        {"text": "Xương gò má", "isCorrect": false}
+      ],
+      "explanation": "Torus palatinus nằm ở đường giữa vòm miệng (hàm trên)."
+    },
+    {
+      "question": "Ưu tiên cao nhất khi chọn hướng tháo lắp là:",
+      "options": [
+        {"text": "Để phục hình trông đẹp nhất", "isCorrect": false},
+        {"text": "Che chở cho mô răng và mô nâng đỡ", "isCorrect": true},
+        {"text": "Để bệnh nhân dễ phát âm", "isCorrect": false},
+        {"text": "Để bác sĩ làm nhanh nhất", "isCorrect": false}
+      ],
+      "explanation": "Chức năng sinh học và bảo tồn mô thật luôn quan trọng hơn thẩm mỹ thuần túy."
+    },
+    {
+      "question": "Để ít lộ móc nhất, bác sĩ cần:",
+      "options": [
+        {"text": "Không lắp móc", "isCorrect": false},
+        {"text": "Chọn hướng tháo lắp thông minh", "isCorrect": true},
+        {"text": "Dùng móc bằng nhựa trong", "isCorrect": false},
+        {"text": "Sơn màu trắng lên móc", "isCorrect": false}
+      ],
+      "explanation": "Việc nghiêng mẫu hàm có thể đẩy đường vòng lớn nhất về phía nướu ở vùng thẩm mỹ."
+    },
+    {
+      "question": "Tác dụng bảo vệ tổ chức răng miệng của hướng tháo lắp đúng là nhờ:",
+      "options": [
+        {"text": "Không tạo lực đẩy ngang vào răng trụ", "isCorrect": true},
+        {"text": "Giúp răng thật trắng hơn", "isCorrect": false},
+        {"text": "Làm sạch vi khuẩn", "isCorrect": false},
+        {"text": "Giúp nướu mọc dày lên", "isCorrect": false}
+      ],
+      "explanation": "Lực lắp thẳng trục giúp mô nha chu của răng trụ được bền vững."
+    },
+    {
+      "question": "Xây dựng kế hoạch phác họa dựa trên yếu tố nào?",
+      "options": [
+        {"text": "Dấu vân tay bệnh nhân", "isCorrect": false},
+        {"text": "Hướng tháo lắp đã chọn", "isCorrect": true},
+        {"text": "Ngày tháng lấy dấu", "isCorrect": false},
+        {"text": "Loại thạch cao đổ mẫu", "isCorrect": false}
+      ],
+      "explanation": "Hướng lắp quyết định vị trí đặt thanh nối, tay móc và yên phục hình."
+    },
+    {
+      "question": "Mất răng Kennedy I có thể có bao nhiêu hướng tháo lắp tiềm năng?",
+      "options": [
+        {"text": "Chỉ một", "isCorrect": false},
+        {"text": "Nhiều hướng (Multiple paths)", "isCorrect": true},
+        {"text": "Không có hướng nào", "isCorrect": false},
+        {"text": "Chỉ hướng nằm ngang", "isCorrect": false}
+      ],
+      "explanation": "Vì là yên tự do nên không có sự giới hạn cứng ở phía sau."
+    },
+    {
+      "question": "Guiding planes ở mặt lưỡi của các răng còn lại trong Kennedy I giúp ích gì?",
+      "options": [
+        {"text": "Để bệnh nhân nếm thức ăn ngon hơn", "isCorrect": false},
+        {"text": "Tạo ra một hướng tháo lắp đơn nhất (single path)", "isCorrect": true},
+        {"text": "Giúp lưỡi không bị đau", "isCorrect": false},
+        {"text": "Làm răng trụ to ra", "isCorrect": false}
+      ],
+      "explanation": "Sự tiếp xúc của khung sườn với các diện này sẽ ép phục hình đi theo đúng lộ trình."
+    },
+    {
+      "question": "Trong Kennedy II có khoảng biến thể, diện hướng dẫn ở đâu xác định hướng lắp?",
+      "options": [
+        {"text": "Ở răng cửa", "isCorrect": false},
+        {"text": "Trong khoảng biến thể (modification space)", "isCorrect": true},
+        {"text": "Ở vòm miệng", "isCorrect": false},
+        {"text": "Ở lồi củ", "isCorrect": false}
+      ],
+      "explanation": "Khoảng biến thể có răng giới hạn hai đầu tạo ra các diện hướng dẫn song song lý tưởng."
+    },
+    {
+      "question": "Ai là người trình bày bài học này (Trang 1)?",
+      "options": [
+        {"text": "Bs. Phương Trần Thị Huyền", "isCorrect": true},
+        {"text": "Bs. Kennedy", "isCorrect": false},
+        {"text": "Bs. Applegate", "isCorrect": false},
+        {"text": "Bs. Hanau", "isCorrect": false}
+      ],
+      "explanation": "Tên giảng viên xuất hiện ngay slide đầu tiên của tài liệu."
+    },
+    {
+      "question": "Mục tiêu số 1 của bài học là gì?",
+      "options": [
+        {"text": "Biết cách nhổ răng", "isCorrect": false},
+        {"text": "Nêu được các yêu cầu đối với hướng tháo lắp của hàm PHKB", "isCorrect": true},
+        {"text": "Học cách đúc vàng", "isCorrect": false},
+        {"text": "Lấy dấu alginate", "isCorrect": false}
+      ],
+      "explanation": "Mục tiêu đầu tiên tập trung vào các tiêu chuẩn kỹ thuật của hướng tháo lắp."
+    },
+    {
+      "question": "Mục tiêu số 2 của bài học là gì?",
+      "options": [
+        {"text": "Giải thích các yếu tố ảnh hưởng đến hướng tháo lắp", "isCorrect": true},
+        {"text": "Cách mài ổ tựa", "isCorrect": false},
+        {"text": "Đo màu răng", "isCorrect": false},
+        {"text": "Chụp phim panorama", "isCorrect": false}
+      ],
+      "explanation": "Mục tiêu thứ hai giúp sinh viên hiểu lý do tại sao phải chọn hướng lắp nhất định."
+    },
+    {
+      "question": "Hướng lắp hàm kết thúc khi nào?",
+      "options": [
+        {"text": "Khi bệnh nhân thấy đau", "isCorrect": false},
+        {"text": "Khi yên phục hình áp sát mô nâng đỡ", "isCorrect": true},
+        {"text": "Khi tháo hàm ra", "isCorrect": false},
+        {"text": "Khi răng giả rụng", "isCorrect": false}
+      ],
+      "explanation": "Sự áp sát mô nâng đỡ và sát đáy tựa đánh dấu hoàn thành việc lắp hàm."
+    },
+    {
+      "question": "Đặc điểm của thân khay lấy dấu hàm trên (nhắc lại kiến thức liên quan) là gì?",
+      "options": [
+        {"text": "Có phần khuyết lưỡi", "isCorrect": false},
+        {"text": "Có phần lồi vòm miệng", "isCorrect": true},
+        {"text": "Không có cán", "isCorrect": false},
+        {"text": "Làm bằng giấy", "isCorrect": false}
+      ],
+      "explanation": "Khay hàm trên cần lấy được chi tiết vòm khẩu cái để thiết kế thanh nối chính."
+    },
+    {
+      "question": "Việc chuẩn bị diện hướng dẫn đặc biệt hiệu quả trong loại khoảng mất răng nào?",
+      "options": [
+        {"text": "Khoảng mất răng có răng trụ ở 2 đầu (bounded saddle)", "isCorrect": true},
+        {"text": "Khoảng mất răng yên tự do", "isCorrect": false},
+        {"text": "Mất toàn bộ răng", "isCorrect": false},
+        {"text": "Chỉ mất 1 răng cửa", "isCorrect": false}
+      ],
+      "explanation": "Bounded saddle cho phép tạo ra các mặt song song đối xứng hoàn hảo."
+    },
+    {
+      "question": "Sử dụng song song kế giúp bác sĩ làm gì?",
+      "options": [
+        {"text": "Mài răng cho đẹp", "isCorrect": false},
+        {"text": "Xác định hướng tháo lắp tối ưu trên mẫu hàm", "isCorrect": true},
+        {"text": "Trám răng sâu", "isCorrect": false},
+        {"text": "Lấy cao răng", "isCorrect": false}
+      ],
+      "explanation": "Song song kế là công cụ không thể thiếu để phân tích kỹ thuật tháo lắp hàm."
+    },
+    {
+      "question": "Để đạt thẩm mỹ, rìa cắn răng cửa trên nên tiếp xúc với cấu trúc nào khi cười (nhắc lại kiến thức)?",
+      "options": [
+        {"text": "Bờ môi dưới", "isCorrect": true},
+        {"text": "Lưỡi", "isCorrect": false},
+        {"text": "Vòm miệng cứng", "isCorrect": false},
+        {"text": "Cổ răng dưới", "isCorrect": false}
+      ],
+      "explanation": "Sự tiếp xúc nhẹ với môi dưới tạo nên nụ cười hài hòa."
+    },
+    {
+      "question": "Diện hướng dẫn lý tưởng nên song song với hướng nào?",
+      "options": [
+        {"text": "Hướng nằm ngang", "isCorrect": false},
+        {"text": "Hướng tháo lắp", "isCorrect": true},
+        {"text": "Trục răng nanh", "isCorrect": false},
+        {"text": "Mặt phẳng cắn", "isCorrect": false}
+      ],
+      "explanation": "Sự đồng nhất về phương hướng đảm bảo phục hình hoạt động theo nguyên lý cơ học."
+    },
+    {
+      "question": "Tác dụng 'Bền vững phục hình' của hướng lắp đúng có được do đâu?",
+      "options": [
+        {"text": "Do dùng kim loại đắt tiền", "isCorrect": false},
+        {"text": "Do hàm được định vị vững ổn, không bị di lệch khi sử dụng", "isCorrect": true},
+        {"text": "Do nền hàm dày", "isCorrect": false},
+        {"text": "Do răng giả bằng sứ", "isCorrect": false}
+      ],
+      "explanation": "Sự khít sát và đúng hướng giúp phục hình chịu lực tốt hơn và bền hơn."
+    },
+    {
+      "question": "Hướng lắp của phục hình di chuyển từ 'điểm chạm đầu tiên' của thành phần nào?",
+      "options": [
+        {"text": "Phần nhựa mềm", "isCorrect": false},
+        {"text": "Phần cứng rắn của phục hình", "isCorrect": true},
+        {"text": "Răng giả", "isCorrect": false},
+        {"text": "Niêm mạc", "isCorrect": false}
+      ],
+      "explanation": "Các phần khung kim loại hoặc nhựa cứng là vật dẫn đường khi lắp hàm."
+    },
+    {
+      "question": "Việc mài bớt độ lồi thân răng thường được thực hiện ở mặt nào của răng trụ?",
+      "options": [
+        {"text": "Mặt nhai", "isCorrect": false},
+        {"text": "Mặt bên tiếp giáp khoảng mất răng", "isCorrect": true},
+        {"text": "Mặt lưỡi", "isCorrect": false},
+        {"text": "Gần chóp răng", "isCorrect": false}
+      ],
+      "explanation": "Vị trí này chính là nơi sẽ hình thành mặt phẳng hướng dẫn."
+    },
+    {
+      "question": "Tại sao diện hướng dẫn giúp ích cho mô nâng đỡ?",
+      "options": [
+        {"text": "Làm mô nâng đỡ cứng hơn", "isCorrect": false},
+        {"text": "Giảm bớt sự bóp nghẹt hoặc lực ép không mong muốn", "isCorrect": true},
+        {"text": "Tăng tiết nước bọt", "isCorrect": false},
+        {"text": "Không có tác dụng gì", "isCorrect": false}
+      ],
+      "explanation": "Nó định hướng lực nhai và lực tháo lắp đi đúng theo trục răng."
+    },
+    {
+      "question": "Thiết kế móc 'ít để lộ nhất' phục vụ yếu tố nào?",
+      "options": [
+        {"text": "Chức năng", "isCorrect": false},
+        {"text": "Thẩm mỹ", "isCorrect": true},
+        {"text": "Kinh tế", "isCorrect": false},
+        {"text": "Bền vững", "isCorrect": false}
+      ],
+      "explanation": "Đây là mong muốn thẩm mỹ phổ biến nhất của bệnh nhân đeo hàm tháo lắp."
+    },
+    {
+      "question": "Trong chẩn đoán X-quang, 'Lamina dura' là lớp gì?",
+      "options": [
+        {"text": "Lớp ngà răng", "isCorrect": false},
+        {"text": "Lớp xương đặc bao quanh ổ răng", "isCorrect": true},
+        {"text": "Lớp cao răng", "isCorrect": false},
+        {"text": "Tủy răng", "isCorrect": false}
+      ],
+      "explanation": "Sự liên tục của lamina dura là dấu hiệu của răng trụ khỏe mạnh."
+    },
+    {
+      "question": "Mất răng Kennedy III có răng giới hạn ở mấy đầu?",
+      "options": [
+        {"text": "1 đầu", "isCorrect": false},
+        {"text": "2 đầu", "isCorrect": true},
+        {"text": "Không có răng giới hạn", "isCorrect": false},
+        {"text": "Mất hết răng", "isCorrect": false}
+      ],
+      "explanation": "Đặc điểm của Class III là khoảng mất răng có giới hạn răng thật ở cả phía trước và sau."
+    },
+    {
+      "question": "Hình 18.36 minh họa kỹ thuật gì trong Kennedy I?",
+      "options": [
+        {"text": "Cách đo huyết áp", "isCorrect": false},
+        {"text": "Việc chuẩn bị diện hướng dẫn phụ ở mặt lưỡi để tạo hướng lắp đơn nhất", "isCorrect": true},
+        {"text": "Cách nhổ răng khôn", "isCorrect": false},
+        {"text": "Cách đánh alginate", "isCorrect": false}
+      ],
+      "explanation": "Slide 20 giải thích hình này giúp kiểm soát quỹ đạo di chuyển của hàm giả Class I."
+    },
+    {
+      "question": "Số lượng slide trong bài giảng này là bao nhiêu?",
+      "options": [
+        {"text": "10", "isCorrect": false},
+        {"text": "23", "isCorrect": true},
+        {"text": "50", "isCorrect": false},
+        {"text": "100", "isCorrect": false}
+      ],
+      "explanation": "Tài liệu ghi chú rõ 'Slide X of 23'."
+    },
+    {
+      "question": "Hệ thống 'foo-iruz-knb' (xuất hiện trong ảnh) là ký hiệu của nền tảng nào?",
+      "options": [
+        {"text": "Phòng mạch nha khoa", "isCorrect": false},
+        {"text": "Mã cuộc họp trực tuyến (Google Meet)", "isCorrect": true},
+        {"text": "Một loại vật liệu lấy dấu", "isCorrect": false},
+        {"text": "Tên loại răng giả", "isCorrect": false}
+      ],
+      "explanation": "Đây là định dạng mã phòng họp trực tuyến phổ biến được ghi nhận trong ảnh chụp màn hình bài giảng."
+    },
+    {
+      "question": "Khi cười tối đa, giới hạn thấp nhất của môi trên được gọi là:",
+      "options": [
+        {"text": "Đường giữa", "isCorrect": false},
+        {"text": "Đường cười", "isCorrect": true},
+        {"text": "Góc hàm", "isCorrect": false},
+        {"text": "Nhân trung", "isCorrect": false}
+      ],
+      "explanation": "Đường cười là mốc thẩm mỹ quan trọng để xác định độ lộ răng."
+    },
+    {
+      "question": "Kết quả cuối cùng của việc chọn hướng tháo lắp đúng là:",
+      "options": [
+        {"text": "Bệnh nhân hài lòng và sức khỏe răng miệng được bảo tồn", "isCorrect": true},
+        {"text": "Hàm giả trông rực rỡ hơn", "isCorrect": false},
+        {"text": "Bác sĩ được trả nhiều tiền hơn", "isCorrect": false},
+        {"text": "Răng thật rụng hết", "isCorrect": false}
+      ],
+      "explanation": "Đây chính là mục tiêu tối thượng của phục hình nha khoa hiện đại."
+    },
+    {
+      "question": "Tại sao phải mài đáy mẫu hàm thạch cao trước khi phân tích hướng lắp?",
+      "options": [
+        {"text": "Để mẫu hàm nhẹ hơn", "isCorrect": false},
+        {"text": "Để mẫu hàm đứng vững và phẳng trên bàn song song kế", "isCorrect": true},
+        {"text": "Để labo không chê bác sĩ", "isCorrect": false},
+        {"text": "Để thạch cao trắng hơn", "isCorrect": false}
+      ],
+      "explanation": "Đế phẳng là điều kiện bắt buộc để thực hiện phép phân tích song song kế chuẩn xác."
+    },
+    {
+      "question": "Trong quy trình 6 bước thực hiện phục hình, bước nghiên cứu trên song song kế là bước thứ mấy?",
+      "options": [
+        {"text": "Bước 1", "isCorrect": false},
+        {"text": "Bước 2", "isCorrect": true},
+        {"text": "Bước 4", "isCorrect": false},
+        {"text": "Bước 6", "isCorrect": false}
+      ],
+      "explanation": "Đây là bước chuyển đổi dữ liệu từ khám lâm sàng sang thiết kế kỹ thuật."
+    },
+    {
+      "question": "Bệnh nhân loại 'Khôn ngoan' (House classification) có đặc điểm gì (nhắc lại)?",
+      "options": [
+        {"text": "Hay đòi hỏi quá đáng", "isCorrect": false},
+        {"text": "Hợp tác, lắng nghe và hiểu giới hạn của điều trị", "isCorrect": true},
+        {"text": "Luôn trễ hẹn", "isCorrect": false},
+        {"text": "Không muốn đeo hàm giả", "isCorrect": false}
+      ],
+      "explanation": "Nhóm bệnh nhân này có tiên lượng tốt nhất khi sử dụng phục hình tháo lắp."
+    },
+    {
+      "question": "Lồi xương hàm dưới (Mandibular torus) thường nằm ở mặt nào?",
+      "options": [
+        {"text": "Mặt ngoài (phía má)", "isCorrect": false},
+        {"text": "Mặt trong (phía lưỡi)", "isCorrect": true},
+        {"text": "Mặt nhai", "isCorrect": false},
+        {"text": "Dưới cằm", "isCorrect": false}
+      ],
+      "explanation": "Vị trí torus hàm dưới thường đối xứng hai bên ở mặt trong vùng răng hàm nhỏ."
+    },
+    {
+      "question": "Âm /s/ giúp xác định yếu tố thẩm mỹ nào (nhắc lại)?",
+      "options": [
+        {"text": "Độ dài răng nanh", "isCorrect": false},
+        {"text": "Độ cắn chìa giữa răng cửa trên và dưới", "isCorrect": true},
+        {"text": "Độ rộng cung hàm", "isCorrect": false},
+        {"text": "Màu sắc nướu", "isCorrect": false}
+      ],
+      "explanation": "Sự thoát hơi khi phát âm âm gió /s/ phụ thuộc vào tương quan giữa hai nhóm răng cửa."
+    },
+    {
+      "question": "Phát biểu nào đúng về vùng vướng (Interference)?",
+      "options": [
+        {"text": "Mọi vùng vướng đều phải mài bỏ", "isCorrect": false},
+        {"text": "Nếu không thể loại bỏ, vùng vướng sẽ là ưu tiên hàng đầu để chọn hướng tháo lắp né tránh", "isCorrect": true},
+        {"text": "Vùng vướng giúp hàm bám chắc hơn", "isCorrect": false},
+        {"text": "Vùng vướng chỉ có ở người trẻ", "isCorrect": false}
+      ],
+      "explanation": "Tài liệu nhấn mạnh việc ưu tiên chọn hướng lắp để vượt qua các cản trở giải phẫu không thể can thiệp."
+    },
+    {
+      "question": "Thẩm mỹ trong hướng tháo lắp phục hình khung bộ bao gồm:",
+      "options": [
+        {"text": "Vị trí đặt móc ít lộ nhất", "isCorrect": false},
+        {"text": "Sắp xếp răng giả tự nhiên", "isCorrect": false},
+        {"text": "Kích thước răng giả hài hòa", "isCorrect": false},
+        {"text": "Tất cả các ý trên", "isCorrect": true}
+      ],
+      "explanation": "Thẩm mỹ là sự tổng hòa của vị trí linh kiện kim loại và hình thái răng giả."
+    },
+    {
+      "question": "Cấu trúc 'Denture' trong tài liệu có nghĩa là gì?",
+      "options": [
+        {"text": "Sâu răng", "isCorrect": false},
+        {"text": "Phục hình (hàm răng giả)", "isCorrect": true},
+        {"text": "Lấy vôi răng", "isCorrect": false},
+        {"text": "Mão răng", "isCorrect": false}
+      ],
+      "explanation": "Denture là thuật ngữ chỉ hàm răng giả, có thể là toàn bộ hoặc từng phần."
+    },
+    {
+      "question": "Kennedy Class III thường có răng giới hạn là các răng nào?",
+      "options": [
+        {"text": "Răng trụ chính (Primary abutment teeth)", "isCorrect": true},
+        {"text": "Răng giả", "isCorrect": false},
+        {"text": "Răng sữa", "isCorrect": false},
+        {"text": "Không có răng giới hạn", "isCorrect": false}
+      ],
+      "explanation": "Các răng thật này xác định hướng lắp thông qua các diện hướng dẫn của chúng."
+    },
+    {
+      "question": "Tựa mặt nhai (Rest) có vai trò gì khi ăn?",
+      "options": [
+        {"text": "Giúp răng thật lung lay", "isCorrect": false},
+        {"text": "Ngăn hàm giả bị lún xuống nướu khi chịu lực nhai", "isCorrect": true},
+        {"text": "Dẫn truyền vị giác", "isCorrect": false},
+        {"text": "Chứa thức ăn", "isCorrect": false}
+      ],
+      "explanation": "Tựa là thành phần nâng đỡ chính, bảo vệ niêm mạc sống hàm không bị ép quá mức."
+    },
+    {
+      "question": "Tài liệu này dùng cho bài giảng thời lượng bao lâu (Trang 1)?",
+      "options": [
+        {"text": "1 tiết", "isCorrect": false},
+        {"text": "2 tiết", "isCorrect": true},
+        {"text": "5 tiết", "isCorrect": false},
+        {"text": "1 học kỳ", "isCorrect": false}
+      ],
+      "explanation": "Tiêu đề bài giảng ghi rõ 'HƯỚNG THÁO LẮP HÀM (2 tiết)'."
+    }
+  ]

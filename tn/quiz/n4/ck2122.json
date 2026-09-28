@@ -1,0 +1,972 @@
+[
+  {
+    "question": "Tình huống: Bệnh nhân nữ, 45 tuổi, mất răng 37 đã lâu, đến khám RHM vì lý do đau, mỗi khi ăn nhai, có tiếng kêu ở vùng trước tai trái. Bệnh nhân có thói quen ăn nhai ở bên phải. Tình trạng khớp cắn nào sau đây phù hợp với bệnh nhân mất răng 37 đã lâu, ăn nhai có tiếng kêu ở vùng trước tại trái, có thói quen ăn nhai ở bên phải?",
+    "options": [
+      { "text": "R36 nghiêng xa", "isCorrect": true },
+      { "text": "R26 trồi xướng", "isCorrect": false },
+      { "text": "R27 trồi xướng", "isCorrect": false },
+      { "text": "Khớp cắn không có gì thay đổi", "isCorrect": false }
+    ],
+    "explanation": "Tình huống bệnh nhân mất răng 37 lâu ngày thường dẫn đến R36 nghiêng xa."
+  },
+  {
+    "question": "Tình huống: Bệnh nhân nữ, 45 tuổi, mất răng 37 đã lâu, đến khám RHM vì lý do đau, mỗi khi ăn nhai, có tiếng kêu ở vùng trước tai trái. Bệnh nhân có thói quen ăn nhai ở bên phải. Việc mài điều chỉnh sơ khởi nếu cần ở bệnh nhân này sẽ là gì?",
+    "options": [
+      { "text": "Mài múi chui", "isCorrect": true },
+      { "text": "Mài răng trồi", "isCorrect": false },
+      { "text": "Mài để cải thiện thẩm mỹ.", "isCorrect": false },
+      { "text": "Điều chỉnh gờ bên.", "isCorrect": false }
+    ],
+    "explanation": "Mài múi chui là một trong những loại mài điều chỉnh sơ khởi."
+  },
+  {
+    "question": "Khi thăm khám, bệnh nhân có biểu hiện há miệng lệch sang phải khoảng 3mm, biên độ đưa hàm sang bên trái là 4mm, biên độ đưa hàm sang phải là 10mm, biên độ há miệng tối đa của bệnh nhân là 30mm. Hình ảnh nào dưới đây biểu hiện đúng đường há miệng của bệnh nhân có biểu hiện há miệng lệch sang phải khoảng 3mm? <img src='https://i.ibb.co/DffZSzGX/image.png'/>",
+    "options": [
+      { "text": "H1", "isCorrect": false },
+      { "text": "H2", "isCorrect": false },
+      { "text": "H3", "isCorrect": false },
+      { "text": "H4", "isCorrect": true }
+    ],
+    "explanation": "Há miệng lệch sang phải 3mm sẽ được biểu hiện bằng đường há miệng lệch sang phải."
+  },
+  {
+    "question": "Khi thăm khám, bệnh nhân có biểu hiện há miệng lệch sang phải khoảng 3mm, biên độ đưa hàm sang bên trái là 4mm, biên độ đưa hàm sang phải là 10mm, biên độ há miệng tối đa của bệnh nhân là 30mm. Tình trạng há miệng của bệnh nhân có biên độ há miệng tối đa là 30mm được đánh giá là gì?",
+    "options": [
+      { "text": "Há miệng thẳng", "isCorrect": false },
+      {
+        "text": "Há miệng lệch sang phải có sửa chữa được",
+        "isCorrect": false
+      },
+      {
+        "text": "Há miệng lệch sang phải không sửa chữa được",
+        "isCorrect": false
+      },
+      { "text": "Há miệng hạn chế", "isCorrect": true }
+    ],
+    "explanation": "Biên độ há miệng tối đa bình thường là trên 40mm, 30mm là há miệng hạn chế."
+  },
+  {
+    "question": "Khi thăm khám, bệnh nhân có biểu hiện há miệng lệch sang phải khoảng 3mm, biên độ đưa hàm sang bên trái là 4mm, biên độ đưa hàm sang phải là 10mm, biên độ há miệng tối đa của bệnh nhân là 30mm. Để đánh giá được biên độ vận động sang bên, ta cần xác định khoảng cách nào?",
+    "options": [
+      {
+        "text": "Giữa 2 đường được kẻ từ răng cửa giữa hàm trên và răng cửa giữa hàm dưới khi hai hàm ở lồng múi tối đa khi cho bệnh nhân vận động sang bên",
+        "isCorrect": true
+      },
+      {
+        "text": "Giữa 2 đường được kẻ từ răng cửa giữa hàm trên và răng cửa giữa hàm dưới khi hai hàm ở tương quan trung tâm khi cho bệnh nhân vận động sang bên",
+        "isCorrect": false
+      },
+      {
+        "text": "Giữa 2 đường được kẻ từ răng cửa giữa hàm trên và răng cửa bên hàm dưới khi hai hàm ở lồng múi tối đa khi cho bệnh nhân vận động sang bên",
+        "isCorrect": false
+      },
+      {
+        "text": "Giữa 2 đường được kẻ từ răng cửa bên hàm trên và răng cửa giữa hàm dưới khi hai hàm ở tương quan trung tâm khi cho bệnh nhân vận động sang bên",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Đây là phương pháp tiêu chuẩn để đo biên độ vận động sang bên."
+  },
+  {
+    "question": "Khi thăm khám, bệnh nhân có biểu hiện há miệng lệch sang phải khoảng 3mm, biên độ đưa hàm sang bên trái là 4mm, biên độ đưa hàm sang phải là 10mm, biên độ há miệng tối đa của bệnh nhân là 30mm. Lưu ý gì khi đánh giá vận động sang bên trái của bệnh nhân có biên độ đưa hàm sang bên phải là 10mm và sang trái là 4mm?",
+    "options": [
+      {
+        "text": "Cần hướng dẫn bệnh nhân thực hiện vận động sang bên nhiều lần trước khi đo biên độ",
+        "isCorrect": false
+      },
+      {
+        "text": "Vẫn tiến hành đo biên độ bình thường, không có gì đặc biệt để chú ý",
+        "isCorrect": false
+      },
+      {
+        "text": "Bệnh nhân không thực hiện được vận động đưa hàm sang bên",
+        "isCorrect": false
+      },
+      {
+        "text": "Vận động sang bên trái của bệnh nhân hạn chế.",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Biên độ vận động sang bên trái 4mm là hạn chế so với biên độ bình thường (thường >7mm)."
+  },
+  {
+    "question": "Khi thăm khám, bệnh nhân có biểu hiện há miệng lệch sang phải khoảng 3mm, biên độ đưa hàm sang bên trái là 4mm, biên độ đưa hàm sang phải là 10mm, biên độ há miệng tối đa của bệnh nhân là 30mm. Nhận xét gì về vận động sang bên của bệnh nhân có biên độ đưa hàm sang bên phải là 10mm và sang trái là 4mm?",
+    "options": [
+      {
+        "text": "Vận động sang bên của bệnh nhân nằm trong giới hạn bình thường",
+        "isCorrect": false
+      },
+      {
+        "text": "Vận động sang bên phải của bệnh nhân nằm ngoài mức trung bình",
+        "isCorrect": false
+      },
+      {
+        "text": "Vận động sang bên trái của bệnh nhân hạn chế",
+        "isCorrect": true
+      },
+      { "text": "Vận động sang bên trái của bệnh nhân bình thường", "isCorrect": false }
+    ],
+    "explanation": "Biên độ vận động sang bên bình thường khoảng 7-12mm. Vận động sang phải 10mm là bình thường, nhưng sang trái 4mm là hạn chế. Câu hỏi có nhiều đáp án đúng không phù hợp với format."
+  },
+  {
+    "question": "Khi thăm khám, bệnh nhân có biểu hiện há miệng lệch sang phải khoảng 3mm, biên độ đưa hàm sang bên trái là 4mm, biên độ đưa hàm sang phải là 10mm, biên độ há miệng tối đa của bệnh nhân là 30mm. Nhận xét gì về biên độ há miệng của bệnh nhân này?",
+    "options": [
+      { "text": "Há miệng trong giới hạn bình thường", "isCorrect": false },
+      { "text": "Há miệng hạn chế", "isCorrect": true },
+      { "text": "Há miệng bị giới hạn", "isCorrect": false },
+      { "text": "Há miệng bị lệch", "isCorrect": false }
+    ],
+    "explanation": "Biên độ há miệng tối đa 30mm là dưới giới hạn bình thường (thường >40mm), nên là há miệng hạn chế/giới hạn."
+  },
+  {
+    "question": "Khi thăm khám, bệnh nhân có biểu hiện há miệng lệch sang phải khoảng 3mm, biên độ đưa hàm sang bên trái là 4mm, biên độ đưa hàm sang phải là 10mm, biên độ há miệng tối đa của bệnh nhân là 30mm. Để phân biệt tình trạng há miệng của bệnh nhân là vấn đề của khớp hay của cơ, test nào sẽ được sử dụng?",
+    "options": [
+      { "text": "Test mở miệng", "isCorrect": false },
+      { "text": "Test cần chặt răng", "isCorrect": false },
+      { "text": "Test đưa hàm có lực kháng", "isCorrect": false },
+      { "text": "Test 'end feel'", "isCorrect": true }
+    ],
+    "explanation": "Test 'end feel' giúp phân biệt nguyên nhân há miệng hạn chế do khớp hay cơ."
+  },
+  {
+    "question": "Khi thăm khám, bệnh nhân có biểu hiện há miệng lệch sang phải khoảng 3mm, biên độ đưa hàm sang bên trái là 4mm, biên độ đưa hàm sang phải là 10mm, biên độ há miệng tối đa của bệnh nhân là 30mm. Trong trường hợp test 'end feel' cho kết quả dương tính, có nghĩa là vấn đề của tình trạng há miệng của bệnh nhân là do cơ, thì kết quả của biên độ há miệng thụ động sẽ là gì?",
+    "options": [
+      { "text": "Không thay đổi so với kết quả 30mm", "isCorrect": false },
+      { "text": "Lớn hơn kết quả 30mm", "isCorrect": true },
+      { "text": "Nhỏ hơn kết quả 30mm", "isCorrect": false },
+      {
+        "text": "Không thực hiện động tác há miệng thụ động khi cơ có vấn đề",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Nếu há miệng hạn chế do cơ, há miệng thụ động có thể lớn hơn há miệng chủ động."
+  },
+  {
+    "question": "Khi thăm khám, bệnh nhân có biểu hiện há miệng lệch sang phải khoảng 3mm, biên độ đưa hàm sang bên trái là 4mm, biên độ đưa hàm sang phải là 10mm, biên độ há miệng tối đa của bệnh nhân là 30mm. Trong trường hợp test cho thấy vấn đề của tình trạng há miệng của bệnh nhân là do cơ, nhóm cơ nào cần được đánh giá kỹ?",
+    "options": [
+      { "text": "Nhóm cơ nâng hàm", "isCorrect": true },
+      { "text": "Nhóm cơ hạ hàm", "isCorrect": false },
+      { "text": "Nhóm cơ đưa hàm sang bên", "isCorrect": false },
+      { "text": "Nhóm cơ đưa hàm ra trước", "isCorrect": false }
+    ],
+    "explanation": "Các cơ nâng hàm (cơ cắn, cơ thái dương, cơ chân bướm trong) thường liên quan đến há miệng hạn chế do cơ."
+  },
+  {
+    "question": "Khi thăm khám, bệnh nhân có biểu hiện há miệng lệch sang phải khoảng 3mm, biên độ đưa hàm sang bên trái là 4mm, biên độ đưa hàm sang phải là 10mm, biên độ há miệng tối đa của bệnh nhân là 30mm. Cơ nào sau đây thuộc nhóm cơ hạ hàm?",
+    "options": [
+      { "text": "Cơ thái dương", "isCorrect": false },
+      { "text": "Cơ cắn", "isCorrect": false },
+      { "text": "Cơ chân bướm ngoài", "isCorrect": true },
+      { "text": "Cơ chân bướm trong", "isCorrect": false }
+    ],
+    "explanation": "Cơ chân bướm ngoài là cơ duy nhất trong các lựa chọn thuộc nhóm cơ hạ hàm (cơ mở miệng)."
+  },
+  {
+    "question": "Thông báo và giải thích cho bệnh nhân trước khi thực hiện thủ thuật là chìa khóa thứ mấy trong nguyên tắc mài điều chỉnh khớp cắn?",
+    "options": [
+      { "text": "1", "isCorrect": false },
+      { "text": "2", "isCorrect": true },
+      { "text": "3", "isCorrect": false },
+      { "text": "4", "isCorrect": false }
+    ],
+    "explanation": "Thông báo và giải thích là chìa khóa số 2."
+  },
+  {
+    "question": "Mài điều chỉnh sơ khởi trước khi mài điều chỉnh khớp cắn là chìa khóa thứ mấy trong nguyên tắc mài điều chỉnh khớp cắn?",
+    "options": [
+      { "text": "1", "isCorrect": true },
+      { "text": "2", "isCorrect": false },
+      { "text": "3", "isCorrect": false },
+      { "text": "4", "isCorrect": false }
+    ],
+    "explanation": "Mài điều chỉnh sơ khởi là chìa khóa số 1."
+  },
+  {
+    "question": "Tính toán trước khi mài điều chỉnh khớp cắn là chìa khóa thứ mấy trong nguyên tắc mài điều chỉnh khớp cắn?",
+    "options": [
+      { "text": "1", "isCorrect": false },
+      { "text": "2", "isCorrect": false },
+      { "text": "3", "isCorrect": true },
+      { "text": "4", "isCorrect": false }
+    ],
+    "explanation": "Tính toán trước khi mài là chìa khóa số 3."
+  },
+  {
+    "question": "Nhớ đến việc mài điều chỉnh sơ khởi trước khi mài điều chỉnh khớp cắn là chìa khóa thứ mấy trong nguyên tắc mài điều chỉnh khớp cắn?",
+    "options": [
+      { "text": "1", "isCorrect": false },
+      { "text": "2", "isCorrect": true },
+      { "text": "3", "isCorrect": false },
+      { "text": "4", "isCorrect": false }
+    ],
+    "explanation": "Nhớ đến mài điều chỉnh sơ khởi là chìa khóa số 2."
+  },
+  {
+    "question": "Tình huống: Bệnh nhân 35 tuổi đến khám vì lý do đau và mỏi hàm bên phải khi ăn nhai, khi khám tiếp xúc cắn khớp, ghi nhận: có tiếp xúc sớm ở phía gần nội phần múi trong R15. Tiếp xúc sớm là cản trở cắn khớp ở vị trí nào?",
+    "options": [
+      { "text": "Lồng múi tối đa", "isCorrect": false },
+      { "text": "Khớp cắn trung tâm", "isCorrect": false },
+      { "text": "Tương quan trung tâm", "isCorrect": true },
+      { "text": "Thẳng ra trước", "isCorrect": false }
+    ],
+    "explanation": "Tiếp xúc sớm là cản trở ở Tương quan trung tâm, ngăn hàm trượt về lồng múi tối đa."
+  },
+  {
+    "question": "Tình huống: Bệnh nhân 35 tuổi đến khám vì lý do đau và mỏi hàm bên phải khi ăn nhai, khi khám tiếp xúc cắn khớp, ghi nhận: có tiếp xúc sớm ở phía gần nội phần múi trong R15. Khi có tiếp xúc sớm ở phía gần nội phần múi trong R15, hướng của đoạn trượt trung tâm sẽ là gì?",
+    "options": [
+      { "text": "Thẳng ra trước", "isCorrect": false },
+      {
+        "text": "Hướng trước bên về phía mặt phẳng dọc giữa",
+        "isCorrect": false
+      },
+      {
+        "text": "Hướng trước bên ngoài mặt phẳng dọc giữa",
+        "isCorrect": false
+      },
+      { "text": "Hướng sang phải", "isCorrect": true }
+    ],
+    "explanation": "Tiếp xúc sớm ở phía gần nội phần múi trong R15 sẽ đẩy hàm sang phải khi trượt về lồng múi tối đa."
+  },
+  {
+    "question": "Tình huống: Bệnh nhân 35 tuổi đến khám vì lý do đau và mỏi hàm bên phải khi ăn nhai, khi khám tiếp xúc cắn khớp, ghi nhận: có tiếp xúc sớm ở phía gần nội phần múi trong R15. Nguyên tắc mài chỉnh được áp dụng trong trường hợp tiếp xúc sớm ở phía gần nội phần múi trong R15 sẽ là gì?",
+    "options": [
+      { "text": "MUDL", "isCorrect": false },
+      { "text": "BULL", "isCorrect": false },
+      { "text": "MULD", "isCorrect": false },
+      { "text": "DUML", "isCorrect": true }
+    ],
+    "explanation": "MUDL (Mesial Upper, Distal Lower) là nguyên tắc mài tiếp xúc sớm ở phía gần múi ngoài hàm trên hoặc phía xa múi trong hàm dưới."
+  },
+  {
+    "question": "Tình huống: Bệnh nhân 35 tuổi đến khám vì lý do đau và mỏi hàm bên phải khi ăn nhai, khi khám tiếp xúc cắn khớp, ghi nhận: có tiếp xúc sớm ở phía gần nội phần múi trong R15. Nguyên tắc mài MULD được hiểu là gì?",
+    "options": [
+      {
+        "text": "Mài sườn gần múi răng dưới trước và/ hoặc mài sườn xa của múi răng trên",
+        "isCorrect": false
+      },
+      {
+        "text": "Mài sườn gần múi răng trên trước và/ hoặc mài sườn xa của múi răng dưới",
+        "isCorrect": true
+      },
+      {
+        "text": "Mài sườn xa múi răng dưới trước và/ hoặc mài sườn xa của múi răng trên",
+        "isCorrect": false
+      },
+      {
+        "text": "Mài sườn gần múi răng dưới trước và/ hoặc mài sườn gần của múi răng trên",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "MULD (Mesial Upper, Lingual Distal Lower) là mài sườn gần múi trong hàm trên hoặc sườn xa múi ngoài hàm dưới."
+  },
+  {
+    "question": "Tình huống: Bệnh nhân 35 tuổi đến khám vì lý do đau và mỏi hàm bên phải khi ăn nhai, khi khám tiếp xúc cắn khớp, ghi nhận: có tiếp xúc sớm ở phía gần nội phần múi trong R15. Tiếp xúc quá mức là cản trở cắn khớp ở vị trí nào?",
+    "options": [
+      { "text": "Lồng múi tối đa", "isCorrect": true },
+      { "text": "Đưa hàm sang bên", "isCorrect": false },
+      { "text": "Tương quan trung tâm", "isCorrect": false },
+      { "text": "Đưa hàm ra trước", "isCorrect": false }
+    ],
+    "explanation": "Tiếp xúc quá mức (hyperocclusion) là cản trở cắn khớp ở vị trí lồng múi tối đa."
+  },
+  {
+    "question": "Tình huống: Bệnh nhân 35 tuổi đến khám vì lý do đau và mỏi hàm bên phải khi ăn nhai, khi khám tiếp xúc cắn khớp, ghi nhận: có tiếp xúc sớm ở phía gần nội phần múi trong R15. Trước khi quyết định mài chỉnh cản trở tiếp xúc quá mức, cần đánh giá điều gì?",
+    "options": [
+      { "text": "Vận động sang bên", "isCorrect": false },
+      { "text": "Đường cong Spee", "isCorrect": false },
+      { "text": "Vận động ra trước", "isCorrect": true },
+      { "text": "Đường cong Wilson", "isCorrect": false }
+    ],
+    "explanation": "Cần đánh giá vận động ra trước để xác định các cản trở hướng dẫn ra trước."
+  },
+  {
+    "question": "Tình huống: Bệnh nhân 35 tuổi đến khám vì lý do đau và mỏi hàm bên phải khi ăn nhai, khi khám tiếp xúc cắn khớp, ghi nhận: có tiếp xúc sớm ở phía gần nội phần múi trong R15. Quyết định mài điều chỉnh cản trở khi có tiếp xúc quá mức ở múi trong R16 (hàm trên) sẽ là gì?",
+    "options": [
+      { "text": "Mài thấp múi trong R16", "isCorrect": true },
+      { "text": "Mài sâu trũng giữa R46", "isCorrect": false },
+      { "text": "Mài thấp múi ngoài R16", "isCorrect": false },
+      { "text": "Mài sâu trũng giữa R16", "isCorrect": false }
+    ],
+    "explanation": "Tiếp xúc quá mức ở múi trong R16 (hàm trên) thì mài thấp múi trong R16."
+  },
+  {
+    "question": "Tình huống: Bệnh nhân 35 tuổi đến khám vì lý do đau và mỏi hàm bên phải khi ăn nhai, khi khám tiếp xúc cắn khớp, ghi nhận: có tiếp xúc sớm ở phía gần nội phần múi trong R15. Cản trở của vận động sang bên của bệnh nhân khi có sự tiếp xúc giữa R14 với R44 và R23, 24 với R33 và R34 là gì?",
+    "options": [
+      { "text": "Cản trở ở R14 và R44", "isCorrect": true },
+      { "text": "Không có cản trở sang bên", "isCorrect": false },
+      { "text": "Cản trở ở R23 và R33", "isCorrect": false },
+      { "text": "Cản trở R24, R34", "isCorrect": false }
+    ],
+    "explanation": "Cản trở ở R14 và R44 là tiếp xúc ở bên làm việc, là cản trở cần mài chỉnh."
+  },
+  {
+    "question": "Tình huống: Bệnh nhân 35 tuổi đến khám vì lý do đau và mỏi hàm bên phải khi ăn nhai, khi khám tiếp xúc cắn khớp, ghi nhận: có tiếp xúc sớm ở phía gần nội phần múi trong R15. Cản trở sang bên (nếu có) ở R14 và R44 sẽ mài chỉnh ở đâu?",
+    "options": [
+      { "text": "Mài múi ngoài R14", "isCorrect": true },
+      { "text": "Mài múi ngoài R24", "isCorrect": false },
+      { "text": "Mài múi trong R14", "isCorrect": false },
+      { "text": "Mài múi trong R34", "isCorrect": false }
+    ],
+    "explanation": "Trong vận động sang bên, cản trở ở múi ngoài hàm trên (BULL - Buccal Upper, Lingual Lower)."
+  },
+  {
+    "question": "Hình ảnh dưới mô tả cản trở cắn khớp nào? <img src='https://i.ibb.co/svwmTH3P/image.png'>",
+    "options": [
+      { "text": "Tiếp xúc sớm", "isCorrect": true },
+      { "text": "Cản trở bên làm việc", "isCorrect": false },
+      { "text": "Tiếp xúc quá mức", "isCorrect": false },
+      { "text": "Cản trở sang bên không làm việc", "isCorrect": false }
+    ],
+    "explanation": "Hình ảnh cho thấy múi răng chưa lồng khớp hoàn toàn, báo hiệu tiếp xúc sớm."
+  },
+  {
+    "question": "Hình ảnh dưới mô tả cản trở cắn khớp nào? <img src='https://i.ibb.co/kVtzPZFK/image.png'>",
+    "options": [
+      { "text": "Tiếp xúc sớm", "isCorrect": false },
+      { "text": "Cản trở bên làm việc", "isCorrect": true },
+      { "text": "Tiếp xúc quá mức", "isCorrect": false },
+      { "text": "Cản trở sang bên không làm việc", "isCorrect": false }
+    ],
+    "explanation": "Hình ảnh cho thấy cản trở ở phía bên làm việc."
+  },
+  {
+    "question": "Hình ảnh dưới đây mô tả hướng dẫn cắn khớp nào? <img src='https://i.ibb.co/ZRVC8fR9/image.png'>",
+    "options": [
+      { "text": "Tiếp xúc sớm", "isCorrect": false },
+      { "text": "Hướng dẫn sang bên chức năng nhóm", "isCorrect": true },
+      { "text": "Tiếp xúc quá mức", "isCorrect": false },
+      { "text": "Hướng dẫn sang bên chức năng lý tưởng", "isCorrect": false }
+    ],
+    "explanation": "Hình ảnh cho thấy nhiều răng tiếp xúc nhau trong vận động sang bên, biểu hiện chức năng nhóm."
+  },
+  {
+    "question": "Hình ảnh dưới đây mô tả cản trở nào trong vận động hàm? <img src='https://i.ibb.co/FbvtqRxL/image.png'>",
+    "options": [
+      {
+        "text": "Cản trở bên làm việc ở vận động ra trước",
+        "isCorrect": false
+      },
+      { "text": "Cản trở bên làm việc ở vận động sang bên", "isCorrect": true },
+      {
+        "text": "Cản trở bên không làm việc ở vận động ra trước",
+        "isCorrect": false
+      },
+      {
+        "text": "Cản trở bên không làm việc ở vận động sang bên",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Hình ảnh minh họa cản trở khi hàm di chuyển sang bên."
+  },
+  {
+    "question": "Hình ảnh dưới đây mô tả? <img src='https://i.ibb.co/fVcD0RjL/image.png'>",
+    "options": [
+      {
+        "text": "Cản trở bên làm việc ở vận động ra trước",
+        "isCorrect": false
+      },
+      {
+        "text": "Cản trở bên làm việc ở vận động sang bên",
+        "isCorrect": false
+      },
+      {
+        "text": "Cản trở bên không làm việc ở vận động ra trước",
+        "isCorrect": false
+      },
+      {
+        "text": "Cản trở bên không làm việc ở vận động sang bên",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Hình ảnh minh họa cản trở khi hàm di chuyển sang bên nhưng ở phía đối diện với bên làm việc."
+  },
+  {
+    "question": "Khi có tiếng kêu lục cục ở khớp thái dương hàm trái và tiếp xúc sớm ở nội phần múi ngoài R35 và nội phần múi trong R25, kế hoạch mài điều chỉnh cản trở này sẽ là gì?",
+    "options": [
+      { "text": "Mài múi ngoài R25", "isCorrect": false },
+      { "text": "Mài múi trong R25", "isCorrect": true },
+      { "text": "Mài múi trong R35", "isCorrect": false },
+      { "text": "Mài múi ngoài R35", "isCorrect": false }
+    ],
+    "explanation": "Để loại bỏ tiếp xúc sớm ở nội phần múi trong R25 (hàm trên), mài múi trong R25."
+  },
+  {
+    "question": "Nguyên tắc mài điều chỉnh trong trường hợp tiếp xúc sớm ở nội phần múi ngoài R35 (hàm dưới) và nội phần múi trong R25 (hàm trên) sẽ là gì?",
+    "options": [
+      { "text": "MUDL", "isCorrect": true },
+      { "text": "BULL", "isCorrect": false },
+      { "text": "MULD", "isCorrect": false },
+      { "text": "BULD", "isCorrect": false }
+    ],
+    "explanation": "MUDL (Mesial Upper, Distal Lower) áp dụng cho tiếp xúc sớm ở sườn gần múi ngoài hàm trên hoặc sườn xa múi trong hàm dưới."
+  },
+  {
+    "question": "Hàm dưới của bệnh nhân khi có hướng dẫn ra trước tốt (được hướng dẫn bởi mặt trong của R11, 21) sẽ trượt ra trước theo hướng nào?",
+    "options": [
+      { "text": "Thẳng trên mặt phẳng dọc giữa", "isCorrect": true },
+      {
+        "text": "Hướng trước bên về phía mặt phẳng dọc giữa",
+        "isCorrect": false
+      },
+      {
+        "text": "Hướng trước bên ngoài mặt phẳng dọc giữa",
+        "isCorrect": false
+      },
+      { "text": "Lệch ra ngoài mặt phẳng dọc giữa", "isCorrect": false }
+    ],
+    "explanation": "Hướng dẫn ra trước lý tưởng là thẳng trên mặt phẳng dọc giữa, được hướng dẫn bởi răng cửa."
+  },
+  {
+    "question": "Máng ổn định (Stabilization splint) có thời gian mang máng là bao lâu?",
+    "options": [
+      { "text": "Vài ngày hoặc vài tuần", "isCorrect": true },
+      { "text": "Vài tháng", "isCorrect": false },
+      { "text": "Lâu dài", "isCorrect": false },
+      { "text": "Không xác định", "isCorrect": false }
+    ],
+    "explanation": "Máng ổn định thường dùng trong thời gian ngắn để giảm triệu chứng cấp tính."
+  },
+  {
+    "question": "Máng thư giãn (Relaxation splint) có thời gian mang máng là bao lâu?",
+    "options": [
+      { "text": "Vài ngày hoặc vài tuần", "isCorrect": false },
+      { "text": "Vài tháng", "isCorrect": true },
+      { "text": "Lâu dài", "isCorrect": false },
+      { "text": "Không xác định", "isCorrect": false }
+    ],
+    "explanation": "Máng thư giãn thường được sử dụng trong vài tháng để điều trị lâu dài hơn."
+  },
+  {
+    "question": "Máng phục hồi (Restoration splint) có thời gian mang máng là bao lâu?",
+    "options": [
+      { "text": "Vài ngày hoặc vài tuần", "isCorrect": false },
+      { "text": "Vài tháng", "isCorrect": false },
+      { "text": "Lâu dài", "isCorrect": true },
+      { "text": "Không xác định", "isCorrect": false }
+    ],
+    "explanation": "Máng phục hồi thường dùng trong các trường hợp cần thay đổi khớp cắn vĩnh viễn, do đó thời gian mang máng lâu dài."
+  },
+  {
+    "question": "Hình ảnh này mô tả loại máng nào?",
+    "options": [
+      { "text": "Máng ổn định", "isCorrect": false },
+      { "text": "Máng thư giãn", "isCorrect": false },
+      { "text": "Máng phục hồi", "isCorrect": false },
+      { "text": "Máng cọc", "isCorrect": true }
+    ],
+    "explanation": "Máng cọc có thiết kế đặc trưng với một điểm tiếp xúc duy nhất."
+  },
+  {
+    "question": "Sự thư giãn phản xạ của cơ trong các bài tập thư giãn cơ là dựa vào hiện tượng nào?",
+    "options": [
+      { "text": "Kích thích hỗ tương", "isCorrect": true },
+      { "text": "Phản hồi sinh học", "isCorrect": false },
+      { "text": "Ức chế dẫn truyền", "isCorrect": false },
+      { "text": "Thay đổi hành vi", "isCorrect": false }
+    ],
+    "explanation": "Thư giãn phản xạ cơ dựa trên hiện tượng kích thích hỗ tương."
+  },
+  {
+    "question": "Người đầu tiên đưa ra khái niệm về bệnh lý rối loạn thái dương hàm là ai?",
+    "options": [
+      { "text": "James Costen", "isCorrect": true },
+      { "text": "Jeffrey Okeson", "isCorrect": false },
+      { "text": "Peter Dawson", "isCorrect": false },
+      { "text": "Eric Schiffman", "isCorrect": false }
+    ],
+    "explanation": "James Costen là người đầu tiên mô tả hội chứng Costen liên quan đến rối loạn thái dương hàm."
+  },
+  {
+    "question": "Các triệu chứng nào có thể kèm theo rối loạn thái dương hàm?",
+    "options": [
+      { "text": "Viêm xoang", "isCorrect": false },
+      { "text": "Mờ mắt", "isCorrect": false },
+      { "text": "Ù tai", "isCorrect": false },
+      { "text": "Đau đầu vùng chẩm", "isCorrect": false },
+      { "text": "Cả C và D", "isCorrect": true }
+    ],
+    "explanation": "Rối loạn thái dương hàm có thể kèm theo ù tai và đau đầu vùng chẩm."
+  },
+  {
+    "question": "Biện pháp nào không phải là một phương pháp có hiệu quả để chữa các bệnh về rối loạn thái dương hàm?",
+    "options": [
+      { "text": "Giảm đau bằng thuốc", "isCorrect": false },
+      { "text": "Thay đổi thói quen ăn uống", "isCorrect": false },
+      { "text": "Điều trị vật lý", "isCorrect": false },
+      {
+        "text": "Tất cả các phương pháp trên đều là một phần của điều trị hiệu quả.",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Tất cả các phương pháp trên đều là các biện pháp điều trị có hiệu quả đối với rối loạn thái dương hàm, tùy thuộc vào tình trạng bệnh."
+  },
+  {
+    "question": "Yêu cầu của một bài tập vận động cơ trong điều trị rối loạn thái dương hàm là gì?",
+    "options": [
+      { "text": "Kết hợp nhiều động tác để đạt hiệu quả", "isCorrect": false },
+      { "text": "Đơn giản, thường xuyên", "isCorrect": true },
+      { "text": "Phức tạp, thường xuyên", "isCorrect": false },
+      { "text": "Phức tạp, thực hiện tại phòng khám", "isCorrect": false }
+    ],
+    "explanation": "Các bài tập vận động cơ cần đơn giản để bệnh nhân có thể thực hiện thường xuyên tại nhà."
+  },
+  {
+    "question": "Đau cơ mạn tính gồm các dạng đau nào?",
+    "options": [
+      { "text": "Đau cơ khu trú, Đau cơ mạc, Đau cơ sợi", "isCorrect": true },
+      {
+        "text": "Đau cơ sợi, Đau cơ do thần kinh, Co thắt cơ",
+        "isCorrect": false
+      },
+      {
+        "text": "Đau cơ khu trú, Đau cơ do thần kinh, Đau cơ sợi",
+        "isCorrect": false
+      },
+      {
+        "text": "Đau cơ sợi, Đau cơ do thần kinh, Co thắt cơ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Đau cơ mạn tính bao gồm đau cơ sợi (Fibromyalgia) và các dạng đau cơ mạn tính khác. Từ các lựa chọn, 'Đau cơ khu trú, Đau cơ mạc, Đau cơ sợi' là gần đúng nhất với khái niệm đau mạn tính, trong đó đau cơ sợi là dạng đau mạn tính toàn thân."
+  },
+  {
+    "question": "Đau cơ cấp tính gồm các dạng đau nào?",
+    "options": [
+      { "text": "Đau cơ khu trú, Co thắt cơ", "isCorrect": true },
+      { "text": "Đau cơ khu trú, Đau cơ do thần kinh", "isCorrect": false },
+      { "text": "Đau cơ sợi, Co thắt cơ", "isCorrect": false },
+      { "text": "Đau cơ sợi, Đau cơ do thần kinh", "isCorrect": false }
+    ],
+    "explanation": "Đau cơ cấp tính bao gồm cứng cơ (nẹp cơ), đau cơ khu trú, và co thắt cơ."
+  },
+  {
+    "question": "Sắp xếp thứ tự các bước trong quá trình thay đổi hành vi thói quen răng miệng:",
+    "options": [
+      {
+        "text": "Hành động lặp lại - Củng cố - Nhận thức về thói quen xấu - Tạo động lực",
+        "isCorrect": false
+      },
+      {
+        "text": "Hành động lặp lại - Tạo động lực - Củng cố - Nhận thức về thói quen xấu",
+        "isCorrect": false
+      },
+      {
+        "text": "Tạo động lực - Nhận thức về thói quen xấu - Hành động lặp lại - Củng cố",
+        "isCorrect": true
+      },
+      {
+        "text": "Tạo động lực - Hành động lặp lại - Nhận thức về thói quen xấu - Củng cố",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Thứ tự các bước là: Tạo động lực (Motivation), Nhận thức về thói quen xấu (Consciousness), Hành động lặp lại (Competition reaction), Củng cố (Reinforcement)."
+  },
+  {
+    "question": "Nối tên thuốc (cột A) với tên loại thuốc (cột B): Valium (1) - Thuốc an thần (1), Amitryptilin (2) - Thuốc chống trầm cảm (4)",
+    "options": [
+      { "text": "A1-B1; A2-B4", "isCorrect": true },
+      { "text": "A1-B3; A2-B1", "isCorrect": false },
+      { "text": "A1-B3; A2-B2", "isCorrect": false },
+      { "text": "A1-B2; A2-B4", "isCorrect": false }
+    ],
+    "explanation": "Valium là thuốc an thần, Amitryptilin là thuốc chống trầm cảm."
+  },
+  {
+    "question": "Nối tên thuốc (cột A) với tên loại thuốc (cột B): Lidocain (3) - Thuốc tê tại chỗ (2), Corticoid (4) - Thuốc an thần (1), Aspirin (5) - Thuốc kháng viêm không Steroid (3)",
+    "options": [
+      { "text": "A3-B2; A4-B1; A5-B4", "isCorrect": false },
+      { "text": "A3-B4; A4-B2; A5-B3", "isCorrect": false },
+      { "text": "A3-B2; A4-B2; A5-B3", "isCorrect": true },
+      { "text": "A3-B1; A4-B1; A5-B4", "isCorrect": false }
+    ],
+    "explanation": "Lidocain là thuốc tê tại chỗ, Corticoid có thể dùng tại chỗ, Aspirin là NSAID."
+  },
+  {
+    "question": "Đặc điểm của một điều trị ban đầu tốt là gì?",
+    "options": [
+      { "text": "Liên quan đến các chuyên ngành Y khoa", "isCorrect": false },
+      { "text": "Giảm đau nhanh", "isCorrect": true },
+      { "text": "Đòi hỏi kinh tế lớn", "isCorrect": false },
+      { "text": "Không hoàn nguyên", "isCorrect": false }
+    ],
+    "explanation": "Giảm đau nhanh là một trong những đòi hỏi của điều trị ban đầu để bệnh nhân có sự thoải mái."
+  },
+  {
+    "question": "Các phương thức nào là điều trị ban đầu đối với rối loạn thái dương hàm?",
+    "options": [
+      { "text": "Máng nhai", "isCorrect": false },
+      { "text": "Vật lý trị liệu", "isCorrect": true },
+      { "text": "Điều chỉnh khớp cắn", "isCorrect": false },
+      { "text": "Phục hình", "isCorrect": false }
+    ],
+    "explanation": "Vật lý trị liệu là một trong các phương thức điều trị ban đầu."
+  },
+  {
+    "question": "Khi có một tác động đáng kể, chức năng cơ bình thường có thể bị gián đoạn, lúc đó đau cơ sẽ xuất hiện dưới dạng nào?",
+    "options": [
+      { "text": "Co thắt cơ", "isCorrect": false },
+      { "text": "Đau cơ khu trú", "isCorrect": true },
+      { "text": "Đau cơ sợi", "isCorrect": false },
+      { "text": "Cả B và C", "isCorrect": false }
+    ],
+    "explanation": "Tác động ban đầu có thể gây ra đau cơ khu trú hoặc nẹp cơ bảo vệ."
+  },
+  {
+    "question": "Ví dụ về rối loạn đau cơ ảnh hưởng bởi thần kinh trung ương là gì?",
+    "options": [
+      { "text": "Đau cơ mạc, Co thắt cơ, Đau cơ khu trú", "isCorrect": false },
+      {
+        "text": "Đau cơ toàn thể (Đau cơ sợi), Đau cơ mạc, Đau cơ khu trú",
+        "isCorrect": false
+      },
+      {
+        "text": "Đau cơ toàn thể (Đau cơ sợi), Đau cơ do thần kinh, Đau cơ mạc",
+        "isCorrect": true
+      },
+      {
+        "text": "Đau cơ khu trú, Đau cơ toàn thể (Đau cơ sợi), Co thắt cơ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Đau cơ toàn thể (đau cơ sợi) và các dạng đau do thần kinh trung ương là ví dụ điển hình. Câu hỏi có nhiều đáp án đúng, lựa chọn B bao gồm các dạng đau cơ."
+  },
+  {
+    "question": "Tình trạng nẹp cơ bảo vệ kéo dài, làm giải phóng các trung gian gây viêm sẽ dẫn đến tình trạng gì?",
+    "options": [
+      { "text": "Đau cơ toàn thể", "isCorrect": false },
+      { "text": "Đau cơ khu trú", "isCorrect": false },
+      { "text": "Đau cơ mạc", "isCorrect": true },
+      { "text": "Co thắt cơ", "isCorrect": false }
+    ],
+    "explanation": "Nẹp cơ bảo vệ kéo dài có thể dẫn đến đau cơ mạc."
+  },
+  {
+    "question": "Đối với đau – loạn năng hệ thống nhai, điều trị triệu chứng và giảm đau tạm thời có vai trò như thế nào?",
+    "options": [
+      { "text": "Thứ yếu", "isCorrect": false },
+      { "text": "Bổ sung cho điều trị nguyên nhân", "isCorrect": false },
+      { "text": "Tạm thời", "isCorrect": false },
+      { "text": "To lớn", "isCorrect": true }
+    ],
+    "explanation": "Điều trị triệu chứng và giảm đau tạm thời có vai trò to lớn trong giai đoạn đầu."
+  },
+  {
+    "question": "Thuốc tê tại chỗ tiêm vào vùng đau hay điểm cò có thể lập lại bao lâu một lần?",
+    "options": [
+      { "text": "Mỗi 1-2 ngày", "isCorrect": false },
+      { "text": "Mỗi 2-4 ngày", "isCorrect": true },
+      { "text": "Mỗi 1-2 tuần", "isCorrect": false },
+      { "text": "Mỗi 7-10 ngày", "isCorrect": false }
+    ],
+    "explanation": "Thuốc tê tại chỗ có thể lặp lại mỗi 2-4 ngày."
+  },
+  {
+    "question": "Triệu chứng của há miệng hạn chế do uốn ván là gì?",
+    "options": [
+      {
+        "text": "Há miệng hạn chế từ từ, Há miệng lệch sang bên, Sai khớp cắn",
+        "isCorrect": false
+      },
+      {
+        "text": "Há miệng hạn chế trầm trọng, Co thắt cơ khi kích thích",
+        "isCorrect": true
+      },
+      {
+        "text": "Há miệng hạn chế trầm trọng, Há miệng lệch sang bên, Sai khớp cắn",
+        "isCorrect": false
+      },
+      {
+        "text": "Co thắt cơ khi kích thích, Há miệng lệch sang bên",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Há miệng hạn chế do uốn ván thường rất trầm trọng và kèm co thắt cơ."
+  },
+  {
+    "question": "Triệu chứng của há miệng hạn chế do ung thư xâm lấn là gì?",
+    "options": [
+      {
+        "text": "Há miệng hạn chế từ từ, Co thắt cơ khi kích thích",
+        "isCorrect": false
+      },
+      {
+        "text": "Há miệng hạn chế từ từ, Há miệng lệch sang bên",
+        "isCorrect": true
+      },
+      {
+        "text": "Co thắt cơ khi kích thích, Há miệng lệch sang bên, Sai khớp cắn",
+        "isCorrect": false
+      },
+      {
+        "text": "Há miệng hạn chế trầm trọng, Há miệng lệch sang bên",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Há miệng hạn chế do ung thư thường tiến triển từ từ và có thể kèm lệch hàm."
+  },
+  {
+    "question": "Triệu chứng của rối loạn chức năng cơ trong rối loạn thái dương hàm là gì?",
+    "options": [
+      { "text": "Há miệng hạn chế từ từ, Sai khớp cắn", "isCorrect": false },
+      {
+        "text": "Há miệng hạn chế trầm trọng, Há miệng lệch sang bên",
+        "isCorrect": false
+      },
+      {
+        "text": "Há miệng hạn chế từ từ, Co thắt cơ khi kích thích",
+        "isCorrect": true
+      },
+      {
+        "text": "Há miệng hạn chế trầm trọng, Sai khớp cắn",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Rối loạn chức năng cơ có thể gây há miệng hạn chế từ từ và co thắt cơ."
+  },
+  {
+    "question": "Các đặc tính của đau cơ mạc là gì?",
+    "options": [
+      {
+        "text": "Đau âm ỉ, Có tính chuyển vị, Có điểm kích đau, Hiện tượng nhạy cảm trung ương, Hiện tượng nhạy cảm ngoại vi",
+        "isCorrect": true
+      },
+      {
+        "text": "Tổn thương sợi cơ và viêm, Có tính chuyển vị, Có điểm kích đau, Đau dữ dội, Hiện tượng nhạy cảm trung ương, Hiện tượng nhạy cảm ngoại vi",
+        "isCorrect": false
+      },
+      {
+        "text": "Tổn thương sợi cơ và viêm, Có điểm kích đau, Đau dữ dội, Hiện tượng nhạy cảm trung ương, Hiện tượng nhạy cảm ngoại vi",
+        "isCorrect": false
+      },
+      {
+        "text": "Đau âm ỉ, Có tính chuyển vị, Có điểm kích đau, Đau dữ dội, Hiện tượng nhạy cảm trung ương, Hiện tượng nhạy cảm ngoại vi",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Đau cơ mạc đặc trưng bởi đau âm ỉ, chuyển vị, điểm kích đau, nhạy cảm trung ương/ngoại vi."
+  },
+  {
+    "question": "Các đặc tính của đau cơ cấp tính là gì?",
+    "options": [
+      {
+        "text": "Đau âm ỉ, Có tính chuyển vị, Đau dữ dội, Hiện tượng nhạy cảm trung ương",
+        "isCorrect": false
+      },
+      {
+        "text": "Tổn thương sợi cơ và viêm, Đau dữ dội, Hiện tượng nhạy cảm trung ương, Hiện tượng nhạy cảm ngoại vi",
+        "isCorrect": true
+      },
+      {
+        "text": "Tổn thương sợi cơ và viêm, Có điểm kích đau, Đau dữ dội, Hiện tượng nhạy cảm trung ương, Hiện tượng nhạy cảm ngoại vi",
+        "isCorrect": false
+      },
+      {
+        "text": "Đau âm ỉ, Có tính chuyển vị, Đau dữ dội, Hiện tượng nhạy cảm trung ương, Hiện tượng nhạy cảm ngoại vi",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Đau cơ cấp tính liên quan đến tổn thương sợi cơ, viêm, đau dữ dội, và các hiện tượng nhạy cảm."
+  },
+  {
+    "question": "Triệu chứng phổ biến nhất của rối loạn khớp nhai là gì?",
+    "options": [
+      { "text": "Quá phát cơ", "isCorrect": false },
+      { "text": "Yếu cơ", "isCorrect": false },
+      { "text": "Đau cơ", "isCorrect": true },
+      { "text": "Rối loạn vận động", "isCorrect": false }
+    ],
+    "explanation": "Đau cơ là triệu chứng phổ biến nhất của rối loạn cơ nhai."
+  },
+  {
+    "question": "Mức độ trầm trọng của đau cơ liên quan trực tiếp đến điều gì?",
+    "options": [
+      { "text": "Hoạt động chức năng của cơ", "isCorrect": true },
+      { "text": "Rối loạn cảm xúc", "isCorrect": false },
+      { "text": "Sức khỏe toàn thân", "isCorrect": false },
+      { "text": "Tình trạng khớp thái dương hàm", "isCorrect": false }
+    ],
+    "explanation": "Mức độ đau cơ thường tăng lên khi có hoạt động chức năng của cơ bị rối loạn."
+  },
+  {
+    "question": "Cơn đau nội tại tạo ra phản ứng cơ gọi là gì?",
+    "options": [
+      { "text": "Giãn cơ đáp ứng", "isCorrect": false },
+      { "text": "Co cơ bảo vệ", "isCorrect": true },
+      { "text": "Căng cơ phản ứng", "isCorrect": false },
+      { "text": "Co cơ phản xạ", "isCorrect": false }
+    ],
+    "explanation": "Cơn đau nội tại có thể tạo ra phản ứng co cơ bảo vệ."
+  },
+  {
+    "question": "Tiếng kêu khớp có các đặc điểm nào?",
+    "options": [
+      {
+        "text": "Âm sắc gọn, Âm đục, Giữa đĩa và lồi khớp, Chủ yếu xảy ra ở cuối thì há",
+        "isCorrect": false
+      },
+      {
+        "text": "Âm sắc gọn, Âm đục, Giữa phức hợp đĩa lồi cầu và lồi khớp, Chủ yếu xảy ra ở cuối thì há",
+        "isCorrect": true
+      },
+      {
+        "text": "Âm sắc gọn, Giữa đĩa và lồi khớp, Chủ yếu xảy ra ở cuối thì há",
+        "isCorrect": false
+      },
+      {
+        "text": "Âm đục, Giữa phức hợp đĩa lồi cầu và lồi khớp, Chủ yếu xảy ra ở cuối thì há",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tiếng kêu khớp có thể có âm sắc gọn hoặc đục, xuất phát từ các cấu trúc khớp."
+  },
+  {
+    "question": "Tiếng kêu đĩa có đặc điểm nào?",
+    "options": [
+      { "text": "Âm sắc gọn, Giữa đĩa và lồi khớp", "isCorrect": true },
+      { "text": "Âm sắc gọn, Âm đục", "isCorrect": false },
+      {
+        "text": "Giữa phức hợp đĩa lồi cầu và lồi khớp, Chủ yếu xảy ra ở cuối thì há",
+        "isCorrect": false
+      },
+      { "text": "Âm đục, Chủ yếu xảy ra ở cuối thì há", "isCorrect": false }
+    ],
+    "explanation": "Tiếng kêu đĩa thường là âm sắc gọn và liên quan đến vị trí đĩa và lồi khớp."
+  },
+  {
+    "question": "Hoạt động cận chức năng có thể được đánh giá chính xác nhờ vào điều gì?",
+    "options": [
+      { "text": "Lời khai của bệnh nhân", "isCorrect": false },
+      { "text": "Lời khai của người thân bệnh nhân", "isCorrect": false },
+      {
+        "text": "Các phương tiện hỗ trợ chẩn đoán (ví dụ EMG)",
+        "isCorrect": true
+      },
+      { "text": "Các hậu quả lên hệ thống nhai", "isCorrect": false }
+    ],
+    "explanation": "Hoạt động cận chức năng cần các phương tiện hỗ trợ chẩn đoán khách quan để đánh giá chính xác hơn lời khai chủ quan."
+  },
+  {
+    "question": "Rối loạn thái dương hàm là một bệnh lý có nguyên nhân chủ yếu là gì?",
+    "options": [
+      { "text": "Khớp cắn", "isCorrect": false },
+      { "text": "Chấn thương", "isCorrect": false },
+      { "text": "Rối loạn xúc cảm", "isCorrect": false },
+      { "text": "Đa nguyên nhân", "isCorrect": true }
+    ],
+    "explanation": "Rối loạn thái dương hàm là một bệnh lý phức tạp, thường do đa nguyên nhân kết hợp."
+  },
+  {
+    "question": "Các yếu tố nào có thể là bệnh sinh của rối loạn nội khớp?",
+    "options": [
+      {
+        "text": "Vi chấn thương khớp, Phản ứng miễn dịch, Hoạt động cận chức năng, Rối loạn nội tiết tố",
+        "isCorrect": true
+      },
+      {
+        "text": "Vi chấn thương khớp, Hoạt động cận chức năng, Đau cơ sợi, Rối loạn nội tiết tố",
+        "isCorrect": false
+      },
+      {
+        "text": "Vi chấn thương khớp, Phản ứng miễn dịch, Đau cơ sợi, Rối loạn nội tiết tố",
+        "isCorrect": false
+      },
+      {
+        "text": "Vi chấn thương khớp, Phản ứng miễn dịch, Hoạt động cận chức năng, Đau cơ sợi",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Rối loạn nội khớp có thể do vi chấn thương, phản ứng miễn dịch, hoạt động cận chức năng và rối loạn nội tiết tố."
+  },
+  {
+    "question": "Các yếu tố nào có thể là bệnh sinh của rối loạn cơ nhai?",
+    "options": [
+      {
+        "text": "Thiếu máu cơ cục bộ, Hoạt động cận chức năng, Đau cơ sợi",
+        "isCorrect": true
+      },
+      {
+        "text": "Thiếu máu cơ cục bộ, Rối loạn nội tiết tố, Đau cơ sợi",
+        "isCorrect": false
+      },
+      {
+        "text": "Thiếu máu cơ cục bộ, Vi chấn thương khớp, Co thắt cơ",
+        "isCorrect": false
+      },
+      {
+        "text": "Vi chấn thương khớp, Rối loạn nội tiết tố, Đau cơ sợi",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Rối loạn cơ nhai liên quan đến thiếu máu cục bộ, hoạt động cận chức năng và đau cơ sợi."
+  },
+  {
+    "question": "Nguyên nhân gây há miệng lệch sang bên thường là gì?",
+    "options": [
+      { "text": "Trật vị trí đĩa khớp có hồi phục", "isCorrect": false },
+      { "text": "Co thắt cơ một bên", "isCorrect": true },
+      { "text": "Thoái hóa khớp một bên", "isCorrect": false },
+      { "text": "Trật vị trí đĩa khớp không hồi phục", "isCorrect": false }
+    ],
+    "explanation": "Co thắt cơ một bên là nguyên nhân phổ biến gây há miệng lệch sang bên."
+  },
+  {
+    "question": "Trong rối loạn thái dương hàm, tư vấn là một loại điều trị như thế nào?",
+    "options": [
+      { "text": "Có tác dụng giả dược", "isCorrect": false },
+      { "text": "Là một điều trị chủ động", "isCorrect": true },
+      { "text": "Không có liên quan", "isCorrect": false },
+      { "text": "Là một loại trị liệu duy nhất", "isCorrect": false }
+    ],
+    "explanation": "Tư vấn được xem là một điều trị chủ động."
+  },
+  {
+    "question": "TENS (Kích thích điện xuyên da) là công cụ điều trị rối loạn thái dương hàm nhờ vào điều gì?",
+    "options": [
+      { "text": "Tác nhân hóa học", "isCorrect": false },
+      { "text": "Kích thích điện xuyên da", "isCorrect": true },
+      { "text": "Thuốc tê tại chỗ", "isCorrect": false },
+      { "text": "Liệu pháp thay đổi hành vi", "isCorrect": false }
+    ],
+    "explanation": "TENS hoạt động thông qua kích thích điện xuyên da."
+  },
+  {
+    "question": "Yếu tố nội tiết tố nào có ảnh hưởng đến tình trạng rối loạn thái dương hàm?",
+    "options": [
+      { "text": "Testosterone", "isCorrect": false },
+      { "text": "Insulin", "isCorrect": false },
+      { "text": "Estrogen", "isCorrect": true },
+      { "text": "Progesterone", "isCorrect": false }
+    ],
+    "explanation": "Estrogen là hormone được biết là có ảnh hưởng đến rối loạn thái dương hàm."
+  },
+  {
+    "question": "Rối loạn thái dương hàm thường liên quan đến những bệnh lý toàn thân nào?",
+    "options": [
+      { "text": "Thấp khớp", "isCorrect": true },
+      { "text": "Đái tháo đường", "isCorrect": false },
+      { "text": "Viêm cầu thận", "isCorrect": false },
+      { "text": "Suy tim", "isCorrect": false }
+    ],
+    "explanation": "Rối loạn thái dương hàm có thể liên quan đến các bệnh lý thấp khớp."
+  },
+  {
+    "question": "Sang chấn tâm lý ảnh hưởng đến cơ thể thông qua việc kích thích trục thần kinh nào?",
+    "options": [
+      { "text": "Sinh ba – Thân não – Dưới đồi", "isCorrect": false },
+      { "text": "Dưới đồi – Tuyến yên – Tuyến thượng thận", "isCorrect": true },
+      { "text": "Sinh ba – Thân não – Vỏ não", "isCorrect": false },
+      { "text": "Vô não - Hải mã – Dưới đồi", "isCorrect": false }
+    ],
+    "explanation": "Sang chấn tâm lý kích thích trục Dưới đồi – Tuyến yên – Tuyến thượng thận (HPA axis)."
+  },
+  {
+    "question": "Cấu trúc nào thuộc về cơ nhưng gây đau tương tự như đau khớp?",
+    "options": [
+      { "text": "Cơ chân bướm ngoài", "isCorrect": true },
+      { "text": "Cơ thái dương", "isCorrect": false },
+      { "text": "Cơ chân bướm trong", "isCorrect": false },
+      { "text": "Cơ cắn", "isCorrect": false }
+    ],
+    "explanation": "Cơ chân bướm ngoài có thể gây đau chuyển vị, đôi khi gây nhầm lẫn với đau khớp."
+  }
+]
