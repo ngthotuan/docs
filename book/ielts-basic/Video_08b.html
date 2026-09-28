@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video 08b - Sửa bài tập Mạo từ</title>
+    <style>
+        :root {
+            --primary: #4F46E5;
+            --primary-light: #EEF2FF;
+            --secondary: #10B981;
+            --secondary-light: #D1FAE5;
+            --danger: #EF4444;
+            --danger-light: #FEE2E2;
+            --warning: #F59E0B;
+            --warning-light: #FEF3C7;
+            --dark: #1F2937;
+            --gray: #6B7280;
+            --light: #F9FAFB;
+            --border: #E5E7EB;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: #F3F4F6;
+            padding: 2rem;
+        }
+
+        .notebook-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary), #4338CA);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .content {
+            padding: 2rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            color: var(--primary);
+            border-bottom: 2px solid var(--primary-light);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Rule Boxes */
+        .rule-box {
+            background-color: var(--primary-light);
+            border-left: 4px solid var(--primary);
+            padding: 1rem 1.5rem;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .rule-box h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Grammar Cards */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .grammar-card {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+
+        .grammar-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .grammar-card h4 {
+            color: var(--dark);
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .tag {
+            font-size: 0.75rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: 999px;
+            font-weight: 600;
+        }
+
+        .tag-specific { background: var(--secondary-light); color: var(--secondary); }
+        .tag-general { background: var(--warning-light); color: var(--warning); }
+        .tag-unique { background: var(--primary-light); color: var(--primary); }
+
+        /* Sentences Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            background-color: var(--light);
+            font-weight: 600;
+            color: var(--gray);
+            text-transform: uppercase;
+            font-size: 0.875rem;
+            letter-spacing: 0.05em;
+        }
+
+        tr:hover td {
+            background-color: var(--light);
+        }
+
+        .correct-answer {
+            color: var(--secondary);
+            font-weight: 600;
+            background: var(--secondary-light);
+            padding: 0.1rem 0.4rem;
+            border-radius: 4px;
+        }
+
+        .explanation {
+            font-size: 0.9rem;
+            color: var(--gray);
+        }
+
+        /* Tips & Warnings */
+        .tip-box, .warning-box {
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+
+        .tip-box {
+            background-color: var(--secondary-light);
+            color: #065F46;
+        }
+
+        .warning-box {
+            background-color: var(--danger-light);
+            color: #991B1B;
+        }
+
+        .icon {
+            font-size: 1.25rem;
+        }
+
+        .blank {
+            display: inline-block;
+            min-width: 30px;
+            border-bottom: 1px solid var(--dark);
+            text-align: center;
+        }
+
+        .story-container {
+            background: var(--light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            line-height: 2;
+        }
+    
+        /* Thêm CSS Responsive cho thiết bị di động */
+        @media (max-width: 768px) {
+            body { padding: 10px; font-size: 16px; }
+            .notebook, .notebook-container { padding: 15px; border-radius: 8px; }
+            .grid-2 { grid-template-columns: 1fr !important; }
+            h1 { font-size: 1.6em; }
+            h2 { font-size: 1.3em; padding-top: 5px; padding-bottom: 5px; margin-top: 20px; }
+            table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; }
+            th, td { padding: 8px; }
+            .card { padding: 15px; }
+            .rule-box, .tip-box, .example-box, .exercise-item { padding: 12px; margin: 15px 0; }
+            .transcript-item { flex-direction: column; }
+            .timestamp { margin-bottom: 5px; }
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="notebook-container">
+    <div class="header">
+        <h1>Sửa bài tập Mạo từ (Articles)</h1>
+        <p>Phân tích lỗi sai, giải thích chi tiết và đúc kết quy tắc ngữ pháp</p>
+    </div>
+
+    <div class="content">
+        <!-- TỔNG HỢP KIẾN THỨC (TAKEAWAYS) -->
+        <div class="section">
+            <h2 class="section-title">📌 Tổng hợp quy tắc (Takeaways)</h2>
+            
+            <div class="card-grid">
+                <div class="grammar-card">
+                    <h4>Xác định vs. Không xác định <span class="tag tag-specific">The vs. Zero</span></h4>
+                    <ul>
+                        <li><strong>Dùng "The":</strong> Khi danh từ chỉ một đối tượng cụ thể mà cả người nói và người nghe đều biết (VD: the girl in blue, the information you need).</li>
+                        <li><strong>Không dùng (Zero Article):</strong> Khi nói về một danh từ đếm được số nhiều hoặc không đếm được mang nghĩa chung chung (VD: children, money, football).</li>
+                    </ul>
+                </div>
+
+                <div class="grammar-card">
+                    <h4>Lần đầu vs. Lần hai <span class="tag tag-general">A/An -> The</span></h4>
+                    <ul>
+                        <li><strong>Lần 1:</strong> Dùng <code>a/an</code> khi giới thiệu một đối tượng mới, chưa xác định (VD: a man decided to rob a bank).</li>
+                        <li><strong>Từ lần 2:</strong> Dùng <code>the</code> vì đối tượng đó đã trở nên xác định (VD: the man walked into the bank).</li>
+                    </ul>
+                </div>
+
+                <div class="grammar-card">
+                    <h4>Các trường hợp dùng "The" cố định <span class="tag tag-unique">Fixed</span></h4>
+                    <ul>
+                        <li>Vật duy nhất: <code>the ground</code>, <code>the sky</code>, <code>the sun</code>, <code>the moon</code>, <code>the world</code>.</li>
+                        <li>Số thứ tự / So sánh nhất: <code>the first</code>, <code>the same</code>, <code>the longest</code>.</li>
+                        <li>Chức vụ duy nhất trong tổ chức: <code>the capital</code>, <code>the President</code>, <code>the head of</code>.</li>
+                        <li>Tính từ chỉ một nhóm người: <code>the unemployed</code>, <code>the French</code>.</li>
+                    </ul>
+                </div>
+
+                <div class="grammar-card">
+                    <h4>Không dùng mạo từ (Zero Article) <span class="tag tag-general">Exceptions</span></h4>
+                    <ul>
+                        <li>Bữa ăn nói chung: <code>dinner</code>, <code>breakfast</code>.</li>
+                        <li>Môn thể thao: <code>football</code>, <code>basketball</code>.</li>
+                        <li>Thứ trong tuần: <code>Monday</code>.</li>
+                        <li>Danh từ đi kèm số: <code>page 15</code>.</li>
+                        <li>Tóc (hair), sơn (paint) nói chung: <code>untidy hair</code>.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- PHÂN TÍCH BÀI TẬP 1 -->
+        <div class="section">
+            <h2 class="section-title">📝 Bài tập 1: Điền "the" hoặc rỗng</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Câu / Tình huống</th>
+                        <th>Đáp án</th>
+                        <th>Giải thích</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1. I haven't been to <code>___</code> cinema for ages.</td>
+                        <td><span class="correct-answer">the</span> cinema</td>
+                        <td><span class="explanation">Rạp chiếu phim (cinema), rạp hát, radio, internet thường đi với <code>the</code>.</span></td>
+                    </tr>
+                    <tr>
+                        <td>2. I lay down on <code>___</code> ground and looked up at <code>___</code> sky.</td>
+                        <td><span class="correct-answer">the</span> ground / <span class="correct-answer">the</span> sky</td>
+                        <td><span class="explanation">Các vật thể duy nhất trong tự nhiên (ground, sky, earth, sun, moon).</span></td>
+                    </tr>
+                    <tr>
+                        <td>3. She spends most of her free time watching <code>___</code> television.</td>
+                        <td><span class="correct-answer">∅</span> (television)</td>
+                        <td><span class="explanation">Chỉ hành động xem TV nói chung, không ám chỉ một cái TV cụ thể nào.</span></td>
+                    </tr>
+                    <tr>
+                        <td>4. Have you had <code>___</code> dinner yet?</td>
+                        <td><span class="correct-answer">∅</span> (dinner)</td>
+                        <td><span class="explanation">Các bữa ăn trong ngày nói chung không có mạo từ.</span></td>
+                    </tr>
+                    <tr>
+                        <td>5. Mary and I arrived at <code>___</code> same time.</td>
+                        <td><span class="correct-answer">the</span> same time</td>
+                        <td><span class="explanation">Cụm từ cố định <code>the same</code>, đi kèm số thứ tự (the first, the second).</span></td>
+                    </tr>
+                    <tr>
+                        <td>6. You'll find <code>___</code> information you need at <code>___</code> top of <code>___</code> page 15.</td>
+                        <td><span class="correct-answer">the</span> info / <span class="correct-answer">the</span> top / <span class="correct-answer">∅</span> page 15</td>
+                        <td><span class="explanation">Thông tin cụ thể ("you need"); Vị trí cụ thể (the top of); Danh từ + số (page 15) không dùng mạo từ.</span></td>
+                    </tr>
+                    <tr>
+                        <td>7. What is <code>___</code> longest river in <code>___</code> world?</td>
+                        <td><span class="correct-answer">the</span> longest / <span class="correct-answer">the</span> world</td>
+                        <td><span class="explanation">So sánh nhất (the longest); Danh từ duy nhất (the world).</span></td>
+                    </tr>
+                    <tr>
+                        <td>8. The film wasn't very good but I like <code>___</code> music.</td>
+                        <td><span class="correct-answer">the</span> music</td>
+                        <td><span class="explanation">Nhạc cụ thể của bộ phim đó, không phải âm nhạc nói chung.</span></td>
+                    </tr>
+                    <tr>
+                        <td>9. <code>___</code> cars in this car park belong to people who work here.</td>
+                        <td><span class="correct-answer">The</span> cars</td>
+                        <td><span class="explanation">Những chiếc xe cụ thể nằm trong bãi đỗ xe này.</span></td>
+                    </tr>
+                    <tr>
+                        <td>10. <code>___</code> children need love and attention.</td>
+                        <td><span class="correct-answer">∅</span> (children)</td>
+                        <td><span class="explanation">Trẻ em nói chung, danh từ đếm được số nhiều mang nghĩa chung chung.</span></td>
+                    </tr>
+                    <tr>
+                        <td>17. Life must be hard for <code>___</code> unemployed in our society.</td>
+                        <td><span class="correct-answer">the</span> unemployed</td>
+                        <td><span class="explanation"><code>The</code> + Tính từ = Nhóm người (người thất nghiệp).</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- PHÂN TÍCH BÀI TẬP NGỮ CẢNH CỤ THỂ -->
+        <div class="section">
+            <h2 class="section-title">🔍 Bài tập Cặp câu: So sánh Nghĩa chung vs. Nghĩa cụ thể</h2>
+            
+            <div class="tip-box">
+                <span class="icon">💡</span>
+                <div>
+                    <strong>Mẹo nhận biết:</strong> Hãy tự hỏi "Người nghe có biết tôi đang nói tới cái/con/người nào cụ thể không?". Nếu có -> dùng THE. Nếu không -> không dùng mạo từ.
+                </div>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Câu có bối cảnh</th>
+                        <th>Lựa chọn đúng</th>
+                        <th>Giải thích</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Did you see <strong>football/ the football</strong> on television last night?</td>
+                        <td><span class="correct-answer">the football</span></td>
+                        <td>Chỉ trận đấu bóng đá cụ thể chiếu tối qua.</td>
+                    </tr>
+                    <tr>
+                        <td>I hate <strong>football/ the football</strong>.</td>
+                        <td><span class="correct-answer">football</span></td>
+                        <td>Chỉ môn thể thao bóng đá nói chung.</td>
+                    </tr>
+                    <tr>
+                        <td>Do your family have a dog? - No, I'm afraid of <strong>dogs/ the dogs</strong>.</td>
+                        <td><span class="correct-answer">dogs</span></td>
+                        <td>Sợ loài chó nói chung.</td>
+                    </tr>
+                    <tr>
+                        <td>I didn't like <strong>dogs/ the dogs</strong> that are running around on the street.</td>
+                        <td><span class="correct-answer">the dogs</span></td>
+                        <td>Chỉ cụ thể những con chó đang chạy trên đường.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- PHÂN TÍCH BÀI TẬP ĐIỀN TỪ VÀO ĐOẠN VĂN -->
+        <div class="section">
+            <h2 class="section-title">📖 Phân tích Câu chuyện (Quy tắc A/An -> The)</h2>
+            
+            <div class="story-container">
+                A man decided to rob <strong>(1) a</strong> bank in the town where he lived. He walked into <strong>(2) the</strong> bank and handed <strong>(3) a</strong> note to one of <strong>(4) the</strong> cashiers. <strong>(5) The</strong> cashier read <strong>(6) the</strong> note, which told her to give <strong>(7) the</strong> man some money. Afraid that he might have <strong>(8) a</strong> gun, she did as she was told. <strong>(9) The</strong> man then walked out of <strong>(10) the</strong> building, leaving <strong>(11) the</strong> note behind...
+            </div>
+
+            <br>
+            <div class="warning-box">
+                <span class="icon">⚠️</span>
+                <div>
+                    <strong>Phân tích chuỗi mạo từ trong đoạn văn:</strong>
+                    <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+                        <li><strong>Lần 1:</strong> <code>a bank</code>, <code>a note</code>, <code>a gun</code> (giới thiệu đối tượng mới, người đọc chưa biết là cái nào).</li>
+                        <li><strong>Lần 2 trở đi:</strong> <code>the bank</code>, <code>the note</code>, <code>the man</code> (các đối tượng này đã được nhắc đến ở câu trước, trở nên xác định).</li>
+                        <li><strong>Xác định theo ngữ cảnh:</strong> <code>the cashiers</code> (nhân viên thu ngân của ngân hàng đó), <code>the building</code> (tòa nhà ngân hàng).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

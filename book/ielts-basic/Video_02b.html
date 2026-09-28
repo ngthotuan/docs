@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video 02b - Danh, Động, Tính, Trạng (Tiếp theo)</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #e74c3c;
+            --highlight-color: #f1c40f;
+            --bg-color: #f9f9f9;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --border-color: #e0e0e0;
+            --success-color: #27ae60;
+            --info-color: #2980b9;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            border-left: 4px solid var(--accent-color);
+            padding-left: 15px;
+            margin-top: 40px;
+        }
+
+        h3 {
+            color: var(--info-color);
+            margin-top: 25px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            padding: 25px;
+            margin-bottom: 30px;
+            border: 1px solid var(--border-color);
+        }
+
+        .rule-box {
+            background-color: #e8f4fd;
+            border-left: 4px solid var(--info-color);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .warning-box {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .tip-box {
+            background-color: #d4edda;
+            border-left: 4px solid var(--success-color);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: var(--card-bg);
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        .example {
+            font-style: italic;
+            color: #555;
+            margin-top: 5px;
+            display: block;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: var(--accent-color);
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #e2e8f0;
+            color: #4a5568;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+        }
+    
+        /* Thêm CSS Responsive cho thiết bị di động */
+        @media (max-width: 768px) {
+            body { padding: 10px; font-size: 16px; }
+            .notebook, .notebook-container { padding: 15px; border-radius: 8px; }
+            .grid-2 { grid-template-columns: 1fr !important; }
+            h1 { font-size: 1.6em; }
+            h2 { font-size: 1.3em; padding-top: 5px; padding-bottom: 5px; margin-top: 20px; }
+            table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; }
+            th, td { padding: 8px; }
+            .card { padding: 15px; }
+            .rule-box, .tip-box, .example-box, .exercise-item { padding: 12px; margin: 15px 0; }
+            .transcript-item { flex-direction: column; }
+            .timestamp { margin-bottom: 5px; }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ngữ pháp cơ bản cho IELTS</h1>
+            <p>Video 02b: Động từ, Tính từ, và Trạng từ (Tiếp theo)</p>
+        </header>
+
+        <div class="card">
+            <h2>1. Động từ (Verbs)</h2>
+            <p>Khi đặt câu hay sử dụng động từ, chúng ta cần phải xét 3 tiêu chí chia động từ sau:</p>
+
+            <h3>1.1. Chia theo Thì (Tenses)</h3>
+            <p>Động từ phải được chia phù hợp với thời gian xảy ra hành động trong câu.</p>
+            <div class="rule-box">
+                <ul>
+                    <li><strong>Hiện tại đơn:</strong> Mike <span class="highlight">goes</span> to that café every day.</li>
+                    <li><strong>Quá khứ đơn:</strong> Mike <span class="highlight">went</span> to that café yesterday.</li>
+                    <li><strong>Tương lai đơn:</strong> Mike <span class="highlight">will go</span> to that café tomorrow.</li>
+                </ul>
+            </div>
+
+            <h3>1.2. Chia theo Chủ ngữ (Subject)</h3>
+            <p>Động từ phải hòa hợp với chủ ngữ (số ít / số nhiều).</p>
+            <div class="rule-box">
+                <ul>
+                    <li>Chủ ngữ số ít: Mike <span class="highlight">goes</span>, She <span class="highlight">was</span></li>
+                    <li>Chủ ngữ số nhiều: We <span class="highlight">go</span>, They <span class="highlight">were</span></li>
+                </ul>
+            </div>
+
+            <h3>1.3. Chia theo Quy tắc (Rules)</h3>
+            <p>Có 3 quy tắc quan trọng cần nhớ khi chia động từ:</p>
+
+            <div class="rule-box">
+                <strong>Quy tắc 1: Giới từ + V-ing</strong>
+                <p>Nếu phía trước là giới từ (in, on, at, from, with...), động từ theo sau phải thêm đuôi -ing.</p>
+                <span class="example">Ví dụ: Bad weather prevents them <span class="highlight">from driving</span> too fast.</span>
+                <span class="example">Ví dụ: I'm fed up <span class="highlight">with being</span> single.</span>
+            </div>
+
+            <div class="rule-box">
+                <strong>Quy tắc 2: Động từ khiếm khuyết + V nguyên mẫu</strong>
+                <p>Sau các động từ khiếm khuyết (will, can, may, should, would...), động từ luôn ở dạng nguyên mẫu, <strong>không thêm "s/es"</strong>.</p>
+                <span class="example">Ví dụ: He would <span class="highlight">argue</span> that... (SAI: He would argues)</span>
+            </div>
+
+            <div class="rule-box">
+                <strong>Quy tắc 3: Động từ đi kèm V-ing hoặc to-V</strong>
+                <div class="grid-2">
+                    <div>
+                        <h4>Động từ + V-ing</h4>
+                        <p>Một số động từ theo sau bắt buộc phải dùng V-ing:</p>
+                        <p>
+                            <span class="tag">Enjoy</span> <span class="tag">Keep</span> <span class="tag">Avoid</span> <span class="tag">Consider</span>
+                            <span class="tag">Miss</span> <span class="tag">Postpone</span> <span class="tag">Imagine</span> <span class="tag">Deny</span>
+                            <span class="tag">Risk</span> <span class="tag">Practice</span> <span class="tag">Have difficulty</span> 
+                            <span class="tag">Be/get used to</span> <span class="tag">Spend time/money</span>
+                        </p>
+                        <span class="example">I enjoy <span class="highlight">listening</span> to music.</span>
+                        <span class="example">You should avoid <span class="highlight">making</span> mistakes.</span>
+                    </div>
+                    <div>
+                        <h4>Động từ + to-V</h4>
+                        <p>Một số động từ theo sau bắt buộc phải dùng to-V:</p>
+                        <p>
+                            <span class="tag">Agree</span> <span class="tag">Decide</span> <span class="tag">Expect</span> <span class="tag">Manage</span>
+                            <span class="tag">Promise</span> <span class="tag">Plan</span> <span class="tag">Learn</span> <span class="tag">Want</span>
+                            <span class="tag">Need</span> <span class="tag">Wish</span> <span class="tag">Tend</span> <span class="tag">Desire</span>
+                        </p>
+                        <span class="example">He agreed <span class="highlight">to go</span> with them.</span>
+                        <span class="example">She decided <span class="highlight">to buy</span> this dress.</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tip-box">
+                <strong>Điểm quan trọng của Động từ:</strong> Khi đặt bút viết hoặc nói một câu, hãy luôn tự hỏi 3 câu: (1) Chia thì đúng chưa? (2) Chia theo chủ ngữ đúng chưa? (3) Có theo quy tắc nào không?
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>2. Tính từ (Adjectives)</h2>
+            <p>Điểm lưu ý quan trọng nhất đối với tính từ là sự khác biệt giữa tính từ đuôi <strong>-ed</strong> và đuôi <strong>-ing</strong>.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Đuôi Tính Từ</th>
+                        <th>Cách Dùng</th>
+                        <th>Ví Dụ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>-ed</strong></td>
+                        <td>Chỉ <strong>Cảm nhận (feeling)</strong> của một đối tượng về một sự việc, hiện tượng.</td>
+                        <td>
+                            She was <span class="highlight">bored</span>. (Cô ấy cảm thấy chán nản)<br>
+                            We were <span class="highlight">interested</span> in watching this film.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>-ing</strong></td>
+                        <td>Chỉ <strong>Tính chất, tính cách</strong> của một người, vật hoặc sự việc.</td>
+                        <td>
+                            She was a <span class="highlight">boring</span> person. (Cô ấy là một người nhàm chán)<br>
+                            This film was <span class="highlight">interesting</span>. (Bộ phim này thú vị)
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>3. Trạng từ (Adverbs)</h2>
+            <p>Quy tắc chung để hình thành trạng từ: <strong>Tính từ + "ly" = Trạng từ</strong> (VD: national -> nationally, beautiful -> beautifully).</p>
+            <p>Tuy nhiên, phần Trạng từ có nhiều ngoại lệ cần đặc biệt lưu ý:</p>
+
+            <div class="warning-box">
+                <strong>Ngoại lệ 1: Từ có đuôi -ly nhưng là Tính từ</strong>
+                <p>Một số từ có sẵn đuôi -ly nhưng <strong>không phải</strong> trạng từ mà là tính từ:</p>
+                <p><span class="tag">friendly</span> <span class="tag">lovely</span> <span class="tag">elderly</span></p>
+            </div>
+
+            <div class="warning-box">
+                <strong>Ngoại lệ 2: Trạng từ giữ nguyên hoặc có nghĩa hoàn toàn khác khi thêm -ly</strong>
+                <p>Hãy chú ý các cặp trạng từ dễ gây nhầm lẫn về nghĩa:</p>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tính từ / Trạng từ 1</th>
+                            <th>Trạng từ 2 (đuôi -ly)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>hard</strong>: chăm chỉ, vất vả<br><span class="example">They work hard at school.</span></td>
+                            <td><strong>hardly</strong>: hầu như không<br><span class="example">We hardly know each other.</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>late</strong>: trễ, muộn<br><span class="example">I got up late.</span></td>
+                            <td><strong>lately</strong>: gần đây, mới đây<br><span class="example">Have you seen her lately?</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>high</strong>: cao (khoảng cách)<br><span class="example">An eagle circled high overhead.</span></td>
+                            <td><strong>highly</strong>: hết sức, rất (= very)<br><span class="example">He is highly successful.</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>deep</strong>: sâu (độ sâu dưới đất/nước)<br><span class="example">Trapped deep underground.</span></td>
+                            <td><strong>deeply</strong>: rất, sâu sắc (tình cảm, mức độ)<br><span class="example">She is deeply religious.</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>near</strong>: gần (khoảng cách)<br><span class="example">A bomb exploded somewhere near.</span></td>
+                            <td><strong>nearly</strong>: hầu như, gần như<br><span class="example">The bottle is nearly empty.</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="tip-box">
+                <strong>Các Trạng từ đặc biệt khác:</strong>
+                <ul>
+                    <li><strong>fast</strong> -> Trạng từ vẫn là <strong>fast</strong> (Không có fastly)</li>
+                    <li><strong>early</strong> -> Trạng từ vẫn là <strong>early</strong></li>
+                    <li><strong>good</strong> -> Trạng từ là <strong>well</strong> (Đừng dùng goodly, goodly là từ cổ ít dùng mang nghĩa "số lượng lớn")</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

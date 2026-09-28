@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video 02a - Danh, Động, Tính, Trạng</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #e74c3c;
+            --highlight-color: #f1c40f;
+            --bg-color: #f9f9f9;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --border-color: #e0e0e0;
+            --success-color: #27ae60;
+            --info-color: #2980b9;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            border-left: 4px solid var(--accent-color);
+            padding-left: 15px;
+            margin-top: 40px;
+        }
+
+        h3 {
+            color: var(--info-color);
+            margin-top: 25px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            padding: 25px;
+            margin-bottom: 30px;
+            border: 1px solid var(--border-color);
+        }
+
+        .rule-box {
+            background-color: #e8f4fd;
+            border-left: 4px solid var(--info-color);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .warning-box {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .tip-box {
+            background-color: #d4edda;
+            border-left: 4px solid var(--success-color);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: var(--card-bg);
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        .example {
+            font-style: italic;
+            color: #555;
+            margin-top: 5px;
+            display: block;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: var(--accent-color);
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #e2e8f0;
+            color: #4a5568;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+
+        .tag.noun { background: #e3f2fd; color: #1976d2; }
+        .tag.verb { background: #fce4ec; color: #c2185b; }
+        .tag.adj { background: #e8f5e9; color: #388e3c; }
+        .tag.adv { background: #fff3e0; color: #f57c00; }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Thêm CSS Responsive cho thiết bị di động */
+        @media (max-width: 768px) {
+            body { padding: 10px; font-size: 16px; }
+            .notebook, .notebook-container { padding: 15px; border-radius: 8px; }
+            .grid-2 { grid-template-columns: 1fr !important; }
+            h1 { font-size: 1.6em; }
+            h2 { font-size: 1.3em; padding-top: 5px; padding-bottom: 5px; margin-top: 20px; }
+            table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; }
+            th, td { padding: 8px; }
+            .card { padding: 15px; }
+            .rule-box, .tip-box, .example-box, .exercise-item, .warning-box { padding: 12px; margin: 15px 0; }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ngữ pháp cơ bản cho IELTS</h1>
+            <p>Video 02a: Danh từ - Động từ - Tính từ - Trạng từ</p>
+        </header>
+
+        <div class="card">
+            <h2>1. Dấu hiệu nhận biết (Hậu tố)</h2>
+
+            <h3>1.1. Danh từ (Nouns)</h3>
+            <p>Thường kết thúc bằng các đuôi:</p>
+            <p>
+                <span class="tag noun">-tion</span> <span class="tag noun">-sion</span> <span class="tag noun">-ment</span>
+                <span class="tag noun">-ness</span> <span class="tag noun">-er</span> <span class="tag noun">-or</span>
+                <span class="tag noun">-ship</span> <span class="tag noun">-ity</span> <span class="tag noun">-ist</span>
+                <span class="tag noun">-ism</span>
+            </p>
+            <div class="rule-box">
+                <ul>
+                    <li><code>-er</code>, <code>-or</code>: Chỉ người/nghề nghiệp hoặc thiết bị (VD: <em>teacher</em>, <em>doctor</em>).</li>
+                    <li><code>-ship</code>: Mối quan hệ (VD: <em>friendship</em> - tình bạn).</li>
+                    <li><code>-ist</code>: Nhà khoa học/chuyên gia (VD: <em>scientist</em>).</li>
+                    <li><code>-ism</code>: Chủ nghĩa (VD: <em>materialism</em> - chủ nghĩa vật chất).</li>
+                </ul>
+                <span class="example">Các ví dụ khác: nation, television, equipment, usefulness, quality.</span>
+            </div>
+
+            <h3>1.2. Động từ (Verbs)</h3>
+            <p>Động từ rất ít có hậu tố cố định để nhận biết (VD: go, run, hit). Tuy nhiên, có một số đuôi phổ biến:</p>
+            <p>
+                <span class="tag verb">-ize</span> <span class="tag verb">-ise</span>
+            </p>
+            <div class="rule-box">
+                <span class="example">modern (hiện đại) ➔ <strong>modernize</strong> (hiện đại hóa)</span>
+                <span class="example">special (đặc biệt) ➔ <strong>specialize</strong> (chuyên biệt hóa, chuyên môn hóa)</span>
+            </div>
+
+            <h3>1.3. Tính từ (Adjectives)</h3>
+            <p>Thường kết thúc bằng các đuôi:</p>
+            <p>
+                <span class="tag adj">-ous</span> <span class="tag adj">-ful</span> <span class="tag adj">-less</span>
+                <span class="tag adj">-al</span> <span class="tag adj">-able</span> <span class="tag adj">-ish</span>
+                <span class="tag adj">-ic</span> <span class="tag adj">-ive</span> <span class="tag adj">-ent</span>
+            </p>
+            <div class="rule-box">
+                <ul>
+                    <li><code>-ful</code>: Mang ý nghĩa "nhiều, rất" (VD: <em>useful</em> - rất hữu ích).</li>
+                    <li><code>-less</code>: Mang ý nghĩa "không có" (VD: <em>useless</em> - vô ích).</li>
+                    <li><code>-able</code>: Mang ý nghĩa "có thể" (VD: <em>understandable</em> - có thể hiểu được).</li>
+                </ul>
+                <span class="example">Các ví dụ khác: famous, national, childish, scientific, native, different.</span>
+            </div>
+
+            <h3>1.4. Trạng từ (Adverbs)</h3>
+            <p>Cấu tạo phổ biến nhất:</p>
+            <div class="rule-box">
+                <strong>Tính từ + <span class="tag adv">-ly</span> = Trạng từ</strong>
+                <span class="example">national ➔ nationally</span>
+                <span class="example">understandable ➔ understandably</span>
+                <span class="example">beautiful ➔ beautifully</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>2. Vị trí & Chức năng trong câu</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Từ loại</th>
+                        <th>Vị trí và Chức năng</th>
+                        <th>Ví dụ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Danh từ</strong></td>
+                        <td>
+                            - Đứng đầu câu làm <strong>Chủ ngữ</strong> (Subject).<br>
+                            - Đứng sau động từ làm <strong>Bổ ngữ</strong> (Object).
+                        </td>
+                        <td><u>Mike</u> loves <u>animals</u>. <br><em>(Mike: S, animals: O)</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Động từ</strong></td>
+                        <td>
+                            - Đứng sau Chủ ngữ để diễn tả hành động.<br>
+                            <em>*Lưu ý: Cách chia động từ (V-ing, V-to, V2, V3) sẽ được học kỹ ở các bài sau.</em>
+                        </td>
+                        <td>Mike <u>loves</u> animals.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tính từ</strong></td>
+                        <td>
+                            - Sau động từ <code>to be</code> (S + be + adj).<br>
+                            - TRƯỚC danh từ để bổ nghĩa (adj + Noun).<br>
+                            Tuyệt đối không để tính từ đứng sau danh từ (Không nói: <em>girl beautiful</em>).<br>
+                            <em>*Lưu ý: Tính từ phân từ (-ed, -ing) như bored/boring sẽ học kỹ sau.</em>
+                        </td>
+                        <td>
+                            Lan is <u>beautiful</u>.<br>
+                            She is a <u>beautiful</u> girl.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Trạng từ</strong></td>
+                        <td>
+                            - Đứng cạnh động từ (trước/sau/đầu câu/cuối câu) để <strong>bổ nghĩa cho động từ đó</strong>.
+                        </td>
+                        <td>
+                            Lan sings very <u>beautifully</u>.<br>
+                            <em>('beautifully' bổ nghĩa cho hành động 'sings' - hát như thế nào? Hát rất hay. Không dùng tính từ 'beautiful' ở đây).</em>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>3. Danh từ Đếm được & Không đếm được</h2>
+            <p>Đây là phần cực kỳ quan trọng vì nếu xác định sai, sẽ chia sai ngữ pháp động từ và lượng từ đi kèm. Ví dụ lỗi sai điển hình: <em>"There are too many informations"</em> (Sai vì information không đếm được, không có S, không đi với many).</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>✅ Danh từ ĐẾM ĐƯỢC</th>
+                        <th>❌ Danh từ KHÔNG ĐẾM ĐƯỢC</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Dấu hiệu</strong></td>
+                        <td>
+                            Có thể đếm tách rời: 1, 2, 3...<br>
+                            <em>VD: person, tree, house, cat.</em>
+                        </td>
+                        <td>
+                            Không thể tách rời để đếm: Chất lỏng (water, blood), Chất liệu (plastic, metal), Trừu tượng (happiness, health), Tập hợp (equipment, furniture).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Dạng số ít</strong></td>
+                        <td>Bắt buộc phải có <strong>a / an / the / one</strong> đứng trước. Không đứng trơ trọi.<br><em>VD: There is <u>a</u> house.</em></td>
+                        <td rowspan="2">
+                            - Không thêm <code>a/an</code>, không đếm số lượng trực tiếp.<br>
+                            - Không thêm <code>-s/-es</code> ở cuối.<br>
+                            - <strong>Động từ theo sau luôn chia số ít.</strong><br>
+                            <em>VD: <u>Money is</u> not everything.</em>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Dạng số nhiều</strong></td>
+                        <td>Thêm <strong>-s / -es</strong> vào cuối danh từ.<br><em>VD: There are two house<u>s</u>.</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Lượng từ</strong></td>
+                        <td><code>many</code>, <code>a number of</code>, <code>the number of</code>, <code>few / a few</code></td>
+                        <td><code>much</code>, <code>an amount of</code>, <code>the amount of</code>, <code>little / a little</code></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="tip-box">
+                <strong>💡 Lượng từ dùng được cho CẢ HAI loại danh từ:</strong>
+                <p><code>Some</code>, <code>a lot of</code>, <code>lots of</code>, <code>plenty of</code>, <code>any</code>.</p>
+            </div>
+
+            <div class="warning-box">
+                <strong>⚠️ Những từ ngoại lệ (Cực kỳ hay bẫy)</strong>
+                <p>Một số danh từ luôn có chữ <strong>-s</strong> ở cuối, khiến ta nhầm là số nhiều, nhưng thực chất chúng là <strong>DANH TỪ KHÔNG ĐẾM ĐƯỢC</strong> (Động từ phải chia số ít):</p>
+                <ul>
+                    <li><strong>news</strong> (tin tức) ➔ <em>VD: There is too much news. (Không dùng many news)</em></li>
+                    <li><strong>economics</strong> (kinh tế học), <strong>physics</strong> (vật lý)</li>
+                    <li><strong>mumps</strong> (bệnh quai bị), <strong>measles</strong> (bệnh sởi)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>4. Sở hữu cách (Cách dịch chữ "Của")</h2>
+
+            <div class="grid-2">
+                <div>
+                    <h3>Dùng "OF"</h3>
+                    <div class="rule-box">
+                        <ul>
+                            <li><strong>Đối tượng:</strong> Thường dùng cho đồ vật, ý tưởng, sự việc.</li>
+                            <li><strong>Cách dịch:</strong> Dịch <strong>XUÔI</strong> (từ trái sang phải).</li>
+                        </ul>
+                        <span class="example">The length <strong>of</strong> the table (Chiều dài của cái bàn)</span>
+                        <span class="example">The ceiling <strong>of</strong> the building (Trần nhà của tòa nhà)</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h3>Dùng Phẩy " 'S "</h3>
+                    <div class="rule-box">
+                        <ul>
+                            <li><strong>Đối tượng:</strong> Thường dùng cho người, động vật, quốc gia/tổ chức.</li>
+                            <li><strong>Cách dịch:</strong> Dịch <strong>NGƯỢC</strong> (từ phải sang trái).</li>
+                        </ul>
+                        <span class="example">People<strong>'s</strong> health (Sức khỏe của con người)</span>
+                        <span class="example">My mother<strong>'s</strong> house (Ngôi nhà của mẹ tôi)</span>
+                        <span class="example">A country<strong>'s</strong> economic growth (Sự tăng trưởng kinh tế của một quốc gia)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tip-box">
+                <strong>💡 Mẹo khi danh từ đã có sẵn "S"</strong>
+                <p>Khi dùng <code>'s</code> cho danh từ số nhiều đã tận cùng bằng chữ <strong>s</strong>, ta KHÔNG thêm <code>'s</code> nữa, mà chỉ cần đánh dấu phẩy <strong><code>'</code></strong>.</p>
+                <span class="example">The teacher<strong>s'</strong> mistakes (Những lỗi lầm của các giáo viên)</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Grammar: Sửa bài tập So sánh</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #f3f4f6;
+            --text-color: #333;
+            --highlight: #e74c3c;
+            --success: #2ecc71;
+            --warning: #f1c40f;
+            --bg-color: #fff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--secondary-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .notebook {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--bg-color);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 40px;
+        }
+
+        header {
+            border-bottom: 2px solid var(--primary-color);
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-left: 4px solid var(--primary-color);
+            padding-left: 10px;
+            margin-top: 30px;
+        }
+
+        .takeaways {
+            background-color: #e8f4fd;
+            border: 1px solid #b6d4fe;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .takeaways h3 {
+            margin-top: 0;
+            color: #0c5460;
+        }
+
+        .takeaways ul {
+            margin-bottom: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .incorrect {
+            color: var(--highlight);
+            text-decoration: line-through;
+        }
+
+        .correct {
+            color: var(--success);
+            font-weight: bold;
+        }
+
+        .note-box {
+            background-color: #fff3cd;
+            border-left: 4px solid var(--warning);
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+
+        .grammar-rule {
+            display: inline-block;
+            background: #e1bee7;
+            color: #4a148c;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+
+        .tag {
+            background: #d1ecf1;
+            color: #0c5460;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+    
+        /* Thêm CSS Responsive cho thiết bị di động */
+        @media (max-width: 768px) {
+            body { padding: 10px; font-size: 16px; }
+            .notebook, .notebook-container { padding: 15px; border-radius: 8px; }
+            .grid-2 { grid-template-columns: 1fr !important; }
+            h1 { font-size: 1.6em; }
+            h2 { font-size: 1.3em; padding-top: 5px; padding-bottom: 5px; margin-top: 20px; }
+            table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; }
+            th, td { padding: 8px; }
+            .card { padding: 15px; }
+            .rule-box, .tip-box, .example-box, .exercise-item { padding: 12px; margin: 15px 0; }
+            .transcript-item { flex-direction: column; }
+            .timestamp { margin-bottom: 5px; }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="notebook">
+        <header>
+            <h1>Sửa Bài Tập: Câu So Sánh (Comparison)</h1>
+            <p><strong>Nguồn:</strong> Video 06b - Khóa học Ngữ pháp cơ bản cho IELTS</p>
+        </header>
+
+        <div class="takeaways">
+            <h3>📝 Bài Học Rút Ra (Key Takeaways)</h3>
+            <ul>
+                <li><strong>The number of + N(số nhiều)</strong> đi với động từ số ít (VD: <em>the number of passengers <strong>was</strong>...</em>).</li>
+                <li><strong>One of the + so sánh nhất + N(số nhiều)</strong>: Một trong những... (VD: <em>one of the most serious <strong>issues</strong></em>).</li>
+                <li>Với động từ (Verb), ta dùng trạng từ (Adverb) để bổ nghĩa. Nếu trạng từ tận cùng là <em>-ly</em> (VD: frequently, carefully), ta dùng <strong>more + adv</strong> trong câu so sánh hơn.</li>
+                <li><strong>V-ing</strong> có thể đóng vai trò làm chủ ngữ trong câu (VD: <em><strong>Watching</strong> TV is...</em>).</li>
+                <li>Động từ <strong>phone/call</strong> (gọi điện cho ai) kết hợp trực tiếp với tân ngữ, không có giới từ (VD: <em>phone me</em>, KHÔNG dùng <em>phone to me</em>).</li>
+                <li>Tính từ ngắn (short adjectives) thêm <strong>-er / -est</strong> (VD: big -> bigger, cheap -> cheaper). KHÔNG dùng <em>more/most</em> với tính từ ngắn (KHÔNG dùng <em>more bigger</em>).</li>
+                <li>Tính từ kết thúc bằng <em>-y</em> (VD: early, noisy, busy) được xem là tính từ ngắn -> chuyển <em>-y</em> thành <em>-i</em> rồi thêm <em>-er/-est</em> (VD: earlier, noisier, busiest).</li>
+                <li><strong>Cụm danh từ</strong>: Tính từ phải đứng TRƯỚC danh từ (VD: <em>the most popular <strong>energy sources</strong></em>).</li>
+            </ul>
+        </div>
+
+        <h2>Phần 1: Tìm và Sửa Lỗi Sai (Error Correction)</h2>
+        <p>Phân tích các lỗi sai phổ biến khi sử dụng cấu trúc so sánh.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Câu Sai</th>
+                    <th>Câu Đúng</th>
+                    <th>Giải Thích / Điểm Ngữ Pháp</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>The situation is getting <span class="incorrect">difficultier</span>.</td>
+                    <td>The situation is getting <span class="correct">more difficult</span>.</td>
+                    <td><em>Difficult</em> là tính từ dài (3 âm tiết) -> dùng <strong>more</strong>.</td>
+                </tr>
+                <tr>
+                    <td>Her boyfriend is much <span class="incorrect">old</span> than her.</td>
+                    <td>Her boyfriend is much <span class="correct">older</span> than her.</td>
+                    <td>Câu so sánh hơn với tính từ ngắn <em>old</em> -> <strong>older</strong>.</td>
+                </tr>
+                <tr>
+                    <td>Jane speaks English <span class="incorrect">frequently</span> than Martin.</td>
+                    <td>Jane speaks English <span class="correct">more frequently</span> than Martin.</td>
+                    <td><em>Frequently</em> là trạng từ dài -> so sánh hơn dùng <strong>more frequently</strong>.</td>
+                </tr>
+                <tr>
+                    <td>Harry's watch is much <span class="incorrect">more cheap</span> than mine.</td>
+                    <td>Harry's watch is much <span class="correct">cheaper</span> than mine.</td>
+                    <td><em>Cheap</em> là tính từ ngắn -> không dùng <em>more</em>, thêm đuôi <em>-er</em>.</td>
+                </tr>
+                <tr>
+                    <td>The dining room is so small, I like it to be <span class="incorrect">more bigger</span>.</td>
+                    <td>The dining room is so small, I like it to be <span class="correct">bigger</span>.</td>
+                    <td>Không dùng <em>more</em> trước tính từ ngắn đã thêm <em>-er</em>.</td>
+                </tr>
+                <tr>
+                    <td>Your work isn't very good, I'm sure you can do <span class="incorrect">more better</span>.</td>
+                    <td>Your work isn't very good, I'm sure you can do <span class="correct">better</span>.</td>
+                    <td><em>Better</em> đã là dạng so sánh hơn của <em>good/well</em>, không dùng thêm <em>more</em>.</td>
+                </tr>
+                <tr>
+                    <td>It's <span class="incorrect">more cold</span> today than it was yesterday.</td>
+                    <td>It's <span class="correct">colder</span> today than it was yesterday.</td>
+                    <td><em>Cold</em> là tính từ ngắn -> dùng <strong>colder</strong>.</td>
+                </tr>
+                <tr>
+                    <td>This watch is one of the <span class="incorrect">more expensive</span> watches in the store.</td>
+                    <td>This watch is one of the <span class="correct">most expensive</span> watches in the store.</td>
+                    <td>Cấu trúc "Một trong những... nhất" -> <strong>one of the + superlative</strong>.</td>
+                </tr>
+                <tr>
+                    <td>He's two years <span class="incorrect">old</span> than me.</td>
+                    <td>He's two years <span class="correct">older</span> than me.</td>
+                    <td>Câu so sánh hơn (than me) -> tính từ phải ở dạng so sánh.</td>
+                </tr>
+                <tr>
+                    <td>This morning I got up <span class="incorrect">more early</span> than usual.</td>
+                    <td>This morning I got up <span class="correct">earlier</span> than usual.</td>
+                    <td><em>Early</em> kết thúc bằng <em>-y</em> được xem là tính từ/trạng từ ngắn -> <strong>earlier</strong>.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Phần 2: Viết Lại Câu (Sentence Transformation)</h2>
+        <p>Sử dụng từ gợi ý để viết lại câu sao cho nghĩa không đổi.</p>
+        <div class="note-box">
+            <strong>Mẹo:</strong> Thường sử dụng cấu trúc tương đương như đổi từ <em>So sánh hơn</em> sang <em>So sánh nhất</em>, hoặc <em>So sánh bằng</em> sang <em>So sánh hơn</em>.
+        </div>
+        <ul>
+            <li><strong>Câu gốc:</strong> This hotel is more expensive than all the others. (most)<br>
+                <strong>Viết lại:</strong> This hotel is <em>the most expensive</em>.</li>
+            <li><strong>Câu gốc:</strong> The moon isn't as hot as the sun. (hotter)<br>
+                <strong>Viết lại:</strong> The sun is <em>hotter than</em> the moon.</li>
+            <li><strong>Câu gốc:</strong> I'm not as patient as you. (more)<br>
+                <strong>Viết lại:</strong> You are <em>more patient than</em> me (hoặc <em>than I am</em>).</li>
+            <li><strong>Câu gốc:</strong> The table and the desk are the same size. (big)<br>
+                <strong>Viết lại:</strong> The table is <em>as big as</em> the desk.</li>
+            <li><strong>Câu gốc:</strong> The dress is cheaper than the skirt. (expensive)<br>
+                <strong>Viết lại:</strong> The skirt is <em>more expensive than</em> the dress.</li>
+            <li><strong>Câu gốc:</strong> I've never watched a more interesting movie. (most)<br>
+                <strong>Viết lại:</strong> It is <em>the most interesting</em> movie I've ever watched.</li>
+            <li><strong>Câu gốc:</strong> The buses run every 30 minutes, while the trains run every hour. (frequently)<br>
+                <strong>Viết lại:</strong> The buses run <em>more frequently than</em> the trains.</li>
+            <li><strong>Câu gốc:</strong> Daniel can lift 90 kilos, but Mathew can lift 120 kilos. (stronger)<br>
+                <strong>Viết lại:</strong> Mathew is <em>stronger than</em> Daniel.</li>
+        </ul>
+
+        <h2>Phần 3: Dịch Câu (Translation) & Ứng Dụng</h2>
+        <p>Phân tích cách dịch các câu từ tiếng Việt sang tiếng Anh sử dụng cấu trúc so sánh đúng ngữ cảnh IELTS.</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Câu Tiếng Việt</th>
+                    <th>Câu Tiếng Anh</th>
+                    <th>Lưu Ý (Notes)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Năm 1990, số người đi xe lửa là khoảng 30,000, trong khi số người sử dụng xe hơi thấp hơn 1 chút, khoảng 25,000.</td>
+                    <td>In 1990, the number of train passengers <strong>was</strong> around 30,000, <strong>while</strong> the number of car users <strong>was slightly lower</strong>, about 25,000.</td>
+                    <td><em>The number of</em> + động từ số ít (was). Dùng <em>slightly lower</em> (thấp hơn một chút).</td>
+                </tr>
+                <tr>
+                    <td>Từ 1990 tới 2000, xăng và dầu là những nguồn năng lượng phổ biến nhất ở đất nước này.</td>
+                    <td>From 1990 to 2000, petrol and oil were <strong>the most popular energy sources</strong> in this country.</td>
+                    <td>Tính từ <em>popular</em> phải đứng trước danh từ <em>energy sources</em>.</td>
+                </tr>
+                <tr>
+                    <td>Bạn hầu như chẳng bao giờ gọi điện cho tôi. Tại sao bạn không gọi cho tôi thường xuyên hơn?</td>
+                    <td>You <strong>hardly ever</strong> phone me. Why don't you phone me <strong>more often</strong>?</td>
+                    <td><em>Hardly ever</em> (hầu như không). <em>Phone me</em> không có giới từ "to".</td>
+                </tr>
+                <tr>
+                    <td>Bạn cần vẽ nó 1 cách cẩn thận hơn.</td>
+                    <td>You need to draw it <strong>more carefully</strong>.</td>
+                    <td>Động từ <em>draw</em> đi với trạng từ <em>carefully</em>.</td>
+                </tr>
+                <tr>
+                    <td>Nóng lên toàn cầu là 1 trong những vấn đề nghiêm trọng nhất hiện nay.</td>
+                    <td>Global warming is <strong>one of the most serious issues</strong> nowadays.</td>
+                    <td>Cấu trúc <em>one of the most + adj + N(số nhiều)</em>.</td>
+                </tr>
+                <tr>
+                    <td>Xem TV là 1 trong những hoạt động giải trí phổ biến nhất hiện nay.</td>
+                    <td><strong>Watching TV</strong> is one of the most popular leisure activities nowadays.</td>
+                    <td>Dùng V-ing (Watching) làm chủ ngữ.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cấu trúc Nguyên nhân - Giải pháp - Mục đích</title>
+    <style>
+        :root {
+            --primary-color: #2b6cb0; /* Blue */
+            --secondary-color: #e2e8f0; /* Light Gray */
+            --accent-color: #e53e3e; /* Red for warnings/important */
+            --text-color: #2d3748; /* Dark Gray */
+            --bg-color: #f7fafc; /* Very Light Gray */
+            --box-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .notebook {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: var(--box-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::before {
+            content: '📌';
+            margin-right: 10px;
+        }
+
+        h3 {
+            color: #4a5568;
+            border-left: 4px solid var(--primary-color);
+            padding-left: 10px;
+        }
+
+        .rule-box {
+            background-color: var(--secondary-color);
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 5px solid var(--primary-color);
+        }
+
+        .rule-box code {
+            font-size: 1.1em;
+            color: #c53030;
+            font-weight: bold;
+        }
+
+        .example {
+            background-color: #ebf8fa;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            font-style: italic;
+            border-left: 3px solid #319795;
+        }
+        
+        .example-translation {
+            font-weight: bold;
+            color: #2c7a7b;
+            display: block;
+            margin-top: 5px;
+        }
+
+        .tip-box {
+            background-color: #fffaf0;
+            border: 1px solid #f6ad55;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        .tip-box strong {
+            color: #dd6b20;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #cbd5e0;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f7fafc;
+        }
+
+        .highlight {
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #edf2f7;
+            color: #4a5568;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            margin-right: 5px;
+        }
+    
+        /* Thêm CSS Responsive cho thiết bị di động */
+        @media (max-width: 768px) {
+            body { padding: 10px; font-size: 16px; }
+            .notebook, .notebook-container { padding: 15px; border-radius: 8px; }
+            .grid-2 { grid-template-columns: 1fr !important; }
+            h1 { font-size: 1.6em; }
+            h2 { font-size: 1.3em; padding-top: 5px; padding-bottom: 5px; margin-top: 20px; }
+            table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; }
+            th, td { padding: 8px; }
+            .card { padding: 15px; }
+            .rule-box, .tip-box, .example-box, .exercise-item { padding: 12px; margin: 15px 0; }
+            .transcript-item { flex-direction: column; }
+            .timestamp { margin-bottom: 5px; }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="notebook">
+        <h1>Ngữ Pháp IELTS: Nguyên Nhân - Giải Pháp - Mục Đích</h1>
+
+        <!-- MỤC 1: NGUYÊN NHÂN -->
+        <h2>1. Cấu trúc chỉ Nguyên Nhân (Causes)</h2>
+        <p>Sử dụng để diễn tả nguyên nhân, lý do hoặc hậu quả dẫn tới một sự việc nào đó.</p>
+
+        <h3>1.1. Sử dụng Động Từ (Verbs)</h3>
+        <div class="rule-box">
+            <code>cause something</code>: gây ra điều gì<br>
+            <code>cause sb/sth to V</code>: làm cho ai đó / thứ gì đó bị như thế nào
+        </div>
+        <div class="example">
+            Điều này gây ra vụ hỏa hoạn.
+            <span class="example-translation">➔ This caused the fire.</span>
+        </div>
+        <div class="example">
+            Điều này làm cho giá thực phẩm tăng mạnh.
+            <span class="example-translation">➔ This caused food prices to increase sharply.</span>
+        </div>
+
+        <div class="rule-box">
+            <code>lead to something</code>: dẫn tới điều gì<br>
+            <code>lead sb/sth to V</code>: khiến ai đó / thứ gì đó làm gì
+        </div>
+        <div class="example">
+            Công nghiệp hóa dẫn tới sự mở rộng của tầng lớp lao động thành thị.
+            <span class="example-translation">➔ Industrialization led to the expansion of the urban working class.</span>
+        </div>
+        <div class="example">
+            Những gì chúng tôi tìm thấy khiến chúng tôi nghi ngờ rằng nhiều người hơn có thể tham gia.
+            <span class="example-translation">➔ What we found leads us to suspect that more people may be involved.</span>
+        </div>
+
+        <h3>1.2. Sử dụng Danh Từ (Nouns)</h3>
+        <div class="rule-box">
+            <code>cause of something</code>: nguyên nhân của/gây ra vấn đề gì
+        </div>
+        <div class="example">
+            Nguyên nhân chính xác gây ra vụ tai nạn vẫn chưa ai biết.
+            <span class="example-translation">➔ The precise cause of the accident is not known.</span>
+        </div>
+
+        <div class="rule-box">
+            <code>reason for something</code>: lý do cho điều gì<br>
+            <code>reason why + clause (S + V)</code>: lý do tại sao ai đó làm gì / việc gì xảy ra
+        </div>
+        <div class="example">
+            Sự cô lập và sự cô đơn là những lý do phổ biến cho sự trầm cảm.
+            <span class="example-translation">➔ Isolation and loneliness are common reasons for depression.</span>
+        </div>
+        <div class="example">
+            Bài báo liệt kê những lý do phổ biến tại sao người ta chi trả quá nhiều thuế.
+            <span class="example-translation">➔ This article lists the most common reasons why people pay too much tax.</span>
+        </div>
+
+        <div class="tip-box">
+            <strong>⚠️ Lưu ý quan trọng:</strong> <br>
+            Từ <span class="highlight">cause</span> vừa có thể là Danh từ vừa là Động từ (cách viết giống hệt nhau). Hãy cẩn thận xác định rõ từ loại khi ghép vào câu để tránh sai ngữ pháp.
+        </div>
+
+        <h3>📝 Bài tập áp dụng (Causes)</h3>
+        <table>
+            <tr>
+                <th>Câu tiếng Việt</th>
+                <th>Dịch sang tiếng Anh</th>
+                <th>Phân tích ngữ pháp</th>
+            </tr>
+            <tr>
+                <td>Lý do chính tại sao ngày càng nhiều người đọc Ebooks là sự tiện lợi.</td>
+                <td>The main reason why more and more people read e-books is convenience.</td>
+                <td>Dùng <code>reason why + clause</code></td>
+            </tr>
+            <tr>
+                <td>Điều này làm cho nhiệt độ toàn cầu tăng đáng kể.</td>
+                <td>This causes global temperatures to rise significantly.</td>
+                <td>Dùng <code>cause sth to V</code></td>
+            </tr>
+            <tr>
+                <td>Nguyên nhân chính gây ra nóng lên toàn cầu là việc đốt nhiên liệu hóa thạch.</td>
+                <td>The primary cause of global warming is the burning of fossil fuels.</td>
+                <td>Dùng <code>cause of sth</code></td>
+            </tr>
+            <tr>
+                <td>Điều này có thể dẫn tới các vấn đề về sức khỏe.</td>
+                <td>This could lead to health problems.</td>
+                <td>Dùng <code>lead to sth</code></td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <!-- MỤC 2: GIẢI PHÁP -->
+        <h2>2. Cấu trúc chỉ Giải Pháp (Solutions)</h2>
+
+        <h3>2.1. Cấu trúc với "should" (Nên làm gì)</h3>
+        <div class="rule-box">
+            <code>should + V (nguyên mẫu)</code>
+        </div>
+        <div class="example">
+            Chính phủ nên khuyến khích người dân sử dụng phương tiện giao thông công cộng để giảm kẹt xe.
+            <span class="example-translation">➔ The government should encourage people to use public transport to reduce traffic congestion.</span>
+        </div>
+        <div class="example">
+            Người dân nên được khuyến khích sử dụng phương tiện giao thông công cộng.
+            <span class="example-translation">➔ People should be encouraged to use public transport. (Bị động: <code>should be V3/ed</code>)</span>
+        </div>
+
+        <h3>2.2. Cấu trúc với "solution" (Giải pháp)</h3>
+        <div class="rule-box">
+            <code>One solution (to something) is (for sb) to + V</code><br>
+            <span class="tag">Note:</span> 'is' có thể thay bằng 'would be'.
+        </div>
+        <div class="tip-box">
+            <strong>💡 Mẹo:</strong> Luôn dùng giới từ <span class="highlight">to</span> đi kèm với "solution" để chỉ "giải pháp cho vấn đề gì" (Tuyệt đối không dùng "for").
+        </div>
+        <div class="example">
+            Một giải pháp cho vấn đề kẹt xe là chính phủ nên khuyến khích người dân sử dụng phương tiện công cộng.
+            <span class="example-translation">➔ One solution to traffic congestion would be for the government to encourage people to use public transport.</span>
+        </div>
+
+        <h3>📝 Bài tập áp dụng (Solutions)</h3>
+        <table>
+            <tr>
+                <th>Câu tiếng Việt</th>
+                <th>Dịch sang tiếng Anh</th>
+            </tr>
+            <tr>
+                <td>1 giải pháp hiệu quả là chính phủ nên áp đặt các hình phạt nặng nề hơn lên những người này.</td>
+                <td>One effective solution is for the government to impose stricter punishments on these people.</td>
+            </tr>
+            <tr>
+                <td>Học sinh không nên bị ép học các môn học mà chúng không thích.</td>
+                <td>Students should not be forced to study the subjects that they do not like.</td>
+            </tr>
+            <tr>
+                <td>1 giải pháp đơn giản cho vấn đề này là tăng thuế.</td>
+                <td>One simple solution to this problem is to increase taxes.</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <!-- MỤC 3: MỤC ĐÍCH -->
+        <h2>3. Cấu trúc chỉ Mục Đích (Purposes)</h2>
+        <p>Thường dịch là "để làm gì" hoặc "để ai đó làm gì".</p>
+
+        <h3>3.1. Cộng với V nguyên mẫu (Để làm gì)</h3>
+        <div class="rule-box">
+            <code>to + V (nguyên mẫu)</code><br>
+            <code>in order to + V (nguyên mẫu)</code><br>
+            <code>so as to + V (nguyên mẫu)</code>
+        </div>
+        <div class="example">
+            Cô ấy học hành chăm chỉ để có được công việc tốt trong tương lai.
+            <span class="example-translation">➔ She studies hard to have a good job in the future.</span>
+        </div>
+
+        <h3>3.2. Cộng với mệnh đề (Để ai đó làm gì)</h3>
+        <div class="rule-box">
+            <code>so that + S + V</code><br>
+            <code>in order that + S + V</code>
+        </div>
+        <div class="example">
+            Cô ấy học hành chăm chỉ để cô ấy có thể có được công việc tốt trong tương lai.
+            <span class="example-translation">➔ She studies hard so that she can have a good job in the future.</span>
+        </div>
+
+        <div class="tip-box">
+            <strong>⚠️ Phân biệt quan trọng:</strong> <br>
+            Nếu sau chữ "để" là một <b>Mệnh đề</b> (có đầy đủ Chủ ngữ + Vị ngữ, ví dụ "vấn đề này có thể được giải quyết"), bắt buộc phải dùng <span class="highlight">so that</span> hoặc <span class="highlight">in order that</span>. Không được dùng "to" hay "in order to".
+        </div>
+
+        <h3>📝 Bài tập áp dụng (Purposes)</h3>
+        <table>
+            <tr>
+                <th>Câu tiếng Việt</th>
+                <th>Dịch sang tiếng Anh</th>
+                <th>Phân tích ngữ pháp</th>
+            </tr>
+            <tr>
+                <td>Chính phủ cần làm nhiều hơn để giải quyết vấn đề này.</td>
+                <td>The government needs to do more to solve this problem.</td>
+                <td>Sau "để" là Động từ ➔ dùng <code>to V</code></td>
+            </tr>
+            <tr>
+                <td>Chính phủ cần làm nhiều hơn để vấn đề này có thể được giải quyết.</td>
+                <td>The government needs to do more so that this problem could be solved.</td>
+                <td>Sau "để" là Mệnh đề (this problem could be solved) ➔ dùng <code>so that</code></td>
+            </tr>
+            <tr>
+                <td>Để thực sự hạnh phúc, bạn cần làm những gì bạn đam mê.</td>
+                <td>In order to be truly happy, you need to do what you are passionate about.</td>
+                <td>Sau <code>In order to</code> phải là Động từ. Vì "truly happy" là Trạng từ + Tính từ ➔ phải mượn động từ <code>be</code>.</td>
+            </tr>
+            <tr>
+                <td>Bạn cần tập trung vào những gì thật sự quan trọng đối với bạn để bạn có thể sống 1 cuộc đời bạn muốn.</td>
+                <td>You need to focus on what is really important to you so that you can live the life you want.</td>
+                <td>Dùng <code>so that + S + V</code> (you can live...)</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

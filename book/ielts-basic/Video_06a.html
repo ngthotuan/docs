@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Grammar Notebook: Comparisons (So Sánh)</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --highlight-color: #e74c3c;
+            --bg-color: #f9fbfd;
+            --card-bg: #ffffff;
+            --border-color: #e1e8ed;
+            --text-color: #333333;
+            --muted-text: #7f8c8d;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .notebook-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            padding: 40px;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #eef2f5;
+            color: var(--secondary-color);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin: 0 5px;
+            font-weight: 600;
+        }
+
+        h2 {
+            color: var(--accent-color);
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+
+        .rule-box {
+            background-color: #f0f7fb;
+            border-left: 5px solid var(--accent-color);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .rule-formula {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: var(--primary-color);
+            background: #fff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            display: inline-block;
+            border: 1px dashed var(--accent-color);
+            margin-bottom: 15px;
+        }
+
+        .tip-box {
+            background-color: #fdf2f0;
+            border-left: 5px solid var(--highlight-color);
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .tip-title {
+            color: var(--highlight-color);
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid var(--border-color);
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f6f8;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fafbfc;
+        }
+
+        .example-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .example-list li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .example-list li::before {
+            content: "•";
+            color: var(--accent-color);
+            font-size: 1.5em;
+            position: absolute;
+            left: 0;
+            top: -5px;
+        }
+
+        .en-sentence {
+            font-weight: 500;
+            color: var(--primary-color);
+        }
+
+        .vi-translation {
+            color: var(--muted-text);
+            font-style: italic;
+            font-size: 0.95em;
+        }
+
+        .highlight {
+            color: var(--highlight-color);
+            font-weight: bold;
+        }
+    
+        /* Thêm CSS Responsive cho thiết bị di động */
+        @media (max-width: 768px) {
+            body { padding: 10px; font-size: 16px; }
+            .notebook, .notebook-container { padding: 15px; border-radius: 8px; }
+            .grid-2 { grid-template-columns: 1fr !important; }
+            h1 { font-size: 1.6em; }
+            h2 { font-size: 1.3em; padding-top: 5px; padding-bottom: 5px; margin-top: 20px; }
+            table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; }
+            th, td { padding: 8px; }
+            .card { padding: 15px; }
+            .rule-box, .tip-box, .example-box, .exercise-item { padding: 12px; margin: 15px 0; }
+            .transcript-item { flex-direction: column; }
+            .timestamp { margin-bottom: 5px; }
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="notebook-container">
+    <header>
+        <h1>Comparisons (So Sánh)</h1>
+        <div>
+            <span class="tag">Grammar</span>
+            <span class="tag">IELTS Basic</span>
+            <span class="tag">Video 06a</span>
+        </div>
+    </header>
+
+    <section>
+        <h2>1. So Sánh Bằng (Equality Comparison)</h2>
+        <div class="rule-box">
+            <div class="rule-formula">
+                Khẳng định: as + adj/adv + as <br>
+                Phủ định: not as + adj/adv + as
+            </div>
+            <p><strong>Cách dùng:</strong> Mượn 2 từ <code>as...as</code> (dịch là "như là" hoặc "bằng") đặt trước và sau tính từ (adjective) hoặc trạng từ (adverb).</p>
+        </div>
+
+        <h3>Ví dụ:</h3>
+        <ul class="example-list">
+            <li>
+                <span class="en-sentence">My hands are <span class="highlight">as cold as</span> ice.</span><br>
+                <span class="vi-translation">(Tay tôi lạnh như đá.)</span>
+            </li>
+            <li>
+                <span class="en-sentence">This table is <span class="highlight">as big as</span> that table.</span><br>
+                <span class="vi-translation">(Cái bàn này to bằng cái bàn kia.)</span>
+            </li>
+            <li>
+                <span class="en-sentence">I can run <span class="highlight">as fast as</span> him.</span><br>
+                <span class="vi-translation">(Tôi có thể chạy nhanh bằng anh ấy.) - <em>Sử dụng trạng từ bổ nghĩa cho động từ "run".</em></span>
+            </li>
+            <li>
+                <span class="en-sentence">The second race is <span class="highlight">not as easy as</span> the first one.</span><br>
+                <span class="vi-translation">(Chặng đua thứ hai không dễ bằng chặng đầu tiên.)</span>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>2. So Sánh Hơn (Comparative)</h2>
+        <p>Để sử dụng so sánh hơn, ta cần phân biệt giữa <strong>tính từ/trạng từ ngắn</strong> (short adjectives/adverbs) và <strong>tính từ/trạng từ dài</strong> (long adjectives/adverbs).</p>
+
+        <div class="rule-box">
+            <h4>A. Tính từ / Trạng từ Ngắn (Thường có 1 âm tiết)</h4>
+            <div class="rule-formula">adj/adv + er + than</div>
+            <p><strong>Quy tắc:</strong> Thêm đuôi <code>-er</code> vào sau tính từ/trạng từ.</p>
+            <ul class="example-list">
+                <li>tall &rarr; taller</li>
+                <li>short &rarr; shorter</li>
+            </ul>
+            
+            <h4>B. Tính từ / Trạng từ Dài (Thường từ 2 âm tiết trở lên)</h4>
+            <div class="rule-formula">more + adj/adv + than</div>
+            <p><strong>Quy tắc:</strong> Thêm chữ <code>more</code> vào trước tính từ/trạng từ.</p>
+            <ul class="example-list">
+                <li>difficult &rarr; more difficult</li>
+                <li>expensive &rarr; more expensive</li>
+            </ul>
+        </div>
+
+        <div class="tip-box">
+            <div class="tip-title">Ngoại Lệ (Exceptions)</div>
+            <p>Một số tính từ/trạng từ có 2 âm tiết nhưng vẫn được xem là tính từ ngắn và áp dụng quy tắc thêm <code>-er</code>. Đó thường là các từ kết thúc bằng: <strong>-y, -ow, -er, -le, -et</strong>.</p>
+            <ul>
+                <li>early &rarr; earlier</li>
+                <li>happy &rarr; happier</li>
+                <li>narrow &rarr; narrower</li>
+                <li>quiet &rarr; quieter</li>
+            </ul>
+        </div>
+
+        <div class="tip-box">
+            <div class="tip-title">Lưu ý về "than"</div>
+            <p>Từ <code>than</code> chỉ bắt buộc khi ta so sánh <strong>hai chủ thể</strong> với nhau trong cùng một câu. Nếu ngữ cảnh đã rõ ràng và chỉ nhắc đến một chủ thể, ta không cần dùng <code>than</code>.</p>
+            <p><em>Ví dụ:</em> Let's go by car. It's cheaper. (Không cần "than the train" vì đã ngầm hiểu).</p>
+        </div>
+
+        <h3>Ví dụ:</h3>
+        <ul class="example-list">
+            <li>
+                <span class="en-sentence">You are <span class="highlight">older than</span> me.</span><br>
+                <span class="vi-translation">(Bạn lớn tuổi hơn tôi.)</span>
+            </li>
+            <li>
+                <span class="en-sentence">You are <span class="highlight">more patient than</span> me.</span><br>
+                <span class="vi-translation">(Bạn kiên nhẫn hơn tôi.)</span>
+            </li>
+            <li>
+                <span class="en-sentence">Can you walk <span class="highlight">faster</span>?</span><br>
+                <span class="vi-translation">(Bạn có thể đi bộ nhanh hơn không?)</span>
+            </li>
+            <li>
+                <span class="en-sentence">Can you walk <span class="highlight">more slowly</span>?</span><br>
+                <span class="vi-translation">(Bạn có thể đi bộ chậm hơn không?)</span>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>3. So Sánh Nhất (Superlative)</h2>
+        
+        <div class="rule-box">
+            <h4>A. Tính từ / Trạng từ Ngắn</h4>
+            <div class="rule-formula">the + adj/adv + est</div>
+            <p><strong>Quy tắc:</strong> Thêm <code>the</code> đằng trước và đuôi <code>-est</code> vào sau tính từ/trạng từ.</p>
+            <ul class="example-list">
+                <li>tall &rarr; the tallest</li>
+                <li>short &rarr; the shortest</li>
+            </ul>
+
+            <h4>B. Tính từ / Trạng từ Dài</h4>
+            <div class="rule-formula">the most + adj/adv</div>
+            <p><strong>Quy tắc:</strong> Thêm <code>the most</code> vào trước tính từ/trạng từ.</p>
+            <ul class="example-list">
+                <li>difficult &rarr; the most difficult</li>
+                <li>expensive &rarr; the most expensive</li>
+            </ul>
+        </div>
+
+        <h3>Ví dụ:</h3>
+        <ul class="example-list">
+            <li>
+                <span class="en-sentence">This house is <span class="highlight">the tallest</span>.</span><br>
+                <span class="vi-translation">(Căn nhà này là cao nhất.)</span>
+            </li>
+            <li>
+                <span class="en-sentence">This dress is <span class="highlight">the most expensive</span>.</span><br>
+                <span class="vi-translation">(Chiếc váy này đắt tiền nhất.)</span>
+            </li>
+            <li>
+                <span class="en-sentence">He is <span class="highlight">the most patient</span> person I have ever met.</span><br>
+                <span class="vi-translation">(Anh ấy là người kiên nhẫn nhất tôi từng gặp.)</span>
+            </li>
+            <li>
+                <span class="en-sentence">That church is <span class="highlight">the oldest</span> building in this town.</span><br>
+                <span class="vi-translation">(Nhà thờ đó là tòa nhà cổ nhất trong thị trấn này.)</span>
+            </li>
+        </ul>
+    </section>
+
+</div>
+
+</body>
+</html>

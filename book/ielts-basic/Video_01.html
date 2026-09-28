@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video 01 - Giới thiệu chung và hướng dẫn cách học</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #e74c3c;
+            --highlight-color: #f1c40f;
+            --bg-color: #f9f9f9;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --border-color: #e0e0e0;
+            --success-color: #27ae60;
+            --info-color: #2980b9;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            border-left: 4px solid var(--accent-color);
+            padding-left: 15px;
+            margin-top: 40px;
+        }
+
+        h3 {
+            color: var(--info-color);
+            margin-top: 25px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            padding: 25px;
+            margin-bottom: 30px;
+            border: 1px solid var(--border-color);
+        }
+
+        .rule-box {
+            background-color: #e8f4fd;
+            border-left: 4px solid var(--info-color);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .warning-box {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .tip-box {
+            background-color: #d4edda;
+            border-left: 4px solid var(--success-color);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: var(--card-bg);
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        .example {
+            font-style: italic;
+            color: #555;
+            margin-top: 5px;
+            display: block;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: var(--accent-color);
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #e2e8f0;
+            color: #4a5568;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Thêm CSS Responsive cho thiết bị di động */
+        @media (max-width: 768px) {
+            body { padding: 10px; font-size: 16px; }
+            .notebook, .notebook-container { padding: 15px; border-radius: 8px; }
+            .grid-2 { grid-template-columns: 1fr !important; }
+            h1 { font-size: 1.6em; }
+            h2 { font-size: 1.3em; padding-top: 5px; padding-bottom: 5px; margin-top: 20px; }
+            table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; }
+            th, td { padding: 8px; }
+            .card { padding: 15px; }
+            .rule-box, .tip-box, .example-box, .exercise-item { padding: 12px; margin: 15px 0; }
+            .transcript-item { flex-direction: column; }
+            .timestamp { margin-bottom: 5px; }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ngữ pháp cơ bản cho IELTS</h1>
+            <p>Video 01: Giới thiệu chung và hướng dẫn cách học</p>
+        </header>
+
+        <div class="card">
+            <h2>1. Tổng quan khóa học</h2>
+            <p>Khóa học bao gồm <strong>12 chủ điểm ngữ pháp</strong> cơ bản, mỗi chủ điểm đều có 2 video:</p>
+            <div class="rule-box">
+                <ul>
+                    <li><strong>Video bài học (a):</strong> Giảng lý thuyết, công thức, ví dụ minh họa.</li>
+                    <li><strong>Video sửa bài tập (b/c):</strong> Giải đáp bài tập trong sách, phân tích lỗi sai.</li>
+                </ul>
+            </div>
+
+            <p>Các chủ điểm chính trong khóa học:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Chủ điểm</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>Danh từ - Động từ - Tính từ - Trạng từ</td></tr>
+                    <tr><td>2</td><td>Giới từ</td></tr>
+                    <tr><td>3</td><td>Bốn thì cơ bản</td></tr>
+                    <tr><td>4</td><td>Câu bị động</td></tr>
+                    <tr><td>5</td><td>So sánh</td></tr>
+                    <tr><td>6</td><td>Câu điều kiện</td></tr>
+                    <tr><td>7</td><td>Mạo từ</td></tr>
+                    <tr><td>8</td><td>Nguyên nhân - Giải pháp - Mục đích</td></tr>
+                    <tr><td>9</td><td>So that - Too to - Enough to</td></tr>
+                    <tr><td>10</td><td>Because / Although / Despite</td></tr>
+                    <tr><td>11</td><td>Mệnh đề quan hệ</td></tr>
+                    <tr><td>12</td><td>Bài tập tổng hợp</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>2. Hướng dẫn cách học hiệu quả</h2>
+
+            <h3>Bước 1: Chuẩn bị</h3>
+            <div class="tip-box">
+                <p>Mua một <strong>quyển vở riêng</strong> để ghi chép toàn bộ kiến thức trong suốt khóa học.</p>
+            </div>
+
+            <h3>Bước 2: Xem video bài học</h3>
+            <div class="rule-box">
+                <p>Khi xem video bài học, ghi chú lại toàn bộ <strong>công thức, ví dụ, từ vựng</strong> theo cách hiểu của bản thân. Có thể trình bày theo kiểu trên slide hoặc theo cách nào mình cảm thấy dễ hiểu nhất.</p>
+            </div>
+
+            <h3>Bước 3: Làm bài tập</h3>
+            <div class="rule-box">
+                <p>Làm hết bài tập trong sách của một dạng. <strong>Chỉ khi nào làm xong hết</strong> thì mới chuyển sang xem video bài giải.</p>
+            </div>
+
+            <h3>Bước 4: Xem video sửa bài tập</h3>
+            <div class="warning-box">
+                <strong>⚠️ Phân tích lỗi sai là bước quan trọng nhất!</strong>
+                <p>Khi xem video giải, phải ngồi phân tích xem mình <strong>sai ở điểm nào</strong>. Ví dụ:</p>
+                <ul>
+                    <li>Đáng ra phải dùng trạng từ <span class="highlight">'carefully'</span> mà mình dùng <span class="highlight">'careful'</span>.</li>
+                    <li>Sau <span class="highlight">'before'</span> phải dùng V-ing mà mình chưa dùng.</li>
+                </ul>
+                <p>Ghi chú nhỏ ra kế câu đó và <strong>lấy bút highlight lên</strong>. Đây là cách làm bài hiệu quả để nhìn vào là biết mình còn sót chủ điểm ngữ pháp nào.</p>
+            </div>
+
+            <h3>Bước 5: Ôn tập (Review)</h3>
+            <div class="tip-box">
+                <ul>
+                    <li><strong>Review lại tất cả công thức</strong> trước khi bắt đầu làm bài tập mới.</li>
+                    <li><strong>Tập trung phân tích câu sai</strong> và làm lại sau một thời gian để xem có sai nữa không.</li>
+                    <li>Tra cứu <strong>Bảng động từ bất quy tắc</strong> ở cuối sách khi cần.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

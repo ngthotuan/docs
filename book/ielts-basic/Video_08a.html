@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notebook: Mạo Từ (A/An/The/Zero Article)</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --success-color: #2ecc71;
+            --warning-color: #f39c12;
+            --danger-color: #e74c3c;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --border-radius: 8px;
+            --box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .notebook-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            padding: 40px;
+            overflow: hidden;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            text-align: center;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            font-size: 2.2em;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            margin-top: 30px;
+            padding-left: 10px;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        h3 {
+            color: var(--accent-color);
+        }
+
+        .rule-box {
+            background-color: #e8f4f8;
+            border-left: 4px solid var(--accent-color);
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+        }
+
+        .rule-title {
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .rule-title::before {
+            content: '📌';
+            margin-right: 8px;
+        }
+
+        .example-box {
+            background-color: #fcf3cf;
+            border-left: 4px solid var(--warning-color);
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+        }
+
+        .example-title {
+            font-weight: bold;
+            color: #d35400;
+            margin-bottom: 5px;
+        }
+
+        .tip-box {
+            background-color: #d5f5e3;
+            border-left: 4px solid var(--success-color);
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+        }
+
+        .exception-box {
+            background-color: #fadbd8;
+            border-left: 4px solid var(--danger-color);
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        code {
+            background-color: #eee;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: 'Courier New', Courier, monospace;
+            color: var(--danger-color);
+            font-weight: bold;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            margin-right: 5px;
+            font-weight: bold;
+        }
+    
+        /* Thêm CSS Responsive cho thiết bị di động */
+        @media (max-width: 768px) {
+            body { padding: 10px; font-size: 16px; }
+            .notebook, .notebook-container { padding: 15px; border-radius: 8px; }
+            .grid-2 { grid-template-columns: 1fr !important; }
+            h1 { font-size: 1.6em; }
+            h2 { font-size: 1.3em; padding-top: 5px; padding-bottom: 5px; margin-top: 20px; }
+            table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; }
+            th, td { padding: 8px; }
+            .card { padding: 15px; }
+            .rule-box, .tip-box, .example-box, .exercise-item { padding: 12px; margin: 15px 0; }
+            .transcript-item { flex-direction: column; }
+            .timestamp { margin-bottom: 5px; }
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="notebook-container">
+    <h1>📝 Sổ tay Ngữ pháp: Mạo từ (A / An / The / Zero Article)</h1>
+    <p><em>Ghi chép từ: Video 08a Mạo từ</em></p>
+    
+    <!-- Mạo từ A/An -->
+    <section>
+        <h2><span class="tag">1</span> Mạo từ A / An</h2>
+        
+        <div class="rule-box">
+            <div class="rule-title">Khi nào sử dụng A/An?</div>
+            <ul>
+                <li>Đứng trước <strong>danh từ số ít đếm được</strong>.</li>
+                <li>Được sử dụng khi đề cập đến một sự vật, sự việc <strong>lần đầu tiên</strong>, mang tính chất giới thiệu.</li>
+                <li>Người nghe/người đọc <strong>chưa từng biết</strong> đến sự vật, sự việc đó.</li>
+                <li>Dùng để nói về <strong>nghề nghiệp, chức vụ</strong> nói chung (ngoại trừ chức vụ duy nhất).</li>
+            </ul>
+        </div>
+
+        <div class="example-box">
+            <div class="example-title">Ví dụ:</div>
+            <ul>
+                <li><code>I live in a small house. There are five rooms in the house.</code><br> 
+                <em>(Lần đầu nhắc đến "small house" nên dùng 'a').</em></li>
+                <li><code>I'm a teacher.</code> / <code>I'm a student.</code></li>
+            </ul>
+        </div>
+
+        <h3>Phân biệt A và An</h3>
+        <p>Việc sử dụng <strong>A</strong> hay <strong>An</strong> phụ thuộc vào <strong>cách phát âm (âm thanh)</strong> của từ đi ngay sau nó, không phụ thuộc vào chữ cái viết ra.</p>
+        
+        <table>
+            <tr>
+                <th>Mạo từ</th>
+                <th>Quy tắc</th>
+                <th>Ví dụ</th>
+            </tr>
+            <tr>
+                <td><strong>A</strong></td>
+                <td>Cộng với <strong>Phụ âm</strong></td>
+                <td><code>a small house</code><br>
+                    <code>a university</code> <em>(Bắt đầu bằng chữ 'u' nhưng phát âm là /ju:/ - phụ âm 'j')</em>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>An</strong></td>
+                <td>Cộng với <strong>Nguyên âm</strong> (u, e, o, a, i - mẹo nhớ: "uể oải")</td>
+                <td><code>an old house</code><br>
+                    <code>an honest person</code> <em>(Âm 'h' bị câm, phát âm bắt đầu bằng âm 'o' - nguyên âm)</em><br>
+                    <code>an hour</code> <em>(Âm 'h' câm)</em>
+                </td>
+            </tr>
+        </table>
+        
+        <div class="tip-box">
+            <strong>Mẹo:</strong> Luôn cẩn thận với những từ bắt đầu bằng <strong>U</strong> hoặc <strong>H</strong>. Cần phải kiểm tra cách phát âm của chúng trong từ điển!
+        </div>
+    </section>
+
+    <!-- Mạo từ The -->
+    <section>
+        <h2><span class="tag">2</span> Mạo từ The</h2>
+        
+        <div class="rule-box">
+            <div class="rule-title">Khi nào sử dụng The?</div>
+            <ul>
+                <li>Được sử dụng khi sự vật, sự việc <strong>đã được đề cập trước đó</strong> (từ lần thứ hai trở đi).</li>
+                <li>Người nghe/người đọc <strong>đã biết</strong> người nói/người viết đang nói về sự vật/sự việc cụ thể nào.</li>
+            </ul>
+        </div>
+
+        <div class="example-box">
+            <div class="example-title">Ví dụ:</div>
+            <ul>
+                <li><code>I live in a small house. There are five rooms in the house.</code><br> 
+                <em>(Lần thứ hai nhắc đến căn nhà nên dùng 'the').</em></li>
+            </ul>
+        </div>
+
+        <h3>Các trường hợp bắt buộc dùng The</h3>
+        <ul>
+            <li><strong>Chức vụ mang tính duy nhất (unique):</strong> 
+                <br><code>She has been appointed the head of the company.</code> (Người đứng đầu công ty chỉ có một).
+                <br><code>The President of the United States.</code>
+            </li>
+            <li><strong>Vật duy nhất, môi trường bao quanh:</strong>
+                <br><code>the earth</code>, <code>the moon</code>, <code>the sun</code>, <code>the capital</code>, <code>the air</code>, <code>the environment</code>...
+            </li>
+            <li><strong>So sánh nhất và các từ chỉ thứ tự/duy nhất:</strong>
+                <br>Dùng với <code>the first</code>, <code>the second</code>, <code>the third</code>, <code>the same</code>, <code>the only</code>...
+                <br>Ví dụ: <code>the most</code>, <code>the biggest</code>, <code>the smallest</code>.
+                <br>Ví dụ: <code>We went to the same school.</code>
+            </li>
+            <li><strong>The + tính từ = Nhóm người trong xã hội:</strong>
+                <br>Cụm từ này được xem là <strong>chủ ngữ số nhiều</strong> (động từ theo sau chia số nhiều).
+                <br>Ví dụ: <code>the poor</code> (người nghèo), <code>the rich</code> (người giàu), <code>the unemployed</code> (người thất nghiệp), <code>the young</code>, <code>the old</code>.
+                <br><em>Lưu ý:</em> <code>The poor are...</code> (không dùng 'is').
+            </li>
+            <li><strong>The + quốc tịch = Người dân của một quốc gia:</strong>
+                <br>Ví dụ: <code>the Chinese</code> (người dân Trung Quốc), <code>the French</code>.
+            </li>
+            <li><strong>Một số địa điểm cụ thể:</strong>
+                <br><code>the cinema</code>, <code>the theatre</code>, <code>the radio</code>, <code>the Internet</code>.
+            </li>
+            <li><strong>Tên một số quốc gia đặc biệt:</strong>
+                <br>Quốc gia có chứa các từ <em>Republic, Kingdom, United</em> hoặc có tên ở <em>dạng số nhiều (có 's')</em>.
+                <br>Ví dụ: <code>The United States</code>, <code>The United Kingdom</code>, <code>The Philippines</code>. 
+                <br><em>(Không dùng the cho các nước như Vietnam, Mexico).</em>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Zero Article -->
+    <section>
+        <h2><span class="tag">3</span> Không dùng mạo từ (Zero Article)</h2>
+        
+        <div class="rule-box">
+            <div class="rule-title">Nguyên tắc chung (General)</div>
+            <p>Không dùng mạo từ khi nói về một sự vật/sự việc <strong>chung chung, tổng quát</strong>, không ám chỉ một đối tượng cụ thể nào.</p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Không Mạo Từ (Chung chung)</th>
+                <th>Dùng "The" (Cụ thể)</th>
+            </tr>
+            <tr>
+                <td><code>I like listening to music.</code><br><em>(Thích nghe nhạc nói chung)</em></td>
+                <td><code>I like the music used in this film.</code><br><em>(Nhạc cụ thể trong bộ phim này)</em></td>
+            </tr>
+            <tr>
+                <td><code>Life is complicated.</code><br><em>(Cuộc sống nói chung)</em></td>
+                <td><code>I'm studying the life of Beethoven.</code><br><em>(Cuộc đời cụ thể của Beethoven)</em></td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Đặc biệt và Ngoại lệ -->
+    <section>
+        <h2><span class="tag">4</span> Các quy luật đặc biệt và ngoại lệ</h2>
+        
+        <h3>Địa điểm: hospital, church, prison, school, college, university...</h3>
+        
+        <div class="exception-box">
+            <strong>Không dùng mạo từ:</strong> Khi đến/ở các địa điểm này với <strong>đúng mục đích chính</strong> của nó.
+            <ul>
+                <li><code>Ken's brother is in prison for robbery.</code> (Ở tù vì phạm tội - đúng mục đích là giam giữ).</li>
+                <li><code>Joe had an accident. He was taken to hospital.</code> (Đến bệnh viện để chữa bệnh).</li>
+            </ul>
+        </div>
+        
+        <div class="tip-box">
+            <strong>Dùng "The":</strong> Khi đến/ở các địa điểm này với <strong>mục đích khác</strong> (ví dụ: đến thăm).
+            <ul>
+                <li><code>Ken went to the prison to visit his brother.</code> (Đến để thăm, không phải là tù nhân).</li>
+                <li><code>Jane has gone to the hospital to visit Joe.</code> (Đến thăm bệnh nhân).</li>
+            </ul>
+            <em>Lưu ý: Tiếng Anh - Mỹ (American English) có thể dùng 'the' cho cả hai trường hợp.</em>
+        </div>
+
+        <h3>Cụm từ cố định (Fixed phrases)</h3>
+        <p>Tuyệt đối không dùng mạo từ cho các cụm từ sau:</p>
+        <ul>
+            <li><strong>Nhà:</strong> <code>go home</code>, <code>come home</code>, <code>arrive home</code>, <code>get home</code>, <code>be at home</code>.</li>
+            <li><strong>Nơi làm việc:</strong> <code>go to work</code>, <code>be at work</code>, <code>start work</code>, <code>finish work</code>.</li>
+        </ul>
+    </section>
+</div>
+
+</body>
+</html>

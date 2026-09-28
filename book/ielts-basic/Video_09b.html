@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video 09b: Nguyên nhân - Giải pháp - Mục đích (Sửa bài tập)</title>
+    <style>
+        :root {
+            --primary: #4F46E5;
+            --primary-light: #EEF2FF;
+            --secondary: #10B981;
+            --secondary-light: #ECFDF5;
+            --danger: #EF4444;
+            --danger-light: #FEF2F2;
+            --warning: #F59E0B;
+            --warning-light: #FFFBEB;
+            --text-main: #1F2937;
+            --text-muted: #6B7280;
+            --bg-body: #F9FAFB;
+            --bg-card: #FFFFFF;
+            --border: #E5E7EB;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 2rem;
+        }
+
+        .notebook {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--bg-card);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: var(--primary);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .content {
+            padding: 2rem;
+        }
+
+        .section {
+            margin-bottom: 2.5rem;
+        }
+
+        .section-title {
+            color: var(--primary);
+            border-bottom: 2px solid var(--primary-light);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+
+        .rule-box {
+            background-color: var(--warning-light);
+            border-left: 4px solid var(--warning);
+            padding: 1rem 1.5rem;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .rule-box h4 {
+            color: var(--warning);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .rule-list {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+            color: var(--text-main);
+        }
+
+        .rule-list li {
+            margin-bottom: 0.4rem;
+        }
+
+        .rule-list code {
+            background-color: #fde68a;
+            padding: 0.1rem 0.4rem;
+            border-radius: 4px;
+            font-weight: bold;
+            color: #b45309;
+        }
+
+        .exercise-card {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            transition: transform 0.2s;
+        }
+        
+        .exercise-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+
+        .sentence-vn {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #374151;
+        }
+
+        .sentence-en {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            font-size: 1.05rem;
+        }
+
+        .note {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            background-color: var(--secondary-light);
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            border: 1px solid #A7F3D0;
+            margin-top: 0.5rem;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: var(--danger);
+        }
+    
+        /* Thêm CSS Responsive cho thiết bị di động */
+        @media (max-width: 768px) {
+            body { padding: 10px; font-size: 16px; }
+            .notebook, .notebook-container { padding: 15px; border-radius: 8px; }
+            .grid-2 { grid-template-columns: 1fr !important; }
+            h1 { font-size: 1.6em; }
+            h2 { font-size: 1.3em; padding-top: 5px; padding-bottom: 5px; margin-top: 20px; }
+            table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; }
+            th, td { padding: 8px; }
+            .card { padding: 15px; }
+            .rule-box, .tip-box, .example-box, .exercise-item { padding: 12px; margin: 15px 0; }
+            .transcript-item { flex-direction: column; }
+            .timestamp { margin-bottom: 5px; }
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="notebook">
+    <div class="header">
+        <h1>Sửa bài tập: Nguyên nhân - Giải pháp - Mục đích</h1>
+        <p>IELTS Grammar</p>
+    </div>
+
+    <div class="content">
+
+        <!-- SECTION 1: CAUSES -->
+        <div class="section">
+            <h2 class="section-title">Phần 1: Nguyên nhân (Causes)</h2>
+            
+            <div class="rule-box">
+                <h4>📌 Takeaways & Grammar Points</h4>
+                <ul class="rule-list">
+                    <li><code>cause of something</code>: nguyên nhân của cái gì</li>
+                    <li><code>cause something</code>: gây ra cái gì</li>
+                    <li><code>cause somebody/something to do something</code>: làm cho ai/cái gì làm gì</li>
+                    <li><code>lead to something</code>: dẫn tới cái gì</li>
+                    <li><code>reason for something</code>: lý do cho cái gì</li>
+                    <li>Chú ý thì (Tense): Dựa vào trạng từ chỉ thời gian. Ví dụ "in recent years" -> Hiện tại hoàn thành; "yesterday", "in 1995" -> Quá khứ đơn.</li>
+                </ul>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">1. Thất nghiệp là một trong những nguyên nhân chính của nghèo nàn.</div>
+                <div class="sentence-en">Unemployment is one of the major causes <span class="highlight">of</span> poverty.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">2. Lái xe dưới sự ảnh hưởng của alcohol là 1 trong những nguyên nhân phổ biến nhất của những vụ tai nạn giao thông.</div>
+                <div class="sentence-en">Driving under the influence of alcohol is one of the most common causes <span class="highlight">of</span> traffic accidents.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">3. Hút thuốc là 1 nguyên nhân phổ biến của việc chết non/sớm.</div>
+                <div class="sentence-en">Smoking is a common cause <span class="highlight">of</span> premature death.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">4. Nóng lên toàn cầu đã gây ra nhiều vấn đề trong những năm gần đây.</div>
+                <div class="sentence-en">Global warming <span class="highlight">has caused</span> a lot of problems in recent years.</div>
+                <div class="note">Dùng thì Hiện tại hoàn thành do có cụm "in recent years".</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">5. Những vụ mất mùa đã làm cho giá cả tăng mạnh trong thời gian gần đây.</div>
+                <div class="sentence-en">Harvest failures <span class="highlight">have caused</span> prices <span class="highlight">to rise</span> sharply in recent times.</div>
+                <div class="note">Cấu trúc: Cause something to V.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">6. Một vụ tai nạn đường bộ nghiêm trọng gây ra sự hỗn loạn giao thông ngày hôm qua.</div>
+                <div class="sentence-en">A serious road accident <span class="highlight">caused</span> traffic chaos yesterday.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">7. Trận động đất năm 1995 gây ra thiệt hại lớn cho tài sản.</div>
+                <div class="sentence-en">The earthquake in 1995 caused widespread damage <span class="highlight">to</span> property.</div>
+                <div class="note">Cụm: damage to something. Cần có mạo từ "the" trước earthquake vì đã xác định (năm 1995).</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">8. Việc ăn quá nhiều đường có thể dẫn tới các vấn đề sức khỏe.</div>
+                <div class="sentence-en">Eating too much sugar can <span class="highlight">lead to</span> health problems.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">9. Sự thành công trong kinh doanh không tự động dẫn tới sự thành công về tài chính.</div>
+                <div class="sentence-en">Business success does not automatically <span class="highlight">lead to</span> financial success.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">10. Những hành động này có thể dẫn đến sự giảm sút của giá thực phẩm.</div>
+                <div class="sentence-en">These actions would <span class="highlight">lead to</span> the decline of food prices.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">11. Đường và chất béo có thể dễ dàng dẫn tới béo phì.</div>
+                <div class="sentence-en">Sugar and fat can easily <span class="highlight">lead to</span> obesity.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">12. Họ không đưa ra bất kỳ lý do nào cho việc trì hoãn.</div>
+                <div class="sentence-en">They didn't give any reason <span class="highlight">for</span> the delay.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">13. Cô ấy không nói cho anh ấy lý do thật sự cho sự thay đổi thái độ của cô ấy.</div>
+                <div class="sentence-en">She did not tell him the real reason <span class="highlight">for</span> her change of heart.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">14. Điều này có thể làm cho nhiệt độ toàn cầu tăng ở mức đáng báo động.</div>
+                <div class="sentence-en">This could <span class="highlight">cause</span> global temperatures <span class="highlight">to rise</span> at an alarming rate.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">15. Có một vài lý do cho những quyết định của họ.</div>
+                <div class="sentence-en">There are some reasons <span class="highlight">for</span> their decisions.</div>
+            </div>
+        </div>
+
+        <!-- SECTION 2: SOLUTIONS -->
+        <div class="section">
+            <h2 class="section-title">Phần 2: Giải pháp (Solutions)</h2>
+            
+            <div class="rule-box">
+                <h4>📌 Takeaways & Grammar Points</h4>
+                <ul class="rule-list">
+                    <li><code>solution to a problem</code>: giải pháp cho vấn đề (Tuyệt đối không dùng "solution for").</li>
+                    <li><code>a solution would be to + V</code>: một giải pháp là làm gì.</li>
+                    <li><code>a solution would be for somebody to + V</code>: một giải pháp là để ai đó làm gì.</li>
+                    <li><code>spend time + V-ing</code>: dành thời gian làm gì.</li>
+                    <li><code>spend money on something</code>: dành tiền vào cái gì.</li>
+                    <li><code>be responsible for something</code>: chịu trách nhiệm về cái gì.</li>
+                    <li><code>have an impact on something</code>: có tác động lên cái gì.</li>
+                </ul>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">1. Mọi người nên được khuyến khích tái chế nhiều hơn.</div>
+                <div class="sentence-en">People should <span class="highlight">be encouraged to</span> recycle more.</div>
+                <div class="note">Câu bị động: should be + V3. Encourage somebody to do something.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">2. Không có giải pháp đơn giản nào cho vấn đề này.</div>
+                <div class="sentence-en">There's no simple solution <span class="highlight">to</span> this problem.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">3. Cha mẹ nên dành nhiều thời gian chăm sóc con cái hơn.</div>
+                <div class="sentence-en">Parents should spend more time <span class="highlight">taking care</span> of their children.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">4. Họ đang tìm kiếm một giải pháp tối ưu cho những vấn đề giao thông của thành phố này.</div>
+                <div class="sentence-en">They are seeking an ultimate solution <span class="highlight">to</span> this city's traffic problems.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">5. Ngành công nghiệp này cần tìm kiếm các giải pháp công nghệ cho các vấn đề của họ.</div>
+                <div class="sentence-en">This industry needs to look for technological solutions <span class="highlight">to</span> their problems.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">6. Một giải pháp đơn giản là tăng tuổi nghỉ hưu cho người lao động, từ 65 đến 70 tuổi.</div>
+                <div class="sentence-en">A simple solution <span class="highlight">would be to increase</span> the retirement age for working adults, from 65 to 70.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">7. Chính phủ nên dành nhiều tiền hơn cho nghiên cứu vũ trụ.</div>
+                <div class="sentence-en">The government should spend more money <span class="highlight">on</span> space research.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">8. Một biện pháp thứ hai có thể là các chính phủ khuyến khích sự nhập cư để tăng số người lao động làm việc có đóng thuế.</div>
+                <div class="sentence-en">A second solution <span class="highlight">would be for governments to encourage</span> immigration in order to increase the number of working adults who pay taxes.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">9. Có một số nguyên nhân gây ra xu hướng đáng báo động này, nhưng các biện pháp chắc chắn có thể được thực hiện để giải quyết vấn đề này.</div>
+                <div class="sentence-en">There are several causes of this alarming trend, but solutions could certainly <span class="highlight">be done to tackle</span> the problem.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">10. Các cá nhân cũng nên chịu trách nhiệm về tác động của họ đối với môi trường.</div>
+                <div class="sentence-en">Individuals should also <span class="highlight">be responsible for</span> the impact they <span class="highlight">have on</span> the environment.</div>
+            </div>
+        </div>
+
+        <!-- SECTION 3: PURPOSES -->
+        <div class="section">
+            <h2 class="section-title">Phần 3: Mục đích (Purposes)</h2>
+            
+            <div class="rule-box">
+                <h4>📌 Takeaways & Grammar Points</h4>
+                <ul class="rule-list">
+                    <li><code>in order to / so as to / to + V</code>: để làm gì (theo sau là cụm động từ).</li>
+                    <li><code>in order not to / so as not to + V</code>: để KHÔNG làm gì.</li>
+                    <li><code>so that + S + V</code>: để ai đó làm gì (theo sau BẮT BUỘC là một mệnh đề).</li>
+                </ul>
+            </div>
+
+            <h3 style="margin-bottom: 1rem; color: var(--primary);">A. Viết lại câu dùng "so that"</h3>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">1. Mary was hurrying in order not to miss her bus.</div>
+                <div class="sentence-en">Mary was hurrying <span class="highlight">so that she wouldn't miss</span> her bus.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">2. Ali borrowed an eraser to erase a mistake in his composition.</div>
+                <div class="sentence-en">Ali borrowed an eraser <span class="highlight">so that he could erase</span> a mistake in his composition.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">3. Most people work to earn money.</div>
+                <div class="sentence-en">Most people work <span class="highlight">so that they will/can earn</span> money.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">4. I wish we had a garden for the children to play in.</div>
+                <div class="sentence-en">I wish we had a garden <span class="highlight">so that the children could/would play</span> in it.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">5. She is learning English in order to study in the United States.</div>
+                <div class="sentence-en">She is learning English <span class="highlight">so that she can study</span> in the United States.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">6. The staff are working at weekends so as not to delay the project any further.</div>
+                <div class="sentence-en">The staff are working at weekends <span class="highlight">so that they won't delay</span> the project any further.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">7. Can we stop for me to buy a newspaper?</div>
+                <div class="sentence-en">Can we stop <span class="highlight">so that I can buy</span> a newspaper?</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">8. We moved to London to visit our parents more often.</div>
+                <div class="sentence-en">We moved to London <span class="highlight">so that we could visit</span> our parents more often.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">9. We have to borrow money in order to pay our bills.</div>
+                <div class="sentence-en">We have to borrow money <span class="highlight">so that we can pay</span> our bills.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">10. She decided to study abroad in order to have a better future.</div>
+                <div class="sentence-en">She decided to study abroad <span class="highlight">so that she would have</span> a better future.</div>
+            </div>
+
+            <h3 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--primary);">B. Dịch câu sang tiếng Anh (Mục đích)</h3>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">1. Họ nên đầu tư tiền vào việc xây dựng nhà ở xã hội để giảm chi phí cuộc sống.</div>
+                <div class="sentence-en">They should invest money in the building of social housing <span class="highlight">in order to reduce</span> the cost of living.</div>
+                <div class="note">Chỉ dùng "in order to" hoặc "to", không dùng "so that" vì "reduce" là động từ, không có chủ ngữ.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">2. Chính phủ có thể thực hiện nhiều biện pháp để nâng cao chất lượng cuộc sống cho tất cả những người dân thành phố.</div>
+                <div class="sentence-en">Governments can implement many solutions <span class="highlight">to enhance</span> the quality of life for all city residents.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">3. Họ nên ban hành luật để giới hạn khí thải từ các nhà máy.</div>
+                <div class="sentence-en">They should introduce laws <span class="highlight">to limit</span> emissions from factories.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">4. Tôi sẽ đi bằng xe hơi để tôi có thể mang thêm nhiều hành lý.</div>
+                <div class="sentence-en">I'll go by car <span class="highlight">so that I can take</span> more luggage.</div>
+                <div class="note">Vì vế sau là mệnh đề ("tôi có thể...") nên bắt buộc dùng "so that".</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">5. Tôi sẽ cố gắng hết sức học tiếng Anh để tôi có thể tìm được 1 công việc tốt hơn.</div>
+                <div class="sentence-en">I'll try my best to study English <span class="highlight">so that I can find</span> a better job.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">6. Helen phải làm việc full-time để nuôi sống bản thân cô ấy và gia đình cô ấy.</div>
+                <div class="sentence-en">Helen has to work full-time <span class="highlight">in order to support</span> herself and her family.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">7. Họ không bao giờ đậu cái xe tải của họ ở phía trước nhà để không làm phiền hàng xóm.</div>
+                <div class="sentence-en">They never park their truck in front of the house <span class="highlight">in order not to upset</span> their neighbours.</div>
+            </div>
+
+            <div class="exercise-card">
+                <div class="sentence-vn">8. Cô ấy đến sớm để có được 1 chỗ ngồi tốt.</div>
+                <div class="sentence-en">She arrives early <span class="highlight">in order to get</span> a good seat.</div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

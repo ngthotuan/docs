@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sửa bài tập: Mệnh đề quan hệ (Relative Clauses)</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-light: #dbeafe;
+            --success: #16a34a;
+            --success-light: #dcfce7;
+            --danger: #dc2626;
+            --danger-light: #fee2e2;
+            --warning: #ca8a04;
+            --warning-light: #fef9c3;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --bg-body: #f8fafc;
+            --bg-card: #ffffff;
+            --border: #e2e8f0;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: var(--primary);
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            border: 1px solid var(--border);
+        }
+
+        .card-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--primary);
+            border-bottom: 2px solid var(--primary-light);
+            padding-bottom: 10px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .takeaway-box {
+            background-color: var(--primary-light);
+            border-left: 5px solid var(--primary);
+            padding: 16px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        
+        .takeaway-box h3 {
+            margin-top: 0;
+            color: var(--primary);
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .takeaway-box ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .takeaway-box li {
+            margin-bottom: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 14px 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #f1f5f9;
+            font-weight: 600;
+            color: #334155;
+            white-space: nowrap;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .incorrect {
+            color: var(--danger);
+            text-decoration: line-through;
+            font-weight: 600;
+        }
+
+        .correct {
+            color: var(--success);
+            font-weight: 600;
+        }
+
+        .analysis {
+            font-size: 0.95rem;
+            color: #475569;
+            background: #f8fafc;
+            padding: 10px;
+            border-left: 3px solid var(--warning);
+            border-radius: 4px;
+            margin-top: 8px;
+        }
+
+        ol.translation-list {
+            padding-left: 20px;
+        }
+
+        ol.translation-list li {
+            margin-bottom: 16px;
+        }
+
+        .vietnamese {
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+
+        .english {
+            color: var(--success);
+            font-weight: 500;
+        }
+
+        .highlight {
+            background-color: #fef08a;
+            padding: 0 4px;
+            border-radius: 3px;
+        }
+        
+        .grammar-rule {
+            background-color: var(--success-light);
+            border-left: 5px solid var(--success);
+            padding: 16px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        
+        .grammar-rule h3 {
+            margin-top: 0;
+            color: var(--success);
+        }
+    
+        /* Thêm CSS Responsive cho thiết bị di động */
+        @media (max-width: 768px) {
+            body { padding: 10px; font-size: 16px; }
+            .notebook, .notebook-container { padding: 15px; border-radius: 8px; }
+            .grid-2 { grid-template-columns: 1fr !important; }
+            h1 { font-size: 1.6em; }
+            h2 { font-size: 1.3em; padding-top: 5px; padding-bottom: 5px; margin-top: 20px; }
+            table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; }
+            th, td { padding: 8px; }
+            .card { padding: 15px; }
+            .rule-box, .tip-box, .example-box, .exercise-item { padding: 12px; margin: 15px 0; }
+            .transcript-item { flex-direction: column; }
+            .timestamp { margin-bottom: 5px; }
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>📝 Ghi chú: Sửa bài tập Mệnh đề quan hệ</h1>
+        <div class="subtitle">Khóa học Ngữ pháp cơ bản cho IELTS</div>
+    </header>
+
+    <!-- TAKEAWAYS -->
+    <div class="card">
+        <h2 class="card-title">📌 Điểm ngữ pháp cốt lõi (Takeaways)</h2>
+        
+        <div class="grammar-rule">
+            <h3>1. Dấu phẩy trong Mệnh đề quan hệ (Xác định & Không xác định)</h3>
+            <ul>
+                <li><strong>Có dấu phẩy:</strong> Khi danh từ đứng trước đã được xác định rõ ràng. Người nghe và người nói đều biết đó là ai/cái gì.
+                    <ul>
+                        <li><span class="highlight">Tên riêng:</span> Professor Wilson, Mrs. Smith, Lake Prespa, Diana...</li>
+                        <li><span class="highlight">Địa danh cụ thể:</span> Bristol, The Riverside Restaurant...</li>
+                        <li><span class="highlight">Có từ chỉ định/sở hữu:</span> <i>This</i> famous picture, <i>Jim's</i> sister...</li>
+                    </ul>
+                </li>
+                <li><strong>Không có dấu phẩy:</strong> Khi danh từ đứng trước chung chung, chưa xác định. Mệnh đề quan hệ là bắt buộc để làm rõ nghĩa.
+                    <ul>
+                        <li>The man, some words, a beach, the little girl, a cafe, young people...</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="takeaway-box">
+            <h3>2. Rút gọn Mệnh đề quan hệ (Reduced Relative Clauses)</h3>
+            <ul>
+                <li><strong>Rút gọn Chủ động:</strong> Bỏ đại từ quan hệ (who/which/that), đổi động từ chính thành <strong>V-ing</strong>.
+                    <br><i>VD:</i> people who waited ➔ people <strong>waiting</strong>.
+                </li>
+                <li><strong>Rút gọn Bị động:</strong> Bỏ đại từ quan hệ và to be, giữ nguyên <strong>V3/ed</strong>.
+                    <br><i>VD:</i> building which was built ➔ building <strong>built</strong>.
+                </li>
+            </ul>
+        </div>
+        
+        <div class="takeaway-box">
+            <h3>3. Trạng từ quan hệ phổ biến</h3>
+            <ul>
+                <li><strong>Nơi chốn:</strong> Dùng <strong>where</strong> (thay cho the place, the restaurant, the city...).</li>
+                <li><strong>Thời gian:</strong> Dùng <strong>when</strong> (thay cho the time, the days, at night...).</li>
+                <li><strong>Lý do:</strong> Dùng <strong>why</strong> (luôn đi kèm "the reason why").</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ERROR CORRECTION -->
+    <div class="card">
+        <h2 class="card-title">🔍 Phân tích và Sửa lỗi sai (Error Correction)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Câu gốc (Sai)</th>
+                    <th>Sửa lại (Đúng)</th>
+                    <th>Phân tích lỗi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>There were a lot of people <span class="incorrect">waited</span> in a long line outside the box office.</td>
+                    <td>... people <span class="correct">who waited</span> <br><em>Hoặc:</em> ... people <span class="correct">waiting</span></td>
+                    <td>
+                        <div class="analysis">Trong câu đã có động từ chính "were". "Wait" đóng vai trò bổ nghĩa cho "people" nên cần dùng mệnh đề quan hệ "who waited" hoặc rút gọn chủ động thành V-ing "waiting".</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Baseball is the only sport which I am interested in <span class="incorrect">it</span>.</td>
+                    <td>... sport which I am interested <span class="correct">in.</span></td>
+                    <td>
+                        <div class="analysis">Đại từ quan hệ "which" đã thay thế cho danh từ "sport" (it) rồi, nên ở cuối câu không được lặp lại đại từ "it" nữa.</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>The reason <span class="incorrect">because</span> I didn't know was that no one had told me.</td>
+                    <td>The reason <span class="correct">why</span> I didn't know...</td>
+                    <td>
+                        <div class="analysis">Với danh từ "the reason" (lý do), trạng từ quan hệ đi kèm bắt buộc phải là "why". Không dùng "because".</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>I didn't know the name of the man <span class="incorrect">helped</span> me.</td>
+                    <td>... the man <span class="correct">who helped</span> me.<br><em>Hoặc:</em> ... the man <span class="correct">helping</span> me.</td>
+                    <td>
+                        <div class="analysis">Động từ chính của câu là "didn't know". Mệnh đề sau cần đại từ "who" làm chủ ngữ, hoặc dùng rút gọn chủ động V-ing.</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Students <span class="incorrect">who living</span> on campus are close to their classroom...</td>
+                    <td>Students <span class="correct">who live</span>...<br><em>Hoặc:</em> Students <span class="correct">living</span>...</td>
+                    <td>
+                        <div class="analysis">Sai cấu trúc. Mệnh đề quan hệ đầy đủ là "who + V(chia thì)". Rút gọn thì bỏ "who" và dùng V-ing. Không được dùng "who + V-ing" khi không có to be.</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>The bridge <span class="incorrect">building</span> only two years ago has been declared unsafe.</td>
+                    <td>The bridge <span class="correct">which was built</span>...<br><em>Hoặc:</em> The bridge <span class="correct">built</span>...</td>
+                    <td>
+                        <div class="analysis">"Cây cầu được xây" mang nghĩa <strong>bị động</strong>. Rút gọn bị động phải dùng V3/ed (built) thay vì V-ing (building).</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>The boy <span class="incorrect">took</span> the photograph was paid $100.</td>
+                    <td>The boy <span class="correct">who took</span>...<br><em>Hoặc:</em> The boy <span class="correct">taking</span>...</td>
+                    <td>
+                        <div class="analysis">Câu có 2 động từ chia thì (took, was paid) nên sai ngữ pháp. Cần thêm đại từ quan hệ "who" hoặc rút gọn chủ động "taking".</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>My favorite place... is a small city <span class="incorrect">is located</span> on the southern coast...</td>
+                    <td>... a small city <span class="correct">which is located</span>...<br><em>Hoặc:</em> ... a small city <span class="correct">located</span>...</td>
+                    <td>
+                        <div class="analysis">Lặp động từ to be "is". Cần thêm "which" hoặc rút gọn bị động chỉ giữ lại V3/ed "located".</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>I know a man <span class="incorrect">ran</span> in the New York Marathon last year.</td>
+                    <td>... a man <span class="correct">who ran</span>...<br><em>Hoặc:</em> ... a man <span class="correct">running</span>...</td>
+                    <td>
+                        <div class="analysis">Tương tự, thiếu đại từ quan hệ "who" làm chủ ngữ hoặc rút gọn chủ động V-ing "running".</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>In the past, boys <span class="incorrect">attended</span> this school have to wear uniform.</td>
+                    <td>... boys <span class="correct">who attended</span>...<br><em>Hoặc:</em> ... boys <span class="correct">attending</span>...</td>
+                    <td>
+                        <div class="analysis">Động từ chính là "have to wear". Từ "attended" mang nghĩa chủ động (các nam sinh học tại trường này), nên phải dùng "who attended" hoặc rút gọn thành "attending".</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- TRANSLATION -->
+    <div class="card">
+        <h2 class="card-title">✍️ Ứng dụng dịch câu (Translation)</h2>
+        <ol class="translation-list">
+            <li>
+                <div class="vietnamese">Từ 1990 tới 1992, số lượng người đạp xe đi làm tăng nhẹ.</div>
+                <div class="english">From 1990 to 1992, the number of people who cycled to work (hoặc cycling to work) increased slightly.</div>
+            </li>
+            <li>
+                <div class="vietnamese">Ngày nay, trẻ em dành quá nhiều thời gian chơi game, điều này có ảnh hưởng tiêu cực đến việc học của chúng.</div>
+                <div class="english">Nowadays, children spend too much time playing games, which has a negative effect on their studies.</div>
+                <div class="analysis">Dùng phẩy + <strong>which</strong> để thay thế cho toàn bộ sự việc ở mệnh đề trước.</div>
+            </li>
+            <li>
+                <div class="vietnamese">Người mà ăn quá nhiều thức ăn nhanh có nhiều khả năng mắc các vấn đề về sức khỏe như béo phì hay bệnh tim.</div>
+                <div class="english">People who eat (hoặc eating) too much fast food are more likely to suffer from health problems such as obesity or heart disease.</div>
+            </li>
+            <li>
+                <div class="vietnamese">Vấn đề chủ yếu cho bất kỳ ai người mà hi vọng di cư đến 1 thành phố lớn là chi phí cuộc sống cao.</div>
+                <div class="english">The main problem for anyone who hopes to (hoặc hoping to) migrate to a large city is high living costs.</div>
+            </li>
+            <li>
+                <div class="vietnamese">Có thể có những nhà làm phim người chỉ muốn được trao cơ hội để chứng tỏ bản thân họ.</div>
+                <div class="english">There may be film-makers who just need to (hoặc just needing to) be given the opportunity to prove themselves.</div>
+            </li>
+            <li>
+                <div class="vietnamese">Tôi đồng ý với người mà tin rằng tiền không phải là tất cả.</div>
+                <div class="english">I agree with people who believe that (hoặc believing that) money is not everything.</div>
+            </li>
+            <li>
+                <div class="vietnamese">Người trẻ người mà quyết định đi du học có thể có 1 tương lai tốt đẹp hơn.</div>
+                <div class="english">Young people who decide to (hoặc deciding to) study abroad may have a better future.</div>
+            </li>
+            <li>
+                <div class="vietnamese">Người trẻ người mà không có các bằng cấp từ 1 trường đại học hay cao đẳng sẽ không thể cạnh tranh được.</div>
+                <div class="english">Young people who do not have (hoặc not having) qualifications from a university or college will not be able to compete.</div>
+            </li>
+            <li>
+                <div class="vietnamese">Người mà tham gia các môn thể thao mạo hiểm thường được yêu cầu trải qua sự đào tạo phù hợp.</div>
+                <div class="english">People who take part in (hoặc taking part in) extreme sports are usually required to undergo appropriate training.</div>
+            </li>
+            <li>
+                <div class="vietnamese">Thanh thiếu niên có nhiều khả năng chấp nhận lời khuyên từ ai đó người mà chia sẻ từ chính những kinh nghiệm của họ.</div>
+                <div class="english">Teenagers are more likely to accept advice from someone who speaks (hoặc speaking) from experience.</div>
+            </li>
+            <li>
+                <div class="vietnamese">Những người mà quyết định sống 1 mình sẽ cần phải học cách nấu nướng, dọn dẹp và chi trả hóa đơn, điều này giúp họ trở nên tự lập hơn.</div>
+                <div class="english">People who decide to (hoặc deciding to) live alone will need to learn to cook, clean and pay bills, which helps them become more independent.</div>
+            </li>
+            <li>
+                <div class="vietnamese">Chính phủ có quyền cấm xe vào trung tâm thành phố và khuyến khích việc sử dụng phương tiện công cộng, điều này sẽ giúp giảm ô nhiễm không khí và ùn tắc giao thông.</div>
+                <div class="english">The government has the power to ban vehicles from city centres and encourage the use of public transport, which would help to reduce air pollution and traffic congestion.</div>
+            </li>
+            <li>
+                <div class="vietnamese">Khí thải từ các nhà máy và khói thải từ xe cộ dẫn tới nóng lên toàn cầu, điều này có ảnh hưởng tiêu cực lên môi trường và sức khỏe con người.</div>
+                <div class="english">Gas emissions from factories and exhaust fumes from vehicles lead to global warming, which has a negative effect on the environment and people's health.</div>
+            </li>
+        </ol>
+    </div>
+</div>
+
+</body>
+</html>

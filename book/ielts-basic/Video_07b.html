@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video 07b: Câu điều kiện (Sửa bài tập)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #4F46E5;
+            --primary-light: #EEF2FF;
+            --text-main: #1F2937;
+            --text-muted: #6B7280;
+            --bg-body: #F9FAFB;
+            --bg-card: #FFFFFF;
+            --border-color: #E5E7EB;
+            --success: #10B981;
+            --warning: #F59E0B;
+            --danger: #EF4444;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .header h1 {
+            color: var(--primary);
+            font-size: 2.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .section {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            color: var(--text-main);
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--primary-light);
+            display: flex;
+            align-items: center;
+        }
+
+        .section-title::before {
+            content: "📝";
+            margin-right: 0.75rem;
+        }
+
+        .exercise-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .exercise-item {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .exercise-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .sentence-original {
+            font-weight: 500;
+            color: var(--text-main);
+            margin-bottom: 0.5rem;
+        }
+
+        .sentence-translated {
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+            padding: 0.5rem 0.75rem;
+            background-color: var(--primary-light);
+            border-radius: 6px;
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .sentence-note {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .sentence-note::before {
+            content: "💡";
+            margin-right: 0.5rem;
+        }
+
+        .takeaway-box {
+            background-color: #FFFBEB;
+            border-left: 4px solid var(--warning);
+            padding: 1.25rem;
+            margin-top: 1.5rem;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .takeaway-box h4 {
+            color: #92400E;
+            margin-top: 0;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .takeaway-box h4::before {
+            content: "📌";
+            margin-right: 0.5rem;
+        }
+
+        .takeaway-box ul {
+            margin: 0;
+            padding-left: 1.5rem;
+            color: #92400E;
+        }
+
+        .takeaway-box li {
+            margin-bottom: 0.25rem;
+        }
+
+        .vocab-box {
+            background-color: #F0FDF4;
+            border-left: 4px solid var(--success);
+            padding: 1.25rem;
+            margin-top: 1.5rem;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .vocab-box h4 {
+            color: #166534;
+            margin-top: 0;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .vocab-box h4::before {
+            content: "📚";
+            margin-right: 0.5rem;
+        }
+
+        .vocab-box ul {
+            margin: 0;
+            padding-left: 1.5rem;
+            color: #166534;
+        }
+
+        .highlight {
+            font-weight: 700;
+            text-decoration: underline;
+            text-decoration-color: var(--warning);
+            text-decoration-thickness: 2px;
+        }
+
+        .vocab-word {
+            font-weight: 600;
+            color: var(--primary);
+        }
+    
+        /* Thêm CSS Responsive cho thiết bị di động */
+        @media (max-width: 768px) {
+            body { padding: 10px; font-size: 16px; }
+            .notebook, .notebook-container { padding: 15px; border-radius: 8px; }
+            .grid-2 { grid-template-columns: 1fr !important; }
+            h1 { font-size: 1.6em; }
+            h2 { font-size: 1.3em; padding-top: 5px; padding-bottom: 5px; margin-top: 20px; }
+            table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; }
+            th, td { padding: 8px; }
+            .card { padding: 15px; }
+            .rule-box, .tip-box, .example-box, .exercise-item { padding: 12px; margin: 15px 0; }
+            .transcript-item { flex-direction: column; }
+            .timestamp { margin-bottom: 5px; }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Sửa bài tập Câu điều kiện</h1>
+            <p>Ghi chép từ Video 07b - Khóa học Ngữ pháp cơ bản cho IELTS</p>
+        </div>
+
+        <!-- Bài 1 -->
+        <div class="section">
+            <h2 class="section-title">Bài 1: Viết lại các câu sau với "if"</h2>
+            <ul class="exercise-list">
+                <li class="exercise-item">
+                    <div class="sentence-original">1. You should take more exercise because it helps you to get fit.</div>
+                    <div class="sentence-translated">If you take more exercise, you will get fit.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">2. I don't have the key, so I can't get in.</div>
+                    <div class="sentence-translated">If I had the key, I could get in.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">3. Road travel is cheaper than rail travel in this country, so we have lots of traffic jams.</div>
+                    <div class="sentence-translated">If road travel weren't cheaper than rail travel, we wouldn't have lots of traffic jams.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">4. The wind is blowing hard, so I won't take the boat out for a ride.</div>
+                    <div class="sentence-translated">If the wind weren't blowing hard, I would take the boat out for a ride.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">5. We don't visit you very often because you live so far away.</div>
+                    <div class="sentence-translated">If you didn't live so far away, we would visit you more often.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">6. I have to work tomorrow evening, so I can't meet you.</div>
+                    <div class="sentence-translated">If I didn't have to work tomorrow, I could meet you.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">7. I don't know anything about the plumbing, so I can't fix the leak in the sink myself.</div>
+                    <div class="sentence-translated">If I knew something about the plumbing, I could fix the leak in the sink myself.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">8. I don't know her name, so I can't tell you.</div>
+                    <div class="sentence-translated">If I knew her name, I could tell you.</div>
+                </li>
+            </ul>
+            <div class="takeaway-box">
+                <h4>Phân tích lỗi & Nhận xét</h4>
+                <ul>
+                    <li><strong>Cách xác định loại câu điều kiện:</strong> Đọc tình huống thực tế. Nếu sự việc có thể xảy ra ở hiện tại/tương lai &rarr; Dùng loại 1. Nếu sự việc <strong>trái với thực tế</strong> ở hiện tại (hoặc rất khó xảy ra) &rarr; Dùng loại 2.</li>
+                    <li>Ở câu điều kiện loại 2, động từ "To be" thường được dùng là <span class="highlight">were</span> cho tất cả các ngôi (thay vì was). Ví dụ: <em>If the wind weren't blowing hard...</em></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Bài 2 -->
+        <div class="section">
+            <h2 class="section-title">Bài 2: Dịch câu sang tiếng Anh (Câu điều kiện loại 1)</h2>
+            <ul class="exercise-list">
+                <li class="exercise-item">
+                    <div class="sentence-original">1. Tôi sẽ đi bộ đi làm vào buổi sáng trừ khi tôi đang vội.</div>
+                    <div class="sentence-translated">I will walk to work in the morning if I am not in a hurry / unless I'm in a hurry.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">2. Nếu bạn muốn thấy rõ, bạn phải mang kính.</div>
+                    <div class="sentence-translated">If you want to see clearly, you must wear your glasses.</div>
+                    <div class="sentence-note">Mệnh đề chính không chỉ dùng will mà còn có thể dùng các modal verbs như: must, can, should...</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">3. Bạn có thể mượn tiền nếu bạn trả lại sớm nhất có thể.</div>
+                    <div class="sentence-translated">You can borrow the money if you pay it back as soon as possible.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">4. Nếu Matthew đi phỏng vấn xin việc, anh ấy nên đeo cà vạt.</div>
+                    <div class="sentence-translated">If Matthew goes to a job interview, he should wear a tie.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">5. Bạn sẽ không đậu kỳ thi trừ khi bạn học chăm hơn nhiều.</div>
+                    <div class="sentence-translated">You won't pass the exam unless you work much harder / if you do not work harder.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">6. Nếu tôi thấy Jane, tôi sẽ đưa cho cô ấy lời nhắn của bạn.</div>
+                    <div class="sentence-translated">If I see Jane, I will give her your message.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">7. Nếu trời không mưa, chúng ta sẽ đi dã ngoại.</div>
+                    <div class="sentence-translated">If it doesn't rain, we will have a picnic.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">8. Con mèo sẽ cào bạn nếu bạn kéo đuôi nó.</div>
+                    <div class="sentence-translated">The cat will scratch you if you pull its tail.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">9. Nếu cậu ấy có được 1 công việc ở Liverpool, cậu ấy sẽ phải dậy sớm.</div>
+                    <div class="sentence-translated">If he gets a job in Liverpool, he'll have to get up early.</div>
+                    <div class="sentence-note">"sẽ phải" dịch là <strong>will have to</strong>.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">10. Tôi sẽ đi mua sắm trên đường về nhà nếu tôi có thời gian.</div>
+                    <div class="sentence-translated">I'll go shopping on the way home if I have time.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">11. Nếu họ thắng, họ sẽ đứng đầu bảng xếp hạng.</div>
+                    <div class="sentence-translated">If they win, they'll be top of the league.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">12. Tôi sẽ chỉ ở lại nếu bạn đưa tôi thêm tiền.</div>
+                    <div class="sentence-translated">I'll only stay if you give me more money.</div>
+                </li>
+            </ul>
+            <div class="takeaway-box">
+                <h4>Takeaways</h4>
+                <ul>
+                    <li>Mệnh đề chứa "If" chia ở thì Hiện tại đơn, mệnh đề chính chia ở thì Tương lai đơn (hoặc dùng các Động từ khiếm khuyết).</li>
+                </ul>
+            </div>
+            <div class="vocab-box">
+                <h4>Vocabulary & Collocations</h4>
+                <ul>
+                    <li><span class="vocab-word">on the way home</span>: trên đường về nhà</li>
+                    <li><span class="vocab-word">to be top of the league</span>: đứng đầu bảng xếp hạng</li>
+                    <li><span class="vocab-word">will have to</span>: sẽ phải làm gì</li>
+                    <li><span class="vocab-word">will only</span>: sẽ chỉ làm gì</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Bài 3 -->
+        <div class="section">
+            <h2 class="section-title">Bài 3: Dùng "unless" để viết lại các câu</h2>
+            <ul class="exercise-list">
+                <li class="exercise-item">
+                    <div class="sentence-original">1. You won't get there in time if you don't hurry.</div>
+                    <div class="sentence-translated">You won't get there in time unless you hurry.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">2. We can't do the job if we don't get help.</div>
+                    <div class="sentence-translated">We can't do the job unless we get help.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">3. I don't like fish. I wouldn't eat it if I wasn't extremely hungry.</div>
+                    <div class="sentence-translated">I wouldn't eat it unless I were extremely hungry.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">4. You will be allowed into the club if you're already a member.</div>
+                    <div class="sentence-translated">You won't be allowed into the club unless you're already a member.</div>
+                    <div class="sentence-note">Khi mệnh đề chứa "if" đang ở thể khẳng định, lúc đổi sang "unless", ta <strong>phải thêm "not" vào mệnh đề chính</strong> để giữ nguyên nghĩa.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">5. Don't leave the TV on if you aren't watching it.</div>
+                    <div class="sentence-translated">Don't leave the TV on unless you are watching it.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">6. The doctor will see you today only if it's an emergency.</div>
+                    <div class="sentence-translated">The doctor won't see you today unless it's an emergency.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">7. I will buy a picture if I like it.</div>
+                    <div class="sentence-translated">I won't buy a picture unless I like it.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">8. The dog will attack you only if you move suddenly.</div>
+                    <div class="sentence-translated">The dog won't attack you unless you move suddenly.</div>
+                </li>
+            </ul>
+            <div class="takeaway-box">
+                <h4>Quy tắc quan trọng với "Unless"</h4>
+                <ul>
+                    <li><span class="highlight">Unless = If ... not</span> (Trừ khi = Nếu ... không).</li>
+                    <li>Khi chuyển câu từ dạng "If + Khẳng định" sang "Unless", ta bắt buộc phải <strong>phủ định mệnh đề chính</strong> để không làm sai lệch ý nghĩa ban đầu của câu.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Bài 4 -->
+        <div class="section">
+            <h2 class="section-title">Bài 4: Dịch câu sang tiếng Anh (Câu điều kiện loại 2)</h2>
+            <ul class="exercise-list">
+                <li class="exercise-item">
+                    <div class="sentence-original">1. Tôi nghĩ rằng xã hội sẽ có lợi hơn nếu học sinh của chúng ta đam mê những gì chúng đang học.</div>
+                    <div class="sentence-translated">I think society would benefit more if our students were passionate about what they are learning.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">2. Một vị khách có thể cảm thấy chán nếu anh ấy hay cô ấy phải đọc hay nghe quá nhiều nội dung mang tính chất giáo dục.</div>
+                    <div class="sentence-translated">A visitor could become bored if he or she had to read or listen to too much educational content.</div>
+                    <div class="sentence-note">"phải làm gì" -> "have to". Ở điều kiện loại 2 chia thành "had to".</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">3. Học sinh sẽ có khả năng thành công trong sự nghiệp của chúng nếu chúng tiếp tục việc học của chúng vượt qua ngoài mức độ trường học.</div>
+                    <div class="sentence-translated">Students would be more likely to be successful in their careers if they continued their studies beyond school level.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">4. Nếu 1 ngôn ngữ chỉ được nói bởi 1 số lượng người nhỏ, chúng ta sẽ cần đến những chương trình giáo dục đắt tiền.</div>
+                    <div class="sentence-translated">If a language were only spoken by a small number of people, we would need expensive education programmes.</div>
+                    <div class="sentence-note">"được nói" dùng thể bị động, kết hợp to be "were" &rarr; "were spoken".</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">5. Nếu 1 ngôn ngữ biến mất, cả 1 phong cách sống sẽ biến mất cùng tới nó.</div>
+                    <div class="sentence-translated">If a language disappeared, a whole way of life would disappear with it.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">6. Nó có thể tiết kiệm tiền trong ngắn hạn nếu chúng ta cho phép ngôn ngữ thiểu số biến mất.</div>
+                    <div class="sentence-translated">It might save money in the short term if we allowed minority languages to disappear.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">7. Nếu người ta chọn công việc của họ dựa trên niềm vui hay những yếu tố phi tài chính, họ có thể cảm thấy khó khăn nuôi sống bản thân họ.</div>
+                    <div class="sentence-translated">If people chose their jobs based on enjoyment or other non-financial factors, they might find it difficult to support themselves.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">8. Phần lớn mọi người sẽ cảm thấy có động lực hơn để làm việc chăm chỉ nếu họ nghĩ rằng họ sống trong 1 xã hội công bằng.</div>
+                    <div class="sentence-translated">Most people would feel more motivated to work hard if they thought that they lived in a fair society.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">9. Một người có thể cảm thấy hạnh phúc nếu anh ấy hay cô ấy có 1 nơi an toàn để sống và đủ thực phẩm để ăn.</div>
+                    <div class="sentence-translated">A person would be/feel happy if he or she had a safe place to live and enough food to eat.</div>
+                </li>
+                <li class="exercise-item">
+                    <div class="sentence-original">10. Nếu trẻ tiêu thụ quá nhiều thức ăn nhanh, chúng sẽ mắc hàng loạt các vấn đề về sức khỏe.</div>
+                    <div class="sentence-translated">If children consumed too much fast food, they would suffer from various health problems.</div>
+                </li>
+            </ul>
+            <div class="takeaway-box">
+                <h4>Takeaways</h4>
+                <ul>
+                    <li>Mệnh đề chứa "If" chia ở thì Quá khứ đơn, mệnh đề chính sử dụng <strong>would / could / might + V_inf</strong>.</li>
+                </ul>
+            </div>
+            <div class="vocab-box">
+                <h4>Vocabulary & Collocations</h4>
+                <ul>
+                    <li><span class="vocab-word">to be passionate about</span>: đam mê về cái gì</li>
+                    <li><span class="vocab-word">be more likely to V</span>: có khả năng cao sẽ làm gì</li>
+                    <li><span class="vocab-word">allow sb/sth to V</span>: cho phép ai/cái gì làm gì</li>
+                    <li><span class="vocab-word">based on</span>: dựa trên</li>
+                    <li><span class="vocab-word">find it difficult to V</span>: cảm thấy khó khăn khi làm gì</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

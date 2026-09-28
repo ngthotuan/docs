@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notebook: Câu Chủ Động - Bị Động</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #e74c3c;
+            --bg-color: #f9f9f9;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --border-color: #e0e0e0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .notebook-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            margin-top: 30px;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 10px;
+        }
+
+        h3 {
+            color: var(--secondary-color);
+        }
+
+        .rule-box {
+            background-color: #e8f4f8;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .tip-box {
+            background-color: #fef9e7;
+            border-left: 4px solid #f1c40f;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .formula {
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #c0392b;
+            background: #fdf2e9;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 10px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid var(--border-color);
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .example-card {
+            background: #fff;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+        }
+
+        .active-sentence {
+            color: #2980b9;
+            font-weight: bold;
+        }
+
+        .passive-sentence {
+            color: #27ae60;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        .tag {
+            display: inline-block;
+            background: #eee;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            color: #555;
+            margin-right: 5px;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        .vocab-list li {
+            margin-bottom: 8px;
+        }
+        
+        .vocab-word {
+            font-weight: bold;
+            color: #8e44ad;
+        }
+    
+        /* Thêm CSS Responsive cho thiết bị di động */
+        @media (max-width: 768px) {
+            body { padding: 10px; font-size: 16px; }
+            .notebook, .notebook-container { padding: 15px; border-radius: 8px; }
+            .grid-2 { grid-template-columns: 1fr !important; }
+            h1 { font-size: 1.6em; }
+            h2 { font-size: 1.3em; padding-top: 5px; padding-bottom: 5px; margin-top: 20px; }
+            table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; }
+            th, td { padding: 8px; }
+            .card { padding: 15px; }
+            .rule-box, .tip-box, .example-box, .exercise-item { padding: 12px; margin: 15px 0; }
+            .transcript-item { flex-direction: column; }
+            .timestamp { margin-bottom: 5px; }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="notebook-container">
+        <h1>NGỮ PHÁP IELTS: CÂU CHỦ ĐỘNG - BỊ ĐỘNG<br>(Active & Passive Voice)</h1>
+        
+        <section>
+            <h2>1. Khái niệm và Dấu hiệu nhận biết</h2>
+            <div class="rule-box">
+                <p><strong>Dấu hiệu:</strong> Trong tiếng Việt, khi dịch một câu có chứa các từ <strong>"bị"</strong> hoặc <strong>"được"</strong> (chỉ sự tác động từ bên ngoài), câu đó thường được viết ở dạng <strong>Bị động (Passive)</strong> trong tiếng Anh.</p>
+                <ul>
+                    <li>Chủ động: Nhấn mạnh vào <strong>người/vật thực hiện hành động</strong>.</li>
+                    <li>Bị động: Nhấn mạnh vào <strong>đối tượng nhận hành động</strong> (người/vật bị tác động).</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>2. Cấu trúc và Cách chuyển đổi</h2>
+            <p>Để chuyển đổi một câu từ chủ động sang bị động, ta cần xác định được 3 thành phần chính: <strong>Chủ ngữ (S)</strong>, <strong>Động từ (V)</strong>, và <strong>Tân ngữ (O)</strong>.</p>
+            
+            <div class="example-card">
+                <p><strong>Cấu trúc Chủ động:</strong> <span class="formula">S + V + O</span></p>
+                <p><strong>Cấu trúc Bị động:</strong> <span class="formula">S (từ O) + to be + V3/ed + (by O) (từ S)</span></p>
+            </div>
+
+            <h3>Quy tắc chuyển đổi:</h3>
+            <ol>
+                <li>Chuyển <strong>Tân ngữ (O)</strong> của câu chủ động lên làm <strong>Chủ ngữ (S)</strong> cho câu bị động.</li>
+                <li>Chuyển <strong>Động từ chính (V)</strong> về dạng quá khứ phân từ <strong>V3/ed</strong> và thêm động từ <strong>"to be"</strong> ở phía trước.</li>
+                <li>Chuyển <strong>Chủ ngữ (S)</strong> của câu chủ động xuống cuối, biến thành <strong>Tân ngữ (O)</strong> và thêm giới từ <strong>"by"</strong> (bởi) ở đằng trước.</li>
+            </ol>
+            
+            <div class="tip-box">
+                <strong>💡 Lưu ý về Trạng từ:</strong> Các trạng từ chỉ thời gian (như <i>in 1990, every week, soon...</i>) không tham gia vào cấu trúc S-V-O chính, ta giữ nguyên vị trí của chúng (thường ở đầu hoặc cuối câu).
+            </div>
+        </section>
+
+        <section>
+            <h2>3. Bảng chia động từ "to be"</h2>
+            <p>Động từ <strong>"to be"</strong> trong câu bị động phải được chia theo <strong>cùng thì (tense)</strong> với động từ chính trong câu chủ động và phụ thuộc vào <strong>chủ ngữ mới (số ít hay số nhiều)</strong>.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Thì (Tense)</th>
+                        <th>Động từ "to be"</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Hiện tại đơn</strong> (Present Simple)</td>
+                        <td>am / is / are</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Quá khứ đơn</strong> (Past Simple)</td>
+                        <td>was / were</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Hiện tại hoàn thành</strong> (Present Perfect)</td>
+                        <td>have / has been</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tương lai đơn</strong> (Future Simple)</td>
+                        <td>will be</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Động từ khiếm khuyết</strong> (Modal Verbs: should, can, must...)</td>
+                        <td>model verb + be <br><em>(vd: should be)</em></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>4. Phân tích Ví dụ</h2>
+            
+            <div class="example-card">
+                <span class="tag">Quá khứ đơn</span>
+                <p class="active-sentence">Chủ động: Mike published this book in 1990.</p>
+                <ul>
+                    <li>S = Mike, V = published, O = this book</li>
+                    <li>Thì: Quá khứ đơn ➔ to be = was/were. "This book" là số ít ➔ was.</li>
+                </ul>
+                <p class="passive-sentence">Bị động: This book was published by Mike in 1990.</p>
+            </div>
+
+            <div class="example-card">
+                <span class="tag">Quá khứ đơn (Số nhiều)</span>
+                <p class="active-sentence">Chủ động: Edward Barnes designed these houses in the 1880s.</p>
+                <p class="passive-sentence">Bị động: These houses were designed by Edward Barnes in the 1880s.</p>
+                <p><em>(Giải thích: "These houses" là số nhiều nên dùng "were")</em></p>
+            </div>
+
+            <div class="example-card">
+                <span class="tag">Hiện tại đơn</span>
+                <p class="active-sentence">Chủ động: Five million people watch the show every week.</p>
+                <p class="passive-sentence">Bị động: The show is watched by five million people every week.</p>
+            </div>
+
+            <div class="example-card">
+                <span class="tag">Hiện tại hoàn thành</span>
+                <p class="active-sentence">Chủ động: Measles vaccination has saved around 17.1 million lives since 2000.</p>
+                <p class="passive-sentence">Bị động: Around 17.1 million lives have been saved by measles vaccination since 2000.</p>
+                <p><em>(Giải thích: "17.1 million lives" là số nhiều nên dùng "have been")</em></p>
+            </div>
+
+            <div class="example-card">
+                <span class="tag">Tương lai đơn</span>
+                <p class="active-sentence">Chủ động: They will redecorate this room soon.</p>
+                <p class="passive-sentence">Bị động: This room will be redecorated soon.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>5. Bài tập Dịch ứng dụng</h2>
+            
+            <div class="example-card">
+                <p><strong>1. Thử nghiệm này được tiến hành vào năm 1990.</strong></p>
+                <p>Phân tích: Có từ "được", có thời gian "năm 1990" (Quá khứ đơn).</p>
+                <p class="passive-sentence">➔ This experiment was conducted in 1990.</p>
+            </div>
+
+            <div class="example-card">
+                <p><strong>2. Số tiền này nên được chi vào giáo dục và chăm sóc sức khỏe.</strong></p>
+                <p>Phân tích: Có từ "được", có "nên" (should) ➔ Bị động của Modal verb.</p>
+                <p class="passive-sentence">➔ This money should be spent on education and health care.</p>
+                <p><em>(Lưu ý: spend đi với giới từ "on")</em></p>
+            </div>
+
+            <div class="example-card">
+                <p><strong>3. Trong những năm gần đây, tiêu chuẩn sống của họ đã được cải thiện nhiều.</strong></p>
+                <p>Phân tích: Dấu hiệu "Trong những năm gần đây" (In recent years) ➔ Hiện tại hoàn thành.</p>
+                <p class="passive-sentence">➔ In recent years, their living standards have been greatly improved.</p>
+            </div>
+
+            <div class="example-card">
+                <p><strong>4. Hợp đồng này sẽ được ký vào ngày mai.</strong></p>
+                <p>Phân tích: Dấu hiệu "sẽ" và "ngày mai" ➔ Tương lai đơn.</p>
+                <p class="passive-sentence">➔ This contract will be signed tomorrow.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>6. Từ vựng nổi bật (Vocabulary)</h2>
+            <ul class="vocab-list">
+                <li><span class="vocab-word">experiment</span> (n): thử nghiệm</li>
+                <li><span class="vocab-word">conduct</span> (v): tiến hành (V3: conducted)</li>
+                <li><span class="vocab-word">health care</span> (n): chăm sóc sức khỏe</li>
+                <li><span class="vocab-word">living standards</span> (n): tiêu chuẩn cuộc sống</li>
+                <li><span class="vocab-word">improve</span> (v): cải thiện (V3: improved)</li>
+                <li><span class="vocab-word">contract</span> (n): hợp đồng</li>
+                <li><span class="vocab-word">sign</span> (v): ký (V3: signed)</li>
+                <li><span class="vocab-word">spend on</span> (v): chi tiêu vào cái gì (V3: spent)</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>

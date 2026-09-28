@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Grammar Note: So that - Too to - Enough to</title>
+    <style>
+        :root {
+            --primary: #4F46E5;
+            --primary-light: #EEF2FF;
+            --secondary: #10B981;
+            --secondary-light: #ECFDF5;
+            --warning: #F59E0B;
+            --warning-light: #FFFBEB;
+            --danger: #EF4444;
+            --danger-light: #FEF2F2;
+            --text-main: #1F2937;
+            --text-muted: #6B7280;
+            --bg-main: #F3F4F6;
+            --card-bg: #FFFFFF;
+            --border: #E5E7EB;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 2rem;
+        }
+
+        .notebook {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            padding: 3rem;
+        }
+
+        h1 {
+            color: var(--primary);
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid var(--primary-light);
+            padding-bottom: 1rem;
+        }
+
+        h2 {
+            color: var(--primary);
+            font-size: 1.8rem;
+            margin-top: 2.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        h2::before {
+            content: "📚";
+        }
+
+        .rule-card {
+            background: #ffffff;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-left: 4px solid var(--primary);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .formula {
+            background: var(--primary-light);
+            color: var(--primary);
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 1rem;
+            border-radius: 6px;
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        .meaning {
+            font-weight: 600;
+            color: var(--secondary);
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .example-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .example-list li {
+            background: #F9FAFB;
+            margin-bottom: 0.8rem;
+            padding: 1rem;
+            border-radius: 6px;
+            border-left: 3px solid var(--secondary);
+        }
+
+        .en-sen {
+            font-weight: 600;
+            color: #111827;
+            font-size: 1.1rem;
+            display: block;
+        }
+
+        .vi-sen {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            font-style: italic;
+            display: block;
+            margin-top: 0.3rem;
+        }
+
+        .tip-box {
+            background: var(--warning-light);
+            border: 1px solid #FDE68A;
+            border-left: 4px solid var(--warning);
+            padding: 1rem 1.5rem;
+            border-radius: 6px;
+            margin: 1.5rem 0;
+        }
+
+        .tip-box h4 {
+            margin: 0 0 0.5rem 0;
+            color: #B45309;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .tip-box h4::before {
+            content: "💡";
+        }
+
+        .danger-box {
+            background: var(--danger-light);
+            border: 1px solid #FECACA;
+            border-left: 4px solid var(--danger);
+            padding: 1rem 1.5rem;
+            border-radius: 6px;
+            margin: 1.5rem 0;
+        }
+
+        .danger-box h4 {
+            margin: 0 0 0.5rem 0;
+            color: #991B1B;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .danger-box h4::before {
+            content: "⚠️";
+        }
+
+        .highlight {
+            background: #FEF08A;
+            padding: 0.1rem 0.3rem;
+            border-radius: 3px;
+        }
+
+        .strike {
+            text-decoration: line-through;
+            color: var(--danger);
+        }
+
+        @media (max-width: 768px) {
+            .notebook {
+                padding: 1.5rem;
+            }
+            body {
+                padding: 1rem;
+            }
+        }
+    
+        /* Thêm CSS Responsive cho thiết bị di động */
+        @media (max-width: 768px) {
+            body { padding: 10px; font-size: 16px; }
+            .notebook, .notebook-container { padding: 15px; border-radius: 8px; }
+            .grid-2 { grid-template-columns: 1fr !important; }
+            h1 { font-size: 1.6em; }
+            h2 { font-size: 1.3em; padding-top: 5px; padding-bottom: 5px; margin-top: 20px; }
+            table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; }
+            th, td { padding: 8px; }
+            .card { padding: 15px; }
+            .rule-box, .tip-box, .example-box, .exercise-item { padding: 12px; margin: 15px 0; }
+            .transcript-item { flex-direction: column; }
+            .timestamp { margin-bottom: 5px; }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="notebook">
+        <h1>Ngữ pháp IELTS: So...that - Too...to - Enough...to</h1>
+
+        <section>
+            <h2>1. Cấu trúc SO ... THAT ...</h2>
+            <div class="rule-card">
+                <div class="formula">So + adj/adv + that + S + V (Mệnh đề)</div>
+                <div class="meaning">Ý nghĩa: "...đến nỗi"</div>
+                
+                <ul class="example-list">
+                    <li>
+                        <span class="en-sen">The book was <span class="highlight">so good that</span> I couldn't put it down.</span>
+                        <span class="vi-sen">Quyển sách hay đến nỗi tôi không thể bỏ nó xuống được.</span>
+                    </li>
+                    <li>
+                        <span class="en-sen">She spoke English <span class="highlight">so well that</span> you would think it was her native language.</span>
+                        <span class="vi-sen">Cô ấy nói tiếng Anh giỏi đến nỗi bạn sẽ nghĩ nó là ngôn ngữ bản xứ của cô ấy.</span>
+                    </li>
+                    <li>
+                        <span class="en-sen">It was <span class="highlight">so dark that</span> we could hardly see anything.</span>
+                        <span class="vi-sen">Trời tối đến nỗi chúng tôi hầu như không thể thấy gì.</span>
+                    </li>
+                </ul>
+
+                <div class="tip-box">
+                    <h4>Phân biệt với "So that" (viết liền)</h4>
+                    <p>Đừng nhầm lẫn với cấu trúc <strong>so that</strong> viết liền nhau. <code>So that</code> có nghĩa là <strong>"để" (chỉ mục đích)</strong>.</p>
+                    <p><strong>Ví dụ:</strong> I study hard <strong>so that</strong> I can have a good job in the future. (Tôi học hành chăm chỉ <strong>để</strong> tôi có thể có một công việc tốt trong tương lai).</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>2. Cấu trúc TOO ... TO ...</h2>
+            <div class="rule-card">
+                <div class="formula">Too + adj/adv (+ for sb/sth) + to + V</div>
+                <div class="meaning">Ý nghĩa: "quá... không thể"</div>
+                
+                <div class="tip-box" style="background: var(--secondary-light); border-color: #A7F3D0; border-left-color: var(--secondary);">
+                    <h4 style="color: #065F46;">Lưu ý về Nghĩa Phủ Định</h4>
+                    <p>Bản thân cấu trúc <strong>too...to</strong> đã mang nghĩa phủ định ("không thể") nên <strong>KHÔNG</strong> cần thêm <code>not</code> vào câu nữa.</p>
+                </div>
+
+                <ul class="example-list">
+                    <li>
+                        <span class="en-sen">The tea was <span class="highlight">too hot to</span> drink.</span>
+                        <span class="vi-sen">Trà nóng quá không thể uống được.</span>
+                    </li>
+                    <li>
+                        <span class="en-sen">The tea was <span class="highlight">too hot for me to</span> drink.</span>
+                        <span class="vi-sen">Trà nóng quá tôi không thể uống được.</span>
+                    </li>
+                    <li>
+                        <span class="en-sen">It was <span class="highlight">too dark to</span> go any further.</span>
+                        <span class="vi-sen">Trời tối quá không thể đi xa hơn được nữa.</span>
+                    </li>
+                    <li>
+                        <span class="en-sen">The food was <span class="highlight">too salty for us to</span> eat.</span>
+                        <span class="vi-sen">Đồ ăn mặn quá chúng tôi không thể ăn được.</span>
+                    </li>
+                    <li>
+                        <span class="en-sen">He was <span class="highlight">too short to</span> reach the ceiling.</span>
+                        <span class="vi-sen">Cậu ấy quá thấp không thể với tới trần nhà được.</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>3. Cấu trúc ENOUGH ... TO ...</h2>
+            <div class="rule-card">
+                <div class="meaning">Ý nghĩa: "đủ... để làm gì"</div>
+                <p>Khác với <em>So</em> và <em>Too</em>, vị trí của <strong>Enough</strong> sẽ thay đổi tùy thuộc vào từ loại đi kèm (Tính từ/Trạng từ vs Danh từ).</p>
+
+                <div class="formula" style="background: #E0E7FF; border: 1px dashed var(--primary);">
+                    Adj/Adv + enough (+ for sb/sth) + to + V
+                </div>
+                <p><em>(Enough đứng <strong>SAU</strong> tính từ/trạng từ)</em></p>
+                <ul class="example-list">
+                    <li>
+                        <span class="en-sen">He was <span class="highlight">tall enough</span> to reach the ceiling.</span>
+                        <span class="vi-sen">Cậu ấy đủ cao để với tới cái trần nhà.</span>
+                    </li>
+                    <li>
+                        <span class="en-sen">The bridge was <span class="highlight">wide enough</span> for two cars to pass each other.</span>
+                        <span class="vi-sen">Cái cầu đủ rộng cho 2 xe hơi đi qua.</span>
+                    </li>
+                    <li>
+                        <span class="en-sen">They were <span class="highlight">old enough</span> to get married.</span>
+                        <span class="vi-sen">Họ đủ lớn để kết hôn.</span>
+                    </li>
+                    <li>
+                        <span class="en-sen">This chair isn't <span class="highlight">strong enough</span> for you to stand on.</span>
+                        <span class="vi-sen">Cái ghế này không đủ vững cho bạn đứng lên đâu.</span>
+                    </li>
+                </ul>
+
+                <div class="formula" style="background: #FCE7F3; border: 1px dashed #DB2777; color: #DB2777; margin-top: 2rem;">
+                    Enough + Noun
+                </div>
+                <p><em>(Enough đứng <strong>TRƯỚC</strong> danh từ)</em></p>
+                <ul class="example-list">
+                    <li>
+                        <span class="en-sen">Some of us had to sit on the floor because there weren't <span class="highlight" style="background: #FBCFE8;">enough chairs</span>.</span>
+                        <span class="vi-sen">Một vài người trong chúng tôi phải ngồi dưới sàn vì không có đủ ghế.</span>
+                    </li>
+                    <li>
+                        <span class="en-sen">She worked all summer in order to save <span class="highlight" style="background: #FBCFE8;">enough money</span> for a holiday.</span>
+                        <span class="vi-sen">Cô ấy làm việc cả mùa hè để tiết kiệm đủ tiền cho 1 kỳ nghỉ.</span>
+                    </li>
+                    <li>
+                        <span class="en-sen">Is there <span class="highlight" style="background: #FBCFE8;">enough room</span> for all of us in your car?</span>
+                        <span class="vi-sen">Có đủ chỗ cho tất cả chúng tôi trong xe bạn không?</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>4. LƯU Ý QUAN TRỌNG khi chuyển đổi</h2>
+            <div class="danger-box">
+                <h4>Quy tắc bỏ Túc từ (Tân ngữ) trùng lặp</h4>
+                <p>Khi chuyển từ <strong>So...that</strong> sang <strong>Too...to</strong> hoặc <strong>Enough...to</strong>, nếu túc từ (tân ngữ) của động từ ở vế sau chỉ CÙNG MỘT VẬT với chủ ngữ của câu, <strong>CHÚNG TA BẮT BUỘC PHẢI BỎ TÚC TỪ ĐÓ ĐI</strong>.</p>
+                
+                <div style="margin-top: 1rem; padding: 1rem; background: #fff; border-radius: 6px; border: 1px solid #FECACA;">
+                    <p><strong>Câu gốc (So...that):</strong></p>
+                    <p>The food was so hot that we couldn't eat <span style="font-weight:bold; color:var(--primary);">it</span>.</p>
+                    <p><em>(Ở đây <code>it</code> chính là <code>The food</code>)</em></p>
+                    
+                    <p style="margin-top: 1rem;"><strong>Chuyển đổi (Too...to):</strong></p>
+                    <p>❌ Sai: The food was too hot for us to eat <span class="strike">it</span>.</p>
+                    <p>✅ Đúng: The food was too hot for us to eat.</p>
+                </div>
+
+                <div style="margin-top: 1rem; padding: 1rem; background: #fff; border-radius: 6px; border: 1px solid #FECACA;">
+                    <p><strong>Câu gốc (So...that):</strong></p>
+                    <p>The wallet was so big that I couldn't put <span style="font-weight:bold; color:var(--primary);">it</span> in my pocket.</p>
+                    <p><em>(Ở đây <code>it</code> chính là <code>The wallet</code>)</em></p>
+                    
+                    <p style="margin-top: 1rem;"><strong>Chuyển đổi:</strong></p>
+                    <p>✅ (Too...to): The wallet was too big for me to put in my pocket.</p>
+                    <p>✅ (Enough...to): The wallet was not small enough for me to put in my pocket.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

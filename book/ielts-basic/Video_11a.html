@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Grammar Notebook: Because, Because of, Although, Despite</title>
+    <style>
+        :root {
+            --primary: #4F46E5;
+            --primary-light: #EEF2FF;
+            --text-main: #1F2937;
+            --text-muted: #6B7280;
+            --bg-page: #F3F4F6;
+            --bg-card: #FFFFFF;
+            --border: #E5E7EB;
+            --success: #10B981;
+            --success-light: #D1FAE5;
+            --warning: #F59E0B;
+            --warning-light: #FEF3C7;
+            --danger: #EF4444;
+            --danger-light: #FEE2E2;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-page);
+            margin: 0;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .header {
+            background-color: var(--primary);
+            color: white;
+            padding: 2rem;
+            border-radius: 12px 12px 0 0;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        .header p {
+            margin: 0.5rem 0 0;
+            opacity: 0.9;
+        }
+        .content {
+            background-color: var(--bg-card);
+            padding: 2rem;
+            border-radius: 0 0 12px 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--primary-light);
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+        h3 {
+            color: var(--text-main);
+            margin-top: 1.5rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            background: var(--bg-card);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+            vertical-align: top;
+        }
+        th {
+            background-color: var(--primary-light);
+            color: var(--primary);
+            font-weight: 600;
+            width: 50%;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+        .rule-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--primary);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .rule-card h4 {
+            margin-top: 0;
+            color: var(--primary);
+            font-size: 1.1rem;
+        }
+        .formula {
+            display: inline-block;
+            background: #F8FAFC;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            border: 1px dashed #CBD5E1;
+            font-family: monospace;
+            font-size: 1rem;
+            margin: 0.5rem 0;
+        }
+        .example-box {
+            background: var(--bg-page);
+            padding: 1rem;
+            border-radius: 6px;
+            margin-top: 1rem;
+        }
+        .example-box p {
+            margin: 0.25rem 0;
+        }
+        .transformation {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 0.5rem;
+            font-family: monospace;
+            background: white;
+            padding: 0.5rem;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+        }
+        .arrow {
+            color: var(--primary);
+            font-weight: bold;
+        }
+        .tip-box {
+            background: var(--warning-light);
+            border-left: 4px solid var(--warning);
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+        .tip-box strong {
+            color: #B45309;
+        }
+        .tag {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: var(--primary-light);
+            color: var(--primary);
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .highlight {
+            color: var(--primary);
+            font-weight: 600;
+        }
+    
+        /* Thêm CSS Responsive cho thiết bị di động */
+        @media (max-width: 768px) {
+            body { padding: 10px; font-size: 16px; }
+            .notebook, .notebook-container { padding: 15px; border-radius: 8px; }
+            .grid-2 { grid-template-columns: 1fr !important; }
+            h1 { font-size: 1.6em; }
+            h2 { font-size: 1.3em; padding-top: 5px; padding-bottom: 5px; margin-top: 20px; }
+            table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; }
+            th, td { padding: 8px; }
+            .card { padding: 15px; }
+            .rule-box, .tip-box, .example-box, .exercise-item { padding: 12px; margin: 15px 0; }
+            .transcript-item { flex-direction: column; }
+            .timestamp { margin-bottom: 5px; }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>IELTS Grammar: Because vs. Because of, Although vs. Despite</h1>
+            <p>Video 11a Notes - Converting Clauses to Phrases</p>
+        </div>
+        
+        <div class="content">
+            <div class="tags">
+                <span class="tag">Grammar Rules</span>
+                <span class="tag">Clause to Phrase</span>
+                <span class="tag">Conjunctions</span>
+            </div>
+
+            <h2>1. Overview of Structures</h2>
+            <p>The words for "because" and "although" are divided into two main grammatical groups based on what follows them:</p>
+            
+            <table>
+                <tr>
+                    <th>+ Clause (Subject + Verb)</th>
+                    <th>+ Noun / Pronoun / Gerund Phrase (V-ing)</th>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Reason:</strong><br>
+                        - because
+                    </td>
+                    <td>
+                        <strong>Reason:</strong><br>
+                        - because of<br>
+                        - due to
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Concession (Mặc dù):</strong><br>
+                        - although<br>
+                        - though<br>
+                        - even though
+                    </td>
+                    <td>
+                        <strong>Concession (Mặc dù):</strong><br>
+                        - despite<br>
+                        - in spite of
+                    </td>
+                </tr>
+            </table>
+
+            <h2>2. Conversion Rules: From Clause to Phrase</h2>
+            <p>Converting from a clause (used with <i>because/although</i>) to a phrase (used with <i>because of/despite</i>) can be challenging. Here are 5 common rules depending on the sentence structure:</p>
+
+            <div class="rule-card">
+                <h4>Rule 1: The subjects of both clauses are the SAME</h4>
+                <p>If the subject of the dependent clause is the same as the subject of the main clause, you can simply drop the subject and change the verb to <strong>V-ing</strong>.</p>
+                <div class="formula">Subject + Verb ➔ V-ing</div>
+                <div class="example-box">
+                    <p><strong>Example 1:</strong></p>
+                    <p>He had an accident <span class="highlight">because he drove too fast.</span></p>
+                    <div class="transformation">
+                        <span>because he drove too fast</span>
+                        <span class="arrow">➔</span>
+                        <span>because of driving too fast</span>
+                    </div>
+                    
+                    <p style="margin-top: 1rem;"><strong>Example 2:</strong></p>
+                    <p>She stayed at home <span class="highlight">because she felt unwell.</span></p>
+                    <div class="transformation">
+                        <span>because she felt unwell</span>
+                        <span class="arrow">➔</span>
+                        <span>because of feeling unwell</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rule-card">
+                <h4>Rule 2: Subject is "It" + Verb + Adverb</h4>
+                <p>If the dependent clause follows the structure "It + V + Adv" (often used for weather), convert it to a noun phrase: change "It" to "The", convert the Verb to a Noun, and convert the Adverb to an Adjective placed before the noun.</p>
+                <div class="formula">It + V + Adv ➔ The + Adj + Noun</div>
+                <div class="example-box">
+                    <p><strong>Example:</strong></p>
+                    <p>The match was cancelled <span class="highlight">because it rained heavily.</span></p>
+                    <div class="transformation">
+                        <span>because it rained heavily</span>
+                        <span class="arrow">➔</span>
+                        <span>because of the heavy rain</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rule-card">
+                <h4>Rule 3: Subject is a Pronoun + Verb + Adverb</h4>
+                <p>If the subject is a personal pronoun (he, she, they, we...), convert the pronoun to a possessive adjective (his, her, their, our...), the verb to a noun, and the adverb to an adjective.</p>
+                <div class="formula">Pronoun + V + Adv ➔ Possessive Adj + Adj + Noun</div>
+                <div class="example-box">
+                    <p><strong>Example:</strong></p>
+                    <p>She got promoted <span class="highlight">because she contributed greatly</span> to our company.</p>
+                    <div class="transformation">
+                        <span>because she contributed greatly</span>
+                        <span class="arrow">➔</span>
+                        <span>because of her great contributions</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rule-card">
+                <h4>Rule 4: Subject is a Pronoun + "To be" + Adjective</h4>
+                <p>If the clause describes a characteristic using "to be", drop the "to be" verb, change the pronoun to a possessive adjective, and convert the adjective into a noun.</p>
+                <div class="formula">Pronoun + to be + Adj ➔ Possessive Adj + Noun</div>
+                <div class="example-box">
+                    <p><strong>Example:</strong></p>
+                    <p>I like her <span class="highlight">because she is beautiful.</span></p>
+                    <div class="transformation">
+                        <span>because she is beautiful</span>
+                        <span class="arrow">➔</span>
+                        <span>because of her beauty</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rule-card">
+                <h4>Rule 5: Subject is a Noun + "To be" + Adjective</h4>
+                <p>If the subject is a noun (e.g., the weather, the salary), change the structure to "The + Adjective + Noun" and drop the "to be" verb.</p>
+                <div class="formula">The + Noun + to be + Adj ➔ The + Adj + Noun</div>
+                <div class="example-box">
+                    <p><strong>Example 1:</strong></p>
+                    <p>We went for a walk <span class="highlight">because the weather was nice.</span></p>
+                    <div class="transformation">
+                        <span>because the weather was nice</span>
+                        <span class="arrow">➔</span>
+                        <span>because of the nice weather</span>
+                    </div>
+
+                    <p style="margin-top: 1rem;"><strong>Example 2:</strong></p>
+                    <p><span class="highlight">Although the salary was low,</span> he decided to accept the job.</p>
+                    <div class="transformation">
+                        <span>Although the salary was low</span>
+                        <span class="arrow">➔</span>
+                        <span>Despite the low salary</span>
+                    </div>
+                </div>
+            </div>
+
+            <h2>3. Important Tips & Warnings</h2>
+            
+            <div class="tip-box">
+                <p><strong>⚠️ Warning: Do not use "still" with Although/Though/Even though</strong></p>
+                <p>In Vietnamese, we often say "Mặc dù... nhưng vẫn..." (Although... still...). In English, the conjunctions of concession (although, despite, etc.) already carry the meaning of contrast. Adding "still" in the main clause is unnatural or redundant in most cases.</p>
+                
+                <p style="margin-top: 1rem;"><i>Vietnamese:</i> Chúng tôi vẫn ra ngoài mặc dù trời mưa to.</p>
+                <ul>
+                    <li><span style="color: var(--danger)">✗ Incorrect:</span> We <strong>still</strong> went out although it rained heavily.</li>
+                    <li><span style="color: var(--success)">✓ Correct:</span> We went out although it rained heavily.</li>
+                </ul>
+            </div>
+            
+            <div class="tip-box">
+                <p><strong>💡 Passive Voice in V-ing Phrase</strong></p>
+                <p>If the verb in the dependent clause is in the passive voice (was/were + V3/ed) and you apply Rule 1 (same subject), the gerund phrase must be in the passive form: <strong>being + V3/ed</strong>.</p>
+                <ul>
+                    <li><i>Although he behaved impolitely, <span class="highlight">he wasn't punished.</span></i></li>
+                    <li>➔ <i>Despite behaving impolitely, he wasn't punished.</i></li>
+                </ul>
+                <p>Note: the passive verb "wasn't punished" remains intact in the main clause, but if the dependent clause was passive, e.g., "because they were tired" ➔ "because of being tired".</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

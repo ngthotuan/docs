@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video 05b: Active - Passive Voice Exercises</title>
+    <style>
+        :root {
+            --primary: #4A90E2;
+            --secondary: #F5F7FA;
+            --text-dark: #333;
+            --text-light: #666;
+            --danger: #E74C3C;
+            --success: #2ECC71;
+            --warning: #F1C40F;
+            --border: #E1E8ED;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--secondary);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary), #357ABD);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.2rem;
+        }
+
+        .header p {
+            margin: 0;
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            border: 1px solid var(--border);
+        }
+
+        .card h2 {
+            color: var(--primary);
+            margin-top: 0;
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .takeaways {
+            background-color: #FEF9E7;
+            border-left: 4px solid var(--warning);
+        }
+
+        .takeaways h2 {
+            color: #D4AC0D;
+            border-bottom-color: #FDEBD0;
+        }
+
+        .exercise-item {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed var(--border);
+        }
+
+        .exercise-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .incorrect {
+            color: var(--danger);
+            text-decoration: line-through;
+            font-weight: 500;
+        }
+
+        .correct {
+            color: var(--success);
+            font-weight: 600;
+        }
+
+        .explanation {
+            font-size: 0.95rem;
+            color: var(--text-light);
+            margin-top: 5px;
+            background: #F8F9F9;
+            padding: 8px 12px;
+            border-radius: 6px;
+            border-left: 3px solid var(--primary);
+        }
+
+        .sentence-pair {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+
+        .active-sentence {
+            background-color: #FDFEFE;
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #EAEDED;
+        }
+
+        .passive-sentence {
+            background-color: #EAF2F8;
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #D4E6F1;
+            position: relative;
+        }
+
+        .passive-sentence::before {
+            content: '→';
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--primary);
+            font-weight: bold;
+        }
+        
+        .translate-pair {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+        
+        .translate-vn {
+            font-weight: 500;
+        }
+        
+        .translate-en {
+            color: var(--primary);
+            padding-left: 15px;
+            border-left: 2px solid var(--primary);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        code {
+            background-color: #F4F6F7;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: Consolas, monospace;
+            color: #C0392B;
+        }
+
+        .highlight-box {
+            background-color: #E8F8F5;
+            border: 1px solid #A3E4D7;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        .highlight-box h3 {
+            color: #117A65;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+    
+        /* Thêm CSS Responsive cho thiết bị di động */
+        @media (max-width: 768px) {
+            body { padding: 10px; font-size: 16px; }
+            .notebook, .notebook-container { padding: 15px; border-radius: 8px; }
+            .grid-2 { grid-template-columns: 1fr !important; }
+            h1 { font-size: 1.6em; }
+            h2 { font-size: 1.3em; padding-top: 5px; padding-bottom: 5px; margin-top: 20px; }
+            table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; }
+            th, td { padding: 8px; }
+            .card { padding: 15px; }
+            .rule-box, .tip-box, .example-box, .exercise-item { padding: 12px; margin: 15px 0; }
+            .transcript-item { flex-direction: column; }
+            .timestamp { margin-bottom: 5px; }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Sửa bài tập: Chủ động & Bị động</h1>
+            <p>Video 05b - IELTS Grammar Notes</p>
+        </header>
+
+        <section class="card takeaways">
+            <h2>💡 Key Takeaways & Grammar Rules</h2>
+            <div class="highlight-box">
+                <h3>1. Cấu trúc cơ bản của Câu bị động</h3>
+                <p>Công thức chung: <code>S + To be + V3/ed + (by O)</code>.</p>
+                <p>Lỗi sai phổ biến nhất là thiếu động từ <b>to be</b> hoặc chia sai dạng <b>V3/ed</b>.</p>
+            </div>
+            <ul>
+                <li><b>Động từ khiếm khuyết (Modal Verbs):</b> <code>Modal + be + V3/ed</code> (VD: can't be explained, should be returned, might be thrown).</li>
+                <li><b>Giới từ (Prepositions):</b> Sau giới từ như <i>before, after</i>, động từ phải ở dạng V-ing. Do đó dạng bị động sẽ là <code>before/after + being + V3/ed</code> (VD: after being arrested, before being put).</li>
+                <li><b>Động từ Need:</b> Bị động của need là <code>need to be V3/ed</code> (VD: needs to be tackled).</li>
+                <li><b>Vị trí trạng từ (Adverbs):</b> Trạng từ thường được đặt giữa động từ <i>to be</i> và <i>V3/ed</i> (VD: is <i>seriously</i> polluted, was <i>spelt</i> correctly).</li>
+                <li><b>Cụm từ chỉ thời gian:</b> Các cụm từ như <i>When I was young</i> là dấu hiệu của thì Quá khứ đơn, nên động từ ở vế trước hoặc sau đó cũng phải chia ở Quá khứ đơn (VD: I learned to swim when I was young).</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>📝 Exercise 1: Error Correction</h2>
+            <p>Phát hiện và sửa lỗi sai trong các câu sau:</p>
+            
+            <div class="exercise-item">
+                1. These waste glass bottles <span class="incorrect">sorted</span> by colour and washed by high-pressure water.
+                <br>→ <span class="correct">are sorted</span>
+                <div class="explanation">Thiếu động từ "to be" (are) cho thì hiện tại đơn.</div>
+            </div>
+
+            <div class="exercise-item">
+                2. Any impurities are <span class="incorrect">remove</span>.
+                <br>→ <span class="correct">removed</span>
+                <div class="explanation">Động từ chính phải ở dạng V3/ed.</div>
+            </div>
+
+            <div class="exercise-item">
+                3. With this kind of law, people have no choice and <span class="incorrect">forced</span> to use buses and trains.
+                <br>→ <span class="correct">are forced</span>
+                <div class="explanation">Thiếu động từ "to be" (are).</div>
+            </div>
+
+            <div class="exercise-item">
+                4. Athens only <span class="incorrect">was allowed</span> a certain number of cars into the city centre in the past.
+                <br>→ <span class="correct">allowed</span>
+                <div class="explanation">Dùng sai thể. Câu này mang nghĩa chủ động (Athens cho phép...), không phải bị động.</div>
+            </div>
+
+            <div class="exercise-item">
+                5. Nowadays, air pollution <span class="incorrect">is affected</span> us all.
+                <br>→ <span class="correct">affects</span>
+                <div class="explanation">Dùng sai thể. Ô nhiễm không khí ảnh hưởng đến chúng ta (chủ động).</div>
+            </div>
+
+            <div class="exercise-item">
+                6. This area is <span class="incorrect">surround</span> by water.
+                <br>→ <span class="correct">surrounded</span>
+                <div class="explanation">Động từ chính phải ở dạng V3/ed.</div>
+            </div>
+
+            <div class="exercise-item">
+                7. The flowchart shows how banana chips <span class="incorrect">made</span>.
+                <br>→ <span class="correct">are made</span>
+                <div class="explanation">Thiếu động từ "to be" (are).</div>
+            </div>
+
+            <div class="exercise-item">
+                8. The way we live <span class="incorrect">has affected</span> in a big way by things like the Internet...
+                <br>→ <span class="correct">has been affected</span>
+                <div class="explanation">Câu bị động thì Hiện tại hoàn thành: <code>have/has + been + V3/ed</code>.</div>
+            </div>
+
+            <div class="exercise-item">
+                9. A mystery is something that can't <span class="incorrect">explained</span>.
+                <br>→ <span class="correct">be explained</span>
+                <div class="explanation">Bị động với Modal verb: <code>can + be + V3/ed</code>.</div>
+            </div>
+
+            <div class="exercise-item">
+                10. If I didn't do my job properly, I would be <span class="incorrect">sack</span>.
+                <br>→ <span class="correct">sacked</span>
+                <div class="explanation">Động từ chính phải ở dạng V3/ed.</div>
+            </div>
+
+            <div class="exercise-item">
+                11. I haven't received the letter. It might be <span class="incorrect">send</span> to the wrong address.
+                <br>→ <span class="correct">sent</span>
+                <div class="explanation">Động từ chính phải ở dạng V3 (send -> sent).</div>
+            </div>
+
+            <div class="exercise-item">
+                12. All travel expenses for this training course must be <span class="incorrect">pay</span> by employers.
+                <br>→ <span class="correct">paid</span>
+                <div class="explanation">Động từ chính phải ở dạng V3 (pay -> paid).</div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>🔄 Exercise 2: Active to Passive</h2>
+            <p>Chuyển các câu chủ động sau sang bị động:</p>
+
+            <div class="sentence-pair">
+                <div class="active-sentence">1. They take the fruit to the cannery in large trucks.</div>
+                <div class="passive-sentence">The fruit is taken to the cannery in large trucks.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">2. You should return completed questionnaires to this address.</div>
+                <div class="passive-sentence">Completed questionnaires should be returned to this address.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">3. They check the fruit before storage and they reject any poor quality fruit.</div>
+                <div class="passive-sentence">The fruit is checked before storage and any poor quality fruit is rejected.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">4. They advise you to return the application form within three days.</div>
+                <div class="passive-sentence">You are advised to return the application form within three days.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">5. Schools should not allow fast food restaurants to sell their products to students.</div>
+                <div class="passive-sentence">Fast food restaurants should not be allowed to sell their products to students.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">6. They place the chemicals in the beaker.</div>
+                <div class="passive-sentence">The chemicals are placed in the beaker.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">7. They made these regulations to protect children.</div>
+                <div class="passive-sentence">These regulations were made to protect children.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">8. John spelt that word correctly.</div>
+                <div class="passive-sentence">That word was spelt correctly.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">9. Police used tear gas to disperse the crowds.</div>
+                <div class="passive-sentence">Tear gas was used to disperse the crowds.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">10. They used the building as a warehouse.</div>
+                <div class="passive-sentence">The building was used as a warehouse.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">11. People often use 'Ethics' and 'morality' interchangeably.</div>
+                <div class="passive-sentence">'Ethics' and 'morality' are often used interchangeably.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">12. They do not allow candidates to use dictionaries in the exam.</div>
+                <div class="passive-sentence">Candidates are not allowed to use dictionaries in the exam.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">13. They sometimes use the church as a concert venue.</div>
+                <div class="passive-sentence">The church is sometimes used as a concert venue.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">14. They have repaired the damage to the ship.</div>
+                <div class="passive-sentence">The damage to the ship has been repaired.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">15. We had to return the hairdryer to the store because it was faulty.</div>
+                <div class="passive-sentence">The hairdryer had to be returned to the store because it was faulty.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">16. They make wine from grapes.</div>
+                <div class="passive-sentence">Wine is made from grapes.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">17. He wrote this book in 1990 and publish it one year later.</div>
+                <div class="passive-sentence">This book was written in 1990 and published one year later.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">18. They collect used glass from different sources.</div>
+                <div class="passive-sentence">Used glass is collected from different sources.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">19. They recycle these materials into other packaging products.</div>
+                <div class="passive-sentence">These materials are recycled into other packaging products.</div>
+            </div>
+            
+            <div class="sentence-pair">
+                <div class="active-sentence">20. They can't make tea with cold water.</div>
+                <div class="passive-sentence">Tea can't be made with cold water.</div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>✍️ Exercise 3: Translation & Sentence Building</h2>
+            <p>Dịch câu hoặc hoàn thành câu với từ cho sẵn:</p>
+
+            <div class="translate-pair">
+                <div class="translate-vn">1. Đầu tiên, đất sét được đào lên khỏi mặt đất.</div>
+                <div class="translate-en">First, clay is dug out of the ground.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">2. Sau đó, nó được trộn với cát và nước trước khi được đặt vào 1 cái khuôn để tạo ra gạch.</div>
+                <div class="translate-en">After that, it is mixed with sand and water <b>before being put</b> in a mould to make bricks.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">3. Căn nhà được sơn ngày hôm qua.</div>
+                <div class="translate-en">The house was painted yesterday.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">4. Chiếc máy tính đã bị đánh cắp cách đây vài ngày.</div>
+                <div class="translate-en">The computer/laptop was stolen several days ago.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">5. Những chiếc máy này được sử dụng để cắt gạch.</div>
+                <div class="translate-en">These machines are used to cut bricks.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">6. Mọi người nên được khuyến khích sử dụng phương tiện công cộng.</div>
+                <div class="translate-en">People should be encouraged to use public transport.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">7. Sô cô la được làm từ hạt cocoa.</div>
+                <div class="translate-en">Chocolate is made from cocoa beans.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">8. Những địa điểm công nghiệp mới sẽ được xây dựng xa trung tâm thành thị lớn.</div>
+                <div class="translate-en">New industrial sites will be built away from large urban centres.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">9. Vấn đề này cần được giải quyết ngay lập tức.</div>
+                <div class="translate-en">This problem <b>needs to be tackled</b> immediately.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">10. Hàng năm, một diện tích rừng lớn đã bị chặt cho những mục đích khác nhau.</div>
+                <div class="translate-en">Every year, a large area of forests is cut down for different purposes.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">11. Ở các thành phố lớn, không khí bị ô nhiễm một cách nghiêm trọng.</div>
+                <div class="translate-en">In big/major cities, the air is <b>seriously polluted</b>.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">12. Những cái chai này sẽ được vận chuyển tới nhà bạn bằng 1 chiếc xe tải lớn.</div>
+                <div class="translate-en">These bottles will be transported to your house by a big truck.</div>
+            </div>
+            
+            <hr style="border: 0; border-top: 1px dashed var(--border); margin: 25px 0;">
+            
+            <div class="translate-pair">
+                <div class="translate-vn">13. The concert/ hold/ at the university/ next week.</div>
+                <div class="translate-en">The concert will be held at the university next week.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">14. As a child/ I/ surround/ by love and kindness.</div>
+                <div class="translate-en">As a child, I was surrounded by love and kindness.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">15. A few years ago/ the floods/ cause/ heavy rainfall in the mountains.</div>
+                <div class="translate-en">A few years ago, the floods were caused by heavy rainfall in the mountains.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">16. Last year/ the ship/ blow/ onto the rocks.</div>
+                <div class="translate-en">Last year, the ship was blown onto the rocks.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">17. Last year/ samples/ collect/ from over 200 patients.</div>
+                <div class="translate-en">Last year, samples were collected from over 200 patients.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">18. The car/ steal/ 1999.</div>
+                <div class="translate-en">The car was stolen in 1999.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">19. Nowadays/ these examination papers/ score/ by machine.</div>
+                <div class="translate-en">Nowadays, these examination papers are scored by machine.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">20. Yesterday/ after/ arrest/ he/ take/ the police station.</div>
+                <div class="translate-en">Yesterday <b>after being arrested</b>, he was taken to the police station.</div>
+            </div>
+
+            <div class="translate-pair">
+                <div class="translate-vn">21. I/ leave/ some papers/ on the desk/ last night/ and I think/ they/ might/ throw/ away.</div>
+                <div class="translate-en">I left some papers on the desk last night and I think they <b>might be thrown</b> away.</div>
+            </div>
+
+            <div class="translate-vn">22. I/ learn/ swim/ when/ I/ very young/ and I/ teach/ by my mother.</div>
+            <div class="translate-en">I learned to swim when I was very young and I was taught by my mother.</div>
+        </section>
+    </div>
+</body>
+</html>

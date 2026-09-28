@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notebook: Mệnh đề quan hệ (Relative Clauses)</title>
+    <style>
+        :root {
+            --primary: #4F46E5;
+            --primary-light: #E0E7FF;
+            --secondary: #10B981;
+            --secondary-light: #D1FAE5;
+            --danger: #EF4444;
+            --danger-light: #FEE2E2;
+            --warning: #F59E0B;
+            --warning-light: #FEF3C7;
+            --dark: #1F2937;
+            --light: #F3F4F6;
+            --white: #FFFFFF;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+            margin: 0;
+            padding: 2rem;
+        }
+
+        .notebook-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: var(--white);
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary), #3B82F6);
+            color: var(--white);
+            padding: 2.5rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+        
+        .header p {
+            opacity: 0.9;
+            margin-top: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .content {
+            padding: 2.5rem;
+        }
+
+        .section-title {
+            color: var(--primary);
+            border-bottom: 2px solid var(--primary-light);
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+        }
+
+        .card {
+            background-color: var(--white);
+            border: 1px solid #E5E7EB;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+            transition: transform 0.2s;
+        }
+        
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .rule-box {
+            background-color: var(--primary-light);
+            border-left: 4px solid var(--primary);
+            padding: 1rem 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .rule-box h4 {
+            color: var(--primary);
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+        }
+
+        .tip-box {
+            background-color: var(--warning-light);
+            border-left: 4px solid var(--warning);
+            padding: 1rem 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .tip-box h4 {
+            color: #B45309;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #E5E7EB;
+        }
+
+        th {
+            background-color: var(--light);
+            color: var(--dark);
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background-color: #F9FAFB;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-right: 0.5rem;
+        }
+
+        .tag-person { background-color: #DBEAFE; color: #1E40AF; }
+        .tag-thing { background-color: #D1FAE5; color: #065F46; }
+        .tag-place { background-color: #FEF3C7; color: #92400E; }
+        .tag-time { background-color: #FCE7F3; color: #9D174D; }
+        .tag-reason { background-color: #F3E8FF; color: #6B21A8; }
+
+        .example {
+            background-color: #F9FAFB;
+            padding: 1rem;
+            border-radius: 6px;
+            border-left: 3px solid #9CA3AF;
+            margin: 1rem 0;
+            font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+        }
+
+        .incorrect {
+            color: var(--danger);
+            text-decoration: line-through;
+        }
+
+        .correct {
+            color: var(--secondary);
+            font-weight: 500;
+        }
+        
+        .highlight {
+            font-weight: bold;
+            color: var(--primary);
+        }
+        
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+        
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+        }
+    
+        /* Thêm CSS Responsive cho thiết bị di động */
+        @media (max-width: 768px) {
+            body { padding: 10px; font-size: 16px; }
+            .notebook, .notebook-container { padding: 15px; border-radius: 8px; }
+            .grid-2 { grid-template-columns: 1fr !important; }
+            h1 { font-size: 1.6em; }
+            h2 { font-size: 1.3em; padding-top: 5px; padding-bottom: 5px; margin-top: 20px; }
+            table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; }
+            th, td { padding: 8px; }
+            .card { padding: 15px; }
+            .rule-box, .tip-box, .example-box, .exercise-item { padding: 12px; margin: 15px 0; }
+            .transcript-item { flex-direction: column; }
+            .timestamp { margin-bottom: 5px; }
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="notebook-container">
+    <div class="header">
+        <h1>Mệnh Đề Quan Hệ</h1>
+        <p>Relative Clauses in English Grammar</p>
+    </div>
+
+    <div class="content">
+        <!-- 1. TỔNG QUAN -->
+        <h2 class="section-title">1. Tổng Quan (Overview)</h2>
+        <div class="card">
+            <p>Mệnh đề quan hệ được sử dụng để <strong>kết nối hai câu đơn</strong> lại với nhau khi chúng cùng chỉ về một chủ thể (người, vật, sự việc, hiện tượng,...), giúp câu văn trở nên súc tích và bớt lủng củng hơn.</p>
+            
+            <div class="example">
+                <div>Sentence 1: The girl is very friendly.</div>
+                <div>Sentence 2: She lives next door.</div>
+                <div style="margin-top: 10px;"><strong>Combined:</strong> The girl <span class="highlight">who lives next door</span> is very friendly.</div>
+            </div>
+        </div>
+
+        <!-- 2. ĐẠI TỪ QUAN HỆ -->
+        <h2 class="section-title">2. Đại Từ Quan Hệ (Relative Pronouns)</h2>
+        <div class="rule-box">
+            <h4>Quy tắc cốt lõi</h4>
+            <p>Đại từ quan hệ / Trạng từ quan hệ <strong>BẮT BUỘC phải đặt ngay sau danh từ mà nó bổ nghĩa.</strong></p>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Đại từ / Trạng từ</th>
+                    <th>Dùng cho</th>
+                    <th>Ví dụ</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="tag tag-person">who</span></td>
+                    <td>Người (Subject/Object)</td>
+                    <td>The man <strong>who</strong> repaired my car is an expert.</td>
+                </tr>
+                <tr>
+                    <td><span class="tag tag-thing">which</span></td>
+                    <td>Vật, đồ vật, sự việc</td>
+                    <td>The car <strong>which</strong> won the race looked wonderful.</td>
+                </tr>
+                <tr>
+                    <td><span class="tag tag-person">that</span></td>
+                    <td>Người / Sự vật / Đồ vật</td>
+                    <td>(Có thể thay thế cho who/which trong MĐQH xác định)</td>
+                </tr>
+                <tr>
+                    <td><span class="tag tag-place">where</span></td>
+                    <td>Nơi chốn</td>
+                    <td>The house <strong>where</strong> I used to live is empty now.</td>
+                </tr>
+                <tr>
+                    <td><span class="tag tag-time">when</span></td>
+                    <td>Thời gian</td>
+                    <td>That was the time <strong>when</strong> he run the company.</td>
+                </tr>
+                <tr>
+                    <td><span class="tag tag-reason">why</span></td>
+                    <td>Lý do</td>
+                    <td>Please tell me the reason <strong>why</strong> she left.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- 3. QUY TẮC DẤU PHẨY -->
+        <h2 class="section-title">3. Quy Tắc Dấu Phẩy (Commas in Relative Clauses)</h2>
+        <div class="grid-2">
+            <div class="card" style="border-top: 4px solid var(--secondary);">
+                <h3 style="color: var(--secondary); margin-top: 0;">CÓ DẤU PHẨY (Non-defining)</h3>
+                <p>Sử dụng dấu phẩy khi danh từ đứng trước <strong>đã xác định rõ ràng</strong> (người nói và người nghe đều biết đó là ai/cái gì).</p>
+                <ul>
+                    <li>Khi có các từ chỉ định: <strong>this, that, these, those...</strong></li>
+                    <li>Khi là <strong>Tên riêng</strong> (Hanoi, Mr. Carter,...).</li>
+                    <li>Khi mệnh đề quan hệ bổ nghĩa cho <strong>toàn bộ sự việc ở vế trước</strong> (dùng <em>which</em>).</li>
+                </ul>
+                <div class="example">
+                    <em>That man</em>, who repaired my car yesterday, is a real expert.<br><br>
+                    It rained all night, <em>which</em> was good for the garden.
+                </div>
+            </div>
+
+            <div class="card" style="border-top: 4px solid var(--primary);">
+                <h3 style="color: var(--primary); margin-top: 0;">KHÔNG DẤU PHẨY (Defining)</h3>
+                <p>Không dùng dấu phẩy khi danh từ đứng trước <strong>chưa xác định</strong> (người nghe chưa biết rõ chủ thể là ai/cái gì).</p>
+                <ul>
+                    <li>Khi đi với các mạo từ: <strong>the, a, an...</strong> cộng với danh từ chung chung (man, person, place,...).</li>
+                </ul>
+                <div class="example">
+                    <em>The man</em> who repaired my car yesterday is a real expert.<br><br>
+                    <em>The person</em> who I spoke to is very interesting.
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. RÚT GỌN MỆNH ĐỀ QUAN HỆ -->
+        <h2 class="section-title">4. Rút Gọn Mệnh Đề Quan Hệ (Reduced Relative Clauses)</h2>
+        
+        <div class="grid-2">
+            <div class="card">
+                <h3>A. Thể Chủ Động (Active)</h3>
+                <p><strong>Quy tắc:</strong></p>
+                <ol>
+                    <li>Bỏ đại từ quan hệ (who, which, that).</li>
+                    <li>Chỉ giữ lại động từ chính và chuyển thành dạng <strong>V-ing</strong>.</li>
+                </ol>
+                <div class="example">
+                    <strong>Gốc:</strong> The man <span class="incorrect">who repaired</span> my car...<br>
+                    <strong>Rút gọn:</strong> The man <span class="correct">repairing</span> my car...<br><br>
+                    <strong>Gốc:</strong> The girl <span class="incorrect">who is sitting</span> next to you...<br>
+                    <strong>Rút gọn:</strong> The girl <span class="correct">sitting</span> next to you...
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>B. Thể Bị Động (Passive)</h3>
+                <p><strong>Quy tắc:</strong></p>
+                <ol>
+                    <li>Bỏ đại từ quan hệ (who, which, that).</li>
+                    <li>Bỏ động từ "to be".</li>
+                    <li>Chỉ giữ lại động từ ở dạng <strong>V3/ed (Past Participle)</strong>.</li>
+                </ol>
+                <div class="example">
+                    <strong>Gốc:</strong> The boy <span class="incorrect">who was injured</span> in the accident...<br>
+                    <strong>Rút gọn:</strong> The boy <span class="correct">injured</span> in the accident...<br><br>
+                    <strong>Gốc:</strong> The house <span class="incorrect">which was built</span> 2 years ago...<br>
+                    <strong>Rút gọn:</strong> The house <span class="correct">built</span> 2 years ago...
+                </div>
+            </div>
+        </div>
+        
+        <div class="tip-box">
+            <h4>Mẹo nhận biết động từ chính khi rút gọn</h4>
+            <p>Trong câu "who is sitting", <em>sitting</em> mới là động từ chính có nghĩa của câu (ngồi), còn <em>is</em> chỉ là trợ động từ. Do đó khi rút gọn chủ động, ta bỏ to be và giữ lại <em>sitting</em>.</p>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
