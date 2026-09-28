@@ -85,15 +85,46 @@
         
         .loading { text-align: center; padding: 50px; color: #999; font-size: 1.2em; }
         
-        @media (max-width: 900px) {
-            body { flex-direction: column; }
-            #sidebar { width: 100%; height: 35vh; border-right: none; border-bottom: 1px solid #ddd; }
-            #content-wrapper { height: 65vh; padding: 15px; }
-            #content-area { padding: 20px; }
+                
+        /* Mobile Hamburger & Overlay */
+        #mobile-header {
+            display: none;
+            background: var(--primary);
+            color: #fff;
+            padding: 15px 20px;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 1000;
         }
-    
-        /* CSS FROM VIDEOS */
+        #mobile-header h2 { margin: 0; font-size: 1.1em; color: #fff; border: none; padding: 0; background: none; }
+        #menu-toggle {
+            background: none; border: none; color: #fff; font-size: 1.5em; cursor: pointer;
+        }
+        #sidebar-overlay {
+            display: none;
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.5); z-index: 1001;
+        }
+        
+        @media (max-width: 900px) {
+            body { display: block; overflow: auto; height: auto; }
+            #mobile-header { display: flex; }
+            #content-wrapper { height: auto; padding: 15px; margin-top: 60px; overflow-y: visible; }
+            #content-area { padding: 15px; min-height: 80vh; }
+            
+            /* Sidebar becomes off-canvas */
+            #sidebar {
+                position: fixed; top: 0; left: -320px; bottom: 0;
+                width: 300px; height: 100vh;
+                z-index: 1002;
+                transition: left 0.3s ease;
+            }
+            #sidebar.open { left: 0; }
+        }
 
+        /* CSS FROM VIDEOS */
         :root {
             --primary-color: #2c3e50;
             --secondary-color: #34495e;
@@ -246,6 +277,11 @@
     </style>
 </head>
 <body>
+    <div id="mobile-header">
+        <h2>IELTS Basic</h2>
+        <button id="menu-toggle">☰</button>
+    </div>
+    <div id="sidebar-overlay"></div>
     <div id="sidebar">
         <!-- The old body html goes here, but we will wrap the a tags with class nav-link -->
         
@@ -369,6 +405,20 @@
     </div>
 
     <script>
+        
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const sidebar = document.getElementById('sidebar');
+        const overlay = document.getElementById('sidebar-overlay');
+        
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            overlay.style.display = sidebar.classList.contains('open') ? 'block' : 'none';
+        }
+        
+        if (menuToggle) menuToggle.addEventListener('click', toggleMenu);
+        if (overlay) overlay.addEventListener('click', toggleMenu);
+        
         // Setup navigation
         document.querySelectorAll('#sidebar a').forEach(link => {
             // skip breadcrumb links
@@ -404,9 +454,11 @@
                     // Scroll top
                     contentWrapper.scrollTop = 0;
                     
-                    // On mobile, scroll to content
+                    // On mobile, scroll to top and close menu
                     if(window.innerWidth <= 900) {
-                        contentWrapper.scrollIntoView({behavior: 'smooth'});
+                        window.scrollTo({top: 0, behavior: 'smooth'});
+                        sidebar.classList.remove('open');
+                        overlay.style.display = 'none';
                     }
                     
                 } catch (err) {
