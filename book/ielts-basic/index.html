@@ -7,30 +7,229 @@
     <style>
         :root {
             --primary: #2c3e50;
+            --secondary: #34495e;
             --accent: #3498db;
+            --accent-color: #e74c3c;
+            --info-color: #2980b9;
             --light-bg: #f8f9fa;
+            --bg-color: #f0f2f5;
         }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; max-width: 900px; margin: 0 auto; padding: 30px; color: #333; background-color: #f0f2f5; }
-        .notebook { background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
-        h1 { color: var(--primary); text-align: center; margin-bottom: 20px; font-size: 2.2em; border-bottom: 2px dashed #ccc; padding-bottom: 20px;}
-        .lesson-group { margin-bottom: 30px; }
-        .lesson-group h2 { color: var(--accent); margin-bottom: 10px; border-left: 4px solid var(--accent); padding-left: 10px; background: var(--light-bg); padding-top: 5px; padding-bottom: 5px; border-radius: 0 5px 5px 0;}
-        ul { list-style: none; padding-left: 0; }
-        li { margin-bottom: 10px; }
-        a { text-decoration: none; color: var(--primary); font-weight: 600; display: block; padding: 10px 15px; background: #fff; border: 1px solid #ddd; border-radius: 8px; transition: all 0.3s ease; }
-        a:hover { background: var(--accent); color: #fff; border-color: var(--accent); transform: translateX(5px); }
-        .type-tag { font-size: 0.8em; padding: 2px 8px; border-radius: 12px; margin-right: 10px; font-weight: bold; }
+        * { box-sizing: border-box; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; padding: 0; 
+            background-color: var(--bg-color); color: #333;
+            display: flex; height: 100vh; overflow: hidden;
+        }
+        
+        /* Sidebar styling */
+        #sidebar {
+            width: 350px; height: 100vh; background: #fff;
+            border-right: 1px solid #ddd; padding: 20px;
+            overflow-y: auto; flex-shrink: 0;
+            box-shadow: 2px 0 10px rgba(0,0,0,0.05);
+        }
+        
+        .breadcrumb { margin-bottom: 20px; font-size: 0.9em; }
+        .breadcrumb a { display: inline; padding: 0; border: none; background: none; color: var(--accent); text-decoration: none; font-weight:600; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb span { color: #999; margin: 0 5px; }
+        
+        h1 { font-size: 1.5em; color: var(--primary); margin-bottom: 10px; border-bottom: 2px dashed #ccc; padding-bottom: 15px; text-align: center; }
+        .subtitle { text-align: center; color: #666; font-size: 0.9em; margin-bottom: 25px; }
+        
+        .lesson-group { margin-bottom: 20px; }
+        .lesson-group h2 { font-size: 1.1em; color: var(--accent); margin-bottom: 10px; border-left: 4px solid var(--accent); padding-left: 10px; background: var(--light-bg); padding: 5px 0 5px 10px; border-radius: 0 5px 5px 0; }
+        
+        ul { list-style: none; padding: 0; margin: 0; }
+        li { margin-bottom: 8px; }
+        .nav-link {
+            text-decoration: none; color: var(--primary); font-weight: 600; font-size: 0.9em;
+            display: block; padding: 10px; background: #fff; border: 1px solid #ddd; 
+            border-radius: 8px; transition: all 0.2s ease;
+        }
+        .nav-link:hover, .nav-link.active { background: var(--accent); color: #fff; border-color: var(--accent); transform: translateX(3px); }
+        
+        .type-tag { font-size: 0.8em; padding: 2px 6px; border-radius: 10px; margin-right: 8px; font-weight: bold; display: inline-block; margin-bottom: 4px; }
         .theory { background: #e3f2fd; color: #1976d2; }
         .exercise { background: #fce4ec; color: #c2185b; }
         .intro { background: #e8f5e9; color: #388e3c; }
-        .breadcrumb { margin-bottom: 20px; font-size: 0.9em; }
-        .breadcrumb a { display: inline; padding: 0; border: none; background: none; color: var(--accent); }
-        .breadcrumb a:hover { background: none; color: var(--accent); text-decoration: underline; transform: none; }
-        .breadcrumb span { color: #999; margin: 0 5px; }
+        
+        /* Content area styling */
+        #content-wrapper {
+            flex: 1; height: 100vh; overflow-y: auto; padding: 30px;
+            scroll-behavior: smooth;
+        }
+        #content-area {
+            max-width: 900px; margin: 0 auto; background: #fff;
+            padding: 40px; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            min-height: 80vh;
+        }
+        
+        /* Inside content (from Video_*.html) */
+        #content-area header { text-align: center; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 2px solid #e0e0e0; }
+        #content-area h1 { border: none; font-size: 2.2em; margin-bottom: 5px; }
+        #content-area h2 { color: var(--secondary); border-left: 4px solid var(--accent-color); padding-left: 15px; margin-top: 35px; background: transparent; }
+        #content-area h3 { color: var(--info-color); margin-top: 25px; }
+        
+        .card { background: #fff; padding: 20px; margin-bottom: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.03); border: 1px solid #eee; }
+        .rule-box { background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 15px; margin: 15px 0; border-radius: 4px; }
+        .tip-box { background-color: #e8f5e9; border-left: 4px solid #4caf50; padding: 15px; margin: 15px 0; border-radius: 4px; }
+        .warning-box { background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 15px; margin: 15px 0; border-radius: 4px; }
+        .example-box, .example { background-color: #f5f5f5; padding: 15px; margin: 15px 0; border-radius: 4px; font-style: italic; border-left: 4px solid #9e9e9e; }
+        .highlight { color: #e74c3c; font-weight: bold; }
+        
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
+        th { background-color: #f2f2f2; font-weight: bold; }
+        
+        .loading { text-align: center; padding: 50px; color: #999; font-size: 1.2em; }
+        
+        @media (max-width: 900px) {
+            body { flex-direction: column; }
+            #sidebar { width: 100%; height: 35vh; border-right: none; border-bottom: 1px solid #ddd; }
+            #content-wrapper { height: 65vh; padding: 15px; }
+            #content-area { padding: 20px; }
+        }
     
+        /* CSS FROM VIDEOS */
+
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #e74c3c;
+            --highlight-color: #f1c40f;
+            --bg-color: #f9f9f9;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --border-color: #e0e0e0;
+            --success-color: #27ae60;
+            --info-color: #2980b9;
+        }
+
+        
+
+        
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            border-left: 4px solid var(--accent-color);
+            padding-left: 15px;
+            margin-top: 40px;
+        }
+
+        h3 {
+            color: var(--info-color);
+            margin-top: 25px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            padding: 25px;
+            margin-bottom: 30px;
+            border: 1px solid var(--border-color);
+        }
+
+        .rule-box {
+            background-color: #e8f4fd;
+            border-left: 4px solid var(--info-color);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .warning-box {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .tip-box {
+            background-color: #d4edda;
+            border-left: 4px solid var(--success-color);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: var(--card-bg);
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        .example {
+            font-style: italic;
+            color: #555;
+            margin-top: 5px;
+            display: block;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: var(--accent-color);
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #e2e8f0;
+            color: #4a5568;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+        }
+
         /* Thêm CSS Responsive cho thiết bị di động */
         @media (max-width: 768px) {
-            body { padding: 10px; font-size: 16px; }
+            
             .notebook, .notebook-container { padding: 15px; border-radius: 8px; }
             .grid-2 { grid-template-columns: 1fr !important; }
             h1 { font-size: 1.6em; }
@@ -43,10 +242,14 @@
             .timestamp { margin-bottom: 5px; }
         }
 
+    
     </style>
 </head>
 <body>
-    <div class="notebook">
+    <div id="sidebar">
+        <!-- The old body html goes here, but we will wrap the a tags with class nav-link -->
+        
+    <div>
         <div class="breadcrumb">
             <a href="../../">🏠 Trang chủ</a> <span>›</span> <a href="../">Sách & Khóa học</a> <span>›</span> IELTS Basic
         </div>
@@ -156,5 +359,65 @@
             </ul>
         </div>
     </div>
+
+    </div>
+    
+    <div id="content-wrapper">
+        <div id="content-area">
+            <div class="loading">👈 Chọn một bài học ở menu bên trái để bắt đầu.</div>
+        </div>
+    </div>
+
+    <script>
+        // Setup navigation
+        document.querySelectorAll('#sidebar a').forEach(link => {
+            // skip breadcrumb links
+            if(link.closest('.breadcrumb')) return;
+            
+            link.classList.add('nav-link');
+            
+            link.addEventListener('click', async (e) => {
+                e.preventDefault();
+                
+                // Update active state
+                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                link.classList.add('active');
+                
+                // Show loading
+                const contentArea = document.getElementById('content-area');
+                const contentWrapper = document.getElementById('content-wrapper');
+                contentArea.innerHTML = '<div class="loading">Đang tải nội dung...</div>';
+                
+                // Fetch content
+                const url = link.getAttribute('href');
+                try {
+                    const res = await fetch(url);
+                    const html = await res.text();
+                    
+                    // Parse HTML and extract .container or body
+                    const parser = new DOMParser();
+                    const doc = parser.parseFromString(html, 'text/html');
+                    const container = doc.querySelector('.container') || doc.body;
+                    
+                    contentArea.innerHTML = container.innerHTML;
+                    
+                    // Scroll top
+                    contentWrapper.scrollTop = 0;
+                    
+                    // On mobile, scroll to content
+                    if(window.innerWidth <= 900) {
+                        contentWrapper.scrollIntoView({behavior: 'smooth'});
+                    }
+                    
+                } catch (err) {
+                    contentArea.innerHTML = '<div class="loading" style="color:red;">Lỗi khi tải nội dung: ' + err.message + '</div>';
+                }
+            });
+        });
+        
+        // Auto load first lesson
+        const firstLink = document.querySelector('#sidebar .lesson-group a');
+        if(firstLink) firstLink.click();
+    </script>
 </body>
 </html>
