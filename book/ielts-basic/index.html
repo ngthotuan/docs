@@ -86,6 +86,22 @@
         .loading { text-align: center; padding: 50px; color: #999; font-size: 1.2em; }
         
                 
+        /* Desktop sidebar collapse toggle */
+        #sidebar { transition: margin-left 0.3s ease; }
+        #desktop-toggle {
+            position: fixed; top: 15px; left: 362px; z-index: 900;
+            width: 36px; height: 36px; border-radius: 8px;
+            border: 1px solid #ddd; background: #fff; color: var(--primary);
+            font-size: 1.1em; cursor: pointer;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            transition: left 0.3s ease, background 0.2s ease;
+        }
+        #desktop-toggle:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+        @media (min-width: 901px) {
+            body.sidebar-collapsed #sidebar { margin-left: -350px; }
+            body.sidebar-collapsed #desktop-toggle { left: 15px; }
+        }
+
         /* Mobile Hamburger & Overlay */
         #mobile-header {
             display: none;
@@ -111,6 +127,7 @@
         @media (max-width: 900px) {
             body { display: block; overflow: auto; height: auto; }
             #mobile-header { display: flex; }
+            #desktop-toggle { display: none; }
             #content-wrapper { height: auto; padding: 15px; margin-top: 60px; overflow-y: visible; }
             #content-area { padding: 15px; min-height: 80vh; }
             
@@ -282,6 +299,7 @@
         <button id="menu-toggle">☰</button>
     </div>
     <div id="sidebar-overlay"></div>
+    <button id="desktop-toggle" title="Ẩn/hiện menu (Ctrl+B)" aria-label="Ẩn/hiện menu">☰</button>
     <div id="sidebar">
         <!-- The old body html goes here, but we will wrap the a tags with class nav-link -->
         
@@ -418,6 +436,22 @@
         
         if (menuToggle) menuToggle.addEventListener('click', toggleMenu);
         if (overlay) overlay.addEventListener('click', toggleMenu);
+        
+        // Desktop sidebar collapse toggle
+        const desktopToggle = document.getElementById('desktop-toggle');
+        function setCollapsed(collapsed) {
+            document.body.classList.toggle('sidebar-collapsed', collapsed);
+            desktopToggle.setAttribute('aria-expanded', String(!collapsed));
+            try { localStorage.setItem('ielts-basic-sidebar-collapsed', collapsed ? '1' : '0'); } catch (e) {}
+        }
+        try { setCollapsed(localStorage.getItem('ielts-basic-sidebar-collapsed') === '1'); } catch (e) {}
+        desktopToggle.addEventListener('click', () => setCollapsed(!document.body.classList.contains('sidebar-collapsed')));
+        document.addEventListener('keydown', (e) => {
+            if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'b' && window.innerWidth > 900) {
+                e.preventDefault();
+                setCollapsed(!document.body.classList.contains('sidebar-collapsed'));
+            }
+        });
         
         // Setup navigation
         document.querySelectorAll('#sidebar a').forEach(link => {
